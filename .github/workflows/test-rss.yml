@@ -1,0 +1,50 @@
+name: Test GBHackers RSS
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+
+  test-rss:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run RSS collector
+        run: |
+          python collector.py
+
+      - name: Show generated JSON
+        run: |
+          cat data/gbhackers.json
+
+      - name: Save JSON to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/gbhackers.json
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios."
+          else
+            git commit -m "Update GBHackers RSS"
+            git push
+          fi

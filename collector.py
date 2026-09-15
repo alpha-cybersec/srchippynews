@@ -1,50 +1,118 @@
+import calendar
+import html
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
+import feedparser
 import requests
 
 
-URL = "https://gbhackers.com/wp-json/wp/v2/posts"
+FEEDS = [
+    {
+        "name": "GBHackers-direct",
+        "url": "https://gbhackers.com/feed/"
+    },
+    {
+        "name": "GBHackers-feedburner",
+        "url": "https://feeds.feedburner.com/gbhackers"
+    }
+]
 
 
-def main():
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 "
+        "CTI-RSS-Collector/1.0"
+    ),
+    "Accept": (
+        "application/rss+xml,"
+        "application/xml;q=0.9,"
+        "text/xml;q=0.8,"
+        "*/*;q=0.5"
+    )
+}
+
+
+def get_today():
+    return datetime.now(timezone.utc).date()
+
+
+def get_entry_date(entry):
+
+    if entry.get("published_parsed"):
+
+        try:
+
+            timestamp = calendar.timegm(
+                entry.published_parsed
+            )
+
+            dt = datetime.fromtimestamp(
+                timestamp,
+                tz=timezone.utc
+            )
+
+            return dt
+
+        except Exception:
+            return None
+
+    if entry.get("updated_parsed"):
+
+        try:
+
+            timestamp = calendar.timegm(
+                entry.updated_parsed
+            )
+
+            dt = datetime.fromtimestamp(
+                timestamp,
+                tz=timezone.utc
+            )
+
+            return dt
+
+        except Exception:
+            return None
+
+    return None
+
+
+def get_feed(source):
 
     print("")
-    print("############################################")
-    print("#      GBHACKERS WORDPRESS API TEST        #")
-    print("############################################")
-    print("")
+    print("=" * 70)
 
-    print(f"[+] URL: {URL}")
-    print("[+] Realizando GET directo...")
-    print("[+] Sin parámetros.")
-    print("[+] Sin filtros.")
-    print("[+] Sin fechas.")
-    print("")
+    print(
+        f"[+] Probando: {source['name']}"
+    )
+
+    print(
+        f"[+] URL: {source['url']}"
+    )
 
     try:
 
         response = requests.get(
-            URL,
-            timeout=30
+            source["url"],
+            headers=HEADERS,
+            timeout=30,
+            allow_redirects=True
         )
 
     except Exception as exc:
 
-        print(f"[ERROR] Error de conexión: {exc}")
-        sys.exit(1)
+        print(
+            f"[ERROR] Error de conexión: {exc}"
+        )
 
-    print("=" * 70)
+        return None
 
     print(
         f"[+] HTTP Status: "
         f"{response.status_code}"
-    )
-
-    print(
-        f"[+] URL final: "
-        f"{response.url}"
     )
 
     print(
@@ -57,110 +125,125 @@ def main():
         f"{len(response.content)}"
     )
 
-    print("=" * 70)
-    print("")
-
-    # --------------------------------------------------------
-    # SI NO ES 200
-    # --------------------------------------------------------
-
     if response.status_code != 200:
 
         print(
-            f"[ERROR] El servidor respondió "
-            f"HTTP {response.status_code}"
+            f"[ERROR] HTTP "
+            f"{response.status_code}"
         )
 
-        print("")
-        print(
-            "[DEBUG] Primeros 1000 caracteres "
-            "de la respuesta:"
-        )
+        return None
 
-        print("")
-        print(response.text[:1000])
-
-        # Guardar respuesta igualmente para revisarla
-        os.makedirs(
-            "data",
-            exist_ok=True
-        )
-
-        error_file = (
-            "data/gbhackers_wp_error.html"
-        )
-
-        with open(
-            error_file,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            f.write(response.text)
-
-        print("")
-        print(
-            f"[DEBUG] Respuesta guardada en: "
-            f"{error_file}"
-        )
-
-        sys.exit(1)
-
-    # --------------------------------------------------------
-    # INTENTAR INTERPRETAR JSON
-    # --------------------------------------------------------
-
-    try:
-
-        data = response.json()
-
-    except Exception as exc:
-
-        print(
-            "[ERROR] HTTP 200 pero la respuesta "
-            "no pudo convertirse a JSON."
-        )
-
-        print(
-            f"[ERROR] {exc}"
-        )
-
-        print("")
-        print(response.text[:1000])
-
-        sys.exit(1)
-
-    # --------------------------------------------------------
-    # MOSTRAR TIPO DE RESPUESTA
-    # --------------------------------------------------------
-
-    print(
-        f"[SUCCESS] JSON recibido correctamente."
+    parsed = feedparser.parse(
+        response.content
     )
 
     print(
-        f"[+] Tipo Python recibido: "
-        f"{type(data).__name__}"
+        f"[+] Feed title: "
+        f"{parsed.feed.get('title', 'UNKNOWN')}"
     )
 
-    # WordPress normalmente devuelve una lista.
-    if isinstance(data, list):
+    print(
+        f"[+] Entradas totales: "
+        f"{len(parsed.entries)}"
+    )
+
+    if not parsed.entries:
 
         print(
-            f"[+] Elementos recibidos: "
-            f"{len(data)}"
+            "[ERROR] No se encontraron entradas."
         )
 
-    elif isinstance(data, dict):
+        return None
 
-        print(
-            f"[+] Claves principales: "
-            f"{list(data.keys())}"
+    return {
+        "name": source["name"],
+        "url": source["url"],
+        "final_url": response.url,
+        "parsed": parsed
+    }
+
+
+def filter_today(result):
+
+    today = get_today()
+
+    print("")
+    print(
+        f"[+] Fecha de hoy: {today}"
+    )
+
+    articles = []
+
+    for entry in result["parsed"].entries:
+
+        published_dt = get_entry_date(
+            entry
         )
 
-    # --------------------------------------------------------
-    # GUARDAR TODO, SIN MODIFICAR
-    # --------------------------------------------------------
+        if not published_dt:
+            continue
+
+        # SOLO FECHA DE HOY
+        if published_dt.date() != today:
+            continue
+
+        articles.append({
+
+            "source": "GBHackers",
+
+            "id": entry.get(
+                "id",
+                entry.get("link", "")
+            ),
+
+            "title": html.unescape(
+                entry.get("title", "")
+            ),
+
+            "url": entry.get(
+                "link",
+                ""
+            ),
+
+            "published": entry.get(
+                "published",
+                ""
+            ),
+
+            "published_date": str(
+                published_dt.date()
+            ),
+
+            "summary": entry.get(
+                "summary",
+                ""
+            )
+        })
+
+    return articles
+
+
+def save_json(result, articles):
+
+    output = {
+
+        "source": "GBHackers",
+
+        "source_method": result["name"],
+
+        "source_url": result["url"],
+
+        "query_date": str(
+            get_today()
+        ),
+
+        "article_count": len(
+            articles
+        ),
+
+        "articles": articles
+    }
 
     os.makedirs(
         "data",
@@ -168,7 +251,7 @@ def main():
     )
 
     output_file = (
-        "data/gbhackers_wp_raw.json"
+        "data/gbhackers.json"
     )
 
     with open(
@@ -178,94 +261,94 @@ def main():
     ) as f:
 
         json.dump(
-            data,
+            output,
             f,
             ensure_ascii=False,
             indent=2
         )
 
+    return output_file
+
+
+def main():
+
     print("")
-    print(
-        f"[SUCCESS] JSON completo guardado en:"
-    )
+    print("############################################")
+    print("#      CTI GBHACKERS RSS COLLECTOR         #")
+    print("############################################")
 
-    print(
-        f"          {output_file}"
-    )
+    working_feed = None
 
-    # --------------------------------------------------------
-    # MOSTRAR INFORMACIÓN DEL PRIMER POST
-    # --------------------------------------------------------
+    for source in FEEDS:
 
-    if isinstance(data, list) and data:
-
-        first = data[0]
-
-        print("")
-        print("=" * 70)
-        print("PRIMER POST RECIBIDO")
-        print("=" * 70)
-
-        print("")
-        print(
-            f"ID: "
-            f"{first.get('id', '')}"
+        result = get_feed(
+            source
         )
 
-        print(
-            f"Date: "
-            f"{first.get('date', '')}"
-        )
+        if result:
 
-        print(
-            f"Date GMT: "
-            f"{first.get('date_gmt', '')}"
-        )
+            working_feed = result
 
-        print(
-            f"Slug: "
-            f"{first.get('slug', '')}"
-        )
-
-        print(
-            f"Status: "
-            f"{first.get('status', '')}"
-        )
-
-        print(
-            f"Link: "
-            f"{first.get('link', '')}"
-        )
-
-        title = first.get(
-            "title",
-            {}
-        )
-
-        if isinstance(title, dict):
-
+            print("")
             print(
-                f"Title: "
-                f"{title.get('rendered', '')}"
+                f"[SUCCESS] Feed funcionando: "
+                f"{source['name']}"
             )
 
+            break
+
+    if not working_feed:
+
         print("")
         print(
-            "[+] Campos disponibles en el post:"
+            "[FAILED] Ningún feed funcionó."
         )
 
-        print("")
+        sys.exit(1)
 
-        for key in first.keys():
-            print(f" - {key}")
+    articles = filter_today(
+        working_feed
+    )
 
-        print("")
-        print("=" * 70)
+    output_file = save_json(
+        working_feed,
+        articles
+    )
 
     print("")
     print("############################################")
-    print("#             TEST COMPLETADO              #")
+
+    print(
+        f"[SUCCESS] Archivo: "
+        f"{output_file}"
+    )
+
+    print(
+        f"[SUCCESS] Artículos de hoy: "
+        f"{len(articles)}"
+    )
+
     print("############################################")
+
+    print("")
+
+    for article in articles:
+
+        print(
+            f"- {article['title']}"
+        )
+
+        print(
+            f"  Fecha RSS: "
+            f"{article['published']}"
+        )
+
+        print(
+            f"  URL: "
+            f"{article['url']}"
+        )
+
+        print("")
 
 
 if __name__ == "__main__":

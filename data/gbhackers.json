@@ -1,0 +1,81 @@
+{
+  "collector": "GitHub Actions RSS Collector",
+  "collected_at": "2026-09-15T02:17:04.375577+00:00",
+  "source": "GBHackers",
+  "working_endpoint": "https://gbhackers.com/feed/",
+  "final_url": "https://gbhackers.com/feed/",
+  "content_type": "application/rss+xml; charset=UTF-8",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Sandworm-Linked Cyclops Blink Returns With Network Scanning and Packet-Sniffing Capabilities",
+      "url": "https://gbhackers.com/cyclops-blink-variant/",
+      "published": "Mon, 14 Sep 2026 09:27:43 +0000",
+      "summary": "<p>A newly identified Cyclops Blink variant has resurfaced on compromised Cisco Secure Firewall Management Center (FMC) appliances, adding active internal-network scanning and programmable packet-sniffing capabilities to an already mature modular implant. Assessed with high confidence that the activity has a Russian nexus, with a moderate-confidence link to IRON VIKING also tracked as Sandworm and Seashell [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cyclops-blink-variant/\">Sandworm-Linked Cyclops Blink Returns With Network Scanning and Packet-Sniffing Capabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199354"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Sogou One-Click RCE to Deploy GRAYRABBIT Backdoor",
+      "url": "https://gbhackers.com/grayrabbit-backdoor/",
+      "published": "Mon, 14 Sep 2026 08:09:26 +0000",
+      "summary": "<p>China-linked threat actors tracked as UNC3569 have exploited a critical one-click remote code execution vulnerability in Tencent’s Sogou Input Method for Windows to deploy the GRAYRABBIT backdoor on targeted systems. Tracked as CVE-2026-51990, the vulnerability chains an insecure custom protocol handler, unrestricted embedded-browser navigation, and an obsolete Chromium build running without sandbox protections. Tencent addressed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/grayrabbit-backdoor/\">China-Linked Hackers Exploit Sogou One-Click RCE to Deploy GRAYRABBIT Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199335"
+    },
+    {
+      "title": "Casbaneiro Banking Trojan Uses Distributed C2 Servers to Evade Detection and Target Bank Users",
+      "url": "https://gbhackers.com/casbaneiro-banking-trojan/",
+      "published": "Mon, 14 Sep 2026 05:56:58 +0000",
+      "summary": "<p>A Casbaneiro banking Trojan campaign targeting users across Latin America, using phishing lures, geofenced delivery infrastructure, and distributed command-and-control (C2) servers to obscure malicious activity. The operation, observed in August 2026, primarily targets victims in Argentina, Peru, Colombia, and Mexico through fake invoice and legal-notice emails carrying links to malicious PDF files. The campaign demonstrates [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casbaneiro-banking-trojan/\">Casbaneiro Banking Trojan Uses Distributed C2 Servers to Evade Detection and Target Bank Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199322"
+    },
+    {
+      "title": "AsyncRAT Malware Abuses AutoIt and PowerShell to Hide Inside Legitimate Windows Process",
+      "url": "https://gbhackers.com/asyncrat-in-hides-windows-process/",
+      "published": "Mon, 14 Sep 2026 05:24:48 +0000",
+      "summary": "<p>A five-stage AsyncRAT campaign that chains a socially engineered batch file, hidden PowerShell execution, AutoIt abuse and process injection to conceal a .NET remote-access trojan inside Microsoft’s legitimate charmap.exe process. The infection begins with a lure named “Right-click to open Invoice Details.bat”, which relies on user interaction to trigger execution. While the precise delivery method [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/asyncrat-in-hides-windows-process/\">AsyncRAT Malware Abuses AutoIt and PowerShell to Hide Inside Legitimate Windows Process</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199311"
+    },
+    {
+      "title": "Threat Actors Use Claude AI Agents to Automate Cyberattacks and Steal Sensitive Data",
+      "url": "https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data/",
+      "published": "Sat, 12 Sep 2026 08:40:16 +0000",
+      "summary": "<p>Threat actors are increasingly using Claude-based AI workflows to automate cyberattacks, accelerate data theft, and reduce the technical expertise needed to run complex intrusions. Anthropic&#8217;s report details cyber espionage, financially motivated extortion, supply-chain compromise, and hacktivist activity disrupted between December 2025 and August 2026. Rather than using an AI chatbot only for occasional coding assistance, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data/\">Threat Actors Use Claude AI Agents to Automate Cyberattacks and Steal Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199295"
+    },
+    {
+      "title": "China-Linked Hackers Chain Chrome Zero-Day With Windows Kernel Flaw in Attacks",
+      "url": "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day/",
+      "published": "Sat, 12 Sep 2026 08:04:47 +0000",
+      "summary": "<p>China-linked threat actors UTA0560 and JungleBamboo chained a Google Chrome zero-day with a Windows kernel privilege-escalation flaw in phishing campaigns targeting NGOs and other victims. Volexity documented the operations, detected on September 1, 2026, as using identical browser-to-kernel exploit components but ultimately installing separate espionage payloads: the GRIMWEDGE JScript backdoor and the LONGTALE credential-stealing Chrome [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day/\">China-Linked Hackers Chain Chrome Zero-Day With Windows Kernel Flaw in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199288"
+    },
+    {
+      "title": "New Phishing Campaign Abuses Windows Mshta.exe to Steal Credentials and Secrets",
+      "url": "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe/",
+      "published": "Sat, 12 Sep 2026 06:16:51 +0000",
+      "summary": "<p>A newly identified phishing campaign is abusing the legitimate Windows utility mshta.exe to execute malicious HTML Application (HTA) files, conduct system reconnaissance, and potentially deploy payloads designed to steal credentials and local secrets. Fortra’s Intelligence and Research Experts (FIRE) said the activity began in June and remains active, with operators regularly recompiling malware samples to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe/\">New Phishing Campaign Abuses Windows Mshta.exe to Steal Credentials and Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199278"
+    },
+    {
+      "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
+      "url": "https://gbhackers.com/openai-agents-flood-rubygems-with-2000-packages/",
+      "published": "Sat, 12 Sep 2026 06:03:55 +0000",
+      "summary": "<p>A swarm of AI agents believed to be operated internally by OpenAI uploaded more than 2,000 malicious packages to RubyGems in May 2026, abusing the ecosystem’s documentation build process to execute code remotely and attempting to steal user API keys through a then-undisclosed server-side flaw. Researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx said [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-agents-flood-rubygems-with-2000-packages/\">OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199273"
+    },
+    {
+      "title": "CISA Warns of Critical GitLab Vulnerability Exploited in Attacks",
+      "url": "https://gbhackers.com/cisa-warns-of-critical-gitlab-vulnerability-exploited-in-attacks/",
+      "published": "Sat, 12 Sep 2026 05:17:40 +0000",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical GitLab flaw, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog after confirming it was exploited in attacks. The issue affects both GitLab Community Edition and Enterprise Edition and requires urgent mitigation, particularly for internet-accessible GitLab instances. CVE-2026-85706 is a path traversal vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-critical-gitlab-vulnerability-exploited-in-attacks/\">CISA Warns of Critical GitLab Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199269"
+    },
+    {
+      "title": "Researchers Uncover 10,000+ Malware Loaders Behind YouTube and SEO Poisoning Campaign",
+      "url": "https://gbhackers.com/10000-malware-loaders/",
+      "published": "Fri, 11 Sep 2026 12:24:51 +0000",
+      "summary": "<p>A long-running pay-per-install (PPI) operation that used YouTube gaming channels and SEO-poisoned software downloads to distribute malware at scale. The cluster, tracked as CL-CRI-1171, is linked to more than 10,000 distinct samples of a custom loader called OfferLoader, indicating a distribution pipeline far larger than the individual intrusions initially observed. Rather than relying on a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/10000-malware-loaders/\">Researchers Uncover 10,000+ Malware Loaders Behind YouTube and SEO Poisoning Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199254"
+    }
+  ]
+}

@@ -1,21 +1,12 @@
-name: CTI Schedule Probe
+name: Test Cron 5min
 
 on:
-  workflow_dispatch:
-
   schedule:
-    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+    - cron: "*/5 * * * *"
 
 jobs:
-  probe:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Confirmar evento programado
-        run: |
-          echo "Event: ${{ github.event_name }}"
-          echo "Schedule: ${{ github.event.schedule }}"
-          echo "UTC:"
-          date -u
-          echo "Ecuador:"
-          TZ=America/Guayaquil date
+      - name: Mostrar hora UTC
+        run: date -u

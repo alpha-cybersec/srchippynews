@@ -4,10 +4,12 @@ import json
 import os
 import sys
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
 
+ECUADOR_TZ = ZoneInfo("America/Guayaquil")
 
 FEEDS = [
     {
@@ -36,7 +38,7 @@ HEADERS = {
 
 
 def get_today():
-    return datetime.now(timezone.utc).date()
+    return datetime.now(ECUADOR_TZ).date()
 
 
 def get_entry_date(entry):
@@ -49,9 +51,13 @@ def get_entry_date(entry):
                 entry.published_parsed
             )
 
-            return datetime.fromtimestamp(
+            dt_utc = datetime.fromtimestamp(
                 timestamp,
                 tz=timezone.utc
+            )
+
+            return dt_utc.astimezone(
+                ECUADOR_TZ
             )
 
         except Exception:
@@ -65,16 +71,19 @@ def get_entry_date(entry):
                 entry.updated_parsed
             )
 
-            return datetime.fromtimestamp(
+            dt_utc = datetime.fromtimestamp(
                 timestamp,
                 tz=timezone.utc
+            )
+
+            return dt_utc.astimezone(
+                ECUADOR_TZ
             )
 
         except Exception:
             return None
 
     return None
-
 
 def get_feed(source):
 

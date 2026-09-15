@@ -1,57 +1,8 @@
 {
-  "collector": "GitHub Actions CTI Collector",
-  "collector_version": "2.0",
   "source": "GBHackers",
   "source_method": "GBHackers-direct",
-  "endpoint": "https://gbhackers.com/feed/",
-  "query_date": "2026-09-14",
-  "timezone": "America/Guayaquil",
-  "collected_at": "2026-09-14T22:41:58.513053-05:00",
-  "article_count": 4,
-  "articles": [
-    {
-      "source": "GBHackers",
-      "source_method": "GBHackers-direct",
-      "id": "https://gbhackers.com/?p=199354",
-      "title": "Sandworm-Linked Cyclops Blink Returns With Network Scanning and Packet-Sniffing Capabilities",
-      "url": "https://gbhackers.com/cyclops-blink-variant/",
-      "published_utc": "2026-09-14T09:27:43+00:00",
-      "published_local": "2026-09-14T04:27:43-05:00",
-      "published_date_local": "2026-09-14",
-      "summary_html": "<p>A newly identified Cyclops Blink variant has resurfaced on compromised Cisco Secure Firewall Management Center (FMC) appliances, adding active internal-network scanning and programmable packet-sniffing capabilities to an already mature modular implant. Assessed with high confidence that the activity has a Russian nexus, with a moderate-confidence link to IRON VIKING also tracked as Sandworm and Seashell [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cyclops-blink-variant/\">Sandworm-Linked Cyclops Blink Returns With Network Scanning and Packet-Sniffing Capabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>"
-    },
-    {
-      "source": "GBHackers",
-      "source_method": "GBHackers-direct",
-      "id": "https://gbhackers.com/?p=199335",
-      "title": "China-Linked Hackers Exploit Sogou One-Click RCE to Deploy GRAYRABBIT Backdoor",
-      "url": "https://gbhackers.com/grayrabbit-backdoor/",
-      "published_utc": "2026-09-14T08:09:26+00:00",
-      "published_local": "2026-09-14T03:09:26-05:00",
-      "published_date_local": "2026-09-14",
-      "summary_html": "<p>China-linked threat actors tracked as UNC3569 have exploited a critical one-click remote code execution vulnerability in Tencent’s Sogou Input Method for Windows to deploy the GRAYRABBIT backdoor on targeted systems. Tracked as CVE-2026-51990, the vulnerability chains an insecure custom protocol handler, unrestricted embedded-browser navigation, and an obsolete Chromium build running without sandbox protections. Tencent addressed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/grayrabbit-backdoor/\">China-Linked Hackers Exploit Sogou One-Click RCE to Deploy GRAYRABBIT Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>"
-    },
-    {
-      "source": "GBHackers",
-      "source_method": "GBHackers-direct",
-      "id": "https://gbhackers.com/?p=199322",
-      "title": "Casbaneiro Banking Trojan Uses Distributed C2 Servers to Evade Detection and Target Bank Users",
-      "url": "https://gbhackers.com/casbaneiro-banking-trojan/",
-      "published_utc": "2026-09-14T05:56:58+00:00",
-      "published_local": "2026-09-14T00:56:58-05:00",
-      "published_date_local": "2026-09-14",
-      "summary_html": "<p>A Casbaneiro banking Trojan campaign targeting users across Latin America, using phishing lures, geofenced delivery infrastructure, and distributed command-and-control (C2) servers to obscure malicious activity. The operation, observed in August 2026, primarily targets victims in Argentina, Peru, Colombia, and Mexico through fake invoice and legal-notice emails carrying links to malicious PDF files. The campaign demonstrates [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casbaneiro-banking-trojan/\">Casbaneiro Banking Trojan Uses Distributed C2 Servers to Evade Detection and Target Bank Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>"
-    },
-    {
-      "source": "GBHackers",
-      "source_method": "GBHackers-direct",
-      "id": "https://gbhackers.com/?p=199311",
-      "title": "AsyncRAT Malware Abuses AutoIt and PowerShell to Hide Inside Legitimate Windows Process",
-      "url": "https://gbhackers.com/asyncrat-in-hides-windows-process/",
-      "published_utc": "2026-09-14T05:24:48+00:00",
-      "published_local": "2026-09-14T00:24:48-05:00",
-      "published_date_local": "2026-09-14",
-      "summary_html": "<p>A five-stage AsyncRAT campaign that chains a socially engineered batch file, hidden PowerShell execution, AutoIt abuse and process injection to conceal a .NET remote-access trojan inside Microsoft’s legitimate charmap.exe process. The infection begins with a lure named “Right-click to open Invoice Details.bat”, which relies on user interaction to trigger execution. While the precise delivery method [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/asyncrat-in-hides-windows-process/\">AsyncRAT Malware Abuses AutoIt and PowerShell to Hide Inside Legitimate Windows Process</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>"
-    }
-  ]
+  "source_url": "https://gbhackers.com/feed/",
+  "query_date": "2026-09-15",
+  "article_count": 0,
+  "articles": []
 }

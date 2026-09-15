@@ -27,39 +27,32 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # =====================================================
-      # GBHACKERS
-      # =====================================================
-
       - name: Collect GBHackers RSS
         run: |
           python collector_gbhackers.py
-
-      - name: Show GBHackers JSON
-        run: |
-          echo "=========================================="
-          echo "GBHACKERS"
-          echo "=========================================="
-          cat data/gbhackers.json
-
-      # =====================================================
-      # CYBERSECURITYNEWS
-      # =====================================================
 
       - name: Collect CyberSecurityNews RSS
         run: |
           python collector_cybersecuritynews.py
 
+      - name: Collect The Hacker News RSS
+        run: |
+          python collector_thehackernews.py
+
+      - name: Show GBHackers JSON
+        run: |
+          echo "========== GBHACKERS =========="
+          cat data/gbhackers.json
+
       - name: Show CyberSecurityNews JSON
         run: |
-          echo "=========================================="
-          echo "CYBERSECURITYNEWS"
-          echo "=========================================="
+          echo "========== CYBERSECURITYNEWS =========="
           cat data/cybersecuritynews.json
 
-      # =====================================================
-      # GUARDAR RESULTADOS
-      # =====================================================
+      - name: Show The Hacker News JSON
+        run: |
+          echo "========== THE HACKER NEWS =========="
+          cat data/thehackernews.json
 
       - name: Save RSS JSON files to repository
         run: |
@@ -68,6 +61,7 @@ jobs:
 
           git add data/gbhackers.json
           git add data/cybersecuritynews.json
+          git add data/thehackernews.json
 
           if git diff --cached --quiet; then
             echo "No hay cambios en los feeds."

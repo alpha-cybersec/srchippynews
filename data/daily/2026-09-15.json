@@ -1,12 +1,40 @@
 {
   "date": "2026-09-15",
-  "article_count": 29,
+  "article_count": 30,
   "sources": {
+    "thehackernews": 9,
     "cybersecuritynews": 11,
-    "thehackernews": 8,
     "gbhackers": 10
   },
   "articles": [
+    {
+      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+      "url": "http://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+      "published": "Tue, 15 Sep 2026 18:54:14 +0000",
+      "published_utc": "2026-09-15T18:54:14+00:00",
+      "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2826938504568011964",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+      "content_hash": "1f49f066229af1f0c5acf96fc1e309cbffdfd9071a31d6c49d005521cee6cb2d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1f49f066229af1f0c5acf96fc1e309cbffdfd9071a31d6c49d005521cee6cb2d",
+        "FEEDBURNER": "1f49f066229af1f0c5acf96fc1e309cbffdfd9071a31d6c49d005521cee6cb2d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-15T23:11:59.808381+00:00",
+      "first_seen_local": "2026-09-15T18:11:59.808379-05:00",
+      "last_updated_utc": "2026-09-15T23:11:59.808381+00:00",
+      "last_updated_local": "2026-09-15T18:11:59.808379-05:00"
+    },
     {
       "title": "CISA and NIST Release Technical Checklist for Safeguarding Identity Tokens From Theft and Misuse",
       "url": "https://cybersecuritynews.com/cisa-nist-identity-token-security/",

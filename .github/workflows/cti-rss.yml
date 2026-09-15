@@ -1,79 +1,73 @@
-from config import FEEDS_DIR
+name: CTI Chippy News RSS
 
-from rss_common import (
-    collect_source,
-)
+on:
+  workflow_dispatch:
 
+  schedule:
+    - cron: '2/5 * * * *'
+      timezone: "America/Guayaquil"
 
-SOURCE_NAME = (
-    "The Hacker News"
-)
+permissions:
+  contents: write
 
-SOURCE_SLUG = (
-    "thehackernews"
-)
+concurrency:
+  group: cti-chippy-news-rss
+  cancel-in-progress: false
 
+jobs:
+  collect:
+    runs-on: ubuntu-latest
 
-FEEDS = [
+    steps:
+      - name: Show trigger information
+        run: |
+          echo "=========================================="
+          echo "TRIGGER INFORMATION"
+          echo "=========================================="
+          echo "Event: ${{ github.event_name }}"
+          echo "Schedule: ${{ github.event.schedule }}"
+          echo ""
+          echo "Hora UTC:"
+          date -u
+          echo ""
+          echo "Hora Ecuador:"
+          TZ=America/Guayaquil date
+          echo "=========================================="
 
-    {
+      - name: Checkout repository
+        uses: actions/checkout@v6
 
-        "key": "ORIGINAL",
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
 
-        "label": (
-            "TheHackerNews-ORIGINAL"
-        ),
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-        "url": (
-            "https://thehackernews.com/"
-            "feeds/posts/default"
-            "?alt=rss&redirect=false"
-        ),
-    },
+      - name: Run all collectors
+        run: |
+          python run_all.py
 
-    {
+      - name: Show allnews
+        run: |
+          echo "=========================================="
+          echo "ALLNEWS DE ESTA CORRIDA"
+          echo "=========================================="
+          cat data/allnews.json
 
-        "key": "FEEDBURNER",
+      - name: Save state to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-        "label": (
-            "TheHackerNews-FEEDBURNER"
-        ),
+          git add data/
 
-        "url": (
-            "https://feeds.feedburner.com/"
-            "TheHackersNews"
-        ),
-    },
-]
-
-
-SNAPSHOT_FILE = (
-
-    FEEDS_DIR
-    / "thehackernews.json"
-)
-
-
-def collect():
-
-    return collect_source(
-
-        source_name=(
-            SOURCE_NAME
-        ),
-
-        source_slug=(
-            SOURCE_SLUG
-        ),
-
-        feeds=FEEDS,
-
-        snapshot_file=(
-            SNAPSHOT_FILE
-        ),
-    )
-
-
-if __name__ == "__main__":
-
-    collect()
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Update CTI Chippy News"
+            git push
+          fi

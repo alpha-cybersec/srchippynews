@@ -33,7 +33,7 @@ jobs:
 
       - name: Collect GBHackers RSS
         run: |
-          python collector.py
+          python collector_gbhackers.py
 
       - name: Show GBHackers JSON
         run: |

@@ -1,4 +1,4 @@
-name: Test GBHackers RSS
+name: Test CTI RSS Feeds
 
 on:
   workflow_dispatch:
@@ -27,24 +27,51 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run RSS collector
+      # =====================================================
+      # GBHACKERS
+      # =====================================================
+
+      - name: Collect GBHackers RSS
         run: |
           python collector.py
 
-      - name: Show generated JSON
+      - name: Show GBHackers JSON
         run: |
+          echo "=========================================="
+          echo "GBHACKERS"
+          echo "=========================================="
           cat data/gbhackers.json
 
-      - name: Save JSON to repository
+      # =====================================================
+      # CYBERSECURITYNEWS
+      # =====================================================
+
+      - name: Collect CyberSecurityNews RSS
+        run: |
+          python collector_cybersecuritynews.py
+
+      - name: Show CyberSecurityNews JSON
+        run: |
+          echo "=========================================="
+          echo "CYBERSECURITYNEWS"
+          echo "=========================================="
+          cat data/cybersecuritynews.json
+
+      # =====================================================
+      # GUARDAR RESULTADOS
+      # =====================================================
+
+      - name: Save RSS JSON files to repository
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/gbhackers.json
+          git add data/cybersecuritynews.json
 
           if git diff --cached --quiet; then
-            echo "No hay cambios."
+            echo "No hay cambios en los feeds."
           else
-            git commit -m "Update GBHackers RSS"
+            git commit -m "Update CTI RSS feeds"
             git push
           fi

@@ -1,12 +1,15 @@
-name: Test Cron 5min
+name: Scheduled workflow
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
 
 jobs:
-  test:
+  demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Mostrar hora UTC
-        run: date -u
+      - name: Log time
+        run: |
+          current_date_time=$(date)
+          echo "Current date and time: $current_date_time"

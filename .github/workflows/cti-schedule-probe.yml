@@ -1,0 +1,22 @@
+name: CTI Schedule Probe
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '*/5 * * * *'
+      timezone: "America/Guayaquil"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Confirmar evento programado
+        run: |
+          echo "Event: ${{ github.event_name }}"
+          echo "Schedule: ${{ github.event.schedule }}"
+          echo "UTC:"
+          date -u
+          echo "Ecuador:"
+          TZ=America/Guayaquil date

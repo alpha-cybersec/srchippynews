@@ -2,8 +2,64 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 9,
+  "article_count": 11,
   "articles": [
+    {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "url": "http://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "published": "Wed, 16 Sep 2026 05:48:28 +0000",
+      "published_utc": "2026-09-16T05:48:28+00:00",
+      "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-845787425553268103",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "content_hash": "f036f29a16cb0bbac78e4139a8f7f291bba8970d660a7be6a715eb4769d6990c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f036f29a16cb0bbac78e4139a8f7f291bba8970d660a7be6a715eb4769d6990c",
+        "FEEDBURNER": "f036f29a16cb0bbac78e4139a8f7f291bba8970d660a7be6a715eb4769d6990c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:07.958865+00:00",
+      "first_seen_local": "2026-09-16T03:49:07.958863-05:00",
+      "last_updated_utc": "2026-09-16T08:49:07.958865+00:00",
+      "last_updated_local": "2026-09-16T03:49:07.958863-05:00"
+    },
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "url": "http://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "published": "Wed, 16 Sep 2026 05:18:06 +0000",
+      "published_utc": "2026-09-16T05:18:06+00:00",
+      "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6998447884256336076",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "content_hash": "051cff2af444166ef3ddd815b731154dec9a788bed68156756b4d7d87e544d21",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "051cff2af444166ef3ddd815b731154dec9a788bed68156756b4d7d87e544d21",
+        "FEEDBURNER": "051cff2af444166ef3ddd815b731154dec9a788bed68156756b4d7d87e544d21"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:07.958865+00:00",
+      "first_seen_local": "2026-09-16T03:49:07.958863-05:00",
+      "last_updated_utc": "2026-09-16T08:49:07.958865+00:00",
+      "last_updated_local": "2026-09-16T03:49:07.958863-05:00"
+    },
     {
       "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
       "url": "http://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",

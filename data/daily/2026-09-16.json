@@ -1,9 +1,38 @@
 {
-  "month": "2026-09",
-  "source": "GBHackers",
-  "source_slug": "gbhackers",
-  "article_count": 21,
+  "date": "2026-09-16",
+  "article_count": 22,
+  "sources": {
+    "cybersecuritynews": 9,
+    "gbhackers": 11,
+    "thehackernews": 2
+  },
   "articles": [
+    {
+      "title": "Iranian Hackers Use Fake MRI Results to Infect Victims With CHOSEN BRICK Spyware",
+      "url": "https://cybersecuritynews.com/fake-mri-results/",
+      "published": "Wed, 16 Sep 2026 08:31:15 +0000",
+      "published_utc": "2026-09-16T08:31:15+00:00",
+      "summary": "<p>Iranian state-linked hackers are using fake MRI scan results to infect selected people with CHOSEN BRICK, a Windows spyware family built for long-term surveillance. The campaign has targeted individuals in the United Kingdom, United States and Netherlands since at least 2025, with dissidents, activists and journalists facing particular risk. The advisory describes a focused espionage [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-mri-results/\">Iranian Hackers Use Fake MRI Results to Infect Victims With CHOSEN BRICK Spyware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163528",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-mri-results",
+      "content_hash": "f9fbd7be5e40ab78d11605446a454451277b948f38d32f359b6973d5c013cf22",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f9fbd7be5e40ab78d11605446a454451277b948f38d32f359b6973d5c013cf22"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
     {
       "title": "Shared AI Memory Lets Hundreds of Agents Inherit Exploits and Join Coordinated Attacks",
       "url": "https://gbhackers.com/shared-ai-memory-abuse/",
@@ -29,6 +58,112 @@
       "first_seen_local": "2026-09-16T03:49:01.708544-05:00",
       "last_updated_utc": "2026-09-16T08:49:01.708549+00:00",
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
+    },
+    {
+      "title": "KREMLIN Banking Malware Infects Over 1,500 Systems With Malicious Chrome Extension",
+      "url": "https://cybersecuritynews.com/kremlin-banking-malware/",
+      "published": "Wed, 16 Sep 2026 08:12:32 +0000",
+      "published_utc": "2026-09-16T08:12:32+00:00",
+      "summary": "<p>KREMLIN is a banking malware operation that plants a hostile browser extension on infected computers. The extension can harvest passwords, session cookies, and other data that can let criminals enter online accounts. The campaign begins with fake JavaScript documents that pose as bank records or invoices. Once opened, they install components and target Chrome and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kremlin-banking-malware/\">KREMLIN Banking Malware Infects Over 1,500 Systems With Malicious Chrome Extension</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163509",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kremlin-banking-malware",
+      "content_hash": "57419dd8a87f0d7bdefb26f2dfdad86bf295152e6105fd56d0821c4e6b195de7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "57419dd8a87f0d7bdefb26f2dfdad86bf295152e6105fd56d0821c4e6b195de7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
+    {
+      "title": "Public PoC Released for Apache Superset SQL Injection Vulnerability",
+      "url": "https://cybersecuritynews.com/poc-apache-superset-sql-injection/",
+      "published": "Wed, 16 Sep 2026 08:04:33 +0000",
+      "published_utc": "2026-09-16T08:04:33+00:00",
+      "summary": "<p>A public proof-of-concept exploit has been released for CVE-2026-23980, a SQL injection vulnerability affecting Apache Superset versions before 6.0.0. The flaw could allow authenticated users with read-level access to trigger error-based SQL injection through specific application parameters. Apache Superset is an open-source data exploration and visualization platform widely used to build dashboards, query databases, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-apache-superset-sql-injection/\">Public PoC Released for Apache Superset SQL Injection Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163498",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/poc-apache-superset-sql-injection",
+      "content_hash": "06c8721563bdc903440bd2dbe28081268da98201bdf2099745546052ac132a69",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06c8721563bdc903440bd2dbe28081268da98201bdf2099745546052ac132a69"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
+    {
+      "title": "Acronis Plugin Vulnerability in cPanel and Plesk Exploited in the Wild",
+      "url": "https://cybersecuritynews.com/acronis-plugin-vulnerability-exploited/",
+      "published": "Wed, 16 Sep 2026 08:01:49 +0000",
+      "published_utc": "2026-09-16T08:01:49+00:00",
+      "summary": "<p>Acronis has released security updates for its Backup plugin for cPanel &#38; WHM and Backup extension for Plesk after detecting limited, targeted exploitation of a high-severity local privilege-escalation vulnerability in the wild. Tracked as CVE-2026-87886, the flaw stems from insecure file permissions in the Linux-based Acronis backup components. Acronis assigned the issue a CVSS score [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/acronis-plugin-vulnerability-exploited/\">Acronis Plugin Vulnerability in cPanel and Plesk Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163501",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/acronis-plugin-vulnerability-exploited",
+      "content_hash": "d3dade9a1922dca1e0d9c8e6a7060924ee66db8afda05dd727fda100e34fcc9d",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d3dade9a1922dca1e0d9c8e6a7060924ee66db8afda05dd727fda100e34fcc9d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
+    {
+      "title": "Microsoft Releases Emergency Windows 11 Update Following Patch Tuesday Bugs",
+      "url": "https://cybersecuritynews.com/emergency-windows-11-update/",
+      "published": "Wed, 16 Sep 2026 07:45:47 +0000",
+      "published_utc": "2026-09-16T07:45:47+00:00",
+      "summary": "<p>Microsoft has pushed out an emergency, out-of-band Windows 11 update after its September Patch Tuesday release triggered a wave of stability failures across enterprise and consumer machines. The rushed fix, KB5129195, arrives less than a week after one of the largest security rollups the company has ever shipped, underscoring how quickly a massive patch can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-windows-11-update/\">Microsoft Releases Emergency Windows 11 Update Following Patch Tuesday Bugs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163512",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/emergency-windows-11-update",
+      "content_hash": "9141faaf3fd7efa2a745797e5e38384d7393ece082336d3d6971dae2998131f2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9141faaf3fd7efa2a745797e5e38384d7393ece082336d3d6971dae2998131f2",
+        "FEEDBURNER": "9141faaf3fd7efa2a745797e5e38384d7393ece082336d3d6971dae2998131f2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
     },
     {
       "title": "NIST Issues New Guidance to Protect SSO and API Tokens From Theft and Forgery",
@@ -57,6 +192,34 @@
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
     },
     {
+      "title": "Top 10 Best Cloud Detection & Response (CDR) Solutions in 2026",
+      "url": "https://cybersecuritynews.com/best-cloud-detection-response-solutions/",
+      "published": "Wed, 16 Sep 2026 07:41:12 +0000",
+      "published_utc": "2026-09-16T07:41:12+00:00",
+      "summary": "<p>CDR is the runtime, real-time half of cloud security: while CSPM tells you what’s misconfigured, CDR tells you what’s happening right now an attacker using stolen cloud credentials, a workload behaving maliciously, an identity escalating privileges. Wiz and Sysdig lead, a wave of specialists (Stream.Security, Skyhawk, Sweet Security) push real-time depth, and Falco is a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cloud-detection-response-solutions/\">Top 10 Best Cloud Detection &#038; Response (CDR) Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=162056",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-cloud-detection-response-solutions",
+      "content_hash": "44a603066b1c06fb2f977d6f14bf975821688a412b438955a18adc58e4384007",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "44a603066b1c06fb2f977d6f14bf975821688a412b438955a18adc58e4384007",
+        "FEEDBURNER": "44a603066b1c06fb2f977d6f14bf975821688a412b438955a18adc58e4384007"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
+    {
       "title": "12 Best CIEM Tools Compared (2026): Features & Pricing",
       "url": "https://gbhackers.com/12-best-ciem-tools-compared-2026-features-pricing/",
       "published": "Wed, 16 Sep 2026 07:37:04 +0000",
@@ -83,6 +246,34 @@
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
     },
     {
+      "title": "Top 10 Best SaaS Security Posture Management (SSPM) Tools in 2026",
+      "url": "https://cybersecuritynews.com/best-sspm-tools/",
+      "published": "Wed, 16 Sep 2026 07:35:42 +0000",
+      "published_utc": "2026-09-16T07:35:42+00:00",
+      "summary": "<p>Your SaaS estate M365, Salesforce, Workday, Slack, hundreds of others is a sprawl of misconfigurations, over-permissioned OAuth grants, and shadow apps nobody sanctioned. SSPM continuously checks SaaS configuration, monitors SaaS identity and third-party app risk, and and identifies configuration drift to preserve application-layer identity security and access control. AppOmni and Obsidian lead the pure-plays, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-sspm-tools/\">Top 10 Best SaaS Security Posture Management (SSPM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=161851",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-sspm-tools",
+      "content_hash": "875f5813ccbab25ccf5ab4f72cfcaf7c48208c2b8f9075667b0cae009f91b0c6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "875f5813ccbab25ccf5ab4f72cfcaf7c48208c2b8f9075667b0cae009f91b0c6",
+        "FEEDBURNER": "875f5813ccbab25ccf5ab4f72cfcaf7c48208c2b8f9075667b0cae009f91b0c6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
+    {
       "title": "12 Best CASB Solutions Compared (2026): Features & Pricing",
       "url": "https://gbhackers.com/best-casb-compared/",
       "published": "Wed, 16 Sep 2026 07:31:29 +0000",
@@ -107,6 +298,62 @@
       "first_seen_local": "2026-09-16T03:49:01.708544-05:00",
       "last_updated_utc": "2026-09-16T08:49:01.708549+00:00",
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
+    },
+    {
+      "title": "Top 10 Best Data Security Posture Management (DSPM) Tools in 2026",
+      "url": "https://cybersecuritynews.com/best-dspm-tools/",
+      "published": "Wed, 16 Sep 2026 07:29:59 +0000",
+      "published_utc": "2026-09-16T07:29:59+00:00",
+      "summary": "<p>DSPM finds sensitive data you didn’t know you had, classifies it, maps who can reach it, and flags exposure answering “where is our sensitive data, and who can get to it.” Wiz leads on the graph, Cyera and BigID on classification depth, and no cloud-security category consolidated harder in 2024–25: Dig→Palo Alto, Laminar→Rubrik, Normalyze→Proofpoint, Flow [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-dspm-tools/\">Top 10 Best Data Security Posture Management (DSPM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=161756",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-dspm-tools",
+      "content_hash": "37831601528a36ea19601f6e3129df75ba54c1a9d0d541e4708f0bc149d40b5b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "37831601528a36ea19601f6e3129df75ba54c1a9d0d541e4708f0bc149d40b5b",
+        "FEEDBURNER": "37831601528a36ea19601f6e3129df75ba54c1a9d0d541e4708f0bc149d40b5b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
+    },
+    {
+      "title": "OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign",
+      "url": "https://cybersecuritynews.com/openai-agent-swarm/",
+      "published": "Wed, 16 Sep 2026 07:19:07 +0000",
+      "published_utc": "2026-09-16T07:19:07+00:00",
+      "summary": "<p>Open-source packages are meant to save developers time. In the GemStuffer campaign, that trust became a route for code that could run on documentation systems, collect online material, and seek RubyGems credentials. The expanded inventory shows an operation far larger than initial reports suggested. The activity ran from May through July 2026, peaking on May [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-swarm/\">OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163502",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-agent-swarm",
+      "content_hash": "d488d2daac840ba033406f1ae2e5a40979c8d429fb56ea3c631bfd7b86bc7ade",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d488d2daac840ba033406f1ae2e5a40979c8d429fb56ea3c631bfd7b86bc7ade",
+        "FEEDBURNER": "d488d2daac840ba033406f1ae2e5a40979c8d429fb56ea3c631bfd7b86bc7ade"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:02.190611+00:00",
+      "first_seen_local": "2026-09-16T03:49:02.190608-05:00",
+      "last_updated_utc": "2026-09-16T08:49:02.190611+00:00",
+      "last_updated_local": "2026-09-16T03:49:02.190608-05:00"
     },
     {
       "title": "Hackers Disguise CHOSEN BRICK Malware as AI Apps, Antivirus Software and MRI Results",
@@ -163,6 +410,34 @@
       "first_seen_local": "2026-09-16T03:49:01.708544-05:00",
       "last_updated_utc": "2026-09-16T08:49:01.708549+00:00",
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
+    },
+    {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "url": "http://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "published": "Wed, 16 Sep 2026 05:48:28 +0000",
+      "published_utc": "2026-09-16T05:48:28+00:00",
+      "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-845787425553268103",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "content_hash": "f036f29a16cb0bbac78e4139a8f7f291bba8970d660a7be6a715eb4769d6990c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f036f29a16cb0bbac78e4139a8f7f291bba8970d660a7be6a715eb4769d6990c",
+        "FEEDBURNER": "f036f29a16cb0bbac78e4139a8f7f291bba8970d660a7be6a715eb4769d6990c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:07.958865+00:00",
+      "first_seen_local": "2026-09-16T03:49:07.958863-05:00",
+      "last_updated_utc": "2026-09-16T08:49:07.958865+00:00",
+      "last_updated_local": "2026-09-16T03:49:07.958863-05:00"
     },
     {
       "title": "Apple Releases iOS 27 Security Update to Fix Over 120 Vulnerabilities",
@@ -249,6 +524,34 @@
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
     },
     {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "url": "http://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "published": "Wed, 16 Sep 2026 05:18:06 +0000",
+      "published_utc": "2026-09-16T05:18:06+00:00",
+      "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6998447884256336076",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "content_hash": "051cff2af444166ef3ddd815b731154dec9a788bed68156756b4d7d87e544d21",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "051cff2af444166ef3ddd815b731154dec9a788bed68156756b4d7d87e544d21",
+        "FEEDBURNER": "051cff2af444166ef3ddd815b731154dec9a788bed68156756b4d7d87e544d21"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T08:49:07.958865+00:00",
+      "first_seen_local": "2026-09-16T03:49:07.958863-05:00",
+      "last_updated_utc": "2026-09-16T08:49:07.958865+00:00",
+      "last_updated_local": "2026-09-16T03:49:07.958863-05:00"
+    },
+    {
       "title": "OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign",
       "url": "https://gbhackers.com/3022-malicious-rubygems/",
       "published": "Wed, 16 Sep 2026 05:02:45 +0000",
@@ -301,286 +604,6 @@
       "first_seen_local": "2026-09-16T03:49:01.708544-05:00",
       "last_updated_utc": "2026-09-16T08:49:01.708549+00:00",
       "last_updated_local": "2026-09-16T03:49:01.708544-05:00"
-    },
-    {
-      "title": "Google Search Makes It Harder to See Where a Link Really Goes Before You Click",
-      "url": "https://gbhackers.com/harder-link-verification/",
-      "published": "Tue, 15 Sep 2026 13:42:27 +0000",
-      "published_utc": "2026-09-15T13:42:27+00:00",
-      "summary": "<p>Google has begun routing some organic Search result links through opaque google.com/goto?url=&#8230; redirects, reducing users’ ability to independently inspect a destination URL before clicking. The change appears designed to raise the technical and financial cost of mass scraping. However, it also weakens a long-standing, basic anti-phishing habit: hovering over a link to verify where it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/harder-link-verification/\">Google Search Makes It Harder to See Where a Link Really Goes Before You Click</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199567",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/harder-link-verification",
-      "content_hash": "d472898006233c88b8ca5ad317f6c17e9551c99c547db2bc47a58932cc4199ac",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d472898006233c88b8ca5ad317f6c17e9551c99c547db2bc47a58932cc4199ac",
-        "FEEDBURNER": "d472898006233c88b8ca5ad317f6c17e9551c99c547db2bc47a58932cc4199ac"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Phishing Attacks Abuse Trusted Email Infrastructure and URL Cloaking to Evade Security Filters",
-      "url": "https://gbhackers.com/trusted-email-abuse/",
-      "published": "Tue, 15 Sep 2026 13:04:34 +0000",
-      "published_utc": "2026-09-15T13:04:34+00:00",
-      "summary": "<p>Phishing operators are increasingly shifting away from malware-laden attachments and toward trusted delivery services, authenticated domains, and multi-stage URL cloaking designed to defeat conventional email inspection. The continuously running VBSpam comparative test evaluated ten public full email-security products and one open-source solution against wanted, unwanted, and malicious mail streams. The assessment was conducted under the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trusted-email-abuse/\">Phishing Attacks Abuse Trusted Email Infrastructure and URL Cloaking to Evade Security Filters</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199559",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/trusted-email-abuse",
-      "content_hash": "a4db5509934577064131ea5d7e41c598e3bced8cd92f16049e246d4812fdd5b8",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a4db5509934577064131ea5d7e41c598e3bced8cd92f16049e246d4812fdd5b8",
-        "FEEDBURNER": "a4db5509934577064131ea5d7e41c598e3bced8cd92f16049e246d4812fdd5b8"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Hackers Actively Exploit Critical WooCommerce Plugin Vulnerability to Upload PHP Backdoors",
-      "url": "https://gbhackers.com/woocommerce-plugin-vulnerability/",
-      "published": "Tue, 15 Sep 2026 12:05:55 +0000",
-      "published_utc": "2026-09-15T12:05:55+00:00",
-      "summary": "<p>Threat actors are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture plugin that lets unauthenticated attackers upload malicious PHP files and potentially seize full control of vulnerable WordPress sites. The vulnerability , tracked as CVE-2026-27540, affects plugin versions 2.0.3.1 and earlier and has received a CVSS severity score of 9.8 out of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/woocommerce-plugin-vulnerability/\">Hackers Actively Exploit Critical WooCommerce Plugin Vulnerability to Upload PHP Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199528",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/woocommerce-plugin-vulnerability",
-      "content_hash": "5b16578b32855f5e40d4f9bc56af9956109f85fd638adc9bff23eb7f6f4bcc7a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5b16578b32855f5e40d4f9bc56af9956109f85fd638adc9bff23eb7f6f4bcc7a",
-        "FEEDBURNER": "5b16578b32855f5e40d4f9bc56af9956109f85fd638adc9bff23eb7f6f4bcc7a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-      "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-7-12-2026/",
-      "published": "Tue, 15 Sep 2026 11:44:54 +0000",
-      "published_utc": "2026-09-15T11:44:54+00:00",
-      "summary": "<p>Microsoft Patches 973 CVEs, Claude Agents Automate Attacks, China Chains Chrome Zero-Day, Cisco FMC Exploited &#38; More. Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from September 7–12, 2026. AI ran through the whole week: Anthropic disclosed Claude models attacking real systems in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-september-7-12-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199404",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/weekly-cybersecurity-newsletter-september-7-12-2026",
-      "content_hash": "2849125c582ad729560fdc0aaafa4e735dd7808a540908fec5d3f31467864b06",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2849125c582ad729560fdc0aaafa4e735dd7808a540908fec5d3f31467864b06",
-        "FEEDBURNER": "2849125c582ad729560fdc0aaafa4e735dd7808a540908fec5d3f31467864b06"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "WordPress Events Calendar Vulnerabilities Let Hackers Take Over 600,000 Websites",
-      "url": "https://gbhackers.com/wordpress-events-calendar-vulnerabilities/",
-      "published": "Tue, 15 Sep 2026 11:24:16 +0000",
-      "published_utc": "2026-09-15T11:24:16+00:00",
-      "summary": "<p>Two critical unauthenticated vulnerability chains in the widely used The Events Calendar WordPress plugin could allow attackers to execute code and fully compromise affected websites remotely. These flaws, identified by Wordfence Argus, impact plugin versions up to 6.17.4 and have been patched in version 6.17.4.1. The Events Calendar is active on over 600,000 WordPress websites, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-events-calendar-vulnerabilities/\">WordPress Events Calendar Vulnerabilities Let Hackers Take Over 600,000 Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199525",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/wordpress-events-calendar-vulnerabilities",
-      "content_hash": "85f9d6cc4b9f81d95db9f3bbc03dbaacd87df1e3e7e169c9ce986d882cfe291d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "85f9d6cc4b9f81d95db9f3bbc03dbaacd87df1e3e7e169c9ce986d882cfe291d",
-        "FEEDBURNER": "85f9d6cc4b9f81d95db9f3bbc03dbaacd87df1e3e7e169c9ce986d882cfe291d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Red Heron Hackers Exploit Critical Gitea RCE to Steal Source Code and Deploy Linux Rootkit",
-      "url": "https://gbhackers.com/red-heron-hackers-exploit-critical-gitea-rce/",
-      "published": "Tue, 15 Sep 2026 11:16:17 +0000",
-      "published_utc": "2026-09-15T11:16:17+00:00",
-      "summary": "<p>A Chinese-speaking threat actor known as Red Heron has exploited a critical remote code execution (RCE) vulnerability in Gitea to steal private source code, harvest credentials, establish persistent access, and move laterally within victim infrastructures. Researchers from the Acronis Threat Research Unit (TRU) have linked this operation to a newly documented Linux implant called JITTERLY, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-heron-hackers-exploit-critical-gitea-rce/\">Red Heron Hackers Exploit Critical Gitea RCE to Steal Source Code and Deploy Linux Rootkit</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199521",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/red-heron-hackers-exploit-critical-gitea-rce",
-      "content_hash": "27c6c4d352ce0c5b8e3ca440eeeceb0e7318b11da58f2fac58bd56da77644a58",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "27c6c4d352ce0c5b8e3ca440eeeceb0e7318b11da58f2fac58bd56da77644a58",
-        "FEEDBURNER": "27c6c4d352ce0c5b8e3ca440eeeceb0e7318b11da58f2fac58bd56da77644a58"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Telegram Desktop XSS Vulnerability Lets Attackers Steal Entire Chat Histories",
-      "url": "https://gbhackers.com/telegram-desktop-xss-vulnerability-lets-attackers-steal-entire-chat-histories/",
-      "published": "Tue, 15 Sep 2026 10:11:25 +0000",
-      "published_utc": "2026-09-15T10:11:25+00:00",
-      "summary": "<p>A stored cross-site scripting (XSS) vulnerability in Telegram Desktop could enable attackers to steal the contents of exported chat histories by embedding malicious code in an inline keyboard button, according to security researchers. This issue affects the HTML chat export feature in Telegram Desktop builds released before Beta version 6.9.4 and Stable version 7.0.1. Researchers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/telegram-desktop-xss-vulnerability-lets-attackers-steal-entire-chat-histories/\">Telegram Desktop XSS Vulnerability Lets Attackers Steal Entire Chat Histories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199495",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/telegram-desktop-xss-vulnerability-lets-attackers-steal-entire-chat-histories",
-      "content_hash": "38d4119dffa0116889131128c7ca41b4ac2512a268b2d27d93be851844332b1d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "38d4119dffa0116889131128c7ca41b4ac2512a268b2d27d93be851844332b1d",
-        "FEEDBURNER": "38d4119dffa0116889131128c7ca41b4ac2512a268b2d27d93be851844332b1d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Marimo RCE Flaw Lets Hackers Steal AWS Credentials and Pivot to Bastion Host in 8 Seconds",
-      "url": "https://gbhackers.com/marimo-rce-flaw/",
-      "published": "Tue, 15 Sep 2026 09:58:24 +0000",
-      "published_utc": "2026-09-15T09:58:24+00:00",
-      "summary": "<p>A threat actor exploited a critical pre-authentication remote code execution vulnerability in marimo to harvest AWS credentials, retrieve an SSH private key from AWS Secrets Manager, and authenticate to a bastion host in just eight seconds, according to the Sysdig Threat Research Team. This vulnerability, tracked as CVE-2026-39987, affects marimo versions up to 0.20.4 and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/marimo-rce-flaw/\">Marimo RCE Flaw Lets Hackers Steal AWS Credentials and Pivot to Bastion Host in 8 Seconds</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199494",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/marimo-rce-flaw",
-      "content_hash": "518fd46c6c2602acbcbc6fa29658b3ffddc15cb4c349019e5a105fee20880236",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "518fd46c6c2602acbcbc6fa29658b3ffddc15cb4c349019e5a105fee20880236",
-        "FEEDBURNER": "518fd46c6c2602acbcbc6fa29658b3ffddc15cb4c349019e5a105fee20880236"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "DDRop Attack Forces Intel TDX Confidential VMs Into Debug Mode and Exposes Memory",
-      "url": "https://gbhackers.com/intel-tdx-under-attack/",
-      "published": "Tue, 15 Sep 2026 09:57:18 +0000",
-      "published_utc": "2026-09-15T09:57:18+00:00",
-      "summary": "<p>A newly disclosed hardware attack dubbed DDRop can undermine Intel Trust Domain Extensions (TDX) by manipulating DDR5 memory traffic, allowing an attacker with physical server access to force confidential virtual machines into debug mode and extract private memory in plaintext. Researchers from KU Leuven, ETH Zurich, Google, Durham University, and other institutions released proof-of-concept code, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/intel-tdx-under-attack/\">DDRop Attack Forces Intel TDX Confidential VMs Into Debug Mode and Exposes Memory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199484",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/intel-tdx-under-attack",
-      "content_hash": "42b16d6edec77b601febfecce3bb411d56a67ac5a3b861d591288ac2f12b7628",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "42b16d6edec77b601febfecce3bb411d56a67ac5a3b861d591288ac2f12b7628",
-        "FEEDBURNER": "42b16d6edec77b601febfecce3bb411d56a67ac5a3b861d591288ac2f12b7628"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
-    },
-    {
-      "title": "Linux Kernel ZcopyReaper Vulnerability Lets Local Attackers Gain Root Privileges",
-      "url": "https://gbhackers.com/linux-kernel-zcopyreaper-vulnerability/",
-      "published": "Tue, 15 Sep 2026 08:18:47 +0000",
-      "published_utc": "2026-09-15T08:18:47+00:00",
-      "summary": "<p>Security researchers have disclosed a local privilege escalation vulnerability in the Linux kernel related to the Reliable Datagram Sockets (RDS) zero-copy send path. This vulnerability could let an unprivileged local attacker gain root privileges. It is tracked as CVE-2026-43502 and is referred to as “ZcopyReaper.” NebuSec researcher Yuan Tan reported the issue in a disclosure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-zcopyreaper-vulnerability/\">Linux Kernel ZcopyReaper Vulnerability Lets Local Attackers Gain Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199470",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/linux-kernel-zcopyreaper-vulnerability",
-      "content_hash": "4a87c14c9ad6ffed3d0ec26ad3e1dec9a2a4acb228189bec990c7584bd752f9e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "4a87c14c9ad6ffed3d0ec26ad3e1dec9a2a4acb228189bec990c7584bd752f9e",
-        "FEEDBURNER": "4a87c14c9ad6ffed3d0ec26ad3e1dec9a2a4acb228189bec990c7584bd752f9e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-15T18:18:28.443050+00:00",
-      "first_seen_local": "2026-09-15T13:18:28.443048-05:00",
-      "last_updated_utc": "2026-09-15T18:18:28.443050+00:00",
-      "last_updated_local": "2026-09-15T13:18:28.443048-05:00"
     }
   ]
 }

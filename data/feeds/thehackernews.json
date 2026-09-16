@@ -10,79 +10,23 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 9,
+      "article_count": 2,
       "articles": [
         {
-          "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-          "published": "Tue, 15 Sep 2026 18:54:14 +0000",
-          "published_utc": "2026-09-15T18:54:14+00:00",
-          "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2826938504568011964"
+          "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+          "url": "http://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+          "published": "Wed, 16 Sep 2026 05:48:28 +0000",
+          "published_utc": "2026-09-16T05:48:28+00:00",
+          "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-845787425553268103"
         },
         {
-          "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-          "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-          "published": "Tue, 15 Sep 2026 16:29:51 +0000",
-          "published_utc": "2026-09-15T16:29:51+00:00",
-          "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.\n\nThe malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3031846181542044748"
-        },
-        {
-          "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-          "published": "Tue, 15 Sep 2026 15:23:19 +0000",
-          "published_utc": "2026-09-15T15:23:19+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8124201842956870255"
-        },
-        {
-          "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-          "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-          "published": "Tue, 15 Sep 2026 11:52:28 +0000",
-          "published_utc": "2026-09-15T11:52:28+00:00",
-          "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1227380961517466649"
-        },
-        {
-          "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-          "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-          "published": "Tue, 15 Sep 2026 11:26:36 +0000",
-          "published_utc": "2026-09-15T11:26:36+00:00",
-          "summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise.\n\nBut no matter how much you validate against these",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4843992738453001256"
-        },
-        {
-          "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-          "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-          "published": "Tue, 15 Sep 2026 11:12:32 +0000",
-          "published_utc": "2026-09-15T11:12:32+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs.\n\nThe",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1727506930963635237"
-        },
-        {
-          "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-          "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-          "published": "Tue, 15 Sep 2026 06:52:16 +0000",
-          "published_utc": "2026-09-15T06:52:16+00:00",
-          "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9177081223912856188"
-        },
-        {
-          "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-          "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-          "published": "Tue, 15 Sep 2026 06:11:11 +0000",
-          "published_utc": "2026-09-15T06:11:11+00:00",
-          "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5860074501755513963"
-        },
-        {
-          "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-          "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-          "published": "Tue, 15 Sep 2026 05:31:05 +0000",
-          "published_utc": "2026-09-15T05:31:05+00:00",
-          "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVolexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.\n\n\"The",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7604478275467599333"
+          "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+          "url": "http://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+          "published": "Wed, 16 Sep 2026 05:18:06 +0000",
+          "published_utc": "2026-09-16T05:18:06+00:00",
+          "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6998447884256336076"
         }
       ],
       "error": ""
@@ -95,79 +39,23 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 9,
+      "article_count": 2,
       "articles": [
         {
-          "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-          "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-          "published": "Wed, 16 Sep 2026 00:24:14 +0530",
-          "published_utc": "2026-09-15T18:54:14+00:00",
-          "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and",
-          "id": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html"
+          "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+          "published": "Wed, 16 Sep 2026 11:18:28 +0530",
+          "published_utc": "2026-09-16T05:48:28+00:00",
+          "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
+          "id": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
         },
         {
-          "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-          "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-          "published": "Tue, 15 Sep 2026 21:59:51 +0530",
-          "published_utc": "2026-09-15T16:29:51+00:00",
-          "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.\n\nThe malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record",
-          "id": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html"
-        },
-        {
-          "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-          "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-          "published": "Tue, 15 Sep 2026 20:53:19 +0530",
-          "published_utc": "2026-09-15T15:23:19+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.",
-          "id": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html"
-        },
-        {
-          "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-          "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-          "published": "Tue, 15 Sep 2026 17:22:28 +0530",
-          "published_utc": "2026-09-15T11:52:28+00:00",
-          "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH",
-          "id": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html"
-        },
-        {
-          "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-          "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-          "published": "Tue, 15 Sep 2026 16:56:36 +0530",
-          "published_utc": "2026-09-15T11:26:36+00:00",
-          "summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise.\n\nBut no matter how much you validate against these",
-          "id": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html"
-        },
-        {
-          "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-          "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-          "published": "Tue, 15 Sep 2026 16:42:32 +0530",
-          "published_utc": "2026-09-15T11:12:32+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs.\n\nThe",
-          "id": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html"
-        },
-        {
-          "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-          "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-          "published": "Tue, 15 Sep 2026 12:22:16 +0530",
-          "published_utc": "2026-09-15T06:52:16+00:00",
-          "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
-          "id": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html"
-        },
-        {
-          "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-          "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-          "published": "Tue, 15 Sep 2026 11:41:11 +0530",
-          "published_utc": "2026-09-15T06:11:11+00:00",
-          "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",
-          "id": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
-        },
-        {
-          "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-          "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-          "published": "Tue, 15 Sep 2026 11:01:05 +0530",
-          "published_utc": "2026-09-15T05:31:05+00:00",
-          "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVolexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.\n\n\"The",
-          "id": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
+          "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+          "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+          "published": "Wed, 16 Sep 2026 10:48:06 +0530",
+          "published_utc": "2026-09-16T05:18:06+00:00",
+          "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
+          "id": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
         }
       ],
       "error": ""

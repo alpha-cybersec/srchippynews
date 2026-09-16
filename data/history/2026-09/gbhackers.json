@@ -2,8 +2,120 @@
   "month": "2026-09",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 31,
+  "article_count": 36,
   "articles": [
+    {
+      "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
+      "url": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
+      "published": "Wed, 16 Sep 2026 13:41:39 +0000",
+      "published_utc": "2026-09-16T13:41:39+00:00",
+      "summary": "<p>A newly identified device-code phishing kit dubbed GhostCode exploits Microsoft Entra device enrollment to maintain access after stolen tokens are revoked. GhostCode begins with business-email social engineering rather than a conventional credential-harvesting page. Operators impersonated procurement staff from legitimate organizations, including BJ’s Wholesale Club, and submitted benign inquiries through Salesforce contact forms. Once a sales [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostcode-abuses-microsoft-entra/\">GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199806",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ghostcode-abuses-microsoft-entra",
+      "content_hash": "daae5c64f1bc68b1c8d3ce98e12bd1b637ed05a72f0e6a3da96477a4cc9939a7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "daae5c64f1bc68b1c8d3ce98e12bd1b637ed05a72f0e6a3da96477a4cc9939a7",
+        "FEEDBURNER": "daae5c64f1bc68b1c8d3ce98e12bd1b637ed05a72f0e6a3da96477a4cc9939a7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
+    {
+      "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
+      "url": "https://gbhackers.com/vectrarat-malware-as-a-service/",
+      "published": "Wed, 16 Sep 2026 13:11:23 +0000",
+      "published_utc": "2026-09-16T13:11:23+00:00",
+      "summary": "<p>VectraRAT, a previously undocumented Malware-as-a-Service platform that combines remote-access trojan capabilities with automated credential theft and a silent Windows privilege-escalation chain. Unlike the large number of commodity RATs that recycle leaked AsyncRAT, XWorm, or QuasarRAT code, VectraRAT appears to be a purpose-built, full-stack product maintained by a single developer. The platform is rented rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vectrarat-malware-as-a-service/\">VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199780",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/vectrarat-malware-as-a-service",
+      "content_hash": "66472f50ac1edd4080bf4966622bd9f35f0a9ad0029a41b4f2ab0082ea62c2be",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "66472f50ac1edd4080bf4966622bd9f35f0a9ad0029a41b4f2ab0082ea62c2be",
+        "FEEDBURNER": "66472f50ac1edd4080bf4966622bd9f35f0a9ad0029a41b4f2ab0082ea62c2be"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
+    {
+      "title": "TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password",
+      "url": "https://gbhackers.com/tp-link-tapo-camera-flaw/",
+      "published": "Wed, 16 Sep 2026 12:33:57 +0000",
+      "published_utc": "2026-09-16T12:33:57+00:00",
+      "summary": "<p>Security researchers have revealed two vulnerabilities in TP-Link’s Tapo C200 smart camera that could enable nearby network attackers to bypass administrator authentication or disrupt the device&#8217;s management service. Khoi Tran and Thai Do from OPSWAT Unit 515 discovered these vulnerabilities, tracked as CVE-2026-15315 and CVE-2026-15316, during the company’s Critical Infrastructure Cybersecurity Graduate Fellowship Program. TP-Link [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tp-link-tapo-camera-flaw/\">TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199767",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/tp-link-tapo-camera-flaw",
+      "content_hash": "05589edad58edf14a4d812378049b1ea882f2d867a196ab1a7d3367725fbbfea",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "05589edad58edf14a4d812378049b1ea882f2d867a196ab1a7d3367725fbbfea",
+        "FEEDBURNER": "05589edad58edf14a4d812378049b1ea882f2d867a196ab1a7d3367725fbbfea"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
+    {
+      "title": "Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems",
+      "url": "https://gbhackers.com/noodle-rat-backdoor/",
+      "published": "Wed, 16 Sep 2026 12:28:34 +0000",
+      "published_utc": "2026-09-16T12:28:34+00:00",
+      "summary": "<p>Chinese-speaking threat actors are continuing to rely on Noodle RAT, a cross-platform remote access trojan designed to maintain covert access to compromised Windows workstations and Linux servers. Also tracked as ANGRYREBEL and Nood RAT, the malware has been active since at least mid-2016 but was long mistaken for variants of Gh0st RAT, Rekoobe, and other [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/noodle-rat-backdoor/\">Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199768",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/noodle-rat-backdoor",
+      "content_hash": "c42d99c7f508601012154c2bb3998dbe869c6ca7fa6dd343bde75d805696aeca",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c42d99c7f508601012154c2bb3998dbe869c6ca7fa6dd343bde75d805696aeca",
+        "FEEDBURNER": "c42d99c7f508601012154c2bb3998dbe869c6ca7fa6dd343bde75d805696aeca"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
     {
       "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
       "url": "https://gbhackers.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
@@ -159,6 +271,32 @@
       "first_seen_local": "2026-09-16T09:09:49.790444-05:00",
       "last_updated_utc": "2026-09-16T14:09:49.790447+00:00",
       "last_updated_local": "2026-09-16T09:09:49.790444-05:00"
+    },
+    {
+      "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-kubernetes-security-compared/",
+      "published": "Wed, 16 Sep 2026 09:52:52 +0000",
+      "published_utc": "2026-09-16T09:52:52+00:00",
+      "summary": "<p>Quick Answer: Kubernetes security quotes hinge on the node-vs-cluster-vs-developer unit choice, and the OSS floor (Kubescape, Falco, Calico, NeuVector, Cilium/Tetragon) resets every negotiation. Sysdig and Aqua lead paid runtime/lifecycle; Cisco (Isovalent) now owns the eBPF network layer; Fairwinds sells governance-as-guardrails; Microsoft Defender publishes the anchor rates. Kubernetes made compute cheap to sprawl and expensive to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-kubernetes-security-compared/\">12 Best Kubernetes Security Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199692",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-kubernetes-security-compared",
+      "content_hash": "396f53d32153ca27d1c61c9caac55ad1bb976ebc5a519cc4751be1dac5ba3ab6",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "396f53d32153ca27d1c61c9caac55ad1bb976ebc5a519cc4751be1dac5ba3ab6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
     },
     {
       "title": "12 Best Container Security Tools Compared (2026): Features & Pricing",

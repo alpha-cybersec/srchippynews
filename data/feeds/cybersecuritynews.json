@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication",
+          "url": "https://cybersecuritynews.com/check-point-root-access-flaw/",
+          "published": "Wed, 16 Sep 2026 17:14:35 +0000",
+          "published_utc": "2026-09-16T17:14:35+00:00",
+          "summary": "<p>Check Point has released an urgent security fix for CVE-2026-91843, a critical stack-based buffer overflow that could let an unauthenticated remote attacker execute arbitrary code with root privileges on vulnerable security management and logging systems. The flaw carries a CVSS 3.1 score of 9.8, reflecting a network-accessible attack requiring low complexity, no privileges, and no [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-root-access-flaw/\">Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163641"
+        },
+        {
+          "title": "CenterPoint Energy Data Breach – Hackers Stolen Customer’s Personal Data",
+          "url": "https://cybersecuritynews.com/centerpoint-energy-data-breach/",
+          "published": "Wed, 16 Sep 2026 15:32:51 +0000",
+          "published_utc": "2026-09-16T15:32:51+00:00",
+          "summary": "<p>CenterPoint Energy disclosed a data breach after an unauthorized third party obtained personal information from some of its customers through an internet-facing company system. The Houston-based utility company revealed the incident in a Form 8-K filing with the U.S. Securities and Exchange Commission on September 14, 2026. CenterPoint said it learned of an online post [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/centerpoint-energy-data-breach/\">CenterPoint Energy Data Breach &#8211; Hackers Stolen Customer’s Personal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163546"
+        },
+        {
+          "title": "CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks",
+          "url": "https://cybersecuritynews.com/screenconnect-vulnerability-exploited/",
+          "published": "Wed, 16 Sep 2026 15:31:36 +0000",
+          "published_utc": "2026-09-16T15:31:36+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical ConnectWise ScreenConnect vulnerability, tracked as CVE-2026-84869, to its Known Exploited Vulnerabilities (KEV) Catalog after confirming that threat actors are actively exploiting the flaw in attacks. The issue affects ScreenConnect, a widely used remote monitoring and support platform that enables administrators and managed service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/screenconnect-vulnerability-exploited/\">CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163626"
+        },
+        {
+          "title": "German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints",
+          "url": "https://cybersecuritynews.com/german-manufacturer-security-alerts/",
+          "published": "Wed, 16 Sep 2026 15:12:24 +0000",
+          "published_utc": "2026-09-16T15:12:24+00:00",
+          "summary": "<p>A five-person security team at an unnamed German manufacturer has cut a reported 15 minutes from each alert investigation after replacing an air-gapped forensic laptop with ANY.RUN’s cloud-managed Interactive Sandbox. The team protects approximately 10,000 endpoints and 10,000 users across office systems and servers, illustrating how smaller security operations centers can scale enterprise malware and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/german-manufacturer-security-alerts/\">German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163606"
+        },
+        {
+          "title": "Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access",
+          "url": "https://cybersecuritynews.com/critical-wso2-vulnerability/",
+          "published": "Wed, 16 Sep 2026 15:05:48 +0000",
+          "published_utc": "2026-09-16T15:05:48+00:00",
+          "summary": "<p>WSO2 has disclosed a critical authentication bypass vulnerability that could allow remote attackers to take over accounts, including administrative accounts, in affected API management products. Tracked as CVE-2026-5430, the flaw has received a CVSS score of 10.0 and requires no authentication or user interaction to exploit. Security Advisory WSO2-2026-5328 details the issue, published on May [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-wso2-vulnerability/\">Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163570"
+        },
+        {
+          "title": "GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds",
+          "url": "https://cybersecuritynews.com/ghostcode-phishing-kit/",
+          "published": "Wed, 16 Sep 2026 14:54:18 +0000",
+          "published_utc": "2026-09-16T14:54:18+00:00",
+          "summary": "<p>GhostCode is a newly identified phishing kit that turns a normal Microsoft 365 sign-in into an account takeover. It does not need to steal a password. Instead, it persuades people to approve a login that gives criminals access to their work account. The campaign began with ordinary-looking messages submitted through business contact forms. Attackers posed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostcode-phishing-kit/\">GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163615"
+        },
+        {
+          "title": "Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors",
+          "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/",
+          "published": "Wed, 16 Sep 2026 14:37:38 +0000",
+          "published_utc": "2026-09-16T14:37:38+00:00",
+          "summary": "<p>Microsoft has confirmed a fresh service degradation affecting its Microsoft 365 suite, with users worldwide reporting an inability to access core applications since the evening of September 16, 2026. The incident, tracked internally as MO1472904, began at 7:17 PM GMT+5:30 and has been classified by Microsoft as an active service degradation rather than a full [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/\">Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163614"
+        },
+        {
+          "title": "Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs",
+          "url": "https://cybersecuritynews.com/hackers-can-rent-vectrarat/",
+          "published": "Wed, 16 Sep 2026 14:36:15 +0000",
+          "published_utc": "2026-09-16T14:36:15+00:00",
+          "summary": "<p>Hackers can now rent a Windows-focused remote access tool called VectraRAT for $250 a month, lowering the barrier to deep and persistent compromise. The malware gives paying operators a way to watch victims, steal data, run commands, and move traffic through an infected computer. VectraRAT has surfaced as a rental-only malware service rather than a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-can-rent-vectrarat/\">Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163611"
+        },
+        {
+          "title": "Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems",
+          "url": "https://cybersecuritynews.com/cross-platform-noodle-rat/",
+          "published": "Wed, 16 Sep 2026 14:03:51 +0000",
+          "published_utc": "2026-09-16T14:03:51+00:00",
+          "summary": "<p>Noodle RAT is a remote-access trojan that gives attackers control of compromised computers and servers. Its renewed visibility matters because it runs on both Windows and Linux, allowing one malware family to follow victims across corporate networks. The tool has appeared in operations against organisations across Asia-Pacific, including Thailand, India, Japan, Malaysia and Taiwan. Operators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cross-platform-noodle-rat/\">Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163577"
+        },
+        {
+          "title": "Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs",
+          "url": "https://cybersecuritynews.com/smishing-hackers/",
+          "published": "Wed, 16 Sep 2026 13:39:36 +0000",
+          "published_utc": "2026-09-16T13:39:36+00:00",
+          "summary": "<p>A new SMS phishing campaign turns a routine payment check into a live fraud session. Victims who tap a link reach convincing pages seeking card details, passwords, and one-time passcodes, while criminals see information as it is entered. The operation uses urgent messages impersonating official services and claiming a fee must be settled, a delivery [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/smishing-hackers/\">Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163593"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -25,84 +106,84 @@
       "article_count": 10,
       "articles": [
         {
-          "title": "PAPERMILL Hackers Abuse Signed Notepad++ to Deploy VenomRAT in Tax Audit Attacks",
-          "url": "https://cybersecuritynews.com/papermill-hackers/",
-          "published": "Wed, 16 Sep 2026 12:23:45 +0000",
-          "published_utc": "2026-09-16T12:23:45+00:00",
-          "summary": "<p>A phishing campaign using a fake tax-audit notice is deploying VenomRAT through a signed copy of Notepad++. The operation, tracked as PAPERMILL, uses an email and a disk-image attachment to make a dangerous file look routine. The attachment arrives with a tax-audit themed subject and can pass SPF, DKIM and DMARC checks. Opening it mounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/papermill-hackers/\">PAPERMILL Hackers Abuse Signed Notepad++ to Deploy VenomRAT in Tax Audit Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163571"
+          "title": "Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication",
+          "url": "https://cybersecuritynews.com/check-point-root-access-flaw/",
+          "published": "Wed, 16 Sep 2026 17:14:35 +0000",
+          "published_utc": "2026-09-16T17:14:35+00:00",
+          "summary": "<p>Check Point has released an urgent security fix for CVE-2026-91843, a critical stack-based buffer overflow that could let an unauthenticated remote attacker execute arbitrary code with root privileges on vulnerable security management and logging systems. The flaw carries a CVSS 3.1 score of 9.8, reflecting a network-accessible attack requiring low complexity, no privileges, and no [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-root-access-flaw/\">Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163641"
         },
         {
-          "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
-          "url": "https://cybersecuritynews.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
-          "published": "Wed, 16 Sep 2026 11:57:50 +0000",
-          "published_utc": "2026-09-16T11:57:50+00:00",
-          "summary": "<p>Stamford, CT, September 16th, 2026, CyberNewswire Now in early access, AxoDetect runs Sigma rules in stream alerts travel to the SIEM, and full-fidelity logs land in AxoLake, a low-cost security data lake Detection engineers do not need more detections. They need their existing detections to fire earlier, on cleaner data, without paying SIEM ingest rates [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/\">Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163556"
+          "title": "CenterPoint Energy Data Breach – Hackers Stolen Customer’s Personal Data",
+          "url": "https://cybersecuritynews.com/centerpoint-energy-data-breach/",
+          "published": "Wed, 16 Sep 2026 15:32:51 +0000",
+          "published_utc": "2026-09-16T15:32:51+00:00",
+          "summary": "<p>CenterPoint Energy disclosed a data breach after an unauthorized third party obtained personal information from some of its customers through an internet-facing company system. The Houston-based utility company revealed the incident in a Form 8-K filing with the U.S. Securities and Exchange Commission on September 14, 2026. CenterPoint said it learned of an online post [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/centerpoint-energy-data-breach/\">CenterPoint Energy Data Breach &#8211; Hackers Stolen Customer’s Personal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163546"
         },
         {
-          "title": "Hackers Are Hiding Espionage Infrastructure Inside Ordinary-Looking Casino Websites",
-          "url": "https://cybersecuritynews.com/espionage-infrastructure/",
-          "published": "Wed, 16 Sep 2026 11:44:40 +0000",
-          "published_utc": "2026-09-16T11:44:40+00:00",
-          "summary": "<p>Ordinary-looking casino websites are being used to conceal infrastructure for cyberespionage. The sites imitate low-grade gambling portals, but some quietly connect visitors and compromised systems to attacker-controlled servers. The pages are built to appear disposable and harmless, which can lower the chance that they receive security scrutiny. The activity centers on PeckBirdy, a JavaScript-based command-and-control [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/espionage-infrastructure/\">Hackers Are Hiding Espionage Infrastructure Inside Ordinary-Looking Casino Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163550"
+          "title": "CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks",
+          "url": "https://cybersecuritynews.com/screenconnect-vulnerability-exploited/",
+          "published": "Wed, 16 Sep 2026 15:31:36 +0000",
+          "published_utc": "2026-09-16T15:31:36+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical ConnectWise ScreenConnect vulnerability, tracked as CVE-2026-84869, to its Known Exploited Vulnerabilities (KEV) Catalog after confirming that threat actors are actively exploiting the flaw in attacks. The issue affects ScreenConnect, a widely used remote monitoring and support platform that enables administrators and managed service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/screenconnect-vulnerability-exploited/\">CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163626"
         },
         {
-          "title": "700+ OpenAI Agents Built Their Own Message Board to Coordinate an Attack on Hugging Face",
-          "url": "https://cybersecuritynews.com/700-openai-agents/",
-          "published": "Wed, 16 Sep 2026 11:04:49 +0000",
-          "published_utc": "2026-09-16T11:04:49+00:00",
-          "summary": "<p>AI agents built an unauthorized communications network and coordinated activity against Hugging Face infrastructure in a capability evaluation. The constrained benchmark showed how separate AI instances could combine work after finding a shared workspace. The agents were meant to solve ExploitGym challenges by exploiting supplied weaknesses to retrieve protected flags. Instead, they investigated challenge systems [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/700-openai-agents/\">700+ OpenAI Agents Built Their Own Message Board to Coordinate an Attack on Hugging Face</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163537"
+          "title": "German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints",
+          "url": "https://cybersecuritynews.com/german-manufacturer-security-alerts/",
+          "published": "Wed, 16 Sep 2026 15:12:24 +0000",
+          "published_utc": "2026-09-16T15:12:24+00:00",
+          "summary": "<p>A five-person security team at an unnamed German manufacturer has cut a reported 15 minutes from each alert investigation after replacing an air-gapped forensic laptop with ANY.RUN’s cloud-managed Interactive Sandbox. The team protects approximately 10,000 endpoints and 10,000 users across office systems and servers, illustrating how smaller security operations centers can scale enterprise malware and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/german-manufacturer-security-alerts/\">German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163606"
         },
         {
-          "title": "Top 10 Best AWS Security Tools in 2026",
-          "url": "https://cybersecuritynews.com/best-aws-security-tools/",
-          "published": "Wed, 16 Sep 2026 09:57:37 +0000",
-          "published_utc": "2026-09-16T09:57:37+00:00",
-          "summary": "<p>Quick Answer: Start with AWS-native tools GuardDuty, Security Hub, and free IAM Access Analyzer then add a third-party platform for correlation and multicloud parity: Wiz for attack-path analysis, Prisma Cloud for breadth, CrowdStrike for runtime, Orca for agentless speed. Most third-party tools price per workload. AWS runs more production workloads than any other cloud, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-aws-security-tools/\">Top 10 Best AWS Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=162175"
+          "title": "Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access",
+          "url": "https://cybersecuritynews.com/critical-wso2-vulnerability/",
+          "published": "Wed, 16 Sep 2026 15:05:48 +0000",
+          "published_utc": "2026-09-16T15:05:48+00:00",
+          "summary": "<p>WSO2 has disclosed a critical authentication bypass vulnerability that could allow remote attackers to take over accounts, including administrative accounts, in affected API management products. Tracked as CVE-2026-5430, the flaw has received a CVSS score of 10.0 and requires no authentication or user interaction to exploit. Security Advisory WSO2-2026-5328 details the issue, published on May [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-wso2-vulnerability/\">Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163570"
         },
         {
-          "title": "Top 10 Best Multi-Cloud Security Platforms in 2026",
-          "url": "https://cybersecuritynews.com/best-multi-cloud-security-platforms/",
-          "published": "Wed, 16 Sep 2026 09:50:56 +0000",
-          "published_utc": "2026-09-16T09:50:56+00:00",
-          "summary": "<p>Multi-cloud is the reality AWS and Azure and GCP, often plus Oracle and on-prem and each models identity, networking, and services differently. A dedicated multi-cloud security platform normalizes these discrepancies, delivering one unified policy framework, one cohesive risk graph, and one management console across heterogeneous multi-cloud security architectures. This is really two markets CNAPP platforms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-multi-cloud-security-platforms/\">Top 10 Best Multi-Cloud Security Platforms in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=162086"
+          "title": "GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds",
+          "url": "https://cybersecuritynews.com/ghostcode-phishing-kit/",
+          "published": "Wed, 16 Sep 2026 14:54:18 +0000",
+          "published_utc": "2026-09-16T14:54:18+00:00",
+          "summary": "<p>GhostCode is a newly identified phishing kit that turns a normal Microsoft 365 sign-in into an account takeover. It does not need to steal a password. Instead, it persuades people to approve a login that gives criminals access to their work account. The campaign began with ordinary-looking messages submitted through business contact forms. Attackers posed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostcode-phishing-kit/\">GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163615"
         },
         {
-          "title": "Android 0-day Vulnerability on Google Pixel Devices Actively Exploited in Attacks",
-          "url": "https://cybersecuritynews.com/android-pixel-zero-day/",
-          "published": "Wed, 16 Sep 2026 09:40:35 +0000",
-          "published_utc": "2026-09-16T09:40:35+00:00",
-          "summary": "<p>Google has confirmed that a high-severity Android zero-day flaw affecting its Pixel smartphones is being actively exploited in the wild, and it has shipped emergency patches as part of the September 2026 Pixel Update Bulletin. Tracked as CVE-2026-58704, the vulnerability resides in the device Modem subcomponent and is being weaponized in what the company describes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-pixel-zero-day/\">Android 0-day Vulnerability on Google Pixel Devices Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163525"
+          "title": "Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors",
+          "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/",
+          "published": "Wed, 16 Sep 2026 14:37:38 +0000",
+          "published_utc": "2026-09-16T14:37:38+00:00",
+          "summary": "<p>Microsoft has confirmed a fresh service degradation affecting its Microsoft 365 suite, with users worldwide reporting an inability to access core applications since the evening of September 16, 2026. The incident, tracked internally as MO1472904, began at 7:17 PM GMT+5:30 and has been classified by Microsoft as an active service degradation rather than a full [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/\">Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163614"
         },
         {
-          "title": "Parallels Desktop Vulnerability Lets Non-Admin Mac Users Execute Code as Root",
-          "url": "https://cybersecuritynews.com/parallels-desktop-vulnerability/",
-          "published": "Wed, 16 Sep 2026 09:24:31 +0000",
-          "published_utc": "2026-09-16T09:24:31+00:00",
-          "summary": "<p>A critical local privilege escalation vulnerability in Parallels Desktop for Mac could allow a non-administrator user or unprivileged process to execute attacker-controlled code with root privileges. Tracked as CVE-2026-90894 and called “ParaShells,” the vulnerability was confirmed in Parallels Desktop 26.4.0 build 57513 on Apple Silicon Macs. Parallels addressed the issue with the release of version [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/parallels-desktop-vulnerability/\">Parallels Desktop Vulnerability Lets Non-Admin Mac Users Execute Code as Root</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163506"
+          "title": "Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs",
+          "url": "https://cybersecuritynews.com/hackers-can-rent-vectrarat/",
+          "published": "Wed, 16 Sep 2026 14:36:15 +0000",
+          "published_utc": "2026-09-16T14:36:15+00:00",
+          "summary": "<p>Hackers can now rent a Windows-focused remote access tool called VectraRAT for $250 a month, lowering the barrier to deep and persistent compromise. The malware gives paying operators a way to watch victims, steal data, run commands, and move traffic through an infected computer. VectraRAT has surfaced as a rental-only malware service rather than a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-can-rent-vectrarat/\">Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163611"
         },
         {
-          "title": "Iranian Hackers Use Fake MRI Results to Infect Victims With CHOSEN BRICK Spyware",
-          "url": "https://cybersecuritynews.com/fake-mri-results/",
-          "published": "Wed, 16 Sep 2026 08:31:15 +0000",
-          "published_utc": "2026-09-16T08:31:15+00:00",
-          "summary": "<p>Iranian state-linked hackers are using fake MRI scan results to infect selected people with CHOSEN BRICK, a Windows spyware family built for long-term surveillance. The campaign has targeted individuals in the United Kingdom, United States and Netherlands since at least 2025, with dissidents, activists and journalists facing particular risk. The advisory describes a focused espionage [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-mri-results/\">Iranian Hackers Use Fake MRI Results to Infect Victims With CHOSEN BRICK Spyware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163528"
+          "title": "Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems",
+          "url": "https://cybersecuritynews.com/cross-platform-noodle-rat/",
+          "published": "Wed, 16 Sep 2026 14:03:51 +0000",
+          "published_utc": "2026-09-16T14:03:51+00:00",
+          "summary": "<p>Noodle RAT is a remote-access trojan that gives attackers control of compromised computers and servers. Its renewed visibility matters because it runs on both Windows and Linux, allowing one malware family to follow victims across corporate networks. The tool has appeared in operations against organisations across Asia-Pacific, including Thailand, India, Japan, Malaysia and Taiwan. Operators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cross-platform-noodle-rat/\">Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163577"
         },
         {
-          "title": "KREMLIN Banking Malware Infects Over 1,500 Systems With Malicious Chrome Extension",
-          "url": "https://cybersecuritynews.com/kremlin-banking-malware/",
-          "published": "Wed, 16 Sep 2026 08:12:32 +0000",
-          "published_utc": "2026-09-16T08:12:32+00:00",
-          "summary": "<p>KREMLIN is a banking malware operation that plants a hostile browser extension on infected computers. The extension can harvest passwords, session cookies, and other data that can let criminals enter online accounts. The campaign begins with fake JavaScript documents that pose as bank records or invoices. Once opened, they install components and target Chrome and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kremlin-banking-malware/\">KREMLIN Banking Malware Infects Over 1,500 Systems With Malicious Chrome Extension</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163509"
+          "title": "Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs",
+          "url": "https://cybersecuritynews.com/smishing-hackers/",
+          "published": "Wed, 16 Sep 2026 13:39:36 +0000",
+          "published_utc": "2026-09-16T13:39:36+00:00",
+          "summary": "<p>A new SMS phishing campaign turns a routine payment check into a live fraud session. Victims who tap a link reach convincing pages seeking card details, passwords, and one-time passcodes, while criminals see information as it is entered. The operation uses urgent messages impersonating official services and claiming a fee must be settled, a delivery [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/smishing-hackers/\">Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163593"
         }
       ],
       "error": ""

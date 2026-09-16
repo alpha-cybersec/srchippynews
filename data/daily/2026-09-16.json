@@ -1,12 +1,404 @@
 {
   "date": "2026-09-16",
-  "article_count": 46,
+  "article_count": 64,
   "sources": {
-    "thehackernews": 8,
-    "cybersecuritynews": 17,
-    "gbhackers": 21
+    "cybersecuritynews": 27,
+    "thehackernews": 11,
+    "gbhackers": 26
   },
   "articles": [
+    {
+      "title": "Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication",
+      "url": "https://cybersecuritynews.com/check-point-root-access-flaw/",
+      "published": "Wed, 16 Sep 2026 17:14:35 +0000",
+      "published_utc": "2026-09-16T17:14:35+00:00",
+      "summary": "<p>Check Point has released an urgent security fix for CVE-2026-91843, a critical stack-based buffer overflow that could let an unauthenticated remote attacker execute arbitrary code with root privileges on vulnerable security management and logging systems. The flaw carries a CVSS 3.1 score of 9.8, reflecting a network-accessible attack requiring low complexity, no privileges, and no [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-root-access-flaw/\">Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163641",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/check-point-root-access-flaw",
+      "content_hash": "66443ff48bbc25b47e8974a92e7325f0d80e974244981147dd643afe093f1127",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "66443ff48bbc25b47e8974a92e7325f0d80e974244981147dd643afe093f1127",
+        "FEEDBURNER": "66443ff48bbc25b47e8974a92e7325f0d80e974244981147dd643afe093f1127"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+      "url": "http://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+      "published": "Wed, 16 Sep 2026 15:50:59 +0000",
+      "published_utc": "2026-09-16T15:50:59+00:00",
+      "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3359191553631192170",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+      "content_hash": "eb94e542bcede6220bb8a836eeba4866d35334d2c8a28c66364478a7b2ee3aac",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eb94e542bcede6220bb8a836eeba4866d35334d2c8a28c66364478a7b2ee3aac",
+        "FEEDBURNER": "eb94e542bcede6220bb8a836eeba4866d35334d2c8a28c66364478a7b2ee3aac"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:20.352625+00:00",
+      "first_seen_local": "2026-09-16T13:23:20.352622-05:00",
+      "last_updated_utc": "2026-09-16T18:23:20.352625+00:00",
+      "last_updated_local": "2026-09-16T13:23:20.352622-05:00"
+    },
+    {
+      "title": "CenterPoint Energy Data Breach – Hackers Stolen Customer’s Personal Data",
+      "url": "https://cybersecuritynews.com/centerpoint-energy-data-breach/",
+      "published": "Wed, 16 Sep 2026 15:32:51 +0000",
+      "published_utc": "2026-09-16T15:32:51+00:00",
+      "summary": "<p>CenterPoint Energy disclosed a data breach after an unauthorized third party obtained personal information from some of its customers through an internet-facing company system. The Houston-based utility company revealed the incident in a Form 8-K filing with the U.S. Securities and Exchange Commission on September 14, 2026. CenterPoint said it learned of an online post [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/centerpoint-energy-data-breach/\">CenterPoint Energy Data Breach &#8211; Hackers Stolen Customer’s Personal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163546",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/centerpoint-energy-data-breach",
+      "content_hash": "657a816e6715f1c3ebf83e2837cef1c29ff149fdcd92a3a8ae6f52e8eb29f07a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "657a816e6715f1c3ebf83e2837cef1c29ff149fdcd92a3a8ae6f52e8eb29f07a",
+        "FEEDBURNER": "657a816e6715f1c3ebf83e2837cef1c29ff149fdcd92a3a8ae6f52e8eb29f07a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/screenconnect-vulnerability-exploited/",
+      "published": "Wed, 16 Sep 2026 15:31:36 +0000",
+      "published_utc": "2026-09-16T15:31:36+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical ConnectWise ScreenConnect vulnerability, tracked as CVE-2026-84869, to its Known Exploited Vulnerabilities (KEV) Catalog after confirming that threat actors are actively exploiting the flaw in attacks. The issue affects ScreenConnect, a widely used remote monitoring and support platform that enables administrators and managed service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/screenconnect-vulnerability-exploited/\">CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163626",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/screenconnect-vulnerability-exploited",
+      "content_hash": "0c2405800ac53215c16f9dd70f1862e2c3971d008bb80d4efad59fd323812995",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0c2405800ac53215c16f9dd70f1862e2c3971d008bb80d4efad59fd323812995",
+        "FEEDBURNER": "0c2405800ac53215c16f9dd70f1862e2c3971d008bb80d4efad59fd323812995"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "url": "http://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+      "published": "Wed, 16 Sep 2026 15:27:49 +0000",
+      "published_utc": "2026-09-16T15:27:49+00:00",
+      "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6093167374553606360",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+      "content_hash": "d670358d805d001c5334b25f713f1eb39f311c824d14627e85b8cee7b3281d53",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d670358d805d001c5334b25f713f1eb39f311c824d14627e85b8cee7b3281d53",
+        "FEEDBURNER": "d670358d805d001c5334b25f713f1eb39f311c824d14627e85b8cee7b3281d53"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:20.352625+00:00",
+      "first_seen_local": "2026-09-16T13:23:20.352622-05:00",
+      "last_updated_utc": "2026-09-16T18:23:20.352625+00:00",
+      "last_updated_local": "2026-09-16T13:23:20.352622-05:00"
+    },
+    {
+      "title": "German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints",
+      "url": "https://cybersecuritynews.com/german-manufacturer-security-alerts/",
+      "published": "Wed, 16 Sep 2026 15:12:24 +0000",
+      "published_utc": "2026-09-16T15:12:24+00:00",
+      "summary": "<p>A five-person security team at an unnamed German manufacturer has cut a reported 15 minutes from each alert investigation after replacing an air-gapped forensic laptop with ANY.RUN’s cloud-managed Interactive Sandbox. The team protects approximately 10,000 endpoints and 10,000 users across office systems and servers, illustrating how smaller security operations centers can scale enterprise malware and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/german-manufacturer-security-alerts/\">German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163606",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/german-manufacturer-security-alerts",
+      "content_hash": "a7378761abd67aa155322c0b122f3e384bcbb96c5fb611fdc6a755911579f1b2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a7378761abd67aa155322c0b122f3e384bcbb96c5fb611fdc6a755911579f1b2",
+        "FEEDBURNER": "a7378761abd67aa155322c0b122f3e384bcbb96c5fb611fdc6a755911579f1b2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access",
+      "url": "https://cybersecuritynews.com/critical-wso2-vulnerability/",
+      "published": "Wed, 16 Sep 2026 15:05:48 +0000",
+      "published_utc": "2026-09-16T15:05:48+00:00",
+      "summary": "<p>WSO2 has disclosed a critical authentication bypass vulnerability that could allow remote attackers to take over accounts, including administrative accounts, in affected API management products. Tracked as CVE-2026-5430, the flaw has received a CVSS score of 10.0 and requires no authentication or user interaction to exploit. Security Advisory WSO2-2026-5328 details the issue, published on May [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-wso2-vulnerability/\">Critical WSO2 Vulnerability Allow Hackers to Gain Full Admin Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163570",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-wso2-vulnerability",
+      "content_hash": "08ee6de78153242314d4ac75ad4074a54d5fd60e87c5d1bdf05dedb5c09a7028",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "08ee6de78153242314d4ac75ad4074a54d5fd60e87c5d1bdf05dedb5c09a7028",
+        "FEEDBURNER": "08ee6de78153242314d4ac75ad4074a54d5fd60e87c5d1bdf05dedb5c09a7028"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds",
+      "url": "https://cybersecuritynews.com/ghostcode-phishing-kit/",
+      "published": "Wed, 16 Sep 2026 14:54:18 +0000",
+      "published_utc": "2026-09-16T14:54:18+00:00",
+      "summary": "<p>GhostCode is a newly identified phishing kit that turns a normal Microsoft 365 sign-in into an account takeover. It does not need to steal a password. Instead, it persuades people to approve a login that gives criminals access to their work account. The campaign began with ordinary-looking messages submitted through business contact forms. Attackers posed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostcode-phishing-kit/\">GhostCode Phishing Kit Bypasses Microsoft 365 MFA to Hijack Accounts in 78 Seconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163615",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ghostcode-phishing-kit",
+      "content_hash": "c60f787272fa2dd560bf9c81372d06ac1502ad27312bb63edb0c343216415b35",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c60f787272fa2dd560bf9c81372d06ac1502ad27312bb63edb0c343216415b35",
+        "FEEDBURNER": "c60f787272fa2dd560bf9c81372d06ac1502ad27312bb63edb0c343216415b35"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors",
+      "url": "https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/",
+      "published": "Wed, 16 Sep 2026 14:37:38 +0000",
+      "published_utc": "2026-09-16T14:37:38+00:00",
+      "summary": "<p>Microsoft has confirmed a fresh service degradation affecting its Microsoft 365 suite, with users worldwide reporting an inability to access core applications since the evening of September 16, 2026. The incident, tracked internally as MO1472904, began at 7:17 PM GMT+5:30 and has been classified by Microsoft as an active service degradation rather than a full [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-hit-by-new-outage/\">Microsoft 365 Hit by New Outage as Users Report Widespread 502 and 503 Errors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163614",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-365-hit-by-new-outage",
+      "content_hash": "546318e27352b3c38a689bdb98e8427475a07b584fa355b5b1eebc6aa99b5345",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "546318e27352b3c38a689bdb98e8427475a07b584fa355b5b1eebc6aa99b5345",
+        "FEEDBURNER": "546318e27352b3c38a689bdb98e8427475a07b584fa355b5b1eebc6aa99b5345"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "url": "http://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "published": "Wed, 16 Sep 2026 14:36:44 +0000",
+      "published_utc": "2026-09-16T14:36:44+00:00",
+      "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension.\n\nOnce the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6353615840870036819",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "content_hash": "27a1ef53b8cdd217e5319806b4b0f54eac043a420e0d507741c75c85c9a31813",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "27a1ef53b8cdd217e5319806b4b0f54eac043a420e0d507741c75c85c9a31813",
+        "FEEDBURNER": "27a1ef53b8cdd217e5319806b4b0f54eac043a420e0d507741c75c85c9a31813"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:20.352625+00:00",
+      "first_seen_local": "2026-09-16T13:23:20.352622-05:00",
+      "last_updated_utc": "2026-09-16T18:23:20.352625+00:00",
+      "last_updated_local": "2026-09-16T13:23:20.352622-05:00"
+    },
+    {
+      "title": "Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs",
+      "url": "https://cybersecuritynews.com/hackers-can-rent-vectrarat/",
+      "published": "Wed, 16 Sep 2026 14:36:15 +0000",
+      "published_utc": "2026-09-16T14:36:15+00:00",
+      "summary": "<p>Hackers can now rent a Windows-focused remote access tool called VectraRAT for $250 a month, lowering the barrier to deep and persistent compromise. The malware gives paying operators a way to watch victims, steal data, run commands, and move traffic through an infected computer. VectraRAT has surfaced as a rental-only malware service rather than a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-can-rent-vectrarat/\">Hackers Can Rent VectraRAT for $250 a Month to Take Control of Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163611",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-can-rent-vectrarat",
+      "content_hash": "87280acad0fdaef4eb2f62773500b20beee26a0d9ed2f64966376208d07decdc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "87280acad0fdaef4eb2f62773500b20beee26a0d9ed2f64966376208d07decdc",
+        "FEEDBURNER": "87280acad0fdaef4eb2f62773500b20beee26a0d9ed2f64966376208d07decdc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems",
+      "url": "https://cybersecuritynews.com/cross-platform-noodle-rat/",
+      "published": "Wed, 16 Sep 2026 14:03:51 +0000",
+      "published_utc": "2026-09-16T14:03:51+00:00",
+      "summary": "<p>Noodle RAT is a remote-access trojan that gives attackers control of compromised computers and servers. Its renewed visibility matters because it runs on both Windows and Linux, allowing one malware family to follow victims across corporate networks. The tool has appeared in operations against organisations across Asia-Pacific, including Thailand, India, Japan, Malaysia and Taiwan. Operators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cross-platform-noodle-rat/\">Hackers Use Cross-Platform Noodle RAT to Secretly Control Windows and Linux Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163577",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cross-platform-noodle-rat",
+      "content_hash": "9c3190bf6198f8622a3b862df9c5a6f8a18343e592f6f8a92f2fefecf10afb7b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9c3190bf6198f8622a3b862df9c5a6f8a18343e592f6f8a92f2fefecf10afb7b",
+        "FEEDBURNER": "9c3190bf6198f8622a3b862df9c5a6f8a18343e592f6f8a92f2fefecf10afb7b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
+    {
+      "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
+      "url": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
+      "published": "Wed, 16 Sep 2026 13:41:39 +0000",
+      "published_utc": "2026-09-16T13:41:39+00:00",
+      "summary": "<p>A newly identified device-code phishing kit dubbed GhostCode exploits Microsoft Entra device enrollment to maintain access after stolen tokens are revoked. GhostCode begins with business-email social engineering rather than a conventional credential-harvesting page. Operators impersonated procurement staff from legitimate organizations, including BJ’s Wholesale Club, and submitted benign inquiries through Salesforce contact forms. Once a sales [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostcode-abuses-microsoft-entra/\">GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199806",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ghostcode-abuses-microsoft-entra",
+      "content_hash": "daae5c64f1bc68b1c8d3ce98e12bd1b637ed05a72f0e6a3da96477a4cc9939a7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "daae5c64f1bc68b1c8d3ce98e12bd1b637ed05a72f0e6a3da96477a4cc9939a7",
+        "FEEDBURNER": "daae5c64f1bc68b1c8d3ce98e12bd1b637ed05a72f0e6a3da96477a4cc9939a7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
+    {
+      "title": "Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs",
+      "url": "https://cybersecuritynews.com/smishing-hackers/",
+      "published": "Wed, 16 Sep 2026 13:39:36 +0000",
+      "published_utc": "2026-09-16T13:39:36+00:00",
+      "summary": "<p>A new SMS phishing campaign turns a routine payment check into a live fraud session. Victims who tap a link reach convincing pages seeking card details, passwords, and one-time passcodes, while criminals see information as it is entered. The operation uses urgent messages impersonating official services and claiming a fee must be settled, a delivery [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/smishing-hackers/\">Smishing Hackers Can Watch Every Keystroke as Victims Enter Card Details and OTPs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163593",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/smishing-hackers",
+      "content_hash": "be6d97ff172e0adfc0e131d3c581a704686295c9d147b58908dd5d534f1e635f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "be6d97ff172e0adfc0e131d3c581a704686295c9d147b58908dd5d534f1e635f",
+        "FEEDBURNER": "be6d97ff172e0adfc0e131d3c581a704686295c9d147b58908dd5d534f1e635f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:13.653304+00:00",
+      "first_seen_local": "2026-09-16T13:23:13.653301-05:00",
+      "last_updated_utc": "2026-09-16T18:23:13.653304+00:00",
+      "last_updated_local": "2026-09-16T13:23:13.653301-05:00"
+    },
     {
       "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
       "url": "http://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
@@ -62,6 +454,90 @@
       "first_seen_local": "2026-09-16T09:09:56.282876-05:00",
       "last_updated_utc": "2026-09-16T14:09:56.282878+00:00",
       "last_updated_local": "2026-09-16T09:09:56.282876-05:00"
+    },
+    {
+      "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
+      "url": "https://gbhackers.com/vectrarat-malware-as-a-service/",
+      "published": "Wed, 16 Sep 2026 13:11:23 +0000",
+      "published_utc": "2026-09-16T13:11:23+00:00",
+      "summary": "<p>VectraRAT, a previously undocumented Malware-as-a-Service platform that combines remote-access trojan capabilities with automated credential theft and a silent Windows privilege-escalation chain. Unlike the large number of commodity RATs that recycle leaked AsyncRAT, XWorm, or QuasarRAT code, VectraRAT appears to be a purpose-built, full-stack product maintained by a single developer. The platform is rented rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vectrarat-malware-as-a-service/\">VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199780",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/vectrarat-malware-as-a-service",
+      "content_hash": "66472f50ac1edd4080bf4966622bd9f35f0a9ad0029a41b4f2ab0082ea62c2be",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "66472f50ac1edd4080bf4966622bd9f35f0a9ad0029a41b4f2ab0082ea62c2be",
+        "FEEDBURNER": "66472f50ac1edd4080bf4966622bd9f35f0a9ad0029a41b4f2ab0082ea62c2be"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
+    {
+      "title": "TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password",
+      "url": "https://gbhackers.com/tp-link-tapo-camera-flaw/",
+      "published": "Wed, 16 Sep 2026 12:33:57 +0000",
+      "published_utc": "2026-09-16T12:33:57+00:00",
+      "summary": "<p>Security researchers have revealed two vulnerabilities in TP-Link’s Tapo C200 smart camera that could enable nearby network attackers to bypass administrator authentication or disrupt the device&#8217;s management service. Khoi Tran and Thai Do from OPSWAT Unit 515 discovered these vulnerabilities, tracked as CVE-2026-15315 and CVE-2026-15316, during the company’s Critical Infrastructure Cybersecurity Graduate Fellowship Program. TP-Link [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tp-link-tapo-camera-flaw/\">TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199767",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/tp-link-tapo-camera-flaw",
+      "content_hash": "05589edad58edf14a4d812378049b1ea882f2d867a196ab1a7d3367725fbbfea",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "05589edad58edf14a4d812378049b1ea882f2d867a196ab1a7d3367725fbbfea",
+        "FEEDBURNER": "05589edad58edf14a4d812378049b1ea882f2d867a196ab1a7d3367725fbbfea"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
+    },
+    {
+      "title": "Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems",
+      "url": "https://gbhackers.com/noodle-rat-backdoor/",
+      "published": "Wed, 16 Sep 2026 12:28:34 +0000",
+      "published_utc": "2026-09-16T12:28:34+00:00",
+      "summary": "<p>Chinese-speaking threat actors are continuing to rely on Noodle RAT, a cross-platform remote access trojan designed to maintain covert access to compromised Windows workstations and Linux servers. Also tracked as ANGRYREBEL and Nood RAT, the malware has been active since at least mid-2016 but was long mistaken for variants of Gh0st RAT, Rekoobe, and other [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/noodle-rat-backdoor/\">Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199768",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/noodle-rat-backdoor",
+      "content_hash": "c42d99c7f508601012154c2bb3998dbe869c6ca7fa6dd343bde75d805696aeca",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c42d99c7f508601012154c2bb3998dbe869c6ca7fa6dd343bde75d805696aeca",
+        "FEEDBURNER": "c42d99c7f508601012154c2bb3998dbe869c6ca7fa6dd343bde75d805696aeca"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
     },
     {
       "title": "PAPERMILL Hackers Abuse Signed Notepad++ to Deploy VenomRAT in Tax Audit Attacks",
@@ -460,6 +936,32 @@
       "first_seen_local": "2026-09-16T09:09:49.790444-05:00",
       "last_updated_utc": "2026-09-16T14:09:49.790447+00:00",
       "last_updated_local": "2026-09-16T09:09:49.790444-05:00"
+    },
+    {
+      "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-kubernetes-security-compared/",
+      "published": "Wed, 16 Sep 2026 09:52:52 +0000",
+      "published_utc": "2026-09-16T09:52:52+00:00",
+      "summary": "<p>Quick Answer: Kubernetes security quotes hinge on the node-vs-cluster-vs-developer unit choice, and the OSS floor (Kubescape, Falco, Calico, NeuVector, Cilium/Tetragon) resets every negotiation. Sysdig and Aqua lead paid runtime/lifecycle; Cisco (Isovalent) now owns the eBPF network layer; Fairwinds sells governance-as-guardrails; Microsoft Defender publishes the anchor rates. Kubernetes made compute cheap to sprawl and expensive to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-kubernetes-security-compared/\">12 Best Kubernetes Security Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199692",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-kubernetes-security-compared",
+      "content_hash": "396f53d32153ca27d1c61c9caac55ad1bb976ebc5a519cc4751be1dac5ba3ab6",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "396f53d32153ca27d1c61c9caac55ad1bb976ebc5a519cc4751be1dac5ba3ab6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-16T18:23:12.886812+00:00",
+      "first_seen_local": "2026-09-16T13:23:12.886810-05:00",
+      "last_updated_utc": "2026-09-16T18:23:12.886812+00:00",
+      "last_updated_local": "2026-09-16T13:23:12.886810-05:00"
     },
     {
       "title": "Top 10 Best Multi-Cloud Security Platforms in 2026",

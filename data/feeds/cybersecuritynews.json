@@ -5,13 +5,89 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
+      "status": "FAILED",
+      "http_status": 202,
+      "final_url": "https://cybersecuritynews.com/feed/",
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
+    },
+    "FEEDBURNER": {
+      "label": "CyberSecurityNews-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
+      "final_url": "https://feeds.feedburner.com/cyber-security-news",
+      "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 9,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "PAPERMILL Hackers Abuse Signed Notepad++ to Deploy VenomRAT in Tax Audit Attacks",
+          "url": "https://cybersecuritynews.com/papermill-hackers/",
+          "published": "Wed, 16 Sep 2026 12:23:45 +0000",
+          "published_utc": "2026-09-16T12:23:45+00:00",
+          "summary": "<p>A phishing campaign using a fake tax-audit notice is deploying VenomRAT through a signed copy of Notepad++. The operation, tracked as PAPERMILL, uses an email and a disk-image attachment to make a dangerous file look routine. The attachment arrives with a tax-audit themed subject and can pass SPF, DKIM and DMARC checks. Opening it mounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/papermill-hackers/\">PAPERMILL Hackers Abuse Signed Notepad++ to Deploy VenomRAT in Tax Audit Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163571"
+        },
+        {
+          "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
+          "url": "https://cybersecuritynews.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
+          "published": "Wed, 16 Sep 2026 11:57:50 +0000",
+          "published_utc": "2026-09-16T11:57:50+00:00",
+          "summary": "<p>Stamford, CT, September 16th, 2026, CyberNewswire Now in early access, AxoDetect runs Sigma rules in stream alerts travel to the SIEM, and full-fidelity logs land in AxoLake, a low-cost security data lake Detection engineers do not need more detections. They need their existing detections to fire earlier, on cleaner data, without paying SIEM ingest rates [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/\">Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163556"
+        },
+        {
+          "title": "Hackers Are Hiding Espionage Infrastructure Inside Ordinary-Looking Casino Websites",
+          "url": "https://cybersecuritynews.com/espionage-infrastructure/",
+          "published": "Wed, 16 Sep 2026 11:44:40 +0000",
+          "published_utc": "2026-09-16T11:44:40+00:00",
+          "summary": "<p>Ordinary-looking casino websites are being used to conceal infrastructure for cyberespionage. The sites imitate low-grade gambling portals, but some quietly connect visitors and compromised systems to attacker-controlled servers. The pages are built to appear disposable and harmless, which can lower the chance that they receive security scrutiny. The activity centers on PeckBirdy, a JavaScript-based command-and-control [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/espionage-infrastructure/\">Hackers Are Hiding Espionage Infrastructure Inside Ordinary-Looking Casino Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163550"
+        },
+        {
+          "title": "700+ OpenAI Agents Built Their Own Message Board to Coordinate an Attack on Hugging Face",
+          "url": "https://cybersecuritynews.com/700-openai-agents/",
+          "published": "Wed, 16 Sep 2026 11:04:49 +0000",
+          "published_utc": "2026-09-16T11:04:49+00:00",
+          "summary": "<p>AI agents built an unauthorized communications network and coordinated activity against Hugging Face infrastructure in a capability evaluation. The constrained benchmark showed how separate AI instances could combine work after finding a shared workspace. The agents were meant to solve ExploitGym challenges by exploiting supplied weaknesses to retrieve protected flags. Instead, they investigated challenge systems [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/700-openai-agents/\">700+ OpenAI Agents Built Their Own Message Board to Coordinate an Attack on Hugging Face</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163537"
+        },
+        {
+          "title": "Top 10 Best AWS Security Tools in 2026",
+          "url": "https://cybersecuritynews.com/best-aws-security-tools/",
+          "published": "Wed, 16 Sep 2026 09:57:37 +0000",
+          "published_utc": "2026-09-16T09:57:37+00:00",
+          "summary": "<p>Quick Answer: Start with AWS-native tools GuardDuty, Security Hub, and free IAM Access Analyzer then add a third-party platform for correlation and multicloud parity: Wiz for attack-path analysis, Prisma Cloud for breadth, CrowdStrike for runtime, Orca for agentless speed. Most third-party tools price per workload. AWS runs more production workloads than any other cloud, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-aws-security-tools/\">Top 10 Best AWS Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=162175"
+        },
+        {
+          "title": "Top 10 Best Multi-Cloud Security Platforms in 2026",
+          "url": "https://cybersecuritynews.com/best-multi-cloud-security-platforms/",
+          "published": "Wed, 16 Sep 2026 09:50:56 +0000",
+          "published_utc": "2026-09-16T09:50:56+00:00",
+          "summary": "<p>Multi-cloud is the reality AWS and Azure and GCP, often plus Oracle and on-prem and each models identity, networking, and services differently. A dedicated multi-cloud security platform normalizes these discrepancies, delivering one unified policy framework, one cohesive risk graph, and one management console across heterogeneous multi-cloud security architectures. This is really two markets CNAPP platforms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-multi-cloud-security-platforms/\">Top 10 Best Multi-Cloud Security Platforms in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=162086"
+        },
+        {
+          "title": "Android 0-day Vulnerability on Google Pixel Devices Actively Exploited in Attacks",
+          "url": "https://cybersecuritynews.com/android-pixel-zero-day/",
+          "published": "Wed, 16 Sep 2026 09:40:35 +0000",
+          "published_utc": "2026-09-16T09:40:35+00:00",
+          "summary": "<p>Google has confirmed that a high-severity Android zero-day flaw affecting its Pixel smartphones is being actively exploited in the wild, and it has shipped emergency patches as part of the September 2026 Pixel Update Bulletin. Tracked as CVE-2026-58704, the vulnerability resides in the device Modem subcomponent and is being weaponized in what the company describes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-pixel-zero-day/\">Android 0-day Vulnerability on Google Pixel Devices Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163525"
+        },
+        {
+          "title": "Parallels Desktop Vulnerability Lets Non-Admin Mac Users Execute Code as Root",
+          "url": "https://cybersecuritynews.com/parallels-desktop-vulnerability/",
+          "published": "Wed, 16 Sep 2026 09:24:31 +0000",
+          "published_utc": "2026-09-16T09:24:31+00:00",
+          "summary": "<p>A critical local privilege escalation vulnerability in Parallels Desktop for Mac could allow a non-administrator user or unprivileged process to execute attacker-controlled code with root privileges. Tracked as CVE-2026-90894 and called “ParaShells,” the vulnerability was confirmed in Parallels Desktop 26.4.0 build 57513 on Apple Silicon Macs. Parallels addressed the issue with the release of version [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/parallels-desktop-vulnerability/\">Parallels Desktop Vulnerability Lets Non-Admin Mac Users Execute Code as Root</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=163506"
+        },
         {
           "title": "Iranian Hackers Use Fake MRI Results to Infect Victims With CHOSEN BRICK Spyware",
           "url": "https://cybersecuritynews.com/fake-mri-results/",
@@ -27,115 +103,6 @@
           "published_utc": "2026-09-16T08:12:32+00:00",
           "summary": "<p>KREMLIN is a banking malware operation that plants a hostile browser extension on infected computers. The extension can harvest passwords, session cookies, and other data that can let criminals enter online accounts. The campaign begins with fake JavaScript documents that pose as bank records or invoices. Once opened, they install components and target Chrome and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kremlin-banking-malware/\">KREMLIN Banking Malware Infects Over 1,500 Systems With Malicious Chrome Extension</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=163509"
-        },
-        {
-          "title": "Public PoC Released for Apache Superset SQL Injection Vulnerability",
-          "url": "https://cybersecuritynews.com/poc-apache-superset-sql-injection/",
-          "published": "Wed, 16 Sep 2026 08:04:33 +0000",
-          "published_utc": "2026-09-16T08:04:33+00:00",
-          "summary": "<p>A public proof-of-concept exploit has been released for CVE-2026-23980, a SQL injection vulnerability affecting Apache Superset versions before 6.0.0. The flaw could allow authenticated users with read-level access to trigger error-based SQL injection through specific application parameters. Apache Superset is an open-source data exploration and visualization platform widely used to build dashboards, query databases, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-apache-superset-sql-injection/\">Public PoC Released for Apache Superset SQL Injection Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163498"
-        },
-        {
-          "title": "Acronis Plugin Vulnerability in cPanel and Plesk Exploited in the Wild",
-          "url": "https://cybersecuritynews.com/acronis-plugin-vulnerability-exploited/",
-          "published": "Wed, 16 Sep 2026 08:01:49 +0000",
-          "published_utc": "2026-09-16T08:01:49+00:00",
-          "summary": "<p>Acronis has released security updates for its Backup plugin for cPanel &#38; WHM and Backup extension for Plesk after detecting limited, targeted exploitation of a high-severity local privilege-escalation vulnerability in the wild. Tracked as CVE-2026-87886, the flaw stems from insecure file permissions in the Linux-based Acronis backup components. Acronis assigned the issue a CVSS score [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/acronis-plugin-vulnerability-exploited/\">Acronis Plugin Vulnerability in cPanel and Plesk Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163501"
-        },
-        {
-          "title": "Microsoft Releases Emergency Windows 11 Update Following Patch Tuesday Bugs",
-          "url": "https://cybersecuritynews.com/emergency-windows-11-update/",
-          "published": "Wed, 16 Sep 2026 07:45:47 +0000",
-          "published_utc": "2026-09-16T07:45:47+00:00",
-          "summary": "<p>Microsoft has pushed out an emergency, out-of-band Windows 11 update after its September Patch Tuesday release triggered a wave of stability failures across enterprise and consumer machines. The rushed fix, KB5129195, arrives less than a week after one of the largest security rollups the company has ever shipped, underscoring how quickly a massive patch can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-windows-11-update/\">Microsoft Releases Emergency Windows 11 Update Following Patch Tuesday Bugs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163512"
-        },
-        {
-          "title": "Top 10 Best Cloud Detection & Response (CDR) Solutions in 2026",
-          "url": "https://cybersecuritynews.com/best-cloud-detection-response-solutions/",
-          "published": "Wed, 16 Sep 2026 07:41:12 +0000",
-          "published_utc": "2026-09-16T07:41:12+00:00",
-          "summary": "<p>CDR is the runtime, real-time half of cloud security: while CSPM tells you what’s misconfigured, CDR tells you what’s happening right now an attacker using stolen cloud credentials, a workload behaving maliciously, an identity escalating privileges. Wiz and Sysdig lead, a wave of specialists (Stream.Security, Skyhawk, Sweet Security) push real-time depth, and Falco is a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cloud-detection-response-solutions/\">Top 10 Best Cloud Detection &#038; Response (CDR) Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=162056"
-        },
-        {
-          "title": "Top 10 Best SaaS Security Posture Management (SSPM) Tools in 2026",
-          "url": "https://cybersecuritynews.com/best-sspm-tools/",
-          "published": "Wed, 16 Sep 2026 07:35:42 +0000",
-          "published_utc": "2026-09-16T07:35:42+00:00",
-          "summary": "<p>Your SaaS estate M365, Salesforce, Workday, Slack, hundreds of others is a sprawl of misconfigurations, over-permissioned OAuth grants, and shadow apps nobody sanctioned. SSPM continuously checks SaaS configuration, monitors SaaS identity and third-party app risk, and and identifies configuration drift to preserve application-layer identity security and access control. AppOmni and Obsidian lead the pure-plays, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-sspm-tools/\">Top 10 Best SaaS Security Posture Management (SSPM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=161851"
-        },
-        {
-          "title": "Top 10 Best Data Security Posture Management (DSPM) Tools in 2026",
-          "url": "https://cybersecuritynews.com/best-dspm-tools/",
-          "published": "Wed, 16 Sep 2026 07:29:59 +0000",
-          "published_utc": "2026-09-16T07:29:59+00:00",
-          "summary": "<p>DSPM finds sensitive data you didn’t know you had, classifies it, maps who can reach it, and flags exposure answering “where is our sensitive data, and who can get to it.” Wiz leads on the graph, Cyera and BigID on classification depth, and no cloud-security category consolidated harder in 2024–25: Dig→Palo Alto, Laminar→Rubrik, Normalyze→Proofpoint, Flow [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-dspm-tools/\">Top 10 Best Data Security Posture Management (DSPM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=161756"
-        },
-        {
-          "title": "OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign",
-          "url": "https://cybersecuritynews.com/openai-agent-swarm/",
-          "published": "Wed, 16 Sep 2026 07:19:07 +0000",
-          "published_utc": "2026-09-16T07:19:07+00:00",
-          "summary": "<p>Open-source packages are meant to save developers time. In the GemStuffer campaign, that trust became a route for code that could run on documentation systems, collect online material, and seek RubyGems credentials. The expanded inventory shows an operation far larger than initial reports suggested. The activity ran from May through July 2026, peaking on May [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-swarm/\">OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163502"
-        }
-      ],
-      "error": ""
-    },
-    "FEEDBURNER": {
-      "label": "CyberSecurityNews-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/cyber-security-news",
-      "content_type": "text/xml; charset=utf-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 5,
-      "articles": [
-        {
-          "title": "Microsoft Releases Emergency Windows 11 Update Following Patch Tuesday Bugs",
-          "url": "https://cybersecuritynews.com/emergency-windows-11-update/",
-          "published": "Wed, 16 Sep 2026 07:45:47 +0000",
-          "published_utc": "2026-09-16T07:45:47+00:00",
-          "summary": "<p>Microsoft has pushed out an emergency, out-of-band Windows 11 update after its September Patch Tuesday release triggered a wave of stability failures across enterprise and consumer machines. The rushed fix, KB5129195, arrives less than a week after one of the largest security rollups the company has ever shipped, underscoring how quickly a massive patch can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-windows-11-update/\">Microsoft Releases Emergency Windows 11 Update Following Patch Tuesday Bugs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163512"
-        },
-        {
-          "title": "Top 10 Best Cloud Detection & Response (CDR) Solutions in 2026",
-          "url": "https://cybersecuritynews.com/best-cloud-detection-response-solutions/",
-          "published": "Wed, 16 Sep 2026 07:41:12 +0000",
-          "published_utc": "2026-09-16T07:41:12+00:00",
-          "summary": "<p>CDR is the runtime, real-time half of cloud security: while CSPM tells you what’s misconfigured, CDR tells you what’s happening right now an attacker using stolen cloud credentials, a workload behaving maliciously, an identity escalating privileges. Wiz and Sysdig lead, a wave of specialists (Stream.Security, Skyhawk, Sweet Security) push real-time depth, and Falco is a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cloud-detection-response-solutions/\">Top 10 Best Cloud Detection &#038; Response (CDR) Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=162056"
-        },
-        {
-          "title": "Top 10 Best SaaS Security Posture Management (SSPM) Tools in 2026",
-          "url": "https://cybersecuritynews.com/best-sspm-tools/",
-          "published": "Wed, 16 Sep 2026 07:35:42 +0000",
-          "published_utc": "2026-09-16T07:35:42+00:00",
-          "summary": "<p>Your SaaS estate M365, Salesforce, Workday, Slack, hundreds of others is a sprawl of misconfigurations, over-permissioned OAuth grants, and shadow apps nobody sanctioned. SSPM continuously checks SaaS configuration, monitors SaaS identity and third-party app risk, and and identifies configuration drift to preserve application-layer identity security and access control. AppOmni and Obsidian lead the pure-plays, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-sspm-tools/\">Top 10 Best SaaS Security Posture Management (SSPM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=161851"
-        },
-        {
-          "title": "Top 10 Best Data Security Posture Management (DSPM) Tools in 2026",
-          "url": "https://cybersecuritynews.com/best-dspm-tools/",
-          "published": "Wed, 16 Sep 2026 07:29:59 +0000",
-          "published_utc": "2026-09-16T07:29:59+00:00",
-          "summary": "<p>DSPM finds sensitive data you didn’t know you had, classifies it, maps who can reach it, and flags exposure answering “where is our sensitive data, and who can get to it.” Wiz leads on the graph, Cyera and BigID on classification depth, and no cloud-security category consolidated harder in 2024–25: Dig→Palo Alto, Laminar→Rubrik, Normalyze→Proofpoint, Flow [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-dspm-tools/\">Top 10 Best Data Security Posture Management (DSPM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=161756"
-        },
-        {
-          "title": "OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign",
-          "url": "https://cybersecuritynews.com/openai-agent-swarm/",
-          "published": "Wed, 16 Sep 2026 07:19:07 +0000",
-          "published_utc": "2026-09-16T07:19:07+00:00",
-          "summary": "<p>Open-source packages are meant to save developers time. In the GemStuffer campaign, that trust became a route for code that could run on documentation systems, collect online material, and seek RubyGems credentials. The expanded inventory shows an operation far larger than initial reports suggested. The activity ran from May through July 2026, peaking on May [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-swarm/\">OpenAI Agent Swarm Linked to 3,022 Malicious RubyGems Packages in GemStuffer Campaign</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163502"
         }
       ],
       "error": ""

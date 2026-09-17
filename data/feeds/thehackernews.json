@@ -10,8 +10,40 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 6,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+          "url": "http://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+          "published": "Thu, 17 Sep 2026 14:03:13 +0000",
+          "published_utc": "2026-09-17T14:03:13+00:00",
+          "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5301152174444270498"
+        },
+        {
+          "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+          "url": "http://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+          "published": "Thu, 17 Sep 2026 12:30:00 +0000",
+          "published_utc": "2026-09-17T12:30:00+00:00",
+          "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution.\n\nUnbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3519186049028689274"
+        },
+        {
+          "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+          "url": "http://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+          "published": "Thu, 17 Sep 2026 11:50:00 +0000",
+          "published_utc": "2026-09-17T11:50:00+00:00",
+          "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1178149601848638223"
+        },
+        {
+          "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+          "url": "http://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+          "published": "Thu, 17 Sep 2026 10:50:53 +0000",
+          "published_utc": "2026-09-17T10:50:53+00:00",
+          "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production.\n\nTL;DR\n\nExploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-855092956312150936"
+        },
         {
           "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
           "url": "http://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
@@ -71,8 +103,81 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 9,
+      "articles": [
+        {
+          "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+          "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+          "published": "Thu, 17 Sep 2026 18:00:00 +0530",
+          "published_utc": "2026-09-17T12:30:00+00:00",
+          "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution.\n\nUnbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
+          "id": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html"
+        },
+        {
+          "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+          "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+          "published": "Thu, 17 Sep 2026 17:20:00 +0530",
+          "published_utc": "2026-09-17T11:50:00+00:00",
+          "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+          "id": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
+        },
+        {
+          "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+          "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+          "published": "Thu, 17 Sep 2026 16:20:53 +0530",
+          "published_utc": "2026-09-17T10:50:53+00:00",
+          "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production.\n\nTL;DR\n\nExploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
+          "id": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html"
+        },
+        {
+          "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+          "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+          "published": "Thu, 17 Sep 2026 15:35:45 +0530",
+          "published_utc": "2026-09-17T10:05:45+00:00",
+          "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News",
+          "id": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html"
+        },
+        {
+          "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+          "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+          "published": "Thu, 17 Sep 2026 15:23:38 +0530",
+          "published_utc": "2026-09-17T09:53:38+00:00",
+          "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the",
+          "id": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html"
+        },
+        {
+          "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+          "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+          "published": "Thu, 17 Sep 2026 13:30:29 +0530",
+          "published_utc": "2026-09-17T08:00:29+00:00",
+          "summary": "The Internet Systems Consortium (ISC) has released&nbsp;BIND 9.20.29 and 9.21.26&nbsp;to fix fourteen security flaws it&nbsp;disclosed&nbsp;on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH).\n\nA sender with no credentials can crash the server process,&nbsp;named, with a single request that carries an invalid SIG",
+          "id": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html"
+        },
+        {
+          "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+          "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+          "published": "Thu, 17 Sep 2026 13:00:01 +0530",
+          "published_utc": "2026-09-17T07:30:01+00:00",
+          "summary": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbsp;published Wednesday.\n\nIt also exposed about 490 million image metadata records, mostly for images from January 2019 or earlier, including the IDs that make up Gyazo image links.\n\nHelpfeel said",
+          "id": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html"
+        },
+        {
+          "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+          "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+          "published": "Thu, 17 Sep 2026 12:09:40 +0530",
+          "published_utc": "2026-09-17T06:39:40+00:00",
+          "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication.\n\n\"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker",
+          "id": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html"
+        },
+        {
+          "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+          "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+          "published": "Thu, 17 Sep 2026 10:43:46 +0530",
+          "published_utc": "2026-09-17T05:13:46+00:00",
+          "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure banner that states -\n\n\"This domain has been seized by the",
+          "id": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html"
+        }
+      ],
       "error": ""
     }
   }

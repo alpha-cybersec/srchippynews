@@ -2,8 +2,118 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 26,
+  "article_count": 30,
   "articles": [
+    {
+      "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+      "url": "http://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+      "published": "Thu, 17 Sep 2026 14:03:13 +0000",
+      "published_utc": "2026-09-17T14:03:13+00:00",
+      "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5301152174444270498",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+      "content_hash": "e86cea0870b3578cccf3ad66ee2e99386ca7dc170d7f81a6255fa89d4a20e2cb",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e86cea0870b3578cccf3ad66ee2e99386ca7dc170d7f81a6255fa89d4a20e2cb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
+    },
+    {
+      "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+      "url": "http://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "published": "Thu, 17 Sep 2026 12:30:00 +0000",
+      "published_utc": "2026-09-17T12:30:00+00:00",
+      "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution.\n\nUnbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3519186049028689274",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "content_hash": "9d12f0a83e7644a0c41ac86a6642a71b6e26227837934f4fa0794c28427e1bb9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9d12f0a83e7644a0c41ac86a6642a71b6e26227837934f4fa0794c28427e1bb9",
+        "FEEDBURNER": "9d12f0a83e7644a0c41ac86a6642a71b6e26227837934f4fa0794c28427e1bb9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
+    },
+    {
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "url": "http://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "published": "Thu, 17 Sep 2026 11:50:00 +0000",
+      "published_utc": "2026-09-17T11:50:00+00:00",
+      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1178149601848638223",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "content_hash": "18df527173853442d8a93f425477891785dfbb8f1a1fb8efca06c1b74b57abaf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "18df527173853442d8a93f425477891785dfbb8f1a1fb8efca06c1b74b57abaf",
+        "FEEDBURNER": "18df527173853442d8a93f425477891785dfbb8f1a1fb8efca06c1b74b57abaf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
+    },
+    {
+      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "url": "http://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "published": "Thu, 17 Sep 2026 10:50:53 +0000",
+      "published_utc": "2026-09-17T10:50:53+00:00",
+      "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production.\n\nTL;DR\n\nExploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-855092956312150936",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "content_hash": "fe242b5eeddc859e881bb646ef9839a4c5fc173d656aaebf84bd444adf6ac806",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fe242b5eeddc859e881bb646ef9839a4c5fc173d656aaebf84bd444adf6ac806",
+        "FEEDBURNER": "fe242b5eeddc859e881bb646ef9839a4c5fc173d656aaebf84bd444adf6ac806"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
+    },
     {
       "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
       "url": "http://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",

@@ -1,587 +1,698 @@
 {
-  "generated_at_utc": "2026-09-17T10:22:23.731543+00:00",
-  "generated_at_local": "2026-09-17T05:22:23.731550-05:00",
-  "article_count": 22,
-  "new_count": 21,
-  "updated_count": 1,
+  "generated_at_utc": "2026-09-17T15:17:13.380389+00:00",
+  "generated_at_local": "2026-09-17T10:17:13.380394-05:00",
+  "article_count": 25,
+  "new_count": 25,
+  "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 7,
-    "gbhackers": 9,
-    "thehackernews": 6
+    "cybersecuritynews": 11,
+    "thehackernews": 4,
+    "gbhackers": 10
   },
   "articles": [
     {
-      "title": "APT36 Uses USB-Spreading Malware to Reach Air-Gapped Government Networks",
-      "url": "https://cybersecuritynews.com/apt36-uses-usb/",
-      "published": "Thu, 17 Sep 2026 10:17:21 +0000",
-      "published_utc": "2026-09-17T10:17:21+00:00",
-      "summary": "<p>APT36, a Pakistan-linked threat group, has launched a campaign that uses infected removable drives to carry malware into disconnected government environments. The operation, called RapidRust, targets India and Afghanistan with a backdoor, file stealers, and a USB-spreading tool. This approach is important because air-gapped networks are separated from the internet to protect sensitive systems. A [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apt36-uses-usb/\">APT36 Uses USB-Spreading Malware to Reach Air-Gapped Government Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163687",
+      "title": "BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes",
+      "url": "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/",
+      "published": "Thu, 17 Sep 2026 14:58:48 +0000",
+      "published_utc": "2026-09-17T14:58:48+00:00",
+      "summary": "<p>Internet Systems Consortium has released security updates for BIND 9 after identifying 14 vulnerabilities that could allow attackers to poison DNS caches, crash exposed servers remotely, exhaust resources, or bypass DNSSEC protections. Administrators running recursive BIND resolvers should apply the latest patched releases as soon as possible. The most serious issues affect the named daemon, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/\">BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163713",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/apt36-uses-usb",
-      "content_hash": "c0b2066cca3007e233cd1958a6d56eb410f0a0c0e34a243391524a464fa4ae5d",
+      "article_key": "cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws",
+      "content_hash": "9af98645c4c3bbf85c58250fff6e48229909417602022dc1ee386c7a68dcb051",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "c0b2066cca3007e233cd1958a6d56eb410f0a0c0e34a243391524a464fa4ae5d"
+        "ORIGINAL": "9af98645c4c3bbf85c58250fff6e48229909417602022dc1ee386c7a68dcb051"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
     },
     {
-      "title": "Hackers Exploit Critical Cisco ISE Flaw to Bypass Authentication and Gain Root Access",
-      "url": "https://gbhackers.com/hackers-exploit-critical-cisco-ise-flaw/",
-      "published": "Thu, 17 Sep 2026 10:06:08 +0000",
-      "published_utc": "2026-09-17T10:06:08+00:00",
-      "summary": "<p>Cisco has issued an urgent security advisory regarding a critical authentication-bypass vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC). This vulnerability, tracked as CVE-2026-76460, has a maximum CVSS score of 10.0 and could allow unauthenticated remote attackers to gain unauthorized access to vulnerable devices. Cisco advisory cisco-sa-ISE-ABP-VNSW7Tn5 details the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-critical-cisco-ise-flaw/\">Hackers Exploit Critical Cisco ISE Flaw to Bypass Authentication and Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199944",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-exploit-critical-cisco-ise-flaw",
-      "content_hash": "13ce955bcfb14fd146602e045ee06345e43550a8ae98210443f70bf6822b9b61",
+      "title": "CISA Wants Defenders to Plant Fake Credentials and Systems to Catch Hackers",
+      "url": "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/",
+      "published": "Thu, 17 Sep 2026 14:28:51 +0000",
+      "published_utc": "2026-09-17T14:28:51+00:00",
+      "summary": "<p>CISA has urged organizations to deploy fake credentials, systems, files, and data assets inside their environments to expose attackers after an initial compromise. The agency published its new guidance, Using Cyber Decoys to Strengthen Detection and Response, on September 16, 2026. CISA said many attackers now avoid malware-heavy intrusion methods and instead abuse legitimate user [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/\">CISA Wants Defenders to Plant Fake Credentials and Systems to Catch Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163685",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cisa-fake-credentials-catch-hackers",
+      "content_hash": "7d933011f1844f8dd1e5841b2f79dd2ff95c5a4b0ce5869da7ece1cd0063e86c",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "13ce955bcfb14fd146602e045ee06345e43550a8ae98210443f70bf6822b9b61"
+        "ORIGINAL": "7d933011f1844f8dd1e5841b2f79dd2ff95c5a4b0ce5869da7ece1cd0063e86c"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
     },
     {
-      "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-      "url": "http://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-      "published": "Thu, 17 Sep 2026 10:05:45 +0000",
-      "published_utc": "2026-09-17T10:05:45+00:00",
-      "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7961456925629095461",
+      "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+      "url": "http://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+      "published": "Thu, 17 Sep 2026 14:03:13 +0000",
+      "published_utc": "2026-09-17T14:03:13+00:00",
+      "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5301152174444270498",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-      "content_hash": "59cd097df14da28473d576a2d02b60dc66d4542344d28ab2f3cd3eb159ce143a",
+      "article_key": "thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+      "content_hash": "e86cea0870b3578cccf3ad66ee2e99386ca7dc170d7f81a6255fa89d4a20e2cb",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "59cd097df14da28473d576a2d02b60dc66d4542344d28ab2f3cd3eb159ce143a"
+        "ORIGINAL": "e86cea0870b3578cccf3ad66ee2e99386ca7dc170d7f81a6255fa89d4a20e2cb"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
-      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
-      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
-      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
     },
     {
-      "title": "BlackHatSect0r Uses DeepSeek-Powered AI Agent to Automate Attacks and Harvest 16,834 Credentials",
-      "url": "https://cybersecuritynews.com/blackhatsect0r-ai-agent/",
-      "published": "Thu, 17 Sep 2026 09:59:30 +0000",
-      "published_utc": "2026-09-17T09:59:30+00:00",
-      "summary": "<p>BlackHatSect0r &#38;&#38; DXQRTXX has been linked to an automated cybercrime operation that used an AI agent connected to a DeepSeek model to scan for exposed secrets, test stolen access, and feed results into a custom control platform. The activity shows how common security gaps can be abused at machine speed.An exposed operation server contained 4.9 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/blackhatsect0r-ai-agent/\">BlackHatSect0r Uses DeepSeek-Powered AI Agent to Automate Attacks and Harvest 16,834 Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163679",
+      "title": "“Zero-Code Cloaking”: Attackers Weaponize Google Search and Hacked .ac.th Domain to Bypass Ad Moderation",
+      "url": "https://gbhackers.com/zero-code-cloaking-attackers-weaponize-google-search-and-hacked-ac-th-domain-to-bypass-ad-moderation/",
+      "published": "Thu, 17 Sep 2026 14:01:33 +0000",
+      "published_utc": "2026-09-17T14:01:33+00:00",
+      "summary": "<p>Security researchers at ADEX have documented a cloaking technique that requires no cloaking code at all. Instead of running user-agent detection on attacker-controlled servers, the operators chained together three fully legitimate components a Google search results page, a hacked educational website, and a standard redirect in an evasion strategy designed to bypass Google Ads screening [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zero-code-cloaking-attackers-weaponize-google-search-and-hacked-ac-th-domain-to-bypass-ad-moderation/\">“Zero-Code Cloaking”: Attackers Weaponize Google Search and Hacked .ac.th Domain to Bypass Ad Moderation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200000",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/zero-code-cloaking-attackers-weaponize-google-search-and-hacked-ac-th-domain-to-bypass-ad-moderation",
+      "content_hash": "b216d29efcacffee9cf17e4ecf4fd48dc532b8b33d1f8f070091a5acd17ffb82",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b216d29efcacffee9cf17e4ecf4fd48dc532b8b33d1f8f070091a5acd17ffb82"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
+    },
+    {
+      "title": "Handala Hack Uses CRUDEEXCLUDE to Disable Defender Protections and Deploy HEAVYGRAM",
+      "url": "https://gbhackers.com/heavygram-malware-deployment/",
+      "published": "Thu, 17 Sep 2026 13:46:47 +0000",
+      "published_utc": "2026-09-17T13:46:47+00:00",
+      "summary": "<p>A previously undocumented HEAVYGRAM and CRUDEEXCLUDE malware samples linked with moderate confidence to the Iran-aligned Handala Hack operation. The campaign combines targeted social engineering, Microsoft Defender exclusion abuse, multi-stage loaders, and Telegram-based command-and-control to surveil Iranian dissidents, journalists, and people perceived as opponents of the Iranian government. The research expands on U.S. government disclosures issued [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/heavygram-malware-deployment/\">Handala Hack Uses CRUDEEXCLUDE to Disable Defender Protections and Deploy HEAVYGRAM</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200025",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/heavygram-malware-deployment",
+      "content_hash": "8550842b6280fd4c609c437a2b183d6f07c19176757509aaa9e35ee1f6f245f4",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8550842b6280fd4c609c437a2b183d6f07c19176757509aaa9e35ee1f6f245f4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
+    },
+    {
+      "title": "Hacked Thai College Website Abused to Redirect Google Searchers to Illegal Online Casino",
+      "url": "https://cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino/",
+      "published": "Thu, 17 Sep 2026 13:34:09 +0000",
+      "published_utc": "2026-09-17T13:34:09+00:00",
+      "summary": "<p>A compromised Thai college website was quietly turned into a springboard for an illegal online casino, according to new findings from anti-fraud platform ADEX, which says the campaign achieved full ad cloaking without deploying a single line of cloaking code, mirroring evasion tactics seen in campaigns designed to bypass Google Ads screening. The scheme, uncovered [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino/\">Hacked Thai College Website Abused to Redirect Google Searchers to Illegal Online Casino</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163728",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/blackhatsect0r-ai-agent",
-      "content_hash": "d443053c9292e8f07bfcc39b4cb2111886720d78434186033fd0672c7a7d4e5e",
+      "article_key": "cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino",
+      "content_hash": "ef5092cc06e68f85e4f18d9a4d225e4b43449b2febe1889094ae851cac0ee0e0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ef5092cc06e68f85e4f18d9a4d225e4b43449b2febe1889094ae851cac0ee0e0",
+        "FEEDBURNER": "ef5092cc06e68f85e4f18d9a4d225e4b43449b2febe1889094ae851cac0ee0e0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "SilkParasite Hackers Use SpiceRAT Infrastructure to Target Central Asian Governments and Energy Firms",
+      "url": "https://gbhackers.com/spicerat-infrastructure/",
+      "published": "Thu, 17 Sep 2026 13:12:50 +0000",
+      "published_utc": "2026-09-17T13:12:50+00:00",
+      "summary": "<p>A wider cluster of SpiceRAT command-and-control infrastructure has been linked to the SilkParasite cyber-espionage activity targeting government, telecommunications, and energy-related entities across Central Asia. The infrastructure findings extend the operational footprint around servers previously associated with the suspected China-nexus cluster, but do not establish that any impersonated organization was compromised. Detection logic derived from Cisco [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/spicerat-infrastructure/\">SilkParasite Hackers Use SpiceRAT Infrastructure to Target Central Asian Governments and Energy Firms</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200012",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/spicerat-infrastructure",
+      "content_hash": "9e196212fb3da67429d4e83eb5afea0ed7915a1422ba0dfd34d8b5b8edf4c4f5",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "d443053c9292e8f07bfcc39b4cb2111886720d78434186033fd0672c7a7d4e5e"
+        "ORIGINAL": "9e196212fb3da67429d4e83eb5afea0ed7915a1422ba0dfd34d8b5b8edf4c4f5"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
     },
     {
-      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-      "url": "http://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-      "published": "Thu, 17 Sep 2026 09:53:38 +0000",
-      "published_utc": "2026-09-17T09:53:38+00:00",
-      "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6499015845672032894",
+      "title": "Hackers Turn Telegram Into a Command Center for HEAVYGRAM Surveillance Malware",
+      "url": "https://cybersecuritynews.com/heavygram-surveillance-malware/",
+      "published": "Thu, 17 Sep 2026 12:53:07 +0000",
+      "published_utc": "2026-09-17T12:53:07+00:00",
+      "summary": "<p>HEAVYGRAM is a Windows surveillance backdoor that turns Telegram into an operational command center for attackers. Rather than relying on a dedicated server, it uses bots, accounts and groups to receive instructions, move stolen data and keep infected devices under control. The malware has been used since fall 2023 against journalists, Iranian dissidents and people [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/heavygram-surveillance-malware/\">Hackers Turn Telegram Into a Command Center for HEAVYGRAM Surveillance Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163727",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/heavygram-surveillance-malware",
+      "content_hash": "2ebaad2aa6022ae6b140651218d21e46d1f88dced680633c70f27a5dbd03300c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2ebaad2aa6022ae6b140651218d21e46d1f88dced680633c70f27a5dbd03300c",
+        "FEEDBURNER": "2ebaad2aa6022ae6b140651218d21e46d1f88dced680633c70f27a5dbd03300c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "North Korean IT Workers Pay People to Sit Through Job Interviews While They Control the Computer",
+      "url": "https://gbhackers.com/proxy-interviews-scam/",
+      "published": "Thu, 17 Sep 2026 12:51:13 +0000",
+      "published_utc": "2026-09-17T12:51:13+00:00",
+      "summary": "<p>North Korean IT-worker operators are recruiting foreign nationals to sit on camera during remote job interviews. At the same time, the real candidate provides answers, completes coding tasks, or remotely controls the proxy’s computer, according to new research from Silent Push. The campaign turns ordinary job seekers into identity and payment intermediaries, creating a direct [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/proxy-interviews-scam/\">North Korean IT Workers Pay People to Sit Through Job Interviews While They Control the Computer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200006",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/proxy-interviews-scam",
+      "content_hash": "6a98e75263c6dcea8e1ff3014f3d8b9d0c1469070332a2907582a87f23c13e8b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6a98e75263c6dcea8e1ff3014f3d8b9d0c1469070332a2907582a87f23c13e8b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
+    },
+    {
+      "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+      "url": "http://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "published": "Thu, 17 Sep 2026 12:30:00 +0000",
+      "published_utc": "2026-09-17T12:30:00+00:00",
+      "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution.\n\nUnbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3519186049028689274",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-      "content_hash": "25b6ffb1fc78f425bf1095c47dbcb54bbdf5e1242b10568dcaad1c0f61da6935",
+      "article_key": "thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "content_hash": "9d12f0a83e7644a0c41ac86a6642a71b6e26227837934f4fa0794c28427e1bb9",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "25b6ffb1fc78f425bf1095c47dbcb54bbdf5e1242b10568dcaad1c0f61da6935"
+        "ORIGINAL": "9d12f0a83e7644a0c41ac86a6642a71b6e26227837934f4fa0794c28427e1bb9",
+        "FEEDBURNER": "9d12f0a83e7644a0c41ac86a6642a71b6e26227837934f4fa0794c28427e1bb9"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
-      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
-      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
-      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
     },
     {
-      "title": "APT36 Targets Indian Government and Defense Organizations With New Rust Malware Arsenal",
-      "url": "https://gbhackers.com/apt36-malware-campaign/",
-      "published": "Thu, 17 Sep 2026 09:42:38 +0000",
-      "published_utc": "2026-09-17T09:42:38+00:00",
-      "summary": "<p>Pakistan-nexus threat actor APT36 has launched a renewed espionage campaign targeting government and defense organizations in India and Afghanistan. Deploying a new Rust-based malware suite designed for covert command-and-control, data theft, and propagation into isolated networks. Tracked by Zscaler ThreatLabz as Operation RapidRust, the activity was observed in August 2026 and reflects a significant evolution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apt36-malware-campaign/\">APT36 Targets Indian Government and Defense Organizations With New Rust Malware Arsenal</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199915",
+      "title": "SilkParasite-Linked Malware Infrastructure Traced Back Four Years Across Central Asia",
+      "url": "https://cybersecuritynews.com/silkparasite-linked-malware/",
+      "published": "Thu, 17 Sep 2026 12:26:57 +0000",
+      "published_utc": "2026-09-17T12:26:57+00:00",
+      "summary": "<p>SilkParasite is a cyberespionage operation aimed at government, energy and telecommunications interests in Central Asia. New infrastructure analysis indicates that the activity behind the campaign may be older and broader than its recent name suggests. The operation has used spear-phishing emails carrying convincing government-themed documents and trusted Windows programs to plant remote-access malware. These tools [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silkparasite-linked-malware/\">SilkParasite-Linked Malware Infrastructure Traced Back Four Years Across Central Asia</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163714",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/silkparasite-linked-malware",
+      "content_hash": "1cd3a2c748f8633be57a07da190bfa7d9158e6d498130bbdf8d307504e0acd6f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1cd3a2c748f8633be57a07da190bfa7d9158e6d498130bbdf8d307504e0acd6f",
+        "FEEDBURNER": "1cd3a2c748f8633be57a07da190bfa7d9158e6d498130bbdf8d307504e0acd6f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "GPT4Free Privacy Risks Expose AI Prompts to Third-Party Servers and Hidden Logs",
+      "url": "https://gbhackers.com/gpt4free-privacy-risks-expose-ai-prompts/",
+      "published": "Thu, 17 Sep 2026 12:04:20 +0000",
+      "published_utc": "2026-09-17T12:04:20+00:00",
+      "summary": "<p>Users of the GPT4Free hosted platform might believe they are directly interacting with the selected artificial intelligence model in its web interface. However, recent research suggests that prompts submitted through g4f.dev may travel through a complex network of provider code, intermediary services, external model endpoints, and potentially unrelated AI servers. These findings raise significant privacy [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gpt4free-privacy-risks-expose-ai-prompts/\">GPT4Free Privacy Risks Expose AI Prompts to Third-Party Servers and Hidden Logs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199989",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/apt36-malware-campaign",
-      "content_hash": "9e08c2cbe02ecd066cab750f558de0aade4a7db098e25f2efb3f960a67ea0748",
+      "article_key": "gbhackers.com/gpt4free-privacy-risks-expose-ai-prompts",
+      "content_hash": "a71b5fdce21becdb26234d3be99b309d5c17c4f3439c6a4076ec9e8ac8dbc4f0",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "9e08c2cbe02ecd066cab750f558de0aade4a7db098e25f2efb3f960a67ea0748"
+        "ORIGINAL": "a71b5fdce21becdb26234d3be99b309d5c17c4f3439c6a4076ec9e8ac8dbc4f0",
+        "FEEDBURNER": "a71b5fdce21becdb26234d3be99b309d5c17c4f3439c6a4076ec9e8ac8dbc4f0"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
     },
     {
-      "title": "Hackers Allegedly Selling Fortinet FortiGate 1-Day Vulnerability on Underground Forums",
-      "url": "https://cybersecuritynews.com/hackers-selling-fortinet-fortigate-1-day-vulnerability/",
-      "published": "Thu, 17 Sep 2026 09:33:32 +0000",
-      "published_utc": "2026-09-17T09:33:32+00:00",
-      "summary": "<p>A threat actor is allegedly offering a private remote code execution exploit for Fortinet FortiGate SSL VPN appliances, claiming that FortiOS 7.2.x and 7.4.x are affected. The listing has not been independently verified and does not confirm the existence of a new FortiGate zero-day vulnerability. The advertisement, shared by Dark Web Intelligence, promotes what the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-selling-fortinet-fortigate-1-day-vulnerability/\">Hackers Allegedly Selling Fortinet FortiGate 1-Day Vulnerability on Underground Forums</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163653",
+      "title": "North Korean IT Workers Use AI and Remote Desktop Tools to Fake Technical Interviews",
+      "url": "https://cybersecuritynews.com/north-korean-it-workers-2/",
+      "published": "Thu, 17 Sep 2026 11:56:41 +0000",
+      "published_utc": "2026-09-17T11:56:41+00:00",
+      "summary": "<p>North Korean operators are using artificial intelligence, remote-control software, and hired stand-ins to make fraudulent job candidates look genuine during technical interviews. The scheme turns routine hiring into a route for sanctions evasion, payroll fraud, data theft, and access to company systems. The activity surfaced through a job advertisement posted in the Mouse Review Discord [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-it-workers-2/\">North Korean IT Workers Use AI and Remote Desktop Tools to Fake Technical Interviews</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163704",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-selling-fortinet-fortigate-1-day-vulnerability",
-      "content_hash": "7632ced17fcb9783208dff85a3653704b17b86d8bd877f1fa0a723e73639f418",
+      "article_key": "cybersecuritynews.com/north-korean-it-workers-2",
+      "content_hash": "661169c10de85d6a208aba99b2e3090d7189e900368acd9dd857b0067e17e57d",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "7632ced17fcb9783208dff85a3653704b17b86d8bd877f1fa0a723e73639f418"
+        "ORIGINAL": "661169c10de85d6a208aba99b2e3090d7189e900368acd9dd857b0067e17e57d",
+        "FEEDBURNER": "661169c10de85d6a208aba99b2e3090d7189e900368acd9dd857b0067e17e57d"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
     },
     {
-      "title": "New Android Malware Steals Banking PINs and Reinstalls Itself After Users Delete It",
-      "url": "https://cybersecuritynews.com/new-android-malware/",
-      "published": "Thu, 17 Sep 2026 08:55:37 +0000",
-      "published_utc": "2026-09-17T08:55:37+00:00",
-      "summary": "<p>A newly tracked Android malware called RatHat is targeting banking customers with fake screens, stolen verification codes and persistent phone access. The threat can capture PINs, passwords and unlock patterns, raising the risk of account takeovers and payments after a victim believes the malicious app is gone. The campaign relies on deceptive download pages promoted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-android-malware/\">New Android Malware Steals Banking PINs and Reinstalls Itself After Users Delete It</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163666",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/new-android-malware",
-      "content_hash": "dafa8b49f9c6ec9e55d5efc17c7d9673cc37f94ed387e13a6322d87657783d3a",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dafa8b49f9c6ec9e55d5efc17c7d9673cc37f94ed387e13a6322d87657783d3a"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
-    },
-    {
-      "title": "Top 10 Best Google Cloud (GCP) Security Tools in 2026",
-      "url": "https://cybersecuritynews.com/best-gcp-security-tools/",
-      "published": "Thu, 17 Sep 2026 08:37:13 +0000",
-      "published_utc": "2026-09-17T08:37:13+00:00",
-      "summary": "<p>Quick Answer: Google Security Command Center (Standard tier included) is every GCP project’s floor; Wiz leads agentless attack-path correlation; Sysdig leads GKE runtime; Prisma Cloud leads multicloud breadth; Fortinet (Lacework) brings behavioral anomaly detection. Note: the once-popular open-source Forseti is deprecated don’t build on it. Google Cloud rewards engineering-led teams and punishes configuration drift the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-gcp-security-tools/\">Top 10 Best Google Cloud (GCP) Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163144",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-gcp-security-tools",
-      "content_hash": "62902153ec7dd42d161acd62e38566897b6a61b196868daeffee4b6d027994a2",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "62902153ec7dd42d161acd62e38566897b6a61b196868daeffee4b6d027994a2"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
-    },
-    {
-      "title": "12 Serverless Security Options Compared (2026): Features & Pricing",
-      "url": "https://gbhackers.com/best-serverless-security-compared/",
-      "published": "Thu, 17 Sep 2026 08:33:12 +0000",
-      "published_utc": "2026-09-17T08:33:12+00:00",
-      "summary": "<p>Quick Answer: There is no standalone serverless-security SKU worth buying in 2026 functions are a line item inside CNAPP or observability contracts. Datadog publishes per-function rates (the category’s only clean anchor); Prisma Cloud carries the deepest lineage (PureSec); Aqua, Sysdig, Wiz, CloudGuard, and Fortinet (Lacework) bill functions inside platform units. Graveyard warning: Thundra and Epsagon [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-serverless-security-compared/\">12 Serverless Security Options Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199843",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/best-serverless-security-compared",
-      "content_hash": "8215bcb7fa59341777d2cae9445445cdbd4d6997d31bc50b2fb5f78da4b01bbf",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8215bcb7fa59341777d2cae9445445cdbd4d6997d31bc50b2fb5f78da4b01bbf"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
-    },
-    {
-      "title": "Top 10 Best Microsoft Azure Security Tools in 2026",
-      "url": "https://cybersecuritynews.com/best-azure-security-tools/",
-      "published": "Thu, 17 Sep 2026 08:31:31 +0000",
-      "published_utc": "2026-09-17T08:31:31+00:00",
-      "summary": "<p>Quick Answer: Microsoft Defender for Cloud with its free foundational tier and published per-resource plans is the anchor for every Azure estate. Add Wiz or Orca for agentless attack-path correlation, Prisma Cloud for multicloud breadth, CrowdStrike for runtime, and Rapid7 or Qualys to unify cloud with existing vulnerability programs. Azure’s tight coupling of identity (Entra [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-azure-security-tools/\">Top 10 Best Microsoft Azure Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163112",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-azure-security-tools",
-      "content_hash": "dffcaa31b7782e45e11d1fd991580a5a595c29e2af06c279af1c14e4ef6e698e",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dffcaa31b7782e45e11d1fd991580a5a595c29e2af06c279af1c14e4ef6e698e"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
-    },
-    {
-      "title": "RatHat Abuses Android Wireless Debugging to Gain Shell Access and Steal Banking PINs",
-      "url": "https://gbhackers.com/rathat-malware-attack/",
-      "published": "Thu, 17 Sep 2026 08:01:48 +0000",
-      "published_utc": "2026-09-17T08:01:48+00:00",
-      "summary": "<p>RatHat, a newly identified Android banking malware family that combines Accessibility abuse, local Android Debug Bridge (ADB) pairing, native shell-level components, and generative-AI-assisted interface automation. The operation appears linked to China-based threat actors and is primarily designed to steal banking credentials, payment PINs, one-time passwords, device-unlock secrets, and other high-value data from infected Android devices. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rathat-malware-attack/\">RatHat Abuses Android Wireless Debugging to Gain Shell Access and Steal Banking PINs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199885",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/rathat-malware-attack",
-      "content_hash": "63a76ce0e642caf1d2ca809c1f3a50fd13cdbc94445870b9c7b49f1d5f025ba4",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "63a76ce0e642caf1d2ca809c1f3a50fd13cdbc94445870b9c7b49f1d5f025ba4"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
-    },
-    {
-      "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
-      "url": "http://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
-      "published": "Thu, 17 Sep 2026 08:00:29 +0000",
-      "published_utc": "2026-09-17T08:00:29+00:00",
-      "summary": "The Internet Systems Consortium (ISC) has released&nbsp;BIND 9.20.29 and 9.21.26&nbsp;to fix fourteen security flaws it&nbsp;disclosed&nbsp;on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH).\n\nA sender with no credentials can crash the server process,&nbsp;named, with a single request that carries an invalid SIG",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8744789023319182803",
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "url": "http://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "published": "Thu, 17 Sep 2026 11:50:00 +0000",
+      "published_utc": "2026-09-17T11:50:00+00:00",
+      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1178149601848638223",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
-      "content_hash": "b8a455464f69d6777fe573cbd6bcabdc110070f91d069a2659f17a7db5177ebf",
+      "article_key": "thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "content_hash": "18df527173853442d8a93f425477891785dfbb8f1a1fb8efca06c1b74b57abaf",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "b8a455464f69d6777fe573cbd6bcabdc110070f91d069a2659f17a7db5177ebf"
+        "ORIGINAL": "18df527173853442d8a93f425477891785dfbb8f1a1fb8efca06c1b74b57abaf",
+        "FEEDBURNER": "18df527173853442d8a93f425477891785dfbb8f1a1fb8efca06c1b74b57abaf"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
-      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
-      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
-      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
     },
     {
-      "title": "NightEagle Hackers Abuse Microsoft Dev Tunnels and GhostContainer to Breach Russian Companies",
-      "url": "https://cybersecuritynews.com/nighteagle-hackers/",
-      "published": "Thu, 17 Sep 2026 07:55:49 +0000",
-      "published_utc": "2026-09-17T07:55:49+00:00",
-      "summary": "<p>NightEagle, also tracked as APT-Q-95, has expanded its operations against Russian businesses with a campaign built around stolen VPN credentials, a Microsoft Exchange backdoor, and covert remote-access routes. The activity shows how an intruder can turn everyday administration features and publicly available code into a path through a corporate network. The group has been active [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nighteagle-hackers/\">NightEagle Hackers Abuse Microsoft Dev Tunnels and GhostContainer to Breach Russian Companies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=163654",
+      "title": "BIND 9.20.29 Fixes 14 Security Flaws Enabling DNSSEC Bypass and Denial-of-Service Attacks",
+      "url": "https://gbhackers.com/bind-9-20-29-fixes-14-security-flaws/",
+      "published": "Thu, 17 Sep 2026 11:24:46 +0000",
+      "published_utc": "2026-09-17T11:24:46+00:00",
+      "summary": "<p>The Internet Systems Consortium (ISC) has released BIND 9.20.29, which addresses 14 security vulnerabilities. These vulnerabilities could enable remote attackers to bypass DNSSEC protections, poison resolver caches, exhaust CPU or memory resources, and crash the named service. This update is particularly important for organizations that operate recursive, DNSSEC-validating resolvers, as they are primarily exposed to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bind-9-20-29-fixes-14-security-flaws/\">BIND 9.20.29 Fixes 14 Security Flaws Enabling DNSSEC Bypass and Denial-of-Service Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199978",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/bind-9-20-29-fixes-14-security-flaws",
+      "content_hash": "1409631dbb821bd36473214c6eaff6aeaeeda24a0b01cb1610a7b3c3b46fa2ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1409631dbb821bd36473214c6eaff6aeaeeda24a0b01cb1610a7b3c3b46fa2ec",
+        "FEEDBURNER": "1409631dbb821bd36473214c6eaff6aeaeeda24a0b01cb1610a7b3c3b46fa2ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
+    },
+    {
+      "title": "FamousSparrow Exploits Public-Facing Exchange Servers to Deploy SparroWocky Backdoor",
+      "url": "https://cybersecuritynews.com/famoussparrow-exploits/",
+      "published": "Thu, 17 Sep 2026 11:20:03 +0000",
+      "published_utc": "2026-09-17T11:20:03+00:00",
+      "summary": "<p>FamousSparrow has introduced a new backdoor called SparroWocky after breaking into public-facing Microsoft Exchange servers. The campaign shows how a known espionage group can turn an exposed email system into a quiet, long-term entry point inside a government network. The impact extends beyond the first host, because email servers commonly hold sensitive messages and trusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/famoussparrow-exploits/\">FamousSparrow Exploits Public-Facing Exchange Servers to Deploy SparroWocky Backdoor</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163695",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/nighteagle-hackers",
-      "content_hash": "0873252bd9acf2b9a012730be6a5666091aff4744ec82ce13cfd3c37714cbffd",
+      "article_key": "cybersecuritynews.com/famoussparrow-exploits",
+      "content_hash": "5697f7e194f9c782a9b9fe6b7255aef7baacb2afd994a7490895e88589721ab7",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0873252bd9acf2b9a012730be6a5666091aff4744ec82ce13cfd3c37714cbffd"
+        "ORIGINAL": "5697f7e194f9c782a9b9fe6b7255aef7baacb2afd994a7490895e88589721ab7",
+        "FEEDBURNER": "5697f7e194f9c782a9b9fe6b7255aef7baacb2afd994a7490895e88589721ab7"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:17.318004+00:00",
-      "first_seen_local": "2026-09-17T05:22:17.318000-05:00",
-      "last_updated_utc": "2026-09-17T10:22:17.318004+00:00",
-      "last_updated_local": "2026-09-17T05:22:17.318000-05:00"
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
     },
     {
-      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
-      "url": "http://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
-      "published": "Thu, 17 Sep 2026 07:30:01 +0000",
-      "published_utc": "2026-09-17T07:30:01+00:00",
-      "summary": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbsp;published Wednesday.\n\nIt also exposed about 490 million image metadata records, mostly for images from January 2019 or earlier, including the IDs that make up Gyazo image links.\n\nHelpfeel said",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6884133441255088271",
+      "title": "Critical Docker Sandbox Vulnerabilities Enable Malicious Guests to Escape Isolated microVM Workspaces",
+      "url": "https://cybersecuritynews.com/critical-docker-sandboxes-vulnerabilities/",
+      "published": "Thu, 17 Sep 2026 11:15:48 +0000",
+      "published_utc": "2026-09-17T11:15:48+00:00",
+      "summary": "<p>Docker patched two serious vulnerabilities in Docker Sandboxes that could let a malicious guest workload break out of its intended shared workspace and access sensitive host-side resources. The flaws, tracked as CVE-2026-77179 and CVE-2026-79994, were fixed in Docker Sandboxes version 0.42.0, released on September 7. Docker Sandboxes uses isolated microVM environments to run potentially untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-docker-sandboxes-vulnerabilities/\">Critical Docker Sandbox Vulnerabilities Enable Malicious Guests to Escape Isolated microVM Workspaces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163649",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-docker-sandboxes-vulnerabilities",
+      "content_hash": "8d32f9df2b3b80c19cf02bc786edf2a71788bdb7e530c1fdfb8f53278b502062",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d32f9df2b3b80c19cf02bc786edf2a71788bdb7e530c1fdfb8f53278b502062",
+        "FEEDBURNER": "8d32f9df2b3b80c19cf02bc786edf2a71788bdb7e530c1fdfb8f53278b502062"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "Cisco Warns of Critical ISE 0-Day Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/cisco-warns-of-critical-ise-0-day-vulnerability-exploited/",
+      "published": "Thu, 17 Sep 2026 11:10:16 +0000",
+      "published_utc": "2026-09-17T11:10:16+00:00",
+      "summary": "<p>Cisco has issued an urgent security advisory for a critical zero-day vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC). The flaw, tracked as CVE-2026-76460, is already being actively exploited, according to Cisco’s Product Security Incident Response Team. The vulnerability carries a maximum CVSS score of 10.0. It could allow [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-warns-of-critical-ise-0-day-vulnerability-exploited/\">Cisco Warns of Critical ISE 0-Day Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163676",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cisco-warns-of-critical-ise-0-day-vulnerability-exploited",
+      "content_hash": "6e64c3c7b2d4738529f972b7ba21c3cf03b4071b0920c4d20116e7b6285d12b6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6e64c3c7b2d4738529f972b7ba21c3cf03b4071b0920c4d20116e7b6285d12b6",
+        "FEEDBURNER": "6e64c3c7b2d4738529f972b7ba21c3cf03b4071b0920c4d20116e7b6285d12b6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "FamousSparrow Deploys New SparroWocky Backdoor Against Latin American Governments",
+      "url": "https://gbhackers.com/sparrowocky-backdoor/",
+      "published": "Thu, 17 Sep 2026 11:04:21 +0000",
+      "published_utc": "2026-09-17T11:04:21+00:00",
+      "summary": "<p>China-aligned advanced persistent threat group FamousSparrow has replaced its long-running SparrowDoor implant with a new modular C++ backdoor, SparroWocky, in a sustained cyberespionage campaign against government entities across Latin America. ESET says the malware has been active in the region since at least August 2025, following a sharp shift in the group’s victim targeting that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sparrowocky-backdoor/\">FamousSparrow Deploys New SparroWocky Backdoor Against Latin American Governments</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199960",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sparrowocky-backdoor",
+      "content_hash": "3997ed2e006cddaefaf8acf9e13b6bba027d3bc128bd239bc0d40b93543b3059",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3997ed2e006cddaefaf8acf9e13b6bba027d3bc128bd239bc0d40b93543b3059",
+        "FEEDBURNER": "3997ed2e006cddaefaf8acf9e13b6bba027d3bc128bd239bc0d40b93543b3059"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
+    },
+    {
+      "title": "One Compromised Kubernetes Node Can Expose Every Workload Identity Running on It",
+      "url": "https://cybersecuritynews.com/kubernetes-node/",
+      "published": "Thu, 17 Sep 2026 11:02:59 +0000",
+      "published_utc": "2026-09-17T11:02:59+00:00",
+      "summary": "<p>A Kubernetes node becomes an identity breach point when an attacker gains root access. Research shows a hostile process can impersonate other workloads and obtain their credentials, turning one foothold into wider access across a shared node. The issue affects SPIFFE and SPIRE deployments, which replace long-lived secrets with short-lived workload identities. These credentials let [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kubernetes-node/\">One Compromised Kubernetes Node Can Expose Every Workload Identity Running on It</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163691",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kubernetes-node",
+      "content_hash": "da16c408f79abea976b4ba6e1169519bdade7aa062eb603db0e2e9d4f09a8707",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "da16c408f79abea976b4ba6e1169519bdade7aa062eb603db0e2e9d4f09a8707",
+        "FEEDBURNER": "da16c408f79abea976b4ba6e1169519bdade7aa062eb603db0e2e9d4f09a8707"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "CISA Urges Organizations to Deploy Cyber Decoys to Detect Hackers Inside Networks",
+      "url": "https://gbhackers.com/cisa-urges-organizations-to-deploy-cyber-decoys/",
+      "published": "Thu, 17 Sep 2026 11:01:22 +0000",
+      "published_utc": "2026-09-17T11:01:22+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to deploy cyber decoys, which include fake credentials, systems, data, and services. This strategy aims to expose attackers sooner and enhance post-compromise detection. In new guidance titled &#8220;Using Cyber Decoys to Strengthen Detection and Response,&#8221; published on September 16, 2026, CISA outlined how defenders [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-urges-organizations-to-deploy-cyber-decoys/\">CISA Urges Organizations to Deploy Cyber Decoys to Detect Hackers Inside Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199966",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-urges-organizations-to-deploy-cyber-decoys",
+      "content_hash": "5b3f2bf53760de968321609758ada3926bf9edfed9df38bcefc011eed595685c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5b3f2bf53760de968321609758ada3926bf9edfed9df38bcefc011eed595685c",
+        "FEEDBURNER": "5b3f2bf53760de968321609758ada3926bf9edfed9df38bcefc011eed595685c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
+    },
+    {
+      "title": "AWS Says Some Cloud Data Cannot Be Recovered After Data Centers Suffer War Damage",
+      "url": "https://cybersecuritynews.com/aws-cloud-data-war-damage/",
+      "published": "Thu, 17 Sep 2026 10:52:33 +0000",
+      "published_utc": "2026-09-17T10:52:33+00:00",
+      "summary": "<p>Amazon Web Services has confirmed that some customer data hosted in its war-damaged Middle East data centers is permanently unrecoverable, marking what appears to be the first time military action has caused irreversible data loss at a global cloud provider. Half a year after Iranian drone strikes knocked out multiple Amazon data centers, the company [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-cloud-data-war-damage/\">AWS Says Some Cloud Data Cannot Be Recovered After Data Centers Suffer War Damage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163688",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/aws-cloud-data-war-damage",
+      "content_hash": "658e5e24f98884e8317759508a6f5e636be78fce54b2038d5170e5d8b7c95264",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "658e5e24f98884e8317759508a6f5e636be78fce54b2038d5170e5d8b7c95264"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
+      "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
+      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
+      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+    },
+    {
+      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "url": "http://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "published": "Thu, 17 Sep 2026 10:50:53 +0000",
+      "published_utc": "2026-09-17T10:50:53+00:00",
+      "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production.\n\nTL;DR\n\nExploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-855092956312150936",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
-      "content_hash": "5c13b1d599fcea29818dcf3209284f11c1a6112e867bf665bbfca9d029d28080",
+      "article_key": "thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "content_hash": "fe242b5eeddc859e881bb646ef9839a4c5fc173d656aaebf84bd444adf6ac806",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "5c13b1d599fcea29818dcf3209284f11c1a6112e867bf665bbfca9d029d28080"
+        "ORIGINAL": "fe242b5eeddc859e881bb646ef9839a4c5fc173d656aaebf84bd444adf6ac806",
+        "FEEDBURNER": "fe242b5eeddc859e881bb646ef9839a4c5fc173d656aaebf84bd444adf6ac806"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
-      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
-      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
-      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+      "first_seen_utc": "2026-09-17T15:17:13.377752+00:00",
+      "first_seen_local": "2026-09-17T10:17:13.377750-05:00",
+      "last_updated_utc": "2026-09-17T15:17:13.377752+00:00",
+      "last_updated_local": "2026-09-17T10:17:13.377750-05:00"
     },
     {
-      "title": "Docker Sandboxes Vulnerabilities Let Malicious Guests Escape Workspace and Access Host Files",
-      "url": "https://gbhackers.com/docker-sandboxes-vulnerabilities/",
-      "published": "Thu, 17 Sep 2026 07:17:56 +0000",
-      "published_utc": "2026-09-17T07:17:56+00:00",
-      "summary": "<p>Docker has released security fixes for two serious vulnerabilities in Docker Sandboxes that could let a malicious guest environment bypass workspace isolation and access sensitive resources on the host. These flaws, identified as CVE-2026-77179 and CVE-2026-79994, were addressed in Docker Sandboxes version 0.42.0, which was released on September 7. Docker Sandboxes isolate development agents and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-sandboxes-vulnerabilities/\">Docker Sandboxes Vulnerabilities Let Malicious Guests Escape Workspace and Access Host Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199879",
+      "title": "Kubernetes Attack Lets Hackers Steal SPIFFE Workload Identities and Impersonate Applications",
+      "url": "https://gbhackers.com/kubernetes-identity-attack/",
+      "published": "Thu, 17 Sep 2026 10:36:55 +0000",
+      "published_utc": "2026-09-17T10:36:55+00:00",
+      "summary": "<p>A post-exploitation technique that lets attackers with root-level access to a Kubernetes node steal workload identities issued through SPIFFE/SPIRE and impersonate legitimate applications running on the same host. The technique undermines the node-trust assumption behind cloud-native machine identity systems, potentially enabling attackers to access services protected by mutual TLS and identity-based authorization. Palo Alto Networks [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kubernetes-identity-attack/\">Kubernetes Attack Lets Hackers Steal SPIFFE Workload Identities and Impersonate Applications</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199931",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/docker-sandboxes-vulnerabilities",
-      "content_hash": "84362005c208274e9671d6979a4ec2550c3326c711b8e1ad179992590e8fe188",
+      "article_key": "gbhackers.com/kubernetes-identity-attack",
+      "content_hash": "c1a69333995a06a6a472b8b3f357f1b87ded10151ccdf8f4bca1b08799d867df",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "84362005c208274e9671d6979a4ec2550c3326c711b8e1ad179992590e8fe188"
+        "ORIGINAL": "c1a69333995a06a6a472b8b3f357f1b87ded10151ccdf8f4bca1b08799d867df",
+        "FEEDBURNER": "c1a69333995a06a6a472b8b3f357f1b87ded10151ccdf8f4bca1b08799d867df"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
     },
     {
-      "title": "Hackers Turn AI Agent Into a Cyber Weapon After Deleting Its Safety Refusals",
-      "url": "https://gbhackers.com/ai-agent-into-a-cyber-weapon/",
-      "published": "Thu, 17 Sep 2026 07:00:10 +0000",
-      "published_utc": "2026-09-17T07:00:10+00:00",
-      "summary": "<p>A French-speaking cybercrime crew calling itself BlackHatSect0r &#38;&#38; DXQRTXX allegedly disabled safety controls in a self-hosted AI agent and used the resulting system to automate mass credential harvesting, target discovery, phishing preparation, and attack orchestration. The internet-exposed server reportedly contained 4.9 GB of material across 9,299 files, including a custom Go-based command-and-control platform named DXSCAN, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agent-into-a-cyber-weapon/\">Hackers Turn AI Agent Into a Cyber Weapon After Deleting Its Safety Refusals</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199865",
+      "title": "12 Best DSPM Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-dspm-compared/",
+      "published": "Thu, 17 Sep 2026 10:33:38 +0000",
+      "published_utc": "2026-09-17T10:33:38+00:00",
+      "summary": "<p>Quick Answer: DSPM has the scariest pricing curve in security bills track data volume, and data only grows. Microsoft Purview publishes pay-as-you-go rates (the anchor); Cyera leads the independents; BigID and Varonis bring privacy and on-prem lineage; CrowdStrike (Flow) and Tenable (Eureka-lineage) mark the consolidation wave. Negotiate volume caps before your data does the negotiating. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-dspm-compared/\">12 Best DSPM Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199906",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-agent-into-a-cyber-weapon",
-      "content_hash": "06c5eaf49a8bb870d9a83d58171c323ba5ed6464be94ff7f0e062f0ae6689b7e",
+      "article_key": "gbhackers.com/best-dspm-compared",
+      "content_hash": "e086f0f9d2da1f5258b8e504d4e617c680c3e35ac8e9991f8ccd19b65d4c1c71",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "06c5eaf49a8bb870d9a83d58171c323ba5ed6464be94ff7f0e062f0ae6689b7e"
+        "ORIGINAL": "e086f0f9d2da1f5258b8e504d4e617c680c3e35ac8e9991f8ccd19b65d4c1c71",
+        "FEEDBURNER": "e086f0f9d2da1f5258b8e504d4e617c680c3e35ac8e9991f8ccd19b65d4c1c71"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
-    },
-    {
-      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-      "url": "http://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-      "published": "Thu, 17 Sep 2026 06:39:40 +0000",
-      "published_utc": "2026-09-17T06:39:40+00:00",
-      "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication.\n\n\"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8506395587896256406",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-      "content_hash": "2014de58ee5ae1c66be68ddea7a655372ec0d1a090ca72205a3e17ce9ac05aec",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2014de58ee5ae1c66be68ddea7a655372ec0d1a090ca72205a3e17ce9ac05aec"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
-      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
-      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
-      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
-    },
-    {
-      "title": "Jenkins Patches 20 Plugin Flaws Leading to RCE, XSS and Credential Theft",
-      "url": "https://gbhackers.com/jenkins-patches-20-plugin-flaws/",
-      "published": "Thu, 17 Sep 2026 06:21:07 +0000",
-      "published_utc": "2026-09-17T06:21:07+00:00",
-      "summary": "<p>Jenkins has released security updates addressing 20 vulnerabilities across 13 plugins, including multiple high-severity flaws that could allow authorized attackers to bypass Groovy sandbox protections and execute arbitrary code on Jenkins controllers. The advisory, dated September 16, 2026, also addresses stored cross-site scripting (XSS), server-side request forgery (SSRF), credential exposure, path traversal, OAuth token hijacking, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jenkins-patches-20-plugin-flaws/\">Jenkins Patches 20 Plugin Flaws Leading to RCE, XSS and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199867",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/jenkins-patches-20-plugin-flaws",
-      "content_hash": "8b180384d2ace273e4a5e6e8366c07468d1fece729f5d79001184d14e3f6ff9c",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8b180384d2ace273e4a5e6e8366c07468d1fece729f5d79001184d14e3f6ff9c"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
-    },
-    {
-      "title": "NightEagle Hackers Abuse Microsoft Dev Tunnels and GhostContainer to Breach Russian Companies",
-      "url": "https://gbhackers.com/nighteagle-abuse-microsoft-dev-tunnels/",
-      "published": "Thu, 17 Sep 2026 05:41:54 +0000",
-      "published_utc": "2026-09-17T05:41:54+00:00",
-      "summary": "<p>The NightEagle advanced persistent threat group, tracked as APT-Q-95, has expanded its operations to target businesses in Russia, combining stolen VPN credentials, a stealthy Microsoft Exchange backdoor, and legitimate tunneling technologies to move through victim networks. Researchers from Kaspersky’s Global Emergency Response Team said the group has been active since at least 2023 and previously [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nighteagle-abuse-microsoft-dev-tunnels/\">NightEagle Hackers Abuse Microsoft Dev Tunnels and GhostContainer to Breach Russian Companies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199852",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/nighteagle-abuse-microsoft-dev-tunnels",
-      "content_hash": "a1d8b772fe23bd78c9352c617cbf1518de5ddb7be7af3a802de7d9d6fa775391",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a1d8b772fe23bd78c9352c617cbf1518de5ddb7be7af3a802de7d9d6fa775391"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
-    },
-    {
-      "title": "Critical Check Point Vulnerability Allows Remote Root Code Execution Without Authentication",
-      "url": "https://gbhackers.com/critical-check-point-vulnerability/",
-      "published": "Thu, 17 Sep 2026 05:23:21 +0000",
-      "published_utc": "2026-09-17T05:23:21+00:00",
-      "summary": "<p>Check Point has issued a high-severity security alert for CVE-2026-91843, which is a critical stack overflow vulnerability in the login process of its Security Management and Log Server products. This flaw could allow an unauthenticated remote attacker to execute arbitrary code with root privileges, posing a significant risk to organizations utilizing affected Check Point management [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-check-point-vulnerability/\">Critical Check Point Vulnerability Allows Remote Root Code Execution Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=199854",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-check-point-vulnerability",
-      "content_hash": "c4aef0b31915d2d9465f545e9bb2b456febe78b461e829558d1b804bbe83c751",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "c4aef0b31915d2d9465f545e9bb2b456febe78b461e829558d1b804bbe83c751"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-17T10:22:16.689427+00:00",
-      "first_seen_local": "2026-09-17T05:22:16.689424-05:00",
-      "last_updated_utc": "2026-09-17T10:22:16.689427+00:00",
-      "last_updated_local": "2026-09-17T05:22:16.689424-05:00"
-    },
-    {
-      "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-      "url": "http://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-      "published": "Thu, 17 Sep 2026 05:13:46 +0000",
-      "published_utc": "2026-09-17T05:13:46+00:00",
-      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure banner that states -\n\n\"This domain has been seized by the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7342320384194558185",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-      "content_hash": "cf641eb084d7cf5b848d654a67dab9359dc68b4e130f12099057e30d595c1bb9",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cf641eb084d7cf5b848d654a67dab9359dc68b4e130f12099057e30d595c1bb9"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "UPDATED",
-      "previous_content_hash": "0b530ddcc5f5327070e2d75214b1dafa19eb0358ec34e4434374d336d018abbd",
-      "version": 2,
-      "first_seen_utc": "2026-09-17T05:15:51.445654+00:00",
-      "first_seen_local": "2026-09-17T00:15:51.445652-05:00",
-      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
-      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+      "first_seen_utc": "2026-09-17T15:17:08.394856+00:00",
+      "first_seen_local": "2026-09-17T10:17:08.394854-05:00",
+      "last_updated_utc": "2026-09-17T15:17:08.394856+00:00",
+      "last_updated_local": "2026-09-17T10:17:08.394854-05:00"
     }
   ]
 }

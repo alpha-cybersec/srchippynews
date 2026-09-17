@@ -2,33 +2,164 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 21,
+  "article_count": 26,
   "articles": [
     {
-      "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-      "url": "http://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-      "published": "Thu, 17 Sep 2026 05:13:46 +0000",
-      "published_utc": "2026-09-17T05:13:46+00:00",
-      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure banner that states -\n\n\"This domain has been seized by",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7342320384194558185",
+      "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+      "url": "http://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+      "published": "Thu, 17 Sep 2026 10:05:45 +0000",
+      "published_utc": "2026-09-17T10:05:45+00:00",
+      "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7961456925629095461",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-      "content_hash": "0b530ddcc5f5327070e2d75214b1dafa19eb0358ec34e4434374d336d018abbd",
+      "article_key": "thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+      "content_hash": "59cd097df14da28473d576a2d02b60dc66d4542344d28ab2f3cd3eb159ce143a",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0b530ddcc5f5327070e2d75214b1dafa19eb0358ec34e4434374d336d018abbd"
+        "ORIGINAL": "59cd097df14da28473d576a2d02b60dc66d4542344d28ab2f3cd3eb159ce143a"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
+      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
+      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
+      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
+      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+    },
+    {
+      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+      "url": "http://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+      "published": "Thu, 17 Sep 2026 09:53:38 +0000",
+      "published_utc": "2026-09-17T09:53:38+00:00",
+      "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6499015845672032894",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+      "content_hash": "25b6ffb1fc78f425bf1095c47dbcb54bbdf5e1242b10568dcaad1c0f61da6935",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "25b6ffb1fc78f425bf1095c47dbcb54bbdf5e1242b10568dcaad1c0f61da6935"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
+      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
+      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
+      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+    },
+    {
+      "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+      "url": "http://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+      "published": "Thu, 17 Sep 2026 08:00:29 +0000",
+      "published_utc": "2026-09-17T08:00:29+00:00",
+      "summary": "The Internet Systems Consortium (ISC) has released&nbsp;BIND 9.20.29 and 9.21.26&nbsp;to fix fourteen security flaws it&nbsp;disclosed&nbsp;on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH).\n\nA sender with no credentials can crash the server process,&nbsp;named, with a single request that carries an invalid SIG",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8744789023319182803",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+      "content_hash": "b8a455464f69d6777fe573cbd6bcabdc110070f91d069a2659f17a7db5177ebf",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b8a455464f69d6777fe573cbd6bcabdc110070f91d069a2659f17a7db5177ebf"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
+      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
+      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
+      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+    },
+    {
+      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+      "url": "http://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "published": "Thu, 17 Sep 2026 07:30:01 +0000",
+      "published_utc": "2026-09-17T07:30:01+00:00",
+      "summary": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbsp;published Wednesday.\n\nIt also exposed about 490 million image metadata records, mostly for images from January 2019 or earlier, including the IDs that make up Gyazo image links.\n\nHelpfeel said",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6884133441255088271",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "content_hash": "5c13b1d599fcea29818dcf3209284f11c1a6112e867bf665bbfca9d029d28080",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5c13b1d599fcea29818dcf3209284f11c1a6112e867bf665bbfca9d029d28080"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
+      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
+      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
+      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+    },
+    {
+      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "url": "http://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+      "published": "Thu, 17 Sep 2026 06:39:40 +0000",
+      "published_utc": "2026-09-17T06:39:40+00:00",
+      "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication.\n\n\"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8506395587896256406",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+      "content_hash": "2014de58ee5ae1c66be68ddea7a655372ec0d1a090ca72205a3e17ce9ac05aec",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2014de58ee5ae1c66be68ddea7a655372ec0d1a090ca72205a3e17ce9ac05aec"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T10:22:23.728857+00:00",
+      "first_seen_local": "2026-09-17T05:22:23.728854-05:00",
+      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
+      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
+    },
+    {
+      "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+      "url": "http://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+      "published": "Thu, 17 Sep 2026 05:13:46 +0000",
+      "published_utc": "2026-09-17T05:13:46+00:00",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure banner that states -\n\n\"This domain has been seized by the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7342320384194558185",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+      "content_hash": "cf641eb084d7cf5b848d654a67dab9359dc68b4e130f12099057e30d595c1bb9",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cf641eb084d7cf5b848d654a67dab9359dc68b4e130f12099057e30d595c1bb9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "UPDATED",
+      "previous_content_hash": "0b530ddcc5f5327070e2d75214b1dafa19eb0358ec34e4434374d336d018abbd",
+      "version": 2,
       "first_seen_utc": "2026-09-17T05:15:51.445654+00:00",
       "first_seen_local": "2026-09-17T00:15:51.445652-05:00",
-      "last_updated_utc": "2026-09-17T05:15:51.445654+00:00",
-      "last_updated_local": "2026-09-17T00:15:51.445652-05:00"
+      "last_updated_utc": "2026-09-17T10:22:23.728857+00:00",
+      "last_updated_local": "2026-09-17T05:22:23.728854-05:00"
     },
     {
       "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",

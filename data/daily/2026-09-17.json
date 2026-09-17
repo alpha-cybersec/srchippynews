@@ -1,9 +1,9 @@
 {
   "date": "2026-09-17",
-  "article_count": 50,
+  "article_count": 52,
   "sources": {
     "thehackernews": 13,
-    "cybersecuritynews": 18,
+    "cybersecuritynews": 20,
     "gbhackers": 19
   },
   "articles": [
@@ -60,6 +60,58 @@
       "last_updated_local": "2026-09-17T14:13:45.331986-05:00"
     },
     {
+      "title": "OpenAI Models Searched for Leaked API Keys and Uploaded Files Without Permission",
+      "url": "https://cybersecuritynews.com/openai-models-api-key-leaks/",
+      "published": "Thu, 17 Sep 2026 16:59:18 +0000",
+      "published_utc": "2026-09-17T16:59:18+00:00",
+      "summary": "<p>OpenAI has disclosed six cases in which AI models concealed errors, used an exposed API key, uploaded data to public services, and communicated through unauthorized channels. The incidents, observed during reinforcement-learning training and evaluation, accompany a new framework accelerating disclosure of model misalignment even before investigators fully understand or mitigate the behavior. The most security-sensitive [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-models-api-key-leaks/\">OpenAI Models Searched for Leaked API Keys and Uploaded Files Without Permission</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163771",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-models-api-key-leaks",
+      "content_hash": "f28d9579cffa6a9e9686e0dd0ec0fc823f5a7c1f3df1a464b4acea8afa44ce03",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f28d9579cffa6a9e9686e0dd0ec0fc823f5a7c1f3df1a464b4acea8afa44ce03"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T22:24:29.939005+00:00",
+      "first_seen_local": "2026-09-17T17:24:29.939002-05:00",
+      "last_updated_utc": "2026-09-17T22:24:29.939005+00:00",
+      "last_updated_local": "2026-09-17T17:24:29.939002-05:00"
+    },
+    {
+      "title": "FBI Takes Down NightmareStresser DDoS Service Used in Hundreds of Thousands of Attacks",
+      "url": "https://cybersecuritynews.com/nightmarestresser-ddos-service/",
+      "published": "Thu, 17 Sep 2026 15:48:58 +0000",
+      "published_utc": "2026-09-17T15:48:58+00:00",
+      "summary": "<p>The FBI has seized domains supporting NightmareStresser, disrupting one of the world’s longest-running DDoS-for-hire operations. The court-authorized action targets a service that allegedly enabled paying customers to overwhelm online services with malicious traffic, cutting off legitimate users. According to a seizure-warrant affidavit cited by the U.S. Department of Justice, NightmareStresser was used to launch hundreds [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nightmarestresser-ddos-service/\">FBI Takes Down NightmareStresser DDoS Service Used in Hundreds of Thousands of Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163762",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/nightmarestresser-ddos-service",
+      "content_hash": "85f636e912ab65c33b6df0c52a8bde4a9c7a0a38138fa9852e11d87eb5b86fd5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "85f636e912ab65c33b6df0c52a8bde4a9c7a0a38138fa9852e11d87eb5b86fd5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T22:24:29.939005+00:00",
+      "first_seen_local": "2026-09-17T17:24:29.939002-05:00",
+      "last_updated_utc": "2026-09-17T22:24:29.939005+00:00",
+      "last_updated_local": "2026-09-17T17:24:29.939002-05:00"
+    },
+    {
       "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
       "url": "http://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
       "published": "Thu, 17 Sep 2026 15:37:56 +0000",
@@ -112,30 +164,31 @@
       "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
     },
     {
-      "title": "CISA Wants Defenders to Plant Fake Credentials and Systems to Catch Hackers",
+      "title": "CISA Wants Defenders to Deploy Fake Credentials and Systems to Catch Hackers",
       "url": "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/",
       "published": "Thu, 17 Sep 2026 14:28:51 +0000",
       "published_utc": "2026-09-17T14:28:51+00:00",
-      "summary": "<p>CISA has urged organizations to deploy fake credentials, systems, files, and data assets inside their environments to expose attackers after an initial compromise. The agency published its new guidance, Using Cyber Decoys to Strengthen Detection and Response, on September 16, 2026. CISA said many attackers now avoid malware-heavy intrusion methods and instead abuse legitimate user [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/\">CISA Wants Defenders to Plant Fake Credentials and Systems to Catch Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "summary": "<p>CISA has urged organizations to deploy fake credentials, systems, files, and data assets inside their environments to expose attackers after an initial compromise. The agency published its new guidance, Using Cyber Decoys to Strengthen Detection and Response, on September 16, 2026. CISA said many attackers now avoid malware-heavy intrusion methods and instead abuse legitimate user [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/\">CISA Wants Defenders to Deploy Fake Credentials and Systems to Catch Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
       "id": "https://cybersecuritynews.com/?p=163685",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
       "article_key": "cybersecuritynews.com/cisa-fake-credentials-catch-hackers",
-      "content_hash": "7d933011f1844f8dd1e5841b2f79dd2ff95c5a4b0ce5869da7ece1cd0063e86c",
+      "content_hash": "0953f313daec5e435957a23e732a9a4dedc8c48addbb7136d8150b1d8db5201a",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "7d933011f1844f8dd1e5841b2f79dd2ff95c5a4b0ce5869da7ece1cd0063e86c"
+        "ORIGINAL": "0953f313daec5e435957a23e732a9a4dedc8c48addbb7136d8150b1d8db5201a"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "7d933011f1844f8dd1e5841b2f79dd2ff95c5a4b0ce5869da7ece1cd0063e86c",
+      "version": 2,
       "first_seen_utc": "2026-09-17T15:17:09.101825+00:00",
       "first_seen_local": "2026-09-17T10:17:09.101823-05:00",
-      "last_updated_utc": "2026-09-17T15:17:09.101825+00:00",
-      "last_updated_local": "2026-09-17T10:17:09.101823-05:00"
+      "last_updated_utc": "2026-09-17T22:24:29.939005+00:00",
+      "last_updated_local": "2026-09-17T17:24:29.939002-05:00"
     },
     {
       "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",

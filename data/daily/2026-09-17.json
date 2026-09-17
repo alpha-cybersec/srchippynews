@@ -1,12 +1,90 @@
 {
   "date": "2026-09-17",
-  "article_count": 47,
+  "article_count": 50,
   "sources": {
+    "thehackernews": 13,
     "cybersecuritynews": 18,
-    "thehackernews": 10,
     "gbhackers": 19
   },
   "articles": [
+    {
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "url": "http://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "published": "Thu, 17 Sep 2026 18:08:28 +0000",
+      "published_utc": "2026-09-17T18:08:28+00:00",
+      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5993188921764000507",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "content_hash": "c0e5639e844effa20be63cb98c0e75f9552bfc1fbf8eff6c722d8ad93bd06b47",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c0e5639e844effa20be63cb98c0e75f9552bfc1fbf8eff6c722d8ad93bd06b47"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T19:13:45.331988+00:00",
+      "first_seen_local": "2026-09-17T14:13:45.331986-05:00",
+      "last_updated_utc": "2026-09-17T19:13:45.331988+00:00",
+      "last_updated_local": "2026-09-17T14:13:45.331986-05:00"
+    },
+    {
+      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+      "url": "http://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "published": "Thu, 17 Sep 2026 17:32:22 +0000",
+      "published_utc": "2026-09-17T17:32:22+00:00",
+      "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.\n\nSo the threat landscape is not getting cleaner. It is just",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9012018325427946822",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "content_hash": "42af3515dc36ce8af1a34db25260b1d62aa8c998f9baf72bb297cc51f45afe48",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "42af3515dc36ce8af1a34db25260b1d62aa8c998f9baf72bb297cc51f45afe48"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T19:13:45.331988+00:00",
+      "first_seen_local": "2026-09-17T14:13:45.331986-05:00",
+      "last_updated_utc": "2026-09-17T19:13:45.331988+00:00",
+      "last_updated_local": "2026-09-17T14:13:45.331986-05:00"
+    },
+    {
+      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+      "url": "http://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "published": "Thu, 17 Sep 2026 15:37:56 +0000",
+      "published_utc": "2026-09-17T15:37:56+00:00",
+      "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.\n\nThe escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1927707051539910948",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "content_hash": "17290ec190497eff37e4ef1247052368143e7d440fef49cf1b73f5440f0d154f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "17290ec190497eff37e4ef1247052368143e7d440fef49cf1b73f5440f0d154f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-17T19:13:45.331988+00:00",
+      "first_seen_local": "2026-09-17T14:13:45.331986-05:00",
+      "last_updated_utc": "2026-09-17T19:13:45.331988+00:00",
+      "last_updated_local": "2026-09-17T14:13:45.331986-05:00"
+    },
     {
       "title": "BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes",
       "url": "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/",

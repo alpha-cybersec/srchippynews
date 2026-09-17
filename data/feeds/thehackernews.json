@@ -10,8 +10,32 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 10,
+      "article_count": 13,
       "articles": [
+        {
+          "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+          "url": "http://thehackernews.com/2026/09/critical-check-point-management-server.html",
+          "published": "Thu, 17 Sep 2026 18:08:28 +0000",
+          "published_utc": "2026-09-17T18:08:28+00:00",
+          "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5993188921764000507"
+        },
+        {
+          "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+          "url": "http://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+          "published": "Thu, 17 Sep 2026 17:32:22 +0000",
+          "published_utc": "2026-09-17T17:32:22+00:00",
+          "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.\n\nSo the threat landscape is not getting cleaner. It is just",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9012018325427946822"
+        },
+        {
+          "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+          "url": "http://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+          "published": "Thu, 17 Sep 2026 15:37:56 +0000",
+          "published_utc": "2026-09-17T15:37:56+00:00",
+          "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.\n\nThe escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1927707051539910948"
+        },
         {
           "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
           "url": "http://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",

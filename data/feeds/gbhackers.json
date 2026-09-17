@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
-          "url": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
-          "published": "Wed, 16 Sep 2026 13:41:39 +0000",
-          "published_utc": "2026-09-16T13:41:39+00:00",
-          "summary": "<p>A newly identified device-code phishing kit dubbed GhostCode exploits Microsoft Entra device enrollment to maintain access after stolen tokens are revoked. GhostCode begins with business-email social engineering rather than a conventional credential-harvesting page. Operators impersonated procurement staff from legitimate organizations, including BJ’s Wholesale Club, and submitted benign inquiries through Salesforce contact forms. Once a sales [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostcode-abuses-microsoft-entra/\">GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199806"
-        },
-        {
-          "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
-          "url": "https://gbhackers.com/vectrarat-malware-as-a-service/",
-          "published": "Wed, 16 Sep 2026 13:11:23 +0000",
-          "published_utc": "2026-09-16T13:11:23+00:00",
-          "summary": "<p>VectraRAT, a previously undocumented Malware-as-a-Service platform that combines remote-access trojan capabilities with automated credential theft and a silent Windows privilege-escalation chain. Unlike the large number of commodity RATs that recycle leaked AsyncRAT, XWorm, or QuasarRAT code, VectraRAT appears to be a purpose-built, full-stack product maintained by a single developer. The platform is rented rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vectrarat-malware-as-a-service/\">VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199780"
-        },
-        {
-          "title": "TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password",
-          "url": "https://gbhackers.com/tp-link-tapo-camera-flaw/",
-          "published": "Wed, 16 Sep 2026 12:33:57 +0000",
-          "published_utc": "2026-09-16T12:33:57+00:00",
-          "summary": "<p>Security researchers have revealed two vulnerabilities in TP-Link’s Tapo C200 smart camera that could enable nearby network attackers to bypass administrator authentication or disrupt the device&#8217;s management service. Khoi Tran and Thai Do from OPSWAT Unit 515 discovered these vulnerabilities, tracked as CVE-2026-15315 and CVE-2026-15316, during the company’s Critical Infrastructure Cybersecurity Graduate Fellowship Program. TP-Link [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tp-link-tapo-camera-flaw/\">TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199767"
-        },
-        {
-          "title": "Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems",
-          "url": "https://gbhackers.com/noodle-rat-backdoor/",
-          "published": "Wed, 16 Sep 2026 12:28:34 +0000",
-          "published_utc": "2026-09-16T12:28:34+00:00",
-          "summary": "<p>Chinese-speaking threat actors are continuing to rely on Noodle RAT, a cross-platform remote access trojan designed to maintain covert access to compromised Windows workstations and Linux servers. Also tracked as ANGRYREBEL and Nood RAT, the malware has been active since at least mid-2016 but was long mistaken for variants of Gh0st RAT, Rekoobe, and other [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/noodle-rat-backdoor/\">Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199768"
-        },
-        {
-          "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
-          "url": "https://gbhackers.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
-          "published": "Wed, 16 Sep 2026 11:58:22 +0000",
-          "published_utc": "2026-09-16T11:58:22+00:00",
-          "summary": "<p>Stamford, CT, September 16th, 2026, CyberNewswire Now in early access, AxoDetect runs Sigma rules in stream alerts travel to the SIEM, and full-fidelity logs land in AxoLake, a low-cost security data lake Detection engineers do not need more detections. They need their existing detections to fire earlier, on cleaner data, without paying SIEM ingest rates [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/\">Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199741"
-        },
-        {
-          "title": "Smishing Triad Hackers Use JWR Phishing Kit to Steal Cards, OTPs and Bank Credentials",
-          "url": "https://gbhackers.com/jwr-phishing-kit/",
-          "published": "Wed, 16 Sep 2026 11:57:57 +0000",
-          "published_utc": "2026-09-16T11:57:57+00:00",
-          "summary": "<p>A large-scale SMS phishing campaign linked to the Smishing Triad is using a sophisticated phishing kit dubbed JWR to harvest payment-card data, one-time passwords, online-banking credentials, identity information, and digital-wallet logins. Group-IB attributed the activity to an operator sub-cluster tracked as Outsider, which appears to operate as a customer within the wider phishing-as-a-service ecosystem rather [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jwr-phishing-kit/\">Smishing Triad Hackers Use JWR Phishing Kit to Steal Cards, OTPs and Bank Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199754"
-        },
-        {
-          "title": "CenterPoint Energy Confirms Data Breach Exposing Customers’ Personal Information",
-          "url": "https://gbhackers.com/centerpoint-energy-confirms-data-breach/",
-          "published": "Wed, 16 Sep 2026 11:40:21 +0000",
-          "published_utc": "2026-09-16T11:40:21+00:00",
-          "summary": "<p>CenterPoint Energy has confirmed that an unauthorized third party accessed personal information belonging to some of its customers by compromising one of the utility provider’s external systems. The Houston-based energy company disclosed the incident in a Form 8-K filing with the U.S. Securities and Exchange Commission dated September 14, 2026. CenterPoint learned of the potential [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/centerpoint-energy-confirms-data-breach/\">CenterPoint Energy Confirms Data Breach Exposing Customers’ Personal Information</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199749"
-        },
-        {
-          "title": "Parallels Desktop Flaw Lets Unprivileged Mac Users Gain Root Access",
-          "url": "https://gbhackers.com/parallels-desktop-flaw/",
-          "published": "Wed, 16 Sep 2026 11:29:45 +0000",
-          "published_utc": "2026-09-16T11:29:45+00:00",
-          "summary": "<p>A critical local privilege escalation vulnerability in Parallels Desktop could allow an unprivileged macOS user or a malicious process to gain root-level access to the host system. The issue, tracked as CVE-2026-90894, was disclosed by Yuval Moravchick from JFrog’s Vulnerability Research team and has been named “ParaShells.” This flaw was demonstrated against Parallels Desktop version [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/parallels-desktop-flaw/\">Parallels Desktop Flaw Lets Unprivileged Mac Users Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199723"
-        },
-        {
-          "title": "Acronis Backup Plugin Vulnerability Exploited in the Wild to Gain Elevated Linux Privileges",
-          "url": "https://gbhackers.com/acronis-backup-plugin-vulnerability/",
-          "published": "Wed, 16 Sep 2026 09:57:44 +0000",
-          "published_utc": "2026-09-16T09:57:44+00:00",
-          "summary": "<p>Acronis has released an urgent security update for a high-severity local privilege escalation vulnerability affecting its Backup plugin for cPanel &#38; WHM on Linux. The company confirmed that attackers have already exploited this flaw in limited, targeted attacks against vulnerable deployments. This vulnerability is tracked as CVE-2026-87886 and is described as an insecure file permissions [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/acronis-backup-plugin-vulnerability/\">Acronis Backup Plugin Vulnerability Exploited in the Wild to Gain Elevated Linux Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199703"
-        },
-        {
-          "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-kubernetes-security-compared/",
-          "published": "Wed, 16 Sep 2026 09:52:52 +0000",
-          "published_utc": "2026-09-16T09:52:52+00:00",
-          "summary": "<p>Quick Answer: Kubernetes security quotes hinge on the node-vs-cluster-vs-developer unit choice, and the OSS floor (Kubescape, Falco, Calico, NeuVector, Cilium/Tetragon) resets every negotiation. Sysdig and Aqua lead paid runtime/lifecycle; Cisco (Isovalent) now owns the eBPF network layer; Fairwinds sells governance-as-guardrails; Microsoft Defender publishes the anchor rates. Kubernetes made compute cheap to sprawl and expensive to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-kubernetes-security-compared/\">12 Best Kubernetes Security Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199692"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

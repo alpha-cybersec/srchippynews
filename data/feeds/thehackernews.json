@@ -10,95 +10,15 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 11,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-          "url": "http://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-          "published": "Wed, 16 Sep 2026 15:50:59 +0000",
-          "published_utc": "2026-09-16T15:50:59+00:00",
-          "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3359191553631192170"
-        },
-        {
-          "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-          "url": "http://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-          "published": "Wed, 16 Sep 2026 15:27:49 +0000",
-          "published_utc": "2026-09-16T15:27:49+00:00",
-          "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6093167374553606360"
-        },
-        {
-          "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-          "url": "http://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-          "published": "Wed, 16 Sep 2026 14:36:44 +0000",
-          "published_utc": "2026-09-16T14:36:44+00:00",
-          "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension.\n\nOnce the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6353615840870036819"
-        },
-        {
-          "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
-          "url": "http://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-          "published": "Wed, 16 Sep 2026 13:37:07 +0000",
-          "published_utc": "2026-09-16T13:37:07+00:00",
-          "summary": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.\n\nBefore the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3402266191328681007"
-        },
-        {
-          "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
-          "url": "http://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
-          "published": "Wed, 16 Sep 2026 13:14:05 +0000",
-          "published_utc": "2026-09-16T13:14:05+00:00",
-          "summary": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.\n\nThe attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.\n\nYuval Moravchick, who leads",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3470487371267706281"
-        },
-        {
-          "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-          "url": "http://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
-          "published": "Wed, 16 Sep 2026 11:58:00 +0000",
-          "published_utc": "2026-09-16T11:58:00+00:00",
-          "summary": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity.\n\nFrom there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7126818720137120410"
-        },
-        {
-          "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-          "url": "http://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-          "published": "Wed, 16 Sep 2026 11:15:58 +0000",
-          "published_utc": "2026-09-16T11:15:58+00:00",
-          "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.\n\n\"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7136716733241952370"
-        },
-        {
-          "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-          "url": "http://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-          "published": "Wed, 16 Sep 2026 11:15:48 +0000",
-          "published_utc": "2026-09-16T11:15:48+00:00",
-          "summary": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1135036574254124465"
-        },
-        {
-          "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-          "url": "http://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-          "published": "Wed, 16 Sep 2026 11:08:54 +0000",
-          "published_utc": "2026-09-16T11:08:54+00:00",
-          "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-321571732072475142"
-        },
-        {
-          "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-          "url": "http://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-          "published": "Wed, 16 Sep 2026 05:48:28 +0000",
-          "published_utc": "2026-09-16T05:48:28+00:00",
-          "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-845787425553268103"
-        },
-        {
-          "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-          "url": "http://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-          "published": "Wed, 16 Sep 2026 05:18:06 +0000",
-          "published_utc": "2026-09-16T05:18:06+00:00",
-          "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6998447884256336076"
+          "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+          "url": "http://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+          "published": "Thu, 17 Sep 2026 05:13:46 +0000",
+          "published_utc": "2026-09-17T05:13:46+00:00",
+          "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure banner that states -\n\n\"This domain has been seized by",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7342320384194558185"
         }
       ],
       "error": ""
@@ -111,97 +31,8 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 11,
-      "articles": [
-        {
-          "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-          "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-          "published": "Wed, 16 Sep 2026 21:20:59 +0530",
-          "published_utc": "2026-09-16T15:50:59+00:00",
-          "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
-          "id": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html"
-        },
-        {
-          "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-          "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-          "published": "Wed, 16 Sep 2026 20:57:49 +0530",
-          "published_utc": "2026-09-16T15:27:49+00:00",
-          "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
-          "id": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html"
-        },
-        {
-          "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-          "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-          "published": "Wed, 16 Sep 2026 20:06:44 +0530",
-          "published_utc": "2026-09-16T14:36:44+00:00",
-          "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension.\n\nOnce the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,",
-          "id": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html"
-        },
-        {
-          "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
-          "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-          "published": "Wed, 16 Sep 2026 19:07:07 +0530",
-          "published_utc": "2026-09-16T13:37:07+00:00",
-          "summary": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.\n\nBefore the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the",
-          "id": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html"
-        },
-        {
-          "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
-          "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
-          "published": "Wed, 16 Sep 2026 18:44:05 +0530",
-          "published_utc": "2026-09-16T13:14:05+00:00",
-          "summary": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.\n\nThe attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.\n\nYuval Moravchick, who leads",
-          "id": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html"
-        },
-        {
-          "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-          "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
-          "published": "Wed, 16 Sep 2026 17:28:00 +0530",
-          "published_utc": "2026-09-16T11:58:00+00:00",
-          "summary": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity.\n\nFrom there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud",
-          "id": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
-        },
-        {
-          "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-          "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-          "published": "Wed, 16 Sep 2026 16:45:58 +0530",
-          "published_utc": "2026-09-16T11:15:58+00:00",
-          "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.\n\n\"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
-          "id": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html"
-        },
-        {
-          "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-          "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-          "published": "Wed, 16 Sep 2026 16:45:48 +0530",
-          "published_utc": "2026-09-16T11:15:48+00:00",
-          "summary": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.",
-          "id": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
-        },
-        {
-          "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-          "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-          "published": "Wed, 16 Sep 2026 16:38:54 +0530",
-          "published_utc": "2026-09-16T11:08:54+00:00",
-          "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
-          "id": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html"
-        },
-        {
-          "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-          "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-          "published": "Wed, 16 Sep 2026 11:18:28 +0530",
-          "published_utc": "2026-09-16T05:48:28+00:00",
-          "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
-          "id": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
-        },
-        {
-          "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-          "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-          "published": "Wed, 16 Sep 2026 10:48:06 +0530",
-          "published_utc": "2026-09-16T05:18:06+00:00",
-          "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
-          "id": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

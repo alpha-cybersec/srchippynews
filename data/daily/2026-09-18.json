@@ -1,10 +1,564 @@
 {
   "date": "2026-09-18",
-  "article_count": 4,
+  "article_count": 25,
   "sources": {
-    "gbhackers": 4
+    "thehackernews": 5,
+    "cybersecuritynews": 10,
+    "gbhackers": 10
   },
   "articles": [
+    {
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "url": "http://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "published": "Fri, 18 Sep 2026 11:01:16 +0000",
+      "published_utc": "2026-09-18T11:01:16+00:00",
+      "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp;\n\nThe new owner holds",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-354728967067789028",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "content_hash": "ea74b320bca30c9207ff9055302536f04bcac42e148d291cfbd260a11943e233",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ea74b320bca30c9207ff9055302536f04bcac42e148d291cfbd260a11943e233"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:51.968624+00:00",
+      "first_seen_local": "2026-09-18T06:04:51.968621-05:00",
+      "last_updated_utc": "2026-09-18T11:04:51.968624+00:00",
+      "last_updated_local": "2026-09-18T06:04:51.968621-05:00"
+    },
+    {
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "url": "http://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "published": "Fri, 18 Sep 2026 11:01:01 +0000",
+      "published_utc": "2026-09-18T11:01:01+00:00",
+      "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-482687862344000368",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "content_hash": "a77bc09f32663ca949ad1818dd5f04fd194e5a83293f0552255c9871bc4c7ed3",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a77bc09f32663ca949ad1818dd5f04fd194e5a83293f0552255c9871bc4c7ed3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:51.968624+00:00",
+      "first_seen_local": "2026-09-18T06:04:51.968621-05:00",
+      "last_updated_utc": "2026-09-18T11:04:51.968624+00:00",
+      "last_updated_local": "2026-09-18T06:04:51.968621-05:00"
+    },
+    {
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "url": "http://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "published": "Fri, 18 Sep 2026 10:40:06 +0000",
+      "published_utc": "2026-09-18T10:40:06+00:00",
+      "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5459258621440857447",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "content_hash": "6c67ff973d7e65c7c745168906b2befe54894769714fd4c2a6d53ae192c50271",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c67ff973d7e65c7c745168906b2befe54894769714fd4c2a6d53ae192c50271",
+        "FEEDBURNER": "6c67ff973d7e65c7c745168906b2befe54894769714fd4c2a6d53ae192c50271"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:51.968624+00:00",
+      "first_seen_local": "2026-09-18T06:04:51.968621-05:00",
+      "last_updated_utc": "2026-09-18T11:04:51.968624+00:00",
+      "last_updated_local": "2026-09-18T06:04:51.968621-05:00"
+    },
+    {
+      "title": "Hackers Use Fake T-Mobile Rewards Expiry Texts to Lure Users to Phishing Sites",
+      "url": "https://cybersecuritynews.com/fake-t-mobile-rewards/",
+      "published": "Fri, 18 Sep 2026 09:47:09 +0000",
+      "published_utc": "2026-09-18T09:47:09+00:00",
+      "summary": "<p>A widespread text-message phishing campaign is posing as T-Mobile to pressure customers into visiting fraudulent reward-redemption pages. The messages claim that loyalty points are about to expire, turning an ordinary account reminder into a trap for login details, personal data, payment information, and verification codes. The activity has been tracked since early May 2026 and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-t-mobile-rewards/\">Hackers Use Fake T-Mobile Rewards Expiry Texts to Lure Users to Phishing Sites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163865",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-t-mobile-rewards",
+      "content_hash": "7db0da8f8973ef88fede875a6b15fc6a86badb6c379654508043c9ddb0cb9c14",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "7db0da8f8973ef88fede875a6b15fc6a86badb6c379654508043c9ddb0cb9c14"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "url": "http://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "published": "Fri, 18 Sep 2026 09:18:03 +0000",
+      "published_utc": "2026-09-18T09:18:03+00:00",
+      "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns,\"",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2942679983526654301",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "content_hash": "1f5a23532aeca2351b4976b5dafa87c8c5afab06cb5ea23b15a55e76fc38c8c2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1f5a23532aeca2351b4976b5dafa87c8c5afab06cb5ea23b15a55e76fc38c8c2",
+        "FEEDBURNER": "1f5a23532aeca2351b4976b5dafa87c8c5afab06cb5ea23b15a55e76fc38c8c2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:51.968624+00:00",
+      "first_seen_local": "2026-09-18T06:04:51.968621-05:00",
+      "last_updated_utc": "2026-09-18T11:04:51.968624+00:00",
+      "last_updated_local": "2026-09-18T06:04:51.968621-05:00"
+    },
+    {
+      "title": "Brevo Supply Chain Attack Pushes WordPress Backdoors and ClickFix Malware to 100,000+ Sites",
+      "url": "https://cybersecuritynews.com/brevo-supply-chain-attack/",
+      "published": "Fri, 18 Sep 2026 09:09:11 +0000",
+      "published_utc": "2026-09-18T09:09:11+00:00",
+      "summary": "<p>A supply-chain compromise involving Brevo briefly turned widely used website tools into a delivery channel for malware. Attackers inserted hostile JavaScript into services that customer websites load, exposing both visitors and WordPress administrators. The activity reached more than 100,000 customer sites on September 14, according to the investigation. People who opened affected sites, chat features, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/brevo-supply-chain-attack/\">Brevo Supply Chain Attack Pushes WordPress Backdoors and ClickFix Malware to 100,000+ Sites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163842",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/brevo-supply-chain-attack",
+      "content_hash": "0940ac0af83c8ba39797270803ef54b107b25af2570be5bd9c6d0c7a9fd4156b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "0940ac0af83c8ba39797270803ef54b107b25af2570be5bd9c6d0c7a9fd4156b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "Plugin4Shell Zero-Click RCE Hits Claude Code, Codex, Copilot and Gemini CLI",
+      "url": "https://cybersecuritynews.com/plugin4shell-zero-click-rce/",
+      "published": "Fri, 18 Sep 2026 08:43:56 +0000",
+      "published_utc": "2026-09-18T08:43:56+00:00",
+      "summary": "<p>Plugin4Shell is a high-severity, zero-click remote code execution vulnerability affecting major AI coding agents, including Anthropic Claude Code, OpenAI Codex, GitHub Copilot, and Google Gemini CLI. The flaw allows a malicious plugin update to execute attacker-controlled code without requiring a user to click, approve, or reinstall anything. Plugin4Shell targets the software supply chain behind AI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/plugin4shell-zero-click-rce/\">Plugin4Shell Zero-Click RCE Hits Claude Code, Codex, Copilot and Gemini CLI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163837",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/plugin4shell-zero-click-rce",
+      "content_hash": "b4346d715f606d2b9d4a1c00b8b834eb335a73d8ff96fb6f11e3d3f3ca5b2a5d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "b4346d715f606d2b9d4a1c00b8b834eb335a73d8ff96fb6f11e3d3f3ca5b2a5d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "12 Best Multi-Cloud Security Platforms Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-multi-cloud-security-compared/",
+      "published": "Fri, 18 Sep 2026 08:13:56 +0000",
+      "published_utc": "2026-09-18T08:13:56+00:00",
+      "summary": "<p>Quick Answer: Multi-cloud doesn’t just triple your attack surface it triples your billing surface, and vendors price the same workload differently per provider. Wiz and Prisma Cloud sell one-contract parity; Microsoft publishes rates that now extend to AWS/GCP connectors; Fortinet and Check Point bundle into fabric ELAs; Aviatrix bills the network layer everyone else ignores. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-multi-cloud-security-compared/\">12 Best Multi-Cloud Security Platforms Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200026",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-multi-cloud-security-compared",
+      "content_hash": "a2709a474e8913aedaa54aabdafeaf379120ba6343de6bb13a2cd070ded08226",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a2709a474e8913aedaa54aabdafeaf379120ba6343de6bb13a2cd070ded08226"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.418913+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.418911-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.418913+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.418911-05:00"
+    },
+    {
+      "title": "AI-Powered Malware Rewrites Itself Every Hour to Evade Signature-Based Detection",
+      "url": "https://cybersecuritynews.com/ai-powered-malware/",
+      "published": "Fri, 18 Sep 2026 08:12:27 +0000",
+      "published_utc": "2026-09-18T08:12:27+00:00",
+      "summary": "<p>AI-powered malware is making a familiar security problem harder to contain. Instead of keeping the same code long enough for antivirus tools to recognize it, these programs can alter their form repeatedly while retaining the same harmful purpose. The emerging model relies on large language models as an automated code factory. A malicious dropper can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-powered-malware/\">AI-Powered Malware Rewrites Itself Every Hour to Evade Signature-Based Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163841",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ai-powered-malware",
+      "content_hash": "0e2bbf943be31d3d2f417802e18ad79a53ff84015e8137708cd4b58be6f6c231",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "0e2bbf943be31d3d2f417802e18ad79a53ff84015e8137708cd4b58be6f6c231"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "Top 10 Best Container Registry Security Tools in 2026",
+      "url": "https://cybersecuritynews.com/best-container-registry-security-tools/",
+      "published": "Fri, 18 Sep 2026 08:10:39 +0000",
+      "published_utc": "2026-09-18T08:10:39+00:00",
+      "summary": "<p>Quick Answer: The free floor is unusually strong here: Harbor (CNCF registry with scanning/signing) and Anchore’s Grype/Syft (scanning + SBOM) cover startups at $0. Pay for Snyk (dev-first fixes), Aqua (lifecycle depth), JFrog Xray (registry-native), Prisma Cloud (CNAPP enforcement), or Chainguard (hardened images that shrink the problem itself). Every container you deploy came from a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-container-registry-security-tools/\">Top 10 Best Container Registry Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163823",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-container-registry-security-tools",
+      "content_hash": "8e3a0b619ae184e8a9c17d1708808659f050b80687175c08116081164a7c52b5",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "8e3a0b619ae184e8a9c17d1708808659f050b80687175c08116081164a7c52b5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "12 Best CDR Solutions Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-cdr-compared/",
+      "published": "Fri, 18 Sep 2026 08:06:36 +0000",
+      "published_utc": "2026-09-18T08:06:36+00:00",
+      "summary": "<p>Quick Answer: Cloud detection has a real free floor Falco (OSS, on this list in its own right) plus usage-priced native services (GuardDuty-class) so paid CDR must justify itself on correlation and response speed. CrowdStrike, Wiz, and Palo Alto bill CDR inside platform units; Sysdig monetizes the Falco lineage; specialists Permiso (identity), Stream.Security (real-time model), [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cdr-compared/\">12 Best CDR Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199961",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-cdr-compared",
+      "content_hash": "6a5464b28d8566daa401712bed52ba239af1db77fec9c47a831bb23c242cf814",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "6a5464b28d8566daa401712bed52ba239af1db77fec9c47a831bb23c242cf814"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.418913+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.418911-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.418913+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.418911-05:00"
+    },
+    {
+      "title": "One Click in a Malicious VS Code Project Can Give Attackers Persistent Access to Your PC",
+      "url": "https://cybersecuritynews.com/one-click-in-a-malicious-vs-code-project-give-persistent-access/",
+      "published": "Fri, 18 Sep 2026 08:05:49 +0000",
+      "published_utc": "2026-09-18T08:05:49+00:00",
+      "summary": "<p>A serious Visual Studio Code security issue could let attackers gain persistent access to a developer’s workstation with a single click inside a malicious project folder. The attack abuses clickable links in VS Code’s source editor to bypass the protection expected from Workspace Trust. Workspace Trust is designed to protect users when they open code [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/one-click-in-a-malicious-vs-code-project-give-persistent-access/\">One Click in a Malicious VS Code Project Can Give Attackers Persistent Access to Your PC</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163817",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/one-click-in-a-malicious-vs-code-project-give-persistent-access",
+      "content_hash": "7fa891a627d27cbf63d2ad3b1a1ac6e2fe2e17ec14765996a8cdc11824a1bd8b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "7fa891a627d27cbf63d2ad3b1a1ac6e2fe2e17ec14765996a8cdc11824a1bd8b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "Top 10 Best Cloud Encryption Solutions in 2026",
+      "url": "https://cybersecuritynews.com/best-cloud-encryption-solutions/",
+      "published": "Fri, 18 Sep 2026 08:05:08 +0000",
+      "published_utc": "2026-09-18T08:05:08+00:00",
+      "summary": "<p>Quick Answer: Native KMS AWS KMS, Azure Key Vault, Google Cloud KMS is the usage-based default for single-cloud estates. Dedicated platforms earn their price on multicloud key control and sovereignty: Thales CipherTrust for enterprise KMS/HSM, Fortanix for confidential computing, HashiCorp Vault for the OSS-anchored secrets+encryption play. Encryption is table stakes in every cloud, but key [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cloud-encryption-solutions/\">Top 10 Best Cloud Encryption Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163791",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-cloud-encryption-solutions",
+      "content_hash": "a22629e2bd899dc8cb2b3484c8d7fafa9d723c754157820295ce5d21dead66da",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a22629e2bd899dc8cb2b3484c8d7fafa9d723c754157820295ce5d21dead66da"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "12 Best SSPM Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-sspm-compared/",
+      "published": "Fri, 18 Sep 2026 08:01:53 +0000",
+      "published_utc": "2026-09-18T08:01:53+00:00",
+      "summary": "<p>Quick Answer: SSPM bills two ways per employee (predictable, punishes big headcount) or per connected app (bounded, punishes SaaS sprawl) and your estate’s shape decides which is cheaper. AppOmni and Obsidian quote enterprise depth; CrowdStrike (Adaptive Shield) turned the pioneer into a Falcon module; Nudge, Wing, and Grip run discovery-led free/low tiers that reset entry [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-sspm-compared/\">12 Best SSPM Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=199932",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-sspm-compared",
+      "content_hash": "f0065a8b2cfa45421abf7827f46e9143ffc855b212e60f4f78a69b94b923df28",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f0065a8b2cfa45421abf7827f46e9143ffc855b212e60f4f78a69b94b923df28"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.418913+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.418911-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.418913+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.418911-05:00"
+    },
+    {
+      "title": "Top 10 Best Cloud Compliance Tools in 2026",
+      "url": "https://cybersecuritynews.com/best-cloud-compliance-tools/",
+      "published": "Fri, 18 Sep 2026 07:59:08 +0000",
+      "published_utc": "2026-09-18T07:59:08+00:00",
+      "summary": "<p>Quick Answer: Cloud compliance splits into two jobs: technical posture against benchmarks where free Prowler and CNAPP compliance (Wiz, Prisma Cloud, Orca) lead and audit evidence automation for SOC 2/ISO where Vanta, Drata, and Scrut dominate. Most teams need one from each column. Compliance is where security meets paperwork, and the cloud has made both [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cloud-compliance-tools/\">Top 10 Best Cloud Compliance Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163784",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-cloud-compliance-tools",
+      "content_hash": "66bc9c6da62a844b45357de7f4f778a76273e636319aa19db9cb5cefadbdabfb",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "66bc9c6da62a844b45357de7f4f778a76273e636319aa19db9cb5cefadbdabfb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "WordPress 7.1.1 Fixes 11 Security Flaws Including Stored XSS and Path Traversal",
+      "url": "https://gbhackers.com/wordpress-7-1-1-fixes-11-security-flaws/",
+      "published": "Fri, 18 Sep 2026 07:53:21 +0000",
+      "published_utc": "2026-09-18T07:53:21+00:00",
+      "summary": "<p>WordPress has released version 7.1.1, a maintenance and security update that addresses 11 vulnerabilities affecting core platform components, themes, REST API functionality, comments, XML-RPC, and plugin management. Site administrators are strongly urged to update immediately due to the potential impacts of stored cross-site scripting, authenticated path traversal, authorization bypasses, and information disclosure flaws. This release [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-7-1-1-fixes-11-security-flaws/\">WordPress 7.1.1 Fixes 11 Security Flaws Including Stored XSS and Path Traversal</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200174",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/wordpress-7-1-1-fixes-11-security-flaws",
+      "content_hash": "919c064e6cd22ff4cc1e2ffe9021a510303ccd5c46f1d691d69dc3295ce07cb6",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "919c064e6cd22ff4cc1e2ffe9021a510303ccd5c46f1d691d69dc3295ce07cb6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.418913+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.418911-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.418913+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.418911-05:00"
+    },
+    {
+      "title": "WordPress Urges Immediate Update After Fixing 11 Security Vulnerabilities",
+      "url": "https://cybersecuritynews.com/wordpress-7-1-1-security-update/",
+      "published": "Fri, 18 Sep 2026 07:44:34 +0000",
+      "published_utc": "2026-09-18T07:44:34+00:00",
+      "summary": "<p>WordPress has released version 7.1.1, a security and maintenance update that fixes 11 vulnerabilities affecting the widely used content management system. Website owners and administrators are urged to install the update immediately to reduce the risk of cross-site scripting, authorization bypass, information disclosure, path traversal, and content manipulation attacks. The WordPress 7.1.1 release also includes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-7-1-1-security-update/\">WordPress Urges Immediate Update After Fixing 11 Security Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163804",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wordpress-7-1-1-security-update",
+      "content_hash": "cc3d780d9819a94773bb0a18129459fd46e297a6bb291666b5a6d202db756e6f",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "cc3d780d9819a94773bb0a18129459fd46e297a6bb291666b5a6d202db756e6f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "Hackers Poison Movie Torrents With MovieReaper Malware That Uses Solana for C2",
+      "url": "https://cybersecuritynews.com/poison-movie-torrents/",
+      "published": "Fri, 18 Sep 2026 07:24:56 +0000",
+      "published_utc": "2026-09-18T07:24:56+00:00",
+      "summary": "<p>Movie torrents are being used to deliver a new Windows malware framework called MovieReaper. Attackers have poisoned torrent downloads for popular films, turning a routine search for entertainment into a route for remote access and data theft. The campaign has reached users and organizations across several countries. Victims who use a magnet link may receive [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poison-movie-torrents/\">Hackers Poison Movie Torrents With MovieReaper Malware That Uses Solana for C2</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163838",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/poison-movie-torrents",
+      "content_hash": "09e1dd9f6096c8e2b936f2cb1a7f5dc7ac1ac67fe05ae37f28bb87684ca36b5a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "09e1dd9f6096c8e2b936f2cb1a7f5dc7ac1ac67fe05ae37f28bb87684ca36b5a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.769423+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.769419-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.769423+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.769419-05:00"
+    },
+    {
+      "title": "Scammers Tell T-Mobile Users Their Rewards Are Expiring to Trick Them Into Clicking Phishing Links",
+      "url": "https://gbhackers.com/t-mobile-phishing-scam/",
+      "published": "Fri, 18 Sep 2026 06:54:34 +0000",
+      "published_utc": "2026-09-18T06:54:34+00:00",
+      "summary": "<p>A large-scale SMS phishing campaign is impersonating T-Mobile and warning recipients that their “rewards points” are about to expire, using fabricated balances, urgent deadlines, and lookalike redemption links to steal sensitive information. Security researchers have tracked the operation since early May 2026 and continue to observe new message variants despite a decline from its peak [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/t-mobile-phishing-scam/\">Scammers Tell T-Mobile Users Their Rewards Are Expiring to Trick Them Into Clicking Phishing Links</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200161",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/t-mobile-phishing-scam",
+      "content_hash": "ba5e49cbdc46cca661b740d7becb4bc4c42931e14fb8d643112d968f28e67dee",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ba5e49cbdc46cca661b740d7becb4bc4c42931e14fb8d643112d968f28e67dee"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.418913+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.418911-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.418913+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.418911-05:00"
+    },
+    {
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "url": "http://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "published": "Fri, 18 Sep 2026 06:17:25 +0000",
+      "published_utc": "2026-09-18T06:17:25+00:00",
+      "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6978978658024443859",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "content_hash": "1676cb36bdedd9bfe5654c65a96e5f00e7ab595ad74d6dc9bb926491e37bb24f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1676cb36bdedd9bfe5654c65a96e5f00e7ab595ad74d6dc9bb926491e37bb24f",
+        "FEEDBURNER": "1676cb36bdedd9bfe5654c65a96e5f00e7ab595ad74d6dc9bb926491e37bb24f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:51.968624+00:00",
+      "first_seen_local": "2026-09-18T06:04:51.968621-05:00",
+      "last_updated_utc": "2026-09-18T11:04:51.968624+00:00",
+      "last_updated_local": "2026-09-18T06:04:51.968621-05:00"
+    },
+    {
+      "title": "Hackers Turn Brevo Widgets Into Malware Delivery Channel Across 100,000+ Websites",
+      "url": "https://gbhackers.com/brevo-widgets-supply-chain/",
+      "published": "Fri, 18 Sep 2026 06:06:41 +0000",
+      "published_utc": "2026-09-18T06:06:41+00:00",
+      "summary": "<p>A suspected supply-chain compromise involving Brevo has exposed visitors and WordPress administrators across more than 100,000 websites to malware. Attackers allegedly abused Brevo-hosted JavaScript assets, signup forms, unsubscribe pages and chat widgets to distribute a WordPress backdoor and ClickFix social-engineering payloads. Brevo, formerly Sendinblue, disclosed a separate security incident on September 10 involving an SAML [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/brevo-widgets-supply-chain/\">Hackers Turn Brevo Widgets Into Malware Delivery Channel Across 100,000+ Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200155",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/brevo-widgets-supply-chain",
+      "content_hash": "c1b9fce1b72ae1cab88bdb94586c7c732930b97735e3541798cc61eb40d29388",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c1b9fce1b72ae1cab88bdb94586c7c732930b97735e3541798cc61eb40d29388"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T11:04:47.418913+00:00",
+      "first_seen_local": "2026-09-18T06:04:47.418911-05:00",
+      "last_updated_utc": "2026-09-18T11:04:47.418913+00:00",
+      "last_updated_local": "2026-09-18T06:04:47.418911-05:00"
+    },
     {
       "title": "AI Malware Keeps Changing Its Code to Break Traditional Signature-Based Detection",
       "url": "https://gbhackers.com/ai-powered-malware/",

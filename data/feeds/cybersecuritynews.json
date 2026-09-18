@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "OpenAI Models Searched for Leaked API Keys and Uploaded Files Without Permission",
-          "url": "https://cybersecuritynews.com/openai-models-api-key-leaks/",
-          "published": "Thu, 17 Sep 2026 16:59:18 +0000",
-          "published_utc": "2026-09-17T16:59:18+00:00",
-          "summary": "<p>OpenAI has disclosed six cases in which AI models concealed errors, used an exposed API key, uploaded data to public services, and communicated through unauthorized channels. The incidents, observed during reinforcement-learning training and evaluation, accompany a new framework accelerating disclosure of model misalignment even before investigators fully understand or mitigate the behavior. The most security-sensitive [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-models-api-key-leaks/\">OpenAI Models Searched for Leaked API Keys and Uploaded Files Without Permission</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163771"
-        },
-        {
-          "title": "FBI Takes Down NightmareStresser DDoS Service Used in Hundreds of Thousands of Attacks",
-          "url": "https://cybersecuritynews.com/nightmarestresser-ddos-service/",
-          "published": "Thu, 17 Sep 2026 15:48:58 +0000",
-          "published_utc": "2026-09-17T15:48:58+00:00",
-          "summary": "<p>The FBI has seized domains supporting NightmareStresser, disrupting one of the world’s longest-running DDoS-for-hire operations. The court-authorized action targets a service that allegedly enabled paying customers to overwhelm online services with malicious traffic, cutting off legitimate users. According to a seizure-warrant affidavit cited by the U.S. Department of Justice, NightmareStresser was used to launch hundreds [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nightmarestresser-ddos-service/\">FBI Takes Down NightmareStresser DDoS Service Used in Hundreds of Thousands of Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163762"
-        },
-        {
-          "title": "BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes",
-          "url": "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/",
-          "published": "Thu, 17 Sep 2026 14:58:48 +0000",
-          "published_utc": "2026-09-17T14:58:48+00:00",
-          "summary": "<p>Internet Systems Consortium has released security updates for BIND 9 after identifying 14 vulnerabilities that could allow attackers to poison DNS caches, crash exposed servers remotely, exhaust resources, or bypass DNSSEC protections. Administrators running recursive BIND resolvers should apply the latest patched releases as soon as possible. The most serious issues affect the named daemon, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/\">BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163713"
-        },
-        {
-          "title": "CISA Wants Defenders to Deploy Fake Credentials and Systems to Catch Hackers",
-          "url": "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/",
-          "published": "Thu, 17 Sep 2026 14:28:51 +0000",
-          "published_utc": "2026-09-17T14:28:51+00:00",
-          "summary": "<p>CISA has urged organizations to deploy fake credentials, systems, files, and data assets inside their environments to expose attackers after an initial compromise. The agency published its new guidance, Using Cyber Decoys to Strengthen Detection and Response, on September 16, 2026. CISA said many attackers now avoid malware-heavy intrusion methods and instead abuse legitimate user [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/\">CISA Wants Defenders to Deploy Fake Credentials and Systems to Catch Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163685"
-        },
-        {
-          "title": "Hacked Thai College Website Abused to Redirect Google Searchers to Illegal Online Casino",
-          "url": "https://cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino/",
-          "published": "Thu, 17 Sep 2026 13:34:09 +0000",
-          "published_utc": "2026-09-17T13:34:09+00:00",
-          "summary": "<p>A compromised Thai college website was quietly turned into a springboard for an illegal online casino, according to new findings from anti-fraud platform ADEX, which says the campaign achieved full ad cloaking without deploying a single line of cloaking code, mirroring evasion tactics seen in campaigns designed to bypass Google Ads screening. The scheme, uncovered [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino/\">Hacked Thai College Website Abused to Redirect Google Searchers to Illegal Online Casino</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163728"
-        },
-        {
-          "title": "Hackers Turn Telegram Into a Command Center for HEAVYGRAM Surveillance Malware",
-          "url": "https://cybersecuritynews.com/heavygram-surveillance-malware/",
-          "published": "Thu, 17 Sep 2026 12:53:07 +0000",
-          "published_utc": "2026-09-17T12:53:07+00:00",
-          "summary": "<p>HEAVYGRAM is a Windows surveillance backdoor that turns Telegram into an operational command center for attackers. Rather than relying on a dedicated server, it uses bots, accounts and groups to receive instructions, move stolen data and keep infected devices under control. The malware has been used since fall 2023 against journalists, Iranian dissidents and people [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/heavygram-surveillance-malware/\">Hackers Turn Telegram Into a Command Center for HEAVYGRAM Surveillance Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163727"
-        },
-        {
-          "title": "SilkParasite-Linked Malware Infrastructure Traced Back Four Years Across Central Asia",
-          "url": "https://cybersecuritynews.com/silkparasite-linked-malware/",
-          "published": "Thu, 17 Sep 2026 12:26:57 +0000",
-          "published_utc": "2026-09-17T12:26:57+00:00",
-          "summary": "<p>SilkParasite is a cyberespionage operation aimed at government, energy and telecommunications interests in Central Asia. New infrastructure analysis indicates that the activity behind the campaign may be older and broader than its recent name suggests. The operation has used spear-phishing emails carrying convincing government-themed documents and trusted Windows programs to plant remote-access malware. These tools [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silkparasite-linked-malware/\">SilkParasite-Linked Malware Infrastructure Traced Back Four Years Across Central Asia</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163714"
-        },
-        {
-          "title": "North Korean IT Workers Use AI and Remote Desktop Tools to Fake Technical Interviews",
-          "url": "https://cybersecuritynews.com/north-korean-it-workers-2/",
-          "published": "Thu, 17 Sep 2026 11:56:41 +0000",
-          "published_utc": "2026-09-17T11:56:41+00:00",
-          "summary": "<p>North Korean operators are using artificial intelligence, remote-control software, and hired stand-ins to make fraudulent job candidates look genuine during technical interviews. The scheme turns routine hiring into a route for sanctions evasion, payroll fraud, data theft, and access to company systems. The activity surfaced through a job advertisement posted in the Mouse Review Discord [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-it-workers-2/\">North Korean IT Workers Use AI and Remote Desktop Tools to Fake Technical Interviews</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163704"
-        },
-        {
-          "title": "FamousSparrow Exploits Public-Facing Exchange Servers to Deploy SparroWocky Backdoor",
-          "url": "https://cybersecuritynews.com/famoussparrow-exploits/",
-          "published": "Thu, 17 Sep 2026 11:20:03 +0000",
-          "published_utc": "2026-09-17T11:20:03+00:00",
-          "summary": "<p>FamousSparrow has introduced a new backdoor called SparroWocky after breaking into public-facing Microsoft Exchange servers. The campaign shows how a known espionage group can turn an exposed email system into a quiet, long-term entry point inside a government network. The impact extends beyond the first host, because email servers commonly hold sensitive messages and trusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/famoussparrow-exploits/\">FamousSparrow Exploits Public-Facing Exchange Servers to Deploy SparroWocky Backdoor</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163695"
-        },
-        {
-          "title": "Critical Docker Sandbox Vulnerabilities Enable Malicious Guests to Escape Isolated microVM Workspaces",
-          "url": "https://cybersecuritynews.com/critical-docker-sandboxes-vulnerabilities/",
-          "published": "Thu, 17 Sep 2026 11:15:48 +0000",
-          "published_utc": "2026-09-17T11:15:48+00:00",
-          "summary": "<p>Docker patched two serious vulnerabilities in Docker Sandboxes that could let a malicious guest workload break out of its intended shared workspace and access sensitive host-side resources. The flaws, tracked as CVE-2026-77179 and CVE-2026-79994, were fixed in Docker Sandboxes version 0.42.0, released on September 7. Docker Sandboxes uses isolated microVM environments to run potentially untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-docker-sandboxes-vulnerabilities/\">Critical Docker Sandbox Vulnerabilities Enable Malicious Guests to Escape Isolated microVM Workspaces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163649"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

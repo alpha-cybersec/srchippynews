@@ -22,87 +22,39 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 4,
       "articles": [
         {
-          "title": "GPT4Free Privacy Risks Expose AI Prompts to Third-Party Servers and Hidden Logs",
-          "url": "https://gbhackers.com/gpt4free-privacy-risks-expose-ai-prompts/",
-          "published": "Thu, 17 Sep 2026 12:04:20 +0000",
-          "published_utc": "2026-09-17T12:04:20+00:00",
-          "summary": "<p>Users of the GPT4Free hosted platform might believe they are directly interacting with the selected artificial intelligence model in its web interface. However, recent research suggests that prompts submitted through g4f.dev may travel through a complex network of provider code, intermediary services, external model endpoints, and potentially unrelated AI servers. These findings raise significant privacy [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gpt4free-privacy-risks-expose-ai-prompts/\">GPT4Free Privacy Risks Expose AI Prompts to Third-Party Servers and Hidden Logs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199989"
+          "title": "AI Malware Keeps Changing Its Code to Break Traditional Signature-Based Detection",
+          "url": "https://gbhackers.com/ai-powered-malware/",
+          "published": "Fri, 18 Sep 2026 05:23:31 +0000",
+          "published_utc": "2026-09-18T05:23:31+00:00",
+          "summary": "<p>AI-powered malware is beginning to erode one of endpoint security’s oldest assumptions: that malicious code will remain stable long enough to identify, fingerprint, and block. A new class of threats uses large language models during execution to rewrite scripts, generate commands, and alter obfuscation on demand producing variants that can evade static hashes and traditional [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-malware/\">AI Malware Keeps Changing Its Code to Break Traditional Signature-Based Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200140"
         },
         {
-          "title": "BIND 9.20.29 Fixes 14 Security Flaws Enabling DNSSEC Bypass and Denial-of-Service Attacks",
-          "url": "https://gbhackers.com/bind-9-20-29-fixes-14-security-flaws/",
-          "published": "Thu, 17 Sep 2026 11:24:46 +0000",
-          "published_utc": "2026-09-17T11:24:46+00:00",
-          "summary": "<p>The Internet Systems Consortium (ISC) has released BIND 9.20.29, which addresses 14 security vulnerabilities. These vulnerabilities could enable remote attackers to bypass DNSSEC protections, poison resolver caches, exhaust CPU or memory resources, and crash the named service. This update is particularly important for organizations that operate recursive, DNSSEC-validating resolvers, as they are primarily exposed to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bind-9-20-29-fixes-14-security-flaws/\">BIND 9.20.29 Fixes 14 Security Flaws Enabling DNSSEC Bypass and Denial-of-Service Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199978"
+          "title": "FBI Seizes NightmareStresser DDoS-for-Hire Domains Used in Hundreds of Thousands of Attacks",
+          "url": "https://gbhackers.com/fbi-seizes-nightmarestresser-ddos/",
+          "published": "Fri, 18 Sep 2026 05:10:48 +0000",
+          "published_utc": "2026-09-18T05:10:48+00:00",
+          "summary": "<p>The FBI has seized internet domains linked to NightmareStresser, a long-standing distributed denial-of-service (DDoS)-for-hire platform allegedly used to launch hundreds of thousands of attacks or attempted attacks worldwide since 2022. The U.S. Attorney’s Office for the District of Alaska announced the action, which targets the infrastructure that allowed paying customers to overwhelm victims&#8217; networks and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-seizes-nightmarestresser-ddos/\">FBI Seizes NightmareStresser DDoS-for-Hire Domains Used in Hundreds of Thousands of Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200146"
         },
         {
-          "title": "FamousSparrow Deploys New SparroWocky Backdoor Against Latin American Governments",
-          "url": "https://gbhackers.com/sparrowocky-backdoor/",
-          "published": "Thu, 17 Sep 2026 11:04:21 +0000",
-          "published_utc": "2026-09-17T11:04:21+00:00",
-          "summary": "<p>China-aligned advanced persistent threat group FamousSparrow has replaced its long-running SparrowDoor implant with a new modular C++ backdoor, SparroWocky, in a sustained cyberespionage campaign against government entities across Latin America. ESET says the malware has been active in the region since at least August 2025, following a sharp shift in the group’s victim targeting that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sparrowocky-backdoor/\">FamousSparrow Deploys New SparroWocky Backdoor Against Latin American Governments</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199960"
+          "title": "MovieReaper Malware Spreads Through Pirated Movie Torrents and Uses Solana for C2",
+          "url": "https://gbhackers.com/moviereaper-malware/",
+          "published": "Fri, 18 Sep 2026 05:02:14 +0000",
+          "published_utc": "2026-09-18T05:02:14+00:00",
+          "summary": "<p>A newly identified Windows malware framework dubbed MovieReaper is being distributed through pirated movie torrents after threat actors compromised a public torrent-file repository used by multiple tracker sites. The campaign combines a multi-stage infection chain, anti-analysis techniques, UAC bypass, file-management capabilities, and Solana blockchain-based command-and-control (C2) discovery to make disruption more difficult. Kaspersky researchers identified [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/moviereaper-malware/\">MovieReaper Malware Spreads Through Pirated Movie Torrents and Uses Solana for C2</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200130"
         },
         {
-          "title": "CISA Urges Organizations to Deploy Cyber Decoys to Detect Hackers Inside Networks",
-          "url": "https://gbhackers.com/cisa-urges-organizations-to-deploy-cyber-decoys/",
-          "published": "Thu, 17 Sep 2026 11:01:22 +0000",
-          "published_utc": "2026-09-17T11:01:22+00:00",
-          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to deploy cyber decoys, which include fake credentials, systems, data, and services. This strategy aims to expose attackers sooner and enhance post-compromise detection. In new guidance titled &#8220;Using Cyber Decoys to Strengthen Detection and Response,&#8221; published on September 16, 2026, CISA outlined how defenders [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-urges-organizations-to-deploy-cyber-decoys/\">CISA Urges Organizations to Deploy Cyber Decoys to Detect Hackers Inside Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199966"
-        },
-        {
-          "title": "Kubernetes Attack Lets Hackers Steal SPIFFE Workload Identities and Impersonate Applications",
-          "url": "https://gbhackers.com/kubernetes-identity-attack/",
-          "published": "Thu, 17 Sep 2026 10:36:55 +0000",
-          "published_utc": "2026-09-17T10:36:55+00:00",
-          "summary": "<p>A post-exploitation technique that lets attackers with root-level access to a Kubernetes node steal workload identities issued through SPIFFE/SPIRE and impersonate legitimate applications running on the same host. The technique undermines the node-trust assumption behind cloud-native machine identity systems, potentially enabling attackers to access services protected by mutual TLS and identity-based authorization. Palo Alto Networks [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kubernetes-identity-attack/\">Kubernetes Attack Lets Hackers Steal SPIFFE Workload Identities and Impersonate Applications</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199931"
-        },
-        {
-          "title": "12 Best DSPM Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-dspm-compared/",
-          "published": "Thu, 17 Sep 2026 10:33:38 +0000",
-          "published_utc": "2026-09-17T10:33:38+00:00",
-          "summary": "<p>Quick Answer: DSPM has the scariest pricing curve in security bills track data volume, and data only grows. Microsoft Purview publishes pay-as-you-go rates (the anchor); Cyera leads the independents; BigID and Varonis bring privacy and on-prem lineage; CrowdStrike (Flow) and Tenable (Eureka-lineage) mark the consolidation wave. Negotiate volume caps before your data does the negotiating. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-dspm-compared/\">12 Best DSPM Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199906"
-        },
-        {
-          "title": "Hackers Exploit Critical Cisco ISE Flaw to Bypass Authentication and Gain Root Access",
-          "url": "https://gbhackers.com/hackers-exploit-critical-cisco-ise-flaw/",
-          "published": "Thu, 17 Sep 2026 10:06:08 +0000",
-          "published_utc": "2026-09-17T10:06:08+00:00",
-          "summary": "<p>Cisco has issued an urgent security advisory regarding a critical authentication-bypass vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC). This vulnerability, tracked as CVE-2026-76460, has a maximum CVSS score of 10.0 and could allow unauthenticated remote attackers to gain unauthorized access to vulnerable devices. Cisco advisory cisco-sa-ISE-ABP-VNSW7Tn5 details the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-critical-cisco-ise-flaw/\">Hackers Exploit Critical Cisco ISE Flaw to Bypass Authentication and Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199944"
-        },
-        {
-          "title": "APT36 Targets Indian Government and Defense Organizations With New Rust Malware Arsenal",
-          "url": "https://gbhackers.com/apt36-malware-campaign/",
-          "published": "Thu, 17 Sep 2026 09:42:38 +0000",
-          "published_utc": "2026-09-17T09:42:38+00:00",
-          "summary": "<p>Pakistan-nexus threat actor APT36 has launched a renewed espionage campaign targeting government and defense organizations in India and Afghanistan. Deploying a new Rust-based malware suite designed for covert command-and-control, data theft, and propagation into isolated networks. Tracked by Zscaler ThreatLabz as Operation RapidRust, the activity was observed in August 2026 and reflects a significant evolution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apt36-malware-campaign/\">APT36 Targets Indian Government and Defense Organizations With New Rust Malware Arsenal</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199915"
-        },
-        {
-          "title": "12 Serverless Security Options Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-serverless-security-compared/",
-          "published": "Thu, 17 Sep 2026 08:33:12 +0000",
-          "published_utc": "2026-09-17T08:33:12+00:00",
-          "summary": "<p>Quick Answer: There is no standalone serverless-security SKU worth buying in 2026 functions are a line item inside CNAPP or observability contracts. Datadog publishes per-function rates (the category’s only clean anchor); Prisma Cloud carries the deepest lineage (PureSec); Aqua, Sysdig, Wiz, CloudGuard, and Fortinet (Lacework) bill functions inside platform units. Graveyard warning: Thundra and Epsagon [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-serverless-security-compared/\">12 Serverless Security Options Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199843"
-        },
-        {
-          "title": "RatHat Abuses Android Wireless Debugging to Gain Shell Access and Steal Banking PINs",
-          "url": "https://gbhackers.com/rathat-malware-attack/",
-          "published": "Thu, 17 Sep 2026 08:01:48 +0000",
-          "published_utc": "2026-09-17T08:01:48+00:00",
-          "summary": "<p>RatHat, a newly identified Android banking malware family that combines Accessibility abuse, local Android Debug Bridge (ADB) pairing, native shell-level components, and generative-AI-assisted interface automation. The operation appears linked to China-based threat actors and is primarily designed to steal banking credentials, payment PINs, one-time passwords, device-unlock secrets, and other high-value data from infected Android devices. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rathat-malware-attack/\">RatHat Abuses Android Wireless Debugging to Gain Shell Access and Steal Banking PINs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=199885"
+          "title": "OpenAI Reveals AI Models Concealing Mistakes, Using Exposed API Keys and Sharing Files",
+          "url": "https://gbhackers.com/openai-reveals-ai-models-concealing-mistakes/",
+          "published": "Fri, 18 Sep 2026 05:00:33 +0000",
+          "published_utc": "2026-09-18T05:00:33+00:00",
+          "summary": "<p>OpenAI has introduced a new framework for reporting model misalignment after discovering instances where its AI systems concealed mistakes, accessed exposed API keys, fabricated data, uploaded files without authorization, and communicated through unintended channels. The company released six initial reports detailing behaviors observed during model training and evaluation. They argue that AI developers need more [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-reveals-ai-models-concealing-mistakes/\">OpenAI Reveals AI Models Concealing Mistakes, Using Exposed API Keys and Sharing Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200137"
         }
       ],
       "error": ""

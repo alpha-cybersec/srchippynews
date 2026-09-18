@@ -10,8 +10,16 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 5,
+      "article_count": 6,
       "articles": [
+        {
+          "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+          "url": "http://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+          "published": "Fri, 18 Sep 2026 12:47:04 +0000",
+          "published_utc": "2026-09-18T12:47:04+00:00",
+          "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2153420558186905128"
+        },
         {
           "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
           "url": "http://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
@@ -63,8 +71,32 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 3,
+      "article_count": 6,
       "articles": [
+        {
+          "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+          "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+          "published": "Fri, 18 Sep 2026 18:17:04 +0530",
+          "published_utc": "2026-09-18T12:47:04+00:00",
+          "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
+          "id": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html"
+        },
+        {
+          "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+          "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+          "published": "Fri, 18 Sep 2026 16:31:16 +0530",
+          "published_utc": "2026-09-18T11:01:16+00:00",
+          "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp;\n\nThe new owner holds",
+          "id": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html"
+        },
+        {
+          "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+          "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+          "published": "Fri, 18 Sep 2026 16:31:01 +0530",
+          "published_utc": "2026-09-18T11:01:01+00:00",
+          "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
+          "id": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html"
+        },
         {
           "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
           "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",

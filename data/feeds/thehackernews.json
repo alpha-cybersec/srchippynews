@@ -10,8 +10,32 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 6,
+      "article_count": 9,
       "articles": [
+        {
+          "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+          "url": "http://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+          "published": "Fri, 18 Sep 2026 18:02:24 +0000",
+          "published_utc": "2026-09-18T18:02:24+00:00",
+          "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2262009955286362802"
+        },
+        {
+          "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+          "url": "http://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+          "published": "Fri, 18 Sep 2026 16:56:19 +0000",
+          "published_utc": "2026-09-18T16:56:19+00:00",
+          "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7760190273159803360"
+        },
+        {
+          "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+          "url": "http://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+          "published": "Fri, 18 Sep 2026 15:24:16 +0000",
+          "published_utc": "2026-09-18T15:24:16+00:00",
+          "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7078638086291094908"
+        },
         {
           "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
           "url": "http://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
@@ -71,8 +95,24 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 6,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+          "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+          "published": "Fri, 18 Sep 2026 22:26:19 +0530",
+          "published_utc": "2026-09-18T16:56:19+00:00",
+          "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
+          "id": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html"
+        },
+        {
+          "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+          "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+          "published": "Fri, 18 Sep 2026 20:54:16 +0530",
+          "published_utc": "2026-09-18T15:24:16+00:00",
+          "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
+          "id": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html"
+        },
         {
           "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
           "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",

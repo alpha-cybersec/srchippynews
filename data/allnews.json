@@ -1,301 +1,355 @@
 {
-  "generated_at_utc": "2026-09-18T14:56:33.533692+00:00",
-  "generated_at_local": "2026-09-18T09:56:33.533700-05:00",
-  "article_count": 11,
-  "new_count": 11,
+  "generated_at_utc": "2026-09-18T18:20:12.417571+00:00",
+  "generated_at_local": "2026-09-18T13:20:12.417578-05:00",
+  "article_count": 13,
+  "new_count": 13,
   "updated_count": 0,
   "sources": {
-    "gbhackers": 10,
-    "thehackernews": 1
+    "thehackernews": 3,
+    "cybersecuritynews": 10
   },
   "articles": [
     {
-      "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
-      "url": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
-      "published": "Fri, 18 Sep 2026 13:43:38 +0000",
-      "published_utc": "2026-09-18T13:43:38+00:00",
-      "summary": "<p>China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises that routinely deprioritize gambling-related domains. Infoblox telemetry found that just over 3% of enterprise customers resolved at least one PeckBirdy-related C2 domain, indicating that the infrastructure is appearing well beyond the campaign’s apparent [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casino-domains-hide-c2-traffic/\">PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200257",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/casino-domains-hide-c2-traffic",
-      "content_hash": "8b2a84a423b2ea11ebeae603307b5d257c9e9422954c5b142d22aa3dbf918c85",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "8b2a84a423b2ea11ebeae603307b5d257c9e9422954c5b142d22aa3dbf918c85"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
-    },
-    {
-      "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
-      "url": "https://gbhackers.com/genielocker-ransomware/",
-      "published": "Fri, 18 Sep 2026 13:02:07 +0000",
-      "published_utc": "2026-09-18T13:02:07+00:00",
-      "summary": "<p>Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying GenieLocker ransomware. The campaign, tracked from May through August 2026, targeted organizations in the retail, construction, manufacturing, and IT sectors. BI.ZONE DFIR investigators found that the threat actor combined [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/genielocker-ransomware/\">Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200249",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/genielocker-ransomware",
-      "content_hash": "ed358d5772c3b7d44d52eb5f2731962866930ec9da2f09c3264e87fd7dd9fd63",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "ed358d5772c3b7d44d52eb5f2731962866930ec9da2f09c3264e87fd7dd9fd63"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
-    },
-    {
-      "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-      "url": "https://gbhackers.com/settra-ransomware/",
-      "published": "Fri, 18 Sep 2026 12:50:05 +0000",
-      "published_utc": "2026-09-18T12:50:05+00:00",
-      "summary": "<p>A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion techniques to maximize the impact of Windows encryption attacks. Huntress investigated two SETTRA incidents in July and September 2026, uncovering a repeatable operational pattern involving victim-specific ransomware binaries, Windows log clearing, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/settra-ransomware/\">New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200242",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/settra-ransomware",
-      "content_hash": "abc96cb28c1304f54d166750728892f529228a6734ba1d8fedcb61e818765977",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "abc96cb28c1304f54d166750728892f529228a6734ba1d8fedcb61e818765977"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
-    },
-    {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "url": "http://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "published": "Fri, 18 Sep 2026 12:47:04 +0000",
-      "published_utc": "2026-09-18T12:47:04+00:00",
-      "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2153420558186905128",
+      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+      "url": "http://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+      "published": "Fri, 18 Sep 2026 18:02:24 +0000",
+      "published_utc": "2026-09-18T18:02:24+00:00",
+      "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2262009955286362802",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "content_hash": "97d6b234d81efcf2f1f6a0ae67ba996511f910803a870d436f1d777305b1ab39",
+      "article_key": "thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+      "content_hash": "c87974e95e48e2ec3b3c2a627bc7cfa4ba04f35146456d8207a68d2774a3f78a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c87974e95e48e2ec3b3c2a627bc7cfa4ba04f35146456d8207a68d2774a3f78a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T18:20:12.413063+00:00",
+      "first_seen_local": "2026-09-18T13:20:12.413061-05:00",
+      "last_updated_utc": "2026-09-18T18:20:12.413063+00:00",
+      "last_updated_local": "2026-09-18T13:20:12.413061-05:00"
+    },
+    {
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "url": "http://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "published": "Fri, 18 Sep 2026 16:56:19 +0000",
+      "published_utc": "2026-09-18T16:56:19+00:00",
+      "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7760190273159803360",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "content_hash": "5da95c23ac589d60647285bbaf7b6c204243f5c67fd3abb256fe8ec8c23d1db4",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "97d6b234d81efcf2f1f6a0ae67ba996511f910803a870d436f1d777305b1ab39",
-        "FEEDBURNER": "97d6b234d81efcf2f1f6a0ae67ba996511f910803a870d436f1d777305b1ab39"
+        "ORIGINAL": "5da95c23ac589d60647285bbaf7b6c204243f5c67fd3abb256fe8ec8c23d1db4",
+        "FEEDBURNER": "5da95c23ac589d60647285bbaf7b6c204243f5c67fd3abb256fe8ec8c23d1db4"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:33.529880+00:00",
-      "first_seen_local": "2026-09-18T09:56:33.529878-05:00",
-      "last_updated_utc": "2026-09-18T14:56:33.529880+00:00",
-      "last_updated_local": "2026-09-18T09:56:33.529878-05:00"
+      "first_seen_utc": "2026-09-18T18:20:12.413063+00:00",
+      "first_seen_local": "2026-09-18T13:20:12.413061-05:00",
+      "last_updated_utc": "2026-09-18T18:20:12.413063+00:00",
+      "last_updated_local": "2026-09-18T13:20:12.413061-05:00"
     },
     {
-      "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
-      "url": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
-      "published": "Fri, 18 Sep 2026 12:23:02 +0000",
-      "published_utc": "2026-09-18T12:23:02+00:00",
-      "summary": "<p>JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, training datasets, and vector data. Its latest payload, ENCFORGE, marks a shift from conventional database extortion toward destruction-focused attacks on high-value AI and machine-learning assets. The group’s ENCFORGE locker targets [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-ransomware-to-target-ai-models/\">JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200223",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/agentic-ransomware-to-target-ai-models",
-      "content_hash": "c46f768eb41c5d082120ec21173420fc856414bbfbca88f69cde2fcd69ac0c5d",
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "url": "http://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "published": "Fri, 18 Sep 2026 15:24:16 +0000",
+      "published_utc": "2026-09-18T15:24:16+00:00",
+      "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7078638086291094908",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "content_hash": "f6cd220541f060b4d5db65062b8380c88a1c88c2e5797eacb83756b8cb04b45e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f6cd220541f060b4d5db65062b8380c88a1c88c2e5797eacb83756b8cb04b45e",
+        "FEEDBURNER": "f6cd220541f060b4d5db65062b8380c88a1c88c2e5797eacb83756b8cb04b45e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T18:20:12.413063+00:00",
+      "first_seen_local": "2026-09-18T13:20:12.413061-05:00",
+      "last_updated_utc": "2026-09-18T18:20:12.413063+00:00",
+      "last_updated_local": "2026-09-18T13:20:12.413061-05:00"
+    },
+    {
+      "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
+      "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+      "published": "Fri, 18 Sep 2026 14:14:16 +0000",
+      "published_utc": "2026-09-18T14:14:16+00:00",
+      "summary": "<p>Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/\">Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163946",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability",
+      "content_hash": "eca94789c7af108b3d2bee47789ef2a90eb49f49a5e6887933a85385b7d051e8",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "c46f768eb41c5d082120ec21173420fc856414bbfbca88f69cde2fcd69ac0c5d"
+        "FEEDBURNER": "eca94789c7af108b3d2bee47789ef2a90eb49f49a5e6887933a85385b7d051e8"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     },
     {
-      "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
-      "url": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
-      "published": "Fri, 18 Sep 2026 10:36:04 +0000",
-      "published_utc": "2026-09-18T10:36:04+00:00",
-      "summary": "<p>Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. This update is rolling out as version 153.0.8010.52 for Windows and macOS. Linux users will receive version 153.0.8010.52 over the coming days and weeks. Google Chrome 153 Update Fixes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/\">Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200219",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/google-chrome-153-update-fixes-16-security-flaws",
-      "content_hash": "0bc2ad72644864d8267351f29099f98008c032ce1d0f595e4e3d8a97523c1814",
+      "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
+      "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+      "published": "Fri, 18 Sep 2026 13:59:26 +0000",
+      "published_utc": "2026-09-18T13:59:26+00:00",
+      "summary": "<p>Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/feral-wolf-ransomware/\">Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163939",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/feral-wolf-ransomware",
+      "content_hash": "d1b38b87827f0099922f085e96a81f96cd1d07227f817f3f8b2ad68a37ef0c4f",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "0bc2ad72644864d8267351f29099f98008c032ce1d0f595e4e3d8a97523c1814"
+        "FEEDBURNER": "d1b38b87827f0099922f085e96a81f96cd1d07227f817f3f8b2ad68a37ef0c4f"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     },
     {
-      "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
-      "url": "https://gbhackers.com/chatgpt-phishing-campaign/",
-      "published": "Fri, 18 Sep 2026 10:22:51 +0000",
-      "published_utc": "2026-09-18T10:22:51+00:00",
-      "summary": "<p>Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A recently observed campaign uses a fraudulent subscription-payment notice to lure victims into disclosing OpenAI account credentials and potentially payment details through a convincing fake ChatGPT login page. The lure claims [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-phishing-campaign/\">ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200207",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/chatgpt-phishing-campaign",
-      "content_hash": "18c17453e81beaa72f7c796e628faa0df2c0ae95049d0131ee19784e33c55cec",
+      "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+      "url": "https://cybersecuritynews.com/new-settra-ransomware/",
+      "published": "Fri, 18 Sep 2026 13:44:33 +0000",
+      "published_utc": "2026-09-18T13:44:33+00:00",
+      "summary": "<p>Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The operation encrypts files, leaves victims with ransom notes, and tries to make both investigation and restoration more difficult. Public reporting indicates that the people behind Settra have gained entry [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-settra-ransomware/\">New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163936",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/new-settra-ransomware",
+      "content_hash": "98847e4b916df4a96524b27ebe5e844de87bd910bcaa3cb97ae95eda40eb8912",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "18c17453e81beaa72f7c796e628faa0df2c0ae95049d0131ee19784e33c55cec"
+        "FEEDBURNER": "98847e4b916df4a96524b27ebe5e844de87bd910bcaa3cb97ae95eda40eb8912"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     },
     {
-      "title": "Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell",
-      "url": "https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/",
-      "published": "Fri, 18 Sep 2026 10:22:48 +0000",
-      "published_utc": "2026-09-18T10:22:48+00:00",
-      "summary": "<p>Linux administrators are being urged to patch four newly disclosed local privilege escalation (LPE) vulnerabilities, collectively known as DirtyAH6, TUNderflow, PPPoEject, and DiagSpill. These vulnerabilities can allow attackers to corrupt kernel memory and gain root-level access on affected systems. The vulnerabilities are tracked under the following CVE identifiers: CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469. They affect [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/\">Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200210",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/linux-kernel-hit-by-4-lpe-flaws",
-      "content_hash": "462636b15f1fe82611290aa0f5202148ddf1abb89ac041dfc33f540a4b9d89c8",
+      "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
+      "url": "https://cybersecuritynews.com/ai-agents-3/",
+      "published": "Fri, 18 Sep 2026 13:24:09 +0000",
+      "published_utc": "2026-09-18T13:24:09+00:00",
+      "summary": "<p>Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved its actions. The operation, tracked as JADEPUFFER, used an exposed AI workflow server to steal credentials, reach databases, encrypt records, and demand payment. It later [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-3/\">AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163933",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ai-agents-3",
+      "content_hash": "858141095e1e2695927aadaf2324b7003a6b608f046a827bdf67341b013b58ba",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "462636b15f1fe82611290aa0f5202148ddf1abb89ac041dfc33f540a4b9d89c8"
+        "FEEDBURNER": "858141095e1e2695927aadaf2324b7003a6b608f046a827bdf67341b013b58ba"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     },
     {
-      "title": "Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability",
-      "url": "https://gbhackers.com/tutor-lms-vulnerability/",
-      "published": "Fri, 18 Sep 2026 10:04:39 +0000",
-      "published_utc": "2026-09-18T10:04:39+00:00",
-      "summary": "<p>More than 100,000 WordPress sites using the Tutor LMS e-learning plugin were exposed to a high-severity remote code execution vulnerability that could allow low-privileged users to take control of vulnerable servers. The vulnerability was discovered on August 23, 2026, by Wordfence Argus, an AI-assisted vulnerability research agent, and validated by the Wordfence Threat Intelligence team. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tutor-lms-vulnerability/\">Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200187",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/tutor-lms-vulnerability",
-      "content_hash": "14ddf6f8ea4f6a00e3f0b63bc8bac671a3f7a6ff0019177a929f31bdf2483df7",
+      "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
+      "url": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
+      "published": "Fri, 18 Sep 2026 13:13:23 +0000",
+      "published_utc": "2026-09-18T13:13:23+00:00",
+      "summary": "<p>Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoEject, and DiagSpill, affect long-standing networking code and have now received upstream fixes. The vulnerabilities are tracked as CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469. DirtyAH6, tracked as CVE-2026-80844, affects [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/\">Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163909",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/linux-kernel-privilege-escalation-flaws",
+      "content_hash": "1e00a88d099a230f86ad56936cce63fdae4565b7b3858855ba61827c6e61968c",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "14ddf6f8ea4f6a00e3f0b63bc8bac671a3f7a6ff0019177a929f31bdf2483df7"
+        "FEEDBURNER": "1e00a88d099a230f86ad56936cce63fdae4565b7b3858855ba61827c6e61968c"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     },
     {
-      "title": "Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps",
-      "url": "https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/",
-      "published": "Fri, 18 Sep 2026 09:45:37 +0000",
-      "published_utc": "2026-09-18T09:45:37+00:00",
-      "summary": "<p>Researchers have identified significant security and privacy risks across 61,500 abandoned Android Internet-of-Things (IoT) companion applications. Their study found that 73.6% of these apps contained at least one potential vulnerability, risky embedded resource, or insecure communication path. Risks in Abandoned IoT Apps Titled &#8220;When Apps Outlive Vendors: Security Implications of IoT Abandonware,&#8221; the study examines [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/\">Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200199",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps",
-      "content_hash": "f2b491385f73be2e4d4f3a23d1ba4580d431e3ed962308ad78bc4a0cb99b1898",
+      "title": "Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials",
+      "url": "https://cybersecuritynews.com/chatgpt-subscription/",
+      "published": "Fri, 18 Sep 2026 12:30:16 +0000",
+      "published_utc": "2026-09-18T12:30:16+00:00",
+      "summary": "<p>ChatGPT subscription notices have become the latest cover for credential-stealing emails. The campaign uses a familiar billing problem to push recipients toward a fake sign-in page, where attackers can collect OpenAI account details. A successful theft can expose saved conversations and give criminals another identity to abuse in follow-on scams. The messages target people using [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-subscription/\">Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163912",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chatgpt-subscription",
+      "content_hash": "8185553b423b654efa13cee83c1e7493e4a5eb1f8e404e94d69aef2d0413e820",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "f2b491385f73be2e4d4f3a23d1ba4580d431e3ed962308ad78bc4a0cb99b1898"
+        "FEEDBURNER": "8185553b423b654efa13cee83c1e7493e4a5eb1f8e404e94d69aef2d0413e820"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     },
     {
-      "title": "Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials",
-      "url": "https://gbhackers.com/critical-pgadmin-authentication-bypass/",
-      "published": "Fri, 18 Sep 2026 09:31:53 +0000",
-      "published_utc": "2026-09-18T09:31:53+00:00",
-      "summary": "<p>A critical vulnerability in pgAdmin 4 could allow unauthenticated remote attackers to impersonate arbitrary users, including existing administrator accounts, by supplying a malicious HTTP identity header. This vulnerability, tracked as CVE-2026-86863, affects installations using pgAdmin’s Webserver authentication mode and has a CVSS 3.1 score of 9.8 out of 10. The issue impacts pgAdmin 4 versions [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-pgadmin-authentication-bypass/\">Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200191",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-pgadmin-authentication-bypass",
-      "content_hash": "0f61a6e231a62f2ba21808aab69a8608724686d1d31d3bd1238a2d60bd6905c6",
+      "title": "Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution",
+      "url": "https://cybersecuritynews.com/tutor-lms-flaw/",
+      "published": "Fri, 18 Sep 2026 11:52:01 +0000",
+      "published_utc": "2026-09-18T11:52:01+00:00",
+      "summary": "<p>A high-severity flaw in the Tutor LMS WordPress plugin could let a low-privileged user take control of an affected server. The issue affects more than 100,000 sites that use the e-learning plugin, particularly installations that allow visitors to register as students. Tracked as CVE-2026-78175, the vulnerability is rated 8.8 out of 10 and affects Tutor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tutor-lms-flaw/\">Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163879",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/tutor-lms-flaw",
+      "content_hash": "4031c1ecfd6cea7340d5ec29805a34a9f96833c5de71e1b0f4e66fd2acaabfce",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "0f61a6e231a62f2ba21808aab69a8608724686d1d31d3bd1238a2d60bd6905c6"
+        "FEEDBURNER": "4031c1ecfd6cea7340d5ec29805a34a9f96833c5de71e1b0f4e66fd2acaabfce"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-18T14:56:29.252128+00:00",
-      "first_seen_local": "2026-09-18T09:56:29.252125-05:00",
-      "last_updated_utc": "2026-09-18T14:56:29.252128+00:00",
-      "last_updated_local": "2026-09-18T09:56:29.252125-05:00"
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
+    },
+    {
+      "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
+      "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
+      "published": "Fri, 18 Sep 2026 11:24:13 +0000",
+      "published_utc": "2026-09-18T11:24:13+00:00",
+      "summary": "<p>Google has released Chrome 153 to the Stable channel for Windows, macOS, and Linux, addressing 16 security vulnerabilities, including two critical memory-safety flaws in Dawn and WebGL. The update is rolling out as version 153.0.8010.52/.53 for Windows and macOS, while Linux users will receive version 153.0.8010.52. The most severe issue, tracked as CVE-2026-93374, is a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/\">Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163901",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities",
+      "content_hash": "4223fd3cc6f8bfbc6fa184ab7e2ab5a1c50c56729cdcaa3026554f4b232bab34",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4223fd3cc6f8bfbc6fa184ab7e2ab5a1c50c56729cdcaa3026554f4b232bab34"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
+    },
+    {
+      "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
+      "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
+      "published": "Fri, 18 Sep 2026 10:46:01 +0000",
+      "published_utc": "2026-09-18T10:46:01+00:00",
+      "summary": "<p>Android has released new Security State libraries that allow apps and enterprise tools to check whether a device is missing important security patches. The update gives developers a more detailed view of Android security than the traditional monthly Security Patch Level, helping apps identify unpatched system components, pending updates, and specific vulnerability fixes. The stable [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-apps-check-security-patches/\">Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163892",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/android-apps-check-security-patches",
+      "content_hash": "eb8f3936d214438cb7645c44451e8bba917e8ed4afa8ae5d7569a251f6940085",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "eb8f3936d214438cb7645c44451e8bba917e8ed4afa8ae5d7569a251f6940085"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
+    },
+    {
+      "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
+      "url": "https://cybersecuritynews.com/mikrotrick-attack/",
+      "published": "Fri, 18 Sep 2026 09:59:32 +0000",
+      "published_utc": "2026-09-18T09:59:32+00:00",
+      "summary": "<p>MikroTik router owners face a security problem after researchers reproduced a takeover chain that can hand an outsider full administrator control without a password. The attack, MikroTrick, targets exposed RouterOS devices through SSH and can turn a network gateway into an attacker-controlled foothold. The risk is serious because a router handles traffic entering and leaving [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mikrotrick-attack/\">MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=163869",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/mikrotrick-attack",
+      "content_hash": "90c7f407815a2d6c427e2362d3c97ec479a5820cfb578558669ab5ba9a938b09",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "90c7f407815a2d6c427e2362d3c97ec479a5820cfb578558669ab5ba9a938b09"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-18T18:20:04.833815+00:00",
+      "first_seen_local": "2026-09-18T13:20:04.833812-05:00",
+      "last_updated_utc": "2026-09-18T18:20:04.833815+00:00",
+      "last_updated_local": "2026-09-18T13:20:04.833812-05:00"
     }
   ]
 }

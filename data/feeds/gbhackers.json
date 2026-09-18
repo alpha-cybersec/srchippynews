@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
-          "url": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
-          "published": "Fri, 18 Sep 2026 13:43:38 +0000",
-          "published_utc": "2026-09-18T13:43:38+00:00",
-          "summary": "<p>China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises that routinely deprioritize gambling-related domains. Infoblox telemetry found that just over 3% of enterprise customers resolved at least one PeckBirdy-related C2 domain, indicating that the infrastructure is appearing well beyond the campaign’s apparent [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casino-domains-hide-c2-traffic/\">PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200257"
-        },
-        {
-          "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
-          "url": "https://gbhackers.com/genielocker-ransomware/",
-          "published": "Fri, 18 Sep 2026 13:02:07 +0000",
-          "published_utc": "2026-09-18T13:02:07+00:00",
-          "summary": "<p>Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying GenieLocker ransomware. The campaign, tracked from May through August 2026, targeted organizations in the retail, construction, manufacturing, and IT sectors. BI.ZONE DFIR investigators found that the threat actor combined [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/genielocker-ransomware/\">Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200249"
-        },
-        {
-          "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-          "url": "https://gbhackers.com/settra-ransomware/",
-          "published": "Fri, 18 Sep 2026 12:50:05 +0000",
-          "published_utc": "2026-09-18T12:50:05+00:00",
-          "summary": "<p>A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion techniques to maximize the impact of Windows encryption attacks. Huntress investigated two SETTRA incidents in July and September 2026, uncovering a repeatable operational pattern involving victim-specific ransomware binaries, Windows log clearing, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/settra-ransomware/\">New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200242"
-        },
-        {
-          "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
-          "url": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
-          "published": "Fri, 18 Sep 2026 12:23:02 +0000",
-          "published_utc": "2026-09-18T12:23:02+00:00",
-          "summary": "<p>JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, training datasets, and vector data. Its latest payload, ENCFORGE, marks a shift from conventional database extortion toward destruction-focused attacks on high-value AI and machine-learning assets. The group’s ENCFORGE locker targets [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-ransomware-to-target-ai-models/\">JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200223"
-        },
-        {
-          "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
-          "url": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
-          "published": "Fri, 18 Sep 2026 10:36:04 +0000",
-          "published_utc": "2026-09-18T10:36:04+00:00",
-          "summary": "<p>Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. This update is rolling out as version 153.0.8010.52 for Windows and macOS. Linux users will receive version 153.0.8010.52 over the coming days and weeks. Google Chrome 153 Update Fixes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/\">Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200219"
-        },
-        {
-          "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
-          "url": "https://gbhackers.com/chatgpt-phishing-campaign/",
-          "published": "Fri, 18 Sep 2026 10:22:51 +0000",
-          "published_utc": "2026-09-18T10:22:51+00:00",
-          "summary": "<p>Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A recently observed campaign uses a fraudulent subscription-payment notice to lure victims into disclosing OpenAI account credentials and potentially payment details through a convincing fake ChatGPT login page. The lure claims [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-phishing-campaign/\">ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200207"
-        },
-        {
-          "title": "Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell",
-          "url": "https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/",
-          "published": "Fri, 18 Sep 2026 10:22:48 +0000",
-          "published_utc": "2026-09-18T10:22:48+00:00",
-          "summary": "<p>Linux administrators are being urged to patch four newly disclosed local privilege escalation (LPE) vulnerabilities, collectively known as DirtyAH6, TUNderflow, PPPoEject, and DiagSpill. These vulnerabilities can allow attackers to corrupt kernel memory and gain root-level access on affected systems. The vulnerabilities are tracked under the following CVE identifiers: CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469. They affect [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/\">Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200210"
-        },
-        {
-          "title": "Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability",
-          "url": "https://gbhackers.com/tutor-lms-vulnerability/",
-          "published": "Fri, 18 Sep 2026 10:04:39 +0000",
-          "published_utc": "2026-09-18T10:04:39+00:00",
-          "summary": "<p>More than 100,000 WordPress sites using the Tutor LMS e-learning plugin were exposed to a high-severity remote code execution vulnerability that could allow low-privileged users to take control of vulnerable servers. The vulnerability was discovered on August 23, 2026, by Wordfence Argus, an AI-assisted vulnerability research agent, and validated by the Wordfence Threat Intelligence team. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tutor-lms-vulnerability/\">Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200187"
-        },
-        {
-          "title": "Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps",
-          "url": "https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/",
-          "published": "Fri, 18 Sep 2026 09:45:37 +0000",
-          "published_utc": "2026-09-18T09:45:37+00:00",
-          "summary": "<p>Researchers have identified significant security and privacy risks across 61,500 abandoned Android Internet-of-Things (IoT) companion applications. Their study found that 73.6% of these apps contained at least one potential vulnerability, risky embedded resource, or insecure communication path. Risks in Abandoned IoT Apps Titled &#8220;When Apps Outlive Vendors: Security Implications of IoT Abandonware,&#8221; the study examines [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/\">Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200199"
-        },
-        {
-          "title": "Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials",
-          "url": "https://gbhackers.com/critical-pgadmin-authentication-bypass/",
-          "published": "Fri, 18 Sep 2026 09:31:53 +0000",
-          "published_utc": "2026-09-18T09:31:53+00:00",
-          "summary": "<p>A critical vulnerability in pgAdmin 4 could allow unauthenticated remote attackers to impersonate arbitrary users, including existing administrator accounts, by supplying a malicious HTTP identity header. This vulnerability, tracked as CVE-2026-86863, affects installations using pgAdmin’s Webserver authentication mode and has a CVSS 3.1 score of 9.8 out of 10. The issue impacts pgAdmin 4 versions [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-pgadmin-authentication-bypass/\">Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200191"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

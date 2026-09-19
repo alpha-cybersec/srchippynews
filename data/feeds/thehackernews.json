@@ -10,13 +10,29 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 6,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+          "url": "http://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+          "published": "Sat, 19 Sep 2026 13:28:48 +0000",
+          "published_utc": "2026-09-19T13:28:48+00:00",
+          "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1178149601848638223"
+        },
+        {
+          "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+          "url": "http://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+          "published": "Sat, 19 Sep 2026 13:28:41 +0000",
+          "published_utc": "2026-09-19T13:28:41+00:00",
+          "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7379992084479392253"
+        },
         {
           "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
           "url": "http://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-          "published": "Sat, 19 Sep 2026 10:01:10 +0000",
-          "published_utc": "2026-09-19T10:01:10+00:00",
+          "published": "Sat, 19 Sep 2026 13:28:35 +0000",
+          "published_utc": "2026-09-19T13:28:35+00:00",
           "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.\n\nThis was security research,",
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8356118008259752771"
         },
@@ -71,8 +87,40 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 4,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+          "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+          "published": "Sat, 19 Sep 2026 18:58:48 +0530",
+          "published_utc": "2026-09-19T13:28:48+00:00",
+          "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+          "id": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
+        },
+        {
+          "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+          "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+          "published": "Sat, 19 Sep 2026 18:58:41 +0530",
+          "published_utc": "2026-09-19T13:28:41+00:00",
+          "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
+          "id": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
+        },
+        {
+          "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+          "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+          "published": "Sat, 19 Sep 2026 18:58:35 +0530",
+          "published_utc": "2026-09-19T13:28:35+00:00",
+          "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.\n\nThis was security research,",
+          "id": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
+        },
+        {
+          "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+          "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+          "published": "Sat, 19 Sep 2026 15:01:17 +0530",
+          "published_utc": "2026-09-19T09:31:17+00:00",
+          "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability.\n\nThe vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior.\n\n\"SolarWinds",
+          "id": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
+        },
         {
           "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
           "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",

@@ -5,39 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 3,
-      "articles": [
-        {
-          "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
-          "url": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",
-          "published": "Sat, 19 Sep 2026 09:01:16 +0000",
-          "published_utc": "2026-09-19T09:01:16+00:00",
-          "summary": "<p>North Korean threat actors, known as WaterPlum (also referred to as Contagious Interview), have infected at least 30,000 devices in over 100 countries by luring software developers and IT professionals into malicious job interviews.   This campaign specifically targets web developers, freelancers, blockchain specialists, and cryptocurrency professionals. The attackers use persuasive recruitment messages that mimic legitimate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/\">North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200288"
-        },
-        {
-          "title": "AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes",
-          "url": "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/",
-          "published": "Sat, 19 Sep 2026 08:29:06 +0000",
-          "published_utc": "2026-09-19T08:29:06+00:00",
-          "summary": "<p>Researchers have identified a new Android banking Trojan called RatHat that utilizes artificial intelligence to automate device compromise and steal financial credentials, PINs, and one-time passcodes. Zimperium’s zLabs researchers analyzed this malware, which represents a significant evolution in Android threats. AI-Powered RatHat Android Trojan Unlike traditional malware that relies on fixed scripts, RatHat offers a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/\">AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200284"
-        },
-        {
-          "title": "PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner",
-          "url": "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/",
-          "published": "Sat, 19 Sep 2026 07:11:04 +0000",
-          "published_utc": "2026-09-19T07:11:04+00:00",
-          "summary": "<p>A sophisticated cryptomining campaign is employing multiple layers of obfuscation to conceal malicious PowerShell payloads and ultimately deploy an XMRig-based cryptocurrency miner. This obfuscation includes Windows Registry entries, DNS TXT records, PNG images, and WAV audio files. The infection was detected after repeated security alerts indicated suspicious PowerShell activity. The initial execution command launched PowerShell [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/\">PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200280"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -47,8 +22,16 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 3,
+      "article_count": 4,
       "articles": [
+        {
+          "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
+          "url": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",
+          "published": "Sat, 19 Sep 2026 13:16:43 +0000",
+          "published_utc": "2026-09-19T13:16:43+00:00",
+          "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accidentally accessed protected systems belonging to three real companies during a cybersecurity evaluation. The incident stemmed from a configuration error that exposed the AI agent to the public internet. Google Gemini AI Hacked This situation highlights how autonomous AI systems can breach intended testing boundaries when [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200296"
+        },
         {
           "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
           "url": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",

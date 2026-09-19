@@ -1,67 +1,40 @@
 {
-  "generated_at_utc": "2026-09-19T14:43:49.900607+00:00",
-  "generated_at_local": "2026-09-19T09:43:49.900614-05:00",
-  "article_count": 2,
-  "new_count": 2,
+  "generated_at_utc": "2026-09-19T17:56:33.867781+00:00",
+  "generated_at_local": "2026-09-19T12:56:33.867786-05:00",
+  "article_count": 1,
+  "new_count": 1,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1,
-    "gbhackers": 1
+    "cybersecuritynews": 1
   },
   "articles": [
     {
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "url": "http://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "published": "Sat, 19 Sep 2026 13:28:41 +0000",
-      "published_utc": "2026-09-19T13:28:41+00:00",
-      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7379992084479392253",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "content_hash": "69e777647b428e8dc4307316845b30f1066f75676bf3b6382140c3e036a7f738",
+      "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
+      "published": "Sat, 19 Sep 2026 15:09:43 +0000",
+      "published_utc": "2026-09-19T15:09:43+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline. CISA added CVE-2025-39682, CVE-2026-53266, and CVE-2025-39964 to its Known Exploited Vulnerabilities catalog on September 18, 2026, with remediation required by September 21 under Binding Operational Directive 26-04. The KEV [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/\">CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164019",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited",
+      "content_hash": "50a3c808d06cefe09ef90a55dcec8f11b27d1dc21eab3ef6d82afcbd4ff07a83",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "69e777647b428e8dc4307316845b30f1066f75676bf3b6382140c3e036a7f738",
-        "FEEDBURNER": "69e777647b428e8dc4307316845b30f1066f75676bf3b6382140c3e036a7f738"
+        "ORIGINAL": "50a3c808d06cefe09ef90a55dcec8f11b27d1dc21eab3ef6d82afcbd4ff07a83",
+        "FEEDBURNER": "50a3c808d06cefe09ef90a55dcec8f11b27d1dc21eab3ef6d82afcbd4ff07a83"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-19T14:43:49.897258+00:00",
-      "first_seen_local": "2026-09-19T09:43:49.897256-05:00",
-      "last_updated_utc": "2026-09-19T14:43:49.897258+00:00",
-      "last_updated_local": "2026-09-19T09:43:49.897256-05:00"
-    },
-    {
-      "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
-      "url": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",
-      "published": "Sat, 19 Sep 2026 13:16:43 +0000",
-      "published_utc": "2026-09-19T13:16:43+00:00",
-      "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accidentally accessed protected systems belonging to three real companies during a cybersecurity evaluation. The incident stemmed from a configuration error that exposed the AI agent to the public internet. Google Gemini AI Hacked This situation highlights how autonomous AI systems can breach intended testing boundaries when [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200296",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/google-gemini-ai-hacked-3-real-companies",
-      "content_hash": "835172474d8aa645d19e883b9614353f4f9b894faceaa0cc630578db311aa1f8",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "835172474d8aa645d19e883b9614353f4f9b894faceaa0cc630578db311aa1f8"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-19T14:43:43.375193+00:00",
-      "first_seen_local": "2026-09-19T09:43:43.375190-05:00",
-      "last_updated_utc": "2026-09-19T14:43:43.375193+00:00",
-      "last_updated_local": "2026-09-19T09:43:43.375190-05:00"
+      "first_seen_utc": "2026-09-19T17:56:27.851487+00:00",
+      "first_seen_local": "2026-09-19T12:56:27.851484-05:00",
+      "last_updated_utc": "2026-09-19T17:56:27.851487+00:00",
+      "last_updated_local": "2026-09-19T12:56:27.851484-05:00"
     }
   ]
 }

@@ -5,14 +5,31 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
+          "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
+          "published": "Sat, 19 Sep 2026 11:21:50 +0000",
+          "published_utc": "2026-09-19T11:21:50+00:00",
+          "summary": "<p>CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft remained undetected until stolen source code appeared on a cybercrime forum on September 16, showing how a poisoned dependency can outlive its infection window and undermine [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tanstack-supply-chain-attack/\">TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164011"
+        },
+        {
+          "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
+          "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+          "published": "Sat, 19 Sep 2026 08:59:08 +0000",
+          "published_utc": "2026-09-19T08:59:08+00:00",
+          "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet. The incident shows how an autonomous AI system can move beyond a sandbox when controls, target definitions, and network isolation fail even without instructions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164007"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,8 +39,17 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
+          "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+          "published": "Sat, 19 Sep 2026 08:59:08 +0000",
+          "published_utc": "2026-09-19T08:59:08+00:00",
+          "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet. The incident shows how an autonomous AI system can move beyond a sandbox when controls, target definitions, and network isolation fail even without instructions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164007"
+        }
+      ],
       "error": ""
     }
   }

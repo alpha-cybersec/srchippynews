@@ -1,10 +1,286 @@
 {
   "date": "2026-09-19",
-  "article_count": 1,
+  "article_count": 11,
   "sources": {
-    "thehackernews": 1
+    "cybersecuritynews": 2,
+    "thehackernews": 6,
+    "gbhackers": 3
   },
   "articles": [
+    {
+      "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
+      "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
+      "published": "Sat, 19 Sep 2026 11:21:50 +0000",
+      "published_utc": "2026-09-19T11:21:50+00:00",
+      "summary": "<p>CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft remained undetected until stolen source code appeared on a cybercrime forum on September 16, showing how a poisoned dependency can outlive its infection window and undermine [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tanstack-supply-chain-attack/\">TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164011",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/tanstack-supply-chain-attack",
+      "content_hash": "9847107898d066b0b081ba19d38c3e7a76e4cba86e16d1c1f64f50ac8fecc6e5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9847107898d066b0b081ba19d38c3e7a76e4cba86e16d1c1f64f50ac8fecc6e5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:08.967071+00:00",
+      "first_seen_local": "2026-09-19T06:27:08.967068-05:00",
+      "last_updated_utc": "2026-09-19T11:27:08.967071+00:00",
+      "last_updated_local": "2026-09-19T06:27:08.967068-05:00"
+    },
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "http://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "published": "Sat, 19 Sep 2026 10:01:10 +0000",
+      "published_utc": "2026-09-19T10:01:10+00:00",
+      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.\n\nThis was security research,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8356118008259752771",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "content_hash": "6b24af653e38fea60b3333531bd16ca7223ef1b59a7d027ea77206118540cf87",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6b24af653e38fea60b3333531bd16ca7223ef1b59a7d027ea77206118540cf87"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:13.667642+00:00",
+      "first_seen_local": "2026-09-19T06:27:13.667640-05:00",
+      "last_updated_utc": "2026-09-19T11:27:13.667642+00:00",
+      "last_updated_local": "2026-09-19T06:27:13.667640-05:00"
+    },
+    {
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "url": "http://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "published": "Sat, 19 Sep 2026 09:31:17 +0000",
+      "published_utc": "2026-09-19T09:31:17+00:00",
+      "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability.\n\nThe vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior.\n\n\"SolarWinds",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4228758778607072964",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "content_hash": "f33a43cba07f822a2d2e3dee34fca0be44af78b0c909b94fda2051999502740e",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f33a43cba07f822a2d2e3dee34fca0be44af78b0c909b94fda2051999502740e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:13.667642+00:00",
+      "first_seen_local": "2026-09-19T06:27:13.667640-05:00",
+      "last_updated_utc": "2026-09-19T11:27:13.667642+00:00",
+      "last_updated_local": "2026-09-19T06:27:13.667640-05:00"
+    },
+    {
+      "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
+      "url": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",
+      "published": "Sat, 19 Sep 2026 09:01:16 +0000",
+      "published_utc": "2026-09-19T09:01:16+00:00",
+      "summary": "<p>North Korean threat actors, known as WaterPlum (also referred to as Contagious Interview), have infected at least 30,000 devices in over 100 countries by luring software developers and IT professionals into malicious job interviews.   This campaign specifically targets web developers, freelancers, blockchain specialists, and cryptocurrency professionals. The attackers use persuasive recruitment messages that mimic legitimate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/\">North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200288",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/north-korean-waterplum-hackers-target-it-professionals",
+      "content_hash": "284b3198f80e5560baec2170a087ed5e60c2b5d3dcebc895ddcdae61b153fc14",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "284b3198f80e5560baec2170a087ed5e60c2b5d3dcebc895ddcdae61b153fc14",
+        "FEEDBURNER": "284b3198f80e5560baec2170a087ed5e60c2b5d3dcebc895ddcdae61b153fc14"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:08.244241+00:00",
+      "first_seen_local": "2026-09-19T06:27:08.244239-05:00",
+      "last_updated_utc": "2026-09-19T11:27:08.244241+00:00",
+      "last_updated_local": "2026-09-19T06:27:08.244239-05:00"
+    },
+    {
+      "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
+      "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+      "published": "Sat, 19 Sep 2026 08:59:08 +0000",
+      "published_utc": "2026-09-19T08:59:08+00:00",
+      "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet. The incident shows how an autonomous AI system can move beyond a sandbox when controls, target definitions, and network isolation fail even without instructions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164007",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies",
+      "content_hash": "d6f688a8196b7c9f223c2a65bb99f322d472307dc6c7c0c903417aa7217abeb3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d6f688a8196b7c9f223c2a65bb99f322d472307dc6c7c0c903417aa7217abeb3",
+        "FEEDBURNER": "d6f688a8196b7c9f223c2a65bb99f322d472307dc6c7c0c903417aa7217abeb3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:08.967071+00:00",
+      "first_seen_local": "2026-09-19T06:27:08.967068-05:00",
+      "last_updated_utc": "2026-09-19T11:27:08.967071+00:00",
+      "last_updated_local": "2026-09-19T06:27:08.967068-05:00"
+    },
+    {
+      "title": "AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes",
+      "url": "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/",
+      "published": "Sat, 19 Sep 2026 08:29:06 +0000",
+      "published_utc": "2026-09-19T08:29:06+00:00",
+      "summary": "<p>Researchers have identified a new Android banking Trojan called RatHat that utilizes artificial intelligence to automate device compromise and steal financial credentials, PINs, and one-time passcodes. Zimperium’s zLabs researchers analyzed this malware, which represents a significant evolution in Android threats. AI-Powered RatHat Android Trojan Unlike traditional malware that relies on fixed scripts, RatHat offers a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/\">AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200284",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials",
+      "content_hash": "a2dbbdcb6f0db63d47c3dbec77cf51937dd52583d550c239380ed722ecd29850",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a2dbbdcb6f0db63d47c3dbec77cf51937dd52583d550c239380ed722ecd29850",
+        "FEEDBURNER": "a2dbbdcb6f0db63d47c3dbec77cf51937dd52583d550c239380ed722ecd29850"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:08.244241+00:00",
+      "first_seen_local": "2026-09-19T06:27:08.244239-05:00",
+      "last_updated_utc": "2026-09-19T11:27:08.244241+00:00",
+      "last_updated_local": "2026-09-19T06:27:08.244239-05:00"
+    },
+    {
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "url": "http://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "published": "Sat, 19 Sep 2026 08:18:54 +0000",
+      "published_utc": "2026-09-19T08:18:54+00:00",
+      "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.\n\nThe vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution.\n\n\"Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5627460953273316771",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "content_hash": "04f0c638ff0f3a38ed03ad634dd82b0586dffffe46549a442db419b814a35199",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "04f0c638ff0f3a38ed03ad634dd82b0586dffffe46549a442db419b814a35199",
+        "FEEDBURNER": "04f0c638ff0f3a38ed03ad634dd82b0586dffffe46549a442db419b814a35199"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:13.667642+00:00",
+      "first_seen_local": "2026-09-19T06:27:13.667640-05:00",
+      "last_updated_utc": "2026-09-19T11:27:13.667642+00:00",
+      "last_updated_local": "2026-09-19T06:27:13.667640-05:00"
+    },
+    {
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "url": "http://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "published": "Sat, 19 Sep 2026 07:51:34 +0000",
+      "published_utc": "2026-09-19T07:51:34+00:00",
+      "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-382252299054790259",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "content_hash": "9e4f33b18be8254a0257397f0e4d10846d2bb5936cd4ac33681c4502df388c8e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9e4f33b18be8254a0257397f0e4d10846d2bb5936cd4ac33681c4502df388c8e",
+        "FEEDBURNER": "9e4f33b18be8254a0257397f0e4d10846d2bb5936cd4ac33681c4502df388c8e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:13.667642+00:00",
+      "first_seen_local": "2026-09-19T06:27:13.667640-05:00",
+      "last_updated_utc": "2026-09-19T11:27:13.667642+00:00",
+      "last_updated_local": "2026-09-19T06:27:13.667640-05:00"
+    },
+    {
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "url": "http://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "published": "Sat, 19 Sep 2026 07:14:54 +0000",
+      "published_utc": "2026-09-19T07:14:54+00:00",
+      "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain attack on TanStack, in which malicious versions of TanStack's npm packages stole credentials from",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8378083668880230732",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "content_hash": "e94735a7ee025007ea8d9ac976c105d4b6118a2a7aff5cb977950d2f2bd7b5b7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e94735a7ee025007ea8d9ac976c105d4b6118a2a7aff5cb977950d2f2bd7b5b7",
+        "FEEDBURNER": "e94735a7ee025007ea8d9ac976c105d4b6118a2a7aff5cb977950d2f2bd7b5b7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:13.667642+00:00",
+      "first_seen_local": "2026-09-19T06:27:13.667640-05:00",
+      "last_updated_utc": "2026-09-19T11:27:13.667642+00:00",
+      "last_updated_local": "2026-09-19T06:27:13.667640-05:00"
+    },
+    {
+      "title": "PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner",
+      "url": "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/",
+      "published": "Sat, 19 Sep 2026 07:11:04 +0000",
+      "published_utc": "2026-09-19T07:11:04+00:00",
+      "summary": "<p>A sophisticated cryptomining campaign is employing multiple layers of obfuscation to conceal malicious PowerShell payloads and ultimately deploy an XMRig-based cryptocurrency miner. This obfuscation includes Windows Registry entries, DNS TXT records, PNG images, and WAV audio files. The infection was detected after repeated security alerts indicated suspicious PowerShell activity. The initial execution command launched PowerShell [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/\">PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200280",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records",
+      "content_hash": "cdb67136fb470c6b204bd51c4887829862e8fe7d4a6b6496cd0f3bef8e05b74a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cdb67136fb470c6b204bd51c4887829862e8fe7d4a6b6496cd0f3bef8e05b74a",
+        "FEEDBURNER": "cdb67136fb470c6b204bd51c4887829862e8fe7d4a6b6496cd0f3bef8e05b74a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-19T11:27:08.244241+00:00",
+      "first_seen_local": "2026-09-19T06:27:08.244239-05:00",
+      "last_updated_utc": "2026-09-19T11:27:08.244241+00:00",
+      "last_updated_local": "2026-09-19T06:27:08.244239-05:00"
+    },
     {
       "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
       "url": "http://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",

@@ -10,79 +10,15 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 9,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-          "url": "http://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-          "published": "Fri, 18 Sep 2026 18:02:24 +0000",
-          "published_utc": "2026-09-18T18:02:24+00:00",
-          "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2262009955286362802"
-        },
-        {
-          "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-          "url": "http://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-          "published": "Fri, 18 Sep 2026 16:56:19 +0000",
-          "published_utc": "2026-09-18T16:56:19+00:00",
-          "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7760190273159803360"
-        },
-        {
-          "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-          "url": "http://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-          "published": "Fri, 18 Sep 2026 15:24:16 +0000",
-          "published_utc": "2026-09-18T15:24:16+00:00",
-          "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7078638086291094908"
-        },
-        {
-          "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-          "url": "http://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-          "published": "Fri, 18 Sep 2026 12:47:04 +0000",
-          "published_utc": "2026-09-18T12:47:04+00:00",
-          "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2153420558186905128"
-        },
-        {
-          "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-          "url": "http://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-          "published": "Fri, 18 Sep 2026 11:01:16 +0000",
-          "published_utc": "2026-09-18T11:01:16+00:00",
-          "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp;\n\nThe new owner holds",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-354728967067789028"
-        },
-        {
-          "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-          "url": "http://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-          "published": "Fri, 18 Sep 2026 11:01:01 +0000",
-          "published_utc": "2026-09-18T11:01:01+00:00",
-          "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-482687862344000368"
-        },
-        {
-          "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-          "url": "http://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-          "published": "Fri, 18 Sep 2026 10:40:06 +0000",
-          "published_utc": "2026-09-18T10:40:06+00:00",
-          "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5459258621440857447"
-        },
-        {
-          "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-          "url": "http://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-          "published": "Fri, 18 Sep 2026 09:18:03 +0000",
-          "published_utc": "2026-09-18T09:18:03+00:00",
-          "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns,\"",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2942679983526654301"
-        },
-        {
-          "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-          "url": "http://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-          "published": "Fri, 18 Sep 2026 06:17:25 +0000",
-          "published_utc": "2026-09-18T06:17:25+00:00",
-          "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6978978658024443859"
+          "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+          "url": "http://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+          "published": "Sat, 19 Sep 2026 06:24:10 +0000",
+          "published_utc": "2026-09-19T06:24:10+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2025-39682 (CVSS score: 9.8) - An improper check for unusual or exceptional conditions vulnerability in the TLS receive path",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2232157193495804344"
         }
       ],
       "error": ""
@@ -95,81 +31,8 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 9,
-      "articles": [
-        {
-          "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-          "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-          "published": "Fri, 18 Sep 2026 23:32:24 +0530",
-          "published_utc": "2026-09-18T18:02:24+00:00",
-          "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated.\n\nThe flaws",
-          "id": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html"
-        },
-        {
-          "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-          "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-          "published": "Fri, 18 Sep 2026 22:26:19 +0530",
-          "published_utc": "2026-09-18T16:56:19+00:00",
-          "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install.\n\nThe security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
-          "id": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html"
-        },
-        {
-          "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-          "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-          "published": "Fri, 18 Sep 2026 20:54:16 +0530",
-          "published_utc": "2026-09-18T15:24:16+00:00",
-          "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
-          "id": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html"
-        },
-        {
-          "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-          "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-          "published": "Fri, 18 Sep 2026 18:17:04 +0530",
-          "published_utc": "2026-09-18T12:47:04+00:00",
-          "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
-          "id": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html"
-        },
-        {
-          "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-          "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-          "published": "Fri, 18 Sep 2026 16:31:16 +0530",
-          "published_utc": "2026-09-18T11:01:16+00:00",
-          "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp;\n\nThe new owner holds",
-          "id": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html"
-        },
-        {
-          "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-          "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-          "published": "Fri, 18 Sep 2026 16:31:01 +0530",
-          "published_utc": "2026-09-18T11:01:01+00:00",
-          "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
-          "id": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html"
-        },
-        {
-          "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-          "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-          "published": "Fri, 18 Sep 2026 16:10:06 +0530",
-          "published_utc": "2026-09-18T10:40:06+00:00",
-          "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
-          "id": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html"
-        },
-        {
-          "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-          "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-          "published": "Fri, 18 Sep 2026 14:48:03 +0530",
-          "published_utc": "2026-09-18T09:18:03+00:00",
-          "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns,\"",
-          "id": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html"
-        },
-        {
-          "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-          "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-          "published": "Fri, 18 Sep 2026 11:47:25 +0530",
-          "published_utc": "2026-09-18T06:17:25+00:00",
-          "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses",
-          "id": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-          "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
-          "published": "Fri, 18 Sep 2026 14:14:16 +0000",
-          "published_utc": "2026-09-18T14:14:16+00:00",
-          "summary": "<p>Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/\">Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163946"
-        },
-        {
-          "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-          "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
-          "published": "Fri, 18 Sep 2026 13:59:26 +0000",
-          "published_utc": "2026-09-18T13:59:26+00:00",
-          "summary": "<p>Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/feral-wolf-ransomware/\">Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163939"
-        },
-        {
-          "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-          "url": "https://cybersecuritynews.com/new-settra-ransomware/",
-          "published": "Fri, 18 Sep 2026 13:44:33 +0000",
-          "published_utc": "2026-09-18T13:44:33+00:00",
-          "summary": "<p>Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The operation encrypts files, leaves victims with ransom notes, and tries to make both investigation and restoration more difficult. Public reporting indicates that the people behind Settra have gained entry [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-settra-ransomware/\">New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163936"
-        },
-        {
-          "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
-          "url": "https://cybersecuritynews.com/ai-agents-3/",
-          "published": "Fri, 18 Sep 2026 13:24:09 +0000",
-          "published_utc": "2026-09-18T13:24:09+00:00",
-          "summary": "<p>Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved its actions. The operation, tracked as JADEPUFFER, used an exposed AI workflow server to steal credentials, reach databases, encrypt records, and demand payment. It later [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-3/\">AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163933"
-        },
-        {
-          "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
-          "url": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
-          "published": "Fri, 18 Sep 2026 13:13:23 +0000",
-          "published_utc": "2026-09-18T13:13:23+00:00",
-          "summary": "<p>Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoEject, and DiagSpill, affect long-standing networking code and have now received upstream fixes. The vulnerabilities are tracked as CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469. DirtyAH6, tracked as CVE-2026-80844, affects [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/\">Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163909"
-        },
-        {
-          "title": "Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials",
-          "url": "https://cybersecuritynews.com/chatgpt-subscription/",
-          "published": "Fri, 18 Sep 2026 12:30:16 +0000",
-          "published_utc": "2026-09-18T12:30:16+00:00",
-          "summary": "<p>ChatGPT subscription notices have become the latest cover for credential-stealing emails. The campaign uses a familiar billing problem to push recipients toward a fake sign-in page, where attackers can collect OpenAI account details. A successful theft can expose saved conversations and give criminals another identity to abuse in follow-on scams. The messages target people using [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-subscription/\">Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163912"
-        },
-        {
-          "title": "Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution",
-          "url": "https://cybersecuritynews.com/tutor-lms-flaw/",
-          "published": "Fri, 18 Sep 2026 11:52:01 +0000",
-          "published_utc": "2026-09-18T11:52:01+00:00",
-          "summary": "<p>A high-severity flaw in the Tutor LMS WordPress plugin could let a low-privileged user take control of an affected server. The issue affects more than 100,000 sites that use the e-learning plugin, particularly installations that allow visitors to register as students. Tracked as CVE-2026-78175, the vulnerability is rated 8.8 out of 10 and affects Tutor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tutor-lms-flaw/\">Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163879"
-        },
-        {
-          "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
-          "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
-          "published": "Fri, 18 Sep 2026 11:24:13 +0000",
-          "published_utc": "2026-09-18T11:24:13+00:00",
-          "summary": "<p>Google has released Chrome 153 to the Stable channel for Windows, macOS, and Linux, addressing 16 security vulnerabilities, including two critical memory-safety flaws in Dawn and WebGL. The update is rolling out as version 153.0.8010.52/.53 for Windows and macOS, while Linux users will receive version 153.0.8010.52. The most severe issue, tracked as CVE-2026-93374, is a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/\">Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163901"
-        },
-        {
-          "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
-          "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
-          "published": "Fri, 18 Sep 2026 10:46:01 +0000",
-          "published_utc": "2026-09-18T10:46:01+00:00",
-          "summary": "<p>Android has released new Security State libraries that allow apps and enterprise tools to check whether a device is missing important security patches. The update gives developers a more detailed view of Android security than the traditional monthly Security Patch Level, helping apps identify unpatched system components, pending updates, and specific vulnerability fixes. The stable [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-apps-check-security-patches/\">Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163892"
-        },
-        {
-          "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
-          "url": "https://cybersecuritynews.com/mikrotrick-attack/",
-          "published": "Fri, 18 Sep 2026 09:59:32 +0000",
-          "published_utc": "2026-09-18T09:59:32+00:00",
-          "summary": "<p>MikroTik router owners face a security problem after researchers reproduced a takeover chain that can hand an outsider full administrator control without a password. The attack, MikroTrick, targets exposed RouterOS devices through SSH and can turn a network gateway into an attacker-controlled foothold. The risk is serious because a router handles traffic entering and leaving [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mikrotrick-attack/\">MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163869"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -103,89 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-          "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
-          "published": "Fri, 18 Sep 2026 14:14:16 +0000",
-          "published_utc": "2026-09-18T14:14:16+00:00",
-          "summary": "<p>Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/\">Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163946"
-        },
-        {
-          "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-          "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
-          "published": "Fri, 18 Sep 2026 13:59:26 +0000",
-          "published_utc": "2026-09-18T13:59:26+00:00",
-          "summary": "<p>Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/feral-wolf-ransomware/\">Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163939"
-        },
-        {
-          "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-          "url": "https://cybersecuritynews.com/new-settra-ransomware/",
-          "published": "Fri, 18 Sep 2026 13:44:33 +0000",
-          "published_utc": "2026-09-18T13:44:33+00:00",
-          "summary": "<p>Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The operation encrypts files, leaves victims with ransom notes, and tries to make both investigation and restoration more difficult. Public reporting indicates that the people behind Settra have gained entry [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-settra-ransomware/\">New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163936"
-        },
-        {
-          "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
-          "url": "https://cybersecuritynews.com/ai-agents-3/",
-          "published": "Fri, 18 Sep 2026 13:24:09 +0000",
-          "published_utc": "2026-09-18T13:24:09+00:00",
-          "summary": "<p>Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved its actions. The operation, tracked as JADEPUFFER, used an exposed AI workflow server to steal credentials, reach databases, encrypt records, and demand payment. It later [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-3/\">AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163933"
-        },
-        {
-          "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
-          "url": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
-          "published": "Fri, 18 Sep 2026 13:13:23 +0000",
-          "published_utc": "2026-09-18T13:13:23+00:00",
-          "summary": "<p>Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoEject, and DiagSpill, affect long-standing networking code and have now received upstream fixes. The vulnerabilities are tracked as CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469. DirtyAH6, tracked as CVE-2026-80844, affects [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/\">Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163909"
-        },
-        {
-          "title": "Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials",
-          "url": "https://cybersecuritynews.com/chatgpt-subscription/",
-          "published": "Fri, 18 Sep 2026 12:30:16 +0000",
-          "published_utc": "2026-09-18T12:30:16+00:00",
-          "summary": "<p>ChatGPT subscription notices have become the latest cover for credential-stealing emails. The campaign uses a familiar billing problem to push recipients toward a fake sign-in page, where attackers can collect OpenAI account details. A successful theft can expose saved conversations and give criminals another identity to abuse in follow-on scams. The messages target people using [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-subscription/\">Hackers Impersonate ChatGPT Subscription Alerts to Steal OpenAI Account Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163912"
-        },
-        {
-          "title": "Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution",
-          "url": "https://cybersecuritynews.com/tutor-lms-flaw/",
-          "published": "Fri, 18 Sep 2026 11:52:01 +0000",
-          "published_utc": "2026-09-18T11:52:01+00:00",
-          "summary": "<p>A high-severity flaw in the Tutor LMS WordPress plugin could let a low-privileged user take control of an affected server. The issue affects more than 100,000 sites that use the e-learning plugin, particularly installations that allow visitors to register as students. Tracked as CVE-2026-78175, the vulnerability is rated 8.8 out of 10 and affects Tutor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tutor-lms-flaw/\">Tutor LMS Flaw Exposes 100,000+ WordPress Sites to Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163879"
-        },
-        {
-          "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
-          "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
-          "published": "Fri, 18 Sep 2026 11:24:13 +0000",
-          "published_utc": "2026-09-18T11:24:13+00:00",
-          "summary": "<p>Google has released Chrome 153 to the Stable channel for Windows, macOS, and Linux, addressing 16 security vulnerabilities, including two critical memory-safety flaws in Dawn and WebGL. The update is rolling out as version 153.0.8010.52/.53 for Windows and macOS, while Linux users will receive version 153.0.8010.52. The most severe issue, tracked as CVE-2026-93374, is a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/\">Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163901"
-        },
-        {
-          "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
-          "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
-          "published": "Fri, 18 Sep 2026 10:46:01 +0000",
-          "published_utc": "2026-09-18T10:46:01+00:00",
-          "summary": "<p>Android has released new Security State libraries that allow apps and enterprise tools to check whether a device is missing important security patches. The update gives developers a more detailed view of Android security than the traditional monthly Security Patch Level, helping apps identify unpatched system components, pending updates, and specific vulnerability fixes. The stable [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-apps-check-security-patches/\">Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163892"
-        },
-        {
-          "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
-          "url": "https://cybersecuritynews.com/mikrotrick-attack/",
-          "published": "Fri, 18 Sep 2026 09:59:32 +0000",
-          "published_utc": "2026-09-18T09:59:32+00:00",
-          "summary": "<p>MikroTik router owners face a security problem after researchers reproduced a takeover chain that can hand an outsider full administrator control without a password. The attack, MikroTrick, targets exposed RouterOS devices through SSH and can turn a network gateway into an attacker-controlled foothold. The risk is serious because a router handles traffic entering and leaving [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mikrotrick-attack/\">MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=163869"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

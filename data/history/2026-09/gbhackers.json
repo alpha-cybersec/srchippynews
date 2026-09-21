@@ -2,8 +2,268 @@
   "month": "2026-09",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 84,
+  "article_count": 94,
   "articles": [
+    {
+      "title": "NightEagle Uses BlueKeep and DCSync to Move Toward Active Directory Domain Controllers",
+      "url": "https://gbhackers.com/nighteagle-attack-chain/",
+      "published": "Mon, 21 Sep 2026 13:27:36 +0000",
+      "published_utc": "2026-09-21T13:27:36+00:00",
+      "summary": "<p>NightEagle, an espionage-focused threat group also tracked as APT-Q-95, has expanded its operations from Asian targets to Russian organizations, using a layered intrusion chain that culminates in attempts to compromise Active Directory domain controllers. The campaign illustrates a familiar but dangerous enterprise compromise pattern: attackers do not need a novel zero-day exploit when exposed remote [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nighteagle-attack-chain/\">NightEagle Uses BlueKeep and DCSync to Move Toward Active Directory Domain Controllers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200417",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nighteagle-attack-chain",
+      "content_hash": "d0eda67d3101b9eeb2527a8067d1d875f357fb5df6cbea9c5bd4b46c394395bb",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d0eda67d3101b9eeb2527a8067d1d875f357fb5df6cbea9c5bd4b46c394395bb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "10 Malicious npm Packages Linked to Runtime Malware Campaign With Millions of Downloads",
+      "url": "https://gbhackers.com/10-malicious-npm-packages/",
+      "published": "Mon, 21 Sep 2026 12:49:50 +0000",
+      "published_utc": "2026-09-21T12:49:50+00:00",
+      "summary": "<p>A sophisticated npm supply-chain campaign has been linked to 10 malicious JavaScript packages that collectively recorded millions of downloads while bypassing npm’s lifecycle-script protections. The operation centers on a counterfeit package named indexed-btree, which impersonates the legitimate sorted-btree library and executes its malware only when an application uses the package at runtime. Unlike conventional npm [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/10-malicious-npm-packages/\">10 Malicious npm Packages Linked to Runtime Malware Campaign With Millions of Downloads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200396",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/10-malicious-npm-packages",
+      "content_hash": "a1911de8b767a42d7a83bbf1a91a3ddd3202341ad8a78dc2e8e614b00ac1c0dc",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a1911de8b767a42d7a83bbf1a91a3ddd3202341ad8a78dc2e8e614b00ac1c0dc"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "PAYLOAD Ransomware Abuses Active Directory Group Policy to Disrupt Entire Windows Domain",
+      "url": "https://gbhackers.com/payload-ransomware-abuses-active-directory-group-policy/",
+      "published": "Mon, 21 Sep 2026 11:54:18 +0000",
+      "published_utc": "2026-09-21T11:54:18+00:00",
+      "summary": "<p>A ransomware incident in which attackers used Active Directory Group Policy to disrupt operations without deploying a Windows encryptor or leaving malware running on endpoints. In April 2026, the attackers accessed a FortiGate SSL VPN using compromised domain credentials, then gained domain-admin-equivalent rights. PAYLOAD Ransomware On April 13, Kaspersky’s Global Emergency Response Team (GERT) created [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/payload-ransomware-abuses-active-directory-group-policy/\">PAYLOAD Ransomware Abuses Active Directory Group Policy to Disrupt Entire Windows Domain</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200404",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/payload-ransomware-abuses-active-directory-group-policy",
+      "content_hash": "4c392645adb07ef50859c45f976e31bbdaf7775e3b68b3f08adca3beed703b9e",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4c392645adb07ef50859c45f976e31bbdaf7775e3b68b3f08adca3beed703b9e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "New Rapuncel Infostealer Abuses Microsoft-Signed Driver to Disable 145 Security Tools",
+      "url": "https://gbhackers.com/new-rapuncel-infostealer-abuses-microsoft-signed-driver/",
+      "published": "Mon, 21 Sep 2026 11:36:46 +0000",
+      "published_utc": "2026-09-21T11:36:46+00:00",
+      "summary": "<p>A newly identified information-stealing campaign, tracked as Rapuncel, is exploiting a Microsoft-attested kernel driver to terminate up to 145 antivirus (AV) and endpoint detection and response (EDR) processes. This allows attackers to steal browser credentials, cryptocurrency wallet data, chat tokens, and Windows credentials. Researchers from the LastPass Threat Intelligence, Mitigation, and Escalation team, in collaboration [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-rapuncel-infostealer-abuses-microsoft-signed-driver/\">New Rapuncel Infostealer Abuses Microsoft-Signed Driver to Disable 145 Security Tools</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200403",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/new-rapuncel-infostealer-abuses-microsoft-signed-driver",
+      "content_hash": "d573335d05f9c983140ed662d0264d21cb3369c1b701c96c351d3495c03045da",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d573335d05f9c983140ed662d0264d21cb3369c1b701c96c351d3495c03045da"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "BigDiskBuster Windows Defender DoS Vulnerability Blocks Platform and Signature Updates",
+      "url": "https://gbhackers.com/bigdiskbuster-windows-defender-dos-vulnerability/",
+      "published": "Mon, 21 Sep 2026 11:01:28 +0000",
+      "published_utc": "2026-09-21T11:01:28+00:00",
+      "summary": "<p>A recently published proof-of-concept project named BigDiskBuster claims to prevent Microsoft Defender from completing its platform and security intelligence signature updates. This could create a potential denial-of-service condition, leaving Windows endpoints operating with outdated anti-malware protection. The project, published on GitHub by the user “MSNightmare,” is described as a &#8220;Windows Defender Update Denial of Service [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bigdiskbuster-windows-defender-dos-vulnerability/\">BigDiskBuster Windows Defender DoS Vulnerability Blocks Platform and Signature Updates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200395",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/bigdiskbuster-windows-defender-dos-vulnerability",
+      "content_hash": "a50b6a92fe8cd1a96271b959f95b54ea94ada28b4c6a44ad385542210fae7837",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a50b6a92fe8cd1a96271b959f95b54ea94ada28b4c6a44ad385542210fae7837"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "North Korea’s Hangro VPN Certificate Exposes Internal Network and Russia-Linked Infrastructure",
+      "url": "https://gbhackers.com/hangro-vpn-exposure/",
+      "published": "Mon, 21 Sep 2026 09:33:25 +0000",
+      "published_utc": "2026-09-21T09:33:25+00:00",
+      "summary": "<p>North Korea’s Hangro VPN and mail platform has deployed a new certificate hierarchy that exposes an apparent cross-border management environment spanning systems in Pyongyang and Russia’s Far East. The certificate’s Subject Alternative Name field lists the platform’s publicly exposed servers alongside a carrier-grade NAT address, offering an unusual glimpse into how the service may be [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hangro-vpn-exposure/\">North Korea’s Hangro VPN Certificate Exposes Internal Network and Russia-Linked Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200373",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hangro-vpn-exposure",
+      "content_hash": "506cce796b90043939ae20576285b88c6a5be0647036400e15c8d4b0b2fe925b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "506cce796b90043939ae20576285b88c6a5be0647036400e15c8d4b0b2fe925b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "Hackers Abuse Microsoft Teams to Pose as IT Support and Steal Employee Passwords",
+      "url": "https://gbhackers.com/hackers-abuse-microsoft-teams/",
+      "published": "Mon, 21 Sep 2026 09:09:24 +0000",
+      "published_utc": "2026-09-21T09:09:24+00:00",
+      "summary": "<p>Threat actors are increasingly abusing Microsoft Teams&#8217; external chat capabilities to impersonate corporate IT help desks. They trick employees into installing malware, granting remote access, and stealing Windows credentials. These attacks exploit a simple vulnerability: employees tend to distrust suspicious emails but often do not apply the same caution to collaboration platforms like Teams. Attackers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-abuse-microsoft-teams/\">Hackers Abuse Microsoft Teams to Pose as IT Support and Steal Employee Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200377",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-abuse-microsoft-teams",
+      "content_hash": "c5f8a6f9291d7a01a5172c15807b6914ce47d2d02176a1d671f06fab8cb93f84",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c5f8a6f9291d7a01a5172c15807b6914ce47d2d02176a1d671f06fab8cb93f84"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "New Cache Key Injection Attack Lets Hackers Bypass Access Controls and Poison Nginx Caches",
+      "url": "https://gbhackers.com/new-cache-key-injection-attack/",
+      "published": "Mon, 21 Sep 2026 08:58:08 +0000",
+      "published_utc": "2026-09-21T08:58:08+00:00",
+      "summary": "<p>Security researchers have unveiled a cache poisoning technique called cache key injection that lets attackers bypass access controls, expose cached sensitive pages, trigger denial-of-service conditions, and potentially execute stored cross-site scripting (XSS) attacks against vulnerable Nginx deployments. Research by YesWeHack researcher Alex Brumen highlights flaws that occur when web caches create cache keys by directly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-cache-key-injection-attack/\">New Cache Key Injection Attack Lets Hackers Bypass Access Controls and Poison Nginx Caches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200370",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/new-cache-key-injection-attack",
+      "content_hash": "f840fb5a6ad9dcdd16555b1712ffc25f28d6f7458d2af182859abcda232a49b9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f840fb5a6ad9dcdd16555b1712ffc25f28d6f7458d2af182859abcda232a49b9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "Hackers Weaponize Terraform Lock Files to Infect DevOps Engineers With macOS Backdoors",
+      "url": "https://gbhackers.com/terraform-lock-files/",
+      "published": "Mon, 21 Sep 2026 08:53:58 +0000",
+      "published_utc": "2026-09-21T08:53:58+00:00",
+      "summary": "<p>North Korea-linked threat actor TraderTraitor has expanded its developer-focused intrusion activity beyond cryptocurrency targets, using weaponized Terraform lock files in fake job-interview repositories to infect DevOps engineers with macOS backdoors. SentinelOne identified an Indian IT services provider compromised with the same FLATROOF and ROOFDECK implants previously linked to the April 2026 KelpDAO-LayerZero attack. The campaign [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/terraform-lock-files/\">Hackers Weaponize Terraform Lock Files to Infect DevOps Engineers With macOS Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200362",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/terraform-lock-files",
+      "content_hash": "d9a4a8bcb18093c04c5cca2860acc04ed60143c488549cae4adb1b9329e6f6c2",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d9a4a8bcb18093c04c5cca2860acc04ed60143c488549cae4adb1b9329e6f6c2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
+    {
+      "title": "HEIF Heist Image Flaws Let Attackers Gain RCE Across Meta, Slack and GitHub Enterprise",
+      "url": "https://gbhackers.com/heif-heist-image-flaws/",
+      "published": "Mon, 21 Sep 2026 08:17:05 +0000",
+      "published_utc": "2026-09-21T08:17:05+00:00",
+      "summary": "<p>“HEIF Heist,” a broad class of image-processing attack paths that could allow threat actors to turn malicious HEIF, HEIC, and AVIF uploads into remote code execution, sensitive-data exposure, and account compromise across major technology and enterprise platforms. The research, published by Hacktron, highlights a familiar but increasingly dangerous supply-chain weakness: applications often trust native image-decoding [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/heif-heist-image-flaws/\">HEIF Heist Image Flaws Let Attackers Gain RCE Across Meta, Slack and GitHub Enterprise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200355",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/heif-heist-image-flaws",
+      "content_hash": "9890828f9e228597fb8cc995d73af967326d8f9f91c10e690c20168013f6e2d6",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "9890828f9e228597fb8cc995d73af967326d8f9f91c10e690c20168013f6e2d6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T13:59:48.142935+00:00",
+      "first_seen_local": "2026-09-21T08:59:48.142932-05:00",
+      "last_updated_utc": "2026-09-21T13:59:48.142935+00:00",
+      "last_updated_local": "2026-09-21T08:59:48.142932-05:00"
+    },
     {
       "title": "Exim Mail Server Hit by 4 Security Flaws Enabling SMTP Smuggling and Heap Corruption",
       "url": "https://gbhackers.com/exim-mail-server-hit-by-4-security-flaws/",

@@ -2,8 +2,146 @@
   "month": "2026-09",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 79,
+  "article_count": 84,
   "articles": [
+    {
+      "title": "Exim Mail Server Hit by 4 Security Flaws Enabling SMTP Smuggling and Heap Corruption",
+      "url": "https://gbhackers.com/exim-mail-server-hit-by-4-security-flaws/",
+      "published": "Mon, 21 Sep 2026 06:48:53 +0000",
+      "published_utc": "2026-09-21T06:48:53+00:00",
+      "summary": "<p>Exim maintainers have released version 4.100.1 to address four security vulnerabilities affecting the widely used mail transfer agent. This update resolves issues that could potentially enable SMTP smuggling and heap-memory corruption under certain configurations. The release, announced on September 18, fixes the following vulnerabilities: GCVE-25-2026-09-50-1, GCVE-25-2026-09-51-1, GCVE-25-2026-09-55-1, and GCVE-25-2026-09-56-1. Administrators using vulnerable installations of Exim [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exim-mail-server-hit-by-4-security-flaws/\">Exim Mail Server Hit by 4 Security Flaws Enabling SMTP Smuggling and Heap Corruption</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200345",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/exim-mail-server-hit-by-4-security-flaws",
+      "content_hash": "fac4d05114c131db9d431c459585a5dcf49be8da4775f5e05be4ac016d5da051",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fac4d05114c131db9d431c459585a5dcf49be8da4775f5e05be4ac016d5da051"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T07:03:51.458713+00:00",
+      "first_seen_local": "2026-09-21T02:03:51.458711-05:00",
+      "last_updated_utc": "2026-09-21T07:03:51.458713+00:00",
+      "last_updated_local": "2026-09-21T02:03:51.458711-05:00"
+    },
+    {
+      "title": "EtherHiding Malware Abuses Polygon Blockchain to Hide C2 and Steal Banking Credentials",
+      "url": "https://gbhackers.com/etherhiding-malware-attack/",
+      "published": "Mon, 21 Sep 2026 05:51:05 +0000",
+      "published_utc": "2026-09-21T05:51:05+00:00",
+      "summary": "<p>A newly uncovered EtherHiding campaign has turned the Polygon blockchain into a resilient command-and-control mechanism, allowing operators to rotate malware infrastructure without modifying the payload deployed on victim systems. The operation, active since at least November 2025, has compromised at least 31 legitimate business websites and evolved from deploying a general-purpose PowerShell backdoor to distributing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/etherhiding-malware-attack/\">EtherHiding Malware Abuses Polygon Blockchain to Hide C2 and Steal Banking Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200323",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/etherhiding-malware-attack",
+      "content_hash": "ab1f54f705ea98f2b7933d2a0fc7ccf92177c3a5b676d0631a006fe1f01e8a9d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ab1f54f705ea98f2b7933d2a0fc7ccf92177c3a5b676d0631a006fe1f01e8a9d",
+        "FEEDBURNER": "ab1f54f705ea98f2b7933d2a0fc7ccf92177c3a5b676d0631a006fe1f01e8a9d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T07:03:51.458713+00:00",
+      "first_seen_local": "2026-09-21T02:03:51.458711-05:00",
+      "last_updated_utc": "2026-09-21T07:03:51.458713+00:00",
+      "last_updated_local": "2026-09-21T02:03:51.458711-05:00"
+    },
+    {
+      "title": "BragJack Attack Hijacks AI Assistants in 5 Popular Browsers With Zero Clicks",
+      "url": "https://gbhackers.com/bragjack-attack-hijacks-ai-assistants/",
+      "published": "Mon, 21 Sep 2026 05:35:16 +0000",
+      "published_utc": "2026-09-21T05:35:16+00:00",
+      "summary": "<p>Security researchers have revealed a zero-click attack technique known as BragJack, which could enable a malicious browser extension to hijack built-in AI assistants in popular browsers like Google Chrome, Microsoft Edge, Opera Neon, Perplexity Comet, and Claude in Chrome. The research, published on September 16 by Gal Weizman of Forever Security, describes a common architectural [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bragjack-attack-hijacks-ai-assistants/\">BragJack Attack Hijacks AI Assistants in 5 Popular Browsers With Zero Clicks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200328",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/bragjack-attack-hijacks-ai-assistants",
+      "content_hash": "09226f1d059bec014b157e15f16d4b7dde762b11ab772ee917ee1ea0a7b8ac52",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "09226f1d059bec014b157e15f16d4b7dde762b11ab772ee917ee1ea0a7b8ac52",
+        "FEEDBURNER": "09226f1d059bec014b157e15f16d4b7dde762b11ab772ee917ee1ea0a7b8ac52"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T07:03:51.458713+00:00",
+      "first_seen_local": "2026-09-21T02:03:51.458711-05:00",
+      "last_updated_utc": "2026-09-21T07:03:51.458713+00:00",
+      "last_updated_local": "2026-09-21T02:03:51.458711-05:00"
+    },
+    {
+      "title": "Hackers Exploit TanStack Supply Chain Attack to Steal 170 Private CrowdSec Repositories",
+      "url": "https://gbhackers.com/hackers-exploit-tanstack-supply-chain-attack/",
+      "published": "Mon, 21 Sep 2026 05:18:47 +0000",
+      "published_utc": "2026-09-21T05:18:47+00:00",
+      "summary": "<p>Threat actors linked to the TanStack npm supply chain compromise allegedly used a stolen GitHub OAuth token to clone about 170 private CrowdSec repositories, exposing source code, limited contact information, and a restricted AWS notification credential. CrowdSec stated that the compromise originated from a former employee&#8217;s account, which remained in the company’s GitHub organization for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-tanstack-supply-chain-attack/\">Hackers Exploit TanStack Supply Chain Attack to Steal 170 Private CrowdSec Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200317",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-exploit-tanstack-supply-chain-attack",
+      "content_hash": "8e4944b6f9ac1d97c14a8747b6a340461d1a2d19824a4e481d66b8230747cd25",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8e4944b6f9ac1d97c14a8747b6a340461d1a2d19824a4e481d66b8230747cd25",
+        "FEEDBURNER": "8e4944b6f9ac1d97c14a8747b6a340461d1a2d19824a4e481d66b8230747cd25"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T07:03:51.458713+00:00",
+      "first_seen_local": "2026-09-21T02:03:51.458711-05:00",
+      "last_updated_utc": "2026-09-21T07:03:51.458713+00:00",
+      "last_updated_local": "2026-09-21T02:03:51.458711-05:00"
+    },
+    {
+      "title": "Hackers Abuse Critical cPanel Authentication Bypass to Compromise Hosting Servers",
+      "url": "https://gbhackers.com/cpanel-authentication-exploited/",
+      "published": "Mon, 21 Sep 2026 05:06:37 +0000",
+      "published_utc": "2026-09-21T05:06:37+00:00",
+      "summary": "<p>Threat actors rapidly exploited a critical authentication bypass in cPanel and WHM to compromise internet-facing hosting servers, with Japanese telemetry data linking the campaign to a sharp rise in Mirai-like scanning and attack traffic targeting Telnet services. The activity centers on CVE-2026-41940, a critical vulnerability in cPanel and WHM’s session-management layer that enables a remote, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cpanel-authentication-exploited/\">Hackers Abuse Critical cPanel Authentication Bypass to Compromise Hosting Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200307",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cpanel-authentication-exploited",
+      "content_hash": "f4d1ea9f73646a60c495cad07b3c3ab932e226c0fdbe001148a5b03800a95cae",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f4d1ea9f73646a60c495cad07b3c3ab932e226c0fdbe001148a5b03800a95cae",
+        "FEEDBURNER": "f4d1ea9f73646a60c495cad07b3c3ab932e226c0fdbe001148a5b03800a95cae"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T07:03:51.458713+00:00",
+      "first_seen_local": "2026-09-21T02:03:51.458711-05:00",
+      "last_updated_utc": "2026-09-21T07:03:51.458713+00:00",
+      "last_updated_local": "2026-09-21T02:03:51.458711-05:00"
+    },
     {
       "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
       "url": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",

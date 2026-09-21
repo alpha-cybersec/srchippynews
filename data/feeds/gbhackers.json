@@ -6,13 +6,13 @@
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
       "status": "FAILED",
-      "http_status": null,
-      "final_url": "",
-      "content_type": "",
+      "http_status": 202,
+      "final_url": "https://gbhackers.com/feed/",
+      "content_type": "text/html",
       "feed_title": "",
       "article_count": 0,
       "articles": [],
-      "error": "Error conexión: HTTPSConnectionPool(host='gbhackers.com', port=443): Read timed out. (read timeout=30)"
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

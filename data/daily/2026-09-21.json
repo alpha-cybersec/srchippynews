@@ -1,12 +1,334 @@
 {
   "date": "2026-09-21",
-  "article_count": 27,
+  "article_count": 39,
   "sources": {
-    "gbhackers": 15,
-    "cybersecuritynews": 10,
-    "thehackernews": 2
+    "thehackernews": 7,
+    "cybersecuritynews": 17,
+    "gbhackers": 15
   },
   "articles": [
+    {
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "url": "http://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "published": "Mon, 21 Sep 2026 17:31:01 +0000",
+      "published_utc": "2026-09-21T17:31:01+00:00",
+      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.\n\nMicrosoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2415137919413031216",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "content_hash": "212e1f07fc5e9dd4589702a88490e7f49d06f9358e040db8dce149ecfa71f3b5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "212e1f07fc5e9dd4589702a88490e7f49d06f9358e040db8dce149ecfa71f3b5",
+        "FEEDBURNER": "212e1f07fc5e9dd4589702a88490e7f49d06f9358e040db8dce149ecfa71f3b5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:19:05.234592+00:00",
+      "first_seen_local": "2026-09-21T14:19:05.234588-05:00",
+      "last_updated_utc": "2026-09-21T19:19:05.234592+00:00",
+      "last_updated_local": "2026-09-21T14:19:05.234588-05:00"
+    },
+    {
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "url": "http://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "published": "Mon, 21 Sep 2026 17:19:00 +0000",
+      "published_utc": "2026-09-21T17:19:00+00:00",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.\n\nThe primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7283142870211078011",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "content_hash": "c2f3b3f2068998ced671ded01a5728a320d86cd0cacd527c4b21aaf87375e5a7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c2f3b3f2068998ced671ded01a5728a320d86cd0cacd527c4b21aaf87375e5a7",
+        "FEEDBURNER": "c2f3b3f2068998ced671ded01a5728a320d86cd0cacd527c4b21aaf87375e5a7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:19:05.234592+00:00",
+      "first_seen_local": "2026-09-21T14:19:05.234588-05:00",
+      "last_updated_utc": "2026-09-21T19:19:05.234592+00:00",
+      "last_updated_local": "2026-09-21T14:19:05.234588-05:00"
+    },
+    {
+      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+      "url": "http://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "published": "Mon, 21 Sep 2026 16:57:31 +0000",
+      "published_utc": "2026-09-21T16:57:31+00:00",
+      "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020.\n\nIreland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3392601122183709411",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "content_hash": "3c9ee246be08833026af6cf3e11551ef8c5b77be857379c7c55778569a487df7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3c9ee246be08833026af6cf3e11551ef8c5b77be857379c7c55778569a487df7",
+        "FEEDBURNER": "3c9ee246be08833026af6cf3e11551ef8c5b77be857379c7c55778569a487df7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:19:05.234592+00:00",
+      "first_seen_local": "2026-09-21T14:19:05.234588-05:00",
+      "last_updated_utc": "2026-09-21T19:19:05.234592+00:00",
+      "last_updated_local": "2026-09-21T14:19:05.234588-05:00"
+    },
+    {
+      "title": "Google Fined €403 Million for GDPR Violations Over Users’ Location Data",
+      "url": "https://cybersecuritynews.com/google-fined-e403-million/",
+      "published": "Mon, 21 Sep 2026 16:43:32 +0000",
+      "published_utc": "2026-09-21T16:43:32+00:00",
+      "summary": "<p>Ireland’s Data Protection Commission (DPC) has fined Google Ireland Limited €403 million after concluding that the technology giant violated the General Data Protection Regulation (GDPR) while processing users’ location data. Announced on September 21, 2026, the decision also orders Google to bring the affected processing operations into compliance within six months. The enforcement action follows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-fined-e403-million/\">Google Fined €403 Million for GDPR Violations Over Users’ Location Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164219",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-fined-e403-million",
+      "content_hash": "109eb66f246a390aa9110d67ebbbf011f81fcebb0ffabfd54039c736cdcc09f2",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "109eb66f246a390aa9110d67ebbbf011f81fcebb0ffabfd54039c736cdcc09f2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
+    {
+      "title": "AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak",
+      "url": "https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/",
+      "published": "Mon, 21 Sep 2026 16:19:59 +0000",
+      "published_utc": "2026-09-21T16:19:59+00:00",
+      "summary": "<p>Amazon Web Services can move from detection to containment in seconds when an Identity and Access Management access key appears in a public GitHub repository. In a controlled Unit 42 exposure test, AWS attached its AWSCompromisedKeyQuarantineV3 managed policy to the affected IAM user only 10 seconds after researchers published the credential, sharply reducing the window [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/\">AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164205",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys",
+      "content_hash": "d8b5cdd8208baea67ea9c3b9a86b4211657f29deeffb8234f842a7bc94ce801b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d8b5cdd8208baea67ea9c3b9a86b4211657f29deeffb8234f842a7bc94ce801b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
+    {
+      "title": "Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds",
+      "url": "https://cybersecuritynews.com/claude-code-agent-file-deletion/",
+      "published": "Mon, 21 Sep 2026 16:12:31 +0000",
+      "published_utc": "2026-09-21T16:12:31+00:00",
+      "summary": "<p>A Claude Code user has reported a severe data-loss incident in which an autonomous coding agent allegedly deleted 48,218 live files from a Windows project tree and destroyed the repository’s Git object store. The deletion reportedly occurred in just 103 seconds, between 10:10:31 p.m. and 10:12:14 p.m. ET, after the agent was authorized to rebuild [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-agent-file-deletion/\">Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164212",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-code-agent-file-deletion",
+      "content_hash": "a4301454717cf8796fbf628cf14085899b773b89e220c622a426c67a61c5dafa",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a4301454717cf8796fbf628cf14085899b773b89e220c622a426c67a61c5dafa"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
+    {
+      "title": "Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027",
+      "url": "https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/",
+      "published": "Mon, 21 Sep 2026 14:40:37 +0000",
+      "published_utc": "2026-09-21T14:40:37+00:00",
+      "summary": "<p>Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide and requires organizations to migrate affected users before February 1, 2027. The security-focused change will prevent employees from using a registered telephone number and SMS one-time passcode as their primary sign-in method, potentially disrupting Microsoft 365 and other Entra-protected services if administrators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/\">Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164199",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/entra-id-sms-sign-in-retirement",
+      "content_hash": "15aa4b9ef38d77a04e8829d058e9a23061f5885a1ef6b7d905fd5ae9806a0a36",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "15aa4b9ef38d77a04e8829d058e9a23061f5885a1ef6b7d905fd5ae9806a0a36"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
+    {
+      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "url": "http://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "published": "Mon, 21 Sep 2026 14:24:13 +0000",
+      "published_utc": "2026-09-21T14:24:13+00:00",
+      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-955727856927640629",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "content_hash": "2ea60a0b4364e1abf3c213ad1ae22f80577d08a35f41129c6616e52f75b39c4c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2ea60a0b4364e1abf3c213ad1ae22f80577d08a35f41129c6616e52f75b39c4c",
+        "FEEDBURNER": "2ea60a0b4364e1abf3c213ad1ae22f80577d08a35f41129c6616e52f75b39c4c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:19:05.234592+00:00",
+      "first_seen_local": "2026-09-21T14:19:05.234588-05:00",
+      "last_updated_utc": "2026-09-21T19:19:05.234592+00:00",
+      "last_updated_local": "2026-09-21T14:19:05.234588-05:00"
+    },
+    {
+      "title": "Microsoft Investigating Teams Calling Issue Blocking Users From Making or Receiving Calls",
+      "url": "https://cybersecuritynews.com/microsoft-teams-calling-issue/",
+      "published": "Mon, 21 Sep 2026 14:18:59 +0000",
+      "published_utc": "2026-09-21T14:18:59+00:00",
+      "summary": "<p>Microsoft is investigating a service incident that is preventing some users from placing or receiving calls through Microsoft Teams. The company disclosed the issue through its verified Microsoft 365 Status account on September 21, directing administrators to incident reference TM1475580 in the Microsoft 365 admin center. The advisory is narrowly framed: Microsoft said only that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-calling-issue/\">Microsoft Investigating Teams Calling Issue Blocking Users From Making or Receiving Calls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164200",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-teams-calling-issue",
+      "content_hash": "a253171b0058af9a0de3ccb2b0d230866af240d31f22eea81d4f164335dba1fc",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a253171b0058af9a0de3ccb2b0d230866af240d31f22eea81d4f164335dba1fc"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
+    {
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "url": "http://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "published": "Mon, 21 Sep 2026 14:15:40 +0000",
+      "published_utc": "2026-09-21T14:15:40+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2305316181161665823",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "content_hash": "a90caf0e405936cd1afa130d7530aae0c2846b1da58b601d0c114a6e5bacf7d9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a90caf0e405936cd1afa130d7530aae0c2846b1da58b601d0c114a6e5bacf7d9",
+        "FEEDBURNER": "a90caf0e405936cd1afa130d7530aae0c2846b1da58b601d0c114a6e5bacf7d9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:19:05.234592+00:00",
+      "first_seen_local": "2026-09-21T14:19:05.234588-05:00",
+      "last_updated_utc": "2026-09-21T19:19:05.234592+00:00",
+      "last_updated_local": "2026-09-21T14:19:05.234588-05:00"
+    },
+    {
+      "title": "PAYLOAD Ransomware Hijacks Active Directory GPO to Disrupt Entire Windows Domain Without Encryption",
+      "url": "https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/",
+      "published": "Mon, 21 Sep 2026 14:03:12 +0000",
+      "published_utc": "2026-09-21T14:03:12+00:00",
+      "summary": "<p>A PAYLOAD ransomware attack used Active Directory Group Policy Objects to disrupt an entire Windows domain without encrypting files or deploying ransomware binaries. The operation targeted a manufacturing organization in the Middle East. It relied on domain-level control, stolen credentials, and malicious GPOs to display ransom demands, disable defenses, and lock down administrator access. In [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/\">PAYLOAD Ransomware Hijacks Active Directory GPO to Disrupt Entire Windows Domain Without Encryption</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164179",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/payload-ransomware-hijacks-active-directory",
+      "content_hash": "7e0df4f947bbc6bd853f82e81df199a31f2ef4346b098bd137919a7d98ec7fb7",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "7e0df4f947bbc6bd853f82e81df199a31f2ef4346b098bd137919a7d98ec7fb7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
+    {
+      "title": "Malicious npm Package With 2 Million Downloads Hides Malware in Runtime Code",
+      "url": "https://cybersecuritynews.com/malicious-npm-package/",
+      "published": "Mon, 21 Sep 2026 13:55:52 +0000",
+      "published_utc": "2026-09-21T13:55:52+00:00",
+      "summary": "<p>A malicious npm package that appeared to be an ordinary data-indexing tool has exposed a weakness in software supply-chain defenses. The package, indexed-btree, copied the identity of the legitimate sorted-btree library and recorded almost two million weekly downloads. The campaign is notable because the malware does not need to run while a developer installs it. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-npm-package/\">Malicious npm Package With 2 Million Downloads Hides Malware in Runtime Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164182",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malicious-npm-package",
+      "content_hash": "018b92738d341d629c8125183309eb49bf9e13206f3dfbd477e808722bacda73",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "018b92738d341d629c8125183309eb49bf9e13206f3dfbd477e808722bacda73"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-21T19:18:58.898061+00:00",
+      "first_seen_local": "2026-09-21T14:18:58.898057-05:00",
+      "last_updated_utc": "2026-09-21T19:18:58.898061+00:00",
+      "last_updated_local": "2026-09-21T14:18:58.898057-05:00"
+    },
     {
       "title": "NightEagle Uses BlueKeep and DCSync to Move Toward Active Directory Domain Controllers",
       "url": "https://gbhackers.com/nighteagle-attack-chain/",

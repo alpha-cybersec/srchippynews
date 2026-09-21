@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Google Fined €403 Million for GDPR Violations Over Users’ Location Data",
+          "url": "https://cybersecuritynews.com/google-fined-e403-million/",
+          "published": "Mon, 21 Sep 2026 16:43:32 +0000",
+          "published_utc": "2026-09-21T16:43:32+00:00",
+          "summary": "<p>Ireland’s Data Protection Commission (DPC) has fined Google Ireland Limited €403 million after concluding that the technology giant violated the General Data Protection Regulation (GDPR) while processing users’ location data. Announced on September 21, 2026, the decision also orders Google to bring the affected processing operations into compliance within six months. The enforcement action follows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-fined-e403-million/\">Google Fined €403 Million for GDPR Violations Over Users’ Location Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164219"
+        },
+        {
+          "title": "AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak",
+          "url": "https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/",
+          "published": "Mon, 21 Sep 2026 16:19:59 +0000",
+          "published_utc": "2026-09-21T16:19:59+00:00",
+          "summary": "<p>Amazon Web Services can move from detection to containment in seconds when an Identity and Access Management access key appears in a public GitHub repository. In a controlled Unit 42 exposure test, AWS attached its AWSCompromisedKeyQuarantineV3 managed policy to the affected IAM user only 10 seconds after researchers published the credential, sharply reducing the window [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/\">AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164205"
+        },
+        {
+          "title": "Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds",
+          "url": "https://cybersecuritynews.com/claude-code-agent-file-deletion/",
+          "published": "Mon, 21 Sep 2026 16:12:31 +0000",
+          "published_utc": "2026-09-21T16:12:31+00:00",
+          "summary": "<p>A Claude Code user has reported a severe data-loss incident in which an autonomous coding agent allegedly deleted 48,218 live files from a Windows project tree and destroyed the repository’s Git object store. The deletion reportedly occurred in just 103 seconds, between 10:10:31 p.m. and 10:12:14 p.m. ET, after the agent was authorized to rebuild [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-agent-file-deletion/\">Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164212"
+        },
+        {
+          "title": "Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027",
+          "url": "https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/",
+          "published": "Mon, 21 Sep 2026 14:40:37 +0000",
+          "published_utc": "2026-09-21T14:40:37+00:00",
+          "summary": "<p>Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide and requires organizations to migrate affected users before February 1, 2027. The security-focused change will prevent employees from using a registered telephone number and SMS one-time passcode as their primary sign-in method, potentially disrupting Microsoft 365 and other Entra-protected services if administrators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/\">Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164199"
+        },
+        {
+          "title": "Microsoft Investigating Teams Calling Issue Blocking Users From Making or Receiving Calls",
+          "url": "https://cybersecuritynews.com/microsoft-teams-calling-issue/",
+          "published": "Mon, 21 Sep 2026 14:18:59 +0000",
+          "published_utc": "2026-09-21T14:18:59+00:00",
+          "summary": "<p>Microsoft is investigating a service incident that is preventing some users from placing or receiving calls through Microsoft Teams. The company disclosed the issue through its verified Microsoft 365 Status account on September 21, directing administrators to incident reference TM1475580 in the Microsoft 365 admin center. The advisory is narrowly framed: Microsoft said only that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-calling-issue/\">Microsoft Investigating Teams Calling Issue Blocking Users From Making or Receiving Calls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164200"
+        },
+        {
+          "title": "PAYLOAD Ransomware Hijacks Active Directory GPO to Disrupt Entire Windows Domain Without Encryption",
+          "url": "https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/",
+          "published": "Mon, 21 Sep 2026 14:03:12 +0000",
+          "published_utc": "2026-09-21T14:03:12+00:00",
+          "summary": "<p>A PAYLOAD ransomware attack used Active Directory Group Policy Objects to disrupt an entire Windows domain without encrypting files or deploying ransomware binaries. The operation targeted a manufacturing organization in the Middle East. It relied on domain-level control, stolen credentials, and malicious GPOs to display ransom demands, disable defenses, and lock down administrator access. In [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/\">PAYLOAD Ransomware Hijacks Active Directory GPO to Disrupt Entire Windows Domain Without Encryption</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164179"
+        },
+        {
+          "title": "Malicious npm Package With 2 Million Downloads Hides Malware in Runtime Code",
+          "url": "https://cybersecuritynews.com/malicious-npm-package/",
+          "published": "Mon, 21 Sep 2026 13:55:52 +0000",
+          "published_utc": "2026-09-21T13:55:52+00:00",
+          "summary": "<p>A malicious npm package that appeared to be an ordinary data-indexing tool has exposed a weakness in software supply-chain defenses. The package, indexed-btree, copied the identity of the legitimate sorted-btree library and recorded almost two million weekly downloads. The campaign is notable because the malware does not need to run while a developer installs it. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-npm-package/\">Malicious npm Package With 2 Million Downloads Hides Malware in Runtime Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164182"
+        },
+        {
+          "title": "Microsoft Confirms September 2026 Windows Updates Break File History Backups",
+          "url": "https://cybersecuritynews.com/windows-updates-breaks-file-history-backup/",
+          "published": "Mon, 21 Sep 2026 13:18:56 +0000",
+          "published_utc": "2026-09-21T13:18:56+00:00",
+          "summary": "<p>Microsoft has confirmed that its September 2026 Windows security updates can prevent File History from creating or updating backups on some systems. The regression places users who rely on the built-in feature at risk of assuming their files are protected when no recent backup has actually completed. File History is a Windows backup capability accessed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-updates-breaks-file-history-backup/\">Microsoft Confirms September 2026 Windows Updates Break File History Backups</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164183"
+        },
+        {
+          "title": "ChatGPT Ad Tracking Cookie Follows Users Across Third-Party Advertiser Websites",
+          "url": "https://cybersecuritynews.com/chatgpt-ad-tracking-cookie-follows-users/",
+          "published": "Mon, 21 Sep 2026 13:02:53 +0000",
+          "published_utc": "2026-09-21T13:02:53+00:00",
+          "summary": "<p>OpenAI’s advertising measurement system appears to use a cross-site cookie that can link activity on advertiser websites to a person’s ChatGPT account. The cookie, named __obi, is created. At the same time, a user visits ChatGPT and can later be sent back to OpenAI when that user loads sites running OpenAI’s advertising pixel. The mechanism [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-ad-tracking-cookie-follows-users/\">ChatGPT Ad Tracking Cookie Follows Users Across Third-Party Advertiser Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164133"
+        },
+        {
+          "title": "Leaky TLS Certificate Exposes North Korea’s Hangro VPN Infrastructure Across Two Countries",
+          "url": "https://cybersecuritynews.com/leaky-tls-certificate/",
+          "published": "Mon, 21 Sep 2026 12:57:10 +0000",
+          "published_utc": "2026-09-21T12:57:10+00:00",
+          "summary": "<p>North Korea’s Hangro platform has exposed an unusually detailed view of infrastructure used to connect officials and trade representatives abroad with systems inside the country. A newly observed TLS certificate listed servers in North Korea and Russia, along with an internal address that should not have appeared in a public-facing certificate. Hangro is not malware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/leaky-tls-certificate/\">Leaky TLS Certificate Exposes North Korea’s Hangro VPN Infrastructure Across Two Countries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164156"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

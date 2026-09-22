@@ -5,63 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 6,
-      "articles": [
-        {
-          "title": "Hackers Exploit WordPress CVE-2026-63030 and CVE-2026-60137 to Steal Government Data",
-          "url": "https://gbhackers.com/wordpress-vulnerability-exploitation/",
-          "published": "Tue, 22 Sep 2026 06:40:37 +0000",
-          "published_utc": "2026-09-22T06:40:37+00:00",
-          "summary": "<p>A suspected Chinese-speaking threat actor has exploited the critical WordPress “wp2shell” vulnerability chain to compromise government and small-business targets across 29 countries, stealing at least 18,566 sensitive records from one Western government organization. GreyNoise linked the activity to a malicious cyber actor (MCA) it has tracked through its Global Observation Grid since early June. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-vulnerability-exploitation/\">Hackers Exploit WordPress CVE-2026-63030 and CVE-2026-60137 to Steal Government Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200462"
-        },
-        {
-          "title": "Windows 11 26H1 Security Update Expands Secure Boot Certificate Protection",
-          "url": "https://gbhackers.com/windows-11-26h1-security-update/",
-          "published": "Tue, 22 Sep 2026 06:39:57 +0000",
-          "published_utc": "2026-09-22T06:39:57+00:00",
-          "summary": "<p>Microsoft has released the cumulative security update for September 2026 for Windows 11 version 26H1. This update expands the range of systems that can automatically receive new Secure Boot certificates. KB5124012, released on September 8, brings devices to OS Build 28000.2954. It includes enhanced, high-confidence device-targeting data to improve certificate deployment coverage across supported PCs [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-26h1-security-update/\">Windows 11 26H1 Security Update Expands Secure Boot Certificate Protection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200469"
-        },
-        {
-          "title": "Microsoft to Disable SMS as Primary Entra ID Sign-In Method in 2027",
-          "url": "https://gbhackers.com/microsoft-to-disable-sms-as-primary-entra-id/",
-          "published": "Tue, 22 Sep 2026 06:31:19 +0000",
-          "published_utc": "2026-09-22T06:31:19+00:00",
-          "summary": "<p>Microsoft will turn off SMS as a primary sign-in method for Microsoft Entra ID workforce tenants on February 1, 2027, accelerating its transition to phishing-resistant authentication. This change affects workers who currently use a registered phone number and a one-time SMS code as their initial sign-in credential, a passwordless flow utilized by frontline organizations. Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-to-disable-sms-as-primary-entra-id/\">Microsoft to Disable SMS as Primary Entra ID Sign-In Method in 2027</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200467"
-        },
-        {
-          "title": "Vidar Uses Custom Bytecode Interpreter and ARX Stream Ciphers for Per-Build String Obfuscation",
-          "url": "https://gbhackers.com/custom-bytecode-execution/",
-          "published": "Tue, 22 Sep 2026 05:46:53 +0000",
-          "published_utc": "2026-09-22T05:46:53+00:00",
-          "summary": "<p>Vidar information stealer has introduced a lightweight custom virtual machine and per-build stream-cipher variations to conceal its embedded strings, raising the cost of static detection and automated reverse engineering. First observed in 2018, Vidar remains a widely tracked credential-stealing malware family. Its operators continually alter internal protections without necessarily changing the malware’s broader operational purpose: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/custom-bytecode-execution/\">Vidar Uses Custom Bytecode Interpreter and ARX Stream Ciphers for Per-Build String Obfuscation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200454"
-        },
-        {
-          "title": "AWS Detects and Quarantines Exposed IAM Credentials in Public GitHub Repositories",
-          "url": "https://gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials/",
-          "published": "Tue, 22 Sep 2026 05:19:04 +0000",
-          "published_utc": "2026-09-22T05:19:04+00:00",
-          "summary": "<p>AWS can automatically quarantine exposed Identity and Access Management (IAM) access keys that appear in public GitHub repositories. This process involves applying a restrictive managed policy within seconds to reduce the risk of cloud abuse. Researchers from Palo Alto Networks&#8217; Unit 42 documented this response mechanism, showing that AWS employs the AWSCompromisedKeyQuarantine managed policy to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials/\">AWS Detects and Quarantines Exposed IAM Credentials in Public GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200449"
-        },
-        {
-          "title": "One Stolen Active Directory File Can Expose Credentials for an Entire Windows Domain",
-          "url": "https://gbhackers.com/stolen-active-directory-database/",
-          "published": "Tue, 22 Sep 2026 05:09:29 +0000",
-          "published_utc": "2026-09-22T05:09:29+00:00",
-          "summary": "<p>A single stolen Active Directory database can turn a limited Windows intrusion into a domain-wide credential compromise. Threat actors that obtain the NTDS.dIT file from a domain controller, along with its corresponding SYSTEM registry hive, can extract password hashes, Kerberos keys, and password-history data for domain identities offline. While attackers may rotate payloads, loaders, command-and-control [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stolen-active-directory-database/\">One Stolen Active Directory File Can Expose Credentials for an Entire Windows Domain</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200432"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -71,23 +22,87 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 2,
+      "article_count": 10,
       "articles": [
         {
-          "title": "AWS Detects and Quarantines Exposed IAM Credentials in Public GitHub Repositories",
-          "url": "https://gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials/",
-          "published": "Tue, 22 Sep 2026 05:19:04 +0000",
-          "published_utc": "2026-09-22T05:19:04+00:00",
-          "summary": "<p>AWS can automatically quarantine exposed Identity and Access Management (IAM) access keys that appear in public GitHub repositories. This process involves applying a restrictive managed policy within seconds to reduce the risk of cloud abuse. Researchers from Palo Alto Networks&#8217; Unit 42 documented this response mechanism, showing that AWS employs the AWSCompromisedKeyQuarantine managed policy to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials/\">AWS Detects and Quarantines Exposed IAM Credentials in Public GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200449"
+          "title": "Critical Linux KVM Flaw Enables Guest-to-Host Escape on ARM64 Systems",
+          "url": "https://gbhackers.com/critical-linux-kvm-flaw/",
+          "published": "Tue, 22 Sep 2026 12:26:58 +0000",
+          "published_utc": "2026-09-22T12:26:58+00:00",
+          "summary": "<p>A critical vulnerability in the Linux Kernel-based Virtual Machine (KVM) for ARM64 systems could let attackers escape a virtual machine and gain read and write access to host kernel memory. This flaw, tracked as CVE-2026-89775, specifically affects ARM64 hosts with nested virtualization enabled and has been addressed in the mainline Linux kernel. Security researcher Hyunwoo [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-linux-kvm-flaw/\">Critical Linux KVM Flaw Enables Guest-to-Host Escape on ARM64 Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200546"
         },
         {
-          "title": "One Stolen Active Directory File Can Expose Credentials for an Entire Windows Domain",
-          "url": "https://gbhackers.com/stolen-active-directory-database/",
-          "published": "Tue, 22 Sep 2026 05:09:29 +0000",
-          "published_utc": "2026-09-22T05:09:29+00:00",
-          "summary": "<p>A single stolen Active Directory database can turn a limited Windows intrusion into a domain-wide credential compromise. Threat actors that obtain the NTDS.dIT file from a domain controller, along with its corresponding SYSTEM registry hive, can extract password hashes, Kerberos keys, and password-history data for domain identities offline. While attackers may rotate payloads, loaders, command-and-control [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stolen-active-directory-database/\">One Stolen Active Directory File Can Expose Credentials for an Entire Windows Domain</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200432"
+          "title": "TASK#STOMP PowerShell Backdoor Steals Business Documents and Executes Remote Commands",
+          "url": "https://gbhackers.com/taskstomp-powershell-backdoor/",
+          "published": "Tue, 22 Sep 2026 11:34:01 +0000",
+          "published_utc": "2026-09-22T11:34:01+00:00",
+          "summary": "<p>A Windows-focused backdoor dubbed TASK#STOMP that uses VBScript, PowerShell, Scheduled Tasks, and runtime C# compilation to establish resilient persistence and continuously steal business documents. The implant also captures screenshots, extracts saved Wi-Fi passwords, harvests clipboard data, and executes arbitrary commands received from its operators. While the original delivery method is unconfirmed, the location is consistent [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/taskstomp-powershell-backdoor/\">TASK#STOMP PowerShell Backdoor Steals Business Documents and Executes Remote Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200523"
+        },
+        {
+          "title": "Hackers Exploit Veeam Agent Vulnerability to Gain SYSTEM-Level Access on Windows",
+          "url": "https://gbhackers.com/hackers-exploit-veeam-agent-vulnerability/",
+          "published": "Tue, 22 Sep 2026 11:22:39 +0000",
+          "published_utc": "2026-09-22T11:22:39+00:00",
+          "summary": "<p>A newly discovered privilege escalation flaw in Veeam Agent for Microsoft Windows could allow attackers with local access to compromised endpoints to execute commands as NT AUTHORITY\\SYSTEM. Public proof-of-concept (PoC) code for CVE-2026-32996 was released on September 14, increasing the urgency for organizations to patch affected Veeam deployments. CVE-2026-32996 impacts Veeam Agent for Microsoft Windows [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-veeam-agent-vulnerability/\">Hackers Exploit Veeam Agent Vulnerability to Gain SYSTEM-Level Access on Windows</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200531"
+        },
+        {
+          "title": "Red Hat OpenShift Flaw Lets Attackers Poison Disconnected Registries With Malicious Releases",
+          "url": "https://gbhackers.com/red-hat-openshift-flaw/",
+          "published": "Tue, 22 Sep 2026 11:10:07 +0000",
+          "published_utc": "2026-09-22T11:10:07+00:00",
+          "summary": "<p>Red Hat disclosed an important OpenShift vulnerability that could let attackers bypass release-image signature checks and introduce malicious payloads into disconnected registries. This issue, tracked as CVE-2026-75939, affects the `openshift/oc-mirror` tool and has a preliminary CVSS v3.1 score of 7.4. Administrators use `oc-mirror` to retrieve release images from upstream sources and then copy them to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-hat-openshift-flaw/\">Red Hat OpenShift Flaw Lets Attackers Poison Disconnected Registries With Malicious Releases</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200527"
+        },
+        {
+          "title": "Linux BambooToken Malware Uses MQTT C2 for Remote Shell Access and File Exfiltration",
+          "url": "https://gbhackers.com/linux-bambootoken-malware/",
+          "published": "Tue, 22 Sep 2026 10:46:11 +0000",
+          "published_utc": "2026-09-22T10:46:11+00:00",
+          "summary": "<p>A Linux variant of the BambooToken backdoor uses MQTT as its command-and-control channel, enabling operators to profile compromised hosts, execute shell commands, and transfer files through broker-mediated topics. Analysis of a statically linked x86-64 ELF sample shows that its configuration, task routing, and network payloads are obfuscated with separate XOR routines. The examined sample, SHA-256 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-bambootoken-malware/\">Linux BambooToken Malware Uses MQTT C2 for Remote Shell Access and File Exfiltration</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200513"
+        },
+        {
+          "title": "Critical MaxKB AI Agent Flaw Lets Prompt Injection Execute System Commands",
+          "url": "https://gbhackers.com/critical-maxkb-ai-agent-flaw/",
+          "published": "Tue, 22 Sep 2026 10:43:40 +0000",
+          "published_utc": "2026-09-22T10:43:40+00:00",
+          "summary": "<p>A critical vulnerability in the MaxKB AI knowledge-base platform could let attackers exploit prompt injection and run operating system commands on vulnerable deployments, including directly on the underlying host in some configurations. This flaw, tracked as CVE-2026-77521 and GHSA-f36j-f34j-h3rx, affects MaxKB versions up to and including 2.10.3-lts. The issue has received a maximum CVSS v3.1 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-maxkb-ai-agent-flaw/\">Critical MaxKB AI Agent Flaw Lets Prompt Injection Execute System Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200517"
+        },
+        {
+          "title": "Hackers Abuse Stolen BigCommerce App Key to Steal Master of Malt Customer Data",
+          "url": "https://gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key/",
+          "published": "Tue, 22 Sep 2026 09:11:59 +0000",
+          "published_utc": "2026-09-22T09:11:59+00:00",
+          "summary": "<p>Master of Malt reported a customer data breach after attackers allegedly compromised an application key linked to Ribon, a third-party BigCommerce app managed by Be A Part Of that identifies itself as a Fastr brand. BigCommerce notified the retailer of the incident on September 18, 2026, prompting Master of Malt to reach out to affected [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key/\">Hackers Abuse Stolen BigCommerce App Key to Steal Master of Malt Customer Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200506"
+        },
+        {
+          "title": "Chinese APT Clones Legitimate Websites to Deliver Chrome and Windows Zero-Day Exploits",
+          "url": "https://gbhackers.com/apt-exploits-chrome-and-windows/",
+          "published": "Tue, 22 Sep 2026 09:01:14 +0000",
+          "published_utc": "2026-09-22T09:01:14+00:00",
+          "summary": "<p>A third Chinese threat actor has been linked to phishing campaigns that cloned trusted websites and chained Chrome and Windows zero-day exploits to deploy a previously undocumented backdoor. The activity occurred on September 3 and 4, 2026, while the targeted vulnerabilities remained unpatched in Google Chrome. It followed Volexity’s September 9 disclosure that UTA0560 and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apt-exploits-chrome-and-windows/\">Chinese APT Clones Legitimate Websites to Deliver Chrome and Windows Zero-Day Exploits</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200497"
+        },
+        {
+          "title": "D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available",
+          "url": "https://gbhackers.com/d-link-dir-822a-router-vulnerability/",
+          "published": "Tue, 22 Sep 2026 08:58:31 +0000",
+          "published_utc": "2026-09-22T08:58:31+00:00",
+          "summary": "<p>D-Link has announced a critical stack-based buffer overflow vulnerability affecting the non-US DIR-822A router, identified as CVE-2026-86296. This vulnerability has received a maximum CVSS v3.1 score of 10.0 and a CVSS v4.0 score of 10.0. Furthermore, a public proof-of-concept (PoC) exploit is reportedly available. The company published advisory SAP10516 on September 18 and updated it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/d-link-dir-822a-router-vulnerability/\">D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200499"
+        },
+        {
+          "title": "CISA Flags Actively Exploited Flaw in Zyxel GS1900 Switches",
+          "url": "https://gbhackers.com/cisa-flags-actively-exploited-flaw/",
+          "published": "Tue, 22 Sep 2026 08:37:34 +0000",
+          "published_utc": "2026-09-22T08:37:34+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a high-severity vulnerability affecting Zyxel GS1900 Series switches in its Known Exploited Vulnerabilities (KEV) Catalog. This warning highlights that the flaw, tracked as CVE-2026-7273, has been exploited in the wild. The vulnerability stems from a stack-based buffer overflow in the device&#8217;s CGI program. CISA added [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-flags-actively-exploited-flaw/\">CISA Flags Actively Exploited Flaw in Zyxel GS1900 Switches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200489"
         }
       ],
       "error": ""

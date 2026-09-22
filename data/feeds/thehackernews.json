@@ -10,8 +10,56 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 3,
+      "article_count": 9,
       "articles": [
+        {
+          "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+          "url": "http://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+          "published": "Tue, 22 Sep 2026 12:30:00 +0000",
+          "published_utc": "2026-09-22T12:30:00+00:00",
+          "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3015319885897408529"
+        },
+        {
+          "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+          "url": "http://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+          "published": "Tue, 22 Sep 2026 11:45:00 +0000",
+          "published_utc": "2026-09-22T11:45:00+00:00",
+          "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.\n\nNow in its second year, the harder part of DORA is",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8012322563238998061"
+        },
+        {
+          "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+          "url": "http://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+          "published": "Tue, 22 Sep 2026 11:38:40 +0000",
+          "published_utc": "2026-09-22T11:38:40+00:00",
+          "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nThe bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2615883969626041054"
+        },
+        {
+          "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+          "url": "http://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+          "published": "Tue, 22 Sep 2026 11:17:41 +0000",
+          "published_utc": "2026-09-22T11:17:41+00:00",
+          "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.\n\nThe flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-127121350200476653"
+        },
+        {
+          "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+          "url": "http://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+          "published": "Tue, 22 Sep 2026 09:38:18 +0000",
+          "published_utc": "2026-09-22T09:38:18+00:00",
+          "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.\n\n\"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \"",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8941711495489254769"
+        },
+        {
+          "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+          "url": "http://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+          "published": "Tue, 22 Sep 2026 07:52:03 +0000",
+          "published_utc": "2026-09-22T07:52:03+00:00",
+          "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5583562101182051600"
+        },
         {
           "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
           "url": "http://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
@@ -25,7 +73,7 @@
           "url": "http://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
           "published": "Tue, 22 Sep 2026 06:03:14 +0000",
           "published_utc": "2026-09-22T06:03:14+00:00",
-          "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+          "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-734289221474020071"
         },
         {
@@ -47,8 +95,48 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 3,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+          "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+          "published": "Tue, 22 Sep 2026 17:15:00 +0530",
+          "published_utc": "2026-09-22T11:45:00+00:00",
+          "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.\n\nNow in its second year, the harder part of DORA is",
+          "id": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html"
+        },
+        {
+          "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+          "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+          "published": "Tue, 22 Sep 2026 17:08:40 +0530",
+          "published_utc": "2026-09-22T11:38:40+00:00",
+          "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nThe bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.",
+          "id": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html"
+        },
+        {
+          "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+          "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+          "published": "Tue, 22 Sep 2026 16:47:41 +0530",
+          "published_utc": "2026-09-22T11:17:41+00:00",
+          "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.\n\nThe flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
+          "id": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html"
+        },
+        {
+          "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+          "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+          "published": "Tue, 22 Sep 2026 15:08:18 +0530",
+          "published_utc": "2026-09-22T09:38:18+00:00",
+          "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.\n\n\"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \"",
+          "id": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html"
+        },
+        {
+          "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+          "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+          "published": "Tue, 22 Sep 2026 13:22:03 +0530",
+          "published_utc": "2026-09-22T07:52:03+00:00",
+          "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+          "id": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html"
+        },
         {
           "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
           "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
@@ -62,7 +150,7 @@
           "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
           "published": "Tue, 22 Sep 2026 11:33:14 +0530",
           "published_utc": "2026-09-22T06:03:14+00:00",
-          "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+          "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
           "id": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html"
         },
         {

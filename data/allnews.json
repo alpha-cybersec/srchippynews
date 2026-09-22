@@ -1,257 +1,729 @@
 {
-  "generated_at_utc": "2026-09-22T06:45:11.364317+00:00",
-  "generated_at_local": "2026-09-22T01:45:11.364321-05:00",
-  "article_count": 9,
-  "new_count": 9,
-  "updated_count": 0,
+  "generated_at_utc": "2026-09-22T12:32:47.765157+00:00",
+  "generated_at_local": "2026-09-22T07:32:47.765165-05:00",
+  "article_count": 27,
+  "new_count": 26,
+  "updated_count": 1,
   "sources": {
-    "gbhackers": 6,
-    "thehackernews": 3
+    "thehackernews": 7,
+    "gbhackers": 10,
+    "cybersecuritynews": 10
   },
   "articles": [
     {
-      "title": "Hackers Exploit WordPress CVE-2026-63030 and CVE-2026-60137 to Steal Government Data",
-      "url": "https://gbhackers.com/wordpress-vulnerability-exploitation/",
-      "published": "Tue, 22 Sep 2026 06:40:37 +0000",
-      "published_utc": "2026-09-22T06:40:37+00:00",
-      "summary": "<p>A suspected Chinese-speaking threat actor has exploited the critical WordPress “wp2shell” vulnerability chain to compromise government and small-business targets across 29 countries, stealing at least 18,566 sensitive records from one Western government organization. GreyNoise linked the activity to a malicious cyber actor (MCA) it has tracked through its Global Observation Grid since early June. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-vulnerability-exploitation/\">Hackers Exploit WordPress CVE-2026-63030 and CVE-2026-60137 to Steal Government Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200462",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/wordpress-vulnerability-exploitation",
-      "content_hash": "71f2facb2495fd2be3dfc26f42b4831015b34631dddc2cf8155434b7503af18c",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "71f2facb2495fd2be3dfc26f42b4831015b34631dddc2cf8155434b7503af18c"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:08.965681+00:00",
-      "first_seen_local": "2026-09-22T01:45:08.965680-05:00",
-      "last_updated_utc": "2026-09-22T06:45:08.965681+00:00",
-      "last_updated_local": "2026-09-22T01:45:08.965680-05:00"
-    },
-    {
-      "title": "Windows 11 26H1 Security Update Expands Secure Boot Certificate Protection",
-      "url": "https://gbhackers.com/windows-11-26h1-security-update/",
-      "published": "Tue, 22 Sep 2026 06:39:57 +0000",
-      "published_utc": "2026-09-22T06:39:57+00:00",
-      "summary": "<p>Microsoft has released the cumulative security update for September 2026 for Windows 11 version 26H1. This update expands the range of systems that can automatically receive new Secure Boot certificates. KB5124012, released on September 8, brings devices to OS Build 28000.2954. It includes enhanced, high-confidence device-targeting data to improve certificate deployment coverage across supported PCs [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-26h1-security-update/\">Windows 11 26H1 Security Update Expands Secure Boot Certificate Protection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200469",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/windows-11-26h1-security-update",
-      "content_hash": "0bb5b0f3889788baefca7271446c24b92908415a97703507b58226a8437f1aeb",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0bb5b0f3889788baefca7271446c24b92908415a97703507b58226a8437f1aeb"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:08.965681+00:00",
-      "first_seen_local": "2026-09-22T01:45:08.965680-05:00",
-      "last_updated_utc": "2026-09-22T06:45:08.965681+00:00",
-      "last_updated_local": "2026-09-22T01:45:08.965680-05:00"
-    },
-    {
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "url": "http://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "published": "Tue, 22 Sep 2026 06:33:57 +0000",
-      "published_utc": "2026-09-22T06:33:57+00:00",
-      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.\n\nThe flaw is in",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4230192611384758873",
+      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+      "url": "http://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "published": "Tue, 22 Sep 2026 12:30:00 +0000",
+      "published_utc": "2026-09-22T12:30:00+00:00",
+      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3015319885897408529",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "content_hash": "2dae35349cb9e76a251dfeade41d74cecb6ac4f4aa12b26a95f3191eb78e357e",
+      "article_key": "thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "content_hash": "ec6242d9e9eb12fd1b2cca3c49ce165881fe56089d9fa8525641c70a5d460421",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ec6242d9e9eb12fd1b2cca3c49ce165881fe56089d9fa8525641c70a5d460421"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:47.759942+00:00",
+      "first_seen_local": "2026-09-22T07:32:47.759940-05:00",
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
+    },
+    {
+      "title": "Critical Linux KVM Flaw Enables Guest-to-Host Escape on ARM64 Systems",
+      "url": "https://gbhackers.com/critical-linux-kvm-flaw/",
+      "published": "Tue, 22 Sep 2026 12:26:58 +0000",
+      "published_utc": "2026-09-22T12:26:58+00:00",
+      "summary": "<p>A critical vulnerability in the Linux Kernel-based Virtual Machine (KVM) for ARM64 systems could let attackers escape a virtual machine and gain read and write access to host kernel memory. This flaw, tracked as CVE-2026-89775, specifically affects ARM64 hosts with nested virtualization enabled and has been addressed in the mainline Linux kernel. Security researcher Hyunwoo [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-linux-kvm-flaw/\">Critical Linux KVM Flaw Enables Guest-to-Host Escape on ARM64 Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200546",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-linux-kvm-flaw",
+      "content_hash": "50ed9fd70bd2f8d3f977d2a1e238888f5f43cef26c980ef08d224cfb5b55b6fb",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "50ed9fd70bd2f8d3f977d2a1e238888f5f43cef26c980ef08d224cfb5b55b6fb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+      "url": "http://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+      "published": "Tue, 22 Sep 2026 11:45:00 +0000",
+      "published_utc": "2026-09-22T11:45:00+00:00",
+      "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.\n\nNow in its second year, the harder part of DORA is",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8012322563238998061",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+      "content_hash": "793152e5d668a3dd388279cccfc41f43830789f5e23dc8c0e036c7d2251e1c0b",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "2dae35349cb9e76a251dfeade41d74cecb6ac4f4aa12b26a95f3191eb78e357e",
-        "FEEDBURNER": "2dae35349cb9e76a251dfeade41d74cecb6ac4f4aa12b26a95f3191eb78e357e"
+        "ORIGINAL": "793152e5d668a3dd388279cccfc41f43830789f5e23dc8c0e036c7d2251e1c0b",
+        "FEEDBURNER": "793152e5d668a3dd388279cccfc41f43830789f5e23dc8c0e036c7d2251e1c0b"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:11.362382+00:00",
-      "first_seen_local": "2026-09-22T01:45:11.362381-05:00",
-      "last_updated_utc": "2026-09-22T06:45:11.362382+00:00",
-      "last_updated_local": "2026-09-22T01:45:11.362381-05:00"
+      "first_seen_utc": "2026-09-22T12:32:47.759942+00:00",
+      "first_seen_local": "2026-09-22T07:32:47.759940-05:00",
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
     },
     {
-      "title": "Microsoft to Disable SMS as Primary Entra ID Sign-In Method in 2027",
-      "url": "https://gbhackers.com/microsoft-to-disable-sms-as-primary-entra-id/",
-      "published": "Tue, 22 Sep 2026 06:31:19 +0000",
-      "published_utc": "2026-09-22T06:31:19+00:00",
-      "summary": "<p>Microsoft will turn off SMS as a primary sign-in method for Microsoft Entra ID workforce tenants on February 1, 2027, accelerating its transition to phishing-resistant authentication. This change affects workers who currently use a registered phone number and a one-time SMS code as their initial sign-in credential, a passwordless flow utilized by frontline organizations. Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-to-disable-sms-as-primary-entra-id/\">Microsoft to Disable SMS as Primary Entra ID Sign-In Method in 2027</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200467",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/microsoft-to-disable-sms-as-primary-entra-id",
-      "content_hash": "8b4ae3c37d13b6dd0e36d77b27e070aba015b39e3cea9c7f870ee4aa833f1335",
+      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+      "url": "http://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "published": "Tue, 22 Sep 2026 11:38:40 +0000",
+      "published_utc": "2026-09-22T11:38:40+00:00",
+      "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.\n\nThe bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2615883969626041054",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "content_hash": "6b5ed951231e497d78af0741b2486c877ed085577a488c6bdeb29ee78c913aee",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "8b4ae3c37d13b6dd0e36d77b27e070aba015b39e3cea9c7f870ee4aa833f1335"
+        "ORIGINAL": "6b5ed951231e497d78af0741b2486c877ed085577a488c6bdeb29ee78c913aee",
+        "FEEDBURNER": "6b5ed951231e497d78af0741b2486c877ed085577a488c6bdeb29ee78c913aee"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:08.965681+00:00",
-      "first_seen_local": "2026-09-22T01:45:08.965680-05:00",
-      "last_updated_utc": "2026-09-22T06:45:08.965681+00:00",
-      "last_updated_local": "2026-09-22T01:45:08.965680-05:00"
+      "first_seen_utc": "2026-09-22T12:32:47.759942+00:00",
+      "first_seen_local": "2026-09-22T07:32:47.759940-05:00",
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
+    },
+    {
+      "title": "TASK#STOMP PowerShell Backdoor Steals Business Documents and Executes Remote Commands",
+      "url": "https://gbhackers.com/taskstomp-powershell-backdoor/",
+      "published": "Tue, 22 Sep 2026 11:34:01 +0000",
+      "published_utc": "2026-09-22T11:34:01+00:00",
+      "summary": "<p>A Windows-focused backdoor dubbed TASK#STOMP that uses VBScript, PowerShell, Scheduled Tasks, and runtime C# compilation to establish resilient persistence and continuously steal business documents. The implant also captures screenshots, extracts saved Wi-Fi passwords, harvests clipboard data, and executes arbitrary commands received from its operators. While the original delivery method is unconfirmed, the location is consistent [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/taskstomp-powershell-backdoor/\">TASK#STOMP PowerShell Backdoor Steals Business Documents and Executes Remote Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200523",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/taskstomp-powershell-backdoor",
+      "content_hash": "e2ec0e1a5b93f6661a90d743c63201f2515f8e826c7d0f274b7da816b830ac50",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e2ec0e1a5b93f6661a90d743c63201f2515f8e826c7d0f274b7da816b830ac50"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "Hackers Clone Legitimate Websites to Silently Trigger Chrome and Windows Zero-Day Exploits",
+      "url": "https://cybersecuritynews.com/hackers-clone-legitimate-websites/",
+      "published": "Tue, 22 Sep 2026 11:25:01 +0000",
+      "published_utc": "2026-09-22T11:25:01+00:00",
+      "summary": "<p>Hackers are using convincing copies of trusted websites to turn an ordinary browser visit into a full Windows compromise. The campaign pairs targeted phishing emails with a chained set of previously unknown flaws in Google Chrome and Microsoft Windows, giving attackers a quiet path from a fake page to malware on a victim’s device. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-clone-legitimate-websites/\">Hackers Clone Legitimate Websites to Silently Trigger Chrome and Windows Zero-Day Exploits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164344",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-clone-legitimate-websites",
+      "content_hash": "973f34589dc9af3a868cf26bd75fb273788e01d3a22479ccc27743acaa491f2d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "973f34589dc9af3a868cf26bd75fb273788e01d3a22479ccc27743acaa491f2d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Hackers Exploit Veeam Agent Vulnerability to Gain SYSTEM-Level Access on Windows",
+      "url": "https://gbhackers.com/hackers-exploit-veeam-agent-vulnerability/",
+      "published": "Tue, 22 Sep 2026 11:22:39 +0000",
+      "published_utc": "2026-09-22T11:22:39+00:00",
+      "summary": "<p>A newly discovered privilege escalation flaw in Veeam Agent for Microsoft Windows could allow attackers with local access to compromised endpoints to execute commands as NT AUTHORITY\\SYSTEM. Public proof-of-concept (PoC) code for CVE-2026-32996 was released on September 14, increasing the urgency for organizations to patch affected Veeam deployments. CVE-2026-32996 impacts Veeam Agent for Microsoft Windows [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-veeam-agent-vulnerability/\">Hackers Exploit Veeam Agent Vulnerability to Gain SYSTEM-Level Access on Windows</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200531",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-exploit-veeam-agent-vulnerability",
+      "content_hash": "05d3387c34be71f6e3ab43e17c5e8f75e631321361db6336ed983a5dfa1dcf7a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "05d3387c34be71f6e3ab43e17c5e8f75e631321361db6336ed983a5dfa1dcf7a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+      "url": "http://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "published": "Tue, 22 Sep 2026 11:17:41 +0000",
+      "published_utc": "2026-09-22T11:17:41+00:00",
+      "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.\n\nThe flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-127121350200476653",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "content_hash": "890449827d43087501ff9141328ce4a1e43f85eed23db0f2a19c28bf0af37990",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "890449827d43087501ff9141328ce4a1e43f85eed23db0f2a19c28bf0af37990",
+        "FEEDBURNER": "890449827d43087501ff9141328ce4a1e43f85eed23db0f2a19c28bf0af37990"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:47.759942+00:00",
+      "first_seen_local": "2026-09-22T07:32:47.759940-05:00",
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
+    },
+    {
+      "title": "Red Hat OpenShift Flaw Lets Attackers Poison Disconnected Registries With Malicious Releases",
+      "url": "https://gbhackers.com/red-hat-openshift-flaw/",
+      "published": "Tue, 22 Sep 2026 11:10:07 +0000",
+      "published_utc": "2026-09-22T11:10:07+00:00",
+      "summary": "<p>Red Hat disclosed an important OpenShift vulnerability that could let attackers bypass release-image signature checks and introduce malicious payloads into disconnected registries. This issue, tracked as CVE-2026-75939, affects the `openshift/oc-mirror` tool and has a preliminary CVSS v3.1 score of 7.4. Administrators use `oc-mirror` to retrieve release images from upstream sources and then copy them to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-hat-openshift-flaw/\">Red Hat OpenShift Flaw Lets Attackers Poison Disconnected Registries With Malicious Releases</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200527",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/red-hat-openshift-flaw",
+      "content_hash": "714ec3d87fad62fc34f350b74636e2eb74df3c260a987c367e629b298888e9b5",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "714ec3d87fad62fc34f350b74636e2eb74df3c260a987c367e629b298888e9b5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense",
+      "url": "https://cybersecuritynews.com/aikido-security-unveils-altar-1/",
+      "published": "Tue, 22 Sep 2026 10:50:04 +0000",
+      "published_utc": "2026-09-22T10:50:04+00:00",
+      "summary": "<p>Aikido Security has unveiled Altar-1, an open-weight artificial intelligence model designed to run defensive cybersecurity workloads entirely inside an organization’s own infrastructure. The model aims to help security teams use advanced AI for vulnerability discovery and penetration testing without sending source code, internal documentation, or security findings to external cloud-based inference services. Altar-1 is built [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aikido-security-unveils-altar-1/\">Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164302",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/aikido-security-unveils-altar-1",
+      "content_hash": "1ad3a88f4df05bbc8d9580c6529926a6b429ab643e7ac8b05ab588599633f1c1",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1ad3a88f4df05bbc8d9580c6529926a6b429ab643e7ac8b05ab588599633f1c1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Linux BambooToken Malware Uses MQTT C2 for Remote Shell Access and File Exfiltration",
+      "url": "https://gbhackers.com/linux-bambootoken-malware/",
+      "published": "Tue, 22 Sep 2026 10:46:11 +0000",
+      "published_utc": "2026-09-22T10:46:11+00:00",
+      "summary": "<p>A Linux variant of the BambooToken backdoor uses MQTT as its command-and-control channel, enabling operators to profile compromised hosts, execute shell commands, and transfer files through broker-mediated topics. Analysis of a statically linked x86-64 ELF sample shows that its configuration, task routing, and network payloads are obfuscated with separate XOR routines. The examined sample, SHA-256 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-bambootoken-malware/\">Linux BambooToken Malware Uses MQTT C2 for Remote Shell Access and File Exfiltration</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200513",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/linux-bambootoken-malware",
+      "content_hash": "28c29c3ac009648a2784323c01b756d198d6d2fb73165aa17ef7237a4f573ab6",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "28c29c3ac009648a2784323c01b756d198d6d2fb73165aa17ef7237a4f573ab6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "Critical MaxKB AI Agent Flaw Lets Prompt Injection Execute System Commands",
+      "url": "https://gbhackers.com/critical-maxkb-ai-agent-flaw/",
+      "published": "Tue, 22 Sep 2026 10:43:40 +0000",
+      "published_utc": "2026-09-22T10:43:40+00:00",
+      "summary": "<p>A critical vulnerability in the MaxKB AI knowledge-base platform could let attackers exploit prompt injection and run operating system commands on vulnerable deployments, including directly on the underlying host in some configurations. This flaw, tracked as CVE-2026-77521 and GHSA-f36j-f34j-h3rx, affects MaxKB versions up to and including 2.10.3-lts. The issue has received a maximum CVSS v3.1 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-maxkb-ai-agent-flaw/\">Critical MaxKB AI Agent Flaw Lets Prompt Injection Execute System Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200517",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-maxkb-ai-agent-flaw",
+      "content_hash": "e3a384d3edace4b9efdb3627d76ffdcae0bfd1b299254cd6a893e0ec955ef7ee",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e3a384d3edace4b9efdb3627d76ffdcae0bfd1b299254cd6a893e0ec955ef7ee"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks",
+      "url": "https://cybersecuritynews.com/context-bombs/",
+      "published": "Tue, 22 Sep 2026 10:21:44 +0000",
+      "published_utc": "2026-09-22T10:21:44+00:00",
+      "summary": "<p>A hidden “context bomb” prompt in a cloud decoy can disrupt AI agents and force Qwen3.8-27B to stop simulated attacks. The technique worked against both the original and modified “abliterated” versions. Context bombs are defensive strings placed in vulnerable resources, like AWS Secrets Manager. When an AI agent scans the environment and encounters this embedded [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/context-bombs/\">Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164290",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/context-bombs",
+      "content_hash": "6c318d0a9d72dbf8f4e8a62e7ee0ce36e287fc19fcc91f4a3033b87e3d55de8d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "6c318d0a9d72dbf8f4e8a62e7ee0ce36e287fc19fcc91f4a3033b87e3d55de8d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "GHAPPIER Supply Chain Attack Compromises 65 GitHub Repositories and Poisons npm Package",
+      "url": "https://cybersecuritynews.com/ghappier-supply-chain-attack/",
+      "published": "Tue, 22 Sep 2026 10:21:22 +0000",
+      "published_utc": "2026-09-22T10:21:22+00:00",
+      "summary": "<p>A newly uncovered software supply chain attack has shown how quickly a trusted developer account can become a delivery route for malware. The operation, tracked as GHAPPIER, reached 65 GitHub repositories, infecting 73 files across 22 accounts. It involved a legitimate npm package that distributed a malicious loader to users. Attackers used access to a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghappier-supply-chain-attack/\">GHAPPIER Supply Chain Attack Compromises 65 GitHub Repositories and Poisons npm Package</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164337",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ghappier-supply-chain-attack",
+      "content_hash": "b6ba1efbc262d1e464e6666a5d36ec672ba5f31c0f66bc98685a7505d1f12bfb",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "b6ba1efbc262d1e464e6666a5d36ec672ba5f31c0f66bc98685a7505d1f12bfb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Hackers Exploit WordPress Flaws to Steal 18,566 Government Records and Plaintext Passwords",
+      "url": "https://cybersecuritynews.com/wordpress-flaws/",
+      "published": "Tue, 22 Sep 2026 09:51:53 +0000",
+      "published_utc": "2026-09-22T09:51:53+00:00",
+      "summary": "<p>A suspected Chinese-speaking threat actor has used WordPress vulnerabilities to break into at least 49 organizations across 29 countries. The campaign exposed how a compromised website can become a launchpad for database theft, credential abuse, and wider network intrusion. The attackers exploited the wp2shell chain, tracked as CVE-2026-63030 and CVE-2026-60137, against vulnerable WordPress installations. After [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-flaws/\">Hackers Exploit WordPress Flaws to Steal 18,566 Government Records and Plaintext Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164311",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wordpress-flaws",
+      "content_hash": "ca2255c6413ce354a6e8d0e0ef85bcb366cd61909d318a27d9841eecf6018120",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ca2255c6413ce354a6e8d0e0ef85bcb366cd61909d318a27d9841eecf6018120"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Windows COM Flaw Lets Attackers Gain SYSTEM Privileges With a Malicious DLL",
+      "url": "https://cybersecuritynews.com/windows-com-system-privilege-escalation/",
+      "published": "Tue, 22 Sep 2026 09:45:30 +0000",
+      "published_utc": "2026-09-22T09:45:30+00:00",
+      "summary": "<p>A newly detailed Windows privilege escalation flaw tracked as CVE-2026-66804 allowed a standard, low-privileged user to plant a malicious DLL and execute arbitrary code with full NT AUTHORITY\\SYSTEM privileges, exploiting a lingering weakness in how Windows handles Component Object Model (COM) registrations. The bug, patched by Microsoft in its August Patch Tuesday, was reported by [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-com-system-privilege-escalation/\">Windows COM Flaw Lets Attackers Gain SYSTEM Privileges With a Malicious DLL</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164313",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-com-system-privilege-escalation",
+      "content_hash": "d606cfd2e610d6941a3f5d648a6a4e32a69c921569313e179fdd7be1059ef309",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d606cfd2e610d6941a3f5d648a6a4e32a69c921569313e179fdd7be1059ef309"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "url": "http://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "published": "Tue, 22 Sep 2026 09:38:18 +0000",
+      "published_utc": "2026-09-22T09:38:18+00:00",
+      "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.\n\n\"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \"",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8941711495489254769",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "content_hash": "accd1b55d3e6c79de54e68ab4bf8a0bfbc5e3acee11c70036053ff908465c26c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "accd1b55d3e6c79de54e68ab4bf8a0bfbc5e3acee11c70036053ff908465c26c",
+        "FEEDBURNER": "accd1b55d3e6c79de54e68ab4bf8a0bfbc5e3acee11c70036053ff908465c26c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:47.759942+00:00",
+      "first_seen_local": "2026-09-22T07:32:47.759940-05:00",
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
+    },
+    {
+      "title": "Hackers Abuse Stolen BigCommerce App Key to Steal Master of Malt Customer Data",
+      "url": "https://gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key/",
+      "published": "Tue, 22 Sep 2026 09:11:59 +0000",
+      "published_utc": "2026-09-22T09:11:59+00:00",
+      "summary": "<p>Master of Malt reported a customer data breach after attackers allegedly compromised an application key linked to Ribon, a third-party BigCommerce app managed by Be A Part Of that identifies itself as a Fastr brand. BigCommerce notified the retailer of the incident on September 18, 2026, prompting Master of Malt to reach out to affected [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key/\">Hackers Abuse Stolen BigCommerce App Key to Steal Master of Malt Customer Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200506",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-abuse-stolen-bigcommerce-app-key",
+      "content_hash": "fb4cc3b4f8bcbf430c1b5d5e1161b595d3d8b3c3ff5bf6292bff7a650d7ec4a5",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "fb4cc3b4f8bcbf430c1b5d5e1161b595d3d8b3c3ff5bf6292bff7a650d7ec4a5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "Chinese APT Clones Legitimate Websites to Deliver Chrome and Windows Zero-Day Exploits",
+      "url": "https://gbhackers.com/apt-exploits-chrome-and-windows/",
+      "published": "Tue, 22 Sep 2026 09:01:14 +0000",
+      "published_utc": "2026-09-22T09:01:14+00:00",
+      "summary": "<p>A third Chinese threat actor has been linked to phishing campaigns that cloned trusted websites and chained Chrome and Windows zero-day exploits to deploy a previously undocumented backdoor. The activity occurred on September 3 and 4, 2026, while the targeted vulnerabilities remained unpatched in Google Chrome. It followed Volexity’s September 9 disclosure that UTA0560 and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apt-exploits-chrome-and-windows/\">Chinese APT Clones Legitimate Websites to Deliver Chrome and Windows Zero-Day Exploits</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200497",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apt-exploits-chrome-and-windows",
+      "content_hash": "af18b1e8e2d3c85c705e3db3986aaf88c5e28635fc794d60da16271e3e04407a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "af18b1e8e2d3c85c705e3db3986aaf88c5e28635fc794d60da16271e3e04407a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available",
+      "url": "https://gbhackers.com/d-link-dir-822a-router-vulnerability/",
+      "published": "Tue, 22 Sep 2026 08:58:31 +0000",
+      "published_utc": "2026-09-22T08:58:31+00:00",
+      "summary": "<p>D-Link has announced a critical stack-based buffer overflow vulnerability affecting the non-US DIR-822A router, identified as CVE-2026-86296. This vulnerability has received a maximum CVSS v3.1 score of 10.0 and a CVSS v4.0 score of 10.0. Furthermore, a public proof-of-concept (PoC) exploit is reportedly available. The company published advisory SAP10516 on September 18 and updated it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/d-link-dir-822a-router-vulnerability/\">D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200499",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/d-link-dir-822a-router-vulnerability",
+      "content_hash": "e921e0255a37d5c1df4b3be5fffed9d1b7f87dbfd207ee7c0f7e1ddb66f83012",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e921e0255a37d5c1df4b3be5fffed9d1b7f87dbfd207ee7c0f7e1ddb66f83012"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "D-Link Router Hit by CVSS 10.0 Flaw Exploitable Remotely Without Authentication",
+      "url": "https://cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw/",
+      "published": "Tue, 22 Sep 2026 08:47:17 +0000",
+      "published_utc": "2026-09-22T08:47:17+00:00",
+      "summary": "<p>D-Link Systems has disclosed that it is investigating a critical security vulnerability in its DIR-822A router, tracked as CVE-2026-86296. The flaw has received the maximum CVSS severity score of 10.0. It may allow remote attackers to compromise vulnerable devices without authentication or user interaction. The issue affects the udhcpcd component in the reported DIR-822A firmware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw/\">D-Link Router Hit by CVSS 10.0 Flaw Exploitable Remotely Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164273",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw",
+      "content_hash": "c3fca496bd22952f9f21a799763ce850a8a0e80920e5807e85edd6636838912a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c3fca496bd22952f9f21a799763ce850a8a0e80920e5807e85edd6636838912a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Vidar Malware Rewrites Its Obfuscation With Every Build to Make Detection Harder",
+      "url": "https://cybersecuritynews.com/vidar-malware/",
+      "published": "Tue, 22 Sep 2026 08:40:13 +0000",
+      "published_utc": "2026-09-22T08:40:13+00:00",
+      "summary": "<p>Vidar has spent years stealing the data people keep closest: saved passwords, browser cookies, wallet files and system details. Now its operators have changed a less visible part of the malware, making the code harder for defenders to recognise before it runs. First seen in 2018, Vidar is an information stealer that has remained active [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vidar-malware/\">Vidar Malware Rewrites Its Obfuscation With Every Build to Make Detection Harder</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164301",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/vidar-malware",
+      "content_hash": "efe9d382f05d53d0743f5c2ea1f1fec5612ea1984c3b4d6f311b404f6550b64e",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "efe9d382f05d53d0743f5c2ea1f1fec5612ea1984c3b4d6f311b404f6550b64e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "CISA Flags Actively Exploited Flaw in Zyxel GS1900 Switches",
+      "url": "https://gbhackers.com/cisa-flags-actively-exploited-flaw/",
+      "published": "Tue, 22 Sep 2026 08:37:34 +0000",
+      "published_utc": "2026-09-22T08:37:34+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a high-severity vulnerability affecting Zyxel GS1900 Series switches in its Known Exploited Vulnerabilities (KEV) Catalog. This warning highlights that the flaw, tracked as CVE-2026-7273, has been exploited in the wild. The vulnerability stems from a stack-based buffer overflow in the device&#8217;s CGI program. CISA added [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-flags-actively-exploited-flaw/\">CISA Flags Actively Exploited Flaw in Zyxel GS1900 Switches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200489",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-flags-actively-exploited-flaw",
+      "content_hash": "c0a75c51406cff4ac664329c6e966ae9e043dba4fcee8afd56cd3957c4137b1d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c0a75c51406cff4ac664329c6e966ae9e043dba4fcee8afd56cd3957c4137b1d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:40.893479+00:00",
+      "first_seen_local": "2026-09-22T07:32:40.893477-05:00",
+      "last_updated_utc": "2026-09-22T12:32:40.893479+00:00",
+      "last_updated_local": "2026-09-22T07:32:40.893477-05:00"
+    },
+    {
+      "title": "Hackers Steal NTDS.dit to Dump Active Directory Password Hashes and Forge Golden Tickets",
+      "url": "https://cybersecuritynews.com/hackers-steal-ntds-dit/",
+      "published": "Tue, 22 Sep 2026 08:02:10 +0000",
+      "published_utc": "2026-09-22T08:02:10+00:00",
+      "summary": "<p>Threat actors that gain a foothold in a Windows network are increasingly aiming for the domain controller, the server that manages identities and permissions. A successful theft of its Active Directory database can expose password material for every account in the domain. That single step can transform a local intrusion into a far wider breach. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-steal-ntds-dit/\">Hackers Steal NTDS.dit to Dump Active Directory Password Hashes and Forge Golden Tickets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164274",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-steal-ntds-dit",
+      "content_hash": "c56a105b5e840bbc1b712d829127514edbf30068db990002151415b38112859b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c56a105b5e840bbc1b712d829127514edbf30068db990002151415b38112859b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "Top 10 Best Identity Threat Detection & Response (ITDR) Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-itdr-tools/",
+      "published": "Tue, 22 Sep 2026 07:59:29 +0000",
+      "published_utc": "2026-09-22T07:59:29+00:00",
+      "summary": "<p>The modern breach doesn’t kick the door in it signs in. Stolen sessions, abused service accounts, and helpdesk-reset social engineering made identity the primary attack surface, and Identity Threat Detection and Response (ITDR) solutions the fastest-growing detection category. We scored ten tools on detection breadth, response capability, and estate coverage. Microsoft Defender for Identity ranks [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-itdr-tools/\">Top 10 Best Identity Threat Detection &#038; Response (ITDR) Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164166",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-itdr-tools",
+      "content_hash": "6bd6a92e0eec7605f5c43fc5471e65c7a7513e8d77a12c633ab4c5e422bd7b34",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "6bd6a92e0eec7605f5c43fc5471e65c7a7513e8d77a12c633ab4c5e422bd7b34"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:41.176532+00:00",
+      "first_seen_local": "2026-09-22T07:32:41.176529-05:00",
+      "last_updated_utc": "2026-09-22T12:32:41.176532+00:00",
+      "last_updated_local": "2026-09-22T07:32:41.176529-05:00"
+    },
+    {
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "url": "http://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "published": "Tue, 22 Sep 2026 07:52:03 +0000",
+      "published_utc": "2026-09-22T07:52:03+00:00",
+      "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5583562101182051600",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "content_hash": "59cabd9b2e6894af53090da21297e6d467f4a0de8c5dcfd8b4a69025cc2a3dbc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "59cabd9b2e6894af53090da21297e6d467f4a0de8c5dcfd8b4a69025cc2a3dbc",
+        "FEEDBURNER": "59cabd9b2e6894af53090da21297e6d467f4a0de8c5dcfd8b4a69025cc2a3dbc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T12:32:47.759942+00:00",
+      "first_seen_local": "2026-09-22T07:32:47.759940-05:00",
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
     },
     {
       "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
       "url": "http://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
       "published": "Tue, 22 Sep 2026 06:03:14 +0000",
       "published_utc": "2026-09-22T06:03:14+00:00",
-      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-734289221474020071",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-      "content_hash": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d",
+      "content_hash": "f47df3a1a8ada9c66bea0a6b9324be8c558df48bc1b43c77814c518ac5c5717e",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d",
-        "FEEDBURNER": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d"
+        "ORIGINAL": "f47df3a1a8ada9c66bea0a6b9324be8c558df48bc1b43c77814c518ac5c5717e",
+        "FEEDBURNER": "f47df3a1a8ada9c66bea0a6b9324be8c558df48bc1b43c77814c518ac5c5717e"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d",
+      "version": 2,
       "first_seen_utc": "2026-09-22T06:45:11.362382+00:00",
       "first_seen_local": "2026-09-22T01:45:11.362381-05:00",
-      "last_updated_utc": "2026-09-22T06:45:11.362382+00:00",
-      "last_updated_local": "2026-09-22T01:45:11.362381-05:00"
-    },
-    {
-      "title": "Vidar Uses Custom Bytecode Interpreter and ARX Stream Ciphers for Per-Build String Obfuscation",
-      "url": "https://gbhackers.com/custom-bytecode-execution/",
-      "published": "Tue, 22 Sep 2026 05:46:53 +0000",
-      "published_utc": "2026-09-22T05:46:53+00:00",
-      "summary": "<p>Vidar information stealer has introduced a lightweight custom virtual machine and per-build stream-cipher variations to conceal its embedded strings, raising the cost of static detection and automated reverse engineering. First observed in 2018, Vidar remains a widely tracked credential-stealing malware family. Its operators continually alter internal protections without necessarily changing the malware’s broader operational purpose: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/custom-bytecode-execution/\">Vidar Uses Custom Bytecode Interpreter and ARX Stream Ciphers for Per-Build String Obfuscation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200454",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/custom-bytecode-execution",
-      "content_hash": "f56130989a9764f30c23595a39969ebc04edced0d8b8795f6ed826d541d19b0c",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f56130989a9764f30c23595a39969ebc04edced0d8b8795f6ed826d541d19b0c"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:08.965681+00:00",
-      "first_seen_local": "2026-09-22T01:45:08.965680-05:00",
-      "last_updated_utc": "2026-09-22T06:45:08.965681+00:00",
-      "last_updated_local": "2026-09-22T01:45:08.965680-05:00"
-    },
-    {
-      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-      "url": "http://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-      "published": "Tue, 22 Sep 2026 05:31:59 +0000",
-      "published_utc": "2026-09-22T05:31:59+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3880969892080573616",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-      "content_hash": "2f29265ad7df25f5594f47ddd3cb73c8ceefcf097092f8ec185e6ff0ee9c6fa6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2f29265ad7df25f5594f47ddd3cb73c8ceefcf097092f8ec185e6ff0ee9c6fa6",
-        "FEEDBURNER": "2f29265ad7df25f5594f47ddd3cb73c8ceefcf097092f8ec185e6ff0ee9c6fa6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:11.362382+00:00",
-      "first_seen_local": "2026-09-22T01:45:11.362381-05:00",
-      "last_updated_utc": "2026-09-22T06:45:11.362382+00:00",
-      "last_updated_local": "2026-09-22T01:45:11.362381-05:00"
-    },
-    {
-      "title": "AWS Detects and Quarantines Exposed IAM Credentials in Public GitHub Repositories",
-      "url": "https://gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials/",
-      "published": "Tue, 22 Sep 2026 05:19:04 +0000",
-      "published_utc": "2026-09-22T05:19:04+00:00",
-      "summary": "<p>AWS can automatically quarantine exposed Identity and Access Management (IAM) access keys that appear in public GitHub repositories. This process involves applying a restrictive managed policy within seconds to reduce the risk of cloud abuse. Researchers from Palo Alto Networks&#8217; Unit 42 documented this response mechanism, showing that AWS employs the AWSCompromisedKeyQuarantine managed policy to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials/\">AWS Detects and Quarantines Exposed IAM Credentials in Public GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200449",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/aws-detects-and-quarantines-exposed-iam-credentials",
-      "content_hash": "5546d315edd88e61a239ae8416ef5f7aa136cdfeefb855bb90d7b6db2c84388f",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5546d315edd88e61a239ae8416ef5f7aa136cdfeefb855bb90d7b6db2c84388f",
-        "FEEDBURNER": "5546d315edd88e61a239ae8416ef5f7aa136cdfeefb855bb90d7b6db2c84388f"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:08.965681+00:00",
-      "first_seen_local": "2026-09-22T01:45:08.965680-05:00",
-      "last_updated_utc": "2026-09-22T06:45:08.965681+00:00",
-      "last_updated_local": "2026-09-22T01:45:08.965680-05:00"
-    },
-    {
-      "title": "One Stolen Active Directory File Can Expose Credentials for an Entire Windows Domain",
-      "url": "https://gbhackers.com/stolen-active-directory-database/",
-      "published": "Tue, 22 Sep 2026 05:09:29 +0000",
-      "published_utc": "2026-09-22T05:09:29+00:00",
-      "summary": "<p>A single stolen Active Directory database can turn a limited Windows intrusion into a domain-wide credential compromise. Threat actors that obtain the NTDS.dIT file from a domain controller, along with its corresponding SYSTEM registry hive, can extract password hashes, Kerberos keys, and password-history data for domain identities offline. While attackers may rotate payloads, loaders, command-and-control [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stolen-active-directory-database/\">One Stolen Active Directory File Can Expose Credentials for an Entire Windows Domain</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200432",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/stolen-active-directory-database",
-      "content_hash": "b42aef1d94866681f8098010a3e18f02e17f931ed97dc94bf65b1b342f0301ef",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b42aef1d94866681f8098010a3e18f02e17f931ed97dc94bf65b1b342f0301ef",
-        "FEEDBURNER": "b42aef1d94866681f8098010a3e18f02e17f931ed97dc94bf65b1b342f0301ef"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T06:45:08.965681+00:00",
-      "first_seen_local": "2026-09-22T01:45:08.965680-05:00",
-      "last_updated_utc": "2026-09-22T06:45:08.965681+00:00",
-      "last_updated_local": "2026-09-22T01:45:08.965680-05:00"
+      "last_updated_utc": "2026-09-22T12:32:47.759942+00:00",
+      "last_updated_local": "2026-09-22T07:32:47.759940-05:00"
     }
   ]
 }

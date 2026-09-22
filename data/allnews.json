@@ -1,422 +1,125 @@
 {
-  "generated_at_utc": "2026-09-22T17:14:08.664342+00:00",
-  "generated_at_local": "2026-09-22T12:14:08.664355-05:00",
-  "article_count": 15,
-  "new_count": 15,
+  "generated_at_utc": "2026-09-22T20:27:09.758780+00:00",
+  "generated_at_local": "2026-09-22T15:27:09.758788-05:00",
+  "article_count": 4,
+  "new_count": 4,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 4,
-    "gbhackers": 1,
-    "cybersecuritynews": 10
+    "thehackernews": 3,
+    "cybersecuritynews": 1
   },
   "articles": [
     {
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "url": "http://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "published": "Tue, 22 Sep 2026 17:03:31 +0000",
-      "published_utc": "2026-09-22T17:03:31+00:00",
-      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8265176902280522213",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "url": "http://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "published": "Tue, 22 Sep 2026 18:29:39 +0000",
+      "published_utc": "2026-09-22T18:29:39+00:00",
+      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6374047458229210625",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "content_hash": "dd9404e8df36d28c714aaba93b61d5bb20b45f3e0c95591e36595f731f9d515e",
+      "article_key": "thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "content_hash": "19aa6043f33e1bfe974e1058f8f38771aa592ca958747884dddad3f0f3e474cd",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "dd9404e8df36d28c714aaba93b61d5bb20b45f3e0c95591e36595f731f9d515e"
+        "ORIGINAL": "19aa6043f33e1bfe974e1058f8f38771aa592ca958747884dddad3f0f3e474cd",
+        "FEEDBURNER": "19aa6043f33e1bfe974e1058f8f38771aa592ca958747884dddad3f0f3e474cd"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:08.658094+00:00",
-      "first_seen_local": "2026-09-22T12:14:08.658089-05:00",
-      "last_updated_utc": "2026-09-22T17:14:08.658094+00:00",
-      "last_updated_local": "2026-09-22T12:14:08.658089-05:00"
+      "first_seen_utc": "2026-09-22T20:27:09.752252+00:00",
+      "first_seen_local": "2026-09-22T15:27:09.752249-05:00",
+      "last_updated_utc": "2026-09-22T20:27:09.752252+00:00",
+      "last_updated_local": "2026-09-22T15:27:09.752249-05:00"
     },
     {
-      "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
-      "url": "https://gbhackers.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/",
-      "published": "Tue, 22 Sep 2026 17:00:36 +0000",
-      "published_utc": "2026-09-22T17:00:36+00:00",
-      "summary": "<p>Silver Spring, Maryland, USA, September 22nd, 2026, CyberNewswire Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open protocol introduced by Okta that lets a user’s existing enterprise identity authorize access to downstream applications without a separate consent step for each connection. Launching this [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/\">Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200572",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents",
-      "content_hash": "334cbedcd22e2fe0ebe70a453d902c1d86dc487f7caf483701e4a4ed58929662",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "334cbedcd22e2fe0ebe70a453d902c1d86dc487f7caf483701e4a4ed58929662"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:01.887953+00:00",
-      "first_seen_local": "2026-09-22T12:14:01.887947-05:00",
-      "last_updated_utc": "2026-09-22T17:14:01.887953+00:00",
-      "last_updated_local": "2026-09-22T12:14:01.887947-05:00"
-    },
-    {
-      "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
-      "url": "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/",
-      "published": "Tue, 22 Sep 2026 16:58:55 +0000",
-      "published_utc": "2026-09-22T16:58:55+00:00",
-      "summary": "<p>Silver Spring, Maryland, USA, September 22nd, 2026, CyberNewswire Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open protocol introduced by Okta that lets a user’s existing enterprise identity authorize access to downstream applications without a separate consent step for each connection. Launching this [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/\">Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164428",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents",
-      "content_hash": "718ac55232fbd452584435ae01e30aeb660a4fbafacebad17cf26d1c73f21e68",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "718ac55232fbd452584435ae01e30aeb660a4fbafacebad17cf26d1c73f21e68"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout",
-      "url": "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/",
-      "published": "Tue, 22 Sep 2026 16:46:05 +0000",
-      "published_utc": "2026-09-22T16:46:05+00:00",
-      "summary": "<p>A suspicious IP, unfamiliar domain, or file hash can trigger an investigation in seconds. Understanding what that indicator means can take much longer.&#160; An IOC rarely tells the full story. Analysts may need to determine what threat it is associated with, which malware or infrastructure is involved, whether it has appeared in other attacks, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/\">Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164403",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout",
-      "content_hash": "2be7365379b4f10178deda4b7dd4c39d96b16f658bbba4e34a31d54104b87f69",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2be7365379b4f10178deda4b7dd4c39d96b16f658bbba4e34a31d54104b87f69"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "url": "http://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "published": "Tue, 22 Sep 2026 16:41:12 +0000",
-      "published_utc": "2026-09-22T16:41:12+00:00",
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1357760781121438643",
+      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "url": "http://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "published": "Tue, 22 Sep 2026 18:03:10 +0000",
+      "published_utc": "2026-09-22T18:03:10+00:00",
+      "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4430929482443921045",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "content_hash": "65a182929acb7c8ee2d4c460e86556ec13201dd3bda5d500aa49ffba2f5b6517",
+      "article_key": "thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "content_hash": "e1540b4e04606fc9f6f7f0b5e22d88c886fcb69b9571d2d07339e54984554fc5",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "65a182929acb7c8ee2d4c460e86556ec13201dd3bda5d500aa49ffba2f5b6517"
+        "ORIGINAL": "e1540b4e04606fc9f6f7f0b5e22d88c886fcb69b9571d2d07339e54984554fc5",
+        "FEEDBURNER": "e1540b4e04606fc9f6f7f0b5e22d88c886fcb69b9571d2d07339e54984554fc5"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:08.658094+00:00",
-      "first_seen_local": "2026-09-22T12:14:08.658089-05:00",
-      "last_updated_utc": "2026-09-22T17:14:08.658094+00:00",
-      "last_updated_local": "2026-09-22T12:14:08.658089-05:00"
+      "first_seen_utc": "2026-09-22T20:27:09.752252+00:00",
+      "first_seen_local": "2026-09-22T15:27:09.752249-05:00",
+      "last_updated_utc": "2026-09-22T20:27:09.752252+00:00",
+      "last_updated_local": "2026-09-22T15:27:09.752249-05:00"
     },
     {
-      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-      "url": "http://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "published": "Tue, 22 Sep 2026 16:14:04 +0000",
-      "published_utc": "2026-09-22T16:14:04+00:00",
-      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.\n\nThe tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-316335155298708125",
+      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "url": "http://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "published": "Tue, 22 Sep 2026 17:58:15 +0000",
+      "published_utc": "2026-09-22T17:58:15+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.\n\nThe package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8499630857678707742",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "content_hash": "bf3ca254862da9aa8328f8acf6741852045fcbf608ac45ec74c30efc8af5c95d",
+      "article_key": "thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "content_hash": "1882d2ccdffa27a9fc7ba5a7e02d21a5a653ebaa214093be145c85fb1d603f2b",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "bf3ca254862da9aa8328f8acf6741852045fcbf608ac45ec74c30efc8af5c95d"
+        "ORIGINAL": "1882d2ccdffa27a9fc7ba5a7e02d21a5a653ebaa214093be145c85fb1d603f2b",
+        "FEEDBURNER": "1882d2ccdffa27a9fc7ba5a7e02d21a5a653ebaa214093be145c85fb1d603f2b"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:08.658094+00:00",
-      "first_seen_local": "2026-09-22T12:14:08.658089-05:00",
-      "last_updated_utc": "2026-09-22T17:14:08.658094+00:00",
-      "last_updated_local": "2026-09-22T12:14:08.658089-05:00"
+      "first_seen_utc": "2026-09-22T20:27:09.752252+00:00",
+      "first_seen_local": "2026-09-22T15:27:09.752249-05:00",
+      "last_updated_utc": "2026-09-22T20:27:09.752252+00:00",
+      "last_updated_local": "2026-09-22T15:27:09.752249-05:00"
     },
     {
-      "title": "Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards",
-      "url": "https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/",
-      "published": "Tue, 22 Sep 2026 15:51:18 +0000",
-      "published_utc": "2026-09-22T15:51:18+00:00",
-      "summary": "<p>A financially motivated operator has been running three open-source AI tools against many online retailers, mostly without supervision. The results are shocking: over 600,000 credit card records have been stolen, scripts to gather card information have been placed on dozens of checkout pages, and in at least two cases, the operator&#8217;s cleanup routine completely wiped [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/\">Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164404",
+      "title": "Check Point Management Server 0-Day Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/check-point-management-server-0-day-exploited/",
+      "published": "Tue, 22 Sep 2026 17:17:03 +0000",
+      "published_utc": "2026-09-22T17:17:03+00:00",
+      "summary": "<p>Check Point has warned customers that attackers are exploiting a critical zero-day vulnerability in its Security Management infrastructure. Tracked as CVE-2026-93616, the flaw carries a CVSS score of 9.8 and enables an unauthenticated remote attacker to upload and execute arbitrary scripts on an exposed Management Server. Check Point says it has identified a handful of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-management-server-0-day-exploited/\">Check Point Management Server 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164443",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/ai-agents-retail-credit-card-theft",
-      "content_hash": "f173760f805a4c7d866e3ec140bf5dc00114b80819b690e7c841607245bd256b",
+      "article_key": "cybersecuritynews.com/check-point-management-server-0-day-exploited",
+      "content_hash": "c2eb9dd2e1991ae9b4a2392066eda016c80945f1dc8ad92a9a0f32d37b7acb8d",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "f173760f805a4c7d866e3ec140bf5dc00114b80819b690e7c841607245bd256b",
-        "FEEDBURNER": "f173760f805a4c7d866e3ec140bf5dc00114b80819b690e7c841607245bd256b"
+        "ORIGINAL": "c2eb9dd2e1991ae9b4a2392066eda016c80945f1dc8ad92a9a0f32d37b7acb8d",
+        "FEEDBURNER": "c2eb9dd2e1991ae9b4a2392066eda016c80945f1dc8ad92a9a0f32d37b7acb8d"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control",
-      "url": "https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/",
-      "published": "Tue, 22 Sep 2026 15:27:12 +0000",
-      "published_utc": "2026-09-22T15:27:12+00:00",
-      "summary": "<p>Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify, and track AI-integrated malware by examining the digital markers developers leave behind. The Cognitive Artifact Intelligence Research Network searches for prompt templates, provider endpoints, API-key prefixes, jailbreak terms, and orchestration logic without downloading or executing binaries. The launch also revealed CLOSEDQUORUM, which Talos [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/\">CAIRN &#8211; A New Tool to Track AI Malware That Operates Without Human Control</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164414",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/cairn-tool-for-tracking-ai-malware",
-      "content_hash": "70ecc3db27a9404584e4f5d93642ce70f89b27d95044264855598e15477fe531",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "70ecc3db27a9404584e4f5d93642ce70f89b27d95044264855598e15477fe531",
-        "FEEDBURNER": "70ecc3db27a9404584e4f5d93642ce70f89b27d95044264855598e15477fe531"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges",
-      "url": "https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/",
-      "published": "Tue, 22 Sep 2026 13:59:11 +0000",
-      "published_utc": "2026-09-22T13:59:11+00:00",
-      "summary": "<p>Microsoft has confirmed a high-severity remote code execution vulnerability in on-premises SharePoint Server that lets an authenticated, low-privileged attacker run arbitrary code over a network without user interaction. Tracked as CVE-2026-65660, the code-injection flaw carries a CVSS score of 8.8 and affects SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition. Because SharePoint [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/\">Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164393",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/microsoft-sharepoint-rce-flaw",
-      "content_hash": "6099e30513af976f6a43f60fca25d6b5617f0958453077db804b5cf2b6cb6116",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "6099e30513af976f6a43f60fca25d6b5617f0958453077db804b5cf2b6cb6116",
-        "FEEDBURNER": "6099e30513af976f6a43f60fca25d6b5617f0958453077db804b5cf2b6cb6116"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords",
-      "url": "https://cybersecuritynews.com/new-taskstomp-backdoor/",
-      "published": "Tue, 22 Sep 2026 13:45:24 +0000",
-      "published_utc": "2026-09-22T13:45:24+00:00",
-      "summary": "<p>TASK#STOMP is a newly analyzed Windows backdoor that turns ordinary built-in tools into a durable spying operation. It uses a Visual Basic Script installer, hidden PowerShell, scheduled tasks, and runtime code compilation to collect business documents, saved Wi-Fi passwords, clipboard data, and screenshots from compromised machines. The observed infection begins with a randomly named VBS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-taskstomp-backdoor/\">New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164367",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/new-taskstomp-backdoor",
-      "content_hash": "ae778ea4874511ca36faee1efedc9fe19806cd406f3b27a04d9949b14bf53432",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ae778ea4874511ca36faee1efedc9fe19806cd406f3b27a04d9949b14bf53432",
-        "FEEDBURNER": "ae778ea4874511ca36faee1efedc9fe19806cd406f3b27a04d9949b14bf53432"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access",
-      "url": "https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/",
-      "published": "Tue, 22 Sep 2026 13:37:26 +0000",
-      "published_utc": "2026-09-22T13:37:26+00:00",
-      "summary": "<p>A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-89775, could let attackers escape an ARM64 virtual machine and access the underlying host system. The issue affects KVM/arm64 environments where nested virtualization is enabled, creating a serious risk for multi-tenant cloud infrastructure and systems that allow untrusted users to create virtual machines. Security researcher Hyunwoo Kim [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/\">Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164375",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/linux-kvm-arm64-vulnerability",
-      "content_hash": "dd6e9a61c4958903df95bb88ceba44d6654670a85bc454547cf6abc7372cd101",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dd6e9a61c4958903df95bb88ceba44d6654670a85bc454547cf6abc7372cd101",
-        "FEEDBURNER": "dd6e9a61c4958903df95bb88ceba44d6654670a85bc454547cf6abc7372cd101"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows",
-      "url": "https://cybersecuritynews.com/veeam-agent-flaw-exploited/",
-      "published": "Tue, 22 Sep 2026 12:55:07 +0000",
-      "published_utc": "2026-09-22T12:55:07+00:00",
-      "summary": "<p>A critical local privilege escalation flaw in Veeam Agent for Microsoft Windows is drawing attention after public proof-of-concept exploit code became available. The vulnerability, tracked as CVE-2026-32996, could let a low-privileged local user run commands with NT AUTHORITY\\SYSTEM permissions on affected Windows devices. Technical details and exploit code were publicly released on September 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/veeam-agent-flaw-exploited/\">Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164366",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/veeam-agent-flaw-exploited",
-      "content_hash": "37a9b651a743b3d66f86b1537af18b9b3ed6d764d798566ded0bdaad7c70b67a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "37a9b651a743b3d66f86b1537af18b9b3ed6d764d798566ded0bdaad7c70b67a",
-        "FEEDBURNER": "37a9b651a743b3d66f86b1537af18b9b3ed6d764d798566ded0bdaad7c70b67a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases",
-      "url": "https://cybersecuritynews.com/red-hat-openshift-flaw/",
-      "published": "Tue, 22 Sep 2026 12:49:43 +0000",
-      "published_utc": "2026-09-22T12:49:43+00:00",
-      "summary": "<p>Red Hat has disclosed an Important security vulnerability in the OpenShift oc-mirror tool that could allow attackers to bypass PGP signature verification and introduce malicious release images into disconnected OpenShift environments. Tracked as CVE-2026-75939, the issue carries a CVSS v3.1 score of 7.4 and was made public on September 21, 2026. The flaw affects the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/red-hat-openshift-flaw/\">Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164359",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/red-hat-openshift-flaw",
-      "content_hash": "8097853526e159738845a0cf2811e7e2452e6072e1e78532cba931b20339404f",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8097853526e159738845a0cf2811e7e2452e6072e1e78532cba931b20339404f",
-        "FEEDBURNER": "8097853526e159738845a0cf2811e7e2452e6072e1e78532cba931b20339404f"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files",
-      "url": "https://cybersecuritynews.com/bambootoken-linux-backdoor/",
-      "published": "Tue, 22 Sep 2026 12:29:37 +0000",
-      "published_utc": "2026-09-22T12:29:37+00:00",
-      "summary": "<p>BambooToken is a Linux backdoor that turns a lightweight messaging protocol into a remote control channel. The newly analysed sample can collect information about a host, run shell commands, and move files between a compromised machine and its operator. Its use of MQTT is notable because the protocol is common in connected-device environments and uses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bambootoken-linux-backdoor/\">BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164348",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/bambootoken-linux-backdoor",
-      "content_hash": "b4c7694769e6687cf5f75892a8a89f18a6c37748a9b26052f69904f545a107c4",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b4c7694769e6687cf5f75892a8a89f18a6c37748a9b26052f69904f545a107c4",
-        "FEEDBURNER": "b4c7694769e6687cf5f75892a8a89f18a6c37748a9b26052f69904f545a107c4"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:02.910319+00:00",
-      "first_seen_local": "2026-09-22T12:14:02.910314-05:00",
-      "last_updated_utc": "2026-09-22T17:14:02.910319+00:00",
-      "last_updated_local": "2026-09-22T12:14:02.910314-05:00"
-    },
-    {
-      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-      "url": "http://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "published": "Tue, 22 Sep 2026 12:29:00 +0000",
-      "published_utc": "2026-09-22T12:29:00+00:00",
-      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8440344876738373118",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "content_hash": "8d0549830beb08c6f1adc0c19fc282621536f55a978ce2ee5d9e3ca1d92c96a8",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8d0549830beb08c6f1adc0c19fc282621536f55a978ce2ee5d9e3ca1d92c96a8",
-        "FEEDBURNER": "8d0549830beb08c6f1adc0c19fc282621536f55a978ce2ee5d9e3ca1d92c96a8"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-22T17:14:08.658094+00:00",
-      "first_seen_local": "2026-09-22T12:14:08.658089-05:00",
-      "last_updated_utc": "2026-09-22T17:14:08.658094+00:00",
-      "last_updated_local": "2026-09-22T12:14:08.658089-05:00"
+      "first_seen_utc": "2026-09-22T20:27:03.969933+00:00",
+      "first_seen_local": "2026-09-22T15:27:03.969928-05:00",
+      "last_updated_utc": "2026-09-22T20:27:03.969933+00:00",
+      "last_updated_local": "2026-09-22T15:27:03.969928-05:00"
     }
   ]
 }

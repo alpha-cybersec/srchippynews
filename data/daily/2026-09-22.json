@@ -1,12 +1,124 @@
 {
   "date": "2026-09-22",
-  "article_count": 50,
+  "article_count": 54,
   "sources": {
-    "thehackernews": 13,
-    "gbhackers": 17,
-    "cybersecuritynews": 20
+    "thehackernews": 16,
+    "cybersecuritynews": 21,
+    "gbhackers": 17
   },
   "articles": [
+    {
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "url": "http://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "published": "Tue, 22 Sep 2026 18:29:39 +0000",
+      "published_utc": "2026-09-22T18:29:39+00:00",
+      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6374047458229210625",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "content_hash": "19aa6043f33e1bfe974e1058f8f38771aa592ca958747884dddad3f0f3e474cd",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "19aa6043f33e1bfe974e1058f8f38771aa592ca958747884dddad3f0f3e474cd",
+        "FEEDBURNER": "19aa6043f33e1bfe974e1058f8f38771aa592ca958747884dddad3f0f3e474cd"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T20:27:09.752252+00:00",
+      "first_seen_local": "2026-09-22T15:27:09.752249-05:00",
+      "last_updated_utc": "2026-09-22T20:27:09.752252+00:00",
+      "last_updated_local": "2026-09-22T15:27:09.752249-05:00"
+    },
+    {
+      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "url": "http://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "published": "Tue, 22 Sep 2026 18:03:10 +0000",
+      "published_utc": "2026-09-22T18:03:10+00:00",
+      "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4430929482443921045",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "content_hash": "e1540b4e04606fc9f6f7f0b5e22d88c886fcb69b9571d2d07339e54984554fc5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e1540b4e04606fc9f6f7f0b5e22d88c886fcb69b9571d2d07339e54984554fc5",
+        "FEEDBURNER": "e1540b4e04606fc9f6f7f0b5e22d88c886fcb69b9571d2d07339e54984554fc5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T20:27:09.752252+00:00",
+      "first_seen_local": "2026-09-22T15:27:09.752249-05:00",
+      "last_updated_utc": "2026-09-22T20:27:09.752252+00:00",
+      "last_updated_local": "2026-09-22T15:27:09.752249-05:00"
+    },
+    {
+      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "url": "http://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "published": "Tue, 22 Sep 2026 17:58:15 +0000",
+      "published_utc": "2026-09-22T17:58:15+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.\n\nThe package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8499630857678707742",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "content_hash": "1882d2ccdffa27a9fc7ba5a7e02d21a5a653ebaa214093be145c85fb1d603f2b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1882d2ccdffa27a9fc7ba5a7e02d21a5a653ebaa214093be145c85fb1d603f2b",
+        "FEEDBURNER": "1882d2ccdffa27a9fc7ba5a7e02d21a5a653ebaa214093be145c85fb1d603f2b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T20:27:09.752252+00:00",
+      "first_seen_local": "2026-09-22T15:27:09.752249-05:00",
+      "last_updated_utc": "2026-09-22T20:27:09.752252+00:00",
+      "last_updated_local": "2026-09-22T15:27:09.752249-05:00"
+    },
+    {
+      "title": "Check Point Management Server 0-Day Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/check-point-management-server-0-day-exploited/",
+      "published": "Tue, 22 Sep 2026 17:17:03 +0000",
+      "published_utc": "2026-09-22T17:17:03+00:00",
+      "summary": "<p>Check Point has warned customers that attackers are exploiting a critical zero-day vulnerability in its Security Management infrastructure. Tracked as CVE-2026-93616, the flaw carries a CVSS score of 9.8 and enables an unauthenticated remote attacker to upload and execute arbitrary scripts on an exposed Management Server. Check Point says it has identified a handful of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-management-server-0-day-exploited/\">Check Point Management Server 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164443",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/check-point-management-server-0-day-exploited",
+      "content_hash": "c2eb9dd2e1991ae9b4a2392066eda016c80945f1dc8ad92a9a0f32d37b7acb8d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c2eb9dd2e1991ae9b4a2392066eda016c80945f1dc8ad92a9a0f32d37b7acb8d",
+        "FEEDBURNER": "c2eb9dd2e1991ae9b4a2392066eda016c80945f1dc8ad92a9a0f32d37b7acb8d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T20:27:03.969933+00:00",
+      "first_seen_local": "2026-09-22T15:27:03.969928-05:00",
+      "last_updated_utc": "2026-09-22T20:27:03.969933+00:00",
+      "last_updated_local": "2026-09-22T15:27:03.969928-05:00"
+    },
     {
       "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
       "url": "http://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",

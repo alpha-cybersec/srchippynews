@@ -2,8 +2,92 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 56,
+  "article_count": 59,
   "articles": [
+    {
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "url": "http://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "published": "Tue, 22 Sep 2026 06:33:57 +0000",
+      "published_utc": "2026-09-22T06:33:57+00:00",
+      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.\n\nThe flaw is in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4230192611384758873",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "content_hash": "2dae35349cb9e76a251dfeade41d74cecb6ac4f4aa12b26a95f3191eb78e357e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2dae35349cb9e76a251dfeade41d74cecb6ac4f4aa12b26a95f3191eb78e357e",
+        "FEEDBURNER": "2dae35349cb9e76a251dfeade41d74cecb6ac4f4aa12b26a95f3191eb78e357e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T06:45:11.362382+00:00",
+      "first_seen_local": "2026-09-22T01:45:11.362381-05:00",
+      "last_updated_utc": "2026-09-22T06:45:11.362382+00:00",
+      "last_updated_local": "2026-09-22T01:45:11.362381-05:00"
+    },
+    {
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "url": "http://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "published": "Tue, 22 Sep 2026 06:03:14 +0000",
+      "published_utc": "2026-09-22T06:03:14+00:00",
+      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-734289221474020071",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "content_hash": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d",
+        "FEEDBURNER": "1c947dd904057597b2210c08d81a4444661ba8b6b330d82e62032efc02cd629d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T06:45:11.362382+00:00",
+      "first_seen_local": "2026-09-22T01:45:11.362381-05:00",
+      "last_updated_utc": "2026-09-22T06:45:11.362382+00:00",
+      "last_updated_local": "2026-09-22T01:45:11.362381-05:00"
+    },
+    {
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "url": "http://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "published": "Tue, 22 Sep 2026 05:31:59 +0000",
+      "published_utc": "2026-09-22T05:31:59+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3880969892080573616",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "content_hash": "2f29265ad7df25f5594f47ddd3cb73c8ceefcf097092f8ec185e6ff0ee9c6fa6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2f29265ad7df25f5594f47ddd3cb73c8ceefcf097092f8ec185e6ff0ee9c6fa6",
+        "FEEDBURNER": "2f29265ad7df25f5594f47ddd3cb73c8ceefcf097092f8ec185e6ff0ee9c6fa6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-22T06:45:11.362382+00:00",
+      "first_seen_local": "2026-09-22T01:45:11.362381-05:00",
+      "last_updated_utc": "2026-09-22T06:45:11.362382+00:00",
+      "last_updated_local": "2026-09-22T01:45:11.362381-05:00"
+    },
     {
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
       "url": "http://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",

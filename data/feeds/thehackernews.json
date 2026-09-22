@@ -10,63 +10,31 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 7,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-          "url": "http://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-          "published": "Mon, 21 Sep 2026 17:31:01 +0000",
-          "published_utc": "2026-09-21T17:31:01+00:00",
-          "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.\n\nMicrosoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2415137919413031216"
+          "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+          "url": "http://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+          "published": "Tue, 22 Sep 2026 06:33:57 +0000",
+          "published_utc": "2026-09-22T06:33:57+00:00",
+          "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.\n\nThe flaw is in",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4230192611384758873"
         },
         {
-          "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-          "url": "http://thehackernews.com/2026/09/contagious-interview-campaign.html",
-          "published": "Mon, 21 Sep 2026 17:19:00 +0000",
-          "published_utc": "2026-09-21T17:19:00+00:00",
-          "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.\n\nThe primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7283142870211078011"
+          "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+          "url": "http://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+          "published": "Tue, 22 Sep 2026 06:03:14 +0000",
+          "published_utc": "2026-09-22T06:03:14+00:00",
+          "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-734289221474020071"
         },
         {
-          "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-          "url": "http://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-          "published": "Mon, 21 Sep 2026 16:57:31 +0000",
-          "published_utc": "2026-09-21T16:57:31+00:00",
-          "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020.\n\nIreland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3392601122183709411"
-        },
-        {
-          "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-          "url": "http://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-          "published": "Mon, 21 Sep 2026 14:24:13 +0000",
-          "published_utc": "2026-09-21T14:24:13+00:00",
-          "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-955727856927640629"
-        },
-        {
-          "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-          "url": "http://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-          "published": "Mon, 21 Sep 2026 14:15:40 +0000",
-          "published_utc": "2026-09-21T14:15:40+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2305316181161665823"
-        },
-        {
-          "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-          "url": "http://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-          "published": "Mon, 21 Sep 2026 08:39:38 +0000",
-          "published_utc": "2026-09-21T08:39:38+00:00",
-          "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5967894207620492647"
-        },
-        {
-          "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-          "url": "http://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-          "published": "Mon, 21 Sep 2026 06:06:44 +0000",
-          "published_utc": "2026-09-21T06:06:44+00:00",
-          "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.\n\nCybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7764628547320796480"
+          "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+          "url": "http://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+          "published": "Tue, 22 Sep 2026 05:31:59 +0000",
+          "published_utc": "2026-09-22T05:31:59+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3880969892080573616"
         }
       ],
       "error": ""
@@ -79,63 +47,31 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 7,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-          "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-          "published": "Mon, 21 Sep 2026 23:01:01 +0530",
-          "published_utc": "2026-09-21T17:31:01+00:00",
-          "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.\n\nMicrosoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
-          "id": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html"
+          "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+          "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+          "published": "Tue, 22 Sep 2026 12:03:57 +0530",
+          "published_utc": "2026-09-22T06:33:57+00:00",
+          "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.\n\nThe flaw is in",
+          "id": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html"
         },
         {
-          "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-          "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-          "published": "Mon, 21 Sep 2026 22:49:00 +0530",
-          "published_utc": "2026-09-21T17:19:00+00:00",
-          "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.\n\nThe primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
-          "id": "https://thehackernews.com/2026/09/contagious-interview-campaign.html"
+          "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+          "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+          "published": "Tue, 22 Sep 2026 11:33:14 +0530",
+          "published_utc": "2026-09-22T06:03:14+00:00",
+          "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+          "id": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html"
         },
         {
-          "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-          "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-          "published": "Mon, 21 Sep 2026 22:27:31 +0530",
-          "published_utc": "2026-09-21T16:57:31+00:00",
-          "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020.\n\nIreland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
-          "id": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html"
-        },
-        {
-          "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-          "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-          "published": "Mon, 21 Sep 2026 19:54:13 +0530",
-          "published_utc": "2026-09-21T14:24:13+00:00",
-          "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
-          "id": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html"
-        },
-        {
-          "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-          "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-          "published": "Mon, 21 Sep 2026 19:45:40 +0530",
-          "published_utc": "2026-09-21T14:15:40+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
-          "id": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html"
-        },
-        {
-          "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-          "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-          "published": "Mon, 21 Sep 2026 14:09:38 +0530",
-          "published_utc": "2026-09-21T08:39:38+00:00",
-          "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)",
-          "id": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html"
-        },
-        {
-          "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-          "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-          "published": "Mon, 21 Sep 2026 11:36:44 +0530",
-          "published_utc": "2026-09-21T06:06:44+00:00",
-          "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.\n\nCybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",
-          "id": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+          "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+          "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+          "published": "Tue, 22 Sep 2026 11:01:59 +0530",
+          "published_utc": "2026-09-22T05:31:59+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+          "id": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html"
         }
       ],
       "error": ""

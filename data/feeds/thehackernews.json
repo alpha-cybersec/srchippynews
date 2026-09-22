@@ -10,8 +10,32 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 9,
+      "article_count": 13,
       "articles": [
+        {
+          "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+          "url": "http://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+          "published": "Tue, 22 Sep 2026 17:03:31 +0000",
+          "published_utc": "2026-09-22T17:03:31+00:00",
+          "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8265176902280522213"
+        },
+        {
+          "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+          "url": "http://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+          "published": "Tue, 22 Sep 2026 16:41:12 +0000",
+          "published_utc": "2026-09-22T16:41:12+00:00",
+          "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1357760781121438643"
+        },
+        {
+          "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+          "url": "http://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+          "published": "Tue, 22 Sep 2026 16:14:04 +0000",
+          "published_utc": "2026-09-22T16:14:04+00:00",
+          "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19.\n\nThe tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-316335155298708125"
+        },
         {
           "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
           "url": "http://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
@@ -19,6 +43,14 @@
           "published_utc": "2026-09-22T12:30:00+00:00",
           "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May",
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3015319885897408529"
+        },
+        {
+          "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+          "url": "http://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+          "published": "Tue, 22 Sep 2026 12:29:00 +0000",
+          "published_utc": "2026-09-22T12:29:00+00:00",
+          "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8440344876738373118"
         },
         {
           "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
@@ -95,8 +127,24 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 8,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+          "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+          "published": "Tue, 22 Sep 2026 18:00:00 +0530",
+          "published_utc": "2026-09-22T12:30:00+00:00",
+          "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?\n\nA person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May",
+          "id": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html"
+        },
+        {
+          "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+          "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+          "published": "Tue, 22 Sep 2026 17:59:00 +0530",
+          "published_utc": "2026-09-22T12:29:00+00:00",
+          "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.\n\nThe flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are",
+          "id": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html"
+        },
         {
           "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
           "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",

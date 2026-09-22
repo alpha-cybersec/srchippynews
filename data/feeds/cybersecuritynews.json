@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
+          "url": "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/",
+          "published": "Tue, 22 Sep 2026 16:58:55 +0000",
+          "published_utc": "2026-09-22T16:58:55+00:00",
+          "summary": "<p>Silver Spring, Maryland, USA, September 22nd, 2026, CyberNewswire Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open protocol introduced by Okta that lets a user’s existing enterprise identity authorize access to downstream applications without a separate consent step for each connection. Launching this [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/\">Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164428"
+        },
+        {
+          "title": "Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout",
+          "url": "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/",
+          "published": "Tue, 22 Sep 2026 16:46:05 +0000",
+          "published_utc": "2026-09-22T16:46:05+00:00",
+          "summary": "<p>A suspicious IP, unfamiliar domain, or file hash can trigger an investigation in seconds. Understanding what that indicator means can take much longer.&#160; An IOC rarely tells the full story. Analysts may need to determine what threat it is associated with, which malware or infrastructure is involved, whether it has appeared in other attacks, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/\">Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164403"
+        },
+        {
+          "title": "Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards",
+          "url": "https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/",
+          "published": "Tue, 22 Sep 2026 15:51:18 +0000",
+          "published_utc": "2026-09-22T15:51:18+00:00",
+          "summary": "<p>A financially motivated operator has been running three open-source AI tools against many online retailers, mostly without supervision. The results are shocking: over 600,000 credit card records have been stolen, scripts to gather card information have been placed on dozens of checkout pages, and in at least two cases, the operator&#8217;s cleanup routine completely wiped [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/\">Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164404"
+        },
+        {
+          "title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control",
+          "url": "https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/",
+          "published": "Tue, 22 Sep 2026 15:27:12 +0000",
+          "published_utc": "2026-09-22T15:27:12+00:00",
+          "summary": "<p>Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify, and track AI-integrated malware by examining the digital markers developers leave behind. The Cognitive Artifact Intelligence Research Network searches for prompt templates, provider endpoints, API-key prefixes, jailbreak terms, and orchestration logic without downloading or executing binaries. The launch also revealed CLOSEDQUORUM, which Talos [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/\">CAIRN &#8211; A New Tool to Track AI Malware That Operates Without Human Control</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164414"
+        },
+        {
+          "title": "Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges",
+          "url": "https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/",
+          "published": "Tue, 22 Sep 2026 13:59:11 +0000",
+          "published_utc": "2026-09-22T13:59:11+00:00",
+          "summary": "<p>Microsoft has confirmed a high-severity remote code execution vulnerability in on-premises SharePoint Server that lets an authenticated, low-privileged attacker run arbitrary code over a network without user interaction. Tracked as CVE-2026-65660, the code-injection flaw carries a CVSS score of 8.8 and affects SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition. Because SharePoint [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/\">Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164393"
+        },
+        {
+          "title": "New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords",
+          "url": "https://cybersecuritynews.com/new-taskstomp-backdoor/",
+          "published": "Tue, 22 Sep 2026 13:45:24 +0000",
+          "published_utc": "2026-09-22T13:45:24+00:00",
+          "summary": "<p>TASK#STOMP is a newly analyzed Windows backdoor that turns ordinary built-in tools into a durable spying operation. It uses a Visual Basic Script installer, hidden PowerShell, scheduled tasks, and runtime code compilation to collect business documents, saved Wi-Fi passwords, clipboard data, and screenshots from compromised machines. The observed infection begins with a randomly named VBS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-taskstomp-backdoor/\">New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164367"
+        },
+        {
+          "title": "Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access",
+          "url": "https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/",
+          "published": "Tue, 22 Sep 2026 13:37:26 +0000",
+          "published_utc": "2026-09-22T13:37:26+00:00",
+          "summary": "<p>A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-89775, could let attackers escape an ARM64 virtual machine and access the underlying host system. The issue affects KVM/arm64 environments where nested virtualization is enabled, creating a serious risk for multi-tenant cloud infrastructure and systems that allow untrusted users to create virtual machines. Security researcher Hyunwoo Kim [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/\">Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164375"
+        },
+        {
+          "title": "Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows",
+          "url": "https://cybersecuritynews.com/veeam-agent-flaw-exploited/",
+          "published": "Tue, 22 Sep 2026 12:55:07 +0000",
+          "published_utc": "2026-09-22T12:55:07+00:00",
+          "summary": "<p>A critical local privilege escalation flaw in Veeam Agent for Microsoft Windows is drawing attention after public proof-of-concept exploit code became available. The vulnerability, tracked as CVE-2026-32996, could let a low-privileged local user run commands with NT AUTHORITY\\SYSTEM permissions on affected Windows devices. Technical details and exploit code were publicly released on September 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/veeam-agent-flaw-exploited/\">Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164366"
+        },
+        {
+          "title": "Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases",
+          "url": "https://cybersecuritynews.com/red-hat-openshift-flaw/",
+          "published": "Tue, 22 Sep 2026 12:49:43 +0000",
+          "published_utc": "2026-09-22T12:49:43+00:00",
+          "summary": "<p>Red Hat has disclosed an Important security vulnerability in the OpenShift oc-mirror tool that could allow attackers to bypass PGP signature verification and introduce malicious release images into disconnected OpenShift environments. Tracked as CVE-2026-75939, the issue carries a CVSS v3.1 score of 7.4 and was made public on September 21, 2026. The flaw affects the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/red-hat-openshift-flaw/\">Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164359"
+        },
+        {
+          "title": "BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files",
+          "url": "https://cybersecuritynews.com/bambootoken-linux-backdoor/",
+          "published": "Tue, 22 Sep 2026 12:29:37 +0000",
+          "published_utc": "2026-09-22T12:29:37+00:00",
+          "summary": "<p>BambooToken is a Linux backdoor that turns a lightweight messaging protocol into a remote control channel. The newly analysed sample can collect information about a host, run shell commands, and move files between a compromised machine and its operator. Its use of MQTT is notable because the protocol is common in connected-device environments and uses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bambootoken-linux-backdoor/\">BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164348"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -24,6 +105,70 @@
       "feed_title": "Cyber Security News",
       "article_count": 10,
       "articles": [
+        {
+          "title": "Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards",
+          "url": "https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/",
+          "published": "Tue, 22 Sep 2026 15:51:18 +0000",
+          "published_utc": "2026-09-22T15:51:18+00:00",
+          "summary": "<p>A financially motivated operator has been running three open-source AI tools against many online retailers, mostly without supervision. The results are shocking: over 600,000 credit card records have been stolen, scripts to gather card information have been placed on dozens of checkout pages, and in at least two cases, the operator&#8217;s cleanup routine completely wiped [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/\">Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164404"
+        },
+        {
+          "title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control",
+          "url": "https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/",
+          "published": "Tue, 22 Sep 2026 15:27:12 +0000",
+          "published_utc": "2026-09-22T15:27:12+00:00",
+          "summary": "<p>Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify, and track AI-integrated malware by examining the digital markers developers leave behind. The Cognitive Artifact Intelligence Research Network searches for prompt templates, provider endpoints, API-key prefixes, jailbreak terms, and orchestration logic without downloading or executing binaries. The launch also revealed CLOSEDQUORUM, which Talos [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/\">CAIRN &#8211; A New Tool to Track AI Malware That Operates Without Human Control</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164414"
+        },
+        {
+          "title": "Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges",
+          "url": "https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/",
+          "published": "Tue, 22 Sep 2026 13:59:11 +0000",
+          "published_utc": "2026-09-22T13:59:11+00:00",
+          "summary": "<p>Microsoft has confirmed a high-severity remote code execution vulnerability in on-premises SharePoint Server that lets an authenticated, low-privileged attacker run arbitrary code over a network without user interaction. Tracked as CVE-2026-65660, the code-injection flaw carries a CVSS score of 8.8 and affects SharePoint Server 2016, SharePoint Server 2019, and SharePoint Server Subscription Edition. Because SharePoint [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-sharepoint-rce-flaw/\">Microsoft SharePoint Flaw Lets Attackers Execute Code Remotely With Low Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164393"
+        },
+        {
+          "title": "New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords",
+          "url": "https://cybersecuritynews.com/new-taskstomp-backdoor/",
+          "published": "Tue, 22 Sep 2026 13:45:24 +0000",
+          "published_utc": "2026-09-22T13:45:24+00:00",
+          "summary": "<p>TASK#STOMP is a newly analyzed Windows backdoor that turns ordinary built-in tools into a durable spying operation. It uses a Visual Basic Script installer, hidden PowerShell, scheduled tasks, and runtime code compilation to collect business documents, saved Wi-Fi passwords, clipboard data, and screenshots from compromised machines. The observed infection begins with a randomly named VBS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-taskstomp-backdoor/\">New TASK#STOMP Backdoor Uses PowerShell to Steal Documents and Wi-Fi Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164367"
+        },
+        {
+          "title": "Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access",
+          "url": "https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/",
+          "published": "Tue, 22 Sep 2026 13:37:26 +0000",
+          "published_utc": "2026-09-22T13:37:26+00:00",
+          "summary": "<p>A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-89775, could let attackers escape an ARM64 virtual machine and access the underlying host system. The issue affects KVM/arm64 environments where nested virtualization is enabled, creating a serious risk for multi-tenant cloud infrastructure and systems that allow untrusted users to create virtual machines. Security researcher Hyunwoo Kim [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kvm-arm64-vulnerability/\">Linux KVM/arm64 Vulnerability Lets Attackers Escape Virtual Machines and Gain Host Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164375"
+        },
+        {
+          "title": "Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows",
+          "url": "https://cybersecuritynews.com/veeam-agent-flaw-exploited/",
+          "published": "Tue, 22 Sep 2026 12:55:07 +0000",
+          "published_utc": "2026-09-22T12:55:07+00:00",
+          "summary": "<p>A critical local privilege escalation flaw in Veeam Agent for Microsoft Windows is drawing attention after public proof-of-concept exploit code became available. The vulnerability, tracked as CVE-2026-32996, could let a low-privileged local user run commands with NT AUTHORITY\\SYSTEM permissions on affected Windows devices. Technical details and exploit code were publicly released on September 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/veeam-agent-flaw-exploited/\">Veeam Agent Flaw Actively Exploited to Gain SYSTEM Privileges on Windows</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164366"
+        },
+        {
+          "title": "Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases",
+          "url": "https://cybersecuritynews.com/red-hat-openshift-flaw/",
+          "published": "Tue, 22 Sep 2026 12:49:43 +0000",
+          "published_utc": "2026-09-22T12:49:43+00:00",
+          "summary": "<p>Red Hat has disclosed an Important security vulnerability in the OpenShift oc-mirror tool that could allow attackers to bypass PGP signature verification and introduce malicious release images into disconnected OpenShift environments. Tracked as CVE-2026-75939, the issue carries a CVSS v3.1 score of 7.4 and was made public on September 21, 2026. The flaw affects the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/red-hat-openshift-flaw/\">Red Hat OpenShift Flaw Lets Attackers Bypass PGP Checks and Push Malicious Releases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164359"
+        },
+        {
+          "title": "BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files",
+          "url": "https://cybersecuritynews.com/bambootoken-linux-backdoor/",
+          "published": "Tue, 22 Sep 2026 12:29:37 +0000",
+          "published_utc": "2026-09-22T12:29:37+00:00",
+          "summary": "<p>BambooToken is a Linux backdoor that turns a lightweight messaging protocol into a remote control channel. The newly analysed sample can collect information about a host, run shell commands, and move files between a compromised machine and its operator. Its use of MQTT is notable because the protocol is common in connected-device environments and uses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bambootoken-linux-backdoor/\">BambooToken Linux Backdoor Uses MQTT C2 to Execute Shell Commands and Exfiltrate Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164348"
+        },
         {
           "title": "Hackers Clone Legitimate Websites to Silently Trigger Chrome and Windows Zero-Day Exploits",
           "url": "https://cybersecuritynews.com/hackers-clone-legitimate-websites/",
@@ -39,70 +184,6 @@
           "published_utc": "2026-09-22T10:50:04+00:00",
           "summary": "<p>Aikido Security has unveiled Altar-1, an open-weight artificial intelligence model designed to run defensive cybersecurity workloads entirely inside an organization’s own infrastructure. The model aims to help security teams use advanced AI for vulnerability discovery and penetration testing without sending source code, internal documentation, or security findings to external cloud-based inference services. Altar-1 is built [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aikido-security-unveils-altar-1/\">Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=164302"
-        },
-        {
-          "title": "Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks",
-          "url": "https://cybersecuritynews.com/context-bombs/",
-          "published": "Tue, 22 Sep 2026 10:21:44 +0000",
-          "published_utc": "2026-09-22T10:21:44+00:00",
-          "summary": "<p>A hidden “context bomb” prompt in a cloud decoy can disrupt AI agents and force Qwen3.8-27B to stop simulated attacks. The technique worked against both the original and modified “abliterated” versions. Context bombs are defensive strings placed in vulnerable resources, like AWS Secrets Manager. When an AI agent scans the environment and encounters this embedded [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/context-bombs/\">Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164290"
-        },
-        {
-          "title": "GHAPPIER Supply Chain Attack Compromises 65 GitHub Repositories and Poisons npm Package",
-          "url": "https://cybersecuritynews.com/ghappier-supply-chain-attack/",
-          "published": "Tue, 22 Sep 2026 10:21:22 +0000",
-          "published_utc": "2026-09-22T10:21:22+00:00",
-          "summary": "<p>A newly uncovered software supply chain attack has shown how quickly a trusted developer account can become a delivery route for malware. The operation, tracked as GHAPPIER, reached 65 GitHub repositories, infecting 73 files across 22 accounts. It involved a legitimate npm package that distributed a malicious loader to users. Attackers used access to a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghappier-supply-chain-attack/\">GHAPPIER Supply Chain Attack Compromises 65 GitHub Repositories and Poisons npm Package</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164337"
-        },
-        {
-          "title": "Hackers Exploit WordPress Flaws to Steal 18,566 Government Records and Plaintext Passwords",
-          "url": "https://cybersecuritynews.com/wordpress-flaws/",
-          "published": "Tue, 22 Sep 2026 09:51:53 +0000",
-          "published_utc": "2026-09-22T09:51:53+00:00",
-          "summary": "<p>A suspected Chinese-speaking threat actor has used WordPress vulnerabilities to break into at least 49 organizations across 29 countries. The campaign exposed how a compromised website can become a launchpad for database theft, credential abuse, and wider network intrusion. The attackers exploited the wp2shell chain, tracked as CVE-2026-63030 and CVE-2026-60137, against vulnerable WordPress installations. After [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-flaws/\">Hackers Exploit WordPress Flaws to Steal 18,566 Government Records and Plaintext Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164311"
-        },
-        {
-          "title": "Windows COM Flaw Lets Attackers Gain SYSTEM Privileges With a Malicious DLL",
-          "url": "https://cybersecuritynews.com/windows-com-system-privilege-escalation/",
-          "published": "Tue, 22 Sep 2026 09:45:30 +0000",
-          "published_utc": "2026-09-22T09:45:30+00:00",
-          "summary": "<p>A newly detailed Windows privilege escalation flaw tracked as CVE-2026-66804 allowed a standard, low-privileged user to plant a malicious DLL and execute arbitrary code with full NT AUTHORITY\\SYSTEM privileges, exploiting a lingering weakness in how Windows handles Component Object Model (COM) registrations. The bug, patched by Microsoft in its August Patch Tuesday, was reported by [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-com-system-privilege-escalation/\">Windows COM Flaw Lets Attackers Gain SYSTEM Privileges With a Malicious DLL</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164313"
-        },
-        {
-          "title": "D-Link Router Hit by CVSS 10.0 Flaw Exploitable Remotely Without Authentication",
-          "url": "https://cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw/",
-          "published": "Tue, 22 Sep 2026 08:47:17 +0000",
-          "published_utc": "2026-09-22T08:47:17+00:00",
-          "summary": "<p>D-Link Systems has disclosed that it is investigating a critical security vulnerability in its DIR-822A router, tracked as CVE-2026-86296. The flaw has received the maximum CVSS severity score of 10.0. It may allow remote attackers to compromise vulnerable devices without authentication or user interaction. The issue affects the udhcpcd component in the reported DIR-822A firmware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw/\">D-Link Router Hit by CVSS 10.0 Flaw Exploitable Remotely Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164273"
-        },
-        {
-          "title": "Vidar Malware Rewrites Its Obfuscation With Every Build to Make Detection Harder",
-          "url": "https://cybersecuritynews.com/vidar-malware/",
-          "published": "Tue, 22 Sep 2026 08:40:13 +0000",
-          "published_utc": "2026-09-22T08:40:13+00:00",
-          "summary": "<p>Vidar has spent years stealing the data people keep closest: saved passwords, browser cookies, wallet files and system details. Now its operators have changed a less visible part of the malware, making the code harder for defenders to recognise before it runs. First seen in 2018, Vidar is an information stealer that has remained active [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vidar-malware/\">Vidar Malware Rewrites Its Obfuscation With Every Build to Make Detection Harder</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164301"
-        },
-        {
-          "title": "Hackers Steal NTDS.dit to Dump Active Directory Password Hashes and Forge Golden Tickets",
-          "url": "https://cybersecuritynews.com/hackers-steal-ntds-dit/",
-          "published": "Tue, 22 Sep 2026 08:02:10 +0000",
-          "published_utc": "2026-09-22T08:02:10+00:00",
-          "summary": "<p>Threat actors that gain a foothold in a Windows network are increasingly aiming for the domain controller, the server that manages identities and permissions. A successful theft of its Active Directory database can expose password material for every account in the domain. That single step can transform a local intrusion into a far wider breach. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-steal-ntds-dit/\">Hackers Steal NTDS.dit to Dump Active Directory Password Hashes and Forge Golden Tickets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164274"
-        },
-        {
-          "title": "Top 10 Best Identity Threat Detection & Response (ITDR) Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-itdr-tools/",
-          "published": "Tue, 22 Sep 2026 07:59:29 +0000",
-          "published_utc": "2026-09-22T07:59:29+00:00",
-          "summary": "<p>The modern breach doesn’t kick the door in it signs in. Stolen sessions, abused service accounts, and helpdesk-reset social engineering made identity the primary attack surface, and Identity Threat Detection and Response (ITDR) solutions the fastest-growing detection category. We scored ten tools on detection breadth, response capability, and estate coverage. Microsoft Defender for Identity ranks [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-itdr-tools/\">Top 10 Best Identity Threat Detection &#038; Response (ITDR) Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164166"
         }
       ],
       "error": ""

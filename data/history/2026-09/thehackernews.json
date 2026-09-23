@@ -2,8 +2,120 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 80,
+  "article_count": 84,
   "articles": [
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "url": "http://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "published": "Wed, 23 Sep 2026 16:53:10 +0000",
+      "published_utc": "2026-09-23T16:53:10+00:00",
+      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3297456565163514525",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "content_hash": "3476beda243fc60f411e37b42b730a72c5883dec0294ab9726ed0b30dc41f55b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3476beda243fc60f411e37b42b730a72c5883dec0294ab9726ed0b30dc41f55b",
+        "FEEDBURNER": "3476beda243fc60f411e37b42b730a72c5883dec0294ab9726ed0b30dc41f55b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "url": "http://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "published": "Wed, 23 Sep 2026 16:06:41 +0000",
+      "published_utc": "2026-09-23T16:06:41+00:00",
+      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5631030368940879288",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "content_hash": "85df3499fa786776d9f258986dfda6caa8c56373d63ccab637544b17d63c3967",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "85df3499fa786776d9f258986dfda6caa8c56373d63ccab637544b17d63c3967",
+        "FEEDBURNER": "85df3499fa786776d9f258986dfda6caa8c56373d63ccab637544b17d63c3967"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "url": "http://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "published": "Wed, 23 Sep 2026 14:17:58 +0000",
+      "published_utc": "2026-09-23T14:17:58+00:00",
+      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1567801543956448261",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "content_hash": "a50831e2d265de8a250e4917243bbbb9fe9a945a5621135b09d359fe569066f1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a50831e2d265de8a250e4917243bbbb9fe9a945a5621135b09d359fe569066f1",
+        "FEEDBURNER": "a50831e2d265de8a250e4917243bbbb9fe9a945a5621135b09d359fe569066f1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "url": "http://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "published": "Wed, 23 Sep 2026 13:52:46 +0000",
+      "published_utc": "2026-09-23T13:52:46+00:00",
+      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -\n\n\n  @memtensor/memos-cloud-openclaw-plugin versions",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2299348089347392316",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "content_hash": "478ff7cffd7beff4af6d6ea00e44f27095010b90c19892d760d3c95eae03bdcb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "478ff7cffd7beff4af6d6ea00e44f27095010b90c19892d760d3c95eae03bdcb",
+        "FEEDBURNER": "478ff7cffd7beff4af6d6ea00e44f27095010b90c19892d760d3c95eae03bdcb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
     {
       "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
       "url": "http://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",

@@ -1,12 +1,348 @@
 {
   "date": "2026-09-23",
-  "article_count": 43,
+  "article_count": 55,
   "sources": {
-    "gbhackers": 21,
-    "cybersecuritynews": 14,
-    "thehackernews": 8
+    "thehackernews": 12,
+    "cybersecuritynews": 22,
+    "gbhackers": 21
   },
   "articles": [
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "url": "http://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "published": "Wed, 23 Sep 2026 16:53:10 +0000",
+      "published_utc": "2026-09-23T16:53:10+00:00",
+      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3297456565163514525",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "content_hash": "3476beda243fc60f411e37b42b730a72c5883dec0294ab9726ed0b30dc41f55b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3476beda243fc60f411e37b42b730a72c5883dec0294ab9726ed0b30dc41f55b",
+        "FEEDBURNER": "3476beda243fc60f411e37b42b730a72c5883dec0294ab9726ed0b30dc41f55b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "url": "http://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "published": "Wed, 23 Sep 2026 16:06:41 +0000",
+      "published_utc": "2026-09-23T16:06:41+00:00",
+      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5631030368940879288",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "content_hash": "85df3499fa786776d9f258986dfda6caa8c56373d63ccab637544b17d63c3967",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "85df3499fa786776d9f258986dfda6caa8c56373d63ccab637544b17d63c3967",
+        "FEEDBURNER": "85df3499fa786776d9f258986dfda6caa8c56373d63ccab637544b17d63c3967"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "GitLab Email Feature Vulnerability Lets Attackers Push Code Into Private Repositories",
+      "url": "https://cybersecuritynews.com/gitlab-email-private-repository-flaw/",
+      "published": "Wed, 23 Sep 2026 15:40:39 +0000",
+      "published_utc": "2026-09-23T15:40:39+00:00",
+      "summary": "<p>GitLab’s “Email work item to this project” feature can become a repository-compromise primitive when its private address is exposed, according to research published by Aikido Security researcher Joe Leon on September 23, 2026. The address contains a long-lived glimt- incoming-email token that GitLab says does not expire and must remain secret. GitLab documentation confirms that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-email-private-repository-flaw/\">GitLab Email Feature Vulnerability Lets Attackers Push Code Into Private Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164580",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/gitlab-email-private-repository-flaw",
+      "content_hash": "3752e18b7ddf960280599f1ee69baded39e896aad1b730bc13a7474d5b135dc5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3752e18b7ddf960280599f1ee69baded39e896aad1b730bc13a7474d5b135dc5",
+        "FEEDBURNER": "3752e18b7ddf960280599f1ee69baded39e896aad1b730bc13a7474d5b135dc5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "The Visibility Gap in Phishing Detection: Where Sandboxing Makes a Difference",
+      "url": "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference/",
+      "published": "Wed, 23 Sep 2026 15:40:01 +0000",
+      "published_utc": "2026-09-23T15:40:01+00:00",
+      "summary": "<p>The difficult part of phishing detection for a security team often begins after the initial alert.&#160; A suspicious URL may look clean at first glance, leaving the analyst with a familiar question: Is this a false positive, or is there something hidden behind the link?&#160; Attackers are increasingly building phishing campaigns that change what happens [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference/\">The Visibility Gap in Phishing Detection: Where Sandboxing Makes a Difference </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164517",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference",
+      "content_hash": "d3d52d674ff33cfe9fc9d0fdae7593183aa5c1d67e3fd72d80486703b177c986",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d3d52d674ff33cfe9fc9d0fdae7593183aa5c1d67e3fd72d80486703b177c986",
+        "FEEDBURNER": "d3d52d674ff33cfe9fc9d0fdae7593183aa5c1d67e3fd72d80486703b177c986"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "Outerlimit Raises $16M to Build Zero Trust Security Layer for Autonomous AI Agents",
+      "url": "https://cybersecuritynews.com/outerlimit-ai-agent-zero-trust/",
+      "published": "Wed, 23 Sep 2026 15:24:38 +0000",
+      "published_utc": "2026-09-23T15:24:38+00:00",
+      "summary": "<p>Outerlimit has emerged from stealth with $16 million in pre-seed funding to develop a decentralized security and authorization layer for autonomous AI agents. Announced on September 22, 2026, the round was backed by AlbionVC, Evolution Equity Partners, and Crane Venture Partners, making it one of cybersecurity’s largest pre-seed raises, according to the company. The London- [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/outerlimit-ai-agent-zero-trust/\">Outerlimit Raises $16M to Build Zero Trust Security Layer for Autonomous AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164571",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/outerlimit-ai-agent-zero-trust",
+      "content_hash": "ba46fe89a5bd5dc778258d20eea49036e7d584cbeeb74507529dbe4780da3257",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ba46fe89a5bd5dc778258d20eea49036e7d584cbeeb74507529dbe4780da3257",
+        "FEEDBURNER": "ba46fe89a5bd5dc778258d20eea49036e7d584cbeeb74507529dbe4780da3257"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "New Cpanel Vulnerability Allows Attackers to Access Other Users’ Accounts",
+      "url": "https://cybersecuritynews.com/cpanel-user-account-access-flaw/",
+      "published": "Wed, 23 Sep 2026 15:18:34 +0000",
+      "published_utc": "2026-09-23T15:18:34+00:00",
+      "summary": "<p>cPanel has patched three newly disclosed security vulnerabilities that threaten tenant isolation on shared-hosting servers, including a permissions flaw that exposes other users’ calendars and contacts. The September 22, 2026, security release addresses CVE-2026-68490 alongside a root privilege-escalation bug and a WP Toolkit cross-account database vulnerability, making immediate updates essential for hosting providers and server [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cpanel-user-account-access-flaw/\">New Cpanel Vulnerability Allows Attackers to Access Other Users&#8217; Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164555",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cpanel-user-account-access-flaw",
+      "content_hash": "5735a8552dd2e68414d3e2805d92dc12c12e7761c095a41cf0f85b44e3d6c355",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5735a8552dd2e68414d3e2805d92dc12c12e7761c095a41cf0f85b44e3d6c355",
+        "FEEDBURNER": "5735a8552dd2e68414d3e2805d92dc12c12e7761c095a41cf0f85b44e3d6c355"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "Critical IBM FTM Flaws Let Attackers Execute Code and Access Payment Systems",
+      "url": "https://cybersecuritynews.com/critical-ibm-ftm-flaws/",
+      "published": "Wed, 23 Sep 2026 14:43:31 +0000",
+      "published_utc": "2026-09-23T14:43:31+00:00",
+      "summary": "<p>IBM has released security fixes for Financial Transaction Manager for Red Hat OpenShift after identifying multiple vulnerabilities that could enable remote code execution, unauthorized payment actions, credential theft, data exposure, and service disruption. The most severe flaws carry CVSS scores of up to 9.9 and affect FTM versions 4.0.6.0 through 4.0.10.0. Financial Transaction Manager is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-ibm-ftm-flaws/\">Critical IBM FTM Flaws Let Attackers Execute Code and Access Payment Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164516",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-ibm-ftm-flaws",
+      "content_hash": "f7286b2ea6e14139f48aed7ef73d708cc496323d69d204957c9503ec5b57cc81",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f7286b2ea6e14139f48aed7ef73d708cc496323d69d204957c9503ec5b57cc81",
+        "FEEDBURNER": "f7286b2ea6e14139f48aed7ef73d708cc496323d69d204957c9503ec5b57cc81"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "Ryuk Ransomware Operator Sentenced for Deploying Malware and Extorting Victim Networks",
+      "url": "https://cybersecuritynews.com/ryuk-ransomware-operator-sentenced/",
+      "published": "Wed, 23 Sep 2026 14:28:35 +0000",
+      "published_utc": "2026-09-23T14:28:35+00:00",
+      "summary": "<p>An Armenian national extradited from Ukraine to the United States has been sentenced to federal prison for his role in Ryuk ransomware attacks that targeted organizations worldwide, including a company in Oregon. Karen Vardanyan, 35, received a 24-month federal prison sentence followed by 3 years of supervised release, according to the U.S. Attorney’s Office for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ryuk-ransomware-operator-sentenced/\">Ryuk Ransomware Operator Sentenced for Deploying Malware and Extorting Victim Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164548",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ryuk-ransomware-operator-sentenced",
+      "content_hash": "78a144fbc882ab3c73c73a7c847144d51283a557e54cf94ec770ee2d4bd37bc8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "78a144fbc882ab3c73c73a7c847144d51283a557e54cf94ec770ee2d4bd37bc8",
+        "FEEDBURNER": "78a144fbc882ab3c73c73a7c847144d51283a557e54cf94ec770ee2d4bd37bc8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "AWS Lambda Flaw Lets Attackers Bypass IAM Permissions and Access Cloud Services",
+      "url": "https://cybersecuritynews.com/aws-lambda-flaw/",
+      "published": "Wed, 23 Sep 2026 14:23:53 +0000",
+      "published_utc": "2026-09-23T14:23:53+00:00",
+      "summary": "<p>AWS disclosed a high-severity authorization flaw in its Amazon Connect Salesforce Lambda application that could let attackers perform privileged cloud actions beyond their assigned IAM permissions. The vulnerability, tracked as CVE-2026-94384, affects the sfExecuteAWSService Lambda function included with AmazonConnectSalesforceLambda versions 5.15 through 5.24.16. AmazonConnectSalesforceLambda is a Serverless Application Repository application designed to integrate Amazon Connect [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-lambda-flaw/\">AWS Lambda Flaw Lets Attackers Bypass IAM Permissions and Access Cloud Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164536",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/aws-lambda-flaw",
+      "content_hash": "5b3173b295ee5e087d103fc5ec56dcc1822650156237e8e19cbefd4780756746",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5b3173b295ee5e087d103fc5ec56dcc1822650156237e8e19cbefd4780756746",
+        "FEEDBURNER": "5b3173b295ee5e087d103fc5ec56dcc1822650156237e8e19cbefd4780756746"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
+    {
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "url": "http://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "published": "Wed, 23 Sep 2026 14:17:58 +0000",
+      "published_utc": "2026-09-23T14:17:58+00:00",
+      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1567801543956448261",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "content_hash": "a50831e2d265de8a250e4917243bbbb9fe9a945a5621135b09d359fe569066f1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a50831e2d265de8a250e4917243bbbb9fe9a945a5621135b09d359fe569066f1",
+        "FEEDBURNER": "a50831e2d265de8a250e4917243bbbb9fe9a945a5621135b09d359fe569066f1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "url": "http://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "published": "Wed, 23 Sep 2026 13:52:46 +0000",
+      "published_utc": "2026-09-23T13:52:46+00:00",
+      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -\n\n\n  @memtensor/memos-cloud-openclaw-plugin versions",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2299348089347392316",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "content_hash": "478ff7cffd7beff4af6d6ea00e44f27095010b90c19892d760d3c95eae03bdcb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "478ff7cffd7beff4af6d6ea00e44f27095010b90c19892d760d3c95eae03bdcb",
+        "FEEDBURNER": "478ff7cffd7beff4af6d6ea00e44f27095010b90c19892d760d3c95eae03bdcb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:17.118115+00:00",
+      "first_seen_local": "2026-09-23T12:57:17.118112-05:00",
+      "last_updated_utc": "2026-09-23T17:57:17.118115+00:00",
+      "last_updated_local": "2026-09-23T12:57:17.118112-05:00"
+    },
+    {
+      "title": "Critical NEXT.JS Flaw Enables RCE Attacks Via Weaponized SVG File",
+      "url": "https://cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution/",
+      "published": "Wed, 23 Sep 2026 13:43:37 +0000",
+      "published_utc": "2026-09-23T13:43:37+00:00",
+      "summary": "<p>A critical Next.js vulnerability, tracked as CVE-2026-94545, affects the Node.js ImageResponse implementation in the next/og package and could allow remote code execution by exploiting malicious SVG content during image generation. The issue affects Next.js versions 16.2.0 through versions before 16.3.6. Developers are urged to upgrade to Next.js 16.3.6, which contains the security fix. The vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution/\">Critical NEXT.JS Flaw Enables RCE Attacks Via Weaponized SVG File</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164525",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-next-js-flaw-allows-remote-code-execution",
+      "content_hash": "b997ebd4416238309ccf293896695943afa0bd134da20e13c22515f597f7b7a8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b997ebd4416238309ccf293896695943afa0bd134da20e13c22515f597f7b7a8",
+        "FEEDBURNER": "b997ebd4416238309ccf293896695943afa0bd134da20e13c22515f597f7b7a8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T17:57:11.177837+00:00",
+      "first_seen_local": "2026-09-23T12:57:11.177833-05:00",
+      "last_updated_utc": "2026-09-23T17:57:11.177837+00:00",
+      "last_updated_local": "2026-09-23T12:57:11.177833-05:00"
+    },
     {
       "title": "Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials",
       "url": "https://gbhackers.com/fake-crypto-wallet-app/",

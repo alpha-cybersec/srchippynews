@@ -10,8 +10,40 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 8,
+      "article_count": 12,
       "articles": [
+        {
+          "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+          "url": "http://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+          "published": "Wed, 23 Sep 2026 16:53:10 +0000",
+          "published_utc": "2026-09-23T16:53:10+00:00",
+          "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3297456565163514525"
+        },
+        {
+          "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+          "url": "http://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+          "published": "Wed, 23 Sep 2026 16:06:41 +0000",
+          "published_utc": "2026-09-23T16:06:41+00:00",
+          "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5631030368940879288"
+        },
+        {
+          "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+          "url": "http://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+          "published": "Wed, 23 Sep 2026 14:17:58 +0000",
+          "published_utc": "2026-09-23T14:17:58+00:00",
+          "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1567801543956448261"
+        },
+        {
+          "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+          "url": "http://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+          "published": "Wed, 23 Sep 2026 13:52:46 +0000",
+          "published_utc": "2026-09-23T13:52:46+00:00",
+          "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -\n\n\n  @memtensor/memos-cloud-openclaw-plugin versions",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2299348089347392316"
+        },
         {
           "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
           "url": "http://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
@@ -87,8 +119,40 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 8,
+      "article_count": 12,
       "articles": [
+        {
+          "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+          "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+          "published": "Wed, 23 Sep 2026 22:23:10 +0530",
+          "published_utc": "2026-09-23T16:53:10+00:00",
+          "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+          "id": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
+        },
+        {
+          "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+          "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+          "published": "Wed, 23 Sep 2026 21:36:41 +0530",
+          "published_utc": "2026-09-23T16:06:41+00:00",
+          "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+          "id": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html"
+        },
+        {
+          "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+          "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+          "published": "Wed, 23 Sep 2026 19:47:58 +0530",
+          "published_utc": "2026-09-23T14:17:58+00:00",
+          "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
+          "id": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html"
+        },
+        {
+          "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+          "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+          "published": "Wed, 23 Sep 2026 19:22:46 +0530",
+          "published_utc": "2026-09-23T13:52:46+00:00",
+          "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -\n\n\n  @memtensor/memos-cloud-openclaw-plugin versions",
+          "id": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html"
+        },
         {
           "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
           "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",

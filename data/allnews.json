@@ -1,420 +1,770 @@
 {
-  "generated_at_utc": "2026-09-23T07:41:09.754664+00:00",
-  "generated_at_local": "2026-09-23T02:41:09.754671-05:00",
-  "article_count": 15,
-  "new_count": 15,
+  "generated_at_utc": "2026-09-23T13:35:00.920596+00:00",
+  "generated_at_local": "2026-09-23T08:35:00.920602-05:00",
+  "article_count": 28,
+  "new_count": 28,
   "updated_count": 0,
   "sources": {
-    "gbhackers": 9,
-    "cybersecuritynews": 4,
-    "thehackernews": 2
+    "gbhackers": 12,
+    "cybersecuritynews": 10,
+    "thehackernews": 6
   },
   "articles": [
     {
-      "title": "Cisco Talos Launches CAIRN Tool to Hunt and Track AI-Integrated Malware",
-      "url": "https://gbhackers.com/cisco-talos-launches-cairn-tool-to-hunt-and-track-ai-integrated-malware/",
-      "published": "Wed, 23 Sep 2026 07:39:43 +0000",
-      "published_utc": "2026-09-23T07:39:43+00:00",
-      "summary": "<p>Cisco Talos has released CAIRN, an open-source research toolkit that helps defenders hunt, classify, and track malware that uses artificial intelligence in attack operations. The Cognitive Artifact Intelligence Research Network uses a metadata-first approach, allowing analysts to identify AI-linked malware artifacts without downloading or executing suspicious binaries. CAIRN focuses on what Talos refers to as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-talos-launches-cairn-tool-to-hunt-and-track-ai-integrated-malware/\">Cisco Talos Launches CAIRN Tool to Hunt and Track AI-Integrated Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200685",
+      "title": "Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials",
+      "url": "https://gbhackers.com/fake-crypto-wallet-app/",
+      "published": "Wed, 23 Sep 2026 13:21:30 +0000",
+      "published_utc": "2026-09-23T13:21:30+00:00",
+      "summary": "<p>A new variant of the macOS infostealer PamStealer is being distributed through a fake cryptocurrency wallet application, using a server-assisted decryption chain and Swift-based payload to steal credentials, browser data, Keychain items and sensitive user files. The campaign impersonates a multichain wallet called Wavel and demonstrates a significant upgrade in both evasion and persistence capabilities. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-crypto-wallet-app/\">Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200785",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/cisco-talos-launches-cairn-tool-to-hunt-and-track-ai-integrated-malware",
-      "content_hash": "3a3f4b9b48771c53e5986f94d24ec539d792ffd33745ddeac806ff339616f8e6",
+      "article_key": "gbhackers.com/fake-crypto-wallet-app",
+      "content_hash": "d73e87c8017fd4a0989c0c51280df1441c08ec0a589e3d8adf9084bb8f542872",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "3a3f4b9b48771c53e5986f94d24ec539d792ffd33745ddeac806ff339616f8e6"
+        "ORIGINAL": "d73e87c8017fd4a0989c0c51280df1441c08ec0a589e3d8adf9084bb8f542872"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
     },
     {
-      "title": "AI-Powered Threats Exploit Digital Trust Through Autonomous Breach Techniques",
-      "url": "https://gbhackers.com/ai-exploits-digital-trust/",
-      "published": "Wed, 23 Sep 2026 07:31:46 +0000",
-      "published_utc": "2026-09-23T07:31:46+00:00",
-      "summary": "<p>The boundary between conventional conflict and cyber sabotage is narrowing as adversaries adopt artificial intelligence to industrialize deception, reconnaissance, and intrusion. In the post–Operation Epic Fury security environment, the most consequential shift for enterprises is not simply more malware or more phishing it is the emergence of autonomous breach operations that exploit legitimate identities, trusted [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-exploits-digital-trust/\">AI-Powered Threats Exploit Digital Trust Through Autonomous Breach Techniques</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200669",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-exploits-digital-trust",
-      "content_hash": "f097156dd28f4ffc8d6c0af1d01a174d52e9532d65c59077ff72949b0f9b6c6d",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f097156dd28f4ffc8d6c0af1d01a174d52e9532d65c59077ff72949b0f9b6c6d"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
-    },
-    {
-      "title": "ChatGPT Computer History Feature Creates New Attack Surface for macOS Infostealers",
-      "url": "https://cybersecuritynews.com/chatgpt-computer-history-feature/",
-      "published": "Wed, 23 Sep 2026 07:31:10 +0000",
-      "published_utc": "2026-09-23T07:31:10+00:00",
-      "summary": "<p>A new feature in ChatGPT now records your actions on your Mac, creating a detailed, plain-text diary of your work. This unencrypted log is vulnerable to cybercriminals, offering them an easy target. Released by OpenAI in mid-August 2026 and available only in the ChatGPT desktop app for macOS, the feature is called Computer History, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-computer-history-feature/\">ChatGPT Computer History Feature Creates New Attack Surface for macOS Infostealers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164483",
+      "title": "Fake Crypto Wallet App Spreads PamStealer Malware to Steal Mac Passwords",
+      "url": "https://cybersecuritynews.com/fake-crypto-wallet-app-spreads-pamstealer-malware-to-steal-mac-passwords/",
+      "published": "Wed, 23 Sep 2026 12:44:40 +0000",
+      "published_utc": "2026-09-23T12:44:40+00:00",
+      "summary": "<p>A fake cryptocurrency wallet download is delivering a new version of PamStealer to Mac users. The attack starts with a convincing website whose installer asks visitors to follow instructions. Running the disguised file starts a hidden chain that can capture the Mac login password and other personal data. This is the third known PamStealer variant. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-crypto-wallet-app-spreads-pamstealer-malware-to-steal-mac-passwords/\">Fake Crypto Wallet App Spreads PamStealer Malware to Steal Mac Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164539",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/chatgpt-computer-history-feature",
-      "content_hash": "7ff0d0f69895b1931f82f913e71636382a188c44dc6e2235cef315a82117913f",
+      "article_key": "cybersecuritynews.com/fake-crypto-wallet-app-spreads-pamstealer-malware-to-steal-mac-passwords",
+      "content_hash": "5416cd7c6680b249b0d0a4368d8156e2cb132b24cd7df8b2593c0e7e5376757f",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "7ff0d0f69895b1931f82f913e71636382a188c44dc6e2235cef315a82117913f"
+        "ORIGINAL": "5416cd7c6680b249b0d0a4368d8156e2cb132b24cd7df8b2593c0e7e5376757f"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:03.423891+00:00",
-      "first_seen_local": "2026-09-23T02:41:03.423888-05:00",
-      "last_updated_utc": "2026-09-23T07:41:03.423891+00:00",
-      "last_updated_local": "2026-09-23T02:41:03.423888-05:00"
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
     },
     {
-      "title": "Autonomous AI Agents Hack Online Retailers for $25 Per Target, Steal 600,000 Credit Cards",
-      "url": "https://gbhackers.com/autonomous-ai-agents-hack-online-retailers/",
-      "published": "Wed, 23 Sep 2026 07:26:43 +0000",
-      "published_utc": "2026-09-23T07:26:43+00:00",
-      "summary": "<p>A financially motivated threat actor used open-source autonomous AI agents to target hundreds of online retailers, stealing over 600,000 unexpired credit card records. The average cost per completed target is estimated at $25.46. This campaign, uncovered by Gambit Security, has been active since July 2026 and is still ongoing. Gambit Security reported that it recovered [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/autonomous-ai-agents-hack-online-retailers/\">Autonomous AI Agents Hack Online Retailers for $25 Per Target, Steal 600,000 Credit Cards</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200675",
+      "title": "Exvicy ClickFix Malware-as-a-Service Copies ErrTraffic to Hijack WordPress Sites",
+      "url": "https://gbhackers.com/exvicy-clickfix-malware/",
+      "published": "Wed, 23 Sep 2026 12:29:44 +0000",
+      "published_utc": "2026-09-23T12:29:44+00:00",
+      "summary": "<p>A new Malware-as-a-Service platform, Exvicy, is actively abusing compromised WordPress websites to deliver ClickFix lures disguised as Cloudflare Turnstile verification pages. Researchers at Sekoia assess with high confidence that the service is a copycat of the established ErrTraffic framework, reusing its JavaScript injection logic, fake-verification code, and command-and-control communication routines The actor initially rented the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exvicy-clickfix-malware/\">Exvicy ClickFix Malware-as-a-Service Copies ErrTraffic to Hijack WordPress Sites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200766",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/autonomous-ai-agents-hack-online-retailers",
-      "content_hash": "f73f09bd0d4fed3e0ae841d88f89d37d267cfa5133074397d047d20ab91dda2c",
+      "article_key": "gbhackers.com/exvicy-clickfix-malware",
+      "content_hash": "4d1723d7a15cded78089475f2ea65c42d4b3d2de4ce8e40099ed9237da36150e",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "f73f09bd0d4fed3e0ae841d88f89d37d267cfa5133074397d047d20ab91dda2c"
+        "ORIGINAL": "4d1723d7a15cded78089475f2ea65c42d4b3d2de4ce8e40099ed9237da36150e"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
     },
     {
-      "title": "This Malware Doesn’t Wait for Hackers—It Asks AI Models What to Do Next",
-      "url": "https://cybersecuritynews.com/ai-models/",
-      "published": "Wed, 23 Sep 2026 07:20:40 +0000",
-      "published_utc": "2026-09-23T07:20:40+00:00",
-      "summary": "<p>A Windows malware sample called CLOSEDQUORUM can choose its next move without waiting for an attacker to send instructions. Once configured and deployed, it asks AI models whether to steal data, hide in a process, or maintain access. The decision maker no longer needs a dedicated control server. The sample emerged from research into software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-models/\">This Malware Doesn’t Wait for Hackers—It Asks AI Models What to Do Next</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164472",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/ai-models",
-      "content_hash": "ea84c084855c51dc3e98f17bc92bcb0682005c2789e05df1d34fecf0d5e07024",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ea84c084855c51dc3e98f17bc92bcb0682005c2789e05df1d34fecf0d5e07024"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:03.423891+00:00",
-      "first_seen_local": "2026-09-23T02:41:03.423888-05:00",
-      "last_updated_utc": "2026-09-23T07:41:03.423891+00:00",
-      "last_updated_local": "2026-09-23T02:41:03.423888-05:00"
-    },
-    {
-      "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-      "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026/",
-      "published": "Wed, 23 Sep 2026 07:10:26 +0000",
-      "published_utc": "2026-09-23T07:10:26+00:00",
-      "summary": "<p>Chrome 153 &#38; iOS 27 Patches, Check Point + Cisco ISE + FortiGate Exploited, AI Weaponized, Cyclops Blink Returns &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from September 14–18, 2026. AI stayed at the center: an OpenAI agent swarm flooded [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200388",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026",
-      "content_hash": "49e1ff28d5ce5424654c40ff60c206592fe6953afbca2fa6792f9afabeab2b2c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "49e1ff28d5ce5424654c40ff60c206592fe6953afbca2fa6792f9afabeab2b2c",
-        "FEEDBURNER": "49e1ff28d5ce5424654c40ff60c206592fe6953afbca2fa6792f9afabeab2b2c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
-    },
-    {
-      "title": "Critical WordPress Core Vulnerability Lets Attackers Execute Code Without Logging In",
-      "url": "https://cybersecuritynews.com/wordpress-core-vulnerability/",
-      "published": "Wed, 23 Sep 2026 07:05:59 +0000",
-      "published_utc": "2026-09-23T07:05:59+00:00",
-      "summary": "<p>WordPress has released version 7.1.2 to address a critical security vulnerability that could allow unauthenticated attackers to execute code on vulnerable websites under specific conditions. Site administrators should update immediately because successful exploitation may not require attackers to log in or have a valid WordPress account. The flaw is tracked as CVE-2026-87902, and it affects [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-core-vulnerability/\">Critical WordPress Core Vulnerability Lets Attackers Execute Code Without Logging In</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164457",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/wordpress-core-vulnerability",
-      "content_hash": "318580adac089a7c08f6309ac7ff30b68d3c040c66551e87aeadcc9478562b2d",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "318580adac089a7c08f6309ac7ff30b68d3c040c66551e87aeadcc9478562b2d"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:03.423891+00:00",
-      "first_seen_local": "2026-09-23T02:41:03.423888-05:00",
-      "last_updated_utc": "2026-09-23T07:41:03.423891+00:00",
-      "last_updated_local": "2026-09-23T02:41:03.423888-05:00"
-    },
-    {
-      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-      "url": "http://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-      "published": "Wed, 23 Sep 2026 07:04:40 +0000",
-      "published_utc": "2026-09-23T07:04:40+00:00",
-      "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1352915429343942161",
+      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+      "url": "http://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "published": "Wed, 23 Sep 2026 12:16:00 +0000",
+      "published_utc": "2026-09-23T12:16:00+00:00",
+      "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts.\n\ncPanel has released fixed versions for both,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1441986270317655617",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-      "content_hash": "857b120e394b507c513ef4c6e7fff4c1a514d9ed3bb29f15aa6adbd095b82252",
+      "article_key": "thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "content_hash": "83a16119ff0003bcdc44ed22c4707980f1e13d1b1f7fd0bcb8fa2dfe2e7f40ef",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "857b120e394b507c513ef4c6e7fff4c1a514d9ed3bb29f15aa6adbd095b82252",
-        "FEEDBURNER": "857b120e394b507c513ef4c6e7fff4c1a514d9ed3bb29f15aa6adbd095b82252"
+        "ORIGINAL": "83a16119ff0003bcdc44ed22c4707980f1e13d1b1f7fd0bcb8fa2dfe2e7f40ef",
+        "FEEDBURNER": "83a16119ff0003bcdc44ed22c4707980f1e13d1b1f7fd0bcb8fa2dfe2e7f40ef"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:09.750220+00:00",
-      "first_seen_local": "2026-09-23T02:41:09.750218-05:00",
-      "last_updated_utc": "2026-09-23T07:41:09.750220+00:00",
-      "last_updated_local": "2026-09-23T02:41:09.750218-05:00"
+      "first_seen_utc": "2026-09-23T13:35:00.916736+00:00",
+      "first_seen_local": "2026-09-23T08:35:00.916735-05:00",
+      "last_updated_utc": "2026-09-23T13:35:00.916736+00:00",
+      "last_updated_local": "2026-09-23T08:35:00.916735-05:00"
     },
     {
-      "title": "Fake TV Streaming Ads Deliver StreamRat Malware for Remote Android Device Hijacking",
-      "url": "https://gbhackers.com/streamrat-malware/",
-      "published": "Wed, 23 Sep 2026 06:47:11 +0000",
-      "published_utc": "2026-09-23T06:47:11+00:00",
-      "summary": "<p>StreamRat, a newly identified Android banking trojan distributed through deceptive Meta and TikTok advertisements impersonating a free television-streaming service. The campaign, tracked as “Steamtv Esp.,” primarily targeted Spanish-speaking Android users and exposed an estimated 570,000 Meta users between June 11 and July 3, 2026, with Spain accounting for the overwhelming majority of observed targets. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/streamrat-malware/\">Fake TV Streaming Ads Deliver StreamRat Malware for Remote Android Device Hijacking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200661",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/streamrat-malware",
-      "content_hash": "fa8796cc7562383ef19032dc4fbd6391e0526360fa3085703d8e77de76681ea1",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "fa8796cc7562383ef19032dc4fbd6391e0526360fa3085703d8e77de76681ea1",
-        "FEEDBURNER": "fa8796cc7562383ef19032dc4fbd6391e0526360fa3085703d8e77de76681ea1"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
-    },
-    {
-      "title": "WordPress Malware Uses Hidden Plugin and Blockchain C2 to Stay Undetected",
-      "url": "https://cybersecuritynews.com/wordpress-malware/",
-      "published": "Wed, 23 Sep 2026 06:42:53 +0000",
-      "published_utc": "2026-09-23T06:42:53+00:00",
-      "summary": "<p>A newly identified WordPress malware strain is using a hidden plugin, stolen administrator access, and a blockchain-based command channel to remain active on compromised websites. The threat is built to survive common cleanup efforts while quietly collecting sensitive data from affected servers. The malware is installed as a must-use plugin, a type of WordPress component [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-malware/\">WordPress Malware Uses Hidden Plugin and Blockchain C2 to Stay Undetected</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164466",
+      "title": "The Domains Keep Disappearing, but the Malware Infrastructure Behind Them Never Moves",
+      "url": "https://cybersecuritynews.com/domains-keep-disappearing/",
+      "published": "Wed, 23 Sep 2026 11:53:15 +0000",
+      "published_utc": "2026-09-23T11:53:15+00:00",
+      "summary": "<p>Fake verification pages are steering people toward malware, but the web addresses behind the lures keep changing. Over five months, investigators tracked four different attack chains that began with the same hosting network, even as domains, downloads and command servers shifted. The pattern makes blocking individual websites a poor way to stop the first step. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/domains-keep-disappearing/\">The Domains Keep Disappearing, but the Malware Infrastructure Behind Them Never Moves</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164519",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/wordpress-malware",
-      "content_hash": "1c060d53a697d29921f83cd61071a8f8f4ecff48704e0508aeb61471a617a5fb",
+      "article_key": "cybersecuritynews.com/domains-keep-disappearing",
+      "content_hash": "3e443fa2eb42d26e3ecf9818a9ef4e1e8c379c20b2bbac01a8e1a2cb0e23d13f",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "1c060d53a697d29921f83cd61071a8f8f4ecff48704e0508aeb61471a617a5fb"
+        "ORIGINAL": "3e443fa2eb42d26e3ecf9818a9ef4e1e8c379c20b2bbac01a8e1a2cb0e23d13f"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:03.423891+00:00",
-      "first_seen_local": "2026-09-23T02:41:03.423888-05:00",
-      "last_updated_utc": "2026-09-23T07:41:03.423891+00:00",
-      "last_updated_local": "2026-09-23T02:41:03.423888-05:00"
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
     },
     {
-      "title": "Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control",
-      "url": "https://gbhackers.com/malware-driven-ai-models/",
-      "published": "Wed, 23 Sep 2026 05:52:17 +0000",
-      "published_utc": "2026-09-23T05:52:17+00:00",
-      "summary": "<p>A Windows malware implant named CLOSEDQUORUM that uses commercial large language models as an autonomous command-and-control layer, shifting tactical decisions from a human operator to an AI-driven voting system. The sample has not been confirmed in active attacks, but Talos linked development artifacts to criminal-forum activity associated with carding discussions dating to 2025. The discovery [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-driven-ai-models/\">Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200637",
+      "title": "HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access",
+      "url": "https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/",
+      "published": "Wed, 23 Sep 2026 11:47:34 +0000",
+      "published_utc": "2026-09-23T11:47:34+00:00",
+      "summary": "<p>Hewlett Packard Enterprise (HPE) has announced security updates for its Networking Analytics and Location Engine (ALE), addressing 10 vulnerabilities that could lead to complete appliance compromise and allow for root-level command execution. The most severe issues are identified as CVE-2026-76708 and CVE-2026-76709, both assigned a CVSS score of 9.8, and can be exploited remotely without [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/\">HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200760",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/malware-driven-ai-models",
-      "content_hash": "a6f0e07782760e2bcde9fd5052d3c89ab6f1322c93e24b145061a241b67cc5f9",
+      "article_key": "gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access",
+      "content_hash": "1d1fa81181f13228a4f0d87e4abf787ddd986c16a4ccd5bdf86750d8b85a8a04",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "a6f0e07782760e2bcde9fd5052d3c89ab6f1322c93e24b145061a241b67cc5f9",
-        "FEEDBURNER": "a6f0e07782760e2bcde9fd5052d3c89ab6f1322c93e24b145061a241b67cc5f9"
+        "ORIGINAL": "1d1fa81181f13228a4f0d87e4abf787ddd986c16a4ccd5bdf86750d8b85a8a04",
+        "FEEDBURNER": "1d1fa81181f13228a4f0d87e4abf787ddd986c16a4ccd5bdf86750d8b85a8a04"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
     },
     {
-      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-      "url": "http://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-      "published": "Wed, 23 Sep 2026 05:30:09 +0000",
-      "published_utc": "2026-09-23T05:30:09+00:00",
-      "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job,\" the group said in a statement posted on their dark",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-203008901218825936",
+      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "url": "http://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "published": "Wed, 23 Sep 2026 11:47:19 +0000",
+      "published_utc": "2026-09-23T11:47:19+00:00",
+      "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5953951710467275608",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-      "content_hash": "30999517c740845e0f1aa64a8290c3f5b08fdf34208a25d7c9dc2c7b9f49d6b8",
+      "article_key": "thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "content_hash": "14c09d6722ebd8da29e91282ee7720889de44746151ddfcc616339deebea5ec6",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "30999517c740845e0f1aa64a8290c3f5b08fdf34208a25d7c9dc2c7b9f49d6b8",
-        "FEEDBURNER": "30999517c740845e0f1aa64a8290c3f5b08fdf34208a25d7c9dc2c7b9f49d6b8"
+        "ORIGINAL": "14c09d6722ebd8da29e91282ee7720889de44746151ddfcc616339deebea5ec6",
+        "FEEDBURNER": "14c09d6722ebd8da29e91282ee7720889de44746151ddfcc616339deebea5ec6"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:09.750220+00:00",
-      "first_seen_local": "2026-09-23T02:41:09.750218-05:00",
-      "last_updated_utc": "2026-09-23T07:41:09.750220+00:00",
-      "last_updated_local": "2026-09-23T02:41:09.750218-05:00"
+      "first_seen_utc": "2026-09-23T13:35:00.916736+00:00",
+      "first_seen_local": "2026-09-23T08:35:00.916735-05:00",
+      "last_updated_utc": "2026-09-23T13:35:00.916736+00:00",
+      "last_updated_local": "2026-09-23T08:35:00.916735-05:00"
     },
     {
-      "title": "Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers",
-      "url": "https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/",
-      "published": "Wed, 23 Sep 2026 05:17:22 +0000",
-      "published_utc": "2026-09-23T05:17:22+00:00",
-      "summary": "<p>Check Point has issued an urgent security alert about CVE-2026-93616, a critical vulnerability involving directory traversal and arbitrary file uploads. This issue affects multiple management-server products and is actively being exploited in the wild. It allows unauthenticated attackers to upload and execute arbitrary scripts on exposed Check Point Management Servers. The vulnerability has a CVSS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/\">Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200645",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-exploit-check-point-0-day-flaw",
-      "content_hash": "9383298ce3dbc6c0dabe1a0116c73171cf4a71cd694e571f4513b6679339175a",
+      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+      "url": "http://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "published": "Wed, 23 Sep 2026 11:47:13 +0000",
+      "published_utc": "2026-09-23T11:47:13+00:00",
+      "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.\n\nOpus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8030533228806491528",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "content_hash": "760cfab4552e2ac004f6b2e790d53334edac04f5b68251f048e6f84e3952c137",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "9383298ce3dbc6c0dabe1a0116c73171cf4a71cd694e571f4513b6679339175a",
-        "FEEDBURNER": "9383298ce3dbc6c0dabe1a0116c73171cf4a71cd694e571f4513b6679339175a"
+        "ORIGINAL": "760cfab4552e2ac004f6b2e790d53334edac04f5b68251f048e6f84e3952c137",
+        "FEEDBURNER": "760cfab4552e2ac004f6b2e790d53334edac04f5b68251f048e6f84e3952c137"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
+      "first_seen_utc": "2026-09-23T13:35:00.916736+00:00",
+      "first_seen_local": "2026-09-23T08:35:00.916735-05:00",
+      "last_updated_utc": "2026-09-23T13:35:00.916736+00:00",
+      "last_updated_local": "2026-09-23T08:35:00.916735-05:00"
     },
     {
-      "title": "Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access",
-      "url": "https://gbhackers.com/stealthy-wordpress-malware/",
-      "published": "Wed, 23 Sep 2026 05:17:17 +0000",
-      "published_utc": "2026-09-23T05:17:17+00:00",
-      "summary": "<p>A newly analyzed WordPress malware implant combines must-use plugin persistence, hidden administrator accounts, credential theft, cross-site propagation, and Ethereum-based EtherHiding to create an unusually resilient backdoor. The malicious code masquerades as an automated health-check and reporting plugin, using plausible plugin metadata, an author name, and a repository link to reduce suspicion. It is installed as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stealthy-wordpress-malware/\">Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200627",
+      "title": "Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns",
+      "url": "https://gbhackers.com/malware-hosting-networks/",
+      "published": "Wed, 23 Sep 2026 11:40:52 +0000",
+      "published_utc": "2026-09-23T11:40:52+00:00",
+      "summary": "<p>Cybercriminals are rapidly rotating lure domains, cloud storage buckets and command-and-control channels, but one infrastructure component is proving far harder to replace: the bulletproof hosting network that delivers the initial fake verification page. Five months of monitoring linked four distinct malware delivery chains to AS202412, operated by OMEGATECH LTD, making the ASN not individual domains [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-hosting-networks/\">Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200745",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/stealthy-wordpress-malware",
-      "content_hash": "309bf52251ce46bf6a7d1bfd67f54a1782bc53ec9147f83ac7c3c5b6379821a1",
+      "article_key": "gbhackers.com/malware-hosting-networks",
+      "content_hash": "302ba7dd9daba07cd11944fce7e741c1f32d0f469d6f9c0d27cf0e48aa1af31d",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "309bf52251ce46bf6a7d1bfd67f54a1782bc53ec9147f83ac7c3c5b6379821a1",
-        "FEEDBURNER": "309bf52251ce46bf6a7d1bfd67f54a1782bc53ec9147f83ac7c3c5b6379821a1"
+        "ORIGINAL": "302ba7dd9daba07cd11944fce7e741c1f32d0f469d6f9c0d27cf0e48aa1af31d",
+        "FEEDBURNER": "302ba7dd9daba07cd11944fce7e741c1f32d0f469d6f9c0d27cf0e48aa1af31d"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
     },
     {
-      "title": "ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants",
-      "url": "https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/",
-      "published": "Wed, 23 Sep 2026 05:06:06 +0000",
-      "published_utc": "2026-09-23T05:06:06+00:00",
-      "summary": "<p>The cybercriminal group ShinyHunters has claimed to have breached systems linked to the FBI, obtaining highly sensitive information on “almost all” FBI employees and applicants. The FBI has confirmed that it is investigating claims of unauthorized activity affecting FBIjobs.gov but has not verified the alleged theft, its extent, or the attackers’ claimed entry method. ShinyHunters [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/\">ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200634",
+      "title": "SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code",
+      "url": "https://gbhackers.com/solarwinds-observability-flaws/",
+      "published": "Wed, 23 Sep 2026 11:32:55 +0000",
+      "published_utc": "2026-09-23T11:32:55+00:00",
+      "summary": "<p>SolarWinds has released SolarWinds Observability Self-Hosted version 2026.2.3 to address two critical remote code execution (RCE) vulnerabilities. These vulnerabilities could allow unauthenticated attackers to compromise exposed deployments under specific configurations. The vulnerabilities are tracked as CVE-2026-28324 and CVE-2026-28325, with CVSS severity scores of 9.8 and 8.8, respectively. This update was released on September 22, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/solarwinds-observability-flaws/\">SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200752",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data",
-      "content_hash": "9f4248843007012cce4546ae692fcef4f92070180e8078d83693083d6f780409",
+      "article_key": "gbhackers.com/solarwinds-observability-flaws",
+      "content_hash": "b0c04d4e952c60e45a26db0c793ae8b8ead3bb7a55ae9167a9b1c8ffcbd41825",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "9f4248843007012cce4546ae692fcef4f92070180e8078d83693083d6f780409",
-        "FEEDBURNER": "9f4248843007012cce4546ae692fcef4f92070180e8078d83693083d6f780409"
+        "ORIGINAL": "b0c04d4e952c60e45a26db0c793ae8b8ead3bb7a55ae9167a9b1c8ffcbd41825",
+        "FEEDBURNER": "b0c04d4e952c60e45a26db0c793ae8b8ead3bb7a55ae9167a9b1c8ffcbd41825"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-23T07:41:02.568558+00:00",
-      "first_seen_local": "2026-09-23T02:41:02.568555-05:00",
-      "last_updated_utc": "2026-09-23T07:41:02.568558+00:00",
-      "last_updated_local": "2026-09-23T02:41:02.568555-05:00"
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+      "url": "http://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "published": "Wed, 23 Sep 2026 11:12:18 +0000",
+      "published_utc": "2026-09-23T11:12:18+00:00",
+      "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22.\n\nThe flaw, tracked as&nbsp;CVE-2026-80521&nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst&nbsp;",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1070227164637203757",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "content_hash": "a9bc3ca2ee3c17f85f8bef861e1cbf9d86ec6f57050bd42250585bb48052ab96",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a9bc3ca2ee3c17f85f8bef861e1cbf9d86ec6f57050bd42250585bb48052ab96",
+        "FEEDBURNER": "a9bc3ca2ee3c17f85f8bef861e1cbf9d86ec6f57050bd42250585bb48052ab96"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:35:00.916736+00:00",
+      "first_seen_local": "2026-09-23T08:35:00.916735-05:00",
+      "last_updated_utc": "2026-09-23T13:35:00.916736+00:00",
+      "last_updated_local": "2026-09-23T08:35:00.916735-05:00"
+    },
+    {
+      "title": "NVIDIA Fixes Linux Component Flaws That Could Expose Sensitive System Information",
+      "url": "https://cybersecuritynews.com/nvidia-fixes-linux-component-flaws/",
+      "published": "Wed, 23 Sep 2026 11:05:30 +0000",
+      "published_utc": "2026-09-23T11:05:30+00:00",
+      "summary": "<p>NVIDIA released a security update for its Infrastructure Controller software for Linux, addressing 14 vulnerabilities that could let attackers access sensitive system information, execute code, alter data, or disrupt affected environments. The update, published in NVIDIA’s September 2026 Infrastructure Controller security bulletin, affects versions 0 through 1.9. NVIDIA recommends that organizations clone or update the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nvidia-fixes-linux-component-flaws/\">NVIDIA Fixes Linux Component Flaws That Could Expose Sensitive System Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164498",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/nvidia-fixes-linux-component-flaws",
+      "content_hash": "ce29effbb8355995032b75d3d6cb72e1e977ce748f6143038328d5090065cad3",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce29effbb8355995032b75d3d6cb72e1e977ce748f6143038328d5090065cad3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "The Phishing Kit That Turned Microsoft’s Login Flow Into an AI-Powered Fraud Machine",
+      "url": "https://cybersecuritynews.com/the-phishing-kit/",
+      "published": "Wed, 23 Sep 2026 10:59:51 +0000",
+      "published_utc": "2026-09-23T10:59:51+00:00",
+      "summary": "<p>EvilTokens turns a Microsoft sign-in into a route to corporate email fraud. The phishing kit, first seen in February 2026, tricks people into approving an attacker’s login through a real device code process without handing over a password. The lure usually arrives as an urgent email about an invoice, shared file, document signature or expiring [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/the-phishing-kit/\">The Phishing Kit That Turned Microsoft’s Login Flow Into an AI-Powered Fraud Machine</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164506",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/the-phishing-kit",
+      "content_hash": "955b3ee2cde2aa64f43a7a7998e70e5751e1fcab631c15e3a6f421edade7ca5f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "955b3ee2cde2aa64f43a7a7998e70e5751e1fcab631c15e3a6f421edade7ca5f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts",
+      "url": "https://gbhackers.com/eviltokens-ai-phishing/",
+      "published": "Wed, 23 Sep 2026 10:25:35 +0000",
+      "published_utc": "2026-09-23T10:25:35+00:00",
+      "summary": "<p>Microsoft has warned that the EvilTokens phishing-as-a-service platform has become a major driver of AI-enabled device-code phishing, compromising more than 12,000 email inboxes across over 10,000 organizations worldwide since emerging in February 2026. The operation, linked to the threat actor Microsoft tracks as Storm-2992, industrializes token theft, mailbox reconnaissance, and business email compromise at scale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/eviltokens-ai-phishing/\">Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200731",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/eviltokens-ai-phishing",
+      "content_hash": "5b32f769e82c1856285fd8c5fb311007e4bd068bf08d84559fa53fb9964e9fe6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5b32f769e82c1856285fd8c5fb311007e4bd068bf08d84559fa53fb9964e9fe6",
+        "FEEDBURNER": "5b32f769e82c1856285fd8c5fb311007e4bd068bf08d84559fa53fb9964e9fe6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT",
+      "url": "https://gbhackers.com/graphalgo-malware/",
+      "published": "Wed, 23 Sep 2026 10:00:39 +0000",
+      "published_utc": "2026-09-23T10:00:39+00:00",
+      "summary": "<p>A threat actor linked to the ongoing Graphalgo software supply-chain campaign has expanded beyond npm and PyPI, using malicious Terraform providers and Go modules to deliver a targeted Go-based remote access trojan (RAT). The activity is significant because it marks the first observed case of malware being distributed through Terraform providers, placing infrastructure-as-code workflows directly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/graphalgo-malware/\">Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200696",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/graphalgo-malware",
+      "content_hash": "8fea2465e895682f6772a144e2ce1531d35fa570e5c0068ad360165c25a069a4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8fea2465e895682f6772a144e2ce1531d35fa570e5c0068ad360165c25a069a4",
+        "FEEDBURNER": "8fea2465e895682f6772a144e2ce1531d35fa570e5c0068ad360165c25a069a4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation",
+      "url": "https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/",
+      "published": "Wed, 23 Sep 2026 09:25:02 +0000",
+      "published_utc": "2026-09-23T09:25:02+00:00",
+      "summary": "<p>NVIDIA has released version 2.0 of its Infrastructure Controller to address 14 vulnerabilities found in its Linux-based infrastructure management software. This update includes a critical flaw involving hard-coded credentials and multiple issues that could allow for code execution, privilege escalation, data manipulation, denial of service, and information disclosure. NVIDIA released the initial security bulletin on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/\">NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200720",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation",
+      "content_hash": "0acf3155fb811b86e18e860747f3144204a7f221b460a8d5e5a73e6e9aa5cc01",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0acf3155fb811b86e18e860747f3144204a7f221b460a8d5e5a73e6e9aa5cc01",
+        "FEEDBURNER": "0acf3155fb811b86e18e860747f3144204a7f221b460a8d5e5a73e6e9aa5cc01"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "The Malware Hiding in Developer Tools That Turned Terraform Providers Into Attack Paths",
+      "url": "https://cybersecuritynews.com/malware-hiding-in-developer-tools/",
+      "published": "Wed, 23 Sep 2026 09:22:31 +0000",
+      "published_utc": "2026-09-23T09:22:31+00:00",
+      "summary": "<p>Malware has moved into tools developers use to build and manage cloud infrastructure. A campaign linked to Graphalgo planted a remote access program in Terraform providers and Go software packages, turning routine development work into a possible route onto valuable machines. The packages did not behave like obvious malicious downloads. Some waited for particular inputs [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-hiding-in-developer-tools/\">The Malware Hiding in Developer Tools That Turned Terraform Providers Into Attack Paths</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164503",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malware-hiding-in-developer-tools",
+      "content_hash": "91bdb92072919e2b65b82c8dd0cc22ca1379d7739055cbcf9b2c13bbe683fff7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "91bdb92072919e2b65b82c8dd0cc22ca1379d7739055cbcf9b2c13bbe683fff7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen",
+      "url": "https://gbhackers.com/manageengine-rce-flaw/",
+      "published": "Wed, 23 Sep 2026 09:17:33 +0000",
+      "published_utc": "2026-09-23T09:17:33+00:00",
+      "summary": "<p>ManageEngine has addressed a critical remote code execution vulnerability in ADSelfService Plus, which could allow an unauthenticated attacker to execute arbitrary code as NT AUTHORITY\\SYSTEM from the Windows device’s logon screen. This vulnerability, identified as CVE-2026-74849, affects ADSelfService Plus builds 7000 and earlier that utilize the product’s GINA client. The issue lies within the GINA [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/manageengine-rce-flaw/\">ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200716",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/manageengine-rce-flaw",
+      "content_hash": "e2dda85963eeda6b88c5a0524e82dc1749947642762f42b7625f40ae77850d12",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e2dda85963eeda6b88c5a0524e82dc1749947642762f42b7625f40ae77850d12",
+        "FEEDBURNER": "e2dda85963eeda6b88c5a0524e82dc1749947642762f42b7625f40ae77850d12"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code",
+      "url": "https://gbhackers.com/critical-wordpress-flaw/",
+      "published": "Wed, 23 Sep 2026 09:10:16 +0000",
+      "published_utc": "2026-09-23T09:10:16+00:00",
+      "summary": "<p>WordPress has released version 7.1.2 to address a critical path-traversal vulnerability, tracked as CVE-2026-87902, which could allow unauthenticated remote code execution (RCE) under specific server and theme configurations. This flaw carries a CVSS v4 score of 9.2 and affects WordPress versions dating back to 4.7. Critical WordPress Flaw The issue arises from improper page-template resolution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-flaw/\">Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200712",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-wordpress-flaw",
+      "content_hash": "3df31726458c01cd03b97e3e4ce16f222cc4d9dc0c75a12c06bb4a993c0b9b05",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3df31726458c01cd03b97e3e4ce16f222cc4d9dc0c75a12c06bb4a993c0b9b05",
+        "FEEDBURNER": "3df31726458c01cd03b97e3e4ce16f222cc4d9dc0c75a12c06bb4a993c0b9b05"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "Chrome Update Fixes 108 Vulnerabilities Including Critical GPU, WebGL and ANGLE Flaws",
+      "url": "https://gbhackers.com/chrome-update-fixes-108-vulnerabilities/",
+      "published": "Wed, 23 Sep 2026 09:02:30 +0000",
+      "published_utc": "2026-09-23T09:02:30+00:00",
+      "summary": "<p>Google released Chrome version 154 to the Stable channel for Windows, macOS, and Linux, fixing 108 security vulnerabilities. This update addresses 11 critical flaws, including memory-safety issues in the ANGLE, GPU, and WebGL components, which could be significant targets for browser-based exploitation. For Linux users, Chrome version 154.0.8037.57 is being rolled out, while Windows and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-update-fixes-108-vulnerabilities/\">Chrome Update Fixes 108 Vulnerabilities Including Critical GPU, WebGL and ANGLE Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200708",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/chrome-update-fixes-108-vulnerabilities",
+      "content_hash": "c39ec2fb97a58a21b8ae7363a80bb1b4a5d3dbe1d4535b2a8c49cdafbc5b1880",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c39ec2fb97a58a21b8ae7363a80bb1b4a5d3dbe1d4535b2a8c49cdafbc5b1880"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "AI-Driven Cyberattacks Enter New Phase With Autonomous Fraud and Digital Trust Abuse",
+      "url": "https://cybersecuritynews.com/ai-driven-cyberattacks/",
+      "published": "Wed, 23 Sep 2026 08:59:52 +0000",
+      "published_utc": "2026-09-23T08:59:52+00:00",
+      "summary": "<p>Cyberattacks are increasingly built around familiar actions: signing in, approving a payment, or using a trusted app. Artificial intelligence can help attackers repeat those actions at speed, making financial fraud and network intrusion harder to spot before damage is done. The threats take different forms. Some automate parts of a network break-in, while others imitate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-driven-cyberattacks/\">AI-Driven Cyberattacks Enter New Phase With Autonomous Fraud and Digital Trust Abuse</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164495",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ai-driven-cyberattacks",
+      "content_hash": "f3b09bf38f5aa8db08db4787e18feedbd04d02706d3ac5218ed3314d93a27d26",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f3b09bf38f5aa8db08db4787e18feedbd04d02706d3ac5218ed3314d93a27d26"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "Microsoft SharePoint Flaw Lets Low-Privilege Attackers Execute Remote Code",
+      "url": "https://gbhackers.com/microsoft-sharepoint-flaw/",
+      "published": "Wed, 23 Sep 2026 08:53:20 +0000",
+      "published_utc": "2026-09-23T08:53:20+00:00",
+      "summary": "<p>A detailed Microsoft SharePoint vulnerability, tracked as CVE-2026-65660, allows authenticated, low-privileged users to execute arbitrary code on vulnerable on-premises SharePoint servers. Initially categorized as a spoofing issue, technical analysis shows this flaw can be exploited for authenticated remote code execution (RCE), including deploying fileless, in-memory webshells. Viettel Cyber Security researcher Dinh Ho Anh Khoa reported [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-sharepoint-flaw/\">Microsoft SharePoint Flaw Lets Low-Privilege Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200700",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-sharepoint-flaw",
+      "content_hash": "a4e393fc7c27acd816b3a4406d6ab20408b7e6f3ff80b6cb1e59e21aad03aca9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a4e393fc7c27acd816b3a4406d6ab20408b7e6f3ff80b6cb1e59e21aad03aca9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:54.987725+00:00",
+      "first_seen_local": "2026-09-23T08:34:54.987722-05:00",
+      "last_updated_utc": "2026-09-23T13:34:54.987725+00:00",
+      "last_updated_local": "2026-09-23T08:34:54.987722-05:00"
+    },
+    {
+      "title": "A Fake Streaming App Turned Android Phones Into Remote-Controlled Devices",
+      "url": "https://cybersecuritynews.com/a-fake-streaming-app/",
+      "published": "Wed, 23 Sep 2026 08:46:27 +0000",
+      "published_utc": "2026-09-23T08:46:27+00:00",
+      "summary": "<p>A free television offer led Android users to a dangerous download. Ads for a streaming service urged them to install an app that could give criminals control of their phones, rather than access to shows. The malware behind the campaign is called StreamRat. The ads targeted Spanish-speaking users in Spain. One campaign reached about 570,000 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/a-fake-streaming-app/\">A Fake Streaming App Turned Android Phones Into Remote-Controlled Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164474",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/a-fake-streaming-app",
+      "content_hash": "0827d702be2fcbd7f7fe81aced5416e6fa1910ea9cccb57679063efbaffdfc7a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0827d702be2fcbd7f7fe81aced5416e6fa1910ea9cccb57679063efbaffdfc7a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "url": "http://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "published": "Wed, 23 Sep 2026 08:29:48 +0000",
+      "published_utc": "2026-09-23T08:29:48+00:00",
+      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.\n\nThe flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3798492638808435311",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "content_hash": "c938d5481b9c5e6b98ebbf8814390e7a15a6bb5782fa9a0a81fd0e245b1af076",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c938d5481b9c5e6b98ebbf8814390e7a15a6bb5782fa9a0a81fd0e245b1af076",
+        "FEEDBURNER": "c938d5481b9c5e6b98ebbf8814390e7a15a6bb5782fa9a0a81fd0e245b1af076"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:35:00.916736+00:00",
+      "first_seen_local": "2026-09-23T08:35:00.916735-05:00",
+      "last_updated_utc": "2026-09-23T13:35:00.916736+00:00",
+      "last_updated_local": "2026-09-23T08:35:00.916735-05:00"
+    },
+    {
+      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+      "url": "http://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+      "published": "Wed, 23 Sep 2026 08:29:24 +0000",
+      "published_utc": "2026-09-23T08:29:24+00:00",
+      "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-965299642018611044",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+      "content_hash": "12a1ac9feef80aa898271552b425e96631130b20ec3016b80fe589556a155666",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "12a1ac9feef80aa898271552b425e96631130b20ec3016b80fe589556a155666",
+        "FEEDBURNER": "12a1ac9feef80aa898271552b425e96631130b20ec3016b80fe589556a155666"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:35:00.916736+00:00",
+      "first_seen_local": "2026-09-23T08:35:00.916735-05:00",
+      "last_updated_utc": "2026-09-23T13:35:00.916736+00:00",
+      "last_updated_local": "2026-09-23T08:35:00.916735-05:00"
+    },
+    {
+      "title": "Critical SolarWinds Flaws Let Attackers Remotely Execute Code on Observability Servers",
+      "url": "https://cybersecuritynews.com/solarwinds-flaws-execute-code-on-observability-servers/",
+      "published": "Wed, 23 Sep 2026 08:15:42 +0000",
+      "published_utc": "2026-09-23T08:15:42+00:00",
+      "summary": "<p>SolarWinds released Observability Self-Hosted 2026.2.3 to fix two serious vulnerabilities that could let unauthenticated attackers remotely execute code on affected observability servers. The flaws, tracked as CVE-2026-28324 and CVE-2026-28325, affect specific non-default configurations and communication modes. The update was released on September 22, 2026, and is especially important for organizations running SolarWinds Observability Self-Hosted in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/solarwinds-flaws-execute-code-on-observability-servers/\">Critical SolarWinds Flaws Let Attackers Remotely Execute Code on Observability Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164484",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/solarwinds-flaws-execute-code-on-observability-servers",
+      "content_hash": "7b64099d0c10dc3c08ff2808ce9a5a48ce9bd634ce0a9c5bdd4596a5af8a5f67",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7b64099d0c10dc3c08ff2808ce9a5a48ce9bd634ce0a9c5bdd4596a5af8a5f67"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "Top 10 Best Decentralized Identity Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-decentralized-identity/",
+      "published": "Wed, 23 Sep 2026 07:54:37 +0000",
+      "published_utc": "2026-09-23T07:54:37+00:00",
+      "summary": "<p>EU digital identity and GDPR compliance mandates, deepfake-driven fraud in authentication and verification, and credential-reuse fatigue pushed decentralized identity from conference-talk to contract. We scored ten players on standards depth, production evidence, and enterprise readiness and flagged the market’s churn honestly, because this category retires vendors faster than most. Microsoft Entra Verified ID ranks #1 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-decentralized-identity/\">Top 10 Best Decentralized Identity Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164329",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-decentralized-identity",
+      "content_hash": "7acdc7203b7835f75bfb7b64ee45a6a85814be02b75e43fb677559f328b42499",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7acdc7203b7835f75bfb7b64ee45a6a85814be02b75e43fb677559f328b42499"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
+    },
+    {
+      "title": "Critical ManageEngine Flaw Lets Attackers Gain SYSTEM Access Through Windows Login Screen",
+      "url": "https://cybersecuritynews.com/critical-manageengine-flaw/",
+      "published": "Wed, 23 Sep 2026 07:53:01 +0000",
+      "published_utc": "2026-09-23T07:53:01+00:00",
+      "summary": "<p>ManageEngine has fixed a critical remote code execution vulnerability in ADSelfService Plus that could allow an unauthenticated attacker to run code as NT AUTHORITY\\SYSTEM through a Windows device’s login screen. The flaw, tracked as CVE-2026-74849, affects the product’s GINA client in builds 7000 and earlier. Organizations should upgrade to build 7001 or later immediately. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-manageengine-flaw/\">Critical ManageEngine Flaw Lets Attackers Gain SYSTEM Access Through Windows Login Screen</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164462",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-manageengine-flaw",
+      "content_hash": "c523ef3731cc09fd728ef3169d975e5b34828b11c65b0318094777c4f82e3213",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c523ef3731cc09fd728ef3169d975e5b34828b11c65b0318094777c4f82e3213"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-23T13:34:55.590078+00:00",
+      "first_seen_local": "2026-09-23T08:34:55.590075-05:00",
+      "last_updated_utc": "2026-09-23T13:34:55.590078+00:00",
+      "last_updated_local": "2026-09-23T08:34:55.590075-05:00"
     }
   ]
 }

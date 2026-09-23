@@ -10,79 +10,87 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 9,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Cisco Talos Launches CAIRN Tool to Hunt and Track AI-Integrated Malware",
-          "url": "https://gbhackers.com/cisco-talos-launches-cairn-tool-to-hunt-and-track-ai-integrated-malware/",
-          "published": "Wed, 23 Sep 2026 07:39:43 +0000",
-          "published_utc": "2026-09-23T07:39:43+00:00",
-          "summary": "<p>Cisco Talos has released CAIRN, an open-source research toolkit that helps defenders hunt, classify, and track malware that uses artificial intelligence in attack operations. The Cognitive Artifact Intelligence Research Network uses a metadata-first approach, allowing analysts to identify AI-linked malware artifacts without downloading or executing suspicious binaries. CAIRN focuses on what Talos refers to as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-talos-launches-cairn-tool-to-hunt-and-track-ai-integrated-malware/\">Cisco Talos Launches CAIRN Tool to Hunt and Track AI-Integrated Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200685"
+          "title": "Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials",
+          "url": "https://gbhackers.com/fake-crypto-wallet-app/",
+          "published": "Wed, 23 Sep 2026 13:21:30 +0000",
+          "published_utc": "2026-09-23T13:21:30+00:00",
+          "summary": "<p>A new variant of the macOS infostealer PamStealer is being distributed through a fake cryptocurrency wallet application, using a server-assisted decryption chain and Swift-based payload to steal credentials, browser data, Keychain items and sensitive user files. The campaign impersonates a multichain wallet called Wavel and demonstrates a significant upgrade in both evasion and persistence capabilities. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-crypto-wallet-app/\">Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200785"
         },
         {
-          "title": "AI-Powered Threats Exploit Digital Trust Through Autonomous Breach Techniques",
-          "url": "https://gbhackers.com/ai-exploits-digital-trust/",
-          "published": "Wed, 23 Sep 2026 07:31:46 +0000",
-          "published_utc": "2026-09-23T07:31:46+00:00",
-          "summary": "<p>The boundary between conventional conflict and cyber sabotage is narrowing as adversaries adopt artificial intelligence to industrialize deception, reconnaissance, and intrusion. In the post–Operation Epic Fury security environment, the most consequential shift for enterprises is not simply more malware or more phishing it is the emergence of autonomous breach operations that exploit legitimate identities, trusted [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-exploits-digital-trust/\">AI-Powered Threats Exploit Digital Trust Through Autonomous Breach Techniques</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200669"
+          "title": "Exvicy ClickFix Malware-as-a-Service Copies ErrTraffic to Hijack WordPress Sites",
+          "url": "https://gbhackers.com/exvicy-clickfix-malware/",
+          "published": "Wed, 23 Sep 2026 12:29:44 +0000",
+          "published_utc": "2026-09-23T12:29:44+00:00",
+          "summary": "<p>A new Malware-as-a-Service platform, Exvicy, is actively abusing compromised WordPress websites to deliver ClickFix lures disguised as Cloudflare Turnstile verification pages. Researchers at Sekoia assess with high confidence that the service is a copycat of the established ErrTraffic framework, reusing its JavaScript injection logic, fake-verification code, and command-and-control communication routines The actor initially rented the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exvicy-clickfix-malware/\">Exvicy ClickFix Malware-as-a-Service Copies ErrTraffic to Hijack WordPress Sites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200766"
         },
         {
-          "title": "Autonomous AI Agents Hack Online Retailers for $25 Per Target, Steal 600,000 Credit Cards",
-          "url": "https://gbhackers.com/autonomous-ai-agents-hack-online-retailers/",
-          "published": "Wed, 23 Sep 2026 07:26:43 +0000",
-          "published_utc": "2026-09-23T07:26:43+00:00",
-          "summary": "<p>A financially motivated threat actor used open-source autonomous AI agents to target hundreds of online retailers, stealing over 600,000 unexpired credit card records. The average cost per completed target is estimated at $25.46. This campaign, uncovered by Gambit Security, has been active since July 2026 and is still ongoing. Gambit Security reported that it recovered [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/autonomous-ai-agents-hack-online-retailers/\">Autonomous AI Agents Hack Online Retailers for $25 Per Target, Steal 600,000 Credit Cards</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200675"
+          "title": "HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access",
+          "url": "https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/",
+          "published": "Wed, 23 Sep 2026 11:47:34 +0000",
+          "published_utc": "2026-09-23T11:47:34+00:00",
+          "summary": "<p>Hewlett Packard Enterprise (HPE) has announced security updates for its Networking Analytics and Location Engine (ALE), addressing 10 vulnerabilities that could lead to complete appliance compromise and allow for root-level command execution. The most severe issues are identified as CVE-2026-76708 and CVE-2026-76709, both assigned a CVSS score of 9.8, and can be exploited remotely without [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/\">HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200760"
         },
         {
-          "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-          "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026/",
-          "published": "Wed, 23 Sep 2026 07:10:26 +0000",
-          "published_utc": "2026-09-23T07:10:26+00:00",
-          "summary": "<p>Chrome 153 &#38; iOS 27 Patches, Check Point + Cisco ISE + FortiGate Exploited, AI Weaponized, Cyclops Blink Returns &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from September 14–18, 2026. AI stayed at the center: an OpenAI agent swarm flooded [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200388"
+          "title": "Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns",
+          "url": "https://gbhackers.com/malware-hosting-networks/",
+          "published": "Wed, 23 Sep 2026 11:40:52 +0000",
+          "published_utc": "2026-09-23T11:40:52+00:00",
+          "summary": "<p>Cybercriminals are rapidly rotating lure domains, cloud storage buckets and command-and-control channels, but one infrastructure component is proving far harder to replace: the bulletproof hosting network that delivers the initial fake verification page. Five months of monitoring linked four distinct malware delivery chains to AS202412, operated by OMEGATECH LTD, making the ASN not individual domains [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-hosting-networks/\">Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200745"
         },
         {
-          "title": "Fake TV Streaming Ads Deliver StreamRat Malware for Remote Android Device Hijacking",
-          "url": "https://gbhackers.com/streamrat-malware/",
-          "published": "Wed, 23 Sep 2026 06:47:11 +0000",
-          "published_utc": "2026-09-23T06:47:11+00:00",
-          "summary": "<p>StreamRat, a newly identified Android banking trojan distributed through deceptive Meta and TikTok advertisements impersonating a free television-streaming service. The campaign, tracked as “Steamtv Esp.,” primarily targeted Spanish-speaking Android users and exposed an estimated 570,000 Meta users between June 11 and July 3, 2026, with Spain accounting for the overwhelming majority of observed targets. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/streamrat-malware/\">Fake TV Streaming Ads Deliver StreamRat Malware for Remote Android Device Hijacking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200661"
+          "title": "SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code",
+          "url": "https://gbhackers.com/solarwinds-observability-flaws/",
+          "published": "Wed, 23 Sep 2026 11:32:55 +0000",
+          "published_utc": "2026-09-23T11:32:55+00:00",
+          "summary": "<p>SolarWinds has released SolarWinds Observability Self-Hosted version 2026.2.3 to address two critical remote code execution (RCE) vulnerabilities. These vulnerabilities could allow unauthenticated attackers to compromise exposed deployments under specific configurations. The vulnerabilities are tracked as CVE-2026-28324 and CVE-2026-28325, with CVSS severity scores of 9.8 and 8.8, respectively. This update was released on September 22, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/solarwinds-observability-flaws/\">SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200752"
         },
         {
-          "title": "Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control",
-          "url": "https://gbhackers.com/malware-driven-ai-models/",
-          "published": "Wed, 23 Sep 2026 05:52:17 +0000",
-          "published_utc": "2026-09-23T05:52:17+00:00",
-          "summary": "<p>A Windows malware implant named CLOSEDQUORUM that uses commercial large language models as an autonomous command-and-control layer, shifting tactical decisions from a human operator to an AI-driven voting system. The sample has not been confirmed in active attacks, but Talos linked development artifacts to criminal-forum activity associated with carding discussions dating to 2025. The discovery [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-driven-ai-models/\">Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200637"
+          "title": "Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts",
+          "url": "https://gbhackers.com/eviltokens-ai-phishing/",
+          "published": "Wed, 23 Sep 2026 10:25:35 +0000",
+          "published_utc": "2026-09-23T10:25:35+00:00",
+          "summary": "<p>Microsoft has warned that the EvilTokens phishing-as-a-service platform has become a major driver of AI-enabled device-code phishing, compromising more than 12,000 email inboxes across over 10,000 organizations worldwide since emerging in February 2026. The operation, linked to the threat actor Microsoft tracks as Storm-2992, industrializes token theft, mailbox reconnaissance, and business email compromise at scale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/eviltokens-ai-phishing/\">Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200731"
         },
         {
-          "title": "Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers",
-          "url": "https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/",
-          "published": "Wed, 23 Sep 2026 05:17:22 +0000",
-          "published_utc": "2026-09-23T05:17:22+00:00",
-          "summary": "<p>Check Point has issued an urgent security alert about CVE-2026-93616, a critical vulnerability involving directory traversal and arbitrary file uploads. This issue affects multiple management-server products and is actively being exploited in the wild. It allows unauthenticated attackers to upload and execute arbitrary scripts on exposed Check Point Management Servers. The vulnerability has a CVSS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/\">Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200645"
+          "title": "Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT",
+          "url": "https://gbhackers.com/graphalgo-malware/",
+          "published": "Wed, 23 Sep 2026 10:00:39 +0000",
+          "published_utc": "2026-09-23T10:00:39+00:00",
+          "summary": "<p>A threat actor linked to the ongoing Graphalgo software supply-chain campaign has expanded beyond npm and PyPI, using malicious Terraform providers and Go modules to deliver a targeted Go-based remote access trojan (RAT). The activity is significant because it marks the first observed case of malware being distributed through Terraform providers, placing infrastructure-as-code workflows directly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/graphalgo-malware/\">Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200696"
         },
         {
-          "title": "Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access",
-          "url": "https://gbhackers.com/stealthy-wordpress-malware/",
-          "published": "Wed, 23 Sep 2026 05:17:17 +0000",
-          "published_utc": "2026-09-23T05:17:17+00:00",
-          "summary": "<p>A newly analyzed WordPress malware implant combines must-use plugin persistence, hidden administrator accounts, credential theft, cross-site propagation, and Ethereum-based EtherHiding to create an unusually resilient backdoor. The malicious code masquerades as an automated health-check and reporting plugin, using plausible plugin metadata, an author name, and a repository link to reduce suspicion. It is installed as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stealthy-wordpress-malware/\">Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200627"
+          "title": "NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation",
+          "url": "https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/",
+          "published": "Wed, 23 Sep 2026 09:25:02 +0000",
+          "published_utc": "2026-09-23T09:25:02+00:00",
+          "summary": "<p>NVIDIA has released version 2.0 of its Infrastructure Controller to address 14 vulnerabilities found in its Linux-based infrastructure management software. This update includes a critical flaw involving hard-coded credentials and multiple issues that could allow for code execution, privilege escalation, data manipulation, denial of service, and information disclosure. NVIDIA released the initial security bulletin on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/\">NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200720"
         },
         {
-          "title": "ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants",
-          "url": "https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/",
-          "published": "Wed, 23 Sep 2026 05:06:06 +0000",
-          "published_utc": "2026-09-23T05:06:06+00:00",
-          "summary": "<p>The cybercriminal group ShinyHunters has claimed to have breached systems linked to the FBI, obtaining highly sensitive information on “almost all” FBI employees and applicants. The FBI has confirmed that it is investigating claims of unauthorized activity affecting FBIjobs.gov but has not verified the alleged theft, its extent, or the attackers’ claimed entry method. ShinyHunters [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/\">ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200634"
+          "title": "ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen",
+          "url": "https://gbhackers.com/manageengine-rce-flaw/",
+          "published": "Wed, 23 Sep 2026 09:17:33 +0000",
+          "published_utc": "2026-09-23T09:17:33+00:00",
+          "summary": "<p>ManageEngine has addressed a critical remote code execution vulnerability in ADSelfService Plus, which could allow an unauthenticated attacker to execute arbitrary code as NT AUTHORITY\\SYSTEM from the Windows device’s logon screen. This vulnerability, identified as CVE-2026-74849, affects ADSelfService Plus builds 7000 and earlier that utilize the product’s GINA client. The issue lies within the GINA [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/manageengine-rce-flaw/\">ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200716"
+        },
+        {
+          "title": "Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code",
+          "url": "https://gbhackers.com/critical-wordpress-flaw/",
+          "published": "Wed, 23 Sep 2026 09:10:16 +0000",
+          "published_utc": "2026-09-23T09:10:16+00:00",
+          "summary": "<p>WordPress has released version 7.1.2 to address a critical path-traversal vulnerability, tracked as CVE-2026-87902, which could allow unauthenticated remote code execution (RCE) under specific server and theme configurations. This flaw carries a CVSS v4 score of 9.2 and affects WordPress versions dating back to 4.7. Critical WordPress Flaw The issue arises from improper page-template resolution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-flaw/\">Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200712"
         }
       ],
       "error": ""
@@ -95,55 +103,87 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 6,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-          "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026/",
-          "published": "Wed, 23 Sep 2026 07:10:26 +0000",
-          "published_utc": "2026-09-23T07:10:26+00:00",
-          "summary": "<p>Chrome 153 &#38; iOS 27 Patches, Check Point + Cisco ISE + FortiGate Exploited, AI Weaponized, Cyclops Blink Returns &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from September 14–18, 2026. AI stayed at the center: an OpenAI agent swarm flooded [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-september-14-18-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200388"
+          "title": "HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access",
+          "url": "https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/",
+          "published": "Wed, 23 Sep 2026 11:47:34 +0000",
+          "published_utc": "2026-09-23T11:47:34+00:00",
+          "summary": "<p>Hewlett Packard Enterprise (HPE) has announced security updates for its Networking Analytics and Location Engine (ALE), addressing 10 vulnerabilities that could lead to complete appliance compromise and allow for root-level command execution. The most severe issues are identified as CVE-2026-76708 and CVE-2026-76709, both assigned a CVSS score of 9.8, and can be exploited remotely without [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/\">HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200760"
         },
         {
-          "title": "Fake TV Streaming Ads Deliver StreamRat Malware for Remote Android Device Hijacking",
-          "url": "https://gbhackers.com/streamrat-malware/",
-          "published": "Wed, 23 Sep 2026 06:47:11 +0000",
-          "published_utc": "2026-09-23T06:47:11+00:00",
-          "summary": "<p>StreamRat, a newly identified Android banking trojan distributed through deceptive Meta and TikTok advertisements impersonating a free television-streaming service. The campaign, tracked as “Steamtv Esp.,” primarily targeted Spanish-speaking Android users and exposed an estimated 570,000 Meta users between June 11 and July 3, 2026, with Spain accounting for the overwhelming majority of observed targets. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/streamrat-malware/\">Fake TV Streaming Ads Deliver StreamRat Malware for Remote Android Device Hijacking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200661"
+          "title": "Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns",
+          "url": "https://gbhackers.com/malware-hosting-networks/",
+          "published": "Wed, 23 Sep 2026 11:40:52 +0000",
+          "published_utc": "2026-09-23T11:40:52+00:00",
+          "summary": "<p>Cybercriminals are rapidly rotating lure domains, cloud storage buckets and command-and-control channels, but one infrastructure component is proving far harder to replace: the bulletproof hosting network that delivers the initial fake verification page. Five months of monitoring linked four distinct malware delivery chains to AS202412, operated by OMEGATECH LTD, making the ASN not individual domains [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-hosting-networks/\">Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200745"
         },
         {
-          "title": "Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control",
-          "url": "https://gbhackers.com/malware-driven-ai-models/",
-          "published": "Wed, 23 Sep 2026 05:52:17 +0000",
-          "published_utc": "2026-09-23T05:52:17+00:00",
-          "summary": "<p>A Windows malware implant named CLOSEDQUORUM that uses commercial large language models as an autonomous command-and-control layer, shifting tactical decisions from a human operator to an AI-driven voting system. The sample has not been confirmed in active attacks, but Talos linked development artifacts to criminal-forum activity associated with carding discussions dating to 2025. The discovery [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-driven-ai-models/\">Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200637"
+          "title": "SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code",
+          "url": "https://gbhackers.com/solarwinds-observability-flaws/",
+          "published": "Wed, 23 Sep 2026 11:32:55 +0000",
+          "published_utc": "2026-09-23T11:32:55+00:00",
+          "summary": "<p>SolarWinds has released SolarWinds Observability Self-Hosted version 2026.2.3 to address two critical remote code execution (RCE) vulnerabilities. These vulnerabilities could allow unauthenticated attackers to compromise exposed deployments under specific configurations. The vulnerabilities are tracked as CVE-2026-28324 and CVE-2026-28325, with CVSS severity scores of 9.8 and 8.8, respectively. This update was released on September 22, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/solarwinds-observability-flaws/\">SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200752"
         },
         {
-          "title": "Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers",
-          "url": "https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/",
-          "published": "Wed, 23 Sep 2026 05:17:22 +0000",
-          "published_utc": "2026-09-23T05:17:22+00:00",
-          "summary": "<p>Check Point has issued an urgent security alert about CVE-2026-93616, a critical vulnerability involving directory traversal and arbitrary file uploads. This issue affects multiple management-server products and is actively being exploited in the wild. It allows unauthenticated attackers to upload and execute arbitrary scripts on exposed Check Point Management Servers. The vulnerability has a CVSS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/\">Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200645"
+          "title": "Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts",
+          "url": "https://gbhackers.com/eviltokens-ai-phishing/",
+          "published": "Wed, 23 Sep 2026 10:25:35 +0000",
+          "published_utc": "2026-09-23T10:25:35+00:00",
+          "summary": "<p>Microsoft has warned that the EvilTokens phishing-as-a-service platform has become a major driver of AI-enabled device-code phishing, compromising more than 12,000 email inboxes across over 10,000 organizations worldwide since emerging in February 2026. The operation, linked to the threat actor Microsoft tracks as Storm-2992, industrializes token theft, mailbox reconnaissance, and business email compromise at scale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/eviltokens-ai-phishing/\">Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200731"
         },
         {
-          "title": "Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access",
-          "url": "https://gbhackers.com/stealthy-wordpress-malware/",
-          "published": "Wed, 23 Sep 2026 05:17:17 +0000",
-          "published_utc": "2026-09-23T05:17:17+00:00",
-          "summary": "<p>A newly analyzed WordPress malware implant combines must-use plugin persistence, hidden administrator accounts, credential theft, cross-site propagation, and Ethereum-based EtherHiding to create an unusually resilient backdoor. The malicious code masquerades as an automated health-check and reporting plugin, using plausible plugin metadata, an author name, and a repository link to reduce suspicion. It is installed as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stealthy-wordpress-malware/\">Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200627"
+          "title": "Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT",
+          "url": "https://gbhackers.com/graphalgo-malware/",
+          "published": "Wed, 23 Sep 2026 10:00:39 +0000",
+          "published_utc": "2026-09-23T10:00:39+00:00",
+          "summary": "<p>A threat actor linked to the ongoing Graphalgo software supply-chain campaign has expanded beyond npm and PyPI, using malicious Terraform providers and Go modules to deliver a targeted Go-based remote access trojan (RAT). The activity is significant because it marks the first observed case of malware being distributed through Terraform providers, placing infrastructure-as-code workflows directly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/graphalgo-malware/\">Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200696"
         },
         {
-          "title": "ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants",
-          "url": "https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/",
-          "published": "Wed, 23 Sep 2026 05:06:06 +0000",
-          "published_utc": "2026-09-23T05:06:06+00:00",
-          "summary": "<p>The cybercriminal group ShinyHunters has claimed to have breached systems linked to the FBI, obtaining highly sensitive information on “almost all” FBI employees and applicants. The FBI has confirmed that it is investigating claims of unauthorized activity affecting FBIjobs.gov but has not verified the alleged theft, its extent, or the attackers’ claimed entry method. ShinyHunters [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/\">ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200634"
+          "title": "NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation",
+          "url": "https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/",
+          "published": "Wed, 23 Sep 2026 09:25:02 +0000",
+          "published_utc": "2026-09-23T09:25:02+00:00",
+          "summary": "<p>NVIDIA has released version 2.0 of its Infrastructure Controller to address 14 vulnerabilities found in its Linux-based infrastructure management software. This update includes a critical flaw involving hard-coded credentials and multiple issues that could allow for code execution, privilege escalation, data manipulation, denial of service, and information disclosure. NVIDIA released the initial security bulletin on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/\">NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200720"
+        },
+        {
+          "title": "ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen",
+          "url": "https://gbhackers.com/manageengine-rce-flaw/",
+          "published": "Wed, 23 Sep 2026 09:17:33 +0000",
+          "published_utc": "2026-09-23T09:17:33+00:00",
+          "summary": "<p>ManageEngine has addressed a critical remote code execution vulnerability in ADSelfService Plus, which could allow an unauthenticated attacker to execute arbitrary code as NT AUTHORITY\\SYSTEM from the Windows device’s logon screen. This vulnerability, identified as CVE-2026-74849, affects ADSelfService Plus builds 7000 and earlier that utilize the product’s GINA client. The issue lies within the GINA [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/manageengine-rce-flaw/\">ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200716"
+        },
+        {
+          "title": "Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code",
+          "url": "https://gbhackers.com/critical-wordpress-flaw/",
+          "published": "Wed, 23 Sep 2026 09:10:16 +0000",
+          "published_utc": "2026-09-23T09:10:16+00:00",
+          "summary": "<p>WordPress has released version 7.1.2 to address a critical path-traversal vulnerability, tracked as CVE-2026-87902, which could allow unauthenticated remote code execution (RCE) under specific server and theme configurations. This flaw carries a CVSS v4 score of 9.2 and affects WordPress versions dating back to 4.7. Critical WordPress Flaw The issue arises from improper page-template resolution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-flaw/\">Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200712"
+        },
+        {
+          "title": "Chrome Update Fixes 108 Vulnerabilities Including Critical GPU, WebGL and ANGLE Flaws",
+          "url": "https://gbhackers.com/chrome-update-fixes-108-vulnerabilities/",
+          "published": "Wed, 23 Sep 2026 09:02:30 +0000",
+          "published_utc": "2026-09-23T09:02:30+00:00",
+          "summary": "<p>Google released Chrome version 154 to the Stable channel for Windows, macOS, and Linux, fixing 108 security vulnerabilities. This update addresses 11 critical flaws, including memory-safety issues in the ANGLE, GPU, and WebGL components, which could be significant targets for browser-based exploitation. For Linux users, Chrome version 154.0.8037.57 is being rolled out, while Windows and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-update-fixes-108-vulnerabilities/\">Chrome Update Fixes 108 Vulnerabilities Including Critical GPU, WebGL and ANGLE Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200708"
+        },
+        {
+          "title": "Microsoft SharePoint Flaw Lets Low-Privilege Attackers Execute Remote Code",
+          "url": "https://gbhackers.com/microsoft-sharepoint-flaw/",
+          "published": "Wed, 23 Sep 2026 08:53:20 +0000",
+          "published_utc": "2026-09-23T08:53:20+00:00",
+          "summary": "<p>A detailed Microsoft SharePoint vulnerability, tracked as CVE-2026-65660, allows authenticated, low-privileged users to execute arbitrary code on vulnerable on-premises SharePoint servers. Initially categorized as a spoofing issue, technical analysis shows this flaw can be exploited for authenticated remote code execution (RCE), including deploying fileless, in-memory webshells. Viettel Cyber Security researcher Dinh Ho Anh Khoa reported [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-sharepoint-flaw/\">Microsoft SharePoint Flaw Lets Low-Privilege Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200700"
         }
       ],
       "error": ""

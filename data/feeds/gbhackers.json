@@ -5,25 +5,21 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
-      "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
-    },
-    "FEEDBURNER": {
-      "label": "GBHackers-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/gbhackers",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/gbhackers",
-      "content_type": "text/xml; charset=utf-8",
+      "final_url": "https://gbhackers.com/feed/",
+      "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
       "article_count": 10,
       "articles": [
+        {
+          "title": "SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta",
+          "url": "https://gbhackers.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/",
+          "published": "Thu, 24 Sep 2026 18:58:54 +0000",
+          "published_utc": "2026-09-24T18:58:54+00:00",
+          "summary": "<p>Phoenix, Arizona, September 24th, 2026, CyberNewswire SCOUTz, a prospect intelligence platform built for managed service provider (MSP) security sales, is now available in open beta. The platform gives an MSP dated evidence about a prospect&#8217;s environment before the first meeting and keeps that evidence attached through delivery and reassessment. The open beta is available at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/\">SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200920"
+        },
         {
           "title": "Roundcube Webmail Flaw Lets Attackers Trigger SQL Injection Without Authentication",
           "url": "https://gbhackers.com/roundcube-webmail-flaw/",
@@ -95,14 +91,99 @@
           "published_utc": "2026-09-24T05:57:33+00:00",
           "summary": "<p>A long-lived GitLab incoming email token embedded in project email addresses for the &#8220;Email work item&#8221; feature can be exploited to push attacker-controlled code, create merge requests, and trigger CI/CD pipelines using the permissions of the token owner. This issue can also bypass GitLab&#8217;s IP restrictions, as incoming email is explicitly excluded from those controls. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-email-token/\">GitLab Email Token Lets Attackers Push Code to Main and Execute CI/CD Jobs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=200833"
+        }
+      ],
+      "error": ""
+    },
+    "FEEDBURNER": {
+      "label": "GBHackers-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/gbhackers",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "final_url": "https://feeds.feedburner.com/gbhackers",
+      "content_type": "text/xml; charset=utf-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta",
+          "url": "https://gbhackers.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/",
+          "published": "Thu, 24 Sep 2026 18:58:54 +0000",
+          "published_utc": "2026-09-24T18:58:54+00:00",
+          "summary": "<p>Phoenix, Arizona, September 24th, 2026, CyberNewswire SCOUTz, a prospect intelligence platform built for managed service provider (MSP) security sales, is now available in open beta. The platform gives an MSP dated evidence about a prospect&#8217;s environment before the first meeting and keeps that evidence attached through delivery and reassessment. The open beta is available at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/\">SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200920"
         },
         {
-          "title": "Apache Tomcat 11.0.26 Fixes 12 Security Flaws Enabling WebSocket Bypass and DoS Attacks",
-          "url": "https://gbhackers.com/apache-tomcat-11-0-26-fixes-12-security-flaws/",
-          "published": "Thu, 24 Sep 2026 05:33:29 +0000",
-          "published_utc": "2026-09-24T05:33:29+00:00",
-          "summary": "<p>Apache Tomcat 11.0.26 has been released with fixes for 12 security vulnerabilities, including a significant flaw that could allow attackers to bypass security constraints protecting WebSocket endpoints. This release also addresses several denial-of-service (DoS) issues affecting WebSocket, AJP, HTTP/2, and HTTP/1.0 request handling. Dated September 15, 2026, the release addresses flaws that were publicly disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-tomcat-11-0-26-fixes-12-security-flaws/\">Apache Tomcat 11.0.26 Fixes 12 Security Flaws Enabling WebSocket Bypass and DoS Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=200830"
+          "title": "Roundcube Webmail Flaw Lets Attackers Trigger SQL Injection Without Authentication",
+          "url": "https://gbhackers.com/roundcube-webmail-flaw/",
+          "published": "Thu, 24 Sep 2026 09:56:01 +0000",
+          "published_utc": "2026-09-24T09:56:01+00:00",
+          "summary": "<p>A highly severe vulnerability in Roundcube Webmail is being actively exploited, posing risks to unpatched email servers through unauthenticated SQL injection attacks. This vulnerability, tracked as CVE-2026-48842, affects Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. On September 21, the Canadian Center for Cyber Security updated advisory AV26-503, warning that reports from the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/roundcube-webmail-flaw/\">Roundcube Webmail Flaw Lets Attackers Trigger SQL Injection Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200899"
+        },
+        {
+          "title": "Hackers Exploit Check Point VPN RCE and Management Zero-Day in Attacks",
+          "url": "https://gbhackers.com/hackers-exploit-check-point-vpn-rce-and-management-zero-day/",
+          "published": "Thu, 24 Sep 2026 09:41:25 +0000",
+          "published_utc": "2026-09-24T09:41:25+00:00",
+          "summary": "<p>Check Point has warned customers about the active exploitation of two critical vulnerabilities in its VPN gateway and Security Management products: CVE-2026-85102 and the newly disclosed CVE-2026-93616. Both vulnerabilities have a CVSS score of 9.8 and allow for pre-authentication attacks, making immediate patching and reducing exposure essential. Check Point Flaws CVE-2026-85102 is an improper certificate-validation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-check-point-vpn-rce-and-management-zero-day/\">Hackers Exploit Check Point VPN RCE and Management Zero-Day in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200895"
+        },
+        {
+          "title": "Operation Conflict Compass Deploys VelvetCake PowerShell Malware Through Malicious LNK Files",
+          "url": "https://gbhackers.com/velvetcake-powershell-malware/",
+          "published": "Thu, 24 Sep 2026 09:34:36 +0000",
+          "published_utc": "2026-09-24T09:34:36+00:00",
+          "summary": "<p>North Korea-linked threat actor Konni has launched a targeted cyberespionage operation against Ukraine-focused entities using malicious Windows shortcut files disguised as PDF documents. The campaign, tracked by SOCRadar Threat Research Unit as Operation Conflict Compass, deploys a modular PowerShell malware family dubbed VelvetCake to collect intelligence on the Russia-Ukraine war. The activity appears designed to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/velvetcake-powershell-malware/\">Operation Conflict Compass Deploys VelvetCake PowerShell Malware Through Malicious LNK Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200882"
+        },
+        {
+          "title": "New Windows Malware Built to Survive Takedowns With a Hidden P2P Command Network",
+          "url": "https://gbhackers.com/p2p-command-network/",
+          "published": "Thu, 24 Sep 2026 08:36:41 +0000",
+          "published_utc": "2026-09-24T08:36:41+00:00",
+          "summary": "<p>AvisLoader, a newly observed Windows malware loader designed to maintain operator access even when conventional command-and-control infrastructure is disrupted. Instead of relying on a fixed domain, IP address, or centralized server, the malware uses the encrypted Tox peer-to-peer messaging network to receive commands and deliver follow-on payloads. The discovery highlights a growing challenge for defenders: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/p2p-command-network/\">New Windows Malware Built to Survive Takedowns With a Hidden P2P Command Network</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200870"
+        },
+        {
+          "title": "Microsoft Rebuilds the SOC With AI Agents to Fight Machine-Speed Cyberattacks",
+          "url": "https://gbhackers.com/ai-powered-soc/",
+          "published": "Thu, 24 Sep 2026 07:55:06 +0000",
+          "published_utc": "2026-09-24T07:55:06+00:00",
+          "summary": "<p>An Integrated Security Operations Center (ISOC) in Microsoft Defender, unifying security information and event management (SIEM) and threat-protection capabilities in a platform designed for AI-assisted, continuous defense. The company’s premise is direct: traditional SOC architectures cannot match adversaries that use AI agents to automate reconnaissance, intrusion execution, lateral movement, and operational decision-making at machine speed. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-soc/\">Microsoft Rebuilds the SOC With AI Agents to Fight Machine-Speed Cyberattacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200863"
+        },
+        {
+          "title": "RemControl Android Malware Targets 30+ Banking Apps to Steal PINs and Credentials",
+          "url": "https://gbhackers.com/remcontrol-android-malware/",
+          "published": "Thu, 24 Sep 2026 07:21:59 +0000",
+          "published_utc": "2026-09-24T07:21:59+00:00",
+          "summary": "<p>A newly uncovered Android banking trojan dubbed RemControl is targeting customers of more than 30 financial institutions across Europe, the Middle East, and Canada. The malware combines fake Google Play pages, Android Accessibility Service abuse, credential-stealing overlays, real-time screen streaming, and remote-control functions to compromise mobile banking sessions. The company tracks the operator behind the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/remcontrol-android-malware/\">RemControl Android Malware Targets 30+ Banking Apps to Steal PINs and Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200848"
+        },
+        {
+          "title": "cPanel Permissions Flaw Allows Local Users to Read Other Accounts’ Calendar Data",
+          "url": "https://gbhackers.com/cpanel-permissions-flaw/",
+          "published": "Thu, 24 Sep 2026 07:08:28 +0000",
+          "published_utc": "2026-09-24T07:08:28+00:00",
+          "summary": "<p>cPanel has released patches for CVE-2026-68490, a vulnerability related to incorrect permissions in its CalDAV/CardDAV implementation. This flaw could allow a local user on a shared server to access calendar events and contacts from other hosting accounts. The issue affects cPanel/WHM version 120 and later, highlighting the risks associated with tenant isolation in shared-hosting environments. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cpanel-permissions-flaw/\">cPanel Permissions Flaw Allows Local Users to Read Other Accounts’ Calendar Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200852"
+        },
+        {
+          "title": "New Galago Ransomware Operation Emerges With Links to Panzer Extortion Group",
+          "url": "https://gbhackers.com/galago-ransomware-operation/",
+          "published": "Thu, 24 Sep 2026 06:06:25 +0000",
+          "published_utc": "2026-09-24T06:06:25+00:00",
+          "summary": "<p>A newly identified ransomware operation tracked as Galago has emerged with apparent operational links to the Panzer ransomware group, raising concerns of an expanding double-extortion ecosystem targeting organizations worldwide. Researchers began directly monitoring Galago’s dark leak site (DLS) on 15 September 2026. At the time of observation, the group’s Tor-based leak portal was inactive and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/galago-ransomware-operation/\">New Galago Ransomware Operation Emerges With Links to Panzer Extortion Group</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200832"
+        },
+        {
+          "title": "GitLab Email Token Lets Attackers Push Code to Main and Execute CI/CD Jobs",
+          "url": "https://gbhackers.com/gitlab-email-token/",
+          "published": "Thu, 24 Sep 2026 05:57:33 +0000",
+          "published_utc": "2026-09-24T05:57:33+00:00",
+          "summary": "<p>A long-lived GitLab incoming email token embedded in project email addresses for the &#8220;Email work item&#8221; feature can be exploited to push attacker-controlled code, create merge requests, and trigger CI/CD pipelines using the permissions of the token owner. This issue can also bypass GitLab&#8217;s IP restrictions, as incoming email is explicitly excluded from those controls. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-email-token/\">GitLab Email Token Lets Attackers Push Code to Main and Execute CI/CD Jobs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200833"
         }
       ],
       "error": ""

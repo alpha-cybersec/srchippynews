@@ -1,12 +1,120 @@
 {
   "date": "2026-09-24",
-  "article_count": 26,
+  "article_count": 30,
   "sources": {
+    "thehackernews": 10,
     "cybersecuritynews": 9,
-    "thehackernews": 6,
     "gbhackers": 11
   },
   "articles": [
+    {
+      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "url": "http://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "published": "Thu, 24 Sep 2026 18:10:18 +0000",
+      "published_utc": "2026-09-24T18:10:18+00:00",
+      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highest level of control over an Android phone.\n\nOnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6515592785881681836",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "content_hash": "33245aa20f29fae7b47f3de985547040240b3fec486d51c6b6adeb3ad0795386",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "33245aa20f29fae7b47f3de985547040240b3fec486d51c6b6adeb3ad0795386"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-24T18:37:56.061475+00:00",
+      "first_seen_local": "2026-09-24T13:37:56.061474-05:00",
+      "last_updated_utc": "2026-09-24T18:37:56.061475+00:00",
+      "last_updated_local": "2026-09-24T13:37:56.061474-05:00"
+    },
+    {
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "url": "http://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "published": "Thu, 24 Sep 2026 17:52:43 +0000",
+      "published_utc": "2026-09-24T17:52:43+00:00",
+      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2224012587301810551",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "content_hash": "370cf54c85b553b3f29257b4d5405fcd17eab2f0e8597d64eb907d19fad5d1d9",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "370cf54c85b553b3f29257b4d5405fcd17eab2f0e8597d64eb907d19fad5d1d9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-24T18:37:56.061475+00:00",
+      "first_seen_local": "2026-09-24T13:37:56.061474-05:00",
+      "last_updated_utc": "2026-09-24T18:37:56.061475+00:00",
+      "last_updated_local": "2026-09-24T13:37:56.061474-05:00"
+    },
+    {
+      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+      "url": "http://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "published": "Thu, 24 Sep 2026 15:27:32 +0000",
+      "published_utc": "2026-09-24T15:27:32+00:00",
+      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold Security's Head of Research, Ax Sharma, said. \"Unlike 'example[.]com,' third-party[.]com",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1062828513985209857",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "content_hash": "8d2d5677fe00174f194747cbb4bf3f03f8f8192b328e0799b1b526e4a4bba2c9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d2d5677fe00174f194747cbb4bf3f03f8f8192b328e0799b1b526e4a4bba2c9",
+        "FEEDBURNER": "8d2d5677fe00174f194747cbb4bf3f03f8f8192b328e0799b1b526e4a4bba2c9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-24T18:37:56.061475+00:00",
+      "first_seen_local": "2026-09-24T13:37:56.061474-05:00",
+      "last_updated_utc": "2026-09-24T18:37:56.061475+00:00",
+      "last_updated_local": "2026-09-24T13:37:56.061474-05:00"
+    },
+    {
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "url": "http://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "published": "Thu, 24 Sep 2026 14:29:06 +0000",
+      "published_utc": "2026-09-24T14:29:06+00:00",
+      "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.\n\n\"When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-96933973685707969",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "content_hash": "254164d7b05aebfa0f312fa61a793c29b22ee2d58f7caa85975891efeda66344",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "254164d7b05aebfa0f312fa61a793c29b22ee2d58f7caa85975891efeda66344",
+        "FEEDBURNER": "254164d7b05aebfa0f312fa61a793c29b22ee2d58f7caa85975891efeda66344"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-24T18:37:56.061475+00:00",
+      "first_seen_local": "2026-09-24T13:37:56.061474-05:00",
+      "last_updated_utc": "2026-09-24T18:37:56.061475+00:00",
+      "last_updated_local": "2026-09-24T13:37:56.061474-05:00"
+    },
     {
       "title": "Fake PDF Files Hide Konni Malware Campaign Targeting Ukraine Organizations",
       "url": "https://cybersecuritynews.com/konni-malware-campaign/",

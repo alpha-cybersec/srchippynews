@@ -1,12 +1,64 @@
 {
   "date": "2026-09-25",
-  "article_count": 30,
+  "article_count": 32,
   "sources": {
+    "cybersecuritynews": 15,
     "thehackernews": 5,
-    "cybersecuritynews": 13,
     "gbhackers": 12
   },
   "articles": [
+    {
+      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+      "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+      "published": "Fri, 25 Sep 2026 18:02:16 +0000",
+      "published_utc": "2026-09-25T18:02:16+00:00",
+      "summary": "<p>Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/\">OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164848",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps",
+      "content_hash": "2435235e244e52fec0600a7d4865cca0bfa8ef6c8571304fe27686353aeb4d38",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "2435235e244e52fec0600a7d4865cca0bfa8ef6c8571304fe27686353aeb4d38"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-25T20:24:48.197272+00:00",
+      "first_seen_local": "2026-09-25T15:24:48.197269-05:00",
+      "last_updated_utc": "2026-09-25T20:24:48.197272+00:00",
+      "last_updated_local": "2026-09-25T15:24:48.197269-05:00"
+    },
+    {
+      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+      "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+      "published": "Fri, 25 Sep 2026 17:56:35 +0000",
+      "published_utc": "2026-09-25T17:56:35+00:00",
+      "summary": "<p>A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The flaw in Linux’s AF_ALG userspace cryptographic interface stems from unsafe concurrent writes to the same socket used for operations like AES encryption and decryption. Because an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/\">14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164837",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/14-year-old-linux-kernel-flaw",
+      "content_hash": "12998632b0e5b92b092d38dba2157e404fdf3a7694d04bcf9a8d6b8c8eebdd89",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "12998632b0e5b92b092d38dba2157e404fdf3a7694d04bcf9a8d6b8c8eebdd89"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-25T20:24:48.197272+00:00",
+      "first_seen_local": "2026-09-25T15:24:48.197269-05:00",
+      "last_updated_utc": "2026-09-25T20:24:48.197272+00:00",
+      "last_updated_local": "2026-09-25T15:24:48.197269-05:00"
+    },
     {
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
       "url": "http://thehackernews.com/2026/09/compromised-github-actions-came-back.html",

@@ -5,13 +5,41 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
+      "status": "FAILED",
+      "http_status": 202,
+      "final_url": "https://cybersecuritynews.com/feed/",
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
+    },
+    "FEEDBURNER": {
+      "label": "CyberSecurityNews-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
+      "final_url": "https://feeds.feedburner.com/cyber-security-news",
+      "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
       "article_count": 10,
       "articles": [
+        {
+          "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+          "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+          "published": "Fri, 25 Sep 2026 18:02:16 +0000",
+          "published_utc": "2026-09-25T18:02:16+00:00",
+          "summary": "<p>Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/\">OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164848"
+        },
+        {
+          "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+          "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+          "published": "Fri, 25 Sep 2026 17:56:35 +0000",
+          "published_utc": "2026-09-25T17:56:35+00:00",
+          "summary": "<p>A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The flaw in Linux’s AF_ALG userspace cryptographic interface stems from unsafe concurrent writes to the same socket used for operations like AES encryption and decryption. Because an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/\">14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164837"
+        },
         {
           "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
           "url": "https://cybersecuritynews.com/samsung-flaw/",
@@ -75,59 +103,6 @@
           "published_utc": "2026-09-25T12:01:17+00:00",
           "summary": "<p>Attackers are turning routine business complaints into malware traps. A message about a damaged delivery or refund request can look ordinary, yet one click leads employees to a fake download page and a harmful ZIP archive. The campaign targeted organizations with Japanese and Korean messages between July and August 2026. Product damage, shipping problems, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/business-emails/\">Attackers Are Turning Everyday Business Emails Into Malware Delivery Machines</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=164828"
-        },
-        {
-          "title": "Microsoft Confirms Windows 11 Update Bug Causing Black Screens and Loading Issues",
-          "url": "https://cybersecuritynews.com/windows-11-update-bug-causing-black-screens/",
-          "published": "Fri, 25 Sep 2026 11:37:58 +0000",
-          "published_utc": "2026-09-25T11:37:58+00:00",
-          "summary": "<p>Microsoft has confirmed a Windows 11 issue that can leave users staring at a black screen after signing in, with the desktop shell failing to start automatically. The problem emerged after installation of the August 27, 2026 non-security preview updates and later cumulative updates. Microsoft lists the incident as “mitigated,” while engineers continue developing a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-update-bug-causing-black-screens/\">Microsoft Confirms Windows 11 Update Bug Causing Black Screens and Loading Issues</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164833"
-        },
-        {
-          "title": "Google Ads Campaign Spreads Fake Security Alerts That Lock Browsers and Push Malware",
-          "url": "https://cybersecuritynews.com/google-ads-campaign/",
-          "published": "Fri, 25 Sep 2026 11:04:38 +0000",
-          "published_utc": "2026-09-25T11:04:38+00:00",
-          "summary": "<p>Malicious ads are steering people to fake security warnings that appear to take over their browsers. The pages urge visitors to call a supposed support line, turning a routine ad click into an attempt to extract money, personal details or access to a computer. The trap begins on a cloud-hosted page with a loading spinner [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-ads-campaign/\">Google Ads Campaign Spreads Fake Security Alerts That Lock Browsers and Push Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164820"
-        }
-      ],
-      "error": ""
-    },
-    "FEEDBURNER": {
-      "label": "CyberSecurityNews-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/cyber-security-news",
-      "content_type": "text/xml; charset=utf-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 3,
-      "articles": [
-        {
-          "title": "New MacSync Malware Turns macOS Apps Into Tools for Crypto and Password Theft",
-          "url": "https://cybersecuritynews.com/new-macsync-malware/",
-          "published": "Fri, 25 Sep 2026 08:11:43 +0000",
-          "published_utc": "2026-09-25T08:11:43+00:00",
-          "summary": "<p>MacSync, a fast-changing macOS information stealer, has returned with a more complex delivery chain aimed at people who use cryptocurrency and developer tools. Instead of relying mainly on a pasted Terminal command, the latest activity begins with malicious disk-image files that pose as real applications. Operators can vary delivery between campaigns. Victims can encounter the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-macsync-malware/\">New MacSync Malware Turns macOS Apps Into Tools for Crypto and Password Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164767"
-        },
-        {
-          "title": "Duelbits Confirms $7 Million Hot-Wallet Hack, forcing Systems offline",
-          "url": "https://cybersecuritynews.com/duelbits-7-million-hack/",
-          "published": "Fri, 25 Sep 2026 05:41:52 +0000",
-          "published_utc": "2026-09-25T05:41:52+00:00",
-          "summary": "<p>Crypto casino Duelbits has confirmed a cybersecurity breach that drained approximately $7 million from its hot wallets, forcing the platform offline while investigators establish the attack’s root cause. Co-founder Joe disclosed the incident on X, assured customers that user funds remain safe, and said operations would resume after the investigation and wallet replenishment are completed. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/duelbits-7-million-hack/\">Duelbits Confirms $7 Million Hot-Wallet Hack, forcing Systems offline</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164751"
-        },
-        {
-          "title": "Hackers Exploited Ethereum Bridge Contract to Drain Full Balance from Payy Network",
-          "url": "https://cybersecuritynews.com/payy-ethereum-bridge-contract-drain/",
-          "published": "Fri, 25 Sep 2026 05:18:27 +0000",
-          "published_utc": "2026-09-25T05:18:27+00:00",
-          "summary": "<p>Payy Network has confirmed that attackers exploited its Ethereum bridge contract and drained the contract’s entire balance, forcing the stablecoin payments platform to suspend network and wallet functions. According to a public statement from Payy, the incident occurred at approximately 4:21 UTC on September 24. The affected bridge contract supported transfers between Ethereum and the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/payy-ethereum-bridge-contract-drain/\">Hackers Exploited Ethereum Bridge Contract to Drain Full Balance from Payy Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164745"
         }
       ],
       "error": ""

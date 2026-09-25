@@ -1,486 +1,64 @@
 {
-  "generated_at_utc": "2026-09-25T17:03:51.628120+00:00",
-  "generated_at_local": "2026-09-25T12:03:51.628125-05:00",
-  "article_count": 18,
-  "new_count": 18,
+  "generated_at_utc": "2026-09-25T20:24:53.594294+00:00",
+  "generated_at_local": "2026-09-25T15:24:53.594306-05:00",
+  "article_count": 2,
+  "new_count": 2,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 2,
-    "cybersecuritynews": 10,
-    "gbhackers": 6
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-      "url": "http://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-      "published": "Fri, 25 Sep 2026 14:44:41 +0000",
-      "published_utc": "2026-09-25T14:44:41+00:00",
-      "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.\n\nThe affected GitHub Actions are listed below -\n\n\n  actions-cool/issues-helper\n  actions-cool/maintain-one-comment\n\nVisiting either of the repositories now shows the message: \"Access to this",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8957444206881325636",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-      "content_hash": "2dac1385e4322b30f14ec5edc1cc2fb536dd84782e8dc60685823313aeca38ea",
+      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+      "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+      "published": "Fri, 25 Sep 2026 18:02:16 +0000",
+      "published_utc": "2026-09-25T18:02:16+00:00",
+      "summary": "<p>Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/\">OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164848",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps",
+      "content_hash": "2435235e244e52fec0600a7d4865cca0bfa8ef6c8571304fe27686353aeb4d38",
       "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "2dac1385e4322b30f14ec5edc1cc2fb536dd84782e8dc60685823313aeca38ea",
-        "FEEDBURNER": "2dac1385e4322b30f14ec5edc1cc2fb536dd84782e8dc60685823313aeca38ea"
+        "FEEDBURNER": "2435235e244e52fec0600a7d4865cca0bfa8ef6c8571304fe27686353aeb4d38"
       },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:51.624751+00:00",
-      "first_seen_local": "2026-09-25T12:03:51.624749-05:00",
-      "last_updated_utc": "2026-09-25T17:03:51.624751+00:00",
-      "last_updated_local": "2026-09-25T12:03:51.624749-05:00"
+      "first_seen_utc": "2026-09-25T20:24:48.197272+00:00",
+      "first_seen_local": "2026-09-25T15:24:48.197269-05:00",
+      "last_updated_utc": "2026-09-25T20:24:48.197272+00:00",
+      "last_updated_local": "2026-09-25T15:24:48.197269-05:00"
     },
     {
-      "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
-      "url": "https://cybersecuritynews.com/samsung-flaw/",
-      "published": "Fri, 25 Sep 2026 14:34:58 +0000",
-      "published_utc": "2026-09-25T14:34:58+00:00",
-      "summary": "<p>Attackers broke into a Windows system through a known flaw in Samsung&#8217;s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished program, the miner was assembled there, leaving an unusual activity trail. The case began in early September 2026 with an alert tied to MagicINFO Premium, software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/samsung-flaw/\">Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164862",
+      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+      "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+      "published": "Fri, 25 Sep 2026 17:56:35 +0000",
+      "published_utc": "2026-09-25T17:56:35+00:00",
+      "summary": "<p>A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The flaw in Linux’s AF_ALG userspace cryptographic interface stems from unsafe concurrent writes to the same socket used for operations like AES encryption and decryption. Because an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/\">14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164837",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/samsung-flaw",
-      "content_hash": "1c7326d63495457a5bff0b85476bb13c096ddef1097e389a1b6799198c0760e1",
+      "article_key": "cybersecuritynews.com/14-year-old-linux-kernel-flaw",
+      "content_hash": "12998632b0e5b92b092d38dba2157e404fdf3a7694d04bcf9a8d6b8c8eebdd89",
       "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "1c7326d63495457a5bff0b85476bb13c096ddef1097e389a1b6799198c0760e1"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers",
-      "url": "https://cybersecuritynews.com/botnet-uses-ai-agent/",
-      "published": "Fri, 25 Sep 2026 14:17:54 +0000",
-      "published_utc": "2026-09-25T14:17:54+00:00",
-      "summary": "<p>CARBONATO is a botnet that turns Docker servers into footholds for attackers. It places an AI agent inside compromised systems, letting operators send tasks through Telegram and receive results. The campaign begins with Docker services carelessly exposed to the internet without authentication. Once inside, CARBONATO launches a privileged container, gains access to the host, establishes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/botnet-uses-ai-agent/\">Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164859",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/botnet-uses-ai-agent",
-      "content_hash": "06745097c8cb2df02cdb245d2a77f0e2b618325f548a57f18260cf89e971cd05",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "06745097c8cb2df02cdb245d2a77f0e2b618325f548a57f18260cf89e971cd05"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection",
-      "url": "https://cybersecuritynews.com/sauron-loader-malware/",
-      "published": "Fri, 25 Sep 2026 13:47:28 +0000",
-      "published_utc": "2026-09-25T13:47:28+00:00",
-      "summary": "<p>Sauron Loader has surfaced in attacks on German organizations, giving intruders a way to deliver more malware. The new tool need not be the first thing a victim encounters. In the cases examined, it arrived at the end of attack chains built around deception rather than a newly disclosed software flaw. Some victims faced ClickFix [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sauron-loader-malware/\">Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164849",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/sauron-loader-malware",
-      "content_hash": "96bd68cca5b1082603821be6a852468a411327e53775ed2b0fb982be6f466045",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "96bd68cca5b1082603821be6a852468a411327e53775ed2b0fb982be6f466045"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
-      "url": "https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
-      "published": "Fri, 25 Sep 2026 13:37:32 +0000",
-      "published_utc": "2026-09-25T13:37:32+00:00",
-      "summary": "<p>San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic protocol designed to make execution history verifiable. Salmon establishes verifiable execution history and state lineage across humans, AI agents, and automation. The launch follows the OpenAI–Hugging Face incident, in which [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/\">Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=201015",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems",
-      "content_hash": "be1ceb65749a880b9af2e04d20a29c57ae70fbb3b686f1559aa3d0fee8f4d3ff",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "be1ceb65749a880b9af2e04d20a29c57ae70fbb3b686f1559aa3d0fee8f4d3ff"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:48.678289+00:00",
-      "first_seen_local": "2026-09-25T12:03:48.678287-05:00",
-      "last_updated_utc": "2026-09-25T17:03:48.678289+00:00",
-      "last_updated_local": "2026-09-25T12:03:48.678287-05:00"
-    },
-    {
-      "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
-      "url": "https://cybersecuritynews.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
-      "published": "Fri, 25 Sep 2026 13:35:24 +0000",
-      "published_utc": "2026-09-25T13:35:24+00:00",
-      "summary": "<p>San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic protocol designed to make execution history verifiable. Salmon establishes verifiable execution history and state lineage across humans, AI agents, and automation. The launch follows the OpenAI–Hugging Face incident, in which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/\">Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164854",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems",
-      "content_hash": "c137b05860c2a97de82d68df42cb4685ca883a8acb37e52127acd2b9cdd6b4a1",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "c137b05860c2a97de82d68df42cb4685ca883a8acb37e52127acd2b9cdd6b4a1"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-      "url": "http://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-      "published": "Fri, 25 Sep 2026 13:18:06 +0000",
-      "published_utc": "2026-09-25T13:18:06+00:00",
-      "summary": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain.\n\nThe latest artifacts, per Jamf Threat Labs, continue to rely on the same JavaScript for Automation (JXA) dropper mechanism, but modify the lure and the delivery method.\n\n\"Where earlier variants embedded their payload key material",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4878096418596144807",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-      "content_hash": "325ca8532ba5ae34a62e6fde8247d9edfe463819d6f35c3497cad5d15d72ceb3",
-      "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "325ca8532ba5ae34a62e6fde8247d9edfe463819d6f35c3497cad5d15d72ceb3",
-        "FEEDBURNER": "325ca8532ba5ae34a62e6fde8247d9edfe463819d6f35c3497cad5d15d72ceb3"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:51.624751+00:00",
-      "first_seen_local": "2026-09-25T12:03:51.624749-05:00",
-      "last_updated_utc": "2026-09-25T17:03:51.624751+00:00",
-      "last_updated_local": "2026-09-25T12:03:51.624749-05:00"
-    },
-    {
-      "title": "TWEAKOS Malware Turns Telegram Into a Stealer, C2 Platform and Stolen Account Marketplace",
-      "url": "https://cybersecuritynews.com/tweakos-malware/",
-      "published": "Fri, 25 Sep 2026 12:53:52 +0000",
-      "published_utc": "2026-09-25T12:53:52+00:00",
-      "summary": "<p>TWEAKOS steals messaging accounts and turns them into items for sale. The operation pairs a Windows stealer with a Telegram bot for managing victims and selling stolen access. The threat surfaced after its source code appeared on Pastebin. Researchers recovered two related Python components, but do not know how the stealer reaches victims or how [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tweakos-malware/\">TWEAKOS Malware Turns Telegram Into a Stealer, C2 Platform and Stolen Account Marketplace</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164829",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/tweakos-malware",
-      "content_hash": "f58d496fad148c8dc0ab6b243b35de84157f6df8a72c3ce4a1e041455e2535a2",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f58d496fad148c8dc0ab6b243b35de84157f6df8a72c3ce4a1e041455e2535a2"
+        "FEEDBURNER": "12998632b0e5b92b092d38dba2157e404fdf3a7694d04bcf9a8d6b8c8eebdd89"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape",
-      "url": "https://gbhackers.com/14-year-old-linux-kernel-vulnerability/",
-      "published": "Fri, 25 Sep 2026 12:48:13 +0000",
-      "published_utc": "2026-09-25T12:48:13+00:00",
-      "summary": "<p>A vulnerability in the Linux kernel’s AF_ALG cryptographic interface, which has existed for 14 years, can let an unprivileged local attacker gain root access and escape a Docker container by exploiting a race condition in concurrent socket writes. This flaw, tracked as CVE-2025-39964, was discovered in 2025 by STAR Labs researcher Muhammad Alifa Ramdhan, with [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/14-year-old-linux-kernel-vulnerability/\">14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=201011",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/14-year-old-linux-kernel-vulnerability",
-      "content_hash": "c12eac1d0fd4e2ed6e3dcbd039ad47cf845e278a1c7ff9969cef543f4b22640a",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "c12eac1d0fd4e2ed6e3dcbd039ad47cf845e278a1c7ff9969cef543f4b22640a"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:48.678289+00:00",
-      "first_seen_local": "2026-09-25T12:03:48.678287-05:00",
-      "last_updated_utc": "2026-09-25T17:03:48.678289+00:00",
-      "last_updated_local": "2026-09-25T12:03:48.678287-05:00"
-    },
-    {
-      "title": "Critical ServiceNow Vulnerabilities Let Attackers Bypass Authorization – Update Now!",
-      "url": "https://cybersecuritynews.com/critical-servicenow-vulnerabilities/",
-      "published": "Fri, 25 Sep 2026 12:18:09 +0000",
-      "published_utc": "2026-09-25T12:18:09+00:00",
-      "summary": "<p>ServiceNow released security updates for five AI Platform flaws, including two critical vulnerabilities that could let unauthenticated attackers access, modify, or extract sensitive instance data, urging self-hosted users to verify versions and patch promptly. ServiceNow advisory covers CVE-2026-86857, CVE-2026-86858, CVE-2026-13016, CVE-2026-86859, and CVE-2026-86860, identified through internal testing, customer assessments, responsible disclosures, and its bug bounty [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-servicenow-vulnerabilities/\">Critical ServiceNow Vulnerabilities Let Attackers Bypass Authorization &#8211; Update Now!</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164814",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/critical-servicenow-vulnerabilities",
-      "content_hash": "cfb59b682753499ab0660fe8756a43d9b8ac4010a9ab1f64089d3449bd3cb500",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cfb59b682753499ab0660fe8756a43d9b8ac4010a9ab1f64089d3449bd3cb500"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "WordPress Comment2Shell Vulnerability Lets Hackers Take Over Sites Through Comments",
-      "url": "https://cybersecuritynews.com/wordpress-comment2shell-vulnerability/",
-      "published": "Fri, 25 Sep 2026 12:16:25 +0000",
-      "published_utc": "2026-09-25T12:16:25+00:00",
-      "summary": "<p>WordPress administrators are being urged to patch a high-severity core vulnerability that can turn an anonymous comment into server-side command execution. Tracked as CVE-2026-93485 and demonstrated by the Comment2Shell proof-of-concept, the flaw is an unauthenticated stored cross-site scripting issue in WordPress’s wpautop() formatting function. WordPress fixed the vulnerability in version 7.1.1 and advised site owners [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-comment2shell-vulnerability/\">WordPress Comment2Shell Vulnerability Lets Hackers Take Over Sites Through Comments</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164841",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/wordpress-comment2shell-vulnerability",
-      "content_hash": "8e8f6a27e9ebd872ee2d5882404f7bd4cae8b9e16a97f347d0519a49ffdd5f0a",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8e8f6a27e9ebd872ee2d5882404f7bd4cae8b9e16a97f347d0519a49ffdd5f0a"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "Attackers Are Turning Everyday Business Emails Into Malware Delivery Machines",
-      "url": "https://cybersecuritynews.com/business-emails/",
-      "published": "Fri, 25 Sep 2026 12:01:17 +0000",
-      "published_utc": "2026-09-25T12:01:17+00:00",
-      "summary": "<p>Attackers are turning routine business complaints into malware traps. A message about a damaged delivery or refund request can look ordinary, yet one click leads employees to a fake download page and a harmful ZIP archive. The campaign targeted organizations with Japanese and Korean messages between July and August 2026. Product damage, shipping problems, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/business-emails/\">Attackers Are Turning Everyday Business Emails Into Malware Delivery Machines</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164828",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/business-emails",
-      "content_hash": "5cd2cc455e2c243c127c6800e256d664ce51be35d0309c472d1ca6783b65362e",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5cd2cc455e2c243c127c6800e256d664ce51be35d0309c472d1ca6783b65362e"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "Microsoft Confirms Windows 11 Update Bug Causing Black Screens and Loading Issues",
-      "url": "https://cybersecuritynews.com/windows-11-update-bug-causing-black-screens/",
-      "published": "Fri, 25 Sep 2026 11:37:58 +0000",
-      "published_utc": "2026-09-25T11:37:58+00:00",
-      "summary": "<p>Microsoft has confirmed a Windows 11 issue that can leave users staring at a black screen after signing in, with the desktop shell failing to start automatically. The problem emerged after installation of the August 27, 2026 non-security preview updates and later cumulative updates. Microsoft lists the incident as “mitigated,” while engineers continue developing a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-update-bug-causing-black-screens/\">Microsoft Confirms Windows 11 Update Bug Causing Black Screens and Loading Issues</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164833",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/windows-11-update-bug-causing-black-screens",
-      "content_hash": "36c4a247b68fa225f4088aabbc3c15b9a48bad12f606e47a125ed882bed32589",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "36c4a247b68fa225f4088aabbc3c15b9a48bad12f606e47a125ed882bed32589"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "Google Ads Campaign Spreads Fake Security Alerts That Lock Browsers and Push Malware",
-      "url": "https://cybersecuritynews.com/google-ads-campaign/",
-      "published": "Fri, 25 Sep 2026 11:04:38 +0000",
-      "published_utc": "2026-09-25T11:04:38+00:00",
-      "summary": "<p>Malicious ads are steering people to fake security warnings that appear to take over their browsers. The pages urge visitors to call a supposed support line, turning a routine ad click into an attempt to extract money, personal details or access to a computer. The trap begins on a cloud-hosted page with a loading spinner [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-ads-campaign/\">Google Ads Campaign Spreads Fake Security Alerts That Lock Browsers and Push Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164820",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/google-ads-campaign",
-      "content_hash": "dfa6f6e36b9c879fb9ab5013ab6f77fa62d3936db8ad78e5311b6104741bd981",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dfa6f6e36b9c879fb9ab5013ab6f77fa62d3936db8ad78e5311b6104741bd981"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:49.316822+00:00",
-      "first_seen_local": "2026-09-25T12:03:49.316820-05:00",
-      "last_updated_utc": "2026-09-25T17:03:49.316822+00:00",
-      "last_updated_local": "2026-09-25T12:03:49.316820-05:00"
-    },
-    {
-      "title": "ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data",
-      "url": "https://gbhackers.com/servicenow-security-flaws/",
-      "published": "Fri, 25 Sep 2026 10:58:04 +0000",
-      "published_utc": "2026-09-25T10:58:04+00:00",
-      "summary": "<p>ServiceNow has disclosed five vulnerabilities affecting its AI Platform, including two critical flaws that could allow unauthenticated attackers to execute arbitrary SQL commands, extract sensitive instance data, modify records, and escalate privileges. The security advisory, published in September 2026 and tracked as KB3159623 on September 24, details the following vulnerabilities: CVE-2026-86857, CVE-2026-86858, CVE-2026-13016, CVE-2026-86859, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/servicenow-security-flaws/\">ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200997",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/servicenow-security-flaws",
-      "content_hash": "6cd453d9f55c369d2f71c45f842c172f4510135b29cd3704bf044627d7edfdc2",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "6cd453d9f55c369d2f71c45f842c172f4510135b29cd3704bf044627d7edfdc2"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:48.678289+00:00",
-      "first_seen_local": "2026-09-25T12:03:48.678287-05:00",
-      "last_updated_utc": "2026-09-25T17:03:48.678289+00:00",
-      "last_updated_local": "2026-09-25T12:03:48.678287-05:00"
-    },
-    {
-      "title": "Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed",
-      "url": "https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/",
-      "published": "Fri, 25 Sep 2026 10:41:35 +0000",
-      "published_utc": "2026-09-25T10:41:35+00:00",
-      "summary": "<p>Research from Transluce shows that autonomous AI agents shifted from standard web data collection to probing for vulnerabilities in three public-facing services after traditional data retrieval methods failed. This activity targeted an Australian government health data platform, Data USA, and the University of New Mexico&#8217;s digital library. Rogue AI Tried to Hack Public Websites Transluce [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/\">Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200993",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites",
-      "content_hash": "dff218cd8a6d9f75482fbfbc14f7ff49be6301a9281ae38a803cdb1bbf24245e",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dff218cd8a6d9f75482fbfbc14f7ff49be6301a9281ae38a803cdb1bbf24245e"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:48.678289+00:00",
-      "first_seen_local": "2026-09-25T12:03:48.678287-05:00",
-      "last_updated_utc": "2026-09-25T17:03:48.678289+00:00",
-      "last_updated_local": "2026-09-25T12:03:48.678287-05:00"
-    },
-    {
-      "title": "CISA Flags WSO2 Security Flaw Under Active Exploitation",
-      "url": "https://gbhackers.com/cisa-flags-wso2-security-flaw/",
-      "published": "Fri, 25 Sep 2026 10:14:50 +0000",
-      "published_utc": "2026-09-25T10:14:50+00:00",
-      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability affecting WSO2, tracked as CVE-2026-5430, to its Known Exploited Vulnerabilities (KEV) catalog. CISA made this decision after evidence showed threat actors are actively exploiting the flaw. CISA added the vulnerability on September 24, 2026, and set a remediation deadline for affected federal [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-flags-wso2-security-flaw/\">CISA Flags WSO2 Security Flaw Under Active Exploitation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200986",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/cisa-flags-wso2-security-flaw",
-      "content_hash": "8f07c464565e7697de65ba2b4bedbdd9f0aab0222f7d9fe36796b9a1028319ab",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8f07c464565e7697de65ba2b4bedbdd9f0aab0222f7d9fe36796b9a1028319ab"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:48.678289+00:00",
-      "first_seen_local": "2026-09-25T12:03:48.678287-05:00",
-      "last_updated_utc": "2026-09-25T17:03:48.678289+00:00",
-      "last_updated_local": "2026-09-25T12:03:48.678287-05:00"
-    },
-    {
-      "title": "CISA Adds Multiple Check Point Product Flaws to Exploited Vulnerabilities List",
-      "url": "https://gbhackers.com/cisa-adds-multiple-check-point-product-flaws/",
-      "published": "Fri, 25 Sep 2026 10:05:49 +0000",
-      "published_utc": "2026-09-25T10:05:49+00:00",
-      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical vulnerabilities affecting multiple Check Point products to its Known Exploited Vulnerabilities (KEV) catalog. CISA warns that these flaws are being actively exploited in the wild. Federal civilian agencies must address these vulnerabilities by September 25, 2026, under Binding Operational Directive (BOD) 26-04. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-adds-multiple-check-point-product-flaws/\">CISA Adds Multiple Check Point Product Flaws to Exploited Vulnerabilities List</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=200979",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/cisa-adds-multiple-check-point-product-flaws",
-      "content_hash": "85982dfb13e746d518276c68bbf2f084b5cdc914b761c4b94b4679ffeffaaa15",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "85982dfb13e746d518276c68bbf2f084b5cdc914b761c4b94b4679ffeffaaa15"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-25T17:03:48.678289+00:00",
-      "first_seen_local": "2026-09-25T12:03:48.678287-05:00",
-      "last_updated_utc": "2026-09-25T17:03:48.678289+00:00",
-      "last_updated_local": "2026-09-25T12:03:48.678287-05:00"
+      "first_seen_utc": "2026-09-25T20:24:48.197272+00:00",
+      "first_seen_local": "2026-09-25T15:24:48.197269-05:00",
+      "last_updated_utc": "2026-09-25T20:24:48.197272+00:00",
+      "last_updated_local": "2026-09-25T15:24:48.197269-05:00"
     }
   ]
 }

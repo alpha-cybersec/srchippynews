@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta",
-          "url": "https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/",
-          "published": "Thu, 24 Sep 2026 18:59:07 +0000",
-          "published_utc": "2026-09-24T18:59:07+00:00",
-          "summary": "<p>Phoenix, Arizona, September 24th, 2026, CyberNewswire SCOUTz, a prospect intelligence platform built for managed service provider (MSP) security sales, is now available in open beta. The platform gives an MSP dated evidence about a prospect&#8217;s environment before the first meeting and keeps that evidence attached through delivery and reassessment. The open beta is available at [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/\">SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164693"
-        },
-        {
-          "title": "Researchers Found a New Way to Break RSA that Doesn’t Require Factoring the Key",
-          "url": "https://cybersecuritynews.com/new-way-to-break-rsa/",
-          "published": "Thu, 24 Sep 2026 17:48:12 +0000",
-          "published_utc": "2026-09-24T17:48:12+00:00",
-          "summary": "<p>Security researchers have demonstrated a faster way to undermine certain RSA deployments without factoring the public modulus, challenging the assumption that RSA’s practical strength always tracks the cost of integer factorization. The attack converts temporary access to a raw, unpadded RSA signing or decryption service into a lasting capability to forge signatures or decrypt chosen [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-way-to-break-rsa/\">Researchers Found a New Way to Break RSA that Doesn’t Require Factoring the Key</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164704"
-        },
-        {
-          "title": "Fake PDF Files Hide Konni Malware Campaign Targeting Ukraine Organizations",
-          "url": "https://cybersecuritynews.com/konni-malware-campaign/",
-          "published": "Thu, 24 Sep 2026 13:39:18 +0000",
-          "published_utc": "2026-09-24T13:39:18+00:00",
-          "summary": "<p>A newly documented campaign targeting people and organizations focused on Ukraine uses document-themed Windows shortcuts to install a malware downloader called VelvetCake. The goal appears to be gathering political and military intelligence about the war. The attackers likely send targeted emails with ZIP attachments. Inside are shortcut files that look like PDFs about peace proposals, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/konni-malware-campaign/\">Fake PDF Files Hide Konni Malware Campaign Targeting Ukraine Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164676"
-        },
-        {
-          "title": "AvisLoader Windows Malware That Learned to Survive Even After Its Servers Are Taken Down",
-          "url": "https://cybersecuritynews.com/avisloader-windows-malware/",
-          "published": "Thu, 24 Sep 2026 12:07:32 +0000",
-          "published_utc": "2026-09-24T12:07:32+00:00",
-          "summary": "<p>AvisLoader is a Windows malware loader built to keep taking instructions after server takedowns. That makes it difficult to disrupt by simply removing a malicious website. It starts with a fake document-signing page that asks visitors to run a command themselves, turning a familiar verification request into a possible infection on the device. The signing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/avisloader-windows-malware/\">AvisLoader Windows Malware That Learned to Survive Even After Its Servers Are Taken Down</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164665"
-        },
-        {
-          "title": "Microsoft Rebuilds the SOC with AI Agents, SIEM Integration and Machine-Speed Defense",
-          "url": "https://cybersecuritynews.com/microsoft-rebuilds-the-soc/",
-          "published": "Thu, 24 Sep 2026 11:12:28 +0000",
-          "published_utc": "2026-09-24T11:12:28+00:00",
-          "summary": "<p>Cyberattacks can move faster than a security team can investigate them. Attackers increasingly use AI agents to automate steps that once needed several people, while defenders still work across separate monitoring and protection tools. Microsoft says this mismatch is driving a rethink of how security operations centers, or SOCs, should work. This is not a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-rebuilds-the-soc/\">Microsoft Rebuilds the SOC with AI Agents, SIEM Integration and Machine-Speed Defense</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164653"
-        },
-        {
-          "title": "New Android Banking Trojan Uses AI-Built Overlays to Steal Users’ Banking PINs",
-          "url": "https://cybersecuritynews.com/android-banking-trojan/",
-          "published": "Thu, 24 Sep 2026 10:04:44 +0000",
-          "published_utc": "2026-09-24T10:04:44+00:00",
-          "summary": "<p>A new Android banking trojan is turning an app download into a banking PIN trap. Called RemControl, it hides behind fake download pages for a television streaming app, then waits for banking apps to open. The campaign uses pages that look like Google Play listings, even though the streaming app is not offered there. In [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-banking-trojan/\">New Android Banking Trojan Uses AI-Built Overlays to Steal Users’ Banking PINs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164633"
-        },
-        {
-          "title": "New Galago Ransomware Operation Emerges With Links to Panzer Group",
-          "url": "https://cybersecuritynews.com/new-galago-ransomware/",
-          "published": "Thu, 24 Sep 2026 08:08:44 +0000",
-          "published_utc": "2026-09-24T08:08:44+00:00",
-          "summary": "<p>Galago is a new ransomware operation drawing attention because it claims a partnership with the Panzer group. That matters, but its reach is uncertain: researchers have not confirmed a Galago intrusion or seen any victims published on its own leak site. The danger is what it may do next, not a verified attack wave. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-galago-ransomware/\">New Galago Ransomware Operation Emerges With Links to Panzer Group</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164619"
-        },
-        {
-          "title": "OpenAI Agent Hacked Australian Government Medicare Portal in World’s First Rogue AI Breach",
-          "url": "https://cybersecuritynews.com/openai-agent-hacked-australian-portal/",
-          "published": "Thu, 24 Sep 2026 08:01:49 +0000",
-          "published_utc": "2026-09-24T08:01:49+00:00",
-          "summary": "<p>An autonomous OpenAI agent breached an Australian government Medicare statistics portal after a research task escalated into unauthorized system access, marking a reported world-first rogue AI intrusion into a government service. Prime Minister Anthony Albanese said the incident occurred on June 18, 2026, and raised Australia’s “extreme concern” with OpenAI CEO Sam Altman. The agent [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-hacked-australian-portal/\">OpenAI Agent Hacked Australian Government Medicare Portal in World’s First Rogue AI Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164626"
-        },
-        {
-          "title": "Roundcube Webmail SQL Injection Vulnerability Exploited in the Wild",
-          "url": "https://cybersecuritynews.com/roundcube-webmail-vulnerability-exploited/",
-          "published": "Thu, 24 Sep 2026 07:37:03 +0000",
-          "published_utc": "2026-09-24T07:37:03+00:00",
-          "summary": "<p>A critical security issue affecting Roundcube Webmail is now being exploited in the wild, prompting administrators to update exposed installations urgently. The Canadian Center for Cyber Security said open-source reporting confirmed active exploitation of CVE-2026-48842, an SQL injection vulnerability affecting Roundcube Webmail deployments running vulnerable versions. Roundcube published security advisories on May 24, 2026, addressing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/roundcube-webmail-vulnerability-exploited/\">Roundcube Webmail SQL Injection Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164608"
-        },
-        {
-          "title": "Hackers Exploit Critical Check Point VPN Flaws to Gain Remote Access Without Login",
-          "url": "https://cybersecuritynews.com/hackers-exploit-critical-check-point-vpn-flaws/",
-          "published": "Thu, 24 Sep 2026 07:35:19 +0000",
-          "published_utc": "2026-09-24T07:35:19+00:00",
-          "summary": "<p>Check Point has warned that attackers are actively exploiting two critical vulnerabilities in its VPN and management products, allowing unauthenticated remote access and possible remote code execution. Both flaws carry a CVSS severity score of 9.8, and the company has released fixes that affected organizations should apply immediately. The first issue, tracked as CVE-2026-85102, affects [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-check-point-vpn-flaws/\">Hackers Exploit Critical Check Point VPN Flaws to Gain Remote Access Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164600"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

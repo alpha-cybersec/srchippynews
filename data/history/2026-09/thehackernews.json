@@ -2,8 +2,90 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 95,
+  "article_count": 98,
   "articles": [
+    {
+      "title": "The SOC Doesn't Need to Start Over with Every Alert",
+      "url": "http://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+      "published": "Fri, 25 Sep 2026 11:30:00 +0000",
+      "published_utc": "2026-09-25T11:30:00+00:00",
+      "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.\n\nThe routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8886737595372300245",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+      "content_hash": "f8033cbc183489e335697011a4298305c4cd476a7870766497d47f4068c0ff66",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f8033cbc183489e335697011a4298305c4cd476a7870766497d47f4068c0ff66"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-25T11:44:51.294781+00:00",
+      "first_seen_local": "2026-09-25T06:44:51.294778-05:00",
+      "last_updated_utc": "2026-09-25T11:44:51.294781+00:00",
+      "last_updated_local": "2026-09-25T06:44:51.294778-05:00"
+    },
+    {
+      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+      "url": "http://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "published": "Fri, 25 Sep 2026 10:35:55 +0000",
+      "published_utc": "2026-09-25T10:35:55+00:00",
+      "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp;\n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's cold wallets and the overwhelming majority of platform assets remain",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-176570316115700376",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "content_hash": "83c69c648c269dc369dbd0e23c4480a6caf6b956d36725af830d25f40c43a68b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "83c69c648c269dc369dbd0e23c4480a6caf6b956d36725af830d25f40c43a68b",
+        "FEEDBURNER": "83c69c648c269dc369dbd0e23c4480a6caf6b956d36725af830d25f40c43a68b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-25T11:44:51.294781+00:00",
+      "first_seen_local": "2026-09-25T06:44:51.294778-05:00",
+      "last_updated_utc": "2026-09-25T11:44:51.294781+00:00",
+      "last_updated_local": "2026-09-25T06:44:51.294778-05:00"
+    },
+    {
+      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+      "url": "http://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+      "published": "Fri, 25 Sep 2026 10:14:02 +0000",
+      "published_utc": "2026-09-25T10:14:02+00:00",
+      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.\n\nThe issue stems from a preg_replace() backslash",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2628561605117833787",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+      "content_hash": "60cd337ad8afd41f4e10735f85ba75a85716fee1e2f7b7de1754ce7aa3772ef2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "60cd337ad8afd41f4e10735f85ba75a85716fee1e2f7b7de1754ce7aa3772ef2",
+        "FEEDBURNER": "60cd337ad8afd41f4e10735f85ba75a85716fee1e2f7b7de1754ce7aa3772ef2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-25T11:44:51.294781+00:00",
+      "first_seen_local": "2026-09-25T06:44:51.294778-05:00",
+      "last_updated_utc": "2026-09-25T11:44:51.294781+00:00",
+      "last_updated_local": "2026-09-25T06:44:51.294778-05:00"
+    },
     {
       "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
       "url": "http://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",

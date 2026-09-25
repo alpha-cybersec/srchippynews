@@ -10,8 +10,33 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "The SOC Doesn't Need to Start Over with Every Alert",
+          "url": "http://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+          "published": "Fri, 25 Sep 2026 11:30:00 +0000",
+          "published_utc": "2026-09-25T11:30:00+00:00",
+          "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.\n\nThe routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8886737595372300245"
+        },
+        {
+          "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+          "url": "http://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+          "published": "Fri, 25 Sep 2026 10:35:55 +0000",
+          "published_utc": "2026-09-25T10:35:55+00:00",
+          "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp;\n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's cold wallets and the overwhelming majority of platform assets remain",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-176570316115700376"
+        },
+        {
+          "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+          "url": "http://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+          "published": "Fri, 25 Sep 2026 10:14:02 +0000",
+          "published_utc": "2026-09-25T10:14:02+00:00",
+          "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.\n\nThe issue stems from a preg_replace() backslash",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2628561605117833787"
+        }
+      ],
       "error": ""
     },
     "FEEDBURNER": {
@@ -22,8 +47,25 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+          "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+          "published": "Fri, 25 Sep 2026 16:05:55 +0530",
+          "published_utc": "2026-09-25T10:35:55+00:00",
+          "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp;\n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's cold wallets and the overwhelming majority of platform assets remain",
+          "id": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html"
+        },
+        {
+          "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+          "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+          "published": "Fri, 25 Sep 2026 15:44:02 +0530",
+          "published_utc": "2026-09-25T10:14:02+00:00",
+          "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.\n\nThe issue stems from a preg_replace() backslash",
+          "id": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
+        }
+      ],
       "error": ""
     }
   }

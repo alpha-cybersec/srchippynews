@@ -5,13 +5,57 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
+      "status": "FAILED",
+      "http_status": 202,
+      "final_url": "https://gbhackers.com/feed/",
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
+    },
+    "FEEDBURNER": {
+      "label": "GBHackers-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/gbhackers",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
+      "final_url": "https://feeds.feedburner.com/gbhackers",
+      "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 2,
+      "article_count": 6,
       "articles": [
+        {
+          "title": "Salesforce Agentforce Flaw Enables 0-Click Data Exfiltration via Prompt Injection",
+          "url": "https://gbhackers.com/salesforce-agentforce-flaw/",
+          "published": "Fri, 25 Sep 2026 07:47:45 +0000",
+          "published_utc": "2026-09-25T07:47:45+00:00",
+          "summary": "<p>Security researchers have revealed a vulnerability chain known as “SalesBleed,” associated with Salesforce&#8217;s Agentforce. This vulnerability could allow attackers to extract sensitive CRM data through an indirect prompt injection embedded in a public Web-to-Lead form. The attack does not require a Salesforce login or a click from the victim and could leak data via DNS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/salesforce-agentforce-flaw/\">Salesforce Agentforce Flaw Enables 0-Click Data Exfiltration via Prompt Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200965"
+        },
+        {
+          "title": "Sudo Vulnerability Lets Attackers Bypass Time-Based Authorization Controls",
+          "url": "https://gbhackers.com/sudo-vulnerability/",
+          "published": "Fri, 25 Sep 2026 07:26:40 +0000",
+          "published_utc": "2026-09-25T07:26:40+00:00",
+          "summary": "<p>A recently disclosed high-severity vulnerability in Sudo could allow local, unprivileged Linux users to manipulate time-based authorization restrictions in sudoers policies. Tracked as CVE-2026-96512, this vulnerability arises from how Sudo handles the attacker-controlled TZ environment variable when evaluating NOTBEFORE and NOTAFTER constraints. Red Hat is monitoring this flaw under Bug 2539327, which is currently categorized [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sudo-vulnerability/\">Sudo Vulnerability Lets Attackers Bypass Time-Based Authorization Controls</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200960"
+        },
+        {
+          "title": "Duelbits Hot Wallet Hack Drains $7 Million, Forces Platform Offline",
+          "url": "https://gbhackers.com/duelbits-hot-wallet-hack-drains-7-million/",
+          "published": "Fri, 25 Sep 2026 06:16:34 +0000",
+          "published_utc": "2026-09-25T06:16:34+00:00",
+          "summary": "<p>Crypto casino Duelbits has confirmed a cybersecurity breach that drained approximately $7 million from its hot wallets. In response, the company has taken its platform offline while it investigates the incident. Co-founder Joe said they are still determining “exactly what happened and how,” while assuring customers their funds are safe. Multi-Chain Wallet Drain The incident [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/duelbits-hot-wallet-hack-drains-7-million/\">Duelbits Hot Wallet Hack Drains $7 Million, Forces Platform Offline</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200955"
+        },
+        {
+          "title": "Attackers Drain Payy Network After Exploiting Ethereum Bridge Contract",
+          "url": "https://gbhackers.com/attackers-drain-payy-network/",
+          "published": "Fri, 25 Sep 2026 06:09:53 +0000",
+          "published_utc": "2026-09-25T06:09:53+00:00",
+          "summary": "<p>Payy Network has confirmed that an attacker exploited its Ethereum bridge contract and drained its entire balance. As a result, the network and wallet services were immediately suspended. This incident affected users&#8217; non-custodial deposits held within the Payy Network and Payy Wallet bridge infrastructure. The exploit occurred around 04:21 UTC on September 24, 2026. Payy [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/attackers-drain-payy-network/\">Attackers Drain Payy Network After Exploiting Ethereum Bridge Contract</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200950"
+        },
         {
           "title": "Bitget Confirms $351.6 Million Hot Wallet Hack, Suspends Withdrawals",
           "url": "https://gbhackers.com/bitget-confirms-351-6-million-hot-wallet-hack/",
@@ -29,18 +73,6 @@
           "id": "https://gbhackers.com/?p=200944"
         }
       ],
-      "error": ""
-    },
-    "FEEDBURNER": {
-      "label": "GBHackers-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/gbhackers",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/gbhackers",
-      "content_type": "text/xml; charset=utf-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 0,
-      "articles": [],
       "error": ""
     }
   }

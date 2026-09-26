@@ -2,8 +2,144 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 100,
+  "article_count": 105,
   "articles": [
+    {
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "url": "http://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "published": "Sat, 26 Sep 2026 11:46:40 +0000",
+      "published_utc": "2026-09-26T11:46:40+00:00",
+      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.\n\nThe vulnerability was first exploited as a zero-day",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-896928501360525621",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "content_hash": "36cb24746824606973f254ed2d82fd9d604c9133db2d008160430ba4459c1103",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "36cb24746824606973f254ed2d82fd9d604c9133db2d008160430ba4459c1103"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
+      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
+      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
+      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
+    },
+    {
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "url": "http://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "published": "Sat, 26 Sep 2026 10:30:00 +0000",
+      "published_utc": "2026-09-26T10:30:00+00:00",
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8618100582636748011",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "content_hash": "230b0703142b12aa28ccf53c1250f0ea5dfd9121547b591cc09476099b8a4cfe",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "230b0703142b12aa28ccf53c1250f0ea5dfd9121547b591cc09476099b8a4cfe"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
+      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
+      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
+      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
+    },
+    {
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "url": "http://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "published": "Sat, 26 Sep 2026 09:55:22 +0000",
+      "published_utc": "2026-09-26T09:55:22+00:00",
+      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\n\nThe cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8940037789250486896",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "content_hash": "150f005bdac3c5131f734fb01869880c0d425cce387d97023857d8eabfd887ae",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "150f005bdac3c5131f734fb01869880c0d425cce387d97023857d8eabfd887ae",
+        "FEEDBURNER": "150f005bdac3c5131f734fb01869880c0d425cce387d97023857d8eabfd887ae"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
+      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
+      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
+      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
+    },
+    {
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "url": "http://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "published": "Sat, 26 Sep 2026 08:49:53 +0000",
+      "published_utc": "2026-09-26T08:49:53+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities in question are as follows -\n\n\n  CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4993634537798313830",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "content_hash": "49edc6f280342a037471ccec269d5d6d6c82733b42fc0e9fe27b9331ad99cee9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "49edc6f280342a037471ccec269d5d6d6c82733b42fc0e9fe27b9331ad99cee9",
+        "FEEDBURNER": "49edc6f280342a037471ccec269d5d6d6c82733b42fc0e9fe27b9331ad99cee9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
+      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
+      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
+      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
+    },
+    {
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "url": "http://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "published": "Sat, 26 Sep 2026 07:48:33 +0000",
+      "published_utc": "2026-09-26T07:48:33+00:00",
+      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\n\"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5003378905874359447",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "content_hash": "c0cdf5343ad60057b71b6b857210ee2c76d69aa007053e5d79e280dd9cffa6e6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c0cdf5343ad60057b71b6b857210ee2c76d69aa007053e5d79e280dd9cffa6e6",
+        "FEEDBURNER": "c0cdf5343ad60057b71b6b857210ee2c76d69aa007053e5d79e280dd9cffa6e6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
+      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
+      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
+      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
+    },
     {
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
       "url": "http://thehackernews.com/2026/09/compromised-github-actions-came-back.html",

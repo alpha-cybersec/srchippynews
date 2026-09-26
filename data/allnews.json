@@ -1,233 +1,64 @@
 {
-  "generated_at_utc": "2026-09-26T12:24:10.331510+00:00",
-  "generated_at_local": "2026-09-26T07:24:10.331515-05:00",
-  "article_count": 8,
-  "new_count": 8,
+  "generated_at_utc": "2026-09-26T16:43:20.245866+00:00",
+  "generated_at_local": "2026-09-26T11:43:20.245872-05:00",
+  "article_count": 2,
+  "new_count": 2,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 5,
-    "gbhackers": 3
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-      "url": "http://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "published": "Sat, 26 Sep 2026 11:46:40 +0000",
-      "published_utc": "2026-09-26T11:46:40+00:00",
-      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.\n\nThe vulnerability was first exploited as a zero-day",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-896928501360525621",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "content_hash": "36cb24746824606973f254ed2d82fd9d604c9133db2d008160430ba4459c1103",
+      "title": "Local AI Model Modifies Windows Credential Dumper to Bypass EDR Detection",
+      "url": "https://cybersecuritynews.com/local-ai-bypasses-edr/",
+      "published": "Sat, 26 Sep 2026 16:40:07 +0000",
+      "published_utc": "2026-09-26T16:40:07+00:00",
+      "summary": "<p>A locally hosted, uncensored artificial intelligence model modified a Windows credential-dumping utility until it evaded two Endpoint Detection and Response (EDR) products in a controlled lab, highlighting how accessible generative AI could accelerate custom offensive-tool development. The experiment, published by Project Black researcher Eddie Zhang, targeted the Local Security Authority Subsystem Service (LSASS), whose memory [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/local-ai-bypasses-edr/\">Local AI Model Modifies Windows Credential Dumper to Bypass EDR Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164883",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/local-ai-bypasses-edr",
+      "content_hash": "4b5cc8e6900ee6b439c77e67b5c9cecbe42cbb76429e7718ca4832b2ec377909",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "36cb24746824606973f254ed2d82fd9d604c9133db2d008160430ba4459c1103"
+        "ORIGINAL": "4b5cc8e6900ee6b439c77e67b5c9cecbe42cbb76429e7718ca4832b2ec377909"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
-      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
-      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
-      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
+      "first_seen_utc": "2026-09-26T16:43:14.676354+00:00",
+      "first_seen_local": "2026-09-26T11:43:14.676345-05:00",
+      "last_updated_utc": "2026-09-26T16:43:14.676354+00:00",
+      "last_updated_local": "2026-09-26T11:43:14.676345-05:00"
     },
     {
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "url": "http://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "published": "Sat, 26 Sep 2026 10:30:00 +0000",
-      "published_utc": "2026-09-26T10:30:00+00:00",
-      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8618100582636748011",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "content_hash": "230b0703142b12aa28ccf53c1250f0ea5dfd9121547b591cc09476099b8a4cfe",
+      "title": "F-Droid 2.0 Released After 10 years With Major Redesign to Transform Open-Source Android App Discovery",
+      "url": "https://cybersecuritynews.com/f-droid-2-0-released/",
+      "published": "Sat, 26 Sep 2026 15:56:43 +0000",
+      "published_utc": "2026-09-26T15:56:43+00:00",
+      "summary": "<p>F-Droid has released version 2.0 of its official Android app, delivering its largest client update in a decade. The open-source Android app repository said the release follows more than a year of development and 14 test builds, with a staged rollout planned over the coming weeks. Unlike a basic visual refresh, F-Droid 2.0 rebuilds major [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/f-droid-2-0-released/\">F-Droid 2.0 Released After 10 years With Major Redesign to Transform Open-Source Android App Discovery</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164827",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/f-droid-2-0-released",
+      "content_hash": "0bc1e77dcb6fadf0ff9e5127d921dd67fb04d51baa9e9b34c4f6ce823f20a5ec",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "230b0703142b12aa28ccf53c1250f0ea5dfd9121547b591cc09476099b8a4cfe"
+        "ORIGINAL": "0bc1e77dcb6fadf0ff9e5127d921dd67fb04d51baa9e9b34c4f6ce823f20a5ec"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
-      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
-      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
-      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
-    },
-    {
-      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-      "url": "http://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-      "published": "Sat, 26 Sep 2026 09:55:22 +0000",
-      "published_utc": "2026-09-26T09:55:22+00:00",
-      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\n\nThe cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8940037789250486896",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-      "content_hash": "150f005bdac3c5131f734fb01869880c0d425cce387d97023857d8eabfd887ae",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "150f005bdac3c5131f734fb01869880c0d425cce387d97023857d8eabfd887ae",
-        "FEEDBURNER": "150f005bdac3c5131f734fb01869880c0d425cce387d97023857d8eabfd887ae"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
-      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
-      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
-      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
-    },
-    {
-      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-      "url": "http://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "published": "Sat, 26 Sep 2026 08:49:53 +0000",
-      "published_utc": "2026-09-26T08:49:53+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities in question are as follows -\n\n\n  CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4993634537798313830",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "content_hash": "49edc6f280342a037471ccec269d5d6d6c82733b42fc0e9fe27b9331ad99cee9",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "49edc6f280342a037471ccec269d5d6d6c82733b42fc0e9fe27b9331ad99cee9",
-        "FEEDBURNER": "49edc6f280342a037471ccec269d5d6d6c82733b42fc0e9fe27b9331ad99cee9"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
-      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
-      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
-      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
-    },
-    {
-      "title": "Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit",
-      "url": "https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/",
-      "published": "Sat, 26 Sep 2026 08:15:11 +0000",
-      "published_utc": "2026-09-26T08:15:11+00:00",
-      "summary": "<p>A threat actor tracked as Red Heron has exploited the critical Gitea remote code execution vulnerability CVE-2026-60004 to steal source-code repositories, establish persistent access, and deploy a covert Linux toolset consisting of the JITTERLY implant and SIXZUT LD_PRELOAD rootkit. Acronis reported that the actor rapidly weaponized the flaw against internet-exposed Gitea environments, turning initial access [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/\">Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=201089",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/red-heron-exploits-critical-gitea-flaw",
-      "content_hash": "2bbaef147555568b75292f00d5d567125a1f1144c88b57c61554e0f362d0eb4f",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2bbaef147555568b75292f00d5d567125a1f1144c88b57c61554e0f362d0eb4f",
-        "FEEDBURNER": "2bbaef147555568b75292f00d5d567125a1f1144c88b57c61554e0f362d0eb4f"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:04.721070+00:00",
-      "first_seen_local": "2026-09-26T07:24:04.721068-05:00",
-      "last_updated_utc": "2026-09-26T12:24:04.721070+00:00",
-      "last_updated_local": "2026-09-26T07:24:04.721068-05:00"
-    },
-    {
-      "title": "Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In",
-      "url": "https://gbhackers.com/windows-11-update-causes-black-screen/",
-      "published": "Sat, 26 Sep 2026 08:02:06 +0000",
-      "published_utc": "2026-09-26T08:02:06+00:00",
-      "summary": "<p>Microsoft has confirmed a Windows 11 issue that can leave users with a black screen after sign-in or prevent the desktop from loading automatically. The problem affects devices that installed the August 2026 non-security preview updates and potentially later cumulative updates, with Azure Virtual Desktop environments using FSLogix profile containers most frequently affected. The issue [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-update-causes-black-screen/\">Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=201083",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/windows-11-update-causes-black-screen",
-      "content_hash": "d67d9207a1dcd501e074e884c3d53571c7239f1236924da833b36c147f3d697a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d67d9207a1dcd501e074e884c3d53571c7239f1236924da833b36c147f3d697a",
-        "FEEDBURNER": "d67d9207a1dcd501e074e884c3d53571c7239f1236924da833b36c147f3d697a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:04.721070+00:00",
-      "first_seen_local": "2026-09-26T07:24:04.721068-05:00",
-      "last_updated_utc": "2026-09-26T12:24:04.721070+00:00",
-      "last_updated_local": "2026-09-26T07:24:04.721068-05:00"
-    },
-    {
-      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-      "url": "http://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-      "published": "Sat, 26 Sep 2026 07:48:33 +0000",
-      "published_utc": "2026-09-26T07:48:33+00:00",
-      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\n\"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5003378905874359447",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-      "content_hash": "c0cdf5343ad60057b71b6b857210ee2c76d69aa007053e5d79e280dd9cffa6e6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "c0cdf5343ad60057b71b6b857210ee2c76d69aa007053e5d79e280dd9cffa6e6",
-        "FEEDBURNER": "c0cdf5343ad60057b71b6b857210ee2c76d69aa007053e5d79e280dd9cffa6e6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:10.328369+00:00",
-      "first_seen_local": "2026-09-26T07:24:10.328368-05:00",
-      "last_updated_utc": "2026-09-26T12:24:10.328369+00:00",
-      "last_updated_local": "2026-09-26T07:24:10.328368-05:00"
-    },
-    {
-      "title": "Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat",
-      "url": "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/",
-      "published": "Sat, 26 Sep 2026 07:45:21 +0000",
-      "published_utc": "2026-09-26T07:45:21+00:00",
-      "summary": "<p>Kiteworks has urged customers worldwide to temporarily shut down their servers after receiving credible law-enforcement intelligence that a threat actor may target Kiteworks deployments over the weekend. The emergency advisory is preventive, but the company said the potential activity may involve an unknown zero-day vulnerability. The secure file-sharing and managed content communications provider asked organizations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/\">Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=201079",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day",
-      "content_hash": "9ed74e25ca4a4aa6c907aa1c686760e3025629fda6921d04a27946a49eded414",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "9ed74e25ca4a4aa6c907aa1c686760e3025629fda6921d04a27946a49eded414",
-        "FEEDBURNER": "9ed74e25ca4a4aa6c907aa1c686760e3025629fda6921d04a27946a49eded414"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T12:24:04.721070+00:00",
-      "first_seen_local": "2026-09-26T07:24:04.721068-05:00",
-      "last_updated_utc": "2026-09-26T12:24:04.721070+00:00",
-      "last_updated_local": "2026-09-26T07:24:04.721068-05:00"
+      "first_seen_utc": "2026-09-26T16:43:14.676354+00:00",
+      "first_seen_local": "2026-09-26T11:43:14.676345-05:00",
+      "last_updated_utc": "2026-09-26T16:43:14.676354+00:00",
+      "last_updated_local": "2026-09-26T11:43:14.676345-05:00"
     }
   ]
 }

@@ -1,64 +1,38 @@
 {
-  "generated_at_utc": "2026-09-26T16:43:20.245866+00:00",
-  "generated_at_local": "2026-09-26T11:43:20.245872-05:00",
-  "article_count": 2,
-  "new_count": 2,
+  "generated_at_utc": "2026-09-26T19:44:09.320441+00:00",
+  "generated_at_local": "2026-09-26T14:44:09.320450-05:00",
+  "article_count": 1,
+  "new_count": 1,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 2
+    "thehackernews": 1
   },
   "articles": [
     {
-      "title": "Local AI Model Modifies Windows Credential Dumper to Bypass EDR Detection",
-      "url": "https://cybersecuritynews.com/local-ai-bypasses-edr/",
-      "published": "Sat, 26 Sep 2026 16:40:07 +0000",
-      "published_utc": "2026-09-26T16:40:07+00:00",
-      "summary": "<p>A locally hosted, uncensored artificial intelligence model modified a Windows credential-dumping utility until it evaded two Endpoint Detection and Response (EDR) products in a controlled lab, highlighting how accessible generative AI could accelerate custom offensive-tool development. The experiment, published by Project Black researcher Eddie Zhang, targeted the Local Security Authority Subsystem Service (LSASS), whose memory [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/local-ai-bypasses-edr/\">Local AI Model Modifies Windows Credential Dumper to Bypass EDR Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164883",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/local-ai-bypasses-edr",
-      "content_hash": "4b5cc8e6900ee6b439c77e67b5c9cecbe42cbb76429e7718ca4832b2ec377909",
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "url": "http://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "published": "Sat, 26 Sep 2026 18:22:52 +0000",
+      "published_utc": "2026-09-26T18:22:52+00:00",
+      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.\n\nThe new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users.\n\n\"The attack chain begins with a fake CAPTCHA page and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1051184795233005106",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "content_hash": "07bb912bef39d193b72f9ef784cf2f270a0194ae9a463a7f7e85f3b8f0c67c7f",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "4b5cc8e6900ee6b439c77e67b5c9cecbe42cbb76429e7718ca4832b2ec377909"
+        "ORIGINAL": "07bb912bef39d193b72f9ef784cf2f270a0194ae9a463a7f7e85f3b8f0c67c7f"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-09-26T16:43:14.676354+00:00",
-      "first_seen_local": "2026-09-26T11:43:14.676345-05:00",
-      "last_updated_utc": "2026-09-26T16:43:14.676354+00:00",
-      "last_updated_local": "2026-09-26T11:43:14.676345-05:00"
-    },
-    {
-      "title": "F-Droid 2.0 Released After 10 years With Major Redesign to Transform Open-Source Android App Discovery",
-      "url": "https://cybersecuritynews.com/f-droid-2-0-released/",
-      "published": "Sat, 26 Sep 2026 15:56:43 +0000",
-      "published_utc": "2026-09-26T15:56:43+00:00",
-      "summary": "<p>F-Droid has released version 2.0 of its official Android app, delivering its largest client update in a decade. The open-source Android app repository said the release follows more than a year of development and 14 test builds, with a staged rollout planned over the coming weeks. Unlike a basic visual refresh, F-Droid 2.0 rebuilds major [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/f-droid-2-0-released/\">F-Droid 2.0 Released After 10 years With Major Redesign to Transform Open-Source Android App Discovery</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=164827",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/f-droid-2-0-released",
-      "content_hash": "0bc1e77dcb6fadf0ff9e5127d921dd67fb04d51baa9e9b34c4f6ce823f20a5ec",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0bc1e77dcb6fadf0ff9e5127d921dd67fb04d51baa9e9b34c4f6ce823f20a5ec"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-09-26T16:43:14.676354+00:00",
-      "first_seen_local": "2026-09-26T11:43:14.676345-05:00",
-      "last_updated_utc": "2026-09-26T16:43:14.676354+00:00",
-      "last_updated_local": "2026-09-26T11:43:14.676345-05:00"
+      "first_seen_utc": "2026-09-26T19:44:09.314847+00:00",
+      "first_seen_local": "2026-09-26T14:44:09.314843-05:00",
+      "last_updated_utc": "2026-09-26T19:44:09.314847+00:00",
+      "last_updated_local": "2026-09-26T14:44:09.314843-05:00"
     }
   ]
 }

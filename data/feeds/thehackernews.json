@@ -10,8 +10,16 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 5,
+      "article_count": 6,
       "articles": [
+        {
+          "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+          "url": "http://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+          "published": "Sat, 26 Sep 2026 18:22:52 +0000",
+          "published_utc": "2026-09-26T18:22:52+00:00",
+          "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.\n\nThe new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users.\n\n\"The attack chain begins with a fake CAPTCHA page and",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1051184795233005106"
+        },
         {
           "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
           "url": "http://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
@@ -58,55 +66,14 @@
     "FEEDBURNER": {
       "label": "TheHackerNews-FEEDBURNER",
       "endpoint": "https://feeds.feedburner.com/TheHackersNews",
-      "status": "SUCCESS",
+      "status": "FAILED",
       "http_status": 200,
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
-      "feed_title": "The Hacker News",
-      "article_count": 5,
-      "articles": [
-        {
-          "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-          "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-          "published": "Sat, 26 Sep 2026 17:16:40 +0530",
-          "published_utc": "2026-09-26T11:46:40+00:00",
-          "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.\n\nThe vulnerability was first exploited as a zero-day",
-          "id": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
-        },
-        {
-          "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-          "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-          "published": "Sat, 26 Sep 2026 16:00:00 +0530",
-          "published_utc": "2026-09-26T10:30:00+00:00",
-          "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to",
-          "id": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
-        },
-        {
-          "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-          "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-          "published": "Sat, 26 Sep 2026 15:25:22 +0530",
-          "published_utc": "2026-09-26T09:55:22+00:00",
-          "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\n\nThe cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions",
-          "id": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
-        },
-        {
-          "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-          "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-          "published": "Sat, 26 Sep 2026 14:19:53 +0530",
-          "published_utc": "2026-09-26T08:49:53+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities in question are as follows -\n\n\n  CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint",
-          "id": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
-        },
-        {
-          "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-          "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-          "published": "Sat, 26 Sep 2026 13:18:33 +0530",
-          "published_utc": "2026-09-26T07:48:33+00:00",
-          "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\n\"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief",
-          "id": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
-        }
-      ],
-      "error": ""
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "Posible CAPTCHA/WAF: captcha"
     }
   }
 }

@@ -6,29 +6,30 @@
   "articles": [
     {
       "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "url": "http://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
       "published": "Sun, 27 Sep 2026 07:47:57 +0000",
       "published_utc": "2026-09-27T07:47:57+00:00",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.\n\nCitrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available.\n\nNetScaler ADC and",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration.\n\nThe bulletin came a day after security firm watchTowr",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7949430009997996198",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "content_hash": "12b6f4a9bdd8447adbf1ca09cb9fe4f6291b7ed59ea60d753aed0c740265a49b",
+      "content_hash": "280413c37ba42cec97dc86e6144e2c596341d3a182130676af5dc00c3245735f",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "12b6f4a9bdd8447adbf1ca09cb9fe4f6291b7ed59ea60d753aed0c740265a49b"
+        "ORIGINAL": "280413c37ba42cec97dc86e6144e2c596341d3a182130676af5dc00c3245735f"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "12b6f4a9bdd8447adbf1ca09cb9fe4f6291b7ed59ea60d753aed0c740265a49b",
+      "version": 2,
       "first_seen_utc": "2026-09-27T12:56:30.022177+00:00",
       "first_seen_local": "2026-09-27T07:56:30.022174-05:00",
-      "last_updated_utc": "2026-09-27T12:56:30.022177+00:00",
-      "last_updated_local": "2026-09-27T07:56:30.022174-05:00"
+      "last_updated_utc": "2026-09-27T17:40:58.268639+00:00",
+      "last_updated_local": "2026-09-27T12:40:58.268637-05:00"
     },
     {
       "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",

@@ -1,38 +1,96 @@
 {
-  "generated_at_utc": "2026-09-27T12:56:30.026868+00:00",
-  "generated_at_local": "2026-09-27T07:56:30.026875-05:00",
-  "article_count": 1,
-  "new_count": 1,
-  "updated_count": 0,
+  "generated_at_utc": "2026-09-27T17:40:58.272572+00:00",
+  "generated_at_local": "2026-09-27T12:40:58.272578-05:00",
+  "article_count": 3,
+  "new_count": 2,
+  "updated_count": 1,
   "sources": {
+    "cybersecuritynews": 2,
     "thehackernews": 1
   },
   "articles": [
     {
+      "title": "Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack",
+      "url": "https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/",
+      "published": "Sun, 27 Sep 2026 16:41:48 +0000",
+      "published_utc": "2026-09-27T16:41:48+00:00",
+      "summary": "<p>Citrix has released emergency security updates for NetScaler ADC and NetScaler Gateway after confirming that attackers are exploiting two critical remote code execution vulnerabilities against unmitigated appliances. The flaws, CVE-2026-88771 and CVE-2026-88772, each carry a CVSS v4.0 score of 9.5 and can let remote, unauthenticated adversaries execute code, placing internet-facing gateways at immediate risk. Because [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/\">Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164910",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/citrix-confirms-netscaler-0-day",
+      "content_hash": "c4259a388543bf9c55c81afbd66c9474456a56fa13decaa76e4bc915ba9414f4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c4259a388543bf9c55c81afbd66c9474456a56fa13decaa76e4bc915ba9414f4",
+        "FEEDBURNER": "c4259a388543bf9c55c81afbd66c9474456a56fa13decaa76e4bc915ba9414f4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-27T17:40:52.246179+00:00",
+      "first_seen_local": "2026-09-27T12:40:52.246177-05:00",
+      "last_updated_utc": "2026-09-27T17:40:52.246179+00:00",
+      "last_updated_local": "2026-09-27T12:40:52.246177-05:00"
+    },
+    {
+      "title": "New Windows Process Injection Attack Evades EDR Monitoring Without WriteProcessMemory",
+      "url": "https://cybersecuritynews.com/windows-process-injection-evades-edr/",
+      "published": "Sun, 27 Sep 2026 16:00:24 +0000",
+      "published_utc": "2026-09-27T16:00:24+00:00",
+      "summary": "<p>A Windows process injection method disclosed by security researcher Two Seven One Three sidesteps two APIs closely associated with remote code injection: VirtualAllocEx and WriteProcessMemory. Dubbed console named-pipe injection, the technique delivers payload bytes through a child console process’s redirected standard input and repurposes memory Windows has already populated. It can disrupt detections built around [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-process-injection-evades-edr/\">New Windows Process Injection Attack Evades EDR Monitoring Without WriteProcessMemory</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164901",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-process-injection-evades-edr",
+      "content_hash": "fb7b0929d197eb5bde8cbc7eac6f45292820f8533b2d43f9e189865fa4aa4a4a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fb7b0929d197eb5bde8cbc7eac6f45292820f8533b2d43f9e189865fa4aa4a4a",
+        "FEEDBURNER": "fb7b0929d197eb5bde8cbc7eac6f45292820f8533b2d43f9e189865fa4aa4a4a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-27T17:40:52.246179+00:00",
+      "first_seen_local": "2026-09-27T12:40:52.246177-05:00",
+      "last_updated_utc": "2026-09-27T17:40:52.246179+00:00",
+      "last_updated_local": "2026-09-27T12:40:52.246177-05:00"
+    },
+    {
       "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "url": "http://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
       "published": "Sun, 27 Sep 2026 07:47:57 +0000",
       "published_utc": "2026-09-27T07:47:57+00:00",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.\n\nCitrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available.\n\nNetScaler ADC and",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration.\n\nThe bulletin came a day after security firm watchTowr",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7949430009997996198",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "content_hash": "12b6f4a9bdd8447adbf1ca09cb9fe4f6291b7ed59ea60d753aed0c740265a49b",
+      "content_hash": "280413c37ba42cec97dc86e6144e2c596341d3a182130676af5dc00c3245735f",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "12b6f4a9bdd8447adbf1ca09cb9fe4f6291b7ed59ea60d753aed0c740265a49b"
+        "ORIGINAL": "280413c37ba42cec97dc86e6144e2c596341d3a182130676af5dc00c3245735f"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "12b6f4a9bdd8447adbf1ca09cb9fe4f6291b7ed59ea60d753aed0c740265a49b",
+      "version": 2,
       "first_seen_utc": "2026-09-27T12:56:30.022177+00:00",
       "first_seen_local": "2026-09-27T07:56:30.022174-05:00",
-      "last_updated_utc": "2026-09-27T12:56:30.022177+00:00",
-      "last_updated_local": "2026-09-27T07:56:30.022174-05:00"
+      "last_updated_utc": "2026-09-27T17:40:58.268639+00:00",
+      "last_updated_local": "2026-09-27T12:40:58.268637-05:00"
     }
   ]
 }

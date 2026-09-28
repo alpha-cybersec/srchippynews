@@ -10,23 +10,87 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 2,
+      "article_count": 10,
       "articles": [
         {
-          "title": "MacSync’s New Infection Chain Shows How Mac Malware Is Becoming More Sophisticated",
-          "url": "https://gbhackers.com/macsyncs-new-infection-chain/",
-          "published": "Mon, 28 Sep 2026 05:12:21 +0000",
-          "published_utc": "2026-09-28T05:12:21+00:00",
-          "summary": "<p>A newly observed MacSync campaign shows a marked evolution in macOS-focused crimeware, replacing relatively simple AppleScript-driven delivery with layered binary loaders, encrypted modules, cloud-hosted staging, and a persistent backdoor. Kaspersky first identified the new infection chain in the wild in September 2026, describing it as a significant upgrade for the malware family formerly marketed as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/macsyncs-new-infection-chain/\">MacSync’s New Infection Chain Shows How Mac Malware Is Becoming More Sophisticated</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201149"
+          "title": "Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations",
+          "url": "https://gbhackers.com/oracle-peoplesoft-servers/",
+          "published": "Mon, 28 Sep 2026 11:36:17 +0000",
+          "published_utc": "2026-09-28T11:36:17+00:00",
+          "summary": "<p>The ShinyHunters-linked threat cluster tracked as UNC6240 has renewed mass exploitation of Oracle PeopleSoft servers vulnerable to CVE-2026-35273. Expanding beyond its earlier focus on higher education into technology, healthcare, government, transportation, agriculture, and IT services. The campaign demonstrates how quickly financially motivated actors can adapt when organizations rely on perimeter workarounds rather than applying vendor-issued [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/oracle-peoplesoft-servers/\">Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201255"
         },
         {
-          "title": "Citrix Confirms NetScaler Zero-Day RCE Flaws Actively Exploited in Attacks",
-          "url": "https://gbhackers.com/citrix-confirms-netscaler-zero-day-rce-flaws/",
-          "published": "Mon, 28 Sep 2026 05:03:19 +0000",
-          "published_utc": "2026-09-28T05:03:19+00:00",
-          "summary": "<p>Citrix has released emergency security updates for NetScaler ADC and NetScaler Gateway after confirming active exploitation of two critical zero-day vulnerabilities, CVE-2026-88771 and CVE-2026-88772. Both bugs have a CVSS v4.0 score of 9.5 and can enable remote code execution (RCE) against vulnerable customer-managed appliances. The flaws are part of a wider set of eight vulnerabilities [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-confirms-netscaler-zero-day-rce-flaws/\">Citrix Confirms NetScaler Zero-Day RCE Flaws Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201148"
+          "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
+          "url": "https://gbhackers.com/670-jev-domains-registered/",
+          "published": "Mon, 28 Sep 2026 10:21:58 +0000",
+          "published_utc": "2026-09-28T10:21:58+00:00",
+          "summary": "<p>A surge of lookalike domains targeting users of TypeSafe AI’s newly launched Jev decision model, with roughly 670 “jev”-branded domains obtaining TLS certificates within eight days of the product’s debut. Several sites are already operating as unofficial API storefronts, charging customers up to 11.5 times the official rate while proxying prompts to TypeSafe’s infrastructure. TypeSafe [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/670-jev-domains-registered/\">670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201241"
+        },
+        {
+          "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
+          "url": "https://gbhackers.com/microsoft-entra-trustsink/",
+          "published": "Mon, 28 Sep 2026 09:33:31 +0000",
+          "published_utc": "2026-09-28T09:33:31+00:00",
+          "summary": "<p>TrustSink, a post-compromise credential-phishing technique that abuses Microsoft Entra External Authentication Methods (EAMs) to place a rogue password prompt inside an otherwise legitimate Microsoft sign-in flow. The attack enables an adversary with elevated tenant privileges to capture plaintext passwords while returning a valid signed token to Entra, allowing the victim’s login to complete without an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-entra-trustsink/\">Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201226"
+        },
+        {
+          "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
+          "url": "https://gbhackers.com/infostealer-malware-3/",
+          "published": "Mon, 28 Sep 2026 09:12:23 +0000",
+          "published_utc": "2026-09-28T09:12:23+00:00",
+          "summary": "<p>Infostealer malware is increasingly becoming the bridge between a compromised developer workstation and an enterprise cloud environment, with Lumma, RedLine, and Vidar emerging as major threats to credentials, API keys, and active browser sessions. Identity, rather than exposed infrastructure, remains the most valuable cloud attack surface. Attackers no longer need to exploit a public-facing server [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/infostealer-malware-3/\">Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201214"
+        },
+        {
+          "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
+          "url": "https://gbhackers.com/adaptixc2-deployment/",
+          "published": "Mon, 28 Sep 2026 08:33:08 +0000",
+          "published_utc": "2026-09-28T08:33:08+00:00",
+          "summary": "<p>“Operation Master,” an end-to-end cybercrime operation that combined GlobalProtect VPN exploitation, web-application attacks, credential theft, data monetization, and an industrial-scale invoice-fraud platform. The campaign illustrates how enterprise intrusions can be converted into persistent, localized financial fraud operations rather than ending with data theft or ransomware. The operation exploited CVE-2026-0257, an authentication-bypass vulnerability affecting Palo Alto [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adaptixc2-deployment/\">Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201203"
+        },
+        {
+          "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
+          "url": "https://gbhackers.com/python-infostealer-campaign/",
+          "published": "Mon, 28 Sep 2026 07:26:13 +0000",
+          "published_utc": "2026-09-28T07:26:13+00:00",
+          "summary": "<p>A Python-based information stealer that targets data from 17 Chromium-based browsers, alongside Firefox, to harvest saved credentials, payment-card details, browsing history and active session cookies. The malware is delivered through a builder framework that enables operators to generate customized Windows payloads and configure their own data-exfiltration webhook. The archive included a “TokenGrabber Builder” folder containing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-infostealer-campaign/\">New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201192"
+        },
+        {
+          "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-cloud-encryption-compared/",
+          "published": "Mon, 28 Sep 2026 07:11:46 +0000",
+          "published_utc": "2026-09-28T07:11:46+00:00",
+          "summary": "<p>For most estates, native KMS is the best starting point AWS KMS, Azure Key Vault, and Google Cloud KMS are usage-priced, deeply integrated, and publish their rates. Ensuring robust cloud storage encryption at rest and in transit is fundamental to preventing unauthorized exposure of sensitive assets. Thales CipherTrust is the best enterprise key-management platform once [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-encryption-compared/\">12 Best Cloud Encryption Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201040"
+        },
+        {
+          "title": "Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat",
+          "url": "https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/",
+          "published": "Mon, 28 Sep 2026 07:04:41 +0000",
+          "published_utc": "2026-09-28T07:04:41+00:00",
+          "summary": "<p>Kiteworks has lifted its emergency shutdown recommendation after advising customers to temporarily take their systems offline in response to credible intelligence indicating that a threat actor may target its platforms. The company clarified that this action was preventive and did not indicate a confirmed compromise. It also urged customers to remain on the latest version [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/\">Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201182"
+        },
+        {
+          "title": "12 Best Cloud Compliance Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-cloud-compliance-compared/",
+          "published": "Mon, 28 Sep 2026 07:04:16 +0000",
+          "published_utc": "2026-09-28T07:04:16+00:00",
+          "summary": "<p>For most teams facing an audit, Vanta is the best overall compliance automation platform, with Drata the closest rival choose between them on integrations and framework-crosswalk economics. For technical posture evidence, free open-source Prowler plus a CNAPP compliance view (Wiz, Prisma, Orca) covers the engineering side to prevent cloud misconfigurations that lead to data breaches. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-compliance-compared/\">12 Best Cloud Compliance Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200984"
+        },
+        {
+          "title": "11 Best GCP Security Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-gcp-security-compared/",
+          "published": "Mon, 28 Sep 2026 06:58:01 +0000",
+          "published_utc": "2026-09-28T06:58:01+00:00",
+          "summary": "<p>Securing Google Cloud starts with Security Command Center Standard included with every org and the best free first move while Wiz is the best third-party platform for estates whose finding volume and service-account sprawl demand attack-path triage. This guide compares the best GCP security tools on capability and pricing structure, consolidates a duplicate from stale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-gcp-security-compared/\">11 Best GCP Security Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200973"
         }
       ],
       "error": ""
@@ -39,8 +103,89 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
+          "url": "https://gbhackers.com/670-jev-domains-registered/",
+          "published": "Mon, 28 Sep 2026 10:21:58 +0000",
+          "published_utc": "2026-09-28T10:21:58+00:00",
+          "summary": "<p>A surge of lookalike domains targeting users of TypeSafe AI’s newly launched Jev decision model, with roughly 670 “jev”-branded domains obtaining TLS certificates within eight days of the product’s debut. Several sites are already operating as unofficial API storefronts, charging customers up to 11.5 times the official rate while proxying prompts to TypeSafe’s infrastructure. TypeSafe [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/670-jev-domains-registered/\">670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201241"
+        },
+        {
+          "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
+          "url": "https://gbhackers.com/microsoft-entra-trustsink/",
+          "published": "Mon, 28 Sep 2026 09:33:31 +0000",
+          "published_utc": "2026-09-28T09:33:31+00:00",
+          "summary": "<p>TrustSink, a post-compromise credential-phishing technique that abuses Microsoft Entra External Authentication Methods (EAMs) to place a rogue password prompt inside an otherwise legitimate Microsoft sign-in flow. The attack enables an adversary with elevated tenant privileges to capture plaintext passwords while returning a valid signed token to Entra, allowing the victim’s login to complete without an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-entra-trustsink/\">Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201226"
+        },
+        {
+          "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
+          "url": "https://gbhackers.com/infostealer-malware-3/",
+          "published": "Mon, 28 Sep 2026 09:12:23 +0000",
+          "published_utc": "2026-09-28T09:12:23+00:00",
+          "summary": "<p>Infostealer malware is increasingly becoming the bridge between a compromised developer workstation and an enterprise cloud environment, with Lumma, RedLine, and Vidar emerging as major threats to credentials, API keys, and active browser sessions. Identity, rather than exposed infrastructure, remains the most valuable cloud attack surface. Attackers no longer need to exploit a public-facing server [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/infostealer-malware-3/\">Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201214"
+        },
+        {
+          "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
+          "url": "https://gbhackers.com/adaptixc2-deployment/",
+          "published": "Mon, 28 Sep 2026 08:33:08 +0000",
+          "published_utc": "2026-09-28T08:33:08+00:00",
+          "summary": "<p>“Operation Master,” an end-to-end cybercrime operation that combined GlobalProtect VPN exploitation, web-application attacks, credential theft, data monetization, and an industrial-scale invoice-fraud platform. The campaign illustrates how enterprise intrusions can be converted into persistent, localized financial fraud operations rather than ending with data theft or ransomware. The operation exploited CVE-2026-0257, an authentication-bypass vulnerability affecting Palo Alto [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adaptixc2-deployment/\">Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201203"
+        },
+        {
+          "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
+          "url": "https://gbhackers.com/python-infostealer-campaign/",
+          "published": "Mon, 28 Sep 2026 07:26:13 +0000",
+          "published_utc": "2026-09-28T07:26:13+00:00",
+          "summary": "<p>A Python-based information stealer that targets data from 17 Chromium-based browsers, alongside Firefox, to harvest saved credentials, payment-card details, browsing history and active session cookies. The malware is delivered through a builder framework that enables operators to generate customized Windows payloads and configure their own data-exfiltration webhook. The archive included a “TokenGrabber Builder” folder containing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-infostealer-campaign/\">New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201192"
+        },
+        {
+          "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-cloud-encryption-compared/",
+          "published": "Mon, 28 Sep 2026 07:11:46 +0000",
+          "published_utc": "2026-09-28T07:11:46+00:00",
+          "summary": "<p>For most estates, native KMS is the best starting point AWS KMS, Azure Key Vault, and Google Cloud KMS are usage-priced, deeply integrated, and publish their rates. Ensuring robust cloud storage encryption at rest and in transit is fundamental to preventing unauthorized exposure of sensitive assets. Thales CipherTrust is the best enterprise key-management platform once [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-encryption-compared/\">12 Best Cloud Encryption Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201040"
+        },
+        {
+          "title": "Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat",
+          "url": "https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/",
+          "published": "Mon, 28 Sep 2026 07:04:41 +0000",
+          "published_utc": "2026-09-28T07:04:41+00:00",
+          "summary": "<p>Kiteworks has lifted its emergency shutdown recommendation after advising customers to temporarily take their systems offline in response to credible intelligence indicating that a threat actor may target its platforms. The company clarified that this action was preventive and did not indicate a confirmed compromise. It also urged customers to remain on the latest version [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/\">Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201182"
+        },
+        {
+          "title": "12 Best Cloud Compliance Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-cloud-compliance-compared/",
+          "published": "Mon, 28 Sep 2026 07:04:16 +0000",
+          "published_utc": "2026-09-28T07:04:16+00:00",
+          "summary": "<p>For most teams facing an audit, Vanta is the best overall compliance automation platform, with Drata the closest rival choose between them on integrations and framework-crosswalk economics. For technical posture evidence, free open-source Prowler plus a CNAPP compliance view (Wiz, Prisma, Orca) covers the engineering side to prevent cloud misconfigurations that lead to data breaches. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-compliance-compared/\">12 Best Cloud Compliance Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200984"
+        },
+        {
+          "title": "11 Best GCP Security Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-gcp-security-compared/",
+          "published": "Mon, 28 Sep 2026 06:58:01 +0000",
+          "published_utc": "2026-09-28T06:58:01+00:00",
+          "summary": "<p>Securing Google Cloud starts with Security Command Center Standard included with every org and the best free first move while Wiz is the best third-party platform for estates whose finding volume and service-account sprawl demand attack-path triage. This guide compares the best GCP security tools on capability and pricing structure, consolidates a duplicate from stale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-gcp-security-compared/\">11 Best GCP Security Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=200973"
+        },
+        {
+          "title": "Hackers Turn an Open-Source AI Agent Into a Tool for Controlling Compromised Docker Servers",
+          "url": "https://gbhackers.com/docker-servers-hijacking/",
+          "published": "Mon, 28 Sep 2026 06:57:50 +0000",
+          "published_utc": "2026-09-28T06:57:50+00:00",
+          "summary": "<p>A Docker-focused botnet that repurposes the legitimate, open-source Hermes Agent framework as an interactive post-compromise control layer. The campaign, tracked as CARBONATO, targets Docker daemons exposed without authentication on TCP port 2375, then combines worm-like propagation, stealthy persistence, reverse SSH access and Telegram-driven AI-agent operations. The investigation began in August 2026 after researchers identified a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-servers-hijacking/\">Hackers Turn an Open-Source AI Agent Into a Tool for Controlling Compromised Docker Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201173"
+        }
+      ],
       "error": ""
     }
   }

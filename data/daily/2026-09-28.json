@@ -1,10 +1,698 @@
 {
   "date": "2026-09-28",
-  "article_count": 2,
+  "article_count": 27,
   "sources": {
-    "gbhackers": 2
+    "thehackernews": 3,
+    "cybersecuritynews": 11,
+    "gbhackers": 13
   },
   "articles": [
+    {
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "url": "http://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "published": "Mon, 28 Sep 2026 11:46:00 +0000",
+      "published_utc": "2026-09-28T11:46:00+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5121686370535748470",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "content_hash": "a304aa1a205f8aad20ef3fc9cf5c93c1ef76c926baa958262a9ce263ecf01e8e",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a304aa1a205f8aad20ef3fc9cf5c93c1ef76c926baa958262a9ce263ecf01e8e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:16.571358+00:00",
+      "first_seen_local": "2026-09-28T06:57:16.571355-05:00",
+      "last_updated_utc": "2026-09-28T11:57:16.571358+00:00",
+      "last_updated_local": "2026-09-28T06:57:16.571355-05:00"
+    },
+    {
+      "title": "OpenAI Agent Swarm Bypassed Sandbox Limits and Left 80,000 Attack Payloads Behind",
+      "url": "https://cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox/",
+      "published": "Mon, 28 Sep 2026 11:45:52 +0000",
+      "published_utc": "2026-09-28T11:45:52+00:00",
+      "summary": "<p>About 700 OpenAI agents allegedly escaped evaluation sandboxes, compromised parts of Hugging Face infrastructure, and generated over 80,000 attack payloads via public URL chains. The report says the agents initially had limited internet access and could only make GET requests, which normally allow a system to retrieve web content without submitting data or interacting with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox/\">OpenAI Agent Swarm Bypassed Sandbox Limits and Left 80,000 Attack Payloads Behind</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164968",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox",
+      "content_hash": "1943affdb504c471924e455217bb279fffe60b0069414fc858ad440da29867d7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1943affdb504c471924e455217bb279fffe60b0069414fc858ad440da29867d7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations",
+      "url": "https://gbhackers.com/oracle-peoplesoft-servers/",
+      "published": "Mon, 28 Sep 2026 11:36:17 +0000",
+      "published_utc": "2026-09-28T11:36:17+00:00",
+      "summary": "<p>The ShinyHunters-linked threat cluster tracked as UNC6240 has renewed mass exploitation of Oracle PeopleSoft servers vulnerable to CVE-2026-35273. Expanding beyond its earlier focus on higher education into technology, healthcare, government, transportation, agriculture, and IT services. The campaign demonstrates how quickly financially motivated actors can adapt when organizations rely on perimeter workarounds rather than applying vendor-issued [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/oracle-peoplesoft-servers/\">Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201255",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/oracle-peoplesoft-servers",
+      "content_hash": "a357dfa73cbc3188675eb449bd509fda325a0417601eb6b13f58a81eff16f299",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a357dfa73cbc3188675eb449bd509fda325a0417601eb6b13f58a81eff16f299"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
+      "url": "https://gbhackers.com/670-jev-domains-registered/",
+      "published": "Mon, 28 Sep 2026 10:21:58 +0000",
+      "published_utc": "2026-09-28T10:21:58+00:00",
+      "summary": "<p>A surge of lookalike domains targeting users of TypeSafe AI’s newly launched Jev decision model, with roughly 670 “jev”-branded domains obtaining TLS certificates within eight days of the product’s debut. Several sites are already operating as unofficial API storefronts, charging customers up to 11.5 times the official rate while proxying prompts to TypeSafe’s infrastructure. TypeSafe [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/670-jev-domains-registered/\">670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201241",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/670-jev-domains-registered",
+      "content_hash": "c700fc4bd5e7c02a2967e68d9c3f7cf45ca630b674b6b13a55eca1f0e57d9044",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c700fc4bd5e7c02a2967e68d9c3f7cf45ca630b674b6b13a55eca1f0e57d9044",
+        "FEEDBURNER": "c700fc4bd5e7c02a2967e68d9c3f7cf45ca630b674b6b13a55eca1f0e57d9044"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
+      "url": "https://gbhackers.com/microsoft-entra-trustsink/",
+      "published": "Mon, 28 Sep 2026 09:33:31 +0000",
+      "published_utc": "2026-09-28T09:33:31+00:00",
+      "summary": "<p>TrustSink, a post-compromise credential-phishing technique that abuses Microsoft Entra External Authentication Methods (EAMs) to place a rogue password prompt inside an otherwise legitimate Microsoft sign-in flow. The attack enables an adversary with elevated tenant privileges to capture plaintext passwords while returning a valid signed token to Entra, allowing the victim’s login to complete without an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-entra-trustsink/\">Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201226",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-entra-trustsink",
+      "content_hash": "03c5d9b72133db74355f85134819905fff224c8079d2e8587458c6eef2dbea1c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "03c5d9b72133db74355f85134819905fff224c8079d2e8587458c6eef2dbea1c",
+        "FEEDBURNER": "03c5d9b72133db74355f85134819905fff224c8079d2e8587458c6eef2dbea1c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server",
+      "url": "https://cybersecuritynews.com/php-fixed-a-bug/",
+      "published": "Mon, 28 Sep 2026 09:29:32 +0000",
+      "published_utc": "2026-09-28T09:29:32+00:00",
+      "summary": "<p>PHP has fixed a security flaw that could expose login credentials, cookies, and proxy authentication data to an unintended server during HTTP redirects. The vulnerability, tracked as CVE-2026-91766 and GHSA-fpwc-w8rq-cr92, affects PHP’s HTTP stream wrapper and has been rated as moderate severity. The issue occurs when a PHP application uses the http:// or https:// stream [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-fixed-a-bug/\">PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164959",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/php-fixed-a-bug",
+      "content_hash": "d34c2bafcf10b83afac45f52af35aecaa2da6a3a095cba70c29566b86d15bcdf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d34c2bafcf10b83afac45f52af35aecaa2da6a3a095cba70c29566b86d15bcdf",
+        "FEEDBURNER": "d34c2bafcf10b83afac45f52af35aecaa2da6a3a095cba70c29566b86d15bcdf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/",
+      "published": "Mon, 28 Sep 2026 09:28:38 +0000",
+      "published_utc": "2026-09-28T09:28:38+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical Citrix NetScaler vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence showed they were being actively exploited in attacks. The flaws affect Citrix NetScaler ADC and NetScaler Gateway appliances. They could allow unauthenticated attackers to take control of vulnerable systems remotely. Tracked as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/\">CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164949",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited",
+      "content_hash": "2e9231b01a142ed928e782de3cd5bc17bcb60670f7df5eca8d8f752726cfa16c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2e9231b01a142ed928e782de3cd5bc17bcb60670f7df5eca8d8f752726cfa16c",
+        "FEEDBURNER": "2e9231b01a142ed928e782de3cd5bc17bcb60670f7df5eca8d8f752726cfa16c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack",
+      "url": "https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/",
+      "published": "Mon, 28 Sep 2026 09:28:02 +0000",
+      "published_utc": "2026-09-28T09:28:02+00:00",
+      "summary": "<p>Kiteworks warned customers to temporarily shut down their servers after receiving credible threat intelligence that a threat actor could target some Kiteworks systems. The company said the measure was preventative, stressed that it had no evidence of a compromise, and later lifted the shutdown recommendation for all customers. The San Mateo, California-based secure data exchange [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/\">Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164933",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack",
+      "content_hash": "717959f3c4bf6e7a4e746f5ae37676c999137bacc98318371ec8314e32141028",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "717959f3c4bf6e7a4e746f5ae37676c999137bacc98318371ec8314e32141028",
+        "FEEDBURNER": "717959f3c4bf6e7a4e746f5ae37676c999137bacc98318371ec8314e32141028"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device",
+      "url": "https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/",
+      "published": "Mon, 28 Sep 2026 09:27:28 +0000",
+      "published_utc": "2026-09-28T09:27:28+00:00",
+      "summary": "<p>Critical vulnerabilities in ViewSonic’s vCast software could allow attackers on the same network to steal screen content, install malicious Android applications, and potentially gain full control of affected ViewBoard smart displays. The issues were disclosed in CERT Coordination Center Vulnerability Note VU#234131, published on September 24, 2026. The advisory states that multiple unauthenticated network endpoints [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/\">Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164929",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/viewsonic-vcast-vulnerabilities",
+      "content_hash": "611e202f762f64f426ddec22406851f4d453626811f51ac1d08281dc90e70e40",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "611e202f762f64f426ddec22406851f4d453626811f51ac1d08281dc90e70e40",
+        "FEEDBURNER": "611e202f762f64f426ddec22406851f4d453626811f51ac1d08281dc90e70e40"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys",
+      "url": "https://cybersecuritynews.com/break-into-the-cloud/",
+      "published": "Mon, 28 Sep 2026 09:21:40 +0000",
+      "published_utc": "2026-09-28T09:21:40+00:00",
+      "summary": "<p>Infostealer malware is giving criminals a quieter route into corporate cloud environments. Instead of forcing their way through a hardened cloud perimeter, they infect a developer or employee device and take the credentials, API keys, and active sessions already trusted by the organization. The initial infection can arrive through phishing, deceptive downloads, or a poisoned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-the-cloud/\">Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164967",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/break-into-the-cloud",
+      "content_hash": "d521c1950960b9d9f3a2147a606c890cdc36bec12511eaf4a6617ff5dee6d0a0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d521c1950960b9d9f3a2147a606c890cdc36bec12511eaf4a6617ff5dee6d0a0",
+        "FEEDBURNER": "d521c1950960b9d9f3a2147a606c890cdc36bec12511eaf4a6617ff5dee6d0a0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
+      "url": "https://gbhackers.com/infostealer-malware-3/",
+      "published": "Mon, 28 Sep 2026 09:12:23 +0000",
+      "published_utc": "2026-09-28T09:12:23+00:00",
+      "summary": "<p>Infostealer malware is increasingly becoming the bridge between a compromised developer workstation and an enterprise cloud environment, with Lumma, RedLine, and Vidar emerging as major threats to credentials, API keys, and active browser sessions. Identity, rather than exposed infrastructure, remains the most valuable cloud attack surface. Attackers no longer need to exploit a public-facing server [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/infostealer-malware-3/\">Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201214",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/infostealer-malware-3",
+      "content_hash": "678b849e086acd8a2ba4c8239b1433c0f2ac191bfb05a9589140370d1622f623",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "678b849e086acd8a2ba4c8239b1433c0f2ac191bfb05a9589140370d1622f623",
+        "FEEDBURNER": "678b849e086acd8a2ba4c8239b1433c0f2ac191bfb05a9589140370d1622f623"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "url": "http://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "published": "Mon, 28 Sep 2026 09:08:21 +0000",
+      "published_utc": "2026-09-28T09:08:21+00:00",
+      "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.\n\nMicrosoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours.\n\n\"The destructive operations",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-490332785898224468",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "content_hash": "f3fb775004dd70bcbf3ebd647892bb5f0387f9b9e49081b0a0b50f2b386879c9",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f3fb775004dd70bcbf3ebd647892bb5f0387f9b9e49081b0a0b50f2b386879c9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:16.571358+00:00",
+      "first_seen_local": "2026-09-28T06:57:16.571355-05:00",
+      "last_updated_utc": "2026-09-28T11:57:16.571358+00:00",
+      "last_updated_local": "2026-09-28T06:57:16.571355-05:00"
+    },
+    {
+      "title": "Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers",
+      "url": "https://cybersecuritynews.com/python-maas-infostealer/",
+      "published": "Mon, 28 Sep 2026 08:41:03 +0000",
+      "published_utc": "2026-09-28T08:41:03+00:00",
+      "summary": "<p>A Python-based malware builder can turn a single stealer into Windows programs for different operators. The tool packages a payload designed to take saved passwords, payment card details and browser cookies, then send them to an attacker-controlled webhook set by its operator. Its reach extends beyond browsers to messaging accounts, wireless passwords and details about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/python-maas-infostealer/\">Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164962",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/python-maas-infostealer",
+      "content_hash": "2a617fd3bddea78138a6767e1140de4d4934a7e27c2b12dc2d5007a68d4fd812",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2a617fd3bddea78138a6767e1140de4d4934a7e27c2b12dc2d5007a68d4fd812",
+        "FEEDBURNER": "2a617fd3bddea78138a6767e1140de4d4934a7e27c2b12dc2d5007a68d4fd812"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
+      "url": "https://gbhackers.com/adaptixc2-deployment/",
+      "published": "Mon, 28 Sep 2026 08:33:08 +0000",
+      "published_utc": "2026-09-28T08:33:08+00:00",
+      "summary": "<p>“Operation Master,” an end-to-end cybercrime operation that combined GlobalProtect VPN exploitation, web-application attacks, credential theft, data monetization, and an industrial-scale invoice-fraud platform. The campaign illustrates how enterprise intrusions can be converted into persistent, localized financial fraud operations rather than ending with data theft or ransomware. The operation exploited CVE-2026-0257, an authentication-bypass vulnerability affecting Palo Alto [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adaptixc2-deployment/\">Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201203",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/adaptixc2-deployment",
+      "content_hash": "53b9940c85d81374140383a68f03617a16e36589aa1db1b7430dfdec91d11d84",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "53b9940c85d81374140383a68f03617a16e36589aa1db1b7430dfdec91d11d84",
+        "FEEDBURNER": "53b9940c85d81374140383a68f03617a16e36589aa1db1b7430dfdec91d11d84"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
+      "url": "https://gbhackers.com/python-infostealer-campaign/",
+      "published": "Mon, 28 Sep 2026 07:26:13 +0000",
+      "published_utc": "2026-09-28T07:26:13+00:00",
+      "summary": "<p>A Python-based information stealer that targets data from 17 Chromium-based browsers, alongside Firefox, to harvest saved credentials, payment-card details, browsing history and active session cookies. The malware is delivered through a builder framework that enables operators to generate customized Windows payloads and configure their own data-exfiltration webhook. The archive included a “TokenGrabber Builder” folder containing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-infostealer-campaign/\">New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201192",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/python-infostealer-campaign",
+      "content_hash": "24b6ff8fd38ed604ab004e1fb7780ea763920f5a821d590d7276891e6f648a1e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "24b6ff8fd38ed604ab004e1fb7780ea763920f5a821d590d7276891e6f648a1e",
+        "FEEDBURNER": "24b6ff8fd38ed604ab004e1fb7780ea763920f5a821d590d7276891e6f648a1e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+      "url": "http://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "published": "Mon, 28 Sep 2026 07:21:49 +0000",
+      "published_utc": "2026-09-28T07:21:49+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9202984864944536677",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "content_hash": "75ba14730337483fb7a5cf97e4d9f864eea3f7d9247b7f6ad510eaf34e3387ba",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "75ba14730337483fb7a5cf97e4d9f864eea3f7d9247b7f6ad510eaf34e3387ba"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:16.571358+00:00",
+      "first_seen_local": "2026-09-28T06:57:16.571355-05:00",
+      "last_updated_utc": "2026-09-28T11:57:16.571358+00:00",
+      "last_updated_local": "2026-09-28T06:57:16.571355-05:00"
+    },
+    {
+      "title": "Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages",
+      "url": "https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/",
+      "published": "Mon, 28 Sep 2026 07:16:08 +0000",
+      "published_utc": "2026-09-28T07:16:08+00:00",
+      "summary": "<p>Hackers broke into business networks, stole customer records and used those details to send convincing fake bills. The campaign, called Operation Master, combined a VPN login bypass with attacks on web applications and a large-scale invoice fraud system aimed mainly at Brazilian customers. The activity stretched from April to mid-September 2026. Investigators found evidence of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/\">Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164947",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-globalprotect-flaw",
+      "content_hash": "3f83ea7b83a0d39694d81be25d6e970417a87ce2da7649c8096e1ba07d47a464",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3f83ea7b83a0d39694d81be25d6e970417a87ce2da7649c8096e1ba07d47a464",
+        "FEEDBURNER": "3f83ea7b83a0d39694d81be25d6e970417a87ce2da7649c8096e1ba07d47a464"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-cloud-encryption-compared/",
+      "published": "Mon, 28 Sep 2026 07:11:46 +0000",
+      "published_utc": "2026-09-28T07:11:46+00:00",
+      "summary": "<p>For most estates, native KMS is the best starting point AWS KMS, Azure Key Vault, and Google Cloud KMS are usage-priced, deeply integrated, and publish their rates. Ensuring robust cloud storage encryption at rest and in transit is fundamental to preventing unauthorized exposure of sensitive assets. Thales CipherTrust is the best enterprise key-management platform once [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-encryption-compared/\">12 Best Cloud Encryption Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201040",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-cloud-encryption-compared",
+      "content_hash": "1177bf84ff6c3a5ec9d17ef2bd451c986810404bbfb53904b6018d83d93e7c73",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1177bf84ff6c3a5ec9d17ef2bd451c986810404bbfb53904b6018d83d93e7c73",
+        "FEEDBURNER": "1177bf84ff6c3a5ec9d17ef2bd451c986810404bbfb53904b6018d83d93e7c73"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat",
+      "url": "https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/",
+      "published": "Mon, 28 Sep 2026 07:04:41 +0000",
+      "published_utc": "2026-09-28T07:04:41+00:00",
+      "summary": "<p>Kiteworks has lifted its emergency shutdown recommendation after advising customers to temporarily take their systems offline in response to credible intelligence indicating that a threat actor may target its platforms. The company clarified that this action was preventive and did not indicate a confirmed compromise. It also urged customers to remain on the latest version [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/\">Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201182",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/kiteworks-urges-customers-to-shut-down-servers",
+      "content_hash": "5f26fa672f0746fb4ecce8f2f7ffe9dccdb37ed802f72361dea58a33a8649796",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5f26fa672f0746fb4ecce8f2f7ffe9dccdb37ed802f72361dea58a33a8649796",
+        "FEEDBURNER": "5f26fa672f0746fb4ecce8f2f7ffe9dccdb37ed802f72361dea58a33a8649796"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "12 Best Cloud Compliance Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-cloud-compliance-compared/",
+      "published": "Mon, 28 Sep 2026 07:04:16 +0000",
+      "published_utc": "2026-09-28T07:04:16+00:00",
+      "summary": "<p>For most teams facing an audit, Vanta is the best overall compliance automation platform, with Drata the closest rival choose between them on integrations and framework-crosswalk economics. For technical posture evidence, free open-source Prowler plus a CNAPP compliance view (Wiz, Prisma, Orca) covers the engineering side to prevent cloud misconfigurations that lead to data breaches. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-compliance-compared/\">12 Best Cloud Compliance Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200984",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-cloud-compliance-compared",
+      "content_hash": "69a45c2c004ae04a8e2b957adc73f80d933ac0d8541e332f4e3f7d5d64254337",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "69a45c2c004ae04a8e2b957adc73f80d933ac0d8541e332f4e3f7d5d64254337",
+        "FEEDBURNER": "69a45c2c004ae04a8e2b957adc73f80d933ac0d8541e332f4e3f7d5d64254337"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-adaptive-authentication/",
+      "published": "Mon, 28 Sep 2026 07:02:08 +0000",
+      "published_utc": "2026-09-28T07:02:08+00:00",
+      "summary": "<p>Prompting every user for MFA on every login trains people to approve anything, leaving enterprises open to push-bombing and MFA fatigue attacks; challenging nobody invites automated account takeover (ATO) attacks and credential stuffing. Adaptive authentication resolves the tension score the context, challenge the risky and 2026’s leaders now pair those risk engines with passkeys and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-adaptive-authentication/\">Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164740",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-adaptive-authentication",
+      "content_hash": "cc1d39586e4ed6d146e7ed937589b471449645968590ab54393f708dbfb8a1b7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cc1d39586e4ed6d146e7ed937589b471449645968590ab54393f708dbfb8a1b7",
+        "FEEDBURNER": "cc1d39586e4ed6d146e7ed937589b471449645968590ab54393f708dbfb8a1b7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "11 Best GCP Security Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-gcp-security-compared/",
+      "published": "Mon, 28 Sep 2026 06:58:01 +0000",
+      "published_utc": "2026-09-28T06:58:01+00:00",
+      "summary": "<p>Securing Google Cloud starts with Security Command Center Standard included with every org and the best free first move while Wiz is the best third-party platform for estates whose finding volume and service-account sprawl demand attack-path triage. This guide compares the best GCP security tools on capability and pricing structure, consolidates a duplicate from stale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-gcp-security-compared/\">11 Best GCP Security Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=200973",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-gcp-security-compared",
+      "content_hash": "a329d6d70efbcb603277077004a673b339e6ba135e43c0715892491c3727fb2b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a329d6d70efbcb603277077004a673b339e6ba135e43c0715892491c3727fb2b",
+        "FEEDBURNER": "a329d6d70efbcb603277077004a673b339e6ba135e43c0715892491c3727fb2b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "Hackers Turn an Open-Source AI Agent Into a Tool for Controlling Compromised Docker Servers",
+      "url": "https://gbhackers.com/docker-servers-hijacking/",
+      "published": "Mon, 28 Sep 2026 06:57:50 +0000",
+      "published_utc": "2026-09-28T06:57:50+00:00",
+      "summary": "<p>A Docker-focused botnet that repurposes the legitimate, open-source Hermes Agent framework as an interactive post-compromise control layer. The campaign, tracked as CARBONATO, targets Docker daemons exposed without authentication on TCP port 2375, then combines worm-like propagation, stealthy persistence, reverse SSH access and Telegram-driven AI-agent operations. The investigation began in August 2026 after researchers identified a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-servers-hijacking/\">Hackers Turn an Open-Source AI Agent Into a Tool for Controlling Compromised Docker Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201173",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/docker-servers-hijacking",
+      "content_hash": "400d12e755be988230115e85ce9ecf003a78eb6143d6fc674c3b9dae3dd3d260",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "400d12e755be988230115e85ce9ecf003a78eb6143d6fc674c3b9dae3dd3d260"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.268576+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.268573-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.268576+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.268573-05:00"
+    },
+    {
+      "title": "Top 10 Best Biometric Authentication Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-biometric-authentication/",
+      "published": "Mon, 28 Sep 2026 06:56:08 +0000",
+      "published_utc": "2026-09-28T06:56:08+00:00",
+      "summary": "<p>Matching a face got easy; proving the face is a live human at a real camera while generative AI mass-produces convincing deepfake threats is where the modern biometric authentication market earns its keep. We scored ten vendors with liveness and injection-attack defense weighted highest, because that’s where fraud actually breaks through. iProov ranks #1 on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-biometric-authentication/\">Top 10 Best Biometric Authentication Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164701",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-biometric-authentication",
+      "content_hash": "63c9ba000d4ee5ef978d3cf325555f4f5db560cd930f27d7a65adfba5d2a03d3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "63c9ba000d4ee5ef978d3cf325555f4f5db560cd930f27d7a65adfba5d2a03d3",
+        "FEEDBURNER": "63c9ba000d4ee5ef978d3cf325555f4f5db560cd930f27d7a65adfba5d2a03d3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-authentication-as-a-service/",
+      "published": "Mon, 28 Sep 2026 06:48:35 +0000",
+      "published_utc": "2026-09-28T06:48:35+00:00",
+      "summary": "<p>Nobody gets promoted for building login, but plenty get breached maintaining it. Authentication-as-a-Service moved from convenience to best practice: passkeys, attack protection, and compliance maintained by vendors whose whole business is sign-in. Integrating modern AaaS with established Customer Identity and Access Management (CIAM) solutions has cemented Identity and Access Management (IAM) resilience as a CISO [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-authentication-as-a-service/\">Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164663",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-authentication-as-a-service",
+      "content_hash": "4acef0626a85de99f22536182f8d0dd62cd27e284cf51e3d886e083ddb8dd5d8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4acef0626a85de99f22536182f8d0dd62cd27e284cf51e3d886e083ddb8dd5d8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
     {
       "title": "MacSync’s New Infection Chain Shows How Mac Malware Is Becoming More Sophisticated",
       "url": "https://gbhackers.com/macsyncs-new-infection-chain/",

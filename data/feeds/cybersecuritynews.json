@@ -10,8 +10,89 @@
       "final_url": "https://cybersecuritynews.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "OpenAI Agent Swarm Bypassed Sandbox Limits and Left 80,000 Attack Payloads Behind",
+          "url": "https://cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox/",
+          "published": "Mon, 28 Sep 2026 11:45:52 +0000",
+          "published_utc": "2026-09-28T11:45:52+00:00",
+          "summary": "<p>About 700 OpenAI agents allegedly escaped evaluation sandboxes, compromised parts of Hugging Face infrastructure, and generated over 80,000 attack payloads via public URL chains. The report says the agents initially had limited internet access and could only make GET requests, which normally allow a system to retrieve web content without submitting data or interacting with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox/\">OpenAI Agent Swarm Bypassed Sandbox Limits and Left 80,000 Attack Payloads Behind</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164968"
+        },
+        {
+          "title": "PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server",
+          "url": "https://cybersecuritynews.com/php-fixed-a-bug/",
+          "published": "Mon, 28 Sep 2026 09:29:32 +0000",
+          "published_utc": "2026-09-28T09:29:32+00:00",
+          "summary": "<p>PHP has fixed a security flaw that could expose login credentials, cookies, and proxy authentication data to an unintended server during HTTP redirects. The vulnerability, tracked as CVE-2026-91766 and GHSA-fpwc-w8rq-cr92, affects PHP’s HTTP stream wrapper and has been rated as moderate severity. The issue occurs when a PHP application uses the http:// or https:// stream [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-fixed-a-bug/\">PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164959"
+        },
+        {
+          "title": "CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks",
+          "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/",
+          "published": "Mon, 28 Sep 2026 09:28:38 +0000",
+          "published_utc": "2026-09-28T09:28:38+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical Citrix NetScaler vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence showed they were being actively exploited in attacks. The flaws affect Citrix NetScaler ADC and NetScaler Gateway appliances. They could allow unauthenticated attackers to take control of vulnerable systems remotely. Tracked as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/\">CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164949"
+        },
+        {
+          "title": "Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack",
+          "url": "https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/",
+          "published": "Mon, 28 Sep 2026 09:28:02 +0000",
+          "published_utc": "2026-09-28T09:28:02+00:00",
+          "summary": "<p>Kiteworks warned customers to temporarily shut down their servers after receiving credible threat intelligence that a threat actor could target some Kiteworks systems. The company said the measure was preventative, stressed that it had no evidence of a compromise, and later lifted the shutdown recommendation for all customers. The San Mateo, California-based secure data exchange [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/\">Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164933"
+        },
+        {
+          "title": "Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device",
+          "url": "https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/",
+          "published": "Mon, 28 Sep 2026 09:27:28 +0000",
+          "published_utc": "2026-09-28T09:27:28+00:00",
+          "summary": "<p>Critical vulnerabilities in ViewSonic’s vCast software could allow attackers on the same network to steal screen content, install malicious Android applications, and potentially gain full control of affected ViewBoard smart displays. The issues were disclosed in CERT Coordination Center Vulnerability Note VU#234131, published on September 24, 2026. The advisory states that multiple unauthenticated network endpoints [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/\">Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164929"
+        },
+        {
+          "title": "Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys",
+          "url": "https://cybersecuritynews.com/break-into-the-cloud/",
+          "published": "Mon, 28 Sep 2026 09:21:40 +0000",
+          "published_utc": "2026-09-28T09:21:40+00:00",
+          "summary": "<p>Infostealer malware is giving criminals a quieter route into corporate cloud environments. Instead of forcing their way through a hardened cloud perimeter, they infect a developer or employee device and take the credentials, API keys, and active sessions already trusted by the organization. The initial infection can arrive through phishing, deceptive downloads, or a poisoned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-the-cloud/\">Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164967"
+        },
+        {
+          "title": "Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers",
+          "url": "https://cybersecuritynews.com/python-maas-infostealer/",
+          "published": "Mon, 28 Sep 2026 08:41:03 +0000",
+          "published_utc": "2026-09-28T08:41:03+00:00",
+          "summary": "<p>A Python-based malware builder can turn a single stealer into Windows programs for different operators. The tool packages a payload designed to take saved passwords, payment card details and browser cookies, then send them to an attacker-controlled webhook set by its operator. Its reach extends beyond browsers to messaging accounts, wireless passwords and details about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/python-maas-infostealer/\">Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164962"
+        },
+        {
+          "title": "Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages",
+          "url": "https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/",
+          "published": "Mon, 28 Sep 2026 07:16:08 +0000",
+          "published_utc": "2026-09-28T07:16:08+00:00",
+          "summary": "<p>Hackers broke into business networks, stole customer records and used those details to send convincing fake bills. The campaign, called Operation Master, combined a VPN login bypass with attacks on web applications and a large-scale invoice fraud system aimed mainly at Brazilian customers. The activity stretched from April to mid-September 2026. Investigators found evidence of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/\">Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164947"
+        },
+        {
+          "title": "Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-adaptive-authentication/",
+          "published": "Mon, 28 Sep 2026 07:02:08 +0000",
+          "published_utc": "2026-09-28T07:02:08+00:00",
+          "summary": "<p>Prompting every user for MFA on every login trains people to approve anything, leaving enterprises open to push-bombing and MFA fatigue attacks; challenging nobody invites automated account takeover (ATO) attacks and credential stuffing. Adaptive authentication resolves the tension score the context, challenge the risky and 2026’s leaders now pair those risk engines with passkeys and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-adaptive-authentication/\">Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164740"
+        },
+        {
+          "title": "Top 10 Best Biometric Authentication Solutions in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-biometric-authentication/",
+          "published": "Mon, 28 Sep 2026 06:56:08 +0000",
+          "published_utc": "2026-09-28T06:56:08+00:00",
+          "summary": "<p>Matching a face got easy; proving the face is a live human at a real camera while generative AI mass-produces convincing deepfake threats is where the modern biometric authentication market earns its keep. We scored ten vendors with liveness and injection-attack defense weighted highest, because that’s where fraud actually breaks through. iProov ranks #1 on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-biometric-authentication/\">Top 10 Best Biometric Authentication Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164701"
+        }
+      ],
       "error": ""
     },
     "FEEDBURNER": {
@@ -22,8 +103,89 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server",
+          "url": "https://cybersecuritynews.com/php-fixed-a-bug/",
+          "published": "Mon, 28 Sep 2026 09:29:32 +0000",
+          "published_utc": "2026-09-28T09:29:32+00:00",
+          "summary": "<p>PHP has fixed a security flaw that could expose login credentials, cookies, and proxy authentication data to an unintended server during HTTP redirects. The vulnerability, tracked as CVE-2026-91766 and GHSA-fpwc-w8rq-cr92, affects PHP’s HTTP stream wrapper and has been rated as moderate severity. The issue occurs when a PHP application uses the http:// or https:// stream [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-fixed-a-bug/\">PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164959"
+        },
+        {
+          "title": "CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks",
+          "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/",
+          "published": "Mon, 28 Sep 2026 09:28:38 +0000",
+          "published_utc": "2026-09-28T09:28:38+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical Citrix NetScaler vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence showed they were being actively exploited in attacks. The flaws affect Citrix NetScaler ADC and NetScaler Gateway appliances. They could allow unauthenticated attackers to take control of vulnerable systems remotely. Tracked as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/\">CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164949"
+        },
+        {
+          "title": "Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack",
+          "url": "https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/",
+          "published": "Mon, 28 Sep 2026 09:28:02 +0000",
+          "published_utc": "2026-09-28T09:28:02+00:00",
+          "summary": "<p>Kiteworks warned customers to temporarily shut down their servers after receiving credible threat intelligence that a threat actor could target some Kiteworks systems. The company said the measure was preventative, stressed that it had no evidence of a compromise, and later lifted the shutdown recommendation for all customers. The San Mateo, California-based secure data exchange [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/\">Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164933"
+        },
+        {
+          "title": "Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device",
+          "url": "https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/",
+          "published": "Mon, 28 Sep 2026 09:27:28 +0000",
+          "published_utc": "2026-09-28T09:27:28+00:00",
+          "summary": "<p>Critical vulnerabilities in ViewSonic’s vCast software could allow attackers on the same network to steal screen content, install malicious Android applications, and potentially gain full control of affected ViewBoard smart displays. The issues were disclosed in CERT Coordination Center Vulnerability Note VU#234131, published on September 24, 2026. The advisory states that multiple unauthenticated network endpoints [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/\">Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164929"
+        },
+        {
+          "title": "Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys",
+          "url": "https://cybersecuritynews.com/break-into-the-cloud/",
+          "published": "Mon, 28 Sep 2026 09:21:40 +0000",
+          "published_utc": "2026-09-28T09:21:40+00:00",
+          "summary": "<p>Infostealer malware is giving criminals a quieter route into corporate cloud environments. Instead of forcing their way through a hardened cloud perimeter, they infect a developer or employee device and take the credentials, API keys, and active sessions already trusted by the organization. The initial infection can arrive through phishing, deceptive downloads, or a poisoned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-the-cloud/\">Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164967"
+        },
+        {
+          "title": "Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers",
+          "url": "https://cybersecuritynews.com/python-maas-infostealer/",
+          "published": "Mon, 28 Sep 2026 08:41:03 +0000",
+          "published_utc": "2026-09-28T08:41:03+00:00",
+          "summary": "<p>A Python-based malware builder can turn a single stealer into Windows programs for different operators. The tool packages a payload designed to take saved passwords, payment card details and browser cookies, then send them to an attacker-controlled webhook set by its operator. Its reach extends beyond browsers to messaging accounts, wireless passwords and details about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/python-maas-infostealer/\">Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164962"
+        },
+        {
+          "title": "Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages",
+          "url": "https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/",
+          "published": "Mon, 28 Sep 2026 07:16:08 +0000",
+          "published_utc": "2026-09-28T07:16:08+00:00",
+          "summary": "<p>Hackers broke into business networks, stole customer records and used those details to send convincing fake bills. The campaign, called Operation Master, combined a VPN login bypass with attacks on web applications and a large-scale invoice fraud system aimed mainly at Brazilian customers. The activity stretched from April to mid-September 2026. Investigators found evidence of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/\">Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164947"
+        },
+        {
+          "title": "Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-adaptive-authentication/",
+          "published": "Mon, 28 Sep 2026 07:02:08 +0000",
+          "published_utc": "2026-09-28T07:02:08+00:00",
+          "summary": "<p>Prompting every user for MFA on every login trains people to approve anything, leaving enterprises open to push-bombing and MFA fatigue attacks; challenging nobody invites automated account takeover (ATO) attacks and credential stuffing. Adaptive authentication resolves the tension score the context, challenge the risky and 2026’s leaders now pair those risk engines with passkeys and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-adaptive-authentication/\">Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164740"
+        },
+        {
+          "title": "Top 10 Best Biometric Authentication Solutions in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-biometric-authentication/",
+          "published": "Mon, 28 Sep 2026 06:56:08 +0000",
+          "published_utc": "2026-09-28T06:56:08+00:00",
+          "summary": "<p>Matching a face got easy; proving the face is a live human at a real camera while generative AI mass-produces convincing deepfake threats is where the modern biometric authentication market earns its keep. We scored ten vendors with liveness and injection-attack defense weighted highest, because that’s where fraud actually breaks through. iProov ranks #1 on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-biometric-authentication/\">Top 10 Best Biometric Authentication Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164701"
+        },
+        {
+          "title": "Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-authentication-as-a-service/",
+          "published": "Mon, 28 Sep 2026 06:48:35 +0000",
+          "published_utc": "2026-09-28T06:48:35+00:00",
+          "summary": "<p>Nobody gets promoted for building login, but plenty get breached maintaining it. Authentication-as-a-Service moved from convenience to best practice: passkeys, attack protection, and compliance maintained by vendors whose whole business is sign-in. Integrating modern AaaS with established Customer Identity and Access Management (CIAM) solutions has cemented Identity and Access Management (IAM) resilience as a CISO [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-authentication-as-a-service/\">Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=164663"
+        }
+      ],
       "error": ""
     }
   }

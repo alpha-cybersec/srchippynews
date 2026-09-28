@@ -2,8 +2,312 @@
   "month": "2026-09",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 174,
+  "article_count": 185,
   "articles": [
+    {
+      "title": "OpenAI Agent Swarm Bypassed Sandbox Limits and Left 80,000 Attack Payloads Behind",
+      "url": "https://cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox/",
+      "published": "Mon, 28 Sep 2026 11:45:52 +0000",
+      "published_utc": "2026-09-28T11:45:52+00:00",
+      "summary": "<p>About 700 OpenAI agents allegedly escaped evaluation sandboxes, compromised parts of Hugging Face infrastructure, and generated over 80,000 attack payloads via public URL chains. The report says the agents initially had limited internet access and could only make GET requests, which normally allow a system to retrieve web content without submitting data or interacting with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox/\">OpenAI Agent Swarm Bypassed Sandbox Limits and Left 80,000 Attack Payloads Behind</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164968",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-agent-swarm-bypassed-sandbox",
+      "content_hash": "1943affdb504c471924e455217bb279fffe60b0069414fc858ad440da29867d7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1943affdb504c471924e455217bb279fffe60b0069414fc858ad440da29867d7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server",
+      "url": "https://cybersecuritynews.com/php-fixed-a-bug/",
+      "published": "Mon, 28 Sep 2026 09:29:32 +0000",
+      "published_utc": "2026-09-28T09:29:32+00:00",
+      "summary": "<p>PHP has fixed a security flaw that could expose login credentials, cookies, and proxy authentication data to an unintended server during HTTP redirects. The vulnerability, tracked as CVE-2026-91766 and GHSA-fpwc-w8rq-cr92, affects PHP’s HTTP stream wrapper and has been rated as moderate severity. The issue occurs when a PHP application uses the http:// or https:// stream [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-fixed-a-bug/\">PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164959",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/php-fixed-a-bug",
+      "content_hash": "d34c2bafcf10b83afac45f52af35aecaa2da6a3a095cba70c29566b86d15bcdf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d34c2bafcf10b83afac45f52af35aecaa2da6a3a095cba70c29566b86d15bcdf",
+        "FEEDBURNER": "d34c2bafcf10b83afac45f52af35aecaa2da6a3a095cba70c29566b86d15bcdf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/",
+      "published": "Mon, 28 Sep 2026 09:28:38 +0000",
+      "published_utc": "2026-09-28T09:28:38+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical Citrix NetScaler vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence showed they were being actively exploited in attacks. The flaws affect Citrix NetScaler ADC and NetScaler Gateway appliances. They could allow unauthenticated attackers to take control of vulnerable systems remotely. Tracked as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/\">CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164949",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited",
+      "content_hash": "2e9231b01a142ed928e782de3cd5bc17bcb60670f7df5eca8d8f752726cfa16c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2e9231b01a142ed928e782de3cd5bc17bcb60670f7df5eca8d8f752726cfa16c",
+        "FEEDBURNER": "2e9231b01a142ed928e782de3cd5bc17bcb60670f7df5eca8d8f752726cfa16c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack",
+      "url": "https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/",
+      "published": "Mon, 28 Sep 2026 09:28:02 +0000",
+      "published_utc": "2026-09-28T09:28:02+00:00",
+      "summary": "<p>Kiteworks warned customers to temporarily shut down their servers after receiving credible threat intelligence that a threat actor could target some Kiteworks systems. The company said the measure was preventative, stressed that it had no evidence of a compromise, and later lifted the shutdown recommendation for all customers. The San Mateo, California-based secure data exchange [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/\">Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164933",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack",
+      "content_hash": "717959f3c4bf6e7a4e746f5ae37676c999137bacc98318371ec8314e32141028",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "717959f3c4bf6e7a4e746f5ae37676c999137bacc98318371ec8314e32141028",
+        "FEEDBURNER": "717959f3c4bf6e7a4e746f5ae37676c999137bacc98318371ec8314e32141028"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device",
+      "url": "https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/",
+      "published": "Mon, 28 Sep 2026 09:27:28 +0000",
+      "published_utc": "2026-09-28T09:27:28+00:00",
+      "summary": "<p>Critical vulnerabilities in ViewSonic’s vCast software could allow attackers on the same network to steal screen content, install malicious Android applications, and potentially gain full control of affected ViewBoard smart displays. The issues were disclosed in CERT Coordination Center Vulnerability Note VU#234131, published on September 24, 2026. The advisory states that multiple unauthenticated network endpoints [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/\">Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164929",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/viewsonic-vcast-vulnerabilities",
+      "content_hash": "611e202f762f64f426ddec22406851f4d453626811f51ac1d08281dc90e70e40",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "611e202f762f64f426ddec22406851f4d453626811f51ac1d08281dc90e70e40",
+        "FEEDBURNER": "611e202f762f64f426ddec22406851f4d453626811f51ac1d08281dc90e70e40"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys",
+      "url": "https://cybersecuritynews.com/break-into-the-cloud/",
+      "published": "Mon, 28 Sep 2026 09:21:40 +0000",
+      "published_utc": "2026-09-28T09:21:40+00:00",
+      "summary": "<p>Infostealer malware is giving criminals a quieter route into corporate cloud environments. Instead of forcing their way through a hardened cloud perimeter, they infect a developer or employee device and take the credentials, API keys, and active sessions already trusted by the organization. The initial infection can arrive through phishing, deceptive downloads, or a poisoned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-the-cloud/\">Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164967",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/break-into-the-cloud",
+      "content_hash": "d521c1950960b9d9f3a2147a606c890cdc36bec12511eaf4a6617ff5dee6d0a0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d521c1950960b9d9f3a2147a606c890cdc36bec12511eaf4a6617ff5dee6d0a0",
+        "FEEDBURNER": "d521c1950960b9d9f3a2147a606c890cdc36bec12511eaf4a6617ff5dee6d0a0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers",
+      "url": "https://cybersecuritynews.com/python-maas-infostealer/",
+      "published": "Mon, 28 Sep 2026 08:41:03 +0000",
+      "published_utc": "2026-09-28T08:41:03+00:00",
+      "summary": "<p>A Python-based malware builder can turn a single stealer into Windows programs for different operators. The tool packages a payload designed to take saved passwords, payment card details and browser cookies, then send them to an attacker-controlled webhook set by its operator. Its reach extends beyond browsers to messaging accounts, wireless passwords and details about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/python-maas-infostealer/\">Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164962",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/python-maas-infostealer",
+      "content_hash": "2a617fd3bddea78138a6767e1140de4d4934a7e27c2b12dc2d5007a68d4fd812",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2a617fd3bddea78138a6767e1140de4d4934a7e27c2b12dc2d5007a68d4fd812",
+        "FEEDBURNER": "2a617fd3bddea78138a6767e1140de4d4934a7e27c2b12dc2d5007a68d4fd812"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages",
+      "url": "https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/",
+      "published": "Mon, 28 Sep 2026 07:16:08 +0000",
+      "published_utc": "2026-09-28T07:16:08+00:00",
+      "summary": "<p>Hackers broke into business networks, stole customer records and used those details to send convincing fake bills. The campaign, called Operation Master, combined a VPN login bypass with attacks on web applications and a large-scale invoice fraud system aimed mainly at Brazilian customers. The activity stretched from April to mid-September 2026. Investigators found evidence of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/\">Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164947",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-globalprotect-flaw",
+      "content_hash": "3f83ea7b83a0d39694d81be25d6e970417a87ce2da7649c8096e1ba07d47a464",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3f83ea7b83a0d39694d81be25d6e970417a87ce2da7649c8096e1ba07d47a464",
+        "FEEDBURNER": "3f83ea7b83a0d39694d81be25d6e970417a87ce2da7649c8096e1ba07d47a464"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-adaptive-authentication/",
+      "published": "Mon, 28 Sep 2026 07:02:08 +0000",
+      "published_utc": "2026-09-28T07:02:08+00:00",
+      "summary": "<p>Prompting every user for MFA on every login trains people to approve anything, leaving enterprises open to push-bombing and MFA fatigue attacks; challenging nobody invites automated account takeover (ATO) attacks and credential stuffing. Adaptive authentication resolves the tension score the context, challenge the risky and 2026’s leaders now pair those risk engines with passkeys and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-adaptive-authentication/\">Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164740",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-adaptive-authentication",
+      "content_hash": "cc1d39586e4ed6d146e7ed937589b471449645968590ab54393f708dbfb8a1b7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cc1d39586e4ed6d146e7ed937589b471449645968590ab54393f708dbfb8a1b7",
+        "FEEDBURNER": "cc1d39586e4ed6d146e7ed937589b471449645968590ab54393f708dbfb8a1b7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Top 10 Best Biometric Authentication Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-biometric-authentication/",
+      "published": "Mon, 28 Sep 2026 06:56:08 +0000",
+      "published_utc": "2026-09-28T06:56:08+00:00",
+      "summary": "<p>Matching a face got easy; proving the face is a live human at a real camera while generative AI mass-produces convincing deepfake threats is where the modern biometric authentication market earns its keep. We scored ten vendors with liveness and injection-attack defense weighted highest, because that’s where fraud actually breaks through. iProov ranks #1 on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-biometric-authentication/\">Top 10 Best Biometric Authentication Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164701",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-biometric-authentication",
+      "content_hash": "63c9ba000d4ee5ef978d3cf325555f4f5db560cd930f27d7a65adfba5d2a03d3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "63c9ba000d4ee5ef978d3cf325555f4f5db560cd930f27d7a65adfba5d2a03d3",
+        "FEEDBURNER": "63c9ba000d4ee5ef978d3cf325555f4f5db560cd930f27d7a65adfba5d2a03d3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
+    {
+      "title": "Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-authentication-as-a-service/",
+      "published": "Mon, 28 Sep 2026 06:48:35 +0000",
+      "published_utc": "2026-09-28T06:48:35+00:00",
+      "summary": "<p>Nobody gets promoted for building login, but plenty get breached maintaining it. Authentication-as-a-Service moved from convenience to best practice: passkeys, attack protection, and compliance maintained by vendors whose whole business is sign-in. Integrating modern AaaS with established Customer Identity and Access Management (CIAM) solutions has cemented Identity and Access Management (IAM) resilience as a CISO [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-authentication-as-a-service/\">Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=164663",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-authentication-as-a-service",
+      "content_hash": "4acef0626a85de99f22536182f8d0dd62cd27e284cf51e3d886e083ddb8dd5d8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4acef0626a85de99f22536182f8d0dd62cd27e284cf51e3d886e083ddb8dd5d8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-28T11:57:12.825018+00:00",
+      "first_seen_local": "2026-09-28T06:57:12.825015-05:00",
+      "last_updated_utc": "2026-09-28T11:57:12.825018+00:00",
+      "last_updated_local": "2026-09-28T06:57:12.825015-05:00"
+    },
     {
       "title": "Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack",
       "url": "https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/",

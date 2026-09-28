@@ -5,14 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
       "article_count": 0,
       "articles": [],
-      "error": "HTTP 202"
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,25 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 2,
-      "articles": [
-        {
-          "title": "Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack",
-          "url": "https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/",
-          "published": "Sun, 27 Sep 2026 16:41:48 +0000",
-          "published_utc": "2026-09-27T16:41:48+00:00",
-          "summary": "<p>Citrix has released emergency security updates for NetScaler ADC and NetScaler Gateway after confirming that attackers are exploiting two critical remote code execution vulnerabilities against unmitigated appliances. The flaws, CVE-2026-88771 and CVE-2026-88772, each carry a CVSS v4.0 score of 9.5 and can let remote, unauthenticated adversaries execute code, placing internet-facing gateways at immediate risk. Because [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-confirms-netscaler-0-day/\">Citrix Confirms NetScaler 0-Day RCE Vulnerabilities Actively Exploited in Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164910"
-        },
-        {
-          "title": "New Windows Process Injection Attack Evades EDR Monitoring Without WriteProcessMemory",
-          "url": "https://cybersecuritynews.com/windows-process-injection-evades-edr/",
-          "published": "Sun, 27 Sep 2026 16:00:24 +0000",
-          "published_utc": "2026-09-27T16:00:24+00:00",
-          "summary": "<p>A Windows process injection method disclosed by security researcher Two Seven One Three sidesteps two APIs closely associated with remote code injection: VirtualAllocEx and WriteProcessMemory. Dubbed console named-pipe injection, the technique delivers payload bytes through a child console process’s redirected standard input and repurposes memory Windows has already populated. It can disrupt detections built around [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-process-injection-evades-edr/\">New Windows Process Injection Attack Evades EDR Monitoring Without WriteProcessMemory</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=164901"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

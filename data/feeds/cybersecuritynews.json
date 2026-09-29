@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
+          "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
+          "published": "Tue, 29 Sep 2026 16:33:09 +0000",
+          "published_utc": "2026-09-29T16:33:09+00:00",
+          "summary": "<p>FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries. Dutch police detained the 24-year-old Amsterdam suspect on September 15 under Dutch law, with FBI investigators supporting the operation and pursuing leads. Although Dutch authorities did [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/\">FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165158"
+        },
+        {
+          "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
+          "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
+          "published": "Tue, 29 Sep 2026 16:06:22 +0000",
+          "published_utc": "2026-09-29T16:06:22+00:00",
+          "summary": "<p>Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.&#160; Behind a single malicious link there may be a newly registered domain, a compromised website, a redirector, a phishing kit, a credential-harvesting page, or infrastructure used by several related campaigns. Attackers can also [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/\">How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165147"
+        },
+        {
+          "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
+          "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
+          "published": "Tue, 29 Sep 2026 14:46:00 +0000",
+          "published_utc": "2026-09-29T14:46:00+00:00",
+          "summary": "<p>Malware operators are hiding code inside the part of a 7-Zip installer that unpacks files. A seemingly ordinary installation can start while a concealed loader contacts an attacker-controlled server. Users and analysts may overlook that step because it usually does nothing more than prepare the visible installation. The samples belong to OpenSUpdater, previously linked to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-inside-7-zip-installers/\">Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165142"
+        },
+        {
+          "title": "Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits",
+          "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
+          "published": "Tue, 29 Sep 2026 14:33:06 +0000",
+          "published_utc": "2026-09-29T14:33:06+00:00",
+          "summary": "<p>A Windows botnet called x47.c can spend victims’ paid AI credits, steal data, and flood websites. Its operator markets it as an attack toolkit for remote use, but the evidence describes advertised capabilities, not confirmed widespread infections or documented victims. The botnet gives operators control of infected Windows machines and can collect browser passwords, cookies, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-built-a-botnet/\">Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165139"
+        },
+        {
+          "title": "Hackers Turned Ethereum Into a Secret Messaging System for Malware",
+          "url": "https://cybersecuritynews.com/ethereum-secret-messaging-system/",
+          "published": "Tue, 29 Sep 2026 14:07:33 +0000",
+          "published_utc": "2026-09-29T14:07:33+00:00",
+          "summary": "<p>A North Korea-linked malware campaign has found a way to keep infected computers connected to its operators. Instead of storing malware on Ethereum, the attackers hide the location of a control server inside cryptocurrency transfers. The campaign reaches developers through fake job offers, tainted code repositories and malicious software packages. Running the code can install [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ethereum-secret-messaging-system/\">Hackers Turned Ethereum Into a Secret Messaging System for Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165133"
+        },
+        {
+          "title": "SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers",
+          "url": "https://cybersecuritynews.com/silverfox-hackers/",
+          "published": "Tue, 29 Sep 2026 13:37:05 +0000",
+          "published_utc": "2026-09-29T13:37:05+00:00",
+          "summary": "<p>Fake software download pages are drawing Windows users into a Silver Fox-linked malware campaign. The pages imitate familiar vendors and supply installers that can leave an infected computer vulnerable to continued access. Microsoft has observed compromises across several industries, mainly affecting Chinese-speaking users. The attackers rely on a simple habit: people search for an application, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silverfox-hackers/\">SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165109"
+        },
+        {
+          "title": "OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns",
+          "url": "https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/",
+          "published": "Tue, 29 Sep 2026 13:16:30 +0000",
+          "published_utc": "2026-09-29T13:16:30+00:00",
+          "summary": "<p>OpenAI has scrapped the release of GPT-6.1 Astra after internal safety testing exposed troubling failures involving deception, authorization boundaries, and unsafe tool use. The agentic AI model had been scheduled for an October debut in ChatGPT and Codex, where it would have browsed websites, operated applications and completed complex tasks with limited human supervision. Saachi [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/\">OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165128"
+        },
+        {
+          "title": "GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains",
+          "url": "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/",
+          "published": "Tue, 29 Sep 2026 12:46:20 +0000",
+          "published_utc": "2026-09-29T12:46:20+00:00",
+          "summary": "<p>The UK AI Security Institute (AISI) recently disclosed that during cybersecurity evaluations, the GPT-6 Astra model executed simulated, unauthorized supply-chain attacks. This was part of a pre-release assessment conducted using Petri, a simulation platform designed for evaluating AI in cyber contexts. Although these actions were performed in a controlled, simulated environment, meaning no real entities [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/\">GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165112"
+        },
+        {
+          "title": "GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws",
+          "url": "https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/",
+          "published": "Tue, 29 Sep 2026 12:42:51 +0000",
+          "published_utc": "2026-09-29T12:42:51+00:00",
+          "summary": "<p>GitHub Security Lab has disclosed that its open-source AI security agent identified 24 vulnerabilities in Android applications, including flaws that could enable covert location tracking in OsmAnd and account takeover attacks against Wikipedia for Android. The findings highlight how targeted AI workflows can help researchers uncover complex mobile logic flaws, while still requiring human validation. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/\">GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165096"
+        },
+        {
+          "title": "Hackers Weaponizing ChatGPT’s Custom GPT Feature to Trick Victims into Installing Malware",
+          "url": "https://cybersecuritynews.com/chatgpt-custom-gpt-malware/",
+          "published": "Tue, 29 Sep 2026 12:01:26 +0000",
+          "published_utc": "2026-09-29T12:01:26+00:00",
+          "summary": "<p>Hackers are abusing ChatGPT’s Custom GPT feature to impersonate AI products and trick users into installing a sophisticated remote access trojan (RAT), according to Huntress researchers. The campaign turns a trusted ChatGPT-hosted page into the opening stage of a ClickFix attack, combining malvertising, fake verification prompts, obfuscated PowerShell, malicious MSI packages, and DLL sideloading. Huntress [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-custom-gpt-malware/\">Hackers Weaponizing ChatGPT&#8217;s Custom GPT Feature to Trick Victims into Installing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165092"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,39 +103,87 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 4,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Storm-3168 Deletes Azure Resources in 7-Minute Destructive Cloud Attack",
-          "url": "https://cybersecuritynews.com/storm-3168/",
-          "published": "Tue, 29 Sep 2026 08:48:40 +0000",
-          "published_utc": "2026-09-29T08:48:40+00:00",
-          "summary": "<p>Storm-3168 used compromised cloud identities to carry out a destructive attack against an Azure environment in minutes. The operation shows how a stolen application credential can give an intruder broad control over hosted data, services, and recovery protections. It also highlights the growing threat from automated cloud attacks. The activity is linked to JADEPUFFER agentic [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/storm-3168/\">Storm-3168 Deletes Azure Resources in 7-Minute Destructive Cloud Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165076"
+          "title": "Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits",
+          "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
+          "published": "Tue, 29 Sep 2026 14:33:06 +0000",
+          "published_utc": "2026-09-29T14:33:06+00:00",
+          "summary": "<p>A Windows botnet called x47.c can spend victims’ paid AI credits, steal data, and flood websites. Its operator markets it as an attack toolkit for remote use, but the evidence describes advertised capabilities, not confirmed widespread infections or documented victims. The botnet gives operators control of infected Windows machines and can collect browser passwords, cookies, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-built-a-botnet/\">Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165139"
         },
         {
-          "title": "Critical WatchGuard API Vulnerabilities Enables Command Execution Attacks",
-          "url": "https://cybersecuritynews.com/watchguard-api-vulnerabilities/",
-          "published": "Tue, 29 Sep 2026 08:00:44 +0000",
-          "published_utc": "2026-09-29T08:00:44+00:00",
-          "summary": "<p>WatchGuard has disclosed three security vulnerabilities affecting WatchGuard AP devices, including two critical flaws that could allow attackers to gain unauthenticated access and execute commands on vulnerable access points. Organizations using WatchGuard AP firmware earlier than version 3.4.8 should apply the available update immediately. The vulnerabilities were published on September 28, 2026, and affect WatchGuard [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/watchguard-api-vulnerabilities/\">Critical WatchGuard API Vulnerabilities Enables Command Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165058"
+          "title": "Hackers Turned Ethereum Into a Secret Messaging System for Malware",
+          "url": "https://cybersecuritynews.com/ethereum-secret-messaging-system/",
+          "published": "Tue, 29 Sep 2026 14:07:33 +0000",
+          "published_utc": "2026-09-29T14:07:33+00:00",
+          "summary": "<p>A North Korea-linked malware campaign has found a way to keep infected computers connected to its operators. Instead of storing malware on Ethereum, the attackers hide the location of a control server inside cryptocurrency transfers. The campaign reaches developers through fake job offers, tainted code repositories and malicious software packages. Running the code can install [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ethereum-secret-messaging-system/\">Hackers Turned Ethereum Into a Secret Messaging System for Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165133"
         },
         {
-          "title": "BotHelper RAT Uses Encrypted Payloads and Live Screen Surveillance to Spy on Windows Users",
-          "url": "https://cybersecuritynews.com/bothelper-rat/",
-          "published": "Tue, 29 Sep 2026 07:36:41 +0000",
-          "published_utc": "2026-09-29T07:36:41+00:00",
-          "summary": "<p>A newly documented Windows remote access trojan, dubbed BotHelper RAT, gives attackers a quiet way to watch an infected user&#8217;s screen and control the device. The malware arrives through a small starter program, hides its main code with encryption, and uses a trusted-looking file name to avoid drawing attention. The attack begins when the starter [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bothelper-rat/\">BotHelper RAT Uses Encrypted Payloads and Live Screen Surveillance to Spy on Windows Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165065"
+          "title": "SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers",
+          "url": "https://cybersecuritynews.com/silverfox-hackers/",
+          "published": "Tue, 29 Sep 2026 13:37:05 +0000",
+          "published_utc": "2026-09-29T13:37:05+00:00",
+          "summary": "<p>Fake software download pages are drawing Windows users into a Silver Fox-linked malware campaign. The pages imitate familiar vendors and supply installers that can leave an infected computer vulnerable to continued access. Microsoft has observed compromises across several industries, mainly affecting Chinese-speaking users. The attackers rely on a simple habit: people search for an application, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silverfox-hackers/\">SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165109"
         },
         {
-          "title": "Critical Apple CoreGraphics Zero-Day Vulnerability Actively Exploited in Attacks",
-          "url": "https://cybersecuritynews.com/apple-zero-day-vulnerability-exploited/",
-          "published": "Tue, 29 Sep 2026 06:34:38 +0000",
-          "published_utc": "2026-09-29T06:34:38+00:00",
-          "summary": "<p>Apple has released iOS 26.7.1 and iPadOS 26.7.1 to fix a critical zero-day vulnerability that it says may have been exploited in an extremely sophisticated attack against specifically targeted individuals. The security issue, tracked as CVE-2026-86950, affects the CoreGraphics framework, a fundamental Apple component responsible for rendering graphics, images, and documents across iPhones and iPads. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-zero-day-vulnerability-exploited/\">Critical Apple CoreGraphics Zero-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165061"
+          "title": "OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns",
+          "url": "https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/",
+          "published": "Tue, 29 Sep 2026 13:16:30 +0000",
+          "published_utc": "2026-09-29T13:16:30+00:00",
+          "summary": "<p>OpenAI has scrapped the release of GPT-6.1 Astra after internal safety testing exposed troubling failures involving deception, authorization boundaries, and unsafe tool use. The agentic AI model had been scheduled for an October debut in ChatGPT and Codex, where it would have browsed websites, operated applications and completed complex tasks with limited human supervision. Saachi [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/\">OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165128"
+        },
+        {
+          "title": "GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains",
+          "url": "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/",
+          "published": "Tue, 29 Sep 2026 12:46:20 +0000",
+          "published_utc": "2026-09-29T12:46:20+00:00",
+          "summary": "<p>The UK AI Security Institute (AISI) recently disclosed that during cybersecurity evaluations, the GPT-6 Astra model executed simulated, unauthorized supply-chain attacks. This was part of a pre-release assessment conducted using Petri, a simulation platform designed for evaluating AI in cyber contexts. Although these actions were performed in a controlled, simulated environment, meaning no real entities [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/\">GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165112"
+        },
+        {
+          "title": "GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws",
+          "url": "https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/",
+          "published": "Tue, 29 Sep 2026 12:42:51 +0000",
+          "published_utc": "2026-09-29T12:42:51+00:00",
+          "summary": "<p>GitHub Security Lab has disclosed that its open-source AI security agent identified 24 vulnerabilities in Android applications, including flaws that could enable covert location tracking in OsmAnd and account takeover attacks against Wikipedia for Android. The findings highlight how targeted AI workflows can help researchers uncover complex mobile logic flaws, while still requiring human validation. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/\">GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165096"
+        },
+        {
+          "title": "Hackers Weaponizing ChatGPT’s Custom GPT Feature to Trick Victims into Installing Malware",
+          "url": "https://cybersecuritynews.com/chatgpt-custom-gpt-malware/",
+          "published": "Tue, 29 Sep 2026 12:01:26 +0000",
+          "published_utc": "2026-09-29T12:01:26+00:00",
+          "summary": "<p>Hackers are abusing ChatGPT’s Custom GPT feature to impersonate AI products and trick users into installing a sophisticated remote access trojan (RAT), according to Huntress researchers. The campaign turns a trusted ChatGPT-hosted page into the opening stage of a ClickFix attack, combining malvertising, fake verification prompts, obfuscated PowerShell, malicious MSI packages, and DLL sideloading. Huntress [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-custom-gpt-malware/\">Hackers Weaponizing ChatGPT&#8217;s Custom GPT Feature to Trick Victims into Installing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165092"
+        },
+        {
+          "title": "AgtaBackup RAT Uses Fake Microsoft Store Pages and RMM Tools to Hijack Windows Systems",
+          "url": "https://cybersecuritynews.com/agtabackup-rat/",
+          "published": "Tue, 29 Sep 2026 10:18:37 +0000",
+          "published_utc": "2026-09-29T10:18:37+00:00",
+          "summary": "<p>A newly tracked Windows remote access trojan called AgtaBackup RAT is using fake Microsoft Store pages to gain a foothold on victims’ computers. The campaign pretends to offer popular video-conferencing software, but the download instead installs a legitimate remote monitoring and management, or RMM, tool that attackers control. That first step matters because the installer [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agtabackup-rat/\">AgtaBackup RAT Uses Fake Microsoft Store Pages and RMM Tools to Hijack Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165082"
+        },
+        {
+          "title": "Modulate Raises $25M to Fight Deepfake Voices With Next-Generation Audio AI",
+          "url": "https://cybersecuritynews.com/modulate-raises-25m-fund/",
+          "published": "Tue, 29 Sep 2026 10:03:24 +0000",
+          "published_utc": "2026-09-29T10:03:24+00:00",
+          "summary": "<p>Modulate has secured $25 million in funding to expand its audio-native AI platform as enterprises confront deepfake voice fraud, impersonation, and unsafe automated conversations. Future Ventures led the round, joined by Hyperplane and Lakestar, bringing the company’s funding total to $60 million. The investment will accelerate AI research, engineering, developer tools, partnerships, and deployment options [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/modulate-raises-25m-fund/\">Modulate Raises $25M to Fight Deepfake Voices With Next-Generation Audio AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165090"
+        },
+        {
+          "title": "OpenAI’s AI Agents Went Beyond Their Tasks and Triggered New Security Concerns",
+          "url": "https://cybersecuritynews.com/openais-ai-agents-new-security-concerns/",
+          "published": "Tue, 29 Sep 2026 09:55:39 +0000",
+          "published_utc": "2026-09-29T09:55:39+00:00",
+          "summary": "<p>OpenAI has acknowledged that one of its experimental AI agents gained unauthorized access to an Australian government health statistics portal during internal training in June. The incident has intensified concerns that increasingly capable AI agents may pursue goals in unexpected ways, including interacting with systems beyond their authorized scope. The activity involved an internal-only OpenAI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openais-ai-agents-new-security-concerns/\">OpenAI’s AI Agents Went Beyond Their Tasks and Triggered New Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165088"
         }
       ],
       "error": ""

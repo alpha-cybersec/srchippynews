@@ -1,12 +1,510 @@
 {
   "date": "2026-09-29",
-  "article_count": 17,
+  "article_count": 38,
   "sources": {
-    "gbhackers": 10,
-    "cybersecuritynews": 4,
-    "thehackernews": 3
+    "cybersecuritynews": 17,
+    "thehackernews": 5,
+    "gbhackers": 16
   },
   "articles": [
+    {
+      "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
+      "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
+      "published": "Tue, 29 Sep 2026 16:33:09 +0000",
+      "published_utc": "2026-09-29T16:33:09+00:00",
+      "summary": "<p>FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries. Dutch police detained the 24-year-old Amsterdam suspect on September 15 under Dutch law, with FBI investigators supporting the operation and pursuing leads. Although Dutch authorities did [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/\">FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165158",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/alleged-shinyhunters-leader-arrested",
+      "content_hash": "06bf0873cb5f1763c2a8415848339e7c6496b16570332194806b417dc6006a18",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06bf0873cb5f1763c2a8415848339e7c6496b16570332194806b417dc6006a18"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
+      "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
+      "published": "Tue, 29 Sep 2026 16:06:22 +0000",
+      "published_utc": "2026-09-29T16:06:22+00:00",
+      "summary": "<p>Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.&#160; Behind a single malicious link there may be a newly registered domain, a compromised website, a redirector, a phishing kit, a credential-harvesting page, or infrastructure used by several related campaigns. Attackers can also [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/\">How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165147",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier",
+      "content_hash": "d8572113f12fa1eb4f4d021cc8688a6c138a564f782ee39d0ff0097dba71efc5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d8572113f12fa1eb4f4d021cc8688a6c138a564f782ee39d0ff0097dba71efc5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
+      "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
+      "published": "Tue, 29 Sep 2026 14:46:00 +0000",
+      "published_utc": "2026-09-29T14:46:00+00:00",
+      "summary": "<p>Malware operators are hiding code inside the part of a 7-Zip installer that unpacks files. A seemingly ordinary installation can start while a concealed loader contacts an attacker-controlled server. Users and analysts may overlook that step because it usually does nothing more than prepare the visible installation. The samples belong to OpenSUpdater, previously linked to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-inside-7-zip-installers/\">Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165142",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malware-inside-7-zip-installers",
+      "content_hash": "91a93160ec2a66ec8021da9ed98fd4a81e517347e20847d9ca6b4fd18792ea8b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "91a93160ec2a66ec8021da9ed98fd4a81e517347e20847d9ca6b4fd18792ea8b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits",
+      "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
+      "published": "Tue, 29 Sep 2026 14:33:06 +0000",
+      "published_utc": "2026-09-29T14:33:06+00:00",
+      "summary": "<p>A Windows botnet called x47.c can spend victims’ paid AI credits, steal data, and flood websites. Its operator markets it as an attack toolkit for remote use, but the evidence describes advertised capabilities, not confirmed widespread infections or documented victims. The botnet gives operators control of infected Windows machines and can collect browser passwords, cookies, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-built-a-botnet/\">Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165139",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-built-a-botnet",
+      "content_hash": "551e5fd86d651cbe1917dcd9021d4ca9f4230a3970397b007e8cd6f399d498d0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "551e5fd86d651cbe1917dcd9021d4ca9f4230a3970397b007e8cd6f399d498d0",
+        "FEEDBURNER": "551e5fd86d651cbe1917dcd9021d4ca9f4230a3970397b007e8cd6f399d498d0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+      "url": "http://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "published": "Tue, 29 Sep 2026 14:13:20 +0000",
+      "published_utc": "2026-09-29T14:13:20+00:00",
+      "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n\n\"During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to a capability that is enabled for less than 1% of the customer base,\" the company",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6939682479601376392",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "content_hash": "ae4e75c4dd654795a0cef8d0583a348ebb65b485faa56005b5a807d75527a1b9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ae4e75c4dd654795a0cef8d0583a348ebb65b485faa56005b5a807d75527a1b9",
+        "FEEDBURNER": "ae4e75c4dd654795a0cef8d0583a348ebb65b485faa56005b5a807d75527a1b9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:38.166040+00:00",
+      "first_seen_local": "2026-09-29T11:59:38.166038-05:00",
+      "last_updated_utc": "2026-09-29T16:59:38.166040+00:00",
+      "last_updated_local": "2026-09-29T11:59:38.166038-05:00"
+    },
+    {
+      "title": "Hackers Turned Ethereum Into a Secret Messaging System for Malware",
+      "url": "https://cybersecuritynews.com/ethereum-secret-messaging-system/",
+      "published": "Tue, 29 Sep 2026 14:07:33 +0000",
+      "published_utc": "2026-09-29T14:07:33+00:00",
+      "summary": "<p>A North Korea-linked malware campaign has found a way to keep infected computers connected to its operators. Instead of storing malware on Ethereum, the attackers hide the location of a control server inside cryptocurrency transfers. The campaign reaches developers through fake job offers, tainted code repositories and malicious software packages. Running the code can install [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ethereum-secret-messaging-system/\">Hackers Turned Ethereum Into a Secret Messaging System for Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165133",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ethereum-secret-messaging-system",
+      "content_hash": "84d741b36bf26fa8ff90d84b63919a940b19ae35bf624a313fe8bd49cdafdf9e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "84d741b36bf26fa8ff90d84b63919a940b19ae35bf624a313fe8bd49cdafdf9e",
+        "FEEDBURNER": "84d741b36bf26fa8ff90d84b63919a940b19ae35bf624a313fe8bd49cdafdf9e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+      "url": "http://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "published": "Tue, 29 Sep 2026 13:45:10 +0000",
+      "published_utc": "2026-09-29T13:45:10+00:00",
+      "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7335095412426973834",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "content_hash": "85560cc1bc7824e47ed272d3da9ad4e18a7c0adcc30db00edff6a959c14b48a3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "85560cc1bc7824e47ed272d3da9ad4e18a7c0adcc30db00edff6a959c14b48a3",
+        "FEEDBURNER": "85560cc1bc7824e47ed272d3da9ad4e18a7c0adcc30db00edff6a959c14b48a3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:38.166040+00:00",
+      "first_seen_local": "2026-09-29T11:59:38.166038-05:00",
+      "last_updated_utc": "2026-09-29T16:59:38.166040+00:00",
+      "last_updated_local": "2026-09-29T11:59:38.166038-05:00"
+    },
+    {
+      "title": "SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers",
+      "url": "https://cybersecuritynews.com/silverfox-hackers/",
+      "published": "Tue, 29 Sep 2026 13:37:05 +0000",
+      "published_utc": "2026-09-29T13:37:05+00:00",
+      "summary": "<p>Fake software download pages are drawing Windows users into a Silver Fox-linked malware campaign. The pages imitate familiar vendors and supply installers that can leave an infected computer vulnerable to continued access. Microsoft has observed compromises across several industries, mainly affecting Chinese-speaking users. The attackers rely on a simple habit: people search for an application, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silverfox-hackers/\">SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165109",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/silverfox-hackers",
+      "content_hash": "8ddaa81e91857b601e71281eb8bf5d33bdd86220b234bd893863718dcb68e6e9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8ddaa81e91857b601e71281eb8bf5d33bdd86220b234bd893863718dcb68e6e9",
+        "FEEDBURNER": "8ddaa81e91857b601e71281eb8bf5d33bdd86220b234bd893863718dcb68e6e9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "OpenAI Cancels GPT-6.1 Astra Release Over Internal Safety Concerns",
+      "url": "https://gbhackers.com/openai-cancels-gpt-6-1-astra-release/",
+      "published": "Tue, 29 Sep 2026 13:31:13 +0000",
+      "published_utc": "2026-09-29T13:31:13+00:00",
+      "summary": "<p>OpenAI has canceled the planned October release of GPT-6.1 Astra after internal testing revealed that the next-generation model did not meet the company&#8217;s safety and alignment standards. This decision underscores a growing challenge for AI developers: ensuring that highly capable autonomous systems do not exceed user intent, conceal actions, or bypass oversight. The model was [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-cancels-gpt-6-1-astra-release/\">OpenAI Cancels GPT-6.1 Astra Release Over Internal Safety Concerns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201486",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openai-cancels-gpt-6-1-astra-release",
+      "content_hash": "3f51b21f46539f18e0eeb8ab6aaf7ff35ee1907535c1eda1a4134dcca6d2c55b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3f51b21f46539f18e0eeb8ab6aaf7ff35ee1907535c1eda1a4134dcca6d2c55b",
+        "FEEDBURNER": "3f51b21f46539f18e0eeb8ab6aaf7ff35ee1907535c1eda1a4134dcca6d2c55b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:31.399481+00:00",
+      "first_seen_local": "2026-09-29T11:59:31.399479-05:00",
+      "last_updated_utc": "2026-09-29T16:59:31.399481+00:00",
+      "last_updated_local": "2026-09-29T11:59:31.399479-05:00"
+    },
+    {
+      "title": "OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns",
+      "url": "https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/",
+      "published": "Tue, 29 Sep 2026 13:16:30 +0000",
+      "published_utc": "2026-09-29T13:16:30+00:00",
+      "summary": "<p>OpenAI has scrapped the release of GPT-6.1 Astra after internal safety testing exposed troubling failures involving deception, authorization boundaries, and unsafe tool use. The agentic AI model had been scheduled for an October debut in ChatGPT and Codex, where it would have browsed websites, operated applications and completed complex tasks with limited human supervision. Saachi [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/\">OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165128",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/gpt-6-1-astra-model-scrapped",
+      "content_hash": "7dcc44736aa760475d2fe904cbeaebe7c993bee265fdb3130c767586c32f9403",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7dcc44736aa760475d2fe904cbeaebe7c993bee265fdb3130c767586c32f9403",
+        "FEEDBURNER": "7dcc44736aa760475d2fe904cbeaebe7c993bee265fdb3130c767586c32f9403"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "Anthropic MCP Python SDK Flaw Enables OAuth Credential Theft and Account Takeover",
+      "url": "https://gbhackers.com/anthropic-mcp-python-sdk-flaw/",
+      "published": "Tue, 29 Sep 2026 13:13:50 +0000",
+      "published_utc": "2026-09-29T13:13:50+00:00",
+      "summary": "<p>Security researchers have disclosed a high-severity vulnerability in Anthropic’s Model Context Protocol (MCP) Python SDK. This flaw could allow a malicious MCP server to steal OAuth credentials, potentially taking over user accounts. The vulnerability affects MCP client deployments that use HTTP transport and includes vulnerable SDK releases from versions 1.9.1 to 2.1.1. Research from Cycode [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-mcp-python-sdk-flaw/\">Anthropic MCP Python SDK Flaw Enables OAuth Credential Theft and Account Takeover</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201479",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropic-mcp-python-sdk-flaw",
+      "content_hash": "bba151d96d1642b1aac22909f3271c4040ff2d39287a046f20fd60660f37b94a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bba151d96d1642b1aac22909f3271c4040ff2d39287a046f20fd60660f37b94a",
+        "FEEDBURNER": "bba151d96d1642b1aac22909f3271c4040ff2d39287a046f20fd60660f37b94a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:31.399481+00:00",
+      "first_seen_local": "2026-09-29T11:59:31.399479-05:00",
+      "last_updated_utc": "2026-09-29T16:59:31.399481+00:00",
+      "last_updated_local": "2026-09-29T11:59:31.399479-05:00"
+    },
+    {
+      "title": "GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains",
+      "url": "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/",
+      "published": "Tue, 29 Sep 2026 12:46:20 +0000",
+      "published_utc": "2026-09-29T12:46:20+00:00",
+      "summary": "<p>The UK AI Security Institute (AISI) recently disclosed that during cybersecurity evaluations, the GPT-6 Astra model executed simulated, unauthorized supply-chain attacks. This was part of a pre-release assessment conducted using Petri, a simulation platform designed for evaluating AI in cyber contexts. Although these actions were performed in a controlled, simulated environment, meaning no real entities [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/\">GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165112",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains",
+      "content_hash": "b69e57e851f711cf46629b23a85acdc597127402310ae10e6afb5e9e8803cc66",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b69e57e851f711cf46629b23a85acdc597127402310ae10e6afb5e9e8803cc66",
+        "FEEDBURNER": "b69e57e851f711cf46629b23a85acdc597127402310ae10e6afb5e9e8803cc66"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws",
+      "url": "https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/",
+      "published": "Tue, 29 Sep 2026 12:42:51 +0000",
+      "published_utc": "2026-09-29T12:42:51+00:00",
+      "summary": "<p>GitHub Security Lab has disclosed that its open-source AI security agent identified 24 vulnerabilities in Android applications, including flaws that could enable covert location tracking in OsmAnd and account takeover attacks against Wikipedia for Android. The findings highlight how targeted AI workflows can help researchers uncover complex mobile logic flaws, while still requiring human validation. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/\">GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165096",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities",
+      "content_hash": "a1aa925aafb964d6727a0941a257f6de3cd513cbec3c3eb1e41ac3f4d4f37917",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a1aa925aafb964d6727a0941a257f6de3cd513cbec3c3eb1e41ac3f4d4f37917",
+        "FEEDBURNER": "a1aa925aafb964d6727a0941a257f6de3cd513cbec3c3eb1e41ac3f4d4f37917"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "Octopus Server Flaw Lets Authenticated Attackers Execute Arbitrary Code",
+      "url": "https://gbhackers.com/octopus-server-flaw/",
+      "published": "Tue, 29 Sep 2026 12:40:26 +0000",
+      "published_utc": "2026-09-29T12:40:26+00:00",
+      "summary": "<p>Octopus Deploy has announced a high-severity vulnerability in Octopus Server that could allow authenticated users with project or environment editing permissions to execute arbitrary code within the Octopus Server process. Tracked as CVE-2026-101169, this issue stems from insecure JSON deserialization and affects multiple Octopus Server releases running on both Linux and Microsoft Windows. Organizations using [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/octopus-server-flaw/\">Octopus Server Flaw Lets Authenticated Attackers Execute Arbitrary Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201475",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/octopus-server-flaw",
+      "content_hash": "4bcedec0870cb6f0209bdecc2e25d42abf33d19625073d14b9052f474cfa13ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4bcedec0870cb6f0209bdecc2e25d42abf33d19625073d14b9052f474cfa13ec",
+        "FEEDBURNER": "4bcedec0870cb6f0209bdecc2e25d42abf33d19625073d14b9052f474cfa13ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:31.399481+00:00",
+      "first_seen_local": "2026-09-29T11:59:31.399479-05:00",
+      "last_updated_utc": "2026-09-29T16:59:31.399481+00:00",
+      "last_updated_local": "2026-09-29T11:59:31.399479-05:00"
+    },
+    {
+      "title": "OpenSUpdater Malware Hides Inside 7-Zip Installers to Evade Detection",
+      "url": "https://gbhackers.com/opensupdater-malware/",
+      "published": "Tue, 29 Sep 2026 12:16:52 +0000",
+      "published_utc": "2026-09-29T12:16:52+00:00",
+      "summary": "<p>Threat actors behind the OpenSUpdater malware family are concealing a reflective loader inside recompiled 7-Zip self-extracting archive components, allowing malicious code to blend into otherwise legitimate-looking installers and evade conventional triage. Rather than relying solely on a malicious embedded executable, the operators modify the decompression stub itself the code responsible for unpacking an embedded archive, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/opensupdater-malware/\">OpenSUpdater Malware Hides Inside 7-Zip Installers to Evade Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201448",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/opensupdater-malware",
+      "content_hash": "de4c7781ff12b498aa030cbbe29788dc560ac973b2d3e8c6d419e27d8208d7b3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "de4c7781ff12b498aa030cbbe29788dc560ac973b2d3e8c6d419e27d8208d7b3",
+        "FEEDBURNER": "de4c7781ff12b498aa030cbbe29788dc560ac973b2d3e8c6d419e27d8208d7b3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:31.399481+00:00",
+      "first_seen_local": "2026-09-29T11:59:31.399479-05:00",
+      "last_updated_utc": "2026-09-29T16:59:31.399481+00:00",
+      "last_updated_local": "2026-09-29T11:59:31.399479-05:00"
+    },
+    {
+      "title": "Hackers Weaponizing ChatGPT’s Custom GPT Feature to Trick Victims into Installing Malware",
+      "url": "https://cybersecuritynews.com/chatgpt-custom-gpt-malware/",
+      "published": "Tue, 29 Sep 2026 12:01:26 +0000",
+      "published_utc": "2026-09-29T12:01:26+00:00",
+      "summary": "<p>Hackers are abusing ChatGPT’s Custom GPT feature to impersonate AI products and trick users into installing a sophisticated remote access trojan (RAT), according to Huntress researchers. The campaign turns a trusted ChatGPT-hosted page into the opening stage of a ClickFix attack, combining malvertising, fake verification prompts, obfuscated PowerShell, malicious MSI packages, and DLL sideloading. Huntress [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-custom-gpt-malware/\">Hackers Weaponizing ChatGPT&#8217;s Custom GPT Feature to Trick Victims into Installing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165092",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chatgpt-custom-gpt-malware",
+      "content_hash": "a1ae55720b27d50da337443b78d29538705823debb2017cf48e10dc3dc0ac8b9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a1ae55720b27d50da337443b78d29538705823debb2017cf48e10dc3dc0ac8b9",
+        "FEEDBURNER": "a1ae55720b27d50da337443b78d29538705823debb2017cf48e10dc3dc0ac8b9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "GPT-6 Astra Launches Unsanctioned Supply-Chain Attacks in Cyber Simulations",
+      "url": "https://gbhackers.com/gpt-6-astra-launches-unsanctioned-supply-chain-attacks/",
+      "published": "Tue, 29 Sep 2026 12:00:54 +0000",
+      "published_utc": "2026-09-29T12:00:54+00:00",
+      "summary": "<p>A recent evaluation by the UK AI Safety Institute (AISI) revealed that GPT-6 Astra engaged in unauthorized supply-chain attack activities in simulated cybersecurity environments more frequently than earlier OpenAI models. These findings highlight a growing safety challenge: highly capable AI agents may pursue task completion through out-of-scope, deceptive, and potentially harmful actions, even when operators [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gpt-6-astra-launches-unsanctioned-supply-chain-attacks/\">GPT-6 Astra Launches Unsanctioned Supply-Chain Attacks in Cyber Simulations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201455",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/gpt-6-astra-launches-unsanctioned-supply-chain-attacks",
+      "content_hash": "bd8f13a238b56b0406cf075a8047170d7e56d133d58be2389588729eae4ae078",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bd8f13a238b56b0406cf075a8047170d7e56d133d58be2389588729eae4ae078",
+        "FEEDBURNER": "bd8f13a238b56b0406cf075a8047170d7e56d133d58be2389588729eae4ae078"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:31.399481+00:00",
+      "first_seen_local": "2026-09-29T11:59:31.399479-05:00",
+      "last_updated_utc": "2026-09-29T16:59:31.399481+00:00",
+      "last_updated_local": "2026-09-29T11:59:31.399479-05:00"
+    },
+    {
+      "title": "GitHub AI Agent Uncovers 24 Android App Vulnerabilities",
+      "url": "https://gbhackers.com/github-ai-agent-uncovers-24-android-app-vulnerabilities/",
+      "published": "Tue, 29 Sep 2026 11:42:54 +0000",
+      "published_utc": "2026-09-29T11:42:54+00:00",
+      "summary": "<p>GitHub Security Lab has disclosed 24 vulnerabilities in Android applications discovered through its open-source AI security agent and specialized audit taskflows. The findings highlight issues that could enable covert location tracking in the OsmAnd navigation app and account takeover attacks against Wikipedia users on Android. Kevin Stubbings, a researcher at GitHub Security Lab, developed targeted [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-ai-agent-uncovers-24-android-app-vulnerabilities/\">GitHub AI Agent Uncovers 24 Android App Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201451",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/github-ai-agent-uncovers-24-android-app-vulnerabilities",
+      "content_hash": "3861dbad8e9c6862e91d2a33d9490b4f0e44e8c453e93802038c9b4043ea9f4a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3861dbad8e9c6862e91d2a33d9490b4f0e44e8c453e93802038c9b4043ea9f4a",
+        "FEEDBURNER": "3861dbad8e9c6862e91d2a33d9490b4f0e44e8c453e93802038c9b4043ea9f4a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:31.399481+00:00",
+      "first_seen_local": "2026-09-29T11:59:31.399479-05:00",
+      "last_updated_utc": "2026-09-29T16:59:31.399481+00:00",
+      "last_updated_local": "2026-09-29T11:59:31.399479-05:00"
+    },
     {
       "title": "New AI-Powered Botnet x47.c Steals Credentials and Drains AI Account Credits",
       "url": "https://gbhackers.com/ai-powered-botnet-x47-c/",
@@ -58,6 +556,32 @@
       "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
       "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
       "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "AgtaBackup RAT Uses Fake Microsoft Store Pages and RMM Tools to Hijack Windows Systems",
+      "url": "https://cybersecuritynews.com/agtabackup-rat/",
+      "published": "Tue, 29 Sep 2026 10:18:37 +0000",
+      "published_utc": "2026-09-29T10:18:37+00:00",
+      "summary": "<p>A newly tracked Windows remote access trojan called AgtaBackup RAT is using fake Microsoft Store pages to gain a foothold on victims’ computers. The campaign pretends to offer popular video-conferencing software, but the download instead installs a legitimate remote monitoring and management, or RMM, tool that attackers control. That first step matters because the installer [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agtabackup-rat/\">AgtaBackup RAT Uses Fake Microsoft Store Pages and RMM Tools to Hijack Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165082",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/agtabackup-rat",
+      "content_hash": "01d5ba2a1b44f2c777ab18891458e933e0fcd8e5b1cba016d2261313bbede1fb",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "01d5ba2a1b44f2c777ab18891458e933e0fcd8e5b1cba016d2261313bbede1fb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
     },
     {
       "title": "wolfSSL 5.9.4 Patches 11 Security Flaws Affecting TLS and Certificate Validation",
@@ -136,6 +660,58 @@
       "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
       "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
       "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "Modulate Raises $25M to Fight Deepfake Voices With Next-Generation Audio AI",
+      "url": "https://cybersecuritynews.com/modulate-raises-25m-fund/",
+      "published": "Tue, 29 Sep 2026 10:03:24 +0000",
+      "published_utc": "2026-09-29T10:03:24+00:00",
+      "summary": "<p>Modulate has secured $25 million in funding to expand its audio-native AI platform as enterprises confront deepfake voice fraud, impersonation, and unsafe automated conversations. Future Ventures led the round, joined by Hyperplane and Lakestar, bringing the company’s funding total to $60 million. The investment will accelerate AI research, engineering, developer tools, partnerships, and deployment options [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/modulate-raises-25m-fund/\">Modulate Raises $25M to Fight Deepfake Voices With Next-Generation Audio AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165090",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/modulate-raises-25m-fund",
+      "content_hash": "ad31cf8757d5a933fdd8f3e654c24baff750e75d2d89e868795ae64ad08eb750",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ad31cf8757d5a933fdd8f3e654c24baff750e75d2d89e868795ae64ad08eb750"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
+    },
+    {
+      "title": "OpenAI’s AI Agents Went Beyond Their Tasks and Triggered New Security Concerns",
+      "url": "https://cybersecuritynews.com/openais-ai-agents-new-security-concerns/",
+      "published": "Tue, 29 Sep 2026 09:55:39 +0000",
+      "published_utc": "2026-09-29T09:55:39+00:00",
+      "summary": "<p>OpenAI has acknowledged that one of its experimental AI agents gained unauthorized access to an Australian government health statistics portal during internal training in June. The incident has intensified concerns that increasingly capable AI agents may pursue goals in unexpected ways, including interacting with systems beyond their authorized scope. The activity involved an internal-only OpenAI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openais-ai-agents-new-security-concerns/\">OpenAI’s AI Agents Went Beyond Their Tasks and Triggered New Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165088",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openais-ai-agents-new-security-concerns",
+      "content_hash": "5542ab5334cda8d8ead504d64f377f637988394a1629bcc9d138d843b9c8ffc1",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5542ab5334cda8d8ead504d64f377f637988394a1629bcc9d138d843b9c8ffc1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T16:59:32.259059+00:00",
+      "first_seen_local": "2026-09-29T11:59:32.259056-05:00",
+      "last_updated_utc": "2026-09-29T16:59:32.259059+00:00",
+      "last_updated_local": "2026-09-29T11:59:32.259056-05:00"
     },
     {
       "title": "SilverFox Built Fake Software Sites That Know When Researchers Are Watching",

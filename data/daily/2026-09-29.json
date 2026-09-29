@@ -1,10 +1,432 @@
 {
   "date": "2026-09-29",
-  "article_count": 1,
+  "article_count": 17,
   "sources": {
-    "thehackernews": 1
+    "gbhackers": 10,
+    "cybersecuritynews": 4,
+    "thehackernews": 3
   },
   "articles": [
+    {
+      "title": "New AI-Powered Botnet x47.c Steals Credentials and Drains AI Account Credits",
+      "url": "https://gbhackers.com/ai-powered-botnet-x47-c/",
+      "published": "Tue, 29 Sep 2026 11:06:53 +0000",
+      "published_utc": "2026-09-29T11:06:53+00:00",
+      "summary": "<p>A newly identified Windows botnet dubbed x47.c is marketing a blend of conventional DDoS tooling, credential theft, SOCKS5 proxying, fast-flux command-and-control infrastructure, and an “AI API drain” capability designed to exhaust victims’ paid artificial-intelligence service credits. Qrator Research Labs identified the previously undocumented malware platform during threat hunting. They traced its sale to an operator [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-botnet-x47-c/\">New AI-Powered Botnet x47.c Steals Credentials and Drains AI Account Credits</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201424",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-powered-botnet-x47-c",
+      "content_hash": "59494e64f904dac9b2c431496b80d44d3bc6941d0a35f4156fc9741b83ff3286",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "59494e64f904dac9b2c431496b80d44d3bc6941d0a35f4156fc9741b83ff3286"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "OpenAI Model Gained Unauthorized Access to Australian Government Systems",
+      "url": "https://gbhackers.com/openai-model-gained-unauthorized-access-to-australian-government-systems/",
+      "published": "Tue, 29 Sep 2026 10:30:06 +0000",
+      "published_utc": "2026-09-29T10:30:06+00:00",
+      "summary": "<p>OpenAI has disclosed that an experimental internal AI model accessed several Australian government systems without authorization during training and evaluation activities in June. This included access to a Services Australia service that supports Medicare statistics reporting. The company stated that its review found no evidence that individual medical, patient, client, crime, or identifiable survey records [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-model-gained-unauthorized-access-to-australian-government-systems/\">OpenAI Model Gained Unauthorized Access to Australian Government Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201442",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openai-model-gained-unauthorized-access-to-australian-government-systems",
+      "content_hash": "3a6dadb557a4e79f0aa94e67730406fdf7b5c6686ced75dd1defe6e259b2f6cd",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "3a6dadb557a4e79f0aa94e67730406fdf7b5c6686ced75dd1defe6e259b2f6cd"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "wolfSSL 5.9.4 Patches 11 Security Flaws Affecting TLS and Certificate Validation",
+      "url": "https://gbhackers.com/wolfssl-5-9-4-patches-11-security-flaws/",
+      "published": "Tue, 29 Sep 2026 10:18:04 +0000",
+      "published_utc": "2026-09-29T10:18:04+00:00",
+      "summary": "<p>wolfSSL has released version 5.9.4, which addresses 11 security vulnerabilities related to TLS and DTLS handshakes, X.509 certificate validation, certificate revocation, OCSP stapling, session resumption, and memory safety. This release is particularly important for deployments utilizing OpenSSL-compatible settings, optional certificate validation features, or persistent, long-running TLS contexts. The most critical issue, tracked as CVE-2026-93302, affects [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wolfssl-5-9-4-patches-11-security-flaws/\">wolfSSL 5.9.4 Patches 11 Security Flaws Affecting TLS and Certificate Validation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201415",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/wolfssl-5-9-4-patches-11-security-flaws",
+      "content_hash": "83ca1714de56ac42bce8e49ab4de94c6691fc2441e627f390c0452e34d553b5d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "83ca1714de56ac42bce8e49ab4de94c6691fc2441e627f390c0452e34d553b5d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "DPRK-Linked Hackers Add HashHiding to Blockchain C2 Network for Takedown-Resistant Malware",
+      "url": "https://gbhackers.com/hashhiding-to-blockchain-c2/",
+      "published": "Tue, 29 Sep 2026 10:08:30 +0000",
+      "published_utc": "2026-09-29T10:08:30+00:00",
+      "summary": "<p>DPRK-linked operators behind the Cross-Chain TxDataHiding (XCTDH) campaign have expanded their blockchain-backed command-and-control infrastructure with a new Ethereum-based recovery channel dubbed HashHiding. The technique stores an active C2 IP address and port inside the recipient address of ordinary Ethereum transfers, allowing infected systems to recover attacker infrastructure without relying on domains, smart contracts, or transaction [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hashhiding-to-blockchain-c2/\">DPRK-Linked Hackers Add HashHiding to Blockchain C2 Network for Takedown-Resistant Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201398",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hashhiding-to-blockchain-c2",
+      "content_hash": "c356eb40063fa781744e3b4b4d04f96facf649405171ff39b9b1bb75e5fd3f8a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c356eb40063fa781744e3b4b4d04f96facf649405171ff39b9b1bb75e5fd3f8a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "Critical WatchGuard AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands",
+      "url": "https://gbhackers.com/critical-watchguard-ap-flaws/",
+      "published": "Tue, 29 Sep 2026 10:03:33 +0000",
+      "published_utc": "2026-09-29T10:03:33+00:00",
+      "summary": "<p>WatchGuard has announced the discovery of three high-impact vulnerabilities in its wireless access point platform. Two of these critical issues allow unauthenticated network attackers to gain API access and execute arbitrary operating-system commands. These vulnerabilities affect WatchGuard AP firmware versions 1.0 through 3.4.7 and were addressed in version 3.4.8, which the vendor released as a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-watchguard-ap-flaws/\">Critical WatchGuard AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201403",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-watchguard-ap-flaws",
+      "content_hash": "1da0d8c78130c16526adf814d1651c577ae8c33c219edc7d41b7b6a5bdcccb97",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1da0d8c78130c16526adf814d1651c577ae8c33c219edc7d41b7b6a5bdcccb97"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "SilverFox Built Fake Software Sites That Know When Researchers Are Watching",
+      "url": "https://gbhackers.com/silverfox-built-fake-software/",
+      "published": "Tue, 29 Sep 2026 09:46:35 +0000",
+      "published_utc": "2026-09-29T09:46:35+00:00",
+      "summary": "<p>SilverFox-linked operators are evolving beyond counterfeit software portals and signed-binary abuse by using visitor-aware delivery infrastructure that can distinguish potential victims from security researchers. Pelagosx recently investigated a related Windows malware delivery chain that began with a finance-themed WhatsApp message targeting Malaysian users. The message urged recipients to forward a report for verification and open [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/silverfox-built-fake-software/\">SilverFox Built Fake Software Sites That Know When Researchers Are Watching</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201374",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/silverfox-built-fake-software",
+      "content_hash": "17155b2764b7350ff36437e60494ba7367ae3da845061a853341185df2578efd",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "17155b2764b7350ff36437e60494ba7367ae3da845061a853341185df2578efd"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "Storm-3168 Deletes Azure Resources in 7-Minute Destructive Cloud Attack",
+      "url": "https://cybersecuritynews.com/storm-3168/",
+      "published": "Tue, 29 Sep 2026 08:48:40 +0000",
+      "published_utc": "2026-09-29T08:48:40+00:00",
+      "summary": "<p>Storm-3168 used compromised cloud identities to carry out a destructive attack against an Azure environment in minutes. The operation shows how a stolen application credential can give an intruder broad control over hosted data, services, and recovery protections. It also highlights the growing threat from automated cloud attacks. The activity is linked to JADEPUFFER agentic [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/storm-3168/\">Storm-3168 Deletes Azure Resources in 7-Minute Destructive Cloud Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165076",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/storm-3168",
+      "content_hash": "864c2f501ca6819a9469dce17e41cebdc463753c4fba0dbce166afde6430836e",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "864c2f501ca6819a9469dce17e41cebdc463753c4fba0dbce166afde6430836e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:58.258655+00:00",
+      "first_seen_local": "2026-09-29T06:32:58.258653-05:00",
+      "last_updated_utc": "2026-09-29T11:32:58.258655+00:00",
+      "last_updated_local": "2026-09-29T06:32:58.258653-05:00"
+    },
+    {
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "url": "http://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "published": "Tue, 29 Sep 2026 08:35:10 +0000",
+      "published_utc": "2026-09-29T08:35:10+00:00",
+      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday.\n\nPolice said the individual is expected to appear before the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3329907886536507388",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "content_hash": "451ccef8f07581ad1a21431cfa2f996896467d3db237056de44eeba03100eca3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "451ccef8f07581ad1a21431cfa2f996896467d3db237056de44eeba03100eca3",
+        "FEEDBURNER": "451ccef8f07581ad1a21431cfa2f996896467d3db237056de44eeba03100eca3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:33:03.123194+00:00",
+      "first_seen_local": "2026-09-29T06:33:03.123192-05:00",
+      "last_updated_utc": "2026-09-29T11:33:03.123194+00:00",
+      "last_updated_local": "2026-09-29T06:33:03.123192-05:00"
+    },
+    {
+      "title": "Apple Fixes iOS Zero-Day Exploited in Sophisticated Targeted Attacks",
+      "url": "https://gbhackers.com/apple-fixes-ios-zero-day/",
+      "published": "Tue, 29 Sep 2026 08:12:20 +0000",
+      "published_utc": "2026-09-29T08:12:20+00:00",
+      "summary": "<p>Apple has released iOS 26.7.1 and iPadOS 26.7.1 to address CVE-2026-86950, a zero-day vulnerability in CoreGraphics that may have been exploited in sophisticated, targeted attacks against specific individuals. Apple&#8217;s latest security updates fix an out-of-bounds write vulnerability in CoreGraphics, the graphics rendering framework used on iPhone and iPad devices. This flaw, tracked as CVE-2026-86950, could [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-fixes-ios-zero-day/\">Apple Fixes iOS Zero-Day Exploited in Sophisticated Targeted Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201371",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apple-fixes-ios-zero-day",
+      "content_hash": "a947c9b910598f1116a9cb40b576e2ad1173fcf2f18e2372e762d5fea3c5e448",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a947c9b910598f1116a9cb40b576e2ad1173fcf2f18e2372e762d5fea3c5e448"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "Attackers Hid Behind Trusted RMM Software Before Deploying a Full Surveillance RAT",
+      "url": "https://gbhackers.com/trusted-rmm-abuse/",
+      "published": "Tue, 29 Sep 2026 08:10:09 +0000",
+      "published_utc": "2026-09-29T08:10:09+00:00",
+      "summary": "<p>Threat actors are abusing trusted remote monitoring and management (RMM) software to gain legitimate-looking access to Windows endpoints before deploying a previously undocumented .NET remote access trojan dubbed AgtaBackup RAT. The operation starts with a fraudulent Microsoft Store-style page impersonating a popular videoconferencing application, but ultimately hands the victim’s machine to an attacker-controlled RMM tenant. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trusted-rmm-abuse/\">Attackers Hid Behind Trusted RMM Software Before Deploying a Full Surveillance RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201357",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/trusted-rmm-abuse",
+      "content_hash": "e8c1e3ee8e9da5e02584ec8e07ecf7fc56265172a857565a74ba466884e54a36",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e8c1e3ee8e9da5e02584ec8e07ecf7fc56265172a857565a74ba466884e54a36"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "Keio Railway Confirms Ransomware Attack Disrupted Business Systems",
+      "url": "https://gbhackers.com/keio-railway-confirms-ransomware-attack/",
+      "published": "Tue, 29 Sep 2026 08:03:42 +0000",
+      "published_utc": "2026-09-29T08:03:42+00:00",
+      "summary": "<p>Keio Corporation has confirmed that a ransomware attack has caused a system failure within parts of its group infrastructure, disrupting certain business systems at its affiliated companies. The Japanese railway operator stated that train services continue to operate and that it has not yet confirmed any data breach. In a public notice issued on September [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/keio-railway-confirms-ransomware-attack/\">Keio Railway Confirms Ransomware Attack Disrupted Business Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201368",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/keio-railway-confirms-ransomware-attack",
+      "content_hash": "68de734fc51f5d4b5acc41ce7847e31f0de8af901a32c8923de359d22aef15f1",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "68de734fc51f5d4b5acc41ce7847e31f0de8af901a32c8923de359d22aef15f1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "Critical WatchGuard API Vulnerabilities Enables Command Execution Attacks",
+      "url": "https://cybersecuritynews.com/watchguard-api-vulnerabilities/",
+      "published": "Tue, 29 Sep 2026 08:00:44 +0000",
+      "published_utc": "2026-09-29T08:00:44+00:00",
+      "summary": "<p>WatchGuard has disclosed three security vulnerabilities affecting WatchGuard AP devices, including two critical flaws that could allow attackers to gain unauthenticated access and execute commands on vulnerable access points. Organizations using WatchGuard AP firmware earlier than version 3.4.8 should apply the available update immediately. The vulnerabilities were published on September 28, 2026, and affect WatchGuard [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/watchguard-api-vulnerabilities/\">Critical WatchGuard API Vulnerabilities Enables Command Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165058",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/watchguard-api-vulnerabilities",
+      "content_hash": "5563195febfe7033711ec254ef5e790bd8a6d514da2c993f9ceaed5a4600f857",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5563195febfe7033711ec254ef5e790bd8a6d514da2c993f9ceaed5a4600f857"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:58.258655+00:00",
+      "first_seen_local": "2026-09-29T06:32:58.258653-05:00",
+      "last_updated_utc": "2026-09-29T11:32:58.258655+00:00",
+      "last_updated_local": "2026-09-29T06:32:58.258653-05:00"
+    },
+    {
+      "title": "Microsoft Tracks NeedyMantis Malware Targeting Telecoms and Government Contractors",
+      "url": "https://gbhackers.com/microsoft-tracks-needymantis-malware/",
+      "published": "Tue, 29 Sep 2026 07:54:05 +0000",
+      "published_utc": "2026-09-29T07:54:05+00:00",
+      "summary": "<p>Microsoft Threat Intelligence has discovered NeedyMantis, a modular post-compromise malware framework that targets specific industries, including telecommunications firms, government contractors, universities, medical nonprofits, and intergovernmental organizations. Unlike typical malware that serves as an initial access point, NeedyMantis is designed to maintain an attacker&#8217;s access and support follow-on operations after an initial breach. NeedyMantis activity has [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-tracks-needymantis-malware/\">Microsoft Tracks NeedyMantis Malware Targeting Telecoms and Government Contractors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201358",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-tracks-needymantis-malware",
+      "content_hash": "a44f1b1804c38d414bf598725d2288bfe5f52b57178e7b8504e237d9e3b5320a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a44f1b1804c38d414bf598725d2288bfe5f52b57178e7b8504e237d9e3b5320a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:57.822909+00:00",
+      "first_seen_local": "2026-09-29T06:32:57.822907-05:00",
+      "last_updated_utc": "2026-09-29T11:32:57.822909+00:00",
+      "last_updated_local": "2026-09-29T06:32:57.822907-05:00"
+    },
+    {
+      "title": "BotHelper RAT Uses Encrypted Payloads and Live Screen Surveillance to Spy on Windows Users",
+      "url": "https://cybersecuritynews.com/bothelper-rat/",
+      "published": "Tue, 29 Sep 2026 07:36:41 +0000",
+      "published_utc": "2026-09-29T07:36:41+00:00",
+      "summary": "<p>A newly documented Windows remote access trojan, dubbed BotHelper RAT, gives attackers a quiet way to watch an infected user&#8217;s screen and control the device. The malware arrives through a small starter program, hides its main code with encryption, and uses a trusted-looking file name to avoid drawing attention. The attack begins when the starter [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bothelper-rat/\">BotHelper RAT Uses Encrypted Payloads and Live Screen Surveillance to Spy on Windows Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165065",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/bothelper-rat",
+      "content_hash": "907402d492d3a4eb25d88237f7e3917f5772ea4f5278ce2e98a745e3873d056a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "907402d492d3a4eb25d88237f7e3917f5772ea4f5278ce2e98a745e3873d056a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:58.258655+00:00",
+      "first_seen_local": "2026-09-29T06:32:58.258653-05:00",
+      "last_updated_utc": "2026-09-29T11:32:58.258655+00:00",
+      "last_updated_local": "2026-09-29T06:32:58.258653-05:00"
+    },
+    {
+      "title": "Critical Apple CoreGraphics Zero-Day Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/apple-zero-day-vulnerability-exploited/",
+      "published": "Tue, 29 Sep 2026 06:34:38 +0000",
+      "published_utc": "2026-09-29T06:34:38+00:00",
+      "summary": "<p>Apple has released iOS 26.7.1 and iPadOS 26.7.1 to fix a critical zero-day vulnerability that it says may have been exploited in an extremely sophisticated attack against specifically targeted individuals. The security issue, tracked as CVE-2026-86950, affects the CoreGraphics framework, a fundamental Apple component responsible for rendering graphics, images, and documents across iPhones and iPads. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-zero-day-vulnerability-exploited/\">Critical Apple CoreGraphics Zero-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165061",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apple-zero-day-vulnerability-exploited",
+      "content_hash": "deecc984f74a5beb1cd37a36ccf9aa3b77ebaab3dea9c2457fdbc5b35755cf9f",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "deecc984f74a5beb1cd37a36ccf9aa3b77ebaab3dea9c2457fdbc5b35755cf9f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:32:58.258655+00:00",
+      "first_seen_local": "2026-09-29T06:32:58.258653-05:00",
+      "last_updated_utc": "2026-09-29T11:32:58.258655+00:00",
+      "last_updated_local": "2026-09-29T06:32:58.258653-05:00"
+    },
+    {
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "url": "http://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "published": "Tue, 29 Sep 2026 06:08:25 +0000",
+      "published_utc": "2026-09-29T06:08:25+00:00",
+      "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2742034382938112077",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "content_hash": "4f5dd4eb3ffcb4a3fd047f2dcd3cc66eaa4bc4052598b4ad56ef9365997cdf69",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4f5dd4eb3ffcb4a3fd047f2dcd3cc66eaa4bc4052598b4ad56ef9365997cdf69",
+        "FEEDBURNER": "4f5dd4eb3ffcb4a3fd047f2dcd3cc66eaa4bc4052598b4ad56ef9365997cdf69"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-29T11:33:03.123194+00:00",
+      "first_seen_local": "2026-09-29T06:33:03.123192-05:00",
+      "last_updated_utc": "2026-09-29T11:33:03.123194+00:00",
+      "last_updated_local": "2026-09-29T06:33:03.123192-05:00"
+    },
     {
       "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
       "url": "http://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",

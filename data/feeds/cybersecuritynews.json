@@ -5,14 +5,23 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "MCP Python SDK OAuth Flaw Lets Malicious Servers Hijack AI Agent Accounts",
+          "url": "https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw/",
+          "published": "Wed, 30 Sep 2026 05:30:04 +0000",
+          "published_utc": "2026-09-30T05:30:04+00:00",
+          "summary": "<p>A high-severity flaw in the official Model Context Protocol (MCP) Python SDK could allow a malicious MCP server to steal OAuth authentication material and take over AI agent accounts. The issue affects vulnerable HTTP-based MCP clients that connect to untrusted servers while using OAuth to access legitimate identity providers such as Google, Okta, or Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw/\">MCP Python SDK OAuth Flaw Lets Malicious Servers Hijack AI Agent Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165127"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,89 +31,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
-          "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
-          "published": "Tue, 29 Sep 2026 16:33:09 +0000",
-          "published_utc": "2026-09-29T16:33:09+00:00",
-          "summary": "<p>FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries. Dutch police detained the 24-year-old Amsterdam suspect on September 15 under Dutch law, with FBI investigators supporting the operation and pursuing leads. Although Dutch authorities did [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/\">FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165158"
-        },
-        {
-          "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
-          "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
-          "published": "Tue, 29 Sep 2026 16:06:22 +0000",
-          "published_utc": "2026-09-29T16:06:22+00:00",
-          "summary": "<p>Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.&#160; Behind a single malicious link there may be a newly registered domain, a compromised website, a redirector, a phishing kit, a credential-harvesting page, or infrastructure used by several related campaigns. Attackers can also [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/\">How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165147"
-        },
-        {
-          "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
-          "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
-          "published": "Tue, 29 Sep 2026 14:46:00 +0000",
-          "published_utc": "2026-09-29T14:46:00+00:00",
-          "summary": "<p>Malware operators are hiding code inside the part of a 7-Zip installer that unpacks files. A seemingly ordinary installation can start while a concealed loader contacts an attacker-controlled server. Users and analysts may overlook that step because it usually does nothing more than prepare the visible installation. The samples belong to OpenSUpdater, previously linked to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-inside-7-zip-installers/\">Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165142"
-        },
-        {
-          "title": "Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits",
-          "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
-          "published": "Tue, 29 Sep 2026 14:33:06 +0000",
-          "published_utc": "2026-09-29T14:33:06+00:00",
-          "summary": "<p>A Windows botnet called x47.c can spend victims’ paid AI credits, steal data, and flood websites. Its operator markets it as an attack toolkit for remote use, but the evidence describes advertised capabilities, not confirmed widespread infections or documented victims. The botnet gives operators control of infected Windows machines and can collect browser passwords, cookies, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-built-a-botnet/\">Hackers Built a Botnet That Doesn’t Just Steal Data, It Burns AI Credits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165139"
-        },
-        {
-          "title": "Hackers Turned Ethereum Into a Secret Messaging System for Malware",
-          "url": "https://cybersecuritynews.com/ethereum-secret-messaging-system/",
-          "published": "Tue, 29 Sep 2026 14:07:33 +0000",
-          "published_utc": "2026-09-29T14:07:33+00:00",
-          "summary": "<p>A North Korea-linked malware campaign has found a way to keep infected computers connected to its operators. Instead of storing malware on Ethereum, the attackers hide the location of a control server inside cryptocurrency transfers. The campaign reaches developers through fake job offers, tainted code repositories and malicious software packages. Running the code can install [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ethereum-secret-messaging-system/\">Hackers Turned Ethereum Into a Secret Messaging System for Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165133"
-        },
-        {
-          "title": "SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers",
-          "url": "https://cybersecuritynews.com/silverfox-hackers/",
-          "published": "Tue, 29 Sep 2026 13:37:05 +0000",
-          "published_utc": "2026-09-29T13:37:05+00:00",
-          "summary": "<p>Fake software download pages are drawing Windows users into a Silver Fox-linked malware campaign. The pages imitate familiar vendors and supply installers that can leave an infected computer vulnerable to continued access. Microsoft has observed compromises across several industries, mainly affecting Chinese-speaking users. The attackers rely on a simple habit: people search for an application, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silverfox-hackers/\">SilverFox Hackers Built Fake Software Sites That Hide Malware From Security Researchers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165109"
-        },
-        {
-          "title": "OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns",
-          "url": "https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/",
-          "published": "Tue, 29 Sep 2026 13:16:30 +0000",
-          "published_utc": "2026-09-29T13:16:30+00:00",
-          "summary": "<p>OpenAI has scrapped the release of GPT-6.1 Astra after internal safety testing exposed troubling failures involving deception, authorization boundaries, and unsafe tool use. The agentic AI model had been scheduled for an October debut in ChatGPT and Codex, where it would have browsed websites, operated applications and completed complex tasks with limited human supervision. Saachi [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-1-astra-model-scrapped/\">OpenAI Scrapped the New GPT-6.1 Astra Model Following Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165128"
-        },
-        {
-          "title": "GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains",
-          "url": "https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/",
-          "published": "Tue, 29 Sep 2026 12:46:20 +0000",
-          "published_utc": "2026-09-29T12:46:20+00:00",
-          "summary": "<p>The UK AI Security Institute (AISI) recently disclosed that during cybersecurity evaluations, the GPT-6 Astra model executed simulated, unauthorized supply-chain attacks. This was part of a pre-release assessment conducted using Petri, a simulation platform designed for evaluating AI in cyber contexts. Although these actions were performed in a controlled, simulated environment, meaning no real entities [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-6-astra-hack-software-supply-chains/\">GPT-6 Astra AI Agent Tried to Deceive Developers and Hack Software Supply Chains</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165112"
-        },
-        {
-          "title": "GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws",
-          "url": "https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/",
-          "published": "Tue, 29 Sep 2026 12:42:51 +0000",
-          "published_utc": "2026-09-29T12:42:51+00:00",
-          "summary": "<p>GitHub Security Lab has disclosed that its open-source AI security agent identified 24 vulnerabilities in Android applications, including flaws that could enable covert location tracking in OsmAnd and account takeover attacks against Wikipedia for Android. The findings highlight how targeted AI workflows can help researchers uncover complex mobile logic flaws, while still requiring human validation. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-ai-finds-24-android-vulnerabilities/\">GitHub AI Security Agent Finds 24 Android Vulnerabilities Including Account Takeover Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165096"
-        },
-        {
-          "title": "Hackers Weaponizing ChatGPT’s Custom GPT Feature to Trick Victims into Installing Malware",
-          "url": "https://cybersecuritynews.com/chatgpt-custom-gpt-malware/",
-          "published": "Tue, 29 Sep 2026 12:01:26 +0000",
-          "published_utc": "2026-09-29T12:01:26+00:00",
-          "summary": "<p>Hackers are abusing ChatGPT’s Custom GPT feature to impersonate AI products and trick users into installing a sophisticated remote access trojan (RAT), according to Huntress researchers. The campaign turns a trusted ChatGPT-hosted page into the opening stage of a ClickFix attack, combining malvertising, fake verification prompts, obfuscated PowerShell, malicious MSI packages, and DLL sideloading. Huntress [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-custom-gpt-malware/\">Hackers Weaponizing ChatGPT&#8217;s Custom GPT Feature to Trick Victims into Installing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165092"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

@@ -2,8 +2,164 @@
   "month": "2026-09",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 194,
+  "article_count": 200,
   "articles": [
+    {
+      "title": "Unsloth Fixes Arbitrary Code Execution Flaw Triggered by Malicious Hugging Face Models",
+      "url": "https://gbhackers.com/unsloth-fixes-arbitrary-code-execution-flaw/",
+      "published": "Wed, 30 Sep 2026 06:22:18 +0000",
+      "published_utc": "2026-09-30T06:22:18+00:00",
+      "summary": "<p>Unsloth has addressed a critical arbitrary code execution vulnerability in its Studio web interface. This flaw allowed a malicious Hugging Face model repository to execute attacker-controlled Python code simply by a user selecting or inspecting it. Unsloth resolved the issue in version 2026.6.9, and users running Studio are urged to update immediately. Unsloth Fixes Arbitrary [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/unsloth-fixes-arbitrary-code-execution-flaw/\">Unsloth Fixes Arbitrary Code Execution Flaw Triggered by Malicious Hugging Face Models</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201514",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/unsloth-fixes-arbitrary-code-execution-flaw",
+      "content_hash": "19b61686a1f8d6f0ade6f00c071c44fd3c7c483c65fc279c6a249159c6ec8436",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "19b61686a1f8d6f0ade6f00c071c44fd3c7c483c65fc279c6a249159c6ec8436"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T06:36:40.487967+00:00",
+      "first_seen_local": "2026-09-30T01:36:40.487965-05:00",
+      "last_updated_utc": "2026-09-30T06:36:40.487967+00:00",
+      "last_updated_local": "2026-09-30T01:36:40.487965-05:00"
+    },
+    {
+      "title": "Android Malware Turns Gemini AI Into an Assistant for On-Device Attacks",
+      "url": "https://gbhackers.com/gemini-powered-malware/",
+      "published": "Wed, 30 Sep 2026 05:58:20 +0000",
+      "published_utc": "2026-09-30T05:58:20+00:00",
+      "summary": "<p>A newly documented Android banking trojan named RATHat is demonstrating how generative AI can be operationalized inside mobile malware. The threat uses Google Gemini models to navigate unfamiliar Android interfaces, while its operator panel applies AI to identify higher-value victims from stolen SMS data. The malware disguises itself as legitimate applications, then relies on social [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gemini-powered-malware/\">Android Malware Turns Gemini AI Into an Assistant for On-Device Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201518",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/gemini-powered-malware",
+      "content_hash": "719f019624452bd43037dc87e0b8b1afa2eb97bc55d965d792810af9871ee650",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "719f019624452bd43037dc87e0b8b1afa2eb97bc55d965d792810af9871ee650"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T06:36:40.487967+00:00",
+      "first_seen_local": "2026-09-30T01:36:40.487965-05:00",
+      "last_updated_utc": "2026-09-30T06:36:40.487967+00:00",
+      "last_updated_local": "2026-09-30T01:36:40.487965-05:00"
+    },
+    {
+      "title": "SectopRAT Malware Hides in Legitimate Software to Steal Browser Credentials and Crypto Wallets",
+      "url": "https://gbhackers.com/sectoprat-malware/",
+      "published": "Wed, 30 Sep 2026 05:33:58 +0000",
+      "published_utc": "2026-09-30T05:33:58+00:00",
+      "summary": "<p>A newly analyzed SectopRAT campaign demonstrates how threat actors can weaponize trusted application components to conceal a full-featured remote access trojan and steal high-value data. The investigation found no evidence that the software vendor distributed a trojanized build or that the incident stemmed from a supply-chain compromise. Instead, attackers appear to have modified an existing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sectoprat-malware/\">SectopRAT Malware Hides in Legitimate Software to Steal Browser Credentials and Crypto Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201493",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sectoprat-malware",
+      "content_hash": "4a5ec96ddf14f1a275b41b1fb68e3480204dd12480b894e70d740d195e27f7bd",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4a5ec96ddf14f1a275b41b1fb68e3480204dd12480b894e70d740d195e27f7bd"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T06:36:40.487967+00:00",
+      "first_seen_local": "2026-09-30T01:36:40.487965-05:00",
+      "last_updated_utc": "2026-09-30T06:36:40.487967+00:00",
+      "last_updated_local": "2026-09-30T01:36:40.487965-05:00"
+    },
+    {
+      "title": "OpenAI Launches Codex Security Cloud for Always-On Application Security Scanning",
+      "url": "https://gbhackers.com/openai-launches-codex-security-cloud/",
+      "published": "Wed, 30 Sep 2026 05:27:12 +0000",
+      "published_utc": "2026-09-30T05:27:12+00:00",
+      "summary": "<p>OpenAI has expanded its Codex platform with Codex Security Cloud, a cloud-hosted application security feature that continuously analyzes GitHub repositories, investigates potential vulnerabilities, and prepares remediation patches for human review. Announced as part of the company&#8217;s latest Codex updates, this service is designed to operate security workflows beyond a developer&#8217;s local machine. It can run [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-launches-codex-security-cloud/\">OpenAI Launches Codex Security Cloud for Always-On Application Security Scanning</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201511",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openai-launches-codex-security-cloud",
+      "content_hash": "aab60d594b8922f88dccaaea234b3a419b96f9f118de68f6921a0d69b263d28a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aab60d594b8922f88dccaaea234b3a419b96f9f118de68f6921a0d69b263d28a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T06:36:40.487967+00:00",
+      "first_seen_local": "2026-09-30T01:36:40.487965-05:00",
+      "last_updated_utc": "2026-09-30T06:36:40.487967+00:00",
+      "last_updated_local": "2026-09-30T01:36:40.487965-05:00"
+    },
+    {
+      "title": "OpenSSL High-Severity Flaw Lets Attackers Leak Heap Memory in Plaintext",
+      "url": "https://gbhackers.com/openssl-high-severity-flaw/",
+      "published": "Wed, 30 Sep 2026 05:14:11 +0000",
+      "published_utc": "2026-09-30T05:14:11+00:00",
+      "summary": "<p>OpenSSL has announced a high-severity vulnerability in its Datagram Transport Layer Security (DTLS) implementation that could allow a remote peer to read unintended plaintext heap memory during handshake data transmission or trigger a denial-of-service condition. This vulnerability, tracked as CVE-2026-84782, stems from an out-of-bounds read when handling DTLS handshake message retransmissions. The issue affects various [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openssl-high-severity-flaw/\">OpenSSL High-Severity Flaw Lets Attackers Leak Heap Memory in Plaintext</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201507",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openssl-high-severity-flaw",
+      "content_hash": "7f659ca5450959eeb464215c579588e1e9e18b5e9b2ae458d313e241c1cc82ec",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7f659ca5450959eeb464215c579588e1e9e18b5e9b2ae458d313e241c1cc82ec"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T06:36:40.487967+00:00",
+      "first_seen_local": "2026-09-30T01:36:40.487965-05:00",
+      "last_updated_utc": "2026-09-30T06:36:40.487967+00:00",
+      "last_updated_local": "2026-09-30T01:36:40.487965-05:00"
+    },
+    {
+      "title": "FBI, Dutch Police Take Down Alleged ShinyHunters Cybercrime Group Leader",
+      "url": "https://gbhackers.com/fbi-dutch-police-take-down-alleged-shinyhunters-cybercrime-group-leader/",
+      "published": "Wed, 30 Sep 2026 05:03:36 +0000",
+      "published_utc": "2026-09-30T05:03:36+00:00",
+      "summary": "<p>The FBI and Dutch National Police have announced the arrest of a 24-year-old man from Amsterdam who is suspected of playing a major role in the ShinyHunters cybercrime group. This development marks a significant step forward in an international investigation into a widespread data theft and extortion operation. The suspect was arrested on September 15, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-dutch-police-take-down-alleged-shinyhunters-cybercrime-group-leader/\">FBI, Dutch Police Take Down Alleged ShinyHunters Cybercrime Group Leader</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201503",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fbi-dutch-police-take-down-alleged-shinyhunters-cybercrime-group-leader",
+      "content_hash": "fafbc52e7fdc24efc238407bcef3c9c302bd3117cb1bf5f34616e19dd23e9a41",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fafbc52e7fdc24efc238407bcef3c9c302bd3117cb1bf5f34616e19dd23e9a41"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T06:36:40.487967+00:00",
+      "first_seen_local": "2026-09-30T01:36:40.487965-05:00",
+      "last_updated_utc": "2026-09-30T06:36:40.487967+00:00",
+      "last_updated_local": "2026-09-30T01:36:40.487965-05:00"
+    },
     {
       "title": "OpenAI Cancels GPT-6.1 Astra Release Over Internal Safety Concerns",
       "url": "https://gbhackers.com/openai-cancels-gpt-6-1-astra-release/",

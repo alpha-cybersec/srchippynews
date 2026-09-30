@@ -103,63 +103,87 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 7,
+      "article_count": 10,
       "articles": [
         {
-          "title": "RSA Launches Agent ID Platform to Secure AI Agents and MCP Servers",
-          "url": "https://cybersecuritynews.com/rsa-agent-id/",
-          "published": "Wed, 30 Sep 2026 09:49:50 +0000",
-          "published_utc": "2026-09-30T09:49:50+00:00",
-          "summary": "<p>RSA has announced RSA Agent ID, a new identity security platform that helps regulated organizations discover, secure, and govern AI agents. The launch targets financial services, government agencies, critical infrastructure operators, and other organizations that need to control what AI agents can access and prove who authorized sensitive actions. The platform addresses a growing problem [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rsa-agent-id/\">RSA Launches Agent ID Platform to Secure AI Agents and MCP Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165188"
+          "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
+          "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
+          "published": "Wed, 30 Sep 2026 17:01:17 +0000",
+          "published_utc": "2026-09-30T17:01:17+00:00",
+          "summary": "<p>Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures. The company plans to issue conventional certificates alongside Merkle Tree Certificates, or MTCs, and is targeting early 2027 for admission to Chrome’s new Quantum-resistant Root Store; standard MTC issuance will be free. The initiative addresses a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-post-quantum-ca/\">Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165231"
         },
         {
-          "title": "RATHat Android Malware Uses Gemini AI to Control Phones Outside Normal App Permissions",
-          "url": "https://cybersecuritynews.com/rathat-android-malware/",
-          "published": "Wed, 30 Sep 2026 09:14:00 +0000",
-          "published_utc": "2026-09-30T09:14:00+00:00",
-          "summary": "<p>RATHat Android malware uses Gemini AI to help take control of infected phones beyond normal app permissions. The banking trojan abuses a developer feature to establish a separate command channel that can survive removal of the malicious application until the phone reboots. Attackers distribute it through malicious adverts and phishing text messages targeting Europe, Latin [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rathat-android-malware/\">RATHat Android Malware Uses Gemini AI to Control Phones Outside Normal App Permissions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165199"
+          "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
+          "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
+          "published": "Wed, 30 Sep 2026 16:58:15 +0000",
+          "published_utc": "2026-09-30T16:58:15+00:00",
+          "summary": "<p>Google released a Chrome Stable update fixing 32 security vulnerabilities across Windows, macOS, and Linux, including one critical and multiple high-severity flaws in V8, ANGLE, GPU, WebGPU, Bluetooth, Passwords, and UI components. Chrome version 154.0.8037.92/.93 is being rolled out to Windows and Mac users, while Linux users will receive version 154.0.8037.92. Google said it will [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-update-with-32-security-fixes/\">Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165238"
         },
         {
-          "title": "AI Agent Finds Linux Kernel Bug That Turns a Tiny Memory Write Into Root Access",
-          "url": "https://cybersecuritynews.com/ai-agent-finds-linux-kernel-bug/",
-          "published": "Wed, 30 Sep 2026 08:50:27 +0000",
-          "published_utc": "2026-09-30T08:50:27+00:00",
-          "summary": "<p>Autonomous security research platform XBOW has disclosed CVE-2026-72018, a high-severity Linux kernel vulnerability that converts a tightly constrained out-of-bounds memory write into local root access. The flaw affects the DIBS loopback implementation used by the SMC-D shared-memory communication path, where a missing bounds check allows attacker-controlled data to be copied beyond an allocated kernel buffer. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agent-finds-linux-kernel-bug/\">AI Agent Finds Linux Kernel Bug That Turns a Tiny Memory Write Into Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165175"
+          "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
+          "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
+          "published": "Wed, 30 Sep 2026 16:50:03 +0000",
+          "published_utc": "2026-09-30T16:50:03+00:00",
+          "summary": "<p>Google has warned that threat actors are actively exploiting two critical Citrix NetScaler zero-day vulnerabilities to gain root access, install stealthy web shells, and move into victim networks. The activity has affected organizations in North America and Europe, including government, financial services, technology, education, legal, and professional-services sectors. Mandiant Consulting and Google Threat Intelligence Group [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/\">Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165213"
         },
         {
-          "title": "New OperTraitors Tool Reveals Dangerous Privilege Escalation Paths in Kubernetes Operators",
-          "url": "https://cybersecuritynews.com/opertraitors-tool/",
-          "published": "Wed, 30 Sep 2026 08:33:58 +0000",
-          "published_utc": "2026-09-30T08:33:58+00:00",
-          "summary": "<p>A new open-source security tool, OperTraitor, has revealed how Kubernetes operators can create dangerous privilege escalation paths when they receive excessive role-based access control permissions. The tool analyzes operator manifests and compares their documented function with the permissions actually granted to their service accounts. Kubernetes operators automate administrative tasks such as deploying databases, monitoring workloads, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/opertraitors-tool/\">New OperTraitors Tool Reveals Dangerous Privilege Escalation Paths in Kubernetes Operators</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165183"
+          "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
+          "url": "https://cybersecuritynews.com/russian-hackers-2/",
+          "published": "Wed, 30 Sep 2026 16:28:35 +0000",
+          "published_utc": "2026-09-30T16:28:35+00:00",
+          "summary": "<p>Russian state-linked hackers have expanded a phishing operation that uses a new RedFlick delivery chain to reach more than 100 organizations. The campaign replaces an obvious malicious attachment with a conversation that looks like ordinary professional correspondence. The activity was recorded in at least 13 campaigns from January through August 2026, chiefly affecting organizations in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/russian-hackers-2/\">Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165299"
         },
         {
-          "title": "Unsloth Studio RCE Flaw Lets Malicious Hugging Face Models Execute Code",
-          "url": "https://cybersecuritynews.com/unsloth-studio-rce-flaw/",
-          "published": "Wed, 30 Sep 2026 08:14:51 +0000",
-          "published_utc": "2026-09-30T08:14:51+00:00",
-          "summary": "<p>A now-patched vulnerability in Unsloth Studio allowed a malicious Hugging Face model repository to execute Python code when a user merely selected the model in the browser interface. Unsloth fixed the issue in version 2026.6.9, and users running Studio should upgrade immediately. Unsloth is a popular open-source library used to fine-tune and quantize large language [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/unsloth-studio-rce-flaw/\">Unsloth Studio RCE Flaw Lets Malicious Hugging Face Models Execute Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165170"
+          "title": "Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster",
+          "url": "https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/",
+          "published": "Wed, 30 Sep 2026 16:06:16 +0000",
+          "published_utc": "2026-09-30T16:06:16+00:00",
+          "summary": "<p>Investigating a phishing alert often means working through several layers of activity before an analyst can confidently close or escalate the case. Modern campaigns can hide malicious activity behind encrypted traffic, CAPTCHA challenges, redirects, browser scripts, and token-based authentication, leaving analysts to reconstruct the attack before they can determine what happened.&#160; The investigation does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/\">Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165276"
         },
         {
-          "title": "Fortinet Uncovers SectopRAT Variant Hidden Inside Tampered Legitimate Windows Software",
-          "url": "https://cybersecuritynews.com/fortinet-uncovers-sectoprat/",
-          "published": "Wed, 30 Sep 2026 08:13:22 +0000",
-          "published_utc": "2026-09-30T08:13:22+00:00",
-          "summary": "<p>A SectopRAT variant has been found hidden inside tampered Windows software, allowing attackers to control an infected computer and steal sensitive information. The intrusion used legitimate application components as cover, with encrypted files concealing the malware until it was loaded into memory. The affected program came from an Italian developer known for a long-running digital [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortinet-uncovers-sectoprat/\">Fortinet Uncovers SectopRAT Variant Hidden Inside Tampered Legitimate Windows Software</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165184"
+          "title": "PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries",
+          "url": "https://cybersecuritynews.com/paperphone-headless/",
+          "published": "Wed, 30 Sep 2026 16:05:54 +0000",
+          "published_utc": "2026-09-30T16:05:54+00:00",
+          "summary": "<p>PaperPhone is a large headless-browser network built to make automated web requests look like ordinary mobile traffic. It does not rely on a single obvious source. Instead, it spreads activity across thousands of addresses while repeatedly presenting fabricated phone and browser identities. The operation exposes weaknesses in simple IP-based defenses. Websites facing this traffic may [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/paperphone-headless/\">PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165296"
         },
         {
-          "title": "MCP Python SDK OAuth Flaw Lets Malicious Servers Hijack AI Agent Accounts",
-          "url": "https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw/",
-          "published": "Wed, 30 Sep 2026 05:30:04 +0000",
-          "published_utc": "2026-09-30T05:30:04+00:00",
-          "summary": "<p>A high-severity flaw in the official Model Context Protocol (MCP) Python SDK could allow a malicious MCP server to steal OAuth authentication material and take over AI agent accounts. The issue affects vulnerable HTTP-based MCP clients that connect to untrusted servers while using OAuth to access legitimate identity providers such as Google, Okta, or Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw/\">MCP Python SDK OAuth Flaw Lets Malicious Servers Hijack AI Agent Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165127"
+          "title": "Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches",
+          "url": "https://cybersecuritynews.com/supply-chain-attacks/",
+          "published": "Wed, 30 Sep 2026 15:02:09 +0000",
+          "published_utc": "2026-09-30T15:02:09+00:00",
+          "summary": "<p>A routine software update can now open the door to a cloud breach. Attackers are hiding credential stealing malware inside trusted packages and development tools, allowing malicious code to run on developer computers and automated build systems before an application even starts. The threat spans several campaigns rather than one malware family. Shai-Hulud emerged in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supply-chain-attacks/\">Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165292"
+        },
+        {
+          "title": "Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs",
+          "url": "https://cybersecuritynews.com/remote-access-tools/",
+          "published": "Wed, 30 Sep 2026 14:35:10 +0000",
+          "published_utc": "2026-09-30T14:35:10+00:00",
+          "summary": "<p>Hackers are using familiar Zoom setup files and PDF reader downloads to place remote-control software on business computers. The campaign turns ordinary workplace prompts into a path for outsiders to take over a device. The phishing emails use meeting invitations, document requests, software updates, RSVP cards, job offers and delivery notices. Victims who follow the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/remote-access-tools/\">Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165272"
+        },
+        {
+          "title": "AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub",
+          "url": "https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/",
+          "published": "Wed, 30 Sep 2026 14:14:53 +0000",
+          "published_utc": "2026-09-30T14:14:53+00:00",
+          "summary": "<p>AI coding agents exposed more than 13,000 internal screenshots from over 300 organizations by publishing them in publicly accessible GitHub repositories, according to “PixelLeak” research from Glow Labs. The material spanned more than 900 repositories across cloud, healthcare, fintech, government and AI, including several Fortune 500 companies. The exposures began with a routine development workflow. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/\">AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165278"
+        },
+        {
+          "title": "Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller",
+          "url": "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/",
+          "published": "Wed, 30 Sep 2026 13:36:00 +0000",
+          "published_utc": "2026-09-30T13:36:00+00:00",
+          "summary": "<p>A vulnerable print server became the entry point for an Active Directory compromise after attackers exploited two PaperCut MF zero-day flaws. The intrusion shows how an overlooked business system can give criminals access to sensitive identity infrastructure. The attackers targeted an internet-facing PaperCut MF server running version 24.0.2, build 69746. They delivered Java code through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/\">Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165262"
         }
       ],
       "error": ""

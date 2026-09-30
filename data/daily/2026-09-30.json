@@ -1,12 +1,566 @@
 {
   "date": "2026-09-30",
-  "article_count": 28,
+  "article_count": 49,
   "sources": {
-    "thehackernews": 6,
-    "gbhackers": 15,
-    "cybersecuritynews": 7
+    "cybersecuritynews": 17,
+    "thehackernews": 10,
+    "gbhackers": 22
   },
   "articles": [
+    {
+      "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
+      "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
+      "published": "Wed, 30 Sep 2026 17:01:17 +0000",
+      "published_utc": "2026-09-30T17:01:17+00:00",
+      "summary": "<p>Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures. The company plans to issue conventional certificates alongside Merkle Tree Certificates, or MTCs, and is targeting early 2027 for admission to Chrome’s new Quantum-resistant Root Store; standard MTC issuance will be free. The initiative addresses a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-post-quantum-ca/\">Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165231",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cloudflare-post-quantum-ca",
+      "content_hash": "c89cd2d0243370144173886ed317ca51acda4905d618cf1f157a2a7c294820ee",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c89cd2d0243370144173886ed317ca51acda4905d618cf1f157a2a7c294820ee"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
+      "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
+      "published": "Wed, 30 Sep 2026 16:58:15 +0000",
+      "published_utc": "2026-09-30T16:58:15+00:00",
+      "summary": "<p>Google released a Chrome Stable update fixing 32 security vulnerabilities across Windows, macOS, and Linux, including one critical and multiple high-severity flaws in V8, ANGLE, GPU, WebGPU, Bluetooth, Passwords, and UI components. Chrome version 154.0.8037.92/.93 is being rolled out to Windows and Mac users, while Linux users will receive version 154.0.8037.92. Google said it will [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-update-with-32-security-fixes/\">Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165238",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chrome-update-with-32-security-fixes",
+      "content_hash": "6b162b7148f6173ba2c44fbfae9fef597131f0ad55a3495b548a5dd1a05ae37b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6b162b7148f6173ba2c44fbfae9fef597131f0ad55a3495b548a5dd1a05ae37b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
+      "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
+      "published": "Wed, 30 Sep 2026 16:50:03 +0000",
+      "published_utc": "2026-09-30T16:50:03+00:00",
+      "summary": "<p>Google has warned that threat actors are actively exploiting two critical Citrix NetScaler zero-day vulnerabilities to gain root access, install stealthy web shells, and move into victim networks. The activity has affected organizations in North America and Europe, including government, financial services, technology, education, legal, and professional-services sectors. Mandiant Consulting and Google Threat Intelligence Group [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/\">Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165213",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells",
+      "content_hash": "2978cf92743ee5b1c76ccd634e822f90696777bf4865148414821cdbdbab5f7e",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2978cf92743ee5b1c76ccd634e822f90696777bf4865148414821cdbdbab5f7e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "url": "http://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "published": "Wed, 30 Sep 2026 16:46:29 +0000",
+      "published_utc": "2026-09-30T16:46:29+00:00",
+      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.\n\nThe attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5686872118030988645",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "content_hash": "55ab0bbbbfd782025248975f140c977e97c3bac64114d19af96bad948cf68783",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "55ab0bbbbfd782025248975f140c977e97c3bac64114d19af96bad948cf68783",
+        "FEEDBURNER": "55ab0bbbbfd782025248975f140c977e97c3bac64114d19af96bad948cf68783"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "url": "http://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "published": "Wed, 30 Sep 2026 16:32:59 +0000",
+      "published_utc": "2026-09-30T16:32:59+00:00",
+      "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.\n\n\"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2894540957297490408",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "content_hash": "94b449d080044e75cbddec18a54193d6e2884305400d59fab0e1266e29826b37",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "94b449d080044e75cbddec18a54193d6e2884305400d59fab0e1266e29826b37",
+        "FEEDBURNER": "94b449d080044e75cbddec18a54193d6e2884305400d59fab0e1266e29826b37"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
+      "url": "https://cybersecuritynews.com/russian-hackers-2/",
+      "published": "Wed, 30 Sep 2026 16:28:35 +0000",
+      "published_utc": "2026-09-30T16:28:35+00:00",
+      "summary": "<p>Russian state-linked hackers have expanded a phishing operation that uses a new RedFlick delivery chain to reach more than 100 organizations. The campaign replaces an obvious malicious attachment with a conversation that looks like ordinary professional correspondence. The activity was recorded in at least 13 campaigns from January through August 2026, chiefly affecting organizations in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/russian-hackers-2/\">Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165299",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/russian-hackers-2",
+      "content_hash": "e59e2aa4cd16e1c7b157b48a082066cc14e2c3961831a5e53793117252edcb35",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e59e2aa4cd16e1c7b157b48a082066cc14e2c3961831a5e53793117252edcb35"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster",
+      "url": "https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/",
+      "published": "Wed, 30 Sep 2026 16:06:16 +0000",
+      "published_utc": "2026-09-30T16:06:16+00:00",
+      "summary": "<p>Investigating a phishing alert often means working through several layers of activity before an analyst can confidently close or escalate the case. Modern campaigns can hide malicious activity behind encrypted traffic, CAPTCHA challenges, redirects, browser scripts, and token-based authentication, leaving analysts to reconstruct the attack before they can determine what happened.&#160; The investigation does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/\">Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165276",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster",
+      "content_hash": "fa6ab0cb48424c74854186d91d4e87e99b566a377c97c54eee0782dbb477d670",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fa6ab0cb48424c74854186d91d4e87e99b566a377c97c54eee0782dbb477d670"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries",
+      "url": "https://cybersecuritynews.com/paperphone-headless/",
+      "published": "Wed, 30 Sep 2026 16:05:54 +0000",
+      "published_utc": "2026-09-30T16:05:54+00:00",
+      "summary": "<p>PaperPhone is a large headless-browser network built to make automated web requests look like ordinary mobile traffic. It does not rely on a single obvious source. Instead, it spreads activity across thousands of addresses while repeatedly presenting fabricated phone and browser identities. The operation exposes weaknesses in simple IP-based defenses. Websites facing this traffic may [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/paperphone-headless/\">PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165296",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/paperphone-headless",
+      "content_hash": "b4d5c5d49e28d651848a725f03b3e54b803c740d56a3aa6d56cd3441552c4ce0",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b4d5c5d49e28d651848a725f03b3e54b803c740d56a3aa6d56cd3441552c4ce0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "url": "http://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "published": "Wed, 30 Sep 2026 15:24:54 +0000",
+      "published_utc": "2026-09-30T15:24:54+00:00",
+      "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.\n\nThe flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7984720531939461952",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "content_hash": "89f7b24a0a2bb0c6d3082c58a54a9728b2fa034c6596920f29c24b0775f22f8b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "89f7b24a0a2bb0c6d3082c58a54a9728b2fa034c6596920f29c24b0775f22f8b",
+        "FEEDBURNER": "89f7b24a0a2bb0c6d3082c58a54a9728b2fa034c6596920f29c24b0775f22f8b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches",
+      "url": "https://cybersecuritynews.com/supply-chain-attacks/",
+      "published": "Wed, 30 Sep 2026 15:02:09 +0000",
+      "published_utc": "2026-09-30T15:02:09+00:00",
+      "summary": "<p>A routine software update can now open the door to a cloud breach. Attackers are hiding credential stealing malware inside trusted packages and development tools, allowing malicious code to run on developer computers and automated build systems before an application even starts. The threat spans several campaigns rather than one malware family. Shai-Hulud emerged in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supply-chain-attacks/\">Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165292",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/supply-chain-attacks",
+      "content_hash": "e3920bda2a29ee40c0364c92cb6eadc845dc77a38d812f2b5b57d27985df3a65",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e3920bda2a29ee40c0364c92cb6eadc845dc77a38d812f2b5b57d27985df3a65"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "url": "http://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "published": "Wed, 30 Sep 2026 15:00:15 +0000",
+      "published_utc": "2026-09-30T15:00:15+00:00",
+      "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2016944373042109448",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "content_hash": "1d1768c002319d034a23bbc088a7948aa28c42732a9c2a5f7a30453ebaeebb39",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1d1768c002319d034a23bbc088a7948aa28c42732a9c2a5f7a30453ebaeebb39",
+        "FEEDBURNER": "1d1768c002319d034a23bbc088a7948aa28c42732a9c2a5f7a30453ebaeebb39"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs",
+      "url": "https://cybersecuritynews.com/remote-access-tools/",
+      "published": "Wed, 30 Sep 2026 14:35:10 +0000",
+      "published_utc": "2026-09-30T14:35:10+00:00",
+      "summary": "<p>Hackers are using familiar Zoom setup files and PDF reader downloads to place remote-control software on business computers. The campaign turns ordinary workplace prompts into a path for outsiders to take over a device. The phishing emails use meeting invitations, document requests, software updates, RSVP cards, job offers and delivery notices. Victims who follow the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/remote-access-tools/\">Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165272",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/remote-access-tools",
+      "content_hash": "0dcbcd1cfc00167c2e6d8e9e466e5667f130e16751f01e89f3da68952b99621a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0dcbcd1cfc00167c2e6d8e9e466e5667f130e16751f01e89f3da68952b99621a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub",
+      "url": "https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/",
+      "published": "Wed, 30 Sep 2026 14:14:53 +0000",
+      "published_utc": "2026-09-30T14:14:53+00:00",
+      "summary": "<p>AI coding agents exposed more than 13,000 internal screenshots from over 300 organizations by publishing them in publicly accessible GitHub repositories, according to “PixelLeak” research from Glow Labs. The material spanned more than 900 repositories across cloud, healthcare, fintech, government and AI, including several Fortune 500 companies. The exposures began with a routine development workflow. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/\">AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165278",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots",
+      "content_hash": "ecea5cd3e60b6d6a6ed543aa14e2c300617303433ac0b7e8adb32f7f5bb169ad",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ecea5cd3e60b6d6a6ed543aa14e2c300617303433ac0b7e8adb32f7f5bb169ad"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor",
+      "url": "https://gbhackers.com/redflick-backdoor/",
+      "published": "Wed, 30 Sep 2026 13:38:39 +0000",
+      "published_utc": "2026-09-30T13:38:39+00:00",
+      "summary": "<p>Russian state-linked threat actor Star Blizzard has expanded its cyberespionage operations in 2026 with a phishing and malware-delivery technique tracked by Microsoft as RedFlick. Microsoft Threat Intelligence reported that the group, which CISA attributes to Russia’s Federal Security Service (FSB) Center 18, conducted at least 13 phishing campaigns between January and August 2026. The activity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/redflick-backdoor/\">RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201651",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/redflick-backdoor",
+      "content_hash": "8d9884781075e4384eb54d53e4ef14c49ec9221aabbb21c2a12b7df79f2387aa",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d9884781075e4384eb54d53e4ef14c49ec9221aabbb21c2a12b7df79f2387aa"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
+    {
+      "title": "Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller",
+      "url": "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/",
+      "published": "Wed, 30 Sep 2026 13:36:00 +0000",
+      "published_utc": "2026-09-30T13:36:00+00:00",
+      "summary": "<p>A vulnerable print server became the entry point for an Active Directory compromise after attackers exploited two PaperCut MF zero-day flaws. The intrusion shows how an overlooked business system can give criminals access to sensitive identity infrastructure. The attackers targeted an internet-facing PaperCut MF server running version 24.0.2, build 69746. They delivered Java code through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/\">Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165262",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-turned-a-papercut-print-server",
+      "content_hash": "3961017c83df779fba8c99613287761413f34ff3f3c268472a39bfa4fa6275e4",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3961017c83df779fba8c99613287761413f34ff3f3c268472a39bfa4fa6275e4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.708803+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.708800-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.708803+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.708800-05:00"
+    },
+    {
+      "title": "Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files",
+      "url": "https://gbhackers.com/docker-copyescape-cve-2026-17106/",
+      "published": "Wed, 30 Sep 2026 12:42:59 +0000",
+      "published_utc": "2026-09-30T12:42:59+00:00",
+      "summary": "<p>A critical Docker vulnerability tracked as CVE-2026-17106, also known as CopyEscape, could allow a malicious container to overwrite files on the host machine when a user runs the `docker cp` command. This vulnerability affects copy-out operations, where Docker retrieves data from a container and extracts it onto the system running the Docker Command Line Interface [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-copyescape-cve-2026-17106/\">Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201649",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/docker-copyescape-cve-2026-17106",
+      "content_hash": "80a1c29d7bdf8a4838e42ff13c2d625f06b929fb980cc588f9ebd4c58dbf455b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "80a1c29d7bdf8a4838e42ff13c2d625f06b929fb980cc588f9ebd4c58dbf455b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
+    {
+      "title": "PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users",
+      "url": "https://gbhackers.com/paperphone-cluster/",
+      "published": "Wed, 30 Sep 2026 12:31:57 +0000",
+      "published_utc": "2026-09-30T12:31:57+00:00",
+      "summary": "<p>A large-scale scraping cluster dubbed PaperPhone, exposing how one operator can manufacture the appearance of tens of thousands of legitimate mobile users across dozens of countries. The operation used roughly 75,000 IP addresses across 230 address blocks in 43 countries. However, browser-fingerprinting and network-analysis signals pointed to a centrally coordinated infrastructure rather than a genuinely [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/paperphone-cluster/\">PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201633",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/paperphone-cluster",
+      "content_hash": "052c81fe154a78c173411869ed07703b8e89ad910bc4c2906c0693dc208df481",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "052c81fe154a78c173411869ed07703b8e89ad910bc4c2906c0693dc208df481"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
+    {
+      "title": "Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity",
+      "url": "https://gbhackers.com/claude-compliance-api/",
+      "published": "Wed, 30 Sep 2026 12:29:20 +0000",
+      "published_utc": "2026-09-30T12:29:20+00:00",
+      "summary": "<p>Anthropic has enhanced enterprise security visibility for its AI assistant, Claude, with the Compliance API. This feature lets organizations extract data on activity, conversations, files, projects, and agent sessions into their existing governance and security operations platforms. The Compliance API is available to both Claude Enterprise and Claude Platform customers, although the breadth of accessible [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-compliance-api/\">Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201638",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/claude-compliance-api",
+      "content_hash": "1245fde18672e22b2fc39928b606f4846cc5fc680b3032cd1dc9d1a9de36a4ff",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1245fde18672e22b2fc39928b606f4846cc5fc680b3032cd1dc9d1a9de36a4ff"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
+    {
+      "title": "Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution",
+      "url": "https://gbhackers.com/critical-mikrotik-routeros-vulnerability/",
+      "published": "Wed, 30 Sep 2026 12:02:10 +0000",
+      "published_utc": "2026-09-30T12:02:10+00:00",
+      "summary": "<p>A critical vulnerability in MikroTik RouterOS could allow unauthenticated remote attackers to execute code on vulnerable devices or trigger a denial-of-service condition. This vulnerability, tracked as CVE-2026-84411, affects MikroTik RouterOS versions earlier than 7.24 and carries a CVSS v3 severity score of 9.8. The Cybersecurity and Infrastructure Security Agency (CISA) disclosed this issue on September [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-mikrotik-routeros-vulnerability/\">Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201629",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-mikrotik-routeros-vulnerability",
+      "content_hash": "f8e51b6aacd46dbb4722a54d90fa5b3e79e00a7851f8c9ef62634d18cd6abaa3",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f8e51b6aacd46dbb4722a54d90fa5b3e79e00a7851f8c9ef62634d18cd6abaa3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
+    {
+      "title": "Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code",
+      "url": "https://gbhackers.com/supply-chain-intrusions/",
+      "published": "Wed, 30 Sep 2026 12:00:47 +0000",
+      "published_utc": "2026-09-30T12:00:47+00:00",
+      "summary": "<p>Software supply chain attacks are increasingly evolving into cloud identity breaches, as attackers weaponize trusted packages to steal credentials from developer workstations and CI/CD environments before an application is ever executed. The result is a dangerous pivot: a routine dependency installation can give threat actors access to cloud accounts, source-code repositories, container platforms, secrets-management systems, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/supply-chain-intrusions/\">Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201618",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/supply-chain-intrusions",
+      "content_hash": "d4a3ef7ef42db1c928fefc8ce427b456fc24bc901796130b391b946e0034d7ca",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d4a3ef7ef42db1c928fefc8ce427b456fc24bc901796130b391b946e0034d7ca"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
+    {
+      "title": "12 Best IGA Tools in 2026: The Ranked Buyer’s Guide",
+      "url": "https://gbhackers.com/best-iga-tools/",
+      "published": "Wed, 30 Sep 2026 11:59:48 +0000",
+      "published_utc": "2026-09-30T11:59:48+00:00",
+      "summary": "<p>Identity governance and administration has become essential as organizations manage employees, contractors, service accounts, machine identities, and AI agents across increasingly complex environments. The best IGA tools help security teams answer three critical questions: Who has access? Why do they have it? Should they continue to have it? Modern IGA platforms go beyond periodic access [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-iga-tools/\">12 Best IGA Tools in 2026: The Ranked Buyer&#8217;s Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201569",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-iga-tools",
+      "content_hash": "f8e511c2ada7642db430856849d62047224fc58ca674d0423b09b137c4a41d43",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f8e511c2ada7642db430856849d62047224fc58ca674d0423b09b137c4a41d43"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:08.363491+00:00",
+      "first_seen_local": "2026-09-30T13:24:08.363488-05:00",
+      "last_updated_utc": "2026-09-30T18:24:08.363491+00:00",
+      "last_updated_local": "2026-09-30T13:24:08.363488-05:00"
+    },
     {
       "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
       "url": "http://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",

@@ -2,8 +2,120 @@
   "month": "2026-09",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 131,
+  "article_count": 135,
   "articles": [
+    {
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "url": "http://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "published": "Wed, 30 Sep 2026 16:46:29 +0000",
+      "published_utc": "2026-09-30T16:46:29+00:00",
+      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.\n\nThe attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5686872118030988645",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "content_hash": "55ab0bbbbfd782025248975f140c977e97c3bac64114d19af96bad948cf68783",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "55ab0bbbbfd782025248975f140c977e97c3bac64114d19af96bad948cf68783",
+        "FEEDBURNER": "55ab0bbbbfd782025248975f140c977e97c3bac64114d19af96bad948cf68783"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "url": "http://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "published": "Wed, 30 Sep 2026 16:32:59 +0000",
+      "published_utc": "2026-09-30T16:32:59+00:00",
+      "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.\n\n\"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2894540957297490408",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "content_hash": "94b449d080044e75cbddec18a54193d6e2884305400d59fab0e1266e29826b37",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "94b449d080044e75cbddec18a54193d6e2884305400d59fab0e1266e29826b37",
+        "FEEDBURNER": "94b449d080044e75cbddec18a54193d6e2884305400d59fab0e1266e29826b37"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "url": "http://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "published": "Wed, 30 Sep 2026 15:24:54 +0000",
+      "published_utc": "2026-09-30T15:24:54+00:00",
+      "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.\n\nThe flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7984720531939461952",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "content_hash": "89f7b24a0a2bb0c6d3082c58a54a9728b2fa034c6596920f29c24b0775f22f8b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "89f7b24a0a2bb0c6d3082c58a54a9728b2fa034c6596920f29c24b0775f22f8b",
+        "FEEDBURNER": "89f7b24a0a2bb0c6d3082c58a54a9728b2fa034c6596920f29c24b0775f22f8b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "url": "http://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "published": "Wed, 30 Sep 2026 15:00:15 +0000",
+      "published_utc": "2026-09-30T15:00:15+00:00",
+      "summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2016944373042109448",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "content_hash": "1d1768c002319d034a23bbc088a7948aa28c42732a9c2a5f7a30453ebaeebb39",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1d1768c002319d034a23bbc088a7948aa28c42732a9c2a5f7a30453ebaeebb39",
+        "FEEDBURNER": "1d1768c002319d034a23bbc088a7948aa28c42732a9c2a5f7a30453ebaeebb39"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-09-30T18:24:15.863319+00:00",
+      "first_seen_local": "2026-09-30T13:24:15.863316-05:00",
+      "last_updated_utc": "2026-09-30T18:24:15.863319+00:00",
+      "last_updated_local": "2026-09-30T13:24:15.863316-05:00"
+    },
     {
       "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
       "url": "http://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",

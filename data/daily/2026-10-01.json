@@ -1,12 +1,736 @@
 {
   "date": "2026-10-01",
-  "article_count": 10,
+  "article_count": 36,
   "sources": {
-    "cybersecuritynews": 2,
-    "gbhackers": 5,
-    "thehackernews": 3
+    "cybersecuritynews": 13,
+    "thehackernews": 8,
+    "gbhackers": 15
   },
   "articles": [
+    {
+      "title": "Fake Zoom Installer Tricks Mac Users Into Installing New CloudSyncD Backdoor",
+      "url": "https://cybersecuritynews.com/fake-zoom-installer-tricks/",
+      "published": "Thu, 01 Oct 2026 15:07:15 +0000",
+      "published_utc": "2026-10-01T15:07:15+00:00",
+      "summary": "<p>A fake Zoom installer is tricking Mac users into handing over their login passwords and launching CloudSyncD, a newly identified backdoor. The malware hides inside an application that looks familiar, using installation instructions and counterfeit prompts to turn routine setup into a privileged infection. The first sample appeared on September 15, 2026, while still under [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-zoom-installer-tricks/\">Fake Zoom Installer Tricks Mac Users Into Installing New CloudSyncD Backdoor</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165386",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-zoom-installer-tricks",
+      "content_hash": "47dbc8618973fc9f32f526c216865251a3c539119fc3077382917c66f4d374b2",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "47dbc8618973fc9f32f526c216865251a3c539119fc3077382917c66f4d374b2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "Chinese Hackers Posing as Senior Anthropic Employee Targeting US AI Policy Experts",
+      "url": "https://cybersecuritynews.com/chinese-hackers-posing-as-anthropic-employee/",
+      "published": "Thu, 01 Oct 2026 14:44:06 +0000",
+      "published_utc": "2026-10-01T14:44:06+00:00",
+      "summary": "<p>A China-aligned hacking group tracked as TA419 has impersonated a senior Anthropic employee and well-known policy figures to target US artificial intelligence experts. Proofpoint linked the activity to credential-phishing campaigns aimed at researchers at think tanks, universities, and law firms, with lures designed to steal access to their cloud accounts. The targeting likely supports Chinese [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chinese-hackers-posing-as-anthropic-employee/\">Chinese Hackers Posing as Senior Anthropic Employee Targeting US AI Policy Experts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165396",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chinese-hackers-posing-as-anthropic-employee",
+      "content_hash": "892554e5210f5f14da2fe4fbc751693d3fe7f3351aef26bc83ad70962ae8e12b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "892554e5210f5f14da2fe4fbc751693d3fe7f3351aef26bc83ad70962ae8e12b",
+        "FEEDBURNER": "892554e5210f5f14da2fe4fbc751693d3fe7f3351aef26bc83ad70962ae8e12b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "url": "http://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "published": "Thu, 01 Oct 2026 14:37:35 +0000",
+      "published_utc": "2026-10-01T14:37:35+00:00",
+      "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.\n\nThe backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3952455065866859291",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "content_hash": "577d7770e248dd16819c78241143e2a7b8363db188b435815bb905e3dfde4f0e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "577d7770e248dd16819c78241143e2a7b8363db188b435815bb905e3dfde4f0e",
+        "FEEDBURNER": "577d7770e248dd16819c78241143e2a7b8363db188b435815bb905e3dfde4f0e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:12.824181+00:00",
+      "first_seen_local": "2026-10-01T10:23:12.824179-05:00",
+      "last_updated_utc": "2026-10-01T15:23:12.824181+00:00",
+      "last_updated_local": "2026-10-01T10:23:12.824179-05:00"
+    },
+    {
+      "title": "Warlock Ransomware Exploiting SharePoint Flaws to Attack Water and Telecom Operators",
+      "url": "https://cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-flaws/",
+      "published": "Thu, 01 Oct 2026 14:14:26 +0000",
+      "published_utc": "2026-10-01T14:14:26+00:00",
+      "summary": "<p>A China-nexus threat actor is continuing to exploit Microsoft SharePoint Server vulnerabilities to deploy Warlock ransomware, with recent attacks striking essential-service and public-sector organizations across Portuguese- and Spanish-speaking countries. Symantec tracks the operator as Longlegs, while Microsoft uses Storm-2603; earlier activity has also been linked to CL-CRI-1040, CamoFei, and ChamelGang. During the past two months, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-flaws/\">Warlock Ransomware Exploiting SharePoint Flaws to Attack Water and Telecom Operators</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165392",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-flaws",
+      "content_hash": "3da2647005bbfb12203549cc8bcb28725b8261c0472f987b9169eb144b655238",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3da2647005bbfb12203549cc8bcb28725b8261c0472f987b9169eb144b655238",
+        "FEEDBURNER": "3da2647005bbfb12203549cc8bcb28725b8261c0472f987b9169eb144b655238"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "WordPress Malware Comes Back After Removal Using a Self-Healing Backdoor",
+      "url": "https://cybersecuritynews.com/wordpress-malware-2/",
+      "published": "Thu, 01 Oct 2026 13:45:15 +0000",
+      "published_utc": "2026-10-01T13:45:15+00:00",
+      "summary": "<p>A WordPress backdoor is bringing deleted malware back within seconds, turning routine cleanup into a cycle of reinfection. Called SC, the infection spreads its working parts across website files, the database, and server memory, allowing surviving components to restore those removed. The investigation does not establish the original entry point or the number of affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-malware-2/\">WordPress Malware Comes Back After Removal Using a Self-Healing Backdoor</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165382",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wordpress-malware-2",
+      "content_hash": "907f3b7dbda69dd98ae6d5ff175559f23ab78a3b4617cab21c61c2bac960b6c3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "907f3b7dbda69dd98ae6d5ff175559f23ab78a3b4617cab21c61c2bac960b6c3",
+        "FEEDBURNER": "907f3b7dbda69dd98ae6d5ff175559f23ab78a3b4617cab21c61c2bac960b6c3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "Microsoft Enables Windows 11 Backup Setting by Default for Organizations",
+      "url": "https://cybersecuritynews.com/windows-11-backup-setting-by-default/",
+      "published": "Thu, 01 Oct 2026 13:20:06 +0000",
+      "published_utc": "2026-10-01T13:20:06+00:00",
+      "summary": "<p>Microsoft has enabled Windows settings backup by default for eligible devices running Windows 11, version 26H2, turning an opt-in function into a baseline resilience capability. The change, generally available from September 29, applies only when administrators have left the backup policy in the Not Configured state; existing explicit enable or disable decisions remain authoritative. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-backup-setting-by-default/\">Microsoft Enables Windows 11 Backup Setting by Default for Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165377",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-11-backup-setting-by-default",
+      "content_hash": "fb88941d4daffa53ba1704b09731696d67baaff8d29a1b79a60e527b483df34d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fb88941d4daffa53ba1704b09731696d67baaff8d29a1b79a60e527b483df34d",
+        "FEEDBURNER": "fb88941d4daffa53ba1704b09731696d67baaff8d29a1b79a60e527b483df34d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "Hackers Abuse Microsoft Defender Exclusions to Hide Malware From Antivirus Scans",
+      "url": "https://cybersecuritynews.com/hackers-abuse-microsoft-defender/",
+      "published": "Thu, 01 Oct 2026 13:15:26 +0000",
+      "published_utc": "2026-10-01T13:15:26+00:00",
+      "summary": "<p>Hackers are abusing Microsoft Defender Antivirus exclusions to keep malicious files outside routine security scans. Rather than switching protection off completely, attackers can leave antivirus running while creating gaps around malware staging folders and selected file types. This is an established evasion technique, not a new malware family. It requires administrator privileges or higher, making [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-microsoft-defender/\">Hackers Abuse Microsoft Defender Exclusions to Hide Malware From Antivirus Scans</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165371",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-abuse-microsoft-defender",
+      "content_hash": "814e4fb080b313b415bc44415482fe23fbeb51a067f54609af9292f718f80fac",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "814e4fb080b313b415bc44415482fe23fbeb51a067f54609af9292f718f80fac",
+        "FEEDBURNER": "814e4fb080b313b415bc44415482fe23fbeb51a067f54609af9292f718f80fac"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "TerminalFix Attacks Deploy Lorem Ipsum Loader to Create Covert Tunnels Into Corporate Networks",
+      "url": "https://gbhackers.com/terminalfix-attacks/",
+      "published": "Thu, 01 Oct 2026 13:09:45 +0000",
+      "published_utc": "2026-10-01T13:09:45+00:00",
+      "summary": "<p>A newly tracked intrusion set, STAC4924, is using TerminalFix social-engineering lures to deploy the Lorem Ipsum Loader and establish covert reverse tunnels into enterprise environments. The activity shifts the familiar ClickFix model from the Windows Run dialog to Windows Terminal, increasing the likelihood that victims execute complex PowerShell payloads without recognizing the risk. Unlike conventional [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/terminalfix-attacks/\">TerminalFix Attacks Deploy Lorem Ipsum Loader to Create Covert Tunnels Into Corporate Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201802",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/terminalfix-attacks",
+      "content_hash": "9a7bdee6dd571b3c55b6ac488f2d7808c7dd29d4cd985a790b0c283757ae6a11",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9a7bdee6dd571b3c55b6ac488f2d7808c7dd29d4cd985a790b0c283757ae6a11",
+        "FEEDBURNER": "9a7bdee6dd571b3c55b6ac488f2d7808c7dd29d4cd985a790b0c283757ae6a11"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "Next.js ImageResponse Vulnerability Lets Remote Attackers Execute Code Through SVG Content",
+      "url": "https://gbhackers.com/next-js-imageresponse-vulnerability/",
+      "published": "Thu, 01 Oct 2026 13:08:22 +0000",
+      "published_utc": "2026-10-01T13:08:22+00:00",
+      "summary": "<p>A critical vulnerability in Next.js could let unauthenticated remote attackers execute code on affected servers by supplying crafted input that gets rendered into SVG content during dynamic image generation. This issue, tracked as GHSA-vcvr-r3jv-pc5j, affects the Node.js implementation of ImageResponse in the next/og package. The flaw impacts Next.js versions 16.2.0 to 16.3.5. Vercel has released [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/next-js-imageresponse-vulnerability/\">Next.js ImageResponse Vulnerability Lets Remote Attackers Execute Code Through SVG Content</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201819",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/next-js-imageresponse-vulnerability",
+      "content_hash": "e4b9e07e6c60a19ba8dedf327adc310d60844e820a66482f46bdbb748e76bd16",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e4b9e07e6c60a19ba8dedf327adc310d60844e820a66482f46bdbb748e76bd16",
+        "FEEDBURNER": "e4b9e07e6c60a19ba8dedf327adc310d60844e820a66482f46bdbb748e76bd16"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "Node.js ImageResponse Implementation Vulnerability Enables Remote Code Execution",
+      "url": "https://cybersecuritynews.com/node-js-imageresponse-implementation-vulnerability/",
+      "published": "Thu, 01 Oct 2026 12:59:58 +0000",
+      "published_utc": "2026-10-01T12:59:58+00:00",
+      "summary": "<p>A critical vulnerability in Next.js could allow remote code execution in applications that use the Node.js implementation of ImageResponse from the next/og package. The issue, tracked as GHSA-vcvr-r3jv-pc5j, affects Next.js versions 16.2.0 through 16.3.5 and has been fixed in version 16.3.6. The flaw exists when an application passes attacker-controlled input into SVG content, SVG attributes, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/node-js-imageresponse-implementation-vulnerability/\">Node.js ImageResponse Implementation Vulnerability Enables Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165372",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/node-js-imageresponse-implementation-vulnerability",
+      "content_hash": "723a01cfca2dfba1f8cb6b6635192f21644ffa755b2dca77586e535b66ac0f60",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "723a01cfca2dfba1f8cb6b6635192f21644ffa755b2dca77586e535b66ac0f60",
+        "FEEDBURNER": "723a01cfca2dfba1f8cb6b6635192f21644ffa755b2dca77586e535b66ac0f60"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "Axios HTTP/2 Flaws Enable SSRF Control Bypass and Node.js Denial of Service",
+      "url": "https://cybersecuritynews.com/axios-http-2-flaws/",
+      "published": "Thu, 01 Oct 2026 12:50:38 +0000",
+      "published_utc": "2026-10-01T12:50:38+00:00",
+      "summary": "<p>Axios has disclosed two high-severity vulnerabilities in its HTTP/2 implementation that could allow attackers to bypass outbound network controls or crash vulnerable Node.js applications. The flaws affect Axios versions 1.13.0 through 1.19.x and have been fixed in version 1.20.0 The first issue, tracked as GHSA-3pq3-5fj3-cg6v and CVE-2026-101898, affects Axios applications that use HTTP/2 requests alongside [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/axios-http-2-flaws/\">Axios HTTP/2 Flaws Enable SSRF Control Bypass and Node.js Denial of Service</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165366",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/axios-http-2-flaws",
+      "content_hash": "de14ccc7006d77d847f9b4bd9deecbb75404ef5a7e6cf272cb562c2d3cb26073",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "de14ccc7006d77d847f9b4bd9deecbb75404ef5a7e6cf272cb562c2d3cb26073",
+        "FEEDBURNER": "de14ccc7006d77d847f9b4bd9deecbb75404ef5a7e6cf272cb562c2d3cb26073"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "Axios Flaws Let Attackers Bypass Proxy Controls and Trigger SSRF Attacks",
+      "url": "https://gbhackers.com/axios-flaws-let-attackers-bypass-proxy-controls-and-trigger-ssrf-attacks/",
+      "published": "Thu, 01 Oct 2026 11:46:00 +0000",
+      "published_utc": "2026-10-01T11:46:00+00:00",
+      "summary": "<p>Axios maintainers have disclosed several high-severity security vulnerabilities that could allow attackers to bypass proxy and DNS controls in server-side applications, potentially enabling server-side request forgery (SSRF) against internal services and cloud metadata endpoints. The most critical issue, tracked as GHSA-3pq3-5fj3-cg6v, affects Axios&#8217;s HTTP/2 request path. This vulnerability arises because the HTTP/2 adapter establishes sessions [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/axios-flaws-let-attackers-bypass-proxy-controls-and-trigger-ssrf-attacks/\">Axios Flaws Let Attackers Bypass Proxy Controls and Trigger SSRF Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201788",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/axios-flaws-let-attackers-bypass-proxy-controls-and-trigger-ssrf-attacks",
+      "content_hash": "eaab86b6e0711cabacab8628b493b7ec55ba83f5d44f81a592245e72971f24e5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eaab86b6e0711cabacab8628b493b7ec55ba83f5d44f81a592245e72971f24e5",
+        "FEEDBURNER": "eaab86b6e0711cabacab8628b493b7ec55ba83f5d44f81a592245e72971f24e5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+      "url": "http://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+      "published": "Thu, 01 Oct 2026 11:45:00 +0000",
+      "published_utc": "2026-10-01T11:45:00+00:00",
+      "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2707312764717556285",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/how-financial-services-companies-can.html",
+      "content_hash": "4fe5fb6599647d2c1fa8588489154729b89fc4e4b67019f8ed5bc81d7e8845ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4fe5fb6599647d2c1fa8588489154729b89fc4e4b67019f8ed5bc81d7e8845ec",
+        "FEEDBURNER": "4fe5fb6599647d2c1fa8588489154729b89fc4e4b67019f8ed5bc81d7e8845ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:12.824181+00:00",
+      "first_seen_local": "2026-10-01T10:23:12.824179-05:00",
+      "last_updated_utc": "2026-10-01T15:23:12.824181+00:00",
+      "last_updated_local": "2026-10-01T10:23:12.824179-05:00"
+    },
+    {
+      "title": "China-Nexus Hackers Compromise 350 Systems Across Asia With New Antino Backdoor",
+      "url": "https://gbhackers.com/antino-backdoor/",
+      "published": "Thu, 01 Oct 2026 11:44:45 +0000",
+      "published_utc": "2026-10-01T11:44:45+00:00",
+      "summary": "<p>A China-nexus cyber-espionage campaign that compromised approximately 350 endpoints across Asia using a previously undocumented Rust-based Windows backdoor called Antino. The activity cluster, tracked as UAT-11587, targeted government, defense, diplomatic, policy, academic and civil-society organizations in at least eight countries between September 2025 and July 2026. Talos identified 10 confirmed and five probable affected institutional [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/antino-backdoor/\">China-Nexus Hackers Compromise 350 Systems Across Asia With New Antino Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201754",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/antino-backdoor",
+      "content_hash": "76ff770e9bf1a9ec3e92bb27f19db83782e0c75c84f12eca4732bc8c54d8f1e3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "76ff770e9bf1a9ec3e92bb27f19db83782e0c75c84f12eca4732bc8c54d8f1e3",
+        "FEEDBURNER": "76ff770e9bf1a9ec3e92bb27f19db83782e0c75c84f12eca4732bc8c54d8f1e3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "Hackers Exploit Zimbra Mail Servers With Crafted Emails to Gain Remote Access",
+      "url": "https://cybersecuritynews.com/hackers-exploit-zimbra-mail-servers/",
+      "published": "Thu, 01 Oct 2026 11:40:42 +0000",
+      "published_utc": "2026-10-01T11:40:42+00:00",
+      "summary": "<p>Hackers are exploiting a serious flaw in internet-facing Zimbra mail servers with specially crafted emails. The weakness lets an outsider run commands on a vulnerable server without logging in or persuading an employee to open a message. The activity centers on CVE-2026-73570, a command-injection issue in the server’s SNMP notification feature. It affects installations where [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-zimbra-mail-servers/\">Hackers Exploit Zimbra Mail Servers With Crafted Emails to Gain Remote Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165343",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-zimbra-mail-servers",
+      "content_hash": "20b07f5a6057b078525effc0d80875f5bf46b7bdd3cd5e944f4f930c1d14f802",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "20b07f5a6057b078525effc0d80875f5bf46b7bdd3cd5e944f4f930c1d14f802",
+        "FEEDBURNER": "20b07f5a6057b078525effc0d80875f5bf46b7bdd3cd5e944f4f930c1d14f802"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "Multiple TeamViewer Vulnerabilities Enable RCE, Access Control Bypass and Privilege Escalation",
+      "url": "https://gbhackers.com/multiple-teamviewer-vulnerabilities/",
+      "published": "Thu, 01 Oct 2026 11:08:39 +0000",
+      "published_utc": "2026-10-01T11:08:39+00:00",
+      "summary": "<p>TeamViewer has issued security bulletin TV-2026-1010 to address five high-severity vulnerabilities found in the TeamViewer Full Client, Host, and related services. These vulnerabilities affect deployments on Windows, Linux, and macOS, and include issues such as remote code execution, session permission bypass, arbitrary privileged file writes, and local privilege escalation. Multiple TeamViewer Vulnerabilities CVE-2026-19743 &#8211; Path [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/multiple-teamviewer-vulnerabilities/\">Multiple TeamViewer Vulnerabilities Enable RCE, Access Control Bypass and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201761",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/multiple-teamviewer-vulnerabilities",
+      "content_hash": "7bf3734f8d12f2a91d098372c73cb6eb00f55ef7f2a0bbbd4fbcf711de7e595b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7bf3734f8d12f2a91d098372c73cb6eb00f55ef7f2a0bbbd4fbcf711de7e595b",
+        "FEEDBURNER": "7bf3734f8d12f2a91d098372c73cb6eb00f55ef7f2a0bbbd4fbcf711de7e595b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "CloudSyncD Uses Invisible Unicode to Hide Phished Mac Passwords in Plain Sight",
+      "url": "https://gbhackers.com/cloudsyncd-backdoor/",
+      "published": "Thu, 01 Oct 2026 11:06:06 +0000",
+      "published_utc": "2026-10-01T11:06:06+00:00",
+      "summary": "<p>A new macOS backdoor, tracked as CloudSyncD, that masquerades as a Zoom installer and uses invisible Unicode characters to conceal a victim’s phished password inside a seemingly harmless configuration file. The malware was found during routine VirusTotal monitoring embedded in a fake Zoom client distributed as a disk image named “Zoom.” Its visual layout imitates [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cloudsyncd-backdoor/\">CloudSyncD Uses Invisible Unicode to Hide Phished Mac Passwords in Plain Sight</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201747",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cloudsyncd-backdoor",
+      "content_hash": "6688f7677931680843bb029e301739583518d99abc6d2fddb7e711452c416107",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6688f7677931680843bb029e301739583518d99abc6d2fddb7e711452c416107",
+        "FEEDBURNER": "6688f7677931680843bb029e301739583518d99abc6d2fddb7e711452c416107"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+      "url": "http://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+      "published": "Thu, 01 Oct 2026 10:42:36 +0000",
+      "published_utc": "2026-10-01T10:42:36+00:00",
+      "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3010930788039648402",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+      "content_hash": "7103d5f8c8226cf5a04c39ba480764b9c8b33b3c7768309ce46051e42ab6683c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7103d5f8c8226cf5a04c39ba480764b9c8b33b3c7768309ce46051e42ab6683c",
+        "FEEDBURNER": "7103d5f8c8226cf5a04c39ba480764b9c8b33b3c7768309ce46051e42ab6683c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:12.824181+00:00",
+      "first_seen_local": "2026-10-01T10:23:12.824179-05:00",
+      "last_updated_utc": "2026-10-01T15:23:12.824181+00:00",
+      "last_updated_local": "2026-10-01T10:23:12.824179-05:00"
+    },
+    {
+      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+      "url": "http://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "published": "Thu, 01 Oct 2026 10:33:16 +0000",
+      "published_utc": "2026-10-01T10:33:16+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1368058440149674273",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "content_hash": "777e5e82c8395ebb85720095eb195743926a097a73eb7761f8c62be548bfce75",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "777e5e82c8395ebb85720095eb195743926a097a73eb7761f8c62be548bfce75",
+        "FEEDBURNER": "777e5e82c8395ebb85720095eb195743926a097a73eb7761f8c62be548bfce75"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:12.824181+00:00",
+      "first_seen_local": "2026-10-01T10:23:12.824179-05:00",
+      "last_updated_utc": "2026-10-01T15:23:12.824181+00:00",
+      "last_updated_local": "2026-10-01T10:23:12.824179-05:00"
+    },
+    {
+      "title": "Researchers Find 543,699 Active Credentials Leaked in Public GitHub Repos",
+      "url": "https://gbhackers.com/active-credentials-leaked-in-public-github-repos/",
+      "published": "Thu, 01 Oct 2026 10:32:59 +0000",
+      "published_utc": "2026-10-01T10:32:59+00:00",
+      "summary": "<p>Security researchers have identified 543,699 unique credentials that remain valid despite being exposed in public GitHub repositories. This highlights a persistent failure to revoke secrets once they enter source code. These credentials were verified as active in July 2026, even though many had been publicly accessible for years. Researchers at Truffle Security examined The Stack [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/active-credentials-leaked-in-public-github-repos/\">Researchers Find 543,699 Active Credentials Leaked in Public GitHub Repos</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201756",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/active-credentials-leaked-in-public-github-repos",
+      "content_hash": "8668d18e202f132f7a213dff194164eaab63515835e4a1c7d217b97cc5e8e897",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8668d18e202f132f7a213dff194164eaab63515835e4a1c7d217b97cc5e8e897",
+        "FEEDBURNER": "8668d18e202f132f7a213dff194164eaab63515835e4a1c7d217b97cc5e8e897"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "New PS5 Relapse Exploit Breaks Into the Kernel Across Years of Firmware Releases",
+      "url": "https://cybersecuritynews.com/ps5-relapse-exploit/",
+      "published": "Thu, 01 Oct 2026 09:58:14 +0000",
+      "published_utc": "2026-10-01T09:58:14+00:00",
+      "summary": "<p>Researchers have released a new PlayStation 5 jailbreak, Relapse, that public reports say reaches firmware 7.00 through 13.60 on both the standard PS5 and the PS5 Pro. Coverage has treated the drop as a broad jump for consoles that have not installed Sony’s newer update. It does not crack every firmware ever shipped. Relapse is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ps5-relapse-exploit/\">New PS5 Relapse Exploit Breaks Into the Kernel Across Years of Firmware Releases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165351",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ps5-relapse-exploit",
+      "content_hash": "c2a67abe13088c5192e50483d9384c0f55e9c56f4bc5ea5623a9e9d345e54e37",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c2a67abe13088c5192e50483d9384c0f55e9c56f4bc5ea5623a9e9d345e54e37",
+        "FEEDBURNER": "c2a67abe13088c5192e50483d9384c0f55e9c56f4bc5ea5623a9e9d345e54e37"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "MetaMask Security Incident Affecting Parts of Infrastructure",
+      "url": "https://cybersecuritynews.com/metamask-security-incident/",
+      "published": "Thu, 01 Oct 2026 09:49:01 +0000",
+      "published_utc": "2026-10-01T09:49:01+00:00",
+      "summary": "<p>MetaMask has disclosed an ongoing security incident affecting part of its infrastructure, prompting the cryptocurrency wallet provider to begin precautionary exits from affected Ethereum validators used in its non-custodial staking operations. The company said it is actively investigating and remediating the issue with assistance from external partners and security advisers. MetaMask stressed that it has [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/metamask-security-incident/\">MetaMask Security Incident Affecting Parts of Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165347",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/metamask-security-incident",
+      "content_hash": "17b5452da1027b06364fff27fd3692b2f95e1e282cb89b627bb975a116f40bda",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "17b5452da1027b06364fff27fd3692b2f95e1e282cb89b627bb975a116f40bda"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:07.038568+00:00",
+      "first_seen_local": "2026-10-01T10:23:07.038565-05:00",
+      "last_updated_utc": "2026-10-01T15:23:07.038568+00:00",
+      "last_updated_local": "2026-10-01T10:23:07.038565-05:00"
+    },
+    {
+      "title": "SC WordPress Malware Rebuilds Itself After Removal Using Database and Memory Persistence",
+      "url": "https://gbhackers.com/sc-wordpress-malware/",
+      "published": "Thu, 01 Oct 2026 09:08:14 +0000",
+      "published_utc": "2026-10-01T09:08:14+00:00",
+      "summary": "<p>A newly analyzed WordPress malware family, tracked as SC for the “SC_” markers embedded in its injected code, uses a self-healing persistence mesh that can restore a deleted backdoor within seconds. Researchers found that SC does not rely on a single web shell or plugin. Instead, the malware creates at least eight interdependent persistence points, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sc-wordpress-malware/\">SC WordPress Malware Rebuilds Itself After Removal Using Database and Memory Persistence</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201743",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sc-wordpress-malware",
+      "content_hash": "bbee9c3e69867320c3d33a92cc794b46938f5d701043c36a86a91ad95f4c6611",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bbee9c3e69867320c3d33a92cc794b46938f5d701043c36a86a91ad95f4c6611",
+        "FEEDBURNER": "bbee9c3e69867320c3d33a92cc794b46938f5d701043c36a86a91ad95f4c6611"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "HPE Instant On AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands",
+      "url": "https://gbhackers.com/hpe-instant-on-ap-flaws/",
+      "published": "Thu, 01 Oct 2026 08:01:59 +0000",
+      "published_utc": "2026-10-01T08:01:59+00:00",
+      "summary": "<p>HPE has released security updates for its Networking Instant On access points after identifying 18 vulnerabilities, including several critical flaws that could allow unauthenticated attackers to execute arbitrary code or commands with privileged operating-system access. These vulnerabilities are detailed in advisory HPESBNW05150 rev. 1 and affect Instant On AP software versions 3.4.1.0 and earlier. HPE [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hpe-instant-on-ap-flaws/\">HPE Instant On AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201738",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hpe-instant-on-ap-flaws",
+      "content_hash": "8089b60165de851d579b2680f9ef2e930393e31d398ca0f8c6decf1c218581c2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8089b60165de851d579b2680f9ef2e930393e31d398ca0f8c6decf1c218581c2",
+        "FEEDBURNER": "8089b60165de851d579b2680f9ef2e930393e31d398ca0f8c6decf1c218581c2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "Multiple ModSecurity Vulnerabilities Let Attackers Bypass WAF Rules and Execute Malicious Requests",
+      "url": "https://gbhackers.com/multiple-modsecurity-vulnerabilities/",
+      "published": "Thu, 01 Oct 2026 07:54:51 +0000",
+      "published_utc": "2026-10-01T07:54:51+00:00",
+      "summary": "<p>OWASP ModSecurity has disclosed multiple vulnerabilities that could let attackers bypass web application firewall rules, evade request and response inspection, or trigger denial-of-service conditions. Not all of the newly published advisories currently have CVE identifiers; the project has indicated that CVE requests have been submitted via GitHub but remain unassigned for several issues. The recently [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/multiple-modsecurity-vulnerabilities/\">Multiple ModSecurity Vulnerabilities Let Attackers Bypass WAF Rules and Execute Malicious Requests</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201734",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/multiple-modsecurity-vulnerabilities",
+      "content_hash": "9e2fe8325a623f2f59a268da90521bdee9f0cac87ff6e1ae5f898e1c1bbe0d78",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9e2fe8325a623f2f59a268da90521bdee9f0cac87ff6e1ae5f898e1c1bbe0d78",
+        "FEEDBURNER": "9e2fe8325a623f2f59a268da90521bdee9f0cac87ff6e1ae5f898e1c1bbe0d78"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:06.088318+00:00",
+      "first_seen_local": "2026-10-01T10:23:06.088315-05:00",
+      "last_updated_utc": "2026-10-01T15:23:06.088318+00:00",
+      "last_updated_local": "2026-10-01T10:23:06.088315-05:00"
+    },
+    {
+      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+      "url": "http://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+      "published": "Thu, 01 Oct 2026 07:49:36 +0000",
+      "published_utc": "2026-10-01T07:49:36+00:00",
+      "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.\n\n\"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5591213930317594417",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+      "content_hash": "21ecde7bee8214ae6b9104643e69840a6923bf8bfd70e993b641165bc0e1fb40",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "21ecde7bee8214ae6b9104643e69840a6923bf8bfd70e993b641165bc0e1fb40",
+        "FEEDBURNER": "21ecde7bee8214ae6b9104643e69840a6923bf8bfd70e993b641165bc0e1fb40"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-01T15:23:12.824181+00:00",
+      "first_seen_local": "2026-10-01T10:23:12.824179-05:00",
+      "last_updated_utc": "2026-10-01T15:23:12.824181+00:00",
+      "last_updated_local": "2026-10-01T10:23:12.824179-05:00"
+    },
     {
       "title": "Cisco SD-WAN Manager Authentication 0-day Vulnerability Actively Exploited in the Wild",
       "url": "https://cybersecuritynews.com/cisco-sd-wan-manager-0-day-flaw/",

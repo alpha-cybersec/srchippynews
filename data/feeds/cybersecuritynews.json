@@ -5,14 +5,31 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Cisco SD-WAN Manager Authentication 0-day Vulnerability Actively Exploited in the Wild",
+          "url": "https://cybersecuritynews.com/cisco-sd-wan-manager-0-day-flaw/",
+          "published": "Thu, 01 Oct 2026 07:30:47 +0000",
+          "published_utc": "2026-10-01T07:30:47+00:00",
+          "summary": "<p>Cisco has disclosed a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Manager that attackers are actively exploiting. The flaw, tracked as CVE-2026-76504, could allow an unauthenticated remote attacker to gain administrative access to vulnerable SD-WAN management systems. The vulnerability received a CVSS score of 9.8 and affects Cisco Catalyst SD-WAN Manager regardless of its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-sd-wan-manager-0-day-flaw/\">Cisco SD-WAN Manager Authentication 0-day Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165320"
+        },
+        {
+          "title": "Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative",
+          "url": "https://cybersecuritynews.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/",
+          "published": "Thu, 01 Oct 2026 05:01:35 +0000",
+          "published_utc": "2026-10-01T05:01:35+00:00",
+          "summary": "<p>Washignton, DC, USA, September 30th, 2026, CyberNewswire The Internet Society today launched the Online Trust and Safety Hub, a free global resource center in multiple languages, offering practical tools to help people stay safer and more confident online.  The Hub is a key part of the Internet Society’s Safer Internet Initiative, which works to equip [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/\">Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165316"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,87 +39,15 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
-          "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
-          "published": "Wed, 30 Sep 2026 17:01:17 +0000",
-          "published_utc": "2026-09-30T17:01:17+00:00",
-          "summary": "<p>Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures. The company plans to issue conventional certificates alongside Merkle Tree Certificates, or MTCs, and is targeting early 2027 for admission to Chrome’s new Quantum-resistant Root Store; standard MTC issuance will be free. The initiative addresses a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-post-quantum-ca/\">Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165231"
-        },
-        {
-          "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
-          "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
-          "published": "Wed, 30 Sep 2026 16:58:15 +0000",
-          "published_utc": "2026-09-30T16:58:15+00:00",
-          "summary": "<p>Google released a Chrome Stable update fixing 32 security vulnerabilities across Windows, macOS, and Linux, including one critical and multiple high-severity flaws in V8, ANGLE, GPU, WebGPU, Bluetooth, Passwords, and UI components. Chrome version 154.0.8037.92/.93 is being rolled out to Windows and Mac users, while Linux users will receive version 154.0.8037.92. Google said it will [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-update-with-32-security-fixes/\">Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165238"
-        },
-        {
-          "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
-          "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
-          "published": "Wed, 30 Sep 2026 16:50:03 +0000",
-          "published_utc": "2026-09-30T16:50:03+00:00",
-          "summary": "<p>Google has warned that threat actors are actively exploiting two critical Citrix NetScaler zero-day vulnerabilities to gain root access, install stealthy web shells, and move into victim networks. The activity has affected organizations in North America and Europe, including government, financial services, technology, education, legal, and professional-services sectors. Mandiant Consulting and Google Threat Intelligence Group [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/\">Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165213"
-        },
-        {
-          "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
-          "url": "https://cybersecuritynews.com/russian-hackers-2/",
-          "published": "Wed, 30 Sep 2026 16:28:35 +0000",
-          "published_utc": "2026-09-30T16:28:35+00:00",
-          "summary": "<p>Russian state-linked hackers have expanded a phishing operation that uses a new RedFlick delivery chain to reach more than 100 organizations. The campaign replaces an obvious malicious attachment with a conversation that looks like ordinary professional correspondence. The activity was recorded in at least 13 campaigns from January through August 2026, chiefly affecting organizations in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/russian-hackers-2/\">Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165299"
-        },
-        {
-          "title": "Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster",
-          "url": "https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/",
-          "published": "Wed, 30 Sep 2026 16:06:16 +0000",
-          "published_utc": "2026-09-30T16:06:16+00:00",
-          "summary": "<p>Investigating a phishing alert often means working through several layers of activity before an analyst can confidently close or escalate the case. Modern campaigns can hide malicious activity behind encrypted traffic, CAPTCHA challenges, redirects, browser scripts, and token-based authentication, leaving analysts to reconstruct the attack before they can determine what happened.&#160; The investigation does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/phishing-response-3-steps-soc-teams-can-take-to-investigate-threats-faster/\">Phishing Response: 3 Steps SOC Teams Can Take to Investigate Threats Faster </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165276"
-        },
-        {
-          "title": "PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries",
-          "url": "https://cybersecuritynews.com/paperphone-headless/",
-          "published": "Wed, 30 Sep 2026 16:05:54 +0000",
-          "published_utc": "2026-09-30T16:05:54+00:00",
-          "summary": "<p>PaperPhone is a large headless-browser network built to make automated web requests look like ordinary mobile traffic. It does not rely on a single obvious source. Instead, it spreads activity across thousands of addresses while repeatedly presenting fabricated phone and browser identities. The operation exposes weaknesses in simple IP-based defenses. Websites facing this traffic may [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/paperphone-headless/\">PaperPhone Headless Browser Network Uses 75,000 IPs and Fabricated Mobile Identities Across 43 Countries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165296"
-        },
-        {
-          "title": "Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches",
-          "url": "https://cybersecuritynews.com/supply-chain-attacks/",
-          "published": "Wed, 30 Sep 2026 15:02:09 +0000",
-          "published_utc": "2026-09-30T15:02:09+00:00",
-          "summary": "<p>A routine software update can now open the door to a cloud breach. Attackers are hiding credential stealing malware inside trusted packages and development tools, allowing malicious code to run on developer computers and automated build systems before an application even starts. The threat spans several campaigns rather than one malware family. Shai-Hulud emerged in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supply-chain-attacks/\">Supply Chain Attacks Turn Developer Machines Into Gateways for Cloud Breaches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165292"
-        },
-        {
-          "title": "Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs",
-          "url": "https://cybersecuritynews.com/remote-access-tools/",
-          "published": "Wed, 30 Sep 2026 14:35:10 +0000",
-          "published_utc": "2026-09-30T14:35:10+00:00",
-          "summary": "<p>Hackers are using familiar Zoom setup files and PDF reader downloads to place remote-control software on business computers. The campaign turns ordinary workplace prompts into a path for outsiders to take over a device. The phishing emails use meeting invitations, document requests, software updates, RSVP cards, job offers and delivery notices. Victims who follow the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/remote-access-tools/\">Hackers Disguise Remote Access Tools as Zoom and PDF Installers to Take Over PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165272"
-        },
-        {
-          "title": "AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub",
-          "url": "https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/",
-          "published": "Wed, 30 Sep 2026 14:14:53 +0000",
-          "published_utc": "2026-09-30T14:14:53+00:00",
-          "summary": "<p>AI coding agents exposed more than 13,000 internal screenshots from over 300 organizations by publishing them in publicly accessible GitHub repositories, according to “PixelLeak” research from Glow Labs. The material spanned more than 900 repositories across cloud, healthcare, fintech, government and AI, including several Fortune 500 companies. The exposures began with a routine development workflow. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-coding-agents-leak-internal-screenshots/\">AI Coding Agents Leak 13,000+ Internal Screenshots From 300+ Companies on GitHub</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165278"
-        },
-        {
-          "title": "Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller",
-          "url": "https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/",
-          "published": "Wed, 30 Sep 2026 13:36:00 +0000",
-          "published_utc": "2026-09-30T13:36:00+00:00",
-          "summary": "<p>A vulnerable print server became the entry point for an Active Directory compromise after attackers exploited two PaperCut MF zero-day flaws. The intrusion shows how an overlooked business system can give criminals access to sensitive identity infrastructure. The attackers targeted an internet-facing PaperCut MF server running version 24.0.2, build 69746. They delivered Java code through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-turned-a-papercut-print-server/\">Hackers Turned a PaperCut Print Server Into a Path to the Domain Controller</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165262"
+          "title": "Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative",
+          "url": "https://cybersecuritynews.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/",
+          "published": "Thu, 01 Oct 2026 05:01:35 +0000",
+          "published_utc": "2026-10-01T05:01:35+00:00",
+          "summary": "<p>Washignton, DC, USA, September 30th, 2026, CyberNewswire The Internet Society today launched the Online Trust and Safety Hub, a free global resource center in multiple languages, offering practical tools to help people stay safer and more confident online.  The Hub is a key part of the Internet Society’s Safer Internet Initiative, which works to equip [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/\">Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165316"
         }
       ],
       "error": ""

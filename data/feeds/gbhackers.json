@@ -5,14 +5,55 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 5,
+      "articles": [
+        {
+          "title": "Hackers Hide Microsoft Defender Exclusions From Admins to Evade Antivirus Scans",
+          "url": "https://gbhackers.com/microsoft-defender-exclusions/",
+          "published": "Thu, 01 Oct 2026 06:11:19 +0000",
+          "published_utc": "2026-10-01T06:11:19+00:00",
+          "summary": "<p>Threat actors are increasingly abusing Microsoft Defender Antivirus exclusions to keep malicious files outside the reach of endpoint scans, and a little-known policy setting can conceal those exclusions from administrators using normal management tools. Huntress researchers found that attackers can combine broad Defender exclusions with the HideExclusionsFromLocalAdmins setting, creating a stealthy defense-evasion path that leaves [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-defender-exclusions/\">Hackers Hide Microsoft Defender Exclusions From Admins to Evade Antivirus Scans</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201717"
+        },
+        {
+          "title": "Zimbra Vulnerability Exploited to Gain Root Access and Steal Mailbox Authentication Secrets",
+          "url": "https://gbhackers.com/zimbra-vulnerability-exploited/",
+          "published": "Thu, 01 Oct 2026 05:41:30 +0000",
+          "published_utc": "2026-10-01T05:41:30+00:00",
+          "summary": "<p>An active exploitation of CVE-2026-73570, a high-severity unauthenticated OS command-injection vulnerability in Zimbra Collaboration Suite. Attackers used to obtain root access, establish persistent control, and collect mailbox authentication secrets. The issue resides in Zimbra’s SNMP notification processing path. An attacker can send a specially crafted SMTP request containing shell metacharacters, allowing attacker-controlled input to reach [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zimbra-vulnerability-exploited/\">Zimbra Vulnerability Exploited to Gain Root Access and Steal Mailbox Authentication Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201695"
+        },
+        {
+          "title": "AI Agents Expose 13,000+ Developer Screenshots Across 900+ GitHub Repositories",
+          "url": "https://gbhackers.com/ai-agents-expose-13000-developer-screenshots/",
+          "published": "Thu, 01 Oct 2026 05:15:30 +0000",
+          "published_utc": "2026-10-01T05:15:30+00:00",
+          "summary": "<p>AI coding agents have inadvertently exposed over 13,000 internal developer screenshots in public GitHub repositories. These exposures potentially revealed sensitive information such as customer records, credentials, financial interfaces, and unreleased product features. The issue, referred to as &#8220;PixelLeak&#8221; by Glow Labs, affected developers across more than 300 organizations and spanned over 900 repositories. AI Agents [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agents-expose-13000-developer-screenshots/\">AI Agents Expose 13,000+ Developer Screenshots Across 900+ GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201690"
+        },
+        {
+          "title": "New 2CLoader Malware Uses Anti-VM and API Hooking to Deliver Vidar and Remus Stealers",
+          "url": "https://gbhackers.com/2cloader-malware/",
+          "published": "Thu, 01 Oct 2026 05:03:59 +0000",
+          "published_utc": "2026-10-01T05:03:59+00:00",
+          "summary": "<p>A new Windows malware loader, tracked as 2CLoader, that combines extensive anti-analysis logic, indirect system calls, API tampering, and flexible in-memory execution to deliver Vidar and Remus information stealers. Researchers also observed the loader distributing XWorm RAT, indicating that its operators can use the framework to deploy multiple payload families. Its layered design makes it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/2cloader-malware/\">New 2CLoader Malware Uses Anti-VM and API Hooking to Deliver Vidar and Remus Stealers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201665"
+        },
+        {
+          "title": "Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative",
+          "url": "https://gbhackers.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/",
+          "published": "Thu, 01 Oct 2026 05:01:44 +0000",
+          "published_utc": "2026-10-01T05:01:44+00:00",
+          "summary": "<p>Washignton, DC, USA, September 30th, 2026, CyberNewswire The Internet Society today launched the Online Trust and Safety Hub, a free global resource center in multiple languages, offering practical tools to help people stay safer and more confident online.&#160; The Hub is a key part of the Internet Society’s Safer Internet Initiative, which works to equip [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/\">Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201663"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -22,87 +63,47 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 5,
       "articles": [
         {
-          "title": "RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor",
-          "url": "https://gbhackers.com/redflick-backdoor/",
-          "published": "Wed, 30 Sep 2026 13:38:39 +0000",
-          "published_utc": "2026-09-30T13:38:39+00:00",
-          "summary": "<p>Russian state-linked threat actor Star Blizzard has expanded its cyberespionage operations in 2026 with a phishing and malware-delivery technique tracked by Microsoft as RedFlick. Microsoft Threat Intelligence reported that the group, which CISA attributes to Russia’s Federal Security Service (FSB) Center 18, conducted at least 13 phishing campaigns between January and August 2026. The activity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/redflick-backdoor/\">RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201651"
+          "title": "Hackers Hide Microsoft Defender Exclusions From Admins to Evade Antivirus Scans",
+          "url": "https://gbhackers.com/microsoft-defender-exclusions/",
+          "published": "Thu, 01 Oct 2026 06:11:19 +0000",
+          "published_utc": "2026-10-01T06:11:19+00:00",
+          "summary": "<p>Threat actors are increasingly abusing Microsoft Defender Antivirus exclusions to keep malicious files outside the reach of endpoint scans, and a little-known policy setting can conceal those exclusions from administrators using normal management tools. Huntress researchers found that attackers can combine broad Defender exclusions with the HideExclusionsFromLocalAdmins setting, creating a stealthy defense-evasion path that leaves [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-defender-exclusions/\">Hackers Hide Microsoft Defender Exclusions From Admins to Evade Antivirus Scans</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201717"
         },
         {
-          "title": "Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files",
-          "url": "https://gbhackers.com/docker-copyescape-cve-2026-17106/",
-          "published": "Wed, 30 Sep 2026 12:42:59 +0000",
-          "published_utc": "2026-09-30T12:42:59+00:00",
-          "summary": "<p>A critical Docker vulnerability tracked as CVE-2026-17106, also known as CopyEscape, could allow a malicious container to overwrite files on the host machine when a user runs the `docker cp` command. This vulnerability affects copy-out operations, where Docker retrieves data from a container and extracts it onto the system running the Docker Command Line Interface [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-copyescape-cve-2026-17106/\">Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201649"
+          "title": "Zimbra Vulnerability Exploited to Gain Root Access and Steal Mailbox Authentication Secrets",
+          "url": "https://gbhackers.com/zimbra-vulnerability-exploited/",
+          "published": "Thu, 01 Oct 2026 05:41:30 +0000",
+          "published_utc": "2026-10-01T05:41:30+00:00",
+          "summary": "<p>An active exploitation of CVE-2026-73570, a high-severity unauthenticated OS command-injection vulnerability in Zimbra Collaboration Suite. Attackers used to obtain root access, establish persistent control, and collect mailbox authentication secrets. The issue resides in Zimbra’s SNMP notification processing path. An attacker can send a specially crafted SMTP request containing shell metacharacters, allowing attacker-controlled input to reach [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zimbra-vulnerability-exploited/\">Zimbra Vulnerability Exploited to Gain Root Access and Steal Mailbox Authentication Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201695"
         },
         {
-          "title": "PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users",
-          "url": "https://gbhackers.com/paperphone-cluster/",
-          "published": "Wed, 30 Sep 2026 12:31:57 +0000",
-          "published_utc": "2026-09-30T12:31:57+00:00",
-          "summary": "<p>A large-scale scraping cluster dubbed PaperPhone, exposing how one operator can manufacture the appearance of tens of thousands of legitimate mobile users across dozens of countries. The operation used roughly 75,000 IP addresses across 230 address blocks in 43 countries. However, browser-fingerprinting and network-analysis signals pointed to a centrally coordinated infrastructure rather than a genuinely [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/paperphone-cluster/\">PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201633"
+          "title": "AI Agents Expose 13,000+ Developer Screenshots Across 900+ GitHub Repositories",
+          "url": "https://gbhackers.com/ai-agents-expose-13000-developer-screenshots/",
+          "published": "Thu, 01 Oct 2026 05:15:30 +0000",
+          "published_utc": "2026-10-01T05:15:30+00:00",
+          "summary": "<p>AI coding agents have inadvertently exposed over 13,000 internal developer screenshots in public GitHub repositories. These exposures potentially revealed sensitive information such as customer records, credentials, financial interfaces, and unreleased product features. The issue, referred to as &#8220;PixelLeak&#8221; by Glow Labs, affected developers across more than 300 organizations and spanned over 900 repositories. AI Agents [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agents-expose-13000-developer-screenshots/\">AI Agents Expose 13,000+ Developer Screenshots Across 900+ GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201690"
         },
         {
-          "title": "Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity",
-          "url": "https://gbhackers.com/claude-compliance-api/",
-          "published": "Wed, 30 Sep 2026 12:29:20 +0000",
-          "published_utc": "2026-09-30T12:29:20+00:00",
-          "summary": "<p>Anthropic has enhanced enterprise security visibility for its AI assistant, Claude, with the Compliance API. This feature lets organizations extract data on activity, conversations, files, projects, and agent sessions into their existing governance and security operations platforms. The Compliance API is available to both Claude Enterprise and Claude Platform customers, although the breadth of accessible [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-compliance-api/\">Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201638"
+          "title": "New 2CLoader Malware Uses Anti-VM and API Hooking to Deliver Vidar and Remus Stealers",
+          "url": "https://gbhackers.com/2cloader-malware/",
+          "published": "Thu, 01 Oct 2026 05:03:59 +0000",
+          "published_utc": "2026-10-01T05:03:59+00:00",
+          "summary": "<p>A new Windows malware loader, tracked as 2CLoader, that combines extensive anti-analysis logic, indirect system calls, API tampering, and flexible in-memory execution to deliver Vidar and Remus information stealers. Researchers also observed the loader distributing XWorm RAT, indicating that its operators can use the framework to deploy multiple payload families. Its layered design makes it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/2cloader-malware/\">New 2CLoader Malware Uses Anti-VM and API Hooking to Deliver Vidar and Remus Stealers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201665"
         },
         {
-          "title": "Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution",
-          "url": "https://gbhackers.com/critical-mikrotik-routeros-vulnerability/",
-          "published": "Wed, 30 Sep 2026 12:02:10 +0000",
-          "published_utc": "2026-09-30T12:02:10+00:00",
-          "summary": "<p>A critical vulnerability in MikroTik RouterOS could allow unauthenticated remote attackers to execute code on vulnerable devices or trigger a denial-of-service condition. This vulnerability, tracked as CVE-2026-84411, affects MikroTik RouterOS versions earlier than 7.24 and carries a CVSS v3 severity score of 9.8. The Cybersecurity and Infrastructure Security Agency (CISA) disclosed this issue on September [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-mikrotik-routeros-vulnerability/\">Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201629"
-        },
-        {
-          "title": "Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code",
-          "url": "https://gbhackers.com/supply-chain-intrusions/",
-          "published": "Wed, 30 Sep 2026 12:00:47 +0000",
-          "published_utc": "2026-09-30T12:00:47+00:00",
-          "summary": "<p>Software supply chain attacks are increasingly evolving into cloud identity breaches, as attackers weaponize trusted packages to steal credentials from developer workstations and CI/CD environments before an application is ever executed. The result is a dangerous pivot: a routine dependency installation can give threat actors access to cloud accounts, source-code repositories, container platforms, secrets-management systems, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/supply-chain-intrusions/\">Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201618"
-        },
-        {
-          "title": "12 Best IGA Tools in 2026: The Ranked Buyer’s Guide",
-          "url": "https://gbhackers.com/best-iga-tools/",
-          "published": "Wed, 30 Sep 2026 11:59:48 +0000",
-          "published_utc": "2026-09-30T11:59:48+00:00",
-          "summary": "<p>Identity governance and administration has become essential as organizations manage employees, contractors, service accounts, machine identities, and AI agents across increasingly complex environments. The best IGA tools help security teams answer three critical questions: Who has access? Why do they have it? Should they continue to have it? Modern IGA platforms go beyond periodic access [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-iga-tools/\">12 Best IGA Tools in 2026: The Ranked Buyer&#8217;s Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201569"
-        },
-        {
-          "title": "Google Chrome 154 Update Fixes 32 Security Flaws Including Critical ANGLE Bug",
-          "url": "https://gbhackers.com/google-chrome-154-update/",
-          "published": "Wed, 30 Sep 2026 11:43:52 +0000",
-          "published_utc": "2026-09-30T11:43:52+00:00",
-          "summary": "<p>Google has released Chrome version 154 for desktop platforms, addressing 32 security vulnerabilities, including a critical buffer overflow flaw in the ANGLE graphics translation layer. This update is being rolled out as version 154.0.8037.92/.93 for Windows and macOS, and version 154.0.8037.92 for Linux. Google Chrome 154 Update The most severe issue, tracked as CVE-2026-102331, is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-154-update/\">Google Chrome 154 Update Fixes 32 Security Flaws Including Critical ANGLE Bug</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201624"
-        },
-        {
-          "title": "Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft",
-          "url": "https://gbhackers.com/msp360-and-rmm-abuse/",
-          "published": "Wed, 30 Sep 2026 10:25:40 +0000",
-          "published_utc": "2026-09-30T10:25:40+00:00",
-          "summary": "<p>The phishing campaigns that weaponize legitimate remote monitoring and management software to establish persistent access and support credential theft on Windows systems. The campaign demonstrates a recurring operational trend: rather than exploit a vulnerability or deploy obvious custom malware, attackers are abusing trusted administrative platforms already designed to execute commands, transfer files, deploy applications, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/msp360-and-rmm-abuse/\">Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201578"
-        },
-        {
-          "title": "Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells",
-          "url": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/",
-          "published": "Wed, 30 Sep 2026 09:47:33 +0000",
-          "published_utc": "2026-09-30T09:47:33+00:00",
-          "summary": "<p>Threat actors are actively exploiting a critical zero-day vulnerability in Citrix NetScaler, identified as CVE-2026-88772, to gain unauthenticated root-level access to vulnerable Application Delivery Controller (ADC) and Gateway appliances. After the initial compromise, they deploy custom PHP web shells and tools to tunnel within the internal network. Mandiant Consulting and the Google Threat Intelligence Group [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/\">Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201580"
+          "title": "Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative",
+          "url": "https://gbhackers.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/",
+          "published": "Thu, 01 Oct 2026 05:01:44 +0000",
+          "published_utc": "2026-10-01T05:01:44+00:00",
+          "summary": "<p>Washignton, DC, USA, September 30th, 2026, CyberNewswire The Internet Society today launched the Online Trust and Safety Hub, a free global resource center in multiple languages, offering practical tools to help people stay safer and more confident online.&#160; The Hub is a key part of the Internet Society’s Safer Internet Initiative, which works to equip [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/\">Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201663"
         }
       ],
       "error": ""

@@ -10,31 +10,87 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 3,
+      "article_count": 10,
       "articles": [
         {
-          "title": "New Infostealer Can Steal Passwords, Cards, Cookies and Wi-Fi Keys From Windows PCs",
-          "url": "https://gbhackers.com/python-based-infostealer/",
-          "published": "Fri, 02 Oct 2026 05:54:24 +0000",
-          "published_utc": "2026-10-02T05:54:24+00:00",
-          "summary": "<p>A Python-based infostealer builder that enables threat actors to generate customized Windows payloads capable of stealing browser credentials, payment-card data, session cookies, Discord tokens, Wi-Fi passwords and extensive system information. Rather than functioning as a single-use stealer, the package includes a builder interface and an embedded payload, providing a model consistent with Malware-as-a-Service operations. Operators [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-based-infostealer/\">New Infostealer Can Steal Passwords, Cards, Cookies and Wi-Fi Keys From Windows PCs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201857"
+          "title": "Exposed Hacker Server Reveals Toolkit Used in Viva Aerobus-Linked Intrusion",
+          "url": "https://gbhackers.com/viva-aerobus-intrusion/",
+          "published": "Fri, 02 Oct 2026 11:55:20 +0000",
+          "published_utc": "2026-10-02T11:55:20+00:00",
+          "summary": "<p>A publicly exposed attacker staging server has provided a rare, detailed view of a Microsoft SQL Server-focused intrusion linked to a Viva Aerobus-side environment. The server, hosted at 151.243.232.123, functioned as both a tool-delivery point and a repository for stolen material. It was left accessible without authentication, allowing unrelated internet hosts to enumerate its directories [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/viva-aerobus-intrusion/\">Exposed Hacker Server Reveals Toolkit Used in Viva Aerobus-Linked Intrusion</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201969"
         },
         {
-          "title": "Fortinet FortiMail Path Traversal Flaw Actively Exploited to Compromise Servers",
-          "url": "https://gbhackers.com/fortinet-fortimail-path-traversal-flaw/",
-          "published": "Fri, 02 Oct 2026 05:14:47 +0000",
-          "published_utc": "2026-10-02T05:14:47+00:00",
-          "summary": "<p>Fortinet has disclosed a critical vulnerability in FortiMail that attackers are actively exploiting to compromise vulnerable email security appliances. This flaw, tracked as CVE-2026-104286, has a CVSS v3.1 score of 9.8. It enables unauthenticated attackers to write arbitrary files to the underlying system via specially crafted HTTP or HTTPS requests. Fortinet FortiMail Path Traversal Flaw [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-fortimail-path-traversal-flaw/\">Fortinet FortiMail Path Traversal Flaw Actively Exploited to Compromise Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201852"
+          "title": "Multiple cPanel & WHM Vulnerabilities Enable Root Code Execution and Admin Session Hijacking",
+          "url": "https://gbhackers.com/multiple-cpanel-whm-vulnerabilities/",
+          "published": "Fri, 02 Oct 2026 11:26:54 +0000",
+          "published_utc": "2026-10-02T11:26:54+00:00",
+          "summary": "<p>cPanel has released security updates to address three vulnerabilities in cPanel &#38; WHM that could allow attackers to hijack WHM administrator sessions or execute commands as the root user. Organizations using affected deployments should prioritize upgrades, as these flaws affect all supported versions of cPanel &#38; WHM before the newly released fixed versions. cPanel &#38; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/multiple-cpanel-whm-vulnerabilities/\">Multiple cPanel &amp; WHM Vulnerabilities Enable Root Code Execution and Admin Session Hijacking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201981"
         },
         {
-          "title": "Apache HTTP Server Flaws Enable Remote Code Execution and Denial-of-Service Attacks",
-          "url": "https://gbhackers.com/apache-http-server-flaws/",
-          "published": "Fri, 02 Oct 2026 05:01:20 +0000",
-          "published_utc": "2026-10-02T05:01:20+00:00",
-          "summary": "<p>Apache HTTP Server administrators are urged to apply security updates following the disclosure of multiple vulnerabilities affecting Apache HTTP Server 2.4. These vulnerabilities include flaws that could allow for remote code execution (RCE), server crashes, memory exhaustion, and other denial-of-service (DoS) conditions. They impact various components of this widely used web server, particularly configurations that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-http-server-flaws/\">Apache HTTP Server Flaws Enable Remote Code Execution and Denial-of-Service Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201847"
+          "title": "Capacitor Vulnerability Lets Remote Content Run With Full App Origin Trust",
+          "url": "https://gbhackers.com/capacitor-vulnerability/",
+          "published": "Fri, 02 Oct 2026 11:12:42 +0000",
+          "published_utc": "2026-10-02T11:12:42+00:00",
+          "summary": "<p>A critical vulnerability in Capacitor, identified as CVE-2026-103922, could allow attacker-controlled remote content to execute within vulnerable Android and iOS applications, posing as the application’s own trusted origin. This flaw, assigned a CVSS score of 9.3, affects WebView navigation handling in Capacitor and can expose same-origin data, cookies, local storage, and native functionality available through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/capacitor-vulnerability/\">Capacitor Vulnerability Lets Remote Content Run With Full App Origin Trust</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201974"
+        },
+        {
+          "title": "OpenAI Blocks 15,000 Requests Trying to Extract Protected Model Reasoning",
+          "url": "https://gbhackers.com/openai-blocks-15000-requests/",
+          "published": "Fri, 02 Oct 2026 11:06:23 +0000",
+          "published_utc": "2026-10-02T11:06:23+00:00",
+          "summary": "<p>OpenAI has disrupted a coordinated campaign to extract protected internal reasoning from its AI models on a large scale. The company took action against activity linked to more than 15,000 user accounts. The company described the operation as an adversarial model-distillation effort, in which attackers systematically sought model outputs or reasoning traces that could help [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-blocks-15000-requests/\">OpenAI Blocks 15,000 Requests Trying to Extract Protected Model Reasoning</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201968"
+        },
+        {
+          "title": "Hackers Are Turning Trusted Software Updates Into Credential-Stealing Malware",
+          "url": "https://gbhackers.com/credential-stealing-malware/",
+          "published": "Fri, 02 Oct 2026 10:55:57 +0000",
+          "published_utc": "2026-10-02T10:55:57+00:00",
+          "summary": "<p>A growing wave of supply-chain attacks is proving the opposite: attackers are compromising legitimate open-source packages and using trusted update channels to deploy credential-stealing malware directly into developer and enterprise environments. Malicious Nx releases, published after attackers stole an npm publishing token through a GitHub Actions workflow flaw, ran post-install scripts that searched systems for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/credential-stealing-malware/\">Hackers Are Turning Trusted Software Updates Into Credential-Stealing Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201938"
+        },
+        {
+          "title": "TIKTOUK WordPress Toolkit Could Enable AWS, SMTP and API Credential Theft Attacks",
+          "url": "https://gbhackers.com/tiktouk-wordpress-toolkit/",
+          "published": "Fri, 02 Oct 2026 10:12:29 +0000",
+          "published_utc": "2026-10-02T10:12:29+00:00",
+          "summary": "<p>A credential-collection toolkit dubbed TIKTOUK that combines WordPress reconnaissance, exposed-file harvesting, plugin credential decryption, and JavaScript secret scanning. The toolkit consists of two Python scripts, wp2s_poll.py and wp2s_crack.py, alongside a stripped Go-based Linux crawler named jscrawl-amd64. All three components retrieve targets from a central HTTP hub, execute assigned collection tasks, and submit status reports and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tiktouk-wordpress-toolkit/\">TIKTOUK WordPress Toolkit Could Enable AWS, SMTP and API Credential Theft Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201927"
+        },
+        {
+          "title": "Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA",
+          "url": "https://gbhackers.com/passwordless-impersonation/",
+          "published": "Fri, 02 Oct 2026 09:46:41 +0000",
+          "published_utc": "2026-10-02T09:46:41+00:00",
+          "summary": "<p>A critical authentication bypass that enabled the impersonation of 95 employee accounts, including privileged users, without passwords, multi-factor authentication (MFA), or valid Microsoft Entra ID tokens. The issue stemmed from two flaws in the application’s custom session-cookie implementation: a predictable hard-coded signing secret and the use of public database identifiers as authenticated session payloads. Although [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/passwordless-impersonation/\">Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201913"
+        },
+        {
+          "title": "Milk Dragon Phishing Kit Uses Facebook and TikTok Discounts to Steal Cards and Bypass MFA",
+          "url": "https://gbhackers.com/milk-dragon-phishing-kit/",
+          "published": "Fri, 02 Oct 2026 08:51:17 +0000",
+          "published_utc": "2026-10-02T08:51:17+00:00",
+          "summary": "<p>A phishing-as-a-service operation dubbed Milk Dragon, also known as NaiLong, is abusing discount-themed Facebook and TikTok posts to steal payment-card data and intercept multi-factor authentication (MFA) challenges. Group-IB identified 258 phishing pages linked to the kit since October 2025, with victims across 66 countries. Rather than relying on classic delivery-failure notices, bank alerts, or account-lockout [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/milk-dragon-phishing-kit/\">Milk Dragon Phishing Kit Uses Facebook and TikTok Discounts to Steal Cards and Bypass MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201899"
+        },
+        {
+          "title": "12 Best SSO Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-sso-compared/",
+          "published": "Fri, 02 Oct 2026 08:26:26 +0000",
+          "published_utc": "2026-10-02T08:26:26+00:00",
+          "summary": "<p>Microsoft Entra ID is the best SSO for M365-licensed organizations bundled economics end most debates while Okta is the best neutral anchor for mixed-SaaS estates, with Auth0 (an Okta product line, not a separate vendor) leading developer login. Evaluating these platforms alongside the top enterprise Single Sign-On (SSO) solutions reveals how modern access control has [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-sso-compared/\">12 Best SSO Solutions Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201799"
+        },
+        {
+          "title": "Windows 11 26H2 Enables Settings Backup by Default for Eligible Devices",
+          "url": "https://gbhackers.com/windows-11-26h2-enables-settings-backup/",
+          "published": "Fri, 02 Oct 2026 08:24:12 +0000",
+          "published_utc": "2026-10-02T08:24:12+00:00",
+          "summary": "<p>Microsoft has automatically enabled Windows settings backup for eligible commercial devices running Windows 11, version 26H2. Microsoft positions this capability as a vital resilience measure for enterprise endpoint recovery. The change is applicable when organizations have left the relevant backup policy in a “Not Configured” state. Administrators&#8217; decisions to explicitly turn the feature on or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-26h2-enables-settings-backup/\">Windows 11 26H2 Enables Settings Backup by Default for Eligible Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201885"
         }
       ],
       "error": ""
@@ -47,23 +103,87 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 2,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Fortinet FortiMail Path Traversal Flaw Actively Exploited to Compromise Servers",
-          "url": "https://gbhackers.com/fortinet-fortimail-path-traversal-flaw/",
-          "published": "Fri, 02 Oct 2026 05:14:47 +0000",
-          "published_utc": "2026-10-02T05:14:47+00:00",
-          "summary": "<p>Fortinet has disclosed a critical vulnerability in FortiMail that attackers are actively exploiting to compromise vulnerable email security appliances. This flaw, tracked as CVE-2026-104286, has a CVSS v3.1 score of 9.8. It enables unauthenticated attackers to write arbitrary files to the underlying system via specially crafted HTTP or HTTPS requests. Fortinet FortiMail Path Traversal Flaw [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-fortimail-path-traversal-flaw/\">Fortinet FortiMail Path Traversal Flaw Actively Exploited to Compromise Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201852"
+          "title": "Hackers Are Turning Trusted Software Updates Into Credential-Stealing Malware",
+          "url": "https://gbhackers.com/credential-stealing-malware/",
+          "published": "Fri, 02 Oct 2026 10:55:57 +0000",
+          "published_utc": "2026-10-02T10:55:57+00:00",
+          "summary": "<p>A growing wave of supply-chain attacks is proving the opposite: attackers are compromising legitimate open-source packages and using trusted update channels to deploy credential-stealing malware directly into developer and enterprise environments. Malicious Nx releases, published after attackers stole an npm publishing token through a GitHub Actions workflow flaw, ran post-install scripts that searched systems for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/credential-stealing-malware/\">Hackers Are Turning Trusted Software Updates Into Credential-Stealing Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201938"
         },
         {
-          "title": "Apache HTTP Server Flaws Enable Remote Code Execution and Denial-of-Service Attacks",
-          "url": "https://gbhackers.com/apache-http-server-flaws/",
-          "published": "Fri, 02 Oct 2026 05:01:20 +0000",
-          "published_utc": "2026-10-02T05:01:20+00:00",
-          "summary": "<p>Apache HTTP Server administrators are urged to apply security updates following the disclosure of multiple vulnerabilities affecting Apache HTTP Server 2.4. These vulnerabilities include flaws that could allow for remote code execution (RCE), server crashes, memory exhaustion, and other denial-of-service (DoS) conditions. They impact various components of this widely used web server, particularly configurations that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-http-server-flaws/\">Apache HTTP Server Flaws Enable Remote Code Execution and Denial-of-Service Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=201847"
+          "title": "TIKTOUK WordPress Toolkit Could Enable AWS, SMTP and API Credential Theft Attacks",
+          "url": "https://gbhackers.com/tiktouk-wordpress-toolkit/",
+          "published": "Fri, 02 Oct 2026 10:12:29 +0000",
+          "published_utc": "2026-10-02T10:12:29+00:00",
+          "summary": "<p>A credential-collection toolkit dubbed TIKTOUK that combines WordPress reconnaissance, exposed-file harvesting, plugin credential decryption, and JavaScript secret scanning. The toolkit consists of two Python scripts, wp2s_poll.py and wp2s_crack.py, alongside a stripped Go-based Linux crawler named jscrawl-amd64. All three components retrieve targets from a central HTTP hub, execute assigned collection tasks, and submit status reports and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tiktouk-wordpress-toolkit/\">TIKTOUK WordPress Toolkit Could Enable AWS, SMTP and API Credential Theft Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201927"
+        },
+        {
+          "title": "Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA",
+          "url": "https://gbhackers.com/passwordless-impersonation/",
+          "published": "Fri, 02 Oct 2026 09:46:41 +0000",
+          "published_utc": "2026-10-02T09:46:41+00:00",
+          "summary": "<p>A critical authentication bypass that enabled the impersonation of 95 employee accounts, including privileged users, without passwords, multi-factor authentication (MFA), or valid Microsoft Entra ID tokens. The issue stemmed from two flaws in the application’s custom session-cookie implementation: a predictable hard-coded signing secret and the use of public database identifiers as authenticated session payloads. Although [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/passwordless-impersonation/\">Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201913"
+        },
+        {
+          "title": "Milk Dragon Phishing Kit Uses Facebook and TikTok Discounts to Steal Cards and Bypass MFA",
+          "url": "https://gbhackers.com/milk-dragon-phishing-kit/",
+          "published": "Fri, 02 Oct 2026 08:51:17 +0000",
+          "published_utc": "2026-10-02T08:51:17+00:00",
+          "summary": "<p>A phishing-as-a-service operation dubbed Milk Dragon, also known as NaiLong, is abusing discount-themed Facebook and TikTok posts to steal payment-card data and intercept multi-factor authentication (MFA) challenges. Group-IB identified 258 phishing pages linked to the kit since October 2025, with victims across 66 countries. Rather than relying on classic delivery-failure notices, bank alerts, or account-lockout [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/milk-dragon-phishing-kit/\">Milk Dragon Phishing Kit Uses Facebook and TikTok Discounts to Steal Cards and Bypass MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201899"
+        },
+        {
+          "title": "12 Best SSO Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-sso-compared/",
+          "published": "Fri, 02 Oct 2026 08:26:26 +0000",
+          "published_utc": "2026-10-02T08:26:26+00:00",
+          "summary": "<p>Microsoft Entra ID is the best SSO for M365-licensed organizations bundled economics end most debates while Okta is the best neutral anchor for mixed-SaaS estates, with Auth0 (an Okta product line, not a separate vendor) leading developer login. Evaluating these platforms alongside the top enterprise Single Sign-On (SSO) solutions reveals how modern access control has [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-sso-compared/\">12 Best SSO Solutions Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201799"
+        },
+        {
+          "title": "Windows 11 26H2 Enables Settings Backup by Default for Eligible Devices",
+          "url": "https://gbhackers.com/windows-11-26h2-enables-settings-backup/",
+          "published": "Fri, 02 Oct 2026 08:24:12 +0000",
+          "published_utc": "2026-10-02T08:24:12+00:00",
+          "summary": "<p>Microsoft has automatically enabled Windows settings backup for eligible commercial devices running Windows 11, version 26H2. Microsoft positions this capability as a vital resilience measure for enterprise endpoint recovery. The change is applicable when organizations have left the relevant backup policy in a “Not Configured” state. Administrators&#8217; decisions to explicitly turn the feature on or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-26h2-enables-settings-backup/\">Windows 11 26H2 Enables Settings Backup by Default for Eligible Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201885"
+        },
+        {
+          "title": "12 Best IGA Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-iga-compared/",
+          "published": "Fri, 02 Oct 2026 08:22:57 +0000",
+          "published_utc": "2026-10-02T08:22:57+00:00",
+          "summary": "<p>SailPoint remains the best overall IGA platform for certification depth and AI-assisted reviews, with Saviynt the best converged alternative when ERP-grade SoD must ship cloud-native. Evaluating the broader landscape across the top Identity and Access Management (IAM) companies shows how access governance has evolved from static audit checklists into dynamic risk-control planes. The market’s real [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-iga-compared/\">12 Best IGA Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201698"
+        },
+        {
+          "title": "11 Best PAM Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-pam-compared/",
+          "published": "Fri, 02 Oct 2026 08:19:46 +0000",
+          "published_utc": "2026-10-02T08:19:46+00:00",
+          "summary": "<p>CyberArk remains the best overall PAM platform for depth-driven enterprises, while Delinea is the best pick for usability-led deployments and Teleport the best modern choice for engineering infrastructure access. Enterprise risk teams evaluate these platforms directly alongside the Top 10 Best Privileged Access Management (PAM) Solutions for 2026 to eliminate unmanaged administrative sprawl. Privileged accounts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-pam-compared/\">11 Best PAM Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201417"
+        },
+        {
+          "title": "12 Best IAM Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-iam-compared/",
+          "published": "Fri, 02 Oct 2026 08:15:32 +0000",
+          "published_utc": "2026-10-02T08:15:32+00:00",
+          "summary": "<p>For workforce identity, Microsoft Entra ID is the best pick for M365-gravity organizations (bundled economics are decisive) and Okta the best neutral anchor for mixed-SaaS estates. Developer-facing login is a different purchase FusionAuth and Descope lead that lane. Benchmarking the Top 10 Best Identity And Access Management (IAM) Companies in 2026 demonstrates how enterprise identity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-iam-compared/\">12 Best IAM Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201272"
+        },
+        {
+          "title": "10 Best Container Registry Security Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-container-registry-compared/",
+          "published": "Fri, 02 Oct 2026 08:11:21 +0000",
+          "published_utc": "2026-10-02T08:11:21+00:00",
+          "summary": "<p>The best container registry security stack in 2026 starts free Harbor (CNCF registry with built-in scanning) and Grype/Trivy (open-source scanners) are production-grade at $0 with Snyk the best paid pick for developer-led remediation and Aqua/JFrog Xray the best enforcement graduations. Modern engineering teams evaluate these platforms alongside the 12 best container security tools compared for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-container-registry-compared/\">10 Best Container Registry Security Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=201122"
         }
       ],
       "error": ""

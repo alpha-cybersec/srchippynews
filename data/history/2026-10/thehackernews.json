@@ -2,8 +2,92 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 14,
+  "article_count": 17,
   "articles": [
+    {
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "url": "http://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "published": "Fri, 02 Oct 2026 17:33:31 +0000",
+      "published_utc": "2026-10-02T17:33:31+00:00",
+      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory.\n\nThe gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1.\n\nThe flaw",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4229660375357553012",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "content_hash": "b58012c0a334e978585b5d85de74bd8d0ce370a73da594e2c85677b80fd11955",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b58012c0a334e978585b5d85de74bd8d0ce370a73da594e2c85677b80fd11955",
+        "FEEDBURNER": "b58012c0a334e978585b5d85de74bd8d0ce370a73da594e2c85677b80fd11955"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:18.073760+00:00",
+      "first_seen_local": "2026-10-02T13:00:18.073758-05:00",
+      "last_updated_utc": "2026-10-02T18:00:18.073760+00:00",
+      "last_updated_local": "2026-10-02T13:00:18.073758-05:00"
+    },
+    {
+      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+      "url": "http://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+      "published": "Fri, 02 Oct 2026 17:33:16 +0000",
+      "published_utc": "2026-10-02T17:33:16+00:00",
+      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor.\n\nThe activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8095418301910813740",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+      "content_hash": "33282f4cb34f05966c390dbad7b7919f14606dcab9334387b8c96de12c9bcbd3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "33282f4cb34f05966c390dbad7b7919f14606dcab9334387b8c96de12c9bcbd3",
+        "FEEDBURNER": "33282f4cb34f05966c390dbad7b7919f14606dcab9334387b8c96de12c9bcbd3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:18.073760+00:00",
+      "first_seen_local": "2026-10-02T13:00:18.073758-05:00",
+      "last_updated_utc": "2026-10-02T18:00:18.073760+00:00",
+      "last_updated_local": "2026-10-02T13:00:18.073758-05:00"
+    },
+    {
+      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+      "url": "http://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "published": "Fri, 02 Oct 2026 17:02:12 +0000",
+      "published_utc": "2026-10-02T17:02:12+00:00",
+      "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8591151334338594491",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "content_hash": "96d5676885b2883ae2f594eab0741a104b36f29b9a1ecc8d3fb66f123625c221",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "96d5676885b2883ae2f594eab0741a104b36f29b9a1ecc8d3fb66f123625c221",
+        "FEEDBURNER": "96d5676885b2883ae2f594eab0741a104b36f29b9a1ecc8d3fb66f123625c221"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:18.073760+00:00",
+      "first_seen_local": "2026-10-02T13:00:18.073758-05:00",
+      "last_updated_utc": "2026-10-02T18:00:18.073760+00:00",
+      "last_updated_local": "2026-10-02T13:00:18.073758-05:00"
+    },
     {
       "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
       "url": "http://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",

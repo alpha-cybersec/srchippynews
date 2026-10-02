@@ -2,8 +2,92 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 32,
+  "article_count": 35,
   "articles": [
+    {
+      "title": "Sony PS5 Relapse Jailbreak Exploit Uses JSC Memory Corruption and Kernel UAF",
+      "url": "https://gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses/",
+      "published": "Fri, 02 Oct 2026 13:40:08 +0000",
+      "published_utc": "2026-10-02T13:40:08+00:00",
+      "summary": "<p>A newly released PlayStation 5 jailbreak chain, called Relapse, targets PS5 and PS5 Pro consoles running firmware versions 7.00 through 13.60. This jailbreak combines a browser-based JavaScriptCore memory corruption technique with a kernel use-after-free race condition. The project&#8217;s source code and documentation outline a two-stage chain that ultimately provides kernel read/write access, allowing affected systems [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses/\">Sony PS5 Relapse Jailbreak Exploit Uses JSC Memory Corruption and Kernel UAF</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202007",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses",
+      "content_hash": "af2d03cf8ce7f00e331c3070094d404c899066c5f8d0a073ab834fad599c0ebd",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "af2d03cf8ce7f00e331c3070094d404c899066c5f8d0a073ab834fad599c0ebd",
+        "FEEDBURNER": "af2d03cf8ce7f00e331c3070094d404c899066c5f8d0a073ab834fad599c0ebd"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.063275+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.063272-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.063275+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.063272-05:00"
+    },
+    {
+      "title": "Zammad Vulnerabilities Let Attackers Execute Code and Escalate Privileges to Root",
+      "url": "https://gbhackers.com/zammad-vulnerabilities/",
+      "published": "Fri, 02 Oct 2026 12:44:08 +0000",
+      "published_utc": "2026-10-02T12:44:08+00:00",
+      "summary": "<p>Two critical vulnerabilities in the open-source Zammad helpdesk and ticketing platform can be exploited together, enabling attackers to achieve remote code execution and gain root-level control of affected servers. The Dutch Institute for Vulnerability Disclosure (DIVD) and Merlon Security discovered these vulnerabilities, tracked as CVE-2026-102489 and CVE-2026-102490, during an investigation into a breach of DIVD’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zammad-vulnerabilities/\">Zammad Vulnerabilities Let Attackers Execute Code and Escalate Privileges to Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201998",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/zammad-vulnerabilities",
+      "content_hash": "1599dda003d539a3db38df95ab87b82bb604c55609da5d866762bb0aaec3963a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1599dda003d539a3db38df95ab87b82bb604c55609da5d866762bb0aaec3963a",
+        "FEEDBURNER": "1599dda003d539a3db38df95ab87b82bb604c55609da5d866762bb0aaec3963a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.063275+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.063272-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.063275+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.063272-05:00"
+    },
+    {
+      "title": "Safari History Database Tags Can Reveal Users’ Browsing Themes in Forensic Investigations",
+      "url": "https://gbhackers.com/safari-history-database-tags-can-reveal-users-browsing-themes/",
+      "published": "Fri, 02 Oct 2026 12:35:11 +0000",
+      "published_utc": "2026-10-02T12:35:11+00:00",
+      "summary": "<p>Safari&#8217;s History database contains a lesser-known tagging artifact that can help investigators infer a user’s browsing themes. While this feature is not definitive evidence of intent, when correlated with URLs, visit times, cache data, downloads, and network telemetry, it can provide useful context for macOS forensic timelines. Safari History Tags and Browsing Themes Safari&#8217;s History.db [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/safari-history-database-tags-can-reveal-users-browsing-themes/\">Safari History Database Tags Can Reveal Users’ Browsing Themes in Forensic Investigations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201993",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/safari-history-database-tags-can-reveal-users-browsing-themes",
+      "content_hash": "42047c888d2b9de1918313e2401e1ce603a2a93dd816d344a9401b956cb6d12f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "42047c888d2b9de1918313e2401e1ce603a2a93dd816d344a9401b956cb6d12f",
+        "FEEDBURNER": "42047c888d2b9de1918313e2401e1ce603a2a93dd816d344a9401b956cb6d12f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.063275+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.063272-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.063275+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.063272-05:00"
+    },
     {
       "title": "Exposed Hacker Server Reveals Toolkit Used in Viva Aerobus-Linked Intrusion",
       "url": "https://gbhackers.com/viva-aerobus-intrusion/",

@@ -2,8 +2,176 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 27,
+  "article_count": 33,
   "articles": [
+    {
+      "title": "Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel",
+      "url": "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/",
+      "published": "Fri, 02 Oct 2026 14:04:21 +0000",
+      "published_utc": "2026-10-02T14:04:21+00:00",
+      "summary": "<p>Hackers turned a Microsoft SQL Server into a channel for running commands and moving collected files in an intrusion linked to a Viva Aerobus environment. Their own publicly accessible server then exposed attack tools and stolen material to unrelated internet users. The activity, observed between September 25 and 29, 2026, involved credential harvesting, source code [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/\">Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165540",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-turned-a-microsoft-sql-server",
+      "content_hash": "b239834a98830620e62d2d87a40c0cc615c18be9b61a0a71549aa29abe323259",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b239834a98830620e62d2d87a40c0cc615c18be9b61a0a71549aa29abe323259",
+        "FEEDBURNER": "b239834a98830620e62d2d87a40c0cc615c18be9b61a0a71549aa29abe323259"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.920010+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.920007-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.920010+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.920007-05:00"
+    },
+    {
+      "title": "Hackers Poison Trusted Software Updates to Steal Developer and Cloud Credentials",
+      "url": "https://cybersecuritynews.com/hackers-poison-trusted-software-updates/",
+      "published": "Fri, 02 Oct 2026 13:43:28 +0000",
+      "published_utc": "2026-10-02T13:43:28+00:00",
+      "summary": "<p>Hackers are turning trusted software updates into a route for stealing developer and cloud credentials. Recent supply chain incidents show how a single altered package, build action, or publishing token can place malware inside routine development workflows. The risk is not limited to one product or programming community. After obtaining a maintainer token or access [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-poison-trusted-software-updates/\">Hackers Poison Trusted Software Updates to Steal Developer and Cloud Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165526",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-poison-trusted-software-updates",
+      "content_hash": "f6b954d860c13a0cf33548063ec230c3758b5e4d52eaefa7a269771af7573f97",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f6b954d860c13a0cf33548063ec230c3758b5e4d52eaefa7a269771af7573f97",
+        "FEEDBURNER": "f6b954d860c13a0cf33548063ec230c3758b5e4d52eaefa7a269771af7573f97"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.920010+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.920007-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.920010+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.920007-05:00"
+    },
+    {
+      "title": "Critical Red Hat Satellite Flaw Could Enable Root Password Theft and Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/red-hat-satellite-vulnerability/",
+      "published": "Fri, 02 Oct 2026 13:14:51 +0000",
+      "published_utc": "2026-10-02T13:14:51+00:00",
+      "summary": "<p>Red Hat has fixed a high-impact vulnerability in Red Hat Satellite that could allow a low-privileged authenticated user to access sensitive host information, including root passwords. Under unsafe configurations, the flaw could also escalate to arbitrary command execution as the Foreman service account. Tracked as CVE-2026-96659, the issue affects the Foreman component used by Red [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/red-hat-satellite-vulnerability/\">Critical Red Hat Satellite Flaw Could Enable Root Password Theft and Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165498",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/red-hat-satellite-vulnerability",
+      "content_hash": "1481c9d71c1ebc18ea6ffa1b6f35cd257ce15b7cc2a5fa8183d0f93fdbfec01f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1481c9d71c1ebc18ea6ffa1b6f35cd257ce15b7cc2a5fa8183d0f93fdbfec01f",
+        "FEEDBURNER": "1481c9d71c1ebc18ea6ffa1b6f35cd257ce15b7cc2a5fa8183d0f93fdbfec01f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.920010+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.920007-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.920010+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.920007-05:00"
+    },
+    {
+      "title": "Multiple Cpanel/WHM Vulnerabilities Allow Arbitrary Command Execution On Server",
+      "url": "https://cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities/",
+      "published": "Fri, 02 Oct 2026 13:10:34 +0000",
+      "published_utc": "2026-10-02T13:10:34+00:00",
+      "summary": "<p>Multiple security flaws in cPanel &#38; WHM could let attackers run malicious scripts in an administrator’s browser session or execute arbitrary commands as root. The vulnerabilities were disclosed on September 29, 2026, and affect all supported cPanel &#38; WHM versions before the vendor’s patched releases. Administrators should update immediately, as a successful attack against the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities/\">Multiple Cpanel/WHM Vulnerabilities Allow Arbitrary Command Execution On Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165518",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities",
+      "content_hash": "d4baeb530a195fe90631e9e13f75ea84c84cc832bc6a1b892a27701b8b933755",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d4baeb530a195fe90631e9e13f75ea84c84cc832bc6a1b892a27701b8b933755",
+        "FEEDBURNER": "d4baeb530a195fe90631e9e13f75ea84c84cc832bc6a1b892a27701b8b933755"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.920010+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.920007-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.920010+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.920007-05:00"
+    },
+    {
+      "title": "OpenClaw Launches Free Open-source Enterprise Agent Platform for AI Agents",
+      "url": "https://cybersecuritynews.com/openclaw-free-enterprise-platform/",
+      "published": "Fri, 02 Oct 2026 13:00:07 +0000",
+      "published_utc": "2026-10-02T13:00:07+00:00",
+      "summary": "<p>OpenClaw has launched OpenClaw Enterprise (OCE), a free, open-source platform that helps organizations run persistent AI agents with stronger security and central oversight. Announced on September 29, 2026, the project targets businesses that want agents to handle ongoing work without giving them unchecked access to sensitive systems. The platform remains under development ahead of its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openclaw-free-enterprise-platform/\">OpenClaw Launches Free Open-source Enterprise Agent Platform for AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165520",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openclaw-free-enterprise-platform",
+      "content_hash": "ba25e130b3799a39f3586ff2570b5781b733b402605b6c3842090f978c8f9245",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ba25e130b3799a39f3586ff2570b5781b733b402605b6c3842090f978c8f9245",
+        "FEEDBURNER": "ba25e130b3799a39f3586ff2570b5781b733b402605b6c3842090f978c8f9245"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.920010+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.920007-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.920010+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.920007-05:00"
+    },
+    {
+      "title": "Exposed WordPress Backups Became a Gold Mine of AWS and Email Credentials",
+      "url": "https://cybersecuritynews.com/exposed-wordpress-backups/",
+      "published": "Fri, 02 Oct 2026 12:45:50 +0000",
+      "published_utc": "2026-10-02T12:45:50+00:00",
+      "summary": "<p>Exposed WordPress backups have become a valuable source of cloud and email credentials for attackers using a toolkit called TIKTOUK. Rather than relying on one technique, its components search websites for sensitive files, recover stored passwords, and collect secrets from JavaScript delivered to visitors. The operation was already active at scale when researchers first observed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/exposed-wordpress-backups/\">Exposed WordPress Backups Became a Gold Mine of AWS and Email Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165501",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/exposed-wordpress-backups",
+      "content_hash": "14cf1f01651ec06d2487507c6fab44da8dd8a502970115e7da24b427afefba5f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "14cf1f01651ec06d2487507c6fab44da8dd8a502970115e7da24b427afefba5f",
+        "FEEDBURNER": "14cf1f01651ec06d2487507c6fab44da8dd8a502970115e7da24b427afefba5f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T18:00:11.920010+00:00",
+      "first_seen_local": "2026-10-02T13:00:11.920007-05:00",
+      "last_updated_utc": "2026-10-02T18:00:11.920010+00:00",
+      "last_updated_local": "2026-10-02T13:00:11.920007-05:00"
+    },
     {
       "title": "Zammad 0-Day Vulnerabilities Exploited to Gain Remote Code Execution and Root Access",
       "url": "https://cybersecuritynews.com/zammad-0-day-vulnerabilities-exploited/",

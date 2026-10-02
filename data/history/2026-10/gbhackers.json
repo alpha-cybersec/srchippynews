@@ -2,8 +2,90 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 15,
+  "article_count": 18,
   "articles": [
+    {
+      "title": "New Infostealer Can Steal Passwords, Cards, Cookies and Wi-Fi Keys From Windows PCs",
+      "url": "https://gbhackers.com/python-based-infostealer/",
+      "published": "Fri, 02 Oct 2026 05:54:24 +0000",
+      "published_utc": "2026-10-02T05:54:24+00:00",
+      "summary": "<p>A Python-based infostealer builder that enables threat actors to generate customized Windows payloads capable of stealing browser credentials, payment-card data, session cookies, Discord tokens, Wi-Fi passwords and extensive system information. Rather than functioning as a single-use stealer, the package includes a builder interface and an embedded payload, providing a model consistent with Malware-as-a-Service operations. Operators [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-based-infostealer/\">New Infostealer Can Steal Passwords, Cards, Cookies and Wi-Fi Keys From Windows PCs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201857",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/python-based-infostealer",
+      "content_hash": "e6949e2ead950df38bbd002079818ea07a65844bd955bb9dac59e9fd7ccd96f6",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e6949e2ead950df38bbd002079818ea07a65844bd955bb9dac59e9fd7ccd96f6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T06:06:09.110519+00:00",
+      "first_seen_local": "2026-10-02T01:06:09.110516-05:00",
+      "last_updated_utc": "2026-10-02T06:06:09.110519+00:00",
+      "last_updated_local": "2026-10-02T01:06:09.110516-05:00"
+    },
+    {
+      "title": "Fortinet FortiMail Path Traversal Flaw Actively Exploited to Compromise Servers",
+      "url": "https://gbhackers.com/fortinet-fortimail-path-traversal-flaw/",
+      "published": "Fri, 02 Oct 2026 05:14:47 +0000",
+      "published_utc": "2026-10-02T05:14:47+00:00",
+      "summary": "<p>Fortinet has disclosed a critical vulnerability in FortiMail that attackers are actively exploiting to compromise vulnerable email security appliances. This flaw, tracked as CVE-2026-104286, has a CVSS v3.1 score of 9.8. It enables unauthenticated attackers to write arbitrary files to the underlying system via specially crafted HTTP or HTTPS requests. Fortinet FortiMail Path Traversal Flaw [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-fortimail-path-traversal-flaw/\">Fortinet FortiMail Path Traversal Flaw Actively Exploited to Compromise Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201852",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fortinet-fortimail-path-traversal-flaw",
+      "content_hash": "6cd41d1ec5d704e39b7b4ab241845fe84e6c9793391213c15b53eb95bdef0840",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6cd41d1ec5d704e39b7b4ab241845fe84e6c9793391213c15b53eb95bdef0840",
+        "FEEDBURNER": "6cd41d1ec5d704e39b7b4ab241845fe84e6c9793391213c15b53eb95bdef0840"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T06:06:09.110519+00:00",
+      "first_seen_local": "2026-10-02T01:06:09.110516-05:00",
+      "last_updated_utc": "2026-10-02T06:06:09.110519+00:00",
+      "last_updated_local": "2026-10-02T01:06:09.110516-05:00"
+    },
+    {
+      "title": "Apache HTTP Server Flaws Enable Remote Code Execution and Denial-of-Service Attacks",
+      "url": "https://gbhackers.com/apache-http-server-flaws/",
+      "published": "Fri, 02 Oct 2026 05:01:20 +0000",
+      "published_utc": "2026-10-02T05:01:20+00:00",
+      "summary": "<p>Apache HTTP Server administrators are urged to apply security updates following the disclosure of multiple vulnerabilities affecting Apache HTTP Server 2.4. These vulnerabilities include flaws that could allow for remote code execution (RCE), server crashes, memory exhaustion, and other denial-of-service (DoS) conditions. They impact various components of this widely used web server, particularly configurations that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-http-server-flaws/\">Apache HTTP Server Flaws Enable Remote Code Execution and Denial-of-Service Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=201847",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apache-http-server-flaws",
+      "content_hash": "bc8f58a1c872dab6bde05c31f4e40e22b7c4adcad3afd7e3907a9a62449e890a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bc8f58a1c872dab6bde05c31f4e40e22b7c4adcad3afd7e3907a9a62449e890a",
+        "FEEDBURNER": "bc8f58a1c872dab6bde05c31f4e40e22b7c4adcad3afd7e3907a9a62449e890a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-02T06:06:09.110519+00:00",
+      "first_seen_local": "2026-10-02T01:06:09.110516-05:00",
+      "last_updated_utc": "2026-10-02T06:06:09.110519+00:00",
+      "last_updated_local": "2026-10-02T01:06:09.110516-05:00"
+    },
     {
       "title": "TerminalFix Attacks Deploy Lorem Ipsum Loader to Create Covert Tunnels Into Corporate Networks",
       "url": "https://gbhackers.com/terminalfix-attacks/",

@@ -5,14 +5,31 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers",
+          "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/",
+          "published": "Sat, 03 Oct 2026 17:21:44 +0000",
+          "published_utc": "2026-10-03T17:21:44+00:00",
+          "summary": "<p>A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group. Reuters reported on October 3 that three people familiar with the matter confirmed the detention of Saif al-Din Khader, whose alleged online nickname is Rey. Two sources said Jordanian authorities took Khader into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/\">ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165633"
+        },
+        {
+          "title": "Microsoft Pushes New Exchange V2 Update After Discovering New Security Flaw",
+          "url": "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update/",
+          "published": "Sat, 03 Oct 2026 14:59:30 +0000",
+          "published_utc": "2026-10-03T14:59:30+00:00",
+          "summary": "<p>Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users’ mailboxes within the same organization. Tracked as CVE-2026&#8211;96940, the vulnerability could expose email messages and attachments, making it a serious concern for businesses running Exchange on-premises. The flaw involves weak authorization, allowing an attacker [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-reissues-exchange-server-update/\">Microsoft Pushes New Exchange V2 Update After Discovering New Security Flaw</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=165628"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

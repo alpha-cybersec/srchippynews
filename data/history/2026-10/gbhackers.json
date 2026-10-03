@@ -2,8 +2,86 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 35,
+  "article_count": 38,
   "articles": [
+    {
+      "title": "Critical GitLab AI Gateway Flaw Lets Attackers Execute Arbitrary Commands",
+      "url": "https://gbhackers.com/critical-gitlab-ai-gateway-flaw/",
+      "published": "Sat, 03 Oct 2026 06:14:55 +0000",
+      "published_utc": "2026-10-03T06:14:55+00:00",
+      "summary": "<p>GitLab has issued emergency security updates for a critical vulnerability in its Self-Hosted AI Gateway that could allow authenticated attackers to execute arbitrary commands on vulnerable AI Gateway deployments. The flaw, tracked as CVE-2026-90970, carries a CVSS severity score of 9.9 out of 10. The company released GitLab AI Gateway versions 19.2.4, 19.3.2, and 19.4.1 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-gitlab-ai-gateway-flaw/\">Critical GitLab AI Gateway Flaw Lets Attackers Execute Arbitrary Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202032",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-gitlab-ai-gateway-flaw",
+      "content_hash": "47deb702c8e34d97b375ad513d108e4421d93c05b8dd574b8d8b91eb82993850",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "47deb702c8e34d97b375ad513d108e4421d93c05b8dd574b8d8b91eb82993850"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-03T07:02:47.507824+00:00",
+      "first_seen_local": "2026-10-03T02:02:47.507822-05:00",
+      "last_updated_utc": "2026-10-03T07:02:47.507824+00:00",
+      "last_updated_local": "2026-10-03T02:02:47.507822-05:00"
+    },
+    {
+      "title": "AWS AI Agent Vulnerabilities Let Attackers Bypass Authentication and Steal Credentials",
+      "url": "https://gbhackers.com/aws-ai-agent-vulnerabilities/",
+      "published": "Sat, 03 Oct 2026 06:04:52 +0000",
+      "published_utc": "2026-10-03T06:04:52+00:00",
+      "summary": "<p>AWS has released security fixes for four vulnerabilities affecting its open-source Loom AI agent orchestration platform and Amazon SageMaker Unified Studio. The flaws could allow attackers to bypass authentication, steal OAuth2 tokens and temporary cloud credentials, access internal services, and execute arbitrary code in another user’s SageMaker environment. AWS disclosed the issues in security bulletins [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-ai-agent-vulnerabilities/\">AWS AI Agent Vulnerabilities Let Attackers Bypass Authentication and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202028",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/aws-ai-agent-vulnerabilities",
+      "content_hash": "5beab67f2134e8287af7c491b7d248537d19490bd96cdc83b80d43237e9f6ddf",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5beab67f2134e8287af7c491b7d248537d19490bd96cdc83b80d43237e9f6ddf"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-03T07:02:47.507824+00:00",
+      "first_seen_local": "2026-10-03T02:02:47.507822-05:00",
+      "last_updated_utc": "2026-10-03T07:02:47.507824+00:00",
+      "last_updated_local": "2026-10-03T02:02:47.507822-05:00"
+    },
+    {
+      "title": "Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update",
+      "url": "https://gbhackers.com/citrix-netscaler-appliances-reboot/",
+      "published": "Sat, 03 Oct 2026 05:51:55 +0000",
+      "published_utc": "2026-10-03T05:51:55+00:00",
+      "summary": "<p>Citrix NetScaler administrators report repeated appliance crashes and forced reboots after deploying emergency updates for recently disclosed zero-day vulnerabilities, with the disruption now linked to a newly observed issue affecting SAML authentication deployments. The reports involve internet-facing NetScaler ADC and Gateway systems running patched releases, including version 14.1-73.37, which Citrix previously designated as a fixed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-netscaler-appliances-reboot/\">Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202024",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/citrix-netscaler-appliances-reboot",
+      "content_hash": "c5740d54a16e25b5705c41bbc86bfa2c0eb2cb3538d5d048b07fcbf225627cf9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c5740d54a16e25b5705c41bbc86bfa2c0eb2cb3538d5d048b07fcbf225627cf9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-03T07:02:47.507824+00:00",
+      "first_seen_local": "2026-10-03T02:02:47.507822-05:00",
+      "last_updated_utc": "2026-10-03T07:02:47.507824+00:00",
+      "last_updated_local": "2026-10-03T02:02:47.507822-05:00"
+    },
     {
       "title": "Sony PS5 Relapse Jailbreak Exploit Uses JSC Memory Corruption and Kernel UAF",
       "url": "https://gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses/",

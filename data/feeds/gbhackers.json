@@ -17,39 +17,14 @@
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
       "endpoint": "https://feeds.feedburner.com/gbhackers",
-      "status": "SUCCESS",
+      "status": "FAILED",
       "http_status": 200,
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 3,
-      "articles": [
-        {
-          "title": "Critical GitLab AI Gateway Flaw Lets Attackers Execute Arbitrary Commands",
-          "url": "https://gbhackers.com/critical-gitlab-ai-gateway-flaw/",
-          "published": "Sat, 03 Oct 2026 06:14:55 +0000",
-          "published_utc": "2026-10-03T06:14:55+00:00",
-          "summary": "<p>GitLab has issued emergency security updates for a critical vulnerability in its Self-Hosted AI Gateway that could allow authenticated attackers to execute arbitrary commands on vulnerable AI Gateway deployments. The flaw, tracked as CVE-2026-90970, carries a CVSS severity score of 9.9 out of 10. The company released GitLab AI Gateway versions 19.2.4, 19.3.2, and 19.4.1 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-gitlab-ai-gateway-flaw/\">Critical GitLab AI Gateway Flaw Lets Attackers Execute Arbitrary Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202032"
-        },
-        {
-          "title": "AWS AI Agent Vulnerabilities Let Attackers Bypass Authentication and Steal Credentials",
-          "url": "https://gbhackers.com/aws-ai-agent-vulnerabilities/",
-          "published": "Sat, 03 Oct 2026 06:04:52 +0000",
-          "published_utc": "2026-10-03T06:04:52+00:00",
-          "summary": "<p>AWS has released security fixes for four vulnerabilities affecting its open-source Loom AI agent orchestration platform and Amazon SageMaker Unified Studio. The flaws could allow attackers to bypass authentication, steal OAuth2 tokens and temporary cloud credentials, access internal services, and execute arbitrary code in another user’s SageMaker environment. AWS disclosed the issues in security bulletins [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-ai-agent-vulnerabilities/\">AWS AI Agent Vulnerabilities Let Attackers Bypass Authentication and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202028"
-        },
-        {
-          "title": "Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update",
-          "url": "https://gbhackers.com/citrix-netscaler-appliances-reboot/",
-          "published": "Sat, 03 Oct 2026 05:51:55 +0000",
-          "published_utc": "2026-10-03T05:51:55+00:00",
-          "summary": "<p>Citrix NetScaler administrators report repeated appliance crashes and forced reboots after deploying emergency updates for recently disclosed zero-day vulnerabilities, with the disruption now linked to a newly observed issue affecting SAML authentication deployments. The reports involve internet-facing NetScaler ADC and Gateway systems running patched releases, including version 14.1-73.37, which Citrix previously designated as a fixed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-netscaler-appliances-reboot/\">Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202024"
-        }
-      ],
-      "error": ""
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "Posible CAPTCHA/WAF: captcha"
     }
   }
 }

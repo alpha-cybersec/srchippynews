@@ -1,7 +1,38 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-04T02:31:46.816849+00:00",
+  "generated_at_local": "2026-10-03T21:31:46.816857-05:00",
+  "article_count": 1,
+  "new_count": 1,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "cybersecuritynews": 1
+  },
+  "articles": [
+    {
+      "title": "Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000",
+      "url": "https://cybersecuritynews.com/kvm-zero-day-vm-escape/",
+      "published": "Sun, 04 Oct 2026 02:05:48 +0000",
+      "published_utc": "2026-10-04T02:05:48+00:00",
+      "summary": "<p>Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host. The discovery came through the Vercel Sandbox bug bounty program, raising concerns about a security boundary used to contain untrusted workloads and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kvm-zero-day-vm-escape/\">Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165636",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kvm-zero-day-vm-escape",
+      "content_hash": "d05d9b509bcafc739f7c6390f2c08c74a31c6a913a9b4d34f4c50e5ed8724b7b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d05d9b509bcafc739f7c6390f2c08c74a31c6a913a9b4d34f4c50e5ed8724b7b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-04T02:31:40.907111+00:00",
+      "first_seen_local": "2026-10-03T21:31:40.907108-05:00",
+      "last_updated_utc": "2026-10-04T02:31:40.907111+00:00",
+      "last_updated_local": "2026-10-03T21:31:40.907108-05:00"
+    }
+  ]
 }

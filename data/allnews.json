@@ -1,123 +1,839 @@
 {
-  "generated_at_utc": "2026-10-05T06:53:41.328584+00:00",
-  "generated_at_local": "2026-10-05T01:53:41.328592-05:00",
-  "article_count": 4,
-  "new_count": 4,
-  "updated_count": 0,
+  "generated_at_utc": "2026-10-05T15:53:50.801360+00:00",
+  "generated_at_local": "2026-10-05T10:53:50.801367-05:00",
+  "article_count": 30,
+  "new_count": 29,
+  "updated_count": 1,
   "sources": {
-    "thehackernews": 1,
-    "gbhackers": 3
+    "cybersecuritynews": 14,
+    "thehackernews": 6,
+    "gbhackers": 10
   },
   "articles": [
     {
-      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-      "url": "http://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "published": "Mon, 05 Oct 2026 06:40:19 +0000",
-      "published_utc": "2026-10-05T06:40:19+00:00",
-      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0.\n\n\"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2570644909926920825",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "content_hash": "18601d63d45ff250a340346f09cfcc0cbaf2e847c02f0d990902008914b3be6a",
+      "title": "Malicious HEIC Images Can Trigger Remote Code Execution on WordPress Servers",
+      "url": "https://cybersecuritynews.com/malicious-heic-images/",
+      "published": "Mon, 05 Oct 2026 15:20:02 +0000",
+      "published_utc": "2026-10-05T15:20:02+00:00",
+      "summary": "<p>A malicious HEIC image can become a route to remote code execution on a WordPress server. Researchers have demonstrated an attack chain that turns a normal Media Library upload into code execution in the PHP-FPM process that runs the site. The risk comes from libheif, a widely used component that reads HEIC, HEIF and AVIF [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-heic-images/\">Malicious HEIC Images Can Trigger Remote Code Execution on WordPress Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165822",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malicious-heic-images",
+      "content_hash": "2b6eddd32927b2aaf729a5af2dd3e7636d7e06a8f9e206517aca1e3424351067",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "18601d63d45ff250a340346f09cfcc0cbaf2e847c02f0d990902008914b3be6a"
+        "ORIGINAL": "2b6eddd32927b2aaf729a5af2dd3e7636d7e06a8f9e206517aca1e3424351067"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "16 Suspects Detained in Timor-Leste for Japanese Police Impersonation Scam",
+      "url": "https://cybersecuritynews.com/timor-leste/",
+      "published": "Mon, 05 Oct 2026 15:09:43 +0000",
+      "published_utc": "2026-10-05T15:09:43+00:00",
+      "summary": "<p>Investigators in Timor-Leste have detained 16 people after raiding a building in Dili allegedly used to run telephone scams against people in Japan. The suspects are accused of posing as Japanese police, using staged surroundings and a prepared script to make their claims appear credible. The group included seven Japanese nationals and six Chinese nationals. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/timor-leste/\">16 Suspects Detained in Timor-Leste for Japanese Police Impersonation Scam</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165806",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/timor-leste",
+      "content_hash": "bdcbf2a9692f89849be393a1efec454ab9dec8b056511002a74d8a2df4b9c35c",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bdcbf2a9692f89849be393a1efec454ab9dec8b056511002a74d8a2df4b9c35c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+      "url": "http://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "published": "Mon, 05 Oct 2026 14:20:43 +0000",
+      "published_utc": "2026-10-05T14:20:43+00:00",
+      "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.\n\nThere are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7304764772073318031",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "content_hash": "479da010fa4fb361ec38e93f2ae62440c33c17e05eecbaee03b11a6260bf583c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "479da010fa4fb361ec38e93f2ae62440c33c17e05eecbaee03b11a6260bf583c",
+        "FEEDBURNER": "479da010fa4fb361ec38e93f2ae62440c33c17e05eecbaee03b11a6260bf583c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:50.796184+00:00",
+      "first_seen_local": "2026-10-05T10:53:50.796181-05:00",
+      "last_updated_utc": "2026-10-05T15:53:50.796184+00:00",
+      "last_updated_local": "2026-10-05T10:53:50.796181-05:00"
+    },
+    {
+      "title": "Researcher Infiltrates Lazarus Group’s Crypto Laundering Network After $1.5B Bybit Hack",
+      "url": "https://cybersecuritynews.com/zachxbt-infiltrates-lazarus-group/",
+      "published": "Mon, 05 Oct 2026 14:10:04 +0000",
+      "published_utc": "2026-10-05T14:10:04+00:00",
+      "summary": "<p>Blockchain investigator ZachXBT says he infiltrated a Chinese crypto laundering network linked to North Korea’s Lazarus Group after the $1.5 billion Bybit hack. His investigation connected private chats with public blockchain records and, he says, helped freeze stolen funds while exposing operators who claimed to handle money from several major thefts. In an October 5 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zachxbt-infiltrates-lazarus-group/\">Researcher Infiltrates Lazarus Group&#8217;s Crypto Laundering Network After $1.5B Bybit Hack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165807",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/zachxbt-infiltrates-lazarus-group",
+      "content_hash": "ee595c4ec2c086b22748fb55ab82cf0f7637d7a891d1c23af84f8ca1b5f492c0",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ee595c4ec2c086b22748fb55ab82cf0f7637d7a891d1c23af84f8ca1b5f492c0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Zammad Zero-Day Chain Lets AI Agent Hijack Sessions, Execute Code and Escalate to Root",
+      "url": "https://cybersecuritynews.com/zammad-zero-day/",
+      "published": "Mon, 05 Oct 2026 14:07:34 +0000",
+      "published_utc": "2026-10-05T14:07:34+00:00",
+      "summary": "<p>An AI agent breached the Dutch Institute for Vulnerability Disclosure by chaining two previously unknown flaws in Zammad, an open source helpdesk platform. The September 21, 2026 attack moved from a hijacked session to root access, giving the intruder full control of the server within seconds. DIVD detected the intrusion the following day and blocked [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zammad-zero-day/\">Zammad Zero-Day Chain Lets AI Agent Hijack Sessions, Execute Code and Escalate to Root</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165792",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/zammad-zero-day",
+      "content_hash": "2c399c5637022f68d5efddade2d4159003b3cc3ed6e431a5c93f8a18d2dcef7a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2c399c5637022f68d5efddade2d4159003b3cc3ed6e431a5c93f8a18d2dcef7a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/cisa-citrix-netscaler-vulnerability-exploited/",
+      "published": "Mon, 05 Oct 2026 13:44:50 +0000",
+      "published_utc": "2026-10-05T13:44:50+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency has added a Citrix NetScaler vulnerability, tracked as CVE-2026-88779, to its Known Exploited Vulnerabilities catalog after confirming active exploitation. The flaw affects Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway). CVE-2026-88779 is an improper restriction of operations within the bounds of a memory [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-citrix-netscaler-vulnerability-exploited/\">CISA Warns of Citrix NetScaler Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165761",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cisa-citrix-netscaler-vulnerability-exploited",
+      "content_hash": "6719ccc60912ab56b74a1e9509a945b132332e9ba0a662999b03b25360c81ecb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6719ccc60912ab56b74a1e9509a945b132332e9ba0a662999b03b25360c81ecb",
+        "FEEDBURNER": "6719ccc60912ab56b74a1e9509a945b132332e9ba0a662999b03b25360c81ecb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Google Gemini Will Soon Get Full Access Permission to Use Your Computer",
+      "url": "https://cybersecuritynews.com/google-gemini-computer-access/",
+      "published": "Mon, 05 Oct 2026 13:33:54 +0000",
+      "published_utc": "2026-10-05T13:33:54+00:00",
+      "summary": "<p>Google’s Gemini Desktop app may soon introduce a “Full Access” permission that would let the AI assistant read files, control applications, access network services, and take action across a user’s Mac. The capability appears to be part of a hidden “Additional sandbox options” setting discovered in a recent version of the Gemini Desktop app. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-gemini-computer-access/\">Google Gemini Will Soon Get Full Access Permission to Use Your Computer</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165778",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-gemini-computer-access",
+      "content_hash": "2ff9c5446ff81dcea2a9a0257e36d54caa77241a86997a58762a231287ca6347",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2ff9c5446ff81dcea2a9a0257e36d54caa77241a86997a58762a231287ca6347",
+        "FEEDBURNER": "2ff9c5446ff81dcea2a9a0257e36d54caa77241a86997a58762a231287ca6347"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "New RemoveMacAI Tool Removes Apple Intelligence Models and Reclaims Mac Storage",
+      "url": "https://gbhackers.com/new-removemacai-tool-removes-apple-intelligence-models/",
+      "published": "Mon, 05 Oct 2026 13:13:52 +0000",
+      "published_utc": "2026-10-05T13:13:52+00:00",
+      "summary": "<p>A new open-source command-line utility called RemoveMacAI lets Apple silicon Mac users running macOS 27 disable Apple Intelligence, remove downloaded on-device AI models, and prevent the operating system from automatically downloading them again. Developed by Om Lahore and released under the MIT license, RemoveMacAI addresses storage and manageability concerns for users who have disabled Apple [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-removemacai-tool-removes-apple-intelligence-models/\">New RemoveMacAI Tool Removes Apple Intelligence Models and Reclaims Mac Storage</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202215",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/new-removemacai-tool-removes-apple-intelligence-models",
+      "content_hash": "99178619dc05b08ad28c503b4978b058f514387bfae8afd450564b645a41b189",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "99178619dc05b08ad28c503b4978b058f514387bfae8afd450564b645a41b189",
+        "FEEDBURNER": "99178619dc05b08ad28c503b4978b058f514387bfae8afd450564b645a41b189"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "Apple Strengthens macOS Privacy Controls as AI Agents Become More Autonomous",
+      "url": "https://gbhackers.com/apple-strengthens-macos-privacy-controls/",
+      "published": "Mon, 05 Oct 2026 13:03:18 +0000",
+      "published_utc": "2026-10-05T13:03:18+00:00",
+      "summary": "<p>Apple has announced plans to strengthen macOS controls for Full Disk Access, citing concerns that increasingly autonomous AI agents could raise privacy and security risks by giving applications extensive access to users&#8217; devices. In a developer update on October 2, Apple stated it will introduce additional controls for macOS Full Disk Access, a powerful permission [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-strengthens-macos-privacy-controls/\">Apple Strengthens macOS Privacy Controls as AI Agents Become More Autonomous</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202211",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apple-strengthens-macos-privacy-controls",
+      "content_hash": "8db207c19af7647bab8f3cf9c5870afb11e3224d0b6f541a838f2f6731ef55e2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8db207c19af7647bab8f3cf9c5870afb11e3224d0b6f541a838f2f6731ef55e2",
+        "FEEDBURNER": "8db207c19af7647bab8f3cf9c5870afb11e3224d0b6f541a838f2f6731ef55e2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "ClickFix Fake CAPTCHA Attack Executes Malware Hidden Inside Browser Cache",
+      "url": "https://cybersecuritynews.com/clickfix-fake-captcha-attack/",
+      "published": "Mon, 05 Oct 2026 13:02:42 +0000",
+      "published_utc": "2026-10-05T13:02:42+00:00",
+      "summary": "<p>A new ClickFix campaign is turning a web safety check into a route for malware. Visitors to compromised websites see a fake CAPTCHA or repair message and are told to open the Windows Run dialog, paste copied text, and press Enter. The instruction looks simple, but it makes the victim run the attacker’s command. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clickfix-fake-captcha-attack/\">ClickFix Fake CAPTCHA Attack Executes Malware Hidden Inside Browser Cache</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165785",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/clickfix-fake-captcha-attack",
+      "content_hash": "67123f6c2b9d800dace12e6b8e8da0f8a96146afded421f565262f61df89cf30",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "67123f6c2b9d800dace12e6b8e8da0f8a96146afded421f565262f61df89cf30",
+        "FEEDBURNER": "67123f6c2b9d800dace12e6b8e8da0f8a96146afded421f565262f61df89cf30"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "RemoveMacAI Free Up 12GB of Data by Removing Apple Intelligence Models",
+      "url": "https://cybersecuritynews.com/removemacai-removes-ai-models/",
+      "published": "Mon, 05 Oct 2026 12:53:19 +0000",
+      "published_utc": "2026-10-05T12:53:19+00:00",
+      "summary": "<p>RemoveMacAI, an open-source tool on GitHub, lets Mac users disable Apple Intelligence, remove its downloaded models, and block future downloads. The utility can recover roughly 10GB to 12GB of storage, depending on which models are present. Its changes are reversible, and the removal process leaves macOS System Integrity Protection enabled. The tool addresses a storage [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/removemacai-removes-ai-models/\">RemoveMacAI Free Up 12GB of Data by Removing Apple Intelligence Models</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165787",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/removemacai-removes-ai-models",
+      "content_hash": "6c245d8816bd5153f54e3efe847de68e1ee5451f87dad8bdff1b1c5ce04ad207",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c245d8816bd5153f54e3efe847de68e1ee5451f87dad8bdff1b1c5ce04ad207",
+        "FEEDBURNER": "6c245d8816bd5153f54e3efe847de68e1ee5451f87dad8bdff1b1c5ce04ad207"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Google Gemini to Gain Full Computer Access With New Permission",
+      "url": "https://gbhackers.com/google-gemini-to-gain-full-computer-access/",
+      "published": "Mon, 05 Oct 2026 12:51:39 +0000",
+      "published_utc": "2026-10-05T12:51:39+00:00",
+      "summary": "<p>Google is reportedly testing a new Gemini Desktop feature that could give its AI agent extensive control over a user’s Mac. This includes access to files, interaction with installed applications, and network communication, all with fewer prompts requiring user approval for each action. Currently, Google has not publicly released this capability, and it has not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-to-gain-full-computer-access/\">Google Gemini to Gain Full Computer Access With New Permission</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202207",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/google-gemini-to-gain-full-computer-access",
+      "content_hash": "d9d6341ccaeedf457c64cd4d1a22867563b7674102edebee485a455f9b7b598d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d9d6341ccaeedf457c64cd4d1a22867563b7674102edebee485a455f9b7b598d",
+        "FEEDBURNER": "d9d6341ccaeedf457c64cd4d1a22867563b7674102edebee485a455f9b7b598d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "GlassWorm Supply Chain Attack Uses Fake VS Code Themes to Deliver Hidden Malware",
+      "url": "https://cybersecuritynews.com/glassworm-supply-chain-attack/",
+      "published": "Mon, 05 Oct 2026 12:40:52 +0000",
+      "published_utc": "2026-10-05T12:40:52+00:00",
+      "summary": "<p>GlassWorm is turning developer tools into malware delivery channels, this time through extensions advertised as attractive VS Code themes. The investigated cluster spans Visual Studio Marketplace and Open VSX, showing how appearance changes can provide cover for code that runs on developer machines. The campaign first surfaced in October 2025 and has since expanded across [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/glassworm-supply-chain-attack/\">GlassWorm Supply Chain Attack Uses Fake VS Code Themes to Deliver Hidden Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165766",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/glassworm-supply-chain-attack",
+      "content_hash": "268286db7fad63fd3868e7d503a1332395c4eca96aec0a73480f07f9c5e31b0a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "268286db7fad63fd3868e7d503a1332395c4eca96aec0a73480f07f9c5e31b0a",
+        "FEEDBURNER": "268286db7fad63fd3868e7d503a1332395c4eca96aec0a73480f07f9c5e31b0a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Critical libheif Vulnerability Could Enable Remote Code Execution Through WordPress Image Uploads",
+      "url": "https://gbhackers.com/libheif-vulnerability/",
+      "published": "Mon, 05 Oct 2026 12:38:38 +0000",
+      "published_utc": "2026-10-05T12:38:38+00:00",
+      "summary": "<p>A critical heap-buffer-overflow vulnerability in libheif could allow authenticated WordPress users to achieve remote code execution by uploading a specially crafted HEIC image through the standard Media Library workflow. The issue, tracked as GHSA-x8r2-mggj-j6wr, affects the library’s uncompressed-image (unci) decoder and has been fixed in libheif 1.23.3. In affected WordPress deployments, uploaded HEIC files can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/libheif-vulnerability/\">Critical libheif Vulnerability Could Enable Remote Code Execution Through WordPress Image Uploads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202191",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/libheif-vulnerability",
+      "content_hash": "acc391d08390e806a4ad5a1f85493f5b12feb16142f102ac42b3ef70ca203748",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "acc391d08390e806a4ad5a1f85493f5b12feb16142f102ac42b3ef70ca203748",
+        "FEEDBURNER": "acc391d08390e806a4ad5a1f85493f5b12feb16142f102ac42b3ef70ca203748"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "Apple Tightens macOS Full Disk Access as AI Agents Become More Powerful",
+      "url": "https://cybersecuritynews.com/apple-tightens-macos-full-disk-access/",
+      "published": "Mon, 05 Oct 2026 12:05:00 +0000",
+      "published_utc": "2026-10-05T12:05:00+00:00",
+      "summary": "<p>Apple plans to add stronger controls to Full Disk Access in macOS, warning that the powerful permission can expose a user’s most private data as AI agents become more capable. The company said the change will require users to take a far more deliberate action before granting an app this broad level of access. Full [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-tightens-macos-full-disk-access/\">Apple Tightens macOS Full Disk Access as AI Agents Become More Powerful</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165779",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apple-tightens-macos-full-disk-access",
+      "content_hash": "a033914b5dbd153457bc351da6f1562bf5d97727cae21e63e2dde312acc57466",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a033914b5dbd153457bc351da6f1562bf5d97727cae21e63e2dde312acc57466",
+        "FEEDBURNER": "a033914b5dbd153457bc351da6f1562bf5d97727cae21e63e2dde312acc57466"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "url": "http://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "published": "Mon, 05 Oct 2026 11:55:00 +0000",
+      "published_utc": "2026-10-05T11:55:00+00:00",
+      "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6163966513110310442",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "content_hash": "7735e6b12c57bb4f4901dad097303b1236e01eba81c7224bf8a96702bb6e69b0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7735e6b12c57bb4f4901dad097303b1236e01eba81c7224bf8a96702bb6e69b0",
+        "FEEDBURNER": "7735e6b12c57bb4f4901dad097303b1236e01eba81c7224bf8a96702bb6e69b0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:50.796184+00:00",
+      "first_seen_local": "2026-10-05T10:53:50.796181-05:00",
+      "last_updated_utc": "2026-10-05T15:53:50.796184+00:00",
+      "last_updated_local": "2026-10-05T10:53:50.796181-05:00"
+    },
+    {
+      "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+      "url": "http://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "published": "Mon, 05 Oct 2026 11:46:25 +0000",
+      "published_utc": "2026-10-05T11:46:25+00:00",
+      "summary": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel,\" Nozomi Networks said in a report",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2249530468810747398",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "content_hash": "db95f6bd53de798934ba83f0747ebb4cacdaf6d2706e67211a61df1d42dc0582",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "db95f6bd53de798934ba83f0747ebb4cacdaf6d2706e67211a61df1d42dc0582",
+        "FEEDBURNER": "db95f6bd53de798934ba83f0747ebb4cacdaf6d2706e67211a61df1d42dc0582"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:50.796184+00:00",
+      "first_seen_local": "2026-10-05T10:53:50.796181-05:00",
+      "last_updated_utc": "2026-10-05T15:53:50.796184+00:00",
+      "last_updated_local": "2026-10-05T10:53:50.796181-05:00"
+    },
+    {
+      "title": "Google Pauses Open-Source Bug Bounty Program After Flood of Invalid AI-Generated Reports",
+      "url": "https://cybersecuritynews.com/google-pauses-open-source-bug-bounty-program/",
+      "published": "Mon, 05 Oct 2026 11:44:27 +0000",
+      "published_utc": "2026-10-05T11:44:27+00:00",
+      "summary": "<p>Google has temporarily stopped accepting new product vulnerability reports through its Open Source Software Vulnerability Reward Program(OSS VRP) following a major increase in automated submissions that were mostly invalid. The change took effect on October 1, 2026, and Google said it will provide an update on the program in the first quarter of 2027. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-pauses-open-source-bug-bounty-program/\">Google Pauses Open-Source Bug Bounty Program After Flood of Invalid AI-Generated Reports</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165743",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-pauses-open-source-bug-bounty-program",
+      "content_hash": "cb7ad64d85d84d51d723e4b7eb59e8637613c3bfd0e0d5c43d4fa2e372984ea3",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "cb7ad64d85d84d51d723e4b7eb59e8637613c3bfd0e0d5c43d4fa2e372984ea3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Japanese Police Impersonation Scam Operation Dismantled as 16 Suspects Detained in Timor-Leste",
+      "url": "https://gbhackers.com/japanese-police-impersonation/",
+      "published": "Mon, 05 Oct 2026 11:38:39 +0000",
+      "published_utc": "2026-10-05T11:38:39+00:00",
+      "summary": "<p>Timor-Leste investigators have dismantled a suspected cross-border telecom fraud operation in Dili, detaining 16 individuals accused of impersonating Japanese police officers to defraud victims in Japan. The raid exposed a professionally staged social-engineering setup that included counterfeit law-enforcement props, Japanese-language call scripts and infrastructure designed to lend credibility to “digital arrest” scams. Authorities said the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/japanese-police-impersonation/\">Japanese Police Impersonation Scam Operation Dismantled as 16 Suspects Detained in Timor-Leste</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202175",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/japanese-police-impersonation",
+      "content_hash": "f865cb5d0ea0f3f68bbbd711a5673c4813035d9f078664100d6371df22c69b3a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f865cb5d0ea0f3f68bbbd711a5673c4813035d9f078664100d6371df22c69b3a",
+        "FEEDBURNER": "f865cb5d0ea0f3f68bbbd711a5673c4813035d9f078664100d6371df22c69b3a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "Hackers Abuse Legitimate ScreenConnect Tool to Gain Remote Access Through Phishing",
+      "url": "https://cybersecuritynews.com/screenconnect-tool/",
+      "published": "Mon, 05 Oct 2026 11:27:36 +0000",
+      "published_utc": "2026-10-05T11:27:36+00:00",
+      "summary": "<p>Hackers are using a legitimate ScreenConnect client to turn a payment notification into a route for remote access. Instead of delivering custom malware, the phishing attempt directs recipients to software already designed to let someone else connect to their computer. The email claims that a payment of $5745.65 has been received and invites the recipient [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/screenconnect-tool/\">Hackers Abuse Legitimate ScreenConnect Tool to Gain Remote Access Through Phishing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165740",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/screenconnect-tool",
+      "content_hash": "08c2c6a1ab6caddbc65f293a8f10b261bf26012da6a71cae1708695fd0e9a28d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "08c2c6a1ab6caddbc65f293a8f10b261bf26012da6a71cae1708695fd0e9a28d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Windows 11 KB5124010 Update Crashes Productivity Apps, Games and Media Players",
+      "url": "https://cybersecuritynews.com/windows-11-kb5124010-update-crash/",
+      "published": "Mon, 05 Oct 2026 11:16:57 +0000",
+      "published_utc": "2026-10-05T11:16:57+00:00",
+      "summary": "<p>Microsoft has confirmed a Windows 11 audio decoding bug that can cause some productivity apps, games, and media players to close without warning. The issue follows installation of KB5124010, released on September 22, 2026, or later Windows updates, and affects applications that depend on Windows to decode AC-3 (Dolby Digital) audio. The problem affects Windows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-kb5124010-update-crash/\">Windows 11 KB5124010 Update Crashes Productivity Apps, Games and Media Players</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165760",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-11-kb5124010-update-crash",
+      "content_hash": "5cb5ab238722cadcce0d9b1ec71cb5ab11a485b72d82aacd909af253a62e1949",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5cb5ab238722cadcce0d9b1ec71cb5ab11a485b72d82aacd909af253a62e1949"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "Denmark Confirms Major Security Incident Exposing 8.8 Million Citizen Records",
+      "url": "https://gbhackers.com/denmark-confirms-major-security-incident/",
+      "published": "Mon, 05 Oct 2026 10:55:15 +0000",
+      "published_utc": "2026-10-05T10:55:15+00:00",
+      "summary": "<p>Denmark has confirmed a serious cybersecurity incident involving unauthorized access to personal information in its Central Person Register (CPR), affecting about 8.8 million registered individuals. The exposed records include names, residential addresses, CPR numbers, and potentially other information held in the country’s national civil registration system. The breach&#8217;s impact exceeds Denmark’s current population because the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/denmark-confirms-major-security-incident/\">Denmark Confirms Major Security Incident Exposing 8.8 Million Citizen Records</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202170",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/denmark-confirms-major-security-incident",
+      "content_hash": "16d88edcb929a5ec947c9ffacb5656f74752d44372b911a0526a3ea7778086cf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "16d88edcb929a5ec947c9ffacb5656f74752d44372b911a0526a3ea7778086cf",
+        "FEEDBURNER": "16d88edcb929a5ec947c9ffacb5656f74752d44372b911a0526a3ea7778086cf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "CISA Flags Citrix NetScaler Flaw Exploited in Ongoing Attacks",
+      "url": "https://gbhackers.com/cisa-flags-citrix-netscaler-flaw/",
+      "published": "Mon, 05 Oct 2026 10:46:28 +0000",
+      "published_utc": "2026-10-05T10:46:28+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-88779, a high-severity vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway appliances, to its Known Exploited Vulnerabilities (KEV) Catalog due to evidence of active exploitation. Tracked as CVE-2026-88779, this vulnerability involves an improper restriction of operations within the bounds of a memory buffer, also referred [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-flags-citrix-netscaler-flaw/\">CISA Flags Citrix NetScaler Flaw Exploited in Ongoing Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202167",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-flags-citrix-netscaler-flaw",
+      "content_hash": "7a7af86bf3dcd5d46fd4345be0f3225482d6eb83009d6305c61c86f756f0c6ef",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7a7af86bf3dcd5d46fd4345be0f3225482d6eb83009d6305c61c86f756f0c6ef",
+        "FEEDBURNER": "7a7af86bf3dcd5d46fd4345be0f3225482d6eb83009d6305c61c86f756f0c6ef"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "url": "http://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "published": "Mon, 05 Oct 2026 10:38:50 +0000",
+      "published_utc": "2026-10-05T10:38:50+00:00",
+      "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9111827742720329123",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "content_hash": "bd17bda190804ab7e6d44d8a7555d1171d69584cd2e9c036d27df49b81c07090",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bd17bda190804ab7e6d44d8a7555d1171d69584cd2e9c036d27df49b81c07090",
+        "FEEDBURNER": "bd17bda190804ab7e6d44d8a7555d1171d69584cd2e9c036d27df49b81c07090"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:50.796184+00:00",
+      "first_seen_local": "2026-10-05T10:53:50.796181-05:00",
+      "last_updated_utc": "2026-10-05T15:53:50.796184+00:00",
+      "last_updated_local": "2026-10-05T10:53:50.796181-05:00"
+    },
+    {
+      "title": "Denmark Data Breach Exposes Personal Records of 8.8 Million People",
+      "url": "https://cybersecuritynews.com/denmark-data-breach/",
+      "published": "Mon, 05 Oct 2026 10:26:23 +0000",
+      "published_utc": "2026-10-05T10:26:23+00:00",
+      "summary": "<p>Denmark has confirmed a major data breach involving its Central Population Register, known as CPR, after unauthorized parties accessed personal records belonging to about 8.8 million people. The exposed information includes names, addresses, and CPR numbers, according to an official statement published on October 5, 2026. The figure exceeds Denmark’s population of roughly six million [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/denmark-data-breach/\">Denmark Data Breach Exposes Personal Records of 8.8 Million People</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165751",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/denmark-data-breach",
+      "content_hash": "54c41bc977d4c78aacf4e1ad7495a75d3fc69ac108b5aa5b298d729f3f3c3a67",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "54c41bc977d4c78aacf4e1ad7495a75d3fc69ac108b5aa5b298d729f3f3c3a67"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:45.213270+00:00",
+      "first_seen_local": "2026-10-05T10:53:45.213266-05:00",
+      "last_updated_utc": "2026-10-05T15:53:45.213270+00:00",
+      "last_updated_local": "2026-10-05T10:53:45.213266-05:00"
+    },
+    {
+      "title": "MediaTek Fixes 31 Security Flaws Affecting Modem, Video and AI Components",
+      "url": "https://gbhackers.com/mediatek-fixes-31-security-flaws/",
+      "published": "Mon, 05 Oct 2026 10:00:37 +0000",
+      "published_utc": "2026-10-05T10:00:37+00:00",
+      "summary": "<p>MediaTek has released its October 2026 Product Security Bulletin, which addresses 31 vulnerabilities across modem, video, AI processing, display, trusted execution, and system components used in a wide range of its chipsets. The fixes include two critical modem out-of-bounds write vulnerabilities and nine high-severity flaws that could potentially lead to memory corruption, privilege escalation, or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mediatek-fixes-31-security-flaws/\">MediaTek Fixes 31 Security Flaws Affecting Modem, Video and AI Components</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202154",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/mediatek-fixes-31-security-flaws",
+      "content_hash": "4395e7a12d3c1ace6594cf2339405145197327c6f814ffe845bca6a16806ad52",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4395e7a12d3c1ace6594cf2339405145197327c6f814ffe845bca6a16806ad52",
+        "FEEDBURNER": "4395e7a12d3c1ace6594cf2339405145197327c6f814ffe845bca6a16806ad52"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports",
+      "url": "https://gbhackers.com/google-tightens-open-source-bug-bounty-rules/",
+      "published": "Mon, 05 Oct 2026 09:52:59 +0000",
+      "published_utc": "2026-10-05T09:52:59+00:00",
+      "summary": "<p>Google has stopped accepting new &#8220;product vulnerability&#8221; reports through its Open Source Software Vulnerability Reward Program (OSS VRP) due to a significant increase in automated submissions that are predominantly invalid. This restriction took effect on October 1, 2026, and Google plans to provide an update regarding this part of the program in the first quarter [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-tightens-open-source-bug-bounty-rules/\">Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202150",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/google-tightens-open-source-bug-bounty-rules",
+      "content_hash": "7de22b5a34db8ddd64726082723afe96ab9e20db42e6dfbbe00041ffad7c0ef5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7de22b5a34db8ddd64726082723afe96ab9e20db42e6dfbbe00041ffad7c0ef5",
+        "FEEDBURNER": "7de22b5a34db8ddd64726082723afe96ab9e20db42e6dfbbe00041ffad7c0ef5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "AWS Fixes AI Agent Flaws Enabling Authentication Bypass and Credential Theft",
+      "url": "https://gbhackers.com/aws-fixes-ai-agent-flaws/",
+      "published": "Mon, 05 Oct 2026 09:39:58 +0000",
+      "published_utc": "2026-10-05T09:39:58+00:00",
+      "summary": "<p>AWS released security updates for three vulnerabilities in its open-source Loom platform, used for AI agent orchestration. These vulnerabilities could allow unauthenticated administrative takeover, disclosure of OAuth2 credentials, and access to internal services. The company strongly urges users to upgrade all Loom deployments and forks to version 1.7.0. AWS announced these issues in Security Bulletin [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-fixes-ai-agent-flaws/\">AWS Fixes AI Agent Flaws Enabling Authentication Bypass and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202141",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/aws-fixes-ai-agent-flaws",
+      "content_hash": "8489156b87f204c1b8a3db7c00b5072464370550fd2c9d7229df05e3380f10ab",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8489156b87f204c1b8a3db7c00b5072464370550fd2c9d7229df05e3380f10ab",
+        "FEEDBURNER": "8489156b87f204c1b8a3db7c00b5072464370550fd2c9d7229df05e3380f10ab"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:44.870417+00:00",
+      "first_seen_local": "2026-10-05T10:53:44.870415-05:00",
+      "last_updated_utc": "2026-10-05T15:53:44.870417+00:00",
+      "last_updated_local": "2026-10-05T10:53:44.870415-05:00"
+    },
+    {
+      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+      "url": "http://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "published": "Mon, 05 Oct 2026 08:09:23 +0000",
+      "published_utc": "2026-10-05T08:09:23+00:00",
+      "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6894648985018104663",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+      "content_hash": "d55453fd0c7f62ff665986abcc58f60bc14364e1d9b1236ff33a8f62b5a8a9a3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d55453fd0c7f62ff665986abcc58f60bc14364e1d9b1236ff33a8f62b5a8a9a3",
+        "FEEDBURNER": "d55453fd0c7f62ff665986abcc58f60bc14364e1d9b1236ff33a8f62b5a8a9a3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T15:53:50.796184+00:00",
+      "first_seen_local": "2026-10-05T10:53:50.796181-05:00",
+      "last_updated_utc": "2026-10-05T15:53:50.796184+00:00",
+      "last_updated_local": "2026-10-05T10:53:50.796181-05:00"
+    },
+    {
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "url": "http://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "published": "Mon, 05 Oct 2026 06:40:19 +0000",
+      "published_utc": "2026-10-05T06:40:19+00:00",
+      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0.\n\n\"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2570644909926920825",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "content_hash": "6a69d9c8aafe9e98afc8466b69b7225a9b5a27053dab1941e154b4f99e378d2a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6a69d9c8aafe9e98afc8466b69b7225a9b5a27053dab1941e154b4f99e378d2a",
+        "FEEDBURNER": "18601d63d45ff250a340346f09cfcc0cbaf2e847c02f0d990902008914b3be6a"
+      },
+      "feed_comparison": "CONTENT_DIFFERENT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "UPDATED",
+      "previous_content_hash": "18601d63d45ff250a340346f09cfcc0cbaf2e847c02f0d990902008914b3be6a",
+      "version": 2,
       "first_seen_utc": "2026-10-05T06:53:41.325015+00:00",
       "first_seen_local": "2026-10-05T01:53:41.325012-05:00",
-      "last_updated_utc": "2026-10-05T06:53:41.325015+00:00",
-      "last_updated_local": "2026-10-05T01:53:41.325012-05:00"
-    },
-    {
-      "title": "GlassWorm Supply Chain Attack Hides Malware Inside VS Code Color Themes",
-      "url": "https://gbhackers.com/glassworm-supply-chain/",
-      "published": "Mon, 05 Oct 2026 06:14:08 +0000",
-      "published_utc": "2026-10-05T06:14:08+00:00",
-      "summary": "<p>A GlassWorm-linked software supply chain campaign has abused seemingly harmless Visual Studio Code color themes to distribute malicious loaders across the Visual Studio Marketplace and Open VSX Registry. The activity demonstrates how extensions designed only to change editor colors can become high-impact initial-access vectors when they include unnecessary executable JavaScript. Both extensions presented themselves as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/glassworm-supply-chain/\">GlassWorm Supply Chain Attack Hides Malware Inside VS Code Color Themes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202102",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/glassworm-supply-chain",
-      "content_hash": "ff62b22ade27acb8cf00bf471d99aa03d82d06793069d478df4875e451a68dee",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ff62b22ade27acb8cf00bf471d99aa03d82d06793069d478df4875e451a68dee",
-        "FEEDBURNER": "ff62b22ade27acb8cf00bf471d99aa03d82d06793069d478df4875e451a68dee"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-05T06:53:34.806926+00:00",
-      "first_seen_local": "2026-10-05T01:53:34.806923-05:00",
-      "last_updated_utc": "2026-10-05T06:53:34.806926+00:00",
-      "last_updated_local": "2026-10-05T01:53:34.806923-05:00"
-    },
-    {
-      "title": "Attackers Abuse Legitimate ScreenConnect Client in Phishing Campaign to Gain Remote Access",
-      "url": "https://gbhackers.com/screenconnect-phishing-abuse/",
-      "published": "Mon, 05 Oct 2026 05:50:12 +0000",
-      "published_utc": "2026-10-05T05:50:12+00:00",
-      "summary": "<p>Threat actors are increasingly bypassing conventional malware detection by abusing legitimate remote monitoring and management software instead of deploying custom implants. In a recent phishing operation, attackers delivered a genuine, digitally signed ConnectWise ScreenConnect client configured to establish remote access to infrastructure controlled by the operator. The message claimed that a payment of $5,745.65 had [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/screenconnect-phishing-abuse/\">Attackers Abuse Legitimate ScreenConnect Client in Phishing Campaign to Gain Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202077",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/screenconnect-phishing-abuse",
-      "content_hash": "359144e36f1427285f2f6bd2af3fe40ead3bab0e75eb0303ade98da2511c526a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "359144e36f1427285f2f6bd2af3fe40ead3bab0e75eb0303ade98da2511c526a",
-        "FEEDBURNER": "359144e36f1427285f2f6bd2af3fe40ead3bab0e75eb0303ade98da2511c526a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-05T06:53:34.806926+00:00",
-      "first_seen_local": "2026-10-05T01:53:34.806923-05:00",
-      "last_updated_utc": "2026-10-05T06:53:34.806926+00:00",
-      "last_updated_local": "2026-10-05T01:53:34.806923-05:00"
-    },
-    {
-      "title": "Microsoft Releases Emergency Exchange Server Update to Fix CVE-2026-96940",
-      "url": "https://gbhackers.com/microsoft-releases-emergency-exchange-server-update/",
-      "published": "Mon, 05 Oct 2026 05:06:27 +0000",
-      "published_utc": "2026-10-05T05:06:27+00:00",
-      "summary": "<p>Microsoft has released a revised security update package for on-premises Exchange Server, dated September 2026, which includes a fix for CVE-2026-96940. This V2 release applies to Exchange Server Subscription Edition, Exchange Server 2019, and Exchange Server 2016. Customers using Exchange Online are already protected and do not need this update. The revised update was published [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-releases-emergency-exchange-server-update/\">Microsoft Releases Emergency Exchange Server Update to Fix CVE-2026-96940</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202091",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/microsoft-releases-emergency-exchange-server-update",
-      "content_hash": "7c5918baad88dc1bf9d2eee1c1bc6035cd9b07d229da95903a36e62d6faef5c6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7c5918baad88dc1bf9d2eee1c1bc6035cd9b07d229da95903a36e62d6faef5c6",
-        "FEEDBURNER": "7c5918baad88dc1bf9d2eee1c1bc6035cd9b07d229da95903a36e62d6faef5c6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-05T06:53:34.806926+00:00",
-      "first_seen_local": "2026-10-05T01:53:34.806923-05:00",
-      "last_updated_utc": "2026-10-05T06:53:34.806926+00:00",
-      "last_updated_local": "2026-10-05T01:53:34.806923-05:00"
+      "last_updated_utc": "2026-10-05T15:53:50.796184+00:00",
+      "last_updated_local": "2026-10-05T10:53:50.796181-05:00"
     }
   ]
 }

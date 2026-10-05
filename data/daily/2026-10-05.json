@@ -1,12 +1,40 @@
 {
   "date": "2026-10-05",
-  "article_count": 33,
+  "article_count": 34,
   "sources": {
+    "thehackernews": 7,
     "cybersecuritynews": 14,
-    "thehackernews": 6,
     "gbhackers": 13
   },
   "articles": [
+    {
+      "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+      "url": "http://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "published": "Mon, 05 Oct 2026 16:21:52 +0000",
+      "published_utc": "2026-10-05T16:21:52+00:00",
+      "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system.\n\n\"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6393652208167403226",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "content_hash": "192d6a36b1e61ebdca06776d8df3430ede57994743a6a7cde35305559e4733e4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "192d6a36b1e61ebdca06776d8df3430ede57994743a6a7cde35305559e4733e4",
+        "FEEDBURNER": "192d6a36b1e61ebdca06776d8df3430ede57994743a6a7cde35305559e4733e4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-05T22:32:54.314457+00:00",
+      "first_seen_local": "2026-10-05T17:32:54.314455-05:00",
+      "last_updated_utc": "2026-10-05T22:32:54.314457+00:00",
+      "last_updated_local": "2026-10-05T17:32:54.314455-05:00"
+    },
     {
       "title": "Malicious HEIC Images Can Trigger Remote Code Execution on WordPress Servers",
       "url": "https://cybersecuritynews.com/malicious-heic-images/",

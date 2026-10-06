@@ -1,562 +1,849 @@
 {
-  "generated_at_utc": "2026-10-06T09:21:16.886101+00:00",
-  "generated_at_local": "2026-10-06T04:21:16.886110-05:00",
-  "article_count": 20,
-  "new_count": 20,
-  "updated_count": 0,
+  "generated_at_utc": "2026-10-06T16:13:41.238300+00:00",
+  "generated_at_local": "2026-10-06T11:13:41.238309-05:00",
+  "article_count": 31,
+  "new_count": 30,
+  "updated_count": 1,
   "sources": {
-    "cybersecuritynews": 6,
-    "gbhackers": 10,
+    "cybersecuritynews": 16,
+    "gbhackers": 11,
     "thehackernews": 4
   },
   "articles": [
     {
-      "title": "ClingSTUN Backdoor Exploits Multiple IoT Vulnerabilities to Gain Persistent Remote Access",
-      "url": "https://cybersecuritynews.com/clingstun-backdoor/",
-      "published": "Tue, 06 Oct 2026 09:07:52 +0000",
-      "published_utc": "2026-10-06T09:07:52+00:00",
-      "summary": "<p>ClingSTUN is a Linux backdoor that exploits vulnerable internet-connected devices to give attackers lasting remote access. Rather than simply infecting routers and cameras, it turns compromised equipment into remotely controlled proxy nodes that can relay traffic and run commands. The campaign targets known security flaws across multiple vendors, expanding its attack methods as it evolves. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clingstun-backdoor/\">ClingSTUN Backdoor Exploits Multiple IoT Vulnerabilities to Gain Persistent Remote Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=165859",
+      "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
+      "published": "Tue, 06 Oct 2026 16:02:50 +0000",
+      "published_utc": "2026-10-06T16:02:50+00:00",
+      "summary": "<p>Four security flaws described in the supplied Apache Struts advisories could expose affected applications to remote code execution, denial-of- service, and unintended data disclosure. Recommended fixes include Struts 7.4.0 or later, or Struts 6.12.0 or later for organizations using the 6.x maintenance line. The vulnerabilities affect different framework components, so exposure depends on application configuration [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-struts-vulnerabilities/\">Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165923",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/clingstun-backdoor",
-      "content_hash": "21a6f8ea47df861e74fd24424f88f5a2cfe81e8856806e43401432e1a02d07bc",
+      "article_key": "cybersecuritynews.com/apache-struts-vulnerabilities",
+      "content_hash": "38d87aa652c55261ec9a4be0a7a59384cb2e5eec818de9fba6f1176bf1bb16cc",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "21a6f8ea47df861e74fd24424f88f5a2cfe81e8856806e43401432e1a02d07bc"
+        "ORIGINAL": "38d87aa652c55261ec9a4be0a7a59384cb2e5eec818de9fba6f1176bf1bb16cc"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:10.943195+00:00",
-      "first_seen_local": "2026-10-06T04:21:10.943192-05:00",
-      "last_updated_utc": "2026-10-06T09:21:10.943195+00:00",
-      "last_updated_local": "2026-10-06T04:21:10.943192-05:00"
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
     },
     {
-      "title": "FBI Removes Accenture Contractor After Unpatched PeopleSoft Flaw Exposes Thousands of Employees",
+      "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer’s Windows Network",
+      "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
+      "published": "Tue, 06 Oct 2026 15:50:56 +0000",
+      "published_utc": "2026-10-06T15:50:56+00:00",
+      "summary": "<p>A former infrastructure engineer has been sentenced to 32 months in federal prison for sabotaging his employer’s Windows network and demanding a cryptocurrency ransom. Daniel Rhyne, 59, of Kansas City, Missouri, received the sentence on September 28, 2026, in federal court in Trenton. Rhyne previously pleaded guilty to extortion involving threats to damage a protected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/\">Former Infrastructure Engineer Sentenced for Sabotaging Employer&#8217;s Windows Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165930",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/former-infrastructure-engineer-sentenced",
+      "content_hash": "3515ab5f5fce2cbcb14fd6014b6dd3ab803463a356339930551377e251ceb2ea",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3515ab5f5fce2cbcb14fd6014b6dd3ab803463a356339930551377e251ceb2ea"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
+      "url": "https://cybersecuritynews.com/github-copilot-cli-vulnerability/",
+      "published": "Tue, 06 Oct 2026 15:49:18 +0000",
+      "published_utc": "2026-10-06T15:49:18+00:00",
+      "summary": "<p>A new GitHub Copilot CLI finding that could allow an attacker-controlled web page to guide the coding agent into reading local developer files and sending their contents to a remote server. The technique, called Cryptographic Context Injection (CCI), hides malicious instructions in encrypted text, making them harder for normal prompt-injection checks to inspect. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-copilot-cli-vulnerability/\">GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166040",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/github-copilot-cli-vulnerability",
+      "content_hash": "8d3e56ded0c1cb45467f3560ab096fcf6fdcbaba6e74c093e8ccf23a200a3cb4",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d3e56ded0c1cb45467f3560ab096fcf6fdcbaba6e74c093e8ccf23a200a3cb4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring",
+      "url": "https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/",
+      "published": "Tue, 06 Oct 2026 15:45:40 +0000",
+      "published_utc": "2026-10-06T15:45:40+00:00",
+      "summary": "<p>Every function in a security operations center, from alert triage to incident response, depends on how well threats are monitored. Yet many SOCs and managed security providers still treat monitoring as log collection: ingest everything, match against static indicator lists, and hope the right alert rises to the top.&#160; That model no longer holds up [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/\">From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166024",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring",
+      "content_hash": "abf4e61209b6d203d70450be113c516f7fe61c40abf1f298bbdd77ecede437be",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "abf4e61209b6d203d70450be113c516f7fe61c40abf1f298bbdd77ecede437be"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "ASOS Hacked – App Users Receive Notifications Sent by Hackers",
+      "url": "https://cybersecuritynews.com/asos-hacked/",
+      "published": "Tue, 06 Oct 2026 15:06:20 +0000",
+      "published_utc": "2026-10-06T15:06:20+00:00",
+      "summary": "<p>ASOS is investigating a cyber incident after customers received an unauthorized app notification claiming hackers had accessed its Snowflake data environment. The retailer confirmed suspicious activity involving third-party communication platforms, but the claim that its Snowflake instance was compromised remains unverified. The notification appeared at around 10 am on October 6, 2026, under the heading [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/asos-hacked/\">ASOS Hacked &#8211; App Users Receive Notifications Sent by Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166028",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/asos-hacked",
+      "content_hash": "8d2f4ff04c4c7a989fe2ece8790c65d5f4c8eb79cfc98ee301956c75c4c3ae31",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d2f4ff04c4c7a989fe2ece8790c65d5f4c8eb79cfc98ee301956c75c4c3ae31"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Aembit Extends Access Controls to Personal AI Agents",
+      "url": "https://gbhackers.com/aembit-extends-access-controls-to-personal-ai-agents/",
+      "published": "Tue, 06 Oct 2026 15:00:13 +0000",
+      "published_utc": "2026-10-06T15:00:13+00:00",
+      "summary": "<p>Silver Springs, United States / Maryland, October 6th, 2026, CyberNewswire Aembit, the identity control plane for AI agents, today announced support for securing personal agents’ access to enterprise environments, available immediately to existing customers at no additional cost.&#160; As personal agents, such as Meta Muse and OpenAI Dots, move into workplace use, they can gain [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aembit-extends-access-controls-to-personal-ai-agents/\">Aembit Extends Access Controls to Personal AI Agents</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202397",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/aembit-extends-access-controls-to-personal-ai-agents",
+      "content_hash": "bd32207e2739cde3bfb05ed787074461e1e37ddd61cd87911e508e94d4e65c46",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bd32207e2739cde3bfb05ed787074461e1e37ddd61cd87911e508e94d4e65c46"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Aembit Extends Access Controls to Personal AI Agents",
+      "url": "https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/",
+      "published": "Tue, 06 Oct 2026 14:58:37 +0000",
+      "published_utc": "2026-10-06T14:58:37+00:00",
+      "summary": "<p>Silver Springs, United States / Maryland, October 6th, 2026, CyberNewswire Aembit, the identity control plane for AI agents, today announced support for securing personal agents’ access to enterprise environments, available immediately to existing customers at no additional cost.  As personal agents, such as Meta Muse and OpenAI Dots, move into workplace use, they can gain [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/\">Aembit Extends Access Controls to Personal AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166019",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents",
+      "content_hash": "04408e75288d5a97c7e98fbe5d598dba54ffb7e01b92899a1d29f632b2336351",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "04408e75288d5a97c7e98fbe5d598dba54ffb7e01b92899a1d29f632b2336351"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure",
+      "url": "https://cybersecuritynews.com/iranian-hackers/",
+      "published": "Tue, 06 Oct 2026 14:31:24 +0000",
+      "published_utc": "2026-10-06T14:31:24+00:00",
+      "summary": "<p>Iranian state-aligned hackers have used a fake Dubai Airports recruitment process to target Iraqi critical infrastructure with a booby-trapped coding test. The campaign, called Blinder Tunnel, turned a routine developer task into a quiet, potentially long-term route for remote access, persistence and network tunneling across a victim environment. The operation was prepared as early as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iranian-hackers/\">Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166006",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/iranian-hackers",
+      "content_hash": "1e518ba19881e6c200c7500bbf085adfe85940b179e8c9c26f84bee28e4c204f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1e518ba19881e6c200c7500bbf085adfe85940b179e8c9c26f84bee28e4c204f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "url": "https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "published": "Tue, 06 Oct 2026 14:14:27 +0000",
+      "published_utc": "2026-10-06T14:14:27+00:00",
+      "summary": "<p>Torrance, Californina, October 6th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security teams worldwide, will participate in GovWare 2026 in Singapore. As security operations increasingly move beyond asset discovery toward understanding, prioritizing, and responding to exposure, Criminal IP is introducing AITEM (AI-Powered [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/\">Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165975",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management",
+      "content_hash": "df9374f77c30ca9424ff976fb7522f3c568908dae3400d0eb95a24bed26b6109",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "df9374f77c30ca9424ff976fb7522f3c568908dae3400d0eb95a24bed26b6109"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "url": "https://gbhackers.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "published": "Tue, 06 Oct 2026 14:13:42 +0000",
+      "published_utc": "2026-10-06T14:13:42+00:00",
+      "summary": "<p>Torrance, Californina, October 6th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security teams worldwide, will participate in GovWare 2026 in Singapore. As security operations increasingly move beyond asset discovery toward understanding, prioritizing, and responding to exposure, Criminal IP is introducing AITEM (AI-Powered [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/\">Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202386",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management",
+      "content_hash": "52a9a25d6ca79c05ffccf5ebc1c7bbd8cfefd8b50d40154da2deb99b4a90c8cc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "52a9a25d6ca79c05ffccf5ebc1c7bbd8cfefd8b50d40154da2deb99b4a90c8cc",
+        "FEEDBURNER": "52a9a25d6ca79c05ffccf5ebc1c7bbd8cfefd8b50d40154da2deb99b4a90c8cc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security",
+      "url": "https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/",
+      "published": "Tue, 06 Oct 2026 14:12:11 +0000",
+      "published_utc": "2026-10-06T14:12:11+00:00",
+      "summary": "<p>New York, New York, October 6th, 2026, CyberNewswire Purpose-built for AI agents, new capabilities uncover shadow AI, stop rogue enterprise agents at runtime, and issue quantum-resilient agent identities&#160; AppViewX, the leading identity security company built for the AI-powered and post-quantum enterprise, today expanded capabilities for Agent Identity Security, a solution enabling enterprises to discover every [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/\">AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165970",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security",
+      "content_hash": "546b08dd98efa67c74422be2bf66b0c4bd39d3018663b9b62313dbd7db94849f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "546b08dd98efa67c74422be2bf66b0c4bd39d3018663b9b62313dbd7db94849f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security",
+      "url": "https://gbhackers.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/",
+      "published": "Tue, 06 Oct 2026 14:11:56 +0000",
+      "published_utc": "2026-10-06T14:11:56+00:00",
+      "summary": "<p>New York, New York, October 6th, 2026, CyberNewswire Purpose-built for AI agents, new capabilities uncover shadow AI, stop rogue enterprise agents at runtime, and issue quantum-resilient agent identities&#160; AppViewX, the leading identity security company built for the AI-powered and post-quantum enterprise, today expanded capabilities for Agent Identity Security, a solution enabling enterprises to discover every [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/\">AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202377",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security",
+      "content_hash": "5441c5a63c806ba96581de80dba4f16e747c29a9673dbd1795f5283a7baad474",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5441c5a63c806ba96581de80dba4f16e747c29a9673dbd1795f5283a7baad474",
+        "FEEDBURNER": "5441c5a63c806ba96581de80dba4f16e747c29a9673dbd1795f5283a7baad474"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks",
+      "url": "https://cybersecuritynews.com/ransomware-hacker/",
+      "published": "Tue, 06 Oct 2026 14:09:29 +0000",
+      "published_utc": "2026-10-06T14:09:29+00:00",
+      "summary": "<p>A ransomware affiliate has turned an AI coding assistant into a channel for running attacks inside enterprise networks. The operator, known as Azazel, combined stolen development credentials, remote command execution and data theft while working with the Gentlemen ransomware group. The campaign affected more than two dozen organisations across six countries, including logistics, insurance, pharmaceuticals, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-hacker/\">Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165986",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ransomware-hacker",
+      "content_hash": "acef88b8822f2c10f19268d0216aab370ed3d7c2444f1d1aa82cf5292af837f6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "acef88b8822f2c10f19268d0216aab370ed3d7c2444f1d1aa82cf5292af837f6",
+        "FEEDBURNER": "acef88b8822f2c10f19268d0216aab370ed3d7c2444f1d1aa82cf5292af837f6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "OpenAI Agents Caught Editing Wikis, Making Millions of Requests That Led to Outage",
+      "url": "https://cybersecuritynews.com/openai-agents-editing-wikis/",
+      "published": "Tue, 06 Oct 2026 13:26:37 +0000",
+      "published_utc": "2026-10-06T13:26:37+00:00",
+      "summary": "<p>The Wikimedia Foundation has uncovered unauthorized wiki edits, failed hacking attempts, and millions of automated requests that it believes came from AI agents operated by OpenAI. Its October 5 disclosure raises concerns about autonomous AI systems using public websites in ways their owners never approved. The investigation found no evidence that Wikimedia’s systems or data [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-agents-editing-wikis/\">OpenAI Agents Caught Editing Wikis, Making Millions of Requests That Led to Outage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165978",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-agents-editing-wikis",
+      "content_hash": "6cffe09f3b4d8326384e5b738af6d88bc119be784efc343a701bc3a41f8c88e4",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "6cffe09f3b4d8326384e5b738af6d88bc119be784efc343a701bc3a41f8c88e4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Hackers Exploit Exposed Industrial Controllers to Disrupt US Water and Critical Infrastructure",
+      "url": "https://cybersecuritynews.com/hackers-exploit-exposed-industrial-controllers/",
+      "published": "Tue, 06 Oct 2026 13:25:35 +0000",
+      "published_utc": "2026-10-06T13:25:35+00:00",
+      "summary": "<p>Hackers are exploiting internet-connected industrial controllers to disrupt US water utilities and other essential services. Recent incidents show that poorly protected equipment can give attackers direct access to physical operations, with consequences ranging from lost monitoring to flooding and reduced water pressure. The threat involves several campaigns rather than one newly discovered malware family. Attackers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-exposed-industrial-controllers/\">Hackers Exploit Exposed Industrial Controllers to Disrupt US Water and Critical Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165935",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-exposed-industrial-controllers",
+      "content_hash": "32388cc7c89f91ae60cdce683f3ed4edc22e6eac6825aeb813690240fe083b04",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "32388cc7c89f91ae60cdce683f3ed4edc22e6eac6825aeb813690240fe083b04"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Hackers Pose as Dubai Airports Recruiters to Infect Software Engineers With ShelbyLoader V2",
+      "url": "https://gbhackers.com/shelbyloader-v2-malware/",
+      "published": "Tue, 06 Oct 2026 13:23:06 +0000",
+      "published_utc": "2026-10-06T13:23:06+00:00",
+      "summary": "<p>An Iranian state-aligned threat actor impersonated Dubai Airports recruiters to deliver weaponized coding assessments to software engineers. The operation deployed ShelbyLoader V2 through a stealthy execution chain that abused legitimate Microsoft development tools and GitHub infrastructure. Tracked as CL-STA-1178, the activity includes “Blinder Tunnel,” a campaign targeting Iraqi critical infrastructure beginning in March 2026. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shelbyloader-v2-malware/\">Hackers Pose as Dubai Airports Recruiters to Infect Software Engineers With ShelbyLoader V2</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202371",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/shelbyloader-v2-malware",
+      "content_hash": "256b5ce7659b560304a0f09ed748c781cca4fa111b608cd1ee5b6f251b6b571e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "256b5ce7659b560304a0f09ed748c781cca4fa111b608cd1ee5b6f251b6b571e",
+        "FEEDBURNER": "256b5ce7659b560304a0f09ed748c781cca4fa111b608cd1ee5b6f251b6b571e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Critical Dell System Update Tool Vulnerability Allows Attackers to Execute Code as Root User",
+      "url": "https://cybersecuritynews.com/dell-system-update-tool-vulnerability/",
+      "published": "Tue, 06 Oct 2026 12:57:06 +0000",
+      "published_utc": "2026-10-06T12:57:06+00:00",
+      "summary": "<p>Dell has released security updates for five vulnerabilities in Dell System Update (DSU), including a critical flaw that could let an unauthenticated remote attacker execute code with root privileges. The issues affect versions before 2.3.0.0, and Dell urges customers to upgrade at the earliest opportunity. The company published security advisory DSA-2026-324 on October 1, 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dell-system-update-tool-vulnerability/\">Critical Dell System Update Tool Vulnerability Allows Attackers to Execute Code as Root User</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165961",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/dell-system-update-tool-vulnerability",
+      "content_hash": "bb4c8b0b308f812ceda3d9fe690faccf8c7efecd6acec002e16b4a98144336fb",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "bb4c8b0b308f812ceda3d9fe690faccf8c7efecd6acec002e16b4a98144336fb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Gentlemen Ransomware Affiliate Uses MCP as C2 Channel in Live Cyberattacks",
+      "url": "https://gbhackers.com/ransomware-affiliate-operations/",
+      "published": "Tue, 06 Oct 2026 12:43:59 +0000",
+      "published_utc": "2026-10-06T12:43:59+00:00",
+      "summary": "<p>A Russian-speaking Gentlemen ransomware affiliate used the Model Context Protocol (MCP) to execute commands during live intrusions, turning an AI coding assistant’s tool interface into an operational command-and-control channel. CloudSEK identified the activity while investigating exposed infrastructure belonging to an operator calling himself Azazel. Azazel also operated LEAKNED, an independent leak site that allegedly diverted [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-affiliate-operations/\">Gentlemen Ransomware Affiliate Uses MCP as C2 Channel in Live Cyberattacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202357",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ransomware-affiliate-operations",
+      "content_hash": "ff1320bcb9336432bd9113cb36262b04256420444b6a94ec79e635c3a8c366da",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ff1320bcb9336432bd9113cb36262b04256420444b6a94ec79e635c3a8c366da",
+        "FEEDBURNER": "ff1320bcb9336432bd9113cb36262b04256420444b6a94ec79e635c3a8c366da"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Meta and Microsoft Reduce Internal Use of Claude AI",
+      "url": "https://gbhackers.com/meta-and-microsoft-reduce-internal-use-of-claude-ai/",
+      "published": "Tue, 06 Oct 2026 12:26:09 +0000",
+      "published_utc": "2026-10-06T12:26:09+00:00",
+      "summary": "<p>Meta and Microsoft are reducing employee reliance on Anthropic&#8217;s Claude AI while promoting their own coding assistants, according to an October 5 report by The Information. This change relates to internal budgets and development workflows, not a complete withdrawal of Claude from Microsoft&#8217;s customer offerings. This reported shift highlights competitive tension, as both companies use [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/meta-and-microsoft-reduce-internal-use-of-claude-ai/\">Meta and Microsoft Reduce Internal Use of Claude AI</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202355",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/meta-and-microsoft-reduce-internal-use-of-claude-ai",
+      "content_hash": "19f33eeeae63a463c394b7b832207804f2c5465304f1be34c0127f5837045933",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "19f33eeeae63a463c394b7b832207804f2c5465304f1be34c0127f5837045933",
+        "FEEDBURNER": "19f33eeeae63a463c394b7b832207804f2c5465304f1be34c0127f5837045933"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Accenture Contractor Removed After FBI Data Breach Exposes Thousands of Employees",
+      "url": "https://gbhackers.com/accenture-contractor-removed-after-fbi-data-breach/",
+      "published": "Tue, 06 Oct 2026 12:14:21 +0000",
+      "published_utc": "2026-10-06T12:14:21+00:00",
+      "summary": "<p>On October 5, the Federal Bureau of Investigation (FBI) terminated an Accenture employee&#8217;s contract after a security breach exposed sensitive information belonging to thousands of workers, according to Reuters. The incident involved an allegedly unpatched human resources platform, raising concerns about the bureau’s operational security. FBI cyber chief Brett Leatherman confirmed that the contractor failed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/accenture-contractor-removed-after-fbi-data-breach/\">Accenture Contractor Removed After FBI Data Breach Exposes Thousands of Employees</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202352",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/accenture-contractor-removed-after-fbi-data-breach",
+      "content_hash": "ce27285d32301d5b12eed15030847370969ce134584b656aee402628db44de4d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce27285d32301d5b12eed15030847370969ce134584b656aee402628db44de4d",
+        "FEEDBURNER": "ce27285d32301d5b12eed15030847370969ce134584b656aee402628db44de4d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "OT Attacks on US Critical Infrastructure Could Disrupt Military Operations and Physical Processes",
+      "url": "https://gbhackers.com/ot-systems-under-threat/",
+      "published": "Tue, 06 Oct 2026 12:12:04 +0000",
+      "published_utc": "2026-10-06T12:12:04+00:00",
+      "summary": "<p>US critical infrastructure faces an operational technology threat that extends beyond civilian service outages. State-sponsored intrusions and direct attacks on industrial controllers could disrupt physical processes and undermine military operations by targeting electricity, water, telecommunications, transportation, fuel, manufacturing, and logistics providers outside installation boundaries. Disabling a supporting utility or transportation system could interrupt essential services, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ot-systems-under-threat/\">OT Attacks on US Critical Infrastructure Could Disrupt Military Operations and Physical Processes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202342",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ot-systems-under-threat",
+      "content_hash": "8095869f400a083f498535d70cd17adb71017037305d5a54a7dfccae9dd92084",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8095869f400a083f498535d70cd17adb71017037305d5a54a7dfccae9dd92084",
+        "FEEDBURNER": "8095869f400a083f498535d70cd17adb71017037305d5a54a7dfccae9dd92084"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+      "url": "http://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "published": "Tue, 06 Oct 2026 11:57:00 +0000",
+      "published_utc": "2026-10-06T11:57:00+00:00",
+      "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro.\n\nThe attack works only when the program's Java support is enabled. So far, it has only been shown as a proof of concept, and there are no reports of its use in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6216087967980083747",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "content_hash": "f8ea26af0bb48b755aed8d842157b419fc2048fe36e7bcbfc43b338b95fb0a90",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f8ea26af0bb48b755aed8d842157b419fc2048fe36e7bcbfc43b338b95fb0a90",
+        "FEEDBURNER": "f8ea26af0bb48b755aed8d842157b419fc2048fe36e7bcbfc43b338b95fb0a90"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:41.231987+00:00",
+      "first_seen_local": "2026-10-06T11:13:41.231984-05:00",
+      "last_updated_utc": "2026-10-06T16:13:41.231987+00:00",
+      "last_updated_local": "2026-10-06T11:13:41.231984-05:00"
+    },
+    {
+      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+      "url": "http://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "published": "Tue, 06 Oct 2026 11:26:25 +0000",
+      "published_utc": "2026-10-06T11:26:25+00:00",
+      "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages.\n\n\"The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-963300473620452014",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "content_hash": "7c6839a15c56f9443276f738b85c7278067cec726d34b529df564e762b532cbf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7c6839a15c56f9443276f738b85c7278067cec726d34b529df564e762b532cbf",
+        "FEEDBURNER": "7c6839a15c56f9443276f738b85c7278067cec726d34b529df564e762b532cbf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:41.231987+00:00",
+      "first_seen_local": "2026-10-06T11:13:41.231984-05:00",
+      "last_updated_utc": "2026-10-06T16:13:41.231987+00:00",
+      "last_updated_local": "2026-10-06T11:13:41.231984-05:00"
+    },
+    {
+      "title": "Cling Botnet Spoofs Google STUN Traffic to Hide Commands Sent to Infected IoT Devices",
+      "url": "https://gbhackers.com/cling-iot-botnet/",
+      "published": "Tue, 06 Oct 2026 11:15:46 +0000",
+      "published_utc": "2026-10-06T11:15:46+00:00",
+      "summary": "<p>Cling, an IoT botnet that disguises operator commands as Google STUN replies, blending malicious communications into routine NAT traversal traffic. Published October 1, the research documents exploitation of exposed networking devices and a command channel designed to exploit trust in familiar infrastructure. Researchers discovered the malware while investigating increased exploitation of CVE-2021-35394, a remote code [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cling-iot-botnet/\">Cling Botnet Spoofs Google STUN Traffic to Hide Commands Sent to Infected IoT Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202335",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cling-iot-botnet",
+      "content_hash": "031245c85dffd2866beb87dc87bf990a86cd41322109104908c58da0b658026e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "031245c85dffd2866beb87dc87bf990a86cd41322109104908c58da0b658026e",
+        "FEEDBURNER": "031245c85dffd2866beb87dc87bf990a86cd41322109104908c58da0b658026e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+      "url": "http://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+      "published": "Tue, 06 Oct 2026 11:02:30 +0000",
+      "published_utc": "2026-10-06T11:02:30+00:00",
+      "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows.\n\nThe ecosystem around it fell short. Earlier this year, our team at OX Security,&nbsp; traced critical vulnerabilities in Anthropic's MCP",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5501927132805336166",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+      "content_hash": "9024843e615c55f0df71dc030cf11a8b2e36556ccdefacf681339d3e667c105d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9024843e615c55f0df71dc030cf11a8b2e36556ccdefacf681339d3e667c105d",
+        "FEEDBURNER": "9024843e615c55f0df71dc030cf11a8b2e36556ccdefacf681339d3e667c105d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:41.231987+00:00",
+      "first_seen_local": "2026-10-06T11:13:41.231984-05:00",
+      "last_updated_utc": "2026-10-06T16:13:41.231987+00:00",
+      "last_updated_local": "2026-10-06T11:13:41.231984-05:00"
+    },
+    {
+      "title": "Midnight Blizzard Abuses Hotel Wi-Fi Captive Portals to Deliver Malware and Steal Credentials",
+      "url": "https://cybersecuritynews.com/midnight-blizzard/",
+      "published": "Tue, 06 Oct 2026 10:52:45 +0000",
+      "published_utc": "2026-10-06T10:52:45+00:00",
+      "summary": "<p>Travelers connecting to hotel Wi-Fi may now face more than an unreliable internet signal. A campaign linked to Midnight Blizzard has turned captive portals, the sign-in pages shown before online access, into a route for malware, credential theft, and possible access to corporate accounts. The operation, known as CaptiveCrunch, has affected hospitality-related networks and other [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/midnight-blizzard/\">Midnight Blizzard Abuses Hotel Wi-Fi Captive Portals to Deliver Malware and Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165918",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/midnight-blizzard",
+      "content_hash": "dfa1a85738c1e9d4f25bcdbb2bb69bf6eaac95e05d32f6c09915536bd67ba3d9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "dfa1a85738c1e9d4f25bcdbb2bb69bf6eaac95e05d32f6c09915536bd67ba3d9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Android 17 Advanced Protection Adds Intrusion Logging, USB Security and Brute-Force Defense",
+      "url": "https://gbhackers.com/android-17-advanced-protection/",
+      "published": "Tue, 06 Oct 2026 10:30:10 +0000",
+      "published_utc": "2026-10-06T10:30:10+00:00",
+      "summary": "<p>Google has expanded Android Advanced Protection with six security enhancements targeting spyware investigations, malicious USB connections, accessibility abuse, browser exploits, and repeated authentication failures. Announced on October 1, 2026, the update strengthens Android 17 defenses for journalists, officials, public figures, and security-conscious users. The changes build on Android 16’s device-level Advanced Protection, introduced in May [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-17-advanced-protection/\">Android 17 Advanced Protection Adds Intrusion Logging, USB Security and Brute-Force Defense</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202296",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/android-17-advanced-protection",
+      "content_hash": "07bf8cf8fd50481e85fe9f8a4369f4fa4c1bd92a2adacccb6f663cd815605069",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "07bf8cf8fd50481e85fe9f8a4369f4fa4c1bd92a2adacccb6f663cd815605069",
+        "FEEDBURNER": "07bf8cf8fd50481e85fe9f8a4369f4fa4c1bd92a2adacccb6f663cd815605069"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Former Employee Sentenced for Damaging Employer’s Windows Network Infrastructure",
+      "url": "https://gbhackers.com/former-employee-sentenced-for-damaging-employers-windows/",
+      "published": "Tue, 06 Oct 2026 10:30:00 +0000",
+      "published_utc": "2026-10-06T10:30:00+00:00",
+      "summary": "<p>A former infrastructure engineer has been sentenced to 32 months in federal prison for damaging his employer’s computer network and demanding a ransom in Bitcoin. Daniel Rhyne, 59, of Kansas City, Missouri, received the sentence from U.S. District Judge Michael A. Shipp on September 28, 2026, in Trenton, New Jersey. Rhyne previously pleaded guilty to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/former-employee-sentenced-for-damaging-employers-windows/\">Former Employee Sentenced for Damaging Employer’s Windows Network Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202319",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/former-employee-sentenced-for-damaging-employers-windows",
+      "content_hash": "fbd7382c2bb3ca082d9c3dcafe2ffb21c04c1dcb2651c0823a6f23aa6bc1a1fa",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "fbd7382c2bb3ca082d9c3dcafe2ffb21c04c1dcb2651c0823a6f23aa6bc1a1fa"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:33.937300+00:00",
+      "first_seen_local": "2026-10-06T11:13:33.937297-05:00",
+      "last_updated_utc": "2026-10-06T16:13:33.937300+00:00",
+      "last_updated_local": "2026-10-06T11:13:33.937297-05:00"
+    },
+    {
+      "title": "Meta and Microsoft are Actively Cutting Employee Use of Claude AI",
+      "url": "https://cybersecuritynews.com/meta-microsoft-claude-ai/",
+      "published": "Tue, 06 Oct 2026 10:23:02 +0000",
+      "published_utc": "2026-10-06T10:23:02+00:00",
+      "summary": "<p>Meta and Microsoft are reducing employee use of Anthropic’s Claude AI while pushing their own coding tools, according to an October 5 report by The Information. The changes focus on internal spending and staff workflows, rather than ending customer access to Claude through Microsoft’s products. The shift highlights growing pressure to control AI costs as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/meta-microsoft-claude-ai/\">Meta and Microsoft are Actively Cutting Employee Use of Claude AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165924",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/meta-microsoft-claude-ai",
+      "content_hash": "1d594d9aacaa06458b7de7422bc7be5fb0b337bcf6b55ebf26edb26927aeb3a3",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1d594d9aacaa06458b7de7422bc7be5fb0b337bcf6b55ebf26edb26927aeb3a3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:34.593935+00:00",
+      "first_seen_local": "2026-10-06T11:13:34.593932-05:00",
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
+    },
+    {
+      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+      "url": "http://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+      "published": "Tue, 06 Oct 2026 09:21:47 +0000",
+      "published_utc": "2026-10-06T09:21:47+00:00",
+      "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.\n\nThe change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3147386821273228822",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+      "content_hash": "26619e0d363fb7437b27aae98563f4ef10424f15e15633d39d7da050eafb114e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "26619e0d363fb7437b27aae98563f4ef10424f15e15633d39d7da050eafb114e",
+        "FEEDBURNER": "26619e0d363fb7437b27aae98563f4ef10424f15e15633d39d7da050eafb114e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T16:13:41.231987+00:00",
+      "first_seen_local": "2026-10-06T11:13:41.231984-05:00",
+      "last_updated_utc": "2026-10-06T16:13:41.231987+00:00",
+      "last_updated_local": "2026-10-06T11:13:41.231984-05:00"
+    },
+    {
+      "title": "FBI Cuts Accenture Contractor Over Unpatched PeopleSoft Flaw Exposing Thousands",
       "url": "https://cybersecuritynews.com/fbi-removes-accenture-contractor/",
       "published": "Tue, 06 Oct 2026 09:07:34 +0000",
       "published_utc": "2026-10-06T09:07:34+00:00",
-      "summary": "<p>The FBI removed an Accenture contractor on October 5, 2026, after a missed security patch led to a data breach exposing sensitive personal details of thousands of employees. According to Reuters, two sources identified Oracle’s PeopleSoft human resources platform as the affected system and Accenture as the service provider. FBI cyber chief Brett Leatherman said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-removes-accenture-contractor/\">FBI Removes Accenture Contractor After Unpatched PeopleSoft Flaw Exposes Thousands of Employees</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "summary": "<p>The FBI removed an Accenture contractor on October 5, 2026, after a missed security patch led to a data breach exposing sensitive personal details of thousands of employees. According to Reuters, two sources identified Oracle’s PeopleSoft human resources platform as the affected system and Accenture as the service provider. FBI cyber chief Brett Leatherman said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-removes-accenture-contractor/\">FBI Cuts Accenture Contractor Over Unpatched PeopleSoft Flaw Exposing Thousands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
       "id": "https://cybersecuritynews.com/?p=165897",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
       "article_key": "cybersecuritynews.com/fbi-removes-accenture-contractor",
-      "content_hash": "ec70d463ae11b1b1251f47e613144b80ce9ee986c66d3bec286c8d674df9d3f8",
+      "content_hash": "ac24711d1fa367e724df149a090a094b4d896a6f148a293ed73b97beda57a093",
       "detected_via": [
-        "ORIGINAL"
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "ec70d463ae11b1b1251f47e613144b80ce9ee986c66d3bec286c8d674df9d3f8"
+        "FEEDBURNER": "ac24711d1fa367e724df149a090a094b4d896a6f148a293ed73b97beda57a093"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "UPDATED",
+      "previous_content_hash": "ec70d463ae11b1b1251f47e613144b80ce9ee986c66d3bec286c8d674df9d3f8",
+      "version": 2,
       "first_seen_utc": "2026-10-06T09:21:10.943195+00:00",
       "first_seen_local": "2026-10-06T04:21:10.943192-05:00",
-      "last_updated_utc": "2026-10-06T09:21:10.943195+00:00",
-      "last_updated_local": "2026-10-06T04:21:10.943192-05:00"
-    },
-    {
-      "title": "Google Adds 6 Advanced Protection Features to Android 17 Against Sophisticated Attacks",
-      "url": "https://cybersecuritynews.com/google-adds-6-advanced-protection-features/",
-      "published": "Tue, 06 Oct 2026 08:38:14 +0000",
-      "published_utc": "2026-10-06T08:38:14+00:00",
-      "summary": "<p>Google has detailed six Advanced Protection enhancements for Android 17, targeting sophisticated attacks, scams and unauthorized access. Announced on October 1, 2026, the changes combine stronger restrictions with tools that preserve evidence when someone suspects their phone has been compromised. The update expands protections introduced with Android 16 rather than announcing a newly discovered malware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-adds-6-advanced-protection-features/\">Google Adds 6 Advanced Protection Features to Android 17 Against Sophisticated Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=165874",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/google-adds-6-advanced-protection-features",
-      "content_hash": "9bbc3f445e542280512ccc1afe832516e05fb16b81a52747fa9b27d3f5503b9c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "9bbc3f445e542280512ccc1afe832516e05fb16b81a52747fa9b27d3f5503b9c",
-        "FEEDBURNER": "9bbc3f445e542280512ccc1afe832516e05fb16b81a52747fa9b27d3f5503b9c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:10.943195+00:00",
-      "first_seen_local": "2026-10-06T04:21:10.943192-05:00",
-      "last_updated_utc": "2026-10-06T09:21:10.943195+00:00",
-      "last_updated_local": "2026-10-06T04:21:10.943192-05:00"
-    },
-    {
-      "title": "11 Best Adaptive / Risk-Based Authentication Tools Compared (2026): Features & Pricing",
-      "url": "https://gbhackers.com/best-adaptive-authentication-compared/",
-      "published": "Tue, 06 Oct 2026 08:20:14 +0000",
-      "published_utc": "2026-10-06T08:20:14+00:00",
-      "summary": "<p>Microsoft Conditional Access is the best adaptive engine for most workforces the deepest policy grammar at bundled cost while Duo wins pragmatic rollout, and in the fraud lane Kount (an Equifax company) and IBM Trusteer price consumer risk per event. This comparison keeps the two lanes apart on purpose: workforce step-up and consumer fraud risk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-adaptive-authentication-compared/\">11 Best Adaptive / Risk-Based Authentication Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202236",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/best-adaptive-authentication-compared",
-      "content_hash": "ca70edfa588d7ab54882ffcc441bf4fe4ba5be82614882d9065ba237e3a7a8f9",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ca70edfa588d7ab54882ffcc441bf4fe4ba5be82614882d9065ba237e3a7a8f9"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "Atlassian Patches Critical Vulnerabilities in Jira, Confluence, Bitbucket, and Five More Products",
-      "url": "https://cybersecuritynews.com/atlassian-patches-critical-vulnerabilities/",
-      "published": "Tue, 06 Oct 2026 08:18:05 +0000",
-      "published_utc": "2026-10-06T08:18:05+00:00",
-      "summary": "<p>Atlassian has disclosed a critical arbitrary file access vulnerability affecting eight products, including Jira, Confluence, and Bitbucket. Tracked as CVE-2026-21589, the flaw has a CVSS score of 9.3. It lets unauthenticated attackers access specific files in an affected application&#8217;s web root directory. The advisory, published on October 5, 2026, covers Bitbucket Data Center, Confluence Data [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/atlassian-patches-critical-vulnerabilities/\">Atlassian Patches Critical Vulnerabilities in Jira, Confluence, Bitbucket, and Five More Products</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=165861",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/atlassian-patches-critical-vulnerabilities",
-      "content_hash": "7518bffbeaea20d272bf5b9ce1c94b0579cafd93fd704b4c244a54893acc64fa",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7518bffbeaea20d272bf5b9ce1c94b0579cafd93fd704b4c244a54893acc64fa",
-        "FEEDBURNER": "7518bffbeaea20d272bf5b9ce1c94b0579cafd93fd704b4c244a54893acc64fa"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:10.943195+00:00",
-      "first_seen_local": "2026-10-06T04:21:10.943192-05:00",
-      "last_updated_utc": "2026-10-06T09:21:10.943195+00:00",
-      "last_updated_local": "2026-10-06T04:21:10.943192-05:00"
-    },
-    {
-      "title": "12 Best Biometric Authentication Solutions Compared (2026): Features & Pricing",
-      "url": "https://gbhackers.com/best-biometric-authentication-compared/",
-      "published": "Tue, 06 Oct 2026 08:15:20 +0000",
-      "published_utc": "2026-10-06T08:15:20+00:00",
-      "summary": "<p>iProov is the best high-assurance verification vendor the deepest liveness and injection-attack science while Entrust (Onfido) and Incode lead turnkey onboarding and NEC anchors accuracy at national scale. This comparison sorts 12 vendors by the job they actually do, because “biometric authentication” hides five different purchases with five different price sheets. Quick Verdict: Best Biometric [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-biometric-authentication-compared/\">12 Best Biometric Authentication Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202176",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/best-biometric-authentication-compared",
-      "content_hash": "e3860f5d66d88dd5d17429c4e1db19756cab3f39f854415ad99063143ebf84ca",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e3860f5d66d88dd5d17429c4e1db19756cab3f39f854415ad99063143ebf84ca"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "12 Best Authentication-as-a-Service (AaaS) Providers Compared (2026): Features & Pricing",
-      "url": "https://gbhackers.com/best-aaas-compared/",
-      "published": "Tue, 06 Oct 2026 08:10:33 +0000",
-      "published_utc": "2026-10-06T08:10:33+00:00",
-      "summary": "<p>Auth0 (Okta’s developer line) remains the best AaaS for most teams the ecosystem and enterprise-credibility benchmark while Entra External ID and Amazon Cognito win the price-floor fight and Kinde leads the new value insurgents. This comparison prices 12 providers at three MAU scenarios, because free tiers flatter everyone and year-three bills tell the truth. Quick [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-aaas-compared/\">12 Best Authentication-as-a-Service (AaaS) Providers Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202153",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/best-aaas-compared",
-      "content_hash": "81d7a9ddbecbf28d1257fbf4e62121601712511bff214499914809803f4b3c9e",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "81d7a9ddbecbf28d1257fbf4e62121601712511bff214499914809803f4b3c9e"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "11 Best Cloud Directory Services Compared (2026): Features & Pricing",
-      "url": "https://gbhackers.com/best-cloud-directory-compared/",
-      "published": "Tue, 06 Oct 2026 08:02:30 +0000",
-      "published_utc": "2026-10-06T08:02:30+00:00",
-      "summary": "<p>Microsoft Entra ID is the best cloud directory for most organizations bundle gravity plus the clearest AD-exit road while JumpCloud wins the domainless package and Okta Universal Directory the neutral-hub lane. This comparison prices the field with lanes labeled honestly: one merged vendor counted once (Ping/ForgeRock), one OSS project (FreeIPA), and one adjacent SaaS-management platform [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-directory-compared/\">11 Best Cloud Directory Services Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202122",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/best-cloud-directory-compared",
-      "content_hash": "fbfd41508e8768aff16d33d3d8f48cee6a5a260565896715419a43001c7fbdec",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "fbfd41508e8768aff16d33d3d8f48cee6a5a260565896715419a43001c7fbdec"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "Top 10 Best SAST Tools in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-sast-tools-2/",
-      "published": "Tue, 06 Oct 2026 07:45:29 +0000",
-      "published_utc": "2026-10-06T07:45:29+00:00",
-      "summary": "<p>The AI-code flood made one truth undeniable: static analysis only matters if developers fix what it finds. We scored ten SAST tools with fix-rate potential precision, PR-fit, and remediation quality weighted highest. At the same time, enforcing strict secure coding practices remains the most cost-effective way to stop injection attacks, memory leaks, and broken logic [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-sast-tools-2/\">Top 10 Best SAST Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=165768",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-sast-tools-2",
-      "content_hash": "e98ea6073a7da74312b899543cc76e0a218e70d225c7f318895852c013304bfe",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e98ea6073a7da74312b899543cc76e0a218e70d225c7f318895852c013304bfe",
-        "FEEDBURNER": "e98ea6073a7da74312b899543cc76e0a218e70d225c7f318895852c013304bfe"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:10.943195+00:00",
-      "first_seen_local": "2026-10-06T04:21:10.943192-05:00",
-      "last_updated_utc": "2026-10-06T09:21:10.943195+00:00",
-      "last_updated_local": "2026-10-06T04:21:10.943192-05:00"
-    },
-    {
-      "title": "Critical WatchGuard Endpoint Security Flaw Exposes Kernel and Process Memory",
-      "url": "https://gbhackers.com/critical-watchguard-endpoint-security-flaw-exposes-kernel-and-process-memory/",
-      "published": "Tue, 06 Oct 2026 07:43:40 +0000",
-      "published_utc": "2026-10-06T07:43:40+00:00",
-      "summary": "<p>A critical vulnerability exists in WatchGuard endpoint security products that could allow a local, authenticated attacker to bypass driver authentication and access sensitive kernel and process memory. This vulnerability is tracked as CVE-2026-13043 and has a reported CVSS score of 9.3. It affects the Panda Kernel Memory Access Driver (pskmad.sys), as noted in an advisory [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-watchguard-endpoint-security-flaw-exposes-kernel-and-process-memory/\">Critical WatchGuard Endpoint Security Flaw Exposes Kernel and Process Memory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202288",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-watchguard-endpoint-security-flaw-exposes-kernel-and-process-memory",
-      "content_hash": "b12c824478b4115f15544548a27742406d4b7fcb2573b692d951017e3b057c56",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b12c824478b4115f15544548a27742406d4b7fcb2573b692d951017e3b057c56",
-        "FEEDBURNER": "b12c824478b4115f15544548a27742406d4b7fcb2573b692d951017e3b057c56"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "12 Best Secrets Management Tools Compared (2026): Features & Pricing",
-      "url": "https://gbhackers.com/best-secrets-management-compared/",
-      "published": "Tue, 06 Oct 2026 07:34:40 +0000",
-      "published_utc": "2026-10-06T07:34:40+00:00",
-      "summary": "<p>HashiCorp Vault remains the best dedicated secrets platform the dynamic-secrets benchmark, now under IBM while cloud-native stores win single-cloud estates on price and Akeyless leads the SaaS-vault alternative lane. This comparison decodes 12 tools’ pricing units and lanes, including two ephemeral-access specialists (Teleport, Britive) that solve the secrets problem by minting access instead of storing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-secrets-management-compared/\">12 Best Secrets Management Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=201995",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/best-secrets-management-compared",
-      "content_hash": "ec6519e337577121c8697feb08c154861d40a93655a13e7e3ea562b4272ab17d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ec6519e337577121c8697feb08c154861d40a93655a13e7e3ea562b4272ab17d",
-        "FEEDBURNER": "ec6519e337577121c8697feb08c154861d40a93655a13e7e3ea562b4272ab17d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "Atlassian CVE-2026-21589 Flaw Exposes Files in Jira and Confluence Data Center",
-      "url": "https://gbhackers.com/atlassian-cve-2026-21589-flaw/",
-      "published": "Tue, 06 Oct 2026 07:29:01 +0000",
-      "published_utc": "2026-10-06T07:29:01+00:00",
-      "summary": "<p>Atlassian has announced a critical vulnerability related to arbitrary file access that affects Jira Software Data Center and Confluence Data Center. This vulnerability, tracked as CVE-2026-21589, has a CVSS score of 9.3 and allows unauthenticated attackers to access specific files within the web root directories of the affected applications without needing valid credentials or accounts. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/atlassian-cve-2026-21589-flaw/\">Atlassian CVE-2026-21589 Flaw Exposes Files in Jira and Confluence Data Center</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202284",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/atlassian-cve-2026-21589-flaw",
-      "content_hash": "7b7452d6c3039e8023c245a7a98a74e9c128269850c8282f0b4fe0c9140da8bf",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7b7452d6c3039e8023c245a7a98a74e9c128269850c8282f0b4fe0c9140da8bf",
-        "FEEDBURNER": "7b7452d6c3039e8023c245a7a98a74e9c128269850c8282f0b4fe0c9140da8bf"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "Top 10 Best Just-in-Time (JIT) Access Tools in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-jit-access-tools/",
-      "published": "Tue, 06 Oct 2026 07:17:03 +0000",
-      "published_utc": "2026-10-06T07:17:03+00:00",
-      "summary": "<p>Credentials that always work are credentials worth stealing which is why mitigating how attackers exploit privileged access has driven organizations toward Zero Standing Privileges (ZSP) and made JIT access mandatory infrastructure. Credentials that always work are credentials worth stealing which is why zero standing privileges became the destination and JIT the road. We scored the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-jit-access-tools/\">Top 10 Best Just-in-Time (JIT) Access Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=165707",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-jit-access-tools",
-      "content_hash": "ac93a1daee026023fcf323307edc6b95b6a5cdb83a9dc07c70dd0b884ff592f3",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ac93a1daee026023fcf323307edc6b95b6a5cdb83a9dc07c70dd0b884ff592f3",
-        "FEEDBURNER": "ac93a1daee026023fcf323307edc6b95b6a5cdb83a9dc07c70dd0b884ff592f3"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:10.943195+00:00",
-      "first_seen_local": "2026-10-06T04:21:10.943192-05:00",
-      "last_updated_utc": "2026-10-06T09:21:10.943195+00:00",
-      "last_updated_local": "2026-10-06T04:21:10.943192-05:00"
-    },
-    {
-      "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-      "url": "http://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-      "published": "Tue, 06 Oct 2026 06:58:56 +0000",
-      "published_utc": "2026-10-06T06:58:56+00:00",
-      "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\nThe attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6734737028195066377",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-      "content_hash": "aa65657036f7834aef7c3e80fdebe204a019afe0efba87baf41081dbcc2d437c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "aa65657036f7834aef7c3e80fdebe204a019afe0efba87baf41081dbcc2d437c",
-        "FEEDBURNER": "aa65657036f7834aef7c3e80fdebe204a019afe0efba87baf41081dbcc2d437c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:16.881212+00:00",
-      "first_seen_local": "2026-10-06T04:21:16.881209-05:00",
-      "last_updated_utc": "2026-10-06T09:21:16.881212+00:00",
-      "last_updated_local": "2026-10-06T04:21:16.881209-05:00"
-    },
-    {
-      "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-      "url": "http://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-      "published": "Tue, 06 Oct 2026 06:56:57 +0000",
-      "published_utc": "2026-10-06T06:56:57+00:00",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar with the matter.\n\n\"To date, our review has determined that the incident occurred as the result of a security failure ​",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4196392589249200825",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-      "content_hash": "51a1f1d0f2f534ac4384148a72cb2146a2fb771df34378f150304e5f3399f51f",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "51a1f1d0f2f534ac4384148a72cb2146a2fb771df34378f150304e5f3399f51f",
-        "FEEDBURNER": "51a1f1d0f2f534ac4384148a72cb2146a2fb771df34378f150304e5f3399f51f"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:16.881212+00:00",
-      "first_seen_local": "2026-10-06T04:21:16.881209-05:00",
-      "last_updated_utc": "2026-10-06T09:21:16.881212+00:00",
-      "last_updated_local": "2026-10-06T04:21:16.881209-05:00"
-    },
-    {
-      "title": "Midnight Blizzard Uses Captive Portals to Deliver CornFlake RAT and Steal Traveler Credentials",
-      "url": "https://gbhackers.com/midnight-blizzard-subcluster/",
-      "published": "Tue, 06 Oct 2026 06:13:37 +0000",
-      "published_utc": "2026-10-06T06:13:37+00:00",
-      "summary": "<p>Storm-2945, a Midnight Blizzard subcluster, has resumed CaptiveCrunch, an espionage campaign abusing hospitality Wi-Fi networks to infect travelers and compromise corporate accounts. An October 5, 2026 update confirms renewed activity observed on September 29, including deployment of a Rust variant of the CornFlake infostealer, with characteristics consistent with continued AI-enabled malware development. The resurgence likely [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/midnight-blizzard-subcluster/\">Midnight Blizzard Uses Captive Portals to Deliver CornFlake RAT and Steal Traveler Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202268",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/midnight-blizzard-subcluster",
-      "content_hash": "0624af9e0300f0f45ffece34024839c154be152661cd3abe431d0fb228e16c07",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0624af9e0300f0f45ffece34024839c154be152661cd3abe431d0fb228e16c07",
-        "FEEDBURNER": "0624af9e0300f0f45ffece34024839c154be152661cd3abe431d0fb228e16c07"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-      "url": "http://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-      "published": "Tue, 06 Oct 2026 06:00:30 +0000",
-      "published_utc": "2026-10-06T06:00:30+00:00",
-      "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.\n\nThey used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7822802689065312955",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-      "content_hash": "ec573b069d6258dde7d7ec89995b460d82943df44489426b71ff31d36291d722",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ec573b069d6258dde7d7ec89995b460d82943df44489426b71ff31d36291d722",
-        "FEEDBURNER": "ec573b069d6258dde7d7ec89995b460d82943df44489426b71ff31d36291d722"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:16.881212+00:00",
-      "first_seen_local": "2026-10-06T04:21:16.881209-05:00",
-      "last_updated_utc": "2026-10-06T09:21:16.881212+00:00",
-      "last_updated_local": "2026-10-06T04:21:16.881209-05:00"
-    },
-    {
-      "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-      "url": "http://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-      "published": "Tue, 06 Oct 2026 05:22:55 +0000",
-      "published_utc": "2026-10-06T05:22:55+00:00",
-      "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X.",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3875355783305542893",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-      "content_hash": "eabe90331f790d13d7b4eccea4f9bb11c06c2fca2744ed4c241c121d11d0e86b",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "eabe90331f790d13d7b4eccea4f9bb11c06c2fca2744ed4c241c121d11d0e86b",
-        "FEEDBURNER": "eabe90331f790d13d7b4eccea4f9bb11c06c2fca2744ed4c241c121d11d0e86b"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:16.881212+00:00",
-      "first_seen_local": "2026-10-06T04:21:16.881209-05:00",
-      "last_updated_utc": "2026-10-06T09:21:16.881212+00:00",
-      "last_updated_local": "2026-10-06T04:21:16.881209-05:00"
-    },
-    {
-      "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-      "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-28-october-2-2026/",
-      "published": "Tue, 06 Oct 2026 05:10:31 +0000",
-      "published_utc": "2026-10-06T05:10:31+00:00",
-      "summary": "<p>Citrix NetScaler Zero-Days Exploited, OpenAI Agent Swarm Hits Hugging Face, Pentagon Breach Hits 3M, ShinyHunters Leader Arrested, Anthropic MCP Flaw &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from September 28 to October 2, 2026. AI dominated the week: an OpenAI [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-september-28-october-2-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202133",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/weekly-cybersecurity-newsletter-september-28-october-2-2026",
-      "content_hash": "cd70f0e215c45cf30a19c85647c5949cbcbcff18defdc3c955b4514b2b238ae0",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cd70f0e215c45cf30a19c85647c5949cbcbcff18defdc3c955b4514b2b238ae0",
-        "FEEDBURNER": "cd70f0e215c45cf30a19c85647c5949cbcbcff18defdc3c955b4514b2b238ae0"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
-    },
-    {
-      "title": "ClingSTUN Malware Turns Vulnerable IoT Devices Into Persistent Remote Proxy Nodes",
-      "url": "https://gbhackers.com/clingstun-malware/",
-      "published": "Tue, 06 Oct 2026 05:03:19 +0000",
-      "published_utc": "2026-10-06T05:03:19+00:00",
-      "summary": "<p>ClingSTUN, a Linux backdoor that exploits unpatched internet-facing devices and converts them into persistent, remotely controlled proxy nodes. The malware combines startup persistence, process concealment, competitor termination, and remote command execution with legitimate STUN infrastructure to support connectivity through network address translation. The research published October 5 documents three campaign periods with changing payload servers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/clingstun-malware/\">ClingSTUN Malware Turns Vulnerable IoT Devices Into Persistent Remote Proxy Nodes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202254",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/clingstun-malware",
-      "content_hash": "0c3a673491957307ba3ecb55237bd87c89edbef7c95ccdeb5122e3dba219751c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0c3a673491957307ba3ecb55237bd87c89edbef7c95ccdeb5122e3dba219751c",
-        "FEEDBURNER": "0c3a673491957307ba3ecb55237bd87c89edbef7c95ccdeb5122e3dba219751c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-06T09:21:09.978285+00:00",
-      "first_seen_local": "2026-10-06T04:21:09.978282-05:00",
-      "last_updated_utc": "2026-10-06T09:21:09.978285+00:00",
-      "last_updated_local": "2026-10-06T04:21:09.978282-05:00"
+      "last_updated_utc": "2026-10-06T16:13:34.593935+00:00",
+      "last_updated_local": "2026-10-06T11:13:34.593932-05:00"
     }
   ]
 }

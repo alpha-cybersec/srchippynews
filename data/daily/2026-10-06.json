@@ -1,12 +1,68 @@
 {
   "date": "2026-10-06",
-  "article_count": 50,
+  "article_count": 52,
   "sources": {
+    "thehackernews": 10,
     "cybersecuritynews": 21,
-    "gbhackers": 21,
-    "thehackernews": 8
+    "gbhackers": 21
   },
   "articles": [
+    {
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "url": "http://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "published": "Tue, 06 Oct 2026 18:38:55 +0000",
+      "published_utc": "2026-10-06T18:38:55+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.\n\nThe products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2265763242958016483",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "content_hash": "f38c4c485950f479c86337d304949a097e5a94bd92e9d67ec18671df3a63cddc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f38c4c485950f479c86337d304949a097e5a94bd92e9d67ec18671df3a63cddc",
+        "FEEDBURNER": "f38c4c485950f479c86337d304949a097e5a94bd92e9d67ec18671df3a63cddc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T21:11:33.868385+00:00",
+      "first_seen_local": "2026-10-06T16:11:33.868382-05:00",
+      "last_updated_utc": "2026-10-06T21:11:33.868385+00:00",
+      "last_updated_local": "2026-10-06T16:11:33.868382-05:00"
+    },
+    {
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "url": "http://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "published": "Tue, 06 Oct 2026 18:24:25 +0000",
+      "published_utc": "2026-10-06T18:24:25+00:00",
+      "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.\n\nThreat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1625246094906075538",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "content_hash": "dd1bb4be441901b84c9ea62c252b073d6829b5d7c12c8e9309993c8911e47409",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd1bb4be441901b84c9ea62c252b073d6829b5d7c12c8e9309993c8911e47409",
+        "FEEDBURNER": "dd1bb4be441901b84c9ea62c252b073d6829b5d7c12c8e9309993c8911e47409"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-06T21:11:33.868385+00:00",
+      "first_seen_local": "2026-10-06T16:11:33.868382-05:00",
+      "last_updated_utc": "2026-10-06T21:11:33.868385+00:00",
+      "last_updated_local": "2026-10-06T16:11:33.868382-05:00"
+    },
     {
       "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
       "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",

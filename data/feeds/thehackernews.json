@@ -10,63 +10,39 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 7,
+      "article_count": 4,
       "articles": [
         {
-          "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-          "url": "http://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-          "published": "Mon, 05 Oct 2026 16:21:52 +0000",
-          "published_utc": "2026-10-05T16:21:52+00:00",
-          "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system.\n\n\"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6393652208167403226"
+          "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+          "url": "http://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+          "published": "Tue, 06 Oct 2026 06:58:56 +0000",
+          "published_utc": "2026-10-06T06:58:56+00:00",
+          "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\nThe attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6734737028195066377"
         },
         {
-          "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-          "url": "http://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-          "published": "Mon, 05 Oct 2026 14:20:43 +0000",
-          "published_utc": "2026-10-05T14:20:43+00:00",
-          "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.\n\nThere are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7304764772073318031"
+          "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+          "url": "http://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+          "published": "Tue, 06 Oct 2026 06:56:57 +0000",
+          "published_utc": "2026-10-06T06:56:57+00:00",
+          "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar with the matter.\n\n\"To date, our review has determined that the incident occurred as the result of a security failure ​",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4196392589249200825"
         },
         {
-          "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-          "url": "http://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
-          "published": "Mon, 05 Oct 2026 11:55:00 +0000",
-          "published_utc": "2026-10-05T11:55:00+00:00",
-          "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6163966513110310442"
+          "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+          "url": "http://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+          "published": "Tue, 06 Oct 2026 06:00:30 +0000",
+          "published_utc": "2026-10-06T06:00:30+00:00",
+          "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.\n\nThey used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7822802689065312955"
         },
         {
-          "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-          "url": "http://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-          "published": "Mon, 05 Oct 2026 11:46:25 +0000",
-          "published_utc": "2026-10-05T11:46:25+00:00",
-          "summary": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel,\" Nozomi Networks said in a report",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2249530468810747398"
-        },
-        {
-          "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-          "url": "http://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-          "published": "Mon, 05 Oct 2026 10:38:50 +0000",
-          "published_utc": "2026-10-05T10:38:50+00:00",
-          "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9111827742720329123"
-        },
-        {
-          "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-          "url": "http://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-          "published": "Mon, 05 Oct 2026 08:09:23 +0000",
-          "published_utc": "2026-10-05T08:09:23+00:00",
-          "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6894648985018104663"
-        },
-        {
-          "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-          "url": "http://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-          "published": "Mon, 05 Oct 2026 06:40:19 +0000",
-          "published_utc": "2026-10-05T06:40:19+00:00",
-          "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0.\n\n\"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2570644909926920825"
+          "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+          "url": "http://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+          "published": "Tue, 06 Oct 2026 05:22:55 +0000",
+          "published_utc": "2026-10-06T05:22:55+00:00",
+          "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3875355783305542893"
         }
       ],
       "error": ""
@@ -79,63 +55,39 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 7,
+      "article_count": 4,
       "articles": [
         {
-          "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-          "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-          "published": "Mon, 05 Oct 2026 21:51:52 +0530",
-          "published_utc": "2026-10-05T16:21:52+00:00",
-          "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-96940, is rated 8.8 on the CVSS scoring system.\n\n\"Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a",
-          "id": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html"
+          "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+          "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+          "published": "Tue, 06 Oct 2026 12:28:56 +0530",
+          "published_utc": "2026-10-06T06:58:56+00:00",
+          "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\nThe attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and",
+          "id": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html"
         },
         {
-          "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-          "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-          "published": "Mon, 05 Oct 2026 19:50:43 +0530",
-          "published_utc": "2026-10-05T14:20:43+00:00",
-          "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.\n\nThere are actively exploited bugs in the mix, cleaner intrusion paths, smarter automation, and a long patch list waiting behind them. Some attacks are getting more capable. Others",
-          "id": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
+          "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+          "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+          "published": "Tue, 06 Oct 2026 12:26:57 +0530",
+          "published_utc": "2026-10-06T06:56:57+00:00",
+          "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report from Reuters, citing two sources familiar with the matter.\n\n\"To date, our review has determined that the incident occurred as the result of a security failure ​",
+          "id": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
         },
         {
-          "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-          "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
-          "published": "Mon, 05 Oct 2026 17:25:00 +0530",
-          "published_utc": "2026-10-05T11:55:00+00:00",
-          "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",
-          "id": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html"
+          "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+          "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+          "published": "Tue, 06 Oct 2026 11:30:30 +0530",
+          "published_utc": "2026-10-06T06:00:30+00:00",
+          "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5.\n\nThey used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to",
+          "id": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html"
         },
         {
-          "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-          "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-          "published": "Mon, 05 Oct 2026 17:16:25 +0530",
-          "published_utc": "2026-10-05T11:46:25+00:00",
-          "summary": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a new propagation technique, but because it repurposes ordinary STUN behavior into a practical command-and-control channel,\" Nozomi Networks said in a report",
-          "id": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
-        },
-        {
-          "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-          "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-          "published": "Mon, 05 Oct 2026 16:08:50 +0530",
-          "published_utc": "2026-10-05T10:38:50+00:00",
-          "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge",
-          "id": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html"
-        },
-        {
-          "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-          "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-          "published": "Mon, 05 Oct 2026 13:39:23 +0530",
-          "published_utc": "2026-10-05T08:09:23+00:00",
-          "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
-          "id": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
-        },
-        {
-          "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-          "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-          "published": "Mon, 05 Oct 2026 12:10:19 +0530",
-          "published_utc": "2026-10-05T06:40:19+00:00",
-          "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0.\n\n\"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
-          "id": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+          "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+          "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+          "published": "Tue, 06 Oct 2026 10:52:55 +0530",
+          "published_utc": "2026-10-06T05:22:55+00:00",
+          "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X.",
+          "id": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html"
         }
       ],
       "error": ""

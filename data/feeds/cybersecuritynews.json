@@ -5,13 +5,65 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
+      "status": "FAILED",
+      "http_status": 202,
+      "final_url": "https://cybersecuritynews.com/feed/",
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
+    },
+    "FEEDBURNER": {
+      "label": "CyberSecurityNews-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
+      "final_url": "https://feeds.feedburner.com/cyber-security-news",
+      "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
       "article_count": 10,
       "articles": [
+        {
+          "title": "Discord Users’ Data Exposed in Security Bot Double Counter Security Breach",
+          "url": "https://cybersecuritynews.com/discord-users-data-exposed/",
+          "published": "Wed, 07 Oct 2026 17:40:39 +0000",
+          "published_utc": "2026-10-07T17:40:39+00:00",
+          "summary": "<p>Double Counter, a Discord security bot, has disclosed a breach that exposed user data after an attacker broke into its cloud systems on October 4, 2026. Attackers copied about 12 GB of database records, and the stolen bot token was used to post unwanted invitations across roughly 50 large Discord servers. According to Double Counter’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/discord-users-data-exposed/\">Discord Users’ Data Exposed in Security Bot Double Counter Security Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166262"
+        },
+        {
+          "title": "Alert Overload, Tool Sprawl and Evasive Phishing: The 5 Bottlenecks Slowing Down US SOCs",
+          "url": "https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs/",
+          "published": "Wed, 07 Oct 2026 17:19:28 +0000",
+          "published_utc": "2026-10-07T17:19:28+00:00",
+          "summary": "<p>US security operations centers are not short on security products. They are short on time, people and context. Current industry research suggests the biggest obstacles to fast detection and containment are operational: too many alerts, too much manual triage, investigations split across disconnected tools, and phishing campaigns built to slip past standard checks.&#160; A new [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs/\">Alert Overload, Tool Sprawl and Evasive Phishing: The 5 Bottlenecks Slowing Down US SOCs </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166195"
+        },
+        {
+          "title": "Hackers Hijack .gh, .sl and .as Registry to Obtain Unauthorized HTTPS Certificates",
+          "url": "https://cybersecuritynews.com/hackers-hijack-domain-registry/",
+          "published": "Wed, 07 Oct 2026 15:39:41 +0000",
+          "published_utc": "2026-10-07T15:39:41+00:00",
+          "summary": "<p>Hackers compromised the .gh, .sl and .as country-code domain registries and used their access to obtain unauthorized HTTPS certificates for Google and other organizations. Chrome blocked the identified certificates automatically, while Google worked with certificate authorities to revoke those covering its properties. In its October 6 disclosure, Google said it learned of the attacks the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-domain-registry/\">Hackers Hijack .gh, .sl and .as Registry to Obtain Unauthorized HTTPS Certificates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166230"
+        },
+        {
+          "title": "CrowdStrike, AWS, and NVIDIA Expand Global Cybersecurity Startup Accelerator",
+          "url": "https://cybersecuritynews.com/crowdstrike-cybersecurity-accelerator/",
+          "published": "Wed, 07 Oct 2026 15:10:14 +0000",
+          "published_utc": "2026-10-07T15:10:14+00:00",
+          "summary": "<p>CrowdStrike announced its fourth annual Cybersecurity Startup Accelerator on October 6, 2026, expanding its collaboration with Amazon Web Services and NVIDIA. The global initiative will help early-stage companies develop agentic cybersecurity products through technical mentorship, business development, and broader access to enterprise security ecosystems. Applications are open worldwide until November 2, 2026. The eight-week program [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crowdstrike-cybersecurity-accelerator/\">CrowdStrike, AWS, and NVIDIA Expand Global Cybersecurity Startup Accelerator</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166190"
+        },
+        {
+          "title": "CyberXero Combines Claude Code, PentAGI and Cobalt Strike in AI-Augmented Cyberattacks",
+          "url": "https://cybersecuritynews.com/cyberxero-combines-claude-code/",
+          "published": "Wed, 07 Oct 2026 14:45:00 +0000",
+          "published_utc": "2026-10-07T14:45:00+00:00",
+          "summary": "<p>CyberXero has emerged as an initial access broker that combines familiar hacking tools with artificial intelligence to run large-scale intrusions. The Russian-speaking operator targeted WordPress and e-commerce sites worldwide while separately probing Ukrainian energy and utility organizations. The campaign came to light after an open directory exposed more than 90,000 files, including scripts, AI session [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cyberxero-combines-claude-code/\">CyberXero Combines Claude Code, PentAGI and Cobalt Strike in AI-Augmented Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166204"
+        },
         {
           "title": "SonicWall Patches 4 SMA1000 Flaws, Including Critical Pre-Auth SSRF Rated CVSS 10",
           "url": "https://cybersecuritynews.com/sonicwall-patches-sma1000-flaws/",
@@ -45,145 +97,12 @@
           "id": "https://cybersecuritynews.com/?p=166187"
         },
         {
-          "title": "FortiBleed Attack Campaign Exploiting Fortinet Firewalls and VPNs – FBI Warns",
+          "title": "FBI Warns FortiBleed Attack Compromised 80,000+ Devices and Locked Out Admins",
           "url": "https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/",
           "published": "Wed, 07 Oct 2026 13:19:53 +0000",
           "published_utc": "2026-10-07T13:19:53+00:00",
-          "summary": "<p>The FBI and U.S. Secret Service have issued a joint cybersecurity advisory warning that the ongoing FortiBleed campaign is targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways worldwide. The credential-compromise operation has reportedly affected more than 86,644 devices across 194 countries, creating a major risk for organizations that expose Fortinet management or remote-access services [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/\">FortiBleed Attack Campaign Exploiting Fortinet Firewalls and VPNs &#8211; FBI Warns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "summary": "<p>The FBI and U.S. Secret Service have issued a joint cybersecurity advisory warning that the ongoing FortiBleed campaign is targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways worldwide. The credential-compromise operation has reportedly affected more than 86,644 devices across 194 countries, creating a major risk for organizations that expose Fortinet management or remote-access services [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/\">FBI Warns FortiBleed Attack Compromised 80,000+ Devices and Locked Out Admins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=166154"
-        },
-        {
-          "title": "Earth Sirrush Uses PNG Steganography and Malicious Notepad++ Plugins to Deploy Espionage Malware",
-          "url": "https://cybersecuritynews.com/earth-sirrush-uses-png/",
-          "published": "Wed, 07 Oct 2026 12:39:51 +0000",
-          "published_utc": "2026-10-07T12:39:51+00:00",
-          "summary": "<p>Earth Sirrush is hiding espionage malware inside PNG images and malicious Notepad++ plugins to compromise Ukrainian organizations. The Russia-aligned group has targeted government agencies, defense organizations, border guards, and logistics operators since at least 2022, repeatedly changing its tools to maintain access across the country&#8217;s wartime supply networks. The attacks begin with carefully tailored phishing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/earth-sirrush-uses-png/\">Earth Sirrush Uses PNG Steganography and Malicious Notepad++ Plugins to Deploy Espionage Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166166"
-        },
-        {
-          "title": "Hackers Steal Rockstar Source Code, 78.6 Million Records and Playable GTA VI Build",
-          "url": "https://cybersecuritynews.com/playable-gta-vi-build/",
-          "published": "Wed, 07 Oct 2026 12:04:11 +0000",
-          "published_utc": "2026-10-07T12:04:11+00:00",
-          "summary": "<p>Rockstar Games has faced separate intrusions involving proprietary source code, 78.6 million business records, and what researchers describe as a playable GTA VI development build. The incidents span several years, rather than one attack that stole everything together. The reported entry points include stolen employee credentials, repeated authentication prompts, and compromised access tokens belonging to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/playable-gta-vi-build/\">Hackers Steal Rockstar Source Code, 78.6 Million Records and Playable GTA VI Build</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166130"
-        },
-        {
-          "title": "Anthropic Mythos AI Finds Rejetto HFS Flaw That Lets Attackers Forge Admin Sessions and Execute Code",
-          "url": "https://cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw/",
-          "published": "Wed, 07 Oct 2026 10:51:52 +0000",
-          "published_utc": "2026-10-07T10:51:52+00:00",
-          "summary": "<p>Anthropic’s Mythos AI has identified a critical vulnerability in Rejetto HTTP File Server that could allow remote attackers to forge administrator sessions and execute arbitrary code. The issue, tracked as CVE-2026-61500, stems from predictable session-signing keys generated through JavaScript’s non-cryptographic Math.random() function. Horizon3 made the finding after joining Anthropic’s Project Glasswing in July 2026, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw/\">Anthropic Mythos AI Finds Rejetto HFS Flaw That Lets Attackers Forge Admin Sessions and Execute Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165795"
-        },
-        {
-          "title": "Critical Progress DataDirect GenAI Flaw Lets Malicious OpenAPI Files Execute OS Commands",
-          "url": "https://cybersecuritynews.com/progress-datadirect-genai-flaw/",
-          "published": "Wed, 07 Oct 2026 10:49:09 +0000",
-          "published_utc": "2026-10-07T10:49:09+00:00",
-          "summary": "<p>Progress disclosed critical command injection flaw CVE-2026-91140 in DataDirect Autonomous REST Connector AI Model Generator agents, allowing malicious OpenAPI or Swagger documents to execute arbitrary OS commands. The security bulletin, published on October 6, 2026, covers Early Access agent definitions available through the public progress/datadirect-arc-ai-model-gen GitHub repository. Progress has released updated definitions and urges customers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/progress-datadirect-genai-flaw/\">Critical Progress DataDirect GenAI Flaw Lets Malicious OpenAPI Files Execute OS Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166099"
-        },
-        {
-          "title": "OpenAI Sandbox Escape Flaw Allowed Free Access to Paid AI Models Without an API Key",
-          "url": "https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/",
-          "published": "Wed, 07 Oct 2026 10:34:52 +0000",
-          "published_utc": "2026-10-07T10:34:52+00:00",
-          "summary": "<p>Security researcher Oliver Fish says he found an OpenAI sandbox escape that let him request paid AI models without an API key or an account. A screenshot shared online shows OpenAI awarding $300 for a report titled “Unauthenticated Sandbox Escape Enables Access to Internal OpenAI Responses API.” The issue appears to have crossed two security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/\">OpenAI Sandbox Escape Flaw Allowed Free Access to Paid AI Models Without an API Key</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166147"
-        }
-      ],
-      "error": ""
-    },
-    "FEEDBURNER": {
-      "label": "CyberSecurityNews-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/cyber-security-news",
-      "content_type": "text/xml; charset=utf-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Hackers Steal Rockstar Source Code, 78.6 Million Records and Playable GTA VI Build",
-          "url": "https://cybersecuritynews.com/playable-gta-vi-build/",
-          "published": "Wed, 07 Oct 2026 12:04:11 +0000",
-          "published_utc": "2026-10-07T12:04:11+00:00",
-          "summary": "<p>Rockstar Games has faced separate intrusions involving proprietary source code, 78.6 million business records, and what researchers describe as a playable GTA VI development build. The incidents span several years, rather than one attack that stole everything together. The reported entry points include stolen employee credentials, repeated authentication prompts, and compromised access tokens belonging to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/playable-gta-vi-build/\">Hackers Steal Rockstar Source Code, 78.6 Million Records and Playable GTA VI Build</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166130"
-        },
-        {
-          "title": "Anthropic Mythos AI Finds Rejetto HFS Flaw That Lets Attackers Forge Admin Sessions and Execute Code",
-          "url": "https://cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw/",
-          "published": "Wed, 07 Oct 2026 10:51:52 +0000",
-          "published_utc": "2026-10-07T10:51:52+00:00",
-          "summary": "<p>Anthropic’s Mythos AI has identified a critical vulnerability in Rejetto HTTP File Server that could allow remote attackers to forge administrator sessions and execute arbitrary code. The issue, tracked as CVE-2026-61500, stems from predictable session-signing keys generated through JavaScript’s non-cryptographic Math.random() function. Horizon3 made the finding after joining Anthropic’s Project Glasswing in July 2026, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw/\">Anthropic Mythos AI Finds Rejetto HFS Flaw That Lets Attackers Forge Admin Sessions and Execute Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165795"
-        },
-        {
-          "title": "Critical Progress DataDirect GenAI Flaw Lets Malicious OpenAPI Files Execute OS Commands",
-          "url": "https://cybersecuritynews.com/progress-datadirect-genai-flaw/",
-          "published": "Wed, 07 Oct 2026 10:49:09 +0000",
-          "published_utc": "2026-10-07T10:49:09+00:00",
-          "summary": "<p>Progress disclosed critical command injection flaw CVE-2026-91140 in DataDirect Autonomous REST Connector AI Model Generator agents, allowing malicious OpenAPI or Swagger documents to execute arbitrary OS commands. The security bulletin, published on October 6, 2026, covers Early Access agent definitions available through the public progress/datadirect-arc-ai-model-gen GitHub repository. Progress has released updated definitions and urges customers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/progress-datadirect-genai-flaw/\">Critical Progress DataDirect GenAI Flaw Lets Malicious OpenAPI Files Execute OS Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166099"
-        },
-        {
-          "title": "OpenAI Sandbox Escape Flaw Allowed Free Access to Paid AI Models Without an API Key",
-          "url": "https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/",
-          "published": "Wed, 07 Oct 2026 10:34:52 +0000",
-          "published_utc": "2026-10-07T10:34:52+00:00",
-          "summary": "<p>Security researcher Oliver Fish says he found an OpenAI sandbox escape that let him request paid AI models without an API key or an account. A screenshot shared online shows OpenAI awarding $300 for a report titled “Unauthenticated Sandbox Escape Enables Access to Internal OpenAI Responses API.” The issue appears to have crossed two security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/\">OpenAI Sandbox Escape Flaw Allowed Free Access to Paid AI Models Without an API Key</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166147"
-        },
-        {
-          "title": "Cybersecurity Awareness Month 2026 – Don’t Make It Easy for Them",
-          "url": "https://cybersecuritynews.com/cybersecurity-awareness-month-2026/",
-          "published": "Wed, 07 Oct 2026 10:06:42 +0000",
-          "published_utc": "2026-10-07T10:06:42+00:00",
-          "summary": "<p>Cybersecurity Awareness Month 2026 arrives as online attacks become easier to launch, harder to spot, and more focused on people. Observed every October, the campaign helps individuals and businesses build safer digital habits. This year there are two themes. The NCA is running &#8220;Don&#8217;t Make It Easy for Them&#8221;, a push to make life harder [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cybersecurity-awareness-month-2026/\">Cybersecurity Awareness Month 2026 &#8211; Don’t Make It Easy for Them</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166140"
-        },
-        {
-          "title": "Hackers Use Fake ChatGPT, Claude and Gemini Ads to Steal Passwords and MFA Codes",
-          "url": "https://cybersecuritynews.com/hackers-use-fake-chatgpt/",
-          "published": "Wed, 07 Oct 2026 09:21:26 +0000",
-          "published_utc": "2026-10-07T09:21:26+00:00",
-          "summary": "<p>Hackers are impersonating ChatGPT, Claude and Gemini with fake advertising products that steal passwords and multifactor authentication codes. Instead of delivering a conventional malware download, the campaign uses convincing websites and live human operators to guide victims through fraudulent sign-in screens. Invitation emails lead advertisers to pages promising campaign planning, spending audits and account connections. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-chatgpt/\">Hackers Use Fake ChatGPT, Claude and Gemini Ads to Steal Passwords and MFA Codes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166088"
-        },
-        {
-          "title": "Critical WordPress Vulnerabilities Enable XSS, SQL Injection and Data Disclosure Attacks",
-          "url": "https://cybersecuritynews.com/wordpress-vulnerabilities/",
-          "published": "Wed, 07 Oct 2026 08:53:57 +0000",
-          "published_utc": "2026-10-07T08:53:57+00:00",
-          "summary": "<p>WordPress released version 7.1.3 on October 6, 2026, addressing vulnerabilities involving cross-site scripting, SQL injection, information disclosure, and other security weaknesses. The project recommends immediate updates, with fixes also available for older affected branches. Only the latest WordPress version remains actively supported. The release documentation lists seven security issues, although its introductory sentence describes “one [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-vulnerabilities/\">Critical WordPress Vulnerabilities Enable XSS, SQL Injection and Data Disclosure Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166089"
-        },
-        {
-          "title": "Multiple OpenSSH Vulnerabilities Could Enable Plaintext Recovery, File Write and Injection Attacks",
-          "url": "https://cybersecuritynews.com/openssh-10-6-released/",
-          "published": "Wed, 07 Oct 2026 08:47:31 +0000",
-          "published_utc": "2026-10-07T08:47:31+00:00",
-          "summary": "<p>OpenSSH 10.6, released on October 6, 2026, fixes security flaws that could expose secrets, write files outside intended folders, or enable shell injection under specific conditions. The update covers both client and server tools, making it relevant to administrators and users who rely on SSH for remote access and file transfers. The official release notes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-10-6-released/\">Multiple OpenSSH Vulnerabilities Could Enable Plaintext Recovery, File Write and Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166110"
-        },
-        {
-          "title": "32 Unique 0-Days Exploited in Samsung S26, Pixel 10, OpenAI Codex and Other Devices in Pwn2Own 2026",
-          "url": "https://cybersecuritynews.com/32-0-days-pwn2own-2026/",
-          "published": "Wed, 07 Oct 2026 08:27:31 +0000",
-          "published_utc": "2026-10-07T08:27:31+00:00",
-          "summary": "<p>Security researchers reportedly exploited 32 unique zero-day vulnerabilities and earned $388,500 on the opening day of Pwn2Own Ireland 2026. Samsung Galaxy S26, OpenAI Codex, smart home devices and AI services fell to working exploits, but the Google Pixel 10 attempt failed within the contest time limit. The October 6 results show how security gaps span [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/32-0-days-pwn2own-2026/\">32 Unique 0-Days Exploited in Samsung S26, Pixel 10, OpenAI Codex and Other Devices in Pwn2Own 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166103"
-        },
-        {
-          "title": "Google Chrome Update Fixes Massive 247 Vulnerabilities, Including 4 Code Execution Flaws",
-          "url": "https://cybersecuritynews.com/chrome-fixes-massive-247-vulnerabilities/",
-          "published": "Wed, 07 Oct 2026 08:13:38 +0000",
-          "published_utc": "2026-10-07T08:13:38+00:00",
-          "summary": "<p>Google released a major Chrome security update on October 6, 2026, fixing 247 vulnerabilities, including four critical memory-safety flaws, across Windows, Mac, and Linux. The patched versions are 155.0.8059.39/.40 for Windows and Mac and 155.0.8059.39 for Linux. Although the critical bugs raise concerns about possible code execution, Google’s announcement identifies them as use-after-free vulnerabilities. It [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-fixes-massive-247-vulnerabilities/\">Google Chrome Update Fixes Massive 247 Vulnerabilities, Including 4 Code Execution Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166084"
         }
       ],
       "error": ""

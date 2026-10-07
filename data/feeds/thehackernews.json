@@ -10,8 +10,48 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 6,
+      "article_count": 11,
       "articles": [
+        {
+          "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+          "url": "http://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+          "published": "Wed, 07 Oct 2026 18:48:17 +0000",
+          "published_utc": "2026-10-07T18:48:17+00:00",
+          "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2222511829475324776"
+        },
+        {
+          "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+          "url": "http://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+          "published": "Wed, 07 Oct 2026 17:43:20 +0000",
+          "published_utc": "2026-10-07T17:43:20+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1775203334329355756"
+        },
+        {
+          "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+          "url": "http://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+          "published": "Wed, 07 Oct 2026 16:17:44 +0000",
+          "published_utc": "2026-10-07T16:17:44+00:00",
+          "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions.\n\nSonicWall rates it 10.0 on the CVSS scale and says it has no evidence that any of the four flaws is being",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1957261655427600464"
+        },
+        {
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+          "url": "http://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+          "published": "Wed, 07 Oct 2026 15:34:53 +0000",
+          "published_utc": "2026-10-07T15:34:53+00:00",
+          "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1576768260223589870"
+        },
+        {
+          "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+          "url": "http://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+          "published": "Wed, 07 Oct 2026 15:33:51 +0000",
+          "published_utc": "2026-10-07T15:33:51+00:00",
+          "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.\n\nThe financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5900965111309235944"
+        },
         {
           "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
           "url": "http://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
@@ -71,8 +111,48 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 6,
+      "article_count": 11,
       "articles": [
+        {
+          "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+          "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+          "published": "Thu, 08 Oct 2026 00:18:17 +0530",
+          "published_utc": "2026-10-07T18:48:17+00:00",
+          "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted",
+          "id": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html"
+        },
+        {
+          "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+          "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+          "published": "Wed, 07 Oct 2026 23:13:20 +0530",
+          "published_utc": "2026-10-07T17:43:20+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have",
+          "id": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
+        },
+        {
+          "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+          "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+          "published": "Wed, 07 Oct 2026 21:47:44 +0530",
+          "published_utc": "2026-10-07T16:17:44+00:00",
+          "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions.\n\nSonicWall rates it 10.0 on the CVSS scale and says it has no evidence that any of the four flaws is being",
+          "id": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
+        },
+        {
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+          "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+          "published": "Wed, 07 Oct 2026 21:04:53 +0530",
+          "published_utc": "2026-10-07T15:34:53+00:00",
+          "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
+          "id": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html"
+        },
+        {
+          "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+          "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+          "published": "Wed, 07 Oct 2026 21:03:51 +0530",
+          "published_utc": "2026-10-07T15:33:51+00:00",
+          "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.\n\nThe financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including",
+          "id": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html"
+        },
         {
           "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
           "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",

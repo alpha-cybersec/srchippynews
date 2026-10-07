@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
-          "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
-          "published": "Tue, 06 Oct 2026 16:02:50 +0000",
-          "published_utc": "2026-10-06T16:02:50+00:00",
-          "summary": "<p>Four security flaws described in the supplied Apache Struts advisories could expose affected applications to remote code execution, denial-of- service, and unintended data disclosure. Recommended fixes include Struts 7.4.0 or later, or Struts 6.12.0 or later for organizations using the 6.x maintenance line. The vulnerabilities affect different framework components, so exposure depends on application configuration [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-struts-vulnerabilities/\">Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165923"
-        },
-        {
-          "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer’s Windows Network",
-          "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
-          "published": "Tue, 06 Oct 2026 15:50:56 +0000",
-          "published_utc": "2026-10-06T15:50:56+00:00",
-          "summary": "<p>A former infrastructure engineer has been sentenced to 32 months in federal prison for sabotaging his employer’s Windows network and demanding a cryptocurrency ransom. Daniel Rhyne, 59, of Kansas City, Missouri, received the sentence on September 28, 2026, in federal court in Trenton. Rhyne previously pleaded guilty to extortion involving threats to damage a protected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/\">Former Infrastructure Engineer Sentenced for Sabotaging Employer&#8217;s Windows Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165930"
-        },
-        {
-          "title": "GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
-          "url": "https://cybersecuritynews.com/github-copilot-cli-vulnerability/",
-          "published": "Tue, 06 Oct 2026 15:49:18 +0000",
-          "published_utc": "2026-10-06T15:49:18+00:00",
-          "summary": "<p>A new GitHub Copilot CLI finding that could allow an attacker-controlled web page to guide the coding agent into reading local developer files and sending their contents to a remote server. The technique, called Cryptographic Context Injection (CCI), hides malicious instructions in encrypted text, making them harder for normal prompt-injection checks to inspect. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-copilot-cli-vulnerability/\">GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166040"
-        },
-        {
-          "title": "From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring",
-          "url": "https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/",
-          "published": "Tue, 06 Oct 2026 15:45:40 +0000",
-          "published_utc": "2026-10-06T15:45:40+00:00",
-          "summary": "<p>Every function in a security operations center, from alert triage to incident response, depends on how well threats are monitored. Yet many SOCs and managed security providers still treat monitoring as log collection: ingest everything, match against static indicator lists, and hope the right alert rises to the top.&#160; That model no longer holds up [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/\">From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166024"
-        },
-        {
-          "title": "ASOS Hacked – App Users Receive Notifications Sent by Hackers",
-          "url": "https://cybersecuritynews.com/asos-hacked/",
-          "published": "Tue, 06 Oct 2026 15:06:20 +0000",
-          "published_utc": "2026-10-06T15:06:20+00:00",
-          "summary": "<p>ASOS is investigating a cyber incident after customers received an unauthorized app notification claiming hackers had accessed its Snowflake data environment. The retailer confirmed suspicious activity involving third-party communication platforms, but the claim that its Snowflake instance was compromised remains unverified. The notification appeared at around 10 am on October 6, 2026, under the heading [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/asos-hacked/\">ASOS Hacked &#8211; App Users Receive Notifications Sent by Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166028"
-        },
-        {
-          "title": "Aembit Extends Access Controls to Personal AI Agents",
-          "url": "https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/",
-          "published": "Tue, 06 Oct 2026 14:58:37 +0000",
-          "published_utc": "2026-10-06T14:58:37+00:00",
-          "summary": "<p>Silver Springs, United States / Maryland, October 6th, 2026, CyberNewswire Aembit, the identity control plane for AI agents, today announced support for securing personal agents’ access to enterprise environments, available immediately to existing customers at no additional cost.  As personal agents, such as Meta Muse and OpenAI Dots, move into workplace use, they can gain [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/\">Aembit Extends Access Controls to Personal AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166019"
-        },
-        {
-          "title": "Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure",
-          "url": "https://cybersecuritynews.com/iranian-hackers/",
-          "published": "Tue, 06 Oct 2026 14:31:24 +0000",
-          "published_utc": "2026-10-06T14:31:24+00:00",
-          "summary": "<p>Iranian state-aligned hackers have used a fake Dubai Airports recruitment process to target Iraqi critical infrastructure with a booby-trapped coding test. The campaign, called Blinder Tunnel, turned a routine developer task into a quiet, potentially long-term route for remote access, persistence and network tunneling across a victim environment. The operation was prepared as early as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iranian-hackers/\">Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166006"
-        },
-        {
-          "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-          "url": "https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-          "published": "Tue, 06 Oct 2026 14:14:27 +0000",
-          "published_utc": "2026-10-06T14:14:27+00:00",
-          "summary": "<p>Torrance, Californina, October 6th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security teams worldwide, will participate in GovWare 2026 in Singapore. As security operations increasingly move beyond asset discovery toward understanding, prioritizing, and responding to exposure, Criminal IP is introducing AITEM (AI-Powered [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/\">Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165975"
-        },
-        {
-          "title": "AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security",
-          "url": "https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/",
-          "published": "Tue, 06 Oct 2026 14:12:11 +0000",
-          "published_utc": "2026-10-06T14:12:11+00:00",
-          "summary": "<p>New York, New York, October 6th, 2026, CyberNewswire Purpose-built for AI agents, new capabilities uncover shadow AI, stop rogue enterprise agents at runtime, and issue quantum-resilient agent identities&#160; AppViewX, the leading identity security company built for the AI-powered and post-quantum enterprise, today expanded capabilities for Agent Identity Security, a solution enabling enterprises to discover every [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/\">AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165970"
-        },
-        {
-          "title": "Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks",
-          "url": "https://cybersecuritynews.com/ransomware-hacker/",
-          "published": "Tue, 06 Oct 2026 14:09:29 +0000",
-          "published_utc": "2026-10-06T14:09:29+00:00",
-          "summary": "<p>A ransomware affiliate has turned an AI coding assistant into a channel for running attacks inside enterprise networks. The operator, known as Azazel, combined stolen development credentials, remote command execution and data theft while working with the Gentlemen ransomware group. The campaign affected more than two dozen organisations across six countries, including logistics, insurance, pharmaceuticals, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-hacker/\">Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165986"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -103,89 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
-          "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
-          "published": "Tue, 06 Oct 2026 16:02:50 +0000",
-          "published_utc": "2026-10-06T16:02:50+00:00",
-          "summary": "<p>Four security flaws described in the supplied Apache Struts advisories could expose affected applications to remote code execution, denial-of- service, and unintended data disclosure. Recommended fixes include Struts 7.4.0 or later, or Struts 6.12.0 or later for organizations using the 6.x maintenance line. The vulnerabilities affect different framework components, so exposure depends on application configuration [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-struts-vulnerabilities/\">Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165923"
-        },
-        {
-          "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer’s Windows Network",
-          "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
-          "published": "Tue, 06 Oct 2026 15:50:56 +0000",
-          "published_utc": "2026-10-06T15:50:56+00:00",
-          "summary": "<p>A former infrastructure engineer has been sentenced to 32 months in federal prison for sabotaging his employer’s Windows network and demanding a cryptocurrency ransom. Daniel Rhyne, 59, of Kansas City, Missouri, received the sentence on September 28, 2026, in federal court in Trenton. Rhyne previously pleaded guilty to extortion involving threats to damage a protected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/\">Former Infrastructure Engineer Sentenced for Sabotaging Employer&#8217;s Windows Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165930"
-        },
-        {
-          "title": "GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
-          "url": "https://cybersecuritynews.com/github-copilot-cli-vulnerability/",
-          "published": "Tue, 06 Oct 2026 15:49:18 +0000",
-          "published_utc": "2026-10-06T15:49:18+00:00",
-          "summary": "<p>A new GitHub Copilot CLI finding that could allow an attacker-controlled web page to guide the coding agent into reading local developer files and sending their contents to a remote server. The technique, called Cryptographic Context Injection (CCI), hides malicious instructions in encrypted text, making them harder for normal prompt-injection checks to inspect. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-copilot-cli-vulnerability/\">GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166040"
-        },
-        {
-          "title": "From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring",
-          "url": "https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/",
-          "published": "Tue, 06 Oct 2026 15:45:40 +0000",
-          "published_utc": "2026-10-06T15:45:40+00:00",
-          "summary": "<p>Every function in a security operations center, from alert triage to incident response, depends on how well threats are monitored. Yet many SOCs and managed security providers still treat monitoring as log collection: ingest everything, match against static indicator lists, and hope the right alert rises to the top.&#160; That model no longer holds up [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/\">From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166024"
-        },
-        {
-          "title": "ASOS Hacked – App Users Receive Notifications Sent by Hackers",
-          "url": "https://cybersecuritynews.com/asos-hacked/",
-          "published": "Tue, 06 Oct 2026 15:06:20 +0000",
-          "published_utc": "2026-10-06T15:06:20+00:00",
-          "summary": "<p>ASOS is investigating a cyber incident after customers received an unauthorized app notification claiming hackers had accessed its Snowflake data environment. The retailer confirmed suspicious activity involving third-party communication platforms, but the claim that its Snowflake instance was compromised remains unverified. The notification appeared at around 10 am on October 6, 2026, under the heading [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/asos-hacked/\">ASOS Hacked &#8211; App Users Receive Notifications Sent by Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166028"
-        },
-        {
-          "title": "Aembit Extends Access Controls to Personal AI Agents",
-          "url": "https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/",
-          "published": "Tue, 06 Oct 2026 14:58:37 +0000",
-          "published_utc": "2026-10-06T14:58:37+00:00",
-          "summary": "<p>Silver Springs, United States / Maryland, October 6th, 2026, CyberNewswire Aembit, the identity control plane for AI agents, today announced support for securing personal agents’ access to enterprise environments, available immediately to existing customers at no additional cost.  As personal agents, such as Meta Muse and OpenAI Dots, move into workplace use, they can gain [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aembit-extends-access-controls-to-personal-ai-agents/\">Aembit Extends Access Controls to Personal AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166019"
-        },
-        {
-          "title": "Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure",
-          "url": "https://cybersecuritynews.com/iranian-hackers/",
-          "published": "Tue, 06 Oct 2026 14:31:24 +0000",
-          "published_utc": "2026-10-06T14:31:24+00:00",
-          "summary": "<p>Iranian state-aligned hackers have used a fake Dubai Airports recruitment process to target Iraqi critical infrastructure with a booby-trapped coding test. The campaign, called Blinder Tunnel, turned a routine developer task into a quiet, potentially long-term route for remote access, persistence and network tunneling across a victim environment. The operation was prepared as early as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iranian-hackers/\">Iranian Hackers Use Fake Dubai Airports Coding Test to Target Iraqi Critical Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166006"
-        },
-        {
-          "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-          "url": "https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-          "published": "Tue, 06 Oct 2026 14:14:27 +0000",
-          "published_utc": "2026-10-06T14:14:27+00:00",
-          "summary": "<p>Torrance, Californina, October 6th, 2026, CyberNewswire Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security teams worldwide, will participate in GovWare 2026 in Singapore. As security operations increasingly move beyond asset discovery toward understanding, prioritizing, and responding to exposure, Criminal IP is introducing AITEM (AI-Powered [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/\">Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165975"
-        },
-        {
-          "title": "AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security",
-          "url": "https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/",
-          "published": "Tue, 06 Oct 2026 14:12:11 +0000",
-          "published_utc": "2026-10-06T14:12:11+00:00",
-          "summary": "<p>New York, New York, October 6th, 2026, CyberNewswire Purpose-built for AI agents, new capabilities uncover shadow AI, stop rogue enterprise agents at runtime, and issue quantum-resilient agent identities&#160; AppViewX, the leading identity security company built for the AI-powered and post-quantum enterprise, today expanded capabilities for Agent Identity Security, a solution enabling enterprises to discover every [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/appviewx-adds-shadow-ai-visibility-and-a-runtime-kill-switch-to-agent-identity-security/\">AppViewX Adds Shadow AI Visibility and a Runtime Kill Switch to Agent Identity Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165970"
-        },
-        {
-          "title": "Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks",
-          "url": "https://cybersecuritynews.com/ransomware-hacker/",
-          "published": "Tue, 06 Oct 2026 14:09:29 +0000",
-          "published_utc": "2026-10-06T14:09:29+00:00",
-          "summary": "<p>A ransomware affiliate has turned an AI coding assistant into a channel for running attacks inside enterprise networks. The operator, known as Azazel, combined stolen development credentials, remote command execution and data theft while working with the Gentlemen ransomware group. The campaign affected more than two dozen organisations across six countries, including logistics, insurance, pharmaceuticals, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-hacker/\">Ransomware Hacker Uses AI Coding Assistant as Attack Channel Against Enterprise Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=165986"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

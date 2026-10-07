@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands",
+          "url": "https://gbhackers.com/critical-progress-datadirect-genai-flaw/",
+          "published": "Wed, 07 Oct 2026 12:55:29 +0000",
+          "published_utc": "2026-10-07T12:55:29+00:00",
+          "summary": "<p>Progress has disclosed a critical command injection vulnerability in the Early Access Release of its DataDirect Autonomous REST Connector AI Model Generator agents. This vulnerability, tracked as CVE-2026-91140, allows specially crafted OpenAPI or Swagger documents to execute arbitrary operating system commands within the environment running an affected agent. The security bulletin, dated October 6, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-progress-datadirect-genai-flaw/\">Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202537"
+        },
+        {
+          "title": "Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure",
+          "url": "https://gbhackers.com/cyberxero-uses-ai-agent-swarm/",
+          "published": "Wed, 07 Oct 2026 12:49:56 +0000",
+          "published_utc": "2026-10-07T12:49:56+00:00",
+          "summary": "<p>CyberXero, a Russian-speaking initial access broker combining conventional exploitation tools with AI agents to pursue global website compromises and targeted intrusions against Ukrainian energy infrastructure. The findings describe an active, financially motivated operation rather than a confirmed state-sponsored campaign. Its selective interest in Ukrainian utilities raises questions about potential access buyers, but researchers found no [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cyberxero-uses-ai-agent-swarm/\">Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202517"
+        },
+        {
+          "title": "FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials",
+          "url": "https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/",
+          "published": "Wed, 07 Oct 2026 12:44:59 +0000",
+          "published_utc": "2026-10-07T12:44:59+00:00",
+          "summary": "<p>The FBI and U.S. Secret Service issued a joint cybersecurity advisory warning that operators of &#8220;FortiBleed&#8221; continue to target internet-facing Fortinet FortiGate firewalls and SSL VPN gateways to steal credentials, maintain unauthorized access, and potentially facilitate ransomware attacks. Published on October 6, 2026, the advisory emphasizes administrator lockouts as an emerging consequence of this campaign. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/\">FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202533"
+        },
+        {
+          "title": "Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches",
+          "url": "https://gbhackers.com/erp-web-shell-breach/",
+          "published": "Wed, 07 Oct 2026 11:24:16 +0000",
+          "published_utc": "2026-10-07T11:24:16+00:00",
+          "summary": "<p>Attackers breached two of South Korea’s largest churches through distinct intrusion chains, combining an ERP web shell, privileged database access, leaked credentials, and broken authorization controls. Oasis Security’s analysis of attacker-server files documents extensive collection of congregant, employee, financial, and administrative information across both organizations. Its findings describe recovered attacker artifacts, rather than a complete [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/erp-web-shell-breach/\">Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202497"
+        },
+        {
+          "title": "OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack",
+          "url": "https://gbhackers.com/openssh-10-6-fixes-security-flaws/",
+          "published": "Wed, 07 Oct 2026 10:49:27 +0000",
+          "published_utc": "2026-10-07T10:49:27+00:00",
+          "summary": "<p>OpenSSH released version 10.6 on October 6, 2026, to address security vulnerabilities that affect encrypted sessions, file transfers, authentication, and forwarding controls. This update mitigates a plaintext recovery attack that exploits shared compression states across multiplexed SSH channels and introduces compatibility changes, while accelerating the project&#8217;s security release schedule. OpenSSH 10.6 Fixes Security Flaws The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openssh-10-6-fixes-security-flaws/\">OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202500"
+        },
+        {
+          "title": "LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension",
+          "url": "https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/",
+          "published": "Wed, 07 Oct 2026 10:39:15 +0000",
+          "published_utc": "2026-10-07T10:39:15+00:00",
+          "summary": "<p>A campaign that uses more than 100 compromised websites to distribute LUNEXSTEALER, a Windows infostealer that installs a browser extension giving attackers remote control. The extension, LUNARAXE, masquerades as “Microsoft Office Word Editor” inside Chromium-based browsers. Beyond stealing cookies, browsing history, and credentials entered into forms, it enables operators to execute JavaScript within webpages, manipulate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/\">LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202481"
+        },
+        {
+          "title": "Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception",
+          "url": "https://gbhackers.com/elastic-patches-14-security-flaws/",
+          "published": "Wed, 07 Oct 2026 10:36:46 +0000",
+          "published_utc": "2026-10-07T10:36:46+00:00",
+          "summary": "<p>Elastic published 14 security advisories addressing various vulnerabilities in Elasticsearch, Kibana, and Elastic Agent/Endpoint. Among these, a high-severity Kibana authorization bypass vulnerability allows for cross-tenant data interception. Other issues include information disclosure and denial-of-service weaknesses in Elasticsearch, along with a flaw in Elastic Endpoint that affects Windows protection capabilities. The advisory list consists of ten [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/elastic-patches-14-security-flaws/\">Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202492"
+        },
+        {
+          "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
+          "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
+          "published": "Wed, 07 Oct 2026 10:30:08 +0000",
+          "published_utc": "2026-10-07T10:30:08+00:00",
+          "summary": "<p>Veeam released security updates to address a critical vulnerability that lets low-privileged users execute remote code on Veeam Backup Servers. Identified as CVE-2025-64393, this flaw has a CVSS v4.0 score of 9.4 and was resolved in Veeam Backup &#38; Replication version 12.3.2 P4, build 12.3.2.4934, released on October 6, 2026. The vulnerability affects build 12.3.2.4854 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-veeam-backup-replication-flaw/\">Critical Veeam Backup &amp; Replication Flaw Allows Low-Privileged Users to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202487"
+        },
+        {
+          "title": "Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "published": "Wed, 07 Oct 2026 08:32:26 +0000",
+          "published_utc": "2026-10-07T08:32:26+00:00",
+          "summary": "<p>A prolonged Partisan Zmiy intrusion into a medical organization, exposing an updated malware toolkit that combined Telegram command channels, DNS tunneling, and scheduled payload execution. Investigators joined the response in December 2025 and traced the earliest evidence of compromise to early 2024, indicating approximately two years of access without observed destructive activity. The organization maintained [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/partisan-zmiy-malware/\">Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202461"
+        },
+        {
+          "title": "Best Just-in-Time (JIT) Access Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-jit-access-compared/",
+          "published": "Wed, 07 Oct 2026 08:26:51 +0000",
+          "published_utc": "2026-10-07T08:26:51+00:00",
+          "summary": "<p>Microsoft Entra PIM is the JIT baseline most enterprises already license, Britive leads born-cloud JIT, and ConductorOne/Opal fuse JIT with access governance. Eleven distinct options (the sheet’s twelve included BeyondTrust twice post-Entitle) compared across bundled, PAM-estate, cloud-native, infrastructure, and governance lanes priced by their own units, because “JIT” spans five different bills. Implementing just-in-time provisioning [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-jit-access-compared/\">Best Just-in-Time (JIT) Access Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202394"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -22,31 +103,87 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 3,
+      "article_count": 10,
       "articles": [
         {
-          "title": "ASOS Hacked as Attackers Abuse Customer Notification Platform to Threaten Data Leak",
-          "url": "https://gbhackers.com/asos-hacked/",
-          "published": "Wed, 07 Oct 2026 05:24:23 +0000",
-          "published_utc": "2026-10-07T05:24:23+00:00",
-          "summary": "<p>ASOS is investigating unauthorized activity involving third-party customer communication platforms after some shoppers received an alarming app notification suggesting a potential data leak. The attackers claimed to have accessed the retailer’s Snowflake environment, but this allegation remains unverified. Accessing notifications alone does not confirm a database breach. ASOS Hacked The alert reportedly appeared around 10 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/asos-hacked/\">ASOS Hacked as Attackers Abuse Customer Notification Platform to Threaten Data Leak</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202434"
+          "title": "Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches",
+          "url": "https://gbhackers.com/erp-web-shell-breach/",
+          "published": "Wed, 07 Oct 2026 11:24:16 +0000",
+          "published_utc": "2026-10-07T11:24:16+00:00",
+          "summary": "<p>Attackers breached two of South Korea’s largest churches through distinct intrusion chains, combining an ERP web shell, privileged database access, leaked credentials, and broken authorization controls. Oasis Security’s analysis of attacker-server files documents extensive collection of congregant, employee, financial, and administrative information across both organizations. Its findings describe recovered attacker artifacts, rather than a complete [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/erp-web-shell-breach/\">Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202497"
         },
         {
-          "title": "GitHub Copilot CLI Flaw Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
-          "url": "https://gbhackers.com/github-copilot-cli-flaw/",
-          "published": "Wed, 07 Oct 2026 05:08:24 +0000",
-          "published_utc": "2026-10-07T05:08:24+00:00",
-          "summary": "<p>Security researchers have revealed an attack against GitHub Copilot CLI that can expose developer secrets through an attacker-controlled webpage. This technique is called Cryptographic Context Injection (CCI). It involves hiding malicious instructions in encrypted content, which then convinces the coding agent to decrypt and run them in its runtime environment. According to Adversa AI&#8217;s disclosure, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-copilot-cli-flaw/\">GitHub Copilot CLI Flaw Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202423"
+          "title": "OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack",
+          "url": "https://gbhackers.com/openssh-10-6-fixes-security-flaws/",
+          "published": "Wed, 07 Oct 2026 10:49:27 +0000",
+          "published_utc": "2026-10-07T10:49:27+00:00",
+          "summary": "<p>OpenSSH released version 10.6 on October 6, 2026, to address security vulnerabilities that affect encrypted sessions, file transfers, authentication, and forwarding controls. This update mitigates a plaintext recovery attack that exploits shared compression states across multiplexed SSH channels and introduces compatibility changes, while accelerating the project&#8217;s security release schedule. OpenSSH 10.6 Fixes Security Flaws The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openssh-10-6-fixes-security-flaws/\">OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202500"
         },
         {
-          "title": "Anthropic Opens Claude’s Advanced Cyber Capabilities to Verified Red Teams With Reduced Restrictions",
-          "url": "https://gbhackers.com/anthropic-opens-claudes-advanced-cyber-capabilities/",
-          "published": "Wed, 07 Oct 2026 05:02:42 +0000",
-          "published_utc": "2026-10-07T05:02:42+00:00",
-          "summary": "<p>On October 6, 2026, Anthropic announced an expanded Cyber Verification Program (CVP) that gives vetted security professionals access to advanced Claude capabilities with fewer cybersecurity restrictions. This initiative integrates its existing verification program and Project Glasswing into three distinct access tiers focused on defensive analysis, authorized offensive testing, and assessments of sensitive infrastructure. According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-opens-claudes-advanced-cyber-capabilities/\">Anthropic Opens Claude’s Advanced Cyber Capabilities to Verified Red Teams With Reduced Restrictions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202418"
+          "title": "LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension",
+          "url": "https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/",
+          "published": "Wed, 07 Oct 2026 10:39:15 +0000",
+          "published_utc": "2026-10-07T10:39:15+00:00",
+          "summary": "<p>A campaign that uses more than 100 compromised websites to distribute LUNEXSTEALER, a Windows infostealer that installs a browser extension giving attackers remote control. The extension, LUNARAXE, masquerades as “Microsoft Office Word Editor” inside Chromium-based browsers. Beyond stealing cookies, browsing history, and credentials entered into forms, it enables operators to execute JavaScript within webpages, manipulate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/\">LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202481"
+        },
+        {
+          "title": "Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception",
+          "url": "https://gbhackers.com/elastic-patches-14-security-flaws/",
+          "published": "Wed, 07 Oct 2026 10:36:46 +0000",
+          "published_utc": "2026-10-07T10:36:46+00:00",
+          "summary": "<p>Elastic published 14 security advisories addressing various vulnerabilities in Elasticsearch, Kibana, and Elastic Agent/Endpoint. Among these, a high-severity Kibana authorization bypass vulnerability allows for cross-tenant data interception. Other issues include information disclosure and denial-of-service weaknesses in Elasticsearch, along with a flaw in Elastic Endpoint that affects Windows protection capabilities. The advisory list consists of ten [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/elastic-patches-14-security-flaws/\">Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202492"
+        },
+        {
+          "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
+          "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
+          "published": "Wed, 07 Oct 2026 10:30:08 +0000",
+          "published_utc": "2026-10-07T10:30:08+00:00",
+          "summary": "<p>Veeam released security updates to address a critical vulnerability that lets low-privileged users execute remote code on Veeam Backup Servers. Identified as CVE-2025-64393, this flaw has a CVSS v4.0 score of 9.4 and was resolved in Veeam Backup &#38; Replication version 12.3.2 P4, build 12.3.2.4934, released on October 6, 2026. The vulnerability affects build 12.3.2.4854 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-veeam-backup-replication-flaw/\">Critical Veeam Backup &amp; Replication Flaw Allows Low-Privileged Users to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202487"
+        },
+        {
+          "title": "Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks",
+          "url": "https://gbhackers.com/partisan-zmiy-malware/",
+          "published": "Wed, 07 Oct 2026 08:32:26 +0000",
+          "published_utc": "2026-10-07T08:32:26+00:00",
+          "summary": "<p>A prolonged Partisan Zmiy intrusion into a medical organization, exposing an updated malware toolkit that combined Telegram command channels, DNS tunneling, and scheduled payload execution. Investigators joined the response in December 2025 and traced the earliest evidence of compromise to early 2024, indicating approximately two years of access without observed destructive activity. The organization maintained [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/partisan-zmiy-malware/\">Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202461"
+        },
+        {
+          "title": "Best Just-in-Time (JIT) Access Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-jit-access-compared/",
+          "published": "Wed, 07 Oct 2026 08:26:51 +0000",
+          "published_utc": "2026-10-07T08:26:51+00:00",
+          "summary": "<p>Microsoft Entra PIM is the JIT baseline most enterprises already license, Britive leads born-cloud JIT, and ConductorOne/Opal fuse JIT with access governance. Eleven distinct options (the sheet’s twelve included BeyondTrust twice post-Entitle) compared across bundled, PAM-estate, cloud-native, infrastructure, and governance lanes priced by their own units, because “JIT” spans five different bills. Implementing just-in-time provisioning [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-jit-access-compared/\">Best Just-in-Time (JIT) Access Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202394"
+        },
+        {
+          "title": "12 Best Fine-Grained Authorization Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-fine-grained-authorization-compared/",
+          "published": "Wed, 07 Oct 2026 08:20:51 +0000",
+          "published_utc": "2026-10-07T08:20:51+00:00",
+          "summary": "<p>Okta’s Auth0 FGA is the best managed anchor for Zanzibar-style authorization, seamlessly complementing modern CIAM solutions across multi-tenant environments. Oso and Cerbos lead the developer lanes, and Axiomatics/PlainID/SGNL own enterprise policy orchestration. Twelve options compared with model, lane, and price decoded plus the stability flags this consolidating market demands (Warrant already folded into WorkOS; Styra [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-fine-grained-authorization-compared/\">12 Best Fine-Grained Authorization Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202337"
+        },
+        {
+          "title": "12 Best Certificate Lifecycle Management (PKI) Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-certificate-lifecycle-pki-compared/",
+          "published": "Wed, 07 Oct 2026 08:13:17 +0000",
+          "published_utc": "2026-10-07T08:13:17+00:00",
+          "summary": "<p>Keyfactor is the best all-in pick for owning PKI and lifecycle together, CyberArk (Venafi) the neutral control plane for multi-CA estates, and Let’s Encrypt the free ACME floor every automation program should exploit. Twelve options compared across commercial CAs, neutral platforms, OSS, and bundled Microsoft priced honestly, because the 47-day lifetime era makes this a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-certificate-lifecycle-pki-compared/\">12 Best Certificate Lifecycle Management (PKI) Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202312"
+        },
+        {
+          "title": "12 Best Machine Identity Management Solutions Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-machine-identity-compared/",
+          "published": "Wed, 07 Oct 2026 08:05:41 +0000",
+          "published_utc": "2026-10-07T08:05:41+00:00",
+          "summary": "<p>CyberArk (Venafi) is the best machine-identity anchor for enterprise certificate estates, while Keyfactor pairs lifecycle with its own PKI and the SPIFFE-native insurgents (SPIRL, Smallstep) define the workload-identity frontier. We compared 12 vendors across three lanes certificate lifecycle, workload identity, and API/machine credentials because “machine identity” is now three purchases, and the 47-day TLS countdown [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-machine-identity-compared/\">12 Best Machine Identity Management Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202292"
         }
       ],
       "error": ""

@@ -1,117 +1,930 @@
 {
-  "generated_at_utc": "2026-10-07T07:08:58.535306+00:00",
-  "generated_at_local": "2026-10-07T02:08:58.535313-05:00",
-  "article_count": 4,
-  "new_count": 4,
+  "generated_at_utc": "2026-10-07T14:43:07.694911+00:00",
+  "generated_at_local": "2026-10-07T09:43:07.694920-05:00",
+  "article_count": 34,
+  "new_count": 34,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1,
-    "gbhackers": 3
+    "cybersecuritynews": 16,
+    "gbhackers": 13,
+    "thehackernews": 5
   },
   "articles": [
     {
-      "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-      "url": "http://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-      "published": "Wed, 07 Oct 2026 06:57:54 +0000",
-      "published_utc": "2026-10-07T06:57:54+00:00",
-      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer).\n\nThe activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-907060690915838828",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-      "content_hash": "58b2ca933bf0bfa2a619e5360826dfeb78f7524f0112b4f56e34b778374831be",
+      "title": "SonicWall Patches 4 SMA1000 Flaws, Including Critical Pre-Auth SSRF Rated CVSS 10",
+      "url": "https://cybersecuritynews.com/sonicwall-patches-sma1000-flaws/",
+      "published": "Wed, 07 Oct 2026 14:27:26 +0000",
+      "published_utc": "2026-10-07T14:27:26+00:00",
+      "summary": "<p>SonicWall has patched four vulnerabilities in its Secure Mobile Access (SMA) 1000 Series appliances, including a critical server-side request forgery (SSRF) flaw with a maximum CVSS score of 10.0. The bug could let a remote attacker without valid credentials make the appliance send requests on their behalf, reach internal functions, and perform unauthorized operations. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sonicwall-patches-sma1000-flaws/\">SonicWall Patches 4 SMA1000 Flaws, Including Critical Pre-Auth SSRF Rated CVSS 10</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166221",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/sonicwall-patches-sma1000-flaws",
+      "content_hash": "2a20791f0344a51c54ea54934311d4e7b51fd64776661fb6f09762d8898c1fae",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "58b2ca933bf0bfa2a619e5360826dfeb78f7524f0112b4f56e34b778374831be"
+        "ORIGINAL": "2a20791f0344a51c54ea54934311d4e7b51fd64776661fb6f09762d8898c1fae"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-07T07:08:58.531292+00:00",
-      "first_seen_local": "2026-10-07T02:08:58.531290-05:00",
-      "last_updated_utc": "2026-10-07T07:08:58.531292+00:00",
-      "last_updated_local": "2026-10-07T02:08:58.531290-05:00"
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
     },
     {
-      "title": "ASOS Hacked as Attackers Abuse Customer Notification Platform to Threaten Data Leak",
-      "url": "https://gbhackers.com/asos-hacked/",
-      "published": "Wed, 07 Oct 2026 05:24:23 +0000",
-      "published_utc": "2026-10-07T05:24:23+00:00",
-      "summary": "<p>ASOS is investigating unauthorized activity involving third-party customer communication platforms after some shoppers received an alarming app notification suggesting a potential data leak. The attackers claimed to have accessed the retailer’s Snowflake environment, but this allegation remains unverified. Accessing notifications alone does not confirm a database breach. ASOS Hacked The alert reportedly appeared around 10 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/asos-hacked/\">ASOS Hacked as Attackers Abuse Customer Notification Platform to Threaten Data Leak</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202434",
+      "title": "Hackers Breach Two Major South Korean Churches, Exposing Data of Over 1 Million People",
+      "url": "https://cybersecuritynews.com/hackers-breach/",
+      "published": "Wed, 07 Oct 2026 14:13:26 +0000",
+      "published_utc": "2026-10-07T14:13:26+00:00",
+      "summary": "<p>Hackers breached two major South Korean churches, exposing more than one million congregant records and extensive financial and administrative data. The investigation reveals how web shells, leaked credentials, and weak access controls opened routes into connected systems. In one case, attackers entered through a web shell planted in an enterprise resource planning, or ERP, system. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach/\">Hackers Breach Two Major South Korean Churches, Exposing Data of Over 1 Million People</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166191",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-breach",
+      "content_hash": "050d8e629f6ca646be3122482aec4a41a4c5dda61e7327e77000ee84481f7717",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "050d8e629f6ca646be3122482aec4a41a4c5dda61e7327e77000ee84481f7717"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "PoC Exploit Released for Critical Atlassian Flaw That Can Lead to Jira Admin Access",
+      "url": "https://cybersecuritynews.com/poc-exploit-released-for-atlassian-flaw/",
+      "published": "Wed, 07 Oct 2026 13:30:35 +0000",
+      "published_utc": "2026-10-07T13:30:35+00:00",
+      "summary": "<p>A proof-of-concept exploit has been released for CVE-2026-21589, a critical arbitrary file-read vulnerability affecting multiple self-managed Atlassian products. The flaw can expose sensitive application files and, in environments integrated with Atlassian Crowd, potentially allow attackers to obtain Jira administrator access. Atlassian issued an out-of-band advisory on October 5. The vulnerability affects numerous Data Center products, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-exploit-released-for-atlassian-flaw/\">PoC Exploit Released for Critical Atlassian Flaw That Can Lead to Jira Admin Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166171",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/poc-exploit-released-for-atlassian-flaw",
+      "content_hash": "fb2a95b3b1e351ed90acc0f981fb1e53f894ad555fb15e4edcd54edf52f4406c",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fb2a95b3b1e351ed90acc0f981fb1e53f894ad555fb15e4edcd54edf52f4406c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Hackers Compromise 100+ Websites With Fake Cloudflare Checks to Spread LUNEXSTEALER",
+      "url": "https://cybersecuritynews.com/spread-lunexstealer/",
+      "published": "Wed, 07 Oct 2026 13:28:36 +0000",
+      "published_utc": "2026-10-07T13:28:36+00:00",
+      "summary": "<p>Hackers compromised more than 100 websites and used fake Cloudflare verification pages to spread LUNEXSTEALER, a Windows malware capable of stealing information and accepting remote commands. The campaign turned visits to legitimate websites into opportunities to infect visitors&#8217; computers. The attackers added malicious JavaScript to website pages, making a familiar security check the starting point [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/spread-lunexstealer/\">Hackers Compromise 100+ Websites With Fake Cloudflare Checks to Spread LUNEXSTEALER</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166187",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/spread-lunexstealer",
+      "content_hash": "fe7ad150c3ba43b2097180af14905cfc124d53e06bc066393a006a4b6732148d",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fe7ad150c3ba43b2097180af14905cfc124d53e06bc066393a006a4b6732148d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "FortiBleed Attack Campaign Exploiting Fortinet Firewalls and VPNs – FBI Warns",
+      "url": "https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/",
+      "published": "Wed, 07 Oct 2026 13:19:53 +0000",
+      "published_utc": "2026-10-07T13:19:53+00:00",
+      "summary": "<p>The FBI and U.S. Secret Service have issued a joint cybersecurity advisory warning that the ongoing FortiBleed campaign is targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways worldwide. The credential-compromise operation has reportedly affected more than 86,644 devices across 194 countries, creating a major risk for organizations that expose Fortinet management or remote-access services [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-attack-campaign-exploiting/\">FortiBleed Attack Campaign Exploiting Fortinet Firewalls and VPNs &#8211; FBI Warns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166154",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fortibleed-attack-campaign-exploiting",
+      "content_hash": "1e61268b7aa56c8650e41f3a4fba83717e1e275976425c1b3bc1f2bd7c854053",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1e61268b7aa56c8650e41f3a4fba83717e1e275976425c1b3bc1f2bd7c854053"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands",
+      "url": "https://gbhackers.com/critical-progress-datadirect-genai-flaw/",
+      "published": "Wed, 07 Oct 2026 12:55:29 +0000",
+      "published_utc": "2026-10-07T12:55:29+00:00",
+      "summary": "<p>Progress has disclosed a critical command injection vulnerability in the Early Access Release of its DataDirect Autonomous REST Connector AI Model Generator agents. This vulnerability, tracked as CVE-2026-91140, allows specially crafted OpenAPI or Swagger documents to execute arbitrary operating system commands within the environment running an affected agent. The security bulletin, dated October 6, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-progress-datadirect-genai-flaw/\">Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202537",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/asos-hacked",
-      "content_hash": "74796147807a39a96e1c85c43efe2a437e41613280067fa9e7b877cd5e6bd448",
+      "article_key": "gbhackers.com/critical-progress-datadirect-genai-flaw",
+      "content_hash": "3b093a489be34022c333e752affb864680b8721151282e1c6ddc1b4fcc20ef34",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3b093a489be34022c333e752affb864680b8721151282e1c6ddc1b4fcc20ef34"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure",
+      "url": "https://gbhackers.com/cyberxero-uses-ai-agent-swarm/",
+      "published": "Wed, 07 Oct 2026 12:49:56 +0000",
+      "published_utc": "2026-10-07T12:49:56+00:00",
+      "summary": "<p>CyberXero, a Russian-speaking initial access broker combining conventional exploitation tools with AI agents to pursue global website compromises and targeted intrusions against Ukrainian energy infrastructure. The findings describe an active, financially motivated operation rather than a confirmed state-sponsored campaign. Its selective interest in Ukrainian utilities raises questions about potential access buyers, but researchers found no [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cyberxero-uses-ai-agent-swarm/\">Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202517",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cyberxero-uses-ai-agent-swarm",
+      "content_hash": "9f1e4825b1d68edf2168873311b0a4014fb0f159b047a37081df2528c93977a7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9f1e4825b1d68edf2168873311b0a4014fb0f159b047a37081df2528c93977a7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials",
+      "url": "https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/",
+      "published": "Wed, 07 Oct 2026 12:44:59 +0000",
+      "published_utc": "2026-10-07T12:44:59+00:00",
+      "summary": "<p>The FBI and U.S. Secret Service issued a joint cybersecurity advisory warning that operators of &#8220;FortiBleed&#8221; continue to target internet-facing Fortinet FortiGate firewalls and SSL VPN gateways to steal credentials, maintain unauthorized access, and potentially facilitate ransomware attacks. Published on October 6, 2026, the advisory emphasizes administrator lockouts as an emerging consequence of this campaign. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/\">FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202533",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls",
+      "content_hash": "b3da084afa6d943e6c2e846b2785a2d31607aeb1b6e180add30257289ec8f5a1",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b3da084afa6d943e6c2e846b2785a2d31607aeb1b6e180add30257289ec8f5a1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Earth Sirrush Uses PNG Steganography and Malicious Notepad++ Plugins to Deploy Espionage Malware",
+      "url": "https://cybersecuritynews.com/earth-sirrush-uses-png/",
+      "published": "Wed, 07 Oct 2026 12:39:51 +0000",
+      "published_utc": "2026-10-07T12:39:51+00:00",
+      "summary": "<p>Earth Sirrush is hiding espionage malware inside PNG images and malicious Notepad++ plugins to compromise Ukrainian organizations. The Russia-aligned group has targeted government agencies, defense organizations, border guards, and logistics operators since at least 2022, repeatedly changing its tools to maintain access across the country&#8217;s wartime supply networks. The attacks begin with carefully tailored phishing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/earth-sirrush-uses-png/\">Earth Sirrush Uses PNG Steganography and Malicious Notepad++ Plugins to Deploy Espionage Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166166",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/earth-sirrush-uses-png",
+      "content_hash": "de06c512cd6bb6daf6b9003eeec4ad9fe650896bdeb0671d5d25c0b145633184",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "de06c512cd6bb6daf6b9003eeec4ad9fe650896bdeb0671d5d25c0b145633184"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Hackers Steal Rockstar Source Code, 78.6 Million Records and Playable GTA VI Build",
+      "url": "https://cybersecuritynews.com/playable-gta-vi-build/",
+      "published": "Wed, 07 Oct 2026 12:04:11 +0000",
+      "published_utc": "2026-10-07T12:04:11+00:00",
+      "summary": "<p>Rockstar Games has faced separate intrusions involving proprietary source code, 78.6 million business records, and what researchers describe as a playable GTA VI development build. The incidents span several years, rather than one attack that stole everything together. The reported entry points include stolen employee credentials, repeated authentication prompts, and compromised access tokens belonging to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/playable-gta-vi-build/\">Hackers Steal Rockstar Source Code, 78.6 Million Records and Playable GTA VI Build</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166130",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/playable-gta-vi-build",
+      "content_hash": "fdbf1d06cf66d9b6394ec4b2d919ff58a7fc39f654ca36e4bdb3febda976de7c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fdbf1d06cf66d9b6394ec4b2d919ff58a7fc39f654ca36e4bdb3febda976de7c",
+        "FEEDBURNER": "fdbf1d06cf66d9b6394ec4b2d919ff58a7fc39f654ca36e4bdb3febda976de7c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+      "url": "http://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+      "published": "Wed, 07 Oct 2026 11:57:05 +0000",
+      "published_utc": "2026-10-07T11:57:05+00:00",
+      "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.\n\nFor years, the enterprise cybersecurity story has been told as a straight line of escalation: more attacks, more data loss, more pressure, and more urgency. That",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3119891559709483059",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+      "content_hash": "39c17772c523a9a0a29d2fcda9194855000c89b881266e098f6299d3aacb0f31",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "39c17772c523a9a0a29d2fcda9194855000c89b881266e098f6299d3aacb0f31",
+        "FEEDBURNER": "39c17772c523a9a0a29d2fcda9194855000c89b881266e098f6299d3aacb0f31"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:43:07.688494+00:00",
+      "first_seen_local": "2026-10-07T09:43:07.688491-05:00",
+      "last_updated_utc": "2026-10-07T14:43:07.688494+00:00",
+      "last_updated_local": "2026-10-07T09:43:07.688491-05:00"
+    },
+    {
+      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+      "url": "http://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "published": "Wed, 07 Oct 2026 11:56:56 +0000",
+      "published_utc": "2026-10-07T11:56:56+00:00",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN) gateways.\n\n\"The campaign exploits reused or leaked credentials and legacy SHA-256 password storage, enabling threat",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8794756182636465796",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "content_hash": "eef4b151129fbf8a2b1349559ec00a6720c85fa7f1ccaf63bcb47a3e95774e50",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eef4b151129fbf8a2b1349559ec00a6720c85fa7f1ccaf63bcb47a3e95774e50",
+        "FEEDBURNER": "eef4b151129fbf8a2b1349559ec00a6720c85fa7f1ccaf63bcb47a3e95774e50"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:43:07.688494+00:00",
+      "first_seen_local": "2026-10-07T09:43:07.688491-05:00",
+      "last_updated_utc": "2026-10-07T14:43:07.688494+00:00",
+      "last_updated_local": "2026-10-07T09:43:07.688491-05:00"
+    },
+    {
+      "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+      "url": "http://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+      "published": "Wed, 07 Oct 2026 11:49:26 +0000",
+      "published_utc": "2026-10-07T11:49:26+00:00",
+      "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.\n\nThe arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple products, including Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3945885812879603630",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+      "content_hash": "d7ba6553e5a4e723235b2f667b718db6b638cf75578ccc5d247951583aaddba9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d7ba6553e5a4e723235b2f667b718db6b638cf75578ccc5d247951583aaddba9",
+        "FEEDBURNER": "d7ba6553e5a4e723235b2f667b718db6b638cf75578ccc5d247951583aaddba9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:43:07.688494+00:00",
+      "first_seen_local": "2026-10-07T09:43:07.688491-05:00",
+      "last_updated_utc": "2026-10-07T14:43:07.688494+00:00",
+      "last_updated_local": "2026-10-07T09:43:07.688491-05:00"
+    },
+    {
+      "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+      "url": "http://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+      "published": "Wed, 07 Oct 2026 11:42:24 +0000",
+      "published_utc": "2026-10-07T11:42:24+00:00",
+      "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would.\n\nThat promise is worth taking seriously. It’s also worth pressure testing, and three questions do the heavy lifting.&nbsp;\n\n\n  What can the assessment actually",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4265052005184258414",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+      "content_hash": "c24785bdf8f76b31985ee0f165d98a036f72d417730d7af28bbc304f59498e25",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c24785bdf8f76b31985ee0f165d98a036f72d417730d7af28bbc304f59498e25",
+        "FEEDBURNER": "c24785bdf8f76b31985ee0f165d98a036f72d417730d7af28bbc304f59498e25"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:43:07.688494+00:00",
+      "first_seen_local": "2026-10-07T09:43:07.688491-05:00",
+      "last_updated_utc": "2026-10-07T14:43:07.688494+00:00",
+      "last_updated_local": "2026-10-07T09:43:07.688491-05:00"
+    },
+    {
+      "title": "Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches",
+      "url": "https://gbhackers.com/erp-web-shell-breach/",
+      "published": "Wed, 07 Oct 2026 11:24:16 +0000",
+      "published_utc": "2026-10-07T11:24:16+00:00",
+      "summary": "<p>Attackers breached two of South Korea’s largest churches through distinct intrusion chains, combining an ERP web shell, privileged database access, leaked credentials, and broken authorization controls. Oasis Security’s analysis of attacker-server files documents extensive collection of congregant, employee, financial, and administrative information across both organizations. Its findings describe recovered attacker artifacts, rather than a complete [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/erp-web-shell-breach/\">Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202497",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/erp-web-shell-breach",
+      "content_hash": "823f6a60fceeebc05d548783e783b86ba7a46b29b683f1259d6c0cafd16c1ed0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "823f6a60fceeebc05d548783e783b86ba7a46b29b683f1259d6c0cafd16c1ed0",
+        "FEEDBURNER": "823f6a60fceeebc05d548783e783b86ba7a46b29b683f1259d6c0cafd16c1ed0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Anthropic Mythos AI Finds Rejetto HFS Flaw That Lets Attackers Forge Admin Sessions and Execute Code",
+      "url": "https://cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw/",
+      "published": "Wed, 07 Oct 2026 10:51:52 +0000",
+      "published_utc": "2026-10-07T10:51:52+00:00",
+      "summary": "<p>Anthropic’s Mythos AI has identified a critical vulnerability in Rejetto HTTP File Server that could allow remote attackers to forge administrator sessions and execute arbitrary code. The issue, tracked as CVE-2026-61500, stems from predictable session-signing keys generated through JavaScript’s non-cryptographic Math.random() function. Horizon3 made the finding after joining Anthropic’s Project Glasswing in July 2026, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw/\">Anthropic Mythos AI Finds Rejetto HFS Flaw That Lets Attackers Forge Admin Sessions and Execute Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=165795",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/anthropic-mythos-ai-finds-rejetto-hfs-flaw",
+      "content_hash": "789174f8a5c74c33ada295efca407112a567f785cf596e196738fb9e2eafec1a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "789174f8a5c74c33ada295efca407112a567f785cf596e196738fb9e2eafec1a",
+        "FEEDBURNER": "789174f8a5c74c33ada295efca407112a567f785cf596e196738fb9e2eafec1a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack",
+      "url": "https://gbhackers.com/openssh-10-6-fixes-security-flaws/",
+      "published": "Wed, 07 Oct 2026 10:49:27 +0000",
+      "published_utc": "2026-10-07T10:49:27+00:00",
+      "summary": "<p>OpenSSH released version 10.6 on October 6, 2026, to address security vulnerabilities that affect encrypted sessions, file transfers, authentication, and forwarding controls. This update mitigates a plaintext recovery attack that exploits shared compression states across multiplexed SSH channels and introduces compatibility changes, while accelerating the project&#8217;s security release schedule. OpenSSH 10.6 Fixes Security Flaws The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openssh-10-6-fixes-security-flaws/\">OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202500",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openssh-10-6-fixes-security-flaws",
+      "content_hash": "d73848e61fa455e85c5abaadfdb156048db9b2460f6a9989714fa1664f3229ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d73848e61fa455e85c5abaadfdb156048db9b2460f6a9989714fa1664f3229ec",
+        "FEEDBURNER": "d73848e61fa455e85c5abaadfdb156048db9b2460f6a9989714fa1664f3229ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Critical Progress DataDirect GenAI Flaw Lets Malicious OpenAPI Files Execute OS Commands",
+      "url": "https://cybersecuritynews.com/progress-datadirect-genai-flaw/",
+      "published": "Wed, 07 Oct 2026 10:49:09 +0000",
+      "published_utc": "2026-10-07T10:49:09+00:00",
+      "summary": "<p>Progress disclosed critical command injection flaw CVE-2026-91140 in DataDirect Autonomous REST Connector AI Model Generator agents, allowing malicious OpenAPI or Swagger documents to execute arbitrary OS commands. The security bulletin, published on October 6, 2026, covers Early Access agent definitions available through the public progress/datadirect-arc-ai-model-gen GitHub repository. Progress has released updated definitions and urges customers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/progress-datadirect-genai-flaw/\">Critical Progress DataDirect GenAI Flaw Lets Malicious OpenAPI Files Execute OS Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166099",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/progress-datadirect-genai-flaw",
+      "content_hash": "67c10cfcf3183b600f77bb0f3531b11ad04d43c19efb570644ac25c697f66a79",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "67c10cfcf3183b600f77bb0f3531b11ad04d43c19efb570644ac25c697f66a79",
+        "FEEDBURNER": "67c10cfcf3183b600f77bb0f3531b11ad04d43c19efb570644ac25c697f66a79"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension",
+      "url": "https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/",
+      "published": "Wed, 07 Oct 2026 10:39:15 +0000",
+      "published_utc": "2026-10-07T10:39:15+00:00",
+      "summary": "<p>A campaign that uses more than 100 compromised websites to distribute LUNEXSTEALER, a Windows infostealer that installs a browser extension giving attackers remote control. The extension, LUNARAXE, masquerades as “Microsoft Office Word Editor” inside Chromium-based browsers. Beyond stealing cookies, browsing history, and credentials entered into forms, it enables operators to execute JavaScript within webpages, manipulate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/\">LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202481",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension",
+      "content_hash": "769f3d05352c3302e3cb9bccf63ae40a5b898b793aa7f66e0e033529dadc18a5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "769f3d05352c3302e3cb9bccf63ae40a5b898b793aa7f66e0e033529dadc18a5",
+        "FEEDBURNER": "769f3d05352c3302e3cb9bccf63ae40a5b898b793aa7f66e0e033529dadc18a5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception",
+      "url": "https://gbhackers.com/elastic-patches-14-security-flaws/",
+      "published": "Wed, 07 Oct 2026 10:36:46 +0000",
+      "published_utc": "2026-10-07T10:36:46+00:00",
+      "summary": "<p>Elastic published 14 security advisories addressing various vulnerabilities in Elasticsearch, Kibana, and Elastic Agent/Endpoint. Among these, a high-severity Kibana authorization bypass vulnerability allows for cross-tenant data interception. Other issues include information disclosure and denial-of-service weaknesses in Elasticsearch, along with a flaw in Elastic Endpoint that affects Windows protection capabilities. The advisory list consists of ten [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/elastic-patches-14-security-flaws/\">Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202492",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/elastic-patches-14-security-flaws",
+      "content_hash": "147435057dfee40bb22d2c9b288d5ee852c070e0c070f028b54868c34af0383e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "147435057dfee40bb22d2c9b288d5ee852c070e0c070f028b54868c34af0383e",
+        "FEEDBURNER": "147435057dfee40bb22d2c9b288d5ee852c070e0c070f028b54868c34af0383e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "OpenAI Sandbox Escape Flaw Allowed Free Access to Paid AI Models Without an API Key",
+      "url": "https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/",
+      "published": "Wed, 07 Oct 2026 10:34:52 +0000",
+      "published_utc": "2026-10-07T10:34:52+00:00",
+      "summary": "<p>Security researcher Oliver Fish says he found an OpenAI sandbox escape that let him request paid AI models without an API key or an account. A screenshot shared online shows OpenAI awarding $300 for a report titled “Unauthenticated Sandbox Escape Enables Access to Internal OpenAI Responses API.” The issue appears to have crossed two security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-sandbox-escape-vulnerability/\">OpenAI Sandbox Escape Flaw Allowed Free Access to Paid AI Models Without an API Key</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166147",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-sandbox-escape-vulnerability",
+      "content_hash": "2ffd05cd4b020a04f65debec98a6e797e0f1022d1ac8d5a250220695a0ea94e1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2ffd05cd4b020a04f65debec98a6e797e0f1022d1ac8d5a250220695a0ea94e1",
+        "FEEDBURNER": "2ffd05cd4b020a04f65debec98a6e797e0f1022d1ac8d5a250220695a0ea94e1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
+      "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
+      "published": "Wed, 07 Oct 2026 10:30:08 +0000",
+      "published_utc": "2026-10-07T10:30:08+00:00",
+      "summary": "<p>Veeam released security updates to address a critical vulnerability that lets low-privileged users execute remote code on Veeam Backup Servers. Identified as CVE-2025-64393, this flaw has a CVSS v4.0 score of 9.4 and was resolved in Veeam Backup &#38; Replication version 12.3.2 P4, build 12.3.2.4934, released on October 6, 2026. The vulnerability affects build 12.3.2.4854 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-veeam-backup-replication-flaw/\">Critical Veeam Backup &amp; Replication Flaw Allows Low-Privileged Users to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202487",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-veeam-backup-replication-flaw",
+      "content_hash": "fca997491c28c609bce6f53cac67b74988ba82ea8bc79a546e3e6062e011db3c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fca997491c28c609bce6f53cac67b74988ba82ea8bc79a546e3e6062e011db3c",
+        "FEEDBURNER": "fca997491c28c609bce6f53cac67b74988ba82ea8bc79a546e3e6062e011db3c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Cybersecurity Awareness Month 2026 – Don’t Make It Easy for Them",
+      "url": "https://cybersecuritynews.com/cybersecurity-awareness-month-2026/",
+      "published": "Wed, 07 Oct 2026 10:06:42 +0000",
+      "published_utc": "2026-10-07T10:06:42+00:00",
+      "summary": "<p>Cybersecurity Awareness Month 2026 arrives as online attacks become easier to launch, harder to spot, and more focused on people. Observed every October, the campaign helps individuals and businesses build safer digital habits. This year there are two themes. The NCA is running &#8220;Don&#8217;t Make It Easy for Them&#8221;, a push to make life harder [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cybersecurity-awareness-month-2026/\">Cybersecurity Awareness Month 2026 &#8211; Don’t Make It Easy for Them</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166140",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cybersecurity-awareness-month-2026",
+      "content_hash": "65750b7b4b5da34d557a3312ceaf8b12c58247e0916a5545c508f7138159a369",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "74796147807a39a96e1c85c43efe2a437e41613280067fa9e7b877cd5e6bd448"
+        "FEEDBURNER": "65750b7b4b5da34d557a3312ceaf8b12c58247e0916a5545c508f7138159a369"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-07T07:08:51.754871+00:00",
-      "first_seen_local": "2026-10-07T02:08:51.754869-05:00",
-      "last_updated_utc": "2026-10-07T07:08:51.754871+00:00",
-      "last_updated_local": "2026-10-07T02:08:51.754869-05:00"
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
     },
     {
-      "title": "GitHub Copilot CLI Flaw Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
-      "url": "https://gbhackers.com/github-copilot-cli-flaw/",
-      "published": "Wed, 07 Oct 2026 05:08:24 +0000",
-      "published_utc": "2026-10-07T05:08:24+00:00",
-      "summary": "<p>Security researchers have revealed an attack against GitHub Copilot CLI that can expose developer secrets through an attacker-controlled webpage. This technique is called Cryptographic Context Injection (CCI). It involves hiding malicious instructions in encrypted content, which then convinces the coding agent to decrypt and run them in its runtime environment. According to Adversa AI&#8217;s disclosure, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-copilot-cli-flaw/\">GitHub Copilot CLI Flaw Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202423",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/github-copilot-cli-flaw",
-      "content_hash": "c324e97861150dff3682626007710e287847f56a73507b3c30410939f479c110",
+      "title": "Hackers Use Fake ChatGPT, Claude and Gemini Ads to Steal Passwords and MFA Codes",
+      "url": "https://cybersecuritynews.com/hackers-use-fake-chatgpt/",
+      "published": "Wed, 07 Oct 2026 09:21:26 +0000",
+      "published_utc": "2026-10-07T09:21:26+00:00",
+      "summary": "<p>Hackers are impersonating ChatGPT, Claude and Gemini with fake advertising products that steal passwords and multifactor authentication codes. Instead of delivering a conventional malware download, the campaign uses convincing websites and live human operators to guide victims through fraudulent sign-in screens. Invitation emails lead advertisers to pages promising campaign planning, spending audits and account connections. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-chatgpt/\">Hackers Use Fake ChatGPT, Claude and Gemini Ads to Steal Passwords and MFA Codes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166088",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-fake-chatgpt",
+      "content_hash": "142694bf21807205fb69a2566e57aa9b513307009d36d304d009708492c5f33a",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "c324e97861150dff3682626007710e287847f56a73507b3c30410939f479c110"
+        "FEEDBURNER": "142694bf21807205fb69a2566e57aa9b513307009d36d304d009708492c5f33a"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-07T07:08:51.754871+00:00",
-      "first_seen_local": "2026-10-07T02:08:51.754869-05:00",
-      "last_updated_utc": "2026-10-07T07:08:51.754871+00:00",
-      "last_updated_local": "2026-10-07T02:08:51.754869-05:00"
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
     },
     {
-      "title": "Anthropic Opens Claude’s Advanced Cyber Capabilities to Verified Red Teams With Reduced Restrictions",
-      "url": "https://gbhackers.com/anthropic-opens-claudes-advanced-cyber-capabilities/",
-      "published": "Wed, 07 Oct 2026 05:02:42 +0000",
-      "published_utc": "2026-10-07T05:02:42+00:00",
-      "summary": "<p>On October 6, 2026, Anthropic announced an expanded Cyber Verification Program (CVP) that gives vetted security professionals access to advanced Claude capabilities with fewer cybersecurity restrictions. This initiative integrates its existing verification program and Project Glasswing into three distinct access tiers focused on defensive analysis, authorized offensive testing, and assessments of sensitive infrastructure. According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-opens-claudes-advanced-cyber-capabilities/\">Anthropic Opens Claude’s Advanced Cyber Capabilities to Verified Red Teams With Reduced Restrictions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202418",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/anthropic-opens-claudes-advanced-cyber-capabilities",
-      "content_hash": "2c8633e34598e083bf783d186c4a4e937a0e80267f072241f780940d64701da3",
+      "title": "Critical WordPress Vulnerabilities Enable XSS, SQL Injection and Data Disclosure Attacks",
+      "url": "https://cybersecuritynews.com/wordpress-vulnerabilities/",
+      "published": "Wed, 07 Oct 2026 08:53:57 +0000",
+      "published_utc": "2026-10-07T08:53:57+00:00",
+      "summary": "<p>WordPress released version 7.1.3 on October 6, 2026, addressing vulnerabilities involving cross-site scripting, SQL injection, information disclosure, and other security weaknesses. The project recommends immediate updates, with fixes also available for older affected branches. Only the latest WordPress version remains actively supported. The release documentation lists seven security issues, although its introductory sentence describes “one [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-vulnerabilities/\">Critical WordPress Vulnerabilities Enable XSS, SQL Injection and Data Disclosure Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166089",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wordpress-vulnerabilities",
+      "content_hash": "c5805328a51905e4857d6e15331504a82e8acf86ae390d473aa55b4a3ecbf6ff",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "2c8633e34598e083bf783d186c4a4e937a0e80267f072241f780940d64701da3"
+        "FEEDBURNER": "c5805328a51905e4857d6e15331504a82e8acf86ae390d473aa55b4a3ecbf6ff"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-07T07:08:51.754871+00:00",
-      "first_seen_local": "2026-10-07T02:08:51.754869-05:00",
-      "last_updated_utc": "2026-10-07T07:08:51.754871+00:00",
-      "last_updated_local": "2026-10-07T02:08:51.754869-05:00"
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Multiple OpenSSH Vulnerabilities Could Enable Plaintext Recovery, File Write and Injection Attacks",
+      "url": "https://cybersecuritynews.com/openssh-10-6-released/",
+      "published": "Wed, 07 Oct 2026 08:47:31 +0000",
+      "published_utc": "2026-10-07T08:47:31+00:00",
+      "summary": "<p>OpenSSH 10.6, released on October 6, 2026, fixes security flaws that could expose secrets, write files outside intended folders, or enable shell injection under specific conditions. The update covers both client and server tools, making it relevant to administrators and users who rely on SSH for remote access and file transfers. The official release notes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-10-6-released/\">Multiple OpenSSH Vulnerabilities Could Enable Plaintext Recovery, File Write and Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166110",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openssh-10-6-released",
+      "content_hash": "594cba205b7373e2971a661d6f3852bfd7f5a490aef6ad98559174dfb7f28b5e",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "594cba205b7373e2971a661d6f3852bfd7f5a490aef6ad98559174dfb7f28b5e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks",
+      "url": "https://gbhackers.com/partisan-zmiy-malware/",
+      "published": "Wed, 07 Oct 2026 08:32:26 +0000",
+      "published_utc": "2026-10-07T08:32:26+00:00",
+      "summary": "<p>A prolonged Partisan Zmiy intrusion into a medical organization, exposing an updated malware toolkit that combined Telegram command channels, DNS tunneling, and scheduled payload execution. Investigators joined the response in December 2025 and traced the earliest evidence of compromise to early 2024, indicating approximately two years of access without observed destructive activity. The organization maintained [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/partisan-zmiy-malware/\">Partisan Zmiy Malware Campaign Uses Telegram and DNS Tunneling to Target Healthcare Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202461",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/partisan-zmiy-malware",
+      "content_hash": "7bc97e556acd62dade122c533f7f91b4afaf4a47c5697233e40e1ab04ceeb238",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7bc97e556acd62dade122c533f7f91b4afaf4a47c5697233e40e1ab04ceeb238",
+        "FEEDBURNER": "7bc97e556acd62dade122c533f7f91b4afaf4a47c5697233e40e1ab04ceeb238"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "32 Unique 0-Days Exploited in Samsung S26, Pixel 10, OpenAI Codex and Other Devices in Pwn2Own 2026",
+      "url": "https://cybersecuritynews.com/32-0-days-pwn2own-2026/",
+      "published": "Wed, 07 Oct 2026 08:27:31 +0000",
+      "published_utc": "2026-10-07T08:27:31+00:00",
+      "summary": "<p>Security researchers reportedly exploited 32 unique zero-day vulnerabilities and earned $388,500 on the opening day of Pwn2Own Ireland 2026. Samsung Galaxy S26, OpenAI Codex, smart home devices and AI services fell to working exploits, but the Google Pixel 10 attempt failed within the contest time limit. The October 6 results show how security gaps span [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/32-0-days-pwn2own-2026/\">32 Unique 0-Days Exploited in Samsung S26, Pixel 10, OpenAI Codex and Other Devices in Pwn2Own 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166103",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/32-0-days-pwn2own-2026",
+      "content_hash": "2438fa5a85668247308ae05b3127e7ef07f90f63a74c2f4573faeb32a7f30c63",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "2438fa5a85668247308ae05b3127e7ef07f90f63a74c2f4573faeb32a7f30c63"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "Best Just-in-Time (JIT) Access Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-jit-access-compared/",
+      "published": "Wed, 07 Oct 2026 08:26:51 +0000",
+      "published_utc": "2026-10-07T08:26:51+00:00",
+      "summary": "<p>Microsoft Entra PIM is the JIT baseline most enterprises already license, Britive leads born-cloud JIT, and ConductorOne/Opal fuse JIT with access governance. Eleven distinct options (the sheet’s twelve included BeyondTrust twice post-Entitle) compared across bundled, PAM-estate, cloud-native, infrastructure, and governance lanes priced by their own units, because “JIT” spans five different bills. Implementing just-in-time provisioning [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-jit-access-compared/\">Best Just-in-Time (JIT) Access Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202394",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-jit-access-compared",
+      "content_hash": "5ec1c1db4a9a4cbdda7292d4bc45e2081d5f1d23ca44befb6e9e8d9829d59216",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5ec1c1db4a9a4cbdda7292d4bc45e2081d5f1d23ca44befb6e9e8d9829d59216",
+        "FEEDBURNER": "5ec1c1db4a9a4cbdda7292d4bc45e2081d5f1d23ca44befb6e9e8d9829d59216"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "12 Best Fine-Grained Authorization Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-fine-grained-authorization-compared/",
+      "published": "Wed, 07 Oct 2026 08:20:51 +0000",
+      "published_utc": "2026-10-07T08:20:51+00:00",
+      "summary": "<p>Okta’s Auth0 FGA is the best managed anchor for Zanzibar-style authorization, seamlessly complementing modern CIAM solutions across multi-tenant environments. Oso and Cerbos lead the developer lanes, and Axiomatics/PlainID/SGNL own enterprise policy orchestration. Twelve options compared with model, lane, and price decoded plus the stability flags this consolidating market demands (Warrant already folded into WorkOS; Styra [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-fine-grained-authorization-compared/\">12 Best Fine-Grained Authorization Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202337",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-fine-grained-authorization-compared",
+      "content_hash": "75ede2ff8b45801da042e4b8a1ddfde57c13ceafe83dc9840506c7072573779b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "75ede2ff8b45801da042e4b8a1ddfde57c13ceafe83dc9840506c7072573779b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Google Chrome Update Fixes Massive 247 Vulnerabilities, Including 4 Code Execution Flaws",
+      "url": "https://cybersecuritynews.com/chrome-fixes-massive-247-vulnerabilities/",
+      "published": "Wed, 07 Oct 2026 08:13:38 +0000",
+      "published_utc": "2026-10-07T08:13:38+00:00",
+      "summary": "<p>Google released a major Chrome security update on October 6, 2026, fixing 247 vulnerabilities, including four critical memory-safety flaws, across Windows, Mac, and Linux. The patched versions are 155.0.8059.39/.40 for Windows and Mac and 155.0.8059.39 for Linux. Although the critical bugs raise concerns about possible code execution, Google’s announcement identifies them as use-after-free vulnerabilities. It [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-fixes-massive-247-vulnerabilities/\">Google Chrome Update Fixes Massive 247 Vulnerabilities, Including 4 Code Execution Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166084",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chrome-fixes-massive-247-vulnerabilities",
+      "content_hash": "f094f016fd84c264592e45a2baa6bd2ac073fc109dc9d44e298b673f9d1f45d9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f094f016fd84c264592e45a2baa6bd2ac073fc109dc9d44e298b673f9d1f45d9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.740899+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.740895-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.740899+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.740895-05:00"
+    },
+    {
+      "title": "12 Best Certificate Lifecycle Management (PKI) Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-certificate-lifecycle-pki-compared/",
+      "published": "Wed, 07 Oct 2026 08:13:17 +0000",
+      "published_utc": "2026-10-07T08:13:17+00:00",
+      "summary": "<p>Keyfactor is the best all-in pick for owning PKI and lifecycle together, CyberArk (Venafi) the neutral control plane for multi-CA estates, and Let’s Encrypt the free ACME floor every automation program should exploit. Twelve options compared across commercial CAs, neutral platforms, OSS, and bundled Microsoft priced honestly, because the 47-day lifetime era makes this a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-certificate-lifecycle-pki-compared/\">12 Best Certificate Lifecycle Management (PKI) Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202312",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-certificate-lifecycle-pki-compared",
+      "content_hash": "f49bfcb563bb56cc820d1eb130d542ab3f1254f8f947632b6404978afb7b3f66",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f49bfcb563bb56cc820d1eb130d542ab3f1254f8f947632b6404978afb7b3f66"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
+    },
+    {
+      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+      "url": "http://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+      "published": "Wed, 07 Oct 2026 08:07:38 +0000",
+      "published_utc": "2026-10-07T08:07:38+00:00",
+      "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026.\n\nThe company said it also found an additional",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8106017603238286290",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+      "content_hash": "6479bd63c0cd74d44d745c57c6c68a4766f5cc3881365c802e3af48c3a20e268",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6479bd63c0cd74d44d745c57c6c68a4766f5cc3881365c802e3af48c3a20e268",
+        "FEEDBURNER": "6479bd63c0cd74d44d745c57c6c68a4766f5cc3881365c802e3af48c3a20e268"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:43:07.688494+00:00",
+      "first_seen_local": "2026-10-07T09:43:07.688491-05:00",
+      "last_updated_utc": "2026-10-07T14:43:07.688494+00:00",
+      "last_updated_local": "2026-10-07T09:43:07.688491-05:00"
+    },
+    {
+      "title": "12 Best Machine Identity Management Solutions Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-machine-identity-compared/",
+      "published": "Wed, 07 Oct 2026 08:05:41 +0000",
+      "published_utc": "2026-10-07T08:05:41+00:00",
+      "summary": "<p>CyberArk (Venafi) is the best machine-identity anchor for enterprise certificate estates, while Keyfactor pairs lifecycle with its own PKI and the SPIFFE-native insurgents (SPIRL, Smallstep) define the workload-identity frontier. We compared 12 vendors across three lanes certificate lifecycle, workload identity, and API/machine credentials because “machine identity” is now three purchases, and the 47-day TLS countdown [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-machine-identity-compared/\">12 Best Machine Identity Management Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202292",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-machine-identity-compared",
+      "content_hash": "acd237a27ca49614d5906e991216ec7eef3203ca305a998cfc0da7f300d7538b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "acd237a27ca49614d5906e991216ec7eef3203ca305a998cfc0da7f300d7538b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-07T14:42:59.019314+00:00",
+      "first_seen_local": "2026-10-07T09:42:59.019311-05:00",
+      "last_updated_utc": "2026-10-07T14:42:59.019314+00:00",
+      "last_updated_local": "2026-10-07T09:42:59.019311-05:00"
     }
   ]
 }

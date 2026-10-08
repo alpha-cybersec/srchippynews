@@ -1,65 +1,646 @@
 {
-  "generated_at_utc": "2026-10-08T06:35:09.103885+00:00",
-  "generated_at_local": "2026-10-08T01:35:09.103902-05:00",
-  "article_count": 2,
-  "new_count": 2,
+  "generated_at_utc": "2026-10-08T13:58:48.372152+00:00",
+  "generated_at_local": "2026-10-08T08:58:48.372164-05:00",
+  "article_count": 24,
+  "new_count": 24,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1,
-    "gbhackers": 1
+    "cybersecuritynews": 10,
+    "gbhackers": 10,
+    "thehackernews": 4
   },
   "articles": [
     {
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "url": "http://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "published": "Thu, 08 Oct 2026 05:46:20 +0000",
-      "published_utc": "2026-10-08T05:46:20+00:00",
-      "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0.5.144 \"contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code,\" Socket said",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8243852805552075782",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "content_hash": "3f9aed318a39fb1111d01cb7aa82ade9d1f021a3d89a99b024a8ecf7c0e0b21e",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "3f9aed318a39fb1111d01cb7aa82ade9d1f021a3d89a99b024a8ecf7c0e0b21e"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-08T06:35:09.099801+00:00",
-      "first_seen_local": "2026-10-08T01:35:09.099798-05:00",
-      "last_updated_utc": "2026-10-08T06:35:09.099801+00:00",
-      "last_updated_local": "2026-10-08T01:35:09.099798-05:00"
-    },
-    {
-      "title": "PoeLLM Malware Hijacks 3,400+ Servers for Crypto Mining and Botnet Expansion",
-      "url": "https://gbhackers.com/poellm-malware/",
-      "published": "Thu, 08 Oct 2026 05:21:15 +0000",
-      "published_utc": "2026-10-08T05:21:15+00:00",
-      "summary": "<p>A cryptocurrency mining campaign dubbed PoeLLM has compromised more than 3,400 servers by targeting exposed AI infrastructure and other internet-facing applications. Active since April 2026, the operation combines vulnerability exploitation, cryptocurrency miners and an unusual command-and-control mechanism that derives server addresses from a poem hosted on GitHub. Victims predominantly run LiteLLM, Ollama, Gotenberg and Gitea, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/poellm-malware/\">PoeLLM Malware Hijacks 3,400+ Servers for Crypto Mining and Botnet Expansion</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=202583",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/poellm-malware",
-      "content_hash": "985f29cfe7508b4b70c27f321765e20e51ebc36ec3f8a26c26a03d6963abbdde",
+      "title": "Solo Hacker Used AI Tools to Breach South Korean Financial Organizations and Steal Data",
+      "url": "https://cybersecuritynews.com/solo-hacker-used-ai-tools/",
+      "published": "Thu, 08 Oct 2026 11:14:26 +0000",
+      "published_utc": "2026-10-08T11:14:26+00:00",
+      "summary": "<p>A suspected lone threat actor used an AI-powered penetration-testing tool called ARTEX to breach several South Korean financial organizations and steal customer and employee data. The activity, which ran from late September to early October 2026, affected banks, savings banks, capital firms, and online lending services. The case shows how open-source AI tools can help [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/solo-hacker-used-ai-tools/\">Solo Hacker Used AI Tools to Breach South Korean Financial Organizations and Steal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166372",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/solo-hacker-used-ai-tools",
+      "content_hash": "1cfda1ab59f654abdc0bc1e338e75014dd2187dba691822baf773462a1ab2356",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "985f29cfe7508b4b70c27f321765e20e51ebc36ec3f8a26c26a03d6963abbdde"
+        "FEEDBURNER": "1cfda1ab59f654abdc0bc1e338e75014dd2187dba691822baf773462a1ab2356"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-08T06:35:02.975918+00:00",
-      "first_seen_local": "2026-10-08T01:35:02.975916-05:00",
-      "last_updated_utc": "2026-10-08T06:35:02.975918+00:00",
-      "last_updated_local": "2026-10-08T01:35:02.975916-05:00"
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Exposed DarkSword iOS Servers Reveal Crypto Wallet Theft From Compromised iPhones",
+      "url": "https://gbhackers.com/exposed-darksword-ios-servers/",
+      "published": "Thu, 08 Oct 2026 11:13:46 +0000",
+      "published_utc": "2026-10-08T11:13:46+00:00",
+      "summary": "<p>Exposed directories on five servers have revealed an operational DarkSword/Coruna exploitation platform built to compromise iPhones and harvest cryptocurrency wallet secrets. Censys researchers uncovered delivery infrastructure, implants, wallet injection modules, and reseller controls. At the same time, a separate production-server capture contained 11 victim recovery phrases, 179 device loot directories, and 75 control-plane accounts. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exposed-darksword-ios-servers/\">Exposed DarkSword iOS Servers Reveal Crypto Wallet Theft From Compromised iPhones</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202709",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/exposed-darksword-ios-servers",
+      "content_hash": "3a3937eef0e104dbabd98bf4e10be498a82191b5f5ac033da59f8a420c6c3d11",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "3a3937eef0e104dbabd98bf4e10be498a82191b5f5ac033da59f8a420c6c3d11"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "wolfSSH Patches 5 Security Vulnerabilities, Including Critical SSH Authentication Bypass",
+      "url": "https://gbhackers.com/wolfssh-patches-5-security-vulnerabilities/",
+      "published": "Thu, 08 Oct 2026 11:10:31 +0000",
+      "published_utc": "2026-10-08T11:10:31+00:00",
+      "summary": "<p>wolfSSL has released wolfSSH version 1.6.0, which addresses five security vulnerabilities, including a critical flaw that could allow a man-in-the-middle attacker to bypass SSH host-key authentication under certain deployment conditions. The release, dated October 6, 2026, fixes CVE-2026-16516, a critical ECDSA host-key validation issue affecting wolfSSH up to version 1.5.0. Additionally, it resolves a high-severity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wolfssh-patches-5-security-vulnerabilities/\">wolfSSH Patches 5 Security Vulnerabilities, Including Critical SSH Authentication Bypass</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202724",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/wolfssh-patches-5-security-vulnerabilities",
+      "content_hash": "dae16e3af06ce881e56cd8ebede48aad48c3efd54c6920e4d0517c942f0698a8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "dae16e3af06ce881e56cd8ebede48aad48c3efd54c6920e4d0517c942f0698a8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "Critical Gitea Vulnerabilities Allow Attackers to Bypass Authentication and Execute Code",
+      "url": "https://gbhackers.com/critical-gitea-vulnerabilities/",
+      "published": "Thu, 08 Oct 2026 10:57:41 +0000",
+      "published_utc": "2026-10-08T10:57:41+00:00",
+      "summary": "<p>Gitea has released version 28.0.0, addressing 20 vulnerabilities related to authentication bypass, unauthorized workflow execution, server-side request forgery, stored cross-site scripting, and denial of service. Announced on September 30, 2026, this release removes the historical “1.” version prefix. Maintainers have urged administrators to upgrade promptly to mitigate vulnerabilities affecting repository access, automation, and outbound connections. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-gitea-vulnerabilities/\">Critical Gitea Vulnerabilities Allow Attackers to Bypass Authentication and Execute Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202717",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-gitea-vulnerabilities",
+      "content_hash": "209a2a1ac5b977e85032d7dd3d0ab52d8c803b35043f8ff63fdc4f5c52cea15c",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "209a2a1ac5b977e85032d7dd3d0ab52d8c803b35043f8ff63fdc4f5c52cea15c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "Gitea Patches 27 Security Flaws, Including Critical SSH Authentication Bypass and SSRF",
+      "url": "https://cybersecuritynews.com/gitea-patches-27-security-flaws/",
+      "published": "Thu, 08 Oct 2026 10:56:44 +0000",
+      "published_utc": "2026-10-08T10:56:44+00:00",
+      "summary": "<p>Gitea has released security updates addressing 27 reported flaws across versions 28.0.0 and 28.1.0, including a critical SSH authentication bypass and server-side request forgery (SSRF) weaknesses. The fixes cover account access, repository permissions, automated workflows, and connections to internal systems. Administrators should treat the update as an urgent priority for their development infrastructure. Released on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitea-patches-27-security-flaws/\">Gitea Patches 27 Security Flaws, Including Critical SSH Authentication Bypass and SSRF</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166355",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/gitea-patches-27-security-flaws",
+      "content_hash": "d0e87793206251a045dc20c98af8a7882922e259bf845521968d957840575533",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d0e87793206251a045dc20c98af8a7882922e259bf845521968d957840575533"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+      "url": "http://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+      "published": "Thu, 08 Oct 2026 10:30:00 +0000",
+      "published_utc": "2026-10-08T10:30:00+00:00",
+      "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself.\n\nANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7667900764642780789",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+      "content_hash": "e5cf0c82749768bd995818b4ba2ce899310eca364a7f905458d7240bd2274dfb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e5cf0c82749768bd995818b4ba2ce899310eca364a7f905458d7240bd2274dfb",
+        "FEEDBURNER": "e5cf0c82749768bd995818b4ba2ce899310eca364a7f905458d7240bd2274dfb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:48.366108+00:00",
+      "first_seen_local": "2026-10-08T08:58:48.366105-05:00",
+      "last_updated_utc": "2026-10-08T13:58:48.366108+00:00",
+      "last_updated_local": "2026-10-08T08:58:48.366105-05:00"
+    },
+    {
+      "title": "wolfSSH 1.6.0 Fixes 5 Security Flaws Including Critical MITM Host Key Verification Bypass",
+      "url": "https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws/",
+      "published": "Thu, 08 Oct 2026 10:23:01 +0000",
+      "published_utc": "2026-10-08T10:23:01+00:00",
+      "summary": "<p>wolfSSL has released wolfSSH 1.6.0 to fix five security flaws, including a critical host key verification bypass that could let an attacker impersonate an SSH server. Published on October 6, 2026, the update addresses Windows privilege escalation, unauthenticated key exchange abuse, unauthorized forwarding channels, and an SFTP memory corruption bug. The release rates one flaw [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws/\">wolfSSH 1.6.0 Fixes 5 Security Flaws Including Critical MITM Host Key Verification Bypass</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166364",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wolfssh-1-6-0-fixes-5-security-flaws",
+      "content_hash": "ad08cfe80c340456a7f680068b49314ecc592d94a20324f21df790dbb9bc71e9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ad08cfe80c340456a7f680068b49314ecc592d94a20324f21df790dbb9bc71e9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Critical Cisco Nexus Switch Vulnerabilities Allow Unauthenticated Attackers to Execute Code as Root",
+      "url": "https://gbhackers.com/critical-cisco-nexus-switch-vulnerabilities/",
+      "published": "Thu, 08 Oct 2026 10:19:06 +0000",
+      "published_utc": "2026-10-08T10:19:06+00:00",
+      "summary": "<p>Cisco has disclosed three critical vulnerabilities in its Nexus 3000 and 9000 Series switches that could allow unauthenticated remote attackers to execute arbitrary code with root privileges. Successful exploitation could crash processes, trigger device reloads, and cause denial of service, disrupting network availability. Published on October 7, 2026, advisory cisco-sa-ngoam-rce-LWKQ4BU identifies three vulnerabilities: CVE-2026-76485, CVE-2026-76486, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-cisco-nexus-switch-vulnerabilities/\">Critical Cisco Nexus Switch Vulnerabilities Allow Unauthenticated Attackers to Execute Code as Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202706",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-cisco-nexus-switch-vulnerabilities",
+      "content_hash": "f75d6a6eb3f5e66e7331f559367711b7d7642f93845ecab084ae9d854cb78a97",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f75d6a6eb3f5e66e7331f559367711b7d7642f93845ecab084ae9d854cb78a97"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "Financially Motivated Hacker Uses Agentic AI to Breach Multiple South Korean Finance Targets",
+      "url": "https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/",
+      "published": "Thu, 08 Oct 2026 10:16:18 +0000",
+      "published_utc": "2026-10-08T10:16:18+00:00",
+      "summary": "<p>A financially motivated campaign that used agentic AI tools to breach South Korean financial organizations and exfiltrate data. Active from late September to early October 2026, the operation combined ARTEX, an open-source penetration testing platform developed in China, with multiple large language models. Researchers recovered exposed operational files that documented the attacker’s infrastructure, prompts, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/\">Financially Motivated Hacker Uses Agentic AI to Breach Multiple South Korean Finance Targets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202685",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets",
+      "content_hash": "2a84508482528021de88d0bb9d2f97ee0781d993dc34f7936b3541dddf3b12b7",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "2a84508482528021de88d0bb9d2f97ee0781d993dc34f7936b3541dddf3b12b7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "Royal Navy Service Member Charged with Spying for a Foreign Country",
+      "url": "https://cybersecuritynews.com/royal-navy-service-member-charged/",
+      "published": "Thu, 08 Oct 2026 10:11:52 +0000",
+      "published_utc": "2026-10-08T10:11:52+00:00",
+      "summary": "<p>A serving Royal Navy member has been charged with spying for an unnamed foreign country after an investigation by Counter Terrorism Policing London. Teddy Young, 24, from Bedfordshire, faces two offenses under the National Security Act 2023 involving protected information and preparations to disclose it. The allegations remain unproven. Police arrested Young at his home [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/royal-navy-service-member-charged/\">Royal Navy Service Member Charged with Spying for a Foreign Country</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166367",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/royal-navy-service-member-charged",
+      "content_hash": "92f5e990eada61d6d029abfcea84c13db2d08d2c55bec5ae60cf586a9b3a36f7",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "92f5e990eada61d6d029abfcea84c13db2d08d2c55bec5ae60cf586a9b3a36f7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "PoC Exploit Released for Critical VMware Vulnerability Enabling Guest-to-Host Attacks",
+      "url": "https://gbhackers.com/poc-exploit-released-for-critical-vmware-vulnerability/",
+      "published": "Thu, 08 Oct 2026 10:08:54 +0000",
+      "published_utc": "2026-10-08T10:08:54+00:00",
+      "summary": "<p>A public proof-of-concept (PoC) exploit has been released for CVE-2026-59346, a critical integer overflow flaw in VMware Workstation and Fusion that could enable a privileged attacker inside a virtual machine to execute code on the underlying host. Broadcom has assigned this vulnerability a CVSS v3.1 score of 9.3 and has addressed it in VMware Workstation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/poc-exploit-released-for-critical-vmware-vulnerability/\">PoC Exploit Released for Critical VMware Vulnerability Enabling Guest-to-Host Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202701",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/poc-exploit-released-for-critical-vmware-vulnerability",
+      "content_hash": "e66c52400190f792e6581eef28402d1c90a538218f29f879da0bc46b4ee38808",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e66c52400190f792e6581eef28402d1c90a538218f29f879da0bc46b4ee38808"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+      "url": "http://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+      "published": "Thu, 08 Oct 2026 09:46:32 +0000",
+      "published_utc": "2026-10-08T09:46:32+00:00",
+      "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.\n\n\"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7020532033474169761",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+      "content_hash": "3dc58316ebbb17ebd54b1444af84f70acba013f6bccb41bdb55aaf089ae6d14d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3dc58316ebbb17ebd54b1444af84f70acba013f6bccb41bdb55aaf089ae6d14d",
+        "FEEDBURNER": "3dc58316ebbb17ebd54b1444af84f70acba013f6bccb41bdb55aaf089ae6d14d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:48.366108+00:00",
+      "first_seen_local": "2026-10-08T08:58:48.366105-05:00",
+      "last_updated_utc": "2026-10-08T13:58:48.366108+00:00",
+      "last_updated_local": "2026-10-08T08:58:48.366105-05:00"
+    },
+    {
+      "title": "Hackers Target Hotels With Fake Guest Complaints to Deploy Blockchain-Based RAT Malware",
+      "url": "https://gbhackers.com/fake-guest-complaint-phishing/",
+      "published": "Thu, 08 Oct 2026 09:35:35 +0000",
+      "published_utc": "2026-10-08T09:35:35+00:00",
+      "summary": "<p>Hackers are targeting hotels with fabricated guest complaints and negative reviews to distribute EtherRAT and TONResolver, two malware families that abuse public blockchains to locate their command-and-control infrastructure. The activity appears to extend earlier Booking. com-themed phishing operations, although Cofense assesses that connection with moderate confidence. Similar email templates and accommodation-sector targeting link the campaigns. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-guest-complaint-phishing/\">Hackers Target Hotels With Fake Guest Complaints to Deploy Blockchain-Based RAT Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202643",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-guest-complaint-phishing",
+      "content_hash": "5c6700e519043252d0d933a2f22db64d2fa227b592ce35f9822588dfa2a2fba2",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5c6700e519043252d0d933a2f22db64d2fa227b592ce35f9822588dfa2a2fba2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "Hackers Use GitHub-Hosted Poem to Control PoeLLM Malware Targeting AI Infrastructure",
+      "url": "https://cybersecuritynews.com/hackers-use-github-hosted-poem/",
+      "published": "Thu, 08 Oct 2026 09:14:46 +0000",
+      "published_utc": "2026-10-08T09:14:46+00:00",
+      "summary": "<p>Hackers are using a poem hosted on GitHub to guide PoeLLM malware toward its command-and-control servers, turning exposed AI infrastructure into a growing cryptocurrency-mining botnet. The campaign targets internet-facing services, including LiteLLM and Ollama, while also affecting Gotenberg PDF converters and Gitea development servers. Active since at least April 2026, PoeLLM uses selected words in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-github-hosted-poem/\">Hackers Use GitHub-Hosted Poem to Control PoeLLM Malware Targeting AI Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166338",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-github-hosted-poem",
+      "content_hash": "4821eefbb3775b2987fd60ff323fb6342ef5acd1842b00f826f5d2efb3afbfae",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4821eefbb3775b2987fd60ff323fb6342ef5acd1842b00f826f5d2efb3afbfae"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands",
+      "url": "https://gbhackers.com/critical-splunk-enterprise-vulnerability/",
+      "published": "Thu, 08 Oct 2026 09:07:44 +0000",
+      "published_utc": "2026-10-08T09:07:44+00:00",
+      "summary": "<p>Splunk has addressed a critical vulnerability in Splunk Enterprise that allows unauthenticated attackers to execute operating system commands through the Patroni REST API on a search head cluster member. This issue, tracked as CVE-2026-76268, has a CVSS v3.1 score of 9.8 and was disclosed in advisory SVD-2026-1001 on October 7, 2026. Successful exploitation requires network [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-splunk-enterprise-vulnerability/\">Critical Splunk Enterprise Vulnerability Lets Unauthenticated Attackers Execute OS Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202674",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-splunk-enterprise-vulnerability",
+      "content_hash": "d5f24188ae2f0391a2b796bc0e7f94e45e4874932a19deffe1a9586af1870847",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d5f24188ae2f0391a2b796bc0e7f94e45e4874932a19deffe1a9586af1870847"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "Critical Cisco Nexus Flaws Let Unauthenticated Attackers Execute Code With Root Privileges",
+      "url": "https://cybersecuritynews.com/critical-cisco-nexus-flaws/",
+      "published": "Thu, 08 Oct 2026 08:44:51 +0000",
+      "published_utc": "2026-10-08T08:44:51+00:00",
+      "summary": "<p>Cisco has released security updates for three critical vulnerabilities in Nexus 3000 and 9000 Series switches that could let remote attackers run code with root privileges without logging in. The flaws affect the Next Generation Operation, Administration, and Maintenance feature, known as NGOAM, in Cisco NX-OS Software. Successful attacks could also crash processes, force switches [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-cisco-nexus-flaws/\">Critical Cisco Nexus Flaws Let Unauthenticated Attackers Execute Code With Root Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166337",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-cisco-nexus-flaws",
+      "content_hash": "39b587684eb0e2c176712122a290eb887a486c5b13edbff7a0148e3355f8c3e8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "39b587684eb0e2c176712122a290eb887a486c5b13edbff7a0148e3355f8c3e8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "ChainDrop and PolinRider Use Blockchain C2 to Steal Cloud and CI/CD Credentials",
+      "url": "https://gbhackers.com/chaindrop-and-polinrider-malware/",
+      "published": "Thu, 08 Oct 2026 08:30:05 +0000",
+      "published_utc": "2026-10-08T08:30:05+00:00",
+      "summary": "<p>Threat actors are increasingly using blockchain networks as resilient command-and-control infrastructure to steal cloud credentials from developer endpoints and CI/CD environments. Recent campaigns involving the ChainDrop npm worm and the North Korea-linked PolinRider operation show how poisoned open-source packages can harvest short-lived cloud tokens, service-account credentials, deployment secrets, and source-code access tokens while resolving attacker [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chaindrop-and-polinrider-malware/\">ChainDrop and PolinRider Use Blockchain C2 to Steal Cloud and CI/CD Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202621",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/chaindrop-and-polinrider-malware",
+      "content_hash": "ff05a6bd54846f1cec616c8f8f996e627f2530cd73d5181ab2edc7544fc06acf",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ff05a6bd54846f1cec616c8f8f996e627f2530cd73d5181ab2edc7544fc06acf"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "MALFEX npm Malware Hides Executables in PNG Files to Infect Windows Developers",
+      "url": "https://cybersecuritynews.com/malfex-npm-malware/",
+      "published": "Thu, 08 Oct 2026 07:51:30 +0000",
+      "published_utc": "2026-10-08T07:51:30+00:00",
+      "summary": "<p>A long-running npm malware campaign called MALFEX is targeting Windows developers with remote access tools, data stealers, and hidden downloaders. The attack uses eight malicious packages and three separate delivery paths, including a Windows executable disguised as a PNG and an encrypted program hidden after real image data. The operator has published packages since August [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malfex-npm-malware/\">MALFEX npm Malware Hides Executables in PNG Files to Infect Windows Developers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166334",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malfex-npm-malware",
+      "content_hash": "bfcb1b81071361bcb7376b75404c94da9d8b5d839f5c2b0221825a32705f935d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "bfcb1b81071361bcb7376b75404c94da9d8b5d839f5c2b0221825a32705f935d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Attackers Hijack .gh, .sl, and .as Domains to Obtain Unauthorized SSL Certificates",
+      "url": "https://gbhackers.com/attackers-hijack-gh-sl-and-as-domains/",
+      "published": "Thu, 08 Oct 2026 07:46:57 +0000",
+      "published_utc": "2026-10-08T07:46:57+00:00",
+      "summary": "<p>Attackers compromised the infrastructure of third-party country-code top-level domains (ccTLDs) for Ghana (.gh), Sierra Leone (.sl), and American Samoa (.as). They modified authoritative DNS records to obtain unauthorized HTTPS certificates for Google domains and other organizations. Attackers Hijack Domains In a disclosure on October 6, 2026, Chrome’s Secure Web and Networking Team stated that these [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/attackers-hijack-gh-sl-and-as-domains/\">Attackers Hijack .gh, .sl, and .as Domains to Obtain Unauthorized SSL Certificates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202625",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/attackers-hijack-gh-sl-and-as-domains",
+      "content_hash": "cf1349ca495ff7e9f87531b81ee11a61e02c57ce0c20c8be3104fe196196b173",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "cf1349ca495ff7e9f87531b81ee11a61e02c57ce0c20c8be3104fe196196b173"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:41.451966+00:00",
+      "first_seen_local": "2026-10-08T08:58:41.451963-05:00",
+      "last_updated_utc": "2026-10-08T13:58:41.451966+00:00",
+      "last_updated_local": "2026-10-08T08:58:41.451963-05:00"
+    },
+    {
+      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+      "url": "http://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+      "published": "Thu, 08 Oct 2026 07:42:04 +0000",
+      "published_utc": "2026-10-08T07:42:04+00:00",
+      "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM.\n\nThe reward is for information leading to his identification or location, the news outlet&nbsp;NTD reported&nbsp;this week, citing a notice",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1999584274337632556",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+      "content_hash": "cd4c9983acf6c1897f6af2fde504c7184a0884dfac0165ee334e0987d96f4589",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cd4c9983acf6c1897f6af2fde504c7184a0884dfac0165ee334e0987d96f4589",
+        "FEEDBURNER": "cd4c9983acf6c1897f6af2fde504c7184a0884dfac0165ee334e0987d96f4589"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:48.366108+00:00",
+      "first_seen_local": "2026-10-08T08:58:48.366105-05:00",
+      "last_updated_utc": "2026-10-08T13:58:48.366108+00:00",
+      "last_updated_local": "2026-10-08T08:58:48.366105-05:00"
+    },
+    {
+      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+      "url": "http://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+      "published": "Thu, 08 Oct 2026 07:41:44 +0000",
+      "published_utc": "2026-10-08T07:41:44+00:00",
+      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data.\n\nZohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8974994713405669682",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+      "content_hash": "a2178ff73e3abb7ede58a46479fd48834a55fd8db2c5a82cfb24720f0eccec3d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a2178ff73e3abb7ede58a46479fd48834a55fd8db2c5a82cfb24720f0eccec3d",
+        "FEEDBURNER": "a2178ff73e3abb7ede58a46479fd48834a55fd8db2c5a82cfb24720f0eccec3d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:48.366108+00:00",
+      "first_seen_local": "2026-10-08T08:58:48.366105-05:00",
+      "last_updated_utc": "2026-10-08T13:58:48.366108+00:00",
+      "last_updated_local": "2026-10-08T08:58:48.366105-05:00"
+    },
+    {
+      "title": "Top 10 Best Secrets Detection Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-secrets-detection-tools/",
+      "published": "Thu, 08 Oct 2026 07:34:41 +0000",
+      "published_utc": "2026-10-08T07:34:41+00:00",
+      "summary": "<p>Attackers don’t crack what they can copy and leaked API keys sit in git history, Slack threads, and cloud workloads waiting. Evaluating the landscape alongside the Top 10 Best Secrets Management Tools in 2026 shows that while vaults manage credentials securely, finding hardcoded keys already exposed in code requires dedicated discovery. We scored ten secrets-detection [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-secrets-detection-tools/\">Top 10 Best Secrets Detection Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166288",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-secrets-detection-tools",
+      "content_hash": "4f10a4833572bc56c5641276ada348bb7ae8ff45cde835de844351a693dd8d6f",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4f10a4833572bc56c5641276ada348bb7ae8ff45cde835de844351a693dd8d6f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Top 10 Best Software Supply Chain Security Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-supply-chain-security-tools/",
+      "published": "Thu, 08 Oct 2026 07:31:57 +0000",
+      "published_utc": "2026-10-08T07:31:57+00:00",
+      "summary": "<p>The supply chain is four attack surfaces wearing one buzzword dependencies, pipelines, artifacts, and base images and no vendor covers all four. We scored ten tools with surface-coverage honesty weighted highest. With modern threat actors executing sophisticated software supply chain attacks targeting developer environments, evaluating platforms alongside the Top 10 Best Supply Chain Intelligence Security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-supply-chain-security-tools/\">Top 10 Best Software Supply Chain Security Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166242",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-supply-chain-security-tools",
+      "content_hash": "4490a0ce9e99cd7d1a7f255a50e72dd51c7ed2cc8282ff48b198da4ae3094ed2",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4490a0ce9e99cd7d1a7f255a50e72dd51c7ed2cc8282ff48b198da4ae3094ed2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
+    },
+    {
+      "title": "Top 10 Best API Security Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-api-security-tools/",
+      "published": "Thu, 08 Oct 2026 07:27:56 +0000",
+      "published_utc": "2026-10-08T07:27:56+00:00",
+      "summary": "<p>Your API count is wrong every traffic-based discovery deployment proves it and business-logic abuse rides valid-looking requests straight past WAF signatures. As enterprise architectures decompose into distributed microservices and third-party integrations, evaluating these platforms alongside the Top 10 Best API Penetration Testing Companies reveals that static rules and legacy inspection are no longer sufficient to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-api-security-tools/\">Top 10 Best API Security Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166174",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-api-security-tools",
+      "content_hash": "a3bee8a355b4b68d8b07a0d812933f99e5e24aeeb33e808dbbce81fee1f58c47",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a3bee8a355b4b68d8b07a0d812933f99e5e24aeeb33e808dbbce81fee1f58c47"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-08T13:58:42.037778+00:00",
+      "first_seen_local": "2026-10-08T08:58:42.037774-05:00",
+      "last_updated_utc": "2026-10-08T13:58:42.037778+00:00",
+      "last_updated_local": "2026-10-08T08:58:42.037774-05:00"
     }
   ]
 }

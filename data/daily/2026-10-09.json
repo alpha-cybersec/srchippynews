@@ -1,9 +1,9 @@
 {
   "date": "2026-10-09",
-  "article_count": 42,
+  "article_count": 43,
   "sources": {
     "thehackernews": 13,
-    "cybersecuritynews": 14,
+    "cybersecuritynews": 15,
     "gbhackers": 15
   },
   "articles": [
@@ -60,6 +60,34 @@
       "first_seen_local": "2026-10-09T14:41:13.302387-05:00",
       "last_updated_utc": "2026-10-09T19:41:13.302389+00:00",
       "last_updated_local": "2026-10-09T14:41:13.302387-05:00"
+    },
+    {
+      "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
+      "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
+      "published": "Fri, 09 Oct 2026 17:15:43 +0000",
+      "published_utc": "2026-10-09T17:15:43+00:00",
+      "summary": "<p>A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval. The issue, named AnyPwn, affects AnyDesk Linux 8.0.2 and was fixed in version 8.0.3. Organizations using AnyDesk for Linux should update immediately and check whether TCP port 7070 is exposed to untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anydesk-linux-vulnerability/\">AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166713",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/anydesk-linux-vulnerability",
+      "content_hash": "c8ee8b1d11402d78dc1e10e0dadb9d0273862742bea29ccde06a108bfbd942f7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c8ee8b1d11402d78dc1e10e0dadb9d0273862742bea29ccde06a108bfbd942f7",
+        "FEEDBURNER": "c8ee8b1d11402d78dc1e10e0dadb9d0273862742bea29ccde06a108bfbd942f7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T23:58:24.099542+00:00",
+      "first_seen_local": "2026-10-09T18:58:24.099539-05:00",
+      "last_updated_utc": "2026-10-09T23:58:24.099542+00:00",
+      "last_updated_local": "2026-10-09T18:58:24.099539-05:00"
     },
     {
       "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",

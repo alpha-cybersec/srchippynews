@@ -22,8 +22,89 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware",
+          "url": "https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/",
+          "published": "Fri, 09 Oct 2026 13:20:21 +0000",
+          "published_utc": "2026-10-09T13:20:21+00:00",
+          "summary": "<p>A newly identified supply-chain campaign is abusing Terraform provider workflows to infect developer systems with malware built for macOS, Linux, and Windows. The activity uses a trojanized Terraform provider that appears to be a legitimate AWS-related plugin, allowing it to run malicious code while still behaving like a normal provider. The campaign is a major [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/\">Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166657"
+        },
+        {
+          "title": "Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats",
+          "url": "https://cybersecuritynews.com/warden-stealer/",
+          "published": "Fri, 09 Oct 2026 12:32:02 +0000",
+          "published_utc": "2026-10-09T12:32:02+00:00",
+          "summary": "<p>A fast-growing Windows information stealer called Warden Stealer is being spread through ClickFix lures, malicious advertisements, cracked software downloads, and fake game cheats. The malware is sold as a malware-as-a-service offering, allowing different criminal operators to create their own builds, choose targets, and use separate command-and-control servers. Its main goal is to steal browser data, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/warden-stealer/\">Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166619"
+        },
+        {
+          "title": "MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads",
+          "url": "https://cybersecuritynews.com/matchboil-malware/",
+          "published": "Fri, 09 Oct 2026 10:10:47 +0000",
+          "published_utc": "2026-10-09T10:10:47+00:00",
+          "summary": "<p>MATCHBOIL, a C# malware downloader linked to UAC-0099, uses command-and-control (C2) servers hidden behind Cloudflare to deliver backdoor payloads. Its changing code shows how the group has moved from a simple downloader toward repeated server contact, stronger code hiding, and checks designed to stop security researchers from studying infections. The observed victims were all in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/matchboil-malware/\">MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166605"
+        },
+        {
+          "title": "PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover",
+          "url": "https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/",
+          "published": "Fri, 09 Oct 2026 09:54:02 +0000",
+          "published_utc": "2026-10-09T09:54:02+00:00",
+          "summary": "<p>A public proof of concept has exposed a flaw in Telegram Desktop that could let attackers steal local files and take over accounts after a user clicks a crafted external link. Tracked as CVE-2026-107181, the vulnerability affects versions before 7.2.9 and carries a CVSS 4.0 severity rating of 8.6 (High). Researcher Beaksec published the technical [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/\">PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166573"
+        },
+        {
+          "title": "Top 10 Best Container Image Scanning Tools in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-container-image-scanning-tools/",
+          "published": "Fri, 09 Oct 2026 09:28:55 +0000",
+          "published_utc": "2026-10-09T09:28:55+00:00",
+          "summary": "<p>Every image scan returns hundreds of CVEs; the question is which ten your containers actually execute and which base image would zero the list entirely. We scored ten options with context and elimination weighted above raw detection. Evaluating scanners alongside the Top 10 Best Container Security Tools in 2026 reveals that static vulnerability counts alone [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-container-image-scanning-tools/\">Top 10 Best Container Image Scanning Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166507"
+        },
+        {
+          "title": "New Anthropic OSS Scanner Tool to Scan Open-source Repositories for Vulnerabilities",
+          "url": "https://cybersecuritynews.com/anthropic-oss-scanner/",
+          "published": "Fri, 09 Oct 2026 08:52:12 +0000",
+          "published_utc": "2026-10-09T08:52:12+00:00",
+          "summary": "<p>Anthropic has introduced OSS Scanner, a free service that checks critical open-source repositories for security vulnerabilities and sends findings directly to project maintainers. The opt-in program uses the company&#8217;s strongest AI models to run repeated scans, giving developers a faster route to potential flaws without waiting for human review. According to Anthropic&#8217;s service overview, OSS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-oss-scanner/\">New Anthropic OSS Scanner Tool to Scan Open-source Repositories for Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166587"
+        },
+        {
+          "title": "Top 10 Best Bug Bounty Platforms in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-bug-bounty-platforms/",
+          "published": "Fri, 09 Oct 2026 08:33:58 +0000",
+          "published_utc": "2026-10-09T08:33:58+00:00",
+          "summary": "<p>Researchers are testing your perimeter tonight whether you invited them or not bounty platforms decide whether that energy reaches your inbox or the dark web. Evaluating the offensive testing market alongside the best bug bounty platforms for white-hat hackers and modern penetration testing tools demonstrates that crowdsourced security has matured from an experimental gamble into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-bug-bounty-platforms/\">Top 10 Best Bug Bounty Platforms in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166450"
+        },
+        {
+          "title": "Let’s Encrypt Cuts TLS Certificate Lifetimes From 90 to 64 Days Starting February 2027",
+          "url": "https://cybersecuritynews.com/lets-encrypt-tls-certificate-lifetime-64-days/",
+          "published": "Fri, 09 Oct 2026 08:32:30 +0000",
+          "published_utc": "2026-10-09T08:32:30+00:00",
+          "summary": "<p>Let’s Encrypt will cut its default TLS certificate lifetime from 90 days to 64 days on February 10, 2027, giving website operators less time between renewals. The change applies to certificates issued or renewed from that date, while subscribers can still choose shorter certificate profiles offering 45 days or roughly six days. Let’s Encrypt Certificate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/lets-encrypt-tls-certificate-lifetime-64-days/\">Let’s Encrypt Cuts TLS Certificate Lifetimes From 90 to 64 Days Starting February 2027</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166569"
+        },
+        {
+          "title": "Top 10 Best IaC Security Tools in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-iac-security-tools/",
+          "published": "Fri, 09 Oct 2026 08:27:07 +0000",
+          "published_utc": "2026-10-09T08:27:07+00:00",
+          "summary": "<p>The misconfiguration that breaches you in production was mergeable in review IaC security exists to catch it there. Evaluating the market alongside modern Infrastructure as Code (IaC) scanning tools demonstrates that static linting alone cannot protect dynamic, multi-tier architectures. We scored ten options with fix quality and cloud-context weighted highest, atop an OSS floor (Checkov, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-iac-security-tools/\">Top 10 Best IaC Security Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166397"
+        },
+        {
+          "title": "Microsoft Says PKI, HSMs and Security Appliances Must Prepare for Post-Quantum Authentication",
+          "url": "https://cybersecuritynews.com/post-quantum-authentication/",
+          "published": "Fri, 09 Oct 2026 08:22:07 +0000",
+          "published_utc": "2026-10-09T08:22:07+00:00",
+          "summary": "<p>Microsoft is urging organizations to prepare their certificate systems for post-quantum authentication, warning that public key infrastructure (PKI), hardware security modules (HSMs), and security appliances need testing before deployment. Its October 8 guidance says the shift will affect applications, devices, certificate chains, and the processes that keep digital trust working. The message goes beyond protecting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/post-quantum-authentication/\">Microsoft Says PKI, HSMs and Security Appliances Must Prepare for Post-Quantum Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166568"
+        }
+      ],
       "error": ""
     }
   }

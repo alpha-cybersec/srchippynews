@@ -1,12 +1,198 @@
 {
   "date": "2026-10-09",
-  "article_count": 35,
+  "article_count": 42,
   "sources": {
-    "thehackernews": 10,
-    "cybersecuritynews": 10,
+    "thehackernews": 13,
+    "cybersecuritynews": 14,
     "gbhackers": 15
   },
   "articles": [
+    {
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "url": "http://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "published": "Fri, 09 Oct 2026 19:14:28 +0000",
+      "published_utc": "2026-10-09T19:14:28+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC,\" StepSecurity",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8757402820274378442",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "content_hash": "2b464f1598f13c42ce2949cb797068eaf21cc811044ef927bc9182433bca5086",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2b464f1598f13c42ce2949cb797068eaf21cc811044ef927bc9182433bca5086"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:13.302389+00:00",
+      "first_seen_local": "2026-10-09T14:41:13.302387-05:00",
+      "last_updated_utc": "2026-10-09T19:41:13.302389+00:00",
+      "last_updated_local": "2026-10-09T14:41:13.302387-05:00"
+    },
+    {
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "url": "http://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "published": "Fri, 09 Oct 2026 17:45:26 +0000",
+      "published_utc": "2026-10-09T17:45:26+00:00",
+      "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X.\n\nShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public.\n\nThe",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1677810505441251471",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "content_hash": "2cb352b2286989d81b3517ae224a1345300c8a8b88ecb365f507dbf3f76f7e68",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2cb352b2286989d81b3517ae224a1345300c8a8b88ecb365f507dbf3f76f7e68",
+        "FEEDBURNER": "2cb352b2286989d81b3517ae224a1345300c8a8b88ecb365f507dbf3f76f7e68"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:13.302389+00:00",
+      "first_seen_local": "2026-10-09T14:41:13.302387-05:00",
+      "last_updated_utc": "2026-10-09T19:41:13.302389+00:00",
+      "last_updated_local": "2026-10-09T14:41:13.302387-05:00"
+    },
+    {
+      "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",
+      "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack/",
+      "published": "Fri, 09 Oct 2026 16:38:01 +0000",
+      "published_utc": "2026-10-09T16:38:01+00:00",
+      "summary": "<p>A new GhostAction campaign has compromised 346 GitHub repositories after threat actors used two hijacked maintainer accounts to add a fake “security audit” workflow designed to steal CI/CD secrets, cloud keys, API tokens, and credentials stored in source-code history. Security firm Socket reported that the October 8 activity affected repositories connected to the GitHub accounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostaction-github-repo-attack/\">New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166694",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ghostaction-github-repo-attack",
+      "content_hash": "1351e4980163384ce22be0c13aad1b17a11ddd2d1a334d3165e942dcf1d19d4a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1351e4980163384ce22be0c13aad1b17a11ddd2d1a334d3165e942dcf1d19d4a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:08.947437+00:00",
+      "first_seen_local": "2026-10-09T14:41:08.947434-05:00",
+      "last_updated_utc": "2026-10-09T19:41:08.947437+00:00",
+      "last_updated_local": "2026-10-09T14:41:08.947434-05:00"
+    },
+    {
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "url": "http://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "published": "Fri, 09 Oct 2026 16:29:55 +0000",
+      "published_utc": "2026-10-09T16:29:55+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday.\n\nThe name",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1536028203754426926",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "content_hash": "6859bf0623b1a3f1dfaf9f324e926e86721ab19a5ef2a069cce327aab0f85940",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6859bf0623b1a3f1dfaf9f324e926e86721ab19a5ef2a069cce327aab0f85940",
+        "FEEDBURNER": "6859bf0623b1a3f1dfaf9f324e926e86721ab19a5ef2a069cce327aab0f85940"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:13.302389+00:00",
+      "first_seen_local": "2026-10-09T14:41:13.302387-05:00",
+      "last_updated_utc": "2026-10-09T19:41:13.302389+00:00",
+      "last_updated_local": "2026-10-09T14:41:13.302387-05:00"
+    },
+    {
+      "title": "New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories",
+      "url": "https://cybersecuritynews.com/agentic-ai-red-team-checklist/",
+      "published": "Fri, 09 Oct 2026 16:06:56 +0000",
+      "published_utc": "2026-10-09T16:06:56+00:00",
+      "summary": "<p>A free agentic AI red-team checklist offers 222 tests across 20 attack categories to assess autonomous AI systems beyond prompt injection, covering infrastructure, cloud access, tools, memory, and agent communications. The checklist targets a common testing gap. Teams may spend days trying to manipulate a model while overlooking an exposed MLflow server, a reachable cloud [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentic-ai-red-team-checklist/\">New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166630",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/agentic-ai-red-team-checklist",
+      "content_hash": "893812912197fced85b13ec1315dbae9baee0e76cfac692dc72405fb0291e0db",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "893812912197fced85b13ec1315dbae9baee0e76cfac692dc72405fb0291e0db"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:08.947437+00:00",
+      "first_seen_local": "2026-10-09T14:41:08.947434-05:00",
+      "last_updated_utc": "2026-10-09T19:41:08.947437+00:00",
+      "last_updated_local": "2026-10-09T14:41:08.947434-05:00"
+    },
+    {
+      "title": "CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access",
+      "url": "https://cybersecuritynews.com/castlestealer-malware/",
+      "published": "Fri, 09 Oct 2026 14:47:33 +0000",
+      "published_utc": "2026-10-09T14:47:33+00:00",
+      "summary": "<p>CastleStealer, an emerging C#-based information stealer, has added browser protection bypass and remote shell features that give its operators a wider path into compromised Windows systems. The newer malware samples can collect browser data protected by Chromium’s App-Bound Encryption, run commands on a victim device, download extra payloads, and move stolen information through small encrypted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/castlestealer-malware/\">CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166675",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/castlestealer-malware",
+      "content_hash": "35ce4bd7d5441454b48095ae77672ac92be28411bf9f750476fa160c6a74a685",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "35ce4bd7d5441454b48095ae77672ac92be28411bf9f750476fa160c6a74a685"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:08.947437+00:00",
+      "first_seen_local": "2026-10-09T14:41:08.947434-05:00",
+      "last_updated_utc": "2026-10-09T19:41:08.947437+00:00",
+      "last_updated_local": "2026-10-09T14:41:08.947434-05:00"
+    },
+    {
+      "title": "Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks",
+      "url": "https://cybersecuritynews.com/autonomous-ai-agents-2/",
+      "published": "Fri, 09 Oct 2026 14:29:13 +0000",
+      "published_utc": "2026-10-09T14:29:13+00:00",
+      "summary": "<p>Autonomous AI agents could move beyond noisy vulnerability scans and become quiet, persistent attackers, Cisco Talos has warned. The concern is not simply that AI can find security gaps faster. It is that groups of agents could learn to stay hidden, share findings, and keep working until they reach sensitive systems. In an October 7 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/autonomous-ai-agents-2/\">Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166666",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/autonomous-ai-agents-2",
+      "content_hash": "247ade1ab0af1a166397a8fea9170886eec19b2413242bf7a216f7d45483e141",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "247ade1ab0af1a166397a8fea9170886eec19b2413242bf7a216f7d45483e141"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-09T19:41:08.947437+00:00",
+      "first_seen_local": "2026-10-09T14:41:08.947434-05:00",
+      "last_updated_utc": "2026-10-09T19:41:08.947437+00:00",
+      "last_updated_local": "2026-10-09T14:41:08.947434-05:00"
+    },
     {
       "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
       "url": "http://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",

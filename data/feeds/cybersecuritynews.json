@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Tensorlake npm Package Compromised to Spread Shai-Hulud Worm and Steal Developer Secrets",
+          "url": "https://cybersecuritynews.com/tensorlake-npm-package/",
+          "published": "Thu, 08 Oct 2026 15:50:11 +0000",
+          "published_utc": "2026-10-08T15:50:11+00:00",
+          "summary": "<p>A malicious release of the Tensorlake npm package has been published with a Shai-Hulud worm variant that can steal developer secrets and attempt to spread through connected software supply chains. The affected version, tensorlake@0.5.144, was released on October 8, 2026. Tensorlake is a serverless sandbox platform for AI agents, and its npm package has recorded [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tensorlake-npm-package/\">Tensorlake npm Package Compromised to Spread Shai-Hulud Worm and Steal Developer Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166490"
+        },
+        {
+          "title": "Hikvision Camera Vulnerability Targeted in Remote Code Execution Exploitation Attempts",
+          "url": "https://cybersecuritynews.com/hikvision-camera-vulnerability-2/",
+          "published": "Thu, 08 Oct 2026 15:33:38 +0000",
+          "published_utc": "2026-10-08T15:33:38+00:00",
+          "summary": "<p>Scanning and remote code execution attempts targeting video surveillance devices in Ukraine rose between September 21 and October 1, 2026. Most activity focused on CVE-2021-36260, a critical command injection flaw in unpatched Hikvision products. The surge occurred alongside Russian missile and drone strikes, but researchers have not established a connection between the cyber activity and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hikvision-camera-vulnerability-2/\">Hikvision Camera Vulnerability Targeted in Remote Code Execution Exploitation Attempts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166477"
+        },
+        {
+          "title": "Hackers Use Fake Firefox Wallet Extensions to Steal Crypto Recovery Phrases",
+          "url": "https://cybersecuritynews.com/fake-firefox-wallet-extensions/",
+          "published": "Thu, 08 Oct 2026 15:26:03 +0000",
+          "published_utc": "2026-10-08T15:26:03+00:00",
+          "summary": "<p>Hackers have used 16 malicious Firefox extensions to target cryptocurrency users with fake wallet screens that capture recovery phrases and private keys. The add-ons posed as wallet portals, desktop tools, and browser utilities, while hidden code attempted to send the secrets to attacker-controlled Cloudflare Workers. The campaign copied interfaces from Rabby Wallet and OKX Wallet, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-firefox-wallet-extensions/\">Hackers Use Fake Firefox Wallet Extensions to Steal Crypto Recovery Phrases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166467"
+        },
+        {
+          "title": "Microsoft Teams Adds Synthetic Audio and Video Detection to Fight Deepfake Meeting Attacks",
+          "url": "https://cybersecuritynews.com/microsoft-teams-deepfake-detection/",
+          "published": "Thu, 08 Oct 2026 15:10:35 +0000",
+          "published_utc": "2026-10-08T15:10:35+00:00",
+          "summary": "<p>Microsoft Teams is preparing to support synthetic audio and video detection to help organizations spot deepfake attacks. The feature will connect Teams with certified third-party providers that check meeting media for signs of manipulation. Microsoft lists the update as in development, with rollout scheduled to begin in November 2026. According to the Microsoft 365 roadmap [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-deepfake-detection/\">Microsoft Teams Adds Synthetic Audio and Video Detection to Fight Deepfake Meeting Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166464"
+        },
+        {
+          "title": "DarkSword iOS Exploit Platform Uses Coruna Malware to Steal Crypto Wallet Recovery Phrases",
+          "url": "https://cybersecuritynews.com/darksword-ios-exploit-platform/",
+          "published": "Thu, 08 Oct 2026 15:06:43 +0000",
+          "published_utc": "2026-10-08T15:06:43+00:00",
+          "summary": "<p>DarkSword operators are using Coruna malware to steal cryptocurrency wallet recovery phrases from iPhones, turning browser exploits into a ready-to-use theft service. Exposed server directories revealed wallet modules, command systems, and records of stolen data, giving researchers a closer look at how the platform works beyond its initial exploit chain. A copy of one production [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/darksword-ios-exploit-platform/\">DarkSword iOS Exploit Platform Uses Coruna Malware to Steal Crypto Wallet Recovery Phrases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166455"
+        },
+        {
+          "title": "Critical Sungrow Inverter Vulnerability Lets Attackers Access Solar Plants Without Passwords",
+          "url": "https://cybersecuritynews.com/sungrow-inverter-vulnerability/",
+          "published": "Thu, 08 Oct 2026 14:57:08 +0000",
+          "published_utc": "2026-10-08T14:57:08+00:00",
+          "summary": "<p>A critical Sungrow inverter vulnerability could have allowed attackers to log in to the company’s iSolarCloud management platform without a valid password. The flaw affected the cloud service used to manage solar plants, inverters, and battery storage systems, creating a serious risk for customers and energy operators in Europe, China, Australia, and other regions. Sungrow [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sungrow-inverter-vulnerability/\">Critical Sungrow Inverter Vulnerability Lets Attackers Access Solar Plants Without Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166451"
+        },
+        {
+          "title": "Insignary Launches Clarity AIR to Detect Undeclared Open-Source and AI-Written Code",
+          "url": "https://cybersecuritynews.com/insignary-launches-clarity-air-to-detect-undeclared-open-source-and-ai-written-code/",
+          "published": "Thu, 08 Oct 2026 14:52:38 +0000",
+          "published_utc": "2026-10-08T14:52:38+00:00",
+          "summary": "<p>Toronto, Canada, October 8th, 2026, CyberNewswire Insignary Launches Clarity AIR: Closing the Blind Spot Between What Your Developers Declare and What&#8217;s Actually in Your Code New snippet-level scanning shows security and compliance leaders which open-source code and which AI-written code never made it into a manifest. Insignary Inc. today announced the general availability of Insignary [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/insignary-launches-clarity-air-to-detect-undeclared-open-source-and-ai-written-code/\">Insignary Launches Clarity AIR to Detect Undeclared Open-Source and AI-Written Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166403"
+        },
+        {
+          "title": "Hackers Use Negative Hotel Reviews to Spread Malware That Hides C2 on Blockchain",
+          "url": "https://cybersecuritynews.com/negative-hotel-reviews/",
+          "published": "Thu, 08 Oct 2026 14:44:51 +0000",
+          "published_utc": "2026-10-08T14:44:51+00:00",
+          "summary": "<p>Hackers are targeting hotels with fake guest complaints and negative reviews that lead staff to malware disguised as photographic evidence. The campaign delivers EtherRAT or TONResolver, two malware families that use public blockchains to find their command and control servers instead of relying on a fixed address inside the malware. The emails reach front desk, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/negative-hotel-reviews/\">Hackers Use Negative Hotel Reviews to Spread Malware That Hides C2 on Blockchain</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166423"
+        },
+        {
+          "title": "PoC Released for Critical LMCache Flaw Enabling Unauthenticated Remote Code Execution",
+          "url": "https://cybersecuritynews.com/poc-lmcache-flaw/",
+          "published": "Thu, 08 Oct 2026 14:34:16 +0000",
+          "published_utc": "2026-10-08T14:34:16+00:00",
+          "summary": "<p>A proof-of-concept (PoC) exploit has been released for a critical vulnerability in LMCache that can allow unauthenticated remote code execution on exposed distributed deployments. Tracked as CVE-2026-105192, the flaw has a CVSS score of 9.8 and affects LMCache versions beginning with 0.3.9. As of October 7, JFrog Security Research reported no fixed release. The vulnerability, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-lmcache-flaw/\">PoC Released for Critical LMCache Flaw Enabling Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166363"
+        },
+        {
+          "title": "PoC Released for Zammad Session Leak Flaw Enabling Remote Code Execution",
+          "url": "https://cybersecuritynews.com/poc-released-for-zammad-session-leak-flaw/",
+          "published": "Thu, 08 Oct 2026 14:27:11 +0000",
+          "published_utc": "2026-10-08T14:27:11+00:00",
+          "summary": "<p>A public PoC targets a critical Zammad flaw, CVE-2026-102489, allowing unauthenticated remote users to steal active session cookies and potentially execute code on vulnerable servers. The issue was associated with a breach reported in September at the Dutch Institute for Vulnerability Disclosure (DIVD), where two zero-day flaws in Zammad were reportedly exploited to gain access and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-zammad-session-leak-flaw/\">PoC Released for Zammad Session Leak Flaw Enabling Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166419"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

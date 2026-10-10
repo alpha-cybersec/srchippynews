@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
-          "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
-          "published": "Fri, 09 Oct 2026 17:15:43 +0000",
-          "published_utc": "2026-10-09T17:15:43+00:00",
-          "summary": "<p>A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval. The issue, named AnyPwn, affects AnyDesk Linux 8.0.2 and was fixed in version 8.0.3. Organizations using AnyDesk for Linux should update immediately and check whether TCP port 7070 is exposed to untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anydesk-linux-vulnerability/\">AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166713"
-        },
-        {
-          "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",
-          "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack/",
-          "published": "Fri, 09 Oct 2026 16:38:01 +0000",
-          "published_utc": "2026-10-09T16:38:01+00:00",
-          "summary": "<p>A new GhostAction campaign has compromised 346 GitHub repositories after threat actors used two hijacked maintainer accounts to add a fake “security audit” workflow designed to steal CI/CD secrets, cloud keys, API tokens, and credentials stored in source-code history. Security firm Socket reported that the October 8 activity affected repositories connected to the GitHub accounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostaction-github-repo-attack/\">New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166694"
-        },
-        {
-          "title": "New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories",
-          "url": "https://cybersecuritynews.com/agentic-ai-red-team-checklist/",
-          "published": "Fri, 09 Oct 2026 16:06:56 +0000",
-          "published_utc": "2026-10-09T16:06:56+00:00",
-          "summary": "<p>A free agentic AI red-team checklist offers 222 tests across 20 attack categories to assess autonomous AI systems beyond prompt injection, covering infrastructure, cloud access, tools, memory, and agent communications. The checklist targets a common testing gap. Teams may spend days trying to manipulate a model while overlooking an exposed MLflow server, a reachable cloud [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentic-ai-red-team-checklist/\">New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166630"
-        },
-        {
-          "title": "CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access",
-          "url": "https://cybersecuritynews.com/castlestealer-malware/",
-          "published": "Fri, 09 Oct 2026 14:47:33 +0000",
-          "published_utc": "2026-10-09T14:47:33+00:00",
-          "summary": "<p>CastleStealer, an emerging C#-based information stealer, has added browser protection bypass and remote shell features that give its operators a wider path into compromised Windows systems. The newer malware samples can collect browser data protected by Chromium’s App-Bound Encryption, run commands on a victim device, download extra payloads, and move stolen information through small encrypted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/castlestealer-malware/\">CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166675"
-        },
-        {
-          "title": "Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks",
-          "url": "https://cybersecuritynews.com/autonomous-ai-agents-2/",
-          "published": "Fri, 09 Oct 2026 14:29:13 +0000",
-          "published_utc": "2026-10-09T14:29:13+00:00",
-          "summary": "<p>Autonomous AI agents could move beyond noisy vulnerability scans and become quiet, persistent attackers, Cisco Talos has warned. The concern is not simply that AI can find security gaps faster. It is that groups of agents could learn to stay hidden, share findings, and keep working until they reach sensitive systems. In an October 7 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/autonomous-ai-agents-2/\">Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166666"
-        },
-        {
-          "title": "Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware",
-          "url": "https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/",
-          "published": "Fri, 09 Oct 2026 13:20:21 +0000",
-          "published_utc": "2026-10-09T13:20:21+00:00",
-          "summary": "<p>A newly identified supply-chain campaign is abusing Terraform provider workflows to infect developer systems with malware built for macOS, Linux, and Windows. The activity uses a trojanized Terraform provider that appears to be a legitimate AWS-related plugin, allowing it to run malicious code while still behaving like a normal provider. The campaign is a major [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/\">Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166657"
-        },
-        {
-          "title": "Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats",
-          "url": "https://cybersecuritynews.com/warden-stealer/",
-          "published": "Fri, 09 Oct 2026 12:32:02 +0000",
-          "published_utc": "2026-10-09T12:32:02+00:00",
-          "summary": "<p>A fast-growing Windows information stealer called Warden Stealer is being spread through ClickFix lures, malicious advertisements, cracked software downloads, and fake game cheats. The malware is sold as a malware-as-a-service offering, allowing different criminal operators to create their own builds, choose targets, and use separate command-and-control servers. Its main goal is to steal browser data, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/warden-stealer/\">Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166619"
-        },
-        {
-          "title": "MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads",
-          "url": "https://cybersecuritynews.com/matchboil-malware/",
-          "published": "Fri, 09 Oct 2026 10:10:47 +0000",
-          "published_utc": "2026-10-09T10:10:47+00:00",
-          "summary": "<p>MATCHBOIL, a C# malware downloader linked to UAC-0099, uses command-and-control (C2) servers hidden behind Cloudflare to deliver backdoor payloads. Its changing code shows how the group has moved from a simple downloader toward repeated server contact, stronger code hiding, and checks designed to stop security researchers from studying infections. The observed victims were all in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/matchboil-malware/\">MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166605"
-        },
-        {
-          "title": "PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover",
-          "url": "https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/",
-          "published": "Fri, 09 Oct 2026 09:54:02 +0000",
-          "published_utc": "2026-10-09T09:54:02+00:00",
-          "summary": "<p>A public proof of concept has exposed a flaw in Telegram Desktop that could let attackers steal local files and take over accounts after a user clicks a crafted external link. Tracked as CVE-2026-107181, the vulnerability affects versions before 7.2.9 and carries a CVSS 4.0 severity rating of 8.6 (High). Researcher Beaksec published the technical [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/\">PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166573"
-        },
-        {
-          "title": "Top 10 Best Container Image Scanning Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-container-image-scanning-tools/",
-          "published": "Fri, 09 Oct 2026 09:28:55 +0000",
-          "published_utc": "2026-10-09T09:28:55+00:00",
-          "summary": "<p>Every image scan returns hundreds of CVEs; the question is which ten your containers actually execute and which base image would zero the list entirely. We scored ten options with context and elimination weighted above raw detection. Evaluating scanners alongside the Top 10 Best Container Security Tools in 2026 reveals that static vulnerability counts alone [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-container-image-scanning-tools/\">Top 10 Best Container Image Scanning Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166507"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -103,89 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
-          "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
-          "published": "Fri, 09 Oct 2026 17:15:43 +0000",
-          "published_utc": "2026-10-09T17:15:43+00:00",
-          "summary": "<p>A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval. The issue, named AnyPwn, affects AnyDesk Linux 8.0.2 and was fixed in version 8.0.3. Organizations using AnyDesk for Linux should update immediately and check whether TCP port 7070 is exposed to untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anydesk-linux-vulnerability/\">AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166713"
-        },
-        {
-          "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",
-          "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack/",
-          "published": "Fri, 09 Oct 2026 16:38:01 +0000",
-          "published_utc": "2026-10-09T16:38:01+00:00",
-          "summary": "<p>A new GhostAction campaign has compromised 346 GitHub repositories after threat actors used two hijacked maintainer accounts to add a fake “security audit” workflow designed to steal CI/CD secrets, cloud keys, API tokens, and credentials stored in source-code history. Security firm Socket reported that the October 8 activity affected repositories connected to the GitHub accounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostaction-github-repo-attack/\">New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166694"
-        },
-        {
-          "title": "New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories",
-          "url": "https://cybersecuritynews.com/agentic-ai-red-team-checklist/",
-          "published": "Fri, 09 Oct 2026 16:06:56 +0000",
-          "published_utc": "2026-10-09T16:06:56+00:00",
-          "summary": "<p>A free agentic AI red-team checklist offers 222 tests across 20 attack categories to assess autonomous AI systems beyond prompt injection, covering infrastructure, cloud access, tools, memory, and agent communications. The checklist targets a common testing gap. Teams may spend days trying to manipulate a model while overlooking an exposed MLflow server, a reachable cloud [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentic-ai-red-team-checklist/\">New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166630"
-        },
-        {
-          "title": "CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access",
-          "url": "https://cybersecuritynews.com/castlestealer-malware/",
-          "published": "Fri, 09 Oct 2026 14:47:33 +0000",
-          "published_utc": "2026-10-09T14:47:33+00:00",
-          "summary": "<p>CastleStealer, an emerging C#-based information stealer, has added browser protection bypass and remote shell features that give its operators a wider path into compromised Windows systems. The newer malware samples can collect browser data protected by Chromium’s App-Bound Encryption, run commands on a victim device, download extra payloads, and move stolen information through small encrypted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/castlestealer-malware/\">CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166675"
-        },
-        {
-          "title": "Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks",
-          "url": "https://cybersecuritynews.com/autonomous-ai-agents-2/",
-          "published": "Fri, 09 Oct 2026 14:29:13 +0000",
-          "published_utc": "2026-10-09T14:29:13+00:00",
-          "summary": "<p>Autonomous AI agents could move beyond noisy vulnerability scans and become quiet, persistent attackers, Cisco Talos has warned. The concern is not simply that AI can find security gaps faster. It is that groups of agents could learn to stay hidden, share findings, and keep working until they reach sensitive systems. In an October 7 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/autonomous-ai-agents-2/\">Cisco Talos Warns Autonomous AI Agents Could Turn Pentests Into Stealthy Red Team Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166666"
-        },
-        {
-          "title": "Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware",
-          "url": "https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/",
-          "published": "Fri, 09 Oct 2026 13:20:21 +0000",
-          "published_utc": "2026-10-09T13:20:21+00:00",
-          "summary": "<p>A newly identified supply-chain campaign is abusing Terraform provider workflows to infect developer systems with malware built for macOS, Linux, and Windows. The activity uses a trojanized Terraform provider that appears to be a legitimate AWS-related plugin, allowing it to run malicious code while still behaving like a normal provider. The campaign is a major [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-trusted-terraform-workflows/\">Hackers Abuse Trusted Terraform Workflows to Infect Developer Systems With Cross-Platform Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166657"
-        },
-        {
-          "title": "Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats",
-          "url": "https://cybersecuritynews.com/warden-stealer/",
-          "published": "Fri, 09 Oct 2026 12:32:02 +0000",
-          "published_utc": "2026-10-09T12:32:02+00:00",
-          "summary": "<p>A fast-growing Windows information stealer called Warden Stealer is being spread through ClickFix lures, malicious advertisements, cracked software downloads, and fake game cheats. The malware is sold as a malware-as-a-service offering, allowing different criminal operators to create their own builds, choose targets, and use separate command-and-control servers. Its main goal is to steal browser data, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/warden-stealer/\">Warden Stealer Spreads Through ClickFix, Malvertising, Cracked Software and Game Cheats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166619"
-        },
-        {
-          "title": "MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads",
-          "url": "https://cybersecuritynews.com/matchboil-malware/",
-          "published": "Fri, 09 Oct 2026 10:10:47 +0000",
-          "published_utc": "2026-10-09T10:10:47+00:00",
-          "summary": "<p>MATCHBOIL, a C# malware downloader linked to UAC-0099, uses command-and-control (C2) servers hidden behind Cloudflare to deliver backdoor payloads. Its changing code shows how the group has moved from a simple downloader toward repeated server contact, stronger code hiding, and checks designed to stop security researchers from studying infections. The observed victims were all in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/matchboil-malware/\">MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166605"
-        },
-        {
-          "title": "PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover",
-          "url": "https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/",
-          "published": "Fri, 09 Oct 2026 09:54:02 +0000",
-          "published_utc": "2026-10-09T09:54:02+00:00",
-          "summary": "<p>A public proof of concept has exposed a flaw in Telegram Desktop that could let attackers steal local files and take over accounts after a user clicks a crafted external link. Tracked as CVE-2026-107181, the vulnerability affects versions before 7.2.9 and carries a CVSS 4.0 severity rating of 8.6 (High). Researcher Beaksec published the technical [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/\">PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166573"
-        },
-        {
-          "title": "Top 10 Best Container Image Scanning Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-container-image-scanning-tools/",
-          "published": "Fri, 09 Oct 2026 09:28:55 +0000",
-          "published_utc": "2026-10-09T09:28:55+00:00",
-          "summary": "<p>Every image scan returns hundreds of CVEs; the question is which ten your containers actually execute and which base image would zero the list entirely. We scored ten options with context and elimination weighted above raw detection. Evaluating scanners alongside the Top 10 Best Container Security Tools in 2026 reveals that static vulnerability counts alone [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-container-image-scanning-tools/\">Top 10 Best Container Image Scanning Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166507"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

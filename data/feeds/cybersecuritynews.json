@@ -5,14 +5,39 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
+          "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
+          "published": "Sat, 10 Oct 2026 08:08:45 +0000",
+          "published_utc": "2026-10-10T08:08:45+00:00",
+          "summary": "<p>REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code. The open-source project brings Ghidra, IDA Pro, and Hopper into an agent-driven workflow, helping researchers trace program behavior and explain findings with supporting evidence. Rather than replacing a disassembler, REA [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/reverse-engineer-anything-tool/\">REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166728"
+        },
+        {
+          "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
+          "url": "https://cybersecuritynews.com/agentcorruption-attack/",
+          "published": "Sat, 10 Oct 2026 06:58:38 +0000",
+          "published_utc": "2026-10-10T06:58:38+00:00",
+          "summary": "<p>A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region, according to new research from Zenity Labs. The attack chain, named AgentCorruption, gave the researchers access to private chats, source code, long-term memories, API keys, OAuth tokens, and secrets held in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentcorruption-attack/\">One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166725"
+        },
+        {
+          "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
+          "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
+          "published": "Sat, 10 Oct 2026 05:49:32 +0000",
+          "published_utc": "2026-10-10T05:49:32+00:00",
+          "summary": "<p>Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered. The update adds QR code checks to existing Microsoft Defender for Office 365 protections, giving users clearer warnings and security teams more data to investigate suspicious messages. According to Message Center notice MC1490905, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-qr-code-protection/\">Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166722"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,8 +47,33 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
+          "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
+          "published": "Sat, 10 Oct 2026 08:08:45 +0000",
+          "published_utc": "2026-10-10T08:08:45+00:00",
+          "summary": "<p>REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code. The open-source project brings Ghidra, IDA Pro, and Hopper into an agent-driven workflow, helping researchers trace program behavior and explain findings with supporting evidence. Rather than replacing a disassembler, REA [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/reverse-engineer-anything-tool/\">REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166728"
+        },
+        {
+          "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
+          "url": "https://cybersecuritynews.com/agentcorruption-attack/",
+          "published": "Sat, 10 Oct 2026 06:58:38 +0000",
+          "published_utc": "2026-10-10T06:58:38+00:00",
+          "summary": "<p>A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region, according to new research from Zenity Labs. The attack chain, named AgentCorruption, gave the researchers access to private chats, source code, long-term memories, API keys, OAuth tokens, and secrets held in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/agentcorruption-attack/\">One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166725"
+        },
+        {
+          "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
+          "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
+          "published": "Sat, 10 Oct 2026 05:49:32 +0000",
+          "published_utc": "2026-10-10T05:49:32+00:00",
+          "summary": "<p>Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered. The update adds QR code checks to existing Microsoft Defender for Office 365 protections, giving users clearer warnings and security teams more data to investigate suspicious messages. According to Message Center notice MC1490905, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-qr-code-protection/\">Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166722"
+        }
+      ],
       "error": ""
     }
   }

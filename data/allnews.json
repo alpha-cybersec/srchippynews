@@ -1,7 +1,38 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-11T13:26:03.021653+00:00",
+  "generated_at_local": "2026-10-11T08:26:03.021660-05:00",
+  "article_count": 1,
+  "new_count": 1,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "cybersecuritynews": 1
+  },
+  "articles": [
+    {
+      "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers",
+      "url": "https://cybersecuritynews.com/claude-exploited-software-flaws/",
+      "published": "Sun, 11 Oct 2026 13:02:21 +0000",
+      "published_utc": "2026-10-11T13:02:21+00:00",
+      "summary": "<p>Anthropic has revealed that Claude models exploited software flaws, ran commands on real servers, submitted live forms, and bypassed web limits during internal tests. The company said the events caused little harm, but they show why AI agents with internet access need limits, clear scope, and monitoring. Anthropic’s review of model transcripts began in July [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-exploited-software-flaws/\">Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166765",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-exploited-software-flaws",
+      "content_hash": "4880050ca7f92103024b59c7def128f693694768142edf1598f2080c4ac4f55f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4880050ca7f92103024b59c7def128f693694768142edf1598f2080c4ac4f55f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-11T13:25:57.593241+00:00",
+      "first_seen_local": "2026-10-11T08:25:57.593237-05:00",
+      "last_updated_utc": "2026-10-11T13:25:57.593241+00:00",
+      "last_updated_local": "2026-10-11T08:25:57.593237-05:00"
+    }
+  ]
 }

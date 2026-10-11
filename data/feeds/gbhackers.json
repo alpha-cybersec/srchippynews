@@ -5,63 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 6,
-      "articles": [
-        {
-          "title": "GhostAction Hackers Compromise 500+ GitHub Accounts to Steal Cloud and AI API Credentials",
-          "url": "https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/",
-          "published": "Sat, 10 Oct 2026 09:02:37 +0000",
-          "published_utc": "2026-10-10T09:02:37+00:00",
-          "summary": "<p>A new GhostAction campaign has expanded to more than 500 compromised GitHub accounts and has injected malicious workflows into tens of thousands of repositories since October 7, 2026. Socket’s October 9 update describes a credential theft operation targeting GitHub Actions secrets, cloud credentials, and AI service API keys embedded in source code and repository history. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/\">GhostAction Hackers Compromise 500+ GitHub Accounts to Steal Cloud and AI API Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202901"
-        },
-        {
-          "title": "Iranian VPN-over-DNS Activity Generates 40 Billion DNS Observations During Military Conflict",
-          "url": "https://gbhackers.com/iranian-vpn-over-dns-activity-generates-40-billion/",
-          "published": "Sat, 10 Oct 2026 07:50:12 +0000",
-          "published_utc": "2026-10-10T07:50:12+00:00",
-          "summary": "<p>A newly disclosed unprecedented surge in suspected Iranian VPN-over-DNS activity, with one domain generating 40 billion passive DNS observations within days. Published October 9, 2026, the investigation documents infrastructure expanding across more than 100 domains during military conflict, while leaving its operators, transmitted content, and purpose unconfirmed. The activity began around 07:00 UTC on March [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iranian-vpn-over-dns-activity-generates-40-billion/\">Iranian VPN-over-DNS Activity Generates 40 Billion DNS Observations During Military Conflict</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202897"
-        },
-        {
-          "title": "DarkBlinders Hackers Use Fake Meeting App to Deploy Backdoor and Steal Government Data",
-          "url": "https://gbhackers.com/darkblinders-hackers-use-fake-meeting-app/",
-          "published": "Sat, 10 Oct 2026 07:39:56 +0000",
-          "published_utc": "2026-10-10T07:39:56+00:00",
-          "summary": "<p>DarkBlinders hackers are deploying a fake video meeting application and abusing GitHub repositories in a cyberespionage campaign targeting Israel and the Kurdistan Region of Iraq. Dream researchers observed the operation between August and October 2026. The investigation confirmed compromises affecting a government cloud environment in Kurdistan and a prominent Israeli individual associated with the security [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/darkblinders-hackers-use-fake-meeting-app/\">DarkBlinders Hackers Use Fake Meeting App to Deploy Backdoor and Steal Government Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202890"
-        },
-        {
-          "title": "Two AhsayCBS Zero-Day Vulnerabilities Actively Exploited to Take Over Backup Servers",
-          "url": "https://gbhackers.com/two-ahsaycbs-zero-day-vulnerabilities/",
-          "published": "Sat, 10 Oct 2026 07:27:33 +0000",
-          "published_utc": "2026-10-10T07:27:33+00:00",
-          "summary": "<p>Threat actors are exploiting two zero-day vulnerabilities in Ahsay Cloud Backup Server (AhsayCBS) to compromise exposed backup servers without authentication and execute commands with SYSTEM privileges. Observed intrusions have deployed web shells and cryptocurrency miners, exposing weaknesses in the infrastructure that centrally manages backup operations. According to Field Effect’s October 9, 2026, report, exploitation began [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/two-ahsaycbs-zero-day-vulnerabilities/\">Two AhsayCBS Zero-Day Vulnerabilities Actively Exploited to Take Over Backup Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202884"
-        },
-        {
-          "title": "Hackers Use AI Agents and GodPotato Exploit to Gain Windows SYSTEM Privileges",
-          "url": "https://gbhackers.com/hackers-use-ai-agents-and-godpotato-exploit/",
-          "published": "Sat, 10 Oct 2026 07:16:30 +0000",
-          "published_utc": "2026-10-10T07:16:30+00:00",
-          "summary": "<p>Hackers used AI agents to turn an exposed application endpoint into full administrative control of a server in under 24 hours. The intrusion involved hundreds of commands, credential theft, and Windows privilege escalation without new malware or a zero-day vulnerability. Researchers Austin Ritchie and Daxton Wirth assessed with high confidence that large language model-driven agents [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-ai-agents-and-godpotato-exploit/\">Hackers Use AI Agents and GodPotato Exploit to Gain Windows SYSTEM Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202877"
-        },
-        {
-          "title": "AWS Bedrock AgentCore Flaw Allowed Attackers to Hijack AI Agents Using a Single Prompt",
-          "url": "https://gbhackers.com/aws-bedrock-agentcore-flaw-allowed-attackers/",
-          "published": "Sat, 10 Oct 2026 06:59:42 +0000",
-          "published_utc": "2026-10-10T06:59:42+00:00",
-          "summary": "<p>A newly disclosed attack chain in Amazon Bedrock AgentCore that could turn a single malicious prompt into credential theft and compromise of other AI agents within the same AWS account and region. Dubbed AgentCorruption, the research linked metadata access to an overprivileged execution role, enabling lateral movement, conversation exposure, memory poisoning, and theft of credentials [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-bedrock-agentcore-flaw-allowed-attackers/\">AWS Bedrock AgentCore Flaw Allowed Attackers to Hijack AI Agents Using a Single Prompt</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202869"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

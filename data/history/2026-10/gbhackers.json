@@ -2,8 +2,260 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 134,
+  "article_count": 143,
   "articles": [
+    {
+      "title": "Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication",
+      "url": "https://gbhackers.com/critical-google-devsite-flaw/",
+      "published": "Mon, 12 Oct 2026 12:57:01 +0000",
+      "published_utc": "2026-10-12T12:57:01+00:00",
+      "summary": "<p>A critical security vulnerability in Google&#8217;s shared DevSite platform could have let unauthenticated attackers execute arbitrary code on Google-hosted services by forging Flask session cookies with malicious Python pickle payloads. Security researcher Simon Köck discovered the issue while analyzing the OAuth authorization workflow used by Google&#8217;s developer documentation properties. The vulnerability affected the shared infrastructure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-google-devsite-flaw/\">Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203028",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-google-devsite-flaw",
+      "content_hash": "84e45945a4daf8546e205a22840e8110fc2ec67c12dd9dbd6e2c317455d9e063",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "84e45945a4daf8546e205a22840e8110fc2ec67c12dd9dbd6e2c317455d9e063",
+        "FEEDBURNER": "84e45945a4daf8546e205a22840e8110fc2ec67c12dd9dbd6e2c317455d9e063"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code",
+      "url": "https://gbhackers.com/critical-wordpress-bricksforge-flaw/",
+      "published": "Mon, 12 Oct 2026 12:45:18 +0000",
+      "published_utc": "2026-10-12T12:45:18+00:00",
+      "summary": "<p>Attackers are actively targeting a critical vulnerability in the Bricksforge WordPress plugin. This flaw allows unauthenticated users to upload malicious files and execute arbitrary PHP code. It is tracked as CVE-2026-85097 and has a CVSS score of 10.0, affecting versions up to 3.1.8.9. Administrators are advised to upgrade to version 3.1.8.10 or later. Patchstack disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-bricksforge-flaw/\">Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203023",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-wordpress-bricksforge-flaw",
+      "content_hash": "3a9e92aa93345660f15d0eb713ead0a47f2408f075c1d1c3e3e0accc4ddd0638",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3a9e92aa93345660f15d0eb713ead0a47f2408f075c1d1c3e3e0accc4ddd0638",
+        "FEEDBURNER": "3a9e92aa93345660f15d0eb713ead0a47f2408f075c1d1c3e3e0accc4ddd0638"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "Researchers Discover New Domain Spoofing Techniques That Bypass Chrome’s Phishing Protections",
+      "url": "https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/",
+      "published": "Mon, 12 Oct 2026 12:27:40 +0000",
+      "published_utc": "2026-10-12T12:27:40+00:00",
+      "summary": "<p>Researchers identified two edge cases involving internationalized domain names (IDNs) that bypass Unicode display safeguards and certain navigation warnings in Chromium. Published on October 3, 2026, their research demonstrates how carefully selected Cyrillic and Latin characters can create convincing lookalikes of trusted domains without triggering these protections. The researchers Ian Muscat and Leanne Briffa at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/\">Researchers Discover New Domain Spoofing Techniques That Bypass Chrome&#8217;s Phishing Protections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203020",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/researchers-discover-new-domain-spoofing-techniques",
+      "content_hash": "72b8d0057658e06e586ede6135d4c9f8ee82bef244117c285e944b9b23977cbb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "72b8d0057658e06e586ede6135d4c9f8ee82bef244117c285e944b9b23977cbb",
+        "FEEDBURNER": "72b8d0057658e06e586ede6135d4c9f8ee82bef244117c285e944b9b23977cbb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation",
+      "url": "https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/",
+      "published": "Mon, 12 Oct 2026 11:59:17 +0000",
+      "published_utc": "2026-10-12T11:59:17+00:00",
+      "summary": "<p>Federal Bureau of Investigation (FBI) agents arrested Canadian cybersecurity executive Edward Dubrovsky in Pennsylvania on October 8, 2026. This arrest is part of an investigation into alleged assistance to the ShinyHunters cybercrime group, according to KrebsOnSecurity. The case involves accusations of cyber extortion and conspiracy; however, the complaint remains largely sealed, so the specific allegations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/\">FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203015",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fbi-arrests-canadian-cybersecurity-executive",
+      "content_hash": "94e633f840ea4a4b62dd7ab36737782a379ac0cf470895beaa3a53fc3190b188",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "94e633f840ea4a4b62dd7ab36737782a379ac0cf470895beaa3a53fc3190b188",
+        "FEEDBURNER": "94e633f840ea4a4b62dd7ab36737782a379ac0cf470895beaa3a53fc3190b188"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk",
+      "url": "https://gbhackers.com/nippon-columbia-malware-infection/",
+      "published": "Mon, 12 Oct 2026 11:42:21 +0000",
+      "published_utc": "2026-10-12T11:42:21+00:00",
+      "summary": "<p>Japanese karaoke operator Daiichi Kosho has issued a warning about a malware infection at its outsourcing partner, Nippon Columbia Group (NCG), that may have exposed about 8.72 million personal records. This potential data exposure includes both customer and employee information, not just customer records. As of now, neither data theft nor misuse has been confirmed, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nippon-columbia-malware-infection/\">Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203011",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nippon-columbia-malware-infection",
+      "content_hash": "f045f9222135c4b3bff18b47bcc241e6fea4c430c278c6a8ea252e5f47e95bd4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f045f9222135c4b3bff18b47bcc241e6fea4c430c278c6a8ea252e5f47e95bd4",
+        "FEEDBURNER": "f045f9222135c4b3bff18b47bcc241e6fea4c430c278c6a8ea252e5f47e95bd4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads",
+      "url": "https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/",
+      "published": "Mon, 12 Oct 2026 11:13:19 +0000",
+      "published_utc": "2026-10-12T11:13:19+00:00",
+      "summary": "<p>Security researchers have revealed a critical vulnerability in Discourse, tracked as CVE-2026-55420. This flaw could let a low-privileged user read and write files on the underlying server by exploiting the platform’s ImageMagick-based upload pipeline. The issue was fixed for hosted customers in June 2026 and was publicly disclosed on June 30, 2026. The vulnerability affects [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/\">Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203006",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads",
+      "content_hash": "04b606d18df15e522f49e25fc1d776c5da3a710b9576ce3a995b60585d5528c5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "04b606d18df15e522f49e25fc1d776c5da3a710b9576ce3a995b60585d5528c5",
+        "FEEDBURNER": "04b606d18df15e522f49e25fc1d776c5da3a710b9576ce3a995b60585d5528c5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog",
+      "url": "https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/",
+      "published": "Mon, 12 Oct 2026 10:46:05 +0000",
+      "published_utc": "2026-10-12T10:46:05+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2016-3081, a critical command injection vulnerability in Apache Struts, to its Known Exploited Vulnerabilities (KEV) Catalog due to evidence of active exploitation. This vulnerability affects Apache Struts deployments where Dynamic Method Invocation (DMI) is enabled. Tracked as CWE-77, this flaw allows a remote attacker to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/\">CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203001",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw",
+      "content_hash": "421e7cd0845e046b22148a57246689909f54ac21ccff291f8e910506d7bf378a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "421e7cd0845e046b22148a57246689909f54ac21ccff291f8e910506d7bf378a",
+        "FEEDBURNER": "421e7cd0845e046b22148a57246689909f54ac21ccff291f8e910506d7bf378a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "WhatsApp-Delivered Malware Injects Into Windows Task Scheduler to Run as SYSTEM",
+      "url": "https://gbhackers.com/whatsapp-delivered-malware/",
+      "published": "Mon, 12 Oct 2026 09:48:39 +0000",
+      "published_utc": "2026-10-12T09:48:39+00:00",
+      "summary": "<p>A WhatsApp-delivered financial-document lure is being used to deploy a sophisticated Windows malware chain that injects code into the Task Scheduler service and executes subsequent payloads with LocalSystem privileges. The executable acts as an NRV2E-compressed wrapper that reconstructs its malicious loader entirely in memory, limiting obvious artifacts on disk and obscuring imports, strings, and control-flow [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/whatsapp-delivered-malware/\">WhatsApp-Delivered Malware Injects Into Windows Task Scheduler to Run as SYSTEM</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202993",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/whatsapp-delivered-malware",
+      "content_hash": "8fb87c8d37555b2c16962830d5f2f9fd71272e6e3e8b06bc02a1e1e31100095f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8fb87c8d37555b2c16962830d5f2f9fd71272e6e3e8b06bc02a1e1e31100095f",
+        "FEEDBURNER": "8fb87c8d37555b2c16962830d5f2f9fd71272e6e3e8b06bc02a1e1e31100095f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
+    {
+      "title": "Android Firmware Malware Uses Ad Fraud and Proxy Botnets to Generate Revenue",
+      "url": "https://gbhackers.com/android-firmware-malware/",
+      "published": "Mon, 12 Oct 2026 08:53:53 +0000",
+      "published_utc": "2026-10-12T08:53:53+00:00",
+      "summary": "<p>Midnight Mimosa, an Android malware campaign embedded in firmware that monetizes compromised smartphones through advertising fraud and residential proxy services. Disclosed on October 8, the operation affected thousands of devices across more than 150 countries over roughly two years, predominantly inexpensive phones built on MediaTek platforms. Unlike malware requiring a malicious download, Midnight Mimosa arrives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-firmware-malware/\">Android Firmware Malware Uses Ad Fraud and Proxy Botnets to Generate Revenue</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202979",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/android-firmware-malware",
+      "content_hash": "f04d4cc70f24376bed91c6ec1e5e8b47d61bdc2aa502c774e3ea3b72eb4a69fa",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f04d4cc70f24376bed91c6ec1e5e8b47d61bdc2aa502c774e3ea3b72eb4a69fa",
+        "FEEDBURNER": "f04d4cc70f24376bed91c6ec1e5e8b47d61bdc2aa502c774e3ea3b72eb4a69fa"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T18:56:26.864138+00:00",
+      "first_seen_local": "2026-10-12T13:56:26.864135-05:00",
+      "last_updated_utc": "2026-10-12T18:56:26.864138+00:00",
+      "last_updated_local": "2026-10-12T13:56:26.864135-05:00"
+    },
     {
       "title": "AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges",
       "url": "https://gbhackers.com/anydesk-vulnerability/",

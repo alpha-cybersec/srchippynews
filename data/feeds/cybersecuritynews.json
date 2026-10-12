@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Ahold Delhaize Takes Systems Offline Following Cybersecurity Incident",
+          "url": "https://cybersecuritynews.com/ahold-delhaize-cyberattack/",
+          "published": "Mon, 12 Oct 2026 15:12:54 +0000",
+          "published_utc": "2026-10-12T15:12:54+00:00",
+          "summary": "<p>Ahold Delhaize has taken some systems offline after identifying a security issue within its network, the food retail group said on October 12, 2026. The company, based in Zaandam, the Netherlands, said its teams were assessing the issue and taking steps to limit its impact. Physical stores remain open and continue serving customers. In its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ahold-delhaize-cyberattack/\">Ahold Delhaize Takes Systems Offline Following Cybersecurity Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166944"
+        },
+        {
+          "title": "Google DevSite Flaw Let Attackers Execute Remote Code Through Forged Flask Sessions",
+          "url": "https://cybersecuritynews.com/critical-google-devsite-flaw/",
+          "published": "Mon, 12 Oct 2026 14:31:19 +0000",
+          "published_utc": "2026-10-12T14:31:19+00:00",
+          "summary": "<p>A critical vulnerability in Google’s shared DevSite platform could have allowed an unauthenticated attacker to forge Flask session cookies and trigger remote code execution across several Google-owned developer websites, according to researcher Simon Koeck. The issue affected the OAuth flow used by Google developer documentation sites, including developers.google.com, firebase.google.com, developer.android.com, source.android.com, and docs.partner.android.com. Google reportedly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-google-devsite-flaw/\">Google DevSite Flaw Let Attackers Execute Remote Code Through Forged Flask Sessions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166906"
+        },
+        {
+          "title": "Critical GitLab Vulnerability Enables Arbitrary Code Execution Attacks on Servers",
+          "url": "https://cybersecuritynews.com/gitlab-vulnerability-code-execution/",
+          "published": "Mon, 12 Oct 2026 14:19:07 +0000",
+          "published_utc": "2026-10-12T14:19:07+00:00",
+          "summary": "<p>GitLab has released urgent security updates to fix a critical vulnerability that could allow attackers to execute arbitrary code on affected servers without logging in. Tracked as CVE-2026-97229, the flaw carries the maximum CVSS score of 10.0 and affects both GitLab Community Edition and Enterprise Edition. The company released patches on October 12, 2026. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-vulnerability-code-execution/\">Critical GitLab Vulnerability Enables Arbitrary Code Execution Attacks on Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166933"
+        },
+        {
+          "title": "WhatsApp Attachment Deploys Malware That Gains SYSTEM Access on Windows",
+          "url": "https://cybersecuritynews.com/whatsapp-attachment-deploys-malware/",
+          "published": "Mon, 12 Oct 2026 14:02:53 +0000",
+          "published_utc": "2026-10-12T14:02:53+00:00",
+          "summary": "<p>A malicious WhatsApp attachment is being used to deploy a Windows remote access trojan that can reach SYSTEM-level access, giving its operators deep control over infected machines. The campaign begins with a ZIP archive carrying a financial-document lure and an executable named Statement.exe. Once the recipient opens the file, the malware starts a long, hidden [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-attachment-deploys-malware/\">WhatsApp Attachment Deploys Malware That Gains SYSTEM Access on Windows</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166910"
+        },
+        {
+          "title": "Google AitM Phishing Kit Uses WebSockets to Bypass MFA in Real Time",
+          "url": "https://cybersecuritynews.com/google-aitm-phishing-kit/",
+          "published": "Mon, 12 Oct 2026 13:11:06 +0000",
+          "published_utc": "2026-10-12T13:11:06+00:00",
+          "summary": "<p>A Google account phishing kit uses live WebSocket connections to guide victims through fake sign-in screens, relay authentication requests, and steal authenticated sessions. The campaign shows how attackers can get past MFA by forwarding login steps in real time rather than breaking the security checks themselves. The operation targets people linked to research organizations in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-aitm-phishing-kit/\">Google AitM Phishing Kit Uses WebSockets to Bypass MFA in Real Time</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166887"
+        },
+        {
+          "title": "Ledger Confirms Unauthorized Hardware Implant in Crypto Wallet Sold by CryptoBilis",
+          "url": "https://cybersecuritynews.com/hardware-implant-in-crypto-wallet/",
+          "published": "Mon, 12 Oct 2026 13:10:25 +0000",
+          "published_utc": "2026-10-12T13:10:25+00:00",
+          "summary": "<p>Ledger has confirmed that a cryptocurrency hardware wallet linked to reported fund losses contained an unauthorized hardware implant, bringing physical tampering into its investigation of devices sold through Southeast Asian reseller CryptoBilis. The finding raises supply chain security concerns, but Ledger has not confirmed how the implant worked or whether it caused every reported theft. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hardware-implant-in-crypto-wallet/\">Ledger Confirms Unauthorized Hardware Implant in Crypto Wallet Sold by CryptoBilis</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166907"
+        },
+        {
+          "title": "Attackers Reportedly Hack Supermarket Fridges and Raise Temperatures to 50°C",
+          "url": "https://cybersecuritynews.com/supermarket-fridges-hacked/",
+          "published": "Mon, 12 Oct 2026 12:54:23 +0000",
+          "published_utc": "2026-10-12T12:54:23+00:00",
+          "summary": "<p>French supermarket chains are dealing with a major cybersecurity incident after attackers reportedly changed refrigeration settings remotely, causing some chilled cabinets and freezers to heat up instead of cool down. The incident began overnight between October 11 and October 12 and affected stores linked to Intermarché, E.Leclerc, and Système U, according to early reports. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarket-fridges-hacked/\">Attackers Reportedly Hack Supermarket Fridges and Raise Temperatures to 50°C</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166889"
+        },
+        {
+          "title": "IBM Patches 22 Verify Access Flaws, Including Critical Remote Code Execution Bugs",
+          "url": "https://cybersecuritynews.com/ibm-patches-22-verify-access-flaw/",
+          "published": "Mon, 12 Oct 2026 12:07:34 +0000",
+          "published_utc": "2026-10-12T12:07:34+00:00",
+          "summary": "<p>IBM patched 22 vulnerabilities in Verify Identity Access and Security Verify Access, including two critical flaws allowing unauthenticated remote code execution across appliance and container deployments. The most severe bugs, CVE-2026-78401 and CVE-2026-78406, each carry a CVSS score of 9.8. Both involve deserializing untrusted data, a process where software rebuilds stored or transmitted data into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ibm-patches-22-verify-access-flaw/\">IBM Patches 22 Verify Access Flaws, Including Critical Remote Code Execution Bugs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166620"
+        },
+        {
+          "title": "Hackers Exploit Critical AhsayCBS Flaws to Deploy Webshells and XMRig Miners",
+          "url": "https://cybersecuritynews.com/hackers-exploit-critical-ahsaycbs-flaws/",
+          "published": "Mon, 12 Oct 2026 11:56:07 +0000",
+          "published_utc": "2026-10-12T11:56:07+00:00",
+          "summary": "<p>Hackers are exploiting two flaws in AhsayCBS backup servers to run commands, plant webshells, and install XMRig cryptocurrency miners disguised as Microsoft Edge. Huntress first observed exploitation on October 7, 2026, at 23:20:15 UTC. By October 8, its researchers had seen five organizations targeted, with attackers checking systems and setting up tools to maintain access. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-ahsaycbs-flaws/\">Hackers Exploit Critical AhsayCBS Flaws to Deploy Webshells and XMRig Miners</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166832"
+        },
+        {
+          "title": "FBI Arrests Cybersecurity Executive in ShinyHunters-Linked Extortion Investigation",
+          "url": "https://cybersecuritynews.com/fbi-arrests-cybersecurity-executive-in-shinyhunters/",
+          "published": "Mon, 12 Oct 2026 11:50:40 +0000",
+          "published_utc": "2026-10-12T11:50:40+00:00",
+          "summary": "<p>The FBI arrested Canadian cybersecurity executive Edward Dubrovsky in Pennsylvania on October 8, 2026, as part of its investigation into the hacking group ShinyHunters. The arrest links a professional involved in ransomware response to an alleged cyber extortion conspiracy. However, the evidence behind the charges remains largely sealed, and the allegations have not been proven [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-arrests-cybersecurity-executive-in-shinyhunters/\">FBI Arrests Cybersecurity Executive in ShinyHunters-Linked Extortion Investigation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166803"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,8 +103,89 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Ahold Delhaize Takes Systems Offline Following Cybersecurity Incident",
+          "url": "https://cybersecuritynews.com/ahold-delhaize-cyberattack/",
+          "published": "Mon, 12 Oct 2026 15:12:54 +0000",
+          "published_utc": "2026-10-12T15:12:54+00:00",
+          "summary": "<p>Ahold Delhaize has taken some systems offline after identifying a security issue within its network, the food retail group said on October 12, 2026. The company, based in Zaandam, the Netherlands, said its teams were assessing the issue and taking steps to limit its impact. Physical stores remain open and continue serving customers. In its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ahold-delhaize-cyberattack/\">Ahold Delhaize Takes Systems Offline Following Cybersecurity Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166944"
+        },
+        {
+          "title": "Google DevSite Flaw Let Attackers Execute Remote Code Through Forged Flask Sessions",
+          "url": "https://cybersecuritynews.com/critical-google-devsite-flaw/",
+          "published": "Mon, 12 Oct 2026 14:31:19 +0000",
+          "published_utc": "2026-10-12T14:31:19+00:00",
+          "summary": "<p>A critical vulnerability in Google’s shared DevSite platform could have allowed an unauthenticated attacker to forge Flask session cookies and trigger remote code execution across several Google-owned developer websites, according to researcher Simon Koeck. The issue affected the OAuth flow used by Google developer documentation sites, including developers.google.com, firebase.google.com, developer.android.com, source.android.com, and docs.partner.android.com. Google reportedly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-google-devsite-flaw/\">Google DevSite Flaw Let Attackers Execute Remote Code Through Forged Flask Sessions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166906"
+        },
+        {
+          "title": "Critical GitLab Vulnerability Enables Arbitrary Code Execution Attacks on Servers",
+          "url": "https://cybersecuritynews.com/gitlab-vulnerability-code-execution/",
+          "published": "Mon, 12 Oct 2026 14:19:07 +0000",
+          "published_utc": "2026-10-12T14:19:07+00:00",
+          "summary": "<p>GitLab has released urgent security updates to fix a critical vulnerability that could allow attackers to execute arbitrary code on affected servers without logging in. Tracked as CVE-2026-97229, the flaw carries the maximum CVSS score of 10.0 and affects both GitLab Community Edition and Enterprise Edition. The company released patches on October 12, 2026. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-vulnerability-code-execution/\">Critical GitLab Vulnerability Enables Arbitrary Code Execution Attacks on Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166933"
+        },
+        {
+          "title": "WhatsApp Attachment Deploys Malware That Gains SYSTEM Access on Windows",
+          "url": "https://cybersecuritynews.com/whatsapp-attachment-deploys-malware/",
+          "published": "Mon, 12 Oct 2026 14:02:53 +0000",
+          "published_utc": "2026-10-12T14:02:53+00:00",
+          "summary": "<p>A malicious WhatsApp attachment is being used to deploy a Windows remote access trojan that can reach SYSTEM-level access, giving its operators deep control over infected machines. The campaign begins with a ZIP archive carrying a financial-document lure and an executable named Statement.exe. Once the recipient opens the file, the malware starts a long, hidden [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-attachment-deploys-malware/\">WhatsApp Attachment Deploys Malware That Gains SYSTEM Access on Windows</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166910"
+        },
+        {
+          "title": "Google AitM Phishing Kit Uses WebSockets to Bypass MFA in Real Time",
+          "url": "https://cybersecuritynews.com/google-aitm-phishing-kit/",
+          "published": "Mon, 12 Oct 2026 13:11:06 +0000",
+          "published_utc": "2026-10-12T13:11:06+00:00",
+          "summary": "<p>A Google account phishing kit uses live WebSocket connections to guide victims through fake sign-in screens, relay authentication requests, and steal authenticated sessions. The campaign shows how attackers can get past MFA by forwarding login steps in real time rather than breaking the security checks themselves. The operation targets people linked to research organizations in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-aitm-phishing-kit/\">Google AitM Phishing Kit Uses WebSockets to Bypass MFA in Real Time</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166887"
+        },
+        {
+          "title": "Ledger Confirms Unauthorized Hardware Implant in Crypto Wallet Sold by CryptoBilis",
+          "url": "https://cybersecuritynews.com/hardware-implant-in-crypto-wallet/",
+          "published": "Mon, 12 Oct 2026 13:10:25 +0000",
+          "published_utc": "2026-10-12T13:10:25+00:00",
+          "summary": "<p>Ledger has confirmed that a cryptocurrency hardware wallet linked to reported fund losses contained an unauthorized hardware implant, bringing physical tampering into its investigation of devices sold through Southeast Asian reseller CryptoBilis. The finding raises supply chain security concerns, but Ledger has not confirmed how the implant worked or whether it caused every reported theft. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hardware-implant-in-crypto-wallet/\">Ledger Confirms Unauthorized Hardware Implant in Crypto Wallet Sold by CryptoBilis</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166907"
+        },
+        {
+          "title": "Attackers Reportedly Hack Supermarket Fridges and Raise Temperatures to 50°C",
+          "url": "https://cybersecuritynews.com/supermarket-fridges-hacked/",
+          "published": "Mon, 12 Oct 2026 12:54:23 +0000",
+          "published_utc": "2026-10-12T12:54:23+00:00",
+          "summary": "<p>French supermarket chains are dealing with a major cybersecurity incident after attackers reportedly changed refrigeration settings remotely, causing some chilled cabinets and freezers to heat up instead of cool down. The incident began overnight between October 11 and October 12 and affected stores linked to Intermarché, E.Leclerc, and Système U, according to early reports. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarket-fridges-hacked/\">Attackers Reportedly Hack Supermarket Fridges and Raise Temperatures to 50°C</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166889"
+        },
+        {
+          "title": "IBM Patches 22 Verify Access Flaws, Including Critical Remote Code Execution Bugs",
+          "url": "https://cybersecuritynews.com/ibm-patches-22-verify-access-flaw/",
+          "published": "Mon, 12 Oct 2026 12:07:34 +0000",
+          "published_utc": "2026-10-12T12:07:34+00:00",
+          "summary": "<p>IBM patched 22 vulnerabilities in Verify Identity Access and Security Verify Access, including two critical flaws allowing unauthenticated remote code execution across appliance and container deployments. The most severe bugs, CVE-2026-78401 and CVE-2026-78406, each carry a CVSS score of 9.8. Both involve deserializing untrusted data, a process where software rebuilds stored or transmitted data into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ibm-patches-22-verify-access-flaw/\">IBM Patches 22 Verify Access Flaws, Including Critical Remote Code Execution Bugs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166620"
+        },
+        {
+          "title": "Hackers Exploit Critical AhsayCBS Flaws to Deploy Webshells and XMRig Miners",
+          "url": "https://cybersecuritynews.com/hackers-exploit-critical-ahsaycbs-flaws/",
+          "published": "Mon, 12 Oct 2026 11:56:07 +0000",
+          "published_utc": "2026-10-12T11:56:07+00:00",
+          "summary": "<p>Hackers are exploiting two flaws in AhsayCBS backup servers to run commands, plant webshells, and install XMRig cryptocurrency miners disguised as Microsoft Edge. Huntress first observed exploitation on October 7, 2026, at 23:20:15 UTC. By October 8, its researchers had seen five organizations targeted, with attackers checking systems and setting up tools to maintain access. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-ahsaycbs-flaws/\">Hackers Exploit Critical AhsayCBS Flaws to Deploy Webshells and XMRig Miners</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166832"
+        },
+        {
+          "title": "FBI Arrests Cybersecurity Executive in ShinyHunters-Linked Extortion Investigation",
+          "url": "https://cybersecuritynews.com/fbi-arrests-cybersecurity-executive-in-shinyhunters/",
+          "published": "Mon, 12 Oct 2026 11:50:40 +0000",
+          "published_utc": "2026-10-12T11:50:40+00:00",
+          "summary": "<p>The FBI arrested Canadian cybersecurity executive Edward Dubrovsky in Pennsylvania on October 8, 2026, as part of its investigation into the hacking group ShinyHunters. The arrest links a professional involved in ransomware response to an alleged cyber extortion conspiracy. However, the evidence behind the charges remains largely sealed, and the allegations have not been proven [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-arrests-cybersecurity-executive-in-shinyhunters/\">FBI Arrests Cybersecurity Executive in ShinyHunters-Linked Extortion Investigation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=166803"
+        }
+      ],
       "error": ""
     }
   }

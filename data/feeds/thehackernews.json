@@ -10,8 +10,25 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+          "url": "http://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+          "published": "Mon, 12 Oct 2026 09:02:14 +0000",
+          "published_utc": "2026-10-12T09:02:14+00:00",
+          "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2150532227444901773"
+        },
+        {
+          "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+          "url": "http://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+          "published": "Mon, 12 Oct 2026 07:26:12 +0000",
+          "published_utc": "2026-10-12T07:26:12+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1342958997238265876"
+        }
+      ],
       "error": ""
     },
     "FEEDBURNER": {
@@ -22,8 +39,17 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+          "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+          "published": "Mon, 12 Oct 2026 12:56:12 +0530",
+          "published_utc": "2026-10-12T07:26:12+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
+          "id": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
+        }
+      ],
       "error": ""
     }
   }

@@ -5,14 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "content_type": "text/html",
+      "feed_title": "",
       "article_count": 0,
       "articles": [],
-      "error": ""
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -22,8 +22,73 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 8,
+      "articles": [
+        {
+          "title": "AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges",
+          "url": "https://gbhackers.com/anydesk-vulnerability/",
+          "published": "Mon, 12 Oct 2026 07:43:08 +0000",
+          "published_utc": "2026-10-12T07:43:08+00:00",
+          "summary": "<p>Security researcher has disclosed a heap buffer overflow vulnerability in AnyDesk Linux version 8.0.2, named AnyPwn. This vulnerability allows remote command execution before the user approves desktop control. Because the AnyDesk service typically runs with root privileges, successful exploitation lets attackers gain root access to the system. We identified the issue using V12, and AnyDesk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anydesk-vulnerability/\">AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202983"
+        },
+        {
+          "title": "Hackers Use AI-Generated Event Lures to Steal Google Accounts and Bypass MFA",
+          "url": "https://gbhackers.com/ai-generated-event-lures/",
+          "published": "Mon, 12 Oct 2026 06:54:38 +0000",
+          "published_utc": "2026-10-12T06:54:38+00:00",
+          "summary": "<p>An advanced persistent threat spear-phishing campaign targeting individuals affiliated with Taiwanese research organizations, combining likely AI-assisted event invitations with real-time Google authentication interception. Tracked as UAT-11985, the operation uses institutional impersonation, altered QR codes, and an adversary-in-the-middle phishing framework to steal credentials and authenticated sessions. Attackers repurposed legitimate public event information to make fraudulent invitations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-generated-event-lures/\">Hackers Use AI-Generated Event Lures to Steal Google Accounts and Bypass MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202971"
+        },
+        {
+          "title": "Casbaneiro Banking Trojan Activates Only When Victims Visit Targeted Bank Websites",
+          "url": "https://gbhackers.com/casbaneiro-banking-trojan-2/",
+          "published": "Mon, 12 Oct 2026 06:09:52 +0000",
+          "published_utc": "2026-10-12T06:09:52+00:00",
+          "summary": "<p>A Casbaneiro banking trojan campaign in August 2026 that targeted Latin American users via phishing emails and malicious PDFs disguised as invoices and legal notices. Its defining feature is conditional command-and-control activation: the malware initiates banking-related C2 communication only when victims visit targeted financial websites, making infected systems appear inactive during automated analysis. That restriction [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casbaneiro-banking-trojan-2/\">Casbaneiro Banking Trojan Activates Only When Victims Visit Targeted Bank Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202947"
+        },
+        {
+          "title": "Microsoft Teams Adds New Security Feature to Detect Malicious QR Codes in Messages",
+          "url": "https://gbhackers.com/microsoft-teams-adds-new-security-feature-to-detect-malicious-qr-codes/",
+          "published": "Mon, 12 Oct 2026 06:02:58 +0000",
+          "published_utc": "2026-10-12T06:02:58+00:00",
+          "summary": "<p>Microsoft is enhancing Teams security with a new feature that detects malicious URLs hidden in QR codes and alerts recipients after they receive messages. This improvement extends the protections offered by Microsoft Defender for Office 365, combining message alerts with additional investigative information for security teams. Teams Detect Malicious QR Codes According to Message Center [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-teams-adds-new-security-feature-to-detect-malicious-qr-codes/\">Microsoft Teams Adds New Security Feature to Detect Malicious QR Codes in Messages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202959"
+        },
+        {
+          "title": "REA: New AI-Powered Reverse Engineering Tool Supports Ghidra, Hopper, and Claude Code",
+          "url": "https://gbhackers.com/rea-new-ai-powered-reverse-engineering-tool/",
+          "published": "Mon, 12 Oct 2026 05:53:01 +0000",
+          "published_utc": "2026-10-12T05:53:01+00:00",
+          "summary": "<p>REA, short for Reverse Engineer Anything, connects AI coding agents to reverse-engineering tools, enabling in-depth analysis of native binaries, applications, and runtime behavior. This open-source project supports Ghidra, Hopper, and IDA as native analysis providers. It integrates with Claude Code and other agents through the Model Context Protocol (MCP). New AI-Powered Reverse Engineering Tool Rather [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rea-new-ai-powered-reverse-engineering-tool/\">REA: New AI-Powered Reverse Engineering Tool Supports Ghidra, Hopper, and Claude Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202946"
+        },
+        {
+          "title": "Ransomware Hackers Exploit Palo Alto Networks GlobalProtect VPN Authentication Bypass Vulnerability",
+          "url": "https://gbhackers.com/ransomware-hackers-exploit-palo-alto-networks-globalprotect/",
+          "published": "Mon, 12 Oct 2026 05:34:08 +0000",
+          "published_utc": "2026-10-12T05:34:08+00:00",
+          "summary": "<p>Ransomware operators are actively exploiting CVE-2026-0257, an authentication bypass vulnerability affecting Palo Alto Networks PAN-OS GlobalProtect and Prisma Access. It lets them establish unauthorized VPN sessions and infiltrate internal networks. ReliaQuest has identified multiple threat groups leveraging this flaw, including the Qilin and Settra ransomware operations. These attacks use a trusted remote-access pathway rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-hackers-exploit-palo-alto-networks-globalprotect/\">Ransomware Hackers Exploit Palo Alto Networks GlobalProtect VPN Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202938"
+        },
+        {
+          "title": "Attackers Use Power BI Phishing to Install Multiple RMMs and Maintain Persistent Access",
+          "url": "https://gbhackers.com/power-bi-phishing/",
+          "published": "Mon, 12 Oct 2026 05:33:04 +0000",
+          "published_utc": "2026-10-12T05:33:04+00:00",
+          "summary": "<p>Attackers abused Microsoft Power BI to deliver unauthorized ScreenConnect remote monitoring and management (RMM) clients, using trusted Microsoft infrastructure to disguise phishing links and establish persistent access. Huntress observed the campaign beginning September 10, 2026, across several endpoints. A retrospective hunt linked one distinctive ScreenConnect client configuration to 22 additional endpoints across separate incidents, rather [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/power-bi-phishing/\">Attackers Use Power BI Phishing to Install Multiple RMMs and Maintain Persistent Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202929"
+        },
+        {
+          "title": "Claude AI Exploits SQL and Command Injection Flaws to Execute Commands on Third-Party Servers",
+          "url": "https://gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws/",
+          "published": "Mon, 12 Oct 2026 05:28:59 +0000",
+          "published_utc": "2026-10-12T05:28:59+00:00",
+          "summary": "<p>Anthropic revealed that its Claude models had exploited SQL and command injection vulnerabilities, submitted unauthorized forms, and bypassed access restrictions during evaluations and internal use. The company said these incidents had minimal real-world impact. However, it led it to restrict live internet access across all internal evaluations while it validated stronger safeguards. The findings highlight [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws/\">Claude AI Exploits SQL and Command Injection Flaws to Execute Commands on Third-Party Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=202928"
+        }
+      ],
       "error": ""
     }
   }

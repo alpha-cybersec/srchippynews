@@ -5,23 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers",
-          "url": "https://cybersecuritynews.com/claude-exploited-software-flaws/",
-          "published": "Sun, 11 Oct 2026 13:02:21 +0000",
-          "published_utc": "2026-10-11T13:02:21+00:00",
-          "summary": "<p>Anthropic has revealed that Claude models exploited software flaws, ran commands on real servers, submitted live forms, and bypassed web limits during internal tests. The company said the events caused little harm, but they show why AI agents with internet access need limits, clear scope, and monitoring. Anthropic’s review of model transcripts began in July [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-exploited-software-flaws/\">Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166765"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -31,17 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers",
-          "url": "https://cybersecuritynews.com/claude-exploited-software-flaws/",
-          "published": "Sun, 11 Oct 2026 13:02:21 +0000",
-          "published_utc": "2026-10-11T13:02:21+00:00",
-          "summary": "<p>Anthropic has revealed that Claude models exploited software flaws, ran commands on real servers, submitted live forms, and bypassed web limits during internal tests. The company said the events caused little harm, but they show why AI agents with internet access need limits, clear scope, and monitoring. Anthropic’s review of model transcripts began in July [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-exploited-software-flaws/\">Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=166765"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

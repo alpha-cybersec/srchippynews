@@ -1,7 +1,275 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-12T09:03:50.317364+00:00",
+  "generated_at_local": "2026-10-12T04:03:50.317372-05:00",
+  "article_count": 10,
+  "new_count": 10,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "thehackernews": 2,
+    "gbhackers": 8
+  },
+  "articles": [
+    {
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "url": "http://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "published": "Mon, 12 Oct 2026 09:02:14 +0000",
+      "published_utc": "2026-10-12T09:02:14+00:00",
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2150532227444901773",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "content_hash": "07250768adf79448f6c6d0aff6eb3d29398ec79750dfb6644ae602dc898731de",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "07250768adf79448f6c6d0aff6eb3d29398ec79750dfb6644ae602dc898731de"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:50.313578+00:00",
+      "first_seen_local": "2026-10-12T04:03:50.313574-05:00",
+      "last_updated_utc": "2026-10-12T09:03:50.313578+00:00",
+      "last_updated_local": "2026-10-12T04:03:50.313574-05:00"
+    },
+    {
+      "title": "AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges",
+      "url": "https://gbhackers.com/anydesk-vulnerability/",
+      "published": "Mon, 12 Oct 2026 07:43:08 +0000",
+      "published_utc": "2026-10-12T07:43:08+00:00",
+      "summary": "<p>Security researcher has disclosed a heap buffer overflow vulnerability in AnyDesk Linux version 8.0.2, named AnyPwn. This vulnerability allows remote command execution before the user approves desktop control. Because the AnyDesk service typically runs with root privileges, successful exploitation lets attackers gain root access to the system. We identified the issue using V12, and AnyDesk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anydesk-vulnerability/\">AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202983",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anydesk-vulnerability",
+      "content_hash": "6cf373a095d5578e4fedaf1fc89027eeb11748f7f07d257de59ce521ffeed1e5",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "6cf373a095d5578e4fedaf1fc89027eeb11748f7f07d257de59ce521ffeed1e5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "url": "http://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "published": "Mon, 12 Oct 2026 07:26:12 +0000",
+      "published_utc": "2026-10-12T07:26:12+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1342958997238265876",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "content_hash": "3ac9b9f6ea3565dd000d0b81a497ef6307a1e4a9e475427b0f22c4e1e90402e2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3ac9b9f6ea3565dd000d0b81a497ef6307a1e4a9e475427b0f22c4e1e90402e2",
+        "FEEDBURNER": "3ac9b9f6ea3565dd000d0b81a497ef6307a1e4a9e475427b0f22c4e1e90402e2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:50.313578+00:00",
+      "first_seen_local": "2026-10-12T04:03:50.313574-05:00",
+      "last_updated_utc": "2026-10-12T09:03:50.313578+00:00",
+      "last_updated_local": "2026-10-12T04:03:50.313574-05:00"
+    },
+    {
+      "title": "Hackers Use AI-Generated Event Lures to Steal Google Accounts and Bypass MFA",
+      "url": "https://gbhackers.com/ai-generated-event-lures/",
+      "published": "Mon, 12 Oct 2026 06:54:38 +0000",
+      "published_utc": "2026-10-12T06:54:38+00:00",
+      "summary": "<p>An advanced persistent threat spear-phishing campaign targeting individuals affiliated with Taiwanese research organizations, combining likely AI-assisted event invitations with real-time Google authentication interception. Tracked as UAT-11985, the operation uses institutional impersonation, altered QR codes, and an adversary-in-the-middle phishing framework to steal credentials and authenticated sessions. Attackers repurposed legitimate public event information to make fraudulent invitations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-generated-event-lures/\">Hackers Use AI-Generated Event Lures to Steal Google Accounts and Bypass MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202971",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-generated-event-lures",
+      "content_hash": "d292d35ea4c16bde5d26acc1a5fdd9adc48af4a532726d4ef7ac486a320544ef",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d292d35ea4c16bde5d26acc1a5fdd9adc48af4a532726d4ef7ac486a320544ef"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "Casbaneiro Banking Trojan Activates Only When Victims Visit Targeted Bank Websites",
+      "url": "https://gbhackers.com/casbaneiro-banking-trojan-2/",
+      "published": "Mon, 12 Oct 2026 06:09:52 +0000",
+      "published_utc": "2026-10-12T06:09:52+00:00",
+      "summary": "<p>A Casbaneiro banking trojan campaign in August 2026 that targeted Latin American users via phishing emails and malicious PDFs disguised as invoices and legal notices. Its defining feature is conditional command-and-control activation: the malware initiates banking-related C2 communication only when victims visit targeted financial websites, making infected systems appear inactive during automated analysis. That restriction [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casbaneiro-banking-trojan-2/\">Casbaneiro Banking Trojan Activates Only When Victims Visit Targeted Bank Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202947",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/casbaneiro-banking-trojan-2",
+      "content_hash": "200e1bbb6ab7724f717ee85a654ce8974d2b4449d2fb1c4a22ae16dad7e44d3e",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "200e1bbb6ab7724f717ee85a654ce8974d2b4449d2fb1c4a22ae16dad7e44d3e"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "Microsoft Teams Adds New Security Feature to Detect Malicious QR Codes in Messages",
+      "url": "https://gbhackers.com/microsoft-teams-adds-new-security-feature-to-detect-malicious-qr-codes/",
+      "published": "Mon, 12 Oct 2026 06:02:58 +0000",
+      "published_utc": "2026-10-12T06:02:58+00:00",
+      "summary": "<p>Microsoft is enhancing Teams security with a new feature that detects malicious URLs hidden in QR codes and alerts recipients after they receive messages. This improvement extends the protections offered by Microsoft Defender for Office 365, combining message alerts with additional investigative information for security teams. Teams Detect Malicious QR Codes According to Message Center [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-teams-adds-new-security-feature-to-detect-malicious-qr-codes/\">Microsoft Teams Adds New Security Feature to Detect Malicious QR Codes in Messages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202959",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-teams-adds-new-security-feature-to-detect-malicious-qr-codes",
+      "content_hash": "00c2f7824551ecb701d897f770d89c65934eb71474078300dc3b0abe3b91310c",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "00c2f7824551ecb701d897f770d89c65934eb71474078300dc3b0abe3b91310c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "REA: New AI-Powered Reverse Engineering Tool Supports Ghidra, Hopper, and Claude Code",
+      "url": "https://gbhackers.com/rea-new-ai-powered-reverse-engineering-tool/",
+      "published": "Mon, 12 Oct 2026 05:53:01 +0000",
+      "published_utc": "2026-10-12T05:53:01+00:00",
+      "summary": "<p>REA, short for Reverse Engineer Anything, connects AI coding agents to reverse-engineering tools, enabling in-depth analysis of native binaries, applications, and runtime behavior. This open-source project supports Ghidra, Hopper, and IDA as native analysis providers. It integrates with Claude Code and other agents through the Model Context Protocol (MCP). New AI-Powered Reverse Engineering Tool Rather [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rea-new-ai-powered-reverse-engineering-tool/\">REA: New AI-Powered Reverse Engineering Tool Supports Ghidra, Hopper, and Claude Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202946",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/rea-new-ai-powered-reverse-engineering-tool",
+      "content_hash": "ce64c42ff5a12dc2f310eff719acb91256a9684a921f7559550175f20aa8c9ce",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ce64c42ff5a12dc2f310eff719acb91256a9684a921f7559550175f20aa8c9ce"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "Ransomware Hackers Exploit Palo Alto Networks GlobalProtect VPN Authentication Bypass Vulnerability",
+      "url": "https://gbhackers.com/ransomware-hackers-exploit-palo-alto-networks-globalprotect/",
+      "published": "Mon, 12 Oct 2026 05:34:08 +0000",
+      "published_utc": "2026-10-12T05:34:08+00:00",
+      "summary": "<p>Ransomware operators are actively exploiting CVE-2026-0257, an authentication bypass vulnerability affecting Palo Alto Networks PAN-OS GlobalProtect and Prisma Access. It lets them establish unauthorized VPN sessions and infiltrate internal networks. ReliaQuest has identified multiple threat groups leveraging this flaw, including the Qilin and Settra ransomware operations. These attacks use a trusted remote-access pathway rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-hackers-exploit-palo-alto-networks-globalprotect/\">Ransomware Hackers Exploit Palo Alto Networks GlobalProtect VPN Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202938",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ransomware-hackers-exploit-palo-alto-networks-globalprotect",
+      "content_hash": "94919a9a5f2c44c4f768b0489e207c458ad341986a0cd8c29e5ad5232474af90",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "94919a9a5f2c44c4f768b0489e207c458ad341986a0cd8c29e5ad5232474af90"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "Attackers Use Power BI Phishing to Install Multiple RMMs and Maintain Persistent Access",
+      "url": "https://gbhackers.com/power-bi-phishing/",
+      "published": "Mon, 12 Oct 2026 05:33:04 +0000",
+      "published_utc": "2026-10-12T05:33:04+00:00",
+      "summary": "<p>Attackers abused Microsoft Power BI to deliver unauthorized ScreenConnect remote monitoring and management (RMM) clients, using trusted Microsoft infrastructure to disguise phishing links and establish persistent access. Huntress observed the campaign beginning September 10, 2026, across several endpoints. A retrospective hunt linked one distinctive ScreenConnect client configuration to 22 additional endpoints across separate incidents, rather [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/power-bi-phishing/\">Attackers Use Power BI Phishing to Install Multiple RMMs and Maintain Persistent Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202929",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/power-bi-phishing",
+      "content_hash": "162199d5ce0bc5c43bcb70e45aeb5cb7aca52b4595d3a804bf4f85b3a3398a48",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "162199d5ce0bc5c43bcb70e45aeb5cb7aca52b4595d3a804bf4f85b3a3398a48"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    },
+    {
+      "title": "Claude AI Exploits SQL and Command Injection Flaws to Execute Commands on Third-Party Servers",
+      "url": "https://gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws/",
+      "published": "Mon, 12 Oct 2026 05:28:59 +0000",
+      "published_utc": "2026-10-12T05:28:59+00:00",
+      "summary": "<p>Anthropic revealed that its Claude models had exploited SQL and command injection vulnerabilities, submitted unauthorized forms, and bypassed access restrictions during evaluations and internal use. The company said these incidents had minimal real-world impact. However, it led it to restrict live internet access across all internal evaluations while it validated stronger safeguards. The findings highlight [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws/\">Claude AI Exploits SQL and Command Injection Flaws to Execute Commands on Third-Party Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=202928",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws",
+      "content_hash": "07a6065d2e65d2ea2fc8463c4a47de10f1755ff369e97558e55f4e680a6c5ee6",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "07a6065d2e65d2ea2fc8463c4a47de10f1755ff369e97558e55f4e680a6c5ee6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:45.127385+00:00",
+      "first_seen_local": "2026-10-12T04:03:45.127381-05:00",
+      "last_updated_utc": "2026-10-12T09:03:45.127385+00:00",
+      "last_updated_local": "2026-10-12T04:03:45.127381-05:00"
+    }
+  ]
 }

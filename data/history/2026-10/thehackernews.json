@@ -2,8 +2,62 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 75,
+  "article_count": 77,
   "articles": [
+    {
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "url": "http://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "published": "Mon, 12 Oct 2026 09:02:14 +0000",
+      "published_utc": "2026-10-12T09:02:14+00:00",
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2150532227444901773",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "content_hash": "07250768adf79448f6c6d0aff6eb3d29398ec79750dfb6644ae602dc898731de",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "07250768adf79448f6c6d0aff6eb3d29398ec79750dfb6644ae602dc898731de"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:50.313578+00:00",
+      "first_seen_local": "2026-10-12T04:03:50.313574-05:00",
+      "last_updated_utc": "2026-10-12T09:03:50.313578+00:00",
+      "last_updated_local": "2026-10-12T04:03:50.313574-05:00"
+    },
+    {
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "url": "http://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "published": "Mon, 12 Oct 2026 07:26:12 +0000",
+      "published_utc": "2026-10-12T07:26:12+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1342958997238265876",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "content_hash": "3ac9b9f6ea3565dd000d0b81a497ef6307a1e4a9e475427b0f22c4e1e90402e2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3ac9b9f6ea3565dd000d0b81a497ef6307a1e4a9e475427b0f22c4e1e90402e2",
+        "FEEDBURNER": "3ac9b9f6ea3565dd000d0b81a497ef6307a1e4a9e475427b0f22c4e1e90402e2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-12T09:03:50.313578+00:00",
+      "first_seen_local": "2026-10-12T04:03:50.313574-05:00",
+      "last_updated_utc": "2026-10-12T09:03:50.313578+00:00",
+      "last_updated_local": "2026-10-12T04:03:50.313574-05:00"
+    },
     {
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "url": "http://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",

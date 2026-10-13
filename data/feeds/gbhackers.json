@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication",
-          "url": "https://gbhackers.com/critical-google-devsite-flaw/",
-          "published": "Mon, 12 Oct 2026 12:57:01 +0000",
-          "published_utc": "2026-10-12T12:57:01+00:00",
-          "summary": "<p>A critical security vulnerability in Google&#8217;s shared DevSite platform could have let unauthenticated attackers execute arbitrary code on Google-hosted services by forging Flask session cookies with malicious Python pickle payloads. Security researcher Simon Köck discovered the issue while analyzing the OAuth authorization workflow used by Google&#8217;s developer documentation properties. The vulnerability affected the shared infrastructure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-google-devsite-flaw/\">Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203028"
-        },
-        {
-          "title": "Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code",
-          "url": "https://gbhackers.com/critical-wordpress-bricksforge-flaw/",
-          "published": "Mon, 12 Oct 2026 12:45:18 +0000",
-          "published_utc": "2026-10-12T12:45:18+00:00",
-          "summary": "<p>Attackers are actively targeting a critical vulnerability in the Bricksforge WordPress plugin. This flaw allows unauthenticated users to upload malicious files and execute arbitrary PHP code. It is tracked as CVE-2026-85097 and has a CVSS score of 10.0, affecting versions up to 3.1.8.9. Administrators are advised to upgrade to version 3.1.8.10 or later. Patchstack disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-bricksforge-flaw/\">Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203023"
-        },
-        {
-          "title": "Researchers Discover New Domain Spoofing Techniques That Bypass Chrome’s Phishing Protections",
-          "url": "https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/",
-          "published": "Mon, 12 Oct 2026 12:27:40 +0000",
-          "published_utc": "2026-10-12T12:27:40+00:00",
-          "summary": "<p>Researchers identified two edge cases involving internationalized domain names (IDNs) that bypass Unicode display safeguards and certain navigation warnings in Chromium. Published on October 3, 2026, their research demonstrates how carefully selected Cyrillic and Latin characters can create convincing lookalikes of trusted domains without triggering these protections. The researchers Ian Muscat and Leanne Briffa at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/\">Researchers Discover New Domain Spoofing Techniques That Bypass Chrome&#8217;s Phishing Protections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203020"
-        },
-        {
-          "title": "FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation",
-          "url": "https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/",
-          "published": "Mon, 12 Oct 2026 11:59:17 +0000",
-          "published_utc": "2026-10-12T11:59:17+00:00",
-          "summary": "<p>Federal Bureau of Investigation (FBI) agents arrested Canadian cybersecurity executive Edward Dubrovsky in Pennsylvania on October 8, 2026. This arrest is part of an investigation into alleged assistance to the ShinyHunters cybercrime group, according to KrebsOnSecurity. The case involves accusations of cyber extortion and conspiracy; however, the complaint remains largely sealed, so the specific allegations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/\">FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203015"
-        },
-        {
-          "title": "Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk",
-          "url": "https://gbhackers.com/nippon-columbia-malware-infection/",
-          "published": "Mon, 12 Oct 2026 11:42:21 +0000",
-          "published_utc": "2026-10-12T11:42:21+00:00",
-          "summary": "<p>Japanese karaoke operator Daiichi Kosho has issued a warning about a malware infection at its outsourcing partner, Nippon Columbia Group (NCG), that may have exposed about 8.72 million personal records. This potential data exposure includes both customer and employee information, not just customer records. As of now, neither data theft nor misuse has been confirmed, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nippon-columbia-malware-infection/\">Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203011"
-        },
-        {
-          "title": "Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads",
-          "url": "https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/",
-          "published": "Mon, 12 Oct 2026 11:13:19 +0000",
-          "published_utc": "2026-10-12T11:13:19+00:00",
-          "summary": "<p>Security researchers have revealed a critical vulnerability in Discourse, tracked as CVE-2026-55420. This flaw could let a low-privileged user read and write files on the underlying server by exploiting the platform’s ImageMagick-based upload pipeline. The issue was fixed for hosted customers in June 2026 and was publicly disclosed on June 30, 2026. The vulnerability affects [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/\">Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203006"
-        },
-        {
-          "title": "CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog",
-          "url": "https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/",
-          "published": "Mon, 12 Oct 2026 10:46:05 +0000",
-          "published_utc": "2026-10-12T10:46:05+00:00",
-          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2016-3081, a critical command injection vulnerability in Apache Struts, to its Known Exploited Vulnerabilities (KEV) Catalog due to evidence of active exploitation. This vulnerability affects Apache Struts deployments where Dynamic Method Invocation (DMI) is enabled. Tracked as CWE-77, this flaw allows a remote attacker to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/\">CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203001"
-        },
-        {
-          "title": "WhatsApp-Delivered Malware Injects Into Windows Task Scheduler to Run as SYSTEM",
-          "url": "https://gbhackers.com/whatsapp-delivered-malware/",
-          "published": "Mon, 12 Oct 2026 09:48:39 +0000",
-          "published_utc": "2026-10-12T09:48:39+00:00",
-          "summary": "<p>A WhatsApp-delivered financial-document lure is being used to deploy a sophisticated Windows malware chain that injects code into the Task Scheduler service and executes subsequent payloads with LocalSystem privileges. The executable acts as an NRV2E-compressed wrapper that reconstructs its malicious loader entirely in memory, limiting obvious artifacts on disk and obscuring imports, strings, and control-flow [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/whatsapp-delivered-malware/\">WhatsApp-Delivered Malware Injects Into Windows Task Scheduler to Run as SYSTEM</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202993"
-        },
-        {
-          "title": "Android Firmware Malware Uses Ad Fraud and Proxy Botnets to Generate Revenue",
-          "url": "https://gbhackers.com/android-firmware-malware/",
-          "published": "Mon, 12 Oct 2026 08:53:53 +0000",
-          "published_utc": "2026-10-12T08:53:53+00:00",
-          "summary": "<p>Midnight Mimosa, an Android malware campaign embedded in firmware that monetizes compromised smartphones through advertising fraud and residential proxy services. Disclosed on October 8, the operation affected thousands of devices across more than 150 countries over roughly two years, predominantly inexpensive phones built on MediaTek platforms. Unlike malware requiring a malicious download, Midnight Mimosa arrives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-firmware-malware/\">Android Firmware Malware Uses Ad Fraud and Proxy Botnets to Generate Revenue</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202979"
-        },
-        {
-          "title": "AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges",
-          "url": "https://gbhackers.com/anydesk-vulnerability/",
-          "published": "Mon, 12 Oct 2026 07:43:08 +0000",
-          "published_utc": "2026-10-12T07:43:08+00:00",
-          "summary": "<p>Security researcher has disclosed a heap buffer overflow vulnerability in AnyDesk Linux version 8.0.2, named AnyPwn. This vulnerability allows remote command execution before the user approves desktop control. Because the AnyDesk service typically runs with root privileges, successful exploitation lets attackers gain root access to the system. We identified the issue using V12, and AnyDesk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anydesk-vulnerability/\">AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202983"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -103,87 +22,31 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication",
-          "url": "https://gbhackers.com/critical-google-devsite-flaw/",
-          "published": "Mon, 12 Oct 2026 12:57:01 +0000",
-          "published_utc": "2026-10-12T12:57:01+00:00",
-          "summary": "<p>A critical security vulnerability in Google&#8217;s shared DevSite platform could have let unauthenticated attackers execute arbitrary code on Google-hosted services by forging Flask session cookies with malicious Python pickle payloads. Security researcher Simon Köck discovered the issue while analyzing the OAuth authorization workflow used by Google&#8217;s developer documentation properties. The vulnerability affected the shared infrastructure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-google-devsite-flaw/\">Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203028"
+          "title": "Kimsuky Uses Fake Zoom Installers and Malicious LNK Files to Deploy Malware",
+          "url": "https://gbhackers.com/fake-zoom-installers-exploited/",
+          "published": "Tue, 13 Oct 2026 05:59:03 +0000",
+          "published_utc": "2026-10-13T05:59:03+00:00",
+          "summary": "<p>North Korea-linked cyber espionage group Kimsuky has expanded its Operation GitPower campaign by using fake Zoom installers and malicious Windows shortcut files to target Ukrainian experts working in diplomacy, security, and international policy. Researchers at Genians Security Center found that the campaign combines reply-baiting spear phishing, PDF-themed LNK files, public code-hosting platforms, hidden PowerShell execution, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-zoom-installers-exploited/\">Kimsuky Uses Fake Zoom Installers and Malicious LNK Files to Deploy Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203060"
         },
         {
-          "title": "Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code",
-          "url": "https://gbhackers.com/critical-wordpress-bricksforge-flaw/",
-          "published": "Mon, 12 Oct 2026 12:45:18 +0000",
-          "published_utc": "2026-10-12T12:45:18+00:00",
-          "summary": "<p>Attackers are actively targeting a critical vulnerability in the Bricksforge WordPress plugin. This flaw allows unauthenticated users to upload malicious files and execute arbitrary PHP code. It is tracked as CVE-2026-85097 and has a CVSS score of 10.0, affecting versions up to 3.1.8.9. Administrators are advised to upgrade to version 3.1.8.10 or later. Patchstack disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-bricksforge-flaw/\">Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203023"
+          "title": "Critical GitLab Vulnerability Allows Unauthenticated Attackers to Execute Remote Code",
+          "url": "https://gbhackers.com/critical-gitlab-vulnerability-2/",
+          "published": "Tue, 13 Oct 2026 05:50:46 +0000",
+          "published_utc": "2026-10-13T05:50:46+00:00",
+          "summary": "<p>GitLab has released emergency security updates to address a critical vulnerability that could allow unauthenticated attackers to execute arbitrary code on affected servers. This vulnerability, tracked as CVE-2026-97229, has been assigned the highest CVSS score of 10.0 and impacts both GitLab Community Edition and Enterprise Edition. On October 12, 2026, the company released versions 19.4.2, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-gitlab-vulnerability-2/\">Critical GitLab Vulnerability Allows Unauthenticated Attackers to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203065"
         },
         {
-          "title": "Researchers Discover New Domain Spoofing Techniques That Bypass Chrome’s Phishing Protections",
-          "url": "https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/",
-          "published": "Mon, 12 Oct 2026 12:27:40 +0000",
-          "published_utc": "2026-10-12T12:27:40+00:00",
-          "summary": "<p>Researchers identified two edge cases involving internationalized domain names (IDNs) that bypass Unicode display safeguards and certain navigation warnings in Chromium. Published on October 3, 2026, their research demonstrates how carefully selected Cyrillic and Latin characters can create convincing lookalikes of trusted domains without triggering these protections. The researchers Ian Muscat and Leanne Briffa at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/\">Researchers Discover New Domain Spoofing Techniques That Bypass Chrome&#8217;s Phishing Protections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203020"
-        },
-        {
-          "title": "FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation",
-          "url": "https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/",
-          "published": "Mon, 12 Oct 2026 11:59:17 +0000",
-          "published_utc": "2026-10-12T11:59:17+00:00",
-          "summary": "<p>Federal Bureau of Investigation (FBI) agents arrested Canadian cybersecurity executive Edward Dubrovsky in Pennsylvania on October 8, 2026. This arrest is part of an investigation into alleged assistance to the ShinyHunters cybercrime group, according to KrebsOnSecurity. The case involves accusations of cyber extortion and conspiracy; however, the complaint remains largely sealed, so the specific allegations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/\">FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203015"
-        },
-        {
-          "title": "Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk",
-          "url": "https://gbhackers.com/nippon-columbia-malware-infection/",
-          "published": "Mon, 12 Oct 2026 11:42:21 +0000",
-          "published_utc": "2026-10-12T11:42:21+00:00",
-          "summary": "<p>Japanese karaoke operator Daiichi Kosho has issued a warning about a malware infection at its outsourcing partner, Nippon Columbia Group (NCG), that may have exposed about 8.72 million personal records. This potential data exposure includes both customer and employee information, not just customer records. As of now, neither data theft nor misuse has been confirmed, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nippon-columbia-malware-infection/\">Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203011"
-        },
-        {
-          "title": "Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads",
-          "url": "https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/",
-          "published": "Mon, 12 Oct 2026 11:13:19 +0000",
-          "published_utc": "2026-10-12T11:13:19+00:00",
-          "summary": "<p>Security researchers have revealed a critical vulnerability in Discourse, tracked as CVE-2026-55420. This flaw could let a low-privileged user read and write files on the underlying server by exploiting the platform’s ImageMagick-based upload pipeline. The issue was fixed for hosted customers in June 2026 and was publicly disclosed on June 30, 2026. The vulnerability affects [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/\">Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203006"
-        },
-        {
-          "title": "CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog",
-          "url": "https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/",
-          "published": "Mon, 12 Oct 2026 10:46:05 +0000",
-          "published_utc": "2026-10-12T10:46:05+00:00",
-          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2016-3081, a critical command injection vulnerability in Apache Struts, to its Known Exploited Vulnerabilities (KEV) Catalog due to evidence of active exploitation. This vulnerability affects Apache Struts deployments where Dynamic Method Invocation (DMI) is enabled. Tracked as CWE-77, this flaw allows a remote attacker to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/\">CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203001"
-        },
-        {
-          "title": "WhatsApp-Delivered Malware Injects Into Windows Task Scheduler to Run as SYSTEM",
-          "url": "https://gbhackers.com/whatsapp-delivered-malware/",
-          "published": "Mon, 12 Oct 2026 09:48:39 +0000",
-          "published_utc": "2026-10-12T09:48:39+00:00",
-          "summary": "<p>A WhatsApp-delivered financial-document lure is being used to deploy a sophisticated Windows malware chain that injects code into the Task Scheduler service and executes subsequent payloads with LocalSystem privileges. The executable acts as an NRV2E-compressed wrapper that reconstructs its malicious loader entirely in memory, limiting obvious artifacts on disk and obscuring imports, strings, and control-flow [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/whatsapp-delivered-malware/\">WhatsApp-Delivered Malware Injects Into Windows Task Scheduler to Run as SYSTEM</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202993"
-        },
-        {
-          "title": "Android Firmware Malware Uses Ad Fraud and Proxy Botnets to Generate Revenue",
-          "url": "https://gbhackers.com/android-firmware-malware/",
-          "published": "Mon, 12 Oct 2026 08:53:53 +0000",
-          "published_utc": "2026-10-12T08:53:53+00:00",
-          "summary": "<p>Midnight Mimosa, an Android malware campaign embedded in firmware that monetizes compromised smartphones through advertising fraud and residential proxy services. Disclosed on October 8, the operation affected thousands of devices across more than 150 countries over roughly two years, predominantly inexpensive phones built on MediaTek platforms. Unlike malware requiring a malicious download, Midnight Mimosa arrives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-firmware-malware/\">Android Firmware Malware Uses Ad Fraud and Proxy Botnets to Generate Revenue</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202979"
-        },
-        {
-          "title": "AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges",
-          "url": "https://gbhackers.com/anydesk-vulnerability/",
-          "published": "Mon, 12 Oct 2026 07:43:08 +0000",
-          "published_utc": "2026-10-12T07:43:08+00:00",
-          "summary": "<p>Security researcher has disclosed a heap buffer overflow vulnerability in AnyDesk Linux version 8.0.2, named AnyPwn. This vulnerability allows remote command execution before the user approves desktop control. Because the AnyDesk service typically runs with root privileges, successful exploitation lets attackers gain root access to the system. We identified the issue using V12, and AnyDesk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anydesk-vulnerability/\">AnyDesk Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=202983"
+          "title": "Denmark Data Breach Involving 8.8 Million Records Linked to ‘123456’ Password",
+          "url": "https://gbhackers.com/denmark-data-breach-involving-8-8-million-records-linked-to-123456-password/",
+          "published": "Tue, 13 Oct 2026 05:12:55 +0000",
+          "published_utc": "2026-10-13T05:12:55+00:00",
+          "summary": "<p>A significant data breach in Denmark has exposed approximately 8.8 million personal records, linked to inadequate account security at Pays ApS, a small IT company located in Odense, Funen. An investigation by Politiken revealed that at least three accounts within the company, including an administrator account, utilized the password &#8220;123456.&#8221; The compromised data included Danish [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/denmark-data-breach-involving-8-8-million-records-linked-to-123456-password/\">Denmark Data Breach Involving 8.8 Million Records Linked to &#8216;123456&#8217; Password</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203061"
         }
       ],
       "error": ""

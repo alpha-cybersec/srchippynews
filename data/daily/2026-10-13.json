@@ -1,11 +1,986 @@
 {
   "date": "2026-10-13",
-  "article_count": 4,
+  "article_count": 40,
   "sources": {
-    "thehackernews": 1,
-    "gbhackers": 3
+    "thehackernews": 9,
+    "cybersecuritynews": 18,
+    "gbhackers": 13
   },
   "articles": [
+    {
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "url": "http://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "published": "Tue, 13 Oct 2026 16:18:18 +0000",
+      "published_utc": "2026-10-13T16:18:18+00:00",
+      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials.\n\n\"Your configuration becomes validated and exempt from expiry after its first successful publish,\" the Microsoft-owned subsidiary",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2913327232528565877",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "content_hash": "d2615d7cd787cbaa173bea1017b8b8f036449d82cca680c343aec90e156be418",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d2615d7cd787cbaa173bea1017b8b8f036449d82cca680c343aec90e156be418"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "Zoom Clients for Certificate Validation Flaw Exposes Sensitive Information via Network Access",
+      "url": "https://cybersecuritynews.com/zoom-certificate-validation-flaw/",
+      "published": "Tue, 13 Oct 2026 16:15:16 +0000",
+      "published_utc": "2026-10-13T16:15:16+00:00",
+      "summary": "<p>Two high-severity certificate validation flaws in Zoom clients could allow attackers without login credentials to access sensitive information over a network, according to advisory text dated October 13, 2026. The issues affect Windows clients and the My Notes feature across desktop and mobile platforms, making updates important for both personal users and business deployments. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zoom-certificate-validation-flaw/\">Zoom Clients for Certificate Validation Flaw Exposes Sensitive Information via Network Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167054",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/zoom-certificate-validation-flaw",
+      "content_hash": "f23e29d4daf7c057e4578e531329117f90a723d94f0c62d4f89b298ad253a5d2",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f23e29d4daf7c057e4578e531329117f90a723d94f0c62d4f89b298ad253a5d2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Ivanti Connect Secure 0-Day Vulnerability Actively Exploited in the Wild",
+      "url": "https://cybersecuritynews.com/ivanti-connect-secure-zero-day/",
+      "published": "Tue, 13 Oct 2026 15:55:26 +0000",
+      "published_utc": "2026-10-13T15:55:26+00:00",
+      "summary": "<p>Ivanti has disclosed an actively exploited zero-day vulnerability in Ivanti Connect Secure (ICS) that allows remote attackers to execute arbitrary commands without logging in. Tracked as CVE-2026-104935, the flaw carries a high-severity CVSS score of 8.6. Ivanti confirmed that exploitation affected a limited number of customers in its October 13, 2026 advisory. The vulnerability involves [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ivanti-connect-secure-zero-day/\">Ivanti Connect Secure 0-Day Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167096",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ivanti-connect-secure-zero-day",
+      "content_hash": "d35befa77a894833834e6f5474df7d6495d85f254e6efbc7f7de71435e82d7ae",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d35befa77a894833834e6f5474df7d6495d85f254e6efbc7f7de71435e82d7ae"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Danfoss Refrigeration Hack Update – 4,980 Hosts Found Exposed to Internet",
+      "url": "https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/",
+      "published": "Tue, 13 Oct 2026 15:49:00 +0000",
+      "published_utc": "2026-10-13T15:49:00+00:00",
+      "summary": "<p>France accounts for more than half of the internet-facing hosts found in a Shodan search for Danfoss web pages, following a cyberattack that disrupted supermarket refrigeration systems. An update from International Cyber Digest on October 13 reports a total of 4,980 hosts identified, with 2,911 located in France and 517 in South Africa. These findings [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/\">Danfoss Refrigeration Hack Update &#8211; 4,980 Hosts Found Exposed to Internet</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167084",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts",
+      "content_hash": "b770039099123a735163c1c0cf9cc81d4725f1e4252565a2a64458dc94cf0a64",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b770039099123a735163c1c0cf9cc81d4725f1e4252565a2a64458dc94cf0a64"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "CISA Warns of Hackers Exploiting Two Citrix NetScaler 0-Days to Execute Code Remotely",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-zero-day-exploits/",
+      "published": "Tue, 13 Oct 2026 15:26:50 +0000",
+      "published_utc": "2026-10-13T15:26:50+00:00",
+      "summary": "<p>Threat actors are actively exploiting two critical zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances, allowing them to execute code remotely on exposed systems. The flaws, tracked as CVE-2026-88771 and CVE-2026-88772, received a CVSS v4 severity score of 9.5 out of 10 and have been added to the U.S. Cybersecurity and Infrastructure Security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-zero-day-exploits/\">CISA Warns of Hackers Exploiting Two Citrix NetScaler 0-Days to Execute Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167038",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/citrix-netscaler-zero-day-exploits",
+      "content_hash": "e145e1ebc4e047b23c571174b3ccaa0486738d24c674f0abb95583178ea42148",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e145e1ebc4e047b23c571174b3ccaa0486738d24c674f0abb95583178ea42148"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Threat Intelligence Guide for US SOC Teams and CISOs: How to Choose the Right Solution",
+      "url": "https://cybersecuritynews.com/threat-intelligence-guide/",
+      "published": "Tue, 13 Oct 2026 15:02:20 +0000",
+      "published_utc": "2026-10-13T15:02:20+00:00",
+      "summary": "<p>Choosing an enterprise threat intelligence solution is about more than just data volume or integrations. The right provider should deliver relevant intelligence, fit existing workflows, and help security teams investigate threats faster.&#160; While SOCs may prioritize rapid investigation and enrichment at scale, MSSPs may focus more on multi-tenancy and customer separation.&#160; This enterprise threat intelligence [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/threat-intelligence-guide/\">Threat Intelligence Guide for US SOC Teams and CISOs: How to Choose the Right Solution </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167053",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/threat-intelligence-guide",
+      "content_hash": "0de2c035bea804c581f9262c843633824912fc308722b3c0db2e3c09b51575fb",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0de2c035bea804c581f9262c843633824912fc308722b3c0db2e3c09b51575fb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo",
+      "url": "https://gbhackers.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/",
+      "published": "Tue, 13 Oct 2026 13:58:30 +0000",
+      "published_utc": "2026-10-13T13:58:30+00:00",
+      "summary": "<p>Torrance, California, October 13th, 2026, CyberNewswire Criminal IP, developed by AI SPERA, will participate in Security Days Fall 2026 Tokyo, taking place October 21–23, 2026, at the TAKANAWA GATEWAY Convention Center. At booth B20, Criminal IP will showcase Criminal IP Threat Intelligence (Criminal IP TI) and Criminal IP AITEM (AI-Powered Threat Exposure Management) through live [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/\">Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203210",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo",
+      "content_hash": "837699874fec96f0dcf0e0a6d3003ad12979cb13d8e879098a61f159b43b027f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "837699874fec96f0dcf0e0a6d3003ad12979cb13d8e879098a61f159b43b027f",
+        "FEEDBURNER": "837699874fec96f0dcf0e0a6d3003ad12979cb13d8e879098a61f159b43b027f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo",
+      "url": "https://cybersecuritynews.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/",
+      "published": "Tue, 13 Oct 2026 13:57:57 +0000",
+      "published_utc": "2026-10-13T13:57:57+00:00",
+      "summary": "<p>Torrance, California, October 13th, 2026, CyberNewswire Criminal IP, developed by AI SPERA, will participate in Security Days Fall 2026 Tokyo, taking place October 21–23, 2026, at the TAKANAWA GATEWAY Convention Center. At booth B20, Criminal IP will showcase Criminal IP Threat Intelligence (Criminal IP TI) and Criminal IP AITEM (AI-Powered Threat Exposure Management) through live [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/\">Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167048",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo",
+      "content_hash": "846fe18a3aa031c141274b5978185253901db0586968da664abc40a79fb41aa2",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "846fe18a3aa031c141274b5978185253901db0586968da664abc40a79fb41aa2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth",
+      "url": "https://cybersecuritynews.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/",
+      "published": "Tue, 13 Oct 2026 13:56:51 +0000",
+      "published_utc": "2026-10-13T13:56:51+00:00",
+      "summary": "<p>Amsterdam, Netherlands, October 13th, 2026, CyberNewswire Antivirus and security software orders grow more than twice as fast as VPN orders, accounting for 43% of cybersecurity purchases on the marketplace&#160; G2A.COM, a digital marketplace that serves more than 35 million users across 180 countries, reports a 35% year-on-year surge in antivirus and security software orders, outpacing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/\">G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167036",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth",
+      "content_hash": "4acd53afab5a7468018367ec791916b1177ec3c45be7b3a95b3df095b083ef6a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4acd53afab5a7468018367ec791916b1177ec3c45be7b3a95b3df095b083ef6a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth",
+      "url": "https://gbhackers.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/",
+      "published": "Tue, 13 Oct 2026 13:56:25 +0000",
+      "published_utc": "2026-10-13T13:56:25+00:00",
+      "summary": "<p>Amsterdam, Netherlands, October 13th, 2026, CyberNewswire Antivirus and security software orders grow more than twice as fast as VPN orders, accounting for 43% of cybersecurity purchases on the marketplace&#160; G2A.COM, a digital marketplace that serves more than 35 million users across 180 countries, reports a 35% year-on-year surge in antivirus and security software orders, outpacing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/\">G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203184",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth",
+      "content_hash": "9c90c0e38e49d0578b8589f3b96d43abe12db0ee53a51db50bc15282a2d145a4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9c90c0e38e49d0578b8589f3b96d43abe12db0ee53a51db50bc15282a2d145a4",
+        "FEEDBURNER": "9c90c0e38e49d0578b8589f3b96d43abe12db0ee53a51db50bc15282a2d145a4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "ICMacOS Malware Evolves to Steal Credentials and Provide Persistent Remote Mac Access",
+      "url": "https://cybersecuritynews.com/icmacos-malware-evolves/",
+      "published": "Tue, 13 Oct 2026 13:52:36 +0000",
+      "published_utc": "2026-10-13T13:52:36+00:00",
+      "summary": "<p>ICMacOS malware has grown from a tool that steals passwords and cryptocurrency wallet data into a remote access trojan that can keep attackers connected to infected Macs. Its newer version adds a live command channel and a startup mechanism, giving criminals access beyond the first round of data theft. The change raises the stakes for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/icmacos-malware-evolves/\">ICMacOS Malware Evolves to Steal Credentials and Provide Persistent Remote Mac Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167056",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/icmacos-malware-evolves",
+      "content_hash": "3a60185d7fdec497803018cb9e2dba937bf1af9be434cf9a263250176c52b635",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3a60185d7fdec497803018cb9e2dba937bf1af9be434cf9a263250176c52b635"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "XWorm Malware Can Spy Through Your Microphone and Hijack Logged-In Browser Sessions",
+      "url": "https://cybersecuritynews.com/xworm-malware-2/",
+      "published": "Tue, 13 Oct 2026 13:33:38 +0000",
+      "published_utc": "2026-10-13T13:33:38+00:00",
+      "summary": "<p>XWorm malware is moving beyond password theft, giving attackers tools to listen through infected computers, track their location, and control browsers where users are already logged in. Its growing plugin collection turns a compromised Windows device into both a spying tool and a route into online accounts, without requiring attackers to steal passwords first. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/xworm-malware-2/\">XWorm Malware Can Spy Through Your Microphone and Hijack Logged-In Browser Sessions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167049",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/xworm-malware-2",
+      "content_hash": "bf613c1c46a24c5334d6ad6ff2d26e2df24d999bf8c8e54426a4fb56f1b4abd9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bf613c1c46a24c5334d6ad6ff2d26e2df24d999bf8c8e54426a4fb56f1b4abd9",
+        "FEEDBURNER": "bf613c1c46a24c5334d6ad6ff2d26e2df24d999bf8c8e54426a4fb56f1b4abd9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Hackers Target Hundreds of French Supermarkets, Heating Refrigeration Systems to 50°C",
+      "url": "https://gbhackers.com/hackers-target-hundreds-of-french-supermarkets/",
+      "published": "Tue, 13 Oct 2026 13:29:39 +0000",
+      "published_utc": "2026-10-13T13:29:39+00:00",
+      "summary": "<p>Hundreds of French supermarkets experienced refrigeration disruptions after hackers reportedly manipulated control systems overnight, destroying fresh and frozen food. Intermarché, Netto, Coopérative U, and Leclerc stores were among those affected, with potential nationwide losses reaching several million euros, according to BFMTV. The incident targeted refrigeration systems supplied by the Danish manufacturer Danfoss. Les Mousquetaires confirmed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-target-hundreds-of-french-supermarkets/\">Hackers Target Hundreds of French Supermarkets, Heating Refrigeration Systems to 50°C</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203209",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-target-hundreds-of-french-supermarkets",
+      "content_hash": "1faf07fbf4b514bbfaf2fb804ff728c6d89c65d4d3434f780659d81f3879eabf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1faf07fbf4b514bbfaf2fb804ff728c6d89c65d4d3434f780659d81f3879eabf",
+        "FEEDBURNER": "1faf07fbf4b514bbfaf2fb804ff728c6d89c65d4d3434f780659d81f3879eabf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "SAP Patches Critical NetWeaver and S/4HANA Security Flaws Affecting Enterprise Systems",
+      "url": "https://gbhackers.com/sap-patches-critical-netweaver-and-s-4hana-security-flaws/",
+      "published": "Tue, 13 Oct 2026 13:14:43 +0000",
+      "published_utc": "2026-10-13T13:14:43+00:00",
+      "summary": "<p>SAP’s Security Patch Day on October 13, 2026, addresses critical vulnerabilities found in enterprise applications, integration platforms, and developer libraries. The October bulletin details the release, which includes 16 new security notes, four GitHub security advisories, and two updates to previously published notes, covering a total of 22 CVEs. Four vulnerabilities are rated as Critical. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sap-patches-critical-netweaver-and-s-4hana-security-flaws/\">SAP Patches Critical NetWeaver and S/4HANA Security Flaws Affecting Enterprise Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203201",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sap-patches-critical-netweaver-and-s-4hana-security-flaws",
+      "content_hash": "8ce552f36647ffe9a0212a4aec2909485f78cc84cf45b3eb108f6133c0c21cd8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8ce552f36647ffe9a0212a4aec2909485f78cc84cf45b3eb108f6133c0c21cd8",
+        "FEEDBURNER": "8ce552f36647ffe9a0212a4aec2909485f78cc84cf45b3eb108f6133c0c21cd8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+      "url": "http://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "published": "Tue, 13 Oct 2026 13:12:32 +0000",
+      "published_utc": "2026-10-13T13:12:32+00:00",
+      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.\n\nThe administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the \"very serious\" nature of the breach. The infringements",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6887839130619868664",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "content_hash": "a7a58d7a0aac3f732d86b3cc6fa71a9977b4ac65750621340ff4b444c464c6a2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a7a58d7a0aac3f732d86b3cc6fa71a9977b4ac65750621340ff4b444c464c6a2",
+        "FEEDBURNER": "a7a58d7a0aac3f732d86b3cc6fa71a9977b4ac65750621340ff4b444c464c6a2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "Attackers Can Hijack npm Packages Without Stealing Developer Credentials",
+      "url": "https://gbhackers.com/npm-packages-hijacked/",
+      "published": "Tue, 13 Oct 2026 13:08:59 +0000",
+      "published_utc": "2026-10-13T13:08:59+00:00",
+      "summary": "<p>A flaw in npm’s Trusted Publishing mechanism could let attackers publish malicious updates to legitimate packages without compromising a developer’s npm account, GitHub account, or publishing token. Researchers identified more than 1,500 potentially exposed packages with over 10 million combined downloads. The weakness is particularly concerning as AI coding agents increasingly select, install, and execute [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/npm-packages-hijacked/\">Attackers Can Hijack npm Packages Without Stealing Developer Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203185",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/npm-packages-hijacked",
+      "content_hash": "7826010b976197609d07c53330f0a60bb8c959e41a198228799e84950d38f01a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7826010b976197609d07c53330f0a60bb8c959e41a198228799e84950d38f01a",
+        "FEEDBURNER": "7826010b976197609d07c53330f0a60bb8c959e41a198228799e84950d38f01a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "Anthropic Warns AI Models Could Soon Self-Replicate Across Smart TVs and IoT Devices",
+      "url": "https://gbhackers.com/anthropic-warns-ai-models/",
+      "published": "Tue, 13 Oct 2026 13:00:25 +0000",
+      "published_utc": "2026-10-13T13:00:25+00:00",
+      "summary": "<p>Anthropic researchers have raised concerns that small artificial intelligence models could soon replicate autonomously across consumer Internet of Things (IoT) devices. This development may lead to decentralized networks that operate independently of data center infrastructure. In research dated October 12, 2026, William Zhou and Daniel Freeman described experiments showing that affordable Android TV boxes, smart [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-warns-ai-models/\">Anthropic Warns AI Models Could Soon Self-Replicate Across Smart TVs and IoT Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203193",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropic-warns-ai-models",
+      "content_hash": "95c1354409cbab0c1a69ca7d3eeea29e508fecb993f822b893c6a69673212e11",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "95c1354409cbab0c1a69ca7d3eeea29e508fecb993f822b893c6a69673212e11",
+        "FEEDBURNER": "95c1354409cbab0c1a69ca7d3eeea29e508fecb993f822b893c6a69673212e11"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "Critical Ghostscript Flaw Lets Attackers Use Malicious PDFs to Execute Code",
+      "url": "https://cybersecuritynews.com/critical-ghostscript-flaw/",
+      "published": "Tue, 13 Oct 2026 12:48:46 +0000",
+      "published_utc": "2026-10-13T12:48:46+00:00",
+      "summary": "<p>A critical vulnerability in Ghostscript could allow attackers to use specially made PDF files to run code on vulnerable servers. The flaw, tracked as CVE-2026-39919, affects Ghostscript versions before 10.08.0 and has a CVSS severity score of 9.8 out of 10. Ghostscript is widely used to render PDFs, create document thumbnails, and convert PostScript files [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-ghostscript-flaw/\">Critical Ghostscript Flaw Lets Attackers Use Malicious PDFs to Execute Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167033",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-ghostscript-flaw",
+      "content_hash": "5e4c90f6b84e9ad1f9a5f548b046d3d782097772aab0ebb977ff037b8c1fd8d8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5e4c90f6b84e9ad1f9a5f548b046d3d782097772aab0ebb977ff037b8c1fd8d8",
+        "FEEDBURNER": "5e4c90f6b84e9ad1f9a5f548b046d3d782097772aab0ebb977ff037b8c1fd8d8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "SAP Security Update Patches Critical Code Injection and Memory Corruption Vulnerabilities",
+      "url": "https://cybersecuritynews.com/sap-security-update-vulnerabilities/",
+      "published": "Tue, 13 Oct 2026 12:37:34 +0000",
+      "published_utc": "2026-10-13T12:37:34+00:00",
+      "summary": "<p>SAP has released its October 2026 security updates, fixing critical code injection, access control, and cloud security flaws alongside a high-severity memory corruption issue. The October 13 release includes 16 new security notes, four GitHub security advisories and two updates to earlier notes. Four entries carry critical ratings, making this patch cycle important for teams [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sap-security-update-vulnerabilities/\">SAP Security Update Patches Critical Code Injection and Memory Corruption Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167021",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/sap-security-update-vulnerabilities",
+      "content_hash": "c48df1ac568840f89fad06351b0b9dc4eb87d5201437e6a9e9feee1bf646582d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c48df1ac568840f89fad06351b0b9dc4eb87d5201437e6a9e9feee1bf646582d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Kimsuky Hackers Use Malicious Resume Documents to Deploy Funhouse Ransomware",
+      "url": "https://cybersecuritynews.com/kimsuky-hackers-2/",
+      "published": "Tue, 13 Oct 2026 12:36:31 +0000",
+      "published_utc": "2026-10-13T12:36:31+00:00",
+      "summary": "<p>Kimsuky hackers have used a malicious résumé document to deploy Funhouse ransomware through a chain of scripts and remote access tools. The attack begins with a Hangul Word Processor document disguised as a job application, turning a routine work file into an entry point for malware that ultimately encrypts files. The campaign connects document-based deception [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kimsuky-hackers-2/\">Kimsuky Hackers Use Malicious Resume Documents to Deploy Funhouse Ransomware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167030",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kimsuky-hackers-2",
+      "content_hash": "03d17d5b7de03a0b0f3bf5501cf8626dbdadcb6e829e7429e7e4618bc1a81dd1",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "03d17d5b7de03a0b0f3bf5501cf8626dbdadcb6e829e7429e7e4618bc1a81dd1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "New macOS Malware Uses Fake System Prompts to Steal Passwords and Deploy RAT",
+      "url": "https://gbhackers.com/macos-credential-stealing/",
+      "published": "Tue, 13 Oct 2026 12:28:20 +0000",
+      "published_utc": "2026-10-13T12:28:20+00:00",
+      "summary": "<p>A newly marketed macOS malware-as-a-service platform, ICMacOS, is using fake Apple system dialogs to steal login passwords before deploying an information stealer that has evolved into a persistent remote-access trojan (RAT). The operator markets the toolkit across cybercrime forums and Telegram as part of a broader “ICARUS” criminal suite that also includes a ClickFix delivery [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/macos-credential-stealing/\">New macOS Malware Uses Fake System Prompts to Steal Passwords and Deploy RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203165",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/macos-credential-stealing",
+      "content_hash": "538f544324a9599ef931cac176afa5628f5f20414b699d8ea18f1e948be0301a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "538f544324a9599ef931cac176afa5628f5f20414b699d8ea18f1e948be0301a",
+        "FEEDBURNER": "538f544324a9599ef931cac176afa5628f5f20414b699d8ea18f1e948be0301a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor",
+      "url": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/",
+      "published": "Tue, 13 Oct 2026 12:12:59 +0000",
+      "published_utc": "2026-10-13T12:12:59+00:00",
+      "summary": "<p>Threat actors are exploiting two critical zero-day vulnerabilities in Citrix NetScaler to deploy a modified version of the open-source Platypus remote administration framework on compromised Application Delivery Controller (ADC) and Gateway appliances. Binary Defense&#8217;s Analysis on Demand and Incident Response team investigated an intrusion involving two Citrix NetScaler devices. One appliance showed evidence of exploitation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/\">Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203173",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-exploit-citrix-netscaler-zero-days",
+      "content_hash": "fd53a2fbdefb4f79961ee488eca5a3754b135154eba91fae51ff01e7029703a6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fd53a2fbdefb4f79961ee488eca5a3754b135154eba91fae51ff01e7029703a6",
+        "FEEDBURNER": "fd53a2fbdefb4f79961ee488eca5a3754b135154eba91fae51ff01e7029703a6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "Fake Web3 Accelerator Uses Malicious npm Packages to Target Crypto Founders",
+      "url": "https://cybersecuritynews.com/fake-web3-accelerator/",
+      "published": "Tue, 13 Oct 2026 11:59:35 +0000",
+      "published_utc": "2026-10-13T11:59:35+00:00",
+      "summary": "<p>A fake Web3 accelerator called Apex has been using malicious npm packages to target cryptocurrency start-ups and founders with what appeared to be free AI credits, coding tools, smart-contract audits, investment access, and invitations to in-person events. Behind the polished Web3 pitch, the operation delivered malware for macOS and Windows, exposed AI-agent data to attacker-run [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-web3-accelerator/\">Fake Web3 Accelerator Uses Malicious npm Packages to Target Crypto Founders</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167015",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-web3-accelerator",
+      "content_hash": "813c42dda962f0c7aeb2fe73200642c5b76ba39cbc3ee421ba47eae21ecc5cf4",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "813c42dda962f0c7aeb2fe73200642c5b76ba39cbc3ee421ba47eae21ecc5cf4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Anthropic Warns AI Models Could Soon Self-Replicate on Smart TVs and IoT Devices Without a Data Center",
+      "url": "https://cybersecuritynews.com/anthropic-ai-self-replication-iot/",
+      "published": "Tue, 13 Oct 2026 11:59:24 +0000",
+      "published_utc": "2026-10-13T11:59:24+00:00",
+      "summary": "<p>Anthropic warns that small AI models may be months away from self-replicating across poorly secured smart TVs and other internet-connected devices. Its research suggests future AI worms could run on consumer hardware rather than depend on a data center, making them harder to shut down through a single central service. According to research published on October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-ai-self-replication-iot/\">Anthropic Warns AI Models Could Soon Self-Replicate on Smart TVs and IoT Devices Without a Data Center</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167016",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/anthropic-ai-self-replication-iot",
+      "content_hash": "d848fe8033e545681a2e09e33e882050aeef792f79c0eb17e68844e36528b4c3",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d848fe8033e545681a2e09e33e882050aeef792f79c0eb17e68844e36528b4c3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers",
+      "url": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
+      "published": "Tue, 13 Oct 2026 11:57:38 +0000",
+      "published_utc": "2026-10-13T11:57:38+00:00",
+      "summary": "<p>Researchers have identified 253 verified security vulnerabilities affecting 343 AI agent tools across 118 Model Context Protocol (MCP) servers. These vulnerabilities expose weaknesses in how software processes arguments generated by large language models (LLMs). The findings are based on an evaluation of 273 open-source MCP servers containing 3,405 tools, using a new fuzzing framework called [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-253-security-vulnerabilities/\">Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203168",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/researchers-discover-253-security-vulnerabilities",
+      "content_hash": "1474188c319ee22179964d2b0b316ec488b203551557916b3c63f52813659970",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1474188c319ee22179964d2b0b316ec488b203551557916b3c63f52813659970",
+        "FEEDBURNER": "1474188c319ee22179964d2b0b316ec488b203551557916b3c63f52813659970"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+      "url": "http://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "published": "Tue, 13 Oct 2026 11:57:06 +0000",
+      "published_utc": "2026-10-13T11:57:06+00:00",
+      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2248284352830843860",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "content_hash": "bbe92774af58855882d985ab1c7e5fc8a9788ae96b96c5b063c606064488e605",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bbe92774af58855882d985ab1c7e5fc8a9788ae96b96c5b063c606064488e605",
+        "FEEDBURNER": "bbe92774af58855882d985ab1c7e5fc8a9788ae96b96c5b063c606064488e605"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+      "url": "http://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "published": "Tue, 13 Oct 2026 11:09:10 +0000",
+      "published_utc": "2026-10-13T11:09:10+00:00",
+      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12.\n\nThe chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3553207655899923518",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "content_hash": "cc1daaf9869c47d7571ab3de47610a96b35a6c82c79910df50e6b00c1a345488",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cc1daaf9869c47d7571ab3de47610a96b35a6c82c79910df50e6b00c1a345488",
+        "FEEDBURNER": "cc1daaf9869c47d7571ab3de47610a96b35a6c82c79910df50e6b00c1a345488"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials",
+      "url": "https://gbhackers.com/xworm-hbrowser-plugin/",
+      "published": "Tue, 13 Oct 2026 11:01:50 +0000",
+      "published_utc": "2026-10-13T11:01:50+00:00",
+      "summary": "<p>XWorm’s HBrowser plugin gives attackers interactive control of authenticated browser sessions on infected endpoints, allowing them to operate accounts without stealing passwords or completing another multifactor authentication challenge. Researchers recorded 1,236 XWorm detection events across more than 100 customer organizations during Q3 2026, four times the volume observed in Q3 2025. Financial services represented approximately [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/xworm-hbrowser-plugin/\">XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203155",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/xworm-hbrowser-plugin",
+      "content_hash": "e9200e1d293de975cb22498b5e674ea9aa6916f99fb40de5eeb3c2e646c86f61",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e9200e1d293de975cb22498b5e674ea9aa6916f99fb40de5eeb3c2e646c86f61",
+        "FEEDBURNER": "e9200e1d293de975cb22498b5e674ea9aa6916f99fb40de5eeb3c2e646c86f61"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.021926+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.021924-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.021926+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.021924-05:00"
+    },
+    {
+      "title": "npm Trusted Publishing Flaw With 10 Million Downloads Exposes 1,500+ Packages to Malicious Takeover",
+      "url": "https://cybersecuritynews.com/npm-trusted-publishing-flaw/",
+      "published": "Tue, 13 Oct 2026 10:56:59 +0000",
+      "published_utc": "2026-10-13T10:56:59+00:00",
+      "summary": "<p>A security flaw in npm’s Trusted Publishing feature exposed more than 1,500 packages to possible takeover through reclaimed GitHub repository names. The affected packages accounted for more than 10 million total downloads and over one million downloads per month, creating a serious software supply-chain risk for developers, CI/CD systems, and organizations that rely on npm [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/npm-trusted-publishing-flaw/\">npm Trusted Publishing Flaw With 10 Million Downloads Exposes 1,500+ Packages to Malicious Takeover</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166986",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/npm-trusted-publishing-flaw",
+      "content_hash": "59b541964cc65a85c472f06b65e8847be11b1b5c567cfe4296d696e72fb213f4",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "59b541964cc65a85c472f06b65e8847be11b1b5c567cfe4296d696e72fb213f4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Hackers Exploit Citrix NetScaler 0-Days to Deploy Platypus Remote Access Tool",
+      "url": "https://cybersecuritynews.com/hackers-exploit-citrix-netscaler-0-days/",
+      "published": "Tue, 13 Oct 2026 10:33:55 +0000",
+      "published_utc": "2026-10-13T10:33:55+00:00",
+      "summary": "<p>Threat actors are exploiting two critical Citrix NetScaler zero-day vulnerabilities to deploy a modified Platypus remote access tool on exposed ADC and Gateway appliances. The activity shows how quickly attackers are moving from initial access to persistent control of edge devices that often sit between corporate networks and the public internet. The campaign targets CVE-2026-88771 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-citrix-netscaler-0-days/\">Hackers Exploit Citrix NetScaler 0-Days to Deploy Platypus Remote Access Tool</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166983",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-citrix-netscaler-0-days",
+      "content_hash": "3932b7bbf535c5bc370724093bd05143ece1a4eaacfed3a5c2659b4be8111f4b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "3932b7bbf535c5bc370724093bd05143ece1a4eaacfed3a5c2659b4be8111f4b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
+      "url": "http://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "published": "Tue, 13 Oct 2026 10:30:00 +0000",
+      "published_utc": "2026-10-13T10:30:00+00:00",
+      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.\n\nA developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list.\n\nSomeone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4955462590263705673",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "content_hash": "6fe5f4d0faf33ac7bbba83c57171c3d1e381f7faa3e82cb6ab7e41e498524f15",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6fe5f4d0faf33ac7bbba83c57171c3d1e381f7faa3e82cb6ab7e41e498524f15",
+        "FEEDBURNER": "6fe5f4d0faf33ac7bbba83c57171c3d1e381f7faa3e82cb6ab7e41e498524f15"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "Top 10 Best Mobile Application Security Testing Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-mobile-appsec-testing-tools/",
+      "published": "Tue, 13 Oct 2026 10:25:09 +0000",
+      "published_utc": "2026-10-13T10:25:09+00:00",
+      "summary": "<p>Mobile security is two budgets wearing one name: testing finds the flaws before release, shielding hardens the binary against the hostile devices it ships to. When evaluating Mobile Application Security Testing (MAST) tools alongside commercial mobile application penetration testing, engineering teams quickly discover that inspecting source code covers only half the threat landscape. We scored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-mobile-appsec-testing-tools/\">Top 10 Best Mobile Application Security Testing Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166849",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-mobile-appsec-testing-tools",
+      "content_hash": "31813db9d5a62281b83613a85d26abda1f54b012bc2b2c103c8c9e4f1a93d992",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "31813db9d5a62281b83613a85d26abda1f54b012bc2b2c103c8c9e4f1a93d992"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Top 10 Best SBOM Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-sbom-tools/",
+      "published": "Tue, 13 Oct 2026 10:21:12 +0000",
+      "published_utc": "2026-10-13T10:21:12+00:00",
+      "summary": "<p>Federal buyers, the FDA, and the EU’s CRA era all want your software’s ingredients list and next year’s CVE will interrogate the SBOMs you generate today. Evaluating these platforms alongside the Top 10 Best Software Supply Chain Security Tools shows that simply creating a static inventory is insufficient; organizations must manage, correlate, and monitor those [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-sbom-tools/\">Top 10 Best SBOM Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166758",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-sbom-tools",
+      "content_hash": "60ea0bf87eead833b85f18e569956bfa6ba70782e85fe589226506e53883213d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "60ea0bf87eead833b85f18e569956bfa6ba70782e85fe589226506e53883213d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:06.616108+00:00",
+      "first_seen_local": "2026-10-13T11:22:06.616106-05:00",
+      "last_updated_utc": "2026-10-13T16:22:06.616108+00:00",
+      "last_updated_local": "2026-10-13T11:22:06.616106-05:00"
+    },
+    {
+      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "url": "http://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "published": "Tue, 13 Oct 2026 08:48:41 +0000",
+      "published_utc": "2026-10-13T08:48:41+00:00",
+      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.\n\nThe attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3447489630230079943",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "content_hash": "10af678b5d88c7d5a158727306253bf8f3ff47f3ed618a9fedad0a0f217a4228",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "10af678b5d88c7d5a158727306253bf8f3ff47f3ed618a9fedad0a0f217a4228",
+        "FEEDBURNER": "10af678b5d88c7d5a158727306253bf8f3ff47f3ed618a9fedad0a0f217a4228"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "url": "http://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "published": "Tue, 13 Oct 2026 08:44:01 +0000",
+      "published_utc": "2026-10-13T08:44:01+00:00",
+      "summary": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says.\n\nProgress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0.\n\nAffected",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3898251725054748556",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "content_hash": "0f17e41b109c35aedf4176fd507c3546573410aa487898a202ca60dce2112e36",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0f17e41b109c35aedf4176fd507c3546573410aa487898a202ca60dce2112e36",
+        "FEEDBURNER": "0f17e41b109c35aedf4176fd507c3546573410aa487898a202ca60dce2112e36"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
+    {
+      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "url": "http://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "published": "Tue, 13 Oct 2026 08:43:37 +0000",
+      "published_utc": "2026-10-13T08:43:37+00:00",
+      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.\n\n\"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3461175344422422207",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "content_hash": "49fd690945a8185480dadea55cbdacc10d377058dc7ef2016e81131915268e3a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "49fd690945a8185480dadea55cbdacc10d377058dc7ef2016e81131915268e3a",
+        "FEEDBURNER": "49fd690945a8185480dadea55cbdacc10d377058dc7ef2016e81131915268e3a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-13T16:22:11.586249+00:00",
+      "first_seen_local": "2026-10-13T11:22:11.586247-05:00",
+      "last_updated_utc": "2026-10-13T16:22:11.586249+00:00",
+      "last_updated_local": "2026-10-13T11:22:11.586247-05:00"
+    },
     {
       "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
       "url": "http://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",

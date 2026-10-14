@@ -2,8 +2,64 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 94,
+  "article_count": 96,
   "articles": [
+    {
+      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+      "url": "http://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+      "published": "Wed, 14 Oct 2026 07:46:57 +0000",
+      "published_utc": "2026-10-14T07:46:57+00:00",
+      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.\n\nThe bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9059903354456619439",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+      "content_hash": "90d08ab9188d6484517f9242e5d61b3b01a08a29fb95709ace10ed69dbf47e95",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "90d08ab9188d6484517f9242e5d61b3b01a08a29fb95709ace10ed69dbf47e95",
+        "FEEDBURNER": "90d08ab9188d6484517f9242e5d61b3b01a08a29fb95709ace10ed69dbf47e95"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T10:32:46.749544+00:00",
+      "first_seen_local": "2026-10-14T05:32:46.749542-05:00",
+      "last_updated_utc": "2026-10-14T10:32:46.749544+00:00",
+      "last_updated_local": "2026-10-14T05:32:46.749542-05:00"
+    },
+    {
+      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "url": "http://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "published": "Wed, 14 Oct 2026 05:52:28 +0000",
+      "published_utc": "2026-10-14T05:52:28+00:00",
+      "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.\n\nThe work was done in a lab as a proof of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2162694192505036123",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "content_hash": "dc451b702b7008e6b561edc8327f377091fa62d9e84bc95e8ea9cdf16d6566c3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dc451b702b7008e6b561edc8327f377091fa62d9e84bc95e8ea9cdf16d6566c3",
+        "FEEDBURNER": "dc451b702b7008e6b561edc8327f377091fa62d9e84bc95e8ea9cdf16d6566c3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T10:32:46.749544+00:00",
+      "first_seen_local": "2026-10-14T05:32:46.749542-05:00",
+      "last_updated_utc": "2026-10-14T10:32:46.749544+00:00",
+      "last_updated_local": "2026-10-14T05:32:46.749542-05:00"
+    },
     {
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
       "url": "http://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",

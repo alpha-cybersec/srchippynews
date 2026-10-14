@@ -10,8 +10,25 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+          "url": "http://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+          "published": "Wed, 14 Oct 2026 07:46:57 +0000",
+          "published_utc": "2026-10-14T07:46:57+00:00",
+          "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.\n\nThe bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9059903354456619439"
+        },
+        {
+          "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+          "url": "http://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+          "published": "Wed, 14 Oct 2026 05:52:28 +0000",
+          "published_utc": "2026-10-14T05:52:28+00:00",
+          "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.\n\nThe work was done in a lab as a proof of",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2162694192505036123"
+        }
+      ],
       "error": ""
     },
     "FEEDBURNER": {
@@ -22,8 +39,25 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+          "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+          "published": "Wed, 14 Oct 2026 13:16:57 +0530",
+          "published_utc": "2026-10-14T07:46:57+00:00",
+          "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.\n\nThe bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the",
+          "id": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
+        },
+        {
+          "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+          "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+          "published": "Wed, 14 Oct 2026 11:22:28 +0530",
+          "published_utc": "2026-10-14T05:52:28+00:00",
+          "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.\n\nThe work was done in a lab as a proof of",
+          "id": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
+        }
+      ],
       "error": ""
     }
   }

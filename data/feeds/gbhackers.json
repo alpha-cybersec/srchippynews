@@ -10,15 +10,87 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 1,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Critical FortiSandbox Vulnerability Lets Remote Attackers Bypass Authentication and Execute Commands",
-          "url": "https://gbhackers.com/critical-fortisandbox-vulnerability/",
-          "published": "Wed, 14 Oct 2026 05:05:11 +0000",
-          "published_utc": "2026-10-14T05:05:11+00:00",
-          "summary": "<p>Fortinet has disclosed a critical authentication bypass vulnerability in FortiSandbox that could let remote attackers access its web management interface without valid credentials and execute unauthorized code or commands. This vulnerability is tracked as CVE-2026-107656 and affects multiple FortiSandbox and FortiSandbox PaaS releases. Administrators must upgrade vulnerable deployments to fixed versions. Critical FortiSandbox Vulnerability The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-fortisandbox-vulnerability/\">Critical FortiSandbox Vulnerability Lets Remote Attackers Bypass Authentication and Execute Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203242"
+          "title": "Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet",
+          "url": "https://gbhackers.com/windows-server-zero-day-flaw/",
+          "published": "Wed, 14 Oct 2026 10:17:18 +0000",
+          "published_utc": "2026-10-14T10:17:18+00:00",
+          "summary": "<p>Corelight researchers have disclosed a Windows Server vulnerability that lets attackers with network access crash affected systems with a single malicious DFS referral response. This vulnerability, tracked as CVE-2026-70111, affects Windows Server versions 2019, 2022, and 2025. According to Corelight’s disclosure on October 13, Microsoft addressed the flaw in its October 2026 updates. Notably, there [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-server-zero-day-flaw/\">Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203351"
+        },
+        {
+          "title": "Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws",
+          "url": "https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/",
+          "published": "Wed, 14 Oct 2026 10:06:59 +0000",
+          "published_utc": "2026-10-14T10:06:59+00:00",
+          "summary": "<p>Google has released Chrome 155 for Windows, macOS, and Linux, addressing 37 security vulnerabilities, including seven critical flaws. Announced on October 13, 2026, this desktop update resolves weaknesses across various browser components, including graphics, networking, PDF processing, media, and JavaScript execution. The update includes seven critical vulnerabilities, 29 high-severity issues, and one medium-severity vulnerability, making [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/\">Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203345"
+        },
+        {
+          "title": "Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer",
+          "url": "https://gbhackers.com/fake-watchguard-vpn-site/",
+          "published": "Wed, 14 Oct 2026 09:53:42 +0000",
+          "published_utc": "2026-10-14T09:53:42+00:00",
+          "summary": "<p>A WatchGuard VPN impersonation attack that steals connection credentials in the browser before delivering the vendor’s genuine, digitally signed installer. The campaign removes the malicious executable from the download chain, leaving victims with legitimate software. At the same time, attackers collect information needed to attempt unauthorized VPN access. The lure, watchguard-vpn[.]net, impersonated a WatchGuard Mobile [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-watchguard-vpn-site/\">Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203305"
+        },
+        {
+          "title": "Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges",
+          "url": "https://gbhackers.com/windows-bitlocker-vulnerabilities/",
+          "published": "Wed, 14 Oct 2026 09:01:53 +0000",
+          "published_utc": "2026-10-14T09:01:53+00:00",
+          "summary": "<p>Three Windows BitLocker vulnerabilities, as described in the provided advisory, could let attackers elevate privileges or bypass security protections under various access conditions. Microsoft is the assigning authority, with a release date of October 13, 2026, and all three vulnerabilities are rated Important. Two require existing local privileges, while the third requires physical access. We [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-bitlocker-vulnerabilities/\">Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203329"
+        },
+        {
+          "title": "Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution",
+          "url": "https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/",
+          "published": "Wed, 14 Oct 2026 08:42:19 +0000",
+          "published_utc": "2026-10-14T08:42:19+00:00",
+          "summary": "<p>Ivanti released security updates for Ivanti Connect Secure (ICS) to address CVE-2026-104935, a high-severity authentication-bypass vulnerability. This vulnerability allows remote, unauthenticated attackers to execute arbitrary commands. The company disclosed the issue on October 13, 2026. It confirmed that exploitation had affected a limited number of customers at the time of disclosure. Fixed software versions are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/\">Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203308"
+        },
+        {
+          "title": "Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication",
+          "url": "https://gbhackers.com/ivanti-vpn-zero-days/",
+          "published": "Wed, 14 Oct 2026 08:30:47 +0000",
+          "published_utc": "2026-10-14T08:30:47+00:00",
+          "summary": "<p>Attackers chained three zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances to execute commands as root without authentication, then searched the affected network for credentials and sensitive Active Directory data. Volexity attributed the activity to an unknown threat actor it tracks as UTA0576, which repeatedly exploited an appliance running version 22.8R2.4, Build 19097 the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-vpn-zero-days/\">Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203281"
+        },
+        {
+          "title": "Zoom Certificate Validation Vulnerability Allows Attackers to Access Sensitive Information",
+          "url": "https://gbhackers.com/zoom-certificate-validation-vulnerability/",
+          "published": "Wed, 14 Oct 2026 08:29:56 +0000",
+          "published_utc": "2026-10-14T08:29:56+00:00",
+          "summary": "<p>Zoom has disclosed a high-severity vulnerability in the My Notes feature that affects multiple Zoom Workplace clients. This issue, tracked as CVE-2026-108185, could allow an unauthenticated attacker with network access to disclose sensitive information. On October 13, 2026, Zoom published security bulletin ZSB-26022, which identifies the vulnerable releases across Windows, macOS, Linux, Android, and iOS, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zoom-certificate-validation-vulnerability/\">Zoom Certificate Validation Vulnerability Allows Attackers to Access Sensitive Information</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203302"
+        },
+        {
+          "title": "Critical Docker Hub Vulnerability Lets Attackers Impersonate Users and Tamper With Container Images",
+          "url": "https://gbhackers.com/critical-docker-hub-vulnerability/",
+          "published": "Wed, 14 Oct 2026 08:21:11 +0000",
+          "published_utc": "2026-10-14T08:21:11+00:00",
+          "summary": "<p>Docker disclosed a critical vulnerability in Docker Hub that let attackers impersonate other users at the container registry level. This flaw, tracked as CVE-2026-105445 and dubbed GhostPat, exploited how Docker handled personal access tokens during account conversions. Depending on token permissions, it could enable unauthorized image downloads, malicious image uploads, and repository image deletions. Docker [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-docker-hub-vulnerability/\">Critical Docker Hub Vulnerability Lets Attackers Impersonate Users and Tamper With Container Images</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203295"
+        },
+        {
+          "title": "Meta Removes 3.7 Million Scam Accounts as 28 Arrested in Global Crackdown",
+          "url": "https://gbhackers.com/meta-scam-crackdown/",
+          "published": "Wed, 14 Oct 2026 07:57:39 +0000",
+          "published_utc": "2026-10-14T07:57:39+00:00",
+          "summary": "<p>Meta removed more than 3.7 million Facebook and Instagram accounts, Pages, and Groups during an international crackdown on West African scam networks that resulted in 28 arrests and the rescue of 117 trafficking victims. Announced October 13, the operation combined platform enforcement, financial tracing, and physical raids against fraud infrastructure targeting victims worldwide. Meta and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/meta-scam-crackdown/\">Meta Removes 3.7 Million Scam Accounts as 28 Arrested in Global Crackdown</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203269"
+        },
+        {
+          "title": "Hackers Target PuTTY Users With SEO Poisoning and Ethereum-Powered Malware",
+          "url": "https://gbhackers.com/ethereum-powered-malware/",
+          "published": "Wed, 14 Oct 2026 06:27:45 +0000",
+          "published_utc": "2026-10-14T06:27:45+00:00",
+          "summary": "<p>A search for PuTTY can lead to more than a fake download. In a campaign reported on October 12, attackers used search-engine optimization (SEO) poisoning to steer users to a counterfeit PuTTY site and deliver a trojanized Windows installer. The campaign targets people searching Google for “PuTTY” or “PuTTY download.” A high-ranking result leads to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ethereum-powered-malware/\">Hackers Target PuTTY Users With SEO Poisoning and Ethereum-Powered Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203245"
         }
       ],
       "error": ""
@@ -31,8 +103,57 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 6,
+      "articles": [
+        {
+          "title": "Hackers Target PuTTY Users With SEO Poisoning and Ethereum-Powered Malware",
+          "url": "https://gbhackers.com/ethereum-powered-malware/",
+          "published": "Wed, 14 Oct 2026 06:27:45 +0000",
+          "published_utc": "2026-10-14T06:27:45+00:00",
+          "summary": "<p>A search for PuTTY can lead to more than a fake download. In a campaign reported on October 12, attackers used search-engine optimization (SEO) poisoning to steer users to a counterfeit PuTTY site and deliver a trojanized Windows installer. The campaign targets people searching Google for “PuTTY” or “PuTTY download.” A high-ranking result leads to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ethereum-powered-malware/\">Hackers Target PuTTY Users With SEO Poisoning and Ethereum-Powered Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203245"
+        },
+        {
+          "title": "Windows Shell Zero-Day Lets Attackers Bypass Mark of the Web Security Protections",
+          "url": "https://gbhackers.com/windows-shell-zero-day/",
+          "published": "Wed, 14 Oct 2026 06:15:44 +0000",
+          "published_utc": "2026-10-14T06:15:44+00:00",
+          "summary": "<p>Microsoft has addressed a vulnerability in Windows Shell that attackers are actively exploiting, allowing them to bypass the Mark of the Web (MOTW) security protections. Designated CVE-2026-96951, the flaw was disclosed on October 13, 2026, during the company&#8217;s monthly security update. Microsoft classifies the vulnerability as Important, giving it a CVSS v3.1 base score of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-shell-zero-day/\">Windows Shell Zero-Day Lets Attackers Bypass Mark of the Web Security Protections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203260"
+        },
+        {
+          "title": "TFG London Confirms Cyberattack Affecting Hobbs, Whistles, and Phase Eight",
+          "url": "https://gbhackers.com/tfg-london-confirms-cyberattack/",
+          "published": "Wed, 14 Oct 2026 06:09:59 +0000",
+          "published_utc": "2026-10-14T06:09:59+00:00",
+          "summary": "<p>TFG London has confirmed a cybersecurity incident affecting the IT systems that support its brands Hobbs, Whistles, and Phase Eight. Several of these systems remain unavailable. The parent company, The Foschini Group, disclosed the incident in a stock exchange announcement on October 13, 2026, after its UK business identified the security disruption on October 11. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tfg-london-confirms-cyberattack/\">TFG London Confirms Cyberattack Affecting Hobbs, Whistles, and Phase Eight</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203258"
+        },
+        {
+          "title": "North Korean IT Worker Scheme Targets Dozens of Organizations Across Critical U.S. Sectors",
+          "url": "https://gbhackers.com/north-korean-it-worker-scheme/",
+          "published": "Wed, 14 Oct 2026 05:39:03 +0000",
+          "published_utc": "2026-10-14T05:39:03+00:00",
+          "summary": "<p>The FBI and CrowdStrike have disrupted U.S. laptop farms supporting FAMOUS CHOLLIMA, a North Korean operation that places fraudulent remote IT workers inside American companies. The infrastructure enabled workers abroad to collect salaries, conceal their locations, and maintain access to corporate environments. Victims identified by CrowdStrike spanned aerospace, energy, financial services, healthcare, cybersecurity, defense engineering, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-it-worker-scheme/\">North Korean IT Worker Scheme Targets Dozens of Organizations Across Critical U.S. Sectors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203231"
+        },
+        {
+          "title": "OpenAI Engineer Arrested for Allegedly Installing Secret Recording Device to Spy on Executive Meetings",
+          "url": "https://gbhackers.com/openai-engineer-arrested/",
+          "published": "Wed, 14 Oct 2026 05:21:21 +0000",
+          "published_utc": "2026-10-14T05:21:21+00:00",
+          "summary": "<p>An OpenAI engineer has been arrested for allegedly concealing an audio recording device in an executive conference room at the company’s San Francisco offices. According to a Justice Department announcement, Abdulrahman Alfozan, 35, a Saudi national, was taken into custody on October 9 and appeared in federal court on October 13, 2026. OpenAI Engineer Arrested [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-engineer-arrested/\">OpenAI Engineer Arrested for Allegedly Installing Secret Recording Device to Spy on Executive Meetings</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203249"
+        },
+        {
+          "title": "Critical FortiSandbox Vulnerability Lets Remote Attackers Bypass Authentication and Execute Commands",
+          "url": "https://gbhackers.com/critical-fortisandbox-vulnerability/",
+          "published": "Wed, 14 Oct 2026 05:05:11 +0000",
+          "published_utc": "2026-10-14T05:05:11+00:00",
+          "summary": "<p>Fortinet has disclosed a critical authentication bypass vulnerability in FortiSandbox that could let remote attackers access its web management interface without valid credentials and execute unauthorized code or commands. This vulnerability is tracked as CVE-2026-107656 and affects multiple FortiSandbox and FortiSandbox PaaS releases. Administrators must upgrade vulnerable deployments to fixed versions. Critical FortiSandbox Vulnerability The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-fortisandbox-vulnerability/\">Critical FortiSandbox Vulnerability Lets Remote Attackers Bypass Authentication and Execute Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203242"
+        }
+      ],
       "error": ""
     }
   }

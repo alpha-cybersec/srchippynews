@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts",
+          "url": "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/",
+          "published": "Tue, 13 Oct 2026 18:19:38 +0000",
+          "published_utc": "2026-10-13T18:19:38+00:00",
+          "summary": "<p>Microsoft’s October 2026 Patch Tuesday briefing outlines 1,118 vulnerabilities across 15 risk groups, alongside a new approach designed to help security teams review large update releases. Called risk cohorts, these groups bring together flaws that require similar questions about an organization’s systems, users, and exposure. Microsoft’s accompanying document maps individual CVEs to these shared areas [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/\">Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167139"
+        },
+        {
+          "title": "Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication",
+          "url": "https://cybersecuritynews.com/fortisandbox-gui-vulnerability/",
+          "published": "Tue, 13 Oct 2026 17:54:42 +0000",
+          "published_utc": "2026-10-13T17:54:42+00:00",
+          "summary": "<p>Fortinet disclosed a critical authentication-bypass vulnerability in the FortiSandbox graphical user interface that could let remote attackers access protected functions without valid credentials. Tracked as CVE-2026-107656, the flaw carries a reported CVSSv3 score of 9.6 and affects both FortiSandbox appliances and selected FortiSandbox PaaS releases. Published on October 13, 2026, the disclosure is tracked under [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortisandbox-gui-vulnerability/\">Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167136"
+        },
+        {
+          "title": "TFG London Cyberattack Disrupts IT Systems Used by Phase Eight, Hobbs, and Whistles Brands",
+          "url": "https://cybersecuritynews.com/tfg-london-cyberattack/",
+          "published": "Tue, 13 Oct 2026 17:26:27 +0000",
+          "published_utc": "2026-10-13T17:26:27+00:00",
+          "summary": "<p>TFG London has confirmed a cyberattack that disrupted IT systems supporting Phase Eight, Hobbs, and Whistles. South Africa’s The Foschini Group detected the incident on October 11, 2026, and disclosed it to shareholders on October 13. Several systems remained unavailable, although stores continued trading. According to the company’s shareholder announcement, Inside Story and White Stuff [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tfg-london-cyberattack/\">TFG London Cyberattack Disrupts IT Systems Used by Phase Eight, Hobbs, and Whistles Brands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167130"
+        },
+        {
+          "title": "Critical Docker Hub Flaw Lets Attackers Impersonate Users and Push Container Images",
+          "url": "https://cybersecuritynews.com/docker-hub-vulnerability/",
+          "published": "Tue, 13 Oct 2026 16:55:34 +0000",
+          "published_utc": "2026-10-13T16:55:34+00:00",
+          "summary": "<p>Docker has disclosed a critical Docker Hub vulnerability that could let attackers impersonate other users and publish container images under trusted names. Tracked as CVE-2026-105445, the flaw affected personal access tokens transferred during account conversions. Docker resolved the issue on September 30, 2026, stating its investigation found no evidence of exploitation. This issue posed a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/docker-hub-vulnerability/\">Critical Docker Hub Flaw Lets Attackers Impersonate Users and Push Container Images</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167122"
+        },
+        {
+          "title": "CrowdStrike Joins Anthropic Defense Program to Advance AI-powered Defense for Critical Infrastructure",
+          "url": "https://cybersecuritynews.com/crowdstrike-joins-anthropic-defense-program/",
+          "published": "Tue, 13 Oct 2026 16:49:50 +0000",
+          "published_utc": "2026-10-13T16:49:50+00:00",
+          "summary": "<p>CrowdStrike has joined Anthropic’s Critical Infrastructure Defense Program to help strengthen AI-powered cybersecurity across energy, water, manufacturing, and transportation systems. Announced on October 8, 2026, the partnership combines CrowdStrike’s experience protecting business and industrial networks with Anthropic’s advanced Claude models, technical support, and cybersecurity research. The initiative targets a difficult security challenge. Critical infrastructure often [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crowdstrike-joins-anthropic-defense-program/\">CrowdStrike Joins Anthropic Defense Program to Advance AI-powered Defense for Critical Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167118"
+        },
+        {
+          "title": "Zoom Clients for Certificate Validation Flaw Exposes Sensitive Information via Network Access",
+          "url": "https://cybersecuritynews.com/zoom-certificate-validation-flaw/",
+          "published": "Tue, 13 Oct 2026 16:15:16 +0000",
+          "published_utc": "2026-10-13T16:15:16+00:00",
+          "summary": "<p>Two high-severity certificate validation flaws in Zoom clients could allow attackers without login credentials to access sensitive information over a network, according to advisory text dated October 13, 2026. The issues affect Windows clients and the My Notes feature across desktop and mobile platforms, making updates important for both personal users and business deployments. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zoom-certificate-validation-flaw/\">Zoom Clients for Certificate Validation Flaw Exposes Sensitive Information via Network Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167054"
+        },
+        {
+          "title": "Ivanti Connect Secure 0-Day Vulnerability Actively Exploited in the Wild",
+          "url": "https://cybersecuritynews.com/ivanti-connect-secure-zero-day/",
+          "published": "Tue, 13 Oct 2026 15:55:26 +0000",
+          "published_utc": "2026-10-13T15:55:26+00:00",
+          "summary": "<p>Ivanti has disclosed an actively exploited zero-day vulnerability in Ivanti Connect Secure (ICS) that allows remote attackers to execute arbitrary commands without logging in. Tracked as CVE-2026-104935, the flaw carries a high-severity CVSS score of 8.6. Ivanti confirmed that exploitation affected a limited number of customers in its October 13, 2026 advisory. The vulnerability involves [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ivanti-connect-secure-zero-day/\">Ivanti Connect Secure 0-Day Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167096"
+        },
+        {
+          "title": "Danfoss Refrigeration Hack Update – 4,980 Hosts Found Exposed to Internet",
+          "url": "https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/",
+          "published": "Tue, 13 Oct 2026 15:49:00 +0000",
+          "published_utc": "2026-10-13T15:49:00+00:00",
+          "summary": "<p>France accounts for more than half of the internet-facing hosts found in a Shodan search for Danfoss web pages, following a cyberattack that disrupted supermarket refrigeration systems. An update from International Cyber Digest on October 13 reports a total of 4,980 hosts identified, with 2,911 located in France and 517 in South Africa. These findings [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/danfoss-refrigeration-hack-exposed-hosts/\">Danfoss Refrigeration Hack Update &#8211; 4,980 Hosts Found Exposed to Internet</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167084"
+        },
+        {
+          "title": "CISA Warns of Hackers Exploiting Two Citrix NetScaler 0-Days to Execute Code Remotely",
+          "url": "https://cybersecuritynews.com/citrix-netscaler-zero-day-exploits/",
+          "published": "Tue, 13 Oct 2026 15:26:50 +0000",
+          "published_utc": "2026-10-13T15:26:50+00:00",
+          "summary": "<p>Threat actors are actively exploiting two critical zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances, allowing them to execute code remotely on exposed systems. The flaws, tracked as CVE-2026-88771 and CVE-2026-88772, received a CVSS v4 severity score of 9.5 out of 10 and have been added to the U.S. Cybersecurity and Infrastructure Security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-zero-day-exploits/\">CISA Warns of Hackers Exploiting Two Citrix NetScaler 0-Days to Execute Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167038"
+        },
+        {
+          "title": "Threat Intelligence Guide for US SOC Teams and CISOs: How to Choose the Right Solution",
+          "url": "https://cybersecuritynews.com/threat-intelligence-guide/",
+          "published": "Tue, 13 Oct 2026 15:02:20 +0000",
+          "published_utc": "2026-10-13T15:02:20+00:00",
+          "summary": "<p>Choosing an enterprise threat intelligence solution is about more than just data volume or integrations. The right provider should deliver relevant intelligence, fit existing workflows, and help security teams investigate threats faster.&#160; While SOCs may prioritize rapid investigation and enrichment at scale, MSSPs may focus more on multi-tenancy and customer separation.&#160; This enterprise threat intelligence [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/threat-intelligence-guide/\">Threat Intelligence Guide for US SOC Teams and CISOs: How to Choose the Right Solution </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167053"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

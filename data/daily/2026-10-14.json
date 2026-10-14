@@ -1,12 +1,234 @@
 {
   "date": "2026-10-14",
-  "article_count": 42,
+  "article_count": 50,
   "sources": {
-    "cybersecuritynews": 15,
-    "gbhackers": 19,
-    "thehackernews": 8
+    "thehackernews": 12,
+    "cybersecuritynews": 19,
+    "gbhackers": 19
   },
   "articles": [
+    {
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "url": "http://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "published": "Wed, 14 Oct 2026 18:38:56 +0000",
+      "published_utc": "2026-10-14T18:38:56+00:00",
+      "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2987705014218464716",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "content_hash": "7d65ad1daf223c00aad543f0e4d7a2e63e1277b0596f32567f2755aaaf6ae1ca",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7d65ad1daf223c00aad543f0e4d7a2e63e1277b0596f32567f2755aaaf6ae1ca",
+        "FEEDBURNER": "7d65ad1daf223c00aad543f0e4d7a2e63e1277b0596f32567f2755aaaf6ae1ca"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:10.217121+00:00",
+      "first_seen_local": "2026-10-14T14:39:10.217118-05:00",
+      "last_updated_utc": "2026-10-14T19:39:10.217121+00:00",
+      "last_updated_local": "2026-10-14T14:39:10.217118-05:00"
+    },
+    {
+      "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+      "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
+      "published": "Wed, 14 Oct 2026 18:19:03 +0000",
+      "published_utc": "2026-10-14T18:19:03+00:00",
+      "summary": "<p>F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167376",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/multiple-nginx-vulnerabilities",
+      "content_hash": "aacb6364ba179dded393e67eab36e2cbf92b0fb59d685092346756b2d41b2e94",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aacb6364ba179dded393e67eab36e2cbf92b0fb59d685092346756b2d41b2e94"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
+    {
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "url": "http://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "published": "Wed, 14 Oct 2026 17:38:31 +0000",
+      "published_utc": "2026-10-14T17:38:31+00:00",
+      "summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10.\n\nA web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4371654909244933632",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "content_hash": "b54e130731e4e6efe76bdd9084fc4afdfee64333107ddec3eb9e7e8005727718",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b54e130731e4e6efe76bdd9084fc4afdfee64333107ddec3eb9e7e8005727718",
+        "FEEDBURNER": "b54e130731e4e6efe76bdd9084fc4afdfee64333107ddec3eb9e7e8005727718"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:10.217121+00:00",
+      "first_seen_local": "2026-10-14T14:39:10.217118-05:00",
+      "last_updated_utc": "2026-10-14T19:39:10.217121+00:00",
+      "last_updated_local": "2026-10-14T14:39:10.217118-05:00"
+    },
+    {
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "http://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "published": "Wed, 14 Oct 2026 17:09:15 +0000",
+      "published_utc": "2026-10-14T17:09:15+00:00",
+      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System.\n\n\"Since January 2026, the threat actors behind these kits have been responsible for",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2582424617439720485",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "content_hash": "2e51b94dc8eb1f63c995cd1ac0becc861ab90dd51ddb57795d8a6620f52ffc90",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2e51b94dc8eb1f63c995cd1ac0becc861ab90dd51ddb57795d8a6620f52ffc90",
+        "FEEDBURNER": "2e51b94dc8eb1f63c995cd1ac0becc861ab90dd51ddb57795d8a6620f52ffc90"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:10.217121+00:00",
+      "first_seen_local": "2026-10-14T14:39:10.217118-05:00",
+      "last_updated_utc": "2026-10-14T19:39:10.217121+00:00",
+      "last_updated_local": "2026-10-14T14:39:10.217118-05:00"
+    },
+    {
+      "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
+      "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
+      "published": "Wed, 14 Oct 2026 16:46:52 +0000",
+      "published_utc": "2026-10-14T16:46:52+00:00",
+      "summary": "<p>The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/\">24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167336",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/curl-security-update-24-vulnerabilities",
+      "content_hash": "addaec821ee48aacedbb8d04d2e516f09599448cf4da106aeed6b28f66913fdc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "addaec821ee48aacedbb8d04d2e516f09599448cf4da106aeed6b28f66913fdc",
+        "FEEDBURNER": "addaec821ee48aacedbb8d04d2e516f09599448cf4da106aeed6b28f66913fdc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
+    {
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "url": "http://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "published": "Wed, 14 Oct 2026 16:34:31 +0000",
+      "published_utc": "2026-10-14T16:34:31+00:00",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1029149143159519178",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "content_hash": "fc74a3a0e53e7ae53134baf12cb9f38fbd1e6925c9304b3d8fb874c2361eb24d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fc74a3a0e53e7ae53134baf12cb9f38fbd1e6925c9304b3d8fb874c2361eb24d",
+        "FEEDBURNER": "fc74a3a0e53e7ae53134baf12cb9f38fbd1e6925c9304b3d8fb874c2361eb24d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:10.217121+00:00",
+      "first_seen_local": "2026-10-14T14:39:10.217118-05:00",
+      "last_updated_utc": "2026-10-14T19:39:10.217121+00:00",
+      "last_updated_local": "2026-10-14T14:39:10.217118-05:00"
+    },
+    {
+      "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
+      "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
+      "published": "Wed, 14 Oct 2026 16:29:10 +0000",
+      "published_utc": "2026-10-14T16:29:10+00:00",
+      "summary": "<p>As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t.&#160;That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/\">How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167305",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins",
+      "content_hash": "e95630cdffded160e4217545128fff0b6079b53da5ffa912b20b266d73f13ccb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e95630cdffded160e4217545128fff0b6079b53da5ffa912b20b266d73f13ccb",
+        "FEEDBURNER": "e95630cdffded160e4217545128fff0b6079b53da5ffa912b20b266d73f13ccb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
+    {
+      "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
+      "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
+      "published": "Wed, 14 Oct 2026 15:51:38 +0000",
+      "published_utc": "2026-10-14T15:51:38+00:00",
+      "summary": "<p>Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and display [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/\">Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error &#8220;0xC000000D&#8221;</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167312",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-recent-update-remote-desktop",
+      "content_hash": "7fd3145084a236caf5f4164bac8243d111c34559a4bd239fc8199a0361ff0bf4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7fd3145084a236caf5f4164bac8243d111c34559a4bd239fc8199a0361ff0bf4",
+        "FEEDBURNER": "7fd3145084a236caf5f4164bac8243d111c34559a4bd239fc8199a0361ff0bf4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
     {
       "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
       "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",

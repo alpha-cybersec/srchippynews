@@ -2,8 +2,118 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 180,
+  "article_count": 184,
   "articles": [
+    {
+      "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+      "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
+      "published": "Wed, 14 Oct 2026 18:19:03 +0000",
+      "published_utc": "2026-10-14T18:19:03+00:00",
+      "summary": "<p>F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167376",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/multiple-nginx-vulnerabilities",
+      "content_hash": "aacb6364ba179dded393e67eab36e2cbf92b0fb59d685092346756b2d41b2e94",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aacb6364ba179dded393e67eab36e2cbf92b0fb59d685092346756b2d41b2e94"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
+    {
+      "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
+      "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
+      "published": "Wed, 14 Oct 2026 16:46:52 +0000",
+      "published_utc": "2026-10-14T16:46:52+00:00",
+      "summary": "<p>The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/\">24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167336",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/curl-security-update-24-vulnerabilities",
+      "content_hash": "addaec821ee48aacedbb8d04d2e516f09599448cf4da106aeed6b28f66913fdc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "addaec821ee48aacedbb8d04d2e516f09599448cf4da106aeed6b28f66913fdc",
+        "FEEDBURNER": "addaec821ee48aacedbb8d04d2e516f09599448cf4da106aeed6b28f66913fdc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
+    {
+      "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
+      "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
+      "published": "Wed, 14 Oct 2026 16:29:10 +0000",
+      "published_utc": "2026-10-14T16:29:10+00:00",
+      "summary": "<p>As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t.&#160;That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/\">How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167305",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins",
+      "content_hash": "e95630cdffded160e4217545128fff0b6079b53da5ffa912b20b266d73f13ccb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e95630cdffded160e4217545128fff0b6079b53da5ffa912b20b266d73f13ccb",
+        "FEEDBURNER": "e95630cdffded160e4217545128fff0b6079b53da5ffa912b20b266d73f13ccb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
+    {
+      "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
+      "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
+      "published": "Wed, 14 Oct 2026 15:51:38 +0000",
+      "published_utc": "2026-10-14T15:51:38+00:00",
+      "summary": "<p>Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and display [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/\">Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error &#8220;0xC000000D&#8221;</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167312",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-recent-update-remote-desktop",
+      "content_hash": "7fd3145084a236caf5f4164bac8243d111c34559a4bd239fc8199a0361ff0bf4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7fd3145084a236caf5f4164bac8243d111c34559a4bd239fc8199a0361ff0bf4",
+        "FEEDBURNER": "7fd3145084a236caf5f4164bac8243d111c34559a4bd239fc8199a0361ff0bf4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-14T19:39:03.639152+00:00",
+      "first_seen_local": "2026-10-14T14:39:03.639149-05:00",
+      "last_updated_utc": "2026-10-14T19:39:03.639152+00:00",
+      "last_updated_local": "2026-10-14T14:39:03.639149-05:00"
+    },
     {
       "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
       "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",

@@ -13,6 +13,38 @@
       "article_count": 10,
       "articles": [
         {
+          "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+          "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
+          "published": "Wed, 14 Oct 2026 18:19:03 +0000",
+          "published_utc": "2026-10-14T18:19:03+00:00",
+          "summary": "<p>F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167376"
+        },
+        {
+          "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
+          "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
+          "published": "Wed, 14 Oct 2026 16:46:52 +0000",
+          "published_utc": "2026-10-14T16:46:52+00:00",
+          "summary": "<p>The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/\">24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167336"
+        },
+        {
+          "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
+          "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
+          "published": "Wed, 14 Oct 2026 16:29:10 +0000",
+          "published_utc": "2026-10-14T16:29:10+00:00",
+          "summary": "<p>As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t.&#160;That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/\">How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167305"
+        },
+        {
+          "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
+          "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
+          "published": "Wed, 14 Oct 2026 15:51:38 +0000",
+          "published_utc": "2026-10-14T15:51:38+00:00",
+          "summary": "<p>Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and display [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/\">Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error &#8220;0xC000000D&#8221;</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167312"
+        },
+        {
           "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
           "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",
           "published": "Wed, 14 Oct 2026 14:08:23 +0000",
@@ -59,38 +91,6 @@
           "published_utc": "2026-10-14T09:37:45+00:00",
           "summary": "<p>Security researchers earned a $250,000 reward from Google after building a full-chain Chrome exploit with AI agents. The XBOW team says the work took six days and about $40,000 in computing costs, using OpenAI’s publicly available GPT-5.6 Sol model. Google has fixed the flaws. XBOW disclosed the work on October 13, 2026. Its chain linked [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/\">Google Awarded $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=167207"
-        },
-        {
-          "title": "Windows SmartScreen Vulnerability Enables Privilege Escalation Attacks",
-          "url": "https://cybersecuritynews.com/windows-smartscreen-escalation-vulnerability/",
-          "published": "Wed, 14 Oct 2026 09:28:05 +0000",
-          "published_utc": "2026-10-14T09:28:05+00:00",
-          "summary": "<p>Microsoft has released fixes for a Windows SmartScreen vulnerability that allows an attacker with local access to gain higher privileges. Tracked as CVE-2026-85851, the flaw was disclosed on October 13, 2026, and carries a CVSS base score of 7.8. Microsoft rates it Important. The issue involves a use-after-free memory error and affects several Windows 11 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-smartscreen-escalation-vulnerability/\">Windows SmartScreen Vulnerability Enables Privilege Escalation Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167192"
-        },
-        {
-          "title": "Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit",
-          "url": "https://cybersecuritynews.com/coruna-and-darksword/",
-          "published": "Wed, 14 Oct 2026 09:26:22 +0000",
-          "published_utc": "2026-10-14T09:26:22+00:00",
-          "summary": "<p>Two powerful iPhone exploit kits, Coruna and DarkSword, show how a visit to a malicious or compromised website can put an outdated device at risk. The kits can link several software flaws together to break out of the browser and reach deeper parts of iOS. Depending on the device’s software version and the kit used, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coruna-and-darksword/\">Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167196"
-        },
-        {
-          "title": "Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People",
-          "url": "https://cybersecuritynews.com/hackers-breach-meta-github-repositories/",
-          "published": "Wed, 14 Oct 2026 08:49:41 +0000",
-          "published_utc": "2026-10-14T08:49:41+00:00",
-          "summary": "<p>Hackers used an employee’s stolen credentials to access some of Meta’s GitHub repositories, taking product source code and personal information linked to roughly 1,500 people. Most affected individuals are Meta employees in the United States, according to the company’s disclosure to SecurityWeek. Meta confirmed the breach on October 13, 2026, when it began notifying affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach-meta-github-repositories/\">Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167194"
-        },
-        {
-          "title": "Attackers Breach European Bank Through Third-Party Gateway and Target WSUS Server",
-          "url": "https://cybersecuritynews.com/attackers-breach-european-bank/",
-          "published": "Wed, 14 Oct 2026 08:33:31 +0000",
-          "published_utc": "2026-10-14T08:33:31+00:00",
-          "summary": "<p>A European bank was breached through a poorly secured, third-party gateway before an attacker tried to exploit its Windows Server Update Services (WSUS) infrastructure. The case shows how stolen login details and weak access controls can put a bank’s central software systems at risk without a complex attack chain. The bank’s security team uncovered unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-breach-european-bank/\">Attackers Breach European Bank Through Third-Party Gateway and Target WSUS Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167181"
         }
       ],
       "error": ""
@@ -106,6 +106,30 @@
       "article_count": 10,
       "articles": [
         {
+          "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
+          "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
+          "published": "Wed, 14 Oct 2026 16:46:52 +0000",
+          "published_utc": "2026-10-14T16:46:52+00:00",
+          "summary": "<p>The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/\">24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167336"
+        },
+        {
+          "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
+          "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
+          "published": "Wed, 14 Oct 2026 16:29:10 +0000",
+          "published_utc": "2026-10-14T16:29:10+00:00",
+          "summary": "<p>As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t.&#160;That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/\">How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167305"
+        },
+        {
+          "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
+          "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
+          "published": "Wed, 14 Oct 2026 15:51:38 +0000",
+          "published_utc": "2026-10-14T15:51:38+00:00",
+          "summary": "<p>Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and display [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/\">Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error &#8220;0xC000000D&#8221;</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167312"
+        },
+        {
           "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
           "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",
           "published": "Wed, 14 Oct 2026 14:08:23 +0000",
@@ -160,30 +184,6 @@
           "published_utc": "2026-10-14T09:28:05+00:00",
           "summary": "<p>Microsoft has released fixes for a Windows SmartScreen vulnerability that allows an attacker with local access to gain higher privileges. Tracked as CVE-2026-85851, the flaw was disclosed on October 13, 2026, and carries a CVSS base score of 7.8. Microsoft rates it Important. The issue involves a use-after-free memory error and affects several Windows 11 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-smartscreen-escalation-vulnerability/\">Windows SmartScreen Vulnerability Enables Privilege Escalation Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=167192"
-        },
-        {
-          "title": "Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit",
-          "url": "https://cybersecuritynews.com/coruna-and-darksword/",
-          "published": "Wed, 14 Oct 2026 09:26:22 +0000",
-          "published_utc": "2026-10-14T09:26:22+00:00",
-          "summary": "<p>Two powerful iPhone exploit kits, Coruna and DarkSword, show how a visit to a malicious or compromised website can put an outdated device at risk. The kits can link several software flaws together to break out of the browser and reach deeper parts of iOS. Depending on the device’s software version and the kit used, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coruna-and-darksword/\">Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167196"
-        },
-        {
-          "title": "Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People",
-          "url": "https://cybersecuritynews.com/hackers-breach-meta-github-repositories/",
-          "published": "Wed, 14 Oct 2026 08:49:41 +0000",
-          "published_utc": "2026-10-14T08:49:41+00:00",
-          "summary": "<p>Hackers used an employee’s stolen credentials to access some of Meta’s GitHub repositories, taking product source code and personal information linked to roughly 1,500 people. Most affected individuals are Meta employees in the United States, according to the company’s disclosure to SecurityWeek. Meta confirmed the breach on October 13, 2026, when it began notifying affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach-meta-github-repositories/\">Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167194"
-        },
-        {
-          "title": "Attackers Breach European Bank Through Third-Party Gateway and Target WSUS Server",
-          "url": "https://cybersecuritynews.com/attackers-breach-european-bank/",
-          "published": "Wed, 14 Oct 2026 08:33:31 +0000",
-          "published_utc": "2026-10-14T08:33:31+00:00",
-          "summary": "<p>A European bank was breached through a poorly secured, third-party gateway before an attacker tried to exploit its Windows Server Update Services (WSUS) infrastructure. The case shows how stolen login details and weak access controls can put a bank’s central software systems at risk without a complex attack chain. The bank’s security team uncovered unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-breach-european-bank/\">Attackers Breach European Bank Through Third-Party Gateway and Target WSUS Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167181"
         }
       ],
       "error": ""

@@ -1,464 +1,125 @@
 {
-  "generated_at_utc": "2026-10-15T17:43:39.721549+00:00",
-  "generated_at_local": "2026-10-15T12:43:39.721556-05:00",
-  "article_count": 17,
-  "new_count": 17,
+  "generated_at_utc": "2026-10-15T21:17:16.833826+00:00",
+  "generated_at_local": "2026-10-15T16:17:16.833834-05:00",
+  "article_count": 4,
+  "new_count": 4,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 4,
-    "gbhackers": 6,
-    "cybersecuritynews": 7
+    "thehackernews": 2,
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-      "url": "http://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-      "published": "Thu, 15 Oct 2026 16:01:57 +0000",
-      "published_utc": "2026-10-15T16:01:57+00:00",
-      "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background.\n\nThe Citizen",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2049977687901657505",
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "url": "http://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "published": "Thu, 15 Oct 2026 20:24:36 +0000",
+      "published_utc": "2026-10-15T20:24:36+00:00",
+      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3348898992174848269",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-      "content_hash": "bf5e76d0eeb06f7efb6c964744f4efcf0fab9e24cb5c1500e1b8043587a1e291",
+      "article_key": "thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "content_hash": "948f9e91ecc9a818fdbf18b7774056cc53b3e11c657446adb8e12a2e70f03e9e",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "bf5e76d0eeb06f7efb6c964744f4efcf0fab9e24cb5c1500e1b8043587a1e291",
-        "FEEDBURNER": "bf5e76d0eeb06f7efb6c964744f4efcf0fab9e24cb5c1500e1b8043587a1e291"
+        "ORIGINAL": "948f9e91ecc9a818fdbf18b7774056cc53b3e11c657446adb8e12a2e70f03e9e",
+        "FEEDBURNER": "948f9e91ecc9a818fdbf18b7774056cc53b3e11c657446adb8e12a2e70f03e9e"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:39.711982+00:00",
-      "first_seen_local": "2026-10-15T12:43:39.711980-05:00",
-      "last_updated_utc": "2026-10-15T17:43:39.711982+00:00",
-      "last_updated_local": "2026-10-15T12:43:39.711980-05:00"
+      "first_seen_utc": "2026-10-15T21:17:16.825754+00:00",
+      "first_seen_local": "2026-10-15T16:17:16.825752-05:00",
+      "last_updated_utc": "2026-10-15T21:17:16.825754+00:00",
+      "last_updated_local": "2026-10-15T16:17:16.825752-05:00"
     },
     {
-      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-      "url": "http://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-      "published": "Thu, 15 Oct 2026 16:00:26 +0000",
-      "published_utc": "2026-10-15T16:00:26+00:00",
-      "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7458038748959147340",
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "url": "http://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "published": "Thu, 15 Oct 2026 18:49:33 +0000",
+      "published_utc": "2026-10-15T18:49:33+00:00",
+      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7991962059657400225",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-      "content_hash": "a8039e1dddf77e58b77b8c184431d3de311c149d641133d215488e01549a67c6",
+      "article_key": "thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "content_hash": "83664bd165826ef751c2486e6179cda376531aaa22340ffba4620122ddd3ce50",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "a8039e1dddf77e58b77b8c184431d3de311c149d641133d215488e01549a67c6",
-        "FEEDBURNER": "a8039e1dddf77e58b77b8c184431d3de311c149d641133d215488e01549a67c6"
+        "ORIGINAL": "83664bd165826ef751c2486e6179cda376531aaa22340ffba4620122ddd3ce50",
+        "FEEDBURNER": "83664bd165826ef751c2486e6179cda376531aaa22340ffba4620122ddd3ce50"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:39.711982+00:00",
-      "first_seen_local": "2026-10-15T12:43:39.711980-05:00",
-      "last_updated_utc": "2026-10-15T17:43:39.711982+00:00",
-      "last_updated_local": "2026-10-15T12:43:39.711980-05:00"
+      "first_seen_utc": "2026-10-15T21:17:16.825754+00:00",
+      "first_seen_local": "2026-10-15T16:17:16.825752-05:00",
+      "last_updated_utc": "2026-10-15T21:17:16.825754+00:00",
+      "last_updated_local": "2026-10-15T16:17:16.825752-05:00"
     },
     {
-      "title": "Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
-      "url": "https://gbhackers.com/cisco-secure-email-gateway-zero-day/",
-      "published": "Thu, 15 Oct 2026 15:12:46 +0000",
-      "published_utc": "2026-10-15T15:12:46+00:00",
-      "summary": "<p>Cisco has warned that attackers are actively exploiting a zero-day flaw in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway. An unauthenticated remote attacker can use it to write arbitrary files and run commands as root on the underlying operating system. The advisory, cisco-sa-esa-afw-zqYJkjxp, says Cisco PSIRT learned of active exploitation in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-secure-email-gateway-zero-day/\">Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203557",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/cisco-secure-email-gateway-zero-day",
-      "content_hash": "9df477cca4ff4b60d62a3d22cfad8db808eebd9969e909f9101093374b80c4ee",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "9df477cca4ff4b60d62a3d22cfad8db808eebd9969e909f9101093374b80c4ee"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:35.599171+00:00",
-      "first_seen_local": "2026-10-15T12:43:35.599168-05:00",
-      "last_updated_utc": "2026-10-15T17:43:35.599171+00:00",
-      "last_updated_local": "2026-10-15T12:43:35.599168-05:00"
-    },
-    {
-      "title": "Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks",
-      "url": "https://gbhackers.com/palo-alto-pan-os-zero-day/",
-      "published": "Thu, 15 Oct 2026 15:01:28 +0000",
-      "published_utc": "2026-10-15T15:01:28+00:00",
-      "summary": "<p>Palo Alto Networks has warned that attackers are exploiting a high-severity remote code execution flaw in the PAN-OS management interface. Tracked as CVE-2026-0322, the bug lets an authenticated attacker with network access run arbitrary code with root privileges on the firewall. PAN-OS zero-day vulnerability The flaw is a code injection weakness (CWE-94, CAPEC-242) in the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-pan-os-zero-day/\">Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203554",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/palo-alto-pan-os-zero-day",
-      "content_hash": "4fa50191eadf1e54d8a1c1106f0902f3c1ef75d8318393dbf0fb67bf091afe1f",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "4fa50191eadf1e54d8a1c1106f0902f3c1ef75d8318393dbf0fb67bf091afe1f"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:35.599171+00:00",
-      "first_seen_local": "2026-10-15T12:43:35.599168-05:00",
-      "last_updated_utc": "2026-10-15T17:43:35.599171+00:00",
-      "last_updated_local": "2026-10-15T12:43:35.599168-05:00"
-    },
-    {
-      "title": "Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click",
-      "url": "https://gbhackers.com/online-ads-spyware-attacks/",
-      "published": "Thu, 15 Oct 2026 14:51:16 +0000",
-      "published_utc": "2026-10-15T14:51:16+00:00",
-      "summary": "<p>Citizen Lab has confirmed the first public case of zero-click mercenary spyware delivered through targeted online ads. It calls the technique &#8220;AdFection&#8221;. The attack hit devices at Al Jazeera with Candiru spyware, and the ads were bought by an Israeli ad-tech firm called Discover-Tech. zero-click spyware attacks Online ads are sold in real-time auctions that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/online-ads-spyware-attacks/\">Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203551",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/online-ads-spyware-attacks",
-      "content_hash": "025524fc13f52c1ca5929b6f2177b031f974de5479a16b0db75b194843b9c84b",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "025524fc13f52c1ca5929b6f2177b031f974de5479a16b0db75b194843b9c84b"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:35.599171+00:00",
-      "first_seen_local": "2026-10-15T12:43:35.599168-05:00",
-      "last_updated_utc": "2026-10-15T17:43:35.599171+00:00",
-      "last_updated_local": "2026-10-15T12:43:35.599168-05:00"
-    },
-    {
-      "title": "Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems",
-      "url": "https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/",
-      "published": "Thu, 15 Oct 2026 14:42:47 +0000",
-      "published_utc": "2026-10-15T14:42:47+00:00",
-      "summary": "<p>Citrix has disclosed four XenServer vulnerabilities, including three that could let a malicious user with elevated rights inside a virtual machine compromise or crash the underlying host. Citrix published the high-severity bulletin CTX697170 on October 13, 2026, covering XenServer 8.4 and XenServer 9. Citrix lists the advisory in its XenServer security bulletin archive. The host-impacting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/\">Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167464",
+      "title": "Burger King Japan Confirms Data Breach Exposing 11.18M User Records",
+      "url": "https://cybersecuritynews.com/burger-king-japan-data-breach/",
+      "published": "Thu, 15 Oct 2026 15:55:01 +0000",
+      "published_utc": "2026-10-15T15:55:01+00:00",
+      "summary": "<p>Burger King Japan has confirmed a data breach that exposed about 11.18 million records linked to members of its official app. BK Japan, which operates the chain in Japan, said an outside party gained unauthorized access to the system used to manage app member information. The company disclosed the incident on October 15, 2026. According [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/burger-king-japan-data-breach/\">Burger King Japan Confirms Data Breach Exposing 11.18M User Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167574",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/citrix-xenserver-vulnerabilities",
-      "content_hash": "750a3fcf1dd4989a486b01a7ee3d1f94e3b83a2e54973974214796f0fd64c079",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "750a3fcf1dd4989a486b01a7ee3d1f94e3b83a2e54973974214796f0fd64c079"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
-    },
-    {
-      "title": "Hackers Use ClickFix and Python Tunnels to Prepare Systems for Ransomware Attacks",
-      "url": "https://cybersecuritynews.com/hackers-use-clickfix/",
-      "published": "Thu, 15 Oct 2026 14:30:51 +0000",
-      "published_utc": "2026-10-15T14:30:51+00:00",
-      "summary": "<p>Hackers are using ClickFix tricks to install malware loaders and Python tunnels on Windows systems, creating access that could support ransomware attacks. A late September incident shows how a user running a command can start an infection chain built around trusted Microsoft programs, hidden code, and encrypted network traffic. The attack was stopped before ransomware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-clickfix/\">Hackers Use ClickFix and Python Tunnels to Prepare Systems for Ransomware Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167523",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-use-clickfix",
-      "content_hash": "2d461153b013585c70dcc097c45a95817914c8af252721c4b0a2b021ab0cd148",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "2d461153b013585c70dcc097c45a95817914c8af252721c4b0a2b021ab0cd148"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
-    },
-    {
-      "title": "Chinese Phishing Network Linked to 1 Billion Messages Targeting 75,000 Organizations",
-      "url": "https://cybersecuritynews.com/chinese-phishing-network/",
-      "published": "Thu, 15 Oct 2026 14:25:16 +0000",
-      "published_utc": "2026-10-15T14:25:16+00:00",
-      "summary": "<p>A Chinese-run phishing network has been linked to one billion phishing emails targeting 75,000 organizations, according to a report published on October 14, 2026. The operation centers on Iron Man System, a paid phishing platform that lets criminals deploy fake websites and collect sensitive information without building their own tools. The report lists those headline [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chinese-phishing-network/\">Chinese Phishing Network Linked to 1 Billion Messages Targeting 75,000 Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167504",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/chinese-phishing-network",
-      "content_hash": "1b9cf8b906f0c37e5730723e48584e76af4e12d1c9173b01d4cf0b5acc84ae11",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "1b9cf8b906f0c37e5730723e48584e76af4e12d1c9173b01d4cf0b5acc84ae11"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
-    },
-    {
-      "title": "Just Viewing an Online Ad Can Infect Your Device With Spyware, Researchers Reveal",
-      "url": "https://cybersecuritynews.com/0-click-spyware-infects-devices/",
-      "published": "Thu, 15 Oct 2026 14:16:37 +0000",
-      "published_utc": "2026-10-15T14:16:37+00:00",
-      "summary": "<p>Simply viewing an online advertisement can be enough to infect a device with powerful spyware, without the user clicking, downloading a file, or seeing any warning. Citizen Lab researchers documented what they call the first public technical proof of zero-click mercenary spyware delivered through targeted ads. The method, named “AdFection,” infected devices at international news [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/0-click-spyware-infects-devices/\">Just Viewing an Online Ad Can Infect Your Device With Spyware, Researchers Reveal</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167508",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/0-click-spyware-infects-devices",
-      "content_hash": "17f77a7ba8b87995e648a730e4dcc34c1284c3adfa687e0648803f75b3eee4c5",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "17f77a7ba8b87995e648a730e4dcc34c1284c3adfa687e0648803f75b3eee4c5"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
-    },
-    {
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "url": "http://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-      "published": "Thu, 15 Oct 2026 14:11:36 +0000",
-      "published_utc": "2026-10-15T14:11:36+00:00",
-      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5481899895964117321",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-      "content_hash": "5034ca57a408a88d814b94236cb02b4269bf19991f0ed7c867551091c9568765",
+      "article_key": "cybersecuritynews.com/burger-king-japan-data-breach",
+      "content_hash": "51c186b5d1d9819a6ddafe8d21be0827f9002bba4f4ccb0544a52ea0fa2f5d12",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "5034ca57a408a88d814b94236cb02b4269bf19991f0ed7c867551091c9568765",
-        "FEEDBURNER": "5034ca57a408a88d814b94236cb02b4269bf19991f0ed7c867551091c9568765"
+        "ORIGINAL": "51c186b5d1d9819a6ddafe8d21be0827f9002bba4f4ccb0544a52ea0fa2f5d12",
+        "FEEDBURNER": "51c186b5d1d9819a6ddafe8d21be0827f9002bba4f4ccb0544a52ea0fa2f5d12"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:39.711982+00:00",
-      "first_seen_local": "2026-10-15T12:43:39.711980-05:00",
-      "last_updated_utc": "2026-10-15T17:43:39.711982+00:00",
-      "last_updated_local": "2026-10-15T12:43:39.711980-05:00"
+      "first_seen_utc": "2026-10-15T21:17:11.724049+00:00",
+      "first_seen_local": "2026-10-15T16:17:11.724046-05:00",
+      "last_updated_utc": "2026-10-15T21:17:11.724049+00:00",
+      "last_updated_local": "2026-10-15T16:17:11.724046-05:00"
     },
     {
-      "title": "AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets",
-      "url": "https://cybersecuritynews.com/ai-agents-4/",
-      "published": "Thu, 15 Oct 2026 13:55:34 +0000",
-      "published_utc": "2026-10-15T13:55:34+00:00",
-      "summary": "<p>AI agents can expose API keys and cloud secrets during ordinary work, even when no malware is present. When an agent runs a command, reads a configuration file or fetches a secret to complete a task. Even sensitive data can move from protected storage into command histories, logs, agent transcripts and the model’s context. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-4/\">AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167493",
+      "title": "Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets",
+      "url": "https://cybersecuritynews.com/chatgpt-github-connector-flaw/",
+      "published": "Thu, 15 Oct 2026 15:47:08 +0000",
+      "published_utc": "2026-10-15T15:47:08+00:00",
+      "summary": "<p>A critical flaw in ChatGPT’s GitHub integration has the potential to turn a routine repository review into a secret-theft attack. A report published on October 15, 2026, describes a scenario in which manipulated repository instructions allegedly lead an AI agent to modify a different private repository and trigger GitHub Actions. According to the researcher Sunil [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-github-connector-flaw/\">Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167570",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/ai-agents-4",
-      "content_hash": "15def057aeb5c0e088c0179db189f378916704a61b2444a39a5e2795c19911dd",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "15def057aeb5c0e088c0179db189f378916704a61b2444a39a5e2795c19911dd"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
-    },
-    {
-      "title": "New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory",
-      "url": "https://gbhackers.com/peerstitch-malware/",
-      "published": "Thu, 15 Oct 2026 13:21:42 +0000",
-      "published_utc": "2026-10-15T13:21:42+00:00",
-      "summary": "<p>PEERSTITCH, a memory-resident ARM64 implant deployed against FortiGate firewalls during a prolonged intrusion into a telecommunications managed service provider. The malware hijacks legitimate FortiOS processes, leaving no persistent executable, opening no listening ports, and initiating no outbound connections of its own. Published October 14, the investigation tracks the activity as CL-STA-0954, also known as UNC5820. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/peerstitch-malware/\">New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203534",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/peerstitch-malware",
-      "content_hash": "1c1bbb03f04b5ef1c6b6889cb23f32b8f1936a201fd1a54512f2dc017e5b28a3",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "1c1bbb03f04b5ef1c6b6889cb23f32b8f1936a201fd1a54512f2dc017e5b28a3"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:35.599171+00:00",
-      "first_seen_local": "2026-10-15T12:43:35.599168-05:00",
-      "last_updated_utc": "2026-10-15T17:43:35.599171+00:00",
-      "last_updated_local": "2026-10-15T12:43:35.599168-05:00"
-    },
-    {
-      "title": "Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack",
-      "url": "https://gbhackers.com/uk-legal-aid-cyberattack/",
-      "published": "Thu, 15 Oct 2026 13:07:35 +0000",
-      "published_utc": "2026-10-15T13:07:35+00:00",
-      "summary": "<p>The UK&#8217;s Legal Aid Agency (LAA) now says the 2025 data breach exposed far older data than first reported. About 250,000 stolen records predate 2007, and the earliest verified record is from 1978. UK legal aid cyberattack The LAA identified a cyber-attack on its online digital services on Wednesday 23 April 2025. It secured its [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uk-legal-aid-cyberattack/\">Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203540",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/uk-legal-aid-cyberattack",
-      "content_hash": "f3273b7b039ab3dbcff5c5de6d98e271ee738d2843c161c789afd570beed035a",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "f3273b7b039ab3dbcff5c5de6d98e271ee738d2843c161c789afd570beed035a"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:35.599171+00:00",
-      "first_seen_local": "2026-10-15T12:43:35.599168-05:00",
-      "last_updated_utc": "2026-10-15T17:43:35.599171+00:00",
-      "last_updated_local": "2026-10-15T12:43:35.599168-05:00"
-    },
-    {
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "url": "http://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "published": "Thu, 15 Oct 2026 12:58:05 +0000",
-      "published_utc": "2026-10-15T12:58:05+00:00",
-      "summary": "NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005.\n\nThere are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit.\n\nA fourth lets an attacker forge a TLS session that could",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1275594424241795575",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "content_hash": "c4ee5a9cf1d295b048ca34307a60fac57dbdd63df41171cfba9cdffa08d7b938",
+      "article_key": "cybersecuritynews.com/chatgpt-github-connector-flaw",
+      "content_hash": "15d7d4f6927a6bec81f2655af5ba915d7efbbfb4779a053e34de8f8d8a06cff9",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "c4ee5a9cf1d295b048ca34307a60fac57dbdd63df41171cfba9cdffa08d7b938",
-        "FEEDBURNER": "c4ee5a9cf1d295b048ca34307a60fac57dbdd63df41171cfba9cdffa08d7b938"
+        "ORIGINAL": "15d7d4f6927a6bec81f2655af5ba915d7efbbfb4779a053e34de8f8d8a06cff9",
+        "FEEDBURNER": "15d7d4f6927a6bec81f2655af5ba915d7efbbfb4779a053e34de8f8d8a06cff9"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:39.711982+00:00",
-      "first_seen_local": "2026-10-15T12:43:39.711980-05:00",
-      "last_updated_utc": "2026-10-15T17:43:39.711982+00:00",
-      "last_updated_local": "2026-10-15T12:43:39.711980-05:00"
-    },
-    {
-      "title": "UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978",
-      "url": "https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/",
-      "published": "Thu, 15 Oct 2026 12:54:56 +0000",
-      "published_utc": "2026-10-15T12:54:56+00:00",
-      "summary": "<p>The UK Legal Aid Agency (LAA) has confirmed that its 2025 cyberattack stole personal records dating back to 1978. An updated investigation found approximately 250,000 records from before 2007, widening the known scope of a breach that affected legal aid applicants, providers and some probation service users. In its October 14, 2026 update, the agency [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/\">UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167488",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/uk-legal-aid-agency-data-breach",
-      "content_hash": "30112228433b68c8dfcaffe120641e20e52ef6122f618591a43accfb9986e093",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "30112228433b68c8dfcaffe120641e20e52ef6122f618591a43accfb9986e093"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
-    },
-    {
-      "title": "New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access",
-      "url": "https://gbhackers.com/lorem-ipsum-malware-deployment/",
-      "published": "Thu, 15 Oct 2026 12:53:10 +0000",
-      "published_utc": "2026-10-15T12:53:10+00:00",
-      "summary": "<p>A ClickFix campaign uses the Lorem Ipsum Loader to install a Python-based tunneling implant, giving attackers a covert route into victims’ networks and potentially laying the groundwork for ransomware deployment. In an incident investigated in late September, defenders contained the intrusion before ransomware was deployed; the tunnel’s remote-access capability nevertheless made the compromised host a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lorem-ipsum-malware-deployment/\">New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203508",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/lorem-ipsum-malware-deployment",
-      "content_hash": "eb7a0d95784995189477b21e3f1c5b336abe9f3e0b244a12f9fdabbc6fb859ef",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "eb7a0d95784995189477b21e3f1c5b336abe9f3e0b244a12f9fdabbc6fb859ef"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:35.599171+00:00",
-      "first_seen_local": "2026-10-15T12:43:35.599168-05:00",
-      "last_updated_utc": "2026-10-15T17:43:35.599171+00:00",
-      "last_updated_local": "2026-10-15T12:43:35.599168-05:00"
-    },
-    {
-      "title": "KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs",
-      "url": "https://cybersecuritynews.com/kgb-rat-malware/",
-      "published": "Thu, 15 Oct 2026 12:52:34 +0000",
-      "published_utc": "2026-10-15T12:52:34+00:00",
-      "summary": "<p>A Windows remote access trojan called KGB RAT gives attackers a way to spy on infected computers, collect credentials and control a victim’s desktop. The malware is sold as a service and advertised with a “fully undetectable” crypter that its sellers claim can bypass Windows Defender and other antivirus products. That claim should be treated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kgb-rat-malware/\">KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167429",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/kgb-rat-malware",
-      "content_hash": "998f0e908e17addf5a40de0fa0499f0bd2e9e02bb61ab51640badade4594a22f",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "998f0e908e17addf5a40de0fa0499f0bd2e9e02bb61ab51640badade4594a22f"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-15T17:43:36.111066+00:00",
-      "first_seen_local": "2026-10-15T12:43:36.111063-05:00",
-      "last_updated_utc": "2026-10-15T17:43:36.111066+00:00",
-      "last_updated_local": "2026-10-15T12:43:36.111063-05:00"
+      "first_seen_utc": "2026-10-15T21:17:11.724049+00:00",
+      "first_seen_local": "2026-10-15T16:17:11.724046-05:00",
+      "last_updated_utc": "2026-10-15T21:17:11.724049+00:00",
+      "last_updated_local": "2026-10-15T16:17:11.724046-05:00"
     }
   ]
 }

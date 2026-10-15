@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
+          "url": "https://gbhackers.com/cisco-secure-email-gateway-zero-day/",
+          "published": "Thu, 15 Oct 2026 15:12:46 +0000",
+          "published_utc": "2026-10-15T15:12:46+00:00",
+          "summary": "<p>Cisco has warned that attackers are actively exploiting a zero-day flaw in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway. An unauthenticated remote attacker can use it to write arbitrary files and run commands as root on the underlying operating system. The advisory, cisco-sa-esa-afw-zqYJkjxp, says Cisco PSIRT learned of active exploitation in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-secure-email-gateway-zero-day/\">Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203557"
+        },
+        {
+          "title": "Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks",
+          "url": "https://gbhackers.com/palo-alto-pan-os-zero-day/",
+          "published": "Thu, 15 Oct 2026 15:01:28 +0000",
+          "published_utc": "2026-10-15T15:01:28+00:00",
+          "summary": "<p>Palo Alto Networks has warned that attackers are exploiting a high-severity remote code execution flaw in the PAN-OS management interface. Tracked as CVE-2026-0322, the bug lets an authenticated attacker with network access run arbitrary code with root privileges on the firewall. PAN-OS zero-day vulnerability The flaw is a code injection weakness (CWE-94, CAPEC-242) in the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-pan-os-zero-day/\">Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203554"
+        },
+        {
+          "title": "Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click",
+          "url": "https://gbhackers.com/online-ads-spyware-attacks/",
+          "published": "Thu, 15 Oct 2026 14:51:16 +0000",
+          "published_utc": "2026-10-15T14:51:16+00:00",
+          "summary": "<p>Citizen Lab has confirmed the first public case of zero-click mercenary spyware delivered through targeted online ads. It calls the technique &#8220;AdFection&#8221;. The attack hit devices at Al Jazeera with Candiru spyware, and the ads were bought by an Israeli ad-tech firm called Discover-Tech. zero-click spyware attacks Online ads are sold in real-time auctions that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/online-ads-spyware-attacks/\">Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203551"
+        },
+        {
+          "title": "New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory",
+          "url": "https://gbhackers.com/peerstitch-malware/",
+          "published": "Thu, 15 Oct 2026 13:21:42 +0000",
+          "published_utc": "2026-10-15T13:21:42+00:00",
+          "summary": "<p>PEERSTITCH, a memory-resident ARM64 implant deployed against FortiGate firewalls during a prolonged intrusion into a telecommunications managed service provider. The malware hijacks legitimate FortiOS processes, leaving no persistent executable, opening no listening ports, and initiating no outbound connections of its own. Published October 14, the investigation tracks the activity as CL-STA-0954, also known as UNC5820. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/peerstitch-malware/\">New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203534"
+        },
+        {
+          "title": "Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack",
+          "url": "https://gbhackers.com/uk-legal-aid-cyberattack/",
+          "published": "Thu, 15 Oct 2026 13:07:35 +0000",
+          "published_utc": "2026-10-15T13:07:35+00:00",
+          "summary": "<p>The UK&#8217;s Legal Aid Agency (LAA) now says the 2025 data breach exposed far older data than first reported. About 250,000 stolen records predate 2007, and the earliest verified record is from 1978. UK legal aid cyberattack The LAA identified a cyber-attack on its online digital services on Wednesday 23 April 2025. It secured its [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uk-legal-aid-cyberattack/\">Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203540"
+        },
+        {
+          "title": "New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access",
+          "url": "https://gbhackers.com/lorem-ipsum-malware-deployment/",
+          "published": "Thu, 15 Oct 2026 12:53:10 +0000",
+          "published_utc": "2026-10-15T12:53:10+00:00",
+          "summary": "<p>A ClickFix campaign uses the Lorem Ipsum Loader to install a Python-based tunneling implant, giving attackers a covert route into victims’ networks and potentially laying the groundwork for ransomware deployment. In an incident investigated in late September, defenders contained the intrusion before ransomware was deployed; the tunnel’s remote-access capability nevertheless made the compromised host a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lorem-ipsum-malware-deployment/\">New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203508"
+        },
+        {
+          "title": "Claude Code Helps Linux Creator Address Longstanding Kernel Memory Performance Bottleneck",
+          "url": "https://gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck/",
+          "published": "Thu, 15 Oct 2026 11:37:11 +0000",
+          "published_utc": "2026-10-15T11:37:11+00:00",
+          "summary": "<p>Linus Torvalds used Anthropic&#8217;s Claude Code to build experimental patches that remove a long-running page-cache scalability bottleneck in the Linux kernel. The series is not merged. Reviewers have already found a race condition and raised memory-reclamation concerns. Torvalds pushed a branch named noref-filemap-read-with-llm to his own repository. Phoronix spotted it while the kernel awaited the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck/\">Claude Code Helps Linux Creator Address Longstanding Kernel Memory Performance Bottleneck</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203516"
+        },
+        {
+          "title": "AI Agent Workflows Could Expose Credentials Through Trusted Developer Tools",
+          "url": "https://gbhackers.com/ai-agent-workflows/",
+          "published": "Thu, 15 Oct 2026 11:18:47 +0000",
+          "published_utc": "2026-10-15T11:18:47+00:00",
+          "summary": "<p>AI agents can expose credentials during routine development tasks, moving secrets from protected stores into command arguments, logs, transcripts, and inputs to external models. The concern is not that developer tools are inherently malicious. Rather, agents inherit developer privileges and repeatedly translate requests into shell commands, consuming their output before deciding what to execute next. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agent-workflows/\">AI Agent Workflows Could Expose Credentials Through Trusted Developer Tools</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203500"
+        },
+        {
+          "title": "Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution",
+          "url": "https://gbhackers.com/nextjs-svg-image-processing-vulnerability/",
+          "published": "Thu, 15 Oct 2026 10:36:48 +0000",
+          "published_utc": "2026-10-15T10:36:48+00:00",
+          "summary": "<p>Vercel has released an out-of-band security update for Next.js that fixes two critical remote code execution (RCE) flaws and one high-severity denial-of-service (DoS) bug. One of the critical flaws, CVE-2026-96889 (GHSA-2464-fhr4-w9xw), sits in the Image Optimization API and is triggered through SVG processing. Next.js SVG vulnerability According to security disclosures published by Vercel, the update [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nextjs-svg-image-processing-vulnerability/\">Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203496"
+        },
+        {
+          "title": "Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide",
+          "url": "https://gbhackers.com/iron-man-phishing-as-a-service/",
+          "published": "Thu, 15 Oct 2026 10:32:50 +0000",
+          "published_utc": "2026-10-15T10:32:50+00:00",
+          "summary": "<p>Iron Man System, a commercial phishing-as-a-service platform supplying criminals with ready-made websites impersonating banks, couriers, tax agencies, traffic authorities, and other trusted organizations worldwide. Researchers purchased a license through human intelligence operations and deployed the kit inside an isolated laboratory. Packet captures and configuration analysis connected the working deployment to vendor-controlled infrastructure, providing evidence beyond [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iron-man-phishing-as-a-service/\">Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203477"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

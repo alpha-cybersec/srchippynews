@@ -5,25 +5,29 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
-      "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
-    },
-    "FEEDBURNER": {
-      "label": "CyberSecurityNews-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/cyber-security-news",
-      "content_type": "text/xml; charset=utf-8",
+      "final_url": "https://cybersecuritynews.com/feed/",
+      "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "Cyber Security News",
       "article_count": 10,
       "articles": [
+        {
+          "title": "Burger King Japan Confirms Data Breach Exposing 11.18M User Records",
+          "url": "https://cybersecuritynews.com/burger-king-japan-data-breach/",
+          "published": "Thu, 15 Oct 2026 15:55:01 +0000",
+          "published_utc": "2026-10-15T15:55:01+00:00",
+          "summary": "<p>Burger King Japan has confirmed a data breach that exposed about 11.18 million records linked to members of its official app. BK Japan, which operates the chain in Japan, said an outside party gained unauthorized access to the system used to manage app member information. The company disclosed the incident on October 15, 2026. According [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/burger-king-japan-data-breach/\">Burger King Japan Confirms Data Breach Exposing 11.18M User Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167574"
+        },
+        {
+          "title": "Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets",
+          "url": "https://cybersecuritynews.com/chatgpt-github-connector-flaw/",
+          "published": "Thu, 15 Oct 2026 15:47:08 +0000",
+          "published_utc": "2026-10-15T15:47:08+00:00",
+          "summary": "<p>A critical flaw in ChatGPT’s GitHub integration has the potential to turn a routine repository review into a secret-theft attack. A report published on October 15, 2026, describes a scenario in which manipulated repository instructions allegedly lead an AI agent to modify a different private repository and trigger GitHub Actions. According to the researcher Sunil [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-github-connector-flaw/\">Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167570"
+        },
         {
           "title": "Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems",
           "url": "https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/",
@@ -87,22 +91,99 @@
           "published_utc": "2026-10-15T12:39:05+00:00",
           "summary": "<p>Next.js has released security updates for two critical vulnerabilities that could let remote attackers run malicious code without logging in. A third, high-severity flaw could stop affected applications from serving requests. The issues involve cached functions, SVG image processing, and Server Actions, with fixes available in Next.js 16.4.1 and 15.5.28. Published on October 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-vulnerabilities/\">Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=167455"
+        }
+      ],
+      "error": ""
+    },
+    "FEEDBURNER": {
+      "label": "CyberSecurityNews-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/cyber-security-news",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "final_url": "https://feeds.feedburner.com/cyber-security-news",
+      "content_type": "text/xml; charset=utf-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Burger King Japan Confirms Data Breach Exposing 11.18M User Records",
+          "url": "https://cybersecuritynews.com/burger-king-japan-data-breach/",
+          "published": "Thu, 15 Oct 2026 15:55:01 +0000",
+          "published_utc": "2026-10-15T15:55:01+00:00",
+          "summary": "<p>Burger King Japan has confirmed a data breach that exposed about 11.18 million records linked to members of its official app. BK Japan, which operates the chain in Japan, said an outside party gained unauthorized access to the system used to manage app member information. The company disclosed the incident on October 15, 2026. According [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/burger-king-japan-data-breach/\">Burger King Japan Confirms Data Breach Exposing 11.18M User Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167574"
         },
         {
-          "title": "Cartoon Network Gigaleak Exposes 200GB of Internal Animation Files and Production Secrets",
-          "url": "https://cybersecuritynews.com/cartoon-network-gigaleak-exposes/",
-          "published": "Thu, 15 Oct 2026 12:22:24 +0000",
-          "published_utc": "2026-10-15T12:22:24+00:00",
-          "summary": "<p>A reported Cartoon Network gigaleak has exposed more than 200GB of internal animation material, offering a rare look at how popular cartoons were made. The collection reportedly includes editable animation projects, character designs, storyboards, and production guides from The Amazing World of Gumball, Adventure Time, and Regular Show. However, the archive’s full size, source, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cartoon-network-gigaleak-exposes/\">Cartoon Network Gigaleak Exposes 200GB of Internal Animation Files and Production Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167441"
+          "title": "Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets",
+          "url": "https://cybersecuritynews.com/chatgpt-github-connector-flaw/",
+          "published": "Thu, 15 Oct 2026 15:47:08 +0000",
+          "published_utc": "2026-10-15T15:47:08+00:00",
+          "summary": "<p>A critical flaw in ChatGPT’s GitHub integration has the potential to turn a routine repository review into a secret-theft attack. A report published on October 15, 2026, describes a scenario in which manipulated repository instructions allegedly lead an AI agent to modify a different private repository and trigger GitHub Actions. According to the researcher Sunil [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-github-connector-flaw/\">Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167570"
         },
         {
-          "title": "Hackers Exploit Fortinet Vulnerabilities to Deploy Stealthy PEERSTITCH Malware on FortiGate Firewalls",
-          "url": "https://cybersecuritynews.com/fortinet-vulnerabilities/",
-          "published": "Thu, 15 Oct 2026 12:22:12 +0000",
-          "published_utc": "2026-10-15T12:22:12+00:00",
-          "summary": "<p>Attackers compromised a telecommunications managed service provider by exploiting vulnerabilities in Fortinet’s centralized management and firewall systems, then deployed PEERSTITCH, a stealthy malware implant that runs inside FortiGate processes. Unit 42 says the activity began with a breach of a FortiManager appliance and exposed configurations and sensitive data linked to more than 500 managed FortiGate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortinet-vulnerabilities/\">Hackers Exploit Fortinet Vulnerabilities to Deploy Stealthy PEERSTITCH Malware on FortiGate Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167456"
+          "title": "Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems",
+          "url": "https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/",
+          "published": "Thu, 15 Oct 2026 14:42:47 +0000",
+          "published_utc": "2026-10-15T14:42:47+00:00",
+          "summary": "<p>Citrix has disclosed four XenServer vulnerabilities, including three that could let a malicious user with elevated rights inside a virtual machine compromise or crash the underlying host. Citrix published the high-severity bulletin CTX697170 on October 13, 2026, covering XenServer 8.4 and XenServer 9. Citrix lists the advisory in its XenServer security bulletin archive. The host-impacting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/\">Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167464"
+        },
+        {
+          "title": "Hackers Use ClickFix and Python Tunnels to Prepare Systems for Ransomware Attacks",
+          "url": "https://cybersecuritynews.com/hackers-use-clickfix/",
+          "published": "Thu, 15 Oct 2026 14:30:51 +0000",
+          "published_utc": "2026-10-15T14:30:51+00:00",
+          "summary": "<p>Hackers are using ClickFix tricks to install malware loaders and Python tunnels on Windows systems, creating access that could support ransomware attacks. A late September incident shows how a user running a command can start an infection chain built around trusted Microsoft programs, hidden code, and encrypted network traffic. The attack was stopped before ransomware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-clickfix/\">Hackers Use ClickFix and Python Tunnels to Prepare Systems for Ransomware Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167523"
+        },
+        {
+          "title": "Chinese Phishing Network Linked to 1 Billion Messages Targeting 75,000 Organizations",
+          "url": "https://cybersecuritynews.com/chinese-phishing-network/",
+          "published": "Thu, 15 Oct 2026 14:25:16 +0000",
+          "published_utc": "2026-10-15T14:25:16+00:00",
+          "summary": "<p>A Chinese-run phishing network has been linked to one billion phishing emails targeting 75,000 organizations, according to a report published on October 14, 2026. The operation centers on Iron Man System, a paid phishing platform that lets criminals deploy fake websites and collect sensitive information without building their own tools. The report lists those headline [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chinese-phishing-network/\">Chinese Phishing Network Linked to 1 Billion Messages Targeting 75,000 Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167504"
+        },
+        {
+          "title": "Just Viewing an Online Ad Can Infect Your Device With Spyware, Researchers Reveal",
+          "url": "https://cybersecuritynews.com/0-click-spyware-infects-devices/",
+          "published": "Thu, 15 Oct 2026 14:16:37 +0000",
+          "published_utc": "2026-10-15T14:16:37+00:00",
+          "summary": "<p>Simply viewing an online advertisement can be enough to infect a device with powerful spyware, without the user clicking, downloading a file, or seeing any warning. Citizen Lab researchers documented what they call the first public technical proof of zero-click mercenary spyware delivered through targeted ads. The method, named “AdFection,” infected devices at international news [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/0-click-spyware-infects-devices/\">Just Viewing an Online Ad Can Infect Your Device With Spyware, Researchers Reveal</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167508"
+        },
+        {
+          "title": "AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets",
+          "url": "https://cybersecuritynews.com/ai-agents-4/",
+          "published": "Thu, 15 Oct 2026 13:55:34 +0000",
+          "published_utc": "2026-10-15T13:55:34+00:00",
+          "summary": "<p>AI agents can expose API keys and cloud secrets during ordinary work, even when no malware is present. When an agent runs a command, reads a configuration file or fetches a secret to complete a task. Even sensitive data can move from protected storage into command histories, logs, agent transcripts and the model’s context. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-4/\">AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167493"
+        },
+        {
+          "title": "UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978",
+          "url": "https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/",
+          "published": "Thu, 15 Oct 2026 12:54:56 +0000",
+          "published_utc": "2026-10-15T12:54:56+00:00",
+          "summary": "<p>The UK Legal Aid Agency (LAA) has confirmed that its 2025 cyberattack stole personal records dating back to 1978. An updated investigation found approximately 250,000 records from before 2007, widening the known scope of a breach that affected legal aid applicants, providers and some probation service users. In its October 14, 2026 update, the agency [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/\">UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167488"
+        },
+        {
+          "title": "KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs",
+          "url": "https://cybersecuritynews.com/kgb-rat-malware/",
+          "published": "Thu, 15 Oct 2026 12:52:34 +0000",
+          "published_utc": "2026-10-15T12:52:34+00:00",
+          "summary": "<p>A Windows remote access trojan called KGB RAT gives attackers a way to spy on infected computers, collect credentials and control a victim’s desktop. The malware is sold as a service and advertised with a “fully undetectable” crypter that its sellers claim can bypass Windows Defender and other antivirus products. That claim should be treated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kgb-rat-malware/\">KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167429"
+        },
+        {
+          "title": "Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely",
+          "url": "https://cybersecuritynews.com/critical-next-js-vulnerabilities/",
+          "published": "Thu, 15 Oct 2026 12:39:05 +0000",
+          "published_utc": "2026-10-15T12:39:05+00:00",
+          "summary": "<p>Next.js has released security updates for two critical vulnerabilities that could let remote attackers run malicious code without logging in. A third, high-severity flaw could stop affected applications from serving requests. The issues involve cached functions, SVG image processing, and Server Actions, with fixes available in Next.js 16.4.1 and 15.5.28. Published on October 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-vulnerabilities/\">Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167455"
         }
       ],
       "error": ""

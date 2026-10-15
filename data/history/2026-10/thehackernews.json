@@ -2,8 +2,64 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 119,
+  "article_count": 121,
   "articles": [
+    {
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "url": "http://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "published": "Thu, 15 Oct 2026 20:24:36 +0000",
+      "published_utc": "2026-10-15T20:24:36+00:00",
+      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3348898992174848269",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "content_hash": "948f9e91ecc9a818fdbf18b7774056cc53b3e11c657446adb8e12a2e70f03e9e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "948f9e91ecc9a818fdbf18b7774056cc53b3e11c657446adb8e12a2e70f03e9e",
+        "FEEDBURNER": "948f9e91ecc9a818fdbf18b7774056cc53b3e11c657446adb8e12a2e70f03e9e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T21:17:16.825754+00:00",
+      "first_seen_local": "2026-10-15T16:17:16.825752-05:00",
+      "last_updated_utc": "2026-10-15T21:17:16.825754+00:00",
+      "last_updated_local": "2026-10-15T16:17:16.825752-05:00"
+    },
+    {
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "url": "http://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "published": "Thu, 15 Oct 2026 18:49:33 +0000",
+      "published_utc": "2026-10-15T18:49:33+00:00",
+      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7991962059657400225",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "content_hash": "83664bd165826ef751c2486e6179cda376531aaa22340ffba4620122ddd3ce50",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "83664bd165826ef751c2486e6179cda376531aaa22340ffba4620122ddd3ce50",
+        "FEEDBURNER": "83664bd165826ef751c2486e6179cda376531aaa22340ffba4620122ddd3ce50"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T21:17:16.825754+00:00",
+      "first_seen_local": "2026-10-15T16:17:16.825752-05:00",
+      "last_updated_utc": "2026-10-15T21:17:16.825754+00:00",
+      "last_updated_local": "2026-10-15T16:17:16.825752-05:00"
+    },
     {
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "url": "http://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",

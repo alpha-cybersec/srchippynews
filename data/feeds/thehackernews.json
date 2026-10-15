@@ -10,103 +10,31 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 12,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-          "url": "http://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-          "published": "Wed, 14 Oct 2026 18:38:56 +0000",
-          "published_utc": "2026-10-14T18:38:56+00:00",
-          "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2987705014218464716"
+          "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+          "url": "http://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+          "published": "Thu, 15 Oct 2026 07:07:05 +0000",
+          "published_utc": "2026-10-15T07:07:05+00:00",
+          "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM.\n\nThe vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2610306732433099070"
         },
         {
-          "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-          "url": "http://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-          "published": "Wed, 14 Oct 2026 17:38:31 +0000",
-          "published_utc": "2026-10-14T17:38:31+00:00",
-          "summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10.\n\nA web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4371654909244933632"
+          "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+          "url": "http://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+          "published": "Thu, 15 Oct 2026 06:43:08 +0000",
+          "published_utc": "2026-10-15T06:43:08+00:00",
+          "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8713997784151179200"
         },
         {
-          "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-          "url": "http://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-          "published": "Wed, 14 Oct 2026 17:09:15 +0000",
-          "published_utc": "2026-10-14T17:09:15+00:00",
-          "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System.\n\n\"Since January 2026, the threat actors behind these kits have been responsible for",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2582424617439720485"
-        },
-        {
-          "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-          "url": "http://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-          "published": "Wed, 14 Oct 2026 16:34:31 +0000",
-          "published_utc": "2026-10-14T16:34:31+00:00",
-          "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1029149143159519178"
-        },
-        {
-          "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-          "url": "http://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-          "published": "Wed, 14 Oct 2026 12:30:42 +0000",
-          "published_utc": "2026-10-14T12:30:42+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\n\nThe security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7093270694234559015"
-        },
-        {
-          "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-          "url": "http://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-          "published": "Wed, 14 Oct 2026 12:13:36 +0000",
-          "published_utc": "2026-10-14T12:13:36+00:00",
-          "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5703735085708038188"
-        },
-        {
-          "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-          "url": "http://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-          "published": "Wed, 14 Oct 2026 11:50:00 +0000",
-          "published_utc": "2026-10-14T11:50:00+00:00",
-          "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\n\nThe call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-532141202951501394"
-        },
-        {
-          "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-          "url": "http://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-          "published": "Wed, 14 Oct 2026 11:19:02 +0000",
-          "published_utc": "2026-10-14T11:19:02+00:00",
-          "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs,&nbsp;fixed them, and paid XBOW its top $",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4162484171469771210"
-        },
-        {
-          "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-          "url": "http://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-          "published": "Wed, 14 Oct 2026 11:08:22 +0000",
-          "published_utc": "2026-10-14T11:08:22+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp;\n\nDutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1595597674598634735"
-        },
-        {
-          "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
-          "url": "http://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
-          "published": "Wed, 14 Oct 2026 11:00:00 +0000",
-          "published_utc": "2026-10-14T11:00:00+00:00",
-          "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.\n\nTL;DR\n\n\n  During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own.\n  One login request let the user choose where the one-time passcode went.\n  The attack was the easy part. Proving it",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8653006582242814421"
-        },
-        {
-          "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-          "url": "http://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
-          "published": "Wed, 14 Oct 2026 07:46:57 +0000",
-          "published_utc": "2026-10-14T07:46:57+00:00",
-          "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.\n\nThe bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9059903354456619439"
-        },
-        {
-          "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
-          "url": "http://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
-          "published": "Wed, 14 Oct 2026 05:52:28 +0000",
-          "published_utc": "2026-10-14T05:52:28+00:00",
-          "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.\n\nThe work was done in a lab as a proof of",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2162694192505036123"
+          "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+          "url": "http://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+          "published": "Thu, 15 Oct 2026 06:17:58 +0000",
+          "published_utc": "2026-10-15T06:17:58+00:00",
+          "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6248682266057438863"
         }
       ],
       "error": ""
@@ -119,103 +47,15 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 12,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-          "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-          "published": "Thu, 15 Oct 2026 00:08:56 +0530",
-          "published_utc": "2026-10-14T18:38:56+00:00",
-          "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
-          "id": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
-        },
-        {
-          "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-          "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-          "published": "Wed, 14 Oct 2026 23:08:31 +0530",
-          "published_utc": "2026-10-14T17:38:31+00:00",
-          "summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10.\n\nA web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
-          "id": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html"
-        },
-        {
-          "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-          "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-          "published": "Wed, 14 Oct 2026 22:39:15 +0530",
-          "published_utc": "2026-10-14T17:09:15+00:00",
-          "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System.\n\n\"Since January 2026, the threat actors behind these kits have been responsible for",
-          "id": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
-        },
-        {
-          "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-          "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-          "published": "Wed, 14 Oct 2026 22:04:31 +0530",
-          "published_utc": "2026-10-14T16:34:31+00:00",
-          "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
-          "id": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html"
-        },
-        {
-          "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-          "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-          "published": "Wed, 14 Oct 2026 18:00:42 +0530",
-          "published_utc": "2026-10-14T12:30:42+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\n\nThe security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
-          "id": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
-        },
-        {
-          "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-          "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-          "published": "Wed, 14 Oct 2026 17:43:36 +0530",
-          "published_utc": "2026-10-14T12:13:36+00:00",
-          "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
-          "id": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html"
-        },
-        {
-          "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-          "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-          "published": "Wed, 14 Oct 2026 17:20:00 +0530",
-          "published_utc": "2026-10-14T11:50:00+00:00",
-          "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\n\nThe call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
-          "id": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html"
-        },
-        {
-          "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-          "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-          "published": "Wed, 14 Oct 2026 16:49:02 +0530",
-          "published_utc": "2026-10-14T11:19:02+00:00",
-          "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs,&nbsp;fixed them, and paid XBOW its top $",
-          "id": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html"
-        },
-        {
-          "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-          "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-          "published": "Wed, 14 Oct 2026 16:38:22 +0530",
-          "published_utc": "2026-10-14T11:08:22+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp;\n\nDutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking",
-          "id": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
-        },
-        {
-          "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
-          "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
-          "published": "Wed, 14 Oct 2026 16:30:00 +0530",
-          "published_utc": "2026-10-14T11:00:00+00:00",
-          "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.\n\nTL;DR\n\n\n  During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own.\n  One login request let the user choose where the one-time passcode went.\n  The attack was the easy part. Proving it",
-          "id": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html"
-        },
-        {
-          "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-          "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
-          "published": "Wed, 14 Oct 2026 13:16:57 +0530",
-          "published_utc": "2026-10-14T07:46:57+00:00",
-          "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.\n\nThe bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the",
-          "id": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
-        },
-        {
-          "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
-          "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
-          "published": "Wed, 14 Oct 2026 11:22:28 +0530",
-          "published_utc": "2026-10-14T05:52:28+00:00",
-          "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.\n\nThe work was done in a lab as a proof of",
-          "id": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html"
+          "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+          "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+          "published": "Thu, 15 Oct 2026 11:47:58 +0530",
+          "published_utc": "2026-10-15T06:17:58+00:00",
+          "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+          "id": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
         }
       ],
       "error": ""

@@ -2,8 +2,88 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 106,
+  "article_count": 109,
   "articles": [
+    {
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "url": "http://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "published": "Thu, 15 Oct 2026 07:07:05 +0000",
+      "published_utc": "2026-10-15T07:07:05+00:00",
+      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM.\n\nThe vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2610306732433099070",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "content_hash": "5e67ed25e1b3a63c0fd1ea9bd50914df0c14f8345d8600f2af94d02acae43045",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5e67ed25e1b3a63c0fd1ea9bd50914df0c14f8345d8600f2af94d02acae43045"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:16.353475+00:00",
+      "first_seen_local": "2026-10-15T02:19:16.353473-05:00",
+      "last_updated_utc": "2026-10-15T07:19:16.353475+00:00",
+      "last_updated_local": "2026-10-15T02:19:16.353473-05:00"
+    },
+    {
+      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "url": "http://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "published": "Thu, 15 Oct 2026 06:43:08 +0000",
+      "published_utc": "2026-10-15T06:43:08+00:00",
+      "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8713997784151179200",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "content_hash": "636b3eeb53342358a31eec33cacd3b8d4741d4dd3ada52c98e20234b08f0d044",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "636b3eeb53342358a31eec33cacd3b8d4741d4dd3ada52c98e20234b08f0d044"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:16.353475+00:00",
+      "first_seen_local": "2026-10-15T02:19:16.353473-05:00",
+      "last_updated_utc": "2026-10-15T07:19:16.353475+00:00",
+      "last_updated_local": "2026-10-15T02:19:16.353473-05:00"
+    },
+    {
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "url": "http://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "published": "Thu, 15 Oct 2026 06:17:58 +0000",
+      "published_utc": "2026-10-15T06:17:58+00:00",
+      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6248682266057438863",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "content_hash": "a570f1fa205170ec7f859e01126385e967a4d5167af3aff5c1d1cc5b0ebc9455",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a570f1fa205170ec7f859e01126385e967a4d5167af3aff5c1d1cc5b0ebc9455",
+        "FEEDBURNER": "a570f1fa205170ec7f859e01126385e967a4d5167af3aff5c1d1cc5b0ebc9455"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:16.353475+00:00",
+      "first_seen_local": "2026-10-15T02:19:16.353473-05:00",
+      "last_updated_utc": "2026-10-15T07:19:16.353475+00:00",
+      "last_updated_local": "2026-10-15T02:19:16.353473-05:00"
+    },
     {
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "url": "http://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",

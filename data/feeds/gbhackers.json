@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Ransomware Gangs Threaten Employees’ Families as AI-Powered Attacks Escalate",
-          "url": "https://gbhackers.com/ransomware-gangs-threaten-employees-families/",
-          "published": "Wed, 14 Oct 2026 13:53:14 +0000",
-          "published_utc": "2026-10-14T13:53:14+00:00",
-          "summary": "<p>Ransomware operators are extending their extortion tactics beyond corporate networks by threatening employees&#8217; families and using artificial intelligence to enhance their attacks, according to the Semperis 2026 Ransomware Risk Report. Among the surveyed victims, 37% reported threats against their family members or friends, while 84% experienced attacks that involved AI in some form. The findings [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-gangs-threaten-employees-families/\">Ransomware Gangs Threaten Employees&#8217; Families as AI-Powered Attacks Escalate</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203390"
-        },
-        {
-          "title": "Google Pays $250,000 for AI-Assisted Chrome Exploit Enabling Windows Code Execution",
-          "url": "https://gbhackers.com/google-pays-250000-for-ai-assisted-chrome-exploit/",
-          "published": "Wed, 14 Oct 2026 12:13:37 +0000",
-          "published_utc": "2026-10-14T12:13:37+00:00",
-          "summary": "<p>Google has awarded XBOW $250,000 for creating an AI-assisted exploit chain that enabled code execution outside the Chrome browser’s renderer sandbox on Windows. This reward marks the first full-chain payout for Chrome under Google&#8217;s vulnerability reward program, introduced in April 2026. According to XBOW, all three vulnerabilities involved have since been fixed. Google Pays $250,000 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-pays-250000-for-ai-assisted-chrome-exploit/\">Google Pays $250,000 for AI-Assisted Chrome Exploit Enabling Windows Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203374"
-        },
-        {
-          "title": "Meta GitHub Repositories Compromised, Exposing Software Code and Employee Personal Data",
-          "url": "https://gbhackers.com/meta-github-repositories-compromised/",
-          "published": "Wed, 14 Oct 2026 12:05:38 +0000",
-          "published_utc": "2026-10-14T12:05:38+00:00",
-          "summary": "<p>Meta has revealed a breach of a GitHub repository that exposed software code and personal information belonging to about 1,500 individuals, most of whom are U.S. employees. The company began notifying affected individuals on October 13, after discovering the intrusion several weeks earlier, which involved the theft of an employee’s credentials. According to Meta’s statement [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/meta-github-repositories-compromised/\">Meta GitHub Repositories Compromised, Exposing Software Code and Employee Personal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203373"
-        },
-        {
-          "title": "Hackers Use Compromised Credentials to Infiltrate European Bank Through VPN",
-          "url": "https://gbhackers.com/vpn-credential-compromise/",
-          "published": "Wed, 14 Oct 2026 10:52:29 +0000",
-          "published_utc": "2026-10-14T10:52:29+00:00",
-          "summary": "<p>Hackers used compromised credentials to infiltrate a European bank through a misconfigured, third-party-managed VPN gateway, conducting months of reconnaissance and authentication attacks before endpoint defenses blocked an attempted escalation. The bank engaged Palo Alto Networks’ Unit 42 after its internal security team identified unusual activity affecting central IT infrastructure and uncovered unauthorized remote access attempts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vpn-credential-compromise/\">Hackers Use Compromised Credentials to Infiltrate European Bank Through VPN</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203360"
-        },
-        {
-          "title": "Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet",
-          "url": "https://gbhackers.com/windows-server-zero-day-flaw/",
-          "published": "Wed, 14 Oct 2026 10:17:18 +0000",
-          "published_utc": "2026-10-14T10:17:18+00:00",
-          "summary": "<p>Corelight researchers have disclosed a Windows Server vulnerability that lets attackers with network access crash affected systems with a single malicious DFS referral response. This vulnerability, tracked as CVE-2026-70111, affects Windows Server versions 2019, 2022, and 2025. According to Corelight’s disclosure on October 13, Microsoft addressed the flaw in its October 2026 updates. Notably, there [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-server-zero-day-flaw/\">Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203351"
-        },
-        {
-          "title": "Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws",
-          "url": "https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 10:06:59 +0000",
-          "published_utc": "2026-10-14T10:06:59+00:00",
-          "summary": "<p>Google has released Chrome 155 for Windows, macOS, and Linux, addressing 37 security vulnerabilities, including seven critical flaws. Announced on October 13, 2026, this desktop update resolves weaknesses across various browser components, including graphics, networking, PDF processing, media, and JavaScript execution. The update includes seven critical vulnerabilities, 29 high-severity issues, and one medium-severity vulnerability, making [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/\">Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203345"
-        },
-        {
-          "title": "Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer",
-          "url": "https://gbhackers.com/fake-watchguard-vpn-site/",
-          "published": "Wed, 14 Oct 2026 09:53:42 +0000",
-          "published_utc": "2026-10-14T09:53:42+00:00",
-          "summary": "<p>A WatchGuard VPN impersonation attack that steals connection credentials in the browser before delivering the vendor’s genuine, digitally signed installer. The campaign removes the malicious executable from the download chain, leaving victims with legitimate software. At the same time, attackers collect information needed to attempt unauthorized VPN access. The lure, watchguard-vpn[.]net, impersonated a WatchGuard Mobile [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-watchguard-vpn-site/\">Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203305"
-        },
-        {
-          "title": "Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges",
-          "url": "https://gbhackers.com/windows-bitlocker-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 09:01:53 +0000",
-          "published_utc": "2026-10-14T09:01:53+00:00",
-          "summary": "<p>Three Windows BitLocker vulnerabilities, as described in the provided advisory, could let attackers elevate privileges or bypass security protections under various access conditions. Microsoft is the assigning authority, with a release date of October 13, 2026, and all three vulnerabilities are rated Important. Two require existing local privileges, while the third requires physical access. We [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-bitlocker-vulnerabilities/\">Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203329"
-        },
-        {
-          "title": "Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution",
-          "url": "https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/",
-          "published": "Wed, 14 Oct 2026 08:42:19 +0000",
-          "published_utc": "2026-10-14T08:42:19+00:00",
-          "summary": "<p>Ivanti released security updates for Ivanti Connect Secure (ICS) to address CVE-2026-104935, a high-severity authentication-bypass vulnerability. This vulnerability allows remote, unauthenticated attackers to execute arbitrary commands. The company disclosed the issue on October 13, 2026. It confirmed that exploitation had affected a limited number of customers at the time of disclosure. Fixed software versions are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/\">Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203308"
-        },
-        {
-          "title": "Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication",
-          "url": "https://gbhackers.com/ivanti-vpn-zero-days/",
-          "published": "Wed, 14 Oct 2026 08:30:47 +0000",
-          "published_utc": "2026-10-14T08:30:47+00:00",
-          "summary": "<p>Attackers chained three zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances to execute commands as root without authentication, then searched the affected network for credentials and sensitive Active Directory data. Volexity attributed the activity to an unknown threat actor it tracks as UTA0576, which repeatedly exploited an appliance running version 22.8R2.4, Build 19097 the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-vpn-zero-days/\">Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203281"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -103,87 +22,31 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Ransomware Gangs Threaten Employees’ Families as AI-Powered Attacks Escalate",
-          "url": "https://gbhackers.com/ransomware-gangs-threaten-employees-families/",
-          "published": "Wed, 14 Oct 2026 13:53:14 +0000",
-          "published_utc": "2026-10-14T13:53:14+00:00",
-          "summary": "<p>Ransomware operators are extending their extortion tactics beyond corporate networks by threatening employees&#8217; families and using artificial intelligence to enhance their attacks, according to the Semperis 2026 Ransomware Risk Report. Among the surveyed victims, 37% reported threats against their family members or friends, while 84% experienced attacks that involved AI in some form. The findings [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-gangs-threaten-employees-families/\">Ransomware Gangs Threaten Employees&#8217; Families as AI-Powered Attacks Escalate</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203390"
+          "title": "11 Best Infrastructure as Code (IaC) Security Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/11-best-infrastructure-as-code-iac-security-tools-compared-2026-features-pricing/",
+          "published": "Thu, 15 Oct 2026 07:13:25 +0000",
+          "published_utc": "2026-10-15T07:13:25+00:00",
+          "summary": "<p>Checkov (Palo Alto’s OSS, counted once despite two sheet rows) anchors the free scanner floor, Snyk IaC and Wiz lead the platform lanes, and the IaC-management trio (env0, Spacelift, Firefly) embed guardrails where Terraform actually runs. Managing declarative templates requires mature Infrastructure-as-Code (IaC) management in the cloud because an overlooked line in a template can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/11-best-infrastructure-as-code-iac-security-tools-compared-2026-features-pricing/\">11 Best Infrastructure as Code (IaC) Security Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203161"
         },
         {
-          "title": "Google Pays $250,000 for AI-Assisted Chrome Exploit Enabling Windows Code Execution",
-          "url": "https://gbhackers.com/google-pays-250000-for-ai-assisted-chrome-exploit/",
-          "published": "Wed, 14 Oct 2026 12:13:37 +0000",
-          "published_utc": "2026-10-14T12:13:37+00:00",
-          "summary": "<p>Google has awarded XBOW $250,000 for creating an AI-assisted exploit chain that enabled code execution outside the Chrome browser’s renderer sandbox on Windows. This reward marks the first full-chain payout for Chrome under Google&#8217;s vulnerability reward program, introduced in April 2026. According to XBOW, all three vulnerabilities involved have since been fixed. Google Pays $250,000 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-pays-250000-for-ai-assisted-chrome-exploit/\">Google Pays $250,000 for AI-Assisted Chrome Exploit Enabling Windows Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203374"
+          "title": "10 Best Secrets Detection Tools Compared (2026): Features & Pricing",
+          "url": "https://gbhackers.com/best-secrets-detection-compared/",
+          "published": "Thu, 15 Oct 2026 07:04:55 +0000",
+          "published_utc": "2026-10-15T07:04:55+00:00",
+          "summary": "<p>GitGuardian anchors the dedicated platform lane, TruffleHog owns verification-first scanning (one vendor, despite two sheet rows), and GitHub’s native scanning plus Gitleaks set a free floor every team should exploit. With investigations revealing how a massive GitHub leak exposed over 39 million API keys and credentials, leaving authentication tokens in codebases is an invitation to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-secrets-detection-compared/\">10 Best Secrets Detection Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203049"
         },
         {
-          "title": "Meta GitHub Repositories Compromised, Exposing Software Code and Employee Personal Data",
-          "url": "https://gbhackers.com/meta-github-repositories-compromised/",
-          "published": "Wed, 14 Oct 2026 12:05:38 +0000",
-          "published_utc": "2026-10-14T12:05:38+00:00",
-          "summary": "<p>Meta has revealed a breach of a GitHub repository that exposed software code and personal information belonging to about 1,500 individuals, most of whom are U.S. employees. The company began notifying affected individuals on October 13, after discovering the intrusion several weeks earlier, which involved the theft of an employee’s credentials. According to Meta’s statement [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/meta-github-repositories-compromised/\">Meta GitHub Repositories Compromised, Exposing Software Code and Employee Personal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203373"
-        },
-        {
-          "title": "Hackers Use Compromised Credentials to Infiltrate European Bank Through VPN",
-          "url": "https://gbhackers.com/vpn-credential-compromise/",
-          "published": "Wed, 14 Oct 2026 10:52:29 +0000",
-          "published_utc": "2026-10-14T10:52:29+00:00",
-          "summary": "<p>Hackers used compromised credentials to infiltrate a European bank through a misconfigured, third-party-managed VPN gateway, conducting months of reconnaissance and authentication attacks before endpoint defenses blocked an attempted escalation. The bank engaged Palo Alto Networks’ Unit 42 after its internal security team identified unusual activity affecting central IT infrastructure and uncovered unauthorized remote access attempts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vpn-credential-compromise/\">Hackers Use Compromised Credentials to Infiltrate European Bank Through VPN</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203360"
-        },
-        {
-          "title": "Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet",
-          "url": "https://gbhackers.com/windows-server-zero-day-flaw/",
-          "published": "Wed, 14 Oct 2026 10:17:18 +0000",
-          "published_utc": "2026-10-14T10:17:18+00:00",
-          "summary": "<p>Corelight researchers have disclosed a Windows Server vulnerability that lets attackers with network access crash affected systems with a single malicious DFS referral response. This vulnerability, tracked as CVE-2026-70111, affects Windows Server versions 2019, 2022, and 2025. According to Corelight’s disclosure on October 13, Microsoft addressed the flaw in its October 2026 updates. Notably, there [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-server-zero-day-flaw/\">Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203351"
-        },
-        {
-          "title": "Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws",
-          "url": "https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 10:06:59 +0000",
-          "published_utc": "2026-10-14T10:06:59+00:00",
-          "summary": "<p>Google has released Chrome 155 for Windows, macOS, and Linux, addressing 37 security vulnerabilities, including seven critical flaws. Announced on October 13, 2026, this desktop update resolves weaknesses across various browser components, including graphics, networking, PDF processing, media, and JavaScript execution. The update includes seven critical vulnerabilities, 29 high-severity issues, and one medium-severity vulnerability, making [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/\">Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203345"
-        },
-        {
-          "title": "Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer",
-          "url": "https://gbhackers.com/fake-watchguard-vpn-site/",
-          "published": "Wed, 14 Oct 2026 09:53:42 +0000",
-          "published_utc": "2026-10-14T09:53:42+00:00",
-          "summary": "<p>A WatchGuard VPN impersonation attack that steals connection credentials in the browser before delivering the vendor’s genuine, digitally signed installer. The campaign removes the malicious executable from the download chain, leaving victims with legitimate software. At the same time, attackers collect information needed to attempt unauthorized VPN access. The lure, watchguard-vpn[.]net, impersonated a WatchGuard Mobile [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-watchguard-vpn-site/\">Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203305"
-        },
-        {
-          "title": "Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges",
-          "url": "https://gbhackers.com/windows-bitlocker-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 09:01:53 +0000",
-          "published_utc": "2026-10-14T09:01:53+00:00",
-          "summary": "<p>Three Windows BitLocker vulnerabilities, as described in the provided advisory, could let attackers elevate privileges or bypass security protections under various access conditions. Microsoft is the assigning authority, with a release date of October 13, 2026, and all three vulnerabilities are rated Important. Two require existing local privileges, while the third requires physical access. We [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-bitlocker-vulnerabilities/\">Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203329"
-        },
-        {
-          "title": "Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution",
-          "url": "https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/",
-          "published": "Wed, 14 Oct 2026 08:42:19 +0000",
-          "published_utc": "2026-10-14T08:42:19+00:00",
-          "summary": "<p>Ivanti released security updates for Ivanti Connect Secure (ICS) to address CVE-2026-104935, a high-severity authentication-bypass vulnerability. This vulnerability allows remote, unauthenticated attackers to execute arbitrary commands. The company disclosed the issue on October 13, 2026. It confirmed that exploitation had affected a limited number of customers at the time of disclosure. Fixed software versions are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/\">Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203308"
-        },
-        {
-          "title": "Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication",
-          "url": "https://gbhackers.com/ivanti-vpn-zero-days/",
-          "published": "Wed, 14 Oct 2026 08:30:47 +0000",
-          "published_utc": "2026-10-14T08:30:47+00:00",
-          "summary": "<p>Attackers chained three zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances to execute commands as root without authentication, then searched the affected network for credentials and sensitive Active Directory data. Volexity attributed the activity to an unknown threat actor it tracks as UTA0576, which repeatedly exploited an appliance running version 22.8R2.4, Build 19097 the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-vpn-zero-days/\">Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203281"
+          "title": "KGB RAT Uses FUD Crypter to Evade Windows Defender and Spy on Victims",
+          "url": "https://gbhackers.com/kgb-rat-malware/",
+          "published": "Thu, 15 Oct 2026 06:41:41 +0000",
+          "published_utc": "2026-10-15T06:41:41+00:00",
+          "summary": "<p>KGB RAT, a Windows remote access trojan marketed as legitimate administration software, combines surveillance, credential theft, and configurable malicious functions with a built-in crypter advertised to evade Windows Defender. Researchers identified unobfuscated payloads, obfuscated variants, and encrypted loaders that reconstruct malware during execution. This distinction matters: the crypter conceals the underlying payload, while the deployed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kgb-rat-malware/\">KGB RAT Uses FUD Crypter to Evade Windows Defender and Spy on Victims</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203429"
         }
       ],
       "error": ""

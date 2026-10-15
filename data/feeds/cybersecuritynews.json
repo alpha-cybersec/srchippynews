@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
-          "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 18:19:03 +0000",
-          "published_utc": "2026-10-14T18:19:03+00:00",
-          "summary": "<p>F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167376"
-        },
-        {
-          "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
-          "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 16:46:52 +0000",
-          "published_utc": "2026-10-14T16:46:52+00:00",
-          "summary": "<p>The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/\">24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167336"
-        },
-        {
-          "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
-          "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
-          "published": "Wed, 14 Oct 2026 16:29:10 +0000",
-          "published_utc": "2026-10-14T16:29:10+00:00",
-          "summary": "<p>As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t.&#160;That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/\">How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167305"
-        },
-        {
-          "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
-          "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
-          "published": "Wed, 14 Oct 2026 15:51:38 +0000",
-          "published_utc": "2026-10-14T15:51:38+00:00",
-          "summary": "<p>Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and display [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/\">Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error &#8220;0xC000000D&#8221;</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167312"
-        },
-        {
-          "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
-          "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",
-          "published": "Wed, 14 Oct 2026 14:08:23 +0000",
-          "published_utc": "2026-10-14T14:08:23+00:00",
-          "summary": "<p>Hackers used a fake WatchGuard VPN download website to steal login details before offering visitors the real, digitally signed VPN installer. The attack collected a VPN server address, username, and password through a browser pop-up, leaving victims exposed without installing a malicious client. The campaign shows how a normal software search can lead to credential [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-watchguard-vpn/\">Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167303"
-        },
-        {
-          "title": "Meta, Google, Microsoft and OpenAI Join Global Crackdown on West African Scam Networks",
-          "url": "https://cybersecuritynews.com/west-african-scam-networks/",
-          "published": "Wed, 14 Oct 2026 13:44:57 +0000",
-          "published_utc": "2026-10-14T13:44:57+00:00",
-          "summary": "<p>Meta, Google, Microsoft and OpenAI joined an international crackdown on West African scam networks that removed more than 3.7 million Facebook and Instagram accounts, pages and groups. Announced on October 13, 2026, the operation led to 28 arrests and the rescue of 117 people forced to work inside scam centers. The United Kingdom’s National Crime [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/west-african-scam-networks/\">Meta, Google, Microsoft and OpenAI Join Global Crackdown on West African Scam Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167292"
-        },
-        {
-          "title": "PoC Released for Linux Vhost Flaw Enabling Root Privilege Escalation and VM Escape",
-          "url": "https://cybersecuritynews.com/poc-released-for-linux-vhost-flaw/",
-          "published": "Wed, 14 Oct 2026 13:19:35 +0000",
-          "published_utc": "2026-10-14T13:19:35+00:00",
-          "summary": "<p>A public proof of concept for Vghost, a high-severity Linux vhost flaw tracked as CVE-2026-74580, shows how the bug can let a local user gain root access or, in certain virtual machine setups, break out of a guest and affect the host. The issue has a CVSS v3.1 score of 8.8 and is fixed in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-linux-vhost-flaw/\">PoC Released for Linux Vhost Flaw Enabling Root Privilege Escalation and VM Escape</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167226"
-        },
-        {
-          "title": "FBI Disrupts North Korean Famous Chollima Laptop Farms Used to Infiltrate U.S. Companies",
-          "url": "https://cybersecuritynews.com/famous-chollima/",
-          "published": "Wed, 14 Oct 2026 12:37:23 +0000",
-          "published_utc": "2026-10-14T12:37:23+00:00",
-          "summary": "<p>The FBI disrupted several U.S. laptop farms used by North Korean threat group FAMOUS CHOLLIMA in late September 2026, cutting off infrastructure that helped fake remote workers enter American companies. CrowdStrike disclosed the joint operation on October 13, describing it as the start of a wider effort against the group’s domestic support network. The farms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/famous-chollima/\">FBI Disrupts North Korean Famous Chollima Laptop Farms Used to Infiltrate U.S. Companies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167212"
-        },
-        {
-          "title": "VirusTotal Integrates Threat Intelligence With ChatGPT for Malware Analysis",
-          "url": "https://cybersecuritynews.com/virustotal-chatgpt-integration/",
-          "published": "Wed, 14 Oct 2026 10:45:17 +0000",
-          "published_utc": "2026-10-14T10:45:17+00:00",
-          "summary": "<p>VirusTotal can now bring threat intelligence into ChatGPT through VirusTotal AI (VTAI), allowing users to investigate suspicious files, URLs, domains, and IP addresses within a conversation. The connection helps analysts retrieve existing reports and explain detection results while keeping the source, analysis date, and coverage visible. The integration uses Model Context Protocol (MCP), a standard [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/virustotal-chatgpt-integration/\">VirusTotal Integrates Threat Intelligence With ChatGPT for Malware Analysis</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167224"
-        },
-        {
-          "title": "Google Awarded $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6",
-          "url": "https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/",
-          "published": "Wed, 14 Oct 2026 09:37:45 +0000",
-          "published_utc": "2026-10-14T09:37:45+00:00",
-          "summary": "<p>Security researchers earned a $250,000 reward from Google after building a full-chain Chrome exploit with AI agents. The XBOW team says the work took six days and about $40,000 in computing costs, using OpenAI’s publicly available GPT-5.6 Sol model. Google has fixed the flaws. XBOW disclosed the work on October 13, 2026. Its chain linked [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/\">Google Awarded $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167207"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -103,87 +22,15 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
-          "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 18:19:03 +0000",
-          "published_utc": "2026-10-14T18:19:03+00:00",
-          "summary": "<p>F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-nginx-vulnerabilities/\">Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167376"
-        },
-        {
-          "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
-          "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
-          "published": "Wed, 14 Oct 2026 16:46:52 +0000",
-          "published_utc": "2026-10-14T16:46:52+00:00",
-          "summary": "<p>The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/\">24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167336"
-        },
-        {
-          "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
-          "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
-          "published": "Wed, 14 Oct 2026 16:29:10 +0000",
-          "published_utc": "2026-10-14T16:29:10+00:00",
-          "summary": "<p>As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t.&#160;That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/\">How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167305"
-        },
-        {
-          "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
-          "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
-          "published": "Wed, 14 Oct 2026 15:51:38 +0000",
-          "published_utc": "2026-10-14T15:51:38+00:00",
-          "summary": "<p>Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and display [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/\">Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error &#8220;0xC000000D&#8221;</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167312"
-        },
-        {
-          "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
-          "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",
-          "published": "Wed, 14 Oct 2026 14:08:23 +0000",
-          "published_utc": "2026-10-14T14:08:23+00:00",
-          "summary": "<p>Hackers used a fake WatchGuard VPN download website to steal login details before offering visitors the real, digitally signed VPN installer. The attack collected a VPN server address, username, and password through a browser pop-up, leaving victims exposed without installing a malicious client. The campaign shows how a normal software search can lead to credential [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-watchguard-vpn/\">Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167303"
-        },
-        {
-          "title": "Meta, Google, Microsoft and OpenAI Join Global Crackdown on West African Scam Networks",
-          "url": "https://cybersecuritynews.com/west-african-scam-networks/",
-          "published": "Wed, 14 Oct 2026 13:44:57 +0000",
-          "published_utc": "2026-10-14T13:44:57+00:00",
-          "summary": "<p>Meta, Google, Microsoft and OpenAI joined an international crackdown on West African scam networks that removed more than 3.7 million Facebook and Instagram accounts, pages and groups. Announced on October 13, 2026, the operation led to 28 arrests and the rescue of 117 people forced to work inside scam centers. The United Kingdom’s National Crime [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/west-african-scam-networks/\">Meta, Google, Microsoft and OpenAI Join Global Crackdown on West African Scam Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167292"
-        },
-        {
-          "title": "PoC Released for Linux Vhost Flaw Enabling Root Privilege Escalation and VM Escape",
-          "url": "https://cybersecuritynews.com/poc-released-for-linux-vhost-flaw/",
-          "published": "Wed, 14 Oct 2026 13:19:35 +0000",
-          "published_utc": "2026-10-14T13:19:35+00:00",
-          "summary": "<p>A public proof of concept for Vghost, a high-severity Linux vhost flaw tracked as CVE-2026-74580, shows how the bug can let a local user gain root access or, in certain virtual machine setups, break out of a guest and affect the host. The issue has a CVSS v3.1 score of 8.8 and is fixed in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-linux-vhost-flaw/\">PoC Released for Linux Vhost Flaw Enabling Root Privilege Escalation and VM Escape</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167226"
-        },
-        {
-          "title": "FBI Disrupts North Korean Famous Chollima Laptop Farms Used to Infiltrate U.S. Companies",
-          "url": "https://cybersecuritynews.com/famous-chollima/",
-          "published": "Wed, 14 Oct 2026 12:37:23 +0000",
-          "published_utc": "2026-10-14T12:37:23+00:00",
-          "summary": "<p>The FBI disrupted several U.S. laptop farms used by North Korean threat group FAMOUS CHOLLIMA in late September 2026, cutting off infrastructure that helped fake remote workers enter American companies. CrowdStrike disclosed the joint operation on October 13, describing it as the start of a wider effort against the group’s domestic support network. The farms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/famous-chollima/\">FBI Disrupts North Korean Famous Chollima Laptop Farms Used to Infiltrate U.S. Companies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167212"
-        },
-        {
-          "title": "VirusTotal Integrates Threat Intelligence With ChatGPT for Malware Analysis",
-          "url": "https://cybersecuritynews.com/virustotal-chatgpt-integration/",
-          "published": "Wed, 14 Oct 2026 10:45:17 +0000",
-          "published_utc": "2026-10-14T10:45:17+00:00",
-          "summary": "<p>VirusTotal can now bring threat intelligence into ChatGPT through VirusTotal AI (VTAI), allowing users to investigate suspicious files, URLs, domains, and IP addresses within a conversation. The connection helps analysts retrieve existing reports and explain detection results while keeping the source, analysis date, and coverage visible. The integration uses Model Context Protocol (MCP), a standard [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/virustotal-chatgpt-integration/\">VirusTotal Integrates Threat Intelligence With ChatGPT for Malware Analysis</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167224"
-        },
-        {
-          "title": "Google Awarded $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6",
-          "url": "https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/",
-          "published": "Wed, 14 Oct 2026 09:37:45 +0000",
-          "published_utc": "2026-10-14T09:37:45+00:00",
-          "summary": "<p>Security researchers earned a $250,000 reward from Google after building a full-chain Chrome exploit with AI agents. The XBOW team says the work took six days and about $40,000 in computing costs, using OpenAI’s publicly available GPT-5.6 Sol model. Google has fixed the flaws. XBOW disclosed the work on October 13, 2026. Its chain linked [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/\">Google Awarded $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167207"
+          "title": "Fake Chrome App on Google Play Evades Detection and Reaches 100,000+ Downloads",
+          "url": "https://cybersecuritynews.com/fake-chrome-app/",
+          "published": "Thu, 15 Oct 2026 06:03:34 +0000",
+          "published_utc": "2026-10-15T06:03:34+00:00",
+          "summary": "<p>A fake Google Chrome app appeared on Google Play with a screenshot showing more than 100,000 downloads, raising fresh concerns about app checks and paid search results. The listing copied Chrome’s name, icon, and description, but its developer was Hizbartech rather than Google LLC. The app reportedly appeared above the real browser as a sponsored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-chrome-app/\">Fake Chrome App on Google Play Evades Detection and Reaches 100,000+ Downloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167407"
         }
       ],
       "error": ""

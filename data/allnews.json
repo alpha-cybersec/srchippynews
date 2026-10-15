@@ -1,7 +1,198 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-15T07:19:16.360436+00:00",
+  "generated_at_local": "2026-10-15T02:19:16.360446-05:00",
+  "article_count": 7,
+  "new_count": 7,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "gbhackers": 3,
+    "thehackernews": 3,
+    "cybersecuritynews": 1
+  },
+  "articles": [
+    {
+      "title": "11 Best Infrastructure as Code (IaC) Security Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/11-best-infrastructure-as-code-iac-security-tools-compared-2026-features-pricing/",
+      "published": "Thu, 15 Oct 2026 07:13:25 +0000",
+      "published_utc": "2026-10-15T07:13:25+00:00",
+      "summary": "<p>Checkov (Palo Alto’s OSS, counted once despite two sheet rows) anchors the free scanner floor, Snyk IaC and Wiz lead the platform lanes, and the IaC-management trio (env0, Spacelift, Firefly) embed guardrails where Terraform actually runs. Managing declarative templates requires mature Infrastructure-as-Code (IaC) management in the cloud because an overlooked line in a template can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/11-best-infrastructure-as-code-iac-security-tools-compared-2026-features-pricing/\">11 Best Infrastructure as Code (IaC) Security Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203161",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/11-best-infrastructure-as-code-iac-security-tools-compared-2026-features-pricing",
+      "content_hash": "4b1ca4f40e6c835a49885f91abb03ef12897e38fb1fc655535cb8273a78e09ee",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4b1ca4f40e6c835a49885f91abb03ef12897e38fb1fc655535cb8273a78e09ee"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:10.061645+00:00",
+      "first_seen_local": "2026-10-15T02:19:10.061642-05:00",
+      "last_updated_utc": "2026-10-15T07:19:10.061645+00:00",
+      "last_updated_local": "2026-10-15T02:19:10.061642-05:00"
+    },
+    {
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "url": "http://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "published": "Thu, 15 Oct 2026 07:07:05 +0000",
+      "published_utc": "2026-10-15T07:07:05+00:00",
+      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM.\n\nThe vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2610306732433099070",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "content_hash": "5e67ed25e1b3a63c0fd1ea9bd50914df0c14f8345d8600f2af94d02acae43045",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5e67ed25e1b3a63c0fd1ea9bd50914df0c14f8345d8600f2af94d02acae43045"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:16.353475+00:00",
+      "first_seen_local": "2026-10-15T02:19:16.353473-05:00",
+      "last_updated_utc": "2026-10-15T07:19:16.353475+00:00",
+      "last_updated_local": "2026-10-15T02:19:16.353473-05:00"
+    },
+    {
+      "title": "10 Best Secrets Detection Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-secrets-detection-compared/",
+      "published": "Thu, 15 Oct 2026 07:04:55 +0000",
+      "published_utc": "2026-10-15T07:04:55+00:00",
+      "summary": "<p>GitGuardian anchors the dedicated platform lane, TruffleHog owns verification-first scanning (one vendor, despite two sheet rows), and GitHub’s native scanning plus Gitleaks set a free floor every team should exploit. With investigations revealing how a massive GitHub leak exposed over 39 million API keys and credentials, leaving authentication tokens in codebases is an invitation to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-secrets-detection-compared/\">10 Best Secrets Detection Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203049",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-secrets-detection-compared",
+      "content_hash": "a3ac4dca41ac417bac23c3d781be6f974708e2194bacc0bd104cc4092cddf946",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a3ac4dca41ac417bac23c3d781be6f974708e2194bacc0bd104cc4092cddf946"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:10.061645+00:00",
+      "first_seen_local": "2026-10-15T02:19:10.061642-05:00",
+      "last_updated_utc": "2026-10-15T07:19:10.061645+00:00",
+      "last_updated_local": "2026-10-15T02:19:10.061642-05:00"
+    },
+    {
+      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "url": "http://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "published": "Thu, 15 Oct 2026 06:43:08 +0000",
+      "published_utc": "2026-10-15T06:43:08+00:00",
+      "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8713997784151179200",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "content_hash": "636b3eeb53342358a31eec33cacd3b8d4741d4dd3ada52c98e20234b08f0d044",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "636b3eeb53342358a31eec33cacd3b8d4741d4dd3ada52c98e20234b08f0d044"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:16.353475+00:00",
+      "first_seen_local": "2026-10-15T02:19:16.353473-05:00",
+      "last_updated_utc": "2026-10-15T07:19:16.353475+00:00",
+      "last_updated_local": "2026-10-15T02:19:16.353473-05:00"
+    },
+    {
+      "title": "KGB RAT Uses FUD Crypter to Evade Windows Defender and Spy on Victims",
+      "url": "https://gbhackers.com/kgb-rat-malware/",
+      "published": "Thu, 15 Oct 2026 06:41:41 +0000",
+      "published_utc": "2026-10-15T06:41:41+00:00",
+      "summary": "<p>KGB RAT, a Windows remote access trojan marketed as legitimate administration software, combines surveillance, credential theft, and configurable malicious functions with a built-in crypter advertised to evade Windows Defender. Researchers identified unobfuscated payloads, obfuscated variants, and encrypted loaders that reconstruct malware during execution. This distinction matters: the crypter conceals the underlying payload, while the deployed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kgb-rat-malware/\">KGB RAT Uses FUD Crypter to Evade Windows Defender and Spy on Victims</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203429",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/kgb-rat-malware",
+      "content_hash": "b766422a5f9628b91e3c8e3d6a5b0c4f6ff29f255b8dd602ef46df29f9414040",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "b766422a5f9628b91e3c8e3d6a5b0c4f6ff29f255b8dd602ef46df29f9414040"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:10.061645+00:00",
+      "first_seen_local": "2026-10-15T02:19:10.061642-05:00",
+      "last_updated_utc": "2026-10-15T07:19:10.061645+00:00",
+      "last_updated_local": "2026-10-15T02:19:10.061642-05:00"
+    },
+    {
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "url": "http://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "published": "Thu, 15 Oct 2026 06:17:58 +0000",
+      "published_utc": "2026-10-15T06:17:58+00:00",
+      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6248682266057438863",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "content_hash": "a570f1fa205170ec7f859e01126385e967a4d5167af3aff5c1d1cc5b0ebc9455",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a570f1fa205170ec7f859e01126385e967a4d5167af3aff5c1d1cc5b0ebc9455",
+        "FEEDBURNER": "a570f1fa205170ec7f859e01126385e967a4d5167af3aff5c1d1cc5b0ebc9455"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:16.353475+00:00",
+      "first_seen_local": "2026-10-15T02:19:16.353473-05:00",
+      "last_updated_utc": "2026-10-15T07:19:16.353475+00:00",
+      "last_updated_local": "2026-10-15T02:19:16.353473-05:00"
+    },
+    {
+      "title": "Fake Chrome App on Google Play Evades Detection and Reaches 100,000+ Downloads",
+      "url": "https://cybersecuritynews.com/fake-chrome-app/",
+      "published": "Thu, 15 Oct 2026 06:03:34 +0000",
+      "published_utc": "2026-10-15T06:03:34+00:00",
+      "summary": "<p>A fake Google Chrome app appeared on Google Play with a screenshot showing more than 100,000 downloads, raising fresh concerns about app checks and paid search results. The listing copied Chrome’s name, icon, and description, but its developer was Hizbartech rather than Google LLC. The app reportedly appeared above the real browser as a sponsored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-chrome-app/\">Fake Chrome App on Google Play Evades Detection and Reaches 100,000+ Downloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167407",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-chrome-app",
+      "content_hash": "41916d3cd2606c9a06df6458b76febdf02fa8dddc0b000199ec559a6f6a3b917",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "41916d3cd2606c9a06df6458b76febdf02fa8dddc0b000199ec559a6f6a3b917"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T07:19:10.661800+00:00",
+      "first_seen_local": "2026-10-15T02:19:10.661796-05:00",
+      "last_updated_utc": "2026-10-15T07:19:10.661800+00:00",
+      "last_updated_local": "2026-10-15T02:19:10.661796-05:00"
+    }
+  ]
 }

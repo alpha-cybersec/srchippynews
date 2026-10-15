@@ -5,13 +5,73 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
+      "status": "FAILED",
+      "http_status": 202,
+      "final_url": "https://gbhackers.com/feed/",
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
+    },
+    "FEEDBURNER": {
+      "label": "GBHackers-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/gbhackers",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
+      "final_url": "https://feeds.feedburner.com/gbhackers",
+      "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
       "article_count": 10,
       "articles": [
+        {
+          "title": "Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
+          "url": "https://gbhackers.com/cisco-secure-email-gateway-zero-day/",
+          "published": "Thu, 15 Oct 2026 15:12:46 +0000",
+          "published_utc": "2026-10-15T15:12:46+00:00",
+          "summary": "<p>Cisco has warned that attackers are actively exploiting a zero-day flaw in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway. An unauthenticated remote attacker can use it to write arbitrary files and run commands as root on the underlying operating system. The advisory, cisco-sa-esa-afw-zqYJkjxp, says Cisco PSIRT learned of active exploitation in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-secure-email-gateway-zero-day/\">Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203557"
+        },
+        {
+          "title": "Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks",
+          "url": "https://gbhackers.com/palo-alto-pan-os-zero-day/",
+          "published": "Thu, 15 Oct 2026 15:01:28 +0000",
+          "published_utc": "2026-10-15T15:01:28+00:00",
+          "summary": "<p>Palo Alto Networks has warned that attackers are exploiting a high-severity remote code execution flaw in the PAN-OS management interface. Tracked as CVE-2026-0322, the bug lets an authenticated attacker with network access run arbitrary code with root privileges on the firewall. PAN-OS zero-day vulnerability The flaw is a code injection weakness (CWE-94, CAPEC-242) in the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-pan-os-zero-day/\">Palo Alto Warns of PAN-OS 0-day Flaw Actively Exploited in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203554"
+        },
+        {
+          "title": "Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click",
+          "url": "https://gbhackers.com/online-ads-spyware-attacks/",
+          "published": "Thu, 15 Oct 2026 14:51:16 +0000",
+          "published_utc": "2026-10-15T14:51:16+00:00",
+          "summary": "<p>Citizen Lab has confirmed the first public case of zero-click mercenary spyware delivered through targeted online ads. It calls the technique &#8220;AdFection&#8221;. The attack hit devices at Al Jazeera with Candiru spyware, and the ads were bought by an Israeli ad-tech firm called Discover-Tech. zero-click spyware attacks Online ads are sold in real-time auctions that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/online-ads-spyware-attacks/\">Hackers Use Online Ads to Infect Devices With Spyware Without a Single Click</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203551"
+        },
+        {
+          "title": "New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory",
+          "url": "https://gbhackers.com/peerstitch-malware/",
+          "published": "Thu, 15 Oct 2026 13:21:42 +0000",
+          "published_utc": "2026-10-15T13:21:42+00:00",
+          "summary": "<p>PEERSTITCH, a memory-resident ARM64 implant deployed against FortiGate firewalls during a prolonged intrusion into a telecommunications managed service provider. The malware hijacks legitimate FortiOS processes, leaving no persistent executable, opening no listening ports, and initiating no outbound connections of its own. Published October 14, the investigation tracks the activity as CL-STA-0954, also known as UNC5820. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/peerstitch-malware/\">New PEERSTITCH Malware Targets FortiGate Firewalls and Hides Inside System Memory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203534"
+        },
+        {
+          "title": "Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack",
+          "url": "https://gbhackers.com/uk-legal-aid-cyberattack/",
+          "published": "Thu, 15 Oct 2026 13:07:35 +0000",
+          "published_utc": "2026-10-15T13:07:35+00:00",
+          "summary": "<p>The UK&#8217;s Legal Aid Agency (LAA) now says the 2025 data breach exposed far older data than first reported. About 250,000 stolen records predate 2007, and the earliest verified record is from 1978. UK legal aid cyberattack The LAA identified a cyber-attack on its online digital services on Wednesday 23 April 2025. It secured its [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uk-legal-aid-cyberattack/\">Hackers Steal UK Legal Aid Records Dating Back to 1978 in Major Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203540"
+        },
+        {
+          "title": "New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access",
+          "url": "https://gbhackers.com/lorem-ipsum-malware-deployment/",
+          "published": "Thu, 15 Oct 2026 12:53:10 +0000",
+          "published_utc": "2026-10-15T12:53:10+00:00",
+          "summary": "<p>A ClickFix campaign uses the Lorem Ipsum Loader to install a Python-based tunneling implant, giving attackers a covert route into victims’ networks and potentially laying the groundwork for ransomware deployment. In an incident investigated in late September, defenders contained the intrusion before ransomware was deployed; the tunnel’s remote-access capability nevertheless made the compromised host a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lorem-ipsum-malware-deployment/\">New ClickFix Attack Deploys Lorem Ipsum Malware Loader to Establish Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203508"
+        },
         {
           "title": "Claude Code Helps Linux Creator Address Longstanding Kernel Memory Performance Bottleneck",
           "url": "https://gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck/",
@@ -43,147 +103,6 @@
           "published_utc": "2026-10-15T10:32:50+00:00",
           "summary": "<p>Iron Man System, a commercial phishing-as-a-service platform supplying criminals with ready-made websites impersonating banks, couriers, tax agencies, traffic authorities, and other trusted organizations worldwide. Researchers purchased a license through human intelligence operations and deployed the kit inside an isolated laboratory. Packet captures and configuration analysis connected the working deployment to vendor-controlled infrastructure, providing evidence beyond [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iron-man-phishing-as-a-service/\">Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=203477"
-        },
-        {
-          "title": "Citrix Patches XenServer Vulnerabilities That Could Enable Host Compromise",
-          "url": "https://gbhackers.com/citrix-xenserver-uniconos-vulnerabilities/",
-          "published": "Thu, 15 Oct 2026 10:23:46 +0000",
-          "published_utc": "2026-10-15T10:23:46+00:00",
-          "summary": "<p>Citrix has released security updates for XenServer 8.4 and XenServer 9. The updates fix several vulnerabilities, three of which could let a malicious privileged guest VM user compromise or crash the underlying host. Cloud Software Group rated the bulletin High severity. Citrix XenServer vulnerabilities According to the advisory published by Citrix on October 13, 2026 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-xenserver-uniconos-vulnerabilities/\">Citrix Patches XenServer Vulnerabilities That Could Enable Host Compromise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203490"
-        },
-        {
-          "title": "Cartoon Network Leak Exposes 200GB of Source Files, Storyboards and Animation Assets",
-          "url": "https://gbhackers.com/cartoon-network-data-leak/",
-          "published": "Thu, 15 Oct 2026 09:52:14 +0000",
-          "published_utc": "2026-10-15T09:52:14+00:00",
-          "summary": "<p>A large cache of internal Cartoon Network production material is circulating online. It reportedly exceeds 200GB and includes source files, storyboards and animation assets from several decades of shows. Fans have nicknamed it the &#8220;Classic CN Gigaleak.&#8221; The size, origin and completeness of the data have not been independently verified. Cartoon Network leak According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cartoon-network-data-leak/\">Cartoon Network Leak Exposes 200GB of Source Files, Storyboards and Animation Assets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203481"
-        },
-        {
-          "title": "PoC Exploit Code Released for Fortinet FortiClient EMS Authentication Bypass Flaw",
-          "url": "https://gbhackers.com/forticlient-ems-authentication-bypass/",
-          "published": "Thu, 15 Oct 2026 09:40:03 +0000",
-          "published_utc": "2026-10-15T09:40:03+00:00",
-          "summary": "<p>A public proof-of-concept (PoC) exploit is now available for CVE-2026-35616, a critical authentication bypass in Fortinet FortiClient Endpoint Management Server (EMS). The flaw has been exploited in the wild since spring 2026. FortiClient EMS authentication bypass According to details published by GitHub user Alaatk, a repository titled &#8220;CVE-2026-35616 FortiClient EMS Pre-Auth Bypass&#8221; contains a Python [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/forticlient-ems-authentication-bypass/\">PoC Exploit Code Released for Fortinet FortiClient EMS Authentication Bypass Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203476"
-        },
-        {
-          "title": "AI Used in 84% of Ransomware Attacks as Identity Infrastructure Comes Under Fire.",
-          "url": "https://gbhackers.com/ai-powered-ransomware-attacks/",
-          "published": "Thu, 15 Oct 2026 08:39:42 +0000",
-          "published_utc": "2026-10-15T08:39:42+00:00",
-          "summary": "<p>Artificial intelligence appeared in ransomware incidents affecting 84% of surveyed victims, while 87% reported attacks targeting or exploiting identity infrastructure. The findings connect accelerated criminal operations with weaknesses in the systems governing enterprise access. The study surveyed 1,200 IT and security professionals across nine countries and eight industry sectors. Crucially, it included only organizations that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-ransomware-attacks/\">AI Used in 84% of Ransomware Attacks as Identity Infrastructure Comes Under Fire.</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203466"
-        },
-        {
-          "title": "10 Best RASP Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-rasp-compared/",
-          "published": "Thu, 15 Oct 2026 08:16:48 +0000",
-          "published_utc": "2026-10-15T08:16:48+00:00",
-          "summary": "<p>Contrast Protect remains the dedicated RASP anchor, Waratek the JVM virtual-patching specialist, and the platform lanes (Datadog with Hdiv inside, Dynatrace, Fastly at the edge) show where runtime protection actually went. Ten entries, honestly counted from twelve sheet rows this is a category consolidation rewrote, and the comparison says so. Quick Verdict: Best RASP at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-rasp-compared/\">10 Best RASP Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203370"
-        },
-        {
-          "title": "10 Best Container Image Scanning Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-container-image-scanning-compared/",
-          "published": "Thu, 15 Oct 2026 08:10:54 +0000",
-          "published_utc": "2026-10-15T08:10:54+00:00",
-          "summary": "<p>Trivy and Grype give every team a free scanning floor, Snyk developer workflows and Sysdig lead the platform lanes, and Chainguard attacks the problem upstream with zero-CVE bases. Ten distinct options (Grype and Anchore are one vendor) compared across OSS, platform, registry, native, and eliminate-the-problem lanes. Quick Verdict: Best Container Image Scanning at a Glance [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-container-image-scanning-compared/\">10 Best Container Image Scanning Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203343"
-        }
-      ],
-      "error": ""
-    },
-    "FEEDBURNER": {
-      "label": "GBHackers-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/gbhackers",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/gbhackers",
-      "content_type": "text/xml; charset=utf-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution",
-          "url": "https://gbhackers.com/nextjs-svg-image-processing-vulnerability/",
-          "published": "Thu, 15 Oct 2026 10:36:48 +0000",
-          "published_utc": "2026-10-15T10:36:48+00:00",
-          "summary": "<p>Vercel has released an out-of-band security update for Next.js that fixes two critical remote code execution (RCE) flaws and one high-severity denial-of-service (DoS) bug. One of the critical flaws, CVE-2026-96889 (GHSA-2464-fhr4-w9xw), sits in the Image Optimization API and is triggered through SVG processing. Next.js SVG vulnerability According to security disclosures published by Vercel, the update [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nextjs-svg-image-processing-vulnerability/\">Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203496"
-        },
-        {
-          "title": "Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide",
-          "url": "https://gbhackers.com/iron-man-phishing-as-a-service/",
-          "published": "Thu, 15 Oct 2026 10:32:50 +0000",
-          "published_utc": "2026-10-15T10:32:50+00:00",
-          "summary": "<p>Iron Man System, a commercial phishing-as-a-service platform supplying criminals with ready-made websites impersonating banks, couriers, tax agencies, traffic authorities, and other trusted organizations worldwide. Researchers purchased a license through human intelligence operations and deployed the kit inside an isolated laboratory. Packet captures and configuration analysis connected the working deployment to vendor-controlled infrastructure, providing evidence beyond [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iron-man-phishing-as-a-service/\">Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203477"
-        },
-        {
-          "title": "Citrix Patches XenServer Vulnerabilities That Could Enable Host Compromise",
-          "url": "https://gbhackers.com/citrix-xenserver-uniconos-vulnerabilities/",
-          "published": "Thu, 15 Oct 2026 10:23:46 +0000",
-          "published_utc": "2026-10-15T10:23:46+00:00",
-          "summary": "<p>Citrix has released security updates for XenServer 8.4 and XenServer 9. The updates fix several vulnerabilities, three of which could let a malicious privileged guest VM user compromise or crash the underlying host. Cloud Software Group rated the bulletin High severity. Citrix XenServer vulnerabilities According to the advisory published by Citrix on October 13, 2026 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-xenserver-uniconos-vulnerabilities/\">Citrix Patches XenServer Vulnerabilities That Could Enable Host Compromise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203490"
-        },
-        {
-          "title": "Cartoon Network Leak Exposes 200GB of Source Files, Storyboards and Animation Assets",
-          "url": "https://gbhackers.com/cartoon-network-data-leak/",
-          "published": "Thu, 15 Oct 2026 09:52:14 +0000",
-          "published_utc": "2026-10-15T09:52:14+00:00",
-          "summary": "<p>A large cache of internal Cartoon Network production material is circulating online. It reportedly exceeds 200GB and includes source files, storyboards and animation assets from several decades of shows. Fans have nicknamed it the &#8220;Classic CN Gigaleak.&#8221; The size, origin and completeness of the data have not been independently verified. Cartoon Network leak According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cartoon-network-data-leak/\">Cartoon Network Leak Exposes 200GB of Source Files, Storyboards and Animation Assets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203481"
-        },
-        {
-          "title": "PoC Exploit Code Released for Fortinet FortiClient EMS Authentication Bypass Flaw",
-          "url": "https://gbhackers.com/forticlient-ems-authentication-bypass/",
-          "published": "Thu, 15 Oct 2026 09:40:03 +0000",
-          "published_utc": "2026-10-15T09:40:03+00:00",
-          "summary": "<p>A public proof-of-concept (PoC) exploit is now available for CVE-2026-35616, a critical authentication bypass in Fortinet FortiClient Endpoint Management Server (EMS). The flaw has been exploited in the wild since spring 2026. FortiClient EMS authentication bypass According to details published by GitHub user Alaatk, a repository titled &#8220;CVE-2026-35616 FortiClient EMS Pre-Auth Bypass&#8221; contains a Python [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/forticlient-ems-authentication-bypass/\">PoC Exploit Code Released for Fortinet FortiClient EMS Authentication Bypass Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203476"
-        },
-        {
-          "title": "AI Used in 84% of Ransomware Attacks as Identity Infrastructure Comes Under Fire.",
-          "url": "https://gbhackers.com/ai-powered-ransomware-attacks/",
-          "published": "Thu, 15 Oct 2026 08:39:42 +0000",
-          "published_utc": "2026-10-15T08:39:42+00:00",
-          "summary": "<p>Artificial intelligence appeared in ransomware incidents affecting 84% of surveyed victims, while 87% reported attacks targeting or exploiting identity infrastructure. The findings connect accelerated criminal operations with weaknesses in the systems governing enterprise access. The study surveyed 1,200 IT and security professionals across nine countries and eight industry sectors. Crucially, it included only organizations that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-ransomware-attacks/\">AI Used in 84% of Ransomware Attacks as Identity Infrastructure Comes Under Fire.</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203466"
-        },
-        {
-          "title": "10 Best RASP Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-rasp-compared/",
-          "published": "Thu, 15 Oct 2026 08:16:48 +0000",
-          "published_utc": "2026-10-15T08:16:48+00:00",
-          "summary": "<p>Contrast Protect remains the dedicated RASP anchor, Waratek the JVM virtual-patching specialist, and the platform lanes (Datadog with Hdiv inside, Dynatrace, Fastly at the edge) show where runtime protection actually went. Ten entries, honestly counted from twelve sheet rows this is a category consolidation rewrote, and the comparison says so. Quick Verdict: Best RASP at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-rasp-compared/\">10 Best RASP Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203370"
-        },
-        {
-          "title": "10 Best Container Image Scanning Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-container-image-scanning-compared/",
-          "published": "Thu, 15 Oct 2026 08:10:54 +0000",
-          "published_utc": "2026-10-15T08:10:54+00:00",
-          "summary": "<p>Trivy and Grype give every team a free scanning floor, Snyk developer workflows and Sysdig lead the platform lanes, and Chainguard attacks the problem upstream with zero-CVE bases. Ten distinct options (Grype and Anchore are one vendor) compared across OSS, platform, registry, native, and eliminate-the-problem lanes. Quick Verdict: Best Container Image Scanning at a Glance [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-container-image-scanning-compared/\">10 Best Container Image Scanning Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203343"
-        },
-        {
-          "title": "SonicWall NSM Bugs Let Attackers Intercept Communications and Execute Commands",
-          "url": "https://gbhackers.com/sonicwall-nsm-security-flaws/",
-          "published": "Thu, 15 Oct 2026 08:08:34 +0000",
-          "published_utc": "2026-10-15T08:08:34+00:00",
-          "summary": "<p>SonicWall has disclosed two vulnerabilities in its on-premises Network Security Manager (NSM) that could let authenticated attackers escalate privileges, intercept other users&#8217; communications and run operating system commands. The company published the advisory, SNWLID-2026-0018, on October 14, 2026. The highest CVSS v3 score is 8.8 (High). SonicWall NSM vulnerabilities According to advisory SNWLID-2026-0018 published by [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sonicwall-nsm-security-flaws/\">SonicWall NSM Bugs Let Attackers Intercept Communications and Execute Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203456"
-        },
-        {
-          "title": "12 Best Bug Bounty Platforms Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-bug-bounty-compared/",
-          "published": "Thu, 15 Oct 2026 08:07:48 +0000",
-          "published_utc": "2026-10-15T08:07:48+00:00",
-          "summary": "<p>HackerOne and Bugcrowd remain the global anchors, Intigriti and YesWeHack lead the European lane, and Synack’s vetted red team defines the private high-assurance end. Twelve platforms compared across crowd models, triage quality, and jurisdiction with the specialty lanes (web3’s Immunefi, Cobalt’s PtaaS) and status flags treated honestly. Quick Verdict: Best Bug Bounty at a Glance [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-bug-bounty-compared/\">12 Best Bug Bounty Platforms Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203289"
         }
       ],
       "error": ""

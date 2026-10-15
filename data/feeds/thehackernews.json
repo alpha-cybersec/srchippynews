@@ -10,8 +10,64 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 3,
+      "article_count": 9,
       "articles": [
+        {
+          "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+          "url": "http://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+          "published": "Thu, 15 Oct 2026 12:28:13 +0000",
+          "published_utc": "2026-10-15T12:28:13+00:00",
+          "summary": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.\n\nOne code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the&nbsp;sharp&nbsp;package to handle SVG images.\n\nThe fixes are in",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2589499522049146310"
+        },
+        {
+          "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+          "url": "http://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+          "published": "Thu, 15 Oct 2026 12:07:20 +0000",
+          "published_utc": "2026-10-15T12:07:20+00:00",
+          "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&nbsp;its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8927280449548442336"
+        },
+        {
+          "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+          "url": "http://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+          "published": "Thu, 15 Oct 2026 11:46:59 +0000",
+          "published_utc": "2026-10-15T11:46:59+00:00",
+          "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets.&nbsp;\n\nSimilar attacks",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8794851493874567762"
+        },
+        {
+          "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+          "url": "http://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+          "published": "Thu, 15 Oct 2026 11:46:49 +0000",
+          "published_utc": "2026-10-15T11:46:49+00:00",
+          "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6248682266057438863"
+        },
+        {
+          "title": "Why AI Confidence Is Not Validation",
+          "url": "http://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+          "published": "Thu, 15 Oct 2026 11:04:35 +0000",
+          "published_utc": "2026-10-15T11:04:35+00:00",
+          "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in place, that gap compounds and rarely stays contained to a workstation: an",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5768562860393186885"
+        },
+        {
+          "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+          "url": "http://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+          "published": "Thu, 15 Oct 2026 10:42:16 +0000",
+          "published_utc": "2026-10-15T10:42:16+00:00",
+          "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls.\n\nTo that end, the Department of Telecommunications has issued a circular urging service",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3297527076402800040"
+        },
+        {
+          "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+          "url": "http://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+          "published": "Thu, 15 Oct 2026 08:45:10 +0000",
+          "published_utc": "2026-10-15T08:45:10+00:00",
+          "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4194860345835552472"
+        },
         {
           "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
           "url": "http://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
@@ -27,14 +83,6 @@
           "published_utc": "2026-10-15T06:43:08+00:00",
           "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
           "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8713997784151179200"
-        },
-        {
-          "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-          "url": "http://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-          "published": "Thu, 15 Oct 2026 06:17:58 +0000",
-          "published_utc": "2026-10-15T06:17:58+00:00",
-          "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6248682266057438863"
         }
       ],
       "error": ""
@@ -47,15 +95,71 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 1,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+          "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+          "published": "Thu, 15 Oct 2026 17:37:20 +0530",
+          "published_utc": "2026-10-15T12:07:20+00:00",
+          "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&nbsp;its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
+          "id": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html"
+        },
+        {
+          "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+          "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+          "published": "Thu, 15 Oct 2026 17:16:59 +0530",
+          "published_utc": "2026-10-15T11:46:59+00:00",
+          "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets.&nbsp;\n\nSimilar attacks",
+          "id": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html"
+        },
         {
           "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
           "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-          "published": "Thu, 15 Oct 2026 11:47:58 +0530",
-          "published_utc": "2026-10-15T06:17:58+00:00",
+          "published": "Thu, 15 Oct 2026 17:16:49 +0530",
+          "published_utc": "2026-10-15T11:46:49+00:00",
           "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
           "id": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+        },
+        {
+          "title": "Why AI Confidence Is Not Validation",
+          "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+          "published": "Thu, 15 Oct 2026 16:34:35 +0530",
+          "published_utc": "2026-10-15T11:04:35+00:00",
+          "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in place, that gap compounds and rarely stays contained to a workstation: an",
+          "id": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
+        },
+        {
+          "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+          "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+          "published": "Thu, 15 Oct 2026 16:12:16 +0530",
+          "published_utc": "2026-10-15T10:42:16+00:00",
+          "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls.\n\nTo that end, the Department of Telecommunications has issued a circular urging service",
+          "id": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
+        },
+        {
+          "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+          "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+          "published": "Thu, 15 Oct 2026 14:15:10 +0530",
+          "published_utc": "2026-10-15T08:45:10+00:00",
+          "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan",
+          "id": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html"
+        },
+        {
+          "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+          "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+          "published": "Thu, 15 Oct 2026 12:37:05 +0530",
+          "published_utc": "2026-10-15T07:07:05+00:00",
+          "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM.\n\nThe vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
+          "id": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html"
+        },
+        {
+          "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+          "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+          "published": "Thu, 15 Oct 2026 12:13:08 +0530",
+          "published_utc": "2026-10-15T06:43:08+00:00",
+          "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
+          "id": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html"
         }
       ],
       "error": ""

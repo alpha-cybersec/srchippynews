@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely",
+          "url": "https://cybersecuritynews.com/critical-next-js-vulnerabilities/",
+          "published": "Thu, 15 Oct 2026 12:39:05 +0000",
+          "published_utc": "2026-10-15T12:39:05+00:00",
+          "summary": "<p>Next.js has released security updates for two critical vulnerabilities that could let remote attackers run malicious code without logging in. A third, high-severity flaw could stop affected applications from serving requests. The issues involve cached functions, SVG image processing, and Server Actions, with fixes available in Next.js 16.4.1 and 15.5.28. Published on October 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-vulnerabilities/\">Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167455"
+        },
+        {
+          "title": "Cartoon Network Gigaleak Exposes 200GB of Internal Animation Files and Production Secrets",
+          "url": "https://cybersecuritynews.com/cartoon-network-gigaleak-exposes/",
+          "published": "Thu, 15 Oct 2026 12:22:24 +0000",
+          "published_utc": "2026-10-15T12:22:24+00:00",
+          "summary": "<p>A reported Cartoon Network gigaleak has exposed more than 200GB of internal animation material, offering a rare look at how popular cartoons were made. The collection reportedly includes editable animation projects, character designs, storyboards, and production guides from The Amazing World of Gumball, Adventure Time, and Regular Show. However, the archive’s full size, source, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cartoon-network-gigaleak-exposes/\">Cartoon Network Gigaleak Exposes 200GB of Internal Animation Files and Production Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167441"
+        },
+        {
+          "title": "Hackers Exploit Fortinet Vulnerabilities to Deploy Stealthy PEERSTITCH Malware on FortiGate Firewalls",
+          "url": "https://cybersecuritynews.com/fortinet-vulnerabilities/",
+          "published": "Thu, 15 Oct 2026 12:22:12 +0000",
+          "published_utc": "2026-10-15T12:22:12+00:00",
+          "summary": "<p>Attackers compromised a telecommunications managed service provider by exploiting vulnerabilities in Fortinet’s centralized management and firewall systems, then deployed PEERSTITCH, a stealthy malware implant that runs inside FortiGate processes. Unit 42 says the activity began with a breach of a FortiManager appliance and exposed configurations and sensitive data linked to more than 500 managed FortiGate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortinet-vulnerabilities/\">Hackers Exploit Fortinet Vulnerabilities to Deploy Stealthy PEERSTITCH Malware on FortiGate Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167456"
+        },
+        {
+          "title": "Firefox Enterprise Adds DLP and AI Controls to Block Sensitive Data Leaks",
+          "url": "https://cybersecuritynews.com/firefox-enterprise-adds-dlp-and-ai-controls/",
+          "published": "Thu, 15 Oct 2026 12:14:59 +0000",
+          "published_utc": "2026-10-15T12:14:59+00:00",
+          "summary": "<p>Mozilla released Firefox Enterprise 158.0 on October 13, 2026, introducing its first dedicated enterprise browser with built-in data loss prevention and AI-use controls. The browser combines Firefox with a self-hosted Admin Console, giving security teams central control over browsing, web access, and how employees share company data. According to Mozilla’s Firefox Enterprise release notes, organizations [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/firefox-enterprise-adds-dlp-and-ai-controls/\">Firefox Enterprise Adds DLP and AI Controls to Block Sensitive Data Leaks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167295"
+        },
+        {
+          "title": "CISA Warns of Hackers Exploiting Ivanti Connect Secure Zero-Day to Steal Credentials",
+          "url": "https://cybersecuritynews.com/cisa-urges-patch-ivanti-0-day/",
+          "published": "Thu, 15 Oct 2026 10:57:14 +0000",
+          "published_utc": "2026-10-15T10:57:14+00:00",
+          "summary": "<p>CISA urged administrators to patch Ivanti Connect Secure appliances after attackers exploited CVE-2026-104935, a zero-day flaw that allows remote authentication bypass and command execution, enabling credential theft and data exfiltration. CISA issued its warning and added the flaw to its Known Exploited Vulnerabilities catalog on October 13, 2026. The warning covers Ivanti Connect Secure versions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-urges-patch-ivanti-0-day/\">CISA Warns of Hackers Exploiting Ivanti Connect Secure Zero-Day to Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167408"
+        },
+        {
+          "title": "Microsoft Fixes Windows 11 Update Issue that Causes Black Screen Errors or Windows Explorer crash",
+          "url": "https://cybersecuritynews.com/microsoft-fixes-windows-11-update-issue/",
+          "published": "Thu, 15 Oct 2026 10:44:33 +0000",
+          "published_utc": "2026-10-15T10:44:33+00:00",
+          "summary": "<p>Microsoft fixed a Windows 11 update issue that could leave users staring at a black screen after signing in or cause Windows Explorer to crash. The problem mainly affected Azure Virtual Desktop hosts using FSLogix, and some existing user profiles were more likely to fail to load the desktop. Microsoft marked the issue as resolved [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-fixes-windows-11-update-issue/\">Microsoft Fixes Windows 11 Update Issue that Causes Black Screen Errors or Windows Explorer crash</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167434"
+        },
+        {
+          "title": "Ransomware Attacks Intensify: Criminals Shift Focus to Target Employees and Their Families",
+          "url": "https://cybersecuritynews.com/ransomware-attacks-get-personal/",
+          "published": "Thu, 15 Oct 2026 10:28:30 +0000",
+          "published_utc": "2026-10-15T10:28:30+00:00",
+          "summary": "<p>Ransomware gangs are moving beyond locked files and stolen data. Criminals now threaten employees, executives, and their families to force companies to pay. According to the Semperis 2026 Ransomware Risk Report, 37% of successful attacks included threats against workers’ friends or relatives. The findings show that ransomware is no longer only a technical crisis. It [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-attacks-get-personal/\">Ransomware Attacks Intensify: Criminals Shift Focus to Target Employees and Their Families</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167247"
+        },
+        {
+          "title": "Microsoft Windows Server 0-Day Flaw Lets Attackers Crash Servers With a Single Packet",
+          "url": "https://cybersecuritynews.com/microsoft-windows-server-0-day-flaw/",
+          "published": "Thu, 15 Oct 2026 09:58:35 +0000",
+          "published_utc": "2026-10-15T09:58:35+00:00",
+          "summary": "<p>Microsoft patched a Windows Server vulnerability that lets a network-adjacent attacker crash a server with a crafted Distributed File System (DFS) referral response. Tracked as CVE-2026-70111, the flaw affects Windows Server 2019, 2022, and 2025. Corelight researchers reported the issue after finding it while testing Microsoft Remote Procedure Call (MS-RPC) and DFS interfaces. The company [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-windows-server-0-day-flaw/\">Microsoft Windows Server 0-Day Flaw Lets Attackers Crash Servers With a Single Packet</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167246"
+        },
+        {
+          "title": "PoC Released for Critical Fortinet FortiClient EMS Authentication Bypass Vulnerability",
+          "url": "https://cybersecuritynews.com/poc-released-for-forticlient-ems-vulnerability/",
+          "published": "Thu, 15 Oct 2026 09:47:55 +0000",
+          "published_utc": "2026-10-15T09:47:55+00:00",
+          "summary": "<p>A public proof-of-concept (PoC) for CVE-2026-35616, a critical authentication and authorization bypass in Fortinet FortiClient Endpoint Management Server (EMS), lets defenders test whether affected systems are exposed. The Python tool’s repository says the flaw can allow unauthenticated access to protected API endpoints. Fortinet has confirmed that the vulnerability was exploited in the wild, making prompt [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-released-for-forticlient-ems-vulnerability/\">PoC Released for Critical Fortinet FortiClient EMS Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167402"
+        },
+        {
+          "title": "Anthropic Warns AI Agents Can Now Automate the Entire Cyber Kill Chain",
+          "url": "https://cybersecuritynews.com/anthropic-warns-ai-agents/",
+          "published": "Thu, 15 Oct 2026 09:27:18 +0000",
+          "published_utc": "2026-10-15T09:27:18+00:00",
+          "summary": "<p>Anthropic has warned that attackers use AI agents to automate every stage of a cyberattack, from finding targets and stealing credentials to moving through networks and exfiltrating data. Its September 2026 threat report describes campaigns in which Claude became an active part of attack operations, rather than simply helping hackers write code. The findings cover [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-warns-ai-agents/\">Anthropic Warns AI Agents Can Now Automate the Entire Cyber Kill Chain</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167423"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,8 +103,40 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 1,
+      "article_count": 5,
       "articles": [
+        {
+          "title": "UAT-6275 Hackers Exploit WinRAR Flaw to Target CIS Government Organizations",
+          "url": "https://cybersecuritynews.com/uat-6275-hackers/",
+          "published": "Thu, 15 Oct 2026 09:08:09 +0000",
+          "published_utc": "2026-10-15T09:08:09+00:00",
+          "summary": "<p>UAT-6275 hackers have used a known WinRAR flaw to plant malware on Windows systems while targeting government organizations across the Commonwealth of Independent States (CIS). The activity shows how an unpatched archive tool can turn a routine attachment into lasting remote access, with the malicious program starting when the victim next signs in. The campaign [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/uat-6275-hackers/\">UAT-6275 Hackers Exploit WinRAR Flaw to Target CIS Government Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167411"
+        },
+        {
+          "title": "Top 10 Best DLP Software in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-dlp-software/",
+          "published": "Thu, 15 Oct 2026 07:58:01 +0000",
+          "published_utc": "2026-10-15T07:58:01+00:00",
+          "summary": "<p>DLP’s old reputation blocking legitimate work while real exfiltration walked out died with the pattern-only era. The 2026 winners judge context, ride enforcement points you already run, and explain every block. Microsoft Purview takes 1 on bundled reach; Netskope and Zscaler complete a SASE-heavy podium. Key Takeaways • 1 overall: Microsoft Purview DLP woven through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-dlp-software/\">Top 10 Best DLP Software in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167337"
+        },
+        {
+          "title": "Top 10 Best Malware Analysis Tools in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-malware-analysis-tools/",
+          "published": "Thu, 15 Oct 2026 07:11:22 +0000",
+          "published_utc": "2026-10-15T07:11:22+00:00",
+          "summary": "<p>Every SOC question eventually becomes “what does this file actually do?” and the answer’s cost ranges from a free hash lookup to hypervisor-grade detonation. Evaluating detonation environments alongside the best malware sandbox tools for security teams and dynamic malware analysis tools demonstrates that modern adversaries actively design payloads with anti-evasion, sleep timers, and conditional triggers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-malware-analysis-tools/\">Top 10 Best Malware Analysis Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167262"
+        },
+        {
+          "title": "Top 10 Best DevSecOps Platforms in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-devsecops-platforms/",
+          "published": "Thu, 15 Oct 2026 07:02:31 +0000",
+          "published_utc": "2026-10-15T07:02:31+00:00",
+          "summary": "<p>DevSecOps succeeds when security rides the pipeline instead of blocking it and fails when ten scanners produce ten backlogs nobody owns. Modern engineering teams aligning with enterprise DevSecOps playbooks recognize that vulnerability volume is a vanity metric; the true measure of a program is whether developers actually remediate what their tooling flags. We scored ten [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-devsecops-platforms/\">Top 10 Best DevSecOps Platforms in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167203"
+        },
         {
           "title": "Fake Chrome App on Google Play Evades Detection and Reaches 100,000+ Downloads",
           "url": "https://cybersecuritynews.com/fake-chrome-app/",

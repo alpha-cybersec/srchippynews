@@ -2,8 +2,336 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 178,
+  "article_count": 190,
   "articles": [
+    {
+      "title": "Claude Code Helps Linux Creator Address Longstanding Kernel Memory Performance Bottleneck",
+      "url": "https://gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck/",
+      "published": "Thu, 15 Oct 2026 11:37:11 +0000",
+      "published_utc": "2026-10-15T11:37:11+00:00",
+      "summary": "<p>Linus Torvalds used Anthropic&#8217;s Claude Code to build experimental patches that remove a long-running page-cache scalability bottleneck in the Linux kernel. The series is not merged. Reviewers have already found a race condition and raised memory-reclamation concerns. Torvalds pushed a branch named noref-filemap-read-with-llm to his own repository. Phoronix spotted it while the kernel awaited the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck/\">Claude Code Helps Linux Creator Address Longstanding Kernel Memory Performance Bottleneck</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203516",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/claude-code-helps-linux-creator-address-longstanding-kernel-memory-performance-bottleneck",
+      "content_hash": "82eca90c0d648db27096a03e92da2c41b1ff1f20fa19f3f1976589a2b8445f2c",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "82eca90c0d648db27096a03e92da2c41b1ff1f20fa19f3f1976589a2b8445f2c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "AI Agent Workflows Could Expose Credentials Through Trusted Developer Tools",
+      "url": "https://gbhackers.com/ai-agent-workflows/",
+      "published": "Thu, 15 Oct 2026 11:18:47 +0000",
+      "published_utc": "2026-10-15T11:18:47+00:00",
+      "summary": "<p>AI agents can expose credentials during routine development tasks, moving secrets from protected stores into command arguments, logs, transcripts, and inputs to external models. The concern is not that developer tools are inherently malicious. Rather, agents inherit developer privileges and repeatedly translate requests into shell commands, consuming their output before deciding what to execute next. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agent-workflows/\">AI Agent Workflows Could Expose Credentials Through Trusted Developer Tools</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203500",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-agent-workflows",
+      "content_hash": "e328587d8d020ccd6e8d7162ef199ab8efb8284e50b51a275a78c420b508824c",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e328587d8d020ccd6e8d7162ef199ab8efb8284e50b51a275a78c420b508824c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution",
+      "url": "https://gbhackers.com/nextjs-svg-image-processing-vulnerability/",
+      "published": "Thu, 15 Oct 2026 10:36:48 +0000",
+      "published_utc": "2026-10-15T10:36:48+00:00",
+      "summary": "<p>Vercel has released an out-of-band security update for Next.js that fixes two critical remote code execution (RCE) flaws and one high-severity denial-of-service (DoS) bug. One of the critical flaws, CVE-2026-96889 (GHSA-2464-fhr4-w9xw), sits in the Image Optimization API and is triggered through SVG processing. Next.js SVG vulnerability According to security disclosures published by Vercel, the update [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nextjs-svg-image-processing-vulnerability/\">Critical Next.js SVG Image Processing Vulnerability Could Enable Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203496",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nextjs-svg-image-processing-vulnerability",
+      "content_hash": "6eee175563c17f9a8aa491a3f3eb0c0bc20b2c1ed5f854e8d4b7937b0ce42284",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6eee175563c17f9a8aa491a3f3eb0c0bc20b2c1ed5f854e8d4b7937b0ce42284",
+        "FEEDBURNER": "6eee175563c17f9a8aa491a3f3eb0c0bc20b2c1ed5f854e8d4b7937b0ce42284"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide",
+      "url": "https://gbhackers.com/iron-man-phishing-as-a-service/",
+      "published": "Thu, 15 Oct 2026 10:32:50 +0000",
+      "published_utc": "2026-10-15T10:32:50+00:00",
+      "summary": "<p>Iron Man System, a commercial phishing-as-a-service platform supplying criminals with ready-made websites impersonating banks, couriers, tax agencies, traffic authorities, and other trusted organizations worldwide. Researchers purchased a license through human intelligence operations and deployed the kit inside an isolated laboratory. Packet captures and configuration analysis connected the working deployment to vendor-controlled infrastructure, providing evidence beyond [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iron-man-phishing-as-a-service/\">Iron Man Phishing-as-a-Service Kit Impersonates Banks, Couriers and Government Agencies Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203477",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/iron-man-phishing-as-a-service",
+      "content_hash": "d2151657b1519f4b0694fc6ab35e342e7f16d1b1dd292dbb643544fe437c7fcb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d2151657b1519f4b0694fc6ab35e342e7f16d1b1dd292dbb643544fe437c7fcb",
+        "FEEDBURNER": "d2151657b1519f4b0694fc6ab35e342e7f16d1b1dd292dbb643544fe437c7fcb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "Citrix Patches XenServer Vulnerabilities That Could Enable Host Compromise",
+      "url": "https://gbhackers.com/citrix-xenserver-uniconos-vulnerabilities/",
+      "published": "Thu, 15 Oct 2026 10:23:46 +0000",
+      "published_utc": "2026-10-15T10:23:46+00:00",
+      "summary": "<p>Citrix has released security updates for XenServer 8.4 and XenServer 9. The updates fix several vulnerabilities, three of which could let a malicious privileged guest VM user compromise or crash the underlying host. Cloud Software Group rated the bulletin High severity. Citrix XenServer vulnerabilities According to the advisory published by Citrix on October 13, 2026 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-xenserver-uniconos-vulnerabilities/\">Citrix Patches XenServer Vulnerabilities That Could Enable Host Compromise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203490",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/citrix-xenserver-uniconos-vulnerabilities",
+      "content_hash": "f4f9e71dd6d5d202fa367cb7f34425cfca70fbeeb4e20f11d9f0e2d5d2606bb2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f4f9e71dd6d5d202fa367cb7f34425cfca70fbeeb4e20f11d9f0e2d5d2606bb2",
+        "FEEDBURNER": "f4f9e71dd6d5d202fa367cb7f34425cfca70fbeeb4e20f11d9f0e2d5d2606bb2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "Cartoon Network Leak Exposes 200GB of Source Files, Storyboards and Animation Assets",
+      "url": "https://gbhackers.com/cartoon-network-data-leak/",
+      "published": "Thu, 15 Oct 2026 09:52:14 +0000",
+      "published_utc": "2026-10-15T09:52:14+00:00",
+      "summary": "<p>A large cache of internal Cartoon Network production material is circulating online. It reportedly exceeds 200GB and includes source files, storyboards and animation assets from several decades of shows. Fans have nicknamed it the &#8220;Classic CN Gigaleak.&#8221; The size, origin and completeness of the data have not been independently verified. Cartoon Network leak According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cartoon-network-data-leak/\">Cartoon Network Leak Exposes 200GB of Source Files, Storyboards and Animation Assets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203481",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cartoon-network-data-leak",
+      "content_hash": "b9c7c5c548931923b05e3719c5b2935fde7f9561d624a0a63124b180391e2565",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b9c7c5c548931923b05e3719c5b2935fde7f9561d624a0a63124b180391e2565",
+        "FEEDBURNER": "b9c7c5c548931923b05e3719c5b2935fde7f9561d624a0a63124b180391e2565"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "PoC Exploit Code Released for Fortinet FortiClient EMS Authentication Bypass Flaw",
+      "url": "https://gbhackers.com/forticlient-ems-authentication-bypass/",
+      "published": "Thu, 15 Oct 2026 09:40:03 +0000",
+      "published_utc": "2026-10-15T09:40:03+00:00",
+      "summary": "<p>A public proof-of-concept (PoC) exploit is now available for CVE-2026-35616, a critical authentication bypass in Fortinet FortiClient Endpoint Management Server (EMS). The flaw has been exploited in the wild since spring 2026. FortiClient EMS authentication bypass According to details published by GitHub user Alaatk, a repository titled &#8220;CVE-2026-35616 FortiClient EMS Pre-Auth Bypass&#8221; contains a Python [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/forticlient-ems-authentication-bypass/\">PoC Exploit Code Released for Fortinet FortiClient EMS Authentication Bypass Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203476",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/forticlient-ems-authentication-bypass",
+      "content_hash": "78ade6e762948c0be09b065a38f53dec17872e0a34321d4eefa5cd167249ec6d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "78ade6e762948c0be09b065a38f53dec17872e0a34321d4eefa5cd167249ec6d",
+        "FEEDBURNER": "78ade6e762948c0be09b065a38f53dec17872e0a34321d4eefa5cd167249ec6d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "AI Used in 84% of Ransomware Attacks as Identity Infrastructure Comes Under Fire.",
+      "url": "https://gbhackers.com/ai-powered-ransomware-attacks/",
+      "published": "Thu, 15 Oct 2026 08:39:42 +0000",
+      "published_utc": "2026-10-15T08:39:42+00:00",
+      "summary": "<p>Artificial intelligence appeared in ransomware incidents affecting 84% of surveyed victims, while 87% reported attacks targeting or exploiting identity infrastructure. The findings connect accelerated criminal operations with weaknesses in the systems governing enterprise access. The study surveyed 1,200 IT and security professionals across nine countries and eight industry sectors. Crucially, it included only organizations that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-ransomware-attacks/\">AI Used in 84% of Ransomware Attacks as Identity Infrastructure Comes Under Fire.</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203466",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-powered-ransomware-attacks",
+      "content_hash": "b002afa12987f96205ec1b9217474b45f1292406f4475a777ec32c960f629f17",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b002afa12987f96205ec1b9217474b45f1292406f4475a777ec32c960f629f17",
+        "FEEDBURNER": "b002afa12987f96205ec1b9217474b45f1292406f4475a777ec32c960f629f17"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "10 Best RASP Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-rasp-compared/",
+      "published": "Thu, 15 Oct 2026 08:16:48 +0000",
+      "published_utc": "2026-10-15T08:16:48+00:00",
+      "summary": "<p>Contrast Protect remains the dedicated RASP anchor, Waratek the JVM virtual-patching specialist, and the platform lanes (Datadog with Hdiv inside, Dynatrace, Fastly at the edge) show where runtime protection actually went. Ten entries, honestly counted from twelve sheet rows this is a category consolidation rewrote, and the comparison says so. Quick Verdict: Best RASP at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-rasp-compared/\">10 Best RASP Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203370",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-rasp-compared",
+      "content_hash": "43d56831bfeade6a1591225b747396e6317c5b474130330481abc83119e5549f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "43d56831bfeade6a1591225b747396e6317c5b474130330481abc83119e5549f",
+        "FEEDBURNER": "43d56831bfeade6a1591225b747396e6317c5b474130330481abc83119e5549f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "10 Best Container Image Scanning Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-container-image-scanning-compared/",
+      "published": "Thu, 15 Oct 2026 08:10:54 +0000",
+      "published_utc": "2026-10-15T08:10:54+00:00",
+      "summary": "<p>Trivy and Grype give every team a free scanning floor, Snyk developer workflows and Sysdig lead the platform lanes, and Chainguard attacks the problem upstream with zero-CVE bases. Ten distinct options (Grype and Anchore are one vendor) compared across OSS, platform, registry, native, and eliminate-the-problem lanes. Quick Verdict: Best Container Image Scanning at a Glance [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-container-image-scanning-compared/\">10 Best Container Image Scanning Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203343",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-container-image-scanning-compared",
+      "content_hash": "070e836ac17a0937bb4c10c4a8dcebb39910e635101530f9749d970df957022f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "070e836ac17a0937bb4c10c4a8dcebb39910e635101530f9749d970df957022f",
+        "FEEDBURNER": "070e836ac17a0937bb4c10c4a8dcebb39910e635101530f9749d970df957022f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "SonicWall NSM Bugs Let Attackers Intercept Communications and Execute Commands",
+      "url": "https://gbhackers.com/sonicwall-nsm-security-flaws/",
+      "published": "Thu, 15 Oct 2026 08:08:34 +0000",
+      "published_utc": "2026-10-15T08:08:34+00:00",
+      "summary": "<p>SonicWall has disclosed two vulnerabilities in its on-premises Network Security Manager (NSM) that could let authenticated attackers escalate privileges, intercept other users&#8217; communications and run operating system commands. The company published the advisory, SNWLID-2026-0018, on October 14, 2026. The highest CVSS v3 score is 8.8 (High). SonicWall NSM vulnerabilities According to advisory SNWLID-2026-0018 published by [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sonicwall-nsm-security-flaws/\">SonicWall NSM Bugs Let Attackers Intercept Communications and Execute Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203456",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sonicwall-nsm-security-flaws",
+      "content_hash": "b7f6bcdafaa59737287a8b12505f3e88fc246aeca4dc26cedcfe685cd53747f0",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "b7f6bcdafaa59737287a8b12505f3e88fc246aeca4dc26cedcfe685cd53747f0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
+    {
+      "title": "12 Best Bug Bounty Platforms Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-bug-bounty-compared/",
+      "published": "Thu, 15 Oct 2026 08:07:48 +0000",
+      "published_utc": "2026-10-15T08:07:48+00:00",
+      "summary": "<p>HackerOne and Bugcrowd remain the global anchors, Intigriti and YesWeHack lead the European lane, and Synack’s vetted red team defines the private high-assurance end. Twelve platforms compared across crowd models, triage quality, and jurisdiction with the specialty lanes (web3’s Immunefi, Cobalt’s PtaaS) and status flags treated honestly. Quick Verdict: Best Bug Bounty at a Glance [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-bug-bounty-compared/\">12 Best Bug Bounty Platforms Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203289",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-bug-bounty-compared",
+      "content_hash": "c60eddf1bb5ae9f8bb3ddaf769118d5db05c21ce70e5a8965c8e531e69e21fcc",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c60eddf1bb5ae9f8bb3ddaf769118d5db05c21ce70e5a8965c8e531e69e21fcc"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:11.538169+00:00",
+      "first_seen_local": "2026-10-15T07:49:11.538167-05:00",
+      "last_updated_utc": "2026-10-15T12:49:11.538169+00:00",
+      "last_updated_local": "2026-10-15T07:49:11.538167-05:00"
+    },
     {
       "title": "11 Best Infrastructure as Code (IaC) Security Tools Compared (2026): Features & Pricing",
       "url": "https://gbhackers.com/11-best-infrastructure-as-code-iac-security-tools-compared-2026-features-pricing/",

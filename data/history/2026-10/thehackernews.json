@@ -2,8 +2,174 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 109,
+  "article_count": 115,
   "articles": [
+    {
+      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+      "url": "http://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+      "published": "Thu, 15 Oct 2026 12:28:13 +0000",
+      "published_utc": "2026-10-15T12:28:13+00:00",
+      "summary": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.\n\nOne code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the&nbsp;sharp&nbsp;package to handle SVG images.\n\nThe fixes are in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2589499522049146310",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+      "content_hash": "8293dae6fa452c87939352d619474ecf23b45984387008b2151ae5edb6d375e5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8293dae6fa452c87939352d619474ecf23b45984387008b2151ae5edb6d375e5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:17.074738+00:00",
+      "first_seen_local": "2026-10-15T07:49:17.074736-05:00",
+      "last_updated_utc": "2026-10-15T12:49:17.074738+00:00",
+      "last_updated_local": "2026-10-15T07:49:17.074736-05:00"
+    },
+    {
+      "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+      "url": "http://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+      "published": "Thu, 15 Oct 2026 12:07:20 +0000",
+      "published_utc": "2026-10-15T12:07:20+00:00",
+      "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&nbsp;its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8927280449548442336",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+      "content_hash": "d5977e5bcab1ae67210a163b1b22185c23c6b0e3d9f938bc0248545ce493e280",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d5977e5bcab1ae67210a163b1b22185c23c6b0e3d9f938bc0248545ce493e280",
+        "FEEDBURNER": "ee5d00993b41783b568e6c1107d79d0c0af7e65078357b8f51402ac3c1c6936e"
+      },
+      "feed_comparison": "CONTENT_DIFFERENT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:17.074738+00:00",
+      "first_seen_local": "2026-10-15T07:49:17.074736-05:00",
+      "last_updated_utc": "2026-10-15T12:49:17.074738+00:00",
+      "last_updated_local": "2026-10-15T07:49:17.074736-05:00"
+    },
+    {
+      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+      "url": "http://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+      "published": "Thu, 15 Oct 2026 11:46:59 +0000",
+      "published_utc": "2026-10-15T11:46:59+00:00",
+      "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets.&nbsp;\n\nSimilar attacks",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8794851493874567762",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+      "content_hash": "699db62cc05df838ec1a7a26e2b9e48c3af925364bfff03fa7ed28bcfeb9e789",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "699db62cc05df838ec1a7a26e2b9e48c3af925364bfff03fa7ed28bcfeb9e789",
+        "FEEDBURNER": "699db62cc05df838ec1a7a26e2b9e48c3af925364bfff03fa7ed28bcfeb9e789"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:17.074738+00:00",
+      "first_seen_local": "2026-10-15T07:49:17.074736-05:00",
+      "last_updated_utc": "2026-10-15T12:49:17.074738+00:00",
+      "last_updated_local": "2026-10-15T07:49:17.074736-05:00"
+    },
+    {
+      "title": "Why AI Confidence Is Not Validation",
+      "url": "http://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+      "published": "Thu, 15 Oct 2026 11:04:35 +0000",
+      "published_utc": "2026-10-15T11:04:35+00:00",
+      "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in place, that gap compounds and rarely stays contained to a workstation: an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5768562860393186885",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+      "content_hash": "01df64523fe868863bc43305bd496494f092597dceb24897ddeca61cc0e141c9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "01df64523fe868863bc43305bd496494f092597dceb24897ddeca61cc0e141c9",
+        "FEEDBURNER": "01df64523fe868863bc43305bd496494f092597dceb24897ddeca61cc0e141c9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:17.074738+00:00",
+      "first_seen_local": "2026-10-15T07:49:17.074736-05:00",
+      "last_updated_utc": "2026-10-15T12:49:17.074738+00:00",
+      "last_updated_local": "2026-10-15T07:49:17.074736-05:00"
+    },
+    {
+      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "url": "http://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+      "published": "Thu, 15 Oct 2026 10:42:16 +0000",
+      "published_utc": "2026-10-15T10:42:16+00:00",
+      "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls.\n\nTo that end, the Department of Telecommunications has issued a circular urging service",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3297527076402800040",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+      "content_hash": "fcc194f3d13023d608adc4fc21676ece55ab9c0af70484fb032e968509e89155",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fcc194f3d13023d608adc4fc21676ece55ab9c0af70484fb032e968509e89155",
+        "FEEDBURNER": "fcc194f3d13023d608adc4fc21676ece55ab9c0af70484fb032e968509e89155"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:17.074738+00:00",
+      "first_seen_local": "2026-10-15T07:49:17.074736-05:00",
+      "last_updated_utc": "2026-10-15T12:49:17.074738+00:00",
+      "last_updated_local": "2026-10-15T07:49:17.074736-05:00"
+    },
+    {
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "url": "http://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "published": "Thu, 15 Oct 2026 08:45:10 +0000",
+      "published_utc": "2026-10-15T08:45:10+00:00",
+      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4194860345835552472",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "content_hash": "df18ed26a23016fb099c0e0b4c9718da269b18a55adc3cd244624a2fa9a40596",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "df18ed26a23016fb099c0e0b4c9718da269b18a55adc3cd244624a2fa9a40596",
+        "FEEDBURNER": "df18ed26a23016fb099c0e0b4c9718da269b18a55adc3cd244624a2fa9a40596"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-15T12:49:17.074738+00:00",
+      "first_seen_local": "2026-10-15T07:49:17.074736-05:00",
+      "last_updated_utc": "2026-10-15T12:49:17.074738+00:00",
+      "last_updated_local": "2026-10-15T07:49:17.074736-05:00"
+    },
     {
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "url": "http://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",

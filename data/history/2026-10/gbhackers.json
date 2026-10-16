@@ -2,8 +2,230 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 196,
+  "article_count": 204,
   "articles": [
+    {
+      "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials",
+      "url": "https://gbhackers.com/ai-agents-target-papercut/",
+      "published": "Fri, 16 Oct 2026 09:10:51 +0000",
+      "published_utc": "2026-10-16T09:10:51+00:00",
+      "summary": "<p>A likely Russian-speaking threat actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and establish reusable access to internal networks. GreyNoise identified at least 440 compromised instances belonging to 395 organizations across 48 countries, demonstrating how agent-assisted workflows can accelerate exploitation of enterprise infrastructure. The operator combined OpenAI’s Codex harness [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agents-target-papercut/\">Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203596",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-agents-target-papercut",
+      "content_hash": "2d920f7e13ec6df8d7bd0461e3974e51089002ee30aaf35e9a38fcc0047560d7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2d920f7e13ec6df8d7bd0461e3974e51089002ee30aaf35e9a38fcc0047560d7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "Microsoft Disrupts CoGUI Phishing Kit Linked to Over 100 Million Malicious Emails a Month",
+      "url": "https://gbhackers.com/cogui-phishing-kit/",
+      "published": "Fri, 16 Oct 2026 08:54:34 +0000",
+      "published_utc": "2026-10-16T08:54:34+00:00",
+      "summary": "<p>Microsoft and international partners have disrupted infrastructure supporting CoGUI. This phishing kit Proofpoint says generates more than 100 million malicious emails monthly. The coordinated action targeted a Chinese-speaking fraud ecosystem encompassing related phishing kits, infrastructure providers, and services enabling credential theft and financial fraud. Microsoft and Health-ISAC filed a civil lawsuit in the U.S. District [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cogui-phishing-kit/\">Microsoft Disrupts CoGUI Phishing Kit Linked to Over 100 Million Malicious Emails a Month</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203590",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cogui-phishing-kit",
+      "content_hash": "bb2d08da8883bd608006f9c8bb3bc3e66d02a5712716557c1e92b5fb374c2aa8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bb2d08da8883bd608006f9c8bb3bc3e66d02a5712716557c1e92b5fb374c2aa8",
+        "FEEDBURNER": "bb2d08da8883bd608006f9c8bb3bc3e66d02a5712716557c1e92b5fb374c2aa8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "Researchers Use AI to Discover Critical Linux Kernel Flaw That Enables Virtual Machine Escape",
+      "url": "https://gbhackers.com/ai-linux-kernel-vm-escape-flaw/",
+      "published": "Fri, 16 Oct 2026 08:33:50 +0000",
+      "published_utc": "2026-10-16T08:33:50+00:00",
+      "summary": "<p>Researchers at pwn.ai used an AI-assisted research harness to find a critical Linux kernel networking flaw, tracked as CVE-2026-99999 and nicknamed &#8220;PwnEscape&#8221;. It lets an untrusted guest virtual machine leak host kernel memory and, in lab conditions, escape to the host. The bug is in the Linux networking stack, not in KVM or any hypervisor. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-linux-kernel-vm-escape-flaw/\">Researchers Use AI to Discover Critical Linux Kernel Flaw That Enables Virtual Machine Escape</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203603",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-linux-kernel-vm-escape-flaw",
+      "content_hash": "ec2755c3c0fad13bff07e4e7fe7a274502960dbde46cfbaf5774a25bc8cbe61d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ec2755c3c0fad13bff07e4e7fe7a274502960dbde46cfbaf5774a25bc8cbe61d",
+        "FEEDBURNER": "ec2755c3c0fad13bff07e4e7fe7a274502960dbde46cfbaf5774a25bc8cbe61d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "12 Best Mobile Application Security Testing Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-mobile-appsec-compared/",
+      "published": "Fri, 16 Oct 2026 08:22:25 +0000",
+      "published_utc": "2026-10-16T08:22:25+00:00",
+      "summary": "<p>NowSecure and Data Theorem mobile security lead automated mobile testing, Guardsquare owns shielding/obfuscation, and Corellium’s virtual devices changed what deep mobile research costs. Twelve options across testing, shielding, virtualization, and runtime lanes mapped to MASVS so the acronyms mean something. Quick Verdict: Best Mobile AppSec at a Glance • Best automated testing: NowSecure (pipeline MAST) [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-mobile-appsec-compared/\">12 Best Mobile Application Security Testing Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203453",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-mobile-appsec-compared",
+      "content_hash": "e5a61b0aaecb8e3754e088dc1a103eda206248c865fca87e88f58252f28b45d7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e5a61b0aaecb8e3754e088dc1a103eda206248c865fca87e88f58252f28b45d7",
+        "FEEDBURNER": "e5a61b0aaecb8e3754e088dc1a103eda206248c865fca87e88f58252f28b45d7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "12 Best SBOM Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-sbom-compared/",
+      "published": "Fri, 16 Oct 2026 08:11:54 +0000",
+      "published_utc": "2026-10-16T08:11:54+00:00",
+      "summary": "<p>Anchore’s Syft SBOM generator is the free generation standard, FOSSA and Cybeats lead SBOM management, and Finite State owns the embedded/OT depth regulators now demand. Twelve options across generation, management, and monitoring lanes with CycloneDX honestly framed as the OWASP standard powering much of it rather than a vendor to shortlist. Quick Verdict: Best SBOM [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-sbom-compared/\">12 Best SBOM Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203398",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-sbom-compared",
+      "content_hash": "3b7d0ccdb229f10a820be98d9e8626519919ede652b4025b2c589676b6633b83",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3b7d0ccdb229f10a820be98d9e8626519919ede652b4025b2c589676b6633b83",
+        "FEEDBURNER": "3b7d0ccdb229f10a820be98d9e8626519919ede652b4025b2c589676b6633b83"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "12 Best CI/CD Pipeline Security Tools Compared (2026): Features & Pricing",
+      "url": "https://gbhackers.com/best-cicd-security-compared/",
+      "published": "Fri, 16 Oct 2026 08:00:42 +0000",
+      "published_utc": "2026-10-16T08:00:42+00:00",
+      "summary": "<p>Your CI platform’s native controls (GitHub Advanced Security, GitLab Ultimate) are the baseline, Cycode and Legit lead dedicated pipeline posture, and StepSecurity owns the runner-hardening niche attackers actually exploit. Twelve options across native, dedicated, hardening, and platform-absorbed lanes because the factory is now the target. Quick Verdict: Best CI/CD Security at a Glance • Native [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cicd-security-compared/\">12 Best CI/CD Pipeline Security Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203386",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/best-cicd-security-compared",
+      "content_hash": "b1ebcdf1719d55d589726465594748b638e9e3e524c3334ec0c12dd5d136f7fe",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b1ebcdf1719d55d589726465594748b638e9e3e524c3334ec0c12dd5d136f7fe",
+        "FEEDBURNER": "b1ebcdf1719d55d589726465594748b638e9e3e524c3334ec0c12dd5d136f7fe"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "Hackers Target Claude, ChatGPT and Cursor Credentials Using Aoki Infostealer",
+      "url": "https://gbhackers.com/aoki-infostealer-targets-ai/",
+      "published": "Fri, 16 Oct 2026 06:15:40 +0000",
+      "published_utc": "2026-10-16T06:15:40+00:00",
+      "summary": "<p>The Aoki infostealer, also known as Aokigahara, has expanded its collection capabilities to steal credentials and session files from AI coding assistants, putting developer identities and connected infrastructure at risk. First observed earlier in 2026, Aoki previously lacked collection routines for AI applications. Their appearance in recent samples indicates active development, with attackers broadening their [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aoki-infostealer-targets-ai/\">Hackers Target Claude, ChatGPT and Cursor Credentials Using Aoki Infostealer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203582",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/aoki-infostealer-targets-ai",
+      "content_hash": "512dc50adf706cf13a688e435ece96239f2ce26c5c33fdba7c500b687f9ebb95",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "512dc50adf706cf13a688e435ece96239f2ce26c5c33fdba7c500b687f9ebb95",
+        "FEEDBURNER": "512dc50adf706cf13a688e435ece96239f2ce26c5c33fdba7c500b687f9ebb95"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
+    {
+      "title": "New Proxyjacking Campaign Exploits Network Device Flaws to Build Stealthy Proxy Infrastructure",
+      "url": "https://gbhackers.com/proxyjacking-campaign/",
+      "published": "Fri, 16 Oct 2026 05:54:28 +0000",
+      "published_utc": "2026-10-16T05:54:28+00:00",
+      "summary": "<p>A newly disclosed proxyjacking campaign has compromised at least 143 devices across 34 countries, exploiting vulnerabilities in network appliances and enterprise software to monetize victims’ internet connections. GreyNoise identified an attacker installing Pawns.app, a legitimate bandwidth-sharing application, without device owners’ consent, turning compromised systems into commercial residential proxy nodes. Unlike conventional VPN or hosting infrastructure, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/proxyjacking-campaign/\">New Proxyjacking Campaign Exploits Network Device Flaws to Build Stealthy Proxy Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203576",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/proxyjacking-campaign",
+      "content_hash": "95804040d705ca92ee28a3e4c24b41899d37ed99a550405ce759d4ad52744ed2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "95804040d705ca92ee28a3e4c24b41899d37ed99a550405ce759d4ad52744ed2",
+        "FEEDBURNER": "95804040d705ca92ee28a3e4c24b41899d37ed99a550405ce759d4ad52744ed2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T09:14:42.897407+00:00",
+      "first_seen_local": "2026-10-16T04:14:42.897405-05:00",
+      "last_updated_utc": "2026-10-16T09:14:42.897407+00:00",
+      "last_updated_local": "2026-10-16T04:14:42.897405-05:00"
+    },
     {
       "title": "Cisco Warns of Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
       "url": "https://gbhackers.com/cisco-secure-email-gateway-zero-day/",

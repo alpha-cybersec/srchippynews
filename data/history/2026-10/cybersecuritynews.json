@@ -2,8 +2,112 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 230,
+  "article_count": 234,
   "articles": [
+    {
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection",
+      "url": "https://cybersecuritynews.com/new-romulus-clickfix-platform/",
+      "published": "Fri, 16 Oct 2026 14:42:10 +0000",
+      "published_utc": "2026-10-16T14:42:10+00:00",
+      "summary": "<p>Hackers are using a newly identified platform called ROMULUS to deliver malware through ClickFix traps, combining hidden PowerShell scripts, altered software installers, and encrypted archives. The platform supports separate infection paths, including one that installs LegionLoader and another that abuses a legitimate Stardock program to load malicious code. The findings show how a single delivery [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-romulus-clickfix-platform/\">Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167743",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/new-romulus-clickfix-platform",
+      "content_hash": "085fe2dde852182f5a7c23945915131b9bf1fdc062b11cc5936be7016b3f31b6",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "085fe2dde852182f5a7c23945915131b9bf1fdc062b11cc5936be7016b3f31b6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:33.249408+00:00",
+      "first_seen_local": "2026-10-16T13:18:33.249405-05:00",
+      "last_updated_utc": "2026-10-16T18:18:33.249408+00:00",
+      "last_updated_local": "2026-10-16T13:18:33.249405-05:00"
+    },
+    {
+      "title": "New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords",
+      "url": "https://cybersecuritynews.com/new-yuankong-android-rat/",
+      "published": "Fri, 16 Oct 2026 14:08:06 +0000",
+      "published_utc": "2026-10-16T14:08:06+00:00",
+      "summary": "<p>A newly analyzed Android remote-access Trojan called YuanKong can watch and control a victim’s phone, capture passwords and payment PINs, and send stolen information to operators. Rather than relying on access to text messages or contact lists, it uses Android’s Accessibility features and screen controls to observe what people do inside apps, including banking and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-yuankong-android-rat/\">New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167738",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/new-yuankong-android-rat",
+      "content_hash": "a8375dd990205b98e635b467a9e96a2f20d3cac80f98c0391336605392513944",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a8375dd990205b98e635b467a9e96a2f20d3cac80f98c0391336605392513944"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:33.249408+00:00",
+      "first_seen_local": "2026-10-16T13:18:33.249405-05:00",
+      "last_updated_utc": "2026-10-16T18:18:33.249408+00:00",
+      "last_updated_local": "2026-10-16T13:18:33.249405-05:00"
+    },
+    {
+      "title": "37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released",
+      "url": "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/",
+      "published": "Fri, 16 Oct 2026 14:01:26 +0000",
+      "published_utc": "2026-10-16T14:01:26+00:00",
+      "summary": "<p>A proof-of-concept exploit that gains root access on OpenBSD by chaining two kernel flaws. The main bug dates back about 37 years to the original BSD source code. According to Security researchers at Calif, the flaw survived because a shared memory attachment counter named shm_nattch used a signed 16-bit value. OpenBSD fixed both issues before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/\">37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167744",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/37-year-old-kernel-openbsd-flaw",
+      "content_hash": "9df82f2b38a00cda22ba8166edd1681883b8d6767f34fd0f1f924dc163e1531a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "9df82f2b38a00cda22ba8166edd1681883b8d6767f34fd0f1f924dc163e1531a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:33.249408+00:00",
+      "first_seen_local": "2026-10-16T13:18:33.249405-05:00",
+      "last_updated_utc": "2026-10-16T18:18:33.249408+00:00",
+      "last_updated_local": "2026-10-16T13:18:33.249405-05:00"
+    },
+    {
+      "title": "Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords",
+      "url": "https://cybersecuritynews.com/hackers-use-ai-generated-scripts/",
+      "published": "Fri, 16 Oct 2026 13:23:48 +0000",
+      "published_utc": "2026-10-16T13:23:48+00:00",
+      "summary": "<p>A campaign against government organizations and state-linked infrastructure used AI-assisted scripts to steal credentials, maintain access to Linux servers and seek sensitive data, according to new research. The attackers altered users’ shell startup files to intercept the sudo command, then copied entered passwords to a file while passing them to the real command. This let [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-generated-scripts/\">Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167715",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-ai-generated-scripts",
+      "content_hash": "c5476fab5910e67d57a2c861bea54fc54b6b4b0195d9c54c6e6035f9ba581ac8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c5476fab5910e67d57a2c861bea54fc54b6b4b0195d9c54c6e6035f9ba581ac8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:33.249408+00:00",
+      "first_seen_local": "2026-10-16T13:18:33.249405-05:00",
+      "last_updated_utc": "2026-10-16T18:18:33.249408+00:00",
+      "last_updated_local": "2026-10-16T13:18:33.249405-05:00"
+    },
     {
       "title": "Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts",
       "url": "https://cybersecuritynews.com/cloudflare-pages-domains/",

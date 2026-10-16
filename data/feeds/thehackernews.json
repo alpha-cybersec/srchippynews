@@ -10,8 +10,32 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 4,
+      "article_count": 7,
       "articles": [
+        {
+          "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+          "url": "http://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+          "published": "Fri, 16 Oct 2026 17:48:45 +0000",
+          "published_utc": "2026-10-16T17:48:45+00:00",
+          "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4827857839823742859"
+        },
+        {
+          "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+          "url": "http://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+          "published": "Fri, 16 Oct 2026 16:43:39 +0000",
+          "published_utc": "2026-10-16T16:43:39+00:00",
+          "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor.\n\nGoogle Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8703292829166024618"
+        },
+        {
+          "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+          "url": "http://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+          "published": "Fri, 16 Oct 2026 16:16:44 +0000",
+          "published_utc": "2026-10-16T16:16:44+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes.\n\nThe activity is being tracked by",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2892868105581353391"
+        },
         {
           "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
           "url": "http://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
@@ -55,8 +79,32 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 3,
+      "article_count": 6,
       "articles": [
+        {
+          "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+          "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+          "published": "Fri, 16 Oct 2026 22:13:39 +0530",
+          "published_utc": "2026-10-16T16:43:39+00:00",
+          "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor.\n\nGoogle Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis",
+          "id": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html"
+        },
+        {
+          "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+          "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+          "published": "Fri, 16 Oct 2026 21:46:44 +0530",
+          "published_utc": "2026-10-16T16:16:44+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes.\n\nThe activity is being tracked by",
+          "id": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html"
+        },
+        {
+          "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+          "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+          "published": "Fri, 16 Oct 2026 19:33:04 +0530",
+          "published_utc": "2026-10-16T14:03:04+00:00",
+          "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task.\n\nThe incident, the AI company said, involved an internal research model part",
+          "id": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
+        },
         {
           "title": "AI Decision Models and Their Impact on AI SOC Platforms",
           "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",

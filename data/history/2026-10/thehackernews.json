@@ -2,8 +2,90 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 125,
+  "article_count": 128,
   "articles": [
+    {
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "url": "http://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "published": "Fri, 16 Oct 2026 17:48:45 +0000",
+      "published_utc": "2026-10-16T17:48:45+00:00",
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4827857839823742859",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "content_hash": "7c63ea3fa71b488106d734fa70be6fe8e19c65d6c286ee0a8fdae2d4c714911f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7c63ea3fa71b488106d734fa70be6fe8e19c65d6c286ee0a8fdae2d4c714911f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:39.120476+00:00",
+      "first_seen_local": "2026-10-16T13:18:39.120473-05:00",
+      "last_updated_utc": "2026-10-16T18:18:39.120476+00:00",
+      "last_updated_local": "2026-10-16T13:18:39.120473-05:00"
+    },
+    {
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "url": "http://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "published": "Fri, 16 Oct 2026 16:43:39 +0000",
+      "published_utc": "2026-10-16T16:43:39+00:00",
+      "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor.\n\nGoogle Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8703292829166024618",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "content_hash": "169fecf976c71d1600650fdb1c928be42a826e1df06cd4d94690cf1026e7bde6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "169fecf976c71d1600650fdb1c928be42a826e1df06cd4d94690cf1026e7bde6",
+        "FEEDBURNER": "169fecf976c71d1600650fdb1c928be42a826e1df06cd4d94690cf1026e7bde6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:39.120476+00:00",
+      "first_seen_local": "2026-10-16T13:18:39.120473-05:00",
+      "last_updated_utc": "2026-10-16T18:18:39.120476+00:00",
+      "last_updated_local": "2026-10-16T13:18:39.120473-05:00"
+    },
+    {
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "url": "http://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "published": "Fri, 16 Oct 2026 16:16:44 +0000",
+      "published_utc": "2026-10-16T16:16:44+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes.\n\nThe activity is being tracked by",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2892868105581353391",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "content_hash": "f496e55f217b6176d09d660d4eba655930b7a57bc0c0e82d84759f38da2a20cf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f496e55f217b6176d09d660d4eba655930b7a57bc0c0e82d84759f38da2a20cf",
+        "FEEDBURNER": "f496e55f217b6176d09d660d4eba655930b7a57bc0c0e82d84759f38da2a20cf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T18:18:39.120476+00:00",
+      "first_seen_local": "2026-10-16T13:18:39.120473-05:00",
+      "last_updated_utc": "2026-10-16T18:18:39.120476+00:00",
+      "last_updated_local": "2026-10-16T13:18:39.120473-05:00"
+    },
     {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "url": "http://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",

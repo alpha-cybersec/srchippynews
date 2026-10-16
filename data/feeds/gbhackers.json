@@ -25,6 +25,30 @@
       "article_count": 10,
       "articles": [
         {
+          "title": "Researchers Demonstrate iOS 27.0.1 Untethered Jailbreak on iPhone 18 Pro",
+          "url": "https://gbhackers.com/ios-27-0-1-untethered-jailbreak/",
+          "published": "Fri, 16 Oct 2026 14:40:12 +0000",
+          "published_utc": "2026-10-16T14:40:12+00:00",
+          "summary": "<p>Security researchers from Calif (Calif.io) demonstrated a working untethered jailbreak on iOS 27.0.1 running on an iPhone 18 Pro. They showed it live at the Hexacon 2026 offensive security conference in Paris on October 16, 2026. Heise reports it is the first reboot-proof jailbreak since iOS 9, and that AI helped find the exploit chain. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ios-27-0-1-untethered-jailbreak/\">Researchers Demonstrate iOS 27.0.1 Untethered Jailbreak on iPhone 18 Pro</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203657"
+        },
+        {
+          "title": "Progress Warns of MOVEit Transfer Vulnerabilities Allowing Authentication Bypass and Privilege Escalation",
+          "url": "https://gbhackers.com/moveit-transfer-security-flaws/",
+          "published": "Fri, 16 Oct 2026 14:30:31 +0000",
+          "published_utc": "2026-10-16T14:30:31+00:00",
+          "summary": "<p>Progress Software has released fixes for 12 vulnerabilities in MOVEit Transfer, its managed file transfer (MFT) platform. Several of the flaws allow authentication bypass, session hijacking and administrative control. The company&#8217;s September 2026 critical security bulletin, published October 15, 2026, urges customers to upgrade immediately. MOVEit Transfer vulnerabilities According to the September 2026 critical security [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/moveit-transfer-security-flaws/\">Progress Warns of MOVEit Transfer Vulnerabilities Allowing Authentication Bypass and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203654"
+        },
+        {
+          "title": "MITRE ATT&CK v20 Adds New AI Attack Techniques for Prompt Injection and Data Theft",
+          "url": "https://gbhackers.com/mitre-attack-v20-ai-techniques/",
+          "published": "Fri, 16 Oct 2026 12:56:46 +0000",
+          "published_utc": "2026-10-16T12:56:46+00:00",
+          "summary": "<p>MITRE released ATT&#38;CK v20 on October 13, 2026. It adds the first Enterprise techniques for direct and indirect prompt injection, AI-enabled exfiltration and AI result poisoning. MITRE ATT&#38;CK v20 Adds New AI Attack Techniques According to updates published by MITRE, the release updates Techniques, Groups, Campaigns and Software across the Enterprise, Mobile and ICS domains. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mitre-attack-v20-ai-techniques/\">MITRE ATT&#038;CK v20 Adds New AI Attack Techniques for Prompt Injection and Data Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203651"
+        },
+        {
           "title": "Google Chrome 155 Patches Critical Use-After-Free Flaw and Nine Additional Security Bugs",
           "url": "https://gbhackers.com/chrome-155-security-flaws/",
           "published": "Fri, 16 Oct 2026 12:36:42 +0000",
@@ -79,30 +103,6 @@
           "published_utc": "2026-10-16T09:10:51+00:00",
           "summary": "<p>A likely Russian-speaking threat actor used hundreds of AI agents to exploit PaperCut NG/MF servers, steal Windows credentials and establish reusable access to internal networks. GreyNoise identified at least 440 compromised instances belonging to 395 organizations across 48 countries, demonstrating how agent-assisted workflows can accelerate exploitation of enterprise infrastructure. The operator combined OpenAI’s Codex harness [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agents-target-papercut/\">Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=203596"
-        },
-        {
-          "title": "Microsoft Disrupts CoGUI Phishing Kit Linked to Over 100 Million Malicious Emails a Month",
-          "url": "https://gbhackers.com/cogui-phishing-kit/",
-          "published": "Fri, 16 Oct 2026 08:54:34 +0000",
-          "published_utc": "2026-10-16T08:54:34+00:00",
-          "summary": "<p>Microsoft and international partners have disrupted infrastructure supporting CoGUI. This phishing kit Proofpoint says generates more than 100 million malicious emails monthly. The coordinated action targeted a Chinese-speaking fraud ecosystem encompassing related phishing kits, infrastructure providers, and services enabling credential theft and financial fraud. Microsoft and Health-ISAC filed a civil lawsuit in the U.S. District [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cogui-phishing-kit/\">Microsoft Disrupts CoGUI Phishing Kit Linked to Over 100 Million Malicious Emails a Month</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203590"
-        },
-        {
-          "title": "Researchers Use AI to Discover Critical Linux Kernel Flaw That Enables Virtual Machine Escape",
-          "url": "https://gbhackers.com/ai-linux-kernel-vm-escape-flaw/",
-          "published": "Fri, 16 Oct 2026 08:33:50 +0000",
-          "published_utc": "2026-10-16T08:33:50+00:00",
-          "summary": "<p>Researchers at pwn.ai used an AI-assisted research harness to find a critical Linux kernel networking flaw, tracked as CVE-2026-99999 and nicknamed &#8220;PwnEscape&#8221;. It lets an untrusted guest virtual machine leak host kernel memory and, in lab conditions, escape to the host. The bug is in the Linux networking stack, not in KVM or any hypervisor. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-linux-kernel-vm-escape-flaw/\">Researchers Use AI to Discover Critical Linux Kernel Flaw That Enables Virtual Machine Escape</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203603"
-        },
-        {
-          "title": "12 Best Mobile Application Security Testing Tools Compared (2026): Features & Pricing",
-          "url": "https://gbhackers.com/best-mobile-appsec-compared/",
-          "published": "Fri, 16 Oct 2026 08:22:25 +0000",
-          "published_utc": "2026-10-16T08:22:25+00:00",
-          "summary": "<p>NowSecure and Data Theorem mobile security lead automated mobile testing, Guardsquare owns shielding/obfuscation, and Corellium’s virtual devices changed what deep mobile research costs. Twelve options across testing, shielding, virtualization, and runtime lanes mapped to MASVS so the acronyms mean something. Quick Verdict: Best Mobile AppSec at a Glance • Best automated testing: NowSecure (pipeline MAST) [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-mobile-appsec-compared/\">12 Best Mobile Application Security Testing Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203453"
         }
       ],
       "error": ""

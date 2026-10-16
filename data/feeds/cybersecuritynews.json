@@ -13,6 +13,38 @@
       "article_count": 10,
       "articles": [
         {
+          "title": "Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs",
+          "url": "https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/",
+          "published": "Fri, 16 Oct 2026 04:07:53 +0000",
+          "published_utc": "2026-10-16T04:07:53+00:00",
+          "summary": "<p>Linus Torvalds has disclosed that Claude Code helped write Linux kernel patches, test programs, review material, and the first draft of a technical write-up under his direction. The work targets page-cache read performance, showing how AI coding tools are used in core operating-system development while openly documenting technical limits. Torvalds states that Claude Code produced [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/\">Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167502"
+        },
+        {
+          "title": "Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption",
+          "url": "https://cybersecuritynews.com/adobe-acrobat-flaw/",
+          "published": "Fri, 16 Oct 2026 04:05:46 +0000",
+          "published_utc": "2026-10-16T04:05:46+00:00",
+          "summary": "<p>Adobe has fixed a flaw in Acrobat and Acrobat Reader that lets a malicious PDF corrupt memory when a user opens it. Tracked as CVE-2026-81983, the out-of-bounds write carries a CVSS score of 7.8 and could lead to code execution with the victim’s user rights. Adobe says it has seen no active exploitation so far. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/adobe-acrobat-flaw/\">Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167282"
+        },
+        {
+          "title": "PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)",
+          "url": "https://cybersecuritynews.com/poc-gitlab-rce-vulnerability/",
+          "published": "Fri, 16 Oct 2026 04:01:09 +0000",
+          "published_utc": "2026-10-16T04:01:09+00:00",
+          "summary": "<p>A public proof-of-concept (PoC) for CVE-2026-97229 published by researcher Jonah Burgess shows how a flaw in GitLab’s CI/CD regular-expression compiler could be used to run commands on a vulnerable server. GitLab rates the issue Critical with a CVSS score of 10.0. The exploit code is publicly available, raising the risk for organizations that have not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-gitlab-rce-vulnerability/\">PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167487"
+        },
+        {
+          "title": "Critical Linux Kernel Flaw Lets Attackers Escape Virtual Machines and Take Control of Hosts",
+          "url": "https://cybersecuritynews.com/linux-kernel-flaw-2/",
+          "published": "Fri, 16 Oct 2026 03:06:43 +0000",
+          "published_utc": "2026-10-16T03:06:43+00:00",
+          "summary": "<p>A critical flaw in the Linux kernel may allow an attacker-controlled virtual machine (VM) to breach its isolation boundary and impact the host system. This vulnerability, identified as CVE-2026-99999 and referred to as PwnEscape by researcher Paulos Yibelo, originates from the Linux networking code rather than a specific hypervisor. Paulos Yibelo demonstrated a technique that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaw-2/\">Critical Linux Kernel Flaw Lets Attackers Escape Virtual Machines and Take Control of Hosts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167587"
+        },
+        {
           "title": "Burger King Japan Confirms Data Breach Exposing 11.18M User Records",
           "url": "https://cybersecuritynews.com/burger-king-japan-data-breach/",
           "published": "Thu, 15 Oct 2026 15:55:01 +0000",
@@ -59,38 +91,6 @@
           "published_utc": "2026-10-15T14:16:37+00:00",
           "summary": "<p>Simply viewing an online advertisement can be enough to infect a device with powerful spyware, without the user clicking, downloading a file, or seeing any warning. Citizen Lab researchers documented what they call the first public technical proof of zero-click mercenary spyware delivered through targeted ads. The method, named “AdFection,” infected devices at international news [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/0-click-spyware-infects-devices/\">Just Viewing an Online Ad Can Infect Your Device With Spyware, Researchers Reveal</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=167508"
-        },
-        {
-          "title": "AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets",
-          "url": "https://cybersecuritynews.com/ai-agents-4/",
-          "published": "Thu, 15 Oct 2026 13:55:34 +0000",
-          "published_utc": "2026-10-15T13:55:34+00:00",
-          "summary": "<p>AI agents can expose API keys and cloud secrets during ordinary work, even when no malware is present. When an agent runs a command, reads a configuration file or fetches a secret to complete a task. Even sensitive data can move from protected storage into command histories, logs, agent transcripts and the model’s context. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-4/\">AI Agents Create an Unseen Credential Surface That Exposes API Keys and Cloud Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167493"
-        },
-        {
-          "title": "UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978",
-          "url": "https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/",
-          "published": "Thu, 15 Oct 2026 12:54:56 +0000",
-          "published_utc": "2026-10-15T12:54:56+00:00",
-          "summary": "<p>The UK Legal Aid Agency (LAA) has confirmed that its 2025 cyberattack stole personal records dating back to 1978. An updated investigation found approximately 250,000 records from before 2007, widening the known scope of a breach that affected legal aid applicants, providers and some probation service users. In its October 14, 2026 update, the agency [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/uk-legal-aid-agency-data-breach/\">UK Legal Aid Agency Data Breach Exposes Personal Records Dating Back to 1978</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167488"
-        },
-        {
-          "title": "KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs",
-          "url": "https://cybersecuritynews.com/kgb-rat-malware/",
-          "published": "Thu, 15 Oct 2026 12:52:34 +0000",
-          "published_utc": "2026-10-15T12:52:34+00:00",
-          "summary": "<p>A Windows remote access trojan called KGB RAT gives attackers a way to spy on infected computers, collect credentials and control a victim’s desktop. The malware is sold as a service and advertised with a “fully undetectable” crypter that its sellers claim can bypass Windows Defender and other antivirus products. That claim should be treated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kgb-rat-malware/\">KGB RAT Malware Bypasses Windows Defender to Steal Credentials and Control PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167429"
-        },
-        {
-          "title": "Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely",
-          "url": "https://cybersecuritynews.com/critical-next-js-vulnerabilities/",
-          "published": "Thu, 15 Oct 2026 12:39:05 +0000",
-          "published_utc": "2026-10-15T12:39:05+00:00",
-          "summary": "<p>Next.js has released security updates for two critical vulnerabilities that could let remote attackers run malicious code without logging in. A third, high-severity flaw could stop affected applications from serving requests. The issues involve cached functions, SVG image processing, and Server Actions, with fixes available in Next.js 16.4.1 and 15.5.28. Published on October 14, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-next-js-vulnerabilities/\">Critical Next.js Vulnerabilities Allow Hackers to Execute Malicious Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167455"
         }
       ],
       "error": ""

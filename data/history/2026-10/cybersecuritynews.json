@@ -2,8 +2,112 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 208,
+  "article_count": 212,
   "articles": [
+    {
+      "title": "Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs",
+      "url": "https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/",
+      "published": "Fri, 16 Oct 2026 04:07:53 +0000",
+      "published_utc": "2026-10-16T04:07:53+00:00",
+      "summary": "<p>Linus Torvalds has disclosed that Claude Code helped write Linux kernel patches, test programs, review material, and the first draft of a technical write-up under his direction. The work targets page-cache read performance, showing how AI coding tools are used in core operating-system development while openly documenting technical limits. Torvalds states that Claude Code produced [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linus-torvalds-use-claude-code-patches/\">Linus Torvalds Reveals Claude Code Wrote Linux Kernel Patches and Test Programs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167502",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/linus-torvalds-use-claude-code-patches",
+      "content_hash": "fe1aab02822eecbd0e158d7ec1657699beb590ab3f909e0fd072bfddbe5c9cb6",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fe1aab02822eecbd0e158d7ec1657699beb590ab3f909e0fd072bfddbe5c9cb6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T04:20:41.564339+00:00",
+      "first_seen_local": "2026-10-15T23:20:41.564336-05:00",
+      "last_updated_utc": "2026-10-16T04:20:41.564339+00:00",
+      "last_updated_local": "2026-10-15T23:20:41.564336-05:00"
+    },
+    {
+      "title": "Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption",
+      "url": "https://cybersecuritynews.com/adobe-acrobat-flaw/",
+      "published": "Fri, 16 Oct 2026 04:05:46 +0000",
+      "published_utc": "2026-10-16T04:05:46+00:00",
+      "summary": "<p>Adobe has fixed a flaw in Acrobat and Acrobat Reader that lets a malicious PDF corrupt memory when a user opens it. Tracked as CVE-2026-81983, the out-of-bounds write carries a CVSS score of 7.8 and could lead to code execution with the victim’s user rights. Adobe says it has seen no active exploitation so far. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/adobe-acrobat-flaw/\">Critical Adobe Acrobat Flaw Lets Malicious PDFs Trigger One-Click Memory Corruption</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167282",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/adobe-acrobat-flaw",
+      "content_hash": "95b73f17fb44463d07f6a9b20a74de602795c4c755809a864b64939996b2bc22",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "95b73f17fb44463d07f6a9b20a74de602795c4c755809a864b64939996b2bc22"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T04:20:41.564339+00:00",
+      "first_seen_local": "2026-10-15T23:20:41.564336-05:00",
+      "last_updated_utc": "2026-10-16T04:20:41.564339+00:00",
+      "last_updated_local": "2026-10-15T23:20:41.564336-05:00"
+    },
+    {
+      "title": "PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)",
+      "url": "https://cybersecuritynews.com/poc-gitlab-rce-vulnerability/",
+      "published": "Fri, 16 Oct 2026 04:01:09 +0000",
+      "published_utc": "2026-10-16T04:01:09+00:00",
+      "summary": "<p>A public proof-of-concept (PoC) for CVE-2026-97229 published by researcher Jonah Burgess shows how a flaw in GitLab’s CI/CD regular-expression compiler could be used to run commands on a vulnerable server. GitLab rates the issue Critical with a CVSS score of 10.0. The exploit code is publicly available, raising the risk for organizations that have not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-gitlab-rce-vulnerability/\">PoC Exploit Released for Critical GitLab RCE Vulnerability (CVE-2026-97229)</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167487",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/poc-gitlab-rce-vulnerability",
+      "content_hash": "0826a9c70b4d9505deea8570150d9cd883e2535bd0cf02acd4e0d216691ecae8",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0826a9c70b4d9505deea8570150d9cd883e2535bd0cf02acd4e0d216691ecae8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T04:20:41.564339+00:00",
+      "first_seen_local": "2026-10-15T23:20:41.564336-05:00",
+      "last_updated_utc": "2026-10-16T04:20:41.564339+00:00",
+      "last_updated_local": "2026-10-15T23:20:41.564336-05:00"
+    },
+    {
+      "title": "Critical Linux Kernel Flaw Lets Attackers Escape Virtual Machines and Take Control of Hosts",
+      "url": "https://cybersecuritynews.com/linux-kernel-flaw-2/",
+      "published": "Fri, 16 Oct 2026 03:06:43 +0000",
+      "published_utc": "2026-10-16T03:06:43+00:00",
+      "summary": "<p>A critical flaw in the Linux kernel may allow an attacker-controlled virtual machine (VM) to breach its isolation boundary and impact the host system. This vulnerability, identified as CVE-2026-99999 and referred to as PwnEscape by researcher Paulos Yibelo, originates from the Linux networking code rather than a specific hypervisor. Paulos Yibelo demonstrated a technique that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaw-2/\">Critical Linux Kernel Flaw Lets Attackers Escape Virtual Machines and Take Control of Hosts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167587",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/linux-kernel-flaw-2",
+      "content_hash": "ce7e22a4dcfbc04acc796e791cefef9b4f5f5230002074f0b02e5f57cb5e0c59",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce7e22a4dcfbc04acc796e791cefef9b4f5f5230002074f0b02e5f57cb5e0c59"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T04:20:41.564339+00:00",
+      "first_seen_local": "2026-10-15T23:20:41.564336-05:00",
+      "last_updated_utc": "2026-10-16T04:20:41.564339+00:00",
+      "last_updated_local": "2026-10-15T23:20:41.564336-05:00"
+    },
     {
       "title": "Burger King Japan Confirms Data Breach Exposing 11.18M User Records",
       "url": "https://cybersecuritynews.com/burger-king-japan-data-breach/",

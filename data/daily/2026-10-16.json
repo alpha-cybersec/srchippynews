@@ -1,12 +1,378 @@
 {
   "date": "2026-10-16",
-  "article_count": 22,
+  "article_count": 36,
   "sources": {
-    "gbhackers": 8,
-    "cybersecuritynews": 12,
-    "thehackernews": 2
+    "thehackernews": 4,
+    "cybersecuritynews": 18,
+    "gbhackers": 14
   },
   "articles": [
+    {
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "url": "http://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "published": "Fri, 16 Oct 2026 14:03:04 +0000",
+      "published_utc": "2026-10-16T14:03:04+00:00",
+      "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task.\n\nThe incident, the AI company said, involved an internal research model part",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-520700121459995370",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "content_hash": "35868037727a66c70805c99c7a2552564ab4839b96d7ac5c2a5352b98ba8cf0d",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "35868037727a66c70805c99c7a2552564ab4839b96d7ac5c2a5352b98ba8cf0d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:09.015151+00:00",
+      "first_seen_local": "2026-10-16T09:11:09.015149-05:00",
+      "last_updated_utc": "2026-10-16T14:11:09.015151+00:00",
+      "last_updated_local": "2026-10-16T09:11:09.015149-05:00"
+    },
+    {
+      "title": "Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts",
+      "url": "https://cybersecuritynews.com/cloudflare-pages-domains/",
+      "published": "Fri, 16 Oct 2026 12:43:37 +0000",
+      "published_utc": "2026-10-16T12:43:37+00:00",
+      "summary": "<p>Hackers have abused more than 20,000 Cloudflare Pages domains over six months to spread fake Microsoft security alerts and steer users toward scam call centers. The campaign uses Help Traffic Distribution System, or Help TDS, to route visitors from compromised websites, malicious ads, social media, and spam into tech support scams. The pages claim that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-pages-domains/\">Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167706",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cloudflare-pages-domains",
+      "content_hash": "4eb8155ac5020b8d3f907ba878e7483fcc9fdb8cec500fca5dbdde775ba859b4",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "4eb8155ac5020b8d3f907ba878e7483fcc9fdb8cec500fca5dbdde775ba859b4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.850778+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.850775-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.850778+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.850775-05:00"
+    },
+    {
+      "title": "Google Chrome 155 Patches Critical Use-After-Free Flaw and Nine Additional Security Bugs",
+      "url": "https://gbhackers.com/chrome-155-security-flaws/",
+      "published": "Fri, 16 Oct 2026 12:36:42 +0000",
+      "published_utc": "2026-10-16T12:36:42+00:00",
+      "summary": "<p>Google has released Chrome 155 to the Stable channel with 10 security fixes. One is rated Critical: a use-after-free in Prerender, tracked as CVE-2026-110922. The update was published on October 15, 2026. The Stable channel moves to version 155.0.8059.84/.85 for Windows and Mac, and 155.0.8059.84 for Linux. Google says the rollout will take place &#8220;over [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-155-security-flaws/\">Google Chrome 155 Patches Critical Use-After-Free Flaw and Nine Additional Security Bugs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203644",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/chrome-155-security-flaws",
+      "content_hash": "1a3e2a5ea983fc28783f66086d460b2b61ddd7f4045a80719b90916801f99f81",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1a3e2a5ea983fc28783f66086d460b2b61ddd7f4045a80719b90916801f99f81"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.409494+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.409491-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.409494+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.409491-05:00"
+    },
+    {
+      "title": "Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide",
+      "url": "https://cybersecuritynews.com/breach-440-papercut-servers/",
+      "published": "Fri, 16 Oct 2026 12:23:47 +0000",
+      "published_utc": "2026-10-16T12:23:47+00:00",
+      "summary": "<p>A cybercrime campaign used hundreds of AI agents to target internet-facing PaperCut NG and MF print-management servers, compromising at least 440 instances linked to 395 organizations in 48 countries, according to GreyNoise. The operation paired OpenAI’s Codex coding-agent harness with a DeepSeek model and common security tools, allowing the operator to develop and test exploits [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/breach-440-papercut-servers/\">Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167702",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/breach-440-papercut-servers",
+      "content_hash": "a0c3e514a11e190648ab2d16f4394f1991881c311e7bbe7a4b4ccdebeb152476",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a0c3e514a11e190648ab2d16f4394f1991881c311e7bbe7a4b4ccdebeb152476"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.850778+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.850775-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.850778+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.850775-05:00"
+    },
+    {
+      "title": "iOS 27.0.1 Untethered Jailbreak Demonstrated on iPhone 18 Pro",
+      "url": "https://cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated/",
+      "published": "Fri, 16 Oct 2026 12:21:57 +0000",
+      "published_utc": "2026-10-16T12:21:57+00:00",
+      "summary": "<p>Security researchers from the cybersecurity firm Calif demonstrated a working untethered jailbreak for iOS 27.0.1 on Apple’s newest iPhone 18 Pro. The live demo took place at Hexacon 2026, the offensive security conference organized by Synacktiv in Paris on October 16. It is one of the first public signs that Apple’s latest phone and software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated/\">iOS 27.0.1 Untethered Jailbreak Demonstrated on iPhone 18 Pro</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167705",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated",
+      "content_hash": "d673677245534a8478bf40c796947901a41d6f45f197d8f8b0783b65a3d8a8f8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d673677245534a8478bf40c796947901a41d6f45f197d8f8b0783b65a3d8a8f8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.850778+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.850775-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.850778+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.850775-05:00"
+    },
+    {
+      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+      "url": "http://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "published": "Fri, 16 Oct 2026 11:30:00 +0000",
+      "published_utc": "2026-10-16T11:30:00+00:00",
+      "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6447590650802940324",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "content_hash": "64cb06e392c37b6f65602351830826c9dee2ee3c2519679c9d802b8289fd95ae",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "64cb06e392c37b6f65602351830826c9dee2ee3c2519679c9d802b8289fd95ae",
+        "FEEDBURNER": "64cb06e392c37b6f65602351830826c9dee2ee3c2519679c9d802b8289fd95ae"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:09.015151+00:00",
+      "first_seen_local": "2026-10-16T09:11:09.015149-05:00",
+      "last_updated_utc": "2026-10-16T14:11:09.015151+00:00",
+      "last_updated_local": "2026-10-16T09:11:09.015149-05:00"
+    },
+    {
+      "title": "Chinese Phishing Network Uses 17,000 Domains to Target Japanese Banks and Steal Credentials",
+      "url": "https://cybersecuritynews.com/chinese-phishing-network-2/",
+      "published": "Fri, 16 Oct 2026 11:26:28 +0000",
+      "published_utc": "2026-10-16T11:26:28+00:00",
+      "summary": "<p>A large Chinese-language phishing operation has used around 17,000 internet domains to impersonate banks, payment services, retailers and other well-known brands, with Japan as its main target. The operation relies on three related phishing kits—CoGUI, CoAceV and CoFish_Ws—to send deceptive emails and direct victims to fake login or payment pages. The findings come as security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chinese-phishing-network-2/\">Chinese Phishing Network Uses 17,000 Domains to Target Japanese Banks and Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167684",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chinese-phishing-network-2",
+      "content_hash": "39c683ed0f354aadb09f17db8f23436eb82dfe3de3d65db0023dc75cfa563f80",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "39c683ed0f354aadb09f17db8f23436eb82dfe3de3d65db0023dc75cfa563f80"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.850778+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.850775-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.850778+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.850775-05:00"
+    },
+    {
+      "title": "BAE Systems Cybersecurity Incident Disrupts Bankruptcy Court Operations Across the U.S.",
+      "url": "https://gbhackers.com/bae-systems-cybersecurity-incident/",
+      "published": "Fri, 16 Oct 2026 11:07:19 +0000",
+      "published_utc": "2026-10-16T11:07:19+00:00",
+      "summary": "<p>A cybersecurity incident at defense contractor BAE Systems has taken offline the systems that send bankruptcy notices for every federal bankruptcy court in the U.S. The Administrative Office of the U.S. Courts disclosed the disruption on October 15, 2026. BAE Systems IT and websites that support the Bankruptcy Noticing Center (BNC) were hit by the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bae-systems-cybersecurity-incident/\">BAE Systems Cybersecurity Incident Disrupts Bankruptcy Court Operations Across the U.S.</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203640",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/bae-systems-cybersecurity-incident",
+      "content_hash": "d4ceb942aa21822bb5edbaa2da007641a2daed4cb910b56115b584397ff643a8",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d4ceb942aa21822bb5edbaa2da007641a2daed4cb910b56115b584397ff643a8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.409494+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.409491-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.409494+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.409491-05:00"
+    },
+    {
+      "title": "New Aoki Malware Targets ChatGPT, Claude, Codex and Gemini to Steal Credentials",
+      "url": "https://cybersecuritynews.com/new-aoki-malware/",
+      "published": "Fri, 16 Oct 2026 10:22:47 +0000",
+      "published_utc": "2026-10-16T10:22:47+00:00",
+      "summary": "<p>Aoki, also known as Aokigahara, is a data-stealing malware that has added credentials for AI tools to its growing list of targets. Recent versions seek local files and session data linked to ChatGPT, Claude, OpenAI Codex, Cursor, Codeium and Gemini. The change raises the risk for developers who use AI assistants alongside source-code repositories, cloud [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-aoki-malware/\">New Aoki Malware Targets ChatGPT, Claude, Codex and Gemini to Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167649",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/new-aoki-malware",
+      "content_hash": "85df27028030e7cb51eb957b8b125aa63702c43db28f87c201289fd3d322c679",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "85df27028030e7cb51eb957b8b125aa63702c43db28f87c201289fd3d322c679"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.850778+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.850775-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.850778+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.850775-05:00"
+    },
+    {
+      "title": "Google Android Flags 5 Million Suspected Scam Calls and Texts Monthly",
+      "url": "https://gbhackers.com/google-android-scam-calls-texts/",
+      "published": "Fri, 16 Oct 2026 10:13:41 +0000",
+      "published_utc": "2026-10-16T10:13:41+00:00",
+      "summary": "<p>Google says its Android scam-detection capabilities now flag more than 5 million suspected scam calls and text messages each month, as mobile fraud operators increasingly use caller-ID spoofing, fake banking alerts, conversational phishing, and AI-enabled voice impersonation techniques. The company cited a YouGov survey of 4,500 smartphone users across the United States, Canada, and Australia, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-android-scam-calls-texts/\">Google Android Flags 5 Million Suspected Scam Calls and Texts Monthly</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203628",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/google-android-scam-calls-texts",
+      "content_hash": "1699906567eaf8b936e259c607b1aaa30aaf6e009af60c0bc35d05815baf92d9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1699906567eaf8b936e259c607b1aaa30aaf6e009af60c0bc35d05815baf92d9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.409494+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.409491-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.409494+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.409491-05:00"
+    },
+    {
+      "title": "Google Automatically Adds Your Phone Number to Every Google Account on Your Android Phone",
+      "url": "https://cybersecuritynews.com/google-automatically-adds-your-phone-number/",
+      "published": "Fri, 16 Oct 2026 10:07:02 +0000",
+      "published_utc": "2026-10-16T10:07:02+00:00",
+      "summary": "<p>Google automatically verifies phone numbers on Android devices and adds them to every Google account signed in on the Phone. The setting is enabled by default, raising privacy concerns for users who keep personal, work, and secondary accounts separate. Google’s documentation confirms that the behavior covers both existing accounts and accounts added later. The feature, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-automatically-adds-your-phone-number/\">Google Automatically Adds Your Phone Number to Every Google Account on Your Android Phone</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167614",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-automatically-adds-your-phone-number",
+      "content_hash": "5395bff2335c601e6f08ca42d9ab2a8abcd8edb40665749e2efa7d182dc1e676",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5395bff2335c601e6f08ca42d9ab2a8abcd8edb40665749e2efa7d182dc1e676"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.850778+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.850775-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.850778+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.850775-05:00"
+    },
+    {
+      "title": "Researchers Uncover 20,000 Malicious Cloudflare Pages Domains Used in Tech Support Scams",
+      "url": "https://gbhackers.com/20000-malicious-cloudflare-pages/",
+      "published": "Fri, 16 Oct 2026 09:40:31 +0000",
+      "published_utc": "2026-10-16T09:40:31+00:00",
+      "summary": "<p>More than 20,000 malicious Cloudflare Pages subdomains used by Help TDS, a longstanding traffic distribution system that funnels victims into fraudulent technical support call centers. Researchers assess with high confidence that Hotejka, a Russian-language affiliate program, operates Help TDS and represents a rebrand of ROI777. Historical DNS records, shared infrastructure, persistent affiliate identifiers, and consistent [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/20000-malicious-cloudflare-pages/\">Researchers Uncover 20,000 Malicious Cloudflare Pages Domains Used in Tech Support Scams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203620",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/20000-malicious-cloudflare-pages",
+      "content_hash": "94806e8a306e91438adab1f77aac6dc3e7de8c08dbdc895ca709312b3d196819",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "94806e8a306e91438adab1f77aac6dc3e7de8c08dbdc895ca709312b3d196819"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.409494+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.409491-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.409494+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.409491-05:00"
+    },
+    {
+      "title": "Hackers Exploit BeyondTrust Zero-Day and Erase Security Logs to Hide Their Tracks",
+      "url": "https://gbhackers.com/beyondtrust-zero-day-security-logs/",
+      "published": "Fri, 16 Oct 2026 09:35:40 +0000",
+      "published_utc": "2026-10-16T09:35:40+00:00",
+      "summary": "<p>A suspected China-nexus espionage group exploited a critical zero-day in BeyondTrust Remote Support, tracked as CVE-2026-102764. It then deleted logs to hide its activity. BeyondTrust patched the flaw in advisory BT26-05 and disclosed it on October 15, 2026, alongside a Mandiant analysis. BeyondTrust zero-day According to research published by BeyondTrust, the actor exploited the vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/beyondtrust-zero-day-security-logs/\">Hackers Exploit BeyondTrust Zero-Day and Erase Security Logs to Hide Their Tracks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203619",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/beyondtrust-zero-day-security-logs",
+      "content_hash": "f4817930a1f6d05188e1de839aec47e9b6021274765e6072f2700c68bd9747ea",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f4817930a1f6d05188e1de839aec47e9b6021274765e6072f2700c68bd9747ea"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.409494+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.409491-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.409494+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.409491-05:00"
+    },
+    {
+      "title": "Critical Collabora Online Flaw Lets Attackers Execute Commands on Nextcloud Servers",
+      "url": "https://gbhackers.com/collabora-online-nextcloud-security-flaw/",
+      "published": "Fri, 16 Oct 2026 09:19:50 +0000",
+      "published_utc": "2026-10-16T09:19:50+00:00",
+      "summary": "<p>A critical unauthenticated OS command injection flaw in Collabora Online&#8217;s built-in CODE Server app for Nextcloud lets remote attackers run commands as the web server user. The advisory rates it 9.2 on CVSS v4. Collabora Online vulnerability According to the security advisory published by Collabora Online on GitHub, the vulnerability is tracked as CVE-2026-110447 and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/collabora-online-nextcloud-security-flaw/\">Critical Collabora Online Flaw Lets Attackers Execute Commands on Nextcloud Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203615",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/collabora-online-nextcloud-security-flaw",
+      "content_hash": "6dfc1178ea0496b7cad40bc01e385a1fb250bbe796e8638a3181e3e9b9780dad",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "6dfc1178ea0496b7cad40bc01e385a1fb250bbe796e8638a3181e3e9b9780dad"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-16T14:11:02.409494+00:00",
+      "first_seen_local": "2026-10-16T09:11:02.409491-05:00",
+      "last_updated_utc": "2026-10-16T14:11:02.409494+00:00",
+      "last_updated_local": "2026-10-16T09:11:02.409491-05:00"
+    },
     {
       "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials",
       "url": "https://gbhackers.com/ai-agents-target-papercut/",

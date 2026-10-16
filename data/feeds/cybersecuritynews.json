@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection",
+          "url": "https://cybersecuritynews.com/new-romulus-clickfix-platform/",
+          "published": "Fri, 16 Oct 2026 14:42:10 +0000",
+          "published_utc": "2026-10-16T14:42:10+00:00",
+          "summary": "<p>Hackers are using a newly identified platform called ROMULUS to deliver malware through ClickFix traps, combining hidden PowerShell scripts, altered software installers, and encrypted archives. The platform supports separate infection paths, including one that installs LegionLoader and another that abuses a legitimate Stardock program to load malicious code. The findings show how a single delivery [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-romulus-clickfix-platform/\">Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167743"
+        },
+        {
+          "title": "New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords",
+          "url": "https://cybersecuritynews.com/new-yuankong-android-rat/",
+          "published": "Fri, 16 Oct 2026 14:08:06 +0000",
+          "published_utc": "2026-10-16T14:08:06+00:00",
+          "summary": "<p>A newly analyzed Android remote-access Trojan called YuanKong can watch and control a victim’s phone, capture passwords and payment PINs, and send stolen information to operators. Rather than relying on access to text messages or contact lists, it uses Android’s Accessibility features and screen controls to observe what people do inside apps, including banking and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-yuankong-android-rat/\">New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167738"
+        },
+        {
+          "title": "37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released",
+          "url": "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/",
+          "published": "Fri, 16 Oct 2026 14:01:26 +0000",
+          "published_utc": "2026-10-16T14:01:26+00:00",
+          "summary": "<p>A proof-of-concept exploit that gains root access on OpenBSD by chaining two kernel flaws. The main bug dates back about 37 years to the original BSD source code. According to Security researchers at Calif, the flaw survived because a shared memory attachment counter named shm_nattch used a signed 16-bit value. OpenBSD fixed both issues before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/\">37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167744"
+        },
+        {
+          "title": "Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords",
+          "url": "https://cybersecuritynews.com/hackers-use-ai-generated-scripts/",
+          "published": "Fri, 16 Oct 2026 13:23:48 +0000",
+          "published_utc": "2026-10-16T13:23:48+00:00",
+          "summary": "<p>A campaign against government organizations and state-linked infrastructure used AI-assisted scripts to steal credentials, maintain access to Linux servers and seek sensitive data, according to new research. The attackers altered users’ shell startup files to intercept the sudo command, then copied entered passwords to a file while passing them to the real command. This let [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-generated-scripts/\">Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167715"
+        },
+        {
+          "title": "Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts",
+          "url": "https://cybersecuritynews.com/cloudflare-pages-domains/",
+          "published": "Fri, 16 Oct 2026 12:43:37 +0000",
+          "published_utc": "2026-10-16T12:43:37+00:00",
+          "summary": "<p>Hackers have abused more than 20,000 Cloudflare Pages domains over six months to spread fake Microsoft security alerts and steer users toward scam call centers. The campaign uses Help Traffic Distribution System, or Help TDS, to route visitors from compromised websites, malicious ads, social media, and spam into tech support scams. The pages claim that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-pages-domains/\">Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167706"
+        },
+        {
+          "title": "Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide",
+          "url": "https://cybersecuritynews.com/breach-440-papercut-servers/",
+          "published": "Fri, 16 Oct 2026 12:23:47 +0000",
+          "published_utc": "2026-10-16T12:23:47+00:00",
+          "summary": "<p>A cybercrime campaign used hundreds of AI agents to target internet-facing PaperCut NG and MF print-management servers, compromising at least 440 instances linked to 395 organizations in 48 countries, according to GreyNoise. The operation paired OpenAI’s Codex coding-agent harness with a DeepSeek model and common security tools, allowing the operator to develop and test exploits [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/breach-440-papercut-servers/\">Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167702"
+        },
+        {
+          "title": "iOS 27.0.1 Untethered Jailbreak Demonstrated on iPhone 18 Pro",
+          "url": "https://cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated/",
+          "published": "Fri, 16 Oct 2026 12:21:57 +0000",
+          "published_utc": "2026-10-16T12:21:57+00:00",
+          "summary": "<p>Security researchers from the cybersecurity firm Calif demonstrated a working untethered jailbreak for iOS 27.0.1 on Apple’s newest iPhone 18 Pro. The live demo took place at Hexacon 2026, the offensive security conference organized by Synacktiv in Paris on October 16. It is one of the first public signs that Apple’s latest phone and software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated/\">iOS 27.0.1 Untethered Jailbreak Demonstrated on iPhone 18 Pro</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167705"
+        },
+        {
+          "title": "Chinese Phishing Network Uses 17,000 Domains to Target Japanese Banks and Steal Credentials",
+          "url": "https://cybersecuritynews.com/chinese-phishing-network-2/",
+          "published": "Fri, 16 Oct 2026 11:26:28 +0000",
+          "published_utc": "2026-10-16T11:26:28+00:00",
+          "summary": "<p>A large Chinese-language phishing operation has used around 17,000 internet domains to impersonate banks, payment services, retailers and other well-known brands, with Japan as its main target. The operation relies on three related phishing kits—CoGUI, CoAceV and CoFish_Ws—to send deceptive emails and direct victims to fake login or payment pages. The findings come as security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chinese-phishing-network-2/\">Chinese Phishing Network Uses 17,000 Domains to Target Japanese Banks and Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167684"
+        },
+        {
+          "title": "New Aoki Malware Targets ChatGPT, Claude, Codex and Gemini to Steal Credentials",
+          "url": "https://cybersecuritynews.com/new-aoki-malware/",
+          "published": "Fri, 16 Oct 2026 10:22:47 +0000",
+          "published_utc": "2026-10-16T10:22:47+00:00",
+          "summary": "<p>Aoki, also known as Aokigahara, is a data-stealing malware that has added credentials for AI tools to its growing list of targets. Recent versions seek local files and session data linked to ChatGPT, Claude, OpenAI Codex, Cursor, Codeium and Gemini. The change raises the risk for developers who use AI assistants alongside source-code repositories, cloud [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-aoki-malware/\">New Aoki Malware Targets ChatGPT, Claude, Codex and Gemini to Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167649"
+        },
+        {
+          "title": "Google Automatically Adds Your Phone Number to Every Google Account on Your Android Phone",
+          "url": "https://cybersecuritynews.com/google-automatically-adds-your-phone-number/",
+          "published": "Fri, 16 Oct 2026 10:07:02 +0000",
+          "published_utc": "2026-10-16T10:07:02+00:00",
+          "summary": "<p>Google automatically verifies phone numbers on Android devices and adds them to every Google account signed in on the Phone. The setting is enabled by default, raising privacy concerns for users who keep personal, work, and secondary accounts separate. Google’s documentation confirms that the behavior covers both existing accounts and accounts added later. The feature, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-automatically-adds-your-phone-number/\">Google Automatically Adds Your Phone Number to Every Google Account on Your Android Phone</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167614"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

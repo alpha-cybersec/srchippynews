@@ -79,8 +79,16 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 6,
+      "article_count": 7,
       "articles": [
+        {
+          "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+          "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+          "published": "Fri, 16 Oct 2026 23:18:45 +0530",
+          "published_utc": "2026-10-16T17:48:45+00:00",
+          "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+          "id": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html"
+        },
         {
           "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
           "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",

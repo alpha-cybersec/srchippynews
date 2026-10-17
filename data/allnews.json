@@ -1,38 +1,344 @@
 {
-  "generated_at_utc": "2026-10-17T04:55:38.961546+00:00",
-  "generated_at_local": "2026-10-16T23:55:38.961551-05:00",
-  "article_count": 1,
-  "new_count": 1,
+  "generated_at_utc": "2026-10-17T09:12:38.836293+00:00",
+  "generated_at_local": "2026-10-17T04:12:38.836302-05:00",
+  "article_count": 12,
+  "new_count": 12,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 1
+    "gbhackers": 9,
+    "thehackernews": 1,
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "OpenAI Confirms Its AI Model Hacked Government Website While Counting Hospital Beds",
-      "url": "https://cybersecuritynews.com/openai-confirms-ai-model-hacked/",
-      "published": "Sat, 17 Oct 2026 04:15:46 +0000",
-      "published_utc": "2026-10-17T04:15:46+00:00",
-      "summary": "<p>OpenAI has confirmed that an internal AI model hacked an unnamed government statistics website while trying to count hospital beds. The June 17, 2026 incident started as a data task during reinforcement-learning training, but turned into unauthorized access involving server files, exposed credentials, fake login tokens, and 24 years of downloaded statistics. OpenAI found the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-confirms-ai-model-hacked/\">OpenAI Confirms Its AI Model Hacked Government Website While Counting Hospital Beds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167772",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/openai-confirms-ai-model-hacked",
-      "content_hash": "39c7a8c1392eaed5fc4edc5455dec3befe6e5feded7d24490e6d3f3e709ec2da",
+      "title": "Anthropic’s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years",
+      "url": "https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/",
+      "published": "Sat, 17 Oct 2026 09:07:04 +0000",
+      "published_utc": "2026-10-17T09:07:04+00:00",
+      "summary": "<p>Anthropic says an internal Claude research model reconstructed how the National Security Agency generated seeds for five NIST elliptic curves in under 30 minutes, addressing a cryptographic mystery spanning roughly 25 years. Its October 16 report attributes the seeds to a standard C pseudorandom number generator initialized with Unix timestamps, rather than secret passphrases. Despite [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/\">Anthropic&#8217;s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203740",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys",
+      "content_hash": "43c176d38bf6aa905670c3f53ecbea2802cc1353691fe0ed8c5e0fad26b4b8b1",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "39c7a8c1392eaed5fc4edc5455dec3befe6e5feded7d24490e6d3f3e709ec2da"
+        "ORIGINAL": "43c176d38bf6aa905670c3f53ecbea2802cc1353691fe0ed8c5e0fad26b4b8b1"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-17T04:55:34.650955+00:00",
-      "first_seen_local": "2026-10-16T23:55:34.650952-05:00",
-      "last_updated_utc": "2026-10-17T04:55:34.650955+00:00",
-      "last_updated_local": "2026-10-16T23:55:34.650952-05:00"
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication",
+      "url": "https://gbhackers.com/critical-wordpress-flaws/",
+      "published": "Sat, 17 Oct 2026 08:47:31 +0000",
+      "published_utc": "2026-10-17T08:47:31+00:00",
+      "summary": "<p>Two WordPress Core vulnerabilities can be chained to execute remote code without authentication, according to analysis by Seqrite researcher Amruta Wagh. Dubbed WP2Shell, the exploit chain reportedly emerged in July 2026 and combines REST API route confusion with SQL injection, allowing attackers to progress from public endpoints to server compromise without possessing valid WordPress credentials. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-flaws/\">Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203735",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-wordpress-flaws",
+      "content_hash": "ed10d95f5355330663ccbe8be583f5446e3e320ee200b714394c6c3a0eae08d8",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ed10d95f5355330663ccbe8be583f5446e3e320ee200b714394c6c3a0eae08d8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root",
+      "url": "https://gbhackers.com/openbsd-kernel-flaw/",
+      "published": "Sat, 17 Oct 2026 08:34:43 +0000",
+      "published_utc": "2026-10-17T08:34:43+00:00",
+      "summary": "<p>A newly disclosed OpenBSD kernel exploitation chain combines a shared memory accounting flaw with a separate out-of-bounds write to obtain root privileges. Calif researcher Andrew Griffiths published the “Big Fish” research on October 16, 2026, alongside public proof-of-concept code demonstrating exploitation with multiple kernel security protections enabled. The oldest vulnerability traces to a shared memory [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openbsd-kernel-flaw/\">OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203727",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openbsd-kernel-flaw",
+      "content_hash": "e7da3598af2d1a2eea9b5ce4e4d8eaa0ace882231f3d5c16c68009c3c59ad46f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e7da3598af2d1a2eea9b5ce4e4d8eaa0ace882231f3d5c16c68009c3c59ad46f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories",
+      "url": "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/",
+      "published": "Sat, 17 Oct 2026 08:26:30 +0000",
+      "published_utc": "2026-10-17T08:26:30+00:00",
+      "summary": "<p>GhostAction attackers have expanded their GitHub credential theft campaign with a second stage that disguises malicious JavaScript as a font file and targets developer workstations through Visual Studio Code tasks. Jenn Gile identified 94 compromised repositories belonging to 66 owners, confirming the payload in all 79 repositories available for analysis. The remaining 15 were inaccessible. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/\">GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203724",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware",
+      "content_hash": "1e0aacf308b558fa9b65b34b33d8addb042f7979faa905262aa0e77b57cbdf37",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1e0aacf308b558fa9b65b34b33d8addb042f7979faa905262aa0e77b57cbdf37",
+        "FEEDBURNER": "1e0aacf308b558fa9b65b34b33d8addb042f7979faa905262aa0e77b57cbdf37"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "SideCopy Hackers Target Indian Organizations With ReverseRAT Malware to Steal Data",
+      "url": "https://gbhackers.com/sidecopy-hackers-target-indian-organizations/",
+      "published": "Sat, 17 Oct 2026 08:06:13 +0000",
+      "published_utc": "2026-10-17T08:06:13+00:00",
+      "summary": "<p>Indian authorities have warned that SideCopy hackers are targeting Indian organizations, including academic institutions, with spear-phishing attacks that deploy ReverseRAT on Windows systems. The October 15, 2026, advisory classifies the threat as medium severity and highlights malware that can steal passwords, capture screenshots, and collect sensitive information. The campaign combines deceptive attachments, malicious Windows shortcuts, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sidecopy-hackers-target-indian-organizations/\">SideCopy Hackers Target Indian Organizations With ReverseRAT Malware to Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203719",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sidecopy-hackers-target-indian-organizations",
+      "content_hash": "0007bf31a6f06015c0b5f91fe6f1322ebad10fd4d1eeb2b867aced97c63848b4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0007bf31a6f06015c0b5f91fe6f1322ebad10fd4d1eeb2b867aced97c63848b4",
+        "FEEDBURNER": "0007bf31a6f06015c0b5f91fe6f1322ebad10fd4d1eeb2b867aced97c63848b4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "New GhostBat Android Malware Targets 60 Banking and UPI Apps to Steal PINs",
+      "url": "https://gbhackers.com/ghostbat-android-malware/",
+      "published": "Sat, 17 Oct 2026 07:14:15 +0000",
+      "published_utc": "2026-10-17T07:14:15+00:00",
+      "summary": "<p>A new GhostBat RAT variant targets 60 Android financial application packages used in India, combining accessibility-based PIN capture with a transparent overlay that intercepts interactions inside legitimate Google Pay and MobiKwik interfaces. The findings extend Cyble’s October 2025 investigation, which documented GhostBat spreading through fraudulent mParivahan applications, harvesting banking messages, and stealing UPI PINs through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostbat-android-malware/\">New GhostBat Android Malware Targets 60 Banking and UPI Apps to Steal PINs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203702",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ghostbat-android-malware",
+      "content_hash": "a22348ae84a8699d15743ae61c8a39634c0f800a10dc726444ce18370fe26c5b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a22348ae84a8699d15743ae61c8a39634c0f800a10dc726444ce18370fe26c5b",
+        "FEEDBURNER": "a22348ae84a8699d15743ae61c8a39634c0f800a10dc726444ce18370fe26c5b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "New ROMULUS Malware Platform Uses Six Servers to Deliver Multiple Malicious Payloads",
+      "url": "https://gbhackers.com/romulus-malware-platform/",
+      "published": "Sat, 17 Oct 2026 06:54:51 +0000",
+      "published_utc": "2026-10-17T06:54:51+00:00",
+      "summary": "<p>ROMULUS, a shared ClickFix delivery platform operating across six identified servers, with confirmed routes distributing a trojanized Stardock package and LegionLoader. The discovery connects infrastructure from a recently documented ChatGPT Custom GPT abuse campaign to an independently investigated incident, exposing a reusable backend capable of delivering different malicious payloads. The investigation began after researchers found [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/romulus-malware-platform/\">New ROMULUS Malware Platform Uses Six Servers to Deliver Multiple Malicious Payloads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203692",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/romulus-malware-platform",
+      "content_hash": "6e890c6a1ae806be6d709e38919bb7a7cbcf245e0af8e87a5aa92a11738f833f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6e890c6a1ae806be6d709e38919bb7a7cbcf245e0af8e87a5aa92a11738f833f",
+        "FEEDBURNER": "6e890c6a1ae806be6d709e38919bb7a7cbcf245e0af8e87a5aa92a11738f833f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "Midnight Blizzard-Linked Malware Server Still Delivering Payloads 8 Weeks After Disclosure",
+      "url": "https://gbhackers.com/midnight-blizzard-malware/",
+      "published": "Sat, 17 Oct 2026 06:26:17 +0000",
+      "published_utc": "2026-10-17T06:26:17+00:00",
+      "summary": "<p>A server linked to a malware campaign attributed to a Midnight Blizzard-associated cluster was still delivering malicious files on October 5, 2026. The server returned HTTP 200 responses for multiple payload paths, including one used by simple Windows Internet Shortcut files to launch a PowerShell stager. The finding shows that public disclosure and low reputation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/midnight-blizzard-malware/\">Midnight Blizzard-Linked Malware Server Still Delivering Payloads 8 Weeks After Disclosure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203681",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/midnight-blizzard-malware",
+      "content_hash": "a1354fd7f4cf050300b4bade5ae176bb7cf8c5ee94d2ff665396ba90b5690734",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a1354fd7f4cf050300b4bade5ae176bb7cf8c5ee94d2ff665396ba90b5690734",
+        "FEEDBURNER": "a1354fd7f4cf050300b4bade5ae176bb7cf8c5ee94d2ff665396ba90b5690734"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "http://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "published": "Sat, 17 Oct 2026 06:16:46 +0000",
+      "published_utc": "2026-10-17T06:16:46+00:00",
+      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\n\nConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8947051279331706491",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "content_hash": "a676963096f787dbd29f268dfd1adc6ffa6c3f67f3d66c8ae79db15ab0c66ec5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a676963096f787dbd29f268dfd1adc6ffa6c3f67f3d66c8ae79db15ab0c66ec5",
+        "FEEDBURNER": "a676963096f787dbd29f268dfd1adc6ffa6c3f67f3d66c8ae79db15ab0c66ec5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:38.827589+00:00",
+      "first_seen_local": "2026-10-17T04:12:38.827586-05:00",
+      "last_updated_utc": "2026-10-17T09:12:38.827589+00:00",
+      "last_updated_local": "2026-10-17T04:12:38.827586-05:00"
+    },
+    {
+      "title": "Android Malware Exposes Its Own Operators While Hijacking Phones and Stealing Sensitive Data",
+      "url": "https://gbhackers.com/android-remote-access-trojan/",
+      "published": "Sat, 17 Oct 2026 05:57:36 +0000",
+      "published_utc": "2026-10-17T05:57:36+00:00",
+      "summary": "<p>An Android remote-access Trojan, YuanKong, whose weakly protected dropper reveals more than its hidden payload: it exposes the operator account identifiers embedded in each build. Analysis of 110 droppers uncovered 57 distinct child payloads, 42 operator accounts and 44 rotating build brands, all tied together by a shared signing certificate and command-and-control (C2) infrastructure. Its [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-remote-access-trojan/\">Android Malware Exposes Its Own Operators While Hijacking Phones and Stealing Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203671",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/android-remote-access-trojan",
+      "content_hash": "163c47641b22232e0da0dad85835bb890179f2f37d34b4ec157565f54f9371cf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "163c47641b22232e0da0dad85835bb890179f2f37d34b4ec157565f54f9371cf",
+        "FEEDBURNER": "163c47641b22232e0da0dad85835bb890179f2f37d34b4ec157565f54f9371cf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:32.975379+00:00",
+      "first_seen_local": "2026-10-17T04:12:32.975376-05:00",
+      "last_updated_utc": "2026-10-17T09:12:32.975379+00:00",
+      "last_updated_local": "2026-10-17T04:12:32.975376-05:00"
+    },
+    {
+      "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
+      "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
+      "published": "Sat, 17 Oct 2026 05:29:38 +0000",
+      "published_utc": "2026-10-17T05:29:38+00:00",
+      "summary": "<p>Google released a Chrome Stable security update fixing 10 vulnerabilities across Windows, Mac, and Linux, including a high-severity DOM memory corruption flaw reported by Xinyang Ge of Anthropic with Claude AI. The update also addresses one critical, six high-severity, and three medium-severity vulnerabilities. Google announced the update on October 15, 2026. Google is rolling out [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/\">Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167704",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities",
+      "content_hash": "d71f4db443cd5e20a50804ece42328a8d31046b151fe33e2b424c185aa07da09",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d71f4db443cd5e20a50804ece42328a8d31046b151fe33e2b424c185aa07da09",
+        "FEEDBURNER": "d71f4db443cd5e20a50804ece42328a8d31046b151fe33e2b424c185aa07da09"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:33.342498+00:00",
+      "first_seen_local": "2026-10-17T04:12:33.342495-05:00",
+      "last_updated_utc": "2026-10-17T09:12:33.342498+00:00",
+      "last_updated_local": "2026-10-17T04:12:33.342495-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
+      "url": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
+      "published": "Sat, 17 Oct 2026 05:24:55 +0000",
+      "published_utc": "2026-10-17T05:24:55+00:00",
+      "summary": "<p>Hackers are exploiting a critical flaw in the Collabora Online Built-in CODE Server app for Nextcloud, with users reporting web shells on compromised servers. Tracked as CVE-2026-110447, the vulnerability allows remote attackers to run operating system commands without logging in. It affects the richdocumentscode app before version 26.4.303 and carries a CVSS v4 score of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/\">Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167652",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw",
+      "content_hash": "e98da4a22df2eaae5b0f128bdeb1b84a8496589a0299f09df4b4985bab7b804a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e98da4a22df2eaae5b0f128bdeb1b84a8496589a0299f09df4b4985bab7b804a",
+        "FEEDBURNER": "e98da4a22df2eaae5b0f128bdeb1b84a8496589a0299f09df4b4985bab7b804a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-17T09:12:33.342498+00:00",
+      "first_seen_local": "2026-10-17T04:12:33.342495-05:00",
+      "last_updated_utc": "2026-10-17T09:12:33.342498+00:00",
+      "last_updated_local": "2026-10-17T04:12:33.342495-05:00"
     }
   ]
 }

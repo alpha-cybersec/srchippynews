@@ -10,8 +10,16 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 9,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "Hackers Use ConnectWise SkyKick Credentials to Access Microsoft 365, Halting Cloud Backups",
+          "url": "https://gbhackers.com/hackers-use-connectwise-skykick-credentials/",
+          "published": "Sat, 17 Oct 2026 12:27:27 +0000",
+          "published_utc": "2026-10-17T12:27:27+00:00",
+          "summary": "<p>Attackers abused compromised ConnectWise Cloud Backup credentials to access Microsoft 365 customer environments, prompting ConnectWise to shut off application access and interrupt backup services. Jonathan Semon confirmed unauthorized sign-ins across 162 tenants as of 19:00 UTC on October 16, exposing risks associated with privileged vendor applications. ConnectWise said in its October 17 update, supplied for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-connectwise-skykick-credentials/\">Hackers Use ConnectWise SkyKick Credentials to Access Microsoft 365, Halting Cloud Backups</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203747"
+        },
         {
           "title": "Anthropic’s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years",
           "url": "https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/",
@@ -95,8 +103,40 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 6,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "Hackers Use ConnectWise SkyKick Credentials to Access Microsoft 365, Halting Cloud Backups",
+          "url": "https://gbhackers.com/hackers-use-connectwise-skykick-credentials/",
+          "published": "Sat, 17 Oct 2026 12:27:27 +0000",
+          "published_utc": "2026-10-17T12:27:27+00:00",
+          "summary": "<p>Attackers abused compromised ConnectWise Cloud Backup credentials to access Microsoft 365 customer environments, prompting ConnectWise to shut off application access and interrupt backup services. Jonathan Semon confirmed unauthorized sign-ins across 162 tenants as of 19:00 UTC on October 16, exposing risks associated with privileged vendor applications. ConnectWise said in its October 17 update, supplied for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-connectwise-skykick-credentials/\">Hackers Use ConnectWise SkyKick Credentials to Access Microsoft 365, Halting Cloud Backups</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203747"
+        },
+        {
+          "title": "Anthropic’s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years",
+          "url": "https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/",
+          "published": "Sat, 17 Oct 2026 09:07:04 +0000",
+          "published_utc": "2026-10-17T09:07:04+00:00",
+          "summary": "<p>Anthropic says an internal Claude research model reconstructed how the National Security Agency generated seeds for five NIST elliptic curves in under 30 minutes, addressing a cryptographic mystery spanning roughly 25 years. Its October 16 report attributes the seeds to a standard C pseudorandom number generator initialized with Unix timestamps, rather than secret passphrases. Despite [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/\">Anthropic&#8217;s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203740"
+        },
+        {
+          "title": "Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication",
+          "url": "https://gbhackers.com/critical-wordpress-flaws/",
+          "published": "Sat, 17 Oct 2026 08:47:31 +0000",
+          "published_utc": "2026-10-17T08:47:31+00:00",
+          "summary": "<p>Two WordPress Core vulnerabilities can be chained to execute remote code without authentication, according to analysis by Seqrite researcher Amruta Wagh. Dubbed WP2Shell, the exploit chain reportedly emerged in July 2026 and combines REST API route confusion with SQL injection, allowing attackers to progress from public endpoints to server compromise without possessing valid WordPress credentials. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-flaws/\">Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203735"
+        },
+        {
+          "title": "OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root",
+          "url": "https://gbhackers.com/openbsd-kernel-flaw/",
+          "published": "Sat, 17 Oct 2026 08:34:43 +0000",
+          "published_utc": "2026-10-17T08:34:43+00:00",
+          "summary": "<p>A newly disclosed OpenBSD kernel exploitation chain combines a shared memory accounting flaw with a separate out-of-bounds write to obtain root privileges. Calif researcher Andrew Griffiths published the “Big Fish” research on October 16, 2026, alongside public proof-of-concept code demonstrating exploitation with multiple kernel security protections enabled. The oldest vulnerability traces to a shared memory [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openbsd-kernel-flaw/\">OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203727"
+        },
         {
           "title": "GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories",
           "url": "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/",

@@ -5,47 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 4,
-      "articles": [
-        {
-          "title": "Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes",
-          "url": "https://cybersecuritynews.com/claude-ai-cryptography-mystery/",
-          "published": "Sat, 17 Oct 2026 16:59:29 +0000",
-          "published_utc": "2026-10-17T16:59:29+00:00",
-          "summary": "<p>Anthropic says an internal Claude research model has traced the origins of five NSA-supplied elliptic curve seeds in under 30 minutes, answering a cryptography question that remained open for roughly 25 years. The finding explains how important public security parameters were chosen, rather than exposing secret keys or breaking encryption. In a report published October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-cryptography-mystery/\">Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167811"
-        },
-        {
-          "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
-          "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
-          "published": "Sat, 17 Oct 2026 10:52:09 +0000",
-          "published_utc": "2026-10-17T10:52:09+00:00",
-          "summary": "<p>Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application. The incident shows how one leaked vendor secret can create risk across many organizations when a multitenant app already has wide permissions. The affected product is ConnectWise Cloud [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/\">Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167775"
-        },
-        {
-          "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
-          "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
-          "published": "Sat, 17 Oct 2026 05:29:38 +0000",
-          "published_utc": "2026-10-17T05:29:38+00:00",
-          "summary": "<p>Google released a Chrome Stable security update fixing 10 vulnerabilities across Windows, Mac, and Linux, including a high-severity DOM memory corruption flaw reported by Xinyang Ge of Anthropic with Claude AI. The update also addresses one critical, six high-severity, and three medium-severity vulnerabilities. Google announced the update on October 15, 2026. Google is rolling out [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/\">Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167704"
-        },
-        {
-          "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
-          "url": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
-          "published": "Sat, 17 Oct 2026 05:24:55 +0000",
-          "published_utc": "2026-10-17T05:24:55+00:00",
-          "summary": "<p>Hackers are exploiting a critical flaw in the Collabora Online Built-in CODE Server app for Nextcloud, with users reporting web shells on compromised servers. Tracked as CVE-2026-110447, the vulnerability allows remote attackers to run operating system commands without logging in. It affects the richdocumentscode app before version 26.4.303 and carries a CVSS v4 score of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/\">Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167652"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

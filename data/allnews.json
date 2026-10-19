@@ -1,208 +1,430 @@
 {
-  "generated_at_utc": "2026-10-19T11:10:41.895345+00:00",
-  "generated_at_local": "2026-10-19T06:10:41.895353-05:00",
-  "article_count": 7,
-  "new_count": 7,
+  "generated_at_utc": "2026-10-19T17:43:35.540877+00:00",
+  "generated_at_local": "2026-10-19T12:43:35.540887-05:00",
+  "article_count": 15,
+  "new_count": 15,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 3,
-    "gbhackers": 3,
-    "cybersecuritynews": 1
+    "thehackernews": 5,
+    "gbhackers": 5,
+    "cybersecuritynews": 5
   },
   "articles": [
     {
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "http://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "published": "Mon, 19 Oct 2026 10:06:40 +0000",
-      "published_utc": "2026-10-19T10:06:40+00:00",
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\n\"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4183053864285866663",
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "url": "http://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "published": "Mon, 19 Oct 2026 17:32:13 +0000",
+      "published_utc": "2026-10-19T17:32:13+00:00",
+      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell.\n\nThe vulnerabilities",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3450941002531577436",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "content_hash": "36abfb9b3d1d4b3351f197c90145b03c9b6bbab826eba5eba01a30d9140f26b4",
+      "article_key": "thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "content_hash": "bf58d86393d8683bd879c569060fb048f3cb0f67797cef0c0fe8d3def0857f15",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "36abfb9b3d1d4b3351f197c90145b03c9b6bbab826eba5eba01a30d9140f26b4"
+        "ORIGINAL": "bf58d86393d8683bd879c569060fb048f3cb0f67797cef0c0fe8d3def0857f15"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:41.887562+00:00",
-      "first_seen_local": "2026-10-19T06:10:41.887559-05:00",
-      "last_updated_utc": "2026-10-19T11:10:41.887562+00:00",
-      "last_updated_local": "2026-10-19T06:10:41.887559-05:00"
+      "first_seen_utc": "2026-10-19T17:43:35.531535+00:00",
+      "first_seen_local": "2026-10-19T12:43:35.531532-05:00",
+      "last_updated_utc": "2026-10-19T17:43:35.531535+00:00",
+      "last_updated_local": "2026-10-19T12:43:35.531532-05:00"
     },
     {
-      "title": "Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw",
-      "url": "https://gbhackers.com/critical-vs-code-security-bypass-flaw/",
-      "published": "Mon, 19 Oct 2026 07:49:29 +0000",
-      "published_utc": "2026-10-19T07:49:29+00:00",
-      "summary": "<p>Microsoft awarded security researcher Sam Chen US$4,000 for reporting a flaw in Visual Studio Code that could let an attacker bypass Workspace Trust protections. The issue, tracked as CVE-2026-81376, affects VS Code versions earlier than 1.136.2 and has a critical CVSS score of 9.6. Microsoft has fixed the flaw; users should update to version 1.136.2 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-vs-code-security-bypass-flaw/\">Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203805",
+      "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
+      "url": "https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
+      "published": "Mon, 19 Oct 2026 17:11:46 +0000",
+      "published_utc": "2026-10-19T17:11:46+00:00",
+      "summary": "<p>San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/\">Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203823",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-vs-code-security-bypass-flaw",
-      "content_hash": "3613f9072c2db23368ae43f3c2a8b9542de0e2848d22e6d5918cf2a7e3c0e794",
+      "article_key": "gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding",
+      "content_hash": "07de56ecb188fc3b08cebc77fe434c7bb7d4b0e8c0ffc6d93edd92b626f3973a",
       "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
+        "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "3613f9072c2db23368ae43f3c2a8b9542de0e2848d22e6d5918cf2a7e3c0e794",
-        "FEEDBURNER": "3613f9072c2db23368ae43f3c2a8b9542de0e2848d22e6d5918cf2a7e3c0e794"
+        "ORIGINAL": "07de56ecb188fc3b08cebc77fe434c7bb7d4b0e8c0ffc6d93edd92b626f3973a"
       },
-      "feed_comparison": "MATCH",
+      "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:35.439611+00:00",
-      "first_seen_local": "2026-10-19T06:10:35.439608-05:00",
-      "last_updated_utc": "2026-10-19T11:10:35.439611+00:00",
-      "last_updated_local": "2026-10-19T06:10:35.439608-05:00"
+      "first_seen_utc": "2026-10-19T17:43:29.134434+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.134431-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.134434+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.134431-05:00"
     },
     {
-      "title": "U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors",
-      "url": "https://gbhackers.com/u-s-agencies-warn-ai-agents/",
-      "published": "Mon, 19 Oct 2026 06:55:34 +0000",
-      "published_utc": "2026-10-19T06:55:34+00:00",
-      "summary": "<p>U.S. agencies have warned that advanced AI agents could exploit security flaws, break out of their assigned limits, and leave hidden backdoors behind. New guidance from NIST, the National Security Agency, and CISA urges AI developers to prepare for incidents in which agents take harmful actions without being told to do so. Released on October [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/u-s-agencies-warn-ai-agents/\">U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203802",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/u-s-agencies-warn-ai-agents",
-      "content_hash": "7ea6bb7d38db9271e54841e5ea0a67a5ea7fbf237a04e113093da07726fea645",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7ea6bb7d38db9271e54841e5ea0a67a5ea7fbf237a04e113093da07726fea645",
-        "FEEDBURNER": "7ea6bb7d38db9271e54841e5ea0a67a5ea7fbf237a04e113093da07726fea645"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:35.439611+00:00",
-      "first_seen_local": "2026-10-19T06:10:35.439608-05:00",
-      "last_updated_utc": "2026-10-19T11:10:35.439611+00:00",
-      "last_updated_local": "2026-10-19T06:10:35.439608-05:00"
-    },
-    {
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "url": "http://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "published": "Mon, 19 Oct 2026 06:29:44 +0000",
-      "published_utc": "2026-10-19T06:29:44+00:00",
-      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-703283065619382654",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "content_hash": "6c49981959dffa929fbedf6790e88834ddd0162a047136f5c687d0b626ee6da1",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "6c49981959dffa929fbedf6790e88834ddd0162a047136f5c687d0b626ee6da1",
-        "FEEDBURNER": "6c49981959dffa929fbedf6790e88834ddd0162a047136f5c687d0b626ee6da1"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:41.887562+00:00",
-      "first_seen_local": "2026-10-19T06:10:41.887559-05:00",
-      "last_updated_utc": "2026-10-19T11:10:41.887562+00:00",
-      "last_updated_local": "2026-10-19T06:10:41.887559-05:00"
-    },
-    {
-      "title": "Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks",
-      "url": "https://gbhackers.com/ai-assisted-attacks/",
-      "published": "Mon, 19 Oct 2026 06:21:24 +0000",
-      "published_utc": "2026-10-19T06:21:24+00:00",
-      "summary": "<p>Hackers linked to attacks on South Korean banks used Claude Code, DeepSeek, Grok, and Zhipu AI alongside ARTEX, an open-source AI penetration testing framework. The campaign shows how attackers can combine AI services with familiar hacking tools to search for weaknesses across different systems, while leaving evidence that helps investigators trace their work. Public reporting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-assisted-attacks/\">Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203799",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-assisted-attacks",
-      "content_hash": "1bee2b27743ebe321a985369b2ffffc6bc9f1cfd9e9d2ec4d8b7f55bd8d1ea1c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "1bee2b27743ebe321a985369b2ffffc6bc9f1cfd9e9d2ec4d8b7f55bd8d1ea1c",
-        "FEEDBURNER": "1bee2b27743ebe321a985369b2ffffc6bc9f1cfd9e9d2ec4d8b7f55bd8d1ea1c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:35.439611+00:00",
-      "first_seen_local": "2026-10-19T06:10:35.439608-05:00",
-      "last_updated_utc": "2026-10-19T11:10:35.439611+00:00",
-      "last_updated_local": "2026-10-19T06:10:35.439608-05:00"
-    },
-    {
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "url": "http://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "published": "Mon, 19 Oct 2026 06:07:08 +0000",
-      "published_utc": "2026-10-19T06:07:08+00:00",
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5776349161595719472",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "content_hash": "dec95215864c65e3a6bbe048e32834721e74136b3a9ce2394062c46f648973bc",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dec95215864c65e3a6bbe048e32834721e74136b3a9ce2394062c46f648973bc",
-        "FEEDBURNER": "dec95215864c65e3a6bbe048e32834721e74136b3a9ce2394062c46f648973bc"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:41.887562+00:00",
-      "first_seen_local": "2026-10-19T06:10:41.887559-05:00",
-      "last_updated_utc": "2026-10-19T11:10:41.887562+00:00",
-      "last_updated_local": "2026-10-19T06:10:41.887559-05:00"
-    },
-    {
-      "title": "Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft",
-      "url": "https://cybersecuritynews.com/google-unveils-new-android-ai-protections/",
-      "published": "Mon, 19 Oct 2026 06:04:18 +0000",
-      "published_utc": "2026-10-19T06:04:18+00:00",
-      "summary": "<p>Google has announced a new set of Android security protections designed to stop mobile scams across calls, text messages, chat apps, web links, and account verification codes. The update comes as criminals increasingly use spoofed phone numbers, fake bank alerts, phishing pages, remote screen sharing, and AI-generated voices to trick users into giving up money [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-unveils-new-android-ai-protections/\">Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167669",
+      "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
+      "url": "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
+      "published": "Mon, 19 Oct 2026 17:11:36 +0000",
+      "published_utc": "2026-10-19T17:11:36+00:00",
+      "summary": "<p>San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/\">Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167899",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/google-unveils-new-android-ai-protections",
-      "content_hash": "1b040ad2af98d2df062a315fbcc101e448b1393fc5d138c99e17037c9f1b3336",
+      "article_key": "cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding",
+      "content_hash": "93d741acdd809acbb5f1425477cbf56158bf52fdf6e6ca3251ed4151932282e0",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "1b040ad2af98d2df062a315fbcc101e448b1393fc5d138c99e17037c9f1b3336",
-        "FEEDBURNER": "1b040ad2af98d2df062a315fbcc101e448b1393fc5d138c99e17037c9f1b3336"
+        "ORIGINAL": "93d741acdd809acbb5f1425477cbf56158bf52fdf6e6ca3251ed4151932282e0",
+        "FEEDBURNER": "93d741acdd809acbb5f1425477cbf56158bf52fdf6e6ca3251ed4151932282e0"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-19T11:10:35.888138+00:00",
-      "first_seen_local": "2026-10-19T06:10:35.888136-05:00",
-      "last_updated_utc": "2026-10-19T11:10:35.888138+00:00",
-      "last_updated_local": "2026-10-19T06:10:35.888136-05:00"
+      "first_seen_utc": "2026-10-19T17:43:29.434818+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.434816-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.434818+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.434816-05:00"
+    },
+    {
+      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "url": "http://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "published": "Mon, 19 Oct 2026 16:28:47 +0000",
+      "published_utc": "2026-10-19T16:28:47+00:00",
+      "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.\n\nAny site that installed and activated one of those copies should be treated as compromised, and the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1910747183201987336",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "content_hash": "903080f5677ac935d4c6ab3bdef3ffcca5865ca7086edd85206616564c0efe43",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "903080f5677ac935d4c6ab3bdef3ffcca5865ca7086edd85206616564c0efe43",
+        "FEEDBURNER": "903080f5677ac935d4c6ab3bdef3ffcca5865ca7086edd85206616564c0efe43"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:35.531535+00:00",
+      "first_seen_local": "2026-10-19T12:43:35.531532-05:00",
+      "last_updated_utc": "2026-10-19T17:43:35.531535+00:00",
+      "last_updated_local": "2026-10-19T12:43:35.531532-05:00"
+    },
+    {
+      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "url": "http://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "published": "Mon, 19 Oct 2026 14:14:07 +0000",
+      "published_utc": "2026-10-19T14:14:07+00:00",
+      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\nThis week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1086360863197017110",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "content_hash": "9d3eeebfaea5cd89d6fb038f0341f47f3453a52cc1db86c8957349e9a1237d9a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9d3eeebfaea5cd89d6fb038f0341f47f3453a52cc1db86c8957349e9a1237d9a",
+        "FEEDBURNER": "9d3eeebfaea5cd89d6fb038f0341f47f3453a52cc1db86c8957349e9a1237d9a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:35.531535+00:00",
+      "first_seen_local": "2026-10-19T12:43:35.531532-05:00",
+      "last_updated_utc": "2026-10-19T17:43:35.531535+00:00",
+      "last_updated_local": "2026-10-19T12:43:35.531532-05:00"
+    },
+    {
+      "title": "Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution",
+      "url": "https://gbhackers.com/researchers-hack-snowflake/",
+      "published": "Mon, 19 Oct 2026 13:27:54 +0000",
+      "published_utc": "2026-10-19T13:27:54+00:00",
+      "summary": "<p>A security test of Snowflake-managed PostgreSQL has shown how a database role with limited privileges could be turned into control of the server running the database. Researchers chained several built-in PostgreSQL features to reach operating-system command execution, even though Snowflake had blocked common ways to run commands and access files through SQL. The finding highlights [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-hack-snowflake/\">Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203817",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/researchers-hack-snowflake",
+      "content_hash": "dcf2fbd332cbe16ab05b84950f2c2fd86c23a1781ce4301b49ddc7539504a38c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dcf2fbd332cbe16ab05b84950f2c2fd86c23a1781ce4301b49ddc7539504a38c",
+        "FEEDBURNER": "dcf2fbd332cbe16ab05b84950f2c2fd86c23a1781ce4301b49ddc7539504a38c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.134434+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.134431-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.134434+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.134431-05:00"
+    },
+    {
+      "title": "SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks",
+      "url": "https://gbhackers.com/siteguard-warns-patching/",
+      "published": "Mon, 19 Oct 2026 13:10:13 +0000",
+      "published_utc": "2026-10-19T13:10:13+00:00",
+      "summary": "<p>EG Secure Solutions has warned that a flaw in SiteGuard Server Edition is being exploited and that applying a fix could remove signs of an earlier attack. The issue, CVE-2026-106931, affects the product’s statistics feature, which is enabled by default. Before updating, administrators should save diagnostic information so they can check whether the server was [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/siteguard-warns-patching/\">SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203816",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/siteguard-warns-patching",
+      "content_hash": "75c7ec624bc4014e7ef35f5c88beea2d431b83a18c81c5ad506e8ff91afc9ed2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "75c7ec624bc4014e7ef35f5c88beea2d431b83a18c81c5ad506e8ff91afc9ed2",
+        "FEEDBURNER": "75c7ec624bc4014e7ef35f5c88beea2d431b83a18c81c5ad506e8ff91afc9ed2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.134434+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.134431-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.134434+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.134431-05:00"
+    },
+    {
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "url": "http://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "published": "Mon, 19 Oct 2026 13:05:45 +0000",
+      "published_utc": "2026-10-19T13:05:45+00:00",
+      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-891742609548731391",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "content_hash": "2a4798c842c0257bb9019fb559eeae3d65e2a6a31f4e02f8e8f66e7ac7f805ed",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2a4798c842c0257bb9019fb559eeae3d65e2a6a31f4e02f8e8f66e7ac7f805ed",
+        "FEEDBURNER": "2a4798c842c0257bb9019fb559eeae3d65e2a6a31f4e02f8e8f66e7ac7f805ed"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:35.531535+00:00",
+      "first_seen_local": "2026-10-19T12:43:35.531532-05:00",
+      "last_updated_utc": "2026-10-19T17:43:35.531535+00:00",
+      "last_updated_local": "2026-10-19T12:43:35.531532-05:00"
+    },
+    {
+      "title": "Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites",
+      "url": "https://gbhackers.com/drupal-warns-critical-rce-flaw/",
+      "published": "Mon, 19 Oct 2026 12:39:52 +0000",
+      "published_utc": "2026-10-19T12:39:52+00:00",
+      "summary": "<p>Drupal has warned of a critical remote code execution vulnerability that could let attackers compromise affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core and received a security risk score of 19 out of 25 in an advisory published on October 14, 2026. The key detail [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/drupal-warns-critical-rce-flaw/\">Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203812",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/drupal-warns-critical-rce-flaw",
+      "content_hash": "6616a18dc51cc6d69f0c8518b6481a130f69328368b0271a0a133990d3bf6222",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6616a18dc51cc6d69f0c8518b6481a130f69328368b0271a0a133990d3bf6222",
+        "FEEDBURNER": "6616a18dc51cc6d69f0c8518b6481a130f69328368b0271a0a133990d3bf6222"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.134434+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.134431-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.134434+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.134431-05:00"
+    },
+    {
+      "title": "NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents",
+      "url": "https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/",
+      "published": "Mon, 19 Oct 2026 12:08:04 +0000",
+      "published_utc": "2026-10-19T12:08:04+00:00",
+      "summary": "<p>NSA, CISA, and NIST have released joint security guidelines to help organizations detect, contain, and shut down AI agents that act beyond their approved tasks. Published October 16, 2026, the voluntary guidance sets out ten practices for managing incidents during superintelligence training and evaluation, with a focus on maintaining human oversight. The NIST announcement groups [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/\">NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167853",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents",
+      "content_hash": "2c1d38d6f6eafc29a70983a5af460807011384c50861731dde8bfc33a4949093",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2c1d38d6f6eafc29a70983a5af460807011384c50861731dde8bfc33a4949093",
+        "FEEDBURNER": "2c1d38d6f6eafc29a70983a5af460807011384c50861731dde8bfc33a4949093"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.434818+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.434816-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.434818+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.434816-05:00"
+    },
+    {
+      "title": "Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers",
+      "url": "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/",
+      "published": "Mon, 19 Oct 2026 12:07:14 +0000",
+      "published_utc": "2026-10-19T12:07:14+00:00",
+      "summary": "<p>Hackers are exploiting a command injection flaw in SiteGuard Server Edition, a web application firewall installed directly on protected servers. Tracked as CVE-2026-106931, the vulnerability could let attackers run operating system commands with root or SYSTEM privileges, potentially giving them full control of an affected server. The flaw affects the product’s statistics function, which is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/\">Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167859",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability",
+      "content_hash": "173f6883f65e33c9ac64512fa843b7db2be7eea654e506c7bfab6607b7553eef",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "173f6883f65e33c9ac64512fa843b7db2be7eea654e506c7bfab6607b7553eef",
+        "FEEDBURNER": "173f6883f65e33c9ac64512fa843b7db2be7eea654e506c7bfab6607b7553eef"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.434818+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.434816-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.434818+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.434816-05:00"
+    },
+    {
+      "title": "Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access",
+      "url": "https://gbhackers.com/broadcom-wi-fi-routers/",
+      "published": "Mon, 19 Oct 2026 12:06:21 +0000",
+      "published_utc": "2026-10-19T12:06:21+00:00",
+      "summary": "<p>A flaw in Broadcom’s Wi-Fi software can let someone within wireless range take control of vulnerable routers without knowing the Wi-Fi password. The issue affects the company’s implementation of Wi-Fi Protected Setup (WPS), a feature designed to help devices join a wireless network. Researcher Quentin Kaiser showed that the flaw could be used to read [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/broadcom-wi-fi-routers/\">Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203809",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/broadcom-wi-fi-routers",
+      "content_hash": "a723f7cda39fded729a62c0b873ccabfa44134e307843581ec5970a771f064f7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a723f7cda39fded729a62c0b873ccabfa44134e307843581ec5970a771f064f7",
+        "FEEDBURNER": "a723f7cda39fded729a62c0b873ccabfa44134e307843581ec5970a771f064f7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.134434+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.134431-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.134434+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.134431-05:00"
+    },
+    {
+      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+      "url": "http://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "published": "Mon, 19 Oct 2026 11:50:00 +0000",
+      "published_utc": "2026-10-19T11:50:00+00:00",
+      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1498882586651288090",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "content_hash": "a82c6a4ff577e6a8e20de8f6808a08d7a7513c7f43df2780dfee094b641b7ad5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a82c6a4ff577e6a8e20de8f6808a08d7a7513c7f43df2780dfee094b641b7ad5",
+        "FEEDBURNER": "a82c6a4ff577e6a8e20de8f6808a08d7a7513c7f43df2780dfee094b641b7ad5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:35.531535+00:00",
+      "first_seen_local": "2026-10-19T12:43:35.531532-05:00",
+      "last_updated_utc": "2026-10-19T17:43:35.531535+00:00",
+      "last_updated_local": "2026-10-19T12:43:35.531532-05:00"
+    },
+    {
+      "title": "Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins",
+      "url": "https://cybersecuritynews.com/teams-domain-login-page/",
+      "published": "Mon, 19 Oct 2026 11:40:57 +0000",
+      "published_utc": "2026-10-19T11:40:57+00:00",
+      "summary": "<p>A newly registered domain copies Microsoft Teams’ login page and interface, raising concerns about a phishing attempt targeting workplace users. Security researcher Steven Lim reported that teams-cloud[.]live was just five days old when he flagged it on October 18, 2026. He urged organizations to block the address before employees encounter the fake site. The alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-domain-login-page/\">Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167877",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/teams-domain-login-page",
+      "content_hash": "f9731116f9b81fa7c2a76529cf365e6777456c76c97a4983d5e88b51ed0a36eb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f9731116f9b81fa7c2a76529cf365e6777456c76c97a4983d5e88b51ed0a36eb",
+        "FEEDBURNER": "f9731116f9b81fa7c2a76529cf365e6777456c76c97a4983d5e88b51ed0a36eb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.434818+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.434816-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.434818+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.434816-05:00"
+    },
+    {
+      "title": "16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords",
+      "url": "https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/",
+      "published": "Mon, 19 Oct 2026 11:36:47 +0000",
+      "published_utc": "2026-10-19T11:36:47+00:00",
+      "summary": "<p>A 16-year-old flaw in Broadcom’s Wi-Fi software can let attackers within wireless range take control of affected routers without knowing the network password. Security researcher Quentin Kaiser disclosed the issue at Hexacon in Paris on October 16, 2026, warning that old code remains in widely deployed devices. According to Kaiser’s research, the flaw has existed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/\">16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167840",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw",
+      "content_hash": "ff6b135aaacc924c80a80d85769fe51e606388520ac5c855521b646ae95fc956",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ff6b135aaacc924c80a80d85769fe51e606388520ac5c855521b646ae95fc956",
+        "FEEDBURNER": "ff6b135aaacc924c80a80d85769fe51e606388520ac5c855521b646ae95fc956"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-19T17:43:29.434818+00:00",
+      "first_seen_local": "2026-10-19T12:43:29.434816-05:00",
+      "last_updated_utc": "2026-10-19T17:43:29.434818+00:00",
+      "last_updated_local": "2026-10-19T12:43:29.434816-05:00"
     }
   ]
 }

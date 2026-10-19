@@ -10,8 +10,33 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+          "url": "http://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "published": "Mon, 19 Oct 2026 10:06:40 +0000",
+          "published_utc": "2026-10-19T10:06:40+00:00",
+          "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\n\"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4183053864285866663"
+        },
+        {
+          "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+          "url": "http://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+          "published": "Mon, 19 Oct 2026 06:29:44 +0000",
+          "published_utc": "2026-10-19T06:29:44+00:00",
+          "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-703283065619382654"
+        },
+        {
+          "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+          "url": "http://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+          "published": "Mon, 19 Oct 2026 06:07:08 +0000",
+          "published_utc": "2026-10-19T06:07:08+00:00",
+          "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5776349161595719472"
+        }
+      ],
       "error": ""
     },
     "FEEDBURNER": {
@@ -22,8 +47,25 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+          "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+          "published": "Mon, 19 Oct 2026 11:59:44 +0530",
+          "published_utc": "2026-10-19T06:29:44+00:00",
+          "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+          "id": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html"
+        },
+        {
+          "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+          "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+          "published": "Mon, 19 Oct 2026 11:37:08 +0530",
+          "published_utc": "2026-10-19T06:07:08+00:00",
+          "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+          "id": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+        }
+      ],
       "error": ""
     }
   }

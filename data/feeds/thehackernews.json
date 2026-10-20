@@ -10,71 +10,15 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 8,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-          "url": "http://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-          "published": "Mon, 19 Oct 2026 17:32:13 +0000",
-          "published_utc": "2026-10-19T17:32:13+00:00",
-          "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell.\n\nThe vulnerabilities",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3450941002531577436"
-        },
-        {
-          "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-          "url": "http://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-          "published": "Mon, 19 Oct 2026 16:28:47 +0000",
-          "published_utc": "2026-10-19T16:28:47+00:00",
-          "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.\n\nAny site that installed and activated one of those copies should be treated as compromised, and the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1910747183201987336"
-        },
-        {
-          "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-          "url": "http://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-          "published": "Mon, 19 Oct 2026 14:14:07 +0000",
-          "published_utc": "2026-10-19T14:14:07+00:00",
-          "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\nThis week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1086360863197017110"
-        },
-        {
-          "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-          "url": "http://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-          "published": "Mon, 19 Oct 2026 13:05:45 +0000",
-          "published_utc": "2026-10-19T13:05:45+00:00",
-          "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-891742609548731391"
-        },
-        {
-          "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-          "url": "http://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-          "published": "Mon, 19 Oct 2026 11:50:00 +0000",
-          "published_utc": "2026-10-19T11:50:00+00:00",
-          "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1498882586651288090"
-        },
-        {
-          "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-          "url": "http://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-          "published": "Mon, 19 Oct 2026 10:06:40 +0000",
-          "published_utc": "2026-10-19T10:06:40+00:00",
-          "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\n\"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4183053864285866663"
-        },
-        {
-          "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-          "url": "http://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-          "published": "Mon, 19 Oct 2026 06:29:44 +0000",
-          "published_utc": "2026-10-19T06:29:44+00:00",
-          "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-703283065619382654"
-        },
-        {
-          "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-          "url": "http://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-          "published": "Mon, 19 Oct 2026 06:07:08 +0000",
-          "published_utc": "2026-10-19T06:07:08+00:00",
-          "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5776349161595719472"
+          "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+          "url": "http://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+          "published": "Tue, 20 Oct 2026 05:53:16 +0000",
+          "published_utc": "2026-10-20T05:53:16+00:00",
+          "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.\n\nIn a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3766737144108518230"
         }
       ],
       "error": ""
@@ -87,73 +31,8 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 8,
-      "articles": [
-        {
-          "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-          "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-          "published": "Mon, 19 Oct 2026 23:02:13 +0530",
-          "published_utc": "2026-10-19T17:32:13+00:00",
-          "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell.\n\nThe vulnerabilities",
-          "id": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
-        },
-        {
-          "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-          "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-          "published": "Mon, 19 Oct 2026 21:58:47 +0530",
-          "published_utc": "2026-10-19T16:28:47+00:00",
-          "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.\n\nAny site that installed and activated one of those copies should be treated as compromised, and the",
-          "id": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html"
-        },
-        {
-          "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-          "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-          "published": "Mon, 19 Oct 2026 19:44:07 +0530",
-          "published_utc": "2026-10-19T14:14:07+00:00",
-          "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\nThis week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
-          "id": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html"
-        },
-        {
-          "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-          "published": "Mon, 19 Oct 2026 18:35:45 +0530",
-          "published_utc": "2026-10-19T13:05:45+00:00",
-          "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
-          "id": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
-        },
-        {
-          "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-          "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-          "published": "Mon, 19 Oct 2026 17:20:00 +0530",
-          "published_utc": "2026-10-19T11:50:00+00:00",
-          "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
-          "id": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html"
-        },
-        {
-          "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-          "published": "Mon, 19 Oct 2026 15:36:40 +0530",
-          "published_utc": "2026-10-19T10:06:40+00:00",
-          "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\n\"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
-          "id": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
-        },
-        {
-          "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-          "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-          "published": "Mon, 19 Oct 2026 11:59:44 +0530",
-          "published_utc": "2026-10-19T06:29:44+00:00",
-          "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.\n\nHe showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
-          "id": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html"
-        },
-        {
-          "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-          "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-          "published": "Mon, 19 Oct 2026 11:37:08 +0530",
-          "published_utc": "2026-10-19T06:07:08+00:00",
-          "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-          "id": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

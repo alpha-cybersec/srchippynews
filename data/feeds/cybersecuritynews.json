@@ -5,79 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 8,
-      "articles": [
-        {
-          "title": "Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication",
-          "url": "https://cybersecuritynews.com/drupal-rce-vulnerability/",
-          "published": "Mon, 19 Oct 2026 18:13:51 +0000",
-          "published_utc": "2026-10-19T18:13:51+00:00",
-          "summary": "<p>Drupal has released security updates for a critical remote code execution vulnerability that could let attackers take over affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core. The Drupal Security Team published its warning on October 14, 2026. The official security advisory, SA-CORE-2026-014, assigns the issue [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-rce-vulnerability/\">Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167836"
-        },
-        {
-          "title": "Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats",
-          "url": "https://cybersecuritynews.com/ai-models-as-insider-threats/",
-          "published": "Mon, 19 Oct 2026 18:04:16 +0000",
-          "published_utc": "2026-10-19T18:04:16+00:00",
-          "summary": "<p>Microsoft warns organizations to treat AI agents as potential insider risks not because they are automatically malicious, but because they can access company data, apps, and tools and act on that access at high speed. The warning, published on October 19, 2026, comes as businesses use agents to handle tasks such as writing code, reviewing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-models-as-insider-threats/\">Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167921"
-        },
-        {
-          "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
-          "url": "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
-          "published": "Mon, 19 Oct 2026 17:11:36 +0000",
-          "published_utc": "2026-10-19T17:11:36+00:00",
-          "summary": "<p>San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/\">Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167899"
-        },
-        {
-          "title": "NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents",
-          "url": "https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/",
-          "published": "Mon, 19 Oct 2026 12:08:04 +0000",
-          "published_utc": "2026-10-19T12:08:04+00:00",
-          "summary": "<p>NSA, CISA, and NIST have released joint security guidelines to help organizations detect, contain, and shut down AI agents that act beyond their approved tasks. Published October 16, 2026, the voluntary guidance sets out ten practices for managing incidents during superintelligence training and evaluation, with a focus on maintaining human oversight. The NIST announcement groups [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/\">NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167853"
-        },
-        {
-          "title": "Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers",
-          "url": "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/",
-          "published": "Mon, 19 Oct 2026 12:07:14 +0000",
-          "published_utc": "2026-10-19T12:07:14+00:00",
-          "summary": "<p>Hackers are exploiting a command injection flaw in SiteGuard Server Edition, a web application firewall installed directly on protected servers. Tracked as CVE-2026-106931, the vulnerability could let attackers run operating system commands with root or SYSTEM privileges, potentially giving them full control of an affected server. The flaw affects the product’s statistics function, which is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/\">Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167859"
-        },
-        {
-          "title": "Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins",
-          "url": "https://cybersecuritynews.com/teams-domain-login-page/",
-          "published": "Mon, 19 Oct 2026 11:40:57 +0000",
-          "published_utc": "2026-10-19T11:40:57+00:00",
-          "summary": "<p>A newly registered domain copies Microsoft Teams’ login page and interface, raising concerns about a phishing attempt targeting workplace users. Security researcher Steven Lim reported that teams-cloud[.]live was just five days old when he flagged it on October 18, 2026. He urged organizations to block the address before employees encounter the fake site. The alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-domain-login-page/\">Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167877"
-        },
-        {
-          "title": "16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords",
-          "url": "https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/",
-          "published": "Mon, 19 Oct 2026 11:36:47 +0000",
-          "published_utc": "2026-10-19T11:36:47+00:00",
-          "summary": "<p>A 16-year-old flaw in Broadcom’s Wi-Fi software can let attackers within wireless range take control of affected routers without knowing the network password. Security researcher Quentin Kaiser disclosed the issue at Hexacon in Paris on October 16, 2026, warning that old code remains in widely deployed devices. According to Kaiser’s research, the flaw has existed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/\">16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167840"
-        },
-        {
-          "title": "Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft",
-          "url": "https://cybersecuritynews.com/google-unveils-new-android-ai-protections/",
-          "published": "Mon, 19 Oct 2026 06:04:18 +0000",
-          "published_utc": "2026-10-19T06:04:18+00:00",
-          "summary": "<p>Google has announced a new set of Android security protections designed to stop mobile scams across calls, text messages, chat apps, web links, and account verification codes. The update comes as criminals increasingly use spoofed phone numbers, fake bank alerts, phishing pages, remote screen sharing, and AI-generated voices to trick users into giving up money [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-unveils-new-android-ai-protections/\">Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167669"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -87,73 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 8,
-      "articles": [
-        {
-          "title": "Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication",
-          "url": "https://cybersecuritynews.com/drupal-rce-vulnerability/",
-          "published": "Mon, 19 Oct 2026 18:13:51 +0000",
-          "published_utc": "2026-10-19T18:13:51+00:00",
-          "summary": "<p>Drupal has released security updates for a critical remote code execution vulnerability that could let attackers take over affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core. The Drupal Security Team published its warning on October 14, 2026. The official security advisory, SA-CORE-2026-014, assigns the issue [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-rce-vulnerability/\">Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167836"
-        },
-        {
-          "title": "Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats",
-          "url": "https://cybersecuritynews.com/ai-models-as-insider-threats/",
-          "published": "Mon, 19 Oct 2026 18:04:16 +0000",
-          "published_utc": "2026-10-19T18:04:16+00:00",
-          "summary": "<p>Microsoft warns organizations to treat AI agents as potential insider risks not because they are automatically malicious, but because they can access company data, apps, and tools and act on that access at high speed. The warning, published on October 19, 2026, comes as businesses use agents to handle tasks such as writing code, reviewing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-models-as-insider-threats/\">Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167921"
-        },
-        {
-          "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
-          "url": "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
-          "published": "Mon, 19 Oct 2026 17:11:36 +0000",
-          "published_utc": "2026-10-19T17:11:36+00:00",
-          "summary": "<p>San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/\">Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167899"
-        },
-        {
-          "title": "NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents",
-          "url": "https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/",
-          "published": "Mon, 19 Oct 2026 12:08:04 +0000",
-          "published_utc": "2026-10-19T12:08:04+00:00",
-          "summary": "<p>NSA, CISA, and NIST have released joint security guidelines to help organizations detect, contain, and shut down AI agents that act beyond their approved tasks. Published October 16, 2026, the voluntary guidance sets out ten practices for managing incidents during superintelligence training and evaluation, with a focus on maintaining human oversight. The NIST announcement groups [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/\">NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167853"
-        },
-        {
-          "title": "Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers",
-          "url": "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/",
-          "published": "Mon, 19 Oct 2026 12:07:14 +0000",
-          "published_utc": "2026-10-19T12:07:14+00:00",
-          "summary": "<p>Hackers are exploiting a command injection flaw in SiteGuard Server Edition, a web application firewall installed directly on protected servers. Tracked as CVE-2026-106931, the vulnerability could let attackers run operating system commands with root or SYSTEM privileges, potentially giving them full control of an affected server. The flaw affects the product’s statistics function, which is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/\">Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167859"
-        },
-        {
-          "title": "Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins",
-          "url": "https://cybersecuritynews.com/teams-domain-login-page/",
-          "published": "Mon, 19 Oct 2026 11:40:57 +0000",
-          "published_utc": "2026-10-19T11:40:57+00:00",
-          "summary": "<p>A newly registered domain copies Microsoft Teams’ login page and interface, raising concerns about a phishing attempt targeting workplace users. Security researcher Steven Lim reported that teams-cloud[.]live was just five days old when he flagged it on October 18, 2026. He urged organizations to block the address before employees encounter the fake site. The alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-domain-login-page/\">Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167877"
-        },
-        {
-          "title": "16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords",
-          "url": "https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/",
-          "published": "Mon, 19 Oct 2026 11:36:47 +0000",
-          "published_utc": "2026-10-19T11:36:47+00:00",
-          "summary": "<p>A 16-year-old flaw in Broadcom’s Wi-Fi software can let attackers within wireless range take control of affected routers without knowing the network password. Security researcher Quentin Kaiser disclosed the issue at Hexacon in Paris on October 16, 2026, warning that old code remains in widely deployed devices. According to Kaiser’s research, the flaw has existed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/\">16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167840"
-        },
-        {
-          "title": "Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft",
-          "url": "https://cybersecuritynews.com/google-unveils-new-android-ai-protections/",
-          "published": "Mon, 19 Oct 2026 06:04:18 +0000",
-          "published_utc": "2026-10-19T06:04:18+00:00",
-          "summary": "<p>Google has announced a new set of Android security protections designed to stop mobile scams across calls, text messages, chat apps, web links, and account verification codes. The update comes as criminals increasingly use spoofed phone numbers, fake bank alerts, phishing pages, remote screen sharing, and AI-generated voices to trick users into giving up money [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-unveils-new-android-ai-protections/\">Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=167669"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

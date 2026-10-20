@@ -5,79 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 8,
-      "articles": [
-        {
-          "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
-          "url": "https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
-          "published": "Mon, 19 Oct 2026 17:11:46 +0000",
-          "published_utc": "2026-10-19T17:11:46+00:00",
-          "summary": "<p>San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/\">Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203823"
-        },
-        {
-          "title": "Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution",
-          "url": "https://gbhackers.com/researchers-hack-snowflake/",
-          "published": "Mon, 19 Oct 2026 13:27:54 +0000",
-          "published_utc": "2026-10-19T13:27:54+00:00",
-          "summary": "<p>A security test of Snowflake-managed PostgreSQL has shown how a database role with limited privileges could be turned into control of the server running the database. Researchers chained several built-in PostgreSQL features to reach operating-system command execution, even though Snowflake had blocked common ways to run commands and access files through SQL. The finding highlights [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-hack-snowflake/\">Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203817"
-        },
-        {
-          "title": "SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks",
-          "url": "https://gbhackers.com/siteguard-warns-patching/",
-          "published": "Mon, 19 Oct 2026 13:10:13 +0000",
-          "published_utc": "2026-10-19T13:10:13+00:00",
-          "summary": "<p>EG Secure Solutions has warned that a flaw in SiteGuard Server Edition is being exploited and that applying a fix could remove signs of an earlier attack. The issue, CVE-2026-106931, affects the product’s statistics feature, which is enabled by default. Before updating, administrators should save diagnostic information so they can check whether the server was [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/siteguard-warns-patching/\">SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203816"
-        },
-        {
-          "title": "Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites",
-          "url": "https://gbhackers.com/drupal-warns-critical-rce-flaw/",
-          "published": "Mon, 19 Oct 2026 12:39:52 +0000",
-          "published_utc": "2026-10-19T12:39:52+00:00",
-          "summary": "<p>Drupal has warned of a critical remote code execution vulnerability that could let attackers compromise affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core and received a security risk score of 19 out of 25 in an advisory published on October 14, 2026. The key detail [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/drupal-warns-critical-rce-flaw/\">Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203812"
-        },
-        {
-          "title": "Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access",
-          "url": "https://gbhackers.com/broadcom-wi-fi-routers/",
-          "published": "Mon, 19 Oct 2026 12:06:21 +0000",
-          "published_utc": "2026-10-19T12:06:21+00:00",
-          "summary": "<p>A flaw in Broadcom’s Wi-Fi software can let someone within wireless range take control of vulnerable routers without knowing the Wi-Fi password. The issue affects the company’s implementation of Wi-Fi Protected Setup (WPS), a feature designed to help devices join a wireless network. Researcher Quentin Kaiser showed that the flaw could be used to read [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/broadcom-wi-fi-routers/\">Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203809"
-        },
-        {
-          "title": "Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw",
-          "url": "https://gbhackers.com/critical-vs-code-security-bypass-flaw/",
-          "published": "Mon, 19 Oct 2026 07:49:29 +0000",
-          "published_utc": "2026-10-19T07:49:29+00:00",
-          "summary": "<p>Microsoft awarded security researcher Sam Chen US$4,000 for reporting a flaw in Visual Studio Code that could let an attacker bypass Workspace Trust protections. The issue, tracked as CVE-2026-81376, affects VS Code versions earlier than 1.136.2 and has a critical CVSS score of 9.6. Microsoft has fixed the flaw; users should update to version 1.136.2 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-vs-code-security-bypass-flaw/\">Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203805"
-        },
-        {
-          "title": "U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors",
-          "url": "https://gbhackers.com/u-s-agencies-warn-ai-agents/",
-          "published": "Mon, 19 Oct 2026 06:55:34 +0000",
-          "published_utc": "2026-10-19T06:55:34+00:00",
-          "summary": "<p>U.S. agencies have warned that advanced AI agents could exploit security flaws, break out of their assigned limits, and leave hidden backdoors behind. New guidance from NIST, the National Security Agency, and CISA urges AI developers to prepare for incidents in which agents take harmful actions without being told to do so. Released on October [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/u-s-agencies-warn-ai-agents/\">U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203802"
-        },
-        {
-          "title": "Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks",
-          "url": "https://gbhackers.com/ai-assisted-attacks/",
-          "published": "Mon, 19 Oct 2026 06:21:24 +0000",
-          "published_utc": "2026-10-19T06:21:24+00:00",
-          "summary": "<p>Hackers linked to attacks on South Korean banks used Claude Code, DeepSeek, Grok, and Zhipu AI alongside ARTEX, an open-source AI penetration testing framework. The campaign shows how attackers can combine AI services with familiar hacking tools to search for weaknesses across different systems, while leaving evidence that helps investigators trace their work. Public reporting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-assisted-attacks/\">Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203799"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -90,68 +25,68 @@
       "article_count": 8,
       "articles": [
         {
-          "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
-          "url": "https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
-          "published": "Mon, 19 Oct 2026 17:11:46 +0000",
-          "published_utc": "2026-10-19T17:11:46+00:00",
-          "summary": "<p>San Rafael, United States, October 19th, 2026, CyberNewswire Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application. In its first open source research run, it found High or Critical issues in 45% of the projects tested, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/\">Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203823"
+          "title": "Hacker Uses AI Agents to Breach Over 100 Company Websites With Minimal Human Effort",
+          "url": "https://gbhackers.com/hacker-uses-ai-agents-to-breach-over-100-company-websites/",
+          "published": "Tue, 20 Oct 2026 06:29:40 +0000",
+          "published_utc": "2026-10-20T06:29:40+00:00",
+          "summary": "<p>A Chinese-speaking hacker used autonomous AI agents to compromise the websites of more than 100 companies, relying primarily on software for most of the intrusion work. Reuters reporting and research published by NorForge on October 19 provide this information. According to the campaign, the operator made more than 1,200 break-in attempts, showing how a single [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hacker-uses-ai-agents-to-breach-over-100-company-websites/\">Hacker Uses AI Agents to Breach Over 100 Company Websites With Minimal Human Effort</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203892"
         },
         {
-          "title": "Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution",
-          "url": "https://gbhackers.com/researchers-hack-snowflake/",
-          "published": "Mon, 19 Oct 2026 13:27:54 +0000",
-          "published_utc": "2026-10-19T13:27:54+00:00",
-          "summary": "<p>A security test of Snowflake-managed PostgreSQL has shown how a database role with limited privileges could be turned into control of the server running the database. Researchers chained several built-in PostgreSQL features to reach operating-system command execution, even though Snowflake had blocked common ways to run commands and access files through SQL. The finding highlights [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-hack-snowflake/\">Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203817"
+          "title": "New RedAgents AI Platform Deploys Multiple Hacking Agents to Find and Exploit Vulnerabilities",
+          "url": "https://gbhackers.com/redagents-ai-platform/",
+          "published": "Tue, 20 Oct 2026 06:20:06 +0000",
+          "published_utc": "2026-10-20T06:20:06+00:00",
+          "summary": "<p>RedAgents, a cloud platform that deploys multiple AI penetration testing agents against authorized targets to discover vulnerabilities and test attack paths. Announced on October 16, 2026, the service brings Artex Pro, Cyber(YanJi), Yanxun, and CyberStrikeAI Enterprise Edition into a single environment for security operations teams. The platform addresses a limitation of automated security assessments: different [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/redagents-ai-platform/\">New RedAgents AI Platform Deploys Multiple Hacking Agents to Find and Exploit Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203864"
         },
         {
-          "title": "SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks",
-          "url": "https://gbhackers.com/siteguard-warns-patching/",
-          "published": "Mon, 19 Oct 2026 13:10:13 +0000",
-          "published_utc": "2026-10-19T13:10:13+00:00",
-          "summary": "<p>EG Secure Solutions has warned that a flaw in SiteGuard Server Edition is being exploited and that applying a fix could remove signs of an earlier attack. The issue, CVE-2026-106931, affects the product’s statistics feature, which is enabled by default. Before updating, administrators should save diagnostic information so they can check whether the server was [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/siteguard-warns-patching/\">SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203816"
+          "title": "Claude Code Detects Hidden XMRig Cryptominer Consuming 1175% CPU on Mac",
+          "url": "https://gbhackers.com/claude-code-detects-hidden-xmrig-cryptominer/",
+          "published": "Tue, 20 Oct 2026 06:18:29 +0000",
+          "published_utc": "2026-10-20T06:18:29+00:00",
+          "summary": "<p>A Mac user reported that Anthropic’s Claude Code found an unauthorized XMRig cryptocurrency miner while helping develop a temperature-monitoring application. The mining process reportedly consumed approximately 1,175% CPU, equivalent to nearly 12 fully utilized processor cores, which explained the machine’s sluggish performance. Claude Detects Hidden XMRig The account, shared by Reddit user u/UntilHEX, describes an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-code-detects-hidden-xmrig-cryptominer/\">Claude Code Detects Hidden XMRig Cryptominer Consuming 1175% CPU on Mac</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203888"
         },
         {
-          "title": "Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites",
-          "url": "https://gbhackers.com/drupal-warns-critical-rce-flaw/",
-          "published": "Mon, 19 Oct 2026 12:39:52 +0000",
-          "published_utc": "2026-10-19T12:39:52+00:00",
-          "summary": "<p>Drupal has warned of a critical remote code execution vulnerability that could let attackers compromise affected websites without logging in. Tracked as CVE-2026-108097, the flaw affects the Field UI module in Drupal core and received a security risk score of 19 out of 25 in an advisory published on October 14, 2026. The key detail [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/drupal-warns-critical-rce-flaw/\">Drupal Warns Critical RCE Flaw Could Let Unauthenticated Attackers Compromise Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203812"
+          "title": "OpenCode Data Breach Exposes API Keys Linked to Third-Party Services",
+          "url": "https://gbhackers.com/opencode-data-breach-exposes-api-keys/",
+          "published": "Tue, 20 Oct 2026 05:51:28 +0000",
+          "published_utc": "2026-10-20T05:51:28+00:00",
+          "summary": "<p>OpenCode has reported a security breach affecting 1.4% of its Console users, which it attributes to a “large-scale distillation attack.” The company said the affected accounts belong to a subset of users who had connected external providers. However, the public disclosure did not clarify if API keys were extracted or identify which specific credentials were [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/opencode-data-breach-exposes-api-keys/\">OpenCode Data Breach Exposes API Keys Linked to Third-Party Services</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203881"
         },
         {
-          "title": "Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access",
-          "url": "https://gbhackers.com/broadcom-wi-fi-routers/",
-          "published": "Mon, 19 Oct 2026 12:06:21 +0000",
-          "published_utc": "2026-10-19T12:06:21+00:00",
-          "summary": "<p>A flaw in Broadcom’s Wi-Fi software can let someone within wireless range take control of vulnerable routers without knowing the Wi-Fi password. The issue affects the company’s implementation of Wi-Fi Protected Setup (WPS), a feature designed to help devices join a wireless network. Researcher Quentin Kaiser showed that the flaw could be used to read [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/broadcom-wi-fi-routers/\">Researchers Hack Broadcom Wi-Fi Routers Without Passwords and Gain Full Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203809"
+          "title": "FBI Uncovers Suspected Links Between Ransomware Negotiators and ShinyHunters Hackers",
+          "url": "https://gbhackers.com/fbi-uncovers-suspected-links-between-ransomware-negotiators-and-shinyhunters-hackers/",
+          "published": "Tue, 20 Oct 2026 05:42:32 +0000",
+          "published_utc": "2026-10-20T05:42:32+00:00",
+          "summary": "<p>Federal investigators examining the ShinyHunters group have uncovered potential connections between the extortion group and executives at two ransomware negotiation firms, according to a KrebsOnSecurity investigation published on October 19. Sources familiar with the inquiry revealed that an executive from an unnamed U.S. consulting company allegedly assisted in operating the group’s victim extortion website. This [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-uncovers-suspected-links-between-ransomware-negotiators-and-shinyhunters-hackers/\">FBI Uncovers Suspected Links Between Ransomware Negotiators and ShinyHunters Hackers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203876"
         },
         {
-          "title": "Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw",
-          "url": "https://gbhackers.com/critical-vs-code-security-bypass-flaw/",
-          "published": "Mon, 19 Oct 2026 07:49:29 +0000",
-          "published_utc": "2026-10-19T07:49:29+00:00",
-          "summary": "<p>Microsoft awarded security researcher Sam Chen US$4,000 for reporting a flaw in Visual Studio Code that could let an attacker bypass Workspace Trust protections. The issue, tracked as CVE-2026-81376, affects VS Code versions earlier than 1.136.2 and has a critical CVSS score of 9.6. Microsoft has fixed the flaw; users should update to version 1.136.2 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-vs-code-security-bypass-flaw/\">Microsoft Pays Researcher $4,000 for Discovering Critical VS Code Security Bypass Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203805"
+          "title": "Microsoft Warns AI Agents Can Be Hijacked Through Prompt Injection Attacks",
+          "url": "https://gbhackers.com/microsoft-warns-ai-agents-can-be-hijacked/",
+          "published": "Tue, 20 Oct 2026 05:27:26 +0000",
+          "published_utc": "2026-10-20T05:27:26+00:00",
+          "summary": "<p>Microsoft has issued a warning about the risks posed by AI agents that access enterprise systems, especially when attackers manipulate them through methods like prompt injection, compromised inputs, or shifts in task context. To address this issue, the company is enhancing Project Perception with controls to identify agents, limit their authority, and manage unsafe behavior [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-warns-ai-agents-can-be-hijacked/\">Microsoft Warns AI Agents Can Be Hijacked Through Prompt Injection Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203871"
         },
         {
-          "title": "U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors",
-          "url": "https://gbhackers.com/u-s-agencies-warn-ai-agents/",
-          "published": "Mon, 19 Oct 2026 06:55:34 +0000",
-          "published_utc": "2026-10-19T06:55:34+00:00",
-          "summary": "<p>U.S. agencies have warned that advanced AI agents could exploit security flaws, break out of their assigned limits, and leave hidden backdoors behind. New guidance from NIST, the National Security Agency, and CISA urges AI developers to prepare for incidents in which agents take harmful actions without being told to do so. Released on October [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/u-s-agencies-warn-ai-agents/\">U.S. Agencies Warn AI Agents Could Exploit Security Flaws and Establish Hidden Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203802"
+          "title": "Google Uncovers Hackers Hijacking Legitimate Software Updates to Deploy Hidden Backdoors",
+          "url": "https://gbhackers.com/software-updates-hijacked/",
+          "published": "Tue, 20 Oct 2026 05:15:56 +0000",
+          "published_utc": "2026-10-20T05:15:56+00:00",
+          "summary": "<p>A software supply chain campaign that hijacked AOMEI Technology’s update infrastructure to distribute hidden backdoors. Tracked as UNC7017, the attackers briefly altered server configurations between April and July 2026, then restored legitimate content before conventional security checks could reliably capture the compromise. ManageEngine’s Threat Analysis Lab initially detected suspicious activity through endpoint telemetry on May [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/software-updates-hijacked/\">Google Uncovers Hackers Hijacking Legitimate Software Updates to Deploy Hidden Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203854"
         },
         {
-          "title": "Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks",
-          "url": "https://gbhackers.com/ai-assisted-attacks/",
-          "published": "Mon, 19 Oct 2026 06:21:24 +0000",
-          "published_utc": "2026-10-19T06:21:24+00:00",
-          "summary": "<p>Hackers linked to attacks on South Korean banks used Claude Code, DeepSeek, Grok, and Zhipu AI alongside ARTEX, an open-source AI penetration testing framework. The campaign shows how attackers can combine AI services with familiar hacking tools to search for weaknesses across different systems, while leaving evidence that helps investigators trace their work. Public reporting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-assisted-attacks/\">Hackers Use Claude, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203799"
+          "title": "SBI Data Breach Allegedly Exposes Personal Information of 3.75 Lakh Users",
+          "url": "https://gbhackers.com/sbi-data-breach-allegedly-exposes-personal-information/",
+          "published": "Tue, 20 Oct 2026 05:06:18 +0000",
+          "published_utc": "2026-10-20T05:06:18+00:00",
+          "summary": "<p>A threat actor known as Siriusim allegedly leaked customer information and documents related to the State Bank of India (SBI), according to a CyberPulse post dated October 16, 2026. The claim involves 375,000 CSV rows and 2,722 PDF documents; however, the authenticity, origin, and extent of this dataset remain unverified. The reported figure should not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sbi-data-breach-allegedly-exposes-personal-information/\">SBI Data Breach Allegedly Exposes Personal Information of 3.75 Lakh Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203863"
         }
       ],
       "error": ""

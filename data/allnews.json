@@ -1,666 +1,400 @@
 {
-  "generated_at_utc": "2026-10-20T12:02:02.414911+00:00",
-  "generated_at_local": "2026-10-20T07:02:02.414919-05:00",
-  "article_count": 24,
-  "new_count": 24,
+  "generated_at_utc": "2026-10-20T16:50:25.716173+00:00",
+  "generated_at_local": "2026-10-20T11:50:25.716185-05:00",
+  "article_count": 14,
+  "new_count": 14,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 7,
-    "cybersecuritynews": 9,
-    "gbhackers": 8
+    "cybersecuritynews": 7,
+    "thehackernews": 4,
+    "gbhackers": 3
   },
   "articles": [
     {
-      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-      "url": "http://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-      "published": "Tue, 20 Oct 2026 11:41:06 +0000",
-      "published_utc": "2026-10-20T11:41:06+00:00",
-      "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one.\n\nThe text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6200064200336456838",
+      "title": "3 Ways Threat Intelligence Makes Life Easier for American SOC Analysts",
+      "url": "https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts/",
+      "published": "Tue, 20 Oct 2026 16:26:48 +0000",
+      "published_utc": "2026-10-20T16:26:48+00:00",
+      "summary": "<p>October is Cybersecurity Awareness Month, a good time to rethink how SOC analysts detect and investigate threats, draw conclusions from the first three quarters of 2026, and see how exactly your daily workflows could be improved.&#160; One important takeaway is that visibility into your company&#8217;s internal environment alone isn&#8217;t enough to ensure effective enterprise security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts/\">3 Ways Threat Intelligence Makes Life Easier for American SOC Analysts </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168007",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts",
+      "content_hash": "171781621ecb62390d18a659e170e1af6770aeb5d8316be1bf6d0b5891937cb5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "171781621ecb62390d18a659e170e1af6770aeb5d8316be1bf6d0b5891937cb5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "published": "Tue, 20 Oct 2026 15:38:52 +0000",
+      "published_utc": "2026-10-20T15:38:52+00:00",
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-445200343961929342",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-      "content_hash": "dcce79dd22e818a8a2bf841d35f5616ff89b09ab4633bffef5d31a81375e634f",
+      "article_key": "thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "content_hash": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "dcce79dd22e818a8a2bf841d35f5616ff89b09ab4633bffef5d31a81375e634f"
+        "ORIGINAL": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c",
+        "FEEDBURNER": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
     },
     {
-      "title": "Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues",
-      "url": "https://cybersecuritynews.com/revolut-outage/",
-      "published": "Tue, 20 Oct 2026 11:37:05 +0000",
-      "published_utc": "2026-10-20T11:37:05+00:00",
-      "summary": "<p>Revolut suffered a major service outage on Tuesday, October 20, 2026, disrupting payments, cash withdrawals, and access to its banking app. The digital bank said customer money and data remained safe while engineers worked to restore affected services. The disruption came as Google Cloud reported problems in its London region. Reuters reported that a person [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/revolut-outage/\">Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167992",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/revolut-outage",
-      "content_hash": "c93914843e0c99ee30cd58892c373a35606c21647d45eeac458f8ba322a92b22",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "c93914843e0c99ee30cd58892c373a35606c21647d45eeac458f8ba322a92b22"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "url": "http://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-      "published": "Tue, 20 Oct 2026 11:33:04 +0000",
-      "published_utc": "2026-10-20T11:33:04+00:00",
-      "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8500054184103696460",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "published": "Tue, 20 Oct 2026 15:32:27 +0000",
+      "published_utc": "2026-10-20T15:32:27+00:00",
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6450582823396389309",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-      "content_hash": "2975c479041abdba20411825ed1303c122cca3cb638929343fc3552a13db11c0",
+      "article_key": "thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "content_hash": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58",
+        "FEEDBURNER": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
+      "url": "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/",
+      "published": "Tue, 20 Oct 2026 15:09:27 +0000",
+      "published_utc": "2026-10-20T15:09:27+00:00",
+      "summary": "<p>Federal investigators suspect an executive at a United States consulting firm helped ShinyHunters operate a website used to pressure hacked companies into paying ransom demands. The allegation raises questions about whether trusted ransomware advisers crossed from helping victims into supporting the criminals demanding payment for stolen data. The suspected website operator has not been publicly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/\">FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168020",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters",
+      "content_hash": "e718a75301f3b2cff84bf147857fdf90b3cf7080903370b2059ba2ae67e4a132",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "2975c479041abdba20411825ed1303c122cca3cb638929343fc3552a13db11c0"
+        "ORIGINAL": "e718a75301f3b2cff84bf147857fdf90b3cf7080903370b2059ba2ae67e4a132"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
     },
     {
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-      "url": "http://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-      "published": "Tue, 20 Oct 2026 11:32:59 +0000",
-      "published_utc": "2026-10-20T11:32:59+00:00",
-      "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4036303214917236642",
+      "title": "Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent",
+      "url": "https://cybersecuritynews.com/hackers-exploit-open-banking-services/",
+      "published": "Tue, 20 Oct 2026 14:22:04 +0000",
+      "published_utc": "2026-10-20T14:22:04+00:00",
+      "summary": "<p>Criminals have found a way to use open banking as a low-cost checking service for stolen bank and card details. In a campaign described by Group-IB, fraudsters abused a spend-management platform’s account-linking process to check whether credentials worked and whether linked accounts held funds. The platform did not lose money through stolen funds, but it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-open-banking-services/\">Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168009",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-open-banking-services",
+      "content_hash": "24746d5c749e757ce97ac6f36514bbd5269f22d3f817120b91fdf84dbd8bed7f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "24746d5c749e757ce97ac6f36514bbd5269f22d3f817120b91fdf84dbd8bed7f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "published": "Tue, 20 Oct 2026 14:07:17 +0000",
+      "published_utc": "2026-10-20T14:07:17+00:00",
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5771516333363798595",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-      "content_hash": "f53f8d1e970b9894146450b8452a57a9bd7d0ad0c2574494714f7043574744e2",
+      "article_key": "thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "content_hash": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "f53f8d1e970b9894146450b8452a57a9bd7d0ad0c2574494714f7043574744e2"
+        "ORIGINAL": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539",
+        "FEEDBURNER": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
     },
     {
-      "title": "Scammers Turn Legitimate Fintech Platforms Into Phishing Tools to Steal Banking Details",
-      "url": "https://gbhackers.com/fintech-platforms-abused/",
-      "published": "Tue, 20 Oct 2026 11:20:32 +0000",
-      "published_utc": "2026-10-20T11:20:32+00:00",
-      "summary": "<p>Scammers have weaponized a legitimate spend-management platform to send phishing messages and validate stolen financial credentials, turning trusted payment infrastructure into an operational part of fraud instead of attacking it directly. Group-IB documented the activity within a client environment after the platform reported suspicious payment notifications in late April 2026. According to the supplied research, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fintech-platforms-abused/\">Scammers Turn Legitimate Fintech Platforms Into Phishing Tools to Steal Banking Details</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203936",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/fintech-platforms-abused",
-      "content_hash": "be34823e2272865060286ea7702df6ed657b319b7caaa5de158e21acaeb280af",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "be34823e2272865060286ea7702df6ed657b319b7caaa5de158e21acaeb280af"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
-    },
-    {
-      "title": "Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools",
-      "url": "https://cybersecuritynews.com/hackers-target-south-korean-banks/",
-      "published": "Tue, 20 Oct 2026 11:09:55 +0000",
-      "published_utc": "2026-10-20T11:09:55+00:00",
-      "summary": "<p>Hackers linked to AI-assisted attacks on South Korean banks left parts of their own infrastructure open, giving researchers a view of their tools and preparations. The exposed files showed a wider operation involving cryptocurrency theft tools, Linux attacks, and mobile security testing beyond the banking campaign. Public reporting cited in the investigation said the breaches [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-target-south-korean-banks/\">Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167984",
+      "title": "WP2Shell Attack Lets Hackers Create WordPress Admin Accounts and Install Web Shells Without Login",
+      "url": "https://cybersecuritynews.com/wp2shell-attack/",
+      "published": "Tue, 20 Oct 2026 13:54:23 +0000",
+      "published_utc": "2026-10-20T13:54:23+00:00",
+      "summary": "<p>WP2Shell combines two WordPress Core flaws to move from an unauthenticated request to server-side code execution. It can let an attacker create an administrator account and install a plugin-based web shell. Seqrite’s October 16 analysis lists affected releases, but does not establish widespread live exploitation. The report says the flaws were disclosed in July 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wp2shell-attack/\">WP2Shell Attack Lets Hackers Create WordPress Admin Accounts and Install Web Shells Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168004",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-target-south-korean-banks",
-      "content_hash": "cd88f464899ad860fd2109a67e386a8902370395270c93fa8df99dd946af4cf9",
+      "article_key": "cybersecuritynews.com/wp2shell-attack",
+      "content_hash": "0a977f7c90cd9f46a30d8f66ea8421f948b917a0bf2c3797f4b28b4b2152fef2",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "cd88f464899ad860fd2109a67e386a8902370395270c93fa8df99dd946af4cf9"
+        "ORIGINAL": "0a977f7c90cd9f46a30d8f66ea8421f948b917a0bf2c3797f4b28b4b2152fef2",
+        "FEEDBURNER": "0a977f7c90cd9f46a30d8f66ea8421f948b917a0bf2c3797f4b28b4b2152fef2"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
     },
     {
-      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-      "url": "http://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-      "published": "Tue, 20 Oct 2026 11:06:25 +0000",
-      "published_utc": "2026-10-20T11:06:25+00:00",
-      "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5230201355339640298",
+      "title": "Hackers Use Generative AI to Build Custom Malware and Bypass Traditional Security Detection",
+      "url": "https://cybersecuritynews.com/hackers-use-generative-ai/",
+      "published": "Tue, 20 Oct 2026 13:32:15 +0000",
+      "published_utc": "2026-10-20T13:32:15+00:00",
+      "summary": "<p>Hackers are using generative AI to build custom malware, rewrite harmful scripts, and make phishing messages harder to spot. The shift puts pressure on security tools that mainly depend on known file signatures, while helping ransomware operators move faster from their first foothold to data theft and encryption. The danger is not that every AI-generated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-generative-ai/\">Hackers Use Generative AI to Build Custom Malware and Bypass Traditional Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168003",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-generative-ai",
+      "content_hash": "a7fbb05915e4cee1a9f627f3ccb647ffb1489073e5bf47b98a07483efc53972c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a7fbb05915e4cee1a9f627f3ccb647ffb1489073e5bf47b98a07483efc53972c",
+        "FEEDBURNER": "a7fbb05915e4cee1a9f627f3ccb647ffb1489073e5bf47b98a07483efc53972c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Thousands of Android Phones Ship With Hidden Malware That Disables Google Play Protections",
+      "url": "https://cybersecuritynews.com/thousands-of-android-phones/",
+      "published": "Tue, 20 Oct 2026 13:15:38 +0000",
+      "published_utc": "2026-10-20T13:15:38+00:00",
+      "summary": "<p>Thousands of Android phones across more than 150 countries have been found running malware planted in their firmware before purchase. The campaign, called Midnight Mimosa, targets low-cost devices and gives attackers system access without requiring owners to download a harmful app or click a suspicious link. The malware can secretly install and remove apps, load [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/thousands-of-android-phones/\">Thousands of Android Phones Ship With Hidden Malware That Disables Google Play Protections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168000",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/thousands-of-android-phones",
+      "content_hash": "2855fe07968bcea0df569a1be1d6f8d6182ec706cc0c3f2db2f8aea574f1777c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2855fe07968bcea0df569a1be1d6f8d6182ec706cc0c3f2db2f8aea574f1777c",
+        "FEEDBURNER": "2855fe07968bcea0df569a1be1d6f8d6182ec706cc0c3f2db2f8aea574f1777c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "published": "Tue, 20 Oct 2026 12:59:44 +0000",
+      "published_utc": "2026-10-20T12:59:44+00:00",
+      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-906293967082220396",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-      "content_hash": "cb06b700bd7e3d88e25d30e6eabd39716a055478f46fa00e3df7dcdd86b60429",
+      "article_key": "thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "content_hash": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "cb06b700bd7e3d88e25d30e6eabd39716a055478f46fa00e3df7dcdd86b60429"
+        "ORIGINAL": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00",
+        "FEEDBURNER": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
     },
     {
-      "title": "Hackers Compromise OVHcloud GitHub Repository to Distribute Secret-Stealing Malware",
-      "url": "https://gbhackers.com/hackers-compromise-ovhcloud-github-repository/",
-      "published": "Tue, 20 Oct 2026 11:03:04 +0000",
-      "published_utc": "2026-10-20T11:03:04+00:00",
-      "summary": "<p>OVHcloud has reported a supply-chain attack involving its command-line interface (CLI) repository. An attacker exploited a developer&#8217;s GitHub account to distribute a malicious binary designed to steal sensitive information from users’ disks. CEO Octave Klaba confirmed the incident on October 19, 2026, after a customer reported it. The company identified the compromised release at 14:47 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-compromise-ovhcloud-github-repository/\">Hackers Compromise OVHcloud GitHub Repository to Distribute Secret-Stealing Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203942",
+      "title": "ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content",
+      "url": "https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/",
+      "published": "Tue, 20 Oct 2026 12:54:36 +0000",
+      "published_utc": "2026-10-20T12:54:36+00:00",
+      "summary": "<p>OpenAI has announced an expanded Chrome integration that lets ChatGPT gather information from open browser tabs and take action within the browser. This update introduces two distinct workflows: &#8220;Chat,&#8221; which uses tab content to inform its responses, and &#8220;Work,&#8221; which can control tabs to complete tasks. The announcement was made on ChatGPT’s official account on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/\">ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203967",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-compromise-ovhcloud-github-repository",
-      "content_hash": "f799e1f61967fbbd053afe6769ca91f51704854b581b4937b47635b350c93ebd",
+      "article_key": "gbhackers.com/chatgpt-chrome-extension-expands-browser-access",
+      "content_hash": "cdbae507b189190903f5e4ff8adaf5b35d05b23f536e8d6556c20b6fb754d496",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "f799e1f61967fbbd053afe6769ca91f51704854b581b4937b47635b350c93ebd",
-        "FEEDBURNER": "f799e1f61967fbbd053afe6769ca91f51704854b581b4937b47635b350c93ebd"
+        "ORIGINAL": "cdbae507b189190903f5e4ff8adaf5b35d05b23f536e8d6556c20b6fb754d496",
+        "FEEDBURNER": "cdbae507b189190903f5e4ff8adaf5b35d05b23f536e8d6556c20b6fb754d496"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
+      "first_seen_utc": "2026-10-20T16:50:20.016636+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.016632-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.016636+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.016632-05:00"
     },
     {
-      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-      "url": "http://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-      "published": "Tue, 20 Oct 2026 10:56:08 +0000",
-      "published_utc": "2026-10-20T10:56:08+00:00",
-      "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup.\n\nThe company said it has completed the following actions since it began",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1312171458477159743",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-      "content_hash": "ab0948a3d03af6b9fcab9b4e90f8c5b267a7f88025e927b74d655e566a9566b7",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ab0948a3d03af6b9fcab9b4e90f8c5b267a7f88025e927b74d655e566a9566b7"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
-    },
-    {
-      "title": "Rank Math PRO WordPress Plugin Compromised to Spread Malware and Steal Credentials",
-      "url": "https://gbhackers.com/rank-math-pro-wordpress-plugin-compromised/",
-      "published": "Tue, 20 Oct 2026 10:48:55 +0000",
-      "published_utc": "2026-10-20T10:48:55+00:00",
-      "summary": "<p>Rank Math has reported a security incident involving malware distributed through Rank Math PRO version 3.0.123. They warn that WordPress websites using this compromised plugin are at risk if administrators activated it. The company has removed the affected files and released a clean version, 3.0.124. Rank Math PRO Compromised The incident impacts a limited number [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rank-math-pro-wordpress-plugin-compromised/\">Rank Math PRO WordPress Plugin Compromised to Spread Malware and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203938",
+      "title": "US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems",
+      "url": "https://gbhackers.com/us-government-bans-deepseek-ai/",
+      "published": "Tue, 20 Oct 2026 12:46:25 +0000",
+      "published_utc": "2026-10-20T12:46:25+00:00",
+      "summary": "<p>The U.S. Department of Homeland Security (DHS) has instructed federal civilian agencies to remove DeepSeek artificial intelligence products from their information technology systems and to stop acquiring relevant products and services. This directive applies not only to DeepSeek&#8217;s applications but also to its affiliated companies and third-party products developed using DeepSeek technology, broadening its impact [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/us-government-bans-deepseek-ai/\">US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203963",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/rank-math-pro-wordpress-plugin-compromised",
-      "content_hash": "070a213cc89d7c3449f836d83b792a5069ec09b5f98695f101b0e27bc371544b",
+      "article_key": "gbhackers.com/us-government-bans-deepseek-ai",
+      "content_hash": "d59a0c0a299c5c599a090614fda0d2cccbd7ad900163ad07cadf334ee4e34c27",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "070a213cc89d7c3449f836d83b792a5069ec09b5f98695f101b0e27bc371544b",
-        "FEEDBURNER": "070a213cc89d7c3449f836d83b792a5069ec09b5f98695f101b0e27bc371544b"
+        "ORIGINAL": "d59a0c0a299c5c599a090614fda0d2cccbd7ad900163ad07cadf334ee4e34c27",
+        "FEEDBURNER": "d59a0c0a299c5c599a090614fda0d2cccbd7ad900163ad07cadf334ee4e34c27"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
+      "first_seen_utc": "2026-10-20T16:50:20.016636+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.016632-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.016636+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.016632-05:00"
     },
     {
-      "title": "ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws",
-      "url": "https://cybersecuritynews.com/redagents-ai-platform/",
-      "published": "Tue, 20 Oct 2026 10:41:54 +0000",
-      "published_utc": "2026-10-20T10:41:54+00:00",
-      "summary": "<p>ThreatBook has launched RedAgents, a cloud platform that brings several AI-powered penetration-testing agents together to assess an organization’s systems. Announced on October 16, 2026, the service is designed to help security teams find weaknesses in their own networks by running multiple automated tests within a defined, authorized scope. ThreatBook says the agents can work in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/redagents-ai-platform/\">ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167964",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/redagents-ai-platform",
-      "content_hash": "ff2048d63e62a31bb60eeef5b4dee7e118ec809dc74b27abfcdda89fefccd1cc",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ff2048d63e62a31bb60eeef5b4dee7e118ec809dc74b27abfcdda89fefccd1cc"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "Hackers Can Take Over WordPress Websites Without a Password Using Two Security Flaws",
-      "url": "https://gbhackers.com/wordpress-websites-at-risk/",
-      "published": "Tue, 20 Oct 2026 10:35:34 +0000",
-      "published_utc": "2026-10-20T10:35:34+00:00",
-      "summary": "<p>Hackers can compromise vulnerable WordPress websites without stealing passwords by chaining two security flaws in the platform’s core. Disclosed in July 2026, the chain involves CVE-2026-63030 and CVE-2026-60137. Unlike attacks dependent on vulnerable extensions, WP2Shell affects default WordPress installations without requiring a third-party plugin. Public exploit code and observed exploitation have made unpatched deployments an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-websites-at-risk/\">Hackers Can Take Over WordPress Websites Without a Password Using Two Security Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203927",
+      "title": "Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware",
+      "url": "https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/",
+      "published": "Tue, 20 Oct 2026 12:30:45 +0000",
+      "published_utc": "2026-10-20T12:30:45+00:00",
+      "summary": "<p>Ransomware operators are exploiting a vulnerability in Palo Alto Networks PAN-OS that allows them to bypass authentication. This issue enables unauthorized VPN sessions, bypasses multifactor authentication (MFA), and allows access to corporate networks. According to Unit 42’s October 19 update, two groups, Spikey Scorpius (also referred to as Qilin) and Tarnished Scorpius, are using CVE-2026-0257. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/\">Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203956",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/wordpress-websites-at-risk",
-      "content_hash": "4691889e8c70de7f8fe9fb8d97b1fa32c5cde0ed7e4c85b7bf7de7d175d64e8a",
+      "article_key": "gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw",
+      "content_hash": "001f9441075b2ae41cddd9eecca58acde175330a042bcd9fcb2c158b2efe032e",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "4691889e8c70de7f8fe9fb8d97b1fa32c5cde0ed7e4c85b7bf7de7d175d64e8a",
-        "FEEDBURNER": "4691889e8c70de7f8fe9fb8d97b1fa32c5cde0ed7e4c85b7bf7de7d175d64e8a"
+        "ORIGINAL": "001f9441075b2ae41cddd9eecca58acde175330a042bcd9fcb2c158b2efe032e",
+        "FEEDBURNER": "001f9441075b2ae41cddd9eecca58acde175330a042bcd9fcb2c158b2efe032e"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
+      "first_seen_utc": "2026-10-20T16:50:20.016636+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.016632-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.016636+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.016632-05:00"
     },
     {
-      "title": "U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools",
-      "url": "https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/",
-      "published": "Tue, 20 Oct 2026 10:18:40 +0000",
-      "published_utc": "2026-10-20T10:18:40+00:00",
-      "summary": "<p>The U.S. Department of Homeland Security has ordered federal civilian agencies to stop buying DeepSeek products and remove related technology from their IT systems. The action covers products from Hangzhou DeepSeek Artificial Intelligence Co., Ltd., its affiliates, and third-party products and services developed using DeepSeek implementations. The notice was filed for public inspection on October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/\">U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167976",
+      "title": "Hackers Hijack 790 GitHub Repositories to Steal Cloud Credentials and AI API Keys",
+      "url": "https://cybersecuritynews.com/hackers-hijack-790-github-repositories/",
+      "published": "Tue, 20 Oct 2026 12:02:56 +0000",
+      "published_utc": "2026-10-20T12:02:56+00:00",
+      "summary": "<p>A campaign called GhostAction has placed malicious GitHub Actions workflows in 790 repositories, putting cloud credentials, software-publishing tokens, and AI service keys at risk. The total is OpenSourceMalware’s count of publicly recoverable, validated repositories through October 9, 2026; it is not a claim that every repository leaked credentials or suffered confirmed misuse. The campaign abuses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-790-github-repositories/\">Hackers Hijack 790 GitHub Repositories to Steal Cloud Credentials and AI API Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167989",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/u-s-government-bans-deepseek-ai",
-      "content_hash": "53579532d283fd2270cd4fce1cb0e46e607ff593b7fce11bd7dcff82236b0545",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "53579532d283fd2270cd4fce1cb0e46e607ff593b7fce11bd7dcff82236b0545"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "Hackers Exploit Palo Alto VPN Flaw to Bypass MFA and Steal Credentials From VMware Disks",
-      "url": "https://cybersecuritynews.com/palo-alto-vpn-flaw-exploited/",
-      "published": "Tue, 20 Oct 2026 10:03:54 +0000",
-      "published_utc": "2026-10-20T10:03:54+00:00",
-      "summary": "<p>Ransomware operators are exploiting a Palo Alto Networks GlobalProtect VPN flaw to bypass multi-factor authentication and enter corporate networks. In one investigated case, attackers reached VMware management systems and stole credentials directly from a domain controller’s virtual disk, avoiding security tools running inside the virtual machine. Palo Alto Networks Unit 42 detailed the activity in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-vpn-flaw-exploited/\">Hackers Exploit Palo Alto VPN Flaw to Bypass MFA and Steal Credentials From VMware Disks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167973",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/palo-alto-vpn-flaw-exploited",
-      "content_hash": "d390509d217b3f11f3d7dd629dc401e68c6ae2c2f75207311987f89cc1d2b63a",
+      "article_key": "cybersecuritynews.com/hackers-hijack-790-github-repositories",
+      "content_hash": "491c340a03265a872a5c90ad4b1ea54e827ddac1ec03c8aecb66f97f4ae65c20",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "d390509d217b3f11f3d7dd629dc401e68c6ae2c2f75207311987f89cc1d2b63a",
-        "FEEDBURNER": "d390509d217b3f11f3d7dd629dc401e68c6ae2c2f75207311987f89cc1d2b63a"
+        "ORIGINAL": "491c340a03265a872a5c90ad4b1ea54e827ddac1ec03c8aecb66f97f4ae65c20",
+        "FEEDBURNER": "491c340a03265a872a5c90ad4b1ea54e827ddac1ec03c8aecb66f97f4ae65c20"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "Ransomware Gangs Use AI to Find and Steal the Most Sensitive Company Data Quickly",
-      "url": "https://gbhackers.com/ai-powered-ransomware-2/",
-      "published": "Tue, 20 Oct 2026 09:57:29 +0000",
-      "published_utc": "2026-10-20T09:57:29+00:00",
-      "summary": "<p>Ransomware operators are using generative AI to sharpen phishing campaigns, speed up reconnaissance, and identify sensitive corporate information to steal. Zscaler ThreatLabz describes a shift toward faster, more selective extortion, where attackers prioritize damaging disclosures rather than relying exclusively on file encryption. That represents a 275.8% annual increase. These figures establish the scale of theft, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-ransomware-2/\">Ransomware Gangs Use AI to Find and Steal the Most Sensitive Company Data Quickly</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203914",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-powered-ransomware-2",
-      "content_hash": "cf5143a3ff62cfdc223a06d9b53bf1e6516d0ea3e7ff8452fcc047f1491cdd3e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cf5143a3ff62cfdc223a06d9b53bf1e6516d0ea3e7ff8452fcc047f1491cdd3e",
-        "FEEDBURNER": "cf5143a3ff62cfdc223a06d9b53bf1e6516d0ea3e7ff8452fcc047f1491cdd3e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
-    },
-    {
-      "title": "Hackers Hijack OVHcloud GitHub Releases to Distribute Secret-Stealing Malware",
-      "url": "https://cybersecuritynews.com/ovhcloud-supply-chain-attack/",
-      "published": "Tue, 20 Oct 2026 09:16:55 +0000",
-      "published_utc": "2026-10-20T09:16:55+00:00",
-      "summary": "<p>Hackers compromised the GitHub account of an OVHcloud developer and used it to distribute malicious files through the company’s official command-line tool releases. The October 19, 2026, supply chain attack targeted users downloading the OVHcloud CLI, with malware designed to collect secrets stored on their computers. A customer spotted suspicious release changes and alerted the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ovhcloud-supply-chain-attack/\">Hackers Hijack OVHcloud GitHub Releases to Distribute Secret-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167960",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/ovhcloud-supply-chain-attack",
-      "content_hash": "a62f88fa49b959074f119bb3292ac04ac49337ff48dbb7efc8751436573b5184",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a62f88fa49b959074f119bb3292ac04ac49337ff48dbb7efc8751436573b5184",
-        "FEEDBURNER": "a62f88fa49b959074f119bb3292ac04ac49337ff48dbb7efc8751436573b5184"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "Hackers Hijack AOMEI Software Updates for Just 5 Minutes to Secretly Install Backdoors",
-      "url": "https://cybersecuritynews.com/hackers-hijack-aomei-software-updates/",
-      "published": "Tue, 20 Oct 2026 08:59:04 +0000",
-      "published_utc": "2026-10-20T08:59:04+00:00",
-      "summary": "<p>A short-lived change to AOMEI’s software update system gave hackers a way to deliver malware through a trusted route. Google Threat Intelligence Group (GTIG) and Mandiant found that attackers repeatedly altered AOMEI’s update settings for only a few minutes at a time between April and July 2026. Any AOMEI Backupper computer checking for updates during [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-aomei-software-updates/\">Hackers Hijack AOMEI Software Updates for Just 5 Minutes to Secretly Install Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167943",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-hijack-aomei-software-updates",
-      "content_hash": "e03caa6eaeeb43b733dbcf72634f816de89556ed9b0a09c07aafe610d8ab365b",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e03caa6eaeeb43b733dbcf72634f816de89556ed9b0a09c07aafe610d8ab365b",
-        "FEEDBURNER": "e03caa6eaeeb43b733dbcf72634f816de89556ed9b0a09c07aafe610d8ab365b"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "Hackers Exploit Zimbra Zero-Click Flaw to Take Control of Email Servers",
-      "url": "https://gbhackers.com/hackers-exploit-zimbra-zero-click-flaw/",
-      "published": "Tue, 20 Oct 2026 08:52:42 +0000",
-      "published_utc": "2026-10-20T08:52:42+00:00",
-      "summary": "<p>Hackers are exploiting a command injection vulnerability (CVE-2026-73570) in the Zimbra Collaboration Suite. This vulnerability allows attackers to compromise internet-facing email servers without any user interaction. Microsoft Threat Intelligence has observed attackers deploying webshells, escalating privileges, collecting authentication secrets, and staging mailbox data across organizations in various regions and industries. Zimbra Zero-Click Flaw The &#8220;zero-click&#8221; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-zimbra-zero-click-flaw/\">Hackers Exploit Zimbra Zero-Click Flaw to Take Control of Email Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203916",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-exploit-zimbra-zero-click-flaw",
-      "content_hash": "ff98449fcb88b0b36b4ac395d8ffac529ed41a9d8d255e32bf2956b459e0e20e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ff98449fcb88b0b36b4ac395d8ffac529ed41a9d8d255e32bf2956b459e0e20e",
-        "FEEDBURNER": "ff98449fcb88b0b36b4ac395d8ffac529ed41a9d8d255e32bf2956b459e0e20e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
-    },
-    {
-      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-      "url": "http://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-      "published": "Tue, 20 Oct 2026 08:21:29 +0000",
-      "published_utc": "2026-10-20T08:21:29+00:00",
-      "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says.\n\nThey were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3766580260943193171",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-      "content_hash": "d1bc24db8af600a85cb3a1fb6c62db3beb3fd9cb75599976c7383792d38f16b3",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d1bc24db8af600a85cb3a1fb6c62db3beb3fd9cb75599976c7383792d38f16b3",
-        "FEEDBURNER": "d1bc24db8af600a85cb3a1fb6c62db3beb3fd9cb75599976c7383792d38f16b3"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
-    },
-    {
-      "title": "Hackers Compromise Rank Math PRO WordPress Plugin to Install Self-Rebuilding Backdoors",
-      "url": "https://cybersecuritynews.com/rank-math-pro-plugin-compromised/",
-      "published": "Tue, 20 Oct 2026 08:20:48 +0000",
-      "published_utc": "2026-10-20T08:20:48+00:00",
-      "summary": "<p>Hackers planted malware in copies of the Rank Math PRO WordPress plugin, exposing websites to hidden backdoors that can rebuild themselves after removal. Rank Math confirmed that some version 3.0.123 packages distributed during a limited October download window contained malicious code that could compromise websites when activated. The company removed the affected files and released [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rank-math-pro-plugin-compromised/\">Hackers Compromise Rank Math PRO WordPress Plugin to Install Self-Rebuilding Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167948",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/rank-math-pro-plugin-compromised",
-      "content_hash": "53d735a8bef60a0c04b2963747d43b190efea5d1ef174df873abf699be16ff88",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "53d735a8bef60a0c04b2963747d43b190efea5d1ef174df873abf699be16ff88",
-        "FEEDBURNER": "53d735a8bef60a0c04b2963747d43b190efea5d1ef174df873abf699be16ff88"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "Hackers Turn Low-Cost Android Phones Into Hidden Proxy Botnets Through Preinstalled Malware",
-      "url": "https://gbhackers.com/android-malware-campaign-2/",
-      "published": "Tue, 20 Oct 2026 07:41:50 +0000",
-      "published_utc": "2026-10-20T07:41:50+00:00",
-      "summary": "<p>Midnight Mimosa, a widespread Android malware campaign, is turning inexpensive smartphones into advertising fraud engines and potential residential proxy nodes by embedding malicious apps in device firmware before purchase. Bitdefender observed thousands of infected devices across more than 150 countries over approximately two years, exposing a persistent compromise that ordinary application removal cannot resolve. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-malware-campaign-2/\">Hackers Turn Low-Cost Android Phones Into Hidden Proxy Botnets Through Preinstalled Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203906",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/android-malware-campaign-2",
-      "content_hash": "33ec61442ce1f5b29dff1e228e18af280f8c85bfcf492eb408eeef989688a086",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "33ec61442ce1f5b29dff1e228e18af280f8c85bfcf492eb408eeef989688a086",
-        "FEEDBURNER": "33ec61442ce1f5b29dff1e228e18af280f8c85bfcf492eb408eeef989688a086"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
-    },
-    {
-      "title": "Hackers Using Fake Google Meet Pages to Steal Google Credentials",
-      "url": "https://cybersecuritynews.com/fake-google-meet-pages/",
-      "published": "Tue, 20 Oct 2026 07:18:07 +0000",
-      "published_utc": "2026-10-20T07:18:07+00:00",
-      "summary": "<p>Two websites are hosting fake Google Meet pages designed to steal Google account credentials and carry out phishing involving two-factor authentication (2FA), according to threat intelligence shared on October 20, 2026. The pages imitate a familiar meeting service to make a request for account details look more believable. The researcher also reported a serious security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-google-meet-pages/\">Hackers Using Fake Google Meet Pages to Steal Google Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167939",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/fake-google-meet-pages",
-      "content_hash": "ff3e867a9e6b58756aa3cadb955d9e0d4bb210addee956161ac4aa751a4b0085",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ff3e867a9e6b58756aa3cadb955d9e0d4bb210addee956161ac4aa751a4b0085",
-        "FEEDBURNER": "ff3e867a9e6b58756aa3cadb955d9e0d4bb210addee956161ac4aa751a4b0085"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:56.470754+00:00",
-      "first_seen_local": "2026-10-20T07:01:56.470750-05:00",
-      "last_updated_utc": "2026-10-20T12:01:56.470754+00:00",
-      "last_updated_local": "2026-10-20T07:01:56.470750-05:00"
-    },
-    {
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "url": "http://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-      "published": "Tue, 20 Oct 2026 07:11:45 +0000",
-      "published_utc": "2026-10-20T07:11:45+00:00",
-      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5873492576552175093",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-      "content_hash": "7f39c283fb05f1fb32cf18e214e063397dc79b4038690737f57b10a2194d761b",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7f39c283fb05f1fb32cf18e214e063397dc79b4038690737f57b10a2194d761b",
-        "FEEDBURNER": "7f39c283fb05f1fb32cf18e214e063397dc79b4038690737f57b10a2194d761b"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:02:02.405257+00:00",
-      "first_seen_local": "2026-10-20T07:02:02.405254-05:00",
-      "last_updated_utc": "2026-10-20T12:02:02.405257+00:00",
-      "last_updated_local": "2026-10-20T07:02:02.405254-05:00"
-    },
-    {
-      "title": "GhostAction Hackers Inject Malicious Security Workflows Into 790 GitHub Repositories",
-      "url": "https://gbhackers.com/ghostaction-campaign/",
-      "published": "Tue, 20 Oct 2026 07:00:30 +0000",
-      "published_utc": "2026-10-20T07:00:30+00:00",
-      "summary": "<p>GhostAction has returned with an expanded credential-theft operation, injecting malicious GitHub Actions workflows into 790 repositories by October 9, 2026. GitGuardian first documented GhostAction in 2025, when it reported 817 affected repositories and 3,325 stolen secrets. The latest wave builds on the same account-takeover approach: attackers enumerate repositories a compromised maintainer can write to, then [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-campaign/\">GhostAction Hackers Inject Malicious Security Workflows Into 790 GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=203900",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ghostaction-campaign",
-      "content_hash": "1fb5ac7c04c4b42a652793261594d0a18ab6557e41491e80232514ca0965823d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "1fb5ac7c04c4b42a652793261594d0a18ab6557e41491e80232514ca0965823d",
-        "FEEDBURNER": "1fb5ac7c04c4b42a652793261594d0a18ab6557e41491e80232514ca0965823d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-20T12:01:55.903482+00:00",
-      "first_seen_local": "2026-10-20T07:01:55.903479-05:00",
-      "last_updated_utc": "2026-10-20T12:01:55.903482+00:00",
-      "last_updated_local": "2026-10-20T07:01:55.903479-05:00"
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
     }
   ]
 }

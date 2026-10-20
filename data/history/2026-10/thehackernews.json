@@ -2,8 +2,120 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 147,
+  "article_count": 151,
   "articles": [
+    {
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "published": "Tue, 20 Oct 2026 15:38:52 +0000",
+      "published_utc": "2026-10-20T15:38:52+00:00",
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-445200343961929342",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "content_hash": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c",
+        "FEEDBURNER": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "published": "Tue, 20 Oct 2026 15:32:27 +0000",
+      "published_utc": "2026-10-20T15:32:27+00:00",
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6450582823396389309",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "content_hash": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58",
+        "FEEDBURNER": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "published": "Tue, 20 Oct 2026 14:07:17 +0000",
+      "published_utc": "2026-10-20T14:07:17+00:00",
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5771516333363798595",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "content_hash": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539",
+        "FEEDBURNER": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "published": "Tue, 20 Oct 2026 12:59:44 +0000",
+      "published_utc": "2026-10-20T12:59:44+00:00",
+      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-906293967082220396",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "content_hash": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00",
+        "FEEDBURNER": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
     {
       "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
       "url": "http://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",

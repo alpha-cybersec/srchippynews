@@ -1,12 +1,398 @@
 {
   "date": "2026-10-20",
-  "article_count": 33,
+  "article_count": 47,
   "sources": {
-    "thehackernews": 8,
-    "cybersecuritynews": 9,
-    "gbhackers": 16
+    "cybersecuritynews": 16,
+    "thehackernews": 12,
+    "gbhackers": 19
   },
   "articles": [
+    {
+      "title": "3 Ways Threat Intelligence Makes Life Easier for American SOC Analysts",
+      "url": "https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts/",
+      "published": "Tue, 20 Oct 2026 16:26:48 +0000",
+      "published_utc": "2026-10-20T16:26:48+00:00",
+      "summary": "<p>October is Cybersecurity Awareness Month, a good time to rethink how SOC analysts detect and investigate threats, draw conclusions from the first three quarters of 2026, and see how exactly your daily workflows could be improved.&#160; One important takeaway is that visibility into your company&#8217;s internal environment alone isn&#8217;t enough to ensure effective enterprise security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts/\">3 Ways Threat Intelligence Makes Life Easier for American SOC Analysts </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168007",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts",
+      "content_hash": "171781621ecb62390d18a659e170e1af6770aeb5d8316be1bf6d0b5891937cb5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "171781621ecb62390d18a659e170e1af6770aeb5d8316be1bf6d0b5891937cb5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "published": "Tue, 20 Oct 2026 15:38:52 +0000",
+      "published_utc": "2026-10-20T15:38:52+00:00",
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-445200343961929342",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "content_hash": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c",
+        "FEEDBURNER": "da2d619634e382193e97e1fc4ee93469ca79c7a653971d22e9b8c4e3695f574c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "published": "Tue, 20 Oct 2026 15:32:27 +0000",
+      "published_utc": "2026-10-20T15:32:27+00:00",
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6450582823396389309",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "content_hash": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58",
+        "FEEDBURNER": "3062fb7f5e44994c233007d229c5a4d3b2deca25e7c77efd64d4c5b8afc45b58"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
+      "url": "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/",
+      "published": "Tue, 20 Oct 2026 15:09:27 +0000",
+      "published_utc": "2026-10-20T15:09:27+00:00",
+      "summary": "<p>Federal investigators suspect an executive at a United States consulting firm helped ShinyHunters operate a website used to pressure hacked companies into paying ransom demands. The allegation raises questions about whether trusted ransomware advisers crossed from helping victims into supporting the criminals demanding payment for stolen data. The suspected website operator has not been publicly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/\">FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168020",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters",
+      "content_hash": "e718a75301f3b2cff84bf147857fdf90b3cf7080903370b2059ba2ae67e4a132",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e718a75301f3b2cff84bf147857fdf90b3cf7080903370b2059ba2ae67e4a132"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent",
+      "url": "https://cybersecuritynews.com/hackers-exploit-open-banking-services/",
+      "published": "Tue, 20 Oct 2026 14:22:04 +0000",
+      "published_utc": "2026-10-20T14:22:04+00:00",
+      "summary": "<p>Criminals have found a way to use open banking as a low-cost checking service for stolen bank and card details. In a campaign described by Group-IB, fraudsters abused a spend-management platform’s account-linking process to check whether credentials worked and whether linked accounts held funds. The platform did not lose money through stolen funds, but it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-open-banking-services/\">Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168009",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-open-banking-services",
+      "content_hash": "24746d5c749e757ce97ac6f36514bbd5269f22d3f817120b91fdf84dbd8bed7f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "24746d5c749e757ce97ac6f36514bbd5269f22d3f817120b91fdf84dbd8bed7f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "published": "Tue, 20 Oct 2026 14:07:17 +0000",
+      "published_utc": "2026-10-20T14:07:17+00:00",
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5771516333363798595",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "content_hash": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539",
+        "FEEDBURNER": "362472298a45ea66a9f5b61968419a210fd40f3c0d0aadd5dde3b0279b1f7539"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "WP2Shell Attack Lets Hackers Create WordPress Admin Accounts and Install Web Shells Without Login",
+      "url": "https://cybersecuritynews.com/wp2shell-attack/",
+      "published": "Tue, 20 Oct 2026 13:54:23 +0000",
+      "published_utc": "2026-10-20T13:54:23+00:00",
+      "summary": "<p>WP2Shell combines two WordPress Core flaws to move from an unauthenticated request to server-side code execution. It can let an attacker create an administrator account and install a plugin-based web shell. Seqrite’s October 16 analysis lists affected releases, but does not establish widespread live exploitation. The report says the flaws were disclosed in July 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wp2shell-attack/\">WP2Shell Attack Lets Hackers Create WordPress Admin Accounts and Install Web Shells Without Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168004",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wp2shell-attack",
+      "content_hash": "0a977f7c90cd9f46a30d8f66ea8421f948b917a0bf2c3797f4b28b4b2152fef2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0a977f7c90cd9f46a30d8f66ea8421f948b917a0bf2c3797f4b28b4b2152fef2",
+        "FEEDBURNER": "0a977f7c90cd9f46a30d8f66ea8421f948b917a0bf2c3797f4b28b4b2152fef2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Hackers Use Generative AI to Build Custom Malware and Bypass Traditional Security Detection",
+      "url": "https://cybersecuritynews.com/hackers-use-generative-ai/",
+      "published": "Tue, 20 Oct 2026 13:32:15 +0000",
+      "published_utc": "2026-10-20T13:32:15+00:00",
+      "summary": "<p>Hackers are using generative AI to build custom malware, rewrite harmful scripts, and make phishing messages harder to spot. The shift puts pressure on security tools that mainly depend on known file signatures, while helping ransomware operators move faster from their first foothold to data theft and encryption. The danger is not that every AI-generated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-generative-ai/\">Hackers Use Generative AI to Build Custom Malware and Bypass Traditional Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168003",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-generative-ai",
+      "content_hash": "a7fbb05915e4cee1a9f627f3ccb647ffb1489073e5bf47b98a07483efc53972c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a7fbb05915e4cee1a9f627f3ccb647ffb1489073e5bf47b98a07483efc53972c",
+        "FEEDBURNER": "a7fbb05915e4cee1a9f627f3ccb647ffb1489073e5bf47b98a07483efc53972c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Thousands of Android Phones Ship With Hidden Malware That Disables Google Play Protections",
+      "url": "https://cybersecuritynews.com/thousands-of-android-phones/",
+      "published": "Tue, 20 Oct 2026 13:15:38 +0000",
+      "published_utc": "2026-10-20T13:15:38+00:00",
+      "summary": "<p>Thousands of Android phones across more than 150 countries have been found running malware planted in their firmware before purchase. The campaign, called Midnight Mimosa, targets low-cost devices and gives attackers system access without requiring owners to download a harmful app or click a suspicious link. The malware can secretly install and remove apps, load [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/thousands-of-android-phones/\">Thousands of Android Phones Ship With Hidden Malware That Disables Google Play Protections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168000",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/thousands-of-android-phones",
+      "content_hash": "2855fe07968bcea0df569a1be1d6f8d6182ec706cc0c3f2db2f8aea574f1777c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2855fe07968bcea0df569a1be1d6f8d6182ec706cc0c3f2db2f8aea574f1777c",
+        "FEEDBURNER": "2855fe07968bcea0df569a1be1d6f8d6182ec706cc0c3f2db2f8aea574f1777c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
+    {
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "published": "Tue, 20 Oct 2026 12:59:44 +0000",
+      "published_utc": "2026-10-20T12:59:44+00:00",
+      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-906293967082220396",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "content_hash": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00",
+        "FEEDBURNER": "313684d56593152b600726cf235f4e30a72869d131aedaa38be428a4073a5a00"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:25.705801+00:00",
+      "first_seen_local": "2026-10-20T11:50:25.705799-05:00",
+      "last_updated_utc": "2026-10-20T16:50:25.705801+00:00",
+      "last_updated_local": "2026-10-20T11:50:25.705799-05:00"
+    },
+    {
+      "title": "ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content",
+      "url": "https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/",
+      "published": "Tue, 20 Oct 2026 12:54:36 +0000",
+      "published_utc": "2026-10-20T12:54:36+00:00",
+      "summary": "<p>OpenAI has announced an expanded Chrome integration that lets ChatGPT gather information from open browser tabs and take action within the browser. This update introduces two distinct workflows: &#8220;Chat,&#8221; which uses tab content to inform its responses, and &#8220;Work,&#8221; which can control tabs to complete tasks. The announcement was made on ChatGPT’s official account on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/\">ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203967",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/chatgpt-chrome-extension-expands-browser-access",
+      "content_hash": "cdbae507b189190903f5e4ff8adaf5b35d05b23f536e8d6556c20b6fb754d496",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cdbae507b189190903f5e4ff8adaf5b35d05b23f536e8d6556c20b6fb754d496",
+        "FEEDBURNER": "cdbae507b189190903f5e4ff8adaf5b35d05b23f536e8d6556c20b6fb754d496"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.016636+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.016632-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.016636+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.016632-05:00"
+    },
+    {
+      "title": "US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems",
+      "url": "https://gbhackers.com/us-government-bans-deepseek-ai/",
+      "published": "Tue, 20 Oct 2026 12:46:25 +0000",
+      "published_utc": "2026-10-20T12:46:25+00:00",
+      "summary": "<p>The U.S. Department of Homeland Security (DHS) has instructed federal civilian agencies to remove DeepSeek artificial intelligence products from their information technology systems and to stop acquiring relevant products and services. This directive applies not only to DeepSeek&#8217;s applications but also to its affiliated companies and third-party products developed using DeepSeek technology, broadening its impact [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/us-government-bans-deepseek-ai/\">US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203963",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/us-government-bans-deepseek-ai",
+      "content_hash": "d59a0c0a299c5c599a090614fda0d2cccbd7ad900163ad07cadf334ee4e34c27",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d59a0c0a299c5c599a090614fda0d2cccbd7ad900163ad07cadf334ee4e34c27",
+        "FEEDBURNER": "d59a0c0a299c5c599a090614fda0d2cccbd7ad900163ad07cadf334ee4e34c27"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.016636+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.016632-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.016636+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.016632-05:00"
+    },
+    {
+      "title": "Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware",
+      "url": "https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/",
+      "published": "Tue, 20 Oct 2026 12:30:45 +0000",
+      "published_utc": "2026-10-20T12:30:45+00:00",
+      "summary": "<p>Ransomware operators are exploiting a vulnerability in Palo Alto Networks PAN-OS that allows them to bypass authentication. This issue enables unauthorized VPN sessions, bypasses multifactor authentication (MFA), and allows access to corporate networks. According to Unit 42’s October 19 update, two groups, Spikey Scorpius (also referred to as Qilin) and Tarnished Scorpius, are using CVE-2026-0257. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/\">Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=203956",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw",
+      "content_hash": "001f9441075b2ae41cddd9eecca58acde175330a042bcd9fcb2c158b2efe032e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "001f9441075b2ae41cddd9eecca58acde175330a042bcd9fcb2c158b2efe032e",
+        "FEEDBURNER": "001f9441075b2ae41cddd9eecca58acde175330a042bcd9fcb2c158b2efe032e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.016636+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.016632-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.016636+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.016632-05:00"
+    },
+    {
+      "title": "Hackers Hijack 790 GitHub Repositories to Steal Cloud Credentials and AI API Keys",
+      "url": "https://cybersecuritynews.com/hackers-hijack-790-github-repositories/",
+      "published": "Tue, 20 Oct 2026 12:02:56 +0000",
+      "published_utc": "2026-10-20T12:02:56+00:00",
+      "summary": "<p>A campaign called GhostAction has placed malicious GitHub Actions workflows in 790 repositories, putting cloud credentials, software-publishing tokens, and AI service keys at risk. The total is OpenSourceMalware’s count of publicly recoverable, validated repositories through October 9, 2026; it is not a claim that every repository leaked credentials or suffered confirmed misuse. The campaign abuses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-790-github-repositories/\">Hackers Hijack 790 GitHub Repositories to Steal Cloud Credentials and AI API Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=167989",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-hijack-790-github-repositories",
+      "content_hash": "491c340a03265a872a5c90ad4b1ea54e827ddac1ec03c8aecb66f97f4ae65c20",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "491c340a03265a872a5c90ad4b1ea54e827ddac1ec03c8aecb66f97f4ae65c20",
+        "FEEDBURNER": "491c340a03265a872a5c90ad4b1ea54e827ddac1ec03c8aecb66f97f4ae65c20"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-20T16:50:20.674279+00:00",
+      "first_seen_local": "2026-10-20T11:50:20.674274-05:00",
+      "last_updated_utc": "2026-10-20T16:50:20.674279+00:00",
+      "last_updated_local": "2026-10-20T11:50:20.674274-05:00"
+    },
     {
       "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
       "url": "http://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",

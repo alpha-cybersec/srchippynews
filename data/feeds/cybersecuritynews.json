@@ -5,14 +5,87 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 9,
+      "articles": [
+        {
+          "title": "Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues",
+          "url": "https://cybersecuritynews.com/revolut-outage/",
+          "published": "Tue, 20 Oct 2026 11:37:05 +0000",
+          "published_utc": "2026-10-20T11:37:05+00:00",
+          "summary": "<p>Revolut suffered a major service outage on Tuesday, October 20, 2026, disrupting payments, cash withdrawals, and access to its banking app. The digital bank said customer money and data remained safe while engineers worked to restore affected services. The disruption came as Google Cloud reported problems in its London region. Reuters reported that a person [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/revolut-outage/\">Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167992"
+        },
+        {
+          "title": "Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools",
+          "url": "https://cybersecuritynews.com/hackers-target-south-korean-banks/",
+          "published": "Tue, 20 Oct 2026 11:09:55 +0000",
+          "published_utc": "2026-10-20T11:09:55+00:00",
+          "summary": "<p>Hackers linked to AI-assisted attacks on South Korean banks left parts of their own infrastructure open, giving researchers a view of their tools and preparations. The exposed files showed a wider operation involving cryptocurrency theft tools, Linux attacks, and mobile security testing beyond the banking campaign. Public reporting cited in the investigation said the breaches [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-target-south-korean-banks/\">Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167984"
+        },
+        {
+          "title": "ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws",
+          "url": "https://cybersecuritynews.com/redagents-ai-platform/",
+          "published": "Tue, 20 Oct 2026 10:41:54 +0000",
+          "published_utc": "2026-10-20T10:41:54+00:00",
+          "summary": "<p>ThreatBook has launched RedAgents, a cloud platform that brings several AI-powered penetration-testing agents together to assess an organization’s systems. Announced on October 16, 2026, the service is designed to help security teams find weaknesses in their own networks by running multiple automated tests within a defined, authorized scope. ThreatBook says the agents can work in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/redagents-ai-platform/\">ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167964"
+        },
+        {
+          "title": "U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools",
+          "url": "https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/",
+          "published": "Tue, 20 Oct 2026 10:18:40 +0000",
+          "published_utc": "2026-10-20T10:18:40+00:00",
+          "summary": "<p>The U.S. Department of Homeland Security has ordered federal civilian agencies to stop buying DeepSeek products and remove related technology from their IT systems. The action covers products from Hangzhou DeepSeek Artificial Intelligence Co., Ltd., its affiliates, and third-party products and services developed using DeepSeek implementations. The notice was filed for public inspection on October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/\">U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167976"
+        },
+        {
+          "title": "Hackers Exploit Palo Alto VPN Flaw to Bypass MFA and Steal Credentials From VMware Disks",
+          "url": "https://cybersecuritynews.com/palo-alto-vpn-flaw-exploited/",
+          "published": "Tue, 20 Oct 2026 10:03:54 +0000",
+          "published_utc": "2026-10-20T10:03:54+00:00",
+          "summary": "<p>Ransomware operators are exploiting a Palo Alto Networks GlobalProtect VPN flaw to bypass multi-factor authentication and enter corporate networks. In one investigated case, attackers reached VMware management systems and stole credentials directly from a domain controller’s virtual disk, avoiding security tools running inside the virtual machine. Palo Alto Networks Unit 42 detailed the activity in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-vpn-flaw-exploited/\">Hackers Exploit Palo Alto VPN Flaw to Bypass MFA and Steal Credentials From VMware Disks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167973"
+        },
+        {
+          "title": "Hackers Hijack OVHcloud GitHub Releases to Distribute Secret-Stealing Malware",
+          "url": "https://cybersecuritynews.com/ovhcloud-supply-chain-attack/",
+          "published": "Tue, 20 Oct 2026 09:16:55 +0000",
+          "published_utc": "2026-10-20T09:16:55+00:00",
+          "summary": "<p>Hackers compromised the GitHub account of an OVHcloud developer and used it to distribute malicious files through the company’s official command-line tool releases. The October 19, 2026, supply chain attack targeted users downloading the OVHcloud CLI, with malware designed to collect secrets stored on their computers. A customer spotted suspicious release changes and alerted the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ovhcloud-supply-chain-attack/\">Hackers Hijack OVHcloud GitHub Releases to Distribute Secret-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167960"
+        },
+        {
+          "title": "Hackers Hijack AOMEI Software Updates for Just 5 Minutes to Secretly Install Backdoors",
+          "url": "https://cybersecuritynews.com/hackers-hijack-aomei-software-updates/",
+          "published": "Tue, 20 Oct 2026 08:59:04 +0000",
+          "published_utc": "2026-10-20T08:59:04+00:00",
+          "summary": "<p>A short-lived change to AOMEI’s software update system gave hackers a way to deliver malware through a trusted route. Google Threat Intelligence Group (GTIG) and Mandiant found that attackers repeatedly altered AOMEI’s update settings for only a few minutes at a time between April and July 2026. Any AOMEI Backupper computer checking for updates during [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-aomei-software-updates/\">Hackers Hijack AOMEI Software Updates for Just 5 Minutes to Secretly Install Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167943"
+        },
+        {
+          "title": "Hackers Compromise Rank Math PRO WordPress Plugin to Install Self-Rebuilding Backdoors",
+          "url": "https://cybersecuritynews.com/rank-math-pro-plugin-compromised/",
+          "published": "Tue, 20 Oct 2026 08:20:48 +0000",
+          "published_utc": "2026-10-20T08:20:48+00:00",
+          "summary": "<p>Hackers planted malware in copies of the Rank Math PRO WordPress plugin, exposing websites to hidden backdoors that can rebuild themselves after removal. Rank Math confirmed that some version 3.0.123 packages distributed during a limited October download window contained malicious code that could compromise websites when activated. The company removed the affected files and released [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rank-math-pro-plugin-compromised/\">Hackers Compromise Rank Math PRO WordPress Plugin to Install Self-Rebuilding Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167948"
+        },
+        {
+          "title": "Hackers Using Fake Google Meet Pages to Steal Google Credentials",
+          "url": "https://cybersecuritynews.com/fake-google-meet-pages/",
+          "published": "Tue, 20 Oct 2026 07:18:07 +0000",
+          "published_utc": "2026-10-20T07:18:07+00:00",
+          "summary": "<p>Two websites are hosting fake Google Meet pages designed to steal Google account credentials and carry out phishing involving two-factor authentication (2FA), according to threat intelligence shared on October 20, 2026. The pages imitate a familiar meeting service to make a request for account details look more believable. The researcher also reported a serious security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-google-meet-pages/\">Hackers Using Fake Google Meet Pages to Steal Google Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167939"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,8 +95,49 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 5,
+      "articles": [
+        {
+          "title": "Hackers Exploit Palo Alto VPN Flaw to Bypass MFA and Steal Credentials From VMware Disks",
+          "url": "https://cybersecuritynews.com/palo-alto-vpn-flaw-exploited/",
+          "published": "Tue, 20 Oct 2026 10:03:54 +0000",
+          "published_utc": "2026-10-20T10:03:54+00:00",
+          "summary": "<p>Ransomware operators are exploiting a Palo Alto Networks GlobalProtect VPN flaw to bypass multi-factor authentication and enter corporate networks. In one investigated case, attackers reached VMware management systems and stole credentials directly from a domain controller’s virtual disk, avoiding security tools running inside the virtual machine. Palo Alto Networks Unit 42 detailed the activity in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-vpn-flaw-exploited/\">Hackers Exploit Palo Alto VPN Flaw to Bypass MFA and Steal Credentials From VMware Disks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167973"
+        },
+        {
+          "title": "Hackers Hijack OVHcloud GitHub Releases to Distribute Secret-Stealing Malware",
+          "url": "https://cybersecuritynews.com/ovhcloud-supply-chain-attack/",
+          "published": "Tue, 20 Oct 2026 09:16:55 +0000",
+          "published_utc": "2026-10-20T09:16:55+00:00",
+          "summary": "<p>Hackers compromised the GitHub account of an OVHcloud developer and used it to distribute malicious files through the company’s official command-line tool releases. The October 19, 2026, supply chain attack targeted users downloading the OVHcloud CLI, with malware designed to collect secrets stored on their computers. A customer spotted suspicious release changes and alerted the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ovhcloud-supply-chain-attack/\">Hackers Hijack OVHcloud GitHub Releases to Distribute Secret-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167960"
+        },
+        {
+          "title": "Hackers Hijack AOMEI Software Updates for Just 5 Minutes to Secretly Install Backdoors",
+          "url": "https://cybersecuritynews.com/hackers-hijack-aomei-software-updates/",
+          "published": "Tue, 20 Oct 2026 08:59:04 +0000",
+          "published_utc": "2026-10-20T08:59:04+00:00",
+          "summary": "<p>A short-lived change to AOMEI’s software update system gave hackers a way to deliver malware through a trusted route. Google Threat Intelligence Group (GTIG) and Mandiant found that attackers repeatedly altered AOMEI’s update settings for only a few minutes at a time between April and July 2026. Any AOMEI Backupper computer checking for updates during [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-aomei-software-updates/\">Hackers Hijack AOMEI Software Updates for Just 5 Minutes to Secretly Install Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167943"
+        },
+        {
+          "title": "Hackers Compromise Rank Math PRO WordPress Plugin to Install Self-Rebuilding Backdoors",
+          "url": "https://cybersecuritynews.com/rank-math-pro-plugin-compromised/",
+          "published": "Tue, 20 Oct 2026 08:20:48 +0000",
+          "published_utc": "2026-10-20T08:20:48+00:00",
+          "summary": "<p>Hackers planted malware in copies of the Rank Math PRO WordPress plugin, exposing websites to hidden backdoors that can rebuild themselves after removal. Rank Math confirmed that some version 3.0.123 packages distributed during a limited October download window contained malicious code that could compromise websites when activated. The company removed the affected files and released [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rank-math-pro-plugin-compromised/\">Hackers Compromise Rank Math PRO WordPress Plugin to Install Self-Rebuilding Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167948"
+        },
+        {
+          "title": "Hackers Using Fake Google Meet Pages to Steal Google Credentials",
+          "url": "https://cybersecuritynews.com/fake-google-meet-pages/",
+          "published": "Tue, 20 Oct 2026 07:18:07 +0000",
+          "published_utc": "2026-10-20T07:18:07+00:00",
+          "summary": "<p>Two websites are hosting fake Google Meet pages designed to steal Google account credentials and carry out phishing involving two-factor authentication (2FA), according to threat intelligence shared on October 20, 2026. The pages imitate a familiar meeting service to make a request for account details look more believable. The researcher also reported a serious security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-google-meet-pages/\">Hackers Using Fake Google Meet Pages to Steal Google Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=167939"
+        }
+      ],
       "error": ""
     }
   }

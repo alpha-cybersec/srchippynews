@@ -10,8 +10,80 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 2,
+      "article_count": 11,
       "articles": [
+        {
+          "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+          "url": "http://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+          "published": "Wed, 21 Oct 2026 12:05:00 +0000",
+          "published_utc": "2026-10-21T12:05:00+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6654711863900948020"
+        },
+        {
+          "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+          "url": "http://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+          "published": "Wed, 21 Oct 2026 11:53:34 +0000",
+          "published_utc": "2026-10-21T11:53:34+00:00",
+          "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result.\n\nProofpoint shared several examples of the shift at its Protect 2026 conference.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-604685215153625812"
+        },
+        {
+          "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+          "url": "http://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+          "published": "Wed, 21 Oct 2026 10:36:53 +0000",
+          "published_utc": "2026-10-21T10:36:53+00:00",
+          "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3511617534003943780"
+        },
+        {
+          "title": "The Harness Is the Hard Part of Agentic Pentesting",
+          "url": "http://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+          "published": "Wed, 21 Oct 2026 10:32:40 +0000",
+          "published_utc": "2026-10-21T10:32:40+00:00",
+          "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5795854942374320379"
+        },
+        {
+          "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+          "url": "http://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+          "published": "Wed, 21 Oct 2026 10:30:27 +0000",
+          "published_utc": "2026-10-21T10:30:27+00:00",
+          "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.\n\nExit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3556298351256006924"
+        },
+        {
+          "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+          "url": "http://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+          "published": "Wed, 21 Oct 2026 09:05:17 +0000",
+          "published_utc": "2026-10-21T09:05:17+00:00",
+          "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5074610428079947730"
+        },
+        {
+          "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+          "url": "http://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+          "published": "Wed, 21 Oct 2026 09:01:12 +0000",
+          "published_utc": "2026-10-21T09:01:12+00:00",
+          "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5065725175727395158"
+        },
+        {
+          "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+          "url": "http://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+          "published": "Wed, 21 Oct 2026 08:04:17 +0000",
+          "published_utc": "2026-10-21T08:04:17+00:00",
+          "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy information technology products or services from the Chinese AI developer or its affiliates\n\nHomeland Security Secretary",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6691326005004066314"
+        },
+        {
+          "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+          "url": "http://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+          "published": "Wed, 21 Oct 2026 07:44:22 +0000",
+          "published_utc": "2026-10-21T07:44:22+00:00",
+          "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2003130001733729405"
+        },
         {
           "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
           "url": "http://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
@@ -39,8 +111,97 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 11,
+      "articles": [
+        {
+          "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+          "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+          "published": "Wed, 21 Oct 2026 17:35:00 +0530",
+          "published_utc": "2026-10-21T12:05:00+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
+          "id": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
+        },
+        {
+          "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+          "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+          "published": "Wed, 21 Oct 2026 17:23:34 +0530",
+          "published_utc": "2026-10-21T11:53:34+00:00",
+          "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result.\n\nProofpoint shared several examples of the shift at its Protect 2026 conference.",
+          "id": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
+        },
+        {
+          "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+          "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+          "published": "Wed, 21 Oct 2026 16:06:53 +0530",
+          "published_utc": "2026-10-21T10:36:53+00:00",
+          "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+          "id": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
+        },
+        {
+          "title": "The Harness Is the Hard Part of Agentic Pentesting",
+          "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+          "published": "Wed, 21 Oct 2026 16:02:40 +0530",
+          "published_utc": "2026-10-21T10:32:40+00:00",
+          "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
+          "id": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
+        },
+        {
+          "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+          "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+          "published": "Wed, 21 Oct 2026 16:00:27 +0530",
+          "published_utc": "2026-10-21T10:30:27+00:00",
+          "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.\n\nExit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
+          "id": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html"
+        },
+        {
+          "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+          "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+          "published": "Wed, 21 Oct 2026 14:35:17 +0530",
+          "published_utc": "2026-10-21T09:05:17+00:00",
+          "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+          "id": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+        },
+        {
+          "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+          "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+          "published": "Wed, 21 Oct 2026 14:31:12 +0530",
+          "published_utc": "2026-10-21T09:01:12+00:00",
+          "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+          "id": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
+        },
+        {
+          "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+          "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+          "published": "Wed, 21 Oct 2026 13:34:17 +0530",
+          "published_utc": "2026-10-21T08:04:17+00:00",
+          "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy information technology products or services from the Chinese AI developer or its affiliates\n\nHomeland Security Secretary",
+          "id": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
+        },
+        {
+          "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+          "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+          "published": "Wed, 21 Oct 2026 13:14:22 +0530",
+          "published_utc": "2026-10-21T07:44:22+00:00",
+          "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
+          "id": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
+        },
+        {
+          "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+          "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+          "published": "Wed, 21 Oct 2026 12:56:49 +0530",
+          "published_utc": "2026-10-21T07:26:49+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+          "id": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
+        },
+        {
+          "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+          "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+          "published": "Wed, 21 Oct 2026 11:35:15 +0530",
+          "published_utc": "2026-10-21T06:05:15+00:00",
+          "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization.\n\nAccording to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans.\n\nKnown to be active since at least 2020, the group has a track record of striking industrial",
+          "id": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
+        }
+      ],
       "error": ""
     }
   }

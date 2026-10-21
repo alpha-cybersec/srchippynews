@@ -5,14 +5,55 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 5,
+      "articles": [
+        {
+          "title": "CISA Warns SafePay Ransomware Has Hit 600+ Organizations and Destroyed Backup Systems",
+          "url": "https://gbhackers.com/safepay-ransomware-attack/",
+          "published": "Wed, 21 Oct 2026 07:07:17 +0000",
+          "published_utc": "2026-10-21T07:07:17+00:00",
+          "summary": "<p>CISA has warned that SafePay ransomware actors have compromised at least 600 organizations across multiple critical infrastructure sectors, combining data theft and encryption with deliberate attacks on backup systems to obstruct recovery. The October 20, 2026, joint advisory describes operations spanning North America, South America, Europe, and Australia since August 2024. Published with the FBI, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/safepay-ransomware-attack/\">CISA Warns SafePay Ransomware Has Hit 600+ Organizations and Destroyed Backup Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204021"
+        },
+        {
+          "title": "Rust 1.100 Will Let Developers Block Fresh Cargo Packages to Reduce Malware Supply Chain Risks",
+          "url": "https://gbhackers.com/rust-1-100-strengthens-cargo/",
+          "published": "Wed, 21 Oct 2026 06:17:29 +0000",
+          "published_utc": "2026-10-21T06:17:29+00:00",
+          "summary": "<p>Rust 1.100, scheduled for November 12, 2026, will introduce stable support for Cargo dependency cooldowns, allowing developers to reject newly published package versions until they reach a configurable minimum age. The feature gives security researchers, maintainers, and registries time to identify malicious releases before automated updates spread them across development environments and CI pipelines access. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rust-1-100-strengthens-cargo/\">Rust 1.100 Will Let Developers Block Fresh Cargo Packages to Reduce Malware Supply Chain Risks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204014"
+        },
+        {
+          "title": "INC Ransomware Hackers Use Claude AI, Expose 8,257 Messages and 46 Malware Builds",
+          "url": "https://gbhackers.com/inc-ransomware-attack-2/",
+          "published": "Wed, 21 Oct 2026 05:57:08 +0000",
+          "published_utc": "2026-10-21T05:57:08+00:00",
+          "summary": "<p>Ransomware affiliates associated with INC and The Gentlemen exposed an intrusion ecosystem after leaving operational servers publicly accessible. The investigation began in late September 2026 with open directories on 45.227.254[.]43. Configuration files and credentials led researchers to six additional adversary servers, exposing development infrastructure, command infrastructure and ransomware staging systems. The findings describe an active [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/inc-ransomware-attack-2/\">INC Ransomware Hackers Use Claude AI, Expose 8,257 Messages and 46 Malware Builds</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204004"
+        },
+        {
+          "title": "Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers’ Rewards",
+          "url": "https://gbhackers.com/microsoft-introduces-new-bug-bounty-rules-that-could-affect-security-researchers-rewards/",
+          "published": "Wed, 21 Oct 2026 05:32:06 +0000",
+          "published_utc": "2026-10-21T05:32:06+00:00",
+          "summary": "<p>Microsoft has introduced new rules for assessing reports in its bug bounty programs, tying submission completeness more directly to potential rewards. Announced by the Microsoft Security Response Center (MSRC) on October 20, 2026, these changes replace the previous multiple report quality levels with two assessments: &#8220;Complete&#8221; and &#8220;Not Complete.&#8221; This updated approach establishes clearer expectations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-introduces-new-bug-bounty-rules-that-could-affect-security-researchers-rewards/\">Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers&#8217; Rewards</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203997"
+        },
+        {
+          "title": "Hackers Exploit Compromised UpdraftCentral Keys to Install Malicious Plugins on WordPress Sites",
+          "url": "https://gbhackers.com/malicious-plugins-on-wordpress-sites/",
+          "published": "Wed, 21 Oct 2026 05:10:32 +0000",
+          "published_utc": "2026-10-21T05:10:32+00:00",
+          "summary": "<p>Attackers exploited compromised UpdraftCentral connection keys to send trusted remote-management commands to WordPress sites, ultimately installing malicious plugins that could provide unauthorized access to these websites. This incident followed unauthorized access to TeamUpdraft’s website on October 17-18, 2026. The company suspects attackers accessed its customer database, which contained UpdraftCentral connection keys and customer account information. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-plugins-on-wordpress-sites/\">Hackers Exploit Compromised UpdraftCentral Keys to Install Malicious Plugins on WordPress Sites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203994"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -22,87 +63,39 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 4,
       "articles": [
         {
-          "title": "ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content",
-          "url": "https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/",
-          "published": "Tue, 20 Oct 2026 12:54:36 +0000",
-          "published_utc": "2026-10-20T12:54:36+00:00",
-          "summary": "<p>OpenAI has announced an expanded Chrome integration that lets ChatGPT gather information from open browser tabs and take action within the browser. This update introduces two distinct workflows: &#8220;Chat,&#8221; which uses tab content to inform its responses, and &#8220;Work,&#8221; which can control tabs to complete tasks. The announcement was made on ChatGPT’s official account on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-chrome-extension-expands-browser-access/\">ChatGPT Chrome Extension Expands Browser Access to Read Open Tab Content</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203967"
+          "title": "Rust 1.100 Will Let Developers Block Fresh Cargo Packages to Reduce Malware Supply Chain Risks",
+          "url": "https://gbhackers.com/rust-1-100-strengthens-cargo/",
+          "published": "Wed, 21 Oct 2026 06:17:29 +0000",
+          "published_utc": "2026-10-21T06:17:29+00:00",
+          "summary": "<p>Rust 1.100, scheduled for November 12, 2026, will introduce stable support for Cargo dependency cooldowns, allowing developers to reject newly published package versions until they reach a configurable minimum age. The feature gives security researchers, maintainers, and registries time to identify malicious releases before automated updates spread them across development environments and CI pipelines access. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rust-1-100-strengthens-cargo/\">Rust 1.100 Will Let Developers Block Fresh Cargo Packages to Reduce Malware Supply Chain Risks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204014"
         },
         {
-          "title": "US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems",
-          "url": "https://gbhackers.com/us-government-bans-deepseek-ai/",
-          "published": "Tue, 20 Oct 2026 12:46:25 +0000",
-          "published_utc": "2026-10-20T12:46:25+00:00",
-          "summary": "<p>The U.S. Department of Homeland Security (DHS) has instructed federal civilian agencies to remove DeepSeek artificial intelligence products from their information technology systems and to stop acquiring relevant products and services. This directive applies not only to DeepSeek&#8217;s applications but also to its affiliated companies and third-party products developed using DeepSeek technology, broadening its impact [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/us-government-bans-deepseek-ai/\">US Government Bans DeepSeek AI From Federal Civilian Agency IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203963"
+          "title": "INC Ransomware Hackers Use Claude AI, Expose 8,257 Messages and 46 Malware Builds",
+          "url": "https://gbhackers.com/inc-ransomware-attack-2/",
+          "published": "Wed, 21 Oct 2026 05:57:08 +0000",
+          "published_utc": "2026-10-21T05:57:08+00:00",
+          "summary": "<p>Ransomware affiliates associated with INC and The Gentlemen exposed an intrusion ecosystem after leaving operational servers publicly accessible. The investigation began in late September 2026 with open directories on 45.227.254[.]43. Configuration files and credentials led researchers to six additional adversary servers, exposing development infrastructure, command infrastructure and ransomware staging systems. The findings describe an active [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/inc-ransomware-attack-2/\">INC Ransomware Hackers Use Claude AI, Expose 8,257 Messages and 46 Malware Builds</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204004"
         },
         {
-          "title": "Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware",
-          "url": "https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/",
-          "published": "Tue, 20 Oct 2026 12:30:45 +0000",
-          "published_utc": "2026-10-20T12:30:45+00:00",
-          "summary": "<p>Ransomware operators are exploiting a vulnerability in Palo Alto Networks PAN-OS that allows them to bypass authentication. This issue enables unauthorized VPN sessions, bypasses multifactor authentication (MFA), and allows access to corporate networks. According to Unit 42’s October 19 update, two groups, Spikey Scorpius (also referred to as Qilin) and Tarnished Scorpius, are using CVE-2026-0257. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-palo-alto-networks-pan-os-flaw/\">Hackers Exploit Palo Alto Networks PAN-OS Flaw to Bypass MFA and Deploy Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203956"
+          "title": "Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers’ Rewards",
+          "url": "https://gbhackers.com/microsoft-introduces-new-bug-bounty-rules-that-could-affect-security-researchers-rewards/",
+          "published": "Wed, 21 Oct 2026 05:32:06 +0000",
+          "published_utc": "2026-10-21T05:32:06+00:00",
+          "summary": "<p>Microsoft has introduced new rules for assessing reports in its bug bounty programs, tying submission completeness more directly to potential rewards. Announced by the Microsoft Security Response Center (MSRC) on October 20, 2026, these changes replace the previous multiple report quality levels with two assessments: &#8220;Complete&#8221; and &#8220;Not Complete.&#8221; This updated approach establishes clearer expectations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-introduces-new-bug-bounty-rules-that-could-affect-security-researchers-rewards/\">Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers&#8217; Rewards</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203997"
         },
         {
-          "title": "Scammers Turn Legitimate Fintech Platforms Into Phishing Tools to Steal Banking Details",
-          "url": "https://gbhackers.com/fintech-platforms-abused/",
-          "published": "Tue, 20 Oct 2026 11:20:32 +0000",
-          "published_utc": "2026-10-20T11:20:32+00:00",
-          "summary": "<p>Scammers have weaponized a legitimate spend-management platform to send phishing messages and validate stolen financial credentials, turning trusted payment infrastructure into an operational part of fraud instead of attacking it directly. Group-IB documented the activity within a client environment after the platform reported suspicious payment notifications in late April 2026. According to the supplied research, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fintech-platforms-abused/\">Scammers Turn Legitimate Fintech Platforms Into Phishing Tools to Steal Banking Details</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203936"
-        },
-        {
-          "title": "Hackers Compromise OVHcloud GitHub Repository to Distribute Secret-Stealing Malware",
-          "url": "https://gbhackers.com/hackers-compromise-ovhcloud-github-repository/",
-          "published": "Tue, 20 Oct 2026 11:03:04 +0000",
-          "published_utc": "2026-10-20T11:03:04+00:00",
-          "summary": "<p>OVHcloud has reported a supply-chain attack involving its command-line interface (CLI) repository. An attacker exploited a developer&#8217;s GitHub account to distribute a malicious binary designed to steal sensitive information from users’ disks. CEO Octave Klaba confirmed the incident on October 19, 2026, after a customer reported it. The company identified the compromised release at 14:47 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-compromise-ovhcloud-github-repository/\">Hackers Compromise OVHcloud GitHub Repository to Distribute Secret-Stealing Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203942"
-        },
-        {
-          "title": "Rank Math PRO WordPress Plugin Compromised to Spread Malware and Steal Credentials",
-          "url": "https://gbhackers.com/rank-math-pro-wordpress-plugin-compromised/",
-          "published": "Tue, 20 Oct 2026 10:48:55 +0000",
-          "published_utc": "2026-10-20T10:48:55+00:00",
-          "summary": "<p>Rank Math has reported a security incident involving malware distributed through Rank Math PRO version 3.0.123. They warn that WordPress websites using this compromised plugin are at risk if administrators activated it. The company has removed the affected files and released a clean version, 3.0.124. Rank Math PRO Compromised The incident impacts a limited number [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rank-math-pro-wordpress-plugin-compromised/\">Rank Math PRO WordPress Plugin Compromised to Spread Malware and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203938"
-        },
-        {
-          "title": "Hackers Can Take Over WordPress Websites Without a Password Using Two Security Flaws",
-          "url": "https://gbhackers.com/wordpress-websites-at-risk/",
-          "published": "Tue, 20 Oct 2026 10:35:34 +0000",
-          "published_utc": "2026-10-20T10:35:34+00:00",
-          "summary": "<p>Hackers can compromise vulnerable WordPress websites without stealing passwords by chaining two security flaws in the platform’s core. Disclosed in July 2026, the chain involves CVE-2026-63030 and CVE-2026-60137. Unlike attacks dependent on vulnerable extensions, WP2Shell affects default WordPress installations without requiring a third-party plugin. Public exploit code and observed exploitation have made unpatched deployments an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-websites-at-risk/\">Hackers Can Take Over WordPress Websites Without a Password Using Two Security Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203927"
-        },
-        {
-          "title": "Ransomware Gangs Use AI to Find and Steal the Most Sensitive Company Data Quickly",
-          "url": "https://gbhackers.com/ai-powered-ransomware-2/",
-          "published": "Tue, 20 Oct 2026 09:57:29 +0000",
-          "published_utc": "2026-10-20T09:57:29+00:00",
-          "summary": "<p>Ransomware operators are using generative AI to sharpen phishing campaigns, speed up reconnaissance, and identify sensitive corporate information to steal. Zscaler ThreatLabz describes a shift toward faster, more selective extortion, where attackers prioritize damaging disclosures rather than relying exclusively on file encryption. That represents a 275.8% annual increase. These figures establish the scale of theft, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-ransomware-2/\">Ransomware Gangs Use AI to Find and Steal the Most Sensitive Company Data Quickly</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203914"
-        },
-        {
-          "title": "Hackers Exploit Zimbra Zero-Click Flaw to Take Control of Email Servers",
-          "url": "https://gbhackers.com/hackers-exploit-zimbra-zero-click-flaw/",
-          "published": "Tue, 20 Oct 2026 08:52:42 +0000",
-          "published_utc": "2026-10-20T08:52:42+00:00",
-          "summary": "<p>Hackers are exploiting a command injection vulnerability (CVE-2026-73570) in the Zimbra Collaboration Suite. This vulnerability allows attackers to compromise internet-facing email servers without any user interaction. Microsoft Threat Intelligence has observed attackers deploying webshells, escalating privileges, collecting authentication secrets, and staging mailbox data across organizations in various regions and industries. Zimbra Zero-Click Flaw The &#8220;zero-click&#8221; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-zimbra-zero-click-flaw/\">Hackers Exploit Zimbra Zero-Click Flaw to Take Control of Email Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203916"
-        },
-        {
-          "title": "Hackers Turn Low-Cost Android Phones Into Hidden Proxy Botnets Through Preinstalled Malware",
-          "url": "https://gbhackers.com/android-malware-campaign-2/",
-          "published": "Tue, 20 Oct 2026 07:41:50 +0000",
-          "published_utc": "2026-10-20T07:41:50+00:00",
-          "summary": "<p>Midnight Mimosa, a widespread Android malware campaign, is turning inexpensive smartphones into advertising fraud engines and potential residential proxy nodes by embedding malicious apps in device firmware before purchase. Bitdefender observed thousands of infected devices across more than 150 countries over approximately two years, exposing a persistent compromise that ordinary application removal cannot resolve. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-malware-campaign-2/\">Hackers Turn Low-Cost Android Phones Into Hidden Proxy Botnets Through Preinstalled Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=203906"
+          "title": "Hackers Exploit Compromised UpdraftCentral Keys to Install Malicious Plugins on WordPress Sites",
+          "url": "https://gbhackers.com/malicious-plugins-on-wordpress-sites/",
+          "published": "Wed, 21 Oct 2026 05:10:32 +0000",
+          "published_utc": "2026-10-21T05:10:32+00:00",
+          "summary": "<p>Attackers exploited compromised UpdraftCentral connection keys to send trusted remote-management commands to WordPress sites, ultimately installing malicious plugins that could provide unauthorized access to these websites. This incident followed unauthorized access to TeamUpdraft’s website on October 17-18, 2026. The company suspects attackers accessed its customer database, which contained UpdraftCentral connection keys and customer account information. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-plugins-on-wordpress-sites/\">Hackers Exploit Compromised UpdraftCentral Keys to Install Malicious Plugins on WordPress Sites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=203994"
         }
       ],
       "error": ""

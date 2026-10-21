@@ -10,111 +10,23 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 13,
+      "article_count": 2,
       "articles": [
         {
-          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-          "url": "http://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-          "published": "Tue, 20 Oct 2026 17:09:53 +0000",
-          "published_utc": "2026-10-20T17:09:53+00:00",
-          "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.\n\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.\n\nA researcher reported the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4253089942592776280"
+          "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+          "url": "http://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+          "published": "Wed, 21 Oct 2026 07:26:49 +0000",
+          "published_utc": "2026-10-21T07:26:49+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-206892827678052068"
         },
         {
-          "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-          "url": "http://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-          "published": "Tue, 20 Oct 2026 15:38:52 +0000",
-          "published_utc": "2026-10-20T15:38:52+00:00",
-          "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-445200343961929342"
-        },
-        {
-          "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-          "url": "http://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-          "published": "Tue, 20 Oct 2026 15:32:27 +0000",
-          "published_utc": "2026-10-20T15:32:27+00:00",
-          "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6450582823396389309"
-        },
-        {
-          "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-          "url": "http://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-          "published": "Tue, 20 Oct 2026 14:07:17 +0000",
-          "published_utc": "2026-10-20T14:07:17+00:00",
-          "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5771516333363798595"
-        },
-        {
-          "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-          "url": "http://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-          "published": "Tue, 20 Oct 2026 12:59:44 +0000",
-          "published_utc": "2026-10-20T12:59:44+00:00",
-          "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-906293967082220396"
-        },
-        {
-          "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-          "url": "http://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-          "published": "Tue, 20 Oct 2026 11:41:06 +0000",
-          "published_utc": "2026-10-20T11:41:06+00:00",
-          "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one.\n\nThe text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6200064200336456838"
-        },
-        {
-          "title": "What Security Teams Can Do To Tame Wild Code",
-          "url": "http://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-          "published": "Tue, 20 Oct 2026 11:33:04 +0000",
-          "published_utc": "2026-10-20T11:33:04+00:00",
-          "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8500054184103696460"
-        },
-        {
-          "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-          "url": "http://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-          "published": "Tue, 20 Oct 2026 11:32:59 +0000",
-          "published_utc": "2026-10-20T11:32:59+00:00",
-          "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4036303214917236642"
-        },
-        {
-          "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-          "url": "http://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-          "published": "Tue, 20 Oct 2026 11:06:25 +0000",
-          "published_utc": "2026-10-20T11:06:25+00:00",
-          "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5230201355339640298"
-        },
-        {
-          "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-          "url": "http://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-          "published": "Tue, 20 Oct 2026 10:56:08 +0000",
-          "published_utc": "2026-10-20T10:56:08+00:00",
-          "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup.\n\nThe company said it has completed the following actions since it began",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1312171458477159743"
-        },
-        {
-          "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-          "url": "http://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-          "published": "Tue, 20 Oct 2026 08:21:29 +0000",
-          "published_utc": "2026-10-20T08:21:29+00:00",
-          "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says.\n\nThey were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3766580260943193171"
-        },
-        {
-          "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-          "url": "http://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "published": "Tue, 20 Oct 2026 07:11:45 +0000",
-          "published_utc": "2026-10-20T07:11:45+00:00",
-          "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5873492576552175093"
-        },
-        {
-          "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-          "url": "http://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-          "published": "Tue, 20 Oct 2026 05:53:16 +0000",
-          "published_utc": "2026-10-20T05:53:16+00:00",
-          "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.\n\nIn a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3766737144108518230"
+          "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+          "url": "http://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+          "published": "Wed, 21 Oct 2026 06:05:15 +0000",
+          "published_utc": "2026-10-21T06:05:15+00:00",
+          "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization.\n\nAccording to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans.\n\nKnown to be active since at least 2020, the group has a track record of striking industrial",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7360159123391086403"
         }
       ],
       "error": ""
@@ -127,113 +39,8 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 13,
-      "articles": [
-        {
-          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-          "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-          "published": "Tue, 20 Oct 2026 22:39:53 +0530",
-          "published_utc": "2026-10-20T17:09:53+00:00",
-          "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.\n\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.\n\nA researcher reported the",
-          "id": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
-        },
-        {
-          "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-          "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-          "published": "Tue, 20 Oct 2026 21:08:52 +0530",
-          "published_utc": "2026-10-20T15:38:52+00:00",
-          "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-          "id": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html"
-        },
-        {
-          "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-          "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-          "published": "Tue, 20 Oct 2026 21:02:27 +0530",
-          "published_utc": "2026-10-20T15:32:27+00:00",
-          "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
-          "id": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
-        },
-        {
-          "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-          "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-          "published": "Tue, 20 Oct 2026 19:37:17 +0530",
-          "published_utc": "2026-10-20T14:07:17+00:00",
-          "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
-          "id": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
-        },
-        {
-          "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-          "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-          "published": "Tue, 20 Oct 2026 18:29:44 +0530",
-          "published_utc": "2026-10-20T12:59:44+00:00",
-          "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
-          "id": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
-        },
-        {
-          "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-          "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-          "published": "Tue, 20 Oct 2026 17:11:06 +0530",
-          "published_utc": "2026-10-20T11:41:06+00:00",
-          "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one.\n\nThe text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the",
-          "id": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html"
-        },
-        {
-          "title": "What Security Teams Can Do To Tame Wild Code",
-          "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-          "published": "Tue, 20 Oct 2026 17:03:04 +0530",
-          "published_utc": "2026-10-20T11:33:04+00:00",
-          "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",
-          "id": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html"
-        },
-        {
-          "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-          "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-          "published": "Tue, 20 Oct 2026 17:02:59 +0530",
-          "published_utc": "2026-10-20T11:32:59+00:00",
-          "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",
-          "id": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html"
-        },
-        {
-          "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-          "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-          "published": "Tue, 20 Oct 2026 16:36:25 +0530",
-          "published_utc": "2026-10-20T11:06:25+00:00",
-          "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
-          "id": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
-        },
-        {
-          "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-          "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-          "published": "Tue, 20 Oct 2026 16:26:08 +0530",
-          "published_utc": "2026-10-20T10:56:08+00:00",
-          "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup.\n\nThe company said it has completed the following actions since it began",
-          "id": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
-        },
-        {
-          "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-          "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-          "published": "Tue, 20 Oct 2026 13:51:29 +0530",
-          "published_utc": "2026-10-20T08:21:29+00:00",
-          "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says.\n\nThey were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
-          "id": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
-        },
-        {
-          "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-          "published": "Tue, 20 Oct 2026 12:41:45 +0530",
-          "published_utc": "2026-10-20T07:11:45+00:00",
-          "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
-          "id": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
-        },
-        {
-          "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-          "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-          "published": "Tue, 20 Oct 2026 11:23:16 +0530",
-          "published_utc": "2026-10-20T05:53:16+00:00",
-          "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.\n\nIn a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
-          "id": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

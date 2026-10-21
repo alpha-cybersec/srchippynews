@@ -2,8 +2,120 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 163,
+  "article_count": 167,
   "articles": [
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "url": "http://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "published": "Wed, 21 Oct 2026 18:01:57 +0000",
+      "published_utc": "2026-10-21T18:01:57+00:00",
+      "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6520070654561817359",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "content_hash": "8f8ba1024b376cb11f47abe9b2de13f98e6c229286e3ce97d51dba18e18701e8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8f8ba1024b376cb11f47abe9b2de13f98e6c229286e3ce97d51dba18e18701e8",
+        "FEEDBURNER": "8f8ba1024b376cb11f47abe9b2de13f98e6c229286e3ce97d51dba18e18701e8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
+    {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "url": "http://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "published": "Wed, 21 Oct 2026 16:33:47 +0000",
+      "published_utc": "2026-10-21T16:33:47+00:00",
+      "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.\n\n\"A GPT-6.1 Sol agent repairing an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5372624523764563836",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "content_hash": "1dd3abb42c5f3d99bdeaed3f52e73fab8051dc9d4976e4b10dfe9959e06e34ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1dd3abb42c5f3d99bdeaed3f52e73fab8051dc9d4976e4b10dfe9959e06e34ec",
+        "FEEDBURNER": "1dd3abb42c5f3d99bdeaed3f52e73fab8051dc9d4976e4b10dfe9959e06e34ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
+    {
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "url": "http://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
+      "published_utc": "2026-10-21T14:00:00+00:00",
+      "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server.\n\nThe flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4505797346692624659",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "content_hash": "18a7a3a63cf50645fea36ddf7974706c5e9f7be024b87c6ccc55f1ca543fedf2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "18a7a3a63cf50645fea36ddf7974706c5e9f7be024b87c6ccc55f1ca543fedf2",
+        "FEEDBURNER": "18a7a3a63cf50645fea36ddf7974706c5e9f7be024b87c6ccc55f1ca543fedf2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
+    {
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "url": "http://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "published": "Wed, 21 Oct 2026 13:15:09 +0000",
+      "published_utc": "2026-10-21T13:15:09+00:00",
+      "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls.\n\nAs part of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1421446806571546911",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "content_hash": "06262b781d1891f7f1a1756cdacd826b9ca75991bdd48dec4b03426ab6952b0e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06262b781d1891f7f1a1756cdacd826b9ca75991bdd48dec4b03426ab6952b0e",
+        "FEEDBURNER": "06262b781d1891f7f1a1756cdacd826b9ca75991bdd48dec4b03426ab6952b0e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
     {
       "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
       "url": "http://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
@@ -149,28 +261,29 @@
       "url": "http://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
       "published": "Wed, 21 Oct 2026 09:05:17 +0000",
       "published_utc": "2026-10-21T09:05:17+00:00",
-      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.\n\n⚡",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5074610428079947730",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "content_hash": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e",
+      "content_hash": "10dc622fd88451b94584ac400b4f1cfee49a9ae32b3de9d74423ec568615f513",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e",
-        "FEEDBURNER": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e"
+        "ORIGINAL": "10dc622fd88451b94584ac400b4f1cfee49a9ae32b3de9d74423ec568615f513",
+        "FEEDBURNER": "10dc622fd88451b94584ac400b4f1cfee49a9ae32b3de9d74423ec568615f513"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e",
+      "version": 2,
       "first_seen_utc": "2026-10-21T13:10:06.209878+00:00",
       "first_seen_local": "2026-10-21T08:10:06.209876-05:00",
-      "last_updated_utc": "2026-10-21T13:10:06.209878+00:00",
-      "last_updated_local": "2026-10-21T08:10:06.209876-05:00"
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
     },
     {
       "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",

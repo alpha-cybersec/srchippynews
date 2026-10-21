@@ -1,12 +1,460 @@
 {
   "date": "2026-10-21",
-  "article_count": 49,
+  "article_count": 65,
   "sources": {
-    "gbhackers": 18,
-    "cybersecuritynews": 20,
-    "thehackernews": 11
+    "thehackernews": 15,
+    "gbhackers": 20,
+    "cybersecuritynews": 30
   },
   "articles": [
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "url": "http://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "published": "Wed, 21 Oct 2026 18:01:57 +0000",
+      "published_utc": "2026-10-21T18:01:57+00:00",
+      "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6520070654561817359",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "content_hash": "8f8ba1024b376cb11f47abe9b2de13f98e6c229286e3ce97d51dba18e18701e8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8f8ba1024b376cb11f47abe9b2de13f98e6c229286e3ce97d51dba18e18701e8",
+        "FEEDBURNER": "8f8ba1024b376cb11f47abe9b2de13f98e6c229286e3ce97d51dba18e18701e8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
+    {
+      "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
+      "url": "https://gbhackers.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
+      "published": "Wed, 21 Oct 2026 17:06:53 +0000",
+      "published_utc": "2026-10-21T17:06:53+00:00",
+      "summary": "<p>New York, NY, USA, October 21st, 2026, CyberNewswire According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their credentials still work and their triggers still fire. 44% have not run in 180 days. 24% of dormant agents can be started by [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/\">Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204140",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections",
+      "content_hash": "72456cf5db20a609c1f6937580233da39ddf0913eba90b15fc8d62c3b47de60d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "72456cf5db20a609c1f6937580233da39ddf0913eba90b15fc8d62c3b47de60d",
+        "FEEDBURNER": "72456cf5db20a609c1f6937580233da39ddf0913eba90b15fc8d62c3b47de60d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:55.502379+00:00",
+      "first_seen_local": "2026-10-21T13:13:55.502377-05:00",
+      "last_updated_utc": "2026-10-21T18:13:55.502379+00:00",
+      "last_updated_local": "2026-10-21T13:13:55.502377-05:00"
+    },
+    {
+      "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
+      "url": "https://cybersecuritynews.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
+      "published": "Wed, 21 Oct 2026 17:05:59 +0000",
+      "published_utc": "2026-10-21T17:05:59+00:00",
+      "summary": "<p>New York, NY, USA, October 21st, 2026, CyberNewswire According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their credentials still work and their triggers still fire. 44% have not run in 180 days. 24% of dormant agents can be started by [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/\">Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168214",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections",
+      "content_hash": "d448d2f4a51a0f6d9eeb44557e341d5bace873599c78a170c909feff9e00a96e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d448d2f4a51a0f6d9eeb44557e341d5bace873599c78a170c909feff9e00a96e",
+        "FEEDBURNER": "d448d2f4a51a0f6d9eeb44557e341d5bace873599c78a170c909feff9e00a96e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "The AI Adoption Blind Spot: How Fake AI Tools Put Enterprises at Risk",
+      "url": "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk/",
+      "published": "Wed, 21 Oct 2026 16:53:38 +0000",
+      "published_utc": "2026-10-21T16:53:38+00:00",
+      "summary": "<p>AI adoption is accelerating across enterprises, with employees increasingly relying on platforms like ChatGPT, Claude, and Microsoft Copilot for everyday work. Cybercriminals are exploiting this growing trust, distributing malicious applications disguised as legitimate AI tools to steal credentials, deliver malware, and gain access to corporate environments.  Recent research by ANY.RUN reveals how attackers are impersonating [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk/\">The AI Adoption Blind Spot: How Fake AI Tools Put Enterprises at Risk </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168177",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk",
+      "content_hash": "1bbad02e652fa6cfdf81bf9ededaebcc83f624461ac01bd3206faeafc2d99fdb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1bbad02e652fa6cfdf81bf9ededaebcc83f624461ac01bd3206faeafc2d99fdb",
+        "FEEDBURNER": "1bbad02e652fa6cfdf81bf9ededaebcc83f624461ac01bd3206faeafc2d99fdb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "Node.js Releases Security Updates to Fix High-Severity TLS, DNS and Brotli Vulnerabilities",
+      "url": "https://cybersecuritynews.com/node-js-releases-security-updates/",
+      "published": "Wed, 21 Oct 2026 16:33:58 +0000",
+      "published_utc": "2026-10-21T16:33:58+00:00",
+      "summary": "<p>Node.js has released security updates for its 26.x, 24.x, and 22.x branches to address ten vulnerabilities, including four high-severity flaws affecting DNS lookups, TLS certificate checks, and Brotli decompression. The supplied release details identify 26.12.1, 24.22.1, and 22.23.4 as the patched versions. The most serious potential outcome is remote code execution through the Brotli decoder. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/node-js-releases-security-updates/\">Node.js Releases Security Updates to Fix High-Severity TLS, DNS and Brotli Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168144",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/node-js-releases-security-updates",
+      "content_hash": "4ab122932e056fd990fe36652f13d1bad5561edcfe5d71bf27966aba2c9685e4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4ab122932e056fd990fe36652f13d1bad5561edcfe5d71bf27966aba2c9685e4",
+        "FEEDBURNER": "4ab122932e056fd990fe36652f13d1bad5561edcfe5d71bf27966aba2c9685e4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "url": "http://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "published": "Wed, 21 Oct 2026 16:33:47 +0000",
+      "published_utc": "2026-10-21T16:33:47+00:00",
+      "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.\n\n\"A GPT-6.1 Sol agent repairing an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5372624523764563836",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "content_hash": "1dd3abb42c5f3d99bdeaed3f52e73fab8051dc9d4976e4b10dfe9959e06e34ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1dd3abb42c5f3d99bdeaed3f52e73fab8051dc9d4976e4b10dfe9959e06e34ec",
+        "FEEDBURNER": "1dd3abb42c5f3d99bdeaed3f52e73fab8051dc9d4976e4b10dfe9959e06e34ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
+    {
+      "title": "Hackers Use AI-Powered Browsers to Hide Thousands of Fake Accounts and Bypass Security Detection",
+      "url": "https://cybersecuritynews.com/hackers-use-ai-powered-browsers/",
+      "published": "Wed, 21 Oct 2026 15:54:49 +0000",
+      "published_utc": "2026-10-21T15:54:49+00:00",
+      "summary": "<p>Cybercriminals are using AI-enabled “antidetect” browsers to manage large networks of fake online accounts while making each profile appear to come from a different person, device, or location. Check Point Research reported that these tools can help a single operator or small group run thousands of accounts across social media and other platforms, making it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-powered-browsers/\">Hackers Use AI-Powered Browsers to Hide Thousands of Fake Accounts and Bypass Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168208",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-ai-powered-browsers",
+      "content_hash": "afe5e873dd2ccec65020ca448d348d4e9447103dc05188e49fe5880647de4e2f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "afe5e873dd2ccec65020ca448d348d4e9447103dc05188e49fe5880647de4e2f",
+        "FEEDBURNER": "afe5e873dd2ccec65020ca448d348d4e9447103dc05188e49fe5880647de4e2f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "Hackers Use Gentlemen Ransomware to Disable Windows Defender and Destroy Backups",
+      "url": "https://cybersecuritynews.com/hackers-use-gentlemen-ransomware/",
+      "published": "Wed, 21 Oct 2026 15:30:43 +0000",
+      "published_utc": "2026-10-21T15:30:43+00:00",
+      "summary": "<p>A ransomware operation known as The Gentlemen is using a mix of security tampering, service disruption and file encryption to make recovery harder for affected organizations. Its Windows malware can turn off Microsoft Defender’s real-time protection, add broad exclusions that reduce scanning, stop backup-related services and delete Volume Shadow Copies. These steps weaken defenses and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-gentlemen-ransomware/\">Hackers Use Gentlemen Ransomware to Disable Windows Defender and Destroy Backups</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168201",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-gentlemen-ransomware",
+      "content_hash": "e7ef3c50710353c32872fec845bb4c242af4f540d6a1ab024ae94804a322420f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e7ef3c50710353c32872fec845bb4c242af4f540d6a1ab024ae94804a322420f",
+        "FEEDBURNER": "e7ef3c50710353c32872fec845bb4c242af4f540d6a1ab024ae94804a322420f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "Google Upgrades Chrome With Gemini AI to Detect Fake Antivirus and Browser Update Scams",
+      "url": "https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams/",
+      "published": "Wed, 21 Oct 2026 15:14:13 +0000",
+      "published_utc": "2026-10-21T15:14:13+00:00",
+      "summary": "<p>Google has upgraded Chrome’s Enhanced Protection mode with a more powerful Gemini AI model to detect fake antivirus alerts, browser update scams, and other deceptive websites. Announced on October 20, 2026, the changes also introduce suspicious site warnings and protection against ClickFix attacks that trick users into running malicious commands. The update expands Google’s earlier [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams/\">Google Upgrades Chrome With Gemini AI to Detect Fake Antivirus and Browser Update Scams</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168154",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chrome-with-gemini-ai-to-detect-update-scams",
+      "content_hash": "069462ca1619c5a522e5120d078974e9249b8df234fdaafe2ae4fb5610b8cc22",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "069462ca1619c5a522e5120d078974e9249b8df234fdaafe2ae4fb5610b8cc22",
+        "FEEDBURNER": "069462ca1619c5a522e5120d078974e9249b8df234fdaafe2ae4fb5610b8cc22"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "LiteLLM Compromised – Hackers Injected an Infostealer and RAT in the Latest 1.107.0 PyPI Release",
+      "url": "https://cybersecuritynews.com/litellm-compromised/",
+      "published": "Wed, 21 Oct 2026 15:11:27 +0000",
+      "published_utc": "2026-10-21T15:11:27+00:00",
+      "summary": "<p>LiteLLM version 1.107.0 was compromised on PyPI on October 21, 2026, spreading a credential stealer and a remote access trojan through all seven distributed wheel files. The malicious release also reached Docker images, putting developer systems, build runners, and AI services at risk. Aikido warned that anyone who installed the affected release should assume credentials [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/litellm-compromised/\">LiteLLM Compromised &#8211; Hackers Injected an Infostealer and RAT in the Latest 1.107.0 PyPI Release</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168202",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/litellm-compromised",
+      "content_hash": "10f540987ce2904067b978fa390611b979d1e9bffbf06eff241b71064a0a9898",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "10f540987ce2904067b978fa390611b979d1e9bffbf06eff241b71064a0a9898",
+        "FEEDBURNER": "10f540987ce2904067b978fa390611b979d1e9bffbf06eff241b71064a0a9898"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "China-Linked Hackers Turn Trusted Windows Applications Into Backdoors to Steal Credentials",
+      "url": "https://cybersecuritynews.com/china-linked-hackers/",
+      "published": "Wed, 21 Oct 2026 15:04:18 +0000",
+      "published_utc": "2026-10-21T15:04:18+00:00",
+      "summary": "<p>China-linked hackers are using trusted Windows applications to load hidden backdoors, collect system details, and steal Active Directory credential data. The group, tracked as BRONZE SANDCASTLE, places malicious files beside legitimate software, allowing familiar programs to run attacker-controlled code without changing the original application. The campaign shows how genuine software can become part of an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/china-linked-hackers/\">China-Linked Hackers Turn Trusted Windows Applications Into Backdoors to Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168185",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/china-linked-hackers",
+      "content_hash": "61c3b6331c4537a22eb219151d45106d114c5643d8e15ade0788965b75d1d867",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "61c3b6331c4537a22eb219151d45106d114c5643d8e15ade0788965b75d1d867",
+        "FEEDBURNER": "61c3b6331c4537a22eb219151d45106d114c5643d8e15ade0788965b75d1d867"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "PHP Releases Emergency Patches for PHP2Shell Flaws Threatening Millions of Web Servers",
+      "url": "https://cybersecuritynews.com/php-releases-emergency-patches/",
+      "published": "Wed, 21 Oct 2026 14:38:17 +0000",
+      "published_utc": "2026-10-21T14:38:17+00:00",
+      "summary": "<p>PHP has released emergency security updates for two critical vulnerabilities that could let unauthenticated attackers run code on vulnerable web servers. Tracked as CVE-2026-109618 and CVE-2026-109619, and collectively called PHP2Shell, the flaws affect PHP’s handling of memory during web requests. The PHP project rates both vulnerabilities 9.2 out of 10 under CVSS 4.0. Administrators should [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-releases-emergency-patches/\">PHP Releases Emergency Patches for PHP2Shell Flaws Threatening Millions of Web Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168178",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/php-releases-emergency-patches",
+      "content_hash": "c1d228704a685bf0d1d83a56896b7538d03b646872000a16157abcb7927a74f3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c1d228704a685bf0d1d83a56896b7538d03b646872000a16157abcb7927a74f3",
+        "FEEDBURNER": "c1d228704a685bf0d1d83a56896b7538d03b646872000a16157abcb7927a74f3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "APT28 Hackers Open Secret SSH Tunnel Into NATO Country’s Naval Shipbuilder Network",
+      "url": "https://cybersecuritynews.com/apt28-hackers/",
+      "published": "Wed, 21 Oct 2026 14:37:17 +0000",
+      "published_utc": "2026-10-21T14:37:17+00:00",
+      "summary": "<p>Russian cyberespionage group APT28 used the Hookedge backdoor to reach a naval shipbuilder’s network in a NATO member state, steal login material and set up a hidden SSH tunnel. The intrusion lasted at least two months, according to a report by Symantec’s Threat Hunter Team. The report does not name the shipbuilder or the country. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apt28-hackers/\">APT28 Hackers Open Secret SSH Tunnel Into NATO Country&#8217;s Naval Shipbuilder Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168174",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apt28-hackers",
+      "content_hash": "c0367414b6441b1d7966065fac448028a2c6283c0a28d56b30557b15727a1612",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c0367414b6441b1d7966065fac448028a2c6283c0a28d56b30557b15727a1612",
+        "FEEDBURNER": "c0367414b6441b1d7966065fac448028a2c6283c0a28d56b30557b15727a1612"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:56.039964+00:00",
+      "first_seen_local": "2026-10-21T13:13:56.039961-05:00",
+      "last_updated_utc": "2026-10-21T18:13:56.039964+00:00",
+      "last_updated_local": "2026-10-21T13:13:56.039961-05:00"
+    },
+    {
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "url": "http://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
+      "published_utc": "2026-10-21T14:00:00+00:00",
+      "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server.\n\nThe flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4505797346692624659",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "content_hash": "18a7a3a63cf50645fea36ddf7974706c5e9f7be024b87c6ccc55f1ca543fedf2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "18a7a3a63cf50645fea36ddf7974706c5e9f7be024b87c6ccc55f1ca543fedf2",
+        "FEEDBURNER": "18a7a3a63cf50645fea36ddf7974706c5e9f7be024b87c6ccc55f1ca543fedf2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
+    {
+      "title": "Google Chrome Integrates Gemini AI to Detect Fake Antivirus and Browser Update Scams",
+      "url": "https://gbhackers.com/google-chrome-integrates-gemini-ai-to-detect-fake-antivirus/",
+      "published": "Wed, 21 Oct 2026 13:20:09 +0000",
+      "published_utc": "2026-10-21T13:20:09+00:00",
+      "summary": "<p>Google has enhanced Chrome&#8217;s AI-powered scam defenses with a new server-side Gemini model that detects fake antivirus alerts, fraudulent browser updates, and other deceptive websites. Announced on October 20, 2026, these changes expand protection to all users who enable Safe Browsing&#8217;s Enhanced Protection mode. This update builds on the earlier on-device Gemini integration introduced in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-integrates-gemini-ai-to-detect-fake-antivirus/\">Google Chrome Integrates Gemini AI to Detect Fake Antivirus and Browser Update Scams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204118",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/google-chrome-integrates-gemini-ai-to-detect-fake-antivirus",
+      "content_hash": "0033e5d1f20a68cb319600671870820051d188281df2753c2068f3e053e053bf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0033e5d1f20a68cb319600671870820051d188281df2753c2068f3e053e053bf",
+        "FEEDBURNER": "0033e5d1f20a68cb319600671870820051d188281df2753c2068f3e053e053bf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:13:55.502379+00:00",
+      "first_seen_local": "2026-10-21T13:13:55.502377-05:00",
+      "last_updated_utc": "2026-10-21T18:13:55.502379+00:00",
+      "last_updated_local": "2026-10-21T13:13:55.502377-05:00"
+    },
+    {
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "url": "http://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "published": "Wed, 21 Oct 2026 13:15:09 +0000",
+      "published_utc": "2026-10-21T13:15:09+00:00",
+      "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls.\n\nAs part of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1421446806571546911",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "content_hash": "06262b781d1891f7f1a1756cdacd826b9ca75991bdd48dec4b03426ab6952b0e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06262b781d1891f7f1a1756cdacd826b9ca75991bdd48dec4b03426ab6952b0e",
+        "FEEDBURNER": "06262b781d1891f7f1a1756cdacd826b9ca75991bdd48dec4b03426ab6952b0e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-21T18:14:01.869124+00:00",
+      "first_seen_local": "2026-10-21T13:14:01.869121-05:00",
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
+    },
     {
       "title": "Gemini-Compatible AI Browsers Could Help Scammers Run Thousands of Fake Accounts, Researchers Warn",
       "url": "https://gbhackers.com/gemini-compatible-ai-browsers/",
@@ -686,28 +1134,29 @@
       "url": "http://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
       "published": "Wed, 21 Oct 2026 09:05:17 +0000",
       "published_utc": "2026-10-21T09:05:17+00:00",
-      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.\n\n⚡",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5074610428079947730",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "content_hash": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e",
+      "content_hash": "10dc622fd88451b94584ac400b4f1cfee49a9ae32b3de9d74423ec568615f513",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e",
-        "FEEDBURNER": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e"
+        "ORIGINAL": "10dc622fd88451b94584ac400b4f1cfee49a9ae32b3de9d74423ec568615f513",
+        "FEEDBURNER": "10dc622fd88451b94584ac400b4f1cfee49a9ae32b3de9d74423ec568615f513"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "bf64471edb6bba2dcd9ba108a6f131fe260d32e3c001f37bb4b96d71910d174e",
+      "version": 2,
       "first_seen_utc": "2026-10-21T13:10:06.209878+00:00",
       "first_seen_local": "2026-10-21T08:10:06.209876-05:00",
-      "last_updated_utc": "2026-10-21T13:10:06.209878+00:00",
-      "last_updated_local": "2026-10-21T08:10:06.209876-05:00"
+      "last_updated_utc": "2026-10-21T18:14:01.869124+00:00",
+      "last_updated_local": "2026-10-21T13:14:01.869121-05:00"
     },
     {
       "title": "Apache Tomcat Security Flaws Allow Attackers to Bypass Authentication and Expose User Data",

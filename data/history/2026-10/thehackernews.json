@@ -2,8 +2,146 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 176,
+  "article_count": 181,
   "articles": [
+    {
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "url": "http://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "published": "Thu, 22 Oct 2026 19:05:17 +0000",
+      "published_utc": "2026-10-22T19:05:17+00:00",
+      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.\n\nFor",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-16929660301376878",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "content_hash": "cd3305c41ac5df847ad5b2bd9c1b14c2aaf62398728116a2d985c7478490a869",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cd3305c41ac5df847ad5b2bd9c1b14c2aaf62398728116a2d985c7478490a869"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T19:27:25.449269+00:00",
+      "first_seen_local": "2026-10-22T14:27:25.449267-05:00",
+      "last_updated_utc": "2026-10-22T19:27:25.449269+00:00",
+      "last_updated_local": "2026-10-22T14:27:25.449267-05:00"
+    },
+    {
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+      "url": "http://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "published": "Thu, 22 Oct 2026 18:12:43 +0000",
+      "published_utc": "2026-10-22T18:12:43+00:00",
+      "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;reported recovering the private keys&nbsp;of eight of its intermediate CA certificates.\n\neMudhra said it will replace affected customers' certificates with free ones from partners, though its",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9117595762417297247",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "content_hash": "f6ef3de59d6c7ef5042e4c5d3622a4332757c2b6bd92a34befe3b99968f1a53b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f6ef3de59d6c7ef5042e4c5d3622a4332757c2b6bd92a34befe3b99968f1a53b",
+        "FEEDBURNER": "f6ef3de59d6c7ef5042e4c5d3622a4332757c2b6bd92a34befe3b99968f1a53b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T19:27:25.449269+00:00",
+      "first_seen_local": "2026-10-22T14:27:25.449267-05:00",
+      "last_updated_utc": "2026-10-22T19:27:25.449269+00:00",
+      "last_updated_local": "2026-10-22T14:27:25.449267-05:00"
+    },
+    {
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "url": "http://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "published": "Thu, 22 Oct 2026 17:45:44 +0000",
+      "published_utc": "2026-10-22T17:45:44+00:00",
+      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet.\n\nBut those big headlines are only half the story. Stolen passwords, exposed",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8268593666042236619",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "content_hash": "c1c134c485902853be22e09233cd1e501d88ec4f08675abbca18473fdacb4099",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c1c134c485902853be22e09233cd1e501d88ec4f08675abbca18473fdacb4099",
+        "FEEDBURNER": "c1c134c485902853be22e09233cd1e501d88ec4f08675abbca18473fdacb4099"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T19:27:25.449269+00:00",
+      "first_seen_local": "2026-10-22T14:27:25.449267-05:00",
+      "last_updated_utc": "2026-10-22T19:27:25.449269+00:00",
+      "last_updated_local": "2026-10-22T14:27:25.449267-05:00"
+    },
+    {
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "url": "http://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "published": "Thu, 22 Oct 2026 17:01:53 +0000",
+      "published_utc": "2026-10-22T17:01:53+00:00",
+      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2856403811565115326",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "content_hash": "3859f6f44b716d44112353bb475fdc38728563e37b62d88183f4739c633df4a4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3859f6f44b716d44112353bb475fdc38728563e37b62d88183f4739c633df4a4",
+        "FEEDBURNER": "3859f6f44b716d44112353bb475fdc38728563e37b62d88183f4739c633df4a4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T19:27:25.449269+00:00",
+      "first_seen_local": "2026-10-22T14:27:25.449267-05:00",
+      "last_updated_utc": "2026-10-22T19:27:25.449269+00:00",
+      "last_updated_local": "2026-10-22T14:27:25.449267-05:00"
+    },
+    {
+      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+      "url": "http://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "published": "Thu, 22 Oct 2026 16:12:31 +0000",
+      "published_utc": "2026-10-22T16:12:31+00:00",
+      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018.\n\nAccording to multiple reports from the Associated Press, the New York Times, Reuters, and the Wall Street Journal, state District Court Judge Francis J. Mathew called",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3910744091612629389",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "content_hash": "ac646056023b4183c2bf6d9b369305af940dd7c3bee817fa801816485f1e07e3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ac646056023b4183c2bf6d9b369305af940dd7c3bee817fa801816485f1e07e3",
+        "FEEDBURNER": "ac646056023b4183c2bf6d9b369305af940dd7c3bee817fa801816485f1e07e3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T19:27:25.449269+00:00",
+      "first_seen_local": "2026-10-22T14:27:25.449267-05:00",
+      "last_updated_utc": "2026-10-22T19:27:25.449269+00:00",
+      "last_updated_local": "2026-10-22T14:27:25.449267-05:00"
+    },
     {
       "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
       "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
@@ -205,28 +343,29 @@
       "url": "http://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
       "published": "Thu, 22 Oct 2026 06:34:10 +0000",
       "published_utc": "2026-10-22T06:34:10+00:00",
-      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7028112380450365464",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "content_hash": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
+      "content_hash": "596da364b33f08d5763005c3f3dab04129d173670e700ff6dcf06e9a7c949b08",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
-        "FEEDBURNER": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721"
+        "ORIGINAL": "596da364b33f08d5763005c3f3dab04129d173670e700ff6dcf06e9a7c949b08",
+        "FEEDBURNER": "596da364b33f08d5763005c3f3dab04129d173670e700ff6dcf06e9a7c949b08"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
+      "version": 2,
       "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
       "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
-      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
-      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+      "last_updated_utc": "2026-10-22T19:27:25.449269+00:00",
+      "last_updated_local": "2026-10-22T14:27:25.449267-05:00"
     },
     {
       "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",

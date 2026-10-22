@@ -1,730 +1,600 @@
 {
-  "generated_at_utc": "2026-10-22T10:34:21.894937+00:00",
-  "generated_at_local": "2026-10-22T05:34:21.894944-05:00",
-  "article_count": 26,
-  "new_count": 26,
+  "generated_at_utc": "2026-10-22T15:36:17.177751+00:00",
+  "generated_at_local": "2026-10-22T10:36:17.177758-05:00",
+  "article_count": 21,
+  "new_count": 21,
   "updated_count": 0,
   "sources": {
-    "gbhackers": 10,
-    "cybersecuritynews": 12,
-    "thehackernews": 4
+    "cybersecuritynews": 9,
+    "thehackernews": 4,
+    "gbhackers": 8
   },
   "articles": [
     {
-      "title": "Hackers Use Fake App Updates to Replace Legitimate Banking Apps With Malicious Versions",
-      "url": "https://gbhackers.com/banking-app-hijacking/",
-      "published": "Thu, 22 Oct 2026 10:16:56 +0000",
-      "published_utc": "2026-10-22T10:16:56+00:00",
-      "summary": "<p>Hirudo, an Android banking remote-access trojan (RAT) that can steal credentials and remotely control an infected phone. Its most unusual feature is the ability to replace selected genuine banking apps with modified copies designed to interfere with security checks from inside the app itself. Hirudo uses a two-app setup. Victims first install a convincing shopping [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/banking-app-hijacking/\">Hackers Use Fake App Updates to Replace Legitimate Banking Apps With Malicious Versions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204229",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/banking-app-hijacking",
-      "content_hash": "e5cb66d141e3711270c7d82e2ad2cc9ccb7fda83c081e15c56d8f88e3188e05a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e5cb66d141e3711270c7d82e2ad2cc9ccb7fda83c081e15c56d8f88e3188e05a",
-        "FEEDBURNER": "e5cb66d141e3711270c7d82e2ad2cc9ccb7fda83c081e15c56d8f88e3188e05a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
-    },
-    {
-      "title": "Top 10 Best Secure File Sharing Platforms in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-secure-file-sharing/",
-      "published": "Thu, 22 Oct 2026 10:16:44 +0000",
-      "published_utc": "2026-10-22T10:16:44+00:00",
-      "summary": "<p>Users share files the easiest way available your only real choice is whether the easiest way is also the governed one. The 2026 secure-sharing shortlist is judged on that bargain: consumer-grade usability on top of enterprise controls (classification-aware policy, external-access governance, audit that survives a regulator), because any platform users route around is security theater [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-secure-file-sharing/\">Top 10 Best Secure File Sharing Platforms in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168236",
+      "title": "Major U.S. Banks Detect Unauthorized AI Agents Operating Inside Customer Accounts",
+      "url": "https://cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents/",
+      "published": "Thu, 22 Oct 2026 15:23:07 +0000",
+      "published_utc": "2026-10-22T15:23:07+00:00",
+      "summary": "<p>Major U.S. banks are detecting third-party AI agents inside customer accounts, raising concerns that automated tools could act beyond the instructions customers give them. Some agents have contacted call centers or appeared to attempt independent actions, according to an Axios report published October 22, citing people familiar with the matter. Morgan Stanley, Bank of America, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents/\">Major U.S. Banks Detect Unauthorized AI Agents Operating Inside Customer Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168401",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-secure-file-sharing",
-      "content_hash": "c9ca456d3d3062e0acdff8b44624e16cad544e9b92af6783ed90173710068a89",
+      "article_key": "cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents",
+      "content_hash": "ad5e84037e1fad89b55b318533f2ca4e29100010def6e4ec7ea6f9dca583c39b",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "c9ca456d3d3062e0acdff8b44624e16cad544e9b92af6783ed90173710068a89"
+        "ORIGINAL": "ad5e84037e1fad89b55b318533f2ca4e29100010def6e4ec7ea6f9dca583c39b"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
     },
     {
-      "title": "Atlassian Releases Massive Security Update Addressing 176 Flaw Entries in Jira and Confluence",
-      "url": "https://cybersecuritynews.com/atlassian-security-update/",
-      "published": "Thu, 22 Oct 2026 10:12:18 +0000",
-      "published_utc": "2026-10-22T10:12:18+00:00",
-      "summary": "<p>Atlassian has released its October 2026 security bulletin, covering 176 flaw entries across products including Jira, Confluence, Bamboo, Bitbucket, and Crowd. Published on October 20, the update lists 162 high-severity entries and 14 critical-severity third-party entries. Atlassian says it included fixes in product versions released last month and urges customers to install a suitable fixed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/atlassian-security-update/\">Atlassian Releases Massive Security Update Addressing 176 Flaw Entries in Jira and Confluence</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168271",
+      "title": "eMudhra Exits Global SSL/TLS Certificate Business Following the Vulnerability Disclosure",
+      "url": "https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/",
+      "published": "Thu, 22 Oct 2026 14:52:11 +0000",
+      "published_utc": "2026-10-22T14:52:11+00:00",
+      "summary": "<p>eMudhra Limited has announced it is&#160;exiting&#160;the global SSL/TLS certificate business after disclosing weak private keys in eight intermediate certificate authority certificates. The October 22, 2026, decision follows emergency browser protections and growing questions about the company’s certificate issuance controls. eMudhra said its other digital trust services remain unaffected. In its official announcement, the company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/\">eMudhra Exits Global SSL/TLS Certificate Business Following the Vulnerability Disclosure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168392",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/atlassian-security-update",
-      "content_hash": "928454b52d7e0d1006598ad47a8d121eece9f52d7a8a39da4965e8be04b167e9",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "928454b52d7e0d1006598ad47a8d121eece9f52d7a8a39da4965e8be04b167e9"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "12 DevSecOps Platforms: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/devsecops-platforms-buyers-guide/",
-      "published": "Thu, 22 Oct 2026 10:12:02 +0000",
-      "published_utc": "2026-10-22T10:12:02+00:00",
-      "summary": "<p>DevSecOps platforms sell one promise in several architectures: security that rides the development workflow instead of auditing it afterward. The 2026 field splits into code-platform natives (security where repos live), developer-security specialists, cloud-native stacks, delivery-pipeline governors, and observability converts and the consolidation question (“how many scanners can one platform retire?”) now drives most purchases. This [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/devsecops-platforms-buyers-guide/\">12 DevSecOps Platforms: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204208",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/devsecops-platforms-buyers-guide",
-      "content_hash": "62478c326a2effad6b7cf2d5294a86d0b53a97653381195d8f0a807e6cc5f5e4",
+      "article_key": "cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate",
+      "content_hash": "137e2c712564dfefd323e4d3e1c5c4a98594e3e1cff99acb445534fb050d7c84",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "62478c326a2effad6b7cf2d5294a86d0b53a97653381195d8f0a807e6cc5f5e4",
-        "FEEDBURNER": "62478c326a2effad6b7cf2d5294a86d0b53a97653381195d8f0a807e6cc5f5e4"
+        "ORIGINAL": "137e2c712564dfefd323e4d3e1c5c4a98594e3e1cff99acb445534fb050d7c84",
+        "FEEDBURNER": "137e2c712564dfefd323e4d3e1c5c4a98594e3e1cff99acb445534fb050d7c84"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
     },
     {
-      "title": "Top 10 Best Enterprise DRM & Information Rights Management Solutions in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-drm-irm-solutions/",
-      "published": "Thu, 22 Oct 2026 09:55:15 +0000",
-      "published_utc": "2026-10-22T09:55:15+00:00",
-      "summary": "<p>Perimeters don’t follow files. The deal model emailed to a counterparty, the design doc shared with a contractor, the board pack synced to a trustee’s tablet enterprise DRM (information rights management) keeps policy attached to the document itself: who can open, edit, print, screenshot, and until when, revocable after the file is long gone. We [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-drm-irm-solutions/\">Top 10 Best Enterprise DRM &#038; Information Rights Management Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=167887",
+      "title": "Claude Security Now Scans Repositories Continuously to Find Flaws and Track Fixes",
+      "url": "https://cybersecuritynews.com/claude-security-continuous-scans/",
+      "published": "Thu, 22 Oct 2026 14:40:43 +0000",
+      "published_utc": "2026-10-22T14:40:43+00:00",
+      "summary": "<p>Anthropic has updated Claude Security so it can keep checking connected code repositories as they change, rather than waiting for a person to start each scan. The service also tracks reported vulnerabilities after developers make changes, marks them fixed when a correction is detected, and reopens them if they return. The updated product is in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-security-continuous-scans/\">Claude Security Now Scans Repositories Continuously to Find Flaws and Track Fixes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168386",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-drm-irm-solutions",
-      "content_hash": "d307bd6b03871ee6fcf409d5b3cbaf7c282aea2610b7e7f268cd0da4222bd037",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d307bd6b03871ee6fcf409d5b3cbaf7c282aea2610b7e7f268cd0da4222bd037"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "Attackers Target Flowise AI Agents With Credential Theft, Prompt Injection and Workflow Hijacking",
-      "url": "https://gbhackers.com/flowise-ai-agents/",
-      "published": "Thu, 22 Oct 2026 09:26:05 +0000",
-      "published_utc": "2026-10-22T09:26:05+00:00",
-      "summary": "<p>An attacker used an exposed Flowise AI orchestration server to enumerate workflows, harvest credentials, and try to turn its language-model agent into an offensive analysis assistant. Sekoia says the findings were first shared in a private FLINT report on 7 September 2026. The honeypot emulated Flowise 2.2.8 and captured requests without running real system code [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/flowise-ai-agents/\">Attackers Target Flowise AI Agents With Credential Theft, Prompt Injection and Workflow Hijacking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204205",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/flowise-ai-agents",
-      "content_hash": "76ac3afbfebe898dd7af9cfeb5cedb90fab2414819927d74d4375f2600bd8b47",
+      "article_key": "cybersecuritynews.com/claude-security-continuous-scans",
+      "content_hash": "2972e41947f2662527bb59347deaa2c1a10caa9c51a31d027d9ff0ae5f666af6",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "76ac3afbfebe898dd7af9cfeb5cedb90fab2414819927d74d4375f2600bd8b47",
-        "FEEDBURNER": "76ac3afbfebe898dd7af9cfeb5cedb90fab2414819927d74d4375f2600bd8b47"
+        "ORIGINAL": "2972e41947f2662527bb59347deaa2c1a10caa9c51a31d027d9ff0ae5f666af6",
+        "FEEDBURNER": "2972e41947f2662527bb59347deaa2c1a10caa9c51a31d027d9ff0ae5f666af6"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
     },
     {
-      "title": "Fortinet Urges Customers to Patch Critical Flaws Affecting FortiOS, FortiManager, and FortiAnalyzer",
-      "url": "https://cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws/",
-      "published": "Thu, 22 Oct 2026 09:18:18 +0000",
-      "published_utc": "2026-10-22T09:18:18+00:00",
-      "summary": "<p>Fortinet has urged customers to prioritize security updates for FortiOS, FortiManager, and FortiAnalyzer scheduled for October 22, 2026. The coordinated release addresses critical and high-severity vulnerabilities, including flaws found through AI-assisted security testing. The company said customers should address internet-facing devices first. In an October 21 announcement, Fortinet Chief Information Security Officer Carl Windsor warned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws/\">Fortinet Urges Customers to Patch Critical Flaws Affecting FortiOS, FortiManager, and FortiAnalyzer</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168294",
+      "title": "A New Extortion Gang Is Naming Companies on the Dark Web and Counting Down to Data Leaks",
+      "url": "https://cybersecuritynews.com/a-new-extortion-gang/",
+      "published": "Thu, 22 Oct 2026 14:40:34 +0000",
+      "published_utc": "2026-10-22T14:40:34+00:00",
+      "summary": "<p>ScarlettGroup, a newly observed cyber extortion gang, is naming companies on a dark web leak site and using countdown timers to threaten the release of allegedly stolen data. The operation puts public pressure on organizations before their breach claims have been independently verified. The group began appearing in threat monitoring records around September 2026 and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/a-new-extortion-gang/\">A New Extortion Gang Is Naming Companies on the Dark Web and Counting Down to Data Leaks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168376",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/fortinet-urges-to-patch-critical-flaws",
-      "content_hash": "7dea9bd7a8ed0b0c362456f982c019fcb1b66acd1c831eeb9dd708ce7045c5cb",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7dea9bd7a8ed0b0c362456f982c019fcb1b66acd1c831eeb9dd708ce7045c5cb"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "Hackers Exploit Siemens Software Center Vulnerability to Execute Malicious Code",
-      "url": "https://gbhackers.com/hackers-exploit-siemens-software-center-vulnerability/",
-      "published": "Thu, 22 Oct 2026 09:05:56 +0000",
-      "published_utc": "2026-10-22T09:05:56+00:00",
-      "summary": "<p>Siemens has confirmed that the CVE-2026-110936 vulnerability, a DLL side-loading flaw in Siemens Software Center, is being actively exploited. Attackers are using this vulnerability to execute malicious code through a legitimate, digitally signed application. Siemens published advisory SSA-580366 on October 15 and has addressed the issue in version 4.0.9.8. According to the campaign report, attackers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-siemens-software-center-vulnerability/\">Hackers Exploit Siemens Software Center Vulnerability to Execute Malicious Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204216",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-exploit-siemens-software-center-vulnerability",
-      "content_hash": "377ddc3272c0276843f385c1275dbad63d517cb83fd1af710167e246ba40e9a9",
+      "article_key": "cybersecuritynews.com/a-new-extortion-gang",
+      "content_hash": "0c34ca4cb2e699580c8e7f6f86ceff876a75c72052e618ad633d370659f5d58e",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "377ddc3272c0276843f385c1275dbad63d517cb83fd1af710167e246ba40e9a9",
-        "FEEDBURNER": "377ddc3272c0276843f385c1275dbad63d517cb83fd1af710167e246ba40e9a9"
+        "ORIGINAL": "0c34ca4cb2e699580c8e7f6f86ceff876a75c72052e618ad633d370659f5d58e",
+        "FEEDBURNER": "0c34ca4cb2e699580c8e7f6f86ceff876a75c72052e618ad633d370659f5d58e"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
     },
     {
-      "title": "Samsung and Vizio Smart TVs Still Send Tracking-Like Traffic After Users Turn It Off",
-      "url": "https://cybersecuritynews.com/samsung-tv-tracking-after-users-turn-it-off/",
-      "published": "Thu, 22 Oct 2026 08:40:45 +0000",
-      "published_utc": "2026-10-22T08:40:45+00:00",
-      "summary": "<p>Samsung and Vizio smart TVs kept sending traffic consistent with automatic content recognition (ACR) even after researchers turned off the feature in the privacy settings. The findings raise questions about whether smart TV privacy controls stop viewing-related data flows, while also clarifying an important limit. Encrypted traffic prevented researchers from confirming exactly what these devices [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/samsung-tv-tracking-after-users-turn-it-off/\">Samsung and Vizio Smart TVs Still Send Tracking-Like Traffic After Users Turn It Off</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168245",
+      "title": "Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched",
+      "url": "https://cybersecuritynews.com/critical-php-vulnerabilities/",
+      "published": "Thu, 22 Oct 2026 14:14:07 +0000",
+      "published_utc": "2026-10-22T14:14:07+00:00",
+      "summary": "<p>A threat actor tried to exploit two critical PHP vulnerabilities four days before the flaws were publicly disclosed and patched, according to Amazon Threat Intelligence. The activity began on October 17, 2026, while the vulnerabilities were still under coordinated disclosure. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and known together as PHP2Shell, can allow remote [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-php-vulnerabilities/\">Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168361",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/samsung-tv-tracking-after-users-turn-it-off",
-      "content_hash": "baca76e06fc8545b3947a03284164d064859fb644b97fbcb27acf4faef3aac6f",
+      "article_key": "cybersecuritynews.com/critical-php-vulnerabilities",
+      "content_hash": "10c9ac5c47881a35f3421a759fe63502c521b484ca54e1502fe5819e47fea4f6",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "baca76e06fc8545b3947a03284164d064859fb644b97fbcb27acf4faef3aac6f",
-        "FEEDBURNER": "baca76e06fc8545b3947a03284164d064859fb644b97fbcb27acf4faef3aac6f"
+        "ORIGINAL": "10c9ac5c47881a35f3421a759fe63502c521b484ca54e1502fe5819e47fea4f6",
+        "FEEDBURNER": "10c9ac5c47881a35f3421a759fe63502c521b484ca54e1502fe5819e47fea4f6"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
     },
     {
-      "title": "Hackers Actively Exploiting Siemens Software Center Flaw in ClickFix Malware Attacks",
-      "url": "https://cybersecuritynews.com/siemens-software-center-flaw-exploited/",
-      "published": "Thu, 22 Oct 2026 08:29:16 +0000",
-      "published_utc": "2026-10-22T08:29:16+00:00",
-      "summary": "<p>Hackers are exploiting a DLL side-loading flaw in Siemens Software Center to run malware through a trusted, signed application. Tracked as CVE-2026-110936, the weakness affects versions before 4.0.9.8. Siemens has confirmed active exploitation and released a fix, and existing installations will receive the update the next time the application starts. Siemens published security advisory SSA-580366 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/siemens-software-center-flaw-exploited/\">Hackers Actively Exploiting Siemens Software Center Flaw in ClickFix Malware Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168247",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/siemens-software-center-flaw-exploited",
-      "content_hash": "96ce69933fb80075dc149aac4b2f6c2b382f49e943d4128348ce8673dd3a5933",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "96ce69933fb80075dc149aac4b2f6c2b382f49e943d4128348ce8673dd3a5933",
-        "FEEDBURNER": "96ce69933fb80075dc149aac4b2f6c2b382f49e943d4128348ce8673dd3a5933"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-      "url": "http://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-      "published": "Thu, 22 Oct 2026 08:28:48 +0000",
-      "published_utc": "2026-10-22T08:28:48+00:00",
-      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8121007642933607414",
+      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "published": "Thu, 22 Oct 2026 13:38:22 +0000",
+      "published_utc": "2026-10-22T13:38:22+00:00",
+      "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026.\n\n\"Authorities identified",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6726923194061438921",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-      "content_hash": "cc21f760d2ad1b340708cba74e04fe40d7ab3f096a21d01b7bbc149e67bb2c01",
+      "article_key": "thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "content_hash": "fffb1f01e8bfedf6d02d6a11daa1fa3a8014c31fc97f6755767eb5bd1529114b",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "cc21f760d2ad1b340708cba74e04fe40d7ab3f096a21d01b7bbc149e67bb2c01",
-        "FEEDBURNER": "cc21f760d2ad1b340708cba74e04fe40d7ab3f096a21d01b7bbc149e67bb2c01"
+        "ORIGINAL": "fffb1f01e8bfedf6d02d6a11daa1fa3a8014c31fc97f6755767eb5bd1529114b",
+        "FEEDBURNER": "fffb1f01e8bfedf6d02d6a11daa1fa3a8014c31fc97f6755767eb5bd1529114b"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
-      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
-      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
-      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+      "first_seen_utc": "2026-10-22T15:36:17.166346+00:00",
+      "first_seen_local": "2026-10-22T10:36:17.166343-05:00",
+      "last_updated_utc": "2026-10-22T15:36:17.166346+00:00",
+      "last_updated_local": "2026-10-22T10:36:17.166343-05:00"
     },
     {
-      "title": "Critical Signal Vulnerability Could Keep Your Mic and Camera Live Even After Hang Up",
-      "url": "https://cybersecuritynews.com/critical-signal-vulnerability/",
-      "published": "Thu, 22 Oct 2026 08:26:19 +0000",
-      "published_utc": "2026-10-22T08:26:19+00:00",
-      "summary": "<p>A critical vulnerability in Signal’s calling library could allow a malicious call participant to keep hearing audio after another user tries to hang up. The flaw, tracked as CVE-2026-113380, affects RingRTC versions before 2.72.0 and carries a CVSS severity score of 9.3. Video could also remain active, although the published description does not confirm that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-signal-vulnerability/\">Critical Signal Vulnerability Could Keep Your Mic and Camera Live Even After Hang Up</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168239",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/critical-signal-vulnerability",
-      "content_hash": "a4f97d864f0738b2eb6963e1c66b30ab5cd4cee85f53b75b3cd11178d36c484a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a4f97d864f0738b2eb6963e1c66b30ab5cd4cee85f53b75b3cd11178d36c484a",
-        "FEEDBURNER": "a4f97d864f0738b2eb6963e1c66b30ab5cd4cee85f53b75b3cd11178d36c484a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "Hackers Are Using Real Dell and Staples Emails to Make Their Scams Look Legitimate",
-      "url": "https://cybersecuritynews.com/hackers-are-using-real-dell/",
-      "published": "Thu, 22 Oct 2026 08:04:07 +0000",
-      "published_utc": "2026-10-22T08:04:07+00:00",
-      "summary": "<p>Hackers are abusing genuine Dell and Staples order emails to make fake purchase alerts look credible. Instead of sending a forged message, they place scam instructions inside order details that trusted retail systems deliver, pushing recipients toward phone numbers controlled by the attackers. The emails describe expensive purchases that recipients may not recognize. Their aim [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-are-using-real-dell/\">Hackers Are Using Real Dell and Staples Emails to Make Their Scams Look Legitimate</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168255",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-are-using-real-dell",
-      "content_hash": "158649c5a7a5cc7caa786fc68063371277c22b1378c0252f4653fa206f36a68e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "158649c5a7a5cc7caa786fc68063371277c22b1378c0252f4653fa206f36a68e",
-        "FEEDBURNER": "158649c5a7a5cc7caa786fc68063371277c22b1378c0252f4653fa206f36a68e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "North Korean Hackers Use Post-Quantum Encryption to Conceal Malware in New Cyberespionage Campaign",
-      "url": "https://gbhackers.com/post-quantum-encryption/",
-      "published": "Thu, 22 Oct 2026 07:56:56 +0000",
-      "published_utc": "2026-10-22T07:56:56+00:00",
-      "summary": "<p>North Korea-linked Lazarus Group used post-quantum cryptography in a cyberespionage campaign targeting South Korean organizations, concealing malware communications and payloads behind a multi-stage infection chain. Dubbed Operation FlashHole, the campaign combined spear-phishing, malicious websites, abuse of financial security software and modular malware that largely operated in memory. The campaign followed Operation SyncHole, a Lazarus operation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/post-quantum-encryption/\">North Korean Hackers Use Post-Quantum Encryption to Conceal Malware in New Cyberespionage Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204196",
+      "title": "Cybercriminals Used Claude and Grok to Launch Automated Attacks Against Banks",
+      "url": "https://gbhackers.com/claude-and-grok-exploited/",
+      "published": "Thu, 22 Oct 2026 13:37:13 +0000",
+      "published_utc": "2026-10-22T13:37:13+00:00",
+      "summary": "<p>Cybercriminals used a multi-agent system called CARLIY0S to coordinate attacks against more than 400 financial institutions and payment providers across Latin America. The system combined commercial AI models including Anthropic’s Claude, xAI’s Grok and Moonshot AI’s Kimi with automation and shared operational infrastructure. Straiker says its findings came from artifacts in the group’s working environment, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-and-grok-exploited/\">Cybercriminals Used Claude and Grok to Launch Automated Attacks Against Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204326",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/post-quantum-encryption",
-      "content_hash": "c1fc266fb7475a0d42fa039c077c95d39d93375bc5f403414b98901785ea5ba8",
+      "article_key": "gbhackers.com/claude-and-grok-exploited",
+      "content_hash": "86885f67e86ea3d14b9e2bbea2e7e9ce5fa8587d3c8b466295c373d591f0f664",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "c1fc266fb7475a0d42fa039c077c95d39d93375bc5f403414b98901785ea5ba8",
-        "FEEDBURNER": "c1fc266fb7475a0d42fa039c077c95d39d93375bc5f403414b98901785ea5ba8"
+        "ORIGINAL": "86885f67e86ea3d14b9e2bbea2e7e9ce5fa8587d3c8b466295c373d591f0f664",
+        "FEEDBURNER": "86885f67e86ea3d14b9e2bbea2e7e9ce5fa8587d3c8b466295c373d591f0f664"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
     },
     {
-      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-      "url": "http://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-      "published": "Thu, 22 Oct 2026 07:47:22 +0000",
-      "published_utc": "2026-10-22T07:47:22+00:00",
-      "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1891540365172319861",
+      "title": "Hackers Planted Malware on Japanese Cloud Servers, Forcing the Provider to Shut Down Its Service",
+      "url": "https://cybersecuritynews.com/hackers-planted-malware/",
+      "published": "Thu, 22 Oct 2026 13:05:45 +0000",
+      "published_utc": "2026-10-22T13:05:45+00:00",
+      "summary": "<p>Hackers planted malware in customer server environments at Japan’s Onamae.com Desktop Cloud, prompting the provider to begin shutting down servers across every service plan. The company listed 26,739 servers as potentially affected, raising concerns about stored data and login details. That figure describes the possible scope, not a confirmed count of infected systems. The provider [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-planted-malware/\">Hackers Planted Malware on Japanese Cloud Servers, Forcing the Provider to Shut Down Its Service</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168346",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-planted-malware",
+      "content_hash": "ab351328fcb5db4e1aef64e12f309105725bbe0ce80ad1fddcfd013bc7b8afac",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ab351328fcb5db4e1aef64e12f309105725bbe0ce80ad1fddcfd013bc7b8afac",
+        "FEEDBURNER": "ab351328fcb5db4e1aef64e12f309105725bbe0ce80ad1fddcfd013bc7b8afac"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
+    },
+    {
+      "title": "K0T Hackers Target FortiGate, FortiWeb and Palo Alto GlobalProtect in Credential Theft Campaign",
+      "url": "https://gbhackers.com/k0t-credential-theft/",
+      "published": "Thu, 22 Oct 2026 13:03:31 +0000",
+      "published_utc": "2026-10-22T13:03:31+00:00",
+      "summary": "<p>A widespread campaign targeting FortiGate, FortiWeb, and Palo Alto GlobalProtect appliances to steal credentials, establish persistent access, and exfiltrate corporate data. The investigation associates the activity with an operator known as k0t and identifies more than 70,000 exposed credentials across network-device records, LDAP dumps and other operational artifacts. Researchers identified potential connections to the FortiBleed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/k0t-credential-theft/\">K0T Hackers Target FortiGate, FortiWeb and Palo Alto GlobalProtect in Credential Theft Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204312",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/k0t-credential-theft",
+      "content_hash": "20404f67f3c5869c4b228111eaa9dfd1249924ef05da311a69d579e38e19d03a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "20404f67f3c5869c4b228111eaa9dfd1249924ef05da311a69d579e38e19d03a",
+        "FEEDBURNER": "20404f67f3c5869c4b228111eaa9dfd1249924ef05da311a69d579e38e19d03a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
+    },
+    {
+      "title": "North Korean Hackers Use Post-Quantum Encryption to Hide New Malware From Security Tools",
+      "url": "https://cybersecuritynews.com/north-korean-hackers/",
+      "published": "Thu, 22 Oct 2026 12:38:07 +0000",
+      "published_utc": "2026-10-22T12:38:07+00:00",
+      "summary": "<p>North Korean-linked Lazarus hackers are using post-quantum cryptography in a malware delivery chain designed to conceal later-stage payloads from security tools. The technique appeared in Operation FlashHole, a campaign targeting organizations in South Korea. Instead of relying on encryption alone to hide files on disk, the malware uses a modern key-establishment method to protect payloads [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-hackers/\">North Korean Hackers Use Post-Quantum Encryption to Hide New Malware From Security Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168329",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/north-korean-hackers",
+      "content_hash": "6365b8cd53f63811f37fda2fa8cc05931f1556215aa49e20413d98ab5b3656fa",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6365b8cd53f63811f37fda2fa8cc05931f1556215aa49e20413d98ab5b3656fa",
+        "FEEDBURNER": "6365b8cd53f63811f37fda2fa8cc05931f1556215aa49e20413d98ab5b3656fa"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
+    },
+    {
+      "title": "Critical Cisco Expressway Flaw Lets Attackers Execute Commands as Root",
+      "url": "https://gbhackers.com/critical-cisco-expressway-flaw-2/",
+      "published": "Thu, 22 Oct 2026 12:32:18 +0000",
+      "published_utc": "2026-10-22T12:32:18+00:00",
+      "summary": "<p>Cisco has released security updates to address a critical vulnerability in its Expressway Series. This flaw, tracked as CVE-2026-76466, could allow unauthenticated remote attackers to execute arbitrary operating system commands with root privileges. It has a CVSS v3.1 base score of 9.8 and affects vulnerable Expressway deployments configured in a cluster. The advisory was published [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-cisco-expressway-flaw-2/\">Critical Cisco Expressway Flaw Lets Attackers Execute Commands as Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204305",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-cisco-expressway-flaw-2",
+      "content_hash": "b76d2d10a80cc738e2216518b7517c93c3bdbc65c3dac7423c2ef9bada06b7f1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b76d2d10a80cc738e2216518b7517c93c3bdbc65c3dac7423c2ef9bada06b7f1",
+        "FEEDBURNER": "b76d2d10a80cc738e2216518b7517c93c3bdbc65c3dac7423c2ef9bada06b7f1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
+    },
+    {
+      "title": "New ScarlettGroup Extortion Gang Threatens to Leak Company Data Using Dark Web Countdown Timers",
+      "url": "https://gbhackers.com/scarlettgroup-extortion-campaign/",
+      "published": "Thu, 22 Oct 2026 12:29:20 +0000",
+      "published_utc": "2026-10-22T12:29:20+00:00",
+      "summary": "<p>An emerging cyber-extortion operation named ScarlettGroup is using a Tor-based leak site and public countdown timers to pressure organizations over allegedly compromised data. Threat-monitoring records described in Foresiet’s research place its emergence around September 2026, with visibility increasing during October as alleged victim listings and underground forum activity attracted attention. Unlike conventional ransomware campaigns, ScarlettGroup’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/scarlettgroup-extortion-campaign/\">New ScarlettGroup Extortion Gang Threatens to Leak Company Data Using Dark Web Countdown Timers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204301",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/scarlettgroup-extortion-campaign",
+      "content_hash": "84dcb53e01ff9cad50cf0d10d4894e9f57abe8f0930d9600c69ee02f0d57cc63",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "84dcb53e01ff9cad50cf0d10d4894e9f57abe8f0930d9600c69ee02f0d57cc63",
+        "FEEDBURNER": "84dcb53e01ff9cad50cf0d10d4894e9f57abe8f0930d9600c69ee02f0d57cc63"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
+    },
+    {
+      "title": "A Hacker Tried to Turn an AI Chatbot Into a Tool for Attacking Other Servers",
+      "url": "https://cybersecuritynews.com/ai-chatbot-into-a-tool/",
+      "published": "Thu, 22 Oct 2026 12:15:23 +0000",
+      "published_utc": "2026-10-22T12:15:23+00:00",
+      "summary": "<p>An exposed artificial intelligence platform can give an intruder more than a place to send messages. If it connects to stored credentials, company data, or network tools, the platform may also provide a route toward those resources. A recent honeypot investigation shows how an attacker tried to use an AI agent to study real infrastructure [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-chatbot-into-a-tool/\">A Hacker Tried to Turn an AI Chatbot Into a Tool for Attacking Other Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168321",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ai-chatbot-into-a-tool",
+      "content_hash": "4dd3fe88ee23b688495a35c878e6410168ecacba96f30b69b597e74164209c5c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4dd3fe88ee23b688495a35c878e6410168ecacba96f30b69b597e74164209c5c",
+        "FEEDBURNER": "4dd3fe88ee23b688495a35c878e6410168ecacba96f30b69b597e74164209c5c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
+    },
+    {
+      "title": "Scammers Exploit Dell and Staples Order Emails to Bypass Traditional Phishing Detection",
+      "url": "https://gbhackers.com/dell-and-staples-emails-exploited/",
+      "published": "Thu, 22 Oct 2026 12:10:15 +0000",
+      "published_utc": "2026-10-22T12:10:15+00:00",
+      "summary": "<p>Scammers are abusing legitimate Dell and Staples order notifications to deliver callback phishing lures, embedding fraudulent helpline numbers inside transactional emails that pass authentication checks. Cisco Talos observed roughly 1,400 messages across two campaigns, highlighting how trusted retail infrastructure can carry attacker-controlled instructions without relying on spoofed senders or malicious links. The activity extends a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dell-and-staples-emails-exploited/\">Scammers Exploit Dell and Staples Order Emails to Bypass Traditional Phishing Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204265",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/dell-and-staples-emails-exploited",
+      "content_hash": "1bc418361022589618401dcee09615540013904e046dbee90c9293455541564c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1bc418361022589618401dcee09615540013904e046dbee90c9293455541564c",
+        "FEEDBURNER": "1bc418361022589618401dcee09615540013904e046dbee90c9293455541564c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
+    },
+    {
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "published": "Thu, 22 Oct 2026 11:45:00 +0000",
+      "published_utc": "2026-10-22T11:45:00+00:00",
+      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns it.\n\nIf an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4607978570875181562",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-      "content_hash": "2bce316b5176e722a463cbb83ce223a1ffd5d741331f39669983b50217c94625",
+      "article_key": "thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "content_hash": "a284ec40199fb17f494aa710f077b441b0e73cbdec5346c0510a59472e1cbc70",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "2bce316b5176e722a463cbb83ce223a1ffd5d741331f39669983b50217c94625",
-        "FEEDBURNER": "2bce316b5176e722a463cbb83ce223a1ffd5d741331f39669983b50217c94625"
+        "ORIGINAL": "a284ec40199fb17f494aa710f077b441b0e73cbdec5346c0510a59472e1cbc70",
+        "FEEDBURNER": "a284ec40199fb17f494aa710f077b441b0e73cbdec5346c0510a59472e1cbc70"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
-      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
-      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
-      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+      "first_seen_utc": "2026-10-22T15:36:17.166346+00:00",
+      "first_seen_local": "2026-10-22T10:36:17.166343-05:00",
+      "last_updated_utc": "2026-10-22T15:36:17.166346+00:00",
+      "last_updated_local": "2026-10-22T10:36:17.166343-05:00"
     },
     {
-      "title": "Hackers Used Claude and Grok to Automate Cyberattacks on Over 400 Banks and Financial Firms",
-      "url": "https://cybersecuritynews.com/hackers-used-claude-and-grok/",
-      "published": "Thu, 22 Oct 2026 07:24:56 +0000",
-      "published_utc": "2026-10-22T07:24:56+00:00",
-      "summary": "<p>A cybercrime group used artificial intelligence (AI) agents to coordinate attacks against more than 400 banks, payment providers and other financial organizations across Latin America, according to a report by cybersecurity company Straiker. The group, known as CyberCartel, reportedly used AI models from Anthropic, xAI and Moonshot AI to help plan and carry out parts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-used-claude-and-grok/\">Hackers Used Claude and Grok to Automate Cyberattacks on Over 400 Banks and Financial Firms</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168254",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-used-claude-and-grok",
-      "content_hash": "8745f533e8922b046b1d8ebc6f93f13eaa8074fcf784e75081b3c0a2a5a1fa9e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8745f533e8922b046b1d8ebc6f93f13eaa8074fcf784e75081b3c0a2a5a1fa9e",
-        "FEEDBURNER": "8745f533e8922b046b1d8ebc6f93f13eaa8074fcf784e75081b3c0a2a5a1fa9e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "October 21 Cybersecurity Nightmare: PHP and Node.js Flaws, LiteLLM Backdoor, and Active Attacks",
-      "url": "https://cybersecuritynews.com/october-21-cybersecurity-nightmare/",
-      "published": "Thu, 22 Oct 2026 07:16:45 +0000",
-      "published_utc": "2026-10-22T07:16:45+00:00",
-      "summary": "<p>October 21, 2026 brought a demanding mix of emergency security updates, poisoned software releases, and warnings about attacks already underway. PHP servers needed urgent patches. An AI software package was stealing credentials. Other investigations exposed weaknesses in certificate trust, remote management, and VPN access. Several incidents began before October 21, but their recovery work collided [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/october-21-cybersecurity-nightmare/\">October 21 Cybersecurity Nightmare: PHP and Node.js Flaws, LiteLLM Backdoor, and Active Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168257",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/october-21-cybersecurity-nightmare",
-      "content_hash": "96194e5c891f541a75f9a91009535d92d3aba424626bf0a3b29b6db04da72a0d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "96194e5c891f541a75f9a91009535d92d3aba424626bf0a3b29b6db04da72a0d",
-        "FEEDBURNER": "96194e5c891f541a75f9a91009535d92d3aba424626bf0a3b29b6db04da72a0d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "Hackers Plant Malware on Onamae.com Cloud Servers, 26,739 Systems Potentially Affected",
-      "url": "https://gbhackers.com/onamae-com-cloud-servers/",
-      "published": "Thu, 22 Oct 2026 07:00:03 +0000",
-      "published_utc": "2026-10-22T07:00:03+00:00",
-      "summary": "<p>Hackers gained unauthorized access to Onamae.com Desktop Cloud. They installed malicious programs in customer server environments, prompting the Japanese provider to suspend services across all plans. The company identified 26,739 potentially affected servers and warned that information stored on those systems may have been viewed GMO Internet, which operates Onamae.com, confirmed the malicious installations on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/onamae-com-cloud-servers/\">Hackers Plant Malware on Onamae.com Cloud Servers, 26,739 Systems Potentially Affected</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204190",
+      "title": "Fortinet Releases Critical Security Updates for FortiOS, FortiManager, and FortiAnalyzer",
+      "url": "https://gbhackers.com/fortinet-releases-critical-security-updates/",
+      "published": "Thu, 22 Oct 2026 11:26:55 +0000",
+      "published_utc": "2026-10-22T11:26:55+00:00",
+      "summary": "<p>Fortinet has announced coordinated security hardening updates for FortiOS, FortiManager, and FortiAnalyzer, scheduled for October 22, 2026. These updates aim to address critical and high-severity vulnerabilities. The company urges customers to prioritize updating internet-facing systems and treat these upgrades as urgent, not routine maintenance. In an announcement on October 21, Fortinet&#8217;s Chief Information Security Officer, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-releases-critical-security-updates/\">Fortinet Releases Critical Security Updates for FortiOS, FortiManager, and FortiAnalyzer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204272",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/onamae-com-cloud-servers",
-      "content_hash": "85612d7080306877dc09b5f3d9b02fc078a708b1e53c22021640dc7f2dba2f3e",
+      "article_key": "gbhackers.com/fortinet-releases-critical-security-updates",
+      "content_hash": "72300ecc9a401a39596a7f1e904ce241f23ac95fb6cf3ad23d6e356d3e2e8cf2",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "85612d7080306877dc09b5f3d9b02fc078a708b1e53c22021640dc7f2dba2f3e",
-        "FEEDBURNER": "85612d7080306877dc09b5f3d9b02fc078a708b1e53c22021640dc7f2dba2f3e"
+        "ORIGINAL": "72300ecc9a401a39596a7f1e904ce241f23ac95fb6cf3ad23d6e356d3e2e8cf2",
+        "FEEDBURNER": "72300ecc9a401a39596a7f1e904ce241f23ac95fb6cf3ad23d6e356d3e2e8cf2"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
     },
     {
-      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-      "url": "http://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-      "published": "Thu, 22 Oct 2026 06:38:31 +0000",
-      "published_utc": "2026-10-22T06:38:31+00:00",
-      "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7610182617221450073",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "published": "Thu, 22 Oct 2026 11:15:42 +0000",
+      "published_utc": "2026-10-22T11:15:42+00:00",
+      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1495893137978158539",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-      "content_hash": "59b958b633b6f373ad4aa2ff0b99140efc40e73d04a79da9b32d628fad65f3b5",
+      "article_key": "thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "content_hash": "e7c379f446c781cba341a693165cc811553ecfe3c615e01e418c3b55067be24d",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "59b958b633b6f373ad4aa2ff0b99140efc40e73d04a79da9b32d628fad65f3b5",
-        "FEEDBURNER": "59b958b633b6f373ad4aa2ff0b99140efc40e73d04a79da9b32d628fad65f3b5"
+        "ORIGINAL": "e7c379f446c781cba341a693165cc811553ecfe3c615e01e418c3b55067be24d",
+        "FEEDBURNER": "e7c379f446c781cba341a693165cc811553ecfe3c615e01e418c3b55067be24d"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
-      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
-      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
-      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+      "first_seen_utc": "2026-10-22T15:36:17.166346+00:00",
+      "first_seen_local": "2026-10-22T10:36:17.166343-05:00",
+      "last_updated_utc": "2026-10-22T15:36:17.166346+00:00",
+      "last_updated_local": "2026-10-22T10:36:17.166343-05:00"
     },
     {
-      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-      "url": "http://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "published": "Thu, 22 Oct 2026 06:34:10 +0000",
-      "published_utc": "2026-10-22T06:34:10+00:00",
-      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7028112380450365464",
+      "title": "Samsung and Vizio Smart TVs Continue Sending Viewing Data Even After Users Opt Out",
+      "url": "https://gbhackers.com/samsung-and-vizio-smart-tvs-continue-sending-viewing-data/",
+      "published": "Thu, 22 Oct 2026 11:13:22 +0000",
+      "published_utc": "2026-10-22T11:13:22+00:00",
+      "summary": "<p>Samsung and Vizio smart TVs continued sending traffic consistent with automatic content recognition (ACR) even after researchers disabled the feature. This raises concerns about how reliable privacy controls are at preventing surveillance of viewing. However, encrypted connections made it impossible for researchers to confirm whether those transmissions contained viewing data or whether manufacturers retained them. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/samsung-and-vizio-smart-tvs-continue-sending-viewing-data/\">Samsung and Vizio Smart TVs Continue Sending Viewing Data Even After Users Opt Out</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204221",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/samsung-and-vizio-smart-tvs-continue-sending-viewing-data",
+      "content_hash": "e2f4f053e6135cb24004c54d15827081206f300dd69f4f7fca67d65e4d4184f6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e2f4f053e6135cb24004c54d15827081206f300dd69f4f7fca67d65e4d4184f6",
+        "FEEDBURNER": "e2f4f053e6135cb24004c54d15827081206f300dd69f4f7fca67d65e4d4184f6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
+    },
+    {
+      "title": "New Android Malware Replaces Legitimate Banking Apps With Malicious Copies to Bypass Security Checks",
+      "url": "https://cybersecuritynews.com/new-android-malware-2/",
+      "published": "Thu, 22 Oct 2026 11:13:18 +0000",
+      "published_utc": "2026-10-22T11:13:18+00:00",
+      "summary": "<p>A newly identified Android banking Trojan called Hirudo takes an unusual route to financial fraud: it tries to remove a victim’s genuine banking app and install a modified copy in its place. The replacement keeps the bank app’s name and version, but contains extra code designed to interfere with security checks. Instead of relying only [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-android-malware-2/\">New Android Malware Replaces Legitimate Banking Apps With Malicious Copies to Bypass Security Checks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168313",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/new-android-malware-2",
+      "content_hash": "aac633ab6a620a0d1f9418ce8060b2e8056db3e71491b7fa70160d272778a8a5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aac633ab6a620a0d1f9418ce8060b2e8056db3e71491b7fa70160d272778a8a5",
+        "FEEDBURNER": "aac633ab6a620a0d1f9418ce8060b2e8056db3e71491b7fa70160d272778a8a5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:11.608072+00:00",
+      "first_seen_local": "2026-10-22T10:36:11.608069-05:00",
+      "last_updated_utc": "2026-10-22T15:36:11.608072+00:00",
+      "last_updated_local": "2026-10-22T10:36:11.608069-05:00"
+    },
+    {
+      "title": "Hackers Used AI-Generated Scripts to Break Into Government Linux Servers and Hunt for Secrets",
+      "url": "https://gbhackers.com/ai-generated-scripts/",
+      "published": "Thu, 22 Oct 2026 10:58:41 +0000",
+      "published_utc": "2026-10-22T10:58:41+00:00",
+      "summary": "<p>Hackers used apparently AI-generated scripts to compromise government Linux infrastructure, harvest credentials and pursue sensitive databases and official mailboxes in a campaign tracked as CL-UNK-1211. The investigation, published October 15, linked the operation to government entities and state-affiliated infrastructure. Attribution remains unresolved: under Unit 42’s attribution framework, the UNK designation means researchers have not established [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-generated-scripts/\">Hackers Used AI-Generated Scripts to Break Into Government Linux Servers and Hunt for Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204254",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-generated-scripts",
+      "content_hash": "9d2832000c4a442f1412dfe482770ecc10bdf08623419dc26294f58fc0264edd",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9d2832000c4a442f1412dfe482770ecc10bdf08623419dc26294f58fc0264edd",
+        "FEEDBURNER": "9d2832000c4a442f1412dfe482770ecc10bdf08623419dc26294f58fc0264edd"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T15:36:10.927982+00:00",
+      "first_seen_local": "2026-10-22T10:36:10.927979-05:00",
+      "last_updated_utc": "2026-10-22T15:36:10.927982+00:00",
+      "last_updated_local": "2026-10-22T10:36:10.927979-05:00"
+    },
+    {
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "published": "Thu, 22 Oct 2026 10:44:05 +0000",
+      "published_utc": "2026-10-22T10:44:05+00:00",
+      "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access.\n\nAnomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7950281135804187712",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "content_hash": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
+      "article_key": "thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "content_hash": "6f965f38148fc6abf1fd3ecdabecd8386dfebc57ee92801fcb65418e39565f82",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
-        "FEEDBURNER": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721"
+        "ORIGINAL": "6f965f38148fc6abf1fd3ecdabecd8386dfebc57ee92801fcb65418e39565f82",
+        "FEEDBURNER": "6f965f38148fc6abf1fd3ecdabecd8386dfebc57ee92801fcb65418e39565f82"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
-      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
-      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
-      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
-    },
-    {
-      "title": "Hackers Are Breaking Into FortiGate, FortiWeb and Palo Alto GlobalProtect Systems to Steal Passwords",
-      "url": "https://cybersecuritynews.com/breaking-into-fortigate-fortiweb/",
-      "published": "Thu, 22 Oct 2026 06:30:10 +0000",
-      "published_utc": "2026-10-22T06:30:10+00:00",
-      "summary": "<p>Internet-facing firewalls and VPN systems are under attack in a campaign that aims to steal credentials and gain lasting access to corporate networks. The activity targets FortiGate and FortiWeb devices from Fortinet, as well as Palo Alto Networks GlobalProtect portals. Once inside, operators can collect passwords stored in device configurations and use them to move [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/breaking-into-fortigate-fortiweb/\">Hackers Are Breaking Into FortiGate, FortiWeb and Palo Alto GlobalProtect Systems to Steal Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168246",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/breaking-into-fortigate-fortiweb",
-      "content_hash": "c1eb9e965b0d20d8ce91dd32c58dad48cc589d9fce9f7d0e25e4a067c443287c",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "c1eb9e965b0d20d8ce91dd32c58dad48cc589d9fce9f7d0e25e4a067c443287c"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
-    },
-    {
-      "title": "Hackers Combine Claude Code, Codex, Grok, and DeepSeek to Automate Attacks Worldwide",
-      "url": "https://gbhackers.com/ai-powered-cyberattacks/",
-      "published": "Thu, 22 Oct 2026 06:17:09 +0000",
-      "published_utc": "2026-10-22T06:17:09+00:00",
-      "summary": "<p>A Chinese-speaking threat operator combined ARTEX, Claude Code, Codex, and configurations requesting DeepSeek, GLM, and Grok models to coordinate attacks against organizations worldwide. The investigation expands earlier reporting on South Korean financial institutions, exposing a workflow built around shared instructions, persistent project records, and automated handoffs between AI sessions. Recovered prompts, dated August 4 through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-cyberattacks/\">Hackers Combine Claude Code, Codex, Grok, and DeepSeek to Automate Attacks Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204177",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-powered-cyberattacks",
-      "content_hash": "59bc26ba192cb8fe160150d8edeb8ae0619b472e66416283aa7c6336017d48ee",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "59bc26ba192cb8fe160150d8edeb8ae0619b472e66416283aa7c6336017d48ee",
-        "FEEDBURNER": "59bc26ba192cb8fe160150d8edeb8ae0619b472e66416283aa7c6336017d48ee"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
-    },
-    {
-      "title": "Signal Vulnerability Could Keep Microphone Active Even After Users Hang Up",
-      "url": "https://gbhackers.com/signal-vulnerability/",
-      "published": "Thu, 22 Oct 2026 06:03:13 +0000",
-      "published_utc": "2026-10-22T06:03:13+00:00",
-      "summary": "<p>A critical vulnerability in Signal&#8217;s RingRTC calling library could let a malicious call participant keep receiving audio after another user tries to hang up. This vulnerability, tracked as CVE-2026-113380, affects versions of RingRTC before 2.72.0 and carries a CVSS v4.0 score of 9.3. While video tracks could also remain active, the official vulnerability description does [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/signal-vulnerability/\">Signal Vulnerability Could Keep Microphone Active Even After Users Hang Up</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204180",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/signal-vulnerability",
-      "content_hash": "a8b5f9f4edcd8b1d05dd0d9968799c64f83aede97aed2a697c4e372cf5e47133",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a8b5f9f4edcd8b1d05dd0d9968799c64f83aede97aed2a697c4e372cf5e47133",
-        "FEEDBURNER": "a8b5f9f4edcd8b1d05dd0d9968799c64f83aede97aed2a697c4e372cf5e47133"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
-    },
-    {
-      "title": "Node.js Patches 10 Security Vulnerabilities, Including High-Severity RCE Flaw",
-      "url": "https://gbhackers.com/node-js-patches-10-security-vulnerabilities/",
-      "published": "Thu, 22 Oct 2026 05:46:45 +0000",
-      "published_utc": "2026-10-22T05:46:45+00:00",
-      "summary": "<p>The Node.js Project released security updates on October 21, 2026, addressing 10 vulnerabilities across its 26.x, 24.x, and 22.x release lines. The updates fix a critical Brotli decoder flaw that allows remote code execution, as well as weaknesses in DNS resolution, TLS certificate validation, cryptographic randomness, and filesystem permissions. The release addresses four high-severity, three [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/node-js-patches-10-security-vulnerabilities/\">Node.js Patches 10 Security Vulnerabilities, Including High-Severity RCE Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204173",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/node-js-patches-10-security-vulnerabilities",
-      "content_hash": "b2a2a97345c8957b87f484707466486710962dbdb6405a86af640c9c597e3a6c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b2a2a97345c8957b87f484707466486710962dbdb6405a86af640c9c597e3a6c",
-        "FEEDBURNER": "b2a2a97345c8957b87f484707466486710962dbdb6405a86af640c9c597e3a6c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
-    },
-    {
-      "title": "LiteLLM Supply Chain Compromise Exposes AI Developer Credentials to Malware Attacks",
-      "url": "https://gbhackers.com/litellm-supply-chain-compromise/",
-      "published": "Thu, 22 Oct 2026 05:36:05 +0000",
-      "published_utc": "2026-10-22T05:36:05+00:00",
-      "summary": "<p>LiteLLM version 1.107.0 was compromised in a supply chain attack that distributed credential-stealing malware through PyPI wheels and container images. On October 21, 2026, researchers at Socket reported that malicious Python startup hooks could activate even if applications didn&#8217;t import LiteLLM, potentially exposing cloud credentials, developer secrets, and AI authentication files. Socket flagged seven malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/litellm-supply-chain-compromise/\">LiteLLM Supply Chain Compromise Exposes AI Developer Credentials to Malware Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204170",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/litellm-supply-chain-compromise",
-      "content_hash": "e5e3e0176e2630d624a393ed1169a97d4c2ff68682f635833737e8a4a47cc157",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e5e3e0176e2630d624a393ed1169a97d4c2ff68682f635833737e8a4a47cc157",
-        "FEEDBURNER": "e5e3e0176e2630d624a393ed1169a97d4c2ff68682f635833737e8a4a47cc157"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.450451+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.450448-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.450451+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.450448-05:00"
-    },
-    {
-      "title": "China-Linked Hackers Use ARTEX AI to Target 2,250 Microsoft 365 Tenants After ConnectWise Breach",
-      "url": "https://cybersecuritynews.com/china-linked-hackers-use-artex-ai/",
-      "published": "Thu, 22 Oct 2026 05:25:21 +0000",
-      "published_utc": "2026-10-22T05:25:21+00:00",
-      "summary": "<p>China-state-aligned hackers used ARTEX, an AI-powered penetration-testing framework, to attempt access to more than 2,250 Microsoft 365 tenants following the ConnectWise Cloud Backup breach. Microsoft attributed the attack to Storm-0940 and reported 2,900 sign-in attempts per minute, leaving security teams little time to investigate and block access. The attackers abused stolen application credentials and permissions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/china-linked-hackers-use-artex-ai/\">China-Linked Hackers Use ARTEX AI to Target 2,250 Microsoft 365 Tenants After ConnectWise Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168238",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/china-linked-hackers-use-artex-ai",
-      "content_hash": "787bbd437fb1a9348f5bbebfbfe8df63a46233e2d13138869b5927c297544388",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "787bbd437fb1a9348f5bbebfbfe8df63a46233e2d13138869b5927c297544388"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-22T10:34:15.875336+00:00",
-      "first_seen_local": "2026-10-22T05:34:15.875332-05:00",
-      "last_updated_utc": "2026-10-22T10:34:15.875336+00:00",
-      "last_updated_local": "2026-10-22T05:34:15.875332-05:00"
+      "first_seen_utc": "2026-10-22T15:36:17.166346+00:00",
+      "first_seen_local": "2026-10-22T10:36:17.166343-05:00",
+      "last_updated_utc": "2026-10-22T15:36:17.166346+00:00",
+      "last_updated_local": "2026-10-22T10:36:17.166343-05:00"
     }
   ]
 }

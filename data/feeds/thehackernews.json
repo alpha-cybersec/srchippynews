@@ -10,11 +10,43 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 4,
+      "article_count": 8,
       "articles": [
         {
+          "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+          "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+          "published": "Thu, 22 Oct 2026 13:38:22 +0000",
+          "published_utc": "2026-10-22T13:38:22+00:00",
+          "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026.\n\n\"Authorities identified",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6726923194061438921"
+        },
+        {
+          "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+          "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+          "published": "Thu, 22 Oct 2026 11:45:00 +0000",
+          "published_utc": "2026-10-22T11:45:00+00:00",
+          "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns it.\n\nIf an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4607978570875181562"
+        },
+        {
+          "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+          "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+          "published": "Thu, 22 Oct 2026 11:15:42 +0000",
+          "published_utc": "2026-10-22T11:15:42+00:00",
+          "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1495893137978158539"
+        },
+        {
+          "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+          "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+          "published": "Thu, 22 Oct 2026 10:44:05 +0000",
+          "published_utc": "2026-10-22T10:44:05+00:00",
+          "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access.\n\nAnomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7950281135804187712"
+        },
+        {
           "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-          "url": "http://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+          "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
           "published": "Thu, 22 Oct 2026 08:28:48 +0000",
           "published_utc": "2026-10-22T08:28:48+00:00",
           "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
@@ -22,7 +54,7 @@
         },
         {
           "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-          "url": "http://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+          "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
           "published": "Thu, 22 Oct 2026 07:47:22 +0000",
           "published_utc": "2026-10-22T07:47:22+00:00",
           "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
@@ -30,7 +62,7 @@
         },
         {
           "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-          "url": "http://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+          "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
           "published": "Thu, 22 Oct 2026 06:38:31 +0000",
           "published_utc": "2026-10-22T06:38:31+00:00",
           "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
@@ -38,7 +70,7 @@
         },
         {
           "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-          "url": "http://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+          "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
           "published": "Thu, 22 Oct 2026 06:34:10 +0000",
           "published_utc": "2026-10-22T06:34:10+00:00",
           "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
@@ -55,8 +87,40 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 4,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+          "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+          "published": "Thu, 22 Oct 2026 19:08:22 +0530",
+          "published_utc": "2026-10-22T13:38:22+00:00",
+          "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026.\n\n\"Authorities identified",
+          "id": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html"
+        },
+        {
+          "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+          "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+          "published": "Thu, 22 Oct 2026 17:15:00 +0530",
+          "published_utc": "2026-10-22T11:45:00+00:00",
+          "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns it.\n\nIf an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
+          "id": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
+        },
+        {
+          "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+          "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+          "published": "Thu, 22 Oct 2026 16:45:42 +0530",
+          "published_utc": "2026-10-22T11:15:42+00:00",
+          "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+          "id": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
+        },
+        {
+          "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+          "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+          "published": "Thu, 22 Oct 2026 16:14:05 +0530",
+          "published_utc": "2026-10-22T10:44:05+00:00",
+          "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access.\n\nAnomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
+          "id": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
+        },
         {
           "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
           "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",

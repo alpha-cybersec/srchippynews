@@ -10,8 +10,41 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 4,
+      "articles": [
+        {
+          "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+          "url": "http://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+          "published": "Thu, 22 Oct 2026 08:28:48 +0000",
+          "published_utc": "2026-10-22T08:28:48+00:00",
+          "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8121007642933607414"
+        },
+        {
+          "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+          "url": "http://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+          "published": "Thu, 22 Oct 2026 07:47:22 +0000",
+          "published_utc": "2026-10-22T07:47:22+00:00",
+          "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1891540365172319861"
+        },
+        {
+          "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+          "url": "http://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+          "published": "Thu, 22 Oct 2026 06:38:31 +0000",
+          "published_utc": "2026-10-22T06:38:31+00:00",
+          "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7610182617221450073"
+        },
+        {
+          "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+          "url": "http://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+          "published": "Thu, 22 Oct 2026 06:34:10 +0000",
+          "published_utc": "2026-10-22T06:34:10+00:00",
+          "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7028112380450365464"
+        }
+      ],
       "error": ""
     },
     "FEEDBURNER": {
@@ -22,8 +55,41 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 4,
+      "articles": [
+        {
+          "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+          "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+          "published": "Thu, 22 Oct 2026 13:58:48 +0530",
+          "published_utc": "2026-10-22T08:28:48+00:00",
+          "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+          "id": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
+        },
+        {
+          "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+          "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+          "published": "Thu, 22 Oct 2026 13:17:22 +0530",
+          "published_utc": "2026-10-22T07:47:22+00:00",
+          "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
+          "id": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
+        },
+        {
+          "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+          "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+          "published": "Thu, 22 Oct 2026 12:08:31 +0530",
+          "published_utc": "2026-10-22T06:38:31+00:00",
+          "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+          "id": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
+        },
+        {
+          "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+          "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+          "published": "Thu, 22 Oct 2026 12:04:10 +0530",
+          "published_utc": "2026-10-22T06:34:10+00:00",
+          "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+          "id": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
+        }
+      ],
       "error": ""
     }
   }

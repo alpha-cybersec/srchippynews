@@ -2,8 +2,120 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 168,
+  "article_count": 172,
   "articles": [
+    {
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "url": "http://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "published": "Thu, 22 Oct 2026 08:28:48 +0000",
+      "published_utc": "2026-10-22T08:28:48+00:00",
+      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8121007642933607414",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "content_hash": "cc21f760d2ad1b340708cba74e04fe40d7ab3f096a21d01b7bbc149e67bb2c01",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cc21f760d2ad1b340708cba74e04fe40d7ab3f096a21d01b7bbc149e67bb2c01",
+        "FEEDBURNER": "cc21f760d2ad1b340708cba74e04fe40d7ab3f096a21d01b7bbc149e67bb2c01"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
+      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
+      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
+      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+    },
+    {
+      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "url": "http://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "published": "Thu, 22 Oct 2026 07:47:22 +0000",
+      "published_utc": "2026-10-22T07:47:22+00:00",
+      "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1891540365172319861",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "content_hash": "2bce316b5176e722a463cbb83ce223a1ffd5d741331f39669983b50217c94625",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2bce316b5176e722a463cbb83ce223a1ffd5d741331f39669983b50217c94625",
+        "FEEDBURNER": "2bce316b5176e722a463cbb83ce223a1ffd5d741331f39669983b50217c94625"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
+      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
+      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
+      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+    },
+    {
+      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+      "url": "http://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+      "published": "Thu, 22 Oct 2026 06:38:31 +0000",
+      "published_utc": "2026-10-22T06:38:31+00:00",
+      "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7610182617221450073",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+      "content_hash": "59b958b633b6f373ad4aa2ff0b99140efc40e73d04a79da9b32d628fad65f3b5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "59b958b633b6f373ad4aa2ff0b99140efc40e73d04a79da9b32d628fad65f3b5",
+        "FEEDBURNER": "59b958b633b6f373ad4aa2ff0b99140efc40e73d04a79da9b32d628fad65f3b5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
+      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
+      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
+      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+    },
+    {
+      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+      "url": "http://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "published": "Thu, 22 Oct 2026 06:34:10 +0000",
+      "published_utc": "2026-10-22T06:34:10+00:00",
+      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7028112380450365464",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "content_hash": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721",
+        "FEEDBURNER": "5d020610f6ae17a0f5e0da5639169f34f959b172cd0a9659e431b6132ecef721"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-22T10:34:21.884484+00:00",
+      "first_seen_local": "2026-10-22T05:34:21.884481-05:00",
+      "last_updated_utc": "2026-10-22T10:34:21.884484+00:00",
+      "last_updated_local": "2026-10-22T05:34:21.884481-05:00"
+    },
     {
       "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
       "url": "http://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",

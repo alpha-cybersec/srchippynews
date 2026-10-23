@@ -2,8 +2,176 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 181,
+  "article_count": 187,
   "articles": [
+    {
+      "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "published": "Fri, 23 Oct 2026 11:25:43 +0000",
+      "published_utc": "2026-10-23T11:25:43+00:00",
+      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "content_hash": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
+        "FEEDBURNER": "f1a5a234cb431b73feca5775dbfed9730dabac56462538174fd3396301fc714f"
+      },
+      "feed_comparison": "CONTENT_DIFFERENT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "published": "Fri, 23 Oct 2026 11:11:23 +0000",
+      "published_utc": "2026-10-23T11:11:23+00:00",
+      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1966949090770830834",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "content_hash": "389472ed45c06040993168c8cbabb4e0d7ff80f8bf902469acd95dddeec1d7bb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "389472ed45c06040993168c8cbabb4e0d7ff80f8bf902469acd95dddeec1d7bb",
+        "FEEDBURNER": "389472ed45c06040993168c8cbabb4e0d7ff80f8bf902469acd95dddeec1d7bb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "published": "Fri, 23 Oct 2026 09:36:00 +0000",
+      "published_utc": "2026-10-23T09:36:00+00:00",
+      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7981088691465646814",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "content_hash": "ae1a728760ae7521897c3c268735a882f719f852ba8506466f4159f43a544d61",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ae1a728760ae7521897c3c268735a882f719f852ba8506466f4159f43a544d61",
+        "FEEDBURNER": "ae1a728760ae7521897c3c268735a882f719f852ba8506466f4159f43a544d61"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "published": "Fri, 23 Oct 2026 08:40:43 +0000",
+      "published_utc": "2026-10-23T08:40:43+00:00",
+      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5525313364698921339",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "content_hash": "fdfaf814193bf0ecc9b824f00acbb58a497d1a214e15e427fdc920b13b8a805e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fdfaf814193bf0ecc9b824f00acbb58a497d1a214e15e427fdc920b13b8a805e",
+        "FEEDBURNER": "fdfaf814193bf0ecc9b824f00acbb58a497d1a214e15e427fdc920b13b8a805e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "published": "Fri, 23 Oct 2026 08:35:45 +0000",
+      "published_utc": "2026-10-23T08:35:45+00:00",
+      "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4552772437260918552",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "content_hash": "414d68653175c530c3e682168ebed1d84feeb1af379f00defcf0acdb5a4f5b2f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "414d68653175c530c3e682168ebed1d84feeb1af379f00defcf0acdb5a4f5b2f",
+        "FEEDBURNER": "414d68653175c530c3e682168ebed1d84feeb1af379f00defcf0acdb5a4f5b2f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "published": "Fri, 23 Oct 2026 07:40:45 +0000",
+      "published_utc": "2026-10-23T07:40:45+00:00",
+      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6901394940642682159",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "content_hash": "fbb08d59052fc2ce1f2d03493b425c8fddd97337237cca2f1e085466e16141ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fbb08d59052fc2ce1f2d03493b425c8fddd97337237cca2f1e085466e16141ec",
+        "FEEDBURNER": "fbb08d59052fc2ce1f2d03493b425c8fddd97337237cca2f1e085466e16141ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
     {
       "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
       "url": "http://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",

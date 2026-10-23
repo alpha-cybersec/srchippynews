@@ -1,171 +1,652 @@
 {
-  "generated_at_utc": "2026-10-23T06:26:53.546258+00:00",
-  "generated_at_local": "2026-10-23T01:26:53.546264-05:00",
-  "article_count": 6,
-  "new_count": 6,
+  "generated_at_utc": "2026-10-23T12:00:21.658778+00:00",
+  "generated_at_local": "2026-10-23T07:00:21.658786-05:00",
+  "article_count": 23,
+  "new_count": 23,
   "updated_count": 0,
   "sources": {
-    "gbhackers": 4,
-    "cybersecuritynews": 2
+    "gbhackers": 11,
+    "thehackernews": 6,
+    "cybersecuritynews": 6
   },
   "articles": [
     {
-      "title": "Critical Oracle Java Flaw With CVSS 9.1 Allows Unauthenticated Remote Attacks",
-      "url": "https://gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks/",
-      "published": "Fri, 23 Oct 2026 06:11:29 +0000",
-      "published_utc": "2026-10-23T06:11:29+00:00",
-      "summary": "<p>Oracle issued a security alert for CVE-2026-91403, a critical vulnerability affecting Oracle Java SE and GraalVM. Attackers can exploit this vulnerability remotely without authentication. The advisory, published on October 21, 2026, assigns the flaw a CVSS 3.1 score of 9.1 and advises distrusting impacted intermediate certificate authority certificates associated with eMudhra. The vulnerability specifically impacts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks/\">Critical Oracle Java Flaw With CVSS 9.1 Allows Unauthenticated Remote Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204393",
+      "title": "Capcom Confirms Data Breach Exposing 11.7 Million CAPCOM ID Records",
+      "url": "https://gbhackers.com/capcom-confirms-data-breach/",
+      "published": "Fri, 23 Oct 2026 11:43:37 +0000",
+      "published_utc": "2026-10-23T11:43:37+00:00",
+      "summary": "<p>Capcom has confirmed a data breach that affects 11,774,247 CAPCOM ID records worldwide. An unauthorized third party accessed customer information linked to its online membership service. This incident, disclosed on October 22, 2026, exposed email addresses and account metadata. A smaller subset of records also included personal profile information and unauthorized password changes. CAPCOM ID [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/capcom-confirms-data-breach/\">Capcom Confirms Data Breach Exposing 11.7 Million CAPCOM ID Records</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204467",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks",
-      "content_hash": "aa4c7b379a8b6a754bd421f88b93316bf56be4dfc32a64d58784bf5c40b3030c",
+      "article_key": "gbhackers.com/capcom-confirms-data-breach",
+      "content_hash": "123ffbcfd6bf37b2c40f0395461f4ae2683301933543f8e2f7f2315a18fe9ae6",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "aa4c7b379a8b6a754bd421f88b93316bf56be4dfc32a64d58784bf5c40b3030c"
+        "ORIGINAL": "123ffbcfd6bf37b2c40f0395461f4ae2683301933543f8e2f7f2315a18fe9ae6"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
-      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
-      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
-      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
     },
     {
-      "title": "Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability",
-      "url": "https://cybersecuritynews.com/emergency-java-update/",
-      "published": "Fri, 23 Oct 2026 06:01:47 +0000",
-      "published_utc": "2026-10-23T06:01:47+00:00",
-      "summary": "<p>Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks affected intermediate certificate authority certificates linked to eMudhra. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-java-update/\">Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168450",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/emergency-java-update",
-      "content_hash": "58eca324eebf5cbcbd168c718fb2c1d527e09a3c7859b09367bab5be81b19876",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "58eca324eebf5cbcbd168c718fb2c1d527e09a3c7859b09367bab5be81b19876"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-23T06:26:47.923019+00:00",
-      "first_seen_local": "2026-10-23T01:26:47.923016-05:00",
-      "last_updated_utc": "2026-10-23T06:26:47.923019+00:00",
-      "last_updated_local": "2026-10-23T01:26:47.923016-05:00"
-    },
-    {
-      "title": "PwC Allegedly Hit by Everest Ransomware Group, 590GB of Data Stolen",
-      "url": "https://gbhackers.com/pwc-allegedly-hit-by-everest-ransomware/",
-      "published": "Fri, 23 Oct 2026 05:29:07 +0000",
-      "published_utc": "2026-10-23T05:29:07+00:00",
-      "summary": "<p>The Everest ransomware group has reportedly stolen around 590GB of data linked to PwC, one of the Big Four professional services firms. The claim concerns internal human resources and learning systems, but it remains unverified, as no independent reports have confirmed it. A post shared by Crypto India states that the alleged theft includes 108,426 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/pwc-allegedly-hit-by-everest-ransomware/\">PwC Allegedly Hit by Everest Ransomware Group, 590GB of Data Stolen</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204383",
+      "title": "Quest Diagnostics Confirms Cyberattack Exposing Patient Records in Quanum System",
+      "url": "https://gbhackers.com/quest-diagnostics-confirms-cyberattack/",
+      "published": "Fri, 23 Oct 2026 11:36:13 +0000",
+      "published_utc": "2026-10-23T11:36:13+00:00",
+      "summary": "<p>Quest Diagnostics disclosed unauthorized access to its Quanum LSM system, confirming that an unidentified party may have accessed certain patient records. The company became aware of the incident on October 21, 2026, as stated in a Form 8-K disclosure. The Quanum LSM system enables specific healthcare clients to place laboratory test orders, receive results, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/quest-diagnostics-confirms-cyberattack/\">Quest Diagnostics Confirms Cyberattack Exposing Patient Records in Quanum System</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204460",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/pwc-allegedly-hit-by-everest-ransomware",
-      "content_hash": "c3af3f9d9fc0fcab3742eb2a3d12d9e07a5f4cfa58200e47ccf0fc21d9534f60",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "c3af3f9d9fc0fcab3742eb2a3d12d9e07a5f4cfa58200e47ccf0fc21d9534f60"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
-      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
-      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
-      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
-    },
-    {
-      "title": "Critical Unpatched Linux Kernel Vulnerabilities Accidentally Disclosed, Including Two Remote Code Execution Flaws",
-      "url": "https://gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws/",
-      "published": "Fri, 23 Oct 2026 05:17:52 +0000",
-      "published_utc": "2026-10-23T05:17:52+00:00",
-      "summary": "<p>In October, several unpatched Linux vulnerabilities were disclosed on public mailing lists, revealing technical details before fixes were widely available. These disclosures included two critical flaws in KSMBD that could let remote attackers execute code, along with reports of privilege escalation and information disclosure. Trend Micro’s Zero Day Initiative (ZDI) submitted the reports, prompting Linux [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws/\">Critical Unpatched Linux Kernel Vulnerabilities Accidentally Disclosed, Including Two Remote Code Execution Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204380",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws",
-      "content_hash": "ef9ee1c3cf05d209a8af4eca0b920268f962ae10175eaef01ce3c68c9442d02b",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ef9ee1c3cf05d209a8af4eca0b920268f962ae10175eaef01ce3c68c9442d02b"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
-      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
-      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
-      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
-    },
-    {
-      "title": "Hacker Turned DeepSeek Into an AI Cybercrime Assistant to Attack Universities and Steal Data",
-      "url": "https://gbhackers.com/deepseek-ai-exploited/",
-      "published": "Fri, 23 Oct 2026 05:16:13 +0000",
-      "published_utc": "2026-10-23T05:16:13+00:00",
-      "summary": "<p>A threat actor using the handle BUGSTER configured DeepSeek V4 as the reasoning engine for an AI-assisted cybercrime operation that targeted organizations in India, including universities. Unit 42, Palo Alto Networks’ threat-intelligence team, says the actor used AI-generated reconnaissance and scripts to brute-force a university website and successfully stole a database containing more than 5,200 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deepseek-ai-exploited/\">Hacker Turned DeepSeek Into an AI Cybercrime Assistant to Attack Universities and Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204367",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/deepseek-ai-exploited",
-      "content_hash": "3fb18936f508dc655b823bb8845dc8338de71f63534b6aa8269dd2b25ce71b45",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "3fb18936f508dc655b823bb8845dc8338de71f63534b6aa8269dd2b25ce71b45"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
-      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
-      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
-      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
-    },
-    {
-      "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
-      "url": "https://cybersecuritynews.com/pwc-data-breach-claim/",
-      "published": "Fri, 23 Oct 2026 05:12:54 +0000",
-      "published_utc": "2026-10-23T05:12:54+00:00",
-      "summary": "<p>The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\">PwC Data Breach Claim &#8211; Everest Ransomware Group Claims to Have Stolen 590 GB of Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168430",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/pwc-data-breach-claim",
-      "content_hash": "76ff66431a8ec797aa44745526534345e5294af9393d38fe00673b5e38d6a6f7",
+      "article_key": "gbhackers.com/quest-diagnostics-confirms-cyberattack",
+      "content_hash": "67333caf2b61d22232efda5b16f5df2e2a69f7eb34f788f1a2349722d9d7ac76",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "76ff66431a8ec797aa44745526534345e5294af9393d38fe00673b5e38d6a6f7",
-        "FEEDBURNER": "76ff66431a8ec797aa44745526534345e5294af9393d38fe00673b5e38d6a6f7"
+        "ORIGINAL": "67333caf2b61d22232efda5b16f5df2e2a69f7eb34f788f1a2349722d9d7ac76",
+        "FEEDBURNER": "67333caf2b61d22232efda5b16f5df2e2a69f7eb34f788f1a2349722d9d7ac76"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-23T06:26:47.923019+00:00",
-      "first_seen_local": "2026-10-23T01:26:47.923016-05:00",
-      "last_updated_utc": "2026-10-23T06:26:47.923019+00:00",
-      "last_updated_local": "2026-10-23T01:26:47.923016-05:00"
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "Unauthorized AI Agents Found Accessing Customer Accounts at Major U.S. Banks",
+      "url": "https://gbhackers.com/unauthorized-ai-agents-found-accessing-customer-accounts/",
+      "published": "Fri, 23 Oct 2026 11:33:55 +0000",
+      "published_utc": "2026-10-23T11:33:55+00:00",
+      "summary": "<p>U.S. banks face challenges as third-party artificial intelligence agents detect unauthorized access to customer accounts. This situation raises concerns about credential sharing, automated transactions, and the difficulty of distinguishing legitimate customer activity from automation-initiated actions. According to a report from Axios on October 22, several banks, including Morgan Stanley, Bank of America, JPMorgan, and Wells [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/unauthorized-ai-agents-found-accessing-customer-accounts/\">Unauthorized AI Agents Found Accessing Customer Accounts at Major U.S. Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204454",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/unauthorized-ai-agents-found-accessing-customer-accounts",
+      "content_hash": "ba4a6d63eff161f8f3e3bf3459a5985dbf9498250fcf045b611f6234ad69472e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ba4a6d63eff161f8f3e3bf3459a5985dbf9498250fcf045b611f6234ad69472e",
+        "FEEDBURNER": "ba4a6d63eff161f8f3e3bf3459a5985dbf9498250fcf045b611f6234ad69472e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "published": "Fri, 23 Oct 2026 11:25:43 +0000",
+      "published_utc": "2026-10-23T11:25:43+00:00",
+      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "content_hash": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
+        "FEEDBURNER": "f1a5a234cb431b73feca5775dbfed9730dabac56462538174fd3396301fc714f"
+      },
+      "feed_comparison": "CONTENT_DIFFERENT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems",
+      "url": "https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/",
+      "published": "Fri, 23 Oct 2026 11:23:35 +0000",
+      "published_utc": "2026-10-23T11:23:35+00:00",
+      "summary": "<p>A new UEFI bootkit called BlackX has been used in cyberespionage attacks against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan. The malware targets Secure Boot, a feature designed to help stop untrusted software from running before Windows starts. Researchers say the infected computers had received Windows updates, but a key Secure Boot protection had not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/\">Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168482",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-new-blackx-bootkit",
+      "content_hash": "2caecd45460691653d5224e9a8650951f54c2fe3d6cca5b1160c84c3ab9af930",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2caecd45460691653d5224e9a8650951f54c2fe3d6cca5b1160c84c3ab9af930"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:15.398063+00:00",
+      "first_seen_local": "2026-10-23T07:00:15.398060-05:00",
+      "last_updated_utc": "2026-10-23T12:00:15.398063+00:00",
+      "last_updated_local": "2026-10-23T07:00:15.398060-05:00"
+    },
+    {
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "published": "Fri, 23 Oct 2026 11:11:23 +0000",
+      "published_utc": "2026-10-23T11:11:23+00:00",
+      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1966949090770830834",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "content_hash": "389472ed45c06040993168c8cbabb4e0d7ff80f8bf902469acd95dddeec1d7bb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "389472ed45c06040993168c8cbabb4e0d7ff80f8bf902469acd95dddeec1d7bb",
+        "FEEDBURNER": "389472ed45c06040993168c8cbabb4e0d7ff80f8bf902469acd95dddeec1d7bb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "SBI Notifies Customers Affected by Recent Cybersecurity Incident",
+      "url": "https://gbhackers.com/sbi-notifies-customers-affected-by-recent-cybersecurity-incident/",
+      "published": "Fri, 23 Oct 2026 10:48:47 +0000",
+      "published_utc": "2026-10-23T10:48:47+00:00",
+      "summary": "<p>The State Bank of India (SBI) has individually notified customers whose data was involved in a recent cybersecurity incident. In an update focused on customer safety, the bank confirmed it contacted affected individuals via email and/or WhatsApp. They reassured customers that their account balances and funds are safe. This announcement follows an earlier communication about [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sbi-notifies-customers-affected-by-recent-cybersecurity-incident/\">SBI Notifies Customers Affected by Recent Cybersecurity Incident</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204448",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sbi-notifies-customers-affected-by-recent-cybersecurity-incident",
+      "content_hash": "b2599653a6b264e769fb21a95629cfae7c4f5174cd2ec5378262fe296657f4e0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b2599653a6b264e769fb21a95629cfae7c4f5174cd2ec5378262fe296657f4e0",
+        "FEEDBURNER": "b2599653a6b264e769fb21a95629cfae7c4f5174cd2ec5378262fe296657f4e0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "PoC Exploit Released for Two Critical PHP RCE Vulnerabilities as Hackers Launch Attacks",
+      "url": "https://gbhackers.com/php-rce-vulnerabilities/",
+      "published": "Fri, 23 Oct 2026 09:41:13 +0000",
+      "published_utc": "2026-10-23T09:41:13+00:00",
+      "summary": "<p>Public proof-of-concept exploit code targeting two critical PHP vulnerabilities has surfaced as attackers scan exposed servers and attempt exploitation. Tracked as CVE-2026-109618 and CVE-2026-109619, the vulnerabilities are collectively called PHP2Shell and carry CVSS v4.0 scores of 9.2, potentially allowing unauthenticated remote code execution with web server privileges. However, Sophos has corrected an earlier report of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/php-rce-vulnerabilities/\">PoC Exploit Released for Two Critical PHP RCE Vulnerabilities as Hackers Launch Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204419",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/php-rce-vulnerabilities",
+      "content_hash": "e7e033c525cfafd33898a05211da9e3227a02485a9184451046cd405e871f0d6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e7e033c525cfafd33898a05211da9e3227a02485a9184451046cd405e871f0d6",
+        "FEEDBURNER": "e7e033c525cfafd33898a05211da9e3227a02485a9184451046cd405e871f0d6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "published": "Fri, 23 Oct 2026 09:36:00 +0000",
+      "published_utc": "2026-10-23T09:36:00+00:00",
+      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7981088691465646814",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "content_hash": "ae1a728760ae7521897c3c268735a882f719f852ba8506466f4159f43a544d61",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ae1a728760ae7521897c3c268735a882f719f852ba8506466f4159f43a544d61",
+        "FEEDBURNER": "ae1a728760ae7521897c3c268735a882f719f852ba8506466f4159f43a544d61"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "SBI Notifies Customers Impacted by the Recent Cyber Incident",
+      "url": "https://cybersecuritynews.com/sbi-notifies-customers-with-cyber-incident/",
+      "published": "Fri, 23 Oct 2026 09:20:41 +0000",
+      "published_utc": "2026-10-23T09:20:41+00:00",
+      "summary": "<p>State Bank of India (SBI) has individually notified customers whose information was identified in a recent cyber incident, sending alerts through email and WhatsApp. In its latest advisory on October 23, the bank said customer account balances and funds remain safe while investigators examine the suspected exposure of personal information found on the dark web. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sbi-notifies-customers-with-cyber-incident/\">SBI Notifies Customers Impacted by the Recent Cyber Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168466",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/sbi-notifies-customers-with-cyber-incident",
+      "content_hash": "3b7e8a06be583d4fc930cb447264587df2c612577a0bccf0f5415203d17931c1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3b7e8a06be583d4fc930cb447264587df2c612577a0bccf0f5415203d17931c1",
+        "FEEDBURNER": "3b7e8a06be583d4fc930cb447264587df2c612577a0bccf0f5415203d17931c1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:15.398063+00:00",
+      "first_seen_local": "2026-10-23T07:00:15.398060-05:00",
+      "last_updated_utc": "2026-10-23T12:00:15.398063+00:00",
+      "last_updated_local": "2026-10-23T07:00:15.398060-05:00"
+    },
+    {
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "published": "Fri, 23 Oct 2026 08:40:43 +0000",
+      "published_utc": "2026-10-23T08:40:43+00:00",
+      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5525313364698921339",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "content_hash": "fdfaf814193bf0ecc9b824f00acbb58a497d1a214e15e427fdc920b13b8a805e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fdfaf814193bf0ecc9b824f00acbb58a497d1a214e15e427fdc920b13b8a805e",
+        "FEEDBURNER": "fdfaf814193bf0ecc9b824f00acbb58a497d1a214e15e427fdc920b13b8a805e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Suspected Chinese APT41 Hackers Use BlackX Bootkit to Bypass Windows Secure Boot",
+      "url": "https://gbhackers.com/apt41-linked-bootkit-attack/",
+      "published": "Fri, 23 Oct 2026 08:36:15 +0000",
+      "published_utc": "2026-10-23T08:36:15+00:00",
+      "summary": "<p>Suspected Chinese APT41 hackers have deployed BlackX, a UEFI bootkit, against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan. Researchers attribute the operation to APT41 with medium confidence. BlackX closely resembles BlackLotus, the bootkit advertised on underground forums for $5,000 in October 2022. ESET confirmed its capabilities in March 2023, demonstrating exploitation of Baton Drop, tracked [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apt41-linked-bootkit-attack/\">Suspected Chinese APT41 Hackers Use BlackX Bootkit to Bypass Windows Secure Boot</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204411",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apt41-linked-bootkit-attack",
+      "content_hash": "10fbef443812ddf10167eea5af692b44c07cc6c99162af0053ab94a7453edabb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "10fbef443812ddf10167eea5af692b44c07cc6c99162af0053ab94a7453edabb",
+        "FEEDBURNER": "10fbef443812ddf10167eea5af692b44c07cc6c99162af0053ab94a7453edabb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "published": "Fri, 23 Oct 2026 08:35:45 +0000",
+      "published_utc": "2026-10-23T08:35:45+00:00",
+      "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4552772437260918552",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "content_hash": "414d68653175c530c3e682168ebed1d84feeb1af379f00defcf0acdb5a4f5b2f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "414d68653175c530c3e682168ebed1d84feeb1af379f00defcf0acdb5a4f5b2f",
+        "FEEDBURNER": "414d68653175c530c3e682168ebed1d84feeb1af379f00defcf0acdb5a4f5b2f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "11 Data Classification Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/data-classification-tools-buyers-guide/",
+      "published": "Fri, 23 Oct 2026 08:35:17 +0000",
+      "published_utc": "2026-10-23T08:35:17+00:00",
+      "summary": "<p>Data classification is the keystone control everything downstream borrows: DLP policies, access reviews, retention rules, and now Copilot-era AI governance all inherit whatever labels exist or don’t. The 2026 field splits into estate-native labelers, discovery-engine classifiers, user-driven labeling veterans, and AI-semantic challengers. One roster note: our sheet listed Fortra twice (Titus and Boldon James both [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-classification-tools-buyers-guide/\">11 Data Classification Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204351",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/data-classification-tools-buyers-guide",
+      "content_hash": "685dceddd9e4523672deea4e8e1f3fa2ea4ed3670adf8cd539184c7919c5330c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "685dceddd9e4523672deea4e8e1f3fa2ea4ed3670adf8cd539184c7919c5330c",
+        "FEEDBURNER": "685dceddd9e4523672deea4e8e1f3fa2ea4ed3670adf8cd539184c7919c5330c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "12 Tokenization Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/tokenization-solutions-buyers-guide/",
+      "published": "Fri, 23 Oct 2026 08:32:01 +0000",
+      "published_utc": "2026-10-23T08:32:01+00:00",
+      "summary": "<p>Tokenization wins by subtraction: swap sensitive values for worthless tokens and whole systems exit breach-impact and audit scope at once. The 2026 market splits by what you’re subtracting PCI scope (payment-rooted vaults and P2PE), privacy risk (PII vaults with developer APIs), analytics exposure (format-preserving engines living in warehouses) and by architecture: vaulted versus vaultless, proxy [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tokenization-solutions-buyers-guide/\">12 Tokenization Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204337",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/tokenization-solutions-buyers-guide",
+      "content_hash": "90b870f791ef85b47e8f58256914dfaa7df01576eba054392911729b474c4168",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "90b870f791ef85b47e8f58256914dfaa7df01576eba054392911729b474c4168",
+        "FEEDBURNER": "90b870f791ef85b47e8f58256914dfaa7df01576eba054392911729b474c4168"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "12 Encryption & Key Management Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/encryption-key-management-buyers-guide/",
+      "published": "Fri, 23 Oct 2026 08:29:03 +0000",
+      "published_utc": "2026-10-23T08:29:03+00:00",
+      "summary": "<p>Key management is where encryption programs succeed or quietly rot: ciphers are commodities, but custody who holds keys, how they rotate, what survives an outage or a quantum decade is architecture. The 2026 field spans cloud-native KMS floors, enterprise custody platforms, secrets-engine standards, in-path protectors, and the HSM-rooted institutions, with post-quantum readiness newly promoted from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/encryption-key-management-buyers-guide/\">12 Encryption &amp; Key Management Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204278",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/encryption-key-management-buyers-guide",
+      "content_hash": "543819246123c23f4377abd7019559aa09a13c89989fa02374b5b6b4cd85197a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "543819246123c23f4377abd7019559aa09a13c89989fa02374b5b6b4cd85197a",
+        "FEEDBURNER": "543819246123c23f4377abd7019559aa09a13c89989fa02374b5b6b4cd85197a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "12 Data Loss Prevention (DLP) Software: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/dlp-software-buyers-guide/",
+      "published": "Fri, 23 Oct 2026 08:24:51 +0000",
+      "published_utc": "2026-10-23T08:24:51+00:00",
+      "summary": "<p>DLP software earned its mixed reputation honestly a decade of false-positive floods taught teams to distrust the acronym and the 2026 field answers with distinct architectures: bundle-native floors, SSE-woven inline enforcement, endpoint-forensic depth, ML-first SaaS scanning, and renewal-lane veterans whose roadmaps deserve questions. This verdict guide reviews twelve options with the distinctions that decide outcomes: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dlp-software-buyers-guide/\">12 Data Loss Prevention (DLP) Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204116",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/dlp-software-buyers-guide",
+      "content_hash": "33f1e4dd416c305c060088aefa752bf469c37babd52b2761aeda46bc292c7520",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "33f1e4dd416c305c060088aefa752bf469c37babd52b2761aeda46bc292c7520",
+        "FEEDBURNER": "33f1e4dd416c305c060088aefa752bf469c37babd52b2761aeda46bc292c7520"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "Top 10 Best Email Encryption Services in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-email-encryption-services/",
+      "published": "Fri, 23 Oct 2026 08:22:52 +0000",
+      "published_utc": "2026-10-23T08:22:52+00:00",
+      "summary": "<p>Email encryption has a usability paradox: the strongest cryptography loses to the recipient who gives up at the portal login and asks for the file “some other way.” The 2026 winners solve for both ends sender-side automation (policies, DLP triggers, one-click protect) and recipient experiences that don’t require a manual. We scored ten services on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-email-encryption-services/\">Top 10 Best Email Encryption Services in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168360",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-email-encryption-services",
+      "content_hash": "12926329e49b4c754959e8ce56385e3e4694879acace304cb417e9b990c4b58f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "12926329e49b4c754959e8ce56385e3e4694879acace304cb417e9b990c4b58f",
+        "FEEDBURNER": "12926329e49b4c754959e8ce56385e3e4694879acace304cb417e9b990c4b58f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:15.398063+00:00",
+      "first_seen_local": "2026-10-23T07:00:15.398060-05:00",
+      "last_updated_utc": "2026-10-23T12:00:15.398063+00:00",
+      "last_updated_local": "2026-10-23T07:00:15.398060-05:00"
+    },
+    {
+      "title": "12 Malware Analysis Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/malware-analysis-tools-buyers-guide/",
+      "published": "Fri, 23 Oct 2026 08:18:28 +0000",
+      "published_utc": "2026-10-23T08:18:28+00:00",
+      "summary": "<p>Malware analysis tooling spans a spectrum the acronyms hide: interactive sandboxes where analysts click alongside the malware, evasion-hardened hypervisor rigs for the samples that detect everything else, reputation oceans answering “has anyone seen this?”, binary-similarity engines, and the open standards (YARA above all) the whole field writes in. This verdict guide reviews twelve names across [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-analysis-tools-buyers-guide/\">12 Malware Analysis Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204228",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/malware-analysis-tools-buyers-guide",
+      "content_hash": "004afecc286b18adfc196e11f97269f6ac2550c254963b8060a295e4143c8cd6",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "004afecc286b18adfc196e11f97269f6ac2550c254963b8060a295e4143c8cd6"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:14.563274+00:00",
+      "first_seen_local": "2026-10-23T07:00:14.563271-05:00",
+      "last_updated_utc": "2026-10-23T12:00:14.563274+00:00",
+      "last_updated_local": "2026-10-23T07:00:14.563271-05:00"
+    },
+    {
+      "title": "Top 9 Best Managed File Transfer (MFT) Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-managed-file-transfer/",
+      "published": "Fri, 23 Oct 2026 08:16:37 +0000",
+      "published_utc": "2026-10-23T08:16:37+00:00",
+      "summary": "<p>No category has been breached more publicly this decade than managed file transfer mass-exploitation campaigns against MFT products turned quiet integration plumbing into board-level risk, and the 2023–2024 waves rewrote the buying criteria. In 2026 you evaluate an MFT vendor’s security engineering exposure architecture, patch velocity, hardening posture before its scheduler. Our sheet listed ten [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-managed-file-transfer/\">Top 9 Best Managed File Transfer (MFT) Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168325",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-managed-file-transfer",
+      "content_hash": "6c93e5bcd0e064919e6933f98c58e75f00aa8df4a5ef7bbf9ffd198da4c27e8f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c93e5bcd0e064919e6933f98c58e75f00aa8df4a5ef7bbf9ffd198da4c27e8f",
+        "FEEDBURNER": "6c93e5bcd0e064919e6933f98c58e75f00aa8df4a5ef7bbf9ffd198da4c27e8f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:15.398063+00:00",
+      "first_seen_local": "2026-10-23T07:00:15.398060-05:00",
+      "last_updated_utc": "2026-10-23T12:00:15.398063+00:00",
+      "last_updated_local": "2026-10-23T07:00:15.398060-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical Citrix NetScaler RCE Flaw to Deploy Web Shells and Malware",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-rce-flaw/",
+      "published": "Fri, 23 Oct 2026 07:50:58 +0000",
+      "published_utc": "2026-10-23T07:50:58+00:00",
+      "summary": "<p>A critical vulnerability in Citrix NetScaler ADC and NetScaler Gateway is being exploited to run commands on exposed appliances, install web shells and deliver malware. Tracked as CVE-2026-88771, the flaw allows an unauthenticated attacker to execute commands remotely. Citrix disclosed it on September 27, 2026, and confirmed exploitation of appliances that had not been protected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-rce-flaw/\">Hackers Exploit Critical Citrix NetScaler RCE Flaw to Deploy Web Shells and Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168460",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/citrix-netscaler-rce-flaw",
+      "content_hash": "8d3c4d3b2dc20cf973e0fa3ef6b983017b2d52417726acd16b4a1d92e99f268a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d3c4d3b2dc20cf973e0fa3ef6b983017b2d52417726acd16b4a1d92e99f268a",
+        "FEEDBURNER": "8d3c4d3b2dc20cf973e0fa3ef6b983017b2d52417726acd16b4a1d92e99f268a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:15.398063+00:00",
+      "first_seen_local": "2026-10-23T07:00:15.398060-05:00",
+      "last_updated_utc": "2026-10-23T12:00:15.398063+00:00",
+      "last_updated_local": "2026-10-23T07:00:15.398060-05:00"
+    },
+    {
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "published": "Fri, 23 Oct 2026 07:40:45 +0000",
+      "published_utc": "2026-10-23T07:40:45+00:00",
+      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6901394940642682159",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "content_hash": "fbb08d59052fc2ce1f2d03493b425c8fddd97337237cca2f1e085466e16141ec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fbb08d59052fc2ce1f2d03493b425c8fddd97337237cca2f1e085466e16141ec",
+        "FEEDBURNER": "fbb08d59052fc2ce1f2d03493b425c8fddd97337237cca2f1e085466e16141ec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
+      "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
+      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
+      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+    },
+    {
+      "title": "Hacker With Limited Skills Used DeepSeek AI to Breach Indian University and Steal Over 5,200 Records",
+      "url": "https://cybersecuritynews.com/hacker-with-limited-skills-used-deepseek-ai/",
+      "published": "Fri, 23 Oct 2026 07:13:36 +0000",
+      "published_utc": "2026-10-23T07:13:36+00:00",
+      "summary": "<p>A cybercriminal using the online handle BUGSTER used artificial intelligence tools to support attacks on Indian organizations, including two universities. In one confirmed intrusion, the attacker stole a MongoDB database containing more than 5,200 records, including personal information about students and staff, according to Palo Alto Networks’ Unit 42. The researchers did not name the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacker-with-limited-skills-used-deepseek-ai/\">Hacker With Limited Skills Used DeepSeek AI to Breach Indian University and Steal Over 5,200 Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168425",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hacker-with-limited-skills-used-deepseek-ai",
+      "content_hash": "4a9a99d16dbfdbe3fc588aceec67aa10b4d7de094f3a688c5e3643af042b1d44",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4a9a99d16dbfdbe3fc588aceec67aa10b4d7de094f3a688c5e3643af042b1d44",
+        "FEEDBURNER": "4a9a99d16dbfdbe3fc588aceec67aa10b4d7de094f3a688c5e3643af042b1d44"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T12:00:15.398063+00:00",
+      "first_seen_local": "2026-10-23T07:00:15.398060-05:00",
+      "last_updated_utc": "2026-10-23T12:00:15.398063+00:00",
+      "last_updated_local": "2026-10-23T07:00:15.398060-05:00"
     }
   ]
 }

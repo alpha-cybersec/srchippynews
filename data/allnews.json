@@ -1,7 +1,171 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-23T06:26:53.546258+00:00",
+  "generated_at_local": "2026-10-23T01:26:53.546264-05:00",
+  "article_count": 6,
+  "new_count": 6,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "gbhackers": 4,
+    "cybersecuritynews": 2
+  },
+  "articles": [
+    {
+      "title": "Critical Oracle Java Flaw With CVSS 9.1 Allows Unauthenticated Remote Attacks",
+      "url": "https://gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks/",
+      "published": "Fri, 23 Oct 2026 06:11:29 +0000",
+      "published_utc": "2026-10-23T06:11:29+00:00",
+      "summary": "<p>Oracle issued a security alert for CVE-2026-91403, a critical vulnerability affecting Oracle Java SE and GraalVM. Attackers can exploit this vulnerability remotely without authentication. The advisory, published on October 21, 2026, assigns the flaw a CVSS 3.1 score of 9.1 and advises distrusting impacted intermediate certificate authority certificates associated with eMudhra. The vulnerability specifically impacts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks/\">Critical Oracle Java Flaw With CVSS 9.1 Allows Unauthenticated Remote Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204393",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks",
+      "content_hash": "aa4c7b379a8b6a754bd421f88b93316bf56be4dfc32a64d58784bf5c40b3030c",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aa4c7b379a8b6a754bd421f88b93316bf56be4dfc32a64d58784bf5c40b3030c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
+      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
+      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
+      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
+    },
+    {
+      "title": "Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability",
+      "url": "https://cybersecuritynews.com/emergency-java-update/",
+      "published": "Fri, 23 Oct 2026 06:01:47 +0000",
+      "published_utc": "2026-10-23T06:01:47+00:00",
+      "summary": "<p>Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks affected intermediate certificate authority certificates linked to eMudhra. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-java-update/\">Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168450",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/emergency-java-update",
+      "content_hash": "58eca324eebf5cbcbd168c718fb2c1d527e09a3c7859b09367bab5be81b19876",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "58eca324eebf5cbcbd168c718fb2c1d527e09a3c7859b09367bab5be81b19876"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T06:26:47.923019+00:00",
+      "first_seen_local": "2026-10-23T01:26:47.923016-05:00",
+      "last_updated_utc": "2026-10-23T06:26:47.923019+00:00",
+      "last_updated_local": "2026-10-23T01:26:47.923016-05:00"
+    },
+    {
+      "title": "PwC Allegedly Hit by Everest Ransomware Group, 590GB of Data Stolen",
+      "url": "https://gbhackers.com/pwc-allegedly-hit-by-everest-ransomware/",
+      "published": "Fri, 23 Oct 2026 05:29:07 +0000",
+      "published_utc": "2026-10-23T05:29:07+00:00",
+      "summary": "<p>The Everest ransomware group has reportedly stolen around 590GB of data linked to PwC, one of the Big Four professional services firms. The claim concerns internal human resources and learning systems, but it remains unverified, as no independent reports have confirmed it. A post shared by Crypto India states that the alleged theft includes 108,426 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/pwc-allegedly-hit-by-everest-ransomware/\">PwC Allegedly Hit by Everest Ransomware Group, 590GB of Data Stolen</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204383",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/pwc-allegedly-hit-by-everest-ransomware",
+      "content_hash": "c3af3f9d9fc0fcab3742eb2a3d12d9e07a5f4cfa58200e47ccf0fc21d9534f60",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c3af3f9d9fc0fcab3742eb2a3d12d9e07a5f4cfa58200e47ccf0fc21d9534f60"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
+      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
+      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
+      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
+    },
+    {
+      "title": "Critical Unpatched Linux Kernel Vulnerabilities Accidentally Disclosed, Including Two Remote Code Execution Flaws",
+      "url": "https://gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws/",
+      "published": "Fri, 23 Oct 2026 05:17:52 +0000",
+      "published_utc": "2026-10-23T05:17:52+00:00",
+      "summary": "<p>In October, several unpatched Linux vulnerabilities were disclosed on public mailing lists, revealing technical details before fixes were widely available. These disclosures included two critical flaws in KSMBD that could let remote attackers execute code, along with reports of privilege escalation and information disclosure. Trend Micro’s Zero Day Initiative (ZDI) submitted the reports, prompting Linux [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws/\">Critical Unpatched Linux Kernel Vulnerabilities Accidentally Disclosed, Including Two Remote Code Execution Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204380",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws",
+      "content_hash": "ef9ee1c3cf05d209a8af4eca0b920268f962ae10175eaef01ce3c68c9442d02b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ef9ee1c3cf05d209a8af4eca0b920268f962ae10175eaef01ce3c68c9442d02b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
+      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
+      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
+      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
+    },
+    {
+      "title": "Hacker Turned DeepSeek Into an AI Cybercrime Assistant to Attack Universities and Steal Data",
+      "url": "https://gbhackers.com/deepseek-ai-exploited/",
+      "published": "Fri, 23 Oct 2026 05:16:13 +0000",
+      "published_utc": "2026-10-23T05:16:13+00:00",
+      "summary": "<p>A threat actor using the handle BUGSTER configured DeepSeek V4 as the reasoning engine for an AI-assisted cybercrime operation that targeted organizations in India, including universities. Unit 42, Palo Alto Networks’ threat-intelligence team, says the actor used AI-generated reconnaissance and scripts to brute-force a university website and successfully stole a database containing more than 5,200 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deepseek-ai-exploited/\">Hacker Turned DeepSeek Into an AI Cybercrime Assistant to Attack Universities and Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204367",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/deepseek-ai-exploited",
+      "content_hash": "3fb18936f508dc655b823bb8845dc8338de71f63534b6aa8269dd2b25ce71b45",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3fb18936f508dc655b823bb8845dc8338de71f63534b6aa8269dd2b25ce71b45"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T06:26:47.466345+00:00",
+      "first_seen_local": "2026-10-23T01:26:47.466343-05:00",
+      "last_updated_utc": "2026-10-23T06:26:47.466345+00:00",
+      "last_updated_local": "2026-10-23T01:26:47.466343-05:00"
+    },
+    {
+      "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
+      "url": "https://cybersecuritynews.com/pwc-data-breach-claim/",
+      "published": "Fri, 23 Oct 2026 05:12:54 +0000",
+      "published_utc": "2026-10-23T05:12:54+00:00",
+      "summary": "<p>The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\">PwC Data Breach Claim &#8211; Everest Ransomware Group Claims to Have Stolen 590 GB of Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168430",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/pwc-data-breach-claim",
+      "content_hash": "76ff66431a8ec797aa44745526534345e5294af9393d38fe00673b5e38d6a6f7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "76ff66431a8ec797aa44745526534345e5294af9393d38fe00673b5e38d6a6f7",
+        "FEEDBURNER": "76ff66431a8ec797aa44745526534345e5294af9393d38fe00673b5e38d6a6f7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-23T06:26:47.923019+00:00",
+      "first_seen_local": "2026-10-23T01:26:47.923016-05:00",
+      "last_updated_utc": "2026-10-23T06:26:47.923019+00:00",
+      "last_updated_local": "2026-10-23T01:26:47.923016-05:00"
+    }
+  ]
 }

@@ -5,14 +5,31 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability",
+          "url": "https://cybersecuritynews.com/emergency-java-update/",
+          "published": "Fri, 23 Oct 2026 06:01:47 +0000",
+          "published_utc": "2026-10-23T06:01:47+00:00",
+          "summary": "<p>Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks affected intermediate certificate authority certificates linked to eMudhra. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emergency-java-update/\">Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168450"
+        },
+        {
+          "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
+          "url": "https://cybersecuritynews.com/pwc-data-breach-claim/",
+          "published": "Fri, 23 Oct 2026 05:12:54 +0000",
+          "published_utc": "2026-10-23T05:12:54+00:00",
+          "summary": "<p>The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\">PwC Data Breach Claim &#8211; Everest Ransomware Group Claims to Have Stolen 590 GB of Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168430"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,87 +39,15 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
+      "article_count": 1,
       "articles": [
         {
-          "title": "Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year",
-          "url": "https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/",
-          "published": "Thu, 22 Oct 2026 16:12:01 +0000",
-          "published_utc": "2026-10-22T16:12:01+00:00",
-          "summary": "<p>Contern, Luxembourg, October 22nd, 2026, CyberNewswire Gcore is offering its WAAP Enterprise plan free of charge to any government body or public agency until December 31, 2026. The offer follows the php2shell vulnerabilities that forced public websites offline across Europe earlier this week. Gcore WAAP blocks the php2shell attack path (CVE-2026-109618 and CVE-2026-109619) by default [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/\">Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168371"
-        },
-        {
-          "title": "Major U.S. Banks Detect Unauthorized AI Agents Operating Inside Customer Accounts",
-          "url": "https://cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents/",
-          "published": "Thu, 22 Oct 2026 15:23:07 +0000",
-          "published_utc": "2026-10-22T15:23:07+00:00",
-          "summary": "<p>Major U.S. banks are detecting third-party AI agents inside customer accounts, raising concerns that automated tools could act beyond the instructions customers give them. Some agents have contacted call centers or appeared to attempt independent actions, according to an Axios report published October 22, citing people familiar with the matter. Morgan Stanley, Bank of America, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/u-s-banks-detect-unauthorized-ai-agents/\">Major U.S. Banks Detect Unauthorized AI Agents Operating Inside Customer Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168401"
-        },
-        {
-          "title": "eMudhra Exits Global SSL/TLS Certificate Business Following the Vulnerability Disclosure",
-          "url": "https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/",
-          "published": "Thu, 22 Oct 2026 14:52:11 +0000",
-          "published_utc": "2026-10-22T14:52:11+00:00",
-          "summary": "<p>eMudhra Limited has announced it is&#160;exiting&#160;the global SSL/TLS certificate business after disclosing weak private keys in eight intermediate certificate authority certificates. The October 22, 2026, decision follows emergency browser protections and growing questions about the company’s certificate issuance controls. eMudhra said its other digital trust services remain unaffected. In its official announcement, the company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emudhra-exits-global-ssl-tls-certificate/\">eMudhra Exits Global SSL/TLS Certificate Business Following the Vulnerability Disclosure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168392"
-        },
-        {
-          "title": "Claude Security Now Scans Repositories Continuously to Find Flaws and Track Fixes",
-          "url": "https://cybersecuritynews.com/claude-security-continuous-scans/",
-          "published": "Thu, 22 Oct 2026 14:40:43 +0000",
-          "published_utc": "2026-10-22T14:40:43+00:00",
-          "summary": "<p>Anthropic has updated Claude Security so it can keep checking connected code repositories as they change, rather than waiting for a person to start each scan. The service also tracks reported vulnerabilities after developers make changes, marks them fixed when a correction is detected, and reopens them if they return. The updated product is in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-security-continuous-scans/\">Claude Security Now Scans Repositories Continuously to Find Flaws and Track Fixes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168386"
-        },
-        {
-          "title": "A New Extortion Gang Is Naming Companies on the Dark Web and Counting Down to Data Leaks",
-          "url": "https://cybersecuritynews.com/a-new-extortion-gang/",
-          "published": "Thu, 22 Oct 2026 14:40:34 +0000",
-          "published_utc": "2026-10-22T14:40:34+00:00",
-          "summary": "<p>ScarlettGroup, a newly observed cyber extortion gang, is naming companies on a dark web leak site and using countdown timers to threaten the release of allegedly stolen data. The operation puts public pressure on organizations before their breach claims have been independently verified. The group began appearing in threat monitoring records around September 2026 and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/a-new-extortion-gang/\">A New Extortion Gang Is Naming Companies on the Dark Web and Counting Down to Data Leaks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168376"
-        },
-        {
-          "title": "Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched",
-          "url": "https://cybersecuritynews.com/critical-php-vulnerabilities/",
-          "published": "Thu, 22 Oct 2026 14:14:07 +0000",
-          "published_utc": "2026-10-22T14:14:07+00:00",
-          "summary": "<p>A threat actor tried to exploit two critical PHP vulnerabilities four days before the flaws were publicly disclosed and patched, according to Amazon Threat Intelligence. The activity began on October 17, 2026, while the vulnerabilities were still under coordinated disclosure. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and known together as PHP2Shell, can allow remote [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-php-vulnerabilities/\">Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168361"
-        },
-        {
-          "title": "Hackers Planted Malware on Japanese Cloud Servers, Forcing the Provider to Shut Down Its Service",
-          "url": "https://cybersecuritynews.com/hackers-planted-malware/",
-          "published": "Thu, 22 Oct 2026 13:05:45 +0000",
-          "published_utc": "2026-10-22T13:05:45+00:00",
-          "summary": "<p>Hackers planted malware in customer server environments at Japan’s Onamae.com Desktop Cloud, prompting the provider to begin shutting down servers across every service plan. The company listed 26,739 servers as potentially affected, raising concerns about stored data and login details. That figure describes the possible scope, not a confirmed count of infected systems. The provider [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-planted-malware/\">Hackers Planted Malware on Japanese Cloud Servers, Forcing the Provider to Shut Down Its Service</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168346"
-        },
-        {
-          "title": "North Korean Hackers Use Post-Quantum Encryption to Hide New Malware From Security Tools",
-          "url": "https://cybersecuritynews.com/north-korean-hackers/",
-          "published": "Thu, 22 Oct 2026 12:38:07 +0000",
-          "published_utc": "2026-10-22T12:38:07+00:00",
-          "summary": "<p>North Korean-linked Lazarus hackers are using post-quantum cryptography in a malware delivery chain designed to conceal later-stage payloads from security tools. The technique appeared in Operation FlashHole, a campaign targeting organizations in South Korea. Instead of relying on encryption alone to hide files on disk, the malware uses a modern key-establishment method to protect payloads [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-hackers/\">North Korean Hackers Use Post-Quantum Encryption to Hide New Malware From Security Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168329"
-        },
-        {
-          "title": "A Hacker Tried to Turn an AI Chatbot Into a Tool for Attacking Other Servers",
-          "url": "https://cybersecuritynews.com/ai-chatbot-into-a-tool/",
-          "published": "Thu, 22 Oct 2026 12:15:23 +0000",
-          "published_utc": "2026-10-22T12:15:23+00:00",
-          "summary": "<p>An exposed artificial intelligence platform can give an intruder more than a place to send messages. If it connects to stored credentials, company data, or network tools, the platform may also provide a route toward those resources. A recent honeypot investigation shows how an attacker tried to use an AI agent to study real infrastructure [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-chatbot-into-a-tool/\">A Hacker Tried to Turn an AI Chatbot Into a Tool for Attacking Other Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168321"
-        },
-        {
-          "title": "New Android Malware Replaces Legitimate Banking Apps With Malicious Copies to Bypass Security Checks",
-          "url": "https://cybersecuritynews.com/new-android-malware-2/",
-          "published": "Thu, 22 Oct 2026 11:13:18 +0000",
-          "published_utc": "2026-10-22T11:13:18+00:00",
-          "summary": "<p>A newly identified Android banking Trojan called Hirudo takes an unusual route to financial fraud: it tries to remove a victim’s genuine banking app and install a modified copy in its place. The replacement keeps the bank app’s name and version, but contains extra code designed to interfere with security checks. Instead of relying only [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-android-malware-2/\">New Android Malware Replaces Legitimate Banking Apps With Malicious Copies to Bypass Security Checks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168313"
+          "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
+          "url": "https://cybersecuritynews.com/pwc-data-breach-claim/",
+          "published": "Fri, 23 Oct 2026 05:12:54 +0000",
+          "published_utc": "2026-10-23T05:12:54+00:00",
+          "summary": "<p>The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pwc-data-breach-claim/\">PwC Data Breach Claim &#8211; Everest Ransomware Group Claims to Have Stolen 590 GB of Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168430"
         }
       ],
       "error": ""

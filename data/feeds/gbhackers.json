@@ -5,14 +5,47 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 4,
+      "articles": [
+        {
+          "title": "Critical Oracle Java Flaw With CVSS 9.1 Allows Unauthenticated Remote Attacks",
+          "url": "https://gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks/",
+          "published": "Fri, 23 Oct 2026 06:11:29 +0000",
+          "published_utc": "2026-10-23T06:11:29+00:00",
+          "summary": "<p>Oracle issued a security alert for CVE-2026-91403, a critical vulnerability affecting Oracle Java SE and GraalVM. Attackers can exploit this vulnerability remotely without authentication. The advisory, published on October 21, 2026, assigns the flaw a CVSS 3.1 score of 9.1 and advises distrusting impacted intermediate certificate authority certificates associated with eMudhra. The vulnerability specifically impacts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-oracle-java-flaw-with-cvss-9-1-allows-unauthenticated-remote-attacks/\">Critical Oracle Java Flaw With CVSS 9.1 Allows Unauthenticated Remote Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204393"
+        },
+        {
+          "title": "PwC Allegedly Hit by Everest Ransomware Group, 590GB of Data Stolen",
+          "url": "https://gbhackers.com/pwc-allegedly-hit-by-everest-ransomware/",
+          "published": "Fri, 23 Oct 2026 05:29:07 +0000",
+          "published_utc": "2026-10-23T05:29:07+00:00",
+          "summary": "<p>The Everest ransomware group has reportedly stolen around 590GB of data linked to PwC, one of the Big Four professional services firms. The claim concerns internal human resources and learning systems, but it remains unverified, as no independent reports have confirmed it. A post shared by Crypto India states that the alleged theft includes 108,426 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/pwc-allegedly-hit-by-everest-ransomware/\">PwC Allegedly Hit by Everest Ransomware Group, 590GB of Data Stolen</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204383"
+        },
+        {
+          "title": "Critical Unpatched Linux Kernel Vulnerabilities Accidentally Disclosed, Including Two Remote Code Execution Flaws",
+          "url": "https://gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws/",
+          "published": "Fri, 23 Oct 2026 05:17:52 +0000",
+          "published_utc": "2026-10-23T05:17:52+00:00",
+          "summary": "<p>In October, several unpatched Linux vulnerabilities were disclosed on public mailing lists, revealing technical details before fixes were widely available. These disclosures included two critical flaws in KSMBD that could let remote attackers execute code, along with reports of privilege escalation and information disclosure. Trend Micro’s Zero Day Initiative (ZDI) submitted the reports, prompting Linux [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-unpatched-linux-kernel-vulnerabilities-accidentally-disclosed-including-two-remote-code-execution-flaws/\">Critical Unpatched Linux Kernel Vulnerabilities Accidentally Disclosed, Including Two Remote Code Execution Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204380"
+        },
+        {
+          "title": "Hacker Turned DeepSeek Into an AI Cybercrime Assistant to Attack Universities and Steal Data",
+          "url": "https://gbhackers.com/deepseek-ai-exploited/",
+          "published": "Fri, 23 Oct 2026 05:16:13 +0000",
+          "published_utc": "2026-10-23T05:16:13+00:00",
+          "summary": "<p>A threat actor using the handle BUGSTER configured DeepSeek V4 as the reasoning engine for an AI-assisted cybercrime operation that targeted organizations in India, including universities. Unit 42, Palo Alto Networks’ threat-intelligence team, says the actor used AI-generated reconnaissance and scripts to brute-force a university website and successfully stole a database containing more than 5,200 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deepseek-ai-exploited/\">Hacker Turned DeepSeek Into an AI Cybercrime Assistant to Attack Universities and Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204367"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -22,89 +55,8 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year",
-          "url": "https://gbhackers.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/",
-          "published": "Thu, 22 Oct 2026 16:13:17 +0000",
-          "published_utc": "2026-10-22T16:13:17+00:00",
-          "summary": "<p>Contern, Luxembourg, October 22nd, 2026, CyberNewswire Gcore is offering its WAAP Enterprise plan free of charge to any government body or public agency until December 31, 2026. The offer follows the php2shell vulnerabilities that forced public websites offline across Europe earlier this week. Gcore WAAP blocks the php2shell attack path (CVE-2026-109618 and CVE-2026-109619) by default [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/\">Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204341"
-        },
-        {
-          "title": "Cybercriminals Used Claude and Grok to Launch Automated Attacks Against Banks",
-          "url": "https://gbhackers.com/claude-and-grok-exploited/",
-          "published": "Thu, 22 Oct 2026 13:37:13 +0000",
-          "published_utc": "2026-10-22T13:37:13+00:00",
-          "summary": "<p>Cybercriminals used a multi-agent system called CARLIY0S to coordinate attacks against more than 400 financial institutions and payment providers across Latin America. The system combined commercial AI models including Anthropic’s Claude, xAI’s Grok and Moonshot AI’s Kimi with automation and shared operational infrastructure. Straiker says its findings came from artifacts in the group’s working environment, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-and-grok-exploited/\">Cybercriminals Used Claude and Grok to Launch Automated Attacks Against Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204326"
-        },
-        {
-          "title": "K0T Hackers Target FortiGate, FortiWeb and Palo Alto GlobalProtect in Credential Theft Campaign",
-          "url": "https://gbhackers.com/k0t-credential-theft/",
-          "published": "Thu, 22 Oct 2026 13:03:31 +0000",
-          "published_utc": "2026-10-22T13:03:31+00:00",
-          "summary": "<p>A widespread campaign targeting FortiGate, FortiWeb, and Palo Alto GlobalProtect appliances to steal credentials, establish persistent access, and exfiltrate corporate data. The investigation associates the activity with an operator known as k0t and identifies more than 70,000 exposed credentials across network-device records, LDAP dumps and other operational artifacts. Researchers identified potential connections to the FortiBleed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/k0t-credential-theft/\">K0T Hackers Target FortiGate, FortiWeb and Palo Alto GlobalProtect in Credential Theft Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204312"
-        },
-        {
-          "title": "Critical Cisco Expressway Flaw Lets Attackers Execute Commands as Root",
-          "url": "https://gbhackers.com/critical-cisco-expressway-flaw-2/",
-          "published": "Thu, 22 Oct 2026 12:32:18 +0000",
-          "published_utc": "2026-10-22T12:32:18+00:00",
-          "summary": "<p>Cisco has released security updates to address a critical vulnerability in its Expressway Series. This flaw, tracked as CVE-2026-76466, could allow unauthenticated remote attackers to execute arbitrary operating system commands with root privileges. It has a CVSS v3.1 base score of 9.8 and affects vulnerable Expressway deployments configured in a cluster. The advisory was published [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-cisco-expressway-flaw-2/\">Critical Cisco Expressway Flaw Lets Attackers Execute Commands as Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204305"
-        },
-        {
-          "title": "New ScarlettGroup Extortion Gang Threatens to Leak Company Data Using Dark Web Countdown Timers",
-          "url": "https://gbhackers.com/scarlettgroup-extortion-campaign/",
-          "published": "Thu, 22 Oct 2026 12:29:20 +0000",
-          "published_utc": "2026-10-22T12:29:20+00:00",
-          "summary": "<p>An emerging cyber-extortion operation named ScarlettGroup is using a Tor-based leak site and public countdown timers to pressure organizations over allegedly compromised data. Threat-monitoring records described in Foresiet’s research place its emergence around September 2026, with visibility increasing during October as alleged victim listings and underground forum activity attracted attention. Unlike conventional ransomware campaigns, ScarlettGroup’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/scarlettgroup-extortion-campaign/\">New ScarlettGroup Extortion Gang Threatens to Leak Company Data Using Dark Web Countdown Timers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204301"
-        },
-        {
-          "title": "Scammers Exploit Dell and Staples Order Emails to Bypass Traditional Phishing Detection",
-          "url": "https://gbhackers.com/dell-and-staples-emails-exploited/",
-          "published": "Thu, 22 Oct 2026 12:10:15 +0000",
-          "published_utc": "2026-10-22T12:10:15+00:00",
-          "summary": "<p>Scammers are abusing legitimate Dell and Staples order notifications to deliver callback phishing lures, embedding fraudulent helpline numbers inside transactional emails that pass authentication checks. Cisco Talos observed roughly 1,400 messages across two campaigns, highlighting how trusted retail infrastructure can carry attacker-controlled instructions without relying on spoofed senders or malicious links. The activity extends a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dell-and-staples-emails-exploited/\">Scammers Exploit Dell and Staples Order Emails to Bypass Traditional Phishing Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204265"
-        },
-        {
-          "title": "Fortinet Releases Critical Security Updates for FortiOS, FortiManager, and FortiAnalyzer",
-          "url": "https://gbhackers.com/fortinet-releases-critical-security-updates/",
-          "published": "Thu, 22 Oct 2026 11:26:55 +0000",
-          "published_utc": "2026-10-22T11:26:55+00:00",
-          "summary": "<p>Fortinet has announced coordinated security hardening updates for FortiOS, FortiManager, and FortiAnalyzer, scheduled for October 22, 2026. These updates aim to address critical and high-severity vulnerabilities. The company urges customers to prioritize updating internet-facing systems and treat these upgrades as urgent, not routine maintenance. In an announcement on October 21, Fortinet&#8217;s Chief Information Security Officer, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-releases-critical-security-updates/\">Fortinet Releases Critical Security Updates for FortiOS, FortiManager, and FortiAnalyzer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204272"
-        },
-        {
-          "title": "Samsung and Vizio Smart TVs Continue Sending Viewing Data Even After Users Opt Out",
-          "url": "https://gbhackers.com/samsung-and-vizio-smart-tvs-continue-sending-viewing-data/",
-          "published": "Thu, 22 Oct 2026 11:13:22 +0000",
-          "published_utc": "2026-10-22T11:13:22+00:00",
-          "summary": "<p>Samsung and Vizio smart TVs continued sending traffic consistent with automatic content recognition (ACR) even after researchers disabled the feature. This raises concerns about how reliable privacy controls are at preventing surveillance of viewing. However, encrypted connections made it impossible for researchers to confirm whether those transmissions contained viewing data or whether manufacturers retained them. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/samsung-and-vizio-smart-tvs-continue-sending-viewing-data/\">Samsung and Vizio Smart TVs Continue Sending Viewing Data Even After Users Opt Out</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204221"
-        },
-        {
-          "title": "Hackers Used AI-Generated Scripts to Break Into Government Linux Servers and Hunt for Secrets",
-          "url": "https://gbhackers.com/ai-generated-scripts/",
-          "published": "Thu, 22 Oct 2026 10:58:41 +0000",
-          "published_utc": "2026-10-22T10:58:41+00:00",
-          "summary": "<p>Hackers used apparently AI-generated scripts to compromise government Linux infrastructure, harvest credentials and pursue sensitive databases and official mailboxes in a campaign tracked as CL-UNK-1211. The investigation, published October 15, linked the operation to government entities and state-affiliated infrastructure. Attribution remains unresolved: under Unit 42’s attribution framework, the UNK designation means researchers have not established [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-generated-scripts/\">Hackers Used AI-Generated Scripts to Break Into Government Linux Servers and Hunt for Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204254"
-        },
-        {
-          "title": "Hackers Use Fake App Updates to Replace Legitimate Banking Apps With Malicious Versions",
-          "url": "https://gbhackers.com/banking-app-hijacking/",
-          "published": "Thu, 22 Oct 2026 10:16:56 +0000",
-          "published_utc": "2026-10-22T10:16:56+00:00",
-          "summary": "<p>Hirudo, an Android banking remote-access trojan (RAT) that can steal credentials and remotely control an infected phone. Its most unusual feature is the ability to replace selected genuine banking apps with modified copies designed to interfere with security checks from inside the app itself. Hirudo uses a two-app setup. Victims first install a convincing shopping [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/banking-app-hijacking/\">Hackers Use Fake App Updates to Replace Legitimate Banking Apps With Malicious Versions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204229"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

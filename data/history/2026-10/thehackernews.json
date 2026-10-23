@@ -2,35 +2,64 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 187,
+  "article_count": 188,
   "articles": [
     {
-      "title": "PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
-      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "published": "Fri, 23 Oct 2026 11:25:43 +0000",
-      "published_utc": "2026-10-23T11:25:43+00:00",
-      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880",
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "url": "http://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "published": "Fri, 23 Oct 2026 13:50:56 +0000",
+      "published_utc": "2026-10-23T13:50:56+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6104384708056291039",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "content_hash": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
+      "article_key": "thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "content_hash": "f7aaf191ecbe15063368f72e12875991d5d6c84f24341a1a8d04c4ffa0510bde",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
-        "FEEDBURNER": "f1a5a234cb431b73feca5775dbfed9730dabac56462538174fd3396301fc714f"
+        "ORIGINAL": "f7aaf191ecbe15063368f72e12875991d5d6c84f24341a1a8d04c4ffa0510bde",
+        "FEEDBURNER": "f7aaf191ecbe15063368f72e12875991d5d6c84f24341a1a8d04c4ffa0510bde"
       },
-      "feed_comparison": "CONTENT_DIFFERENT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
+      "first_seen_utc": "2026-10-23T16:58:16.941919+00:00",
+      "first_seen_local": "2026-10-23T11:58:16.941917-05:00",
+      "last_updated_utc": "2026-10-23T16:58:16.941919+00:00",
+      "last_updated_local": "2026-10-23T11:58:16.941917-05:00"
+    },
+    {
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+      "url": "http://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "published": "Fri, 23 Oct 2026 11:25:43 +0000",
+      "published_utc": "2026-10-23T11:25:43+00:00",
+      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "content_hash": "006a7ebb6e3181a77b43914770f30625085289fecf2f75c3c53b66bb4dfc63af",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "006a7ebb6e3181a77b43914770f30625085289fecf2f75c3c53b66bb4dfc63af",
+        "FEEDBURNER": "006a7ebb6e3181a77b43914770f30625085289fecf2f75c3c53b66bb4dfc63af"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "UPDATED",
+      "previous_content_hash": "e4e6d045e545251a633de8f3d27f1aa3ebc7e23735b8419507a5ce8c9d7ba9d9",
+      "version": 2,
       "first_seen_utc": "2026-10-23T12:00:21.647612+00:00",
       "first_seen_local": "2026-10-23T07:00:21.647609-05:00",
-      "last_updated_utc": "2026-10-23T12:00:21.647612+00:00",
-      "last_updated_local": "2026-10-23T07:00:21.647609-05:00"
+      "last_updated_utc": "2026-10-23T16:58:16.941919+00:00",
+      "last_updated_local": "2026-10-23T11:58:16.941917-05:00"
     },
     {
       "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",

@@ -1,7 +1,65 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-24T07:12:08.315971+00:00",
+  "generated_at_local": "2026-10-24T02:12:08.315979-05:00",
+  "article_count": 2,
+  "new_count": 2,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "thehackernews": 1,
+    "cybersecuritynews": 1
+  },
+  "articles": [
+    {
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "url": "http://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "published": "Sat, 24 Oct 2026 06:25:57 +0000",
+      "published_utc": "2026-10-24T06:25:57+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4386106142518563152",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "content_hash": "0615a4aee6c07964314472275cccd852c754e671957557ccc2dcc998e1a8280c",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0615a4aee6c07964314472275cccd852c754e671957557ccc2dcc998e1a8280c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T07:12:08.306606+00:00",
+      "first_seen_local": "2026-10-24T02:12:08.306604-05:00",
+      "last_updated_utc": "2026-10-24T07:12:08.306606+00:00",
+      "last_updated_local": "2026-10-24T02:12:08.306604-05:00"
+    },
+    {
+      "title": "OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests",
+      "url": "https://cybersecuritynews.com/openai-ai-agents-bypass-security/",
+      "published": "Sat, 24 Oct 2026 05:43:26 +0000",
+      "published_utc": "2026-10-24T05:43:26+00:00",
+      "summary": "<p>OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them. The company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\">OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168598",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-ai-agents-bypass-security",
+      "content_hash": "2bda9639a3c3bf3bd92cd50430513d93bc23ab6f35df130931f9cdf2c094e921",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "2bda9639a3c3bf3bd92cd50430513d93bc23ab6f35df130931f9cdf2c094e921"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T07:12:02.601759+00:00",
+      "first_seen_local": "2026-10-24T02:12:02.601757-05:00",
+      "last_updated_utc": "2026-10-24T07:12:02.601759+00:00",
+      "last_updated_local": "2026-10-24T02:12:02.601757-05:00"
+    }
+  ]
 }

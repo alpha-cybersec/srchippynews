@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
-          "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
-          "published": "Fri, 23 Oct 2026 15:20:07 +0000",
-          "published_utc": "2026-10-23T15:20:07+00:00",
-          "summary": "<p>WhatsApp users in India may face access issues without a registered SIM under new government rules expected to take effect on January 1, 2027. Messaging platforms reportedly have until December 31, 2026, to comply. The change could affect people using accounts on secondary phones, tablets, and devices without an active registered SIM. The requirement, known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/\">WhatsApp May Stop Working Without Registered SIM Under New Rules</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168538"
-        },
-        {
-          "title": "Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands",
-          "url": "https://cybersecuritynews.com/okta-access-gateway-flaw/",
-          "published": "Fri, 23 Oct 2026 15:19:23 +0000",
-          "published_utc": "2026-10-23T15:19:23+00:00",
-          "summary": "<p>Okta has disclosed a critical security flaw in Okta Access Gateway that lets an authenticated administrator run system commands through the appliance’s Admin Console. Tracked as CVE-2026-115547, the vulnerability affects versions before 2026.10.2 and has a CVSS v3.1 score of 9.1, according to the October 22, 2026 advisory. The issue involves weak input validation when [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/okta-access-gateway-flaw/\">Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168516"
-        },
-        {
-          "title": "HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices",
-          "url": "https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/",
-          "published": "Fri, 23 Oct 2026 14:53:59 +0000",
-          "published_utc": "2026-10-23T14:53:59+00:00",
-          "summary": "<p>Hewlett Packard Enterprise has released security patches for multiple vulnerabilities in Aruba Networking wireless software that could let attackers take complete control of affected devices. The flaws affect AOS-8 and AOS-10 deployments across Mobility Conductors, Controllers, Gateways, and access points. Several allow attacks without a valid login, making prompt patching a priority for network administrators. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/\">HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168509"
-        },
-        {
-          "title": "Japanese Game Maker Capcom Has Confirmed – 11,774,247 Customer Records Exposed",
-          "url": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
-          "published": "Fri, 23 Oct 2026 14:37:14 +0000",
-          "published_utc": "2026-10-23T14:37:14+00:00",
-          "summary": "<p>Capcom has announced plans to notify customers after unauthorized access to its CAPCOM ID service affected 11,774,247 records worldwide. The Japanese game publisher disclosed the incident on October 22, 2026, saying the exposed information included email addresses and details of account activity. Attackers also changed passwords on 196 accounts without permission. Capcom has reset those [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/\">Japanese Game Maker Capcom Has Confirmed &#8211; 11,774,247 Customer Records Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168491"
-        },
-        {
-          "title": "Multiple Waves of DDoS Attacks Caused This Week’s Outage in North Korea",
-          "url": "https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/",
-          "published": "Fri, 23 Oct 2026 14:22:35 +0000",
-          "published_utc": "2026-10-23T14:22:35+00:00",
-          "summary": "<p>Multiple waves of DDoS attacks disrupted North Korea’s public internet services this week, knocking major state websites offline. Kentik’s internet analysis director Doug Madory linked the outages to sudden traffic floods from Vietnam, the Philippines, Venezuela, and other countries. The traffic began at 02:01 UTC on October 20, making the country’s websites unreachable. The disruption [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/\">Multiple Waves of DDoS Attacks Caused This Week&#8217;s Outage in North Korea</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168457"
-        },
-        {
-          "title": "New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data",
-          "url": "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/",
-          "published": "Fri, 23 Oct 2026 14:11:40 +0000",
-          "published_utc": "2026-10-23T14:11:40+00:00",
-          "summary": "<p>Researchers has demonstrated Node2Shell, a working exploit that lets an attacker run code inside a Node.js application through specially crafted, Brotli-compressed data. The research targets CVE-2026-111497, a high-severity memory flaw in the Brotli decoder bundled with Node.js. The Node.js security advisory, published on October 21, 2026, confirms that the flaw can allow remote code execution [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/\">New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168449"
-        },
-        {
-          "title": "Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access",
-          "url": "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/",
-          "published": "Fri, 23 Oct 2026 13:57:11 +0000",
-          "published_utc": "2026-10-23T13:57:11+00:00",
-          "summary": "<p>Hackers are actively exploiting a critical SQL injection flaw in VeloCloud Orchestrator (VCO) that allows logged-in users to gain superuser operator access. Arista Networks disclosed the vulnerability on October 22, 2026, warning that successful attacks could compromise the orchestrator, its host, and the data it manages. Arista has already patched hosted deployments, including Dedicated instances. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/\">Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168427"
-        },
-        {
-          "title": "StealC Malware Returns as New Stadia RAT to Steal Passwords and Secretly Control Windows PCs",
-          "url": "https://cybersecuritynews.com/stealc-malware/",
-          "published": "Fri, 23 Oct 2026 13:40:19 +0000",
-          "published_utc": "2026-10-23T13:40:19+00:00",
-          "summary": "<p>The seller behind StealC has returned with Stadia, a Windows remote access trojan that combines password theft with hidden desktop control. Advertised on October 16, 2026, the malware expands beyond stealing data, allowing criminals to run commands, browse files, manage processes, and load more malicious software. The return follows June’s Operation Endgame disruption. Authorities seized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/stealc-malware/\">StealC Malware Returns as New Stadia RAT to Steal Passwords and Secretly Control Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168549"
-        },
-        {
-          "title": "Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware",
-          "url": "https://cybersecuritynews.com/critical-php2shell-exploit-code/",
-          "published": "Fri, 23 Oct 2026 13:00:37 +0000",
-          "published_utc": "2026-10-23T13:00:37+00:00",
-          "summary": "<p>Public proof-of-concept code for two critical PHP vulnerabilities is now available, and attackers have tried to use the flaws to deploy botnet malware. Known together as PHP2Shell, CVE-2026-109618 and CVE-2026-109619 both carry a CVSS severity score of 9.2 and can allow attackers to run code without logging in. However, attempted exploitation must not be confused [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-php2shell-exploit-code/\">Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168522"
-        },
-        {
-          "title": "Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems",
-          "url": "https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/",
-          "published": "Fri, 23 Oct 2026 11:23:35 +0000",
-          "published_utc": "2026-10-23T11:23:35+00:00",
-          "summary": "<p>A new UEFI bootkit called BlackX has been used in cyberespionage attacks against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan. The malware targets Secure Boot, a feature designed to help stop untrusted software from running before Windows starts. Researchers say the infected computers had received Windows updates, but a key Secure Boot protection had not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/\">Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168482"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -103,87 +22,15 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
+      "article_count": 1,
       "articles": [
         {
-          "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
-          "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
-          "published": "Fri, 23 Oct 2026 15:20:07 +0000",
-          "published_utc": "2026-10-23T15:20:07+00:00",
-          "summary": "<p>WhatsApp users in India may face access issues without a registered SIM under new government rules expected to take effect on January 1, 2027. Messaging platforms reportedly have until December 31, 2026, to comply. The change could affect people using accounts on secondary phones, tablets, and devices without an active registered SIM. The requirement, known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/\">WhatsApp May Stop Working Without Registered SIM Under New Rules</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168538"
-        },
-        {
-          "title": "Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands",
-          "url": "https://cybersecuritynews.com/okta-access-gateway-flaw/",
-          "published": "Fri, 23 Oct 2026 15:19:23 +0000",
-          "published_utc": "2026-10-23T15:19:23+00:00",
-          "summary": "<p>Okta has disclosed a critical security flaw in Okta Access Gateway that lets an authenticated administrator run system commands through the appliance’s Admin Console. Tracked as CVE-2026-115547, the vulnerability affects versions before 2026.10.2 and has a CVSS v3.1 score of 9.1, according to the October 22, 2026 advisory. The issue involves weak input validation when [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/okta-access-gateway-flaw/\">Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168516"
-        },
-        {
-          "title": "HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices",
-          "url": "https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/",
-          "published": "Fri, 23 Oct 2026 14:53:59 +0000",
-          "published_utc": "2026-10-23T14:53:59+00:00",
-          "summary": "<p>Hewlett Packard Enterprise has released security patches for multiple vulnerabilities in Aruba Networking wireless software that could let attackers take complete control of affected devices. The flaws affect AOS-8 and AOS-10 deployments across Mobility Conductors, Controllers, Gateways, and access points. Several allow attacks without a valid login, making prompt patching a priority for network administrators. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/\">HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168509"
-        },
-        {
-          "title": "Japanese Game Maker Capcom Has Confirmed – 11,774,247 Customer Records Exposed",
-          "url": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
-          "published": "Fri, 23 Oct 2026 14:37:14 +0000",
-          "published_utc": "2026-10-23T14:37:14+00:00",
-          "summary": "<p>Capcom has announced plans to notify customers after unauthorized access to its CAPCOM ID service affected 11,774,247 records worldwide. The Japanese game publisher disclosed the incident on October 22, 2026, saying the exposed information included email addresses and details of account activity. Attackers also changed passwords on 196 accounts without permission. Capcom has reset those [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/\">Japanese Game Maker Capcom Has Confirmed &#8211; 11,774,247 Customer Records Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168491"
-        },
-        {
-          "title": "Multiple Waves of DDoS Attacks Caused This Week’s Outage in North Korea",
-          "url": "https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/",
-          "published": "Fri, 23 Oct 2026 14:22:35 +0000",
-          "published_utc": "2026-10-23T14:22:35+00:00",
-          "summary": "<p>Multiple waves of DDoS attacks disrupted North Korea’s public internet services this week, knocking major state websites offline. Kentik’s internet analysis director Doug Madory linked the outages to sudden traffic floods from Vietnam, the Philippines, Venezuela, and other countries. The traffic began at 02:01 UTC on October 20, making the country’s websites unreachable. The disruption [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/\">Multiple Waves of DDoS Attacks Caused This Week&#8217;s Outage in North Korea</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168457"
-        },
-        {
-          "title": "New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data",
-          "url": "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/",
-          "published": "Fri, 23 Oct 2026 14:11:40 +0000",
-          "published_utc": "2026-10-23T14:11:40+00:00",
-          "summary": "<p>Researchers has demonstrated Node2Shell, a working exploit that lets an attacker run code inside a Node.js application through specially crafted, Brotli-compressed data. The research targets CVE-2026-111497, a high-severity memory flaw in the Brotli decoder bundled with Node.js. The Node.js security advisory, published on October 21, 2026, confirms that the flaw can allow remote code execution [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/\">New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168449"
-        },
-        {
-          "title": "Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access",
-          "url": "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/",
-          "published": "Fri, 23 Oct 2026 13:57:11 +0000",
-          "published_utc": "2026-10-23T13:57:11+00:00",
-          "summary": "<p>Hackers are actively exploiting a critical SQL injection flaw in VeloCloud Orchestrator (VCO) that allows logged-in users to gain superuser operator access. Arista Networks disclosed the vulnerability on October 22, 2026, warning that successful attacks could compromise the orchestrator, its host, and the data it manages. Arista has already patched hosted deployments, including Dedicated instances. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/\">Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168427"
-        },
-        {
-          "title": "StealC Malware Returns as New Stadia RAT to Steal Passwords and Secretly Control Windows PCs",
-          "url": "https://cybersecuritynews.com/stealc-malware/",
-          "published": "Fri, 23 Oct 2026 13:40:19 +0000",
-          "published_utc": "2026-10-23T13:40:19+00:00",
-          "summary": "<p>The seller behind StealC has returned with Stadia, a Windows remote access trojan that combines password theft with hidden desktop control. Advertised on October 16, 2026, the malware expands beyond stealing data, allowing criminals to run commands, browse files, manage processes, and load more malicious software. The return follows June’s Operation Endgame disruption. Authorities seized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/stealc-malware/\">StealC Malware Returns as New Stadia RAT to Steal Passwords and Secretly Control Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168549"
-        },
-        {
-          "title": "Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware",
-          "url": "https://cybersecuritynews.com/critical-php2shell-exploit-code/",
-          "published": "Fri, 23 Oct 2026 13:00:37 +0000",
-          "published_utc": "2026-10-23T13:00:37+00:00",
-          "summary": "<p>Public proof-of-concept code for two critical PHP vulnerabilities is now available, and attackers have tried to use the flaws to deploy botnet malware. Known together as PHP2Shell, CVE-2026-109618 and CVE-2026-109619 both carry a CVSS severity score of 9.2 and can allow attackers to run code without logging in. However, attempted exploitation must not be confused [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-php2shell-exploit-code/\">Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168522"
-        },
-        {
-          "title": "Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems",
-          "url": "https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/",
-          "published": "Fri, 23 Oct 2026 11:23:35 +0000",
-          "published_utc": "2026-10-23T11:23:35+00:00",
-          "summary": "<p>A new UEFI bootkit called BlackX has been used in cyberespionage attacks against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan. The malware targets Secure Boot, a feature designed to help stop untrusted software from running before Windows starts. Researchers say the infected computers had received Windows updates, but a key Secure Boot protection had not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/\">Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168482"
+          "title": "OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests",
+          "url": "https://cybersecuritynews.com/openai-ai-agents-bypass-security/",
+          "published": "Sat, 24 Oct 2026 05:43:26 +0000",
+          "published_utc": "2026-10-24T05:43:26+00:00",
+          "summary": "<p>OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them. The company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\">OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168598"
         }
       ],
       "error": ""

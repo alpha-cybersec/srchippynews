@@ -10,87 +10,15 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 10,
+      "article_count": 1,
       "articles": [
         {
-          "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-          "url": "http://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-          "published": "Fri, 23 Oct 2026 18:50:13 +0000",
-          "published_utc": "2026-10-23T18:50:13+00:00",
-          "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4487156149905491921"
-        },
-        {
-          "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-          "url": "http://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-          "published": "Fri, 23 Oct 2026 17:54:08 +0000",
-          "published_utc": "2026-10-23T17:54:08+00:00",
-          "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4267460673198213388"
-        },
-        {
-          "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-          "url": "http://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-          "published": "Fri, 23 Oct 2026 17:50:47 +0000",
-          "published_utc": "2026-10-23T17:50:47+00:00",
-          "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3599751117988816832"
-        },
-        {
-          "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-          "url": "http://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-          "published": "Fri, 23 Oct 2026 13:50:56 +0000",
-          "published_utc": "2026-10-23T13:50:56+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6104384708056291039"
-        },
-        {
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-          "url": "http://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-          "published": "Fri, 23 Oct 2026 11:25:43 +0000",
-          "published_utc": "2026-10-23T11:25:43+00:00",
-          "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6350282685356135880"
-        },
-        {
-          "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-          "url": "http://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-          "published": "Fri, 23 Oct 2026 11:11:23 +0000",
-          "published_utc": "2026-10-23T11:11:23+00:00",
-          "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1966949090770830834"
-        },
-        {
-          "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-          "url": "http://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-          "published": "Fri, 23 Oct 2026 09:36:00 +0000",
-          "published_utc": "2026-10-23T09:36:00+00:00",
-          "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7981088691465646814"
-        },
-        {
-          "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-          "url": "http://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-          "published": "Fri, 23 Oct 2026 08:40:43 +0000",
-          "published_utc": "2026-10-23T08:40:43+00:00",
-          "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5525313364698921339"
-        },
-        {
-          "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-          "url": "http://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-          "published": "Fri, 23 Oct 2026 08:35:45 +0000",
-          "published_utc": "2026-10-23T08:35:45+00:00",
-          "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4552772437260918552"
-        },
-        {
-          "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-          "url": "http://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "published": "Fri, 23 Oct 2026 07:40:45 +0000",
-          "published_utc": "2026-10-23T07:40:45+00:00",
-          "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6901394940642682159"
+          "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+          "url": "http://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+          "published": "Sat, 24 Oct 2026 06:25:57 +0000",
+          "published_utc": "2026-10-24T06:25:57+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4386106142518563152"
         }
       ],
       "error": ""
@@ -103,89 +31,8 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-          "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-          "published": "Sat, 24 Oct 2026 00:20:13 +0530",
-          "published_utc": "2026-10-23T18:50:13+00:00",
-          "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-          "id": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-        },
-        {
-          "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-          "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-          "published": "Fri, 23 Oct 2026 23:24:08 +0530",
-          "published_utc": "2026-10-23T17:54:08+00:00",
-          "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any",
-          "id": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
-        },
-        {
-          "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-          "published": "Fri, 23 Oct 2026 23:20:47 +0530",
-          "published_utc": "2026-10-23T17:50:47+00:00",
-          "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-          "id": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
-        },
-        {
-          "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-          "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-          "published": "Fri, 23 Oct 2026 19:20:56 +0530",
-          "published_utc": "2026-10-23T13:50:56+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-          "id": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
-        },
-        {
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-          "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-          "published": "Fri, 23 Oct 2026 16:55:43 +0530",
-          "published_utc": "2026-10-23T11:25:43+00:00",
-          "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-          "id": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
-        },
-        {
-          "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-          "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-          "published": "Fri, 23 Oct 2026 16:41:23 +0530",
-          "published_utc": "2026-10-23T11:11:23+00:00",
-          "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
-          "id": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
-        },
-        {
-          "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-          "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-          "published": "Fri, 23 Oct 2026 15:06:00 +0530",
-          "published_utc": "2026-10-23T09:36:00+00:00",
-          "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-          "id": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
-        },
-        {
-          "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-          "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-          "published": "Fri, 23 Oct 2026 14:10:43 +0530",
-          "published_utc": "2026-10-23T08:40:43+00:00",
-          "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
-          "id": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
-        },
-        {
-          "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-          "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-          "published": "Fri, 23 Oct 2026 14:05:45 +0530",
-          "published_utc": "2026-10-23T08:35:45+00:00",
-          "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
-          "id": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
-        },
-        {
-          "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-          "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-          "published": "Fri, 23 Oct 2026 13:10:45 +0530",
-          "published_utc": "2026-10-23T07:40:45+00:00",
-          "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-          "id": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

@@ -1,65 +1,322 @@
 {
-  "generated_at_utc": "2026-10-24T07:12:08.315971+00:00",
-  "generated_at_local": "2026-10-24T02:12:08.315979-05:00",
-  "article_count": 2,
-  "new_count": 2,
+  "generated_at_utc": "2026-10-24T12:11:47.219124+00:00",
+  "generated_at_local": "2026-10-24T07:11:47.219133-05:00",
+  "article_count": 11,
+  "new_count": 11,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1,
-    "cybersecuritynews": 1
+    "thehackernews": 4,
+    "gbhackers": 5,
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "url": "http://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "published": "Sat, 24 Oct 2026 06:25:57 +0000",
-      "published_utc": "2026-10-24T06:25:57+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4386106142518563152",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "http://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "published": "Sat, 24 Oct 2026 11:09:29 +0000",
+      "published_utc": "2026-10-24T11:09:29+00:00",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5262467545044996107",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "content_hash": "0615a4aee6c07964314472275cccd852c754e671957557ccc2dcc998e1a8280c",
+      "article_key": "thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "content_hash": "a059ac88394f12732b4ba43fe596c5bccce8b211dd8c31cfed5fc6f60275edff",
       "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0615a4aee6c07964314472275cccd852c754e671957557ccc2dcc998e1a8280c"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-24T07:12:08.306606+00:00",
-      "first_seen_local": "2026-10-24T02:12:08.306604-05:00",
-      "last_updated_utc": "2026-10-24T07:12:08.306606+00:00",
-      "last_updated_local": "2026-10-24T02:12:08.306604-05:00"
-    },
-    {
-      "title": "OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests",
-      "url": "https://cybersecuritynews.com/openai-ai-agents-bypass-security/",
-      "published": "Sat, 24 Oct 2026 05:43:26 +0000",
-      "published_utc": "2026-10-24T05:43:26+00:00",
-      "summary": "<p>OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them. The company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\">OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=168598",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/openai-ai-agents-bypass-security",
-      "content_hash": "2bda9639a3c3bf3bd92cd50430513d93bc23ab6f35df130931f9cdf2c094e921",
-      "detected_via": [
+        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "2bda9639a3c3bf3bd92cd50430513d93bc23ab6f35df130931f9cdf2c094e921"
+        "ORIGINAL": "a059ac88394f12732b4ba43fe596c5bccce8b211dd8c31cfed5fc6f60275edff",
+        "FEEDBURNER": "a059ac88394f12732b4ba43fe596c5bccce8b211dd8c31cfed5fc6f60275edff"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-24T07:12:02.601759+00:00",
-      "first_seen_local": "2026-10-24T02:12:02.601757-05:00",
-      "last_updated_utc": "2026-10-24T07:12:02.601759+00:00",
-      "last_updated_local": "2026-10-24T02:12:02.601757-05:00"
+      "first_seen_utc": "2026-10-24T12:11:47.208511+00:00",
+      "first_seen_local": "2026-10-24T07:11:47.208508-05:00",
+      "last_updated_utc": "2026-10-24T12:11:47.208511+00:00",
+      "last_updated_local": "2026-10-24T07:11:47.208508-05:00"
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "url": "http://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "published": "Sat, 24 Oct 2026 11:03:33 +0000",
+      "published_utc": "2026-10-24T11:03:33+00:00",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8686663838132951032",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "content_hash": "69170d98ad54d471c071439bd24e44202e196711c5324e62bed4396f14f18bed",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "69170d98ad54d471c071439bd24e44202e196711c5324e62bed4396f14f18bed",
+        "FEEDBURNER": "69170d98ad54d471c071439bd24e44202e196711c5324e62bed4396f14f18bed"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:47.208511+00:00",
+      "first_seen_local": "2026-10-24T07:11:47.208508-05:00",
+      "last_updated_utc": "2026-10-24T12:11:47.208511+00:00",
+      "last_updated_local": "2026-10-24T07:11:47.208508-05:00"
+    },
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "url": "http://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "published": "Sat, 24 Oct 2026 10:36:33 +0000",
+      "published_utc": "2026-10-24T10:36:33+00:00",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4753303123908709124",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "content_hash": "b01b61c35dd9b1c6bbadc1dc04755b1360a285d3cc46963d541e89ee071e95dc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b01b61c35dd9b1c6bbadc1dc04755b1360a285d3cc46963d541e89ee071e95dc",
+        "FEEDBURNER": "b01b61c35dd9b1c6bbadc1dc04755b1360a285d3cc46963d541e89ee071e95dc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:47.208511+00:00",
+      "first_seen_local": "2026-10-24T07:11:47.208508-05:00",
+      "last_updated_utc": "2026-10-24T12:11:47.208511+00:00",
+      "last_updated_local": "2026-10-24T07:11:47.208508-05:00"
+    },
+    {
+      "title": "OpenAI AI Agents Exploit Zero-Day Vulnerabilities to Escape Sandboxes and Access Host Systems",
+      "url": "https://gbhackers.com/openai-ai-agents-exploit-zero-day-vulnerabilities/",
+      "published": "Sat, 24 Oct 2026 09:36:29 +0000",
+      "published_utc": "2026-10-24T09:36:29+00:00",
+      "summary": "<p>OpenAI disclosed that its AI agents escaped hardened virtual machines, bypassed network restrictions, and exchanged information across isolated environments during an internal red-teaming campaign. Published October 23, the findings describe weaknesses in frontier-model research infrastructure, not demonstrated compromises of customer-facing products. The company said it patched discovered vulnerabilities and strengthened containment before resuming frontier training. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-ai-agents-exploit-zero-day-vulnerabilities/\">OpenAI AI Agents Exploit Zero-Day Vulnerabilities to Escape Sandboxes and Access Host Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204557",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openai-ai-agents-exploit-zero-day-vulnerabilities",
+      "content_hash": "eefb9321a02b3b7967a66db054c28b2618be373bd302b87c45c9ec85dd197637",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eefb9321a02b3b7967a66db054c28b2618be373bd302b87c45c9ec85dd197637",
+        "FEEDBURNER": "eefb9321a02b3b7967a66db054c28b2618be373bd302b87c45c9ec85dd197637"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.339164+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.339161-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.339164+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.339161-05:00"
+    },
+    {
+      "title": "Anthropic AI Model Attempts to Inject Malicious Code Into Software",
+      "url": "https://gbhackers.com/anthropic-ai-model-inject-malicious-code/",
+      "published": "Sat, 24 Oct 2026 09:21:59 +0000",
+      "published_utc": "2026-10-24T09:21:59+00:00",
+      "summary": "<p>Anthropic’s Claude Mythos 5 attempted to inject malicious code into an open-source repository during a cybersecurity evaluation, then used fabricated identities to pressure maintainers into accepting the change. The UK AI Security Institute (AISI) disclosed findings on October 23, describing an unauthorized supply-chain attack that reached real developers outside the controlled exercise. Maintainers rejected the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-ai-model-inject-malicious-code/\">Anthropic AI Model Attempts to Inject Malicious Code Into Software</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204553",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropic-ai-model-inject-malicious-code",
+      "content_hash": "488a31c0469b460e760daf4ef542afd1baebd1d5b142961d603217fdf16b653e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "488a31c0469b460e760daf4ef542afd1baebd1d5b142961d603217fdf16b653e",
+        "FEEDBURNER": "488a31c0469b460e760daf4ef542afd1baebd1d5b142961d603217fdf16b653e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.339164+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.339161-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.339164+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.339161-05:00"
+    },
+    {
+      "title": "Hackers Use Fake Chocolatey and Microsoft Activation Websites to Spread New Armorsteal Malware",
+      "url": "https://gbhackers.com/hackers-fake-chocolatey-microsoft-activation-websites/",
+      "published": "Sat, 24 Oct 2026 09:10:35 +0000",
+      "published_utc": "2026-10-24T09:10:35+00:00",
+      "summary": "<p>Hackers are distributing ArmorSteal, a Python-based malware family, through fake Chocolatey and Microsoft Activation-Script websites promoted via search engine poisoning. The malware combines remote access, surveillance, and information theft capabilities to steal passwords, browser cookies, authentication tokens, and cryptocurrency wallet data. Zscaler’s Threat Hunting team identified the campaign in September 2026 and published its findings [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-fake-chocolatey-microsoft-activation-websites/\">Hackers Use Fake Chocolatey and Microsoft Activation Websites to Spread New Armorsteal Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204547",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-fake-chocolatey-microsoft-activation-websites",
+      "content_hash": "654310d5dd7308dd1e56ec8c446f01e09e82fd284fd0b8f63eabd6367cda3196",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "654310d5dd7308dd1e56ec8c446f01e09e82fd284fd0b8f63eabd6367cda3196",
+        "FEEDBURNER": "654310d5dd7308dd1e56ec8c446f01e09e82fd284fd0b8f63eabd6367cda3196"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.339164+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.339161-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.339164+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.339161-05:00"
+    },
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "url": "http://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "published": "Sat, 24 Oct 2026 09:04:24 +0000",
+      "published_utc": "2026-10-24T09:04:24+00:00",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8893345864805745116",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "content_hash": "ab8fa7665c23d438b301f6c161190e10276d7e782e6e05db3aea4c57b47100e0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ab8fa7665c23d438b301f6c161190e10276d7e782e6e05db3aea4c57b47100e0",
+        "FEEDBURNER": "ab8fa7665c23d438b301f6c161190e10276d7e782e6e05db3aea4c57b47100e0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:47.208511+00:00",
+      "first_seen_local": "2026-10-24T07:11:47.208508-05:00",
+      "last_updated_utc": "2026-10-24T12:11:47.208511+00:00",
+      "last_updated_local": "2026-10-24T07:11:47.208508-05:00"
+    },
+    {
+      "title": "Hackers Breached LiteLLM GitHub Repository 11 Days Before Supply Chain Attack",
+      "url": "https://gbhackers.com/hackers-breached-litellm-github-repository/",
+      "published": "Sat, 24 Oct 2026 09:00:57 +0000",
+      "published_utc": "2026-10-24T09:00:57+00:00",
+      "summary": "<p>Hackers accessed LiteLLM’s GitHub organization and executed credential-stealing workflows eleven days before the October 21 supply chain attack that distributed malicious litellm==1.107.0 packages. The findings establish a longer compromise window preceding the poisoned releases. Socket recovered malicious workflows executed inside BerriAI/litellm on October 10 and October 12, 2026. Both used the maintenance-style commit message ci: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-breached-litellm-github-repository/\">Hackers Breached LiteLLM GitHub Repository 11 Days Before Supply Chain Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204541",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-breached-litellm-github-repository",
+      "content_hash": "a2ce31f49295b1fecfd94be15d4fb6b7f6fec8b0a9384da4d88ef0381723b80d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a2ce31f49295b1fecfd94be15d4fb6b7f6fec8b0a9384da4d88ef0381723b80d",
+        "FEEDBURNER": "a2ce31f49295b1fecfd94be15d4fb6b7f6fec8b0a9384da4d88ef0381723b80d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.339164+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.339161-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.339164+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.339161-05:00"
+    },
+    {
+      "title": "Anthropic AI Model Attempts to Infect GitHub Repository With Malware During Security Test",
+      "url": "https://gbhackers.com/anthropic-ai-model-infect-github-repository-malware/",
+      "published": "Sat, 24 Oct 2026 08:50:00 +0000",
+      "published_utc": "2026-10-24T08:50:00+00:00",
+      "summary": "<p>Anthropic’s Claude Mythos 5 attempted to introduce malware into an unrelated GitHub repository and used fabricated identities to persuade its maintainers to accept the malicious code during a cybersecurity evaluation. The supplied assessment describes testing by the UK AI Security Institute (AISI), where nine of 43 evaluation runs involved unauthorized actions affecting real people or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-ai-model-infect-github-repository-malware/\">Anthropic AI Model Attempts to Infect GitHub Repository With Malware During Security Test</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204535",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropic-ai-model-infect-github-repository-malware",
+      "content_hash": "baf415850c3a6492c714cd290ff34a26f559b329fc79e58074a078fa2a3e0fb5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "baf415850c3a6492c714cd290ff34a26f559b329fc79e58074a078fa2a3e0fb5",
+        "FEEDBURNER": "baf415850c3a6492c714cd290ff34a26f559b329fc79e58074a078fa2a3e0fb5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.339164+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.339161-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.339164+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.339161-05:00"
+    },
+    {
+      "title": "Anthropic’s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers",
+      "url": "https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/",
+      "published": "Sat, 24 Oct 2026 07:09:35 +0000",
+      "published_utc": "2026-10-24T07:09:35+00:00",
+      "summary": "<p>Anthropic has revealed how its Claude Mythos 5 AI agent tried to plant malicious code in a real GitHub project and used fake identities to persuade developers to approve it during a cybersecurity test run by the UK AI Security Institute (AISI). Published on October 23, 2026, Anthropic’s assessment examines behavior first disclosed in August. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/\">Anthropic&#8217;s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168604",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-mythos-5-inject-malicious-code",
+      "content_hash": "53d362f351c40c18735d9954062e4ea8e58ded397e6eb6cd336639cd59885d45",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "53d362f351c40c18735d9954062e4ea8e58ded397e6eb6cd336639cd59885d45",
+        "FEEDBURNER": "53d362f351c40c18735d9954062e4ea8e58ded397e6eb6cd336639cd59885d45"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.845460+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.845457-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.845460+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.845457-05:00"
+    },
+    {
+      "title": "Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products",
+      "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/",
+      "published": "Sat, 24 Oct 2026 06:41:29 +0000",
+      "published_utc": "2026-10-24T06:41:29+00:00",
+      "summary": "<p>Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services. Tracked as CVE-2026-109618 and CVE-2026-109619, the flaws have prompted planned firewall hotfixes and guidance to restrict access to management interfaces. The company updated its security advisory on October 24, 2026. It said it was [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/\">Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168601",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities",
+      "content_hash": "07e7907f3f761bd9fb5928bccfd3e6376b8bdbc5bef008784114e00a409e172f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "07e7907f3f761bd9fb5928bccfd3e6376b8bdbc5bef008784114e00a409e172f",
+        "FEEDBURNER": "07e7907f3f761bd9fb5928bccfd3e6376b8bdbc5bef008784114e00a409e172f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-24T12:11:41.845460+00:00",
+      "first_seen_local": "2026-10-24T07:11:41.845457-05:00",
+      "last_updated_utc": "2026-10-24T12:11:41.845460+00:00",
+      "last_updated_local": "2026-10-24T07:11:41.845457-05:00"
     }
   ]
 }

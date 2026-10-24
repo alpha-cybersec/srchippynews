@@ -10,8 +10,40 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 1,
+      "article_count": 5,
       "articles": [
+        {
+          "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+          "url": "http://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+          "published": "Sat, 24 Oct 2026 11:09:29 +0000",
+          "published_utc": "2026-10-24T11:09:29+00:00",
+          "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5262467545044996107"
+        },
+        {
+          "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+          "url": "http://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+          "published": "Sat, 24 Oct 2026 11:03:33 +0000",
+          "published_utc": "2026-10-24T11:03:33+00:00",
+          "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8686663838132951032"
+        },
+        {
+          "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+          "url": "http://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+          "published": "Sat, 24 Oct 2026 10:36:33 +0000",
+          "published_utc": "2026-10-24T10:36:33+00:00",
+          "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4753303123908709124"
+        },
+        {
+          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+          "url": "http://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+          "published": "Sat, 24 Oct 2026 09:04:24 +0000",
+          "published_utc": "2026-10-24T09:04:24+00:00",
+          "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8893345864805745116"
+        },
         {
           "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
           "url": "http://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
@@ -31,8 +63,49 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 5,
+      "articles": [
+        {
+          "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+          "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+          "published": "Sat, 24 Oct 2026 16:39:29 +0530",
+          "published_utc": "2026-10-24T11:09:29+00:00",
+          "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+          "id": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
+        },
+        {
+          "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+          "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+          "published": "Sat, 24 Oct 2026 16:33:33 +0530",
+          "published_utc": "2026-10-24T11:03:33+00:00",
+          "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+          "id": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
+        },
+        {
+          "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+          "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+          "published": "Sat, 24 Oct 2026 16:06:33 +0530",
+          "published_utc": "2026-10-24T10:36:33+00:00",
+          "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+          "id": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
+        },
+        {
+          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+          "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+          "published": "Sat, 24 Oct 2026 14:34:24 +0530",
+          "published_utc": "2026-10-24T09:04:24+00:00",
+          "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
+          "id": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+        },
+        {
+          "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+          "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+          "published": "Sat, 24 Oct 2026 11:55:57 +0530",
+          "published_utc": "2026-10-24T06:25:57+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
+          "id": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+        }
+      ],
       "error": ""
     }
   }

@@ -1,11 +1,65 @@
 {
   "date": "2026-10-25",
-  "article_count": 2,
+  "article_count": 4,
   "sources": {
-    "cybersecuritynews": 1,
-    "thehackernews": 1
+    "thehackernews": 2,
+    "cybersecuritynews": 2
   },
   "articles": [
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "http://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "published": "Sun, 25 Oct 2026 17:19:46 +0000",
+      "published_utc": "2026-10-25T17:19:46+00:00",
+      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-70857981266893049",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "content_hash": "d7f127c12d1cec1903b811a271a8a5ae2266039c1074d78f827ac262a3a4649b",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d7f127c12d1cec1903b811a271a8a5ae2266039c1074d78f827ac262a3a4649b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-25T17:36:18.278619+00:00",
+      "first_seen_local": "2026-10-25T12:36:18.278616-05:00",
+      "last_updated_utc": "2026-10-25T17:36:18.278619+00:00",
+      "last_updated_local": "2026-10-25T12:36:18.278616-05:00"
+    },
+    {
+      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
+      "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
+      "published": "Sun, 25 Oct 2026 14:11:30 +0000",
+      "published_utc": "2026-10-25T14:11:30+00:00",
+      "summary": "<p>A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network. The report, called Tailworm, was published on October 25, 2026, by security researcher Erica Windisch [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tailscale-ssh-flaws/\">Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168713",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/tailscale-ssh-flaws",
+      "content_hash": "fe01bb94fb4bf51cc6f3bc63445bb7d7ffac972be915acbada3849a24055998a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fe01bb94fb4bf51cc6f3bc63445bb7d7ffac972be915acbada3849a24055998a",
+        "FEEDBURNER": "fe01bb94fb4bf51cc6f3bc63445bb7d7ffac972be915acbada3849a24055998a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-25T17:36:11.990370+00:00",
+      "first_seen_local": "2026-10-25T12:36:11.990366-05:00",
+      "last_updated_utc": "2026-10-25T17:36:11.990370+00:00",
+      "last_updated_local": "2026-10-25T12:36:11.990366-05:00"
+    },
     {
       "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
       "url": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",

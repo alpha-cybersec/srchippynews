@@ -5,31 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 2,
-      "articles": [
-        {
-          "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
-          "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
-          "published": "Sun, 25 Oct 2026 14:11:30 +0000",
-          "published_utc": "2026-10-25T14:11:30+00:00",
-          "summary": "<p>A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network. The report, called Tailworm, was published on October 25, 2026, by security researcher Erica Windisch [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tailscale-ssh-flaws/\">Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168713"
-        },
-        {
-          "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
-          "url": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",
-          "published": "Sun, 25 Oct 2026 06:55:23 +0000",
-          "published_utc": "2026-10-25T06:55:23+00:00",
-          "summary": "<p>Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments. The feature will focus mainly on first conversations with external contacts, where attackers can pose as trusted support staff and ask employees to share sensitive information. Microsoft detailed the change [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-ai-detection/\">Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168704"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

@@ -1,7 +1,756 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-10-26T12:48:24.815549+00:00",
+  "generated_at_local": "2026-10-26T07:48:24.815556-05:00",
+  "article_count": 27,
+  "new_count": 27,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "gbhackers": 13,
+    "thehackernews": 6,
+    "cybersecuritynews": 8
+  },
+  "articles": [
+    {
+      "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
+      "url": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
+      "published": "Mon, 26 Oct 2026 12:17:56 +0000",
+      "published_utc": "2026-10-26T12:17:56+00:00",
+      "summary": "<p>The Icarus macOS stealer, marketed as ICMacOS, has moved beyond smash-and-grab theft. Its latest version installs persistence, keeps a live channel open to its operators, and executes commands sent from a remote server. SOCRadar identified ICMacOS in September 2026 and found two variants. Version 1 focuses on core theft, targeting browser credentials, password manager databases, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/\">Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204688",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands",
+      "content_hash": "6559aa12d4fef38acee801813190d5a351976d8ef5838dbf98aa13dabdb606ee",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6559aa12d4fef38acee801813190d5a351976d8ef5838dbf98aa13dabdb606ee"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager",
+      "url": "https://gbhackers.com/keepassxc-2-8-0-released/",
+      "published": "Mon, 26 Oct 2026 11:53:48 +0000",
+      "published_utc": "2026-10-26T11:53:48+00:00",
+      "summary": "<p>KeePassXC has released version 2.8.0 to address multiple security vulnerabilities related to database imports, browser integration, SSH key handling, and the protection of sensitive information. Published on October 21, this update includes eight security fixes, platform improvements, and a migration to Qt 6. Notably, one vulnerability is identified as CVE-2026-69150, and four additional issues are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/keepassxc-2-8-0-released/\">KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204718",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/keepassxc-2-8-0-released",
+      "content_hash": "8781d11e3d71b765411de711fa5cca72166832987c41055d74bd14cfb00f99b7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8781d11e3d71b765411de711fa5cca72166832987c41055d74bd14cfb00f99b7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "url": "http://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "published": "Mon, 26 Oct 2026 11:52:41 +0000",
+      "published_utc": "2026-10-26T11:52:41+00:00",
+      "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1543916664269328418",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "content_hash": "80a78c58cd6101a664149ca5794dfba5efd3f355a2f38292d38616ceb803f2fd",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "80a78c58cd6101a664149ca5794dfba5efd3f355a2f38292d38616ceb803f2fd"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:24.806277+00:00",
+      "first_seen_local": "2026-10-26T07:48:24.806275-05:00",
+      "last_updated_utc": "2026-10-26T12:48:24.806277+00:00",
+      "last_updated_local": "2026-10-26T07:48:24.806275-05:00"
+    },
+    {
+      "title": "Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft",
+      "url": "https://gbhackers.com/apache-camel-vulnerabilities/",
+      "published": "Mon, 26 Oct 2026 11:30:01 +0000",
+      "published_utc": "2026-10-26T11:30:01+00:00",
+      "summary": "<p>Apache Camel’s security advisories document critical and high-severity vulnerabilities that could allow for remote code execution, authentication bypass, credential exposure, and unauthorized file access. These issues affect various integration components and Camel K, and their exploitability depends on the deployed components, route configurations, and an attacker’s access to messages or infrastructure. The vulnerabilities involve unsafe [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-camel-vulnerabilities/\">Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204710",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apache-camel-vulnerabilities",
+      "content_hash": "5c1045095f29f32e1615ef46af45ff24ce0bf7d10bddb9e0f6a244e36beaa4ce",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5c1045095f29f32e1615ef46af45ff24ce0bf7d10bddb9e0f6a244e36beaa4ce"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "url": "http://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "published": "Mon, 26 Oct 2026 11:23:56 +0000",
+      "published_utc": "2026-10-26T11:23:56+00:00",
+      "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view.\n\nSOC teams often first see the shape of an intrusion",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9214654274486100225",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "content_hash": "da22983415463effb84705b729c4ffd1bfcd110b7319f4b423cf4907526cb503",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "da22983415463effb84705b729c4ffd1bfcd110b7319f4b423cf4907526cb503",
+        "FEEDBURNER": "da22983415463effb84705b729c4ffd1bfcd110b7319f4b423cf4907526cb503"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:24.806277+00:00",
+      "first_seen_local": "2026-10-26T07:48:24.806275-05:00",
+      "last_updated_utc": "2026-10-26T12:48:24.806277+00:00",
+      "last_updated_local": "2026-10-26T07:48:24.806275-05:00"
+    },
+    {
+      "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates",
+      "url": "https://gbhackers.com/kali-linux-2026-3-released-2/",
+      "published": "Mon, 26 Oct 2026 11:10:39 +0000",
+      "published_utc": "2026-10-26T11:10:39+00:00",
+      "summary": "<p>Kali Linux 2026.3 has been officially released, bringing six new security tools, updated image-building scripts, KDE Plasma 6.7, and major NetHunter improvements. Announced on October 26, 2026, this third release of the year includes 126 package updates and upgrades the Linux kernel from version 6.19 to 7.1.5.kali. This release focuses on customization, making it easier [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kali-linux-2026-3-released-2/\">Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204703",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/kali-linux-2026-3-released-2",
+      "content_hash": "60338b4cc749cc9acb474e8e2393eccda9f07afa01745f1989896fd0ea1b7917",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "60338b4cc749cc9acb474e8e2393eccda9f07afa01745f1989896fd0ea1b7917",
+        "FEEDBURNER": "60338b4cc749cc9acb474e8e2393eccda9f07afa01745f1989896fd0ea1b7917"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes",
+      "url": "https://gbhackers.com/openbsd-8-0-released/",
+      "published": "Mon, 26 Oct 2026 11:01:54 +0000",
+      "published_utc": "2026-10-26T11:01:54+00:00",
+      "summary": "<p>OpenBSD 8.0 was released on October 20, 2026, marking the project&#8217;s 61st release. This update includes significant improvements, including enhanced firewall security, memory-safety fixes, stronger validation for network daemons, and security updates to core components. Key updates include enhancements to PF, OpenBSD’s packet filtering firewall, as well as fixes for vulnerabilities related to virtualization, cryptographic [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204686",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openbsd-8-0-released",
+      "content_hash": "8931f8ad5bfda44ed153619d32992328c9ecae7ab22841d81d26dee3dc7e3158",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8931f8ad5bfda44ed153619d32992328c9ecae7ab22841d81d26dee3dc7e3158",
+        "FEEDBURNER": "8931f8ad5bfda44ed153619d32992328c9ecae7ab22841d81d26dee3dc7e3158"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Linux Kernel 7.1",
+      "url": "https://cybersecuritynews.com/kali-linux-2026-3-released/",
+      "published": "Mon, 26 Oct 2026 10:26:52 +0000",
+      "published_utc": "2026-10-26T10:26:52+00:00",
+      "summary": "<p>Kali Linux 2026.3 has been released as the third Kali update of 2026, bringing six new penetration testing tools, Linux kernel 7.1.5, KDE Plasma 6.7, refreshed image-building scripts, and a large set of Kali NetHunter changes. The release arrived on October 26 with 126 package updates and moves the kernel from version 6.19 to 7.1.5. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kali-linux-2026-3-released/\">Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Linux Kernel 7.1</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168814",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/kali-linux-2026-3-released",
+      "content_hash": "f232521a5efad17e6ac2d1e883025e1c989f40727fc7f5bcc48bd8b601019da5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f232521a5efad17e6ac2d1e883025e1c989f40727fc7f5bcc48bd8b601019da5",
+        "FEEDBURNER": "f232521a5efad17e6ac2d1e883025e1c989f40727fc7f5bcc48bd8b601019da5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/ransomware-recovery-buyers-guide/",
+      "published": "Mon, 26 Oct 2026 10:09:24 +0000",
+      "published_utc": "2026-10-26T10:09:24+00:00",
+      "summary": "<p>Ransomware recovery is measured on the worst Tuesday: how fast you find the clean point, prove it’s clean, and rebuild at scale without reinfecting yourself. The twelve solutions in this verdict guide attack those minutes differently intelligence platforms, journal-rewind engines, SaaS-protected coverage, vaulted copies, array-speed restores, and the hardening appliances underneath and buying well means [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-recovery-buyers-guide/\">12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204653",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ransomware-recovery-buyers-guide",
+      "content_hash": "41a8eeb5a616163c59a6596ee99862d7dac3a8bde3daecc60b0721b56f3b46dd",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "41a8eeb5a616163c59a6596ee99862d7dac3a8bde3daecc60b0721b56f3b46dd",
+        "FEEDBURNER": "41a8eeb5a616163c59a6596ee99862d7dac3a8bde3daecc60b0721b56f3b46dd"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords",
+      "url": "https://gbhackers.com/darkcore-rat-sessions/",
+      "published": "Mon, 26 Oct 2026 10:05:34 +0000",
+      "published_utc": "2026-10-26T10:05:34+00:00",
+      "summary": "<p>DarkCore, a remote access trojan marketed with a dedicated browser for reusing stolen sessions, potentially letting attackers access Gmail, WhatsApp, and MediaFire without entering passwords. Its advertised reverse proxy routes traffic through the infected device’s IP address, making unauthorized activity resemble legitimate access from the victim. The findings combine a cybercrime marketplace advertisement with analysis [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/darkcore-rat-sessions/\">Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204667",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/darkcore-rat-sessions",
+      "content_hash": "72f5012dce1a7bf619fd687a2168ec38860ca21e53b125c59ee9f311bf343ab7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "72f5012dce1a7bf619fd687a2168ec38860ca21e53b125c59ee9f311bf343ab7",
+        "FEEDBURNER": "72f5012dce1a7bf619fd687a2168ec38860ca21e53b125c59ee9f311bf343ab7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "11 Backup & Recovery Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/backup-recovery-buyers-guide/",
+      "published": "Mon, 26 Oct 2026 10:04:45 +0000",
+      "published_utc": "2026-10-26T10:04:45+00:00",
+      "summary": "<p>Ransomware rewrote backup’s job description attackers delete recovery points before encrypting production so 2026’s buying criteria are security properties: immutability stolen credentials can’t untick, isolation from your blast radius, and restores proven by stopwatch rather than dashboard. One roster note: our sheet listed Cohesity and Veritas separately, but their completed merger makes them one vendor [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/backup-recovery-buyers-guide/\">11 Backup &amp; Recovery Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204497",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/backup-recovery-buyers-guide",
+      "content_hash": "b4e12464d5bb4dd6b31751fee881cbcceaba0cbeffd8b171d59ce8d2fa119365",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b4e12464d5bb4dd6b31751fee881cbcceaba0cbeffd8b171d59ce8d2fa119365",
+        "FEEDBURNER": "b4e12464d5bb4dd6b31751fee881cbcceaba0cbeffd8b171d59ce8d2fa119365"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "12 Data Masking Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/data-masking-tools-buyers-guide/",
+      "published": "Mon, 26 Oct 2026 09:57:37 +0000",
+      "published_utc": "2026-10-26T09:57:37+00:00",
+      "summary": "<p>Data masking fails in exactly two places joins that break and copies that take three weeks so this buyer’s verdict guide judges twelve tools on the properties demos skip: referential integrity across systems, delivery speed to the environments developers actually use, and the static-versus-dynamic architecture question that decides what you’re really buying. With AI training [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-masking-tools-buyers-guide/\">12 Data Masking Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204459",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/data-masking-tools-buyers-guide",
+      "content_hash": "05d97f5f0d759a132f6d71850808ae0681d69d44ed89dd874930c48d7444aef0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "05d97f5f0d759a132f6d71850808ae0681d69d44ed89dd874930c48d7444aef0",
+        "FEEDBURNER": "05d97f5f0d759a132f6d71850808ae0681d69d44ed89dd874930c48d7444aef0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Top 10 Best Data Access Governance Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-data-access-governance/",
+      "published": "Mon, 26 Oct 2026 09:56:03 +0000",
+      "published_utc": "2026-10-26T09:56:03+00:00",
+      "summary": "<p>Ask any enterprise “who can read the M&#38;A folder?” and watch the room go quiet effective access is buried under nested groups, inherited shares, service-account grants, and warehouse roles nobody has reviewed since the migration. Data access governance (DAG) answers that question continuously and then shrinks the answer. It’s also 2026’s quiet AI prerequisite: every [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-access-governance/\">Top 10 Best Data Access Governance Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168539",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-data-access-governance",
+      "content_hash": "1473206df05203fa06568668f9de535640d2d78cc4c80c562425ebf49fad27fd",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1473206df05203fa06568668f9de535640d2d78cc4c80c562425ebf49fad27fd",
+        "FEEDBURNER": "1473206df05203fa06568668f9de535640d2d78cc4c80c562425ebf49fad27fd"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "url": "http://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "published": "Mon, 26 Oct 2026 09:54:02 +0000",
+      "published_utc": "2026-10-26T09:54:02+00:00",
+      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app.\n\nThe kit's Telegram part matches Baohuo, a backdoor that Doctor",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2616556881404162589",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "content_hash": "1e2ff56a9dc5038d45b0d994509e8e7af6f5f8b5e3d714ace10981b73b76ff4b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1e2ff56a9dc5038d45b0d994509e8e7af6f5f8b5e3d714ace10981b73b76ff4b",
+        "FEEDBURNER": "1e2ff56a9dc5038d45b0d994509e8e7af6f5f8b5e3d714ace10981b73b76ff4b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:24.806277+00:00",
+      "first_seen_local": "2026-10-26T07:48:24.806275-05:00",
+      "last_updated_utc": "2026-10-26T12:48:24.806277+00:00",
+      "last_updated_local": "2026-10-26T07:48:24.806275-05:00"
+    },
+    {
+      "title": "12 Data Privacy Management Platforms: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/data-privacy-platforms-buyers-guide/",
+      "published": "Mon, 26 Oct 2026 09:50:21 +0000",
+      "published_utc": "2026-10-26T09:50:21+00:00",
+      "summary": "<p>Privacy management matured into an engineering discipline the moment deletion requests met data sprawl: you cannot fulfill what you cannot find, and 2026’s platform field divides exactly there workflow suites that run programs, data-intelligence engines that fulfill from discovered reality, consent infrastructures that make choices propagate, and right-sized lanes for the mid-market. This verdict guide [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-privacy-platforms-buyers-guide/\">12 Data Privacy Management Platforms: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204434",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/data-privacy-platforms-buyers-guide",
+      "content_hash": "a541ac5722afe6c9342f7f8722a1c01f4214eeccecdd5fae5e3d07c916ca1337",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a541ac5722afe6c9342f7f8722a1c01f4214eeccecdd5fae5e3d07c916ca1337",
+        "FEEDBURNER": "a541ac5722afe6c9342f7f8722a1c01f4214eeccecdd5fae5e3d07c916ca1337"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements",
+      "url": "https://cybersecuritynews.com/openssl-4-1-0-released/",
+      "published": "Mon, 26 Oct 2026 09:46:43 +0000",
+      "published_utc": "2026-10-26T09:46:43+00:00",
+      "summary": "<p>OpenSSL has released version 4.1.0, bringing DTLS 1.3 support, faster cryptographic operations, and new tools for developers building secure network services. Published on October 23, the update is a feature release, not a standalone security patch. It also includes compatibility changes and four known issues that teams should review before deployment. The official release notes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-4-1-0-released/\">OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168763",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openssl-4-1-0-released",
+      "content_hash": "67fb7daacf2c0a72d4e6d17e2afbd20dee3e7baad61e80809e48278fa0ff486b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "67fb7daacf2c0a72d4e6d17e2afbd20dee3e7baad61e80809e48278fa0ff486b",
+        "FEEDBURNER": "67fb7daacf2c0a72d4e6d17e2afbd20dee3e7baad61e80809e48278fa0ff486b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "Top 10 Best Sensitive Data Discovery Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-data-discovery-tools/",
+      "published": "Mon, 26 Oct 2026 09:46:25 +0000",
+      "published_utc": "2026-10-26T09:46:25+00:00",
+      "summary": "<p>Every data-security control inherits the same dependency: an inventory someone actually believes. Discovery is where that inventory comes from and in 2026 the job has hardened, because shadow data multiplies in SaaS and warehouses, AI pipelines copy training sets nobody registers, and classification without identity correlation can’t answer the only legal question that matters: whose [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-discovery-tools/\">Top 10 Best Sensitive Data Discovery Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168478",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-data-discovery-tools",
+      "content_hash": "ce962573d98e901ef63e55f3e3fd7f6decb93ee661c3a77c63e243e853eae3d0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce962573d98e901ef63e55f3e3fd7f6decb93ee661c3a77c63e243e853eae3d0",
+        "FEEDBURNER": "ce962573d98e901ef63e55f3e3fd7f6decb93ee661c3a77c63e243e853eae3d0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "10 Database Security & Activity Monitoring Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/database-security-tools-buyers-guide/",
+      "published": "Mon, 26 Oct 2026 09:42:22 +0000",
+      "published_utc": "2026-10-26T09:42:22+00:00",
+      "summary": "<p>Databases are where breaches cash out, and database security tooling splits by philosophy: watch the door (classic DAM), govern the warehouse era (access layers), protect the values themselves (in-path encryption), and audit the posture (assessment lanes). Two roster notes first: our sheet’s twelve rows contain two single vendors double-listed IBM appears as Guardium and as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/database-security-tools-buyers-guide/\">10 Database Security &amp; Activity Monitoring Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204409",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/database-security-tools-buyers-guide",
+      "content_hash": "423a7ab9dfaf18b135ecd55e2c03ab524fe3e28b51b407f071f931a3c36c4421",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "423a7ab9dfaf18b135ecd55e2c03ab524fe3e28b51b407f071f931a3c36c4421"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Top 10 Best Hardware Security Modules (HSM) in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-hsm-solutions/",
+      "published": "Mon, 26 Oct 2026 09:40:03 +0000",
+      "published_utc": "2026-10-26T09:40:03+00:00",
+      "summary": "<p>Every root of trust ends in an HSM the tamper-resistant hardware where CA keys, payment keys, and code-signing keys live beyond software’s reach. Two forces reshape the 2026 shortlist: FIPS 140-3 transitions retiring old validations, and post-quantum migration, because the HSM you buy now must sign with ML-DSA before its depreciation schedule ends. We scored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-hsm-solutions/\">Top 10 Best Hardware Security Modules (HSM) in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168431",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-hsm-solutions",
+      "content_hash": "cd4731f7ca219cced76a9b4d9425fc2dd106b0d40fd2768bf0bfe8649ab417a7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cd4731f7ca219cced76a9b4d9425fc2dd106b0d40fd2768bf0bfe8649ab417a7",
+        "FEEDBURNER": "cd4731f7ca219cced76a9b4d9425fc2dd106b0d40fd2768bf0bfe8649ab417a7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "New TRUST#GRAFT Attack Tricks WordPress Admin Browsers Into Installing Malicious Plugins",
+      "url": "https://gbhackers.com/trustgraft-attack/",
+      "published": "Mon, 26 Oct 2026 09:38:03 +0000",
+      "published_utc": "2026-10-26T09:38:03+00:00",
+      "summary": "<p>TRUST#GRAFT, a JavaScript-to-WordPress attack chain that never breaks WordPress authentication. Instead, it borrows the trust placed in an already logged-in administrator&#8217;s browser and uses that session to install a persistent PHP backdoor. Many administrators stay signed in to wp-admin in the same profile they use for everyday browsing. That habit gives attackers a usable foothold. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trustgraft-attack/\">New TRUST#GRAFT Attack Tricks WordPress Admin Browsers Into Installing Malicious Plugins</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204652",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/trustgraft-attack",
+      "content_hash": "713b3358397fef3aff6b0fc0e7f257ffd804af71dad21d05d454b21da0c42ad2",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "713b3358397fef3aff6b0fc0e7f257ffd804af71dad21d05d454b21da0c42ad2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "url": "http://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "published": "Mon, 26 Oct 2026 08:35:51 +0000",
+      "published_utc": "2026-10-26T08:35:51+00:00",
+      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.\n\nHuntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2926534256634935663",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "content_hash": "707ae4d3076abbe4d1a4b0c6f8415d2f9a59a74cb7d0b1a364e97b90eaa255b3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "707ae4d3076abbe4d1a4b0c6f8415d2f9a59a74cb7d0b1a364e97b90eaa255b3",
+        "FEEDBURNER": "707ae4d3076abbe4d1a4b0c6f8415d2f9a59a74cb7d0b1a364e97b90eaa255b3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:24.806277+00:00",
+      "first_seen_local": "2026-10-26T07:48:24.806275-05:00",
+      "last_updated_utc": "2026-10-26T12:48:24.806277+00:00",
+      "last_updated_local": "2026-10-26T07:48:24.806275-05:00"
+    },
+    {
+      "title": "Hackers Can Hijack AI Agents Just by Planting Malicious Files in the Downloads Folder",
+      "url": "https://gbhackers.com/malicious-files-hijack-ai-agents/",
+      "published": "Mon, 26 Oct 2026 08:27:48 +0000",
+      "published_utc": "2026-10-26T08:27:48+00:00",
+      "summary": "<p>AI coding assistants such as Claude Code and OpenAI Codex. These tools write, run, and modify code with little supervision. Each one automatically reads and obeys any instructions file it finds in the folder it opens. The investigation began with an alert. Forever stopped a coding agent mid-session from installing function-color, a malicious npm package. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-files-hijack-ai-agents/\">Hackers Can Hijack AI Agents Just by Planting Malicious Files in the Downloads Folder</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204645",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/malicious-files-hijack-ai-agents",
+      "content_hash": "64891fec93ff399c78eca724df5e7d0ea87acc8f5f59e0041458ce560d5a51a0",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "64891fec93ff399c78eca724df5e7d0ea87acc8f5f59e0041458ce560d5a51a0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:17.900102+00:00",
+      "first_seen_local": "2026-10-26T07:48:17.900098-05:00",
+      "last_updated_utc": "2026-10-26T12:48:17.900102+00:00",
+      "last_updated_local": "2026-10-26T07:48:17.900098-05:00"
+    },
+    {
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "url": "http://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "published": "Mon, 26 Oct 2026 07:49:46 +0000",
+      "published_utc": "2026-10-26T07:49:46+00:00",
+      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz.\n\nA&nbsp;GitHub safeguard&nbsp;that pauses",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6877641031345970437",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "content_hash": "e98d7c3c074c804e7879ba38af1df9f098e32842a473ea42c06990f5d45b4114",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e98d7c3c074c804e7879ba38af1df9f098e32842a473ea42c06990f5d45b4114",
+        "FEEDBURNER": "e98d7c3c074c804e7879ba38af1df9f098e32842a473ea42c06990f5d45b4114"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:24.806277+00:00",
+      "first_seen_local": "2026-10-26T07:48:24.806275-05:00",
+      "last_updated_utc": "2026-10-26T12:48:24.806277+00:00",
+      "last_updated_local": "2026-10-26T07:48:24.806275-05:00"
+    },
+    {
+      "title": "HTTP2Shell Vulnerability Extends Beyond HTTP, Affecting .NET, FFmpeg, ClickHouse, and Apache Arrow",
+      "url": "https://cybersecuritynews.com/http2shell-vulnerability/",
+      "published": "Mon, 26 Oct 2026 06:35:41 +0000",
+      "published_utc": "2026-10-26T06:35:41+00:00",
+      "summary": "<p>The HTTP2Shell vulnerability reaches beyond web traffic, with new research showing how the same Brotli decoder flaw (CVE-2026-111497) can disrupt .NET applications, FFmpeg media processing, ClickHouse servers, and Apache Arrow workloads. The findings show that checking Node.js versions alone can leave other exposed software unnoticed. In research published on October 25, JFrog researchers Aviv Engelberg, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/http2shell-vulnerability/\">HTTP2Shell Vulnerability Extends Beyond HTTP, Affecting .NET, FFmpeg, ClickHouse, and Apache Arrow</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168742",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/http2shell-vulnerability",
+      "content_hash": "157ca908d40f931ad37633f5b8d989edae95056448edb2bee63c751446c7d63a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "157ca908d40f931ad37633f5b8d989edae95056448edb2bee63c751446c7d63a",
+        "FEEDBURNER": "157ca908d40f931ad37633f5b8d989edae95056448edb2bee63c751446c7d63a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "Microsoft Authenticator Flaw Lets Malicious Android Apps Steal Account Tokens With Zero Permissions",
+      "url": "https://cybersecuritynews.com/microsoft-authenticator-flaw/",
+      "published": "Mon, 26 Oct 2026 06:33:44 +0000",
+      "published_utc": "2026-10-26T06:33:44+00:00",
+      "summary": "<p>Microsoft patched high-severity flaw CVE-2026-80097 (CVSS 8.6) in Authenticator for Android, allowing malicious apps with no declared permissions to steal work account access tokens due to improper authentication in its broker component. Microsoft classified the flaw as a local elevation-of-privilege vulnerability. The issue affected Android devices with Microsoft Authenticator installed and a signed-in work account. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-authenticator-flaw/\">Microsoft Authenticator Flaw Lets Malicious Android Apps Steal Account Tokens With Zero Permissions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168746",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-authenticator-flaw",
+      "content_hash": "27b2ab59aa82fad67e2d30da75a74ff35a7442bcd9018c5dbd2a51b73e84f2f1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "27b2ab59aa82fad67e2d30da75a74ff35a7442bcd9018c5dbd2a51b73e84f2f1",
+        "FEEDBURNER": "27b2ab59aa82fad67e2d30da75a74ff35a7442bcd9018c5dbd2a51b73e84f2f1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "India’s Film Sensor Board Data Breach – Unreleased Scripts, 500+ Film Titles Exposed",
+      "url": "https://cybersecuritynews.com/indias-film-sensor-board-data-breach/",
+      "published": "Mon, 26 Oct 2026 06:15:31 +0000",
+      "published_utc": "2026-10-26T06:15:31+00:00",
+      "summary": "<p>India’s Central Board of Film Certification (CBFC) is investigating a reported data breach involving confidential documents linked to more than 500 film titles. The exposed records reportedly include shooting scripts, censor cut orders, certification files and private distribution agreements submitted through its e-Cinepramaan portal. The Hindu first reported the exposure, which involved film certification applications [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/indias-film-sensor-board-data-breach/\">India&#8217;s Film Sensor Board Data Breach &#8211; Unreleased Scripts, 500+ Film Titles Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168747",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/indias-film-sensor-board-data-breach",
+      "content_hash": "b92c5ca0c29087ddae7c6fadb4db74194d9e71f3f4e29930eb7e1603416d7291",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b92c5ca0c29087ddae7c6fadb4db74194d9e71f3f4e29930eb7e1603416d7291",
+        "FEEDBURNER": "b92c5ca0c29087ddae7c6fadb4db74194d9e71f3f4e29930eb7e1603416d7291"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:18.761019+00:00",
+      "first_seen_local": "2026-10-26T07:48:18.761012-05:00",
+      "last_updated_utc": "2026-10-26T12:48:18.761019+00:00",
+      "last_updated_local": "2026-10-26T07:48:18.761012-05:00"
+    },
+    {
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "url": "http://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "published": "Mon, 26 Oct 2026 06:03:48 +0000",
+      "published_utc": "2026-10-26T06:03:48+00:00",
+      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.\n\nThe company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.\n\nThe file",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5281086987686896023",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "content_hash": "ec0213469f849f2a48cf69820da9717af9196e9475b399b1916068dd46ff02e9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ec0213469f849f2a48cf69820da9717af9196e9475b399b1916068dd46ff02e9",
+        "FEEDBURNER": "ec0213469f849f2a48cf69820da9717af9196e9475b399b1916068dd46ff02e9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-26T12:48:24.806277+00:00",
+      "first_seen_local": "2026-10-26T07:48:24.806275-05:00",
+      "last_updated_utc": "2026-10-26T12:48:24.806277+00:00",
+      "last_updated_local": "2026-10-26T07:48:24.806275-05:00"
+    }
+  ]
 }

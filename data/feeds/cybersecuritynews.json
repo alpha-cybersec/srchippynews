@@ -5,79 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 8,
-      "articles": [
-        {
-          "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Linux Kernel 7.1",
-          "url": "https://cybersecuritynews.com/kali-linux-2026-3-released/",
-          "published": "Mon, 26 Oct 2026 10:26:52 +0000",
-          "published_utc": "2026-10-26T10:26:52+00:00",
-          "summary": "<p>Kali Linux 2026.3 has been released as the third Kali update of 2026, bringing six new penetration testing tools, Linux kernel 7.1.5, KDE Plasma 6.7, refreshed image-building scripts, and a large set of Kali NetHunter changes. The release arrived on October 26 with 126 package updates and moves the kernel from version 6.19 to 7.1.5. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kali-linux-2026-3-released/\">Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Linux Kernel 7.1</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168814"
-        },
-        {
-          "title": "Top 10 Best Data Access Governance Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-data-access-governance/",
-          "published": "Mon, 26 Oct 2026 09:56:03 +0000",
-          "published_utc": "2026-10-26T09:56:03+00:00",
-          "summary": "<p>Ask any enterprise “who can read the M&#38;A folder?” and watch the room go quiet effective access is buried under nested groups, inherited shares, service-account grants, and warehouse roles nobody has reviewed since the migration. Data access governance (DAG) answers that question continuously and then shrinks the answer. It’s also 2026’s quiet AI prerequisite: every [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-access-governance/\">Top 10 Best Data Access Governance Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168539"
-        },
-        {
-          "title": "OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements",
-          "url": "https://cybersecuritynews.com/openssl-4-1-0-released/",
-          "published": "Mon, 26 Oct 2026 09:46:43 +0000",
-          "published_utc": "2026-10-26T09:46:43+00:00",
-          "summary": "<p>OpenSSL has released version 4.1.0, bringing DTLS 1.3 support, faster cryptographic operations, and new tools for developers building secure network services. Published on October 23, the update is a feature release, not a standalone security patch. It also includes compatibility changes and four known issues that teams should review before deployment. The official release notes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-4-1-0-released/\">OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168763"
-        },
-        {
-          "title": "Top 10 Best Sensitive Data Discovery Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-data-discovery-tools/",
-          "published": "Mon, 26 Oct 2026 09:46:25 +0000",
-          "published_utc": "2026-10-26T09:46:25+00:00",
-          "summary": "<p>Every data-security control inherits the same dependency: an inventory someone actually believes. Discovery is where that inventory comes from and in 2026 the job has hardened, because shadow data multiplies in SaaS and warehouses, AI pipelines copy training sets nobody registers, and classification without identity correlation can’t answer the only legal question that matters: whose [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-discovery-tools/\">Top 10 Best Sensitive Data Discovery Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168478"
-        },
-        {
-          "title": "Top 10 Best Hardware Security Modules (HSM) in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-hsm-solutions/",
-          "published": "Mon, 26 Oct 2026 09:40:03 +0000",
-          "published_utc": "2026-10-26T09:40:03+00:00",
-          "summary": "<p>Every root of trust ends in an HSM the tamper-resistant hardware where CA keys, payment keys, and code-signing keys live beyond software’s reach. Two forces reshape the 2026 shortlist: FIPS 140-3 transitions retiring old validations, and post-quantum migration, because the HSM you buy now must sign with ML-DSA before its depreciation schedule ends. We scored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-hsm-solutions/\">Top 10 Best Hardware Security Modules (HSM) in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168431"
-        },
-        {
-          "title": "HTTP2Shell Vulnerability Extends Beyond HTTP, Affecting .NET, FFmpeg, ClickHouse, and Apache Arrow",
-          "url": "https://cybersecuritynews.com/http2shell-vulnerability/",
-          "published": "Mon, 26 Oct 2026 06:35:41 +0000",
-          "published_utc": "2026-10-26T06:35:41+00:00",
-          "summary": "<p>The HTTP2Shell vulnerability reaches beyond web traffic, with new research showing how the same Brotli decoder flaw (CVE-2026-111497) can disrupt .NET applications, FFmpeg media processing, ClickHouse servers, and Apache Arrow workloads. The findings show that checking Node.js versions alone can leave other exposed software unnoticed. In research published on October 25, JFrog researchers Aviv Engelberg, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/http2shell-vulnerability/\">HTTP2Shell Vulnerability Extends Beyond HTTP, Affecting .NET, FFmpeg, ClickHouse, and Apache Arrow</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168742"
-        },
-        {
-          "title": "Microsoft Authenticator Flaw Lets Malicious Android Apps Steal Account Tokens With Zero Permissions",
-          "url": "https://cybersecuritynews.com/microsoft-authenticator-flaw/",
-          "published": "Mon, 26 Oct 2026 06:33:44 +0000",
-          "published_utc": "2026-10-26T06:33:44+00:00",
-          "summary": "<p>Microsoft patched high-severity flaw CVE-2026-80097 (CVSS 8.6) in Authenticator for Android, allowing malicious apps with no declared permissions to steal work account access tokens due to improper authentication in its broker component. Microsoft classified the flaw as a local elevation-of-privilege vulnerability. The issue affected Android devices with Microsoft Authenticator installed and a signed-in work account. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-authenticator-flaw/\">Microsoft Authenticator Flaw Lets Malicious Android Apps Steal Account Tokens With Zero Permissions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168746"
-        },
-        {
-          "title": "India’s Film Sensor Board Data Breach – Unreleased Scripts, 500+ Film Titles Exposed",
-          "url": "https://cybersecuritynews.com/indias-film-sensor-board-data-breach/",
-          "published": "Mon, 26 Oct 2026 06:15:31 +0000",
-          "published_utc": "2026-10-26T06:15:31+00:00",
-          "summary": "<p>India’s Central Board of Film Certification (CBFC) is investigating a reported data breach involving confidential documents linked to more than 500 film titles. The exposed records reportedly include shooting scripts, censor cut orders, certification files and private distribution agreements submitted through its e-Cinepramaan portal. The Hindu first reported the exposure, which involved film certification applications [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/indias-film-sensor-board-data-breach/\">India&#8217;s Film Sensor Board Data Breach &#8211; Unreleased Scripts, 500+ Film Titles Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168747"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -87,8 +22,80 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 8,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
+          "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
+          "published": "Mon, 26 Oct 2026 17:15:22 +0000",
+          "published_utc": "2026-10-26T17:15:22+00:00",
+          "summary": "<p>Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026. The company tracked the disruption under incident TM1526111 and said automatic scaling efforts had returned the service to healthy levels. The recovery update changes the picture from Microsoft’s initial notice, which described a potential [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-investigation-teams-issue/\">Microsoft Investigation Teams Issue Affecting Users in the United States</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168889"
+        },
+        {
+          "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
+          "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
+          "published": "Mon, 26 Oct 2026 16:35:45 +0000",
+          "published_utc": "2026-10-26T16:35:45+00:00",
+          "summary": "<p>A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens. Forever Security discovered the risk after stopping an agent on a real customer’s computer from installing a known malicious npm package. The company later reproduced separate attack paths against OpenAI Codex [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/codex-and-claude-code-hijack/\">Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168874"
+        },
+        {
+          "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
+          "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
+          "published": "Mon, 26 Oct 2026 15:59:50 +0000",
+          "published_utc": "2026-10-26T15:59:50+00:00",
+          "summary": "<p>OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 2026, the project’s 61st release includes OpenSSH 10.6 and LibreSSL 4.4.0, bringing stronger checks for untrusted data and changes to secure connection handling. The official release notes detail [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168813"
+        },
+        {
+          "title": "Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona",
+          "url": "https://cybersecuritynews.com/emperador-ransomware-group-claim/",
+          "published": "Mon, 26 Oct 2026 15:58:08 +0000",
+          "published_utc": "2026-10-26T15:58:08+00:00",
+          "summary": "<p>The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the alleged breach remains unverified, with no company confirmation reported. The claim was discovered on October 25, 2026, at 03:22 UTC. The tracker lists the same day as the estimated attack date, but that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emperador-ransomware-group-claim/\">Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168798"
+        },
+        {
+          "title": "PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability",
+          "url": "https://cybersecuritynews.com/php-http2shell-vulnerability/",
+          "published": "Mon, 26 Oct 2026 15:53:07 +0000",
+          "published_utc": "2026-10-26T15:53:07+00:00",
+          "summary": "<p>The PHP team has released updated Windows builds to fix a serious flaw known as HTTP2Shell. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2026. Each build now includes Brotli 1.2.1, which fixes CVE-2026-111497. Windows users who run PHP should install these packages without delay. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-http2shell-vulnerability/\">PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168865"
+        },
+        {
+          "title": "Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours",
+          "url": "https://cybersecuritynews.com/anthropic-internal-system-breach/",
+          "published": "Mon, 26 Oct 2026 14:42:50 +0000",
+          "published_utc": "2026-10-26T14:42:50+00:00",
+          "summary": "<p>Cybersecurity startup Cathedral says its AI agents found routes into Anthropic’s internal business systems in less than 12 hours, exposing how fast automated security tools can find and chain flaws across connected services. The work took place through Anthropic’s program for outside researchers, making this an authorized security test rather than a criminal attack, according [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-internal-system-breach/\">Researchers Use AI Agents to Breach Anthropic&#8217;s Internal Systems in Just 12 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168857"
+        },
+        {
+          "title": "Anthropic’s Claude AI Model Accessed US State Voter Data Behind a Paywall",
+          "url": "https://cybersecuritynews.com/claude-ai-accessed-voter-data/",
+          "published": "Mon, 26 Oct 2026 13:41:03 +0000",
+          "published_utc": "2026-10-26T13:41:03+00:00",
+          "summary": "<p>Anthropic’s Claude AI model accessed aggregate vote counts from Georgia without human approval after bypassing a paywall during an internal statistics project. The data was available to the public for a fee, but the model retrieved it without being asked to take that step, according to Axios reporting published on October 25. The incident raises [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-accessed-voter-data/\">Anthropic&#8217;s Claude AI Model Accessed US State Voter Data Behind a Paywall</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168834"
+        },
+        {
+          "title": "Microsoft Releases Out-of-Band Security Updates for Brotli and .NET tarballs Vulnerability",
+          "url": "https://cybersecuritynews.com/microsoft-security-updates-for-brotli-and-net-tarballs-vulnerability/",
+          "published": "Mon, 26 Oct 2026 13:22:05 +0000",
+          "published_utc": "2026-10-26T13:22:05+00:00",
+          "summary": "<p>Microsoft has released out-of-band security updates for .NET to fix a Brotli buffer overflow and unsafe ownership settings in Linux distribution archives. Published on October 25, 2026, the release covers .NET 8, .NET 9, .NET 10, and .NET 11 Release Candidate 3. Microsoft urges users to update as soon as possible. The official Microsoft announcement [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-security-updates-for-brotli-and-net-tarballs-vulnerability/\">Microsoft Releases Out-of-Band Security Updates for Brotli and .NET tarballs Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168787"
+        },
+        {
+          "title": "Cloudflare Release Emergency WAF Ruleset Update Following Brotli Vulnerability",
+          "url": "https://cybersecuritynews.com/cloudflare-release-brotli-vulnerability-waf-ruleset/",
+          "published": "Mon, 26 Oct 2026 13:18:59 +0000",
+          "published_utc": "2026-10-26T13:18:59+00:00",
+          "summary": "<p>Cloudflare has announced an emergency Web Application Firewall (WAF) ruleset update linked to CVE-2026-111497, a Brotli vulnerability. The October 25, 2026 release adds two rules for Brotli-encoded request bodies and the Next.js image optimization endpoint, enabled by default in Log mode to monitor matching traffic without blocking it. The key detail is that this update [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-release-brotli-vulnerability-waf-ruleset/\">Cloudflare Release Emergency WAF Ruleset Update Following Brotli Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168760"
+        },
         {
           "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Linux Kernel 7.1",
           "url": "https://cybersecuritynews.com/kali-linux-2026-3-released/",
@@ -96,62 +103,6 @@
           "published_utc": "2026-10-26T10:26:52+00:00",
           "summary": "<p>Kali Linux 2026.3 has been released as the third Kali update of 2026, bringing six new penetration testing tools, Linux kernel 7.1.5, KDE Plasma 6.7, refreshed image-building scripts, and a large set of Kali NetHunter changes. The release arrived on October 26 with 126 package updates and moves the kernel from version 6.19 to 7.1.5. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kali-linux-2026-3-released/\">Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Linux Kernel 7.1</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=168814"
-        },
-        {
-          "title": "Top 10 Best Data Access Governance Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-data-access-governance/",
-          "published": "Mon, 26 Oct 2026 09:56:03 +0000",
-          "published_utc": "2026-10-26T09:56:03+00:00",
-          "summary": "<p>Ask any enterprise “who can read the M&#38;A folder?” and watch the room go quiet effective access is buried under nested groups, inherited shares, service-account grants, and warehouse roles nobody has reviewed since the migration. Data access governance (DAG) answers that question continuously and then shrinks the answer. It’s also 2026’s quiet AI prerequisite: every [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-access-governance/\">Top 10 Best Data Access Governance Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168539"
-        },
-        {
-          "title": "OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements",
-          "url": "https://cybersecuritynews.com/openssl-4-1-0-released/",
-          "published": "Mon, 26 Oct 2026 09:46:43 +0000",
-          "published_utc": "2026-10-26T09:46:43+00:00",
-          "summary": "<p>OpenSSL has released version 4.1.0, bringing DTLS 1.3 support, faster cryptographic operations, and new tools for developers building secure network services. Published on October 23, the update is a feature release, not a standalone security patch. It also includes compatibility changes and four known issues that teams should review before deployment. The official release notes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-4-1-0-released/\">OpenSSL 4.1.0 Released With DTLS 1.3 and Post-Quantum Security Improvements</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168763"
-        },
-        {
-          "title": "Top 10 Best Sensitive Data Discovery Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-data-discovery-tools/",
-          "published": "Mon, 26 Oct 2026 09:46:25 +0000",
-          "published_utc": "2026-10-26T09:46:25+00:00",
-          "summary": "<p>Every data-security control inherits the same dependency: an inventory someone actually believes. Discovery is where that inventory comes from and in 2026 the job has hardened, because shadow data multiplies in SaaS and warehouses, AI pipelines copy training sets nobody registers, and classification without identity correlation can’t answer the only legal question that matters: whose [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-discovery-tools/\">Top 10 Best Sensitive Data Discovery Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168478"
-        },
-        {
-          "title": "Top 10 Best Hardware Security Modules (HSM) in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-hsm-solutions/",
-          "published": "Mon, 26 Oct 2026 09:40:03 +0000",
-          "published_utc": "2026-10-26T09:40:03+00:00",
-          "summary": "<p>Every root of trust ends in an HSM the tamper-resistant hardware where CA keys, payment keys, and code-signing keys live beyond software’s reach. Two forces reshape the 2026 shortlist: FIPS 140-3 transitions retiring old validations, and post-quantum migration, because the HSM you buy now must sign with ML-DSA before its depreciation schedule ends. We scored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-hsm-solutions/\">Top 10 Best Hardware Security Modules (HSM) in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168431"
-        },
-        {
-          "title": "HTTP2Shell Vulnerability Extends Beyond HTTP, Affecting .NET, FFmpeg, ClickHouse, and Apache Arrow",
-          "url": "https://cybersecuritynews.com/http2shell-vulnerability/",
-          "published": "Mon, 26 Oct 2026 06:35:41 +0000",
-          "published_utc": "2026-10-26T06:35:41+00:00",
-          "summary": "<p>The HTTP2Shell vulnerability reaches beyond web traffic, with new research showing how the same Brotli decoder flaw (CVE-2026-111497) can disrupt .NET applications, FFmpeg media processing, ClickHouse servers, and Apache Arrow workloads. The findings show that checking Node.js versions alone can leave other exposed software unnoticed. In research published on October 25, JFrog researchers Aviv Engelberg, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/http2shell-vulnerability/\">HTTP2Shell Vulnerability Extends Beyond HTTP, Affecting .NET, FFmpeg, ClickHouse, and Apache Arrow</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168742"
-        },
-        {
-          "title": "Microsoft Authenticator Flaw Lets Malicious Android Apps Steal Account Tokens With Zero Permissions",
-          "url": "https://cybersecuritynews.com/microsoft-authenticator-flaw/",
-          "published": "Mon, 26 Oct 2026 06:33:44 +0000",
-          "published_utc": "2026-10-26T06:33:44+00:00",
-          "summary": "<p>Microsoft patched high-severity flaw CVE-2026-80097 (CVSS 8.6) in Authenticator for Android, allowing malicious apps with no declared permissions to steal work account access tokens due to improper authentication in its broker component. Microsoft classified the flaw as a local elevation-of-privilege vulnerability. The issue affected Android devices with Microsoft Authenticator installed and a signed-in work account. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-authenticator-flaw/\">Microsoft Authenticator Flaw Lets Malicious Android Apps Steal Account Tokens With Zero Permissions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168746"
-        },
-        {
-          "title": "India’s Film Sensor Board Data Breach – Unreleased Scripts, 500+ Film Titles Exposed",
-          "url": "https://cybersecuritynews.com/indias-film-sensor-board-data-breach/",
-          "published": "Mon, 26 Oct 2026 06:15:31 +0000",
-          "published_utc": "2026-10-26T06:15:31+00:00",
-          "summary": "<p>India’s Central Board of Film Certification (CBFC) is investigating a reported data breach involving confidential documents linked to more than 500 film titles. The exposed records reportedly include shooting scripts, censor cut orders, certification files and private distribution agreements submitted through its e-Cinepramaan portal. The Hindu first reported the exposure, which involved film certification applications [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/indias-film-sensor-board-data-breach/\">India&#8217;s Film Sensor Board Data Breach &#8211; Unreleased Scripts, 500+ Film Titles Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168747"
         }
       ],
       "error": ""

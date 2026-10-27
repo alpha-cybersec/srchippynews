@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Anthropic’s Claude AI Bypasses Paywall to Access US Election Data Without Permission",
+          "url": "https://gbhackers.com/anthropics-claude-ai-bypasses-paywall-to-access-us-election-data/",
+          "published": "Mon, 26 Oct 2026 13:51:15 +0000",
+          "published_utc": "2026-10-26T13:51:15+00:00",
+          "summary": "<p>Anthropic’s Claude AI reportedly bypassed a payment restriction to retrieve publicly available aggregate election counts from Georgia without human authorization. Anthropic clarified that this activity did not involve accessing Georgia’s voter registration system, altering voting records, or retrieving individual voting records. This incident underscores an important aspect of AI security: just because information is publicly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-bypasses-paywall-to-access-us-election-data/\">Anthropic&#8217;s Claude AI Bypasses Paywall to Access US Election Data Without Permission</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204745"
+        },
+        {
+          "title": "New Malware Targets AI Coding Tools to Steal Login Tokens, SSH Keys, and Cloud Credentials",
+          "url": "https://gbhackers.com/ai-coding-tools-targeted/",
+          "published": "Mon, 26 Oct 2026 13:16:05 +0000",
+          "published_utc": "2026-10-26T13:16:05+00:00",
+          "summary": "<p>A newly observed infostealer called Aokigahara is targeting AI coding assistants, developer workstations, and cloud credentials, expanding credential theft beyond browsers and cryptocurrency wallets. The targets include Claude Code and Desktop, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and JetBrains AI Assistant. Rather than exploiting an identified vulnerability in these products, the malware [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-coding-tools-targeted/\">New Malware Targets AI Coding Tools to Steal Login Tokens, SSH Keys, and Cloud Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204731"
+        },
+        {
+          "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
+          "url": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
+          "published": "Mon, 26 Oct 2026 12:17:56 +0000",
+          "published_utc": "2026-10-26T12:17:56+00:00",
+          "summary": "<p>The Icarus macOS stealer, marketed as ICMacOS, has moved beyond smash-and-grab theft. Its latest version installs persistence, keeps a live channel open to its operators, and executes commands sent from a remote server. SOCRadar identified ICMacOS in September 2026 and found two variants. Version 1 focuses on core theft, targeting browser credentials, password manager databases, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/\">Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204688"
+        },
+        {
+          "title": "KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager",
+          "url": "https://gbhackers.com/keepassxc-2-8-0-released/",
+          "published": "Mon, 26 Oct 2026 11:53:48 +0000",
+          "published_utc": "2026-10-26T11:53:48+00:00",
+          "summary": "<p>KeePassXC has released version 2.8.0 to address multiple security vulnerabilities related to database imports, browser integration, SSH key handling, and the protection of sensitive information. Published on October 21, this update includes eight security fixes, platform improvements, and a migration to Qt 6. Notably, one vulnerability is identified as CVE-2026-69150, and four additional issues are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/keepassxc-2-8-0-released/\">KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204718"
+        },
+        {
+          "title": "Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft",
+          "url": "https://gbhackers.com/apache-camel-vulnerabilities/",
+          "published": "Mon, 26 Oct 2026 11:30:01 +0000",
+          "published_utc": "2026-10-26T11:30:01+00:00",
+          "summary": "<p>Apache Camel’s security advisories document critical and high-severity vulnerabilities that could allow for remote code execution, authentication bypass, credential exposure, and unauthorized file access. These issues affect various integration components and Camel K, and their exploitability depends on the deployed components, route configurations, and an attacker’s access to messages or infrastructure. The vulnerabilities involve unsafe [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-camel-vulnerabilities/\">Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204710"
+        },
+        {
+          "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates",
+          "url": "https://gbhackers.com/kali-linux-2026-3-released-2/",
+          "published": "Mon, 26 Oct 2026 11:10:39 +0000",
+          "published_utc": "2026-10-26T11:10:39+00:00",
+          "summary": "<p>Kali Linux 2026.3 has been officially released, bringing six new security tools, updated image-building scripts, KDE Plasma 6.7, and major NetHunter improvements. Announced on October 26, 2026, this third release of the year includes 126 package updates and upgrades the Linux kernel from version 6.19 to 7.1.5.kali. This release focuses on customization, making it easier [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kali-linux-2026-3-released-2/\">Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204703"
+        },
+        {
+          "title": "OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes",
+          "url": "https://gbhackers.com/openbsd-8-0-released/",
+          "published": "Mon, 26 Oct 2026 11:01:54 +0000",
+          "published_utc": "2026-10-26T11:01:54+00:00",
+          "summary": "<p>OpenBSD 8.0 was released on October 20, 2026, marking the project&#8217;s 61st release. This update includes significant improvements, including enhanced firewall security, memory-safety fixes, stronger validation for network daemons, and security updates to core components. Key updates include enhancements to PF, OpenBSD’s packet filtering firewall, as well as fixes for vulnerabilities related to virtualization, cryptographic [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204686"
+        },
+        {
+          "title": "12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/ransomware-recovery-buyers-guide/",
+          "published": "Mon, 26 Oct 2026 10:09:24 +0000",
+          "published_utc": "2026-10-26T10:09:24+00:00",
+          "summary": "<p>Ransomware recovery is measured on the worst Tuesday: how fast you find the clean point, prove it’s clean, and rebuild at scale without reinfecting yourself. The twelve solutions in this verdict guide attack those minutes differently intelligence platforms, journal-rewind engines, SaaS-protected coverage, vaulted copies, array-speed restores, and the hardening appliances underneath and buying well means [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-recovery-buyers-guide/\">12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204653"
+        },
+        {
+          "title": "Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords",
+          "url": "https://gbhackers.com/darkcore-rat-sessions/",
+          "published": "Mon, 26 Oct 2026 10:05:34 +0000",
+          "published_utc": "2026-10-26T10:05:34+00:00",
+          "summary": "<p>DarkCore, a remote access trojan marketed with a dedicated browser for reusing stolen sessions, potentially letting attackers access Gmail, WhatsApp, and MediaFire without entering passwords. Its advertised reverse proxy routes traffic through the infected device’s IP address, making unauthorized activity resemble legitimate access from the victim. The findings combine a cybercrime marketplace advertisement with analysis [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/darkcore-rat-sessions/\">Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204667"
+        },
+        {
+          "title": "11 Backup & Recovery Solutions: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/backup-recovery-buyers-guide/",
+          "published": "Mon, 26 Oct 2026 10:04:45 +0000",
+          "published_utc": "2026-10-26T10:04:45+00:00",
+          "summary": "<p>Ransomware rewrote backup’s job description attackers delete recovery points before encrypting production so 2026’s buying criteria are security properties: immutability stolen credentials can’t untick, isolation from your blast radius, and restores proven by stopwatch rather than dashboard. One roster note: our sheet listed Cohesity and Veritas separately, but their completed merger makes them one vendor [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/backup-recovery-buyers-guide/\">11 Backup &amp; Recovery Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=204497"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

@@ -2,8 +2,228 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 210,
+  "article_count": 218,
   "articles": [
+    {
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "url": "http://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "published": "Tue, 27 Oct 2026 13:59:48 +0000",
+      "published_utc": "2026-10-27T13:59:48+00:00",
+      "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7232039681045429419",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "content_hash": "84ad3b16cc7b47f360f74a2050c7e8a4c33f2bb831d83deb563f1f86a2872262",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "84ad3b16cc7b47f360f74a2050c7e8a4c33f2bb831d83deb563f1f86a2872262"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "url": "http://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "published": "Tue, 27 Oct 2026 13:59:09 +0000",
+      "published_utc": "2026-10-27T13:59:09+00:00",
+      "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4390118485935131320",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "content_hash": "aeb86b112c86174b1080b7dc77e0dbb3ca7c2d1a4bdb4a8428d405215dc3eb55",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aeb86b112c86174b1080b7dc77e0dbb3ca7c2d1a4bdb4a8428d405215dc3eb55"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "url": "http://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "published": "Tue, 27 Oct 2026 12:09:50 +0000",
+      "published_utc": "2026-10-27T12:09:50+00:00",
+      "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2118423929310759913",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "content_hash": "eaf239c03f95c6dc372206753cbf4893435f18aceeca8341ad75e1d57404f805",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eaf239c03f95c6dc372206753cbf4893435f18aceeca8341ad75e1d57404f805",
+        "FEEDBURNER": "eaf239c03f95c6dc372206753cbf4893435f18aceeca8341ad75e1d57404f805"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "url": "http://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "published": "Tue, 27 Oct 2026 11:46:00 +0000",
+      "published_utc": "2026-10-27T11:46:00+00:00",
+      "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1513395971202676427",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "content_hash": "49955672a795f922b9380a605eb9944c051efc7aab2b1cf770d82314c748128a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "49955672a795f922b9380a605eb9944c051efc7aab2b1cf770d82314c748128a",
+        "FEEDBURNER": "49955672a795f922b9380a605eb9944c051efc7aab2b1cf770d82314c748128a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "url": "http://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "published": "Tue, 27 Oct 2026 11:32:46 +0000",
+      "published_utc": "2026-10-27T11:32:46+00:00",
+      "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp;\n\nSome fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3298321472465370472",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "content_hash": "5d54e0484ae4cead288670a962ad8d0a6a3930ca9bb5da2f2b35fefa398e12cf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5d54e0484ae4cead288670a962ad8d0a6a3930ca9bb5da2f2b35fefa398e12cf",
+        "FEEDBURNER": "5d54e0484ae4cead288670a962ad8d0a6a3930ca9bb5da2f2b35fefa398e12cf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "url": "http://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "published": "Tue, 27 Oct 2026 11:32:31 +0000",
+      "published_utc": "2026-10-27T11:32:31+00:00",
+      "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4175801089272347138",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "content_hash": "5a813fc6ed5508864ba95eba3097e75664ed036056cef29b7cf137351a9c1ced",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5a813fc6ed5508864ba95eba3097e75664ed036056cef29b7cf137351a9c1ced",
+        "FEEDBURNER": "5a813fc6ed5508864ba95eba3097e75664ed036056cef29b7cf137351a9c1ced"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "url": "http://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "published": "Tue, 27 Oct 2026 09:33:06 +0000",
+      "published_utc": "2026-10-27T09:33:06+00:00",
+      "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4969387584784826456",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "content_hash": "7e7f129286c16a5b29240093b29731003dd716596621d96de34c3eed46b986f8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7e7f129286c16a5b29240093b29731003dd716596621d96de34c3eed46b986f8",
+        "FEEDBURNER": "7e7f129286c16a5b29240093b29731003dd716596621d96de34c3eed46b986f8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
+    {
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "url": "http://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "published": "Tue, 27 Oct 2026 08:22:43 +0000",
+      "published_utc": "2026-10-27T08:22:43+00:00",
+      "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6658186600095613698",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "content_hash": "e2e5ce6fd29b6e82ff131cec1b9dcdbccb3e1c21e42b6eb89b2593ea590e3762",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e2e5ce6fd29b6e82ff131cec1b9dcdbccb3e1c21e42b6eb89b2593ea590e3762",
+        "FEEDBURNER": "e2e5ce6fd29b6e82ff131cec1b9dcdbccb3e1c21e42b6eb89b2593ea590e3762"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:24.578400+00:00",
+      "first_seen_local": "2026-10-27T09:52:24.578396-05:00",
+      "last_updated_utc": "2026-10-27T14:52:24.578400+00:00",
+      "last_updated_local": "2026-10-27T09:52:24.578396-05:00"
+    },
     {
       "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
       "url": "http://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",

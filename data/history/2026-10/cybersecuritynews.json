@@ -2,8 +2,336 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 363,
+  "article_count": 375,
   "articles": [
+    {
+      "title": "Hackers Use Fake FedEx Invoices to Deploy Sirius Backdoor and Evade Windows Security",
+      "url": "https://cybersecuritynews.com/fake-fedex-invoices/",
+      "published": "Tue, 27 Oct 2026 14:18:33 +0000",
+      "published_utc": "2026-10-27T14:18:33+00:00",
+      "summary": "<p>Hackers are sending fake FedEx tax invoices to trick users into installing a stealthy backdoor on Windows. The malware, called Sirius Backdoor, hides inside a blank PDF and loads its main code directly into memory, which leaves very few traces on the hard drive. The emails target people who handle bills and payments. They are [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-fedex-invoices/\">Hackers Use Fake FedEx Invoices to Deploy Sirius Backdoor and Evade Windows Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169071",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-fedex-invoices",
+      "content_hash": "7dceca57b205c6c73c3424742948e4bf868fdc403cb623c9fd44039e81e39843",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7dceca57b205c6c73c3424742948e4bf868fdc403cb623c9fd44039e81e39843"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Hackers Abuse Signed ChatGPT and Claude Binaries to Deploy Malware Through Fake GitHub Downloads",
+      "url": "https://cybersecuritynews.com/fake-github-chatgpt-claude-malware/",
+      "published": "Tue, 27 Oct 2026 14:02:29 +0000",
+      "published_utc": "2026-10-27T14:02:29+00:00",
+      "summary": "<p>A malware campaign known as Yoba targets users by leveraging the popularity of AI tools like ChatGPT and Claude to trick them into installing infected software. They publish fake GitHub projects that pose as desktop apps named GPT-5.6 Sol, GPT-6 Astra, and Claude Opus. Because the projects sit on GitHub, a platform many developers trust, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-github-chatgpt-claude-malware/\">Hackers Abuse Signed ChatGPT and Claude Binaries to Deploy Malware Through Fake GitHub Downloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169053",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-github-chatgpt-claude-malware",
+      "content_hash": "66f4766531a49f96136ae8aadfa8daf15723d2ca107e6e65e7b7ebd009febaca",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "66f4766531a49f96136ae8aadfa8daf15723d2ca107e6e65e7b7ebd009febaca"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Critical HashiCorp Consul Kubernetes Flaw Allows Attackers to Gain Elevated Privileges",
+      "url": "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability/",
+      "published": "Tue, 27 Oct 2026 11:37:34 +0000",
+      "published_utc": "2026-10-27T11:37:34+00:00",
+      "summary": "<p>HashiCorp has released fixes for a Consul-k8s authorization bypass that could allow an attacker to gain elevated Consul privileges from another Kubernetes namespace. Tracked as CVE-2026-110720, the flaw affects deployments using automated system access control list management. HashiCorp disclosed the issue on October 26, 2026, and identified Consul-k8s 2.1.0 and 1.8.18 as patched releases. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability/\">Critical HashiCorp Consul Kubernetes Flaw Allows Attackers to Gain Elevated Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168991",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability",
+      "content_hash": "858bc6f3c9f87bd63febbc3468904c2289e476d24e0e69abd45cbcd12d5e2e01",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "858bc6f3c9f87bd63febbc3468904c2289e476d24e0e69abd45cbcd12d5e2e01",
+        "FEEDBURNER": "858bc6f3c9f87bd63febbc3468904c2289e476d24e0e69abd45cbcd12d5e2e01"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Apple iOS 27.2 Released With Fixes for 163 Vulnerabilities, Including Fix for Critical WebKit RCE",
+      "url": "https://cybersecuritynews.com/apple-ios-27-2-released/",
+      "published": "Tue, 27 Oct 2026 11:15:19 +0000",
+      "published_utc": "2026-10-27T11:15:19+00:00",
+      "summary": "<p>Apple released iOS 27.2 and iPadOS 27.2 on October 26, 2026, with fixes for 163 security flaws. The update covers iPhone 11 and later and a wide set of iPad models. The most serious issues sit in WebKit, the engine behind Safari and most in-app browsers on Apple devices. Apple says malicious web content could [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-ios-27-2-released/\">Apple iOS 27.2 Released With Fixes for 163 Vulnerabilities, Including Fix for Critical WebKit RCE</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169009",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apple-ios-27-2-released",
+      "content_hash": "4b1b77fc4c245e63290359965f3a919fd049d86b0ae671362c45be31aa60e75c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4b1b77fc4c245e63290359965f3a919fd049d86b0ae671362c45be31aa60e75c",
+        "FEEDBURNER": "4b1b77fc4c245e63290359965f3a919fd049d86b0ae671362c45be31aa60e75c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Hackers Hijack AI Pentesting Agents to Install Backdoors and Steal API Keys",
+      "url": "https://cybersecuritynews.com/ai-pentesting-agents/",
+      "published": "Tue, 27 Oct 2026 10:57:16 +0000",
+      "published_utc": "2026-10-27T10:57:16+00:00",
+      "summary": "<p>Hackers are now targeting the AI tools that security teams use to test their own networks. A new investigation describes automated campaigns that break into exposed panels for Cairn, a platform that gives AI agents goals and lets them work on their own. Once inside, the attackers push new tasks into those agents. These tasks [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-pentesting-agents/\">Hackers Hijack AI Pentesting Agents to Install Backdoors and Steal API Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169006",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ai-pentesting-agents",
+      "content_hash": "99d5c107e2a8e3e861a17da9ce548a8ee3d2f8ec64abfea00d97bf2371a49383",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "99d5c107e2a8e3e861a17da9ce548a8ee3d2f8ec64abfea00d97bf2371a49383",
+        "FEEDBURNER": "99d5c107e2a8e3e861a17da9ce548a8ee3d2f8ec64abfea00d97bf2371a49383"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Apple Released Patches for Exploited CoreGraphics 0-day Vulnerability for Older iPhones",
+      "url": "https://cybersecuritynews.com/apple-fix-for-coregraphics-0-day-flaw/",
+      "published": "Tue, 27 Oct 2026 09:44:36 +0000",
+      "published_utc": "2026-10-27T09:44:36+00:00",
+      "summary": "<p>Apple released iOS 18.7.11 and iPadOS 18.7.11 to patch a CoreGraphics zero-day vulnerability that attackers may have used in targeted attacks. Released on October 26, 2026, the updates bring security fixes to older devices, including the iPhone XS, iPhone XS Max, iPhone XR, and seventh-generation iPad, according to Apple’s security releases page. Tracked as CVE-2026-86950, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-fix-for-coregraphics-0-day-flaw/\">Apple Released Patches for Exploited CoreGraphics 0-day Vulnerability for Older iPhones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168981",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apple-fix-for-coregraphics-0-day-flaw",
+      "content_hash": "e6e362ed38d634b5c785d1316fdbae70f5b7620fd2318da11dba1c8181a4064b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e6e362ed38d634b5c785d1316fdbae70f5b7620fd2318da11dba1c8181a4064b",
+        "FEEDBURNER": "e6e362ed38d634b5c785d1316fdbae70f5b7620fd2318da11dba1c8181a4064b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Hacker Uses AI to Breach 90 South Korean Organizations and Steal 8.2 Million Records",
+      "url": "https://cybersecuritynews.com/hacker-uses-ai-to-breach-organizations/",
+      "published": "Tue, 27 Oct 2026 09:05:42 +0000",
+      "published_utc": "2026-10-27T09:05:42+00:00",
+      "summary": "<p>South Korean police have arrested a 32-year-old man accused of leading an AI-assisted hacking operation that stole personal records and internal files from about 90 organizations, totaling 8.2 million records. Targets included hospitals, private academies, golf courses, universities, and large companies&#8217; affiliates. Investigators said the group used stolen data to pressure victims into paying money. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacker-uses-ai-to-breach-organizations/\">Hacker Uses AI to Breach 90 South Korean Organizations and Steal 8.2 Million Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168934",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hacker-uses-ai-to-breach-organizations",
+      "content_hash": "923a95bc767c92f4fed0b659bd87fd6b6e10e0e8e46a3b23daab3f5935dbbcf4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "923a95bc767c92f4fed0b659bd87fd6b6e10e0e8e46a3b23daab3f5935dbbcf4",
+        "FEEDBURNER": "923a95bc767c92f4fed0b659bd87fd6b6e10e0e8e46a3b23daab3f5935dbbcf4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Alibaba’s Qwen AI Said It Wouldn’t Execute Commands, Then Tried to Send Data to China",
+      "url": "https://cybersecuritynews.com/alibabas-qwen-ai-tried-to-send-data-to-china/",
+      "published": "Tue, 27 Oct 2026 08:47:46 +0000",
+      "published_utc": "2026-10-27T08:47:46+00:00",
+      "summary": "<p>Alibaba’s Qwen3.8-Flash-Next attempted an unexpected upload to an Alibaba Cloud storage bucket in Beijing during a closed security test, according to Cohere. The model’s reasoning had just stated that it would not call any tools. Cohere’s sandbox blocked the connection, and the reported attempt did not send sensitive data outside the system. The finding, published [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alibabas-qwen-ai-tried-to-send-data-to-china/\">Alibaba&#8217;s Qwen AI Said It Wouldn&#8217;t Execute Commands, Then Tried to Send Data to China</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168966",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/alibabas-qwen-ai-tried-to-send-data-to-china",
+      "content_hash": "746b5f4db124bf0fea7155f733e08a5d3dd3ffacc0c51dc395506cb4e322544c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "746b5f4db124bf0fea7155f733e08a5d3dd3ffacc0c51dc395506cb4e322544c",
+        "FEEDBURNER": "746b5f4db124bf0fea7155f733e08a5d3dd3ffacc0c51dc395506cb4e322544c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "University of Copenhagen Data Breach Exposes 525,000 People’s Personal Data, Including Phone Numbers",
+      "url": "https://cybersecuritynews.com/university-of-copenhagen-data-breach/",
+      "published": "Tue, 27 Oct 2026 08:40:50 +0000",
+      "published_utc": "2026-10-27T08:40:50+00:00",
+      "summary": "<p>The University of Copenhagen has confirmed a data breach that exposed personal information belonging to about 525,000 people after hackers accessed a university test environment. The affected database contained full names, Danish national identity numbers, work and private telephone numbers, and personal email addresses. The university is still examining the full extent of the exposure. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/university-of-copenhagen-data-breach/\">University of Copenhagen Data Breach Exposes 525,000 People’s Personal Data, Including Phone Numbers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168954",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/university-of-copenhagen-data-breach",
+      "content_hash": "2d0f11f6feb5887e5a766f9cdec5f6c55423393739235e6377112b1fee22e292",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2d0f11f6feb5887e5a766f9cdec5f6c55423393739235e6377112b1fee22e292",
+        "FEEDBURNER": "2d0f11f6feb5887e5a766f9cdec5f6c55423393739235e6377112b1fee22e292"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "DreamHost Forces Email and FTP Password Resets Following Unexplained Security Incident",
+      "url": "https://cybersecuritynews.com/dreamhost-forces-email-and-ftp-password-resets/",
+      "published": "Tue, 27 Oct 2026 08:30:23 +0000",
+      "published_utc": "2026-10-27T08:30:23+00:00",
+      "summary": "<p>DreamHost forced password resets for affected email and FTP/SFTP accounts after an unexplained incident disrupted webmail and File Manager, preventing sign-ins until new credentials are set. DreamHost said the password resets were precautionary but has not disclosed the cause or confirmed data theft. The incident began on October 23, 2026, with File Manager connectivity issues. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dreamhost-forces-email-and-ftp-password-resets/\">DreamHost Forces Email and FTP Password Resets Following Unexplained Security Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168958",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/dreamhost-forces-email-and-ftp-password-resets",
+      "content_hash": "66aba906e286c926ae8efc0ff2a280a859330c4164668e9091acb3da1d3a613e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "66aba906e286c926ae8efc0ff2a280a859330c4164668e9091acb3da1d3a613e",
+        "FEEDBURNER": "66aba906e286c926ae8efc0ff2a280a859330c4164668e9091acb3da1d3a613e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "OpenAI Unveils GPT-6.1 Terra, a Faster AI Model With Critical Cybersecurity Capabilities",
+      "url": "https://cybersecuritynews.com/openai-unveils-gpt-6-1-terra/",
+      "published": "Tue, 27 Oct 2026 08:25:49 +0000",
+      "published_utc": "2026-10-27T08:25:49+00:00",
+      "summary": "<p>OpenAI has introduced GPT-6.1 Terra, a faster, lower-cost AI model for visual analysis, computer use, writing, and coding. Released on October 26, the model also carries a Critical cybersecurity capability rating under OpenAI’s Preparedness Framework, placing its security risks alongside those of GPT-6 Astra. The release brings stronger automation to everyday work while raising questions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-unveils-gpt-6-1-terra/\">OpenAI Unveils GPT-6.1 Terra, a Faster AI Model With Critical Cybersecurity Capabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168942",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-unveils-gpt-6-1-terra",
+      "content_hash": "5c9dacc6c60a24722c2e8049d2540ee80141245de16c9c959b268761a7cda046",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5c9dacc6c60a24722c2e8049d2540ee80141245de16c9c959b268761a7cda046"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
+    {
+      "title": "Top 10 Best Confidential Computing Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-confidential-computing-platforms/",
+      "published": "Tue, 27 Oct 2026 08:05:33 +0000",
+      "published_utc": "2026-10-27T08:05:33+00:00",
+      "summary": "<p>Encryption always had a hole: data must decrypt to compute, and whoever owns the machine cloud admin, hypervisor, intruder with root could watch. Confidential computing closes it with hardware-enforced trusted execution environments (TEEs) that keep data encrypted even mid-computation and prove it via attestation. In 2026, AI made the niche mainstream: enterprises want models fine-tuned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-confidential-computing-platforms/\">Top 10 Best Confidential Computing Platforms in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168587",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-confidential-computing-platforms",
+      "content_hash": "2f11aed39200f1be99dc4530dcf5c59bf4421b8ad4d10cc7bbf4480a36f1ee50",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "2f11aed39200f1be99dc4530dcf5c59bf4421b8ad4d10cc7bbf4480a36f1ee50"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:18.232596+00:00",
+      "first_seen_local": "2026-10-27T09:52:18.232592-05:00",
+      "last_updated_utc": "2026-10-27T14:52:18.232596+00:00",
+      "last_updated_local": "2026-10-27T09:52:18.232592-05:00"
+    },
     {
       "title": "Hackers Use AI Agents to Target Over 2,250 Microsoft 365 Tenants Through ConnectWise",
       "url": "https://cybersecuritynews.com/hackers-use-ai-agents/",

@@ -2,8 +2,312 @@
   "month": "2026-10",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 335,
+  "article_count": 346,
   "articles": [
+    {
+      "title": "New Sirius Backdoor Hides Inside Windows Processes to Steal Passwords and Evade Detection",
+      "url": "https://gbhackers.com/sirius-backdoor-variant/",
+      "published": "Tue, 27 Oct 2026 13:35:24 +0000",
+      "published_utc": "2026-10-27T13:35:24+00:00",
+      "summary": "<p>A previously undocumented Sirius backdoor variant during a priority customer investigation, revealing a multistage campaign that hides malicious code inside legitimate Windows processes. The supplied analysis details stealthy remote access and persistence, although it does not establish specific password extraction capabilities. The financial urgency and regional tailoring reflect established phishing techniques that exploit trust in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sirius-backdoor-variant/\">New Sirius Backdoor Hides Inside Windows Processes to Steal Passwords and Evade Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204897",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sirius-backdoor-variant",
+      "content_hash": "7d208b6025a36dfbec4e6b88cc0d1286de1fca1b611f754c57cc1aa7d67650d1",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7d208b6025a36dfbec4e6b88cc0d1286de1fca1b611f754c57cc1aa7d67650d1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "Hackers Compromise 17 Exposed AI Pentesting Panels to Deploy Malware and Steal Credentials",
+      "url": "https://gbhackers.com/ai-pentesting-panels/",
+      "published": "Tue, 27 Oct 2026 12:39:39 +0000",
+      "published_utc": "2026-10-27T12:39:39+00:00",
+      "summary": "<p>Attackers have compromised at least 17 internet-exposed Cairn AI penetration-testing panels, turning autonomous security agents against their own infrastructure to steal credentials, establish unauthorized access, and deploy malware. Victims included panels associated with suspected criminal operations, alongside instances apparently used for legitimate red teaming, bug bounty research, and capture-the-flag challenges. The attacks exploit unauthenticated administrative [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-pentesting-panels/\">Hackers Compromise 17 Exposed AI Pentesting Panels to Deploy Malware and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204886",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-pentesting-panels",
+      "content_hash": "ddf3e5d3ea9eea4a7e387af7b463f0aab44967bcb6abc731035881c79789a6a1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ddf3e5d3ea9eea4a7e387af7b463f0aab44967bcb6abc731035881c79789a6a1",
+        "FEEDBURNER": "ddf3e5d3ea9eea4a7e387af7b463f0aab44967bcb6abc731035881c79789a6a1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "Researchers Discover OpenAI API Vulnerability That Leaks Hidden AI Reasoning Traces",
+      "url": "https://gbhackers.com/researchers-discover-openai-api-vulnerability/",
+      "published": "Tue, 27 Oct 2026 12:08:01 +0000",
+      "published_utc": "2026-10-27T12:08:01+00:00",
+      "summary": "<p>Researchers have disclosed a vulnerability in the OpenAI API that reveals hidden reasoning traces by exploiting conversation compaction. This technique, named &#8220;Compaction Smuggling,&#8221; bypassed existing safeguards and could allow for the extraction of valuable training material from advanced models. According to Xint, OpenAI confirmed the issue, implemented an undisclosed fix on October 23, 2026, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-openai-api-vulnerability/\">Researchers Discover OpenAI API Vulnerability That Leaks Hidden AI Reasoning Traces</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204877",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/researchers-discover-openai-api-vulnerability",
+      "content_hash": "b223b5350f2c20e57df7f2ce32831e35aa044f07d52483a29133a43f36294a84",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b223b5350f2c20e57df7f2ce32831e35aa044f07d52483a29133a43f36294a84",
+        "FEEDBURNER": "b223b5350f2c20e57df7f2ce32831e35aa044f07d52483a29133a43f36294a84"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "HashiCorp Consul Vulnerability Allows Attackers to Bypass Authorization and Gain Elevated Privileges",
+      "url": "https://gbhackers.com/hashicorp-consul-vulnerability/",
+      "published": "Tue, 27 Oct 2026 11:03:55 +0000",
+      "published_utc": "2026-10-27T11:03:55+00:00",
+      "summary": "<p>HashiCorp disclosed a vulnerability in consul-k8s, a cross-namespace authorization bypass that could let attackers with limited Kubernetes permissions gain elevated Consul privileges. This vulnerability is tracked as CVE-2026-110720 and affects component access control list (ACL) binding rules when automated system ACL management is enabled. HashiCorp published advisory HCSEC-2026-50 on October 26, 2026, and released fixes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hashicorp-consul-vulnerability/\">HashiCorp Consul Vulnerability Allows Attackers to Bypass Authorization and Gain Elevated Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204866",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hashicorp-consul-vulnerability",
+      "content_hash": "2e37c088985cda36f71609335c8da30fdeb599b0edd42154486602e77d37c096",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2e37c088985cda36f71609335c8da30fdeb599b0edd42154486602e77d37c096",
+        "FEEDBURNER": "2e37c088985cda36f71609335c8da30fdeb599b0edd42154486602e77d37c096"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "Apple Fixes Actively Exploited iOS Zero-Day Vulnerability in CoreGraphics",
+      "url": "https://gbhackers.com/apple-fixes-actively-exploited-ios-zero-day-vulnerability/",
+      "published": "Tue, 27 Oct 2026 10:54:55 +0000",
+      "published_utc": "2026-10-27T10:54:55+00:00",
+      "summary": "<p>Apple has released updates for iOS 18.7.11 and iPadOS 18.7.11 to address three security vulnerabilities, including a CoreGraphics flaw connected to sophisticated targeted attacks. These updates were released on October 26, 2026, and also resolve information disclosure and unauthorized camera access issues affecting the Audio and CoreMedia components. The most significant vulnerability, tracked as CVE-2026-86950, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-fixes-actively-exploited-ios-zero-day-vulnerability/\">Apple Fixes Actively Exploited iOS Zero-Day Vulnerability in CoreGraphics</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204859",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apple-fixes-actively-exploited-ios-zero-day-vulnerability",
+      "content_hash": "ba840cb28187d3afc7c83370f835164ef65e459ab7232bc7f915edfa6045c152",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ba840cb28187d3afc7c83370f835164ef65e459ab7232bc7f915edfa6045c152",
+        "FEEDBURNER": "ba840cb28187d3afc7c83370f835164ef65e459ab7232bc7f915edfa6045c152"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "Hackers Use Google Ads to Push Fake Claude Downloads Hosted on Real Claude.ai Domain",
+      "url": "https://gbhackers.com/claude-users-targeted/",
+      "published": "Tue, 27 Oct 2026 10:53:52 +0000",
+      "published_utc": "2026-10-27T10:53:52+00:00",
+      "summary": "<p>Hackers are buying Google Ads to promote fake Claude download pages hosted on Anthropic’s legitimate claude.ai domain, exploiting content-sharing features to distribute malware. The operation does not require compromising Anthropic’s infrastructure. Attackers publish malicious instructions through Shared Chats and public Artifacts, borrowing the platform’s domain and branding while persuading visitors to execute commands themselves. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-users-targeted/\">Hackers Use Google Ads to Push Fake Claude Downloads Hosted on Real Claude.ai Domain</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204850",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/claude-users-targeted",
+      "content_hash": "880e7c60a52b4c2214df8bb762a199d30bfb41a80a33e21f60129fa7a172c3a0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "880e7c60a52b4c2214df8bb762a199d30bfb41a80a33e21f60129fa7a172c3a0",
+        "FEEDBURNER": "880e7c60a52b4c2214df8bb762a199d30bfb41a80a33e21f60129fa7a172c3a0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "Hackers Abuse Magento CMS Blocks to Infect Online Stores and Evade Malware Detection",
+      "url": "https://gbhackers.com/magento-cms-blocks/",
+      "published": "Tue, 27 Oct 2026 09:49:52 +0000",
+      "published_utc": "2026-10-27T09:49:52+00:00",
+      "summary": "<p>Hackers are injecting JavaScript into Magento CMS blocks to maintain access to compromised storefronts while selectively hiding malicious responses from security scanners. Registered on October 6, 2026, the domain appeared on infected stores the following evening. Sixty of the 83 victims previously loaded infrastructure belonging to the same operator, including 34 infected since October 2025. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/magento-cms-blocks/\">Hackers Abuse Magento CMS Blocks to Infect Online Stores and Evade Malware Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204824",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/magento-cms-blocks",
+      "content_hash": "2673c0e74fac031f2bffd26ec217c83d092185ce56ccaab12d12ab582a129197",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2673c0e74fac031f2bffd26ec217c83d092185ce56ccaab12d12ab582a129197",
+        "FEEDBURNER": "2673c0e74fac031f2bffd26ec217c83d092185ce56ccaab12d12ab582a129197"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "Alibaba’s Qwen AI Model Attempts to Upload Files to China While Performing Cybersecurity Tasks",
+      "url": "https://gbhackers.com/alibabas-qwen-ai-model-attempts-to-upload-files-to-china/",
+      "published": "Tue, 27 Oct 2026 09:14:06 +0000",
+      "published_utc": "2026-10-27T09:14:06+00:00",
+      "summary": "<p>Researchers found that Alibaba’s Qwen3.8-Flash-Next model attempted an unauthorized upload to an Alibaba Cloud storage bucket in Beijing while performing a defensive cybersecurity task. Fortunately, a sandbox environment blocked the request. However, researchers couldn&#8217;t determine whether this behavior resulted from malicious training or accidental contamination. This incident highlights an important distinction: hosting model weights locally [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/alibabas-qwen-ai-model-attempts-to-upload-files-to-china/\">Alibaba&#8217;s Qwen AI Model Attempts to Upload Files to China While Performing Cybersecurity Tasks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204834",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/alibabas-qwen-ai-model-attempts-to-upload-files-to-china",
+      "content_hash": "4520b29f89f29cb725e004af8b18003219c4bd75cdffe805750067e31b87eaaf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4520b29f89f29cb725e004af8b18003219c4bd75cdffe805750067e31b87eaaf",
+        "FEEDBURNER": "4520b29f89f29cb725e004af8b18003219c4bd75cdffe805750067e31b87eaaf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "DreamHost Security Incident Forces Password Resets for Email and FTP/SFTP Accounts",
+      "url": "https://gbhackers.com/dreamhost-security-incident-forces-password-resets/",
+      "published": "Tue, 27 Oct 2026 08:52:22 +0000",
+      "published_utc": "2026-10-27T08:52:22+00:00",
+      "summary": "<p>DreamHost has implemented forced password resets for certain email and FTP/SFTP accounts following an incident that affected its File Manager and webmail services. The company restored its browser-based File Manager on October 26, 2026. However, users affected by the incident must obtain new login credentials from their account owners before they can access their accounts. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dreamhost-security-incident-forces-password-resets/\">DreamHost Security Incident Forces Password Resets for Email and FTP/SFTP Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204830",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/dreamhost-security-incident-forces-password-resets",
+      "content_hash": "411e2e7c0c48d2e47b26ecc124797ddbec1dba14accef7fd3ce0f8af07416d5b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "411e2e7c0c48d2e47b26ecc124797ddbec1dba14accef7fd3ce0f8af07416d5b",
+        "FEEDBURNER": "411e2e7c0c48d2e47b26ecc124797ddbec1dba14accef7fd3ce0f8af07416d5b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "9 Managed File Transfer (MFT) Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/mft-solutions-buyers-guide/",
+      "published": "Tue, 27 Oct 2026 08:17:16 +0000",
+      "published_utc": "2026-10-27T08:17:16+00:00",
+      "summary": "<p>MFT buying is posture-first now the category’s mass-exploitation years made exposure architecture and patch velocity selection criteria ahead of any scheduler. Roster honesty first: our sheet’s twelve rows resolve to nine vendors and eleven products Progress owns both MOVEit and WS_FTP, Fortra owns both GoAnywhere and Globalscape EFT, and ExaVault was acquired by Files.com years [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mft-solutions-buyers-guide/\">9 Managed File Transfer (MFT) Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204757",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/mft-solutions-buyers-guide",
+      "content_hash": "73d66db15d58a1fb9380f324c485cb76a570ac2858366a50649133e10575f900",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "73d66db15d58a1fb9380f324c485cb76a570ac2858366a50649133e10575f900",
+        "FEEDBURNER": "73d66db15d58a1fb9380f324c485cb76a570ac2858366a50649133e10575f900"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
+    {
+      "title": "12 Secure File Sharing Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/secure-file-sharing-buyers-guide/",
+      "published": "Tue, 27 Oct 2026 08:15:54 +0000",
+      "published_utc": "2026-10-27T08:15:54+00:00",
+      "summary": "<p>Users share files the easiest way available, so secure file sharing succeeds only when the governed path is the easy path. This verdict guide spans the full 2026 architecture menu governed clouds, suite-native floors, self-hosted sovereignty, zero-knowledge encryption, client-portal workflows, and transfer-grade lanes judging twelve solutions on external-sharing governance, encryption honesty, and the shadow-IT gravity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/secure-file-sharing-buyers-guide/\">12 Secure File Sharing Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204744",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/secure-file-sharing-buyers-guide",
+      "content_hash": "f3b45629db5e24a3c6811905742978e6db26d3c74fe4b16f48b22c235dde255c",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f3b45629db5e24a3c6811905742978e6db26d3c74fe4b16f48b22c235dde255c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-27T14:52:17.596671+00:00",
+      "first_seen_local": "2026-10-27T09:52:17.596668-05:00",
+      "last_updated_utc": "2026-10-27T14:52:17.596671+00:00",
+      "last_updated_local": "2026-10-27T09:52:17.596668-05:00"
+    },
     {
       "title": "Hacker Uses Generative AI to Breach 90 Companies and Steal 8.2 Million Records",
       "url": "https://gbhackers.com/hacker-uses-generative-ai-to-breach-90-companies-and-steal-8-2-million-records/",

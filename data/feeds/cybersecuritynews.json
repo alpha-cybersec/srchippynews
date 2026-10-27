@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Hackers Can Abuse Logged-In WordPress Admin Sessions to Secretly Install PHP Backdoors",
-          "url": "https://cybersecuritynews.com/logged-in-wordpress-admin-sessions/",
-          "published": "Tue, 27 Oct 2026 02:08:23 +0000",
-          "published_utc": "2026-10-27T02:08:23+00:00",
-          "summary": "<p>WordPress administrators often keep their dashboard open in the same browser they use for everyday browsing. A new attack chain shows why that habit is risky. Researchers have documented a JavaScript loader that waits for a signed-in administrator to visit a compromised page, then uses that browser&#8217;s trusted session to install a hidden PHP backdoor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/logged-in-wordpress-admin-sessions/\">Hackers Can Abuse Logged-In WordPress Admin Sessions to Secretly Install PHP Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168902"
-        },
-        {
-          "title": "Hackers Revive BlackLotus Techniques to Bypass Windows Secure Boot and Deploy Malware",
-          "url": "https://cybersecuritynews.com/blacklotus-techniques/",
-          "published": "Tue, 27 Oct 2026 01:43:07 +0000",
-          "published_utc": "2026-10-27T01:43:07+00:00",
-          "summary": "<p>Hackers have revived techniques associated with the BlackLotus bootkit to bypass Windows Secure Boot and deploy espionage malware against diplomatic organizations in Central Asia. The new bootkit, named BlackX, appeared in attacks targeting agencies in Tajikistan, Uzbekistan, and Turkmenistan in early 2026. Investigators linked the campaign to APT41 with medium confidence, leaving attribution short of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/blacklotus-techniques/\">Hackers Revive BlackLotus Techniques to Bypass Windows Secure Boot and Deploy Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168899"
-        },
-        {
-          "title": "Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading",
-          "url": "https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/",
-          "published": "Tue, 27 Oct 2026 01:13:13 +0000",
-          "published_utc": "2026-10-27T01:13:13+00:00",
-          "summary": "<p>Hackers are using legitimate VLC Media Player and VMware components to load malware onto Windows systems, hiding harmful code behind familiar software. The activity forms part of three malware campaigns targeting users in Brazil and Portugal through fake legal notices, financial documents, and invoice download pages. The attacks combine phishing, hidden scripts, and trusted programs [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/\">Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168896"
-        },
-        {
-          "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
-          "url": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
-          "published": "Mon, 26 Oct 2026 20:29:21 +0000",
-          "published_utc": "2026-10-26T20:29:21+00:00",
-          "summary": "<p>Hackers are now using public exploit code to break into websites that run PHP, and universities and business sites are among the main targets. The bugs behind this wave are two critical flaws in the PHP engine, tracked as CVE-2026-109618 and CVE-2026-109619 and nicknamed PHP2Shell. Both carry a CVSS v4.0 score of 9.2 and can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/public-php2shell-exploit-code/\">Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168893"
-        },
-        {
-          "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
-          "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
-          "published": "Mon, 26 Oct 2026 17:15:22 +0000",
-          "published_utc": "2026-10-26T17:15:22+00:00",
-          "summary": "<p>Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026. The company tracked the disruption under incident TM1526111 and said automatic scaling efforts had returned the service to healthy levels. The recovery update changes the picture from Microsoft’s initial notice, which described a potential [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-investigation-teams-issue/\">Microsoft Investigation Teams Issue Affecting Users in the United States</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168889"
-        },
-        {
-          "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
-          "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
-          "published": "Mon, 26 Oct 2026 16:35:45 +0000",
-          "published_utc": "2026-10-26T16:35:45+00:00",
-          "summary": "<p>A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens. Forever Security discovered the risk after stopping an agent on a real customer’s computer from installing a known malicious npm package. The company later reproduced separate attack paths against OpenAI Codex [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/codex-and-claude-code-hijack/\">Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168874"
-        },
-        {
-          "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
-          "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
-          "published": "Mon, 26 Oct 2026 15:59:50 +0000",
-          "published_utc": "2026-10-26T15:59:50+00:00",
-          "summary": "<p>OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 2026, the project’s 61st release includes OpenSSH 10.6 and LibreSSL 4.4.0, bringing stronger checks for untrusted data and changes to secure connection handling. The official release notes detail [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168813"
-        },
-        {
-          "title": "Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona",
-          "url": "https://cybersecuritynews.com/emperador-ransomware-group-claim/",
-          "published": "Mon, 26 Oct 2026 15:58:08 +0000",
-          "published_utc": "2026-10-26T15:58:08+00:00",
-          "summary": "<p>The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the alleged breach remains unverified, with no company confirmation reported. The claim was discovered on October 25, 2026, at 03:22 UTC. The tracker lists the same day as the estimated attack date, but that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emperador-ransomware-group-claim/\">Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168798"
-        },
-        {
-          "title": "PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability",
-          "url": "https://cybersecuritynews.com/php-http2shell-vulnerability/",
-          "published": "Mon, 26 Oct 2026 15:53:07 +0000",
-          "published_utc": "2026-10-26T15:53:07+00:00",
-          "summary": "<p>The PHP team has released updated Windows builds to fix a serious flaw known as HTTP2Shell. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2026. Each build now includes Brotli 1.2.1, which fixes CVE-2026-111497. Windows users who run PHP should install these packages without delay. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-http2shell-vulnerability/\">PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168865"
-        },
-        {
-          "title": "Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours",
-          "url": "https://cybersecuritynews.com/anthropic-internal-system-breach/",
-          "published": "Mon, 26 Oct 2026 14:42:50 +0000",
-          "published_utc": "2026-10-26T14:42:50+00:00",
-          "summary": "<p>Cybersecurity startup Cathedral says its AI agents found routes into Anthropic’s internal business systems in less than 12 hours, exposing how fast automated security tools can find and chain flaws across connected services. The work took place through Anthropic’s program for outside researchers, making this an authorized security test rather than a criminal attack, according [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-internal-system-breach/\">Researchers Use AI Agents to Breach Anthropic&#8217;s Internal Systems in Just 12 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168857"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -103,87 +22,31 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Hackers Can Abuse Logged-In WordPress Admin Sessions to Secretly Install PHP Backdoors",
-          "url": "https://cybersecuritynews.com/logged-in-wordpress-admin-sessions/",
-          "published": "Tue, 27 Oct 2026 02:08:23 +0000",
-          "published_utc": "2026-10-27T02:08:23+00:00",
-          "summary": "<p>WordPress administrators often keep their dashboard open in the same browser they use for everyday browsing. A new attack chain shows why that habit is risky. Researchers have documented a JavaScript loader that waits for a signed-in administrator to visit a compromised page, then uses that browser&#8217;s trusted session to install a hidden PHP backdoor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/logged-in-wordpress-admin-sessions/\">Hackers Can Abuse Logged-In WordPress Admin Sessions to Secretly Install PHP Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168902"
+          "title": "Hackers Use AI Agents to Target Over 2,250 Microsoft 365 Tenants Through ConnectWise",
+          "url": "https://cybersecuritynews.com/hackers-use-ai-agents/",
+          "published": "Tue, 27 Oct 2026 06:11:26 +0000",
+          "published_utc": "2026-10-27T06:11:26+00:00",
+          "summary": "<p>Hackers used AI agents and stolen ConnectWise application credentials to attempt access to more than 2,250 Microsoft 365 tenants, according to Microsoft’s technical investigation report. Microsoft attributed the campaign to Storm-0940, a China-state-aligned group, and said its ARTEX framework accelerated reconnaissance, authentication attempts, and cloud persistence. The targeting count does not mean every tenant was [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-agents/\">Hackers Use AI Agents to Target Over 2,250 Microsoft 365 Tenants Through ConnectWise</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168927"
         },
         {
-          "title": "Hackers Revive BlackLotus Techniques to Bypass Windows Secure Boot and Deploy Malware",
-          "url": "https://cybersecuritynews.com/blacklotus-techniques/",
-          "published": "Tue, 27 Oct 2026 01:43:07 +0000",
-          "published_utc": "2026-10-27T01:43:07+00:00",
-          "summary": "<p>Hackers have revived techniques associated with the BlackLotus bootkit to bypass Windows Secure Boot and deploy espionage malware against diplomatic organizations in Central Asia. The new bootkit, named BlackX, appeared in attacks targeting agencies in Tajikistan, Uzbekistan, and Turkmenistan in early 2026. Investigators linked the campaign to APT41 with medium confidence, leaving attribution short of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/blacklotus-techniques/\">Hackers Revive BlackLotus Techniques to Bypass Windows Secure Boot and Deploy Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168899"
+          "title": "OpenAI Codex Breaks USB Encryption in Minutes, Exposing Hardcoded Keys and Security Flaws",
+          "url": "https://cybersecuritynews.com/openai-codex-breaks-usb-encryption-in-minutes/",
+          "published": "Tue, 27 Oct 2026 05:40:35 +0000",
+          "published_utc": "2026-10-27T05:40:35+00:00",
+          "summary": "<p>OpenAI Codex helped researcher Xusheng Li uncover flaws in four USB protection products, including hardcoded encryption keys and hidden accounts that allowed files to be decrypted without the owner’s password. In one test, Codex identified the main weakness in seven minutes. The findings expose failures in how these products handle secrets, rather than a breakthrough [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-codex-breaks-usb-encryption-in-minutes/\">OpenAI Codex Breaks USB Encryption in Minutes, Exposing Hardcoded Keys and Security Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168752"
         },
         {
-          "title": "Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading",
-          "url": "https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/",
-          "published": "Tue, 27 Oct 2026 01:13:13 +0000",
-          "published_utc": "2026-10-27T01:13:13+00:00",
-          "summary": "<p>Hackers are using legitimate VLC Media Player and VMware components to load malware onto Windows systems, hiding harmful code behind familiar software. The activity forms part of three malware campaigns targeting users in Brazil and Portugal through fake legal notices, financial documents, and invoice download pages. The attacks combine phishing, hidden scripts, and trusted programs [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/\">Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168896"
-        },
-        {
-          "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
-          "url": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
-          "published": "Mon, 26 Oct 2026 20:29:21 +0000",
-          "published_utc": "2026-10-26T20:29:21+00:00",
-          "summary": "<p>Hackers are now using public exploit code to break into websites that run PHP, and universities and business sites are among the main targets. The bugs behind this wave are two critical flaws in the PHP engine, tracked as CVE-2026-109618 and CVE-2026-109619 and nicknamed PHP2Shell. Both carry a CVSS v4.0 score of 9.2 and can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/public-php2shell-exploit-code/\">Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168893"
-        },
-        {
-          "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
-          "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
-          "published": "Mon, 26 Oct 2026 17:15:22 +0000",
-          "published_utc": "2026-10-26T17:15:22+00:00",
-          "summary": "<p>Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026. The company tracked the disruption under incident TM1526111 and said automatic scaling efforts had returned the service to healthy levels. The recovery update changes the picture from Microsoft’s initial notice, which described a potential [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-investigation-teams-issue/\">Microsoft Investigation Teams Issue Affecting Users in the United States</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168889"
-        },
-        {
-          "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
-          "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
-          "published": "Mon, 26 Oct 2026 16:35:45 +0000",
-          "published_utc": "2026-10-26T16:35:45+00:00",
-          "summary": "<p>A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens. Forever Security discovered the risk after stopping an agent on a real customer’s computer from installing a known malicious npm package. The company later reproduced separate attack paths against OpenAI Codex [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/codex-and-claude-code-hijack/\">Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168874"
-        },
-        {
-          "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
-          "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
-          "published": "Mon, 26 Oct 2026 15:59:50 +0000",
-          "published_utc": "2026-10-26T15:59:50+00:00",
-          "summary": "<p>OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 2026, the project’s 61st release includes OpenSSH 10.6 and LibreSSL 4.4.0, bringing stronger checks for untrusted data and changes to secure connection handling. The official release notes detail [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openbsd-8-0-released/\">OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168813"
-        },
-        {
-          "title": "Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona",
-          "url": "https://cybersecuritynews.com/emperador-ransomware-group-claim/",
-          "published": "Mon, 26 Oct 2026 15:58:08 +0000",
-          "published_utc": "2026-10-26T15:58:08+00:00",
-          "summary": "<p>The Emperador ransomware group claims to have stolen 3.9GB of data from AB InBev and demands $1 million in Bitcoin, but the alleged breach remains unverified, with no company confirmation reported. The claim was discovered on October 25, 2026, at 03:22 UTC. The tracker lists the same day as the estimated attack date, but that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emperador-ransomware-group-claim/\">Emperador Ransomware Group Claims to Have Stolen 3.9GB of Data from the Maker of Budweiser and Corona</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168798"
-        },
-        {
-          "title": "PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability",
-          "url": "https://cybersecuritynews.com/php-http2shell-vulnerability/",
-          "published": "Mon, 26 Oct 2026 15:53:07 +0000",
-          "published_utc": "2026-10-26T15:53:07+00:00",
-          "summary": "<p>The PHP team has released updated Windows builds to fix a serious flaw known as HTTP2Shell. The new packages are PHP 8.5.12-1, 8.4.27-1, 8.3.36-1, and 8.2.35-1, and PHP announced them on October 26, 2026. Each build now includes Brotli 1.2.1, which fixes CVE-2026-111497. Windows users who run PHP should install these packages without delay. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-http2shell-vulnerability/\">PHP Releases New Windows Build Security Updates to Fix Critical HTTP2Shell Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168865"
-        },
-        {
-          "title": "Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours",
-          "url": "https://cybersecuritynews.com/anthropic-internal-system-breach/",
-          "published": "Mon, 26 Oct 2026 14:42:50 +0000",
-          "published_utc": "2026-10-26T14:42:50+00:00",
-          "summary": "<p>Cybersecurity startup Cathedral says its AI agents found routes into Anthropic’s internal business systems in less than 12 hours, exposing how fast automated security tools can find and chain flaws across connected services. The work took place through Anthropic’s program for outside researchers, making this an authorized security test rather than a criminal attack, according [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-internal-system-breach/\">Researchers Use AI Agents to Breach Anthropic&#8217;s Internal Systems in Just 12 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=168857"
+          "title": "Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive User Tracking",
+          "url": "https://cybersecuritynews.com/researcher-root-samsung-smart-tv/",
+          "published": "Tue, 27 Oct 2026 05:25:17 +0000",
+          "published_utc": "2026-10-27T05:25:17+00:00",
+          "summary": "<p>A cybersecurity researcher says he gained root access to a 2025 Samsung Smart TV and found software built to track far more than the picture on the screen. Known online as log4j, he started after the set kept showing ads that seemed oddly specific to his household. He says the Tizen firmware was AES-encrypted, so [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/researcher-root-samsung-smart-tv/\">Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive User Tracking</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=168938"
         }
       ],
       "error": ""

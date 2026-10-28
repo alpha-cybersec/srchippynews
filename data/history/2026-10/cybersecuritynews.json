@@ -2,8 +2,36 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 402,
+  "article_count": 403,
   "articles": [
+    {
+      "title": "OffSec Launches Free PHP2Shell Lab Following Critical Vulnerability Discovery",
+      "url": "https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery/",
+      "published": "Wed, 28 Oct 2026 17:54:27 +0000",
+      "published_utc": "2026-10-28T17:54:27+00:00",
+      "summary": "<p>New York, United States, October 28th, 2026, CyberNewswire New hands-on lab lets security practitioners explore PHP2Shell exploitation firsthand as AI-assisted research reshapes vulnerability discovery. OffSec today announced the release of a free, interactive hands-on lab in Proving Grounds Play (PG Play) to help security practitioners examine and defend against the critical &#8220;PHP2Shell&#8221; vulnerabilities (CVE-2026-109618 and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery/\">OffSec Launches Free PHP2Shell Lab Following Critical Vulnerability Discovery</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169309",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery",
+      "content_hash": "9375b8f6ceb6e66535d27fa61d7994846650270a34d8175719900cb070b0dfc1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9375b8f6ceb6e66535d27fa61d7994846650270a34d8175719900cb070b0dfc1",
+        "FEEDBURNER": "9375b8f6ceb6e66535d27fa61d7994846650270a34d8175719900cb070b0dfc1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T21:52:50.252757+00:00",
+      "first_seen_local": "2026-10-28T16:52:50.252755-05:00",
+      "last_updated_utc": "2026-10-28T21:52:50.252757+00:00",
+      "last_updated_local": "2026-10-28T16:52:50.252755-05:00"
+    },
     {
       "title": "Researcher Uncovers New 0-click Flaw in Telegram Stickers and Chained Them to Run Code on iOS",
       "url": "https://cybersecuritynews.com/0-click-flaw-in-telegram-stickers/",
@@ -91,28 +119,29 @@
       "url": "https://cybersecuritynews.com/cloudflare-xss-vulnerability/",
       "published": "Wed, 28 Oct 2026 15:38:06 +0000",
       "published_utc": "2026-10-28T15:38:06+00:00",
-      "summary": "<p>Security researchers at Searchlight Cyber chained several small weaknesses in Cloudflare&#8217;s image feature. The chain let them run JavaScript on a site that was meant to block it. Kevin Gervot and Adam Kues published the work on October 28, 2026, in a write-up titled Cache Me If You Can. They showed a working cross-site scripting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-xss-vulnerability/\">Researchers Chain Cloudflare Security Flaws to Bypass CSP and Execute Malicious JavaScript</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "summary": "<p>Security researchers at Searchlight Cyber chained several small flaws in Cloudflare&#8217;s image feature. The chain let them run JavaScript on a site that was meant to block it. Kevin Gervot and Adam Kues published the work on October 28, 2026, in a write-up titled Cache Me If You Can. They showed a working cross-site scripting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-xss-vulnerability/\">Researchers Chain Cloudflare Security Flaws to Bypass CSP and Execute Malicious JavaScript</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
       "id": "https://cybersecuritynews.com/?p=169330",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
       "article_key": "cybersecuritynews.com/cloudflare-xss-vulnerability",
-      "content_hash": "c902c89c382d587fe08aec73b4dddd5e499435534f17199d72563ba7ae03e4bc",
+      "content_hash": "cae1f3cbf9a51102c9090753d545dd4584df9bb6aaf014cdd194d9825bf71182",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "c902c89c382d587fe08aec73b4dddd5e499435534f17199d72563ba7ae03e4bc",
-        "FEEDBURNER": "c902c89c382d587fe08aec73b4dddd5e499435534f17199d72563ba7ae03e4bc"
+        "ORIGINAL": "cae1f3cbf9a51102c9090753d545dd4584df9bb6aaf014cdd194d9825bf71182",
+        "FEEDBURNER": "cae1f3cbf9a51102c9090753d545dd4584df9bb6aaf014cdd194d9825bf71182"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "c902c89c382d587fe08aec73b4dddd5e499435534f17199d72563ba7ae03e4bc",
+      "version": 2,
       "first_seen_utc": "2026-10-28T17:20:09.065208+00:00",
       "first_seen_local": "2026-10-28T12:20:09.065205-05:00",
-      "last_updated_utc": "2026-10-28T17:20:09.065208+00:00",
-      "last_updated_local": "2026-10-28T12:20:09.065205-05:00"
+      "last_updated_utc": "2026-10-28T21:52:50.252757+00:00",
+      "last_updated_local": "2026-10-28T16:52:50.252755-05:00"
     },
     {
       "title": "PropellerAds: Why Modern Malware Delivery Starts Before the Payload",

@@ -1,10 +1,782 @@
 {
   "date": "2026-10-28",
-  "article_count": 3,
+  "article_count": 32,
   "sources": {
-    "gbhackers": 3
+    "thehackernews": 9,
+    "cybersecuritynews": 10,
+    "gbhackers": 13
   },
   "articles": [
+    {
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "url": "http://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "published": "Wed, 28 Oct 2026 11:30:00 +0000",
+      "published_utc": "2026-10-28T11:30:00+00:00",
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2241181970195719028",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "content_hash": "2f00bbc53ef72acaa823dc7fc13b27d59f35202d99519c2fa010767fc528a7b1",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2f00bbc53ef72acaa823dc7fc13b27d59f35202d99519c2fa010767fc528a7b1"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "url": "http://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "published": "Wed, 28 Oct 2026 11:15:51 +0000",
+      "published_utc": "2026-10-28T11:15:51+00:00",
+      "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4811728594644334086",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "content_hash": "983b42e2b66c72eb8de550177e982f8a9262af3a6e5c41c3f53dc8298b2f0849",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "983b42e2b66c72eb8de550177e982f8a9262af3a6e5c41c3f53dc8298b2f0849",
+        "FEEDBURNER": "983b42e2b66c72eb8de550177e982f8a9262af3a6e5c41c3f53dc8298b2f0849"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "Hackers Compromise Camera Management Software to Deploy Malware on Windows Computers",
+      "url": "https://cybersecuritynews.com/camera-management-software/",
+      "published": "Wed, 28 Oct 2026 11:03:12 +0000",
+      "published_utc": "2026-10-28T11:03:12+00:00",
+      "summary": "<p>Hackers have compromised camera management software to deploy malware on Windows computers, using a legitimate Microsoft program to run malicious code and maintain access. The activity shows how software used to manage surveillance systems can become an entry point into business networks. The incidents followed a similar pattern: attackers gained access through the camera application, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/camera-management-software/\">Hackers Compromise Camera Management Software to Deploy Malware on Windows Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169196",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/camera-management-software",
+      "content_hash": "a2d2901a18dbc0141c85ffd566f9c40d76c5ad8775d923349ed1ec8acdbed16f",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a2d2901a18dbc0141c85ffd566f9c40d76c5ad8775d923349ed1ec8acdbed16f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Hackers Actively Exploiting New Oracle EBS RCE Vulnerability",
+      "url": "https://cybersecuritynews.com/oracle-ebs-rce-exploited/",
+      "published": "Wed, 28 Oct 2026 10:38:25 +0000",
+      "published_utc": "2026-10-28T10:38:25+00:00",
+      "summary": "<p>Hackers have begun testing a critical Oracle E-Business Suite vulnerability that can let them run commands without logging in. Threat intelligence firm Defused reported exploratory exploit attempts against its decoy systems on October 27, 2026. However, these observations do not confirm successful attacks against customer systems, and Oracle had already released a patch before the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oracle-ebs-rce-exploited/\">Hackers Actively Exploiting New Oracle EBS RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169241",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/oracle-ebs-rce-exploited",
+      "content_hash": "a5674dcdacc5150921ac52686cd65a6881e6111826bbcc872fa631709d3bdd55",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a5674dcdacc5150921ac52686cd65a6881e6111826bbcc872fa631709d3bdd55"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "url": "http://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "published": "Wed, 28 Oct 2026 10:30:00 +0000",
+      "published_utc": "2026-10-28T10:30:00+00:00",
+      "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1614244251194269273",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "content_hash": "d9d0370abd2e52f31f56387809254027476cc014a7ce26e2aff669cd291cdf68",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d9d0370abd2e52f31f56387809254027476cc014a7ce26e2aff669cd291cdf68",
+        "FEEDBURNER": "d9d0370abd2e52f31f56387809254027476cc014a7ce26e2aff669cd291cdf68"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "FortiBleed 2.0 Reveals Thousands of Fortinet VPN and Active Directory Credentials in Exposed Configurations",
+      "url": "https://cybersecuritynews.com/fortibleed-2-0-exposes-vpn-credentials/",
+      "published": "Wed, 28 Oct 2026 10:19:22 +0000",
+      "published_utc": "2026-10-28T10:19:22+00:00",
+      "summary": "<p>FortiBleed 2.0 investigation, published October 27, revealed 40,573 cleartext secret records in exposed FortiGate configurations, including 37,076 local-user passwords and 1,576 Active Directory LDAP bind records linking firewall access, VPN services, and internal identity systems. The researchers examined 1,703 configuration-report files containing 101,419 credential and account records associated with 1,689 host identifiers. The material also [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortibleed-2-0-exposes-vpn-credentials/\">FortiBleed 2.0 Reveals Thousands of Fortinet VPN and Active Directory Credentials in Exposed Configurations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169145",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fortibleed-2-0-exposes-vpn-credentials",
+      "content_hash": "8f61c45f27967dd39b97bc7bd522ef2b49fcdce563a53829c82e9c994bba9df9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "8f61c45f27967dd39b97bc7bd522ef2b49fcdce563a53829c82e9c994bba9df9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Japan’s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware",
+      "url": "https://gbhackers.com/gmo-internet-faces-ransomware/",
+      "published": "Wed, 28 Oct 2026 09:50:58 +0000",
+      "published_utc": "2026-10-28T09:50:58+00:00",
+      "summary": "<p>Japan’s GMO Internet Group urged Onamae.com Desktop Cloud customers to back up their data, disconnect computers from networks, shut them down, and unplug connected cables after suspected attackers threatened to publish customer information and launch ransomware at noon on October 27. The emergency instructions followed unauthorized access to the company’s cloud desktop service and an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gmo-internet-faces-ransomware/\">Japan&#8217;s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205019",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/gmo-internet-faces-ransomware",
+      "content_hash": "970394e0a2d792c3eb9c7d66464907e329bab3ef569d6056774b034820ab23f4",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "970394e0a2d792c3eb9c7d66464907e329bab3ef569d6056774b034820ab23f4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "Microsoft Releases Emergency Windows Updates to Block Compromised eMudhra Certificates",
+      "url": "https://cybersecuritynews.com/microsoft-to-block-emudhra-certificates/",
+      "published": "Wed, 28 Oct 2026 09:50:44 +0000",
+      "published_utc": "2026-10-28T09:50:44+00:00",
+      "summary": "<p>Microsoft released emergency Windows trust updates after discovering eight recoverable eMudhra intermediate CA private keys that could let attackers forge trusted certificates or sign malicious content. Microsoft said the issue affected eMudhra’s certificate hierarchy, not Microsoft systems. The response includes an October 26 out-of-band Windows update removing seven certificates from the Windows trust list. Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-to-block-emudhra-certificates/\">Microsoft Releases Emergency Windows Updates to Block Compromised eMudhra Certificates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169174",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-to-block-emudhra-certificates",
+      "content_hash": "ec73726164e634c969fee6afa904125c24bc69ad6273aa7f48ea12b9cb4eb18b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ec73726164e634c969fee6afa904125c24bc69ad6273aa7f48ea12b9cb4eb18b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Hackers Use CyberStrikeAI Agents to Automate Network Scanning, Exploitation, and Data Theft",
+      "url": "https://cybersecuritynews.com/hackers-use-cyberstrikeai-agents/",
+      "published": "Wed, 28 Oct 2026 09:49:06 +0000",
+      "published_utc": "2026-10-28T09:49:06+00:00",
+      "summary": "<p>Hackers have abused CyberStrikeAI, an open-source penetration-testing platform, to coordinate 44 AI agents across network scanning, exploitation, persistence, and data theft. The activity primarily targeted Japanese organizations, showing how attackers can turn security tools into repeatable intrusion workflows without developing new vulnerabilities or manually directing every task. During a short period in October 2026, the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-cyberstrikeai-agents/\">Hackers Use CyberStrikeAI Agents to Automate Network Scanning, Exploitation, and Data Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169161",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-cyberstrikeai-agents",
+      "content_hash": "429cc49b9dd8fa7fe27e452f204a3312365620a379aa0b7df22a82125cd59e1a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "429cc49b9dd8fa7fe27e452f204a3312365620a379aa0b7df22a82125cd59e1a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Coinbase Customer Data Exposed Via Analytics Vendor Amplitude Security Incident",
+      "url": "https://cybersecuritynews.com/coinbase-customer-data-exposed/",
+      "published": "Wed, 28 Oct 2026 09:31:25 +0000",
+      "published_utc": "2026-10-28T09:31:25+00:00",
+      "summary": "<p>Coinbase has disclosed that a security incident at analytics provider Amplitude exposed contact information belonging to a small subset of its customers. The cryptocurrency exchange said it found no evidence of unauthorized access to Coinbase systems and confirmed that customer funds were not impacted. In its official statement, Coinbase Support said the incident also affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coinbase-customer-data-exposed/\">Coinbase Customer Data Exposed Via Analytics Vendor Amplitude Security Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169201",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/coinbase-customer-data-exposed",
+      "content_hash": "5823ba80364bacc2ffed721e935e18bebaa6984b78e63364371e22b2ddaf0b52",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5823ba80364bacc2ffed721e935e18bebaa6984b78e63364371e22b2ddaf0b52"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Hackers Hijack Camera Management Software to Deploy Reverse Shells and Hidden Windows Malware",
+      "url": "https://gbhackers.com/camera-software-hijacking/",
+      "published": "Wed, 28 Oct 2026 09:28:32 +0000",
+      "published_utc": "2026-10-28T09:28:32+00:00",
+      "summary": "<p>Attackers are compromising camera management software to gain remote access, run malicious DLLs through a legitimate Windows component, and maintain persistent footholds in enterprise environments. The incidents show how overlooked surveillance applications can become entry points into broader corporate networks. Huntress observed several intrusions during September and October involving CMS.exe, a camera management application installed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/camera-software-hijacking/\">Hackers Hijack Camera Management Software to Deploy Reverse Shells and Hidden Windows Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205000",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/camera-software-hijacking",
+      "content_hash": "c6316e9c143bf1128a7d4bbd27c854a356f20abdab4705f0501c6b74303ad574",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c6316e9c143bf1128a7d4bbd27c854a356f20abdab4705f0501c6b74303ad574"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "CISA Warns of PHP2Shell Vulnerabilities Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/php2shell-vulnerabilities-actively-exploited/",
+      "published": "Wed, 28 Oct 2026 09:26:13 +0000",
+      "published_utc": "2026-10-28T09:26:13+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency has added two critical PHP vulnerabilities, jointly known as PHP2Shell, to its Known Exploited Vulnerabilities catalog after confirming real-world exploitation. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619, can let unauthenticated attackers remotely execute code on vulnerable PHP web servers. CISA added both issues to the KEV catalog on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php2shell-vulnerabilities-actively-exploited/\">CISA Warns of PHP2Shell Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169010",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/php2shell-vulnerabilities-actively-exploited",
+      "content_hash": "e187245a94767c027fb68e3deea0f20fe281e28bd473630f7d0b3267b5c93b62",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e187245a94767c027fb68e3deea0f20fe281e28bd473630f7d0b3267b5c93b62"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Hackers Hijack Government and School Subdomains to Promote Illegal Gambling Websites",
+      "url": "https://cybersecuritynews.com/illegal-gambling-websites/",
+      "published": "Wed, 28 Oct 2026 09:09:29 +0000",
+      "published_utc": "2026-10-28T09:09:29+00:00",
+      "summary": "<p>Hackers have abused government and school domains to promote illegal gambling websites, creating unauthorized subdomains while leaving the institutions’ main websites running normally. Two unrelated operations used changes to Domain Name System (DNS) records to place gambling pages beneath trusted institutional addresses, borrowing their reputation to attract visitors through search results. The activity affected institutions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/illegal-gambling-websites/\">Hackers Hijack Government and School Subdomains to Promote Illegal Gambling Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169155",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/illegal-gambling-websites",
+      "content_hash": "1cd4adf307cb1d19ef37e3b62987c4b3bd344b618d48824309e9a6b339e4544a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "1cd4adf307cb1d19ef37e3b62987c4b3bd344b618d48824309e9a6b339e4544a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "Critical UEFI Firmware Flaw Allows Attackers to Execute Malicious Code Before OS Boots",
+      "url": "https://gbhackers.com/critical-uefi-firmware-flaw-allows-attackers-to-execute-malicious-code-before-os-boots/",
+      "published": "Wed, 28 Oct 2026 08:46:52 +0000",
+      "published_utc": "2026-10-28T08:46:52+00:00",
+      "summary": "<p>A critical vulnerability in EDK II&#8217;s PXE network boot driver could allow unauthenticated attackers to execute malicious code before the operating system loads. This vulnerability, tracked as CVE-2026-97631, affects ICMP error processing during both IPv4 and IPv6 network boot, which exposes the firmware memory to potential writes by attackers. The advisory identifies the EDK II [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-uefi-firmware-flaw-allows-attackers-to-execute-malicious-code-before-os-boots/\">Critical UEFI Firmware Flaw Allows Attackers to Execute Malicious Code Before OS Boots</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205005",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-uefi-firmware-flaw-allows-attackers-to-execute-malicious-code-before-os-boots",
+      "content_hash": "64c121a3834e7db28ddf4dda11e5b272329ab383c9e8cc2075bda47593c21764",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "64c121a3834e7db28ddf4dda11e5b272329ab383c9e8cc2075bda47593c21764"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "Discord to Make Public Server Messages Searchable on Google",
+      "url": "https://gbhackers.com/discord-to-make-public-server-messages-searchable-on-google/",
+      "published": "Wed, 28 Oct 2026 08:24:12 +0000",
+      "published_utc": "2026-10-28T08:24:12+00:00",
+      "summary": "<p>Discord will make eligible messages from public channels in Discoverable Servers accessible through Google and other search engines, expanding conversations beyond its application. This rollout introduces privacy considerations, messages from members are automatically enabled for web publication by default in most regions. If members choose to turn off sharing later, it does not automatically remove [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/discord-to-make-public-server-messages-searchable-on-google/\">Discord to Make Public Server Messages Searchable on Google</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204987",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/discord-to-make-public-server-messages-searchable-on-google",
+      "content_hash": "5c261e3ea3901809008b5ec282956e154b98110d8a1c58fcf2099ac12624ab68",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5c261e3ea3901809008b5ec282956e154b98110d8a1c58fcf2099ac12624ab68"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "12 Confidential Computing Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/confidential-computing-buyers-guide/",
+      "published": "Wed, 28 Oct 2026 08:22:41 +0000",
+      "published_utc": "2026-10-28T08:22:41+00:00",
+      "summary": "<p>Confidential computing closes encryption’s last gap data exposed during computation with hardware-enforced TEEs that prove their state via attestation, and 2026’s buying question is one sentence: who must be unable to see this data, provably? This verdict guide judges twelve options across the real menu: hyperscaler families, the two silicon lanes everything rides, independent enablement [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/confidential-computing-buyers-guide/\">12 Confidential Computing Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204910",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/confidential-computing-buyers-guide",
+      "content_hash": "cc9d9d20bea981aef8d43e74a59c18d7061f19ce537748fb595126eaa56f5d82",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "cc9d9d20bea981aef8d43e74a59c18d7061f19ce537748fb595126eaa56f5d82"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "AI-Powered Hackers Target Japanese Companies With Automated Attacks and Credential Theft",
+      "url": "https://gbhackers.com/japanese-companies-targeted/",
+      "published": "Wed, 28 Oct 2026 08:20:36 +0000",
+      "published_utc": "2026-10-28T08:20:36+00:00",
+      "summary": "<p>Threat actors targeting Japanese organizations are using artificial intelligence to automate intrusion workflows, speed up attack planning, and develop credential-theft tools, according to an investigation of three exposed attack infrastructures. The findings show distinct levels of AI involvement, from autonomous agents conducting attacks to experienced operators using generated scripts. The research follows Japan’s National Cybersecurity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/japanese-companies-targeted/\">AI-Powered Hackers Target Japanese Companies With Automated Attacks and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204972",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/japanese-companies-targeted",
+      "content_hash": "7f8616c9277b151e21654e1ef7b11aea872169d9ca1a06541a58d0521c5147e7",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "7f8616c9277b151e21654e1ef7b11aea872169d9ca1a06541a58d0521c5147e7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "12 Data Access Governance Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/data-access-governance-buyers-guide/",
+      "published": "Wed, 28 Oct 2026 08:20:17 +0000",
+      "published_utc": "2026-10-28T08:20:17+00:00",
+      "summary": "<p>“Who can read the M&#38;A folder?” still silences rooms, and Copilot-era AI assistants turned that silence into a deadline they surface everything anyone technically can touch. This verdict guide judges twelve data access governance options across the field’s real architectures: effective-access graphs, warehouse-native policy engines, proxy-light governors, database-level enforcers, and the suite extensions with one [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-access-governance-buyers-guide/\">12 Data Access Governance Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204884",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/data-access-governance-buyers-guide",
+      "content_hash": "5e61ebcd66fed25927a929b2536df0d48ad87dac7e82d6236f0296b67673022c",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5e61ebcd66fed25927a929b2536df0d48ad87dac7e82d6236f0296b67673022c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "12 Data Discovery Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/data-discovery-buyers-guide/",
+      "published": "Wed, 28 Oct 2026 08:17:24 +0000",
+      "published_utc": "2026-10-28T08:17:24+00:00",
+      "summary": "<p>Every downstream control inherits the inventory discovery builds DLP, access reviews, DSARs, AI governance and the 2026 field answers the “where is it?” question from different vantage points: correlation graphs, agentless cloud sweeps, semantic engines, access-context fusions, and the operational-store specialists DSPM marketing skips. This verdict guide judges twelve tools on accuracy honesty, estate reach, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-discovery-buyers-guide/\">12 Data Discovery Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204873",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/data-discovery-buyers-guide",
+      "content_hash": "8fc5c133e36c6ea1a6f58d54cea0386c3dbad8fda03de914ff7b2d30e57a8ce4",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "8fc5c133e36c6ea1a6f58d54cea0386c3dbad8fda03de914ff7b2d30e57a8ce4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "url": "http://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "published": "Wed, 28 Oct 2026 08:15:07 +0000",
+      "published_utc": "2026-10-28T08:15:07+00:00",
+      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4060856846637930333",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "content_hash": "11ccd3ca0a76f5b20858c459a29411c5c592b67e427590543a5ef9bf4bffd14c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "11ccd3ca0a76f5b20858c459a29411c5c592b67e427590543a5ef9bf4bffd14c",
+        "FEEDBURNER": "11ccd3ca0a76f5b20858c459a29411c5c592b67e427590543a5ef9bf4bffd14c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "12 Hardware Security Modules (HSM): The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/hsm-buyers-guide/",
+      "published": "Wed, 28 Oct 2026 08:12:30 +0000",
+      "published_utc": "2026-10-28T08:12:30+00:00",
+      "summary": "<p>An HSM is a decade-long marriage to a root of trust, and 2026’s vows are specific: FIPS 140-3 trajectories (140-2 certificates are sunsetting), post-quantum firmware with dates attached, and delivery models spanning racked appliances to hourly cloud instances. This verdict guide judges twelve options including the sovereign-lane specialists US-centric lists skip and one hyperscaler service [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hsm-buyers-guide/\">12 Hardware Security Modules (HSM): The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204848",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hsm-buyers-guide",
+      "content_hash": "068351c8f2e2ae3dea2704ce41d8848c04f19cc7ee57990e3f19b1c76354b63d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "068351c8f2e2ae3dea2704ce41d8848c04f19cc7ee57990e3f19b1c76354b63d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "Top 10 Best Ransomware Recovery Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-ransomware-recovery-solutions/",
+      "published": "Wed, 28 Oct 2026 08:09:23 +0000",
+      "published_utc": "2026-10-28T08:09:23+00:00",
+      "summary": "<p>Prevention lost; now what? That question not backup-window math defines ransomware recovery, a discipline measured in hours-to-business and judged on three hard problems: finding the clean restore point, proving it’s actually clean, and rebuilding at scale without reinfecting yourself. We scored ten platforms specifically on the recovery day, not the backup night. Rubrik takes 1; [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-ransomware-recovery-solutions/\">Top 10 Best Ransomware Recovery Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169022",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-ransomware-recovery-solutions",
+      "content_hash": "add867839be32ee1b21c683b2a26ec7ad3af10134debb29cd1677e8f4e148e23",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "add867839be32ee1b21c683b2a26ec7ad3af10134debb29cd1677e8f4e148e23"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "12 Email Encryption Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/email-encryption-buyers-guide/",
+      "published": "Wed, 28 Oct 2026 08:04:00 +0000",
+      "published_utc": "2026-10-28T08:04:00+00:00",
+      "summary": "<p>Email encryption fails at the recipient or not at all: the strongest cryptography loses to the counterparty who abandons the portal login. This verdict guide judges twelve solutions on the click count that decides adoption, the automation that removes user memory from the loop, and the lanes the market actually splits into bundle floors, usability-first [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/email-encryption-buyers-guide/\">12 Email Encryption Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=204828",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/email-encryption-buyers-guide",
+      "content_hash": "03083759205a087cad95733f7c5461d52c8ac3cb798d9e60ca0dc4e484038253",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "03083759205a087cad95733f7c5461d52c8ac3cb798d9e60ca0dc4e484038253"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:26.575483+00:00",
+      "first_seen_local": "2026-10-28T06:34:26.575481-05:00",
+      "last_updated_utc": "2026-10-28T11:34:26.575483+00:00",
+      "last_updated_local": "2026-10-28T06:34:26.575481-05:00"
+    },
+    {
+      "title": "Top 9 Best Backup & Recovery Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/top-9-best-backup-recovery-solutions-in-2026-ranked-scored/",
+      "published": "Wed, 28 Oct 2026 08:00:49 +0000",
+      "published_utc": "2026-10-28T08:00:49+00:00",
+      "summary": "<p>Ransomware crews attack backups before they attack production encrypting or deleting recovery points first, then ransoming what’s left. That inverted kill chain has turned backup from an infrastructure checkbox into a security control, judged now by immutability, blast-radius isolation, and verified restore speed rather than backup-window math. Our source sheet listed ten vendors, but Cohesity’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/top-9-best-backup-recovery-solutions-in-2026-ranked-scored/\">Top 9 Best Backup &#038; Recovery Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=168924",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/top-9-best-backup-recovery-solutions-in-2026-ranked-scored",
+      "content_hash": "61c3eef8d22ae0a0b756c091cb1454fcdab39031dfc37f87648895d07d69b592",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "61c3eef8d22ae0a0b756c091cb1454fcdab39031dfc37f87648895d07d69b592"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:27.035006+00:00",
+      "first_seen_local": "2026-10-28T06:34:27.035001-05:00",
+      "last_updated_utc": "2026-10-28T11:34:27.035006+00:00",
+      "last_updated_local": "2026-10-28T06:34:27.035001-05:00"
+    },
+    {
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "url": "http://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "published": "Wed, 28 Oct 2026 07:37:50 +0000",
+      "published_utc": "2026-10-28T07:37:50+00:00",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-514970569223851215",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "content_hash": "9431336109e435e755438ddf0324337f578b088c5f9b87df95dbc169c1d3d82c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9431336109e435e755438ddf0324337f578b088c5f9b87df95dbc169c1d3d82c",
+        "FEEDBURNER": "9431336109e435e755438ddf0324337f578b088c5f9b87df95dbc169c1d3d82c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "url": "http://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "published": "Wed, 28 Oct 2026 07:13:21 +0000",
+      "published_utc": "2026-10-28T07:13:21+00:00",
+      "summary": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4113574292774578686",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "content_hash": "b4bfadb9dd3198f293aaac7d0d4230746c42ff55ac8831861f31bb7c3b8143d9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b4bfadb9dd3198f293aaac7d0d4230746c42ff55ac8831861f31bb7c3b8143d9",
+        "FEEDBURNER": "b4bfadb9dd3198f293aaac7d0d4230746c42ff55ac8831861f31bb7c3b8143d9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "url": "http://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+      "published": "Wed, 28 Oct 2026 06:20:37 +0000",
+      "published_utc": "2026-10-28T06:20:37+00:00",
+      "summary": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6897577546766910343",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+      "content_hash": "25697d7974518ae9b0a84cb41566d24b930c2ea198f2dda89bc81394d74aa6d0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "25697d7974518ae9b0a84cb41566d24b930c2ea198f2dda89bc81394d74aa6d0",
+        "FEEDBURNER": "25697d7974518ae9b0a84cb41566d24b930c2ea198f2dda89bc81394d74aa6d0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "url": "http://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "published": "Wed, 28 Oct 2026 06:04:58 +0000",
+      "published_utc": "2026-10-28T06:04:58+00:00",
+      "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6981442170525211540",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "content_hash": "68c81e89fafdf52c748ba931cfb33cd46a713cd02fb05bcb4ff5b96133accd32",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "68c81e89fafdf52c748ba931cfb33cd46a713cd02fb05bcb4ff5b96133accd32",
+        "FEEDBURNER": "68c81e89fafdf52c748ba931cfb33cd46a713cd02fb05bcb4ff5b96133accd32"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
+    {
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "url": "http://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "published": "Wed, 28 Oct 2026 05:42:26 +0000",
+      "published_utc": "2026-10-28T05:42:26+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6653578823201068073",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "content_hash": "742e3990cea6d9331e2042055ea1d90f03e76c508fcb174a53be264411a2d0e0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "742e3990cea6d9331e2042055ea1d90f03e76c508fcb174a53be264411a2d0e0",
+        "FEEDBURNER": "742e3990cea6d9331e2042055ea1d90f03e76c508fcb174a53be264411a2d0e0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-28T11:34:33.447387+00:00",
+      "first_seen_local": "2026-10-28T06:34:33.447384-05:00",
+      "last_updated_utc": "2026-10-28T11:34:33.447387+00:00",
+      "last_updated_local": "2026-10-28T06:34:33.447384-05:00"
+    },
     {
       "title": "CISA Offers Free Security Tools to Protect Microsoft 365 and Google Workspace From Cyber Threats",
       "url": "https://gbhackers.com/cisa-offers-free-security-tools-to-protect-microsoft-365-and-google-workspace/",

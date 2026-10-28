@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Hackers Use Fake Phantom, Jupiter, and Bitget Firefox Extensions to Target Cryptocurrency Wallets",
+          "url": "https://gbhackers.com/cryptocurrency-wallets-targeted/",
+          "published": "Wed, 28 Oct 2026 13:14:13 +0000",
+          "published_utc": "2026-10-28T13:14:13+00:00",
+          "summary": "<p>Three malicious Firefox extensions impersonating Phantom, Jupiter, and Bitget to steal cryptocurrency wallet recovery phrases and private keys. The campaign combines deceptive branding, bundled credential stealers, and remotely delivered JavaScript, with stolen information routed through infrastructure under bonto[.]io. All three listings were removed before Socket published its findings on October 27, 2026. Phantom’s impersonator advertised [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cryptocurrency-wallets-targeted/\">Hackers Use Fake Phantom, Jupiter, and Bitget Firefox Extensions to Target Cryptocurrency Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205090"
+        },
+        {
+          "title": "Hackers Reuse XWorm Malware Loader Across Phishing Campaigns Targeting Colombia and the UK",
+          "url": "https://gbhackers.com/xworm-malware-loader/",
+          "published": "Wed, 28 Oct 2026 12:51:55 +0000",
+          "published_utc": "2026-10-28T12:51:55+00:00",
+          "summary": "<p>A judicial-themed phishing campaign targeting Colombian organizations that delivers XWorm through obfuscated scripts, encrypted PowerShell, and a reusable .NET loader. The recovered loader is binary-identical to one documented in a September 10, 2026, UK-linked case, connecting otherwise differently packaged delivery chains. The overlap establishes loader reuse, not common attribution. Different payload hashes, execution targets, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/xworm-malware-loader/\">Hackers Reuse XWorm Malware Loader Across Phishing Campaigns Targeting Colombia and the UK</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205030"
+        },
+        {
+          "title": "Anthropic’s Claude Chains One-Click and Zero-Click Exploits to Bypass Chrome, Android and Linux Security",
+          "url": "https://gbhackers.com/anthropics-claude-chains-one-click-and-zero-click-exploits/",
+          "published": "Wed, 28 Oct 2026 12:51:03 +0000",
+          "published_utc": "2026-10-28T12:51:03+00:00",
+          "summary": "<p>Anthropic announced that an unreleased research model called Claude successfully developed working exploit chains for Chrome, Safari, Android, Windows, and Linux. The company’s Frontier Red Team shared these findings on October 27, 2026. Many exploit chains required minimal or no user interaction, and the team reported every identified flaw to the respective vendor before publication. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-chains-one-click-and-zero-click-exploits/\">Anthropic&#8217;s Claude Chains One-Click and Zero-Click Exploits to Bypass Chrome, Android and Linux Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205087"
+        },
+        {
+          "title": "OWASP Warns AI Agents Are Making Cyberattacks Easier for Less-Skilled Hackers",
+          "url": "https://gbhackers.com/owasp-warns-ai-agents-are-making-cyberattacks-easier/",
+          "published": "Wed, 28 Oct 2026 12:38:49 +0000",
+          "published_utc": "2026-10-28T12:38:49+00:00",
+          "summary": "<p>OWASP has issued a warning that AI agents and chatbots are reducing the skills required for certain aspects of cyberattacks, particularly in areas like target discovery and vulnerability research. Their latest research indicates that beginners can advance by utilizing AI guidance; however, human expertise remains essential when tools fail or when dealing with complex attacks. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/owasp-warns-ai-agents-are-making-cyberattacks-easier/\">OWASP Warns AI Agents Are Making Cyberattacks Easier for Less-Skilled Hackers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205081"
+        },
+        {
+          "title": "Microsoft Releases Emergency Windows Updates to Revoke Trust in Compromised eMudhra Certificates",
+          "url": "https://gbhackers.com/windows-updates-to-revoke-trust-in-compromised-emudhra-certificates/",
+          "published": "Wed, 28 Oct 2026 12:29:17 +0000",
+          "published_utc": "2026-10-28T12:29:17+00:00",
+          "summary": "<p>Microsoft has released an emergency Windows update to remove trust in certificates associated with compromised eMudhra certificate authority keys. The out-of-band update, issued on October 26, 2026, eliminates seven certificates from the Windows trust list. Following this, the same removals were applied to Microsoft Edge on October 27, as stated by the Microsoft Security Response [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-updates-to-revoke-trust-in-compromised-emudhra-certificates/\">Microsoft Releases Emergency Windows Updates to Revoke Trust in Compromised eMudhra Certificates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205079"
+        },
+        {
+          "title": "FortiBleed 2.0 Exposes 40,573 FortiGate Secrets Across 975 Previously Unlisted Domains",
+          "url": "https://gbhackers.com/fortibleed-2-0-exposes-40573-fortigate-secrets/",
+          "published": "Wed, 28 Oct 2026 12:19:24 +0000",
+          "published_utc": "2026-10-28T12:19:24+00:00",
+          "summary": "<p>Hudson Rock’s FortiBleed 2.0 investigation found 40,573 records with cleartext secrets in FortiGate configuration reports, exposing passwords and service credentials that could help attackers move beyond the firewall. Published on October 27, 2026, the research also identifies 975 domain labels missing from the earlier FortiBleed dataset. These labels do not represent 975 newly confirmed company [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortibleed-2-0-exposes-40573-fortigate-secrets/\">FortiBleed 2.0 Exposes 40,573 FortiGate Secrets Across 975 Previously Unlisted Domains</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205070"
+        },
+        {
+          "title": "Sony Data Breach Exposes 2.58 Million Customer Records and 54,401 Email Credentials",
+          "url": "https://gbhackers.com/sony-data-breach-exposes-2-58-million-customer-records/",
+          "published": "Wed, 28 Oct 2026 11:56:34 +0000",
+          "published_utc": "2026-10-28T11:56:34+00:00",
+          "summary": "<p>Sony Network Communications disclosed a data breach that exposed 2,585,481 customer records linked to its So-net and Plala (S Course) internet services. The breach, announced on October 27, 2026, compromised passwords for 54,401 email addresses. However, it did not affect primary membership passwords or credit card information. The compromised database contained 2,141,986 records from So-net [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sony-data-breach-exposes-2-58-million-customer-records/\">Sony Data Breach Exposes 2.58 Million Customer Records and 54,401 Email Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205063"
+        },
+        {
+          "title": "Critical Veeam Backup & Replication Flaw Allows Unauthenticated Attackers to Bypass Authorization",
+          "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw-2/",
+          "published": "Wed, 28 Oct 2026 11:23:39 +0000",
+          "published_utc": "2026-10-28T11:23:39+00:00",
+          "summary": "<p>Veeam has released security updates to address a critical authorization bypass vulnerability in Backup &#38; Replication. This flaw, tracked as CVE-2026-108142, allows an unauthenticated attacker to bypass authorization on the CDP Coordinator Service. The vulnerability has a CVSS v4.0 score of 9.1 and affects both Windows deployments and the Veeam Software Appliance. The company disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-veeam-backup-replication-flaw-2/\">Critical Veeam Backup &amp; Replication Flaw Allows Unauthenticated Attackers to Bypass Authorization</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205054"
+        },
+        {
+          "title": "Microsoft Whistleblower Claims Foreign Engineers Can Access Sensitive U.S. Government Cloud Systems",
+          "url": "https://gbhackers.com/microsoft-whistleblower-claims-foreign-engineers/",
+          "published": "Wed, 28 Oct 2026 11:12:02 +0000",
+          "published_utc": "2026-10-28T11:12:02+00:00",
+          "summary": "<p>An alleged Microsoft whistleblower has raised concerns regarding overseas engineers accessing U.S. government cloud information through the company’s &#8220;escort&#8221; support process. Screenshots mentioned in an October 28 post by the X account Conspiracookie allegedly show approval for an engineer based in India to view logs associated with Microsoft’s Government Community Cloud (GCC). However, these claims [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-whistleblower-claims-foreign-engineers/\">Microsoft Whistleblower Claims Foreign Engineers Can Access Sensitive U.S. Government Cloud Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205048"
+        },
+        {
+          "title": "Japan’s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware",
+          "url": "https://gbhackers.com/gmo-internet-faces-ransomware/",
+          "published": "Wed, 28 Oct 2026 09:50:58 +0000",
+          "published_utc": "2026-10-28T09:50:58+00:00",
+          "summary": "<p>Japan’s GMO Internet Group urged Onamae.com Desktop Cloud customers to back up their data, disconnect computers from networks, shut them down, and unplug connected cables after suspected attackers threatened to publish customer information and launch ransomware at noon on October 27. The emergency instructions followed unauthorized access to the company’s cloud desktop service and an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gmo-internet-faces-ransomware/\">Japan&#8217;s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205019"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -25,84 +106,84 @@
       "article_count": 10,
       "articles": [
         {
+          "title": "Hackers Use Fake Phantom, Jupiter, and Bitget Firefox Extensions to Target Cryptocurrency Wallets",
+          "url": "https://gbhackers.com/cryptocurrency-wallets-targeted/",
+          "published": "Wed, 28 Oct 2026 13:14:13 +0000",
+          "published_utc": "2026-10-28T13:14:13+00:00",
+          "summary": "<p>Three malicious Firefox extensions impersonating Phantom, Jupiter, and Bitget to steal cryptocurrency wallet recovery phrases and private keys. The campaign combines deceptive branding, bundled credential stealers, and remotely delivered JavaScript, with stolen information routed through infrastructure under bonto[.]io. All three listings were removed before Socket published its findings on October 27, 2026. Phantom’s impersonator advertised [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cryptocurrency-wallets-targeted/\">Hackers Use Fake Phantom, Jupiter, and Bitget Firefox Extensions to Target Cryptocurrency Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205090"
+        },
+        {
+          "title": "Hackers Reuse XWorm Malware Loader Across Phishing Campaigns Targeting Colombia and the UK",
+          "url": "https://gbhackers.com/xworm-malware-loader/",
+          "published": "Wed, 28 Oct 2026 12:51:55 +0000",
+          "published_utc": "2026-10-28T12:51:55+00:00",
+          "summary": "<p>A judicial-themed phishing campaign targeting Colombian organizations that delivers XWorm through obfuscated scripts, encrypted PowerShell, and a reusable .NET loader. The recovered loader is binary-identical to one documented in a September 10, 2026, UK-linked case, connecting otherwise differently packaged delivery chains. The overlap establishes loader reuse, not common attribution. Different payload hashes, execution targets, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/xworm-malware-loader/\">Hackers Reuse XWorm Malware Loader Across Phishing Campaigns Targeting Colombia and the UK</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205030"
+        },
+        {
+          "title": "Anthropic’s Claude Chains One-Click and Zero-Click Exploits to Bypass Chrome, Android and Linux Security",
+          "url": "https://gbhackers.com/anthropics-claude-chains-one-click-and-zero-click-exploits/",
+          "published": "Wed, 28 Oct 2026 12:51:03 +0000",
+          "published_utc": "2026-10-28T12:51:03+00:00",
+          "summary": "<p>Anthropic announced that an unreleased research model called Claude successfully developed working exploit chains for Chrome, Safari, Android, Windows, and Linux. The company’s Frontier Red Team shared these findings on October 27, 2026. Many exploit chains required minimal or no user interaction, and the team reported every identified flaw to the respective vendor before publication. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-chains-one-click-and-zero-click-exploits/\">Anthropic&#8217;s Claude Chains One-Click and Zero-Click Exploits to Bypass Chrome, Android and Linux Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205087"
+        },
+        {
+          "title": "OWASP Warns AI Agents Are Making Cyberattacks Easier for Less-Skilled Hackers",
+          "url": "https://gbhackers.com/owasp-warns-ai-agents-are-making-cyberattacks-easier/",
+          "published": "Wed, 28 Oct 2026 12:38:49 +0000",
+          "published_utc": "2026-10-28T12:38:49+00:00",
+          "summary": "<p>OWASP has issued a warning that AI agents and chatbots are reducing the skills required for certain aspects of cyberattacks, particularly in areas like target discovery and vulnerability research. Their latest research indicates that beginners can advance by utilizing AI guidance; however, human expertise remains essential when tools fail or when dealing with complex attacks. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/owasp-warns-ai-agents-are-making-cyberattacks-easier/\">OWASP Warns AI Agents Are Making Cyberattacks Easier for Less-Skilled Hackers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205081"
+        },
+        {
+          "title": "Microsoft Releases Emergency Windows Updates to Revoke Trust in Compromised eMudhra Certificates",
+          "url": "https://gbhackers.com/windows-updates-to-revoke-trust-in-compromised-emudhra-certificates/",
+          "published": "Wed, 28 Oct 2026 12:29:17 +0000",
+          "published_utc": "2026-10-28T12:29:17+00:00",
+          "summary": "<p>Microsoft has released an emergency Windows update to remove trust in certificates associated with compromised eMudhra certificate authority keys. The out-of-band update, issued on October 26, 2026, eliminates seven certificates from the Windows trust list. Following this, the same removals were applied to Microsoft Edge on October 27, as stated by the Microsoft Security Response [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-updates-to-revoke-trust-in-compromised-emudhra-certificates/\">Microsoft Releases Emergency Windows Updates to Revoke Trust in Compromised eMudhra Certificates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205079"
+        },
+        {
+          "title": "FortiBleed 2.0 Exposes 40,573 FortiGate Secrets Across 975 Previously Unlisted Domains",
+          "url": "https://gbhackers.com/fortibleed-2-0-exposes-40573-fortigate-secrets/",
+          "published": "Wed, 28 Oct 2026 12:19:24 +0000",
+          "published_utc": "2026-10-28T12:19:24+00:00",
+          "summary": "<p>Hudson Rock’s FortiBleed 2.0 investigation found 40,573 records with cleartext secrets in FortiGate configuration reports, exposing passwords and service credentials that could help attackers move beyond the firewall. Published on October 27, 2026, the research also identifies 975 domain labels missing from the earlier FortiBleed dataset. These labels do not represent 975 newly confirmed company [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortibleed-2-0-exposes-40573-fortigate-secrets/\">FortiBleed 2.0 Exposes 40,573 FortiGate Secrets Across 975 Previously Unlisted Domains</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205070"
+        },
+        {
+          "title": "Sony Data Breach Exposes 2.58 Million Customer Records and 54,401 Email Credentials",
+          "url": "https://gbhackers.com/sony-data-breach-exposes-2-58-million-customer-records/",
+          "published": "Wed, 28 Oct 2026 11:56:34 +0000",
+          "published_utc": "2026-10-28T11:56:34+00:00",
+          "summary": "<p>Sony Network Communications disclosed a data breach that exposed 2,585,481 customer records linked to its So-net and Plala (S Course) internet services. The breach, announced on October 27, 2026, compromised passwords for 54,401 email addresses. However, it did not affect primary membership passwords or credit card information. The compromised database contained 2,141,986 records from So-net [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sony-data-breach-exposes-2-58-million-customer-records/\">Sony Data Breach Exposes 2.58 Million Customer Records and 54,401 Email Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205063"
+        },
+        {
+          "title": "Critical Veeam Backup & Replication Flaw Allows Unauthenticated Attackers to Bypass Authorization",
+          "url": "https://gbhackers.com/critical-veeam-backup-replication-flaw-2/",
+          "published": "Wed, 28 Oct 2026 11:23:39 +0000",
+          "published_utc": "2026-10-28T11:23:39+00:00",
+          "summary": "<p>Veeam has released security updates to address a critical authorization bypass vulnerability in Backup &#38; Replication. This flaw, tracked as CVE-2026-108142, allows an unauthenticated attacker to bypass authorization on the CDP Coordinator Service. The vulnerability has a CVSS v4.0 score of 9.1 and affects both Windows deployments and the Veeam Software Appliance. The company disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-veeam-backup-replication-flaw-2/\">Critical Veeam Backup &amp; Replication Flaw Allows Unauthenticated Attackers to Bypass Authorization</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205054"
+        },
+        {
+          "title": "Microsoft Whistleblower Claims Foreign Engineers Can Access Sensitive U.S. Government Cloud Systems",
+          "url": "https://gbhackers.com/microsoft-whistleblower-claims-foreign-engineers/",
+          "published": "Wed, 28 Oct 2026 11:12:02 +0000",
+          "published_utc": "2026-10-28T11:12:02+00:00",
+          "summary": "<p>An alleged Microsoft whistleblower has raised concerns regarding overseas engineers accessing U.S. government cloud information through the company’s &#8220;escort&#8221; support process. Screenshots mentioned in an October 28 post by the X account Conspiracookie allegedly show approval for an engineer based in India to view logs associated with Microsoft’s Government Community Cloud (GCC). However, these claims [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-whistleblower-claims-foreign-engineers/\">Microsoft Whistleblower Claims Foreign Engineers Can Access Sensitive U.S. Government Cloud Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205048"
+        },
+        {
           "title": "Japan’s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware",
           "url": "https://gbhackers.com/gmo-internet-faces-ransomware/",
           "published": "Wed, 28 Oct 2026 09:50:58 +0000",
           "published_utc": "2026-10-28T09:50:58+00:00",
           "summary": "<p>Japan’s GMO Internet Group urged Onamae.com Desktop Cloud customers to back up their data, disconnect computers from networks, shut them down, and unplug connected cables after suspected attackers threatened to publish customer information and launch ransomware at noon on October 27. The emergency instructions followed unauthorized access to the company’s cloud desktop service and an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gmo-internet-faces-ransomware/\">Japan&#8217;s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=205019"
-        },
-        {
-          "title": "Hackers Hijack Camera Management Software to Deploy Reverse Shells and Hidden Windows Malware",
-          "url": "https://gbhackers.com/camera-software-hijacking/",
-          "published": "Wed, 28 Oct 2026 09:28:32 +0000",
-          "published_utc": "2026-10-28T09:28:32+00:00",
-          "summary": "<p>Attackers are compromising camera management software to gain remote access, run malicious DLLs through a legitimate Windows component, and maintain persistent footholds in enterprise environments. The incidents show how overlooked surveillance applications can become entry points into broader corporate networks. Huntress observed several intrusions during September and October involving CMS.exe, a camera management application installed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/camera-software-hijacking/\">Hackers Hijack Camera Management Software to Deploy Reverse Shells and Hidden Windows Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205000"
-        },
-        {
-          "title": "Critical UEFI Firmware Flaw Allows Attackers to Execute Malicious Code Before OS Boots",
-          "url": "https://gbhackers.com/critical-uefi-firmware-flaw-allows-attackers-to-execute-malicious-code-before-os-boots/",
-          "published": "Wed, 28 Oct 2026 08:46:52 +0000",
-          "published_utc": "2026-10-28T08:46:52+00:00",
-          "summary": "<p>A critical vulnerability in EDK II&#8217;s PXE network boot driver could allow unauthenticated attackers to execute malicious code before the operating system loads. This vulnerability, tracked as CVE-2026-97631, affects ICMP error processing during both IPv4 and IPv6 network boot, which exposes the firmware memory to potential writes by attackers. The advisory identifies the EDK II [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-uefi-firmware-flaw-allows-attackers-to-execute-malicious-code-before-os-boots/\">Critical UEFI Firmware Flaw Allows Attackers to Execute Malicious Code Before OS Boots</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205005"
-        },
-        {
-          "title": "Discord to Make Public Server Messages Searchable on Google",
-          "url": "https://gbhackers.com/discord-to-make-public-server-messages-searchable-on-google/",
-          "published": "Wed, 28 Oct 2026 08:24:12 +0000",
-          "published_utc": "2026-10-28T08:24:12+00:00",
-          "summary": "<p>Discord will make eligible messages from public channels in Discoverable Servers accessible through Google and other search engines, expanding conversations beyond its application. This rollout introduces privacy considerations, messages from members are automatically enabled for web publication by default in most regions. If members choose to turn off sharing later, it does not automatically remove [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/discord-to-make-public-server-messages-searchable-on-google/\">Discord to Make Public Server Messages Searchable on Google</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204987"
-        },
-        {
-          "title": "12 Confidential Computing Solutions: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/confidential-computing-buyers-guide/",
-          "published": "Wed, 28 Oct 2026 08:22:41 +0000",
-          "published_utc": "2026-10-28T08:22:41+00:00",
-          "summary": "<p>Confidential computing closes encryption’s last gap data exposed during computation with hardware-enforced TEEs that prove their state via attestation, and 2026’s buying question is one sentence: who must be unable to see this data, provably? This verdict guide judges twelve options across the real menu: hyperscaler families, the two silicon lanes everything rides, independent enablement [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/confidential-computing-buyers-guide/\">12 Confidential Computing Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204910"
-        },
-        {
-          "title": "AI-Powered Hackers Target Japanese Companies With Automated Attacks and Credential Theft",
-          "url": "https://gbhackers.com/japanese-companies-targeted/",
-          "published": "Wed, 28 Oct 2026 08:20:36 +0000",
-          "published_utc": "2026-10-28T08:20:36+00:00",
-          "summary": "<p>Threat actors targeting Japanese organizations are using artificial intelligence to automate intrusion workflows, speed up attack planning, and develop credential-theft tools, according to an investigation of three exposed attack infrastructures. The findings show distinct levels of AI involvement, from autonomous agents conducting attacks to experienced operators using generated scripts. The research follows Japan’s National Cybersecurity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/japanese-companies-targeted/\">AI-Powered Hackers Target Japanese Companies With Automated Attacks and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204972"
-        },
-        {
-          "title": "12 Data Access Governance Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/data-access-governance-buyers-guide/",
-          "published": "Wed, 28 Oct 2026 08:20:17 +0000",
-          "published_utc": "2026-10-28T08:20:17+00:00",
-          "summary": "<p>“Who can read the M&#38;A folder?” still silences rooms, and Copilot-era AI assistants turned that silence into a deadline they surface everything anyone technically can touch. This verdict guide judges twelve data access governance options across the field’s real architectures: effective-access graphs, warehouse-native policy engines, proxy-light governors, database-level enforcers, and the suite extensions with one [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-access-governance-buyers-guide/\">12 Data Access Governance Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204884"
-        },
-        {
-          "title": "12 Data Discovery Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/data-discovery-buyers-guide/",
-          "published": "Wed, 28 Oct 2026 08:17:24 +0000",
-          "published_utc": "2026-10-28T08:17:24+00:00",
-          "summary": "<p>Every downstream control inherits the inventory discovery builds DLP, access reviews, DSARs, AI governance and the 2026 field answers the “where is it?” question from different vantage points: correlation graphs, agentless cloud sweeps, semantic engines, access-context fusions, and the operational-store specialists DSPM marketing skips. This verdict guide judges twelve tools on accuracy honesty, estate reach, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/data-discovery-buyers-guide/\">12 Data Discovery Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204873"
-        },
-        {
-          "title": "12 Hardware Security Modules (HSM): The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/hsm-buyers-guide/",
-          "published": "Wed, 28 Oct 2026 08:12:30 +0000",
-          "published_utc": "2026-10-28T08:12:30+00:00",
-          "summary": "<p>An HSM is a decade-long marriage to a root of trust, and 2026’s vows are specific: FIPS 140-3 trajectories (140-2 certificates are sunsetting), post-quantum firmware with dates attached, and delivery models spanning racked appliances to hourly cloud instances. This verdict guide judges twelve options including the sovereign-lane specialists US-centric lists skip and one hyperscaler service [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hsm-buyers-guide/\">12 Hardware Security Modules (HSM): The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204848"
-        },
-        {
-          "title": "12 Email Encryption Solutions: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/email-encryption-buyers-guide/",
-          "published": "Wed, 28 Oct 2026 08:04:00 +0000",
-          "published_utc": "2026-10-28T08:04:00+00:00",
-          "summary": "<p>Email encryption fails at the recipient or not at all: the strongest cryptography loses to the counterparty who abandons the portal login. This verdict guide judges twelve solutions on the click count that decides adoption, the automation that removes user memory from the loop, and the lanes the market actually splits into bundle floors, usability-first [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/email-encryption-buyers-guide/\">12 Email Encryption Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=204828"
         }
       ],
       "error": ""

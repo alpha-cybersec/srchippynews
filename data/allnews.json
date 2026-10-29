@@ -1,876 +1,154 @@
 {
-  "generated_at_utc": "2026-10-29T15:29:47.818377+00:00",
-  "generated_at_local": "2026-10-29T10:29:47.818389-05:00",
-  "article_count": 31,
-  "new_count": 31,
-  "updated_count": 0,
+  "generated_at_utc": "2026-10-29T20:30:26.981544+00:00",
+  "generated_at_local": "2026-10-29T15:30:26.981552-05:00",
+  "article_count": 5,
+  "new_count": 4,
+  "updated_count": 1,
   "sources": {
-    "thehackernews": 10,
-    "cybersecuritynews": 10,
-    "gbhackers": 11
+    "thehackernews": 3,
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "url": "http://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "published": "Thu, 29 Oct 2026 15:20:29 +0000",
-      "published_utc": "2026-10-29T15:20:29+00:00",
-      "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.\n\nThe activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3861142347759458572",
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "url": "http://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "published": "Thu, 29 Oct 2026 19:11:58 +0000",
+      "published_utc": "2026-10-29T19:11:58+00:00",
+      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4839161673997153901",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "content_hash": "aa49ec048d862c2fb5b6448be71afff2486322928b84311a1d71114a08483fdf",
+      "article_key": "thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "content_hash": "c3933a53e0d6aaed6f78ae0f4fcd82b4a0f81e59af6d9b14d1ae591b5b2a3fbf",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "aa49ec048d862c2fb5b6448be71afff2486322928b84311a1d71114a08483fdf"
+        "ORIGINAL": "c3933a53e0d6aaed6f78ae0f4fcd82b4a0f81e59af6d9b14d1ae591b5b2a3fbf",
+        "FEEDBURNER": "c3933a53e0d6aaed6f78ae0f4fcd82b4a0f81e59af6d9b14d1ae591b5b2a3fbf"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
+      "first_seen_utc": "2026-10-29T20:30:26.967112+00:00",
+      "first_seen_local": "2026-10-29T15:30:26.967110-05:00",
+      "last_updated_utc": "2026-10-29T20:30:26.967112+00:00",
+      "last_updated_local": "2026-10-29T15:30:26.967110-05:00"
     },
     {
-      "title": "Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction",
-      "url": "https://cybersecuritynews.com/linux-kernel-flaw-root-commands/",
-      "published": "Thu, 29 Oct 2026 15:18:11 +0000",
-      "published_utc": "2026-10-29T15:18:11+00:00",
-      "summary": "<p>Anthropic says an unreleased Claude research model wrote a working exploit for a critical Linux kernel bug, tracked as CVE-2026-98432. The exploit lets a remote attacker run commands as root with no login and no user action. Anthropic&#8217;s Frontier Red Team shared the finding on October 27, 2026, and the flaw is already patched upstream. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-flaw-root-commands/\">Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169584",
+      "title": "State of Ad Fraud 2026: 52% of Schemes Use AI as Cloaking Loses Ground to iOS Exploits and Messenger Phishing",
+      "url": "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing/",
+      "published": "Thu, 29 Oct 2026 17:26:36 +0000",
+      "published_utc": "2026-10-29T17:26:36+00:00",
+      "summary": "<p>The ad fraud landscape changed sharply in 2026. That is the central finding of the State of Ad Fraud 2026: ADEX Trust &#38; Safety Report, published by anti-fraud platform ADEX. The report analyzes January–September 2026 moderation and verification data from eight ad platforms, covering 1.2 million campaigns and 4.9 million creatives. Below are the key [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing/\">State of Ad Fraud 2026: 52% of Schemes Use AI as Cloaking Loses Ground to iOS Exploits and Messenger Phishing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169179",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/linux-kernel-flaw-root-commands",
-      "content_hash": "80abf9526c236a23feecd4ab6e749b69d790778a38b1293e090bfded92a6d629",
+      "article_key": "cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing",
+      "content_hash": "d2a069aefb1beba2a1f02b8ed8c9a1e5add39de37cbb45ecac098638cba8d56c",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "80abf9526c236a23feecd4ab6e749b69d790778a38b1293e090bfded92a6d629",
-        "FEEDBURNER": "80abf9526c236a23feecd4ab6e749b69d790778a38b1293e090bfded92a6d629"
+        "ORIGINAL": "d2a069aefb1beba2a1f02b8ed8c9a1e5add39de37cbb45ecac098638cba8d56c",
+        "FEEDBURNER": "d2a069aefb1beba2a1f02b8ed8c9a1e5add39de37cbb45ecac098638cba8d56c"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
+      "first_seen_utc": "2026-10-29T20:30:19.855181+00:00",
+      "first_seen_local": "2026-10-29T15:30:19.855178-05:00",
+      "last_updated_utc": "2026-10-29T20:30:19.855181+00:00",
+      "last_updated_local": "2026-10-29T15:30:19.855178-05:00"
     },
     {
-      "title": "Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Crypto Seed Phrases, ADEX Reports",
-      "url": "https://gbhackers.com/coruna-ios-exploit-kit-hidden-behind-malicious-ads-targets-crypto-seed-phrases-adex-reports/",
-      "published": "Thu, 29 Oct 2026 15:09:14 +0000",
-      "published_utc": "2026-10-29T15:09:14+00:00",
-      "summary": "<p>Malicious iOS scripts have become a leading cause of ad platform suspensions. They accounted for about one in five suspensions in Q3 2026, according to the State of Ad Fraud 2026: ADEX Trust &#38; Safety Report from anti-fraud firm ADEX. The report examines one scheme in detail. It was built on the Coruna exploit kit [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/coruna-ios-exploit-kit-hidden-behind-malicious-ads-targets-crypto-seed-phrases-adex-reports/\">Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Crypto Seed Phrases, ADEX Reports</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=204988",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/coruna-ios-exploit-kit-hidden-behind-malicious-ads-targets-crypto-seed-phrases-adex-reports",
-      "content_hash": "e1eaabca5192a3dd83255c77dbed9894013a53350d104e3e906db9590374692d",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e1eaabca5192a3dd83255c77dbed9894013a53350d104e3e906db9590374692d"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "NIST Officially Released Guidance for Transition to Post-Quantum Cryptography",
-      "url": "https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance/",
-      "published": "Thu, 29 Oct 2026 14:55:18 +0000",
-      "published_utc": "2026-10-29T14:55:18+00:00",
-      "summary": "<p>The National Institute of Standards and Technology (NIST) has released guidance on moving to post-quantum cryptography, giving federal agencies and technology providers a clearer path to quantum-resistant security. Published October 27, 2026, the finalized report identifies vulnerable cryptographic standards, their replacements, and the timelines that should shape migration plans. The report, Transition to Post-Quantum Cryptography [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance/\">NIST Officially Released Guidance for Transition to Post-Quantum Cryptography</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169513",
+      "title": "Hackers Launch 8,200 DDoS Attacks Every Hour, Cloudflare’s Latest Report Reveals",
+      "url": "https://cybersecuritynews.com/8200-ddos-attacks-every-hour/",
+      "published": "Thu, 29 Oct 2026 16:42:03 +0000",
+      "published_utc": "2026-10-29T16:42:03+00:00",
+      "summary": "<p>Cloudflare blocked an average of more than 8,200 network-layer DDoS attacks every hour during the third quarter of 2026, showing how attackers are using frequent, short bursts to disrupt online services rather than relying only on record-breaking traffic floods. The company&#8217;s latest DDoS Threat Report, produced by its Cloudforce One threat intelligence team, covers July [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/8200-ddos-attacks-every-hour/\">Hackers Launch 8,200 DDoS Attacks Every Hour, Cloudflare&#8217;s Latest Report Reveals</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169595",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/nist-post-quantum-cryptography-guidance",
-      "content_hash": "5b66e07328dbe5233e8adc2c3935ad609b36153c151129c001659267f8f796da",
+      "article_key": "cybersecuritynews.com/8200-ddos-attacks-every-hour",
+      "content_hash": "e2faaa45e4d7e5d94b280516af11e2530cd9e24c52d5fe669ed56a980b8d5a77",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "5b66e07328dbe5233e8adc2c3935ad609b36153c151129c001659267f8f796da",
-        "FEEDBURNER": "5b66e07328dbe5233e8adc2c3935ad609b36153c151129c001659267f8f796da"
+        "ORIGINAL": "e2faaa45e4d7e5d94b280516af11e2530cd9e24c52d5fe669ed56a980b8d5a77",
+        "FEEDBURNER": "e2faaa45e4d7e5d94b280516af11e2530cd9e24c52d5fe669ed56a980b8d5a77"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
+      "first_seen_utc": "2026-10-29T20:30:19.855181+00:00",
+      "first_seen_local": "2026-10-29T15:30:19.855178-05:00",
+      "last_updated_utc": "2026-10-29T20:30:19.855181+00:00",
+      "last_updated_local": "2026-10-29T15:30:19.855178-05:00"
     },
     {
-      "title": "Zero-Click ‘SMS of Death’ Flaw Lets Hackers Disrupt Android Phones With a Single Text",
-      "url": "https://cybersecuritynews.com/zero-click-android-vulnerability/",
-      "published": "Thu, 29 Oct 2026 14:50:38 +0000",
-      "published_utc": "2026-10-29T14:50:38+00:00",
-      "summary": "<p>A security researcher has published details of a zero-click Android flaw called &#8220;SMS of Death.&#8221; One malformed text message can crash the phone service on an Android device, drop active calls, and in the worst case leave the phone without telephony after every restart. Google has marked the report &#8220;Won&#8217;t Fix&#8221; and treats it as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zero-click-android-vulnerability/\">Zero-Click &#8216;SMS of Death&#8217; Flaw Lets Hackers Disrupt Android Phones With a Single Text</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169573",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/zero-click-android-vulnerability",
-      "content_hash": "bba0fcf070d1f6687a4a503809c134abe5d77ddf65d671db262c96baf08c0216",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "bba0fcf070d1f6687a4a503809c134abe5d77ddf65d671db262c96baf08c0216",
-        "FEEDBURNER": "bba0fcf070d1f6687a4a503809c134abe5d77ddf65d671db262c96baf08c0216"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation",
-      "url": "https://gbhackers.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/",
-      "published": "Thu, 29 Oct 2026 13:56:26 +0000",
-      "published_utc": "2026-10-29T13:56:26+00:00",
-      "summary": "<p>New York, New York, October 29th, 2026, CyberNewswire Now available as a standalone solution, Quantum Trust Hub delivers cryptographic posture management and agility for enterprises to uncover risk exposure, drive remediation at scale, and accelerate quantum readiness.&#160;&#160; AppViewX, the leading identity security company built for the AI-powered and post-quantum enterprise, today announced new capabilities for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/\">AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205279",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation",
-      "content_hash": "f7d8a9f46f932f65d1b5f8c5da88bd7c3c5941b3b5cd69dcf3d1664898a16d1e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f7d8a9f46f932f65d1b5f8c5da88bd7c3c5941b3b5cd69dcf3d1664898a16d1e",
-        "FEEDBURNER": "f7d8a9f46f932f65d1b5f8c5da88bd7c3c5941b3b5cd69dcf3d1664898a16d1e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation",
-      "url": "https://cybersecuritynews.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/",
-      "published": "Thu, 29 Oct 2026 13:52:50 +0000",
-      "published_utc": "2026-10-29T13:52:50+00:00",
-      "summary": "<p>New York, New York, October 29th, 2026, CyberNewswire Now available as a standalone solution, Quantum Trust Hub delivers cryptographic posture management and agility for enterprises to uncover risk exposure, drive remediation at scale, and accelerate quantum readiness.&#160;&#160; AppViewX, the leading identity security company built for the AI-powered and post-quantum enterprise, today announced new capabilities for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation/\">AppViewX Expands Quantum Trust Hub with Cryptographic Discovery, Posture Management, and Remediation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169549",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/appviewx-expands-quantum-trust-hub-with-cryptographic-discovery-posture-management-and-remediation",
-      "content_hash": "a2b5ec1e1f5b3ec0b4a452c04f9fa7cda81e4bd1a5e2cb8159d7094f8c05682d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a2b5ec1e1f5b3ec0b4a452c04f9fa7cda81e4bd1a5e2cb8159d7094f8c05682d",
-        "FEEDBURNER": "a2b5ec1e1f5b3ec0b4a452c04f9fa7cda81e4bd1a5e2cb8159d7094f8c05682d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "url": "http://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "published": "Thu, 29 Oct 2026 13:42:40 +0000",
-      "published_utc": "2026-10-29T13:42:40+00:00",
-      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1713156149663135504",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "url": "http://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "published": "Thu, 29 Oct 2026 15:57:05 +0000",
+      "published_utc": "2026-10-29T15:57:05+00:00",
+      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7009697052104311878",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "content_hash": "0a7c1493bc5a7d8289093e1445e5bb53999066e8ff46fbf9f299c7f616ef86ab",
+      "article_key": "thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "content_hash": "5340007dcfac86b2c0f427cfa04f2907235040673735a18d7af4217e26e6809f",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0a7c1493bc5a7d8289093e1445e5bb53999066e8ff46fbf9f299c7f616ef86ab",
-        "FEEDBURNER": "0a7c1493bc5a7d8289093e1445e5bb53999066e8ff46fbf9f299c7f616ef86ab"
+        "ORIGINAL": "5340007dcfac86b2c0f427cfa04f2907235040673735a18d7af4217e26e6809f",
+        "FEEDBURNER": "5340007dcfac86b2c0f427cfa04f2907235040673735a18d7af4217e26e6809f"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "Hackers Exploit Critical Cisco SD-WAN 0-Day Flaw to Deploy KeyDrift Malware and Steal Encryption Keys",
-      "url": "https://cybersecuritynews.com/critical-cisco-sd-wan-0-day-flaw/",
-      "published": "Thu, 29 Oct 2026 13:30:55 +0000",
-      "published_utc": "2026-10-29T13:30:55+00:00",
-      "summary": "<p>A state-linked hacking group used a maximum-severity Cisco SD-WAN zero-day flaw to break into network controllers and install a custom malware framework called KeyDrift. The flaw is CVE-2026-20127. It carries a CVSS score of 10.0 and lets a remote attacker skip authentication and gain administrative rights without a password. KeyDrift is built to sit quietly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-cisco-sd-wan-0-day-flaw/\">Hackers Exploit Critical Cisco SD-WAN 0-Day Flaw to Deploy KeyDrift Malware and Steal Encryption Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169548",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/critical-cisco-sd-wan-0-day-flaw",
-      "content_hash": "24c8e3010081909bd9a1928a52c97efec90cc3440e0d952c835ab42030413adc",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "24c8e3010081909bd9a1928a52c97efec90cc3440e0d952c835ab42030413adc",
-        "FEEDBURNER": "24c8e3010081909bd9a1928a52c97efec90cc3440e0d952c835ab42030413adc"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "Cisco Talos Uncovers KeyDrift Malware Targeting SD-WAN Controllers to Steal Network Encryption Keys",
-      "url": "https://gbhackers.com/sd-wan-controllers-targeted/",
-      "published": "Thu, 29 Oct 2026 13:27:51 +0000",
-      "published_utc": "2026-10-29T13:27:51+00:00",
-      "summary": "<p>UAT-11473, an advanced persistent threat actor deploying KeyDrift, a custom malware framework targeting Cisco Catalyst SD-WAN controllers. The framework embeds inside legitimate control-plane processes to maintain access, intercept decrypted communications, and extract sensitive network encryption material. Observed targets span space and satellite services, defense and aerospace technology, and policy research. Talos assesses with high confidence [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sd-wan-controllers-targeted/\">Cisco Talos Uncovers KeyDrift Malware Targeting SD-WAN Controllers to Steal Network Encryption Keys</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205248",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/sd-wan-controllers-targeted",
-      "content_hash": "45d272b1004c9d24d6fea6f28bc568281de04cb4a952610a4fac9b779df5fdb9",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "45d272b1004c9d24d6fea6f28bc568281de04cb4a952610a4fac9b779df5fdb9",
-        "FEEDBURNER": "45d272b1004c9d24d6fea6f28bc568281de04cb4a952610a4fac9b779df5fdb9"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "Chinese Hackers Use Secret Silent Train Network to Exploit Zero-Days Against U.S. Government and Defense",
-      "url": "https://cybersecuritynews.com/chinese-hackers/",
-      "published": "Thu, 29 Oct 2026 12:48:55 +0000",
-      "published_utc": "2026-10-29T12:48:55+00:00",
-      "summary": "<p>China-linked Volt Typhoon hackers have used a covert network called Silent Train to hide zero-day attacks against U.S. government agencies, defense contractors and critical infrastructure. The network chains together compromised routers, connected devices and enterprise servers, helping operators reach sensitive systems while concealing where their activity begins. The investigation connects years of carefully targeted intrusions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chinese-hackers/\">Chinese Hackers Use Secret Silent Train Network to Exploit Zero-Days Against U.S. Government and Defense</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169538",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/chinese-hackers",
-      "content_hash": "035660de9580f60d336724ec531cddcee21df112d784ba5939a4b4ebb5556d9a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "035660de9580f60d336724ec531cddcee21df112d784ba5939a4b4ebb5556d9a",
-        "FEEDBURNER": "035660de9580f60d336724ec531cddcee21df112d784ba5939a4b4ebb5556d9a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "Chinese Hackers Exploit VMware ESXi Zero-Day to Target Law Firms in Cyber Espionage Attacks",
-      "url": "https://gbhackers.com/chinese-hackers-exploit-vmware-esxi-zero-day/",
-      "published": "Thu, 29 Oct 2026 12:30:51 +0000",
-      "published_utc": "2026-10-29T12:30:51+00:00",
-      "summary": "<p>Chinese state-linked hackers have exploited a zero-day vulnerability in VMware ESXi during espionage operations aimed at U.S. law firms, according to CrowdStrike&#8217;s latest assessment of threats affecting the legal sector. The activity is attributed to WARP PANDA, a China-nexus adversary that deployed malware in victims&#8217; VMware vCenter environments. This series of intrusions, which continued into [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chinese-hackers-exploit-vmware-esxi-zero-day/\">Chinese Hackers Exploit VMware ESXi Zero-Day to Target Law Firms in Cyber Espionage Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205261",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/chinese-hackers-exploit-vmware-esxi-zero-day",
-      "content_hash": "d510b6459a663149e54c10aa1b8a0b92c8c44c57491dab76181417162c3a9ea7",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d510b6459a663149e54c10aa1b8a0b92c8c44c57491dab76181417162c3a9ea7",
-        "FEEDBURNER": "d510b6459a663149e54c10aa1b8a0b92c8c44c57491dab76181417162c3a9ea7"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "NIST Releases New Guidelines to Protect Encryption Against Future Quantum Computer Attacks",
-      "url": "https://gbhackers.com/nist-guidelines-to-protect-encryption-against-future-quantum-computer-attacks/",
-      "published": "Thu, 29 Oct 2026 12:20:40 +0000",
-      "published_utc": "2026-10-29T12:20:40+00:00",
-      "summary": "<p>The National Institute of Standards and Technology (NIST) has released finalized guidance to assist organizations in replacing cryptography that is vulnerable to quantum computing before future quantum computers pose a threat to sensitive information. Published on October 27, 2026, the report establishes a framework for migration that includes cryptographic standards, federal deadlines, and implementation priorities. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nist-guidelines-to-protect-encryption-against-future-quantum-computer-attacks/\">NIST Releases New Guidelines to Protect Encryption Against Future Quantum Computer Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205256",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/nist-guidelines-to-protect-encryption-against-future-quantum-computer-attacks",
-      "content_hash": "e02fec66b4277434eaa4e2993a5aadaf970340216bab6352c5290c1cc74204b6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e02fec66b4277434eaa4e2993a5aadaf970340216bab6352c5290c1cc74204b6",
-        "FEEDBURNER": "e02fec66b4277434eaa4e2993a5aadaf970340216bab6352c5290c1cc74204b6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "GitHub Launches Copilot Fusion to Automatically Select and Combine AI Models for Coding",
-      "url": "https://gbhackers.com/github-launches-copilot-fusion/",
-      "published": "Thu, 29 Oct 2026 12:12:01 +0000",
-      "published_utc": "2026-10-29T12:12:01+00:00",
-      "summary": "<p>GitHub has launched Copilot Fusion, a runtime model router and orchestrator that automatically selects AI models and execution patterns for coding tasks. Instead of requiring developers to choose a model for each step, Fusion coordinates reasoning, code generation, debugging, and review, ultimately providing a single cohesive response. The feature is available across all Copilot plans. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-launches-copilot-fusion/\">GitHub Launches Copilot Fusion to Automatically Select and Combine AI Models for Coding</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205249",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/github-launches-copilot-fusion",
-      "content_hash": "8a3d86fef04244a1ecbf8d7be71c1ee1b5662e3d1774bf294cb77f9bc3afcef2",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "8a3d86fef04244a1ecbf8d7be71c1ee1b5662e3d1774bf294cb77f9bc3afcef2",
-        "FEEDBURNER": "8a3d86fef04244a1ecbf8d7be71c1ee1b5662e3d1774bf294cb77f9bc3afcef2"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "Hackers Claim Wagyu Crypto Platform Breach as Researchers Find Thousands of Monero Transaction Records",
-      "url": "https://cybersecuritynews.com/wagyu-crypto-platform-breach/",
-      "published": "Thu, 29 Oct 2026 11:57:24 +0000",
-      "published_utc": "2026-10-29T11:57:24+00:00",
-      "summary": "<p>Hackers have claimed a breach of cryptocurrency swap platform Wagyu.xyz, while researchers reviewing the purported leak found thousands of records connecting Monero transactions with public blockchain payments and IP addresses. The dataset contains 38,628 order records and 10,139 distinct IP addresses, covering activity between July 18 and October 26, 2026. Its origin and authenticity remain [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wagyu-crypto-platform-breach/\">Hackers Claim Wagyu Crypto Platform Breach as Researchers Find Thousands of Monero Transaction Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169520",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/wagyu-crypto-platform-breach",
-      "content_hash": "56246c4e2905aa67f0ac2fa136c00f7e2f4092cb3a72580a328e0d873fa6aa81",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "56246c4e2905aa67f0ac2fa136c00f7e2f4092cb3a72580a328e0d873fa6aa81",
-        "FEEDBURNER": "56246c4e2905aa67f0ac2fa136c00f7e2f4092cb3a72580a328e0d873fa6aa81"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "319 Suspicious Chrome Extensions Hijack Default Search Settings Without Sensitive Permissions",
-      "url": "https://gbhackers.com/chrome-extensions-hijacking/",
-      "published": "Thu, 29 Oct 2026 11:53:19 +0000",
-      "published_utc": "2026-10-29T11:53:19+00:00",
-      "summary": "<p>An investigation into browser extensions identified 319 suspicious extensions linked to about 13.4 million reported users, exposing a search-hijacking ecosystem operating since 2016. Marketed as manual finders, PDF converters, safe search utilities, and AI search tools, the extensions funnel queries through operator-controlled infrastructure before delivering Yahoo or Bing results. The Searchjacked investigation expands earlier research [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-extensions-hijacking/\">319 Suspicious Chrome Extensions Hijack Default Search Settings Without Sensitive Permissions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205221",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/chrome-extensions-hijacking",
-      "content_hash": "021dd1f80fd2ac990501ea10de5a8b33d7ab44e3c3ff2ff6517d129e2d126f02",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "021dd1f80fd2ac990501ea10de5a8b33d7ab44e3c3ff2ff6517d129e2d126f02",
-        "FEEDBURNER": "021dd1f80fd2ac990501ea10de5a8b33d7ab44e3c3ff2ff6517d129e2d126f02"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-      "url": "http://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "published": "Thu, 29 Oct 2026 11:39:41 +0000",
-      "published_utc": "2026-10-29T11:39:41+00:00",
-      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-496107993803948819",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "content_hash": "35b1389050d62f742add65ea6f29c5d4a7bb711dcf1658e0dc96581d8d3f4933",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "35b1389050d62f742add65ea6f29c5d4a7bb711dcf1658e0dc96581d8d3f4933",
-        "FEEDBURNER": "35b1389050d62f742add65ea6f29c5d4a7bb711dcf1658e0dc96581d8d3f4933"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
+      "first_seen_utc": "2026-10-29T20:30:26.967112+00:00",
+      "first_seen_local": "2026-10-29T15:30:26.967110-05:00",
+      "last_updated_utc": "2026-10-29T20:30:26.967112+00:00",
+      "last_updated_local": "2026-10-29T15:30:26.967110-05:00"
     },
     {
       "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
       "url": "http://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
       "published": "Thu, 29 Oct 2026 11:39:18 +0000",
       "published_utc": "2026-10-29T11:39:18+00:00",
-      "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nThe flaw can be triggered in every version from",
+      "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nCombined with an",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7678336695065531834",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "content_hash": "8fdceadef075f5e28a6428548e023960f6168ab6771637d5a34a7bc54c523f9a",
+      "content_hash": "ce0401f74a6dbfd07650059097d1f40da214d57f49a8f778c668585c158d4d03",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "8fdceadef075f5e28a6428548e023960f6168ab6771637d5a34a7bc54c523f9a",
-        "FEEDBURNER": "8fdceadef075f5e28a6428548e023960f6168ab6771637d5a34a7bc54c523f9a"
+        "ORIGINAL": "ce0401f74a6dbfd07650059097d1f40da214d57f49a8f778c668585c158d4d03",
+        "FEEDBURNER": "ce0401f74a6dbfd07650059097d1f40da214d57f49a8f778c668585c158d4d03"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "8fdceadef075f5e28a6428548e023960f6168ab6771637d5a34a7bc54c523f9a",
+      "version": 2,
       "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
       "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-      "url": "http://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "published": "Thu, 29 Oct 2026 11:33:41 +0000",
-      "published_utc": "2026-10-29T11:33:41+00:00",
-      "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3576314576415594306",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "content_hash": "0ec76509fad0d721e86420f826bab23141bcab79f85c5337e2d137690cc5a532",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0ec76509fad0d721e86420f826bab23141bcab79f85c5337e2d137690cc5a532",
-        "FEEDBURNER": "0ec76509fad0d721e86420f826bab23141bcab79f85c5337e2d137690cc5a532"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "url": "http://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "published": "Thu, 29 Oct 2026 11:33:15 +0000",
-      "published_utc": "2026-10-29T11:33:15+00:00",
-      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7329366917858586096",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "content_hash": "27f256268435dfe1a5976b86fee57fb3cd3b1b1fc83d6d447fb4f768fae3679b",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "27f256268435dfe1a5976b86fee57fb3cd3b1b1fc83d6d447fb4f768fae3679b",
-        "FEEDBURNER": "27f256268435dfe1a5976b86fee57fb3cd3b1b1fc83d6d447fb4f768fae3679b"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "Hackers Attack FreePBX Servers With Malware to Steal SIP Credentials for Phone Fraud",
-      "url": "https://cybersecuritynews.com/hackers-attack-freepbx-servers/",
-      "published": "Thu, 29 Oct 2026 11:09:22 +0000",
-      "published_utc": "2026-10-29T11:09:22+00:00",
-      "summary": "<p>Hackers targeting FreePBX phone servers have upgraded their malware to steal credentials that can keep phone fraud running even after an infected system is rebuilt. The INJ3CTOR3 operation now collects configuration files containing SIP trunk passwords, database credentials, management secrets, and mail relay logins, extending the damage beyond the compromised server. The change builds on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-attack-freepbx-servers/\">Hackers Attack FreePBX Servers With Malware to Steal SIP Credentials for Phone Fraud</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169497",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-attack-freepbx-servers",
-      "content_hash": "065e60be2ea375a47d6f195d8eecb8a8ca3ff2b62e01fb37adeffabb17a3da85",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "065e60be2ea375a47d6f195d8eecb8a8ca3ff2b62e01fb37adeffabb17a3da85",
-        "FEEDBURNER": "065e60be2ea375a47d6f195d8eecb8a8ca3ff2b62e01fb37adeffabb17a3da85"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "Microsoft to Disable SMS and Voice Authentication in Entra ID Starting February 2027",
-      "url": "https://gbhackers.com/microsoft-to-disable-sms-and-voice-authentication-in-entra-id/",
-      "published": "Thu, 29 Oct 2026 10:51:33 +0000",
-      "published_utc": "2026-10-29T10:51:33+00:00",
-      "summary": "<p>Microsoft will begin retiring Microsoft-provided SMS and voice authentication in Microsoft Entra ID on February 1, 2027, requiring affected organizations to migrate users or arrange alternative telecom delivery before enforcement starts. The change covers Worldwide and Government Community Cloud (GCC) environments, with rollout expected to finish in early February. Administrators should treat February 1 as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-to-disable-sms-and-voice-authentication-in-entra-id/\">Microsoft to Disable SMS and Voice Authentication in Entra ID Starting February 2027</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205227",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/microsoft-to-disable-sms-and-voice-authentication-in-entra-id",
-      "content_hash": "cb9ef38484eba6fb6b7a604e7de16448bb8409145465cd2f81f3350ffaad6f9a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cb9ef38484eba6fb6b7a604e7de16448bb8409145465cd2f81f3350ffaad6f9a",
-        "FEEDBURNER": "cb9ef38484eba6fb6b7a604e7de16448bb8409145465cd2f81f3350ffaad6f9a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "url": "http://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "published": "Thu, 29 Oct 2026 10:44:46 +0000",
-      "published_utc": "2026-10-29T10:44:46+00:00",
-      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4171327714841417151",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "content_hash": "4949d2562fa5809bba4593de6c12b96c9b06e72027c6db61a5415f960264d62a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "4949d2562fa5809bba4593de6c12b96c9b06e72027c6db61a5415f960264d62a",
-        "FEEDBURNER": "4949d2562fa5809bba4593de6c12b96c9b06e72027c6db61a5415f960264d62a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "Microsoft Edge Security Flaws Allow Attackers to Execute Code Without Memory Corruption",
-      "url": "https://gbhackers.com/microsoft-edge-security-flaws/",
-      "published": "Thu, 29 Oct 2026 10:37:01 +0000",
-      "published_utc": "2026-10-29T10:37:01+00:00",
-      "summary": "<p>Researcher Orange Tsai from DEVCORE has published a complete exploit chain for Microsoft Edge that successfully escapes the browser&#8217;s sandbox and executes code on Windows. This exploit utilizes only logical vulnerabilities and does not involve any memory corruption. Tsai developed it for Pwn2Own Berlin 2026, where it earned a $175,000 award and later received the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-edge-security-flaws/\">Microsoft Edge Security Flaws Allow Attackers to Execute Code Without Memory Corruption</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205218",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/microsoft-edge-security-flaws",
-      "content_hash": "dd173188bdcecd36cb0dce1e5f5cbd65a1a7469dd3997ac26c3de073c8ba4487",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "dd173188bdcecd36cb0dce1e5f5cbd65a1a7469dd3997ac26c3de073c8ba4487",
-        "FEEDBURNER": "dd173188bdcecd36cb0dce1e5f5cbd65a1a7469dd3997ac26c3de073c8ba4487"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-      "url": "http://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "published": "Thu, 29 Oct 2026 10:26:33 +0000",
-      "published_utc": "2026-10-29T10:26:33+00:00",
-      "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4514505709703667416",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "content_hash": "e496be84b35234de31436a79856155e723c13d07f795429909ac64c89c455844",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "e496be84b35234de31436a79856155e723c13d07f795429909ac64c89c455844",
-        "FEEDBURNER": "e496be84b35234de31436a79856155e723c13d07f795429909ac64c89c455844"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "GitHub Launches Copilot Fusion for Smarter and Cheaper AI Coding",
-      "url": "https://cybersecuritynews.com/github-launches-copilot-fusion/",
-      "published": "Thu, 29 Oct 2026 10:06:38 +0000",
-      "published_utc": "2026-10-29T10:06:38+00:00",
-      "summary": "<p>GitHub has launched Copilot Fusion, a system that automatically selects AI models for coding tasks, helping developers balance code quality, speed, and cost. Instead of choosing a model for every request, users select Fusion and let it decide how to handle the work. It is generally available in Visual Studio Code, Copilot CLI, the GitHub [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-launches-copilot-fusion/\">GitHub Launches Copilot Fusion for Smarter and Cheaper AI Coding</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169428",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/github-launches-copilot-fusion",
-      "content_hash": "977feb045ff8bde222cdd34ad14daeae8c4e8a4dcb5ce82b72d1f0d66dbc3ac9",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "977feb045ff8bde222cdd34ad14daeae8c4e8a4dcb5ce82b72d1f0d66dbc3ac9",
-        "FEEDBURNER": "977feb045ff8bde222cdd34ad14daeae8c4e8a4dcb5ce82b72d1f0d66dbc3ac9"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "Microsoft Urges Entra ID Admins to Migrate from SMS and Voice Authentication to Passkeys",
-      "url": "https://cybersecuritynews.com/microsoft-urges-admins-to-migrate-passkeys/",
-      "published": "Thu, 29 Oct 2026 09:48:13 +0000",
-      "published_utc": "2026-10-29T09:48:13+00:00",
-      "summary": "<p>Microsoft urged Entra ID administrators to migrate from SMS and voice authentication in Entra ID to passkeys before retirement begins on February 1, 2027, to reduce phishing risks and prevent sign-in disruptions. The reminder, published on October 27 under Message Center notice MC1528000, follows July announcements. Retirement covers Worldwide and Government Community Cloud environments and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-urges-admins-to-migrate-passkeys/\">Microsoft Urges Entra ID Admins to Migrate from SMS and Voice Authentication to Passkeys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=169418",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/microsoft-urges-admins-to-migrate-passkeys",
-      "content_hash": "49fce9533375221a20b431732d23a36023bad31f15d659c679b8fde5df63ee3b",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "49fce9533375221a20b431732d23a36023bad31f15d659c679b8fde5df63ee3b",
-        "FEEDBURNER": "49fce9533375221a20b431732d23a36023bad31f15d659c679b8fde5df63ee3b"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.397150+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.397146-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.397150+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.397146-05:00"
-    },
-    {
-      "title": "Volt Typhoon Hackers Exploit Multiple Zero-Days to Breach U.S. Critical Infrastructure Networks",
-      "url": "https://gbhackers.com/zero-days-exploited/",
-      "published": "Thu, 29 Oct 2026 09:24:20 +0000",
-      "published_utc": "2026-10-29T09:24:20+00:00",
-      "summary": "<p>Chinese state-sponsored hacking group Volt Typhoon has exploited multiple previously unknown vulnerabilities in enterprise management platforms to penetrate strategically significant organizations. Its investigation exposed Silent Train, a covert access framework built from rapidly rotating chains of compromised devices. Over three years, Black Lotus Labs issued hundreds of victim notifications, helping investigations uncover four confirmed zero-day [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zero-days-exploited/\">Volt Typhoon Hackers Exploit Multiple Zero-Days to Breach U.S. Critical Infrastructure Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205201",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/zero-days-exploited",
-      "content_hash": "7793fb9c6abc75c17fc9d2646771eb150815f7bab2b395e00c5eb9987bd4fc53",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "7793fb9c6abc75c17fc9d2646771eb150815f7bab2b395e00c5eb9987bd4fc53",
-        "FEEDBURNER": "7793fb9c6abc75c17fc9d2646771eb150815f7bab2b395e00c5eb9987bd4fc53"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "url": "http://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "published": "Thu, 29 Oct 2026 09:05:39 +0000",
-      "published_utc": "2026-10-29T09:05:39+00:00",
-      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2255776935655042714",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "content_hash": "691ab5b7c77f4690f3d75ab189ca950d7dd5fb71fc9f4e7ae12d28d381cc005e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "691ab5b7c77f4690f3d75ab189ca950d7dd5fb71fc9f4e7ae12d28d381cc005e",
-        "FEEDBURNER": "691ab5b7c77f4690f3d75ab189ca950d7dd5fb71fc9f4e7ae12d28d381cc005e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
-    },
-    {
-      "title": "Alleged Wagyu Leak Contains 4,580 Completed Crypto Swaps Linking Monero Wallets to IP Addresses",
-      "url": "https://gbhackers.com/alleged-wagyu-data-breach/",
-      "published": "Thu, 29 Oct 2026 08:47:44 +0000",
-      "published_utc": "2026-10-29T08:47:44+00:00",
-      "summary": "<p>An alleged leak from cryptocurrency swap service Wagyu.xyz contains 4,580 completed cross-chain swaps linking incoming transaction hashes, Monero receiving addresses, and client IP addresses. The dataset reportedly includes 38,628 order records from July 18–October 26, 2026, plus an activity index covering 10,139 distinct IP addresses. Hudson Rock has not independently authenticated the files’ alleged breach [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/alleged-wagyu-data-breach/\">Alleged Wagyu Leak Contains 4,580 Completed Crypto Swaps Linking Monero Wallets to IP Addresses</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205184",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/alleged-wagyu-data-breach",
-      "content_hash": "887ef144ec81782e785fe1334f554ae4efd66f32feb7bad7748a8ab7540e8cd2",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "887ef144ec81782e785fe1334f554ae4efd66f32feb7bad7748a8ab7540e8cd2"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:41.055120+00:00",
-      "first_seen_local": "2026-10-29T10:29:41.055116-05:00",
-      "last_updated_utc": "2026-10-29T15:29:41.055120+00:00",
-      "last_updated_local": "2026-10-29T10:29:41.055116-05:00"
-    },
-    {
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "url": "http://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "published": "Thu, 29 Oct 2026 08:24:22 +0000",
-      "published_utc": "2026-10-29T08:24:22+00:00",
-      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2331088840460847098",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "content_hash": "807b998ee4d2607a9bc58bb465ed0a192b47bb737c2da2e9805fbba60682c172",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "807b998ee4d2607a9bc58bb465ed0a192b47bb737c2da2e9805fbba60682c172",
-        "FEEDBURNER": "807b998ee4d2607a9bc58bb465ed0a192b47bb737c2da2e9805fbba60682c172"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-10-29T15:29:47.801563+00:00",
-      "first_seen_local": "2026-10-29T10:29:47.801561-05:00",
-      "last_updated_utc": "2026-10-29T15:29:47.801563+00:00",
-      "last_updated_local": "2026-10-29T10:29:47.801561-05:00"
+      "last_updated_utc": "2026-10-29T20:30:26.967112+00:00",
+      "last_updated_local": "2026-10-29T15:30:26.967110-05:00"
     }
   ]
 }

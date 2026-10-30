@@ -1,12 +1,404 @@
 {
   "date": "2026-10-30",
-  "article_count": 34,
+  "article_count": 48,
   "sources": {
-    "cybersecuritynews": 14,
-    "gbhackers": 14,
-    "thehackernews": 6
+    "thehackernews": 9,
+    "gbhackers": 19,
+    "cybersecuritynews": 20
   },
   "articles": [
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "url": "http://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "published": "Fri, 30 Oct 2026 16:58:44 +0000",
+      "published_utc": "2026-10-30T16:58:44+00:00",
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2338651962356453112",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "content_hash": "1cff737da6018154b3564c060ee93a7728a378c28a192553c31c3919ac5c7304",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1cff737da6018154b3564c060ee93a7728a378c28a192553c31c3919ac5c7304",
+        "FEEDBURNER": "1cff737da6018154b3564c060ee93a7728a378c28a192553c31c3919ac5c7304"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:38.111290+00:00",
+      "first_seen_local": "2026-10-30T13:48:38.111288-05:00",
+      "last_updated_utc": "2026-10-30T18:48:38.111290+00:00",
+      "last_updated_local": "2026-10-30T13:48:38.111288-05:00"
+    },
+    {
+      "title": "North Korean Hackers Steal $6.36 Billion From Binance in Largest Crypto Hack Ever",
+      "url": "https://gbhackers.com/north-korean-hackers-binance-theft/",
+      "published": "Fri, 30 Oct 2026 16:57:47 +0000",
+      "published_utc": "2026-10-30T16:57:47+00:00",
+      "summary": "<p>North Korea&#8217;s TraderTraitor group drained about $6.36 billion from Binance wallets across ten blockchains on October 29, 2026. TRM Labs, which published the findings, calls it the largest crypto theft on record. TRM Labs says the total is about four times the $1.5 billion Bybit heist of February 2025. North Korean hackers Binance theft According [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-hackers-binance-theft/\">North Korean Hackers Steal $6.36 Billion From Binance in Largest Crypto Hack Ever</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205436",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/north-korean-hackers-binance-theft",
+      "content_hash": "be0f37c8c2685d8e1e5c90e1670f3e5c190aeb2271c49f78c91c32bc031bd593",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "be0f37c8c2685d8e1e5c90e1670f3e5c190aeb2271c49f78c91c32bc031bd593",
+        "FEEDBURNER": "be0f37c8c2685d8e1e5c90e1670f3e5c190aeb2271c49f78c91c32bc031bd593"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:32.809210+00:00",
+      "first_seen_local": "2026-10-30T13:48:32.809208-05:00",
+      "last_updated_utc": "2026-10-30T18:48:32.809210+00:00",
+      "last_updated_local": "2026-10-30T13:48:32.809208-05:00"
+    },
+    {
+      "title": "Unauthorized Codex and Claude Code Relays Disable Security Protections at 12 Organizations",
+      "url": "https://gbhackers.com/codex-claude-code-relays/",
+      "published": "Fri, 30 Oct 2026 15:23:20 +0000",
+      "published_utc": "2026-10-30T15:23:20+00:00",
+      "summary": "<p>Symantec&#8217;s Threat Hunter Team has found an unauthorized relay service that installs the genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. It has affected 12 organizations since early 2026, mostly in mainland China. Codex Claude Code relays AI coding agents read files, write code, and run commands [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/codex-claude-code-relays/\">Unauthorized Codex and Claude Code Relays Disable Security Protections at 12 Organizations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205428",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/codex-claude-code-relays",
+      "content_hash": "f98199d714efd24357a956a4a94cf80c7e6287b7fa2ceec2e40f30ee3edca5da",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f98199d714efd24357a956a4a94cf80c7e6287b7fa2ceec2e40f30ee3edca5da",
+        "FEEDBURNER": "f98199d714efd24357a956a4a94cf80c7e6287b7fa2ceec2e40f30ee3edca5da"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:32.809210+00:00",
+      "first_seen_local": "2026-10-30T13:48:32.809208-05:00",
+      "last_updated_utc": "2026-10-30T18:48:32.809210+00:00",
+      "last_updated_local": "2026-10-30T13:48:32.809208-05:00"
+    },
+    {
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "url": "http://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "published": "Fri, 30 Oct 2026 15:17:28 +0000",
+      "published_utc": "2026-10-30T15:17:28+00:00",
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.\n\nA malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1472064062983302215",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "content_hash": "dfa9ab1ce80bf52edabd4b92f4708640d7a91eafc0deca46b26f193c0b99ce99",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dfa9ab1ce80bf52edabd4b92f4708640d7a91eafc0deca46b26f193c0b99ce99",
+        "FEEDBURNER": "dfa9ab1ce80bf52edabd4b92f4708640d7a91eafc0deca46b26f193c0b99ce99"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:38.111290+00:00",
+      "first_seen_local": "2026-10-30T13:48:38.111288-05:00",
+      "last_updated_utc": "2026-10-30T18:48:38.111290+00:00",
+      "last_updated_local": "2026-10-30T13:48:38.111288-05:00"
+    },
+    {
+      "title": "North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages",
+      "url": "https://cybersecuritynews.com/north-korean-hackers-2/",
+      "published": "Fri, 30 Oct 2026 15:15:02 +0000",
+      "published_utc": "2026-10-30T15:15:02+00:00",
+      "summary": "<p>A North Korea-aligned hacking group has moved beyond fake job interviews and now steals developer credentials to plant malware in trusted software projects. The group, tracked as DeceptiveDevelopment, used the stolen access to change code in public and private repositories between April and September 2026. Every poisoned project then became a new way into the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-hackers-2/\">North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169785",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/north-korean-hackers-2",
+      "content_hash": "5de7537068bc58d7f9715dc0b1e00e940159f559987350a8b8e40a3ecdd6903c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5de7537068bc58d7f9715dc0b1e00e940159f559987350a8b8e40a3ecdd6903c",
+        "FEEDBURNER": "5de7537068bc58d7f9715dc0b1e00e940159f559987350a8b8e40a3ecdd6903c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:33.368696+00:00",
+      "first_seen_local": "2026-10-30T13:48:33.368693-05:00",
+      "last_updated_utc": "2026-10-30T18:48:33.368696+00:00",
+      "last_updated_local": "2026-10-30T13:48:33.368693-05:00"
+    },
+    {
+      "title": "Japan Faces Growing Cyberattack Crisis as AI Tools Help Hackers Target Businesses and Government",
+      "url": "https://gbhackers.com/japan-ai-cyberattacks/",
+      "published": "Fri, 30 Oct 2026 15:13:24 +0000",
+      "published_utc": "2026-10-30T15:13:24+00:00",
+      "summary": "<p>Japan is dealing with an intense wave of AI-assisted intrusions that has exposed weaknesses in its corporate and public-sector defenses. Dozens of incidents, from brokerages to delivery firms, have made data leaks routine. Japan AI cyberattacks According to reporting published by Bloomberg, on October 28, Japan&#8217;s Ministry of Economy, Trade and Industry (METI) disclosed unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/japan-ai-cyberattacks/\">Japan Faces Growing Cyberattack Crisis as AI Tools Help Hackers Target Businesses and Government</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205424",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/japan-ai-cyberattacks",
+      "content_hash": "b8e0af7a1e7ac428fbca4aec52caf980ec12403ce3e9f0626fc10f0ff6236df1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b8e0af7a1e7ac428fbca4aec52caf980ec12403ce3e9f0626fc10f0ff6236df1",
+        "FEEDBURNER": "b8e0af7a1e7ac428fbca4aec52caf980ec12403ce3e9f0626fc10f0ff6236df1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:32.809210+00:00",
+      "first_seen_local": "2026-10-30T13:48:32.809208-05:00",
+      "last_updated_utc": "2026-10-30T18:48:32.809210+00:00",
+      "last_updated_local": "2026-10-30T13:48:32.809208-05:00"
+    },
+    {
+      "title": "When Threats Don’t Wait, Security Can’t Either",
+      "url": "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/",
+      "published": "Fri, 30 Oct 2026 15:08:31 +0000",
+      "published_utc": "2026-10-30T15:08:31+00:00",
+      "summary": "<p>Dhananjay Ganjoo, Managing Director – India &#38; SAARC&#160; The uncomfortable part of an adaptive attack is not how quickly it starts, but&#160; how quickly it can change course.&#160;&#160; AI-assisted operations can probe environments, learn from responses, switch techniques and chain subsequent actions while an attack is still in progress. Anthropic’s 2026 analysis of 832 accounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/\">When Threats Don’t Wait, Security Can’t Either </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=166356",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/when-threats-dont-wait-security-cant-either",
+      "content_hash": "6f76ee1d405f852d066939b47644b531c37b4c70e2a1ac5cb1374a0961b22a94",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6f76ee1d405f852d066939b47644b531c37b4c70e2a1ac5cb1374a0961b22a94",
+        "FEEDBURNER": "6f76ee1d405f852d066939b47644b531c37b4c70e2a1ac5cb1374a0961b22a94"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:33.368696+00:00",
+      "first_seen_local": "2026-10-30T13:48:33.368693-05:00",
+      "last_updated_utc": "2026-10-30T18:48:33.368696+00:00",
+      "last_updated_local": "2026-10-30T13:48:33.368693-05:00"
+    },
+    {
+      "title": "Hackers Target Asian Governments With New NetamLoader Malware Hidden in Windows Update Files",
+      "url": "https://gbhackers.com/netamloader-malware/",
+      "published": "Fri, 30 Oct 2026 15:02:50 +0000",
+      "published_utc": "2026-10-30T15:02:50+00:00",
+      "summary": "<p>Kaspersky researchers have uncovered NetamLoader, a .NET loading framework built on XAML markup. It appears to be a supply-chain attack on a customized Windows build used only by Asian government bodies. No known APT group has been linked to it. NetamLoader malware Kaspersky Security Network flagged a .config file that used AppDomainManager injection to load [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/netamloader-malware/\">Hackers Target Asian Governments With New NetamLoader Malware Hidden in Windows Update Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205418",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/netamloader-malware",
+      "content_hash": "4e0159decab3be3b1d18d88deb3e58151695c0ab643b8703a4c07fe03f719823",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4e0159decab3be3b1d18d88deb3e58151695c0ab643b8703a4c07fe03f719823",
+        "FEEDBURNER": "4e0159decab3be3b1d18d88deb3e58151695c0ab643b8703a4c07fe03f719823"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:32.809210+00:00",
+      "first_seen_local": "2026-10-30T13:48:32.809208-05:00",
+      "last_updated_utc": "2026-10-30T18:48:32.809210+00:00",
+      "last_updated_local": "2026-10-30T13:48:32.809208-05:00"
+    },
+    {
+      "title": "APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments",
+      "url": "https://cybersecuritynews.com/netamloader-malware/",
+      "published": "Fri, 30 Oct 2026 15:02:03 +0000",
+      "published_utc": "2026-10-30T15:02:03+00:00",
+      "summary": "<p>A new malware framework called NetamLoader is being used against a custom version of Windows 10 that only government bodies in Asia use. The campaign looks like a supply-chain operation, and nobody has linked it to a known hacking group yet. The malware hides inside a Windows update package, borrows trusted software to run, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/netamloader-malware/\">APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169778",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/netamloader-malware",
+      "content_hash": "545dc2fec763822b735918a11990e01b916011a61e95b9d7e6c168d69227c6ca",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "545dc2fec763822b735918a11990e01b916011a61e95b9d7e6c168d69227c6ca",
+        "FEEDBURNER": "545dc2fec763822b735918a11990e01b916011a61e95b9d7e6c168d69227c6ca"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:33.368696+00:00",
+      "first_seen_local": "2026-10-30T13:48:33.368693-05:00",
+      "last_updated_utc": "2026-10-30T18:48:33.368696+00:00",
+      "last_updated_local": "2026-10-30T13:48:33.368693-05:00"
+    },
+    {
+      "title": "Aur0ra Ransomware Hackers Use Cursor AI Agents to Gain Domain Admin Access and Steal Data",
+      "url": "https://cybersecuritynews.com/aur0ra-ransomware-hackers/",
+      "published": "Fri, 30 Oct 2026 14:36:33 +0000",
+      "published_utc": "2026-10-30T14:36:33+00:00",
+      "summary": "<p>Ransomware crews are now giving the hardest parts of a network break-in to AI coding tools. A group linked to Aur0ra ransomware used Cursor AI agents to go from stolen passwords to domain admin access, the highest level of control in a Windows network. From there, it collected data and prepared to deploy ransomware. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aur0ra-ransomware-hackers/\">Aur0ra Ransomware Hackers Use Cursor AI Agents to Gain Domain Admin Access and Steal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169777",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/aur0ra-ransomware-hackers",
+      "content_hash": "9177769d96e5897dee05f9670663538b973b78ab3ee55d416ecafc964ec6f9e4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9177769d96e5897dee05f9670663538b973b78ab3ee55d416ecafc964ec6f9e4",
+        "FEEDBURNER": "9177769d96e5897dee05f9670663538b973b78ab3ee55d416ecafc964ec6f9e4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:33.368696+00:00",
+      "first_seen_local": "2026-10-30T13:48:33.368693-05:00",
+      "last_updated_utc": "2026-10-30T18:48:33.368696+00:00",
+      "last_updated_local": "2026-10-30T13:48:33.368693-05:00"
+    },
+    {
+      "title": "Hackers Use Cursor and Claude AI to Automate Attacks in Aur0ra Ransomware Operations",
+      "url": "https://gbhackers.com/aur0ra-ransomware-ai-attacks/",
+      "published": "Fri, 30 Oct 2026 14:35:49 +0000",
+      "published_utc": "2026-10-30T14:35:49+00:00",
+      "summary": "<p>The GOLD OGRE cybercrime group is using AI coding agents, including Cursor and Anthropic&#8217;s Claude, to automate intrusions for Aur0ra ransomware (Aurora). Sophos researchers say the agents moved from credential access to domain administrator with little human involvement. Aur0ra ransomware AI attacks In May 2026, Sophos Counter Threat Unit (CTU) researchers reported an AI-assisted post-exploitation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aur0ra-ransomware-ai-attacks/\">Hackers Use Cursor and Claude AI to Automate Attacks in Aur0ra Ransomware Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205395",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/aur0ra-ransomware-ai-attacks",
+      "content_hash": "88d793162d98a9d7a47a5a96ffae3ea589ff2883f1a021f685c43e66f1d2f2e4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "88d793162d98a9d7a47a5a96ffae3ea589ff2883f1a021f685c43e66f1d2f2e4",
+        "FEEDBURNER": "88d793162d98a9d7a47a5a96ffae3ea589ff2883f1a021f685c43e66f1d2f2e4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:32.809210+00:00",
+      "first_seen_local": "2026-10-30T13:48:32.809208-05:00",
+      "last_updated_utc": "2026-10-30T18:48:32.809210+00:00",
+      "last_updated_local": "2026-10-30T13:48:32.809208-05:00"
+    },
+    {
+      "title": "Hackers Build Fake Polymarket Platforms That Rig Trades and Block Cryptocurrency Withdrawals",
+      "url": "https://cybersecuritynews.com/fake-polymarket-platforms/",
+      "published": "Fri, 30 Oct 2026 14:16:13 +0000",
+      "published_utc": "2026-10-30T14:16:13+00:00",
+      "summary": "<p>Criminals are copying the look of Polymarket, one of the biggest prediction market sites. They use the copies to take cryptocurrency from people who think they are placing real bets. Once a victim deposits money, the site decides every win and loss, and withdrawals stop working. The scams are not one-off websites. Three Russian-speaking &#8220;traffer&#8221; [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-polymarket-platforms/\">Hackers Build Fake Polymarket Platforms That Rig Trades and Block Cryptocurrency Withdrawals</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169763",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-polymarket-platforms",
+      "content_hash": "c7b096ee3a750da7cefaf8ce81547a35312edfde149f17081148035e2b499e35",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c7b096ee3a750da7cefaf8ce81547a35312edfde149f17081148035e2b499e35",
+        "FEEDBURNER": "c7b096ee3a750da7cefaf8ce81547a35312edfde149f17081148035e2b499e35"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:33.368696+00:00",
+      "first_seen_local": "2026-10-30T13:48:33.368693-05:00",
+      "last_updated_utc": "2026-10-30T18:48:33.368696+00:00",
+      "last_updated_local": "2026-10-30T13:48:33.368693-05:00"
+    },
+    {
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "url": "http://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "published": "Fri, 30 Oct 2026 14:08:14 +0000",
+      "published_utc": "2026-10-30T14:08:14+00:00",
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1414985197898872469",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "content_hash": "ef44d5e83e33bca6c65c52847da8e7f6cc907b61e4d85d2942d436088e638c36",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ef44d5e83e33bca6c65c52847da8e7f6cc907b61e4d85d2942d436088e638c36",
+        "FEEDBURNER": "ef44d5e83e33bca6c65c52847da8e7f6cc907b61e4d85d2942d436088e638c36"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:38.111290+00:00",
+      "first_seen_local": "2026-10-30T13:48:38.111288-05:00",
+      "last_updated_utc": "2026-10-30T18:48:38.111290+00:00",
+      "last_updated_local": "2026-10-30T13:48:38.111288-05:00"
+    },
+    {
+      "title": "Critical Drupal Commerce Vulnerability Could Let Hackers Buy Products for Just $0.01",
+      "url": "https://cybersecuritynews.com/critical-drupal-commerce-vulnerability/",
+      "published": "Fri, 30 Oct 2026 13:56:01 +0000",
+      "published_utc": "2026-10-30T13:56:01+00:00",
+      "summary": "<p>Drupal has warned that hackers are actively exploiting a highly critical security flaw in Commerce Core, putting online stores at risk of financial losses. Tracked as CVE-2026-118539, the vulnerability lets attackers bypass access checks in the module used to sell products and services on Drupal websites and connected shopping applications. The warning raises concerns about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-drupal-commerce-vulnerability/\">Critical Drupal Commerce Vulnerability Could Let Hackers Buy Products for Just $0.01</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169749",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-drupal-commerce-vulnerability",
+      "content_hash": "527914603610e15299dd1a987f3ca630c1bfd8b30ba523c55e5009707fa16636",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "527914603610e15299dd1a987f3ca630c1bfd8b30ba523c55e5009707fa16636",
+        "FEEDBURNER": "527914603610e15299dd1a987f3ca630c1bfd8b30ba523c55e5009707fa16636"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:33.368696+00:00",
+      "first_seen_local": "2026-10-30T13:48:33.368693-05:00",
+      "last_updated_utc": "2026-10-30T18:48:33.368696+00:00",
+      "last_updated_local": "2026-10-30T13:48:33.368693-05:00"
+    },
     {
       "title": "Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet",
       "url": "https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/",

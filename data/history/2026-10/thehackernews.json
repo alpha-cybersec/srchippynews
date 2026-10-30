@@ -2,8 +2,92 @@
   "month": "2026-10",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 254,
+  "article_count": 257,
   "articles": [
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "url": "http://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "published": "Fri, 30 Oct 2026 16:58:44 +0000",
+      "published_utc": "2026-10-30T16:58:44+00:00",
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2338651962356453112",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "content_hash": "1cff737da6018154b3564c060ee93a7728a378c28a192553c31c3919ac5c7304",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1cff737da6018154b3564c060ee93a7728a378c28a192553c31c3919ac5c7304",
+        "FEEDBURNER": "1cff737da6018154b3564c060ee93a7728a378c28a192553c31c3919ac5c7304"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:38.111290+00:00",
+      "first_seen_local": "2026-10-30T13:48:38.111288-05:00",
+      "last_updated_utc": "2026-10-30T18:48:38.111290+00:00",
+      "last_updated_local": "2026-10-30T13:48:38.111288-05:00"
+    },
+    {
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "url": "http://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "published": "Fri, 30 Oct 2026 15:17:28 +0000",
+      "published_utc": "2026-10-30T15:17:28+00:00",
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.\n\nA malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1472064062983302215",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "content_hash": "dfa9ab1ce80bf52edabd4b92f4708640d7a91eafc0deca46b26f193c0b99ce99",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dfa9ab1ce80bf52edabd4b92f4708640d7a91eafc0deca46b26f193c0b99ce99",
+        "FEEDBURNER": "dfa9ab1ce80bf52edabd4b92f4708640d7a91eafc0deca46b26f193c0b99ce99"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:38.111290+00:00",
+      "first_seen_local": "2026-10-30T13:48:38.111288-05:00",
+      "last_updated_utc": "2026-10-30T18:48:38.111290+00:00",
+      "last_updated_local": "2026-10-30T13:48:38.111288-05:00"
+    },
+    {
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "url": "http://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "published": "Fri, 30 Oct 2026 14:08:14 +0000",
+      "published_utc": "2026-10-30T14:08:14+00:00",
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1414985197898872469",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "content_hash": "ef44d5e83e33bca6c65c52847da8e7f6cc907b61e4d85d2942d436088e638c36",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ef44d5e83e33bca6c65c52847da8e7f6cc907b61e4d85d2942d436088e638c36",
+        "FEEDBURNER": "ef44d5e83e33bca6c65c52847da8e7f6cc907b61e4d85d2942d436088e638c36"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T18:48:38.111290+00:00",
+      "first_seen_local": "2026-10-30T13:48:38.111288-05:00",
+      "last_updated_utc": "2026-10-30T18:48:38.111290+00:00",
+      "last_updated_local": "2026-10-30T13:48:38.111288-05:00"
+    },
     {
       "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
       "url": "http://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",

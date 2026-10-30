@@ -2,8 +2,360 @@
   "month": "2026-10",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 421,
+  "article_count": 434,
   "articles": [
+    {
+      "title": "Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet",
+      "url": "https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/",
+      "published": "Fri, 30 Oct 2026 13:22:22 +0000",
+      "published_utc": "2026-10-30T13:22:22+00:00",
+      "summary": "<p>A new botnet called Kairos is spreading to Linux devices through a very old mistake: a Telnet service that accepts the root user with no password. Once inside, the attackers install a small Go-based program that turns the device into a node for DDoS operations. The campaign shows that basic security gaps still give attackers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-passwordless-telnet/\">Hackers Exploit Passwordless Telnet to Infect Linux Devices With New Kairos DDoS Botnet</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169762",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-passwordless-telnet",
+      "content_hash": "2c4ed56b6d9bd8d900e049c7fd088525ecee60793f1a47ff3024ecda30574aad",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2c4ed56b6d9bd8d900e049c7fd088525ecee60793f1a47ff3024ecda30574aad"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Hackers Use Zero-Click Coruna and DarkSword Exploits to Steal Sensitive Data From iPhones",
+      "url": "https://cybersecuritynews.com/hackers-use-zero-click-coruna/",
+      "published": "Fri, 30 Oct 2026 12:55:44 +0000",
+      "published_utc": "2026-10-30T12:55:44+00:00",
+      "summary": "<p>Hackers are using two powerful iPhone exploit kits, Coruna and DarkSword, to break into phones and steal private data. The victim only has to open a web page. There is no app to install and no prompt to accept. The scale is larger than many people expected. Researchers found 608 domains delivering Coruna-family code. These [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-zero-click-coruna/\">Hackers Use Zero-Click Coruna and DarkSword Exploits to Steal Sensitive Data From iPhones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169752",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-zero-click-coruna",
+      "content_hash": "e6bcf83fc7fdaf49988e6c28e68770166b7e3ea759ef8c2e2f369968527f82d5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e6bcf83fc7fdaf49988e6c28e68770166b7e3ea759ef8c2e2f369968527f82d5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Hackers Weaponize OpenAI API in NIK C2 Framework for Credential Theft and Remote System Control",
+      "url": "https://cybersecuritynews.com/hackers-weaponize-openai-api/",
+      "published": "Fri, 30 Oct 2026 12:21:10 +0000",
+      "published_utc": "2026-10-30T12:21:10+00:00",
+      "summary": "<p>A new malware framework called NIK C2 is turning the OpenAI API into a tool for cybercriminals. Its Windows implant can dump passwords, record every keystroke, take hidden control of a desktop, and send the stolen data to an AI model for analysis, all inside the same session. The tool is a Go-based, 64-bit Windows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-weaponize-openai-api/\">Hackers Weaponize OpenAI API in NIK C2 Framework for Credential Theft and Remote System Control</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169682",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-weaponize-openai-api",
+      "content_hash": "235642e1cf56db3cf4ab99b45a1a7af11bc791686f65a095081a9a22af258cb4",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "235642e1cf56db3cf4ab99b45a1a7af11bc791686f65a095081a9a22af258cb4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Researchers Hacked Cursor, GitHub Copilot, Codex, VS Code, and Claude Desktop Embedded Browsers",
+      "url": "https://cybersecuritynews.com/popular-ai-embedded-browsers-hacked/",
+      "published": "Fri, 30 Oct 2026 11:18:28 +0000",
+      "published_utc": "2026-10-30T11:18:28+00:00",
+      "summary": "<p>Security flaws in the embedded browsers of Cursor, GitHub Copilot, Codex, VS Code, and Claude Desktop could enable code execution, file theft, and address-bar spoofing on developer machines. The findings published on October 29 show how browser features built into AI assistants can break security boundaries when given extra access to their host apps. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/popular-ai-embedded-browsers-hacked/\">Researchers Hacked Cursor, GitHub Copilot, Codex, VS Code, and Claude Desktop Embedded Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169657",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/popular-ai-embedded-browsers-hacked",
+      "content_hash": "49b9d3b78ba84346139a85d9ed597d5d3942054789f11f1ee1ab783a79347c29",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "49b9d3b78ba84346139a85d9ed597d5d3942054789f11f1ee1ab783a79347c29",
+        "FEEDBURNER": "49b9d3b78ba84346139a85d9ed597d5d3942054789f11f1ee1ab783a79347c29"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Palo Alto Confirms Active PHP2Shell Exploitation Targeting Exposed PAN-OS Management Interfaces",
+      "url": "https://cybersecuritynews.com/palo-alto-php2shell-exploitation/",
+      "published": "Fri, 30 Oct 2026 10:42:02 +0000",
+      "published_utc": "2026-10-30T10:42:02+00:00",
+      "summary": "<p>Palo Alto Networks has confirmed that attackers are actively exploiting PHP2Shell vulnerabilities against PAN-OS management interfaces exposed to the internet. In its October 29, 2026, update, Unit 42 said it independently verified attacker tools used to combine the PHP flaws with a Linux kernel vulnerability and gain root access. The vulnerabilities, CVE-2026-109618 and CVE-2026-109619, each [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-php2shell-exploitation/\">Palo Alto Confirms Active PHP2Shell Exploitation Targeting Exposed PAN-OS Management Interfaces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169710",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/palo-alto-php2shell-exploitation",
+      "content_hash": "b4b106c6222dc0fee0be135c6a694083af90e02db0c6a97793711c61f1e97599",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b4b106c6222dc0fee0be135c6a694083af90e02db0c6a97793711c61f1e97599",
+        "FEEDBURNER": "b4b106c6222dc0fee0be135c6a694083af90e02db0c6a97793711c61f1e97599"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Trezor Warns of Suspected Spy Implant in Crypto Wallet That Could Steal Recovery Phrases",
+      "url": "https://cybersecuritynews.com/trezor-suspected-hardware-implant/",
+      "published": "Fri, 30 Oct 2026 10:12:10 +0000",
+      "published_utc": "2026-10-30T10:12:10+00:00",
+      "summary": "<p>Trezor has warned that a suspected hardware implant inside a Trezor Safe 5 could steal recovery phrases and send them over a mobile network. The warning covers every Trezor model bought from CryptoBilis from March 2026 onward, although only one suspected device has been reported. In its October 30 security notice, Trezor urged affected users [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/trezor-suspected-hardware-implant/\">Trezor Warns of Suspected Spy Implant in Crypto Wallet That Could Steal Recovery Phrases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169697",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/trezor-suspected-hardware-implant",
+      "content_hash": "95434f4a46f38e458ae2acedb8f5e262f91509c5aafd524537ce1ace5e1e97b4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "95434f4a46f38e458ae2acedb8f5e262f91509c5aafd524537ce1ace5e1e97b4",
+        "FEEDBURNER": "95434f4a46f38e458ae2acedb8f5e262f91509c5aafd524537ce1ace5e1e97b4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Binance Faces Largest Crypto Heist – $6.36 Billion Reportedly Stolen by North Korean Group",
+      "url": "https://cybersecuritynews.com/binance-hit-crypto-heist/",
+      "published": "Fri, 30 Oct 2026 09:16:09 +0000",
+      "published_utc": "2026-10-30T09:16:09+00:00",
+      "summary": "<p>Binance reportedly lost approximately $6.36 billion in cryptocurrency on October 29, 2026, after an attacker drained wallets across ten blockchains. TRM Labs describes the incident as the largest cryptocurrency theft ever recorded, with most of the stolen funds transferred out within about 20 minutes of the attack. Its investigation attributes the operation to TraderTraitor, a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/binance-hit-crypto-heist/\">Binance Faces Largest Crypto Heist &#8211; $6.36 Billion Reportedly Stolen by North Korean Group</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169676",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/binance-hit-crypto-heist",
+      "content_hash": "ba37383bcc75d7fed8640fe520f1c4089a064818c1be636fa21af3aedb6408e9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ba37383bcc75d7fed8640fe520f1c4089a064818c1be636fa21af3aedb6408e9",
+        "FEEDBURNER": "ba37383bcc75d7fed8640fe520f1c4089a064818c1be636fa21af3aedb6408e9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Unauthorized OpenAI Codex and Claude Code Relays Disable AI Sandboxes and Redirect Enterprise Data",
+      "url": "https://cybersecuritynews.com/unauthorized-openai-codex/",
+      "published": "Fri, 30 Oct 2026 08:50:24 +0000",
+      "published_utc": "2026-10-30T08:50:24+00:00",
+      "summary": "<p>An unauthorized AI relay service is installing genuine OpenAI Codex and Anthropic Claude Code tools on company computers, then changing their settings to send requests through third-party servers. The setup also removes sandbox controls, creating a path for sensitive business data to leave approved systems. Symantec’s Threat Hunter Team documented the activity in an October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/unauthorized-openai-codex/\">Unauthorized OpenAI Codex and Claude Code Relays Disable AI Sandboxes and Redirect Enterprise Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169667",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/unauthorized-openai-codex",
+      "content_hash": "1dd0b3685e47c7ca8ba190201f860da615e3cc52dc4da8384adb610cb54eee9a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1dd0b3685e47c7ca8ba190201f860da615e3cc52dc4da8384adb610cb54eee9a",
+        "FEEDBURNER": "1dd0b3685e47c7ca8ba190201f860da615e3cc52dc4da8384adb610cb54eee9a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "CISA Warns of GitLab Integer Overflow Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/gitlab-integer-overflow-vulnerability-exploited/",
+      "published": "Fri, 30 Oct 2026 08:28:50 +0000",
+      "published_utc": "2026-10-30T08:28:50+00:00",
+      "summary": "<p>The Cybersecurity and Infrastructure Security Agency has warned that attackers are exploiting CVE-2026-97229. This GitLab vulnerability could allow code execution without logging in. CISA added the flaw to its Known Exploited Vulnerabilities catalog on October 29, 2026, confirming evidence of active exploitation and raising the urgency for organizations running affected GitLab servers. The vulnerability affects [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-integer-overflow-vulnerability-exploited/\">CISA Warns of GitLab Integer Overflow Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169651",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/gitlab-integer-overflow-vulnerability-exploited",
+      "content_hash": "c781a3a95cf37a49204dec83e346e3c15a824f9059b28752ae14b244e7f88b5c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c781a3a95cf37a49204dec83e346e3c15a824f9059b28752ae14b244e7f88b5c",
+        "FEEDBURNER": "c781a3a95cf37a49204dec83e346e3c15a824f9059b28752ae14b244e7f88b5c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Ivanti Connect Secure 0-Days Exploited in the Wild to Gain Unauthenticated Root Access",
+      "url": "https://cybersecuritynews.com/ivanti-connect-secure-zero-days-exploited/",
+      "published": "Fri, 30 Oct 2026 08:26:39 +0000",
+      "published_utc": "2026-10-30T08:26:39+00:00",
+      "summary": "<p>Attackers are chaining zero-day flaws in Ivanti Connect Secure VPN appliances to gain unauthenticated root access, exposing stored credentials and sensitive Active Directory data. Ivanti confirmed attacks against a limited number of customers and released additional fixes on October 29, 2026, following its initial October patches. Volexity tracked UTA0576 activity to October 3 and, during [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ivanti-connect-secure-zero-days-exploited/\">Ivanti Connect Secure 0-Days Exploited in the Wild to Gain Unauthenticated Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169640",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ivanti-connect-secure-zero-days-exploited",
+      "content_hash": "57ebbb46f228d1cc1307242694497489d471e2119f245a45b403599f70e5b157",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "57ebbb46f228d1cc1307242694497489d471e2119f245a45b403599f70e5b157",
+        "FEEDBURNER": "57ebbb46f228d1cc1307242694497489d471e2119f245a45b403599f70e5b157"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Microsoft Fixes Remote Desktop Connection Failures Following Recent Updates",
+      "url": "https://cybersecuritynews.com/microsoft-fixes-remote-desktop-connection-failures/",
+      "published": "Fri, 30 Oct 2026 08:24:09 +0000",
+      "published_utc": "2026-10-30T08:24:09+00:00",
+      "summary": "<p>Microsoft resolved a Windows 11 issue that blocked non-admin users from connecting via Remote Desktop when Administrator protection was enabled, releasing fixes on October 28, 2026, for connection failures with error 0xC000000D. The bug appeared after the September 22 non-security preview update, KB5124010, or later updates. Affected users could see the message, “The token that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-fixes-remote-desktop-connection-failures/\">Microsoft Fixes Remote Desktop Connection Failures Following Recent Updates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169646",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-fixes-remote-desktop-connection-failures",
+      "content_hash": "d4fbfeec73f24ba8ae6bb0bbff71b523261fb9aa91bdf06453943f239e7c1952",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d4fbfeec73f24ba8ae6bb0bbff71b523261fb9aa91bdf06453943f239e7c1952"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Researcher Uses Claude AI to Extract Internal Anthropic Binary and Recover Google Cloud Token",
+      "url": "https://cybersecuritynews.com/researcher-uses-claude-ai/",
+      "published": "Fri, 30 Oct 2026 08:16:27 +0000",
+      "published_utc": "2026-10-30T08:16:27+00:00",
+      "summary": "<p>A security researcher got Claude AI to hand over an internal Anthropic program and a memory dump that held pieces of a working Google Cloud token. The findings were published on October 29, 2026. They show how a helpful chatbot can expose the systems that run it. The work started with a plain question about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/researcher-uses-claude-ai/\">Researcher Uses Claude AI to Extract Internal Anthropic Binary and Recover Google Cloud Token</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169659",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/researcher-uses-claude-ai",
+      "content_hash": "8d00e2a1ac05f46020d1c8b3e90a8e9fc9a2f73b9703380dd63818143ed13769",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "8d00e2a1ac05f46020d1c8b3e90a8e9fc9a2f73b9703380dd63818143ed13769"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
+    {
+      "title": "Top 10 Best UEBA Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-ueba-tools/",
+      "published": "Fri, 30 Oct 2026 07:37:15 +0000",
+      "published_utc": "2026-10-30T07:37:15+00:00",
+      "summary": "<p>Stolen credentials beat most controls because they are the control which is why behavior became the detection substrate. UEBA baselines how every user and entity normally acts, then surfaces the deviation: the service account suddenly browsing HR files, the engineer’s badge in one country and login in another. One honest note up front: our source [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-ueba-tools/\">Top 10 Best UEBA Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169491",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-ueba-tools",
+      "content_hash": "aed4e3136a97f8b35cf63f0ce6333dca4fc4c2ef6f855c17d088e40dec8b3d65",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "aed4e3136a97f8b35cf63f0ce6333dca4fc4c2ef6f855c17d088e40dec8b3d65"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-30T13:27:11.865445+00:00",
+      "first_seen_local": "2026-10-30T08:27:11.865442-05:00",
+      "last_updated_utc": "2026-10-30T13:27:11.865445+00:00",
+      "last_updated_local": "2026-10-30T08:27:11.865442-05:00"
+    },
     {
       "title": "Hackers Actively Exploiting WordPress Remote Code Execution Flaw Just Hours After Patch Release",
       "url": "https://cybersecuritynews.com/wordpress-rce-exploited/",

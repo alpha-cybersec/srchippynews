@@ -5,47 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 4,
-      "articles": [
-        {
-          "title": "Binance Reportedly Hacked as Attackers Steal Up to $5.7 Billion in Cryptocurrency",
-          "url": "https://gbhackers.com/binance-reportedly-hacked/",
-          "published": "Fri, 30 Oct 2026 06:18:42 +0000",
-          "published_utc": "2026-10-30T06:18:42+00:00",
-          "summary": "<p>Binance has suspended deposits and withdrawals due to a security incident. Early estimates from blockchain tracking indicated that attackers may have drained as much as $5.7 billion in cryptocurrency. The exchange has committed to covering all losses while investigators work to trace the transactions and coordinate asset freezes throughout the cryptocurrency ecosystem. In its official [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/binance-reportedly-hacked/\">Binance Reportedly Hacked as Attackers Steal Up to $5.7 Billion in Cryptocurrency</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205321"
-        },
-        {
-          "title": "Polymarket Reportedly Hacked as Users Report Funds Stolen From Crypto Wallets",
-          "url": "https://gbhackers.com/polymarket-reportedly-hacked-as-users-report-funds-stolen/",
-          "published": "Fri, 30 Oct 2026 06:06:13 +0000",
-          "published_utc": "2026-10-30T06:06:13+00:00",
-          "summary": "<p>Polymarket&#8217;s international platform temporarily suspended trading after a third-party provider was compromised, leading to reports of unauthorized withdrawals and missing account balances. The Polymarket Traders account later announced that trading had resumed and promised to reimburse affected traders fully. In its public incident statement, the account said it had identified and fixed the issue affecting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/polymarket-reportedly-hacked-as-users-report-funds-stolen/\">Polymarket Reportedly Hacked as Users Report Funds Stolen From Crypto Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205316"
-        },
-        {
-          "title": "Accenture Employee Allegedly Gave Claude Code AI Agent Administrative Access to Pentagon Systems",
-          "url": "https://gbhackers.com/accenture-employee-allegedly-gave-claude-code-ai-agent-administrative-access/",
-          "published": "Fri, 30 Oct 2026 05:47:29 +0000",
-          "published_utc": "2026-10-30T05:47:29+00:00",
-          "summary": "<p>An Accenture employee reportedly linked a personal Claude Code account to a secure Department of Defense production environment, granting the AI coding agent administrative access and potentially exposing credentials and sensitive network information to an external service. According to WIRED’s investigation, published October 29, the agent operated on the Pentagon network for approximately two months [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/accenture-employee-allegedly-gave-claude-code-ai-agent-administrative-access/\">Accenture Employee Allegedly Gave Claude Code AI Agent Administrative Access to Pentagon Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205312"
-        },
-        {
-          "title": "New Zero-Click Android Vulnerability Lets Attackers Crash Phones With a Single SMS",
-          "url": "https://gbhackers.com/new-zero-click-android-vulnerability/",
-          "published": "Fri, 30 Oct 2026 05:08:38 +0000",
-          "published_utc": "2026-10-30T05:08:38+00:00",
-          "summary": "<p>A recently discovered Android vulnerability, referred to as SMS of Death, allows attackers to crash a phone&#8217;s telephony process with just one malformed SMS, without any interaction from the victim. Researcher Mark B reports that this flaw can disconnect active calls, including emergency calls, and leads to persistent service disruptions when malicious messages remain in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-zero-click-android-vulnerability/\">New Zero-Click Android Vulnerability Lets Attackers Crash Phones With a Single SMS</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205308"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -55,15 +22,87 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 1,
+      "article_count": 10,
       "articles": [
         {
-          "title": "New Zero-Click Android Vulnerability Lets Attackers Crash Phones With a Single SMS",
-          "url": "https://gbhackers.com/new-zero-click-android-vulnerability/",
-          "published": "Fri, 30 Oct 2026 05:08:38 +0000",
-          "published_utc": "2026-10-30T05:08:38+00:00",
-          "summary": "<p>A recently discovered Android vulnerability, referred to as SMS of Death, allows attackers to crash a phone&#8217;s telephony process with just one malformed SMS, without any interaction from the victim. Researcher Mark B reports that this flaw can disconnect active calls, including emergency calls, and leads to persistent service disruptions when malicious messages remain in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-zero-click-android-vulnerability/\">New Zero-Click Android Vulnerability Lets Attackers Crash Phones With a Single SMS</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205308"
+          "title": "Trezor Warns of Suspected Spy Implant That Could Steal Crypto Wallet Recovery Phrases",
+          "url": "https://gbhackers.com/trezor-warns-of-suspected-spy-implant/",
+          "published": "Fri, 30 Oct 2026 12:35:20 +0000",
+          "published_utc": "2026-10-30T12:35:20+00:00",
+          "summary": "<p>Trezor has issued an urgent warning after receiving a credible report of a suspected hardware implant in a Safe 5 cryptocurrency wallet purchased from the former reseller CryptoBilis. The company has not independently verified the device, and so far, no CryptoBilis customers have reported losing funds to Trezor. According to Trezor’s security advisory, the wallet [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trezor-warns-of-suspected-spy-implant/\">Trezor Warns of Suspected Spy Implant That Could Steal Crypto Wallet Recovery Phrases</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205398"
+        },
+        {
+          "title": "CISA Confirms Active Exploitation of GitLab Vulnerability CVE-2026-97229",
+          "url": "https://gbhackers.com/cisa-gitlab-vulnerability-cve-2026-97229/",
+          "published": "Fri, 30 Oct 2026 12:21:27 +0000",
+          "published_utc": "2026-10-30T12:21:27+00:00",
+          "summary": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that CVE-2026-97229, a critical vulnerability affecting both GitLab Community Edition and Enterprise Edition, is actively being exploited. On October 29, 2026, CISA added this flaw to its Known Exploited Vulnerabilities catalog, increasing the urgency for organizations running affected servers to take action. This vulnerability allows unauthenticated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-gitlab-vulnerability-cve-2026-97229/\">CISA Confirms Active Exploitation of GitLab Vulnerability CVE-2026-97229</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205393"
+        },
+        {
+          "title": "Microsoft Releases Emergency Fix for Windows 11 Remote Desktop Connection Failures",
+          "url": "https://gbhackers.com/windows-11-remote-desktop-connection-failures/",
+          "published": "Fri, 30 Oct 2026 11:54:04 +0000",
+          "published_utc": "2026-10-30T11:54:04+00:00",
+          "summary": "<p>Microsoft has resolved an issue in Windows 11 that prevented non-administrator users from connecting to devices with Administrator protection enabled. This fix was included in KB5127936, released on October 28, 2026, and is part of subsequent updates. While this issue is urgent for affected organizations, Microsoft has categorized the release as a preview update rather [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-remote-desktop-connection-failures/\">Microsoft Releases Emergency Fix for Windows 11 Remote Desktop Connection Failures</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205388"
+        },
+        {
+          "title": "Hackers Exploit Ivanti Connect Secure Zero-Day Vulnerabilities to Gain Root Access and Steal Credentials",
+          "url": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/",
+          "published": "Fri, 30 Oct 2026 11:46:41 +0000",
+          "published_utc": "2026-10-30T11:46:41+00:00",
+          "summary": "<p>Hackers exploited a chain of zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances, allowing them to execute commands with root access, steal credentials, and probe internal networks. Volexity has identified the unknown attacker as UTA0576 and traced the exploitation back to October 3, 2026, targeting an appliance that was fully patched at the time. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/\">Hackers Exploit Ivanti Connect Secure Zero-Day Vulnerabilities to Gain Root Access and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205381"
+        },
+        {
+          "title": "Fake Polymarket Scam Network Claims Nearly $11 Million in Cryptocurrency Deposits",
+          "url": "https://gbhackers.com/fake-polymarket-scam/",
+          "published": "Fri, 30 Oct 2026 11:46:35 +0000",
+          "published_utc": "2026-10-30T11:46:35+00:00",
+          "summary": "<p>Russian-language &#8220;traffer&#8221; teams are selling ready-made fake prediction-market platforms to affiliates. One of them, AtlasCore, claims about $10.97 million in victim deposits. Recorded Future&#8217;s Insikt Group tracked the campaigns, which impersonate sites like Polymarket and Kalshi. The deposit figures come from the threat actors themselves and are unverified. Fake Polymarket scam Since spring 2026, AtlasCore, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-polymarket-scam/\">Fake Polymarket Scam Network Claims Nearly $11 Million in Cryptocurrency Deposits</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205371"
+        },
+        {
+          "title": "New Kairos DDoS Botnet Hijacks Linux Devices to Overwhelm Servers With Thousands of TCP Connections",
+          "url": "https://gbhackers.com/kairos-ddos-botnet/",
+          "published": "Fri, 30 Oct 2026 10:49:33 +0000",
+          "published_utc": "2026-10-30T10:49:33+00:00",
+          "summary": "<p>Nozomi Networks Labs has documented Kairos, a previously undocumented Go-based DDoS bot for Linux. It turns compromised Linux devices into attack nodes that exhaust a victim&#8217;s connection capacity with thousands of idle TCP sessions. Kairos DDoS botnet Honeypot telemetry captured three Kairos builds. They differ only in the hard-coded C2 address and the Go compiler [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kairos-ddos-botnet/\">New Kairos DDoS Botnet Hijacks Linux Devices to Overwhelm Servers With Thousands of TCP Connections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205366"
+        },
+        {
+          "title": "DarkSword iOS Exploit Chain Bypasses Safari Sandbox and Steals Apple Notes Data",
+          "url": "https://gbhackers.com/darksword-ios-exploit-chain/",
+          "published": "Fri, 30 Oct 2026 10:23:27 +0000",
+          "published_utc": "2026-10-30T10:23:27+00:00",
+          "summary": "<p>Zimperium zLabs has found that the Coruna iOS exploit campaign now serves two iOS exploit chains, picked by the victim&#8217;s iOS version. A DarkSword-derived chain escapes Safari&#8217;s sandbox on newer iPhones and has stolen Apple Notes data. Recent coverage of Coruna and DarkSword spreading through Instagram ads and abandoned tags shows the kits are still [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/darksword-ios-exploit-chain/\">DarkSword iOS Exploit Chain Bypasses Safari Sandbox and Steals Apple Notes Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205358"
+        },
+        {
+          "title": "New AI-Powered NIK C2 Malware Uses OpenAI API to Help Hackers Steal Data and Control Windows PCs",
+          "url": "https://gbhackers.com/nik-c2-malware/",
+          "published": "Fri, 30 Oct 2026 09:45:09 +0000",
+          "published_utc": "2026-10-30T09:45:09+00:00",
+          "summary": "<p>Cisco Talos has uncovered NIK C2, a Go-based, 64-bit Windows remote access tool that embeds a working OpenAI client. Operators can send prompts through an infected machine and read the model&#8217;s replies in their C2 panel. NIK C2 malware According to technical research published by Cisco Talos, the implant talks to its server over TLS-secured [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nik-c2-malware/\">New AI-Powered NIK C2 Malware Uses OpenAI API to Help Hackers Steal Data and Control Windows PCs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205354"
+        },
+        {
+          "title": "Claude AI Exposes Internal Sandbox Details That Help Researcher Bypass Local Connection Restrictions",
+          "url": "https://gbhackers.com/claude-ai-sandbox-restrictions/",
+          "published": "Fri, 30 Oct 2026 08:21:53 +0000",
+          "published_utc": "2026-10-30T08:21:53+00:00",
+          "summary": "<p>A Bishop Fox researcher investigating Claude’s sandbox obtained an internal control binary, recovered authorization tokens from process memory, and bypassed a local connection restriction to reach a sandbox control service. Anthropic said the sandbox observations did not qualify as security issues because its security boundaries sit outside the untrusted sandbox. According to technical research published [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-sandbox-restrictions/\">Claude AI Exposes Internal Sandbox Details That Help Researcher Bypass Local Connection Restrictions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205349"
+        },
+        {
+          "title": "Malicious Claude Code VS Code Extension Installs Persistent SSH Backdoor to Give Attackers Remote Access",
+          "url": "https://gbhackers.com/malicious-claude-code-vs-code-extension/",
+          "published": "Fri, 30 Oct 2026 08:07:53 +0000",
+          "published_utc": "2026-10-30T08:07:53+00:00",
+          "summary": "<p>A trojanized version of the Claude Code extension, identified as anthropic.claude-code version 2.1.313, contains a malicious loader that enables persistent SSH access to developer systems. Researchers analyzed an artifact obtained from Open VSX and discovered 66 lines of JavaScript added to the legitimate extension bundle. This additional code lets the attacker&#8217;s script run before the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-claude-code-vs-code-extension/\">Malicious Claude Code VS Code Extension Installs Persistent SSH Backdoor to Give Attackers Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205343"
         }
       ],
       "error": ""

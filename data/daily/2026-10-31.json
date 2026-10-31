@@ -1,12 +1,68 @@
 {
   "date": "2026-10-31",
-  "article_count": 9,
+  "article_count": 11,
   "sources": {
-    "thehackernews": 2,
-    "gbhackers": 6,
-    "cybersecuritynews": 1
+    "thehackernews": 3,
+    "cybersecuritynews": 2,
+    "gbhackers": 6
   },
   "articles": [
+    {
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "published": "Sat, 31 Oct 2026 12:01:56 +0000",
+      "published_utc": "2026-10-31T12:01:56+00:00",
+      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.\n\n\"This month, Chainalysis detected an external actor using offensive agentic",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5582577673922306525",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "content_hash": "aefb099ef6bc2ab8a267b70e4c753343d86270e6157ae47ceca771fe6aedaea2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aefb099ef6bc2ab8a267b70e4c753343d86270e6157ae47ceca771fe6aedaea2",
+        "FEEDBURNER": "aefb099ef6bc2ab8a267b70e4c753343d86270e6157ae47ceca771fe6aedaea2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-31T15:15:49.566337+00:00",
+      "first_seen_local": "2026-10-31T10:15:49.566335-05:00",
+      "last_updated_utc": "2026-10-31T15:15:49.566337+00:00",
+      "last_updated_local": "2026-10-31T10:15:49.566335-05:00"
+    },
+    {
+      "title": "Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours",
+      "url": "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/",
+      "published": "Sat, 31 Oct 2026 10:41:18 +0000",
+      "published_utc": "2026-10-31T10:41:18+00:00",
+      "summary": "<p>Cursor has confirmed that malicious Claude Code extension packages were available through its VS Code Extension Marketplace for roughly 11 hours on October 29, 2026. The altered packages targeted Windows and macOS users and attempted to install an SSH backdoor for lasting remote access. According to Cursor’s security notice, the affected versions were Anthropic.claude-code 2.1.312 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/\">Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169867",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malicious-claude-code-extension-with-cursor",
+      "content_hash": "e1eb3ee9bafbf8f9f3240b2761846aa52c650055b8955f601ff9dbc3242ca44e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e1eb3ee9bafbf8f9f3240b2761846aa52c650055b8955f601ff9dbc3242ca44e",
+        "FEEDBURNER": "e1eb3ee9bafbf8f9f3240b2761846aa52c650055b8955f601ff9dbc3242ca44e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-10-31T15:15:45.026655+00:00",
+      "first_seen_local": "2026-10-31T10:15:45.026652-05:00",
+      "last_updated_utc": "2026-10-31T15:15:45.026655+00:00",
+      "last_updated_local": "2026-10-31T10:15:45.026652-05:00"
+    },
     {
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
       "url": "http://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",

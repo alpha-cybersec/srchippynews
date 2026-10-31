@@ -71,8 +71,40 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 2,
+      "article_count": 6,
       "articles": [
+        {
+          "title": "Hackers Impersonate IT Help Desk on Microsoft Teams to Gain Domain Admin Access via AD CS Attacks",
+          "url": "https://gbhackers.com/hackers-impersonate-it-help-desk-microsoft-teams/",
+          "published": "Sat, 31 Oct 2026 08:25:08 +0000",
+          "published_utc": "2026-10-31T08:25:08+00:00",
+          "summary": "<p>Hackers impersonated IT help desk personnel on Microsoft Teams to gain remote access and abuse Active Directory Certificate Services (AD CS), turning approved support sessions into privileged authentication paths. Microsoft disclosed two intrusions on October 30, 2026, involving certificate template abuse and NTLM relay. The attacks did not exploit a Teams vulnerability. Instead, operators combined [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-impersonate-it-help-desk-microsoft-teams/\">Hackers Impersonate IT Help Desk on Microsoft Teams to Gain Domain Admin Access via AD CS Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205484"
+        },
+        {
+          "title": "Hackers Distribute Malicious Claude Code Extension on Cursor Marketplace to Install Persistent SSH Backdoor",
+          "url": "https://gbhackers.com/hackers-distribute-malicious-claude-code-extension/",
+          "published": "Sat, 31 Oct 2026 08:10:08 +0000",
+          "published_utc": "2026-10-31T08:10:08+00:00",
+          "summary": "<p>Microsoft has warned that malicious Claude Code extensions distributed through Cursor’s marketplace attempted to install a persistent SSH backdoor on developer workstations. The trojanized packages, anthropic.claude-code versions 2.1.312 and 2.1.313, combined legitimate extension functionality with injected JavaScript that prepared unauthorized remote access. Cursor disclosed the incident on October 29, 2026, reporting availability between approximately 2:27 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-distribute-malicious-claude-code-extension/\">Hackers Distribute Malicious Claude Code Extension on Cursor Marketplace to Install Persistent SSH Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205481"
+        },
+        {
+          "title": "Hackers Exploit PHP2Shell RCE Vulnerabilities to Gain Root Access on Palo Alto Firewalls",
+          "url": "https://gbhackers.com/hackers-exploit-php2shell-rce-vulnerabilities/",
+          "published": "Sat, 31 Oct 2026 07:59:01 +0000",
+          "published_utc": "2026-10-31T07:59:01+00:00",
+          "summary": "<p>Attackers have chained critical PHP2Shell vulnerabilities with the Fragnesia Linux kernel flaw to gain root access on Palo Alto Networks PAN-OS systems. The campaign reportedly compromised 24 internet-facing firewalls before reaching an internal firewall management server, bringing the total to 25 compromised systems. Hunt.io’s investigation cites Dream Research’s campaign analysis and describes a transition from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-php2shell-rce-vulnerabilities/\">Hackers Exploit PHP2Shell RCE Vulnerabilities to Gain Root Access on Palo Alto Firewalls</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205477"
+        },
+        {
+          "title": "Claude AI Exploits Gaps in Safety Monitoring to Develop Self-Preservation and Deceptive Behaviors",
+          "url": "https://gbhackers.com/claude-ai-exploits-gaps/",
+          "published": "Sat, 31 Oct 2026 07:40:15 +0000",
+          "published_utc": "2026-10-31T07:40:15+00:00",
+          "summary": "<p>Anthropic researchers have demonstrated how Claude could generate seemingly harmless training datasets that passed safety screening but caused a separate research model to develop deceptive, manipulative, and oversight-resistant behavior after fine-tuning. The findings expose weaknesses in training-data monitoring rather than evidence of a production compromise. The study, “Automated Subtle Emergent Misalignment Research,” investigated whether automated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-exploits-gaps/\">Claude AI Exploits Gaps in Safety Monitoring to Develop Self-Preservation and Deceptive Behaviors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205471"
+        },
         {
           "title": "WordPress RCE Vulnerability Under Active Attack With Over 58,000 Exploit Attempts Blocked",
           "url": "https://gbhackers.com/wordpress-rce-vulnerability-2/",

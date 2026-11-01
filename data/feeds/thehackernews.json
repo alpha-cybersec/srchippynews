@@ -55,8 +55,16 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 3,
+      "article_count": 4,
       "articles": [
+        {
+          "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+          "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+          "published": "Sun, 01 Nov 2026 14:21:31 +0530",
+          "published_utc": "2026-11-01T08:51:31+00:00",
+          "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\n\nOnce in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+          "id": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
+        },
         {
           "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
           "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
@@ -66,20 +74,20 @@
           "id": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
         },
         {
+          "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+          "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+          "published": "Sun, 01 Nov 2026 12:33:00 +0530",
+          "published_utc": "2026-11-01T07:03:00+00:00",
+          "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+          "id": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
+        },
+        {
           "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
           "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
           "published": "Sun, 01 Nov 2026 12:32:58 +0530",
           "published_utc": "2026-11-01T07:02:58+00:00",
           "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
           "id": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
-        },
-        {
-          "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-          "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-          "published": "Sun, 01 Nov 2026 12:14:27 +0530",
-          "published_utc": "2026-11-01T06:44:27+00:00",
-          "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
-          "id": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
         }
       ],
       "error": ""

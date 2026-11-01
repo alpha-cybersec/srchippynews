@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-01",
+  "article_count": 6,
+  "sources": {
+    "thehackernews": 4,
+    "cybersecuritynews": 2
+  },
+  "articles": [
+    {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "http://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "published": "Sun, 01 Nov 2026 08:51:31 +0000",
+      "published_utc": "2026-11-01T08:51:31+00:00",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\n\nOnce in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4385331607102418996",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "content_hash": "5cc3c0294a6aa222ae11dbf821a6efbf4ffce12bc3a66ef60e202c1a310a5c05",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5cc3c0294a6aa222ae11dbf821a6efbf4ffce12bc3a66ef60e202c1a310a5c05"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-01T09:08:36.359771+00:00",
+      "first_seen_local": "2026-11-01T04:08:36.359769-05:00",
+      "last_updated_utc": "2026-11-01T09:08:36.359771+00:00",
+      "last_updated_local": "2026-11-01T04:08:36.359769-05:00"
+    },
+    {
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "http://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "published": "Sun, 01 Nov 2026 07:25:40 +0000",
+      "published_utc": "2026-11-01T07:25:40+00:00",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\n\nPolymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8684909114670376140",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "content_hash": "0d7d3a1a5d9ef21a6e2dc5aca9103108f1e5f863f3c007df2cea2613a56677f9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0d7d3a1a5d9ef21a6e2dc5aca9103108f1e5f863f3c007df2cea2613a56677f9",
+        "FEEDBURNER": "0d7d3a1a5d9ef21a6e2dc5aca9103108f1e5f863f3c007df2cea2613a56677f9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-01T09:08:36.359771+00:00",
+      "first_seen_local": "2026-11-01T04:08:36.359769-05:00",
+      "last_updated_utc": "2026-11-01T09:08:36.359771+00:00",
+      "last_updated_local": "2026-11-01T04:08:36.359769-05:00"
+    },
+    {
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "http://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "published": "Sun, 01 Nov 2026 07:03:00 +0000",
+      "published_utc": "2026-11-01T07:03:00+00:00",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8903776360912075580",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "content_hash": "58b9ca4252f0142b383cd1f613aa5c3c23931fde1f6565a2d2708c75e8f9e97b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "58b9ca4252f0142b383cd1f613aa5c3c23931fde1f6565a2d2708c75e8f9e97b",
+        "FEEDBURNER": "58b9ca4252f0142b383cd1f613aa5c3c23931fde1f6565a2d2708c75e8f9e97b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-01T09:08:36.359771+00:00",
+      "first_seen_local": "2026-11-01T04:08:36.359769-05:00",
+      "last_updated_utc": "2026-11-01T09:08:36.359771+00:00",
+      "last_updated_local": "2026-11-01T04:08:36.359769-05:00"
+    },
+    {
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "http://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "published": "Sun, 01 Nov 2026 07:02:58 +0000",
+      "published_utc": "2026-11-01T07:02:58+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7244752536646323557",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "content_hash": "68f90dafa2d809f47d4a2c1f34242777f35ac5b2edf37bad89ea2f902c844c94",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "68f90dafa2d809f47d4a2c1f34242777f35ac5b2edf37bad89ea2f902c844c94",
+        "FEEDBURNER": "68f90dafa2d809f47d4a2c1f34242777f35ac5b2edf37bad89ea2f902c844c94"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-01T09:08:36.359771+00:00",
+      "first_seen_local": "2026-11-01T04:08:36.359769-05:00",
+      "last_updated_utc": "2026-11-01T09:08:36.359771+00:00",
+      "last_updated_local": "2026-11-01T04:08:36.359769-05:00"
+    },
+    {
+      "title": "FBI Confirms North Korean Hackers Responsible for $6 Billion+ Binance Attack",
+      "url": "https://cybersecuritynews.com/fbi-confirms-north-korean-hackers/",
+      "published": "Sun, 01 Nov 2026 05:48:16 +0000",
+      "published_utc": "2026-11-01T05:48:16+00:00",
+      "summary": "<p>The Federal Bureau of Investigation has confirmed that North Korean hackers stole more than $6 billion in virtual assets from Binance on or about October 29, 2026. The agency tracks the activity as TraderTraitor, linking the cryptocurrency theft to an operation previously blamed for major attacks against digital asset platforms. In its official security alert, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fbi-confirms-north-korean-hackers/\">FBI Confirms North Korean Hackers Responsible for $6 Billion+ Binance Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169960",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fbi-confirms-north-korean-hackers",
+      "content_hash": "68389f812e1e5082e42a0a027871d08b05c92b787b3b97562a8c9204727a1739",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "68389f812e1e5082e42a0a027871d08b05c92b787b3b97562a8c9204727a1739",
+        "FEEDBURNER": "68389f812e1e5082e42a0a027871d08b05c92b787b3b97562a8c9204727a1739"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-01T09:08:31.746924+00:00",
+      "first_seen_local": "2026-11-01T04:08:31.746922-05:00",
+      "last_updated_utc": "2026-11-01T09:08:31.746924+00:00",
+      "last_updated_local": "2026-11-01T04:08:31.746922-05:00"
+    },
+    {
+      "title": "Hacktober – Cyberattack Wave Hits PHP, Node.js, Binance, LiteLLM, Pentagon, and a Few More",
+      "url": "https://cybersecuritynews.com/hacktober-cyberattack-wave/",
+      "published": "Sun, 01 Nov 2026 05:24:22 +0000",
+      "published_utc": "2026-11-01T05:24:22+00:00",
+      "summary": "<p>October brought a heavy run of cybersecurity disclosures involving cryptocurrency exchanges, web servers, AI tools, software packages, government records, and grocery chains. Binance investigated billions of dollars in unauthorized transactions, PHP issued emergency fixes, and a malicious LiteLLM release put developer credentials at risk. Other incidents involved Railway, OpenCode, Polymarket, Coinbase, Cursor, eMudhra, and Capcom. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacktober-cyberattack-wave/\">Hacktober &#8211; Cyberattack Wave Hits PHP, Node.js, Binance, LiteLLM, Pentagon, and a Few More</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=169957",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hacktober-cyberattack-wave",
+      "content_hash": "7d210cd3d604d4cd02b2ff48ffaa3b2a655f8cf7130f85cd4236d5f0584fb70f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7d210cd3d604d4cd02b2ff48ffaa3b2a655f8cf7130f85cd4236d5f0584fb70f",
+        "FEEDBURNER": "7d210cd3d604d4cd02b2ff48ffaa3b2a655f8cf7130f85cd4236d5f0584fb70f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-01T09:08:31.746924+00:00",
+      "first_seen_local": "2026-11-01T04:08:31.746922-05:00",
+      "last_updated_utc": "2026-11-01T09:08:31.746924+00:00",
+      "last_updated_local": "2026-11-01T04:08:31.746922-05:00"
+    }
+  ]
+}

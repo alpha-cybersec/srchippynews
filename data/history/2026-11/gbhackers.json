@@ -231,28 +231,29 @@
       "url": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
       "published": "Tue, 03 Nov 2026 09:33:48 +0000",
       "published_utc": "2026-11-03T09:33:48+00:00",
-      "summary": "<p>Ubuntu has published fixes for CVE-2026-98432, a critical Linux kernel flaw in IPv4 TCP connection handling. It carries a CVSS 3.1 score of 9.8 and can lead to remote code execution. The fixes for Ubuntu 22.04 LTS and newer are in the -proposed pocket, so they are not yet in the default updates channel. Critical [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "summary": "<p>Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
       "id": "https://gbhackers.com/?p=205780",
       "source": "GBHackers",
       "source_slug": "gbhackers",
       "article_key": "gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability",
-      "content_hash": "e2916661b3ab8066d025910c7f26b45c8d4163402994440791989850403f2b9c",
+      "content_hash": "8a3d479e8b84fe1a1b728277536e2506d1b44a303e907a9dca144e7378f3eed0",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "e2916661b3ab8066d025910c7f26b45c8d4163402994440791989850403f2b9c",
-        "FEEDBURNER": "e2916661b3ab8066d025910c7f26b45c8d4163402994440791989850403f2b9c"
+        "ORIGINAL": "8a3d479e8b84fe1a1b728277536e2506d1b44a303e907a9dca144e7378f3eed0",
+        "FEEDBURNER": "8a3d479e8b84fe1a1b728277536e2506d1b44a303e907a9dca144e7378f3eed0"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "e2916661b3ab8066d025910c7f26b45c8d4163402994440791989850403f2b9c",
+      "version": 2,
       "first_seen_utc": "2026-11-03T14:37:17.907692+00:00",
       "first_seen_local": "2026-11-03T09:37:17.907689-05:00",
-      "last_updated_utc": "2026-11-03T14:37:17.907692+00:00",
-      "last_updated_local": "2026-11-03T09:37:17.907689-05:00"
+      "last_updated_utc": "2026-11-03T20:37:10.015806+00:00",
+      "last_updated_local": "2026-11-03T15:37:10.015803-05:00"
     },
     {
       "title": "Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware",

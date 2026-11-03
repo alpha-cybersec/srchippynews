@@ -81,7 +81,7 @@
           "url": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
           "published": "Tue, 03 Nov 2026 09:33:48 +0000",
           "published_utc": "2026-11-03T09:33:48+00:00",
-          "summary": "<p>Ubuntu has published fixes for CVE-2026-98432, a critical Linux kernel flaw in IPv4 TCP connection handling. It carries a CVSS 3.1 score of 9.8 and can lead to remote code execution. The fixes for Ubuntu 22.04 LTS and newer are in the -proposed pocket, so they are not yet in the default updates channel. Critical [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "summary": "<p>Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=205780"
         },
         {
@@ -105,6 +105,14 @@
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
       "article_count": 10,
       "articles": [
+        {
+          "title": "Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution",
+          "url": "https://gbhackers.com/renault-navigation-system/",
+          "published": "Tue, 03 Nov 2026 13:15:23 +0000",
+          "published_utc": "2026-11-03T13:15:23+00:00",
+          "summary": "<p>A malicious SD card can give an attacker root-level code execution on the TomTom Carminat LIVE navigation unit used in some Renault cars. Security researcher Rasmus Moorats published the findings on November 2, 2026. It uses a Samsung S5P6440 chip and runs TomTom&#8217;s custom operating system, which is based on Linux 2.6.28.10. That kernel is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/renault-navigation-system/\">Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205809"
+        },
         {
           "title": "Microsoft Analyzes 383,000 Security Vulnerabilities and Reveals Which Flaws Hackers Exploit Most",
           "url": "https://gbhackers.com/383000-vulnerabilities-analyzed/",
@@ -166,7 +174,7 @@
           "url": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
           "published": "Tue, 03 Nov 2026 09:33:48 +0000",
           "published_utc": "2026-11-03T09:33:48+00:00",
-          "summary": "<p>Ubuntu has published fixes for CVE-2026-98432, a critical Linux kernel flaw in IPv4 TCP connection handling. It carries a CVSS 3.1 score of 9.8 and can lead to remote code execution. The fixes for Ubuntu 22.04 LTS and newer are in the -proposed pocket, so they are not yet in the default updates channel. Critical [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "summary": "<p>Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=205780"
         },
         {
@@ -176,14 +184,6 @@
           "published_utc": "2026-11-03T09:14:24+00:00",
           "summary": "<p>A campaign tracked as Yoba abuses interest in generative AI to push cryptocurrency-mining malware through fake GitHub projects. Check Point Research published its findings on October 27, 2026, after about two months of tracking. The operators pair legitimate, signed OpenAI and Anthropic executables with a malicious winmm.dll, so the payload loads through DLL sideloading. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/yobaloader-malware/\">Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=205772"
-        },
-        {
-          "title": "Hackers Exploit Critical Magento StyleSmuggler Vulnerability to Deploy PSK Agent RAT and Hijack Servers",
-          "url": "https://gbhackers.com/magento-stylesmuggler-vulnerability/",
-          "published": "Tue, 03 Nov 2026 08:42:16 +0000",
-          "published_utc": "2026-11-03T08:42:16+00:00",
-          "summary": "<p>Attackers exploited the critical StyleSmuggler vulnerability in Magento and Adobe Commerce to deploy PSK Agent, a remote access trojan enabling command execution, traffic proxying, and persistent server access. The campaign ran September 9–13, 2026, targeting stores across Western Europe, North America, and Asia-Pacific. Imperva’s earlier analysis reports a CVSS score of 10.0 and exploitation preceding [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/magento-stylesmuggler-vulnerability/\">Hackers Exploit Critical Magento StyleSmuggler Vulnerability to Deploy PSK Agent RAT and Hijack Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205760"
         }
       ],
       "error": ""

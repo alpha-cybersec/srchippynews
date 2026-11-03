@@ -2,8 +2,176 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 14,
+  "article_count": 20,
   "articles": [
+    {
+      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+      "url": "http://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+      "published": "Tue, 03 Nov 2026 11:23:53 +0000",
+      "published_utc": "2026-11-03T11:23:53+00:00",
+      "summary": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\n\nThe flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8684688034230661677",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+      "content_hash": "bf69c9afa12a9af4c21df8b0c92fd22b82e778e909559a8121aff1e17902c762",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bf69c9afa12a9af4c21df8b0c92fd22b82e778e909559a8121aff1e17902c762",
+        "FEEDBURNER": "bf69c9afa12a9af4c21df8b0c92fd22b82e778e909559a8121aff1e17902c762"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-03T14:37:24.485003+00:00",
+      "first_seen_local": "2026-11-03T09:37:24.485000-05:00",
+      "last_updated_utc": "2026-11-03T14:37:24.485003+00:00",
+      "last_updated_local": "2026-11-03T09:37:24.485000-05:00"
+    },
+    {
+      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "url": "http://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+      "published": "Tue, 03 Nov 2026 11:18:20 +0000",
+      "published_utc": "2026-11-03T11:18:20+00:00",
+      "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-715724844274840826",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+      "content_hash": "b42764f9b6796c4cd4b302a00f77f08108b1df07813133f4371fe55455572cf8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b42764f9b6796c4cd4b302a00f77f08108b1df07813133f4371fe55455572cf8",
+        "FEEDBURNER": "b42764f9b6796c4cd4b302a00f77f08108b1df07813133f4371fe55455572cf8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-03T14:37:24.485003+00:00",
+      "first_seen_local": "2026-11-03T09:37:24.485000-05:00",
+      "last_updated_utc": "2026-11-03T14:37:24.485003+00:00",
+      "last_updated_local": "2026-11-03T09:37:24.485000-05:00"
+    },
+    {
+      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "url": "http://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "published": "Tue, 03 Nov 2026 11:00:45 +0000",
+      "published_utc": "2026-11-03T11:00:45+00:00",
+      "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.\n\n\"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3512609325141018279",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "content_hash": "425101a7111881929adc57fb832b96c494ec729ec2606f4a61f2845a75a4d271",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "425101a7111881929adc57fb832b96c494ec729ec2606f4a61f2845a75a4d271",
+        "FEEDBURNER": "425101a7111881929adc57fb832b96c494ec729ec2606f4a61f2845a75a4d271"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-03T14:37:24.485003+00:00",
+      "first_seen_local": "2026-11-03T09:37:24.485000-05:00",
+      "last_updated_utc": "2026-11-03T14:37:24.485003+00:00",
+      "last_updated_local": "2026-11-03T09:37:24.485000-05:00"
+    },
+    {
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "published": "Tue, 03 Nov 2026 08:31:48 +0000",
+      "published_utc": "2026-11-03T08:31:48+00:00",
+      "summary": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions.\n\n\"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7809879835293712923",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "content_hash": "fa13b39a2feb1b2a4e7a7ad68fc18ff53183e1840e98928ef404809cae4d7da9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fa13b39a2feb1b2a4e7a7ad68fc18ff53183e1840e98928ef404809cae4d7da9",
+        "FEEDBURNER": "fa13b39a2feb1b2a4e7a7ad68fc18ff53183e1840e98928ef404809cae4d7da9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-03T14:37:24.485003+00:00",
+      "first_seen_local": "2026-11-03T09:37:24.485000-05:00",
+      "last_updated_utc": "2026-11-03T14:37:24.485003+00:00",
+      "last_updated_local": "2026-11-03T09:37:24.485000-05:00"
+    },
+    {
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "url": "http://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "published": "Tue, 03 Nov 2026 07:43:07 +0000",
+      "published_utc": "2026-11-03T07:43:07+00:00",
+      "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.\n\nThe Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM.\n\n\"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-917560929837800654",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "content_hash": "4511d35fe5698896b051dec98411bbc9d13f565dfcff9adbfb35fd1cc6cc7360",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4511d35fe5698896b051dec98411bbc9d13f565dfcff9adbfb35fd1cc6cc7360",
+        "FEEDBURNER": "4511d35fe5698896b051dec98411bbc9d13f565dfcff9adbfb35fd1cc6cc7360"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-03T14:37:24.485003+00:00",
+      "first_seen_local": "2026-11-03T09:37:24.485000-05:00",
+      "last_updated_utc": "2026-11-03T14:37:24.485003+00:00",
+      "last_updated_local": "2026-11-03T09:37:24.485000-05:00"
+    },
+    {
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "url": "http://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "published": "Tue, 03 Nov 2026 07:27:07 +0000",
+      "published_utc": "2026-11-03T07:27:07+00:00",
+      "summary": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.\n\nNo chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,&nbsp",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-837591207171312527",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "content_hash": "95111068ee9b4666cd549ac6cf4f15dfef44e54699959986c4fd11ed2d2c53ab",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "95111068ee9b4666cd549ac6cf4f15dfef44e54699959986c4fd11ed2d2c53ab",
+        "FEEDBURNER": "95111068ee9b4666cd549ac6cf4f15dfef44e54699959986c4fd11ed2d2c53ab"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-03T14:37:24.485003+00:00",
+      "first_seen_local": "2026-11-03T09:37:24.485000-05:00",
+      "last_updated_utc": "2026-11-03T14:37:24.485003+00:00",
+      "last_updated_local": "2026-11-03T09:37:24.485000-05:00"
+    },
     {
       "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
       "url": "http://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",

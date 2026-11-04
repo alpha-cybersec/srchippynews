@@ -2,8 +2,92 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 34,
+  "article_count": 37,
   "articles": [
+    {
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "url": "http://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "published": "Wed, 04 Nov 2026 17:00:46 +0000",
+      "published_utc": "2026-11-04T17:00:46+00:00",
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8050352521174538364",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "content_hash": "b2af25f19daa7f1fb58f91312afbf08255144fc7664fe0b6638409e433fbcf79",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b2af25f19daa7f1fb58f91312afbf08255144fc7664fe0b6638409e433fbcf79",
+        "FEEDBURNER": "b2af25f19daa7f1fb58f91312afbf08255144fc7664fe0b6638409e433fbcf79"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T21:49:33.711638+00:00",
+      "first_seen_local": "2026-11-04T16:49:33.711635-05:00",
+      "last_updated_utc": "2026-11-04T21:49:33.711638+00:00",
+      "last_updated_local": "2026-11-04T16:49:33.711635-05:00"
+    },
+    {
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "url": "http://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "published": "Wed, 04 Nov 2026 17:00:38 +0000",
+      "published_utc": "2026-11-04T17:00:38+00:00",
+      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7001594257185161036",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "content_hash": "ce02054733396f7f9e612b09249e101f68b455effd04b30c345a771ef1a60471",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce02054733396f7f9e612b09249e101f68b455effd04b30c345a771ef1a60471",
+        "FEEDBURNER": "ce02054733396f7f9e612b09249e101f68b455effd04b30c345a771ef1a60471"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T21:49:33.711638+00:00",
+      "first_seen_local": "2026-11-04T16:49:33.711635-05:00",
+      "last_updated_utc": "2026-11-04T21:49:33.711638+00:00",
+      "last_updated_local": "2026-11-04T16:49:33.711635-05:00"
+    },
+    {
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "url": "http://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "published": "Wed, 04 Nov 2026 16:06:43 +0000",
+      "published_utc": "2026-11-04T16:06:43+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7820462625042047716",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "content_hash": "fb95a22356732534bf3062c8eba8d1f03ca178d800ba515099187fb221aed8ff",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fb95a22356732534bf3062c8eba8d1f03ca178d800ba515099187fb221aed8ff",
+        "FEEDBURNER": "fb95a22356732534bf3062c8eba8d1f03ca178d800ba515099187fb221aed8ff"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T21:49:33.711638+00:00",
+      "first_seen_local": "2026-11-04T16:49:33.711635-05:00",
+      "last_updated_utc": "2026-11-04T21:49:33.711638+00:00",
+      "last_updated_local": "2026-11-04T16:49:33.711635-05:00"
+    },
     {
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
       "url": "http://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",

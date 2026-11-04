@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution",
-          "url": "https://gbhackers.com/renault-navigation-system/",
-          "published": "Tue, 03 Nov 2026 13:15:23 +0000",
-          "published_utc": "2026-11-03T13:15:23+00:00",
-          "summary": "<p>A malicious SD card can give an attacker root-level code execution on the TomTom Carminat LIVE navigation unit used in some Renault cars. Security researcher Rasmus Moorats published the findings on November 2, 2026. It uses a Samsung S5P6440 chip and runs TomTom&#8217;s custom operating system, which is based on Linux 2.6.28.10. That kernel is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/renault-navigation-system/\">Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205809"
-        },
-        {
-          "title": "Microsoft Analyzes 383,000 Security Vulnerabilities and Reveals Which Flaws Hackers Exploit Most",
-          "url": "https://gbhackers.com/383000-vulnerabilities-analyzed/",
-          "published": "Tue, 03 Nov 2026 11:24:01 +0000",
-          "published_utc": "2026-11-03T11:24:01+00:00",
-          "summary": "<p>Microsoft’s analysis of approximately 383,000 disclosed vulnerabilities shows that attackers overwhelmingly favor weaknesses enabling system takeover rather than exploiting vulnerabilities indiscriminately. The research identifies 2,056 CVEs linked to real-world exploitation, roughly 0.5% of the population, highlighting why vulnerability management must prioritize demonstrated attacker utility over disclosure volume or severity scores alone. Covering vulnerabilities published from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/383000-vulnerabilities-analyzed/\">Microsoft Analyzes 383,000 Security Vulnerabilities and Reveals Which Flaws Hackers Exploit Most</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205781"
-        },
-        {
-          "title": "NIST Releases New Cybersecurity Guidelines to Protect Small Businesses From Phishing and Ransomware Attacks",
-          "url": "https://gbhackers.com/nist-releases-new-cybersecurity-guidelines/",
-          "published": "Tue, 03 Nov 2026 11:08:05 +0000",
-          "published_utc": "2026-11-03T11:08:05+00:00",
-          "summary": "<p>The National Institute of Standards and Technology (NIST) released new cybersecurity guidance to help solo business owners protect themselves against threats like phishing, ransomware, and account compromise. Published on November 2, 2026, NIST Cybersecurity White Paper 50 simplifies the Cybersecurity Framework 2.0 and offers practical actions for businesses with limited IT infrastructure. The publication, Small [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nist-releases-new-cybersecurity-guidelines/\">NIST Releases New Cybersecurity Guidelines to Protect Small Businesses From Phishing and Ransomware Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205796"
-        },
-        {
-          "title": "11 GenAI SOC Copilots: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/genai-soc-copilots-buyers-guide/",
-          "published": "Tue, 03 Nov 2026 11:02:18 +0000",
-          "published_utc": "2026-11-03T11:02:18+00:00",
-          "summary": "<p>The AI SOC market now sells two different employees: assistants that make your analysts faster inside consoles they already use, and agents that work tier-1 queues end-to-end under policy guardrails. Pricing them with the same yardstick is the buying mistake. This verdict guide judges eleven options suite copilots with estate gravity and pure-play AI analysts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/genai-soc-copilots-buyers-guide/\">11 GenAI SOC Copilots: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205617"
-        },
-        {
-          "title": "11Detection Engineering Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/detection-engineering-buyers-guide/",
-          "published": "Tue, 03 Nov 2026 11:00:44 +0000",
-          "published_utc": "2026-11-03T11:00:44+00:00",
-          "summary": "<p>Detection engineering treats rules like software versioned, tested, reviewed, deployed through pipelines and the tooling market now covers every stage: authoring platforms, coverage auditors, content marketplaces, translation engines, and validation loops. This verdict guide judges eleven options on as-code rigor, coverage mathematics, and backend freedom, because detections locked in one vendor’s console are hostages, not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/detection-engineering-buyers-guide/\">11Detection Engineering Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205562"
-        },
-        {
-          "title": "11 Deception Technology Solutions: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/deception-technology-buyers-guide/",
-          "published": "Tue, 03 Nov 2026 10:59:08 +0000",
-          "published_utc": "2026-11-03T10:59:08+00:00",
-          "summary": "<p>Deception technology sells the cleanest alert in security legitimate users never touch a decoy, so nearly every trip is real and the 2026 buying question is mostly an acquisitions map: four of this roster’s pioneers now ship inside larger portfolios (Attivo→SentinelOne, TrapX→Commvault, Smokescreen→Zscaler, Illusive→Proofpoint). This verdict guide judges eleven options on signal-per-effort, decoy realism, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deception-technology-buyers-guide/\">11 Deception Technology Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205550"
-        },
-        {
-          "title": "CrowdStrike and Deloitte Spain Expand Cybersecurity Alliance With AI-Powered Threat Detection",
-          "url": "https://gbhackers.com/crowdstrike-and-deloitte-spain-expand-cybersecurity-alliance/",
-          "published": "Tue, 03 Nov 2026 10:30:56 +0000",
-          "published_utc": "2026-11-03T10:30:56+00:00",
-          "summary": "<p>CrowdStrike and Deloitte Spain announced an expanded cybersecurity alliance. This new phase of their collaboration focuses on AI-powered risk advisory. The partnership integrates executive security strategy with the implementation and day-to-day operations of the Security Operations Center (SOC), using Falcon IQ to turn exploitable risks into prioritized actions. This expansion combines CrowdStrike’s Falcon platform with [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/crowdstrike-and-deloitte-spain-expand-cybersecurity-alliance/\">CrowdStrike and Deloitte Spain Expand Cybersecurity Alliance With AI-Powered Threat Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205789"
-        },
-        {
-          "title": "Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory",
-          "url": "https://gbhackers.com/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory/",
-          "published": "Tue, 03 Nov 2026 10:07:56 +0000",
-          "published_utc": "2026-11-03T10:07:56+00:00",
-          "summary": "<p>San Francisco, CA, November 3rd, 2026, CyberNewswire Cogent Security, an applied AI cybersecurity company, reported that the PHP2Shell vulnerability exposed significant gaps in enterprise vulnerability response. Disclosed on October 21, PHP2Shell involved two critical flaws that had remained in PHP for more than a decade. AI-assisted research helped identify the vulnerabilities and develop working exploits [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory/\">Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205691"
-        },
-        {
-          "title": "Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution",
-          "url": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
-          "published": "Tue, 03 Nov 2026 09:33:48 +0000",
-          "published_utc": "2026-11-03T09:33:48+00:00",
-          "summary": "<p>Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205780"
-        },
-        {
-          "title": "Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware",
-          "url": "https://gbhackers.com/yobaloader-malware/",
-          "published": "Tue, 03 Nov 2026 09:14:24 +0000",
-          "published_utc": "2026-11-03T09:14:24+00:00",
-          "summary": "<p>A campaign tracked as Yoba abuses interest in generative AI to push cryptocurrency-mining malware through fake GitHub projects. Check Point Research published its findings on October 27, 2026, after about two months of tracking. The operators pair legitimate, signed OpenAI and Anthropic executables with a malicious winmm.dll, so the payload loads through DLL sideloading. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/yobaloader-malware/\">Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205772"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -103,87 +22,31 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 3,
       "articles": [
         {
-          "title": "Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution",
-          "url": "https://gbhackers.com/renault-navigation-system/",
-          "published": "Tue, 03 Nov 2026 13:15:23 +0000",
-          "published_utc": "2026-11-03T13:15:23+00:00",
-          "summary": "<p>A malicious SD card can give an attacker root-level code execution on the TomTom Carminat LIVE navigation unit used in some Renault cars. Security researcher Rasmus Moorats published the findings on November 2, 2026. It uses a Samsung S5P6440 chip and runs TomTom&#8217;s custom operating system, which is based on Linux 2.6.28.10. That kernel is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/renault-navigation-system/\">Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205809"
+          "title": "Hackers Turn to AI Jailbreak Bundles as Researchers Uncover New Prompt Adware Technique",
+          "url": "https://gbhackers.com/ai-jailbreak-bundles/",
+          "published": "Wed, 04 Nov 2026 05:21:31 +0000",
+          "published_utc": "2026-11-04T05:21:31+00:00",
+          "summary": "<p>An AI jailbreak package that repeatedly modifies OpenAI Codex instructions to promote its author’s commercial service, showing how guardrail-bypass tools can double as advertising infrastructure. The Chinese language bundle, Haiou, was discovered on a cybercrime actor’s misconfigured web server alongside Cobalt Strike and penetration testing utilities. Published November 3, the investigation identifies the technique as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-jailbreak-bundles/\">Hackers Turn to AI Jailbreak Bundles as Researchers Uncover New Prompt Adware Technique</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205822"
         },
         {
-          "title": "Microsoft Analyzes 383,000 Security Vulnerabilities and Reveals Which Flaws Hackers Exploit Most",
-          "url": "https://gbhackers.com/383000-vulnerabilities-analyzed/",
-          "published": "Tue, 03 Nov 2026 11:24:01 +0000",
-          "published_utc": "2026-11-03T11:24:01+00:00",
-          "summary": "<p>Microsoft’s analysis of approximately 383,000 disclosed vulnerabilities shows that attackers overwhelmingly favor weaknesses enabling system takeover rather than exploiting vulnerabilities indiscriminately. The research identifies 2,056 CVEs linked to real-world exploitation, roughly 0.5% of the population, highlighting why vulnerability management must prioritize demonstrated attacker utility over disclosure volume or severity scores alone. Covering vulnerabilities published from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/383000-vulnerabilities-analyzed/\">Microsoft Analyzes 383,000 Security Vulnerabilities and Reveals Which Flaws Hackers Exploit Most</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205781"
+          "title": "Barracuda Email Security Gateway Flaws Expose Devices to Potential Root-Level Compromise",
+          "url": "https://gbhackers.com/barracuda-email-security-gateway-flaws/",
+          "published": "Wed, 04 Nov 2026 05:17:55 +0000",
+          "published_utc": "2026-11-04T05:17:55+00:00",
+          "summary": "<p>Barracuda has released security patches for two vulnerabilities that could be exploited to bypass authorization controls and gain root access to affected Email Security Gateway (ESG) appliances. These vulnerabilities, identified as CVE-2026-116606 and CVE-2026-111560, require attackers to access the device’s administrative interface. Therefore, the exposure of the management interface is a crucial factor in assessing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/barracuda-email-security-gateway-flaws/\">Barracuda Email Security Gateway Flaws Expose Devices to Potential Root-Level Compromise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205836"
         },
         {
-          "title": "NIST Releases New Cybersecurity Guidelines to Protect Small Businesses From Phishing and Ransomware Attacks",
-          "url": "https://gbhackers.com/nist-releases-new-cybersecurity-guidelines/",
-          "published": "Tue, 03 Nov 2026 11:08:05 +0000",
-          "published_utc": "2026-11-03T11:08:05+00:00",
-          "summary": "<p>The National Institute of Standards and Technology (NIST) released new cybersecurity guidance to help solo business owners protect themselves against threats like phishing, ransomware, and account compromise. Published on November 2, 2026, NIST Cybersecurity White Paper 50 simplifies the Cybersecurity Framework 2.0 and offers practical actions for businesses with limited IT infrastructure. The publication, Small [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nist-releases-new-cybersecurity-guidelines/\">NIST Releases New Cybersecurity Guidelines to Protect Small Businesses From Phishing and Ransomware Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205796"
-        },
-        {
-          "title": "11 GenAI SOC Copilots: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/genai-soc-copilots-buyers-guide/",
-          "published": "Tue, 03 Nov 2026 11:02:18 +0000",
-          "published_utc": "2026-11-03T11:02:18+00:00",
-          "summary": "<p>The AI SOC market now sells two different employees: assistants that make your analysts faster inside consoles they already use, and agents that work tier-1 queues end-to-end under policy guardrails. Pricing them with the same yardstick is the buying mistake. This verdict guide judges eleven options suite copilots with estate gravity and pure-play AI analysts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/genai-soc-copilots-buyers-guide/\">11 GenAI SOC Copilots: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205617"
-        },
-        {
-          "title": "11Detection Engineering Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/detection-engineering-buyers-guide/",
-          "published": "Tue, 03 Nov 2026 11:00:44 +0000",
-          "published_utc": "2026-11-03T11:00:44+00:00",
-          "summary": "<p>Detection engineering treats rules like software versioned, tested, reviewed, deployed through pipelines and the tooling market now covers every stage: authoring platforms, coverage auditors, content marketplaces, translation engines, and validation loops. This verdict guide judges eleven options on as-code rigor, coverage mathematics, and backend freedom, because detections locked in one vendor’s console are hostages, not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/detection-engineering-buyers-guide/\">11Detection Engineering Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205562"
-        },
-        {
-          "title": "11 Deception Technology Solutions: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/deception-technology-buyers-guide/",
-          "published": "Tue, 03 Nov 2026 10:59:08 +0000",
-          "published_utc": "2026-11-03T10:59:08+00:00",
-          "summary": "<p>Deception technology sells the cleanest alert in security legitimate users never touch a decoy, so nearly every trip is real and the 2026 buying question is mostly an acquisitions map: four of this roster’s pioneers now ship inside larger portfolios (Attivo→SentinelOne, TrapX→Commvault, Smokescreen→Zscaler, Illusive→Proofpoint). This verdict guide judges eleven options on signal-per-effort, decoy realism, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deception-technology-buyers-guide/\">11 Deception Technology Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205550"
-        },
-        {
-          "title": "CrowdStrike and Deloitte Spain Expand Cybersecurity Alliance With AI-Powered Threat Detection",
-          "url": "https://gbhackers.com/crowdstrike-and-deloitte-spain-expand-cybersecurity-alliance/",
-          "published": "Tue, 03 Nov 2026 10:30:56 +0000",
-          "published_utc": "2026-11-03T10:30:56+00:00",
-          "summary": "<p>CrowdStrike and Deloitte Spain announced an expanded cybersecurity alliance. This new phase of their collaboration focuses on AI-powered risk advisory. The partnership integrates executive security strategy with the implementation and day-to-day operations of the Security Operations Center (SOC), using Falcon IQ to turn exploitable risks into prioritized actions. This expansion combines CrowdStrike’s Falcon platform with [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/crowdstrike-and-deloitte-spain-expand-cybersecurity-alliance/\">CrowdStrike and Deloitte Spain Expand Cybersecurity Alliance With AI-Powered Threat Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205789"
-        },
-        {
-          "title": "Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory",
-          "url": "https://gbhackers.com/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory/",
-          "published": "Tue, 03 Nov 2026 10:07:56 +0000",
-          "published_utc": "2026-11-03T10:07:56+00:00",
-          "summary": "<p>San Francisco, CA, November 3rd, 2026, CyberNewswire Cogent Security, an applied AI cybersecurity company, reported that the PHP2Shell vulnerability exposed significant gaps in enterprise vulnerability response. Disclosed on October 21, PHP2Shell involved two critical flaws that had remained in PHP for more than a decade. AI-assisted research helped identify the vulnerabilities and develop working exploits [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory/\">Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205691"
-        },
-        {
-          "title": "Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution",
-          "url": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
-          "published": "Tue, 03 Nov 2026 09:33:48 +0000",
-          "published_utc": "2026-11-03T09:33:48+00:00",
-          "summary": "<p>Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/\">Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205780"
-        },
-        {
-          "title": "Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware",
-          "url": "https://gbhackers.com/yobaloader-malware/",
-          "published": "Tue, 03 Nov 2026 09:14:24 +0000",
-          "published_utc": "2026-11-03T09:14:24+00:00",
-          "summary": "<p>A campaign tracked as Yoba abuses interest in generative AI to push cryptocurrency-mining malware through fake GitHub projects. Check Point Research published its findings on October 27, 2026, after about two months of tracking. The operators pair legitimate, signed OpenAI and Anthropic executables with a malicious winmm.dll, so the payload loads through DLL sideloading. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/yobaloader-malware/\">Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=205772"
+          "title": "Critical SolarWinds Dameware Vulnerability Enables Attackers to Take Control of Remote Systems",
+          "url": "https://gbhackers.com/critical-solarwinds-dameware-vulnerability/",
+          "published": "Wed, 04 Nov 2026 05:06:45 +0000",
+          "published_utc": "2026-11-04T05:06:45+00:00",
+          "summary": "<p>SolarWinds has announced a critical command injection vulnerability in its Dameware software that could let authenticated attackers remotely compromise controlled hosts. This vulnerability, identified as CVE-2026-28336, has a CVSS score of 9.9 and affects Dameware version 2026.3 and all earlier versions. To address this issue, SolarWinds has released version 2026.3.1, which organizations using the affected [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-solarwinds-dameware-vulnerability/\">Critical SolarWinds Dameware Vulnerability Enables Attackers to Take Control of Remote Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=205830"
         }
       ],
       "error": ""

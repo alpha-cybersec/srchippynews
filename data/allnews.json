@@ -1,172 +1,770 @@
 {
-  "generated_at_utc": "2026-11-04T07:27:08.586500+00:00",
-  "generated_at_local": "2026-11-04T02:27:08.586510-05:00",
-  "article_count": 6,
-  "new_count": 6,
+  "generated_at_utc": "2026-11-04T15:43:07.688960+00:00",
+  "generated_at_local": "2026-11-04T10:43:07.688969-05:00",
+  "article_count": 27,
+  "new_count": 27,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 2,
-    "thehackernews": 1,
-    "gbhackers": 3
+    "thehackernews": 7,
+    "cybersecuritynews": 10,
+    "gbhackers": 10
   },
   "articles": [
     {
-      "title": "Hackers Use Stolen Microsoft Entra ID and Azure DevOps Credentials to Access 27 Organizations",
-      "url": "https://cybersecuritynews.com/stolen-entra-id-and-azure-credentials/",
-      "published": "Wed, 04 Nov 2026 05:45:46 +0000",
-      "published_utc": "2026-11-04T05:45:46+00:00",
-      "summary": "<p>Hackers are abusing stolen Microsoft Entra ID application credentials and Azure DevOps identities to access Microsoft 365 and Azure environments, reaching at least 27 organizations. Todyl’s latest investigation update describes an ongoing campaign targeting managed service providers (MSPs) and their customers since November 1, 2026. The operator targeted about 45 app registrations across roughly 18 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/stolen-entra-id-and-azure-credentials/\">Hackers Use Stolen Microsoft Entra ID and Azure DevOps Credentials to Access 27 Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170264",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/stolen-entra-id-and-azure-credentials",
-      "content_hash": "246ce93711f68a04e87d6c45982168e7757569431b0c316b4d0b9a31de77ee8b",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "246ce93711f68a04e87d6c45982168e7757569431b0c316b4d0b9a31de77ee8b"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-04T07:27:03.154613+00:00",
-      "first_seen_local": "2026-11-04T02:27:03.154610-05:00",
-      "last_updated_utc": "2026-11-04T07:27:03.154613+00:00",
-      "last_updated_local": "2026-11-04T02:27:03.154610-05:00"
-    },
-    {
-      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-      "url": "http://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-      "published": "Wed, 04 Nov 2026 05:43:11 +0000",
-      "published_utc": "2026-11-04T05:43:11+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1057533323361566656",
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "url": "http://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "published": "Wed, 04 Nov 2026 14:27:52 +0000",
+      "published_utc": "2026-11-04T14:27:52+00:00",
+      "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8434478043442576539",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-      "content_hash": "b4b3175072035399b07b5e8755c9ba91b46a1ba0c80109ca481ec829b96590f7",
+      "article_key": "thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "content_hash": "3543509a32440a1317ac83815f7ad4e90fd9709606cc4e23e4ddeac40f971c18",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "b4b3175072035399b07b5e8755c9ba91b46a1ba0c80109ca481ec829b96590f7",
-        "FEEDBURNER": "b4b3175072035399b07b5e8755c9ba91b46a1ba0c80109ca481ec829b96590f7"
+        "ORIGINAL": "3543509a32440a1317ac83815f7ad4e90fd9709606cc4e23e4ddeac40f971c18",
+        "FEEDBURNER": "3543509a32440a1317ac83815f7ad4e90fd9709606cc4e23e4ddeac40f971c18"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-04T07:27:08.580947+00:00",
-      "first_seen_local": "2026-11-04T02:27:08.580945-05:00",
-      "last_updated_utc": "2026-11-04T07:27:08.580947+00:00",
-      "last_updated_local": "2026-11-04T02:27:08.580945-05:00"
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
     },
     {
-      "title": "Hackers Use OpenAI Codex Jailbreak Toolkit That Secretly Injects Ads Into AI Responses",
-      "url": "https://cybersecuritynews.com/openai-codex-jailbreak/",
-      "published": "Wed, 04 Nov 2026 05:22:19 +0000",
-      "published_utc": "2026-11-04T05:22:19+00:00",
-      "summary": "<p>A jailbreak toolkit targeting OpenAI Codex is doing more than trying to bypass AI safety rules. The Chinese-language package, called Haiou, changes the coding agent’s trusted instructions so that ordinary greetings trigger advertisements for a third-party AI gateway. Researchers describe the behavior as prompt adware because it persists through written instructions rather than a conventional [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-codex-jailbreak/\">Hackers Use OpenAI Codex Jailbreak Toolkit That Secretly Injects Ads Into AI Responses</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170254",
+      "title": "Gorbag Hackers Exploit WinRAR Vulnerability to Steal Credentials From Ukrainian Government Agencies",
+      "url": "https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability/",
+      "published": "Wed, 04 Nov 2026 14:09:36 +0000",
+      "published_utc": "2026-11-04T14:09:36+00:00",
+      "summary": "<p>Russia-aligned hackers tracked as Gorbag are exploiting a WinRAR vulnerability to steal browser credentials, VPN configurations, and sensitive documents from Ukrainian organizations. Active since at least February 2025, the group targets government agencies, law enforcement bodies, justice institutions, local administrations near the front line, and defense organizations. The campaign favors quick data theft over extended [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability/\">Gorbag Hackers Exploit WinRAR Vulnerability to Steal Credentials From Ukrainian Government Agencies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170397",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/openai-codex-jailbreak",
-      "content_hash": "cf7b24cac7df3058a1e650075dfa9b5b50a5d6585ee2cea629cf23557678e488",
+      "article_key": "cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability",
+      "content_hash": "299b3b103c33b63fe08071c90e575b3526d7aecc8322f009388b11ef16639830",
       "detected_via": [
+        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "cf7b24cac7df3058a1e650075dfa9b5b50a5d6585ee2cea629cf23557678e488"
+        "ORIGINAL": "299b3b103c33b63fe08071c90e575b3526d7aecc8322f009388b11ef16639830",
+        "FEEDBURNER": "299b3b103c33b63fe08071c90e575b3526d7aecc8322f009388b11ef16639830"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-04T07:27:03.154613+00:00",
-      "first_seen_local": "2026-11-04T02:27:03.154610-05:00",
-      "last_updated_utc": "2026-11-04T07:27:03.154613+00:00",
-      "last_updated_local": "2026-11-04T02:27:03.154610-05:00"
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
     },
     {
-      "title": "Hackers Turn to AI Jailbreak Bundles as Researchers Uncover New Prompt Adware Technique",
-      "url": "https://gbhackers.com/ai-jailbreak-bundles/",
-      "published": "Wed, 04 Nov 2026 05:21:31 +0000",
-      "published_utc": "2026-11-04T05:21:31+00:00",
-      "summary": "<p>An AI jailbreak package that repeatedly modifies OpenAI Codex instructions to promote its author’s commercial service, showing how guardrail-bypass tools can double as advertising infrastructure. The Chinese language bundle, Haiou, was discovered on a cybercrime actor’s misconfigured web server alongside Cobalt Strike and penetration testing utilities. Published November 3, the investigation identifies the technique as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-jailbreak-bundles/\">Hackers Turn to AI Jailbreak Bundles as Researchers Uncover New Prompt Adware Technique</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205822",
+      "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
+      "url": "https://gbhackers.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
+      "published": "Wed, 04 Nov 2026 13:57:34 +0000",
+      "published_utc": "2026-11-04T13:57:34+00:00",
+      "summary": "<p>Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adaptive Detonation brings active intervention to malware analysis, helping security teams investigate threats that may conceal their behavior during an initial sandbox run. Adaptive Detonation uses AI agents to examine execution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/\">The Sandbox Fights Back: Joe Security Launches Adaptive Detonation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205907",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-jailbreak-bundles",
-      "content_hash": "a2f4bfce0e48b166c2d9cfcc6963402b325495010a138736abffc596af65d4c0",
+      "article_key": "gbhackers.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation",
+      "content_hash": "a11c873b67c15b8f4869901983e541b83df86daceed76e53bcc1c745a91ca579",
       "detected_via": [
+        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "a2f4bfce0e48b166c2d9cfcc6963402b325495010a138736abffc596af65d4c0"
+        "ORIGINAL": "a11c873b67c15b8f4869901983e541b83df86daceed76e53bcc1c745a91ca579",
+        "FEEDBURNER": "a11c873b67c15b8f4869901983e541b83df86daceed76e53bcc1c745a91ca579"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-04T07:27:02.761849+00:00",
-      "first_seen_local": "2026-11-04T02:27:02.761846-05:00",
-      "last_updated_utc": "2026-11-04T07:27:02.761849+00:00",
-      "last_updated_local": "2026-11-04T02:27:02.761846-05:00"
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
     },
     {
-      "title": "Barracuda Email Security Gateway Flaws Expose Devices to Potential Root-Level Compromise",
-      "url": "https://gbhackers.com/barracuda-email-security-gateway-flaws/",
-      "published": "Wed, 04 Nov 2026 05:17:55 +0000",
-      "published_utc": "2026-11-04T05:17:55+00:00",
-      "summary": "<p>Barracuda has released security patches for two vulnerabilities that could be exploited to bypass authorization controls and gain root access to affected Email Security Gateway (ESG) appliances. These vulnerabilities, identified as CVE-2026-116606 and CVE-2026-111560, require attackers to access the device’s administrative interface. Therefore, the exposure of the management interface is a crucial factor in assessing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/barracuda-email-security-gateway-flaws/\">Barracuda Email Security Gateway Flaws Expose Devices to Potential Root-Level Compromise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205836",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/barracuda-email-security-gateway-flaws",
-      "content_hash": "1dcee82f9c67995fb68a198a48b23c1f285a34d5925287901a632578dbc91313",
+      "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
+      "url": "https://cybersecuritynews.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
+      "published": "Wed, 04 Nov 2026 13:56:40 +0000",
+      "published_utc": "2026-11-04T13:56:40+00:00",
+      "summary": "<p>Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adaptive Detonation brings active intervention to malware analysis, helping security teams investigate threats that may conceal their behavior during an initial sandbox run. Adaptive Detonation uses AI agents to examine execution [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/\">The Sandbox Fights Back: Joe Security Launches Adaptive Detonation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170318",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation",
+      "content_hash": "3097f5cb3aedbebcb87fb9a00d259493852ae6a5e03fc944286441318be947d2",
       "detected_via": [
+        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "1dcee82f9c67995fb68a198a48b23c1f285a34d5925287901a632578dbc91313"
+        "ORIGINAL": "3097f5cb3aedbebcb87fb9a00d259493852ae6a5e03fc944286441318be947d2",
+        "FEEDBURNER": "3097f5cb3aedbebcb87fb9a00d259493852ae6a5e03fc944286441318be947d2"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-04T07:27:02.761849+00:00",
-      "first_seen_local": "2026-11-04T02:27:02.761846-05:00",
-      "last_updated_utc": "2026-11-04T07:27:02.761849+00:00",
-      "last_updated_local": "2026-11-04T02:27:02.761846-05:00"
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
     },
     {
-      "title": "Critical SolarWinds Dameware Vulnerability Enables Attackers to Take Control of Remote Systems",
-      "url": "https://gbhackers.com/critical-solarwinds-dameware-vulnerability/",
-      "published": "Wed, 04 Nov 2026 05:06:45 +0000",
-      "published_utc": "2026-11-04T05:06:45+00:00",
-      "summary": "<p>SolarWinds has announced a critical command injection vulnerability in its Dameware software that could let authenticated attackers remotely compromise controlled hosts. This vulnerability, identified as CVE-2026-28336, has a CVSS score of 9.9 and affects Dameware version 2026.3 and all earlier versions. To address this issue, SolarWinds has released version 2026.3.1, which organizations using the affected [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-solarwinds-dameware-vulnerability/\">Critical SolarWinds Dameware Vulnerability Enables Attackers to Take Control of Remote Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=205830",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-solarwinds-dameware-vulnerability",
-      "content_hash": "afed5d932a015415f6d7f225a465825d54d0698f2eaba5d3219eb9bc2df056a1",
+      "title": "Scammers Use Microsoft Azure to Host Fake Windows Security Alerts Seen at 80 Organizations",
+      "url": "https://cybersecuritynews.com/scammers-use-microsoft-azure/",
+      "published": "Wed, 04 Nov 2026 13:52:13 +0000",
+      "published_utc": "2026-11-04T13:52:13+00:00",
+      "summary": "<p>Scammers are abusing Microsoft Azure to host fake Windows security alerts that pressure users into calling fraudulent support numbers. Between March and October 2026, the same fake Microsoft support kit reached users at 80 organizations. New landing pages were still appearing daily as of November 2, showing that the operation remained active. These figures describe [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/scammers-use-microsoft-azure/\">Scammers Use Microsoft Azure to Host Fake Windows Security Alerts Seen at 80 Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170396",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/scammers-use-microsoft-azure",
+      "content_hash": "c59162b5e26207550d96ba647f88de9ae247620073a6986a0e4f9547483d5a15",
       "detected_via": [
+        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "afed5d932a015415f6d7f225a465825d54d0698f2eaba5d3219eb9bc2df056a1"
+        "ORIGINAL": "c59162b5e26207550d96ba647f88de9ae247620073a6986a0e4f9547483d5a15",
+        "FEEDBURNER": "c59162b5e26207550d96ba647f88de9ae247620073a6986a0e4f9547483d5a15"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-04T07:27:02.761849+00:00",
-      "first_seen_local": "2026-11-04T02:27:02.761846-05:00",
-      "last_updated_utc": "2026-11-04T07:27:02.761849+00:00",
-      "last_updated_local": "2026-11-04T02:27:02.761846-05:00"
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "Critical SolarWinds Dameware Flaw Could Allow Attackers to Compromise Remote Systems",
+      "url": "https://cybersecuritynews.com/critical-solarwinds-dameware-flaw/",
+      "published": "Wed, 04 Nov 2026 13:30:17 +0000",
+      "published_utc": "2026-11-04T13:30:17+00:00",
+      "summary": "<p>SolarWinds has warned about a critical command injection flaw in its Dameware remote support software. It is tracked as CVE-2026-28336 and carries a severity score of 9.9 out of 10. The bug could let an attacker take over a computer that an IT team is controlling remotely. Dameware is widely used by help desks and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-solarwinds-dameware-flaw/\">Critical SolarWinds Dameware Flaw Could Allow Attackers to Compromise Remote Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170388",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-solarwinds-dameware-flaw",
+      "content_hash": "1a0c0afbcebe77458dc965f5d466014a2756a4557616d77eaa3c381cca2ec266",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1a0c0afbcebe77458dc965f5d466014a2756a4557616d77eaa3c381cca2ec266",
+        "FEEDBURNER": "1a0c0afbcebe77458dc965f5d466014a2756a4557616d77eaa3c381cca2ec266"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "French Bank Crédit Mutuel Arkéa Confirms Cyberattack Amid Reports of $133 Million Theft",
+      "url": "https://cybersecuritynews.com/credit-mutuel-arkea-confirms-cyberattack/",
+      "published": "Wed, 04 Nov 2026 13:29:39 +0000",
+      "published_utc": "2026-11-04T13:29:39+00:00",
+      "summary": "<p>French banking group Crédit Mutuel Arkéa has confirmed a cyberattack that enabled fraudulent transactions, following reports linking the institution to cryptocurrency theft exceeding $133 million. The bank says the incident is contained, operations are gradually resuming, and customer assets remain unaffected. It has not confirmed the reported loss figure. The group notified regulatory and supervisory [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/credit-mutuel-arkea-confirms-cyberattack/\">French Bank Crédit Mutuel Arkéa Confirms Cyberattack Amid Reports of $133 Million Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170391",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/credit-mutuel-arkea-confirms-cyberattack",
+      "content_hash": "cc3b9d28f6be41e9b92d08b197082aab27890ad22096c26a510355510b39b2f7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cc3b9d28f6be41e9b92d08b197082aab27890ad22096c26a510355510b39b2f7",
+        "FEEDBURNER": "cc3b9d28f6be41e9b92d08b197082aab27890ad22096c26a510355510b39b2f7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "Russia-Aligned Gorbag APT Exploits WinRAR CVE-2025-8088 to Deploy BeautyStealer Infostealer",
+      "url": "https://gbhackers.com/gorbag-apt-campaign/",
+      "published": "Wed, 04 Nov 2026 13:08:20 +0000",
+      "published_utc": "2026-11-04T13:08:20+00:00",
+      "summary": "<p>A targeted cyberespionage campaign by Gorbag, a Russia-aligned threat actor exploiting WinRAR vulnerability CVE-2025-8088 to deploy BeautyStealer against Ukrainian organizations. Active since at least February 2025, the group prioritizes law enforcement, justice institutions, frontline local administrations, and defense organizations, using compact malware designed for rapid intelligence collection rather than prolonged remote control The findings, detailed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gorbag-apt-campaign/\">Russia-Aligned Gorbag APT Exploits WinRAR CVE-2025-8088 to Deploy BeautyStealer Infostealer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205970",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/gorbag-apt-campaign",
+      "content_hash": "fa39966ddcf0e77750e08e9256591e58abac83f1af67e657aa107576d3e337c1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fa39966ddcf0e77750e08e9256591e58abac83f1af67e657aa107576d3e337c1",
+        "FEEDBURNER": "fa39966ddcf0e77750e08e9256591e58abac83f1af67e657aa107576d3e337c1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Critical Barracuda Security Flaws Could Let Hackers Bypass Authentication and Gain Root Access",
+      "url": "https://cybersecuritynews.com/critical-barracuda-security-flaws/",
+      "published": "Wed, 04 Nov 2026 13:07:41 +0000",
+      "published_utc": "2026-11-04T13:07:41+00:00",
+      "summary": "<p>Barracuda has disclosed two security vulnerabilities that could allow attackers to bypass authorization controls and gain root access to affected appliances when exploited together. The flaws affect several Barracuda security products, but exploitation requires access to a device’s administrative interface, making exposed management systems a key concern for defenders. The vulnerabilities, tracked as CVE-2026-116606 and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-barracuda-security-flaws/\">Critical Barracuda Security Flaws Could Let Hackers Bypass Authentication and Gain Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170354",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-barracuda-security-flaws",
+      "content_hash": "91c2aa162ecd30df97217908eb2b059be191e7ebf2cfb24906179986c59543f4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "91c2aa162ecd30df97217908eb2b059be191e7ebf2cfb24906179986c59543f4",
+        "FEEDBURNER": "91c2aa162ecd30df97217908eb2b059be191e7ebf2cfb24906179986c59543f4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "Node.js Schedules High-Severity Security Fixes for 22.x, 24.x, and 26.x Release Lines",
+      "url": "https://cybersecuritynews.com/node-js-schedules-patch/",
+      "published": "Wed, 04 Nov 2026 12:59:05 +0000",
+      "published_utc": "2026-11-04T12:59:05+00:00",
+      "summary": "<p>The Node.js project has scheduled security updates for its 22.x, 24.x, and 26.x release lines on or shortly after Wednesday, November 11, 2026. The announcement gives developers and system administrators time to prepare for patches addressing HIGH-rated vulnerabilities across all three branches. Each release line will receive a fix for at least one high-severity issue. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/node-js-schedules-patch/\">Node.js Schedules High-Severity Security Fixes for 22.x, 24.x, and 26.x Release Lines</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170382",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/node-js-schedules-patch",
+      "content_hash": "a15e78f5b103c84534a293e71d534b9eb4a58cefb6eea0e7be4f8d5ced3ba28e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a15e78f5b103c84534a293e71d534b9eb4a58cefb6eea0e7be4f8d5ced3ba28e",
+        "FEEDBURNER": "a15e78f5b103c84534a293e71d534b9eb4a58cefb6eea0e7be4f8d5ced3ba28e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "Russian Hackers Create Fake US and UK Websites to Target Visitors With Mobile Exploits",
+      "url": "https://gbhackers.com/fake-us-and-uk-websites/",
+      "published": "Wed, 04 Nov 2026 12:45:22 +0000",
+      "published_utc": "2026-11-04T12:45:22+00:00",
+      "summary": "<p>A large-scale watering hole campaign that it assesses, with moderate to high confidence, is the work of APT29. APT29 is also tracked as Midnight Blizzard, Cozy Bear and The Dukes, and is widely linked to Russia&#8217;s SVR foreign intelligence service. The operation hit iOS and Android users through compromised sites, cloned domains, and a poisoned [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-us-and-uk-websites/\">Russian Hackers Create Fake US and UK Websites to Target Visitors With Mobile Exploits</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205928",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-us-and-uk-websites",
+      "content_hash": "ba5f9a3fff93fab797416386748be2692e709382625e7120bf501204ae6379b9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ba5f9a3fff93fab797416386748be2692e709382625e7120bf501204ae6379b9",
+        "FEEDBURNER": "ba5f9a3fff93fab797416386748be2692e709382625e7120bf501204ae6379b9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Google Patches Critical Android RCE Flaws That Let Attackers Execute Code Without User Interaction",
+      "url": "https://gbhackers.com/google-patches-critical-android-rce-flaws/",
+      "published": "Wed, 04 Nov 2026 12:14:47 +0000",
+      "published_utc": "2026-11-04T12:14:47+00:00",
+      "summary": "<p>Google released its November 2026 Android Security Bulletin, which addresses critical vulnerabilities that could allow remote code execution without user interaction or additional execution privileges. Published on November 2, the bulletin highlights a framework vulnerability as the most severe issue and also documents other critical remote code execution flaws in Android&#8217;s system components. According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-patches-critical-android-rce-flaws/\">Google Patches Critical Android RCE Flaws That Let Attackers Execute Code Without User Interaction</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205957",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/google-patches-critical-android-rce-flaws",
+      "content_hash": "bd17de1d324fa3d60667070157452c9fe8f26dfec6d47de1760ad4ce4f9e28b0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bd17de1d324fa3d60667070157452c9fe8f26dfec6d47de1760ad4ce4f9e28b0",
+        "FEEDBURNER": "bd17de1d324fa3d60667070157452c9fe8f26dfec6d47de1760ad4ce4f9e28b0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "url": "http://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "published": "Wed, 04 Nov 2026 12:07:04 +0000",
+      "published_utc": "2026-11-04T12:07:04+00:00",
+      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6632831546264447310",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "content_hash": "252625dd5af3f7fe2db969374811078a6b81830c1606d531e0a5ba2c2dbe1221",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "252625dd5af3f7fe2db969374811078a6b81830c1606d531e0a5ba2c2dbe1221",
+        "FEEDBURNER": "252625dd5af3f7fe2db969374811078a6b81830c1606d531e0a5ba2c2dbe1221"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
+    },
+    {
+      "title": "CISA Warns of Active Attacks Exploiting WordPress Core Code Execution Vulnerability",
+      "url": "https://gbhackers.com/cisa-warns-of-wordpress-core-code-execution-vulnerability/",
+      "published": "Wed, 04 Nov 2026 11:58:47 +0000",
+      "published_utc": "2026-11-04T11:58:47+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a WordPress Core vulnerability in its Known Exploited Vulnerabilities catalog due to evidence of active exploitation. This vulnerability, identified as CVE-2026-119977, allows unauthenticated attackers to execute server-side code during a specific software upgrade window. CISA added this vulnerability to the catalog on November 3, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-wordpress-core-code-execution-vulnerability/\">CISA Warns of Active Attacks Exploiting WordPress Core Code Execution Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205952",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-warns-of-wordpress-core-code-execution-vulnerability",
+      "content_hash": "54f46ec70f914c6b832486efa4891e282b547cf6fddb8b9c61a592bb9990e723",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "54f46ec70f914c6b832486efa4891e282b547cf6fddb8b9c61a592bb9990e723",
+        "FEEDBURNER": "54f46ec70f914c6b832486efa4891e282b547cf6fddb8b9c61a592bb9990e723"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Hackers Exploit Zyxel GS1900 Zero-Day in the Wild to Hijack Network Switches",
+      "url": "https://cybersecuritynews.com/zyxel-gs1900-zero-day-exploited/",
+      "published": "Wed, 04 Nov 2026 11:57:24 +0000",
+      "published_utc": "2026-11-04T11:57:24+00:00",
+      "summary": "<p>A flaw in Zyxel GS1900 switches was already being used by hackers, and the patch meant to fix it did not work. Researchers at Binarly found that a public exploit hit a different bug than the one Zyxel had patched. Zyxel has now confirmed it as a new flaw, tracked as CVE-2026-107441. Zyxel published its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zyxel-gs1900-zero-day-exploited/\">Hackers Exploit Zyxel GS1900 Zero-Day in the Wild to Hijack Network Switches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170355",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/zyxel-gs1900-zero-day-exploited",
+      "content_hash": "b58b797e6bb52accb125706e6e508521a764aff68d8d4a702d7f764d93d1a08d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b58b797e6bb52accb125706e6e508521a764aff68d8d4a702d7f764d93d1a08d",
+        "FEEDBURNER": "b58b797e6bb52accb125706e6e508521a764aff68d8d4a702d7f764d93d1a08d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "Hackers Use Stolen Microsoft Entra ID App Credentials to Breach 27 Organizations and Steal Sensitive Data",
+      "url": "https://gbhackers.com/hackers-use-stolen-microsoft-entra-id-app-credentials/",
+      "published": "Wed, 04 Nov 2026 11:49:41 +0000",
+      "published_utc": "2026-11-04T11:49:41+00:00",
+      "summary": "<p>Hackers are exploiting stolen Microsoft Entra ID application credentials to infiltrate Microsoft 365 and Azure environments, impacting 27 organizations via managed service providers (MSPs) and their downstream clients. Todyl’s MXDR team is monitoring this ongoing campaign, referred to as Key Eater. Since November 1, 2026, the attackers have targeted approximately 45 app registrations across about [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-stolen-microsoft-entra-id-app-credentials/\">Hackers Use Stolen Microsoft Entra ID App Credentials to Breach 27 Organizations and Steal Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205947",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-use-stolen-microsoft-entra-id-app-credentials",
+      "content_hash": "91266198be1b6df14c8a7eb45101dd4bf90095bc7091c883b2d849ab4630fac4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "91266198be1b6df14c8a7eb45101dd4bf90095bc7091c883b2d849ab4630fac4",
+        "FEEDBURNER": "91266198be1b6df14c8a7eb45101dd4bf90095bc7091c883b2d849ab4630fac4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "url": "http://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "published": "Wed, 04 Nov 2026 11:46:27 +0000",
+      "published_utc": "2026-11-04T11:46:27+00:00",
+      "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3893154213063107618",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "content_hash": "45facac156c93e68f555e890cc237afb8e31082af4cc393c061530c867dc07c7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "45facac156c93e68f555e890cc237afb8e31082af4cc393c061530c867dc07c7",
+        "FEEDBURNER": "45facac156c93e68f555e890cc237afb8e31082af4cc393c061530c867dc07c7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
+    },
+    {
+      "title": "Microsoft Edge Now Automatically Blocks Malicious Websites Sending Fake Virus Alert Notifications",
+      "url": "https://cybersecuritynews.com/microsoft-edge/",
+      "published": "Wed, 04 Nov 2026 11:38:00 +0000",
+      "published_utc": "2026-11-04T11:38:00+00:00",
+      "summary": "<p>Microsoft Edge now automatically disables notifications from websites that send users to detected scam pages, cutting off a route used to deliver fake virus warnings. The protection connects Microsoft Defender SmartScreen and Scareware blocker detections with notification permissions, helping prevent malicious sites from repeatedly drawing people back into the same scam. The change arrived with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-edge/\">Microsoft Edge Now Automatically Blocks Malicious Websites Sending Fake Virus Alert Notifications</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170333",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-edge",
+      "content_hash": "3063f5338c19339fdf865fe681ddaa433d8eaeef0511de5cef1e0a17526e866c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3063f5338c19339fdf865fe681ddaa433d8eaeef0511de5cef1e0a17526e866c",
+        "FEEDBURNER": "3063f5338c19339fdf865fe681ddaa433d8eaeef0511de5cef1e0a17526e866c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "Cloudflare Launches Zero Wire to Track Critical Vulnerabilities and Active Exploitation Across the Internet",
+      "url": "https://gbhackers.com/cloudflare-launches-zero-wire-to-track-critical-vulnerabilities/",
+      "published": "Wed, 04 Nov 2026 11:37:15 +0000",
+      "published_utc": "2026-11-04T11:37:15+00:00",
+      "summary": "<p>Cloudflare launched Zero Wire, a public vulnerability intelligence hub that helps security teams investigate critical internet threats, assess exploitation evidence, and prioritize remediation efforts. Available through Cloudflare Radar, the service combines technical research, vendor guidance, and network observations into concise briefings. Cloudflare’s launch announcement positions the platform as a practical starting point for organizations facing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cloudflare-launches-zero-wire-to-track-critical-vulnerabilities/\">Cloudflare Launches Zero Wire to Track Critical Vulnerabilities and Active Exploitation Across the Internet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205937",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cloudflare-launches-zero-wire-to-track-critical-vulnerabilities",
+      "content_hash": "682f7656a1ab15637db83059d79dcba6de36a55310fb8648b8c5c0e2ba30a16b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "682f7656a1ab15637db83059d79dcba6de36a55310fb8648b8c5c0e2ba30a16b",
+        "FEEDBURNER": "682f7656a1ab15637db83059d79dcba6de36a55310fb8648b8c5c0e2ba30a16b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "url": "http://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "published": "Wed, 04 Nov 2026 11:34:20 +0000",
+      "published_utc": "2026-11-04T11:34:20+00:00",
+      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\n\nOne recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2794540027120879677",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "content_hash": "11c5cd0d060e26fd657431bd5d7f3b651c1e74a3272ae98523ed6754a6929300",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "11c5cd0d060e26fd657431bd5d7f3b651c1e74a3272ae98523ed6754a6929300",
+        "FEEDBURNER": "11c5cd0d060e26fd657431bd5d7f3b651c1e74a3272ae98523ed6754a6929300"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
+    },
+    {
+      "title": "3AM Ransomware Hackers Use AI-Assisted Attacks to Breach UK Schools and Spread Across Windows Domains",
+      "url": "https://gbhackers.com/3am-ransomware-hackers-use-ai-assisted-attacks-to-breach-uk-schools/",
+      "published": "Wed, 04 Nov 2026 11:28:31 +0000",
+      "published_utc": "2026-11-04T11:28:31+00:00",
+      "summary": "<p>A ransomware affiliate known as 3AM compromised a UK school network using a mix of traditional intrusion techniques and patterns suggesting the involvement of artificial intelligence. According to Bitdefender&#8217;s investigation on November 3, this operation appears to follow a suspected hybrid workflow: a human operator selects the targets while a language model may handle repetitive [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/3am-ransomware-hackers-use-ai-assisted-attacks-to-breach-uk-schools/\">3AM Ransomware Hackers Use AI-Assisted Attacks to Breach UK Schools and Spread Across Windows Domains</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205929",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/3am-ransomware-hackers-use-ai-assisted-attacks-to-breach-uk-schools",
+      "content_hash": "2ad1ca2f05b8c7d8d00833657d167e11152dfc64dd854d90b1d164178e250a77",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2ad1ca2f05b8c7d8d00833657d167e11152dfc64dd854d90b1d164178e250a77",
+        "FEEDBURNER": "2ad1ca2f05b8c7d8d00833657d167e11152dfc64dd854d90b1d164178e250a77"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Google Releases Major Chrome Security Update Fixing 213 Bugs, Including 7 Critical Vulnerabilities",
+      "url": "https://cybersecuritynews.com/google-releases-major-chrome-security-update/",
+      "published": "Wed, 04 Nov 2026 11:27:04 +0000",
+      "published_utc": "2026-11-04T11:27:04+00:00",
+      "summary": "<p>Google has released Chrome 157 for Windows, macOS, and Linux, fixing 213 security bugs, including seven rated critical. Announced on November 3, 2026, the update addresses flaws across graphics, memory handling, browser features, and access controls. Google says the stable release will reach users over the coming days and weeks. The patched versions are 157.0.8103.38 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-releases-major-chrome-security-update/\">Google Releases Major Chrome Security Update Fixing 213 Bugs, Including 7 Critical Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170335",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-releases-major-chrome-security-update",
+      "content_hash": "219fb7ed3217a98e3f7518ab166e5b0f1b0bb82af3ef1bd5a620ec039d2cf716",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "219fb7ed3217a98e3f7518ab166e5b0f1b0bb82af3ef1bd5a620ec039d2cf716",
+        "FEEDBURNER": "219fb7ed3217a98e3f7518ab166e5b0f1b0bb82af3ef1bd5a620ec039d2cf716"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.634561+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.634558-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.634561+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.634558-05:00"
+    },
+    {
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "url": "http://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "published": "Wed, 04 Nov 2026 11:24:31 +0000",
+      "published_utc": "2026-11-04T11:24:31+00:00",
+      "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).\n\nThe campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8538714253268713204",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "content_hash": "c0a28430a9c6c2a1b6971378c064fbd3d6e7866b1e9c4ab96b5412232381cac3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c0a28430a9c6c2a1b6971378c064fbd3d6e7866b1e9c4ab96b5412232381cac3",
+        "FEEDBURNER": "c0a28430a9c6c2a1b6971378c064fbd3d6e7866b1e9c4ab96b5412232381cac3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
+    },
+    {
+      "title": "Fake Microsoft Support Scams Spread Through Online Ads as Researchers Uncover Organized Fraud Network",
+      "url": "https://gbhackers.com/fake-microsoft-support-scams/",
+      "published": "Wed, 04 Nov 2026 10:57:44 +0000",
+      "published_utc": "2026-11-04T10:57:44+00:00",
+      "summary": "<p>An organized fraud operation using paid advertisements, Microsoft Azure hosting, and centrally managed telephone numbers to distribute counterfeit Microsoft support pages. The investigation links one backend serving the kit to Mandarin-speaking developers and registration details referencing Hubei, China. Those findings suggest operational connections, not definitive attribution. Crucially, the identified backend appeared in detections at 11 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-microsoft-support-scams/\">Fake Microsoft Support Scams Spread Through Online Ads as Researchers Uncover Organized Fraud Network</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205905",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-microsoft-support-scams",
+      "content_hash": "72b6c2fb3067051f49252cf8a4b80cf3b7fd83440a41b635d5ef0d5dfd50a912",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "72b6c2fb3067051f49252cf8a4b80cf3b7fd83440a41b635d5ef0d5dfd50a912",
+        "FEEDBURNER": "72b6c2fb3067051f49252cf8a4b80cf3b7fd83440a41b635d5ef0d5dfd50a912"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Hackers Abuse LuaJIT and Windows Process Injection to Hide XLoader Credential-Stealing Malware",
+      "url": "https://gbhackers.com/xloader-malware-attack/",
+      "published": "Wed, 04 Nov 2026 10:28:16 +0000",
+      "published_utc": "2026-11-04T10:28:16+00:00",
+      "summary": "<p>A new XLoader infection chain. It hides the credential stealer inside an embedded LuaJIT interpreter. It moves it into another Windows process through shared-section injection. The campaign uses business-themed email lures. It also delivered Agent Tesla, Remcos and XWorm . The chain starts with order and payment emails. One Greek-language message has a subject starting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/xloader-malware-attack/\">Hackers Abuse LuaJIT and Windows Process Injection to Hide XLoader Credential-Stealing Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=205891",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/xloader-malware-attack",
+      "content_hash": "ff812318642476673ae39022ae2b00f0892a941c446a1a2df1107be4365eba7f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ff812318642476673ae39022ae2b00f0892a941c446a1a2df1107be4365eba7f",
+        "FEEDBURNER": "ff812318642476673ae39022ae2b00f0892a941c446a1a2df1107be4365eba7f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:02.418199+00:00",
+      "first_seen_local": "2026-11-04T10:43:02.418196-05:00",
+      "last_updated_utc": "2026-11-04T15:43:02.418199+00:00",
+      "last_updated_local": "2026-11-04T10:43:02.418196-05:00"
+    },
+    {
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "url": "http://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "published": "Wed, 04 Nov 2026 08:17:11 +0000",
+      "published_utc": "2026-11-04T08:17:11+00:00",
+      "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.\n\nThe Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1551968749953974383",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "content_hash": "34d133ee5eb53b4d02bc1f76c5513016429d5c7cf701abaf91bd818d4c13668b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "34d133ee5eb53b4d02bc1f76c5513016429d5c7cf701abaf91bd818d4c13668b",
+        "FEEDBURNER": "34d133ee5eb53b4d02bc1f76c5513016429d5c7cf701abaf91bd818d4c13668b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
+    },
+    {
+      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+      "url": "http://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "published": "Wed, 04 Nov 2026 07:46:15 +0000",
+      "published_utc": "2026-11-04T07:46:15+00:00",
+      "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules.\n\nAs of November 4, Google's bulletin did not report",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4962131556591470147",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "content_hash": "63ba0f7a9058a236bd80300ea5fb6a6df8602efbb0ccba5436fd0dcc703927c0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "63ba0f7a9058a236bd80300ea5fb6a6df8602efbb0ccba5436fd0dcc703927c0",
+        "FEEDBURNER": "63ba0f7a9058a236bd80300ea5fb6a6df8602efbb0ccba5436fd0dcc703927c0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-04T15:43:07.684232+00:00",
+      "first_seen_local": "2026-11-04T10:43:07.684231-05:00",
+      "last_updated_utc": "2026-11-04T15:43:07.684232+00:00",
+      "last_updated_local": "2026-11-04T10:43:07.684231-05:00"
     }
   ]
 }

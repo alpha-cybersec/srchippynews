@@ -2,8 +2,172 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 41,
+  "article_count": 47,
   "articles": [
+    {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "url": "http://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "published": "Thu, 05 Nov 2026 16:42:46 +0000",
+      "published_utc": "2026-11-05T16:42:46+00:00",
+      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8892207042413318770",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "content_hash": "bd6dfe207a1d99b0e241309ebeea8c14f9e9c5eb7040f1518b8c86786dac04ce",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bd6dfe207a1d99b0e241309ebeea8c14f9e9c5eb7040f1518b8c86786dac04ce"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-05T17:57:33.584777+00:00",
+      "first_seen_local": "2026-11-05T12:57:33.584775-05:00",
+      "last_updated_utc": "2026-11-05T17:57:33.584777+00:00",
+      "last_updated_local": "2026-11-05T12:57:33.584775-05:00"
+    },
+    {
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "url": "http://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "published": "Thu, 05 Nov 2026 16:42:32 +0000",
+      "published_utc": "2026-11-05T16:42:32+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4190946519162376248",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "content_hash": "6206a9265a2aa5dd653c5e151c8cb8a66aa17448a81b272bd3183084a224ddca",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6206a9265a2aa5dd653c5e151c8cb8a66aa17448a81b272bd3183084a224ddca"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-05T17:57:33.584777+00:00",
+      "first_seen_local": "2026-11-05T12:57:33.584775-05:00",
+      "last_updated_utc": "2026-11-05T17:57:33.584777+00:00",
+      "last_updated_local": "2026-11-05T12:57:33.584775-05:00"
+    },
+    {
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "url": "http://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "published": "Thu, 05 Nov 2026 14:41:10 +0000",
+      "published_utc": "2026-11-05T14:41:10+00:00",
+      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3906639258908365577",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "content_hash": "741501049684b826fc1a513511e51d5fffa9100ddba2881639aafab47f5ed675",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "741501049684b826fc1a513511e51d5fffa9100ddba2881639aafab47f5ed675",
+        "FEEDBURNER": "741501049684b826fc1a513511e51d5fffa9100ddba2881639aafab47f5ed675"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-05T17:57:33.584777+00:00",
+      "first_seen_local": "2026-11-05T12:57:33.584775-05:00",
+      "last_updated_utc": "2026-11-05T17:57:33.584777+00:00",
+      "last_updated_local": "2026-11-05T12:57:33.584775-05:00"
+    },
+    {
+      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+      "url": "http://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "published": "Thu, 05 Nov 2026 12:25:00 +0000",
+      "published_utc": "2026-11-05T12:25:00+00:00",
+      "summary": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4303770110170674134",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "content_hash": "8360e4b60796861a554cd0f8bf620a7cb77cb6f26527642a684d41b7723a41bb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8360e4b60796861a554cd0f8bf620a7cb77cb6f26527642a684d41b7723a41bb",
+        "FEEDBURNER": "8360e4b60796861a554cd0f8bf620a7cb77cb6f26527642a684d41b7723a41bb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-05T17:57:33.584777+00:00",
+      "first_seen_local": "2026-11-05T12:57:33.584775-05:00",
+      "last_updated_utc": "2026-11-05T17:57:33.584777+00:00",
+      "last_updated_local": "2026-11-05T12:57:33.584775-05:00"
+    },
+    {
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "url": "http://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "published": "Thu, 05 Nov 2026 12:08:54 +0000",
+      "published_utc": "2026-11-05T12:08:54+00:00",
+      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2898893431507527184",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "content_hash": "24d29ae197afd4b3a5451b2df369f631150d4c624a1248ffe3e05372235422f9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "24d29ae197afd4b3a5451b2df369f631150d4c624a1248ffe3e05372235422f9",
+        "FEEDBURNER": "24d29ae197afd4b3a5451b2df369f631150d4c624a1248ffe3e05372235422f9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-05T17:57:33.584777+00:00",
+      "first_seen_local": "2026-11-05T12:57:33.584775-05:00",
+      "last_updated_utc": "2026-11-05T17:57:33.584777+00:00",
+      "last_updated_local": "2026-11-05T12:57:33.584775-05:00"
+    },
+    {
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "url": "http://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "published": "Thu, 05 Nov 2026 10:06:19 +0000",
+      "published_utc": "2026-11-05T10:06:19+00:00",
+      "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2373613610632382420",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "content_hash": "369d37af51beb8321e1800ea94cd8469a596c045ea323fcba9ec7ca30abceb8d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "369d37af51beb8321e1800ea94cd8469a596c045ea323fcba9ec7ca30abceb8d",
+        "FEEDBURNER": "369d37af51beb8321e1800ea94cd8469a596c045ea323fcba9ec7ca30abceb8d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-05T17:57:33.584777+00:00",
+      "first_seen_local": "2026-11-05T12:57:33.584775-05:00",
+      "last_updated_utc": "2026-11-05T17:57:33.584777+00:00",
+      "last_updated_local": "2026-11-05T12:57:33.584775-05:00"
+    },
     {
       "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
       "url": "http://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",

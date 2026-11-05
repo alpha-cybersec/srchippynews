@@ -10,8 +10,56 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 4,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+          "url": "http://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+          "published": "Thu, 05 Nov 2026 16:42:46 +0000",
+          "published_utc": "2026-11-05T16:42:46+00:00",
+          "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8892207042413318770"
+        },
+        {
+          "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+          "url": "http://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+          "published": "Thu, 05 Nov 2026 16:42:32 +0000",
+          "published_utc": "2026-11-05T16:42:32+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4190946519162376248"
+        },
+        {
+          "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+          "url": "http://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+          "published": "Thu, 05 Nov 2026 14:41:10 +0000",
+          "published_utc": "2026-11-05T14:41:10+00:00",
+          "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3906639258908365577"
+        },
+        {
+          "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+          "url": "http://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+          "published": "Thu, 05 Nov 2026 12:25:00 +0000",
+          "published_utc": "2026-11-05T12:25:00+00:00",
+          "summary": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4303770110170674134"
+        },
+        {
+          "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+          "url": "http://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+          "published": "Thu, 05 Nov 2026 12:08:54 +0000",
+          "published_utc": "2026-11-05T12:08:54+00:00",
+          "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2898893431507527184"
+        },
+        {
+          "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+          "url": "http://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+          "published": "Thu, 05 Nov 2026 10:06:19 +0000",
+          "published_utc": "2026-11-05T10:06:19+00:00",
+          "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2373613610632382420"
+        },
         {
           "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
           "url": "http://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
@@ -55,8 +103,40 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 4,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+          "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+          "published": "Thu, 05 Nov 2026 20:11:10 +0530",
+          "published_utc": "2026-11-05T14:41:10+00:00",
+          "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
+          "id": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
+        },
+        {
+          "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+          "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+          "published": "Thu, 05 Nov 2026 17:55:00 +0530",
+          "published_utc": "2026-11-05T12:25:00+00:00",
+          "summary": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates",
+          "id": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
+        },
+        {
+          "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+          "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+          "published": "Thu, 05 Nov 2026 17:38:54 +0530",
+          "published_utc": "2026-11-05T12:08:54+00:00",
+          "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+          "id": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
+        },
+        {
+          "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+          "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+          "published": "Thu, 05 Nov 2026 15:36:19 +0530",
+          "published_utc": "2026-11-05T10:06:19+00:00",
+          "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five",
+          "id": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
+        },
         {
           "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
           "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",

@@ -103,8 +103,24 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 8,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+          "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+          "published": "Thu, 05 Nov 2026 22:12:46 +0530",
+          "published_utc": "2026-11-05T16:42:46+00:00",
+          "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+          "id": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+        },
+        {
+          "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+          "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+          "published": "Thu, 05 Nov 2026 22:12:32 +0530",
+          "published_utc": "2026-11-05T16:42:32+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
+          "id": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
+        },
         {
           "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
           "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",

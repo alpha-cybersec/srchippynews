@@ -1,12 +1,96 @@
 {
   "date": "2026-11-05",
-  "article_count": 45,
+  "article_count": 48,
   "sources": {
+    "cybersecuritynews": 21,
     "gbhackers": 17,
-    "cybersecuritynews": 18,
     "thehackernews": 10
   },
   "articles": [
+    {
+      "title": "OpenAI Launches GPT-6 Cyber That Finds 81 Firefox Flaws and Develops 948 Linux Exploits",
+      "url": "https://cybersecuritynews.com/openai-launches-gpt-6-cyber/",
+      "published": "Fri, 06 Nov 2026 02:04:53 +0000",
+      "published_utc": "2026-11-06T02:04:53+00:00",
+      "summary": "<p>OpenAI has launched GPT-6 Cyber, a security-focused AI model that found 81 new high-severity Firefox flaws and built working exploits for 948 Linux kernel bugs. The company says it also follows the limits set by researchers far better than its older model. OpenAI introduced GPT-6 Cyber on November 4, 2026. It is first going to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-launches-gpt-6-cyber/\">OpenAI Launches GPT-6 Cyber That Finds 81 Firefox Flaws and Develops 948 Linux Exploits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170626",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-launches-gpt-6-cyber",
+      "content_hash": "19b1439c1672ffcf5388562786300937d1637313d5e8acb8eb81ef0b22fc50ea",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "19b1439c1672ffcf5388562786300937d1637313d5e8acb8eb81ef0b22fc50ea",
+        "FEEDBURNER": "19b1439c1672ffcf5388562786300937d1637313d5e8acb8eb81ef0b22fc50ea"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T03:37:32.846406+00:00",
+      "first_seen_local": "2026-11-05T22:37:32.846403-05:00",
+      "last_updated_utc": "2026-11-06T03:37:32.846406+00:00",
+      "last_updated_local": "2026-11-05T22:37:32.846403-05:00"
+    },
+    {
+      "title": "Shopify Mandates IP Allowlisting for Public Apps to Prevent Unauthorized Admin API Access",
+      "url": "https://cybersecuritynews.com/shopify-mandates-ip-allowlisting/",
+      "published": "Fri, 06 Nov 2026 01:44:52 +0000",
+      "published_utc": "2026-11-06T01:44:52+00:00",
+      "summary": "<p>Shopify is making IP allowlisting mandatory for public apps that call its Admin API, adding a security check to limit the use of stolen access tokens. Developers must enable the control by November 20, 2026, at 11:59 PM ET. Apps using bulk operations face an earlier deadline of November 12 at the same time. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/shopify-mandates-ip-allowlisting/\">Shopify Mandates IP Allowlisting for Public Apps to Prevent Unauthorized Admin API Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170623",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/shopify-mandates-ip-allowlisting",
+      "content_hash": "3d8a95d3d0b421a7ee2879715c01e64e865a07873ae6f70c6a2d6b6eaf36afe7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3d8a95d3d0b421a7ee2879715c01e64e865a07873ae6f70c6a2d6b6eaf36afe7",
+        "FEEDBURNER": "3d8a95d3d0b421a7ee2879715c01e64e865a07873ae6f70c6a2d6b6eaf36afe7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T03:37:32.846406+00:00",
+      "first_seen_local": "2026-11-05T22:37:32.846403-05:00",
+      "last_updated_utc": "2026-11-06T03:37:32.846406+00:00",
+      "last_updated_local": "2026-11-05T22:37:32.846403-05:00"
+    },
+    {
+      "title": "Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs",
+      "url": "https://cybersecuritynews.com/windows-paint-rce-vulnerability/",
+      "published": "Fri, 06 Nov 2026 00:58:05 +0000",
+      "published_utc": "2026-11-06T00:58:05+00:00",
+      "summary": "<p>Microsoft’s Windows Paint vulnerability, CVE-2026-83844, could allow an unauthenticated attacker to execute code over a network without user interaction. The flaw carries a CVSS score of 8.1, placing it in the High severity category rather than Critical. However, confusion over the corrected Paint version has complicated patch checks for Windows administrators. The vulnerability stems from [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-paint-rce-vulnerability/\">Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170615",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-paint-rce-vulnerability",
+      "content_hash": "5b88d026d490b8814e71635f1ee66242c45938eae6ed749b7ac96a86302493d9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5b88d026d490b8814e71635f1ee66242c45938eae6ed749b7ac96a86302493d9",
+        "FEEDBURNER": "5b88d026d490b8814e71635f1ee66242c45938eae6ed749b7ac96a86302493d9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T03:37:32.846406+00:00",
+      "first_seen_local": "2026-11-05T22:37:32.846403-05:00",
+      "last_updated_utc": "2026-11-06T03:37:32.846406+00:00",
+      "last_updated_local": "2026-11-05T22:37:32.846403-05:00"
+    },
     {
       "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
       "url": "https://gbhackers.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",

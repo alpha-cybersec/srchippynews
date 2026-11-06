@@ -2,8 +2,148 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 51,
+  "article_count": 56,
   "articles": [
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "http://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "published": "Fri, 06 Nov 2026 16:08:38 +0000",
+      "published_utc": "2026-11-06T16:08:38+00:00",
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3373736156246979577",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "content_hash": "ca0bbd5ba7be9ace864b8a666d3afaddc7ef9fd53f6673cddd0576f5e995dd1c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ca0bbd5ba7be9ace864b8a666d3afaddc7ef9fd53f6673cddd0576f5e995dd1c",
+        "FEEDBURNER": "ca0bbd5ba7be9ace864b8a666d3afaddc7ef9fd53f6673cddd0576f5e995dd1c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "url": "http://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "published": "Fri, 06 Nov 2026 15:21:49 +0000",
+      "published_utc": "2026-11-06T15:21:49+00:00",
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-826991381775092632",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "content_hash": "c0a9d4da049ad09d916df7639df74a9f119f18e5890267ddcfa268307ac22cbb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c0a9d4da049ad09d916df7639df74a9f119f18e5890267ddcfa268307ac22cbb",
+        "FEEDBURNER": "c0a9d4da049ad09d916df7639df74a9f119f18e5890267ddcfa268307ac22cbb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "http://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "published": "Fri, 06 Nov 2026 14:58:32 +0000",
+      "published_utc": "2026-11-06T14:58:32+00:00",
+      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1770329041104015181",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "content_hash": "9ae1fab7aafa86052de402b42f69499196a5661555083894c4afea0f9816325f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9ae1fab7aafa86052de402b42f69499196a5661555083894c4afea0f9816325f",
+        "FEEDBURNER": "9ae1fab7aafa86052de402b42f69499196a5661555083894c4afea0f9816325f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
+    },
+    {
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "url": "http://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "published": "Fri, 06 Nov 2026 12:06:43 +0000",
+      "published_utc": "2026-11-06T12:06:43+00:00",
+      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4424200672849818541",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "content_hash": "ce7c8b3e48909fbd37771378ba7527fb70822e95b3f3d71711e730c639b623c4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce7c8b3e48909fbd37771378ba7527fb70822e95b3f3d71711e730c639b623c4",
+        "FEEDBURNER": "ce7c8b3e48909fbd37771378ba7527fb70822e95b3f3d71711e730c639b623c4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
+    },
+    {
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "url": "http://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "published": "Fri, 06 Nov 2026 12:06:35 +0000",
+      "published_utc": "2026-11-06T12:06:35+00:00",
+      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7651641491031435142",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "content_hash": "ad169472f2e35f4089c675ec071a65a9fcd0ed69d77055034eb053d5d6cc005c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ad169472f2e35f4089c675ec071a65a9fcd0ed69d77055034eb053d5d6cc005c",
+        "FEEDBURNER": "ad169472f2e35f4089c675ec071a65a9fcd0ed69d77055034eb053d5d6cc005c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
+    },
     {
       "title": "The Flood is Coming And The Pipes Were Already Full",
       "url": "http://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",

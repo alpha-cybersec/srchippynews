@@ -1,568 +1,349 @@
 {
-  "generated_at_utc": "2026-11-06T11:59:35.560170+00:00",
-  "generated_at_local": "2026-11-06T06:59:35.560177-05:00",
-  "article_count": 20,
-  "new_count": 20,
+  "generated_at_utc": "2026-11-06T19:16:21.128792+00:00",
+  "generated_at_local": "2026-11-06T14:16:21.128799-05:00",
+  "article_count": 12,
+  "new_count": 12,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 5,
-    "gbhackers": 11,
-    "thehackernews": 4
+    "thehackernews": 5,
+    "cybersecuritynews": 7
   },
   "articles": [
     {
-      "title": "Storm-2603 Hackers Exploit SharePoint ToolShell Flaws to Hide Fileless Backdoor and Launch Ransomware Attack",
-      "url": "https://cybersecuritynews.com/storm-2603-hackers/",
-      "published": "Fri, 06 Nov 2026 11:43:01 +0000",
-      "published_utc": "2026-11-06T11:43:01+00:00",
-      "summary": "<p>A China-linked threat group tracked as Storm-2603 has used the SharePoint ToolShell flaws to plant a backdoor that never touches the disk. The group then tried to run Warlock ransomware on the same network. The break-in hit an on-premises SharePoint server and ended with a ransomware launch that security software blocked. ToolShell is the name [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/storm-2603-hackers/\">Storm-2603 Hackers Exploit SharePoint ToolShell Flaws to Hide Fileless Backdoor and Launch Ransomware Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170651",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/storm-2603-hackers",
-      "content_hash": "6b19381c293f5764303a2e11a018960d8ecc1dc3bbd2e41ea2cf39f543f5d387",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "6b19381c293f5764303a2e11a018960d8ecc1dc3bbd2e41ea2cf39f543f5d387"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
-      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
-      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
-      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
-    },
-    {
-      "title": "Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing",
-      "url": "https://gbhackers.com/dark-project-ransomware/",
-      "published": "Fri, 06 Nov 2026 11:32:36 +0000",
-      "published_utc": "2026-11-06T11:32:36+00:00",
-      "summary": "<p>Dark Project, an emerging financially motivated ransomware operation, has claimed 38 victims across eight countries in the supplied threat intelligence snapshot, with manufacturing and healthcare bearing the heaviest exposure. The group combines data theft, system encryption, and public disclosure threats with an affiliate program designed to scale intrusions. The figures represent allegations published through criminal [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dark-project-ransomware/\">Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206265",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/dark-project-ransomware",
-      "content_hash": "a7e3aff791af6bc2879da2036f478738b14e2b08acdd97ae7361e74d00d48048",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a7e3aff791af6bc2879da2036f478738b14e2b08acdd97ae7361e74d00d48048"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "url": "http://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "published": "Fri, 06 Nov 2026 11:30:00 +0000",
-      "published_utc": "2026-11-06T11:30:00+00:00",
-      "summary": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1546236629064588029",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "http://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "published": "Fri, 06 Nov 2026 16:08:38 +0000",
+      "published_utc": "2026-11-06T16:08:38+00:00",
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3373736156246979577",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "content_hash": "0015693774c7265137282b2198b2f2315d943e1d25752b3cf5faeb89a9dc56f7",
+      "article_key": "thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "content_hash": "ca0bbd5ba7be9ace864b8a666d3afaddc7ef9fd53f6673cddd0576f5e995dd1c",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0015693774c7265137282b2198b2f2315d943e1d25752b3cf5faeb89a9dc56f7",
-        "FEEDBURNER": "0015693774c7265137282b2198b2f2315d943e1d25752b3cf5faeb89a9dc56f7"
+        "ORIGINAL": "ca0bbd5ba7be9ace864b8a666d3afaddc7ef9fd53f6673cddd0576f5e995dd1c",
+        "FEEDBURNER": "ca0bbd5ba7be9ace864b8a666d3afaddc7ef9fd53f6673cddd0576f5e995dd1c"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:35.554612+00:00",
-      "first_seen_local": "2026-11-06T06:59:35.554610-05:00",
-      "last_updated_utc": "2026-11-06T11:59:35.554612+00:00",
-      "last_updated_local": "2026-11-06T06:59:35.554610-05:00"
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
     },
     {
-      "title": "Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts",
-      "url": "https://gbhackers.com/mirax-android-malware/",
-      "published": "Fri, 06 Nov 2026 10:13:22 +0000",
-      "published_utc": "2026-11-06T10:13:22+00:00",
-      "summary": "<p>Hackers are using streaming app lures to distribute Mirax. This Android banking trojan lets operators remotely control victims’ phones and initiate fraudulent transfers. Estimated losses reach millions of dollars, although confirmed cases capture only part of the campaign’s impact. The operation remained active when Group-IB published its November 5 investigation. Researchers linked the infections through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mirax-android-malware/\">Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206248",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/mirax-android-malware",
-      "content_hash": "f4355febb39cc926867d9186e82a026f0346278a6ffd0c83eca076292623bac6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f4355febb39cc926867d9186e82a026f0346278a6ffd0c83eca076292623bac6",
-        "FEEDBURNER": "f4355febb39cc926867d9186e82a026f0346278a6ffd0c83eca076292623bac6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates",
-      "url": "https://gbhackers.com/gaming-accounts-targeted/",
-      "published": "Fri, 06 Nov 2026 09:47:27 +0000",
-      "published_utc": "2026-11-06T09:47:27+00:00",
-      "summary": "<p>ARTEX, a Chinese open-source agentic penetration-testing platform, to run autonomous attacks. The operators set a goal and then mostly check progress. Researchers identified 2,557 systems that host or hosted ARTEX panels, and 1,608 were live and public. Ten misconfigured instances exposed their full databases. Those databases show the models, prompts and actions behind the campaigns. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gaming-accounts-targeted/\">Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206224",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/gaming-accounts-targeted",
-      "content_hash": "3d4a06c5f2529bcbc3b64fafda5fd2b804b76a95d820732c0f3af9d6a5f753ad",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "3d4a06c5f2529bcbc3b64fafda5fd2b804b76a95d820732c0f3af9d6a5f753ad",
-        "FEEDBURNER": "3d4a06c5f2529bcbc3b64fafda5fd2b804b76a95d820732c0f3af9d6a5f753ad"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers",
-      "url": "https://gbhackers.com/claude-ai-flaw/",
-      "published": "Fri, 06 Nov 2026 09:18:04 +0000",
-      "published_utc": "2026-11-06T09:18:04+00:00",
-      "summary": "<p>A design flaw in Anthropic&#8217;s Claude Dispatch feature let a malicious browser extension run commands on the operating system, even on a different computer. Researchers at Forever Security named the attack ThisBash. They found that Claude Dispatch accepted instructions from an ordinary logged-in claude.ai session. An extension that could control that site could therefore send [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-flaw/\">Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206228",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/claude-ai-flaw",
-      "content_hash": "eab694376521c1156e5e48f11debb1cbf938ddf35329efda1ea5ae01b7f03e70",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "eab694376521c1156e5e48f11debb1cbf938ddf35329efda1ea5ae01b7f03e70",
-        "FEEDBURNER": "eab694376521c1156e5e48f11debb1cbf938ddf35329efda1ea5ae01b7f03e70"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "ARTEX AI Hacking Framework Found on 1,465 Public Servers, Some Hosting Cyberattack Tools",
-      "url": "https://cybersecuritynews.com/artex-ai-hacking-framework/",
-      "published": "Fri, 06 Nov 2026 09:02:33 +0000",
-      "published_utc": "2026-11-06T09:02:33+00:00",
-      "summary": "<p>Security researchers have found ARTEX, an AI-powered penetration-testing framework, exposed on 1,465 internet-facing hosts. Some servers also hosted command-and-control tools, phishing software, and exploit files, showing how automated security-testing platforms are appearing alongside established attack infrastructure. The findings offer defenders a view of these environments, including files operators left publicly accessible. The count does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/artex-ai-hacking-framework/\">ARTEX AI Hacking Framework Found on 1,465 Public Servers, Some Hosting Cyberattack Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170634",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/artex-ai-hacking-framework",
-      "content_hash": "382bf897d3806750fe68b571d3091e717aaa187c46ae1ad6aee0dfcc6601b91d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "382bf897d3806750fe68b571d3091e717aaa187c46ae1ad6aee0dfcc6601b91d",
-        "FEEDBURNER": "382bf897d3806750fe68b571d3091e717aaa187c46ae1ad6aee0dfcc6601b91d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
-      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
-      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
-      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
-    },
-    {
-      "title": "ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction",
-      "url": "https://gbhackers.com/chatgpt-lockdown-mode-bypass/",
-      "published": "Fri, 06 Nov 2026 08:56:59 +0000",
-      "published_utc": "2026-11-06T08:56:59+00:00",
-      "summary": "<p>Research found a flaw that bypassed ChatGPT&#8217;s Lockdown Mode. It let attackers silently exfiltrate full chat histories, deliver malware, and phish credentials from inside a trusted interface. Researcher Alexey Bukhteyev published the findings on November 5, 2026. In the ChatGPT Classic desktop app, simply having a conversation triggered the leak. OpenAI built Lockdown Mode as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-lockdown-mode-bypass/\">ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206222",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/chatgpt-lockdown-mode-bypass",
-      "content_hash": "d7b73dc2457adb052643887a0eab58047ed58c79a8999528ac1d0021a1acb033",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d7b73dc2457adb052643887a0eab58047ed58c79a8999528ac1d0021a1acb033",
-        "FEEDBURNER": "d7b73dc2457adb052643887a0eab58047ed58c79a8999528ac1d0021a1acb033"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "Claude Dispatch Flaw Lets Malicious Browser Extensions Run Code on Connected Computers",
-      "url": "https://cybersecuritynews.com/claude-dispatch-vulnerability/",
-      "published": "Fri, 06 Nov 2026 08:40:43 +0000",
-      "published_utc": "2026-11-06T08:40:43+00:00",
-      "summary": "<p>A flaw in Anthropic&#8217;s Claude Dispatch let a malicious browser extension run commands on a computer via Claude Desktop. That computer could even be a different machine signed into the same Claude account. Researcher Gal Weizman of Forever Security named the technique ThisBash and published the findings on November 4, 2026. Anthropic plans to retire [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-dispatch-vulnerability/\">Claude Dispatch Flaw Lets Malicious Browser Extensions Run Code on Connected Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170639",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/claude-dispatch-vulnerability",
-      "content_hash": "ca07d99c9f7d6884896cb952a944b70899ecb2fff4c32bd2f340395aed307eab",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ca07d99c9f7d6884896cb952a944b70899ecb2fff4c32bd2f340395aed307eab",
-        "FEEDBURNER": "ca07d99c9f7d6884896cb952a944b70899ecb2fff4c32bd2f340395aed307eab"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
-      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
-      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
-      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
-    },
-    {
-      "title": "Hackers Could Bypass ChatGPT Lockdown Mode to Steal Conversations Without Users Knowing",
-      "url": "https://cybersecuritynews.com/chatgpt-lockdown-mode-bypass/",
-      "published": "Fri, 06 Nov 2026 08:16:23 +0000",
-      "published_utc": "2026-11-06T08:16:23+00:00",
-      "summary": "<p>A flaw in ChatGPT let attackers slip past Lockdown Mode, the safety setting meant to stop data leaks. Check Point Research found that a hidden pop-up trick could copy a user&#8217;s full chat history, show fake windows, and push malware. In the ChatGPT Classic desktop app, simply chatting was enough to trigger the leak. OpenAI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-lockdown-mode-bypass/\">Hackers Could Bypass ChatGPT Lockdown Mode to Steal Conversations Without Users Knowing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170633",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/chatgpt-lockdown-mode-bypass",
-      "content_hash": "fee5ed0f284eb387b35656ec747ba6e8b394ee30b790db247c14b37d298d4a28",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "fee5ed0f284eb387b35656ec747ba6e8b394ee30b790db247c14b37d298d4a28",
-        "FEEDBURNER": "fee5ed0f284eb387b35656ec747ba6e8b394ee30b790db247c14b37d298d4a28"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
-      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
-      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
-      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
-    },
-    {
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "url": "http://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "published": "Fri, 06 Nov 2026 08:04:49 +0000",
-      "published_utc": "2026-11-06T08:04:49+00:00",
-      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4242062471792551650",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "url": "http://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "published": "Fri, 06 Nov 2026 15:21:49 +0000",
+      "published_utc": "2026-11-06T15:21:49+00:00",
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-826991381775092632",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "content_hash": "db0e1b32a4760cec4a0bfa1d01a925328a91fb32f57264bfd602a6c2a78f2cd8",
+      "article_key": "thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "content_hash": "c0a9d4da049ad09d916df7639df74a9f119f18e5890267ddcfa268307ac22cbb",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "db0e1b32a4760cec4a0bfa1d01a925328a91fb32f57264bfd602a6c2a78f2cd8",
-        "FEEDBURNER": "db0e1b32a4760cec4a0bfa1d01a925328a91fb32f57264bfd602a6c2a78f2cd8"
+        "ORIGINAL": "c0a9d4da049ad09d916df7639df74a9f119f18e5890267ddcfa268307ac22cbb",
+        "FEEDBURNER": "c0a9d4da049ad09d916df7639df74a9f119f18e5890267ddcfa268307ac22cbb"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:35.554612+00:00",
-      "first_seen_local": "2026-11-06T06:59:35.554610-05:00",
-      "last_updated_utc": "2026-11-06T11:59:35.554612+00:00",
-      "last_updated_local": "2026-11-06T06:59:35.554610-05:00"
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
     },
     {
-      "title": "11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/security-policy-management-buyers-guide/",
-      "published": "Fri, 06 Nov 2026 06:50:31 +0000",
-      "published_utc": "2026-11-06T06:50:31+00:00",
-      "summary": "<p>“Security policy management” names two different markets wearing one label, and this roster contains both: network security policy management (NSPM) firewall rulebases, segmentation intent, change automation across hybrid estates and written-policy lifecycle the documents people must read, sign, and prove to auditors. Buying across the confusion wastes budget, so this verdict guide judges eleven tools [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-policy-management-buyers-guide/\">11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206119",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/security-policy-management-buyers-guide",
-      "content_hash": "5f683f518af69d408fc47ccbd29dd3c420f8a5e6884c61bd2864945023128221",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5f683f518af69d408fc47ccbd29dd3c420f8a5e6884c61bd2864945023128221",
-        "FEEDBURNER": "5f683f518af69d408fc47ccbd29dd3c420f8a5e6884c61bd2864945023128221"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "11 IT & Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/it-cyber-risk-buyers-guide/",
-      "published": "Fri, 06 Nov 2026 06:48:44 +0000",
-      "published_utc": "2026-11-06T06:48:44+00:00",
-      "summary": "<p>IT and cyber risk management tooling is the register discipline underneath GRC’s broader umbrella: risks captured with owners and treatments, controls linked, exceptions tracked, and reporting that survives committee scrutiny. Where our GRC platforms guide judges the whole estate, this guide narrows to the risk-register workflow itself how honestly eleven platforms capture, score, treat, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/it-cyber-risk-buyers-guide/\">11 IT &amp; Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206151",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/it-cyber-risk-buyers-guide",
-      "content_hash": "f4370ca4579bd8db33bc136ce96cb46ea3f648ba3ba136bcc795b7f25f62cf67",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f4370ca4579bd8db33bc136ce96cb46ea3f648ba3ba136bcc795b7f25f62cf67",
-        "FEEDBURNER": "f4370ca4579bd8db33bc136ce96cb46ea3f648ba3ba136bcc795b7f25f62cf67"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/audit-management-buyers-guide/",
-      "published": "Fri, 06 Nov 2026 06:47:09 +0000",
-      "published_utc": "2026-11-06T06:47:09+00:00",
-      "summary": "<p>Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms audit-born specialists, GRC suites with audit modules, and the reporting-grade heavyweights on fieldwork ergonomics, evidence automation, and the committee-pack mile. The wider risk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/audit-management-buyers-guide/\">11 Audit Management Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206092",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/audit-management-buyers-guide",
-      "content_hash": "803a65a81f22cc03bab03c3eb5c462788c24fe5bb1d46f37024b3c3dcf8574ef",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "803a65a81f22cc03bab03c3eb5c462788c24fe5bb1d46f37024b3c3dcf8574ef",
-        "FEEDBURNER": "803a65a81f22cc03bab03c3eb5c462788c24fe5bb1d46f37024b3c3dcf8574ef"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/security-ratings-buyers-guide/",
-      "published": "Fri, 06 Nov 2026 06:44:14 +0000",
-      "published_utc": "2026-11-06T06:44:14+00:00",
-      "summary": "<p>Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s duty is knowing what a score can and can’t see, and this roster needs two honesty notes up front: NormShield is Black Kite’s former name (one company, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-ratings-buyers-guide/\">10 Security Ratings Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206067",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/security-ratings-buyers-guide",
-      "content_hash": "4555143522a533c6b2d2c7fa8dfdd609c27af970fa593515367202893bcac4bd",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "4555143522a533c6b2d2c7fa8dfdd609c27af970fa593515367202893bcac4bd",
-        "FEEDBURNER": "4555143522a533c6b2d2c7fa8dfdd609c27af970fa593515367202893bcac4bd"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials",
-      "url": "https://gbhackers.com/azure-key-vault-secrets/",
-      "published": "Fri, 06 Nov 2026 06:43:37 +0000",
-      "published_utc": "2026-11-06T06:43:37+00:00",
-      "summary": "<p>Attackers using the ARTEX agentic AI framework to discover exposed GitHub credentials and rapidly compromise cloud environments. In one intrusion, an AI agent progressed from searching GitHub for application secrets to exfiltrating Azure Key Vault data in just five minutes. The activity compresses a familiar attack chain: finding leaked credentials, validating access, mapping resources, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/azure-key-vault-secrets/\">Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206212",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/azure-key-vault-secrets",
-      "content_hash": "9f365585dcfb7577e8c3dde72dd3c2a4398c541a78a9bc8bca6a309224db0512",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "9f365585dcfb7577e8c3dde72dd3c2a4398c541a78a9bc8bca6a309224db0512",
-        "FEEDBURNER": "9f365585dcfb7577e8c3dde72dd3c2a4398c541a78a9bc8bca6a309224db0512"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "Top 10 Best Deception Technology Solutions in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-deception-technology/",
-      "published": "Fri, 06 Nov 2026 06:41:22 +0000",
-      "published_utc": "2026-11-06T06:41:22+00:00",
-      "summary": "<p>Deception inverts security’s worst ratio: instead of mining millions of events for one attacker, you plant assets only an attacker would touch and wait for the phone to ring. A tripped canary token or accessed decoy credential carries near-zero false-positive probability, which makes deception the cheapest high-fidelity signal in the stack. The 2026 market splits [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-deception-technology/\">Top 10 Best Deception Technology Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170488",
+      "title": "New Dark Project Ransomware Group Offers Hackers 80% Commission to Expand Cyberattacks",
+      "url": "https://cybersecuritynews.com/new-dark-project-ransomware-group/",
+      "published": "Fri, 06 Nov 2026 15:03:03 +0000",
+      "published_utc": "2026-11-06T15:03:03+00:00",
+      "summary": "<p>A ransomware group called Dark Project is recruiting criminal partners with an offer of 80% of proceeds from successful attacks, pairing generous commissions with a platform for managing extortion. First observed in June 2026, the financially motivated operation combines data theft, file encryption, and public leak threats to pressure organizations into paying. The group’s published [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-dark-project-ransomware-group/\">New Dark Project Ransomware Group Offers Hackers 80% Commission to Expand Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170694",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-deception-technology",
-      "content_hash": "4aaf5bc1fd8705f88faab0d8ddfb4459caee5d5d5e8dba5a81a49b4d88bab174",
+      "article_key": "cybersecuritynews.com/new-dark-project-ransomware-group",
+      "content_hash": "3f01e2893afeebdc60dfef34e7f382c5b8e089c8632d200eb62cf7f304b15c83",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "4aaf5bc1fd8705f88faab0d8ddfb4459caee5d5d5e8dba5a81a49b4d88bab174",
-        "FEEDBURNER": "4aaf5bc1fd8705f88faab0d8ddfb4459caee5d5d5e8dba5a81a49b4d88bab174"
+        "ORIGINAL": "3f01e2893afeebdc60dfef34e7f382c5b8e089c8632d200eb62cf7f304b15c83",
+        "FEEDBURNER": "3f01e2893afeebdc60dfef34e7f382c5b8e089c8632d200eb62cf7f304b15c83"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
-      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
-      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
-      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
     },
     {
-      "title": "Storm-2603 Hackers Exploit SharePoint and Abuse Cloudflare Tunnel to Hide Remote Access",
-      "url": "https://gbhackers.com/storm-2603-attack/",
-      "published": "Fri, 06 Nov 2026 06:09:09 +0000",
-      "published_utc": "2026-11-06T06:09:09+00:00",
-      "summary": "<p>A December intrusion to Storm-2603, the China-based group Microsoft ties to Warlock ransomware. The attackers used ToolShell flaws in on-premises SharePoint and ran a memory-only webshell inside the IIS worker process. They then layered several tunnels, including Cloudflare Tunnel, to keep access after the initial foothold was gone. Kaspersky assesses the attribution with moderate confidence. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-2603-attack/\">Storm-2603 Hackers Exploit SharePoint and Abuse Cloudflare Tunnel to Hide Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206193",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/storm-2603-attack",
-      "content_hash": "501717e83f07afadd218c9855cfa197d4151698a8e68fe9ed413bc703dda064a",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "501717e83f07afadd218c9855cfa197d4151698a8e68fe9ed413bc703dda064a"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:29.426409+00:00",
-      "first_seen_local": "2026-11-06T06:59:29.426407-05:00",
-      "last_updated_utc": "2026-11-06T11:59:29.426409+00:00",
-      "last_updated_local": "2026-11-06T06:59:29.426407-05:00"
-    },
-    {
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "url": "http://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "published": "Fri, 06 Nov 2026 05:58:54 +0000",
-      "published_utc": "2026-11-06T05:58:54+00:00",
-      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-599469243449439109",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "http://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "published": "Fri, 06 Nov 2026 14:58:32 +0000",
+      "published_utc": "2026-11-06T14:58:32+00:00",
+      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1770329041104015181",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "content_hash": "7fb5722e6548427bd819839b4ccc4fc01d6d29b5787eb7336b768b6b1c96dfe3",
+      "article_key": "thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "content_hash": "9ae1fab7aafa86052de402b42f69499196a5661555083894c4afea0f9816325f",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "7fb5722e6548427bd819839b4ccc4fc01d6d29b5787eb7336b768b6b1c96dfe3",
-        "FEEDBURNER": "7fb5722e6548427bd819839b4ccc4fc01d6d29b5787eb7336b768b6b1c96dfe3"
+        "ORIGINAL": "9ae1fab7aafa86052de402b42f69499196a5661555083894c4afea0f9816325f",
+        "FEEDBURNER": "9ae1fab7aafa86052de402b42f69499196a5661555083894c4afea0f9816325f"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:35.554612+00:00",
-      "first_seen_local": "2026-11-06T06:59:35.554610-05:00",
-      "last_updated_utc": "2026-11-06T11:59:35.554612+00:00",
-      "last_updated_local": "2026-11-06T06:59:35.554610-05:00"
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
     },
     {
-      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-      "url": "http://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-      "published": "Fri, 06 Nov 2026 05:39:10 +0000",
-      "published_utc": "2026-11-06T05:39:10+00:00",
-      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6362693750019232857",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-      "content_hash": "dcc841cadcc6fd1ad8b62e072405cd85d155a1c83a224e0dd7a218ff29ae2198",
+      "title": "Microsoft Warns Fake Game Downloads Are Secretly Monetizing Windows PCs",
+      "url": "https://cybersecuritynews.com/microsoft-warns-fake-game-downloads/",
+      "published": "Fri, 06 Nov 2026 14:38:43 +0000",
+      "published_utc": "2026-11-06T14:38:43+00:00",
+      "summary": "<p>Fake game downloads and cracked software installers are turning Windows PCs into money-making tools for campaign operators. Microsoft has warned that deceptive installation packages quietly deliver software that shares internet bandwidth, runs distributed-computing workloads, or installs unwanted utilities, often without users understanding what they have agreed to install. The campaign targets people searching for free [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-warns-fake-game-downloads/\">Microsoft Warns Fake Game Downloads Are Secretly Monetizing Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170689",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-warns-fake-game-downloads",
+      "content_hash": "f72776e0110fb8fd4cb443a2f6493e499980edd5a3296cf2401400d72bb8c7b5",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "dcc841cadcc6fd1ad8b62e072405cd85d155a1c83a224e0dd7a218ff29ae2198",
-        "FEEDBURNER": "dcc841cadcc6fd1ad8b62e072405cd85d155a1c83a224e0dd7a218ff29ae2198"
+        "ORIGINAL": "f72776e0110fb8fd4cb443a2f6493e499980edd5a3296cf2401400d72bb8c7b5",
+        "FEEDBURNER": "f72776e0110fb8fd4cb443a2f6493e499980edd5a3296cf2401400d72bb8c7b5"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-06T11:59:35.554612+00:00",
-      "first_seen_local": "2026-11-06T06:59:35.554610-05:00",
-      "last_updated_utc": "2026-11-06T11:59:35.554612+00:00",
-      "last_updated_local": "2026-11-06T06:59:35.554610-05:00"
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
+    },
+    {
+      "title": "Anthropic’s Claude Code Reportedly Leaks User Email Addresses Through HTTP User-Agent Headers",
+      "url": "https://cybersecuritynews.com/claude-code-leaks-user-email/",
+      "published": "Fri, 06 Nov 2026 14:37:40 +0000",
+      "published_utc": "2026-11-06T14:37:40+00:00",
+      "summary": "<p>Anthropic’s Claude Code is facing privacy concerns after a user reported that the AI coding tool sent their email address to third-party websites through HTTP User-Agent headers during web searches, without permission. The report raises questions about how coding agents handle personal data while carrying out routine tasks. GitHub user taylor-edwards filed issue #107757 on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-leaks-user-email/\">Anthropic&#8217;s Claude Code Reportedly Leaks User Email Addresses Through HTTP User-Agent Headers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170695",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-code-leaks-user-email",
+      "content_hash": "b81a439b761a5654800aa2d5f6c1a041cd468a553d53baaa5441d013cd4b90c8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b81a439b761a5654800aa2d5f6c1a041cd468a553d53baaa5441d013cd4b90c8",
+        "FEEDBURNER": "b81a439b761a5654800aa2d5f6c1a041cd468a553d53baaa5441d013cd4b90c8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
+    },
+    {
+      "title": "Hackers Launch 240,000 Exploit Attempts WordPress Core Flaw Enabling Remote Code Execution",
+      "url": "https://cybersecuritynews.com/240000-wordpress-exploit-attempts/",
+      "published": "Fri, 06 Nov 2026 14:15:17 +0000",
+      "published_utc": "2026-11-06T14:15:17+00:00",
+      "summary": "<p>Hackers have launched more than 240,000 exploit attempts against a WordPress Core vulnerability that can allow attackers to run malicious code without logging in. According to the supplied Wordfence report, attacks began on October 28, 2026, the same day WordPress released a security update addressing the flaw. Tracked as CVE-2026-119977, the vulnerability carries a high [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/240000-wordpress-exploit-attempts/\">Hackers Launch 240,000 Exploit Attempts WordPress Core Flaw Enabling Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170687",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/240000-wordpress-exploit-attempts",
+      "content_hash": "291241a60a33dce3027b1b9caeed2f223c934354c58136fa16d7bfb2c1fd227e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "291241a60a33dce3027b1b9caeed2f223c934354c58136fa16d7bfb2c1fd227e",
+        "FEEDBURNER": "291241a60a33dce3027b1b9caeed2f223c934354c58136fa16d7bfb2c1fd227e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
+    },
+    {
+      "title": "Mirax Android RAT Hijacks Phones Through Streaming-App Ads to Steal Banking Credentials and Drain Accounts",
+      "url": "https://cybersecuritynews.com/mirax-android-rat/",
+      "published": "Fri, 06 Nov 2026 14:08:55 +0000",
+      "published_utc": "2026-11-06T14:08:55+00:00",
+      "summary": "<p>An Android banking malware campaign is turning streaming-app advertisements into a route for stealing credentials and draining accounts. Mirax, the remote access trojan lets criminals watch infected phones, intercept security codes, and operate banking apps directly from victims’ devices. Thousands of Android phones belonging to retail banking customers across the Middle East, Turkey, and Africa [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mirax-android-rat/\">Mirax Android RAT Hijacks Phones Through Streaming-App Ads to Steal Banking Credentials and Drain Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170684",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/mirax-android-rat",
+      "content_hash": "c378dbabb1efaa5c79682b4996bf6444b57beba456a6617b27a182a5f5725a95",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c378dbabb1efaa5c79682b4996bf6444b57beba456a6617b27a182a5f5725a95",
+        "FEEDBURNER": "c378dbabb1efaa5c79682b4996bf6444b57beba456a6617b27a182a5f5725a95"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
+    },
+    {
+      "title": "ARTEX AI Agents Steal 190,000 Gaming Credentials and Hundreds of Apple Code-Signing Certificates",
+      "url": "https://cybersecuritynews.com/artex-ai-agents/",
+      "published": "Fri, 06 Nov 2026 13:49:57 +0000",
+      "published_utc": "2026-11-06T13:49:57+00:00",
+      "summary": "<p>Cybercriminals are now using ARTEX, an AI-powered penetration testing platform, to break into websites with almost no human input. In the cases studied, the AI agents stole more than 190,000 gaming credentials and over 300 Apple code-signing certificates. Only three of those certificates still worked. ARTEX was built as an open-source tool to help security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/artex-ai-agents/\">ARTEX AI Agents Steal 190,000 Gaming Credentials and Hundreds of Apple Code-Signing Certificates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170664",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/artex-ai-agents",
+      "content_hash": "837850d2610e52db7d62f772a6292dda2392b01eda5d402fa7dbd0b1c74d2b8a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "837850d2610e52db7d62f772a6292dda2392b01eda5d402fa7dbd0b1c74d2b8a",
+        "FEEDBURNER": "837850d2610e52db7d62f772a6292dda2392b01eda5d402fa7dbd0b1c74d2b8a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
+    },
+    {
+      "title": "Hackers Use ARTEX AI to Find GitHub Secrets and Steal Azure Key Vault Data in Just 5 Minutes",
+      "url": "https://cybersecuritynews.com/hackers-use-artex-ai/",
+      "published": "Fri, 06 Nov 2026 12:08:58 +0000",
+      "published_utc": "2026-11-06T12:08:58+00:00",
+      "summary": "<p>Hackers are using the ARTEX AI framework to find exposed credentials on GitHub and turn them into access to cloud systems. In one observed case, an AI agent moved from searching public repositories for application secrets to stealing data from Azure Key Vault in just five minutes, showing how quickly a coding mistake can become [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-artex-ai/\">Hackers Use ARTEX AI to Find GitHub Secrets and Steal Azure Key Vault Data in Just 5 Minutes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170661",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-artex-ai",
+      "content_hash": "9f282ff7073a4cbb58b10e5b57da1d3544ccc17a99f120e3780a6a6fbb88eec4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9f282ff7073a4cbb58b10e5b57da1d3544ccc17a99f120e3780a6a6fbb88eec4",
+        "FEEDBURNER": "9f282ff7073a4cbb58b10e5b57da1d3544ccc17a99f120e3780a6a6fbb88eec4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:14.773955+00:00",
+      "first_seen_local": "2026-11-06T14:16:14.773952-05:00",
+      "last_updated_utc": "2026-11-06T19:16:14.773955+00:00",
+      "last_updated_local": "2026-11-06T14:16:14.773952-05:00"
+    },
+    {
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "url": "http://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "published": "Fri, 06 Nov 2026 12:06:43 +0000",
+      "published_utc": "2026-11-06T12:06:43+00:00",
+      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4424200672849818541",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "content_hash": "ce7c8b3e48909fbd37771378ba7527fb70822e95b3f3d71711e730c639b623c4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ce7c8b3e48909fbd37771378ba7527fb70822e95b3f3d71711e730c639b623c4",
+        "FEEDBURNER": "ce7c8b3e48909fbd37771378ba7527fb70822e95b3f3d71711e730c639b623c4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
+    },
+    {
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "url": "http://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "published": "Fri, 06 Nov 2026 12:06:35 +0000",
+      "published_utc": "2026-11-06T12:06:35+00:00",
+      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7651641491031435142",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "content_hash": "ad169472f2e35f4089c675ec071a65a9fcd0ed69d77055034eb053d5d6cc005c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ad169472f2e35f4089c675ec071a65a9fcd0ed69d77055034eb053d5d6cc005c",
+        "FEEDBURNER": "ad169472f2e35f4089c675ec071a65a9fcd0ed69d77055034eb053d5d6cc005c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T19:16:21.122198+00:00",
+      "first_seen_local": "2026-11-06T14:16:21.122195-05:00",
+      "last_updated_utc": "2026-11-06T19:16:21.122198+00:00",
+      "last_updated_local": "2026-11-06T14:16:21.122195-05:00"
     }
   ]
 }

@@ -2,8 +2,146 @@
   "month": "2026-11",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 66,
+  "article_count": 71,
   "articles": [
+    {
+      "title": "Storm-2603 Hackers Exploit SharePoint ToolShell Flaws to Hide Fileless Backdoor and Launch Ransomware Attack",
+      "url": "https://cybersecuritynews.com/storm-2603-hackers/",
+      "published": "Fri, 06 Nov 2026 11:43:01 +0000",
+      "published_utc": "2026-11-06T11:43:01+00:00",
+      "summary": "<p>A China-linked threat group tracked as Storm-2603 has used the SharePoint ToolShell flaws to plant a backdoor that never touches the disk. The group then tried to run Warlock ransomware on the same network. The break-in hit an on-premises SharePoint server and ended with a ransomware launch that security software blocked. ToolShell is the name [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/storm-2603-hackers/\">Storm-2603 Hackers Exploit SharePoint ToolShell Flaws to Hide Fileless Backdoor and Launch Ransomware Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170651",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/storm-2603-hackers",
+      "content_hash": "6b19381c293f5764303a2e11a018960d8ecc1dc3bbd2e41ea2cf39f543f5d387",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6b19381c293f5764303a2e11a018960d8ecc1dc3bbd2e41ea2cf39f543f5d387"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
+      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
+      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
+      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
+    },
+    {
+      "title": "ARTEX AI Hacking Framework Found on 1,465 Public Servers, Some Hosting Cyberattack Tools",
+      "url": "https://cybersecuritynews.com/artex-ai-hacking-framework/",
+      "published": "Fri, 06 Nov 2026 09:02:33 +0000",
+      "published_utc": "2026-11-06T09:02:33+00:00",
+      "summary": "<p>Security researchers have found ARTEX, an AI-powered penetration-testing framework, exposed on 1,465 internet-facing hosts. Some servers also hosted command-and-control tools, phishing software, and exploit files, showing how automated security-testing platforms are appearing alongside established attack infrastructure. The findings offer defenders a view of these environments, including files operators left publicly accessible. The count does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/artex-ai-hacking-framework/\">ARTEX AI Hacking Framework Found on 1,465 Public Servers, Some Hosting Cyberattack Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170634",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/artex-ai-hacking-framework",
+      "content_hash": "382bf897d3806750fe68b571d3091e717aaa187c46ae1ad6aee0dfcc6601b91d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "382bf897d3806750fe68b571d3091e717aaa187c46ae1ad6aee0dfcc6601b91d",
+        "FEEDBURNER": "382bf897d3806750fe68b571d3091e717aaa187c46ae1ad6aee0dfcc6601b91d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
+      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
+      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
+      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
+    },
+    {
+      "title": "Claude Dispatch Flaw Lets Malicious Browser Extensions Run Code on Connected Computers",
+      "url": "https://cybersecuritynews.com/claude-dispatch-vulnerability/",
+      "published": "Fri, 06 Nov 2026 08:40:43 +0000",
+      "published_utc": "2026-11-06T08:40:43+00:00",
+      "summary": "<p>A flaw in Anthropic&#8217;s Claude Dispatch let a malicious browser extension run commands on a computer via Claude Desktop. That computer could even be a different machine signed into the same Claude account. Researcher Gal Weizman of Forever Security named the technique ThisBash and published the findings on November 4, 2026. Anthropic plans to retire [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-dispatch-vulnerability/\">Claude Dispatch Flaw Lets Malicious Browser Extensions Run Code on Connected Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170639",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-dispatch-vulnerability",
+      "content_hash": "ca07d99c9f7d6884896cb952a944b70899ecb2fff4c32bd2f340395aed307eab",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ca07d99c9f7d6884896cb952a944b70899ecb2fff4c32bd2f340395aed307eab",
+        "FEEDBURNER": "ca07d99c9f7d6884896cb952a944b70899ecb2fff4c32bd2f340395aed307eab"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
+      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
+      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
+      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
+    },
+    {
+      "title": "Hackers Could Bypass ChatGPT Lockdown Mode to Steal Conversations Without Users Knowing",
+      "url": "https://cybersecuritynews.com/chatgpt-lockdown-mode-bypass/",
+      "published": "Fri, 06 Nov 2026 08:16:23 +0000",
+      "published_utc": "2026-11-06T08:16:23+00:00",
+      "summary": "<p>A flaw in ChatGPT let attackers slip past Lockdown Mode, the safety setting meant to stop data leaks. Check Point Research found that a hidden pop-up trick could copy a user&#8217;s full chat history, show fake windows, and push malware. In the ChatGPT Classic desktop app, simply chatting was enough to trigger the leak. OpenAI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-lockdown-mode-bypass/\">Hackers Could Bypass ChatGPT Lockdown Mode to Steal Conversations Without Users Knowing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170633",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/chatgpt-lockdown-mode-bypass",
+      "content_hash": "fee5ed0f284eb387b35656ec747ba6e8b394ee30b790db247c14b37d298d4a28",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fee5ed0f284eb387b35656ec747ba6e8b394ee30b790db247c14b37d298d4a28",
+        "FEEDBURNER": "fee5ed0f284eb387b35656ec747ba6e8b394ee30b790db247c14b37d298d4a28"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
+      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
+      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
+      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
+    },
+    {
+      "title": "Top 10 Best Deception Technology Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-deception-technology/",
+      "published": "Fri, 06 Nov 2026 06:41:22 +0000",
+      "published_utc": "2026-11-06T06:41:22+00:00",
+      "summary": "<p>Deception inverts security’s worst ratio: instead of mining millions of events for one attacker, you plant assets only an attacker would touch and wait for the phone to ring. A tripped canary token or accessed decoy credential carries near-zero false-positive probability, which makes deception the cheapest high-fidelity signal in the stack. The 2026 market splits [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-deception-technology/\">Top 10 Best Deception Technology Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170488",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-deception-technology",
+      "content_hash": "4aaf5bc1fd8705f88faab0d8ddfb4459caee5d5d5e8dba5a81a49b4d88bab174",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4aaf5bc1fd8705f88faab0d8ddfb4459caee5d5d5e8dba5a81a49b4d88bab174",
+        "FEEDBURNER": "4aaf5bc1fd8705f88faab0d8ddfb4459caee5d5d5e8dba5a81a49b4d88bab174"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-06T11:59:30.156275+00:00",
+      "first_seen_local": "2026-11-06T06:59:30.156272-05:00",
+      "last_updated_utc": "2026-11-06T11:59:30.156275+00:00",
+      "last_updated_local": "2026-11-06T06:59:30.156272-05:00"
+    },
     {
       "title": "OpenAI Launches GPT-6 Cyber That Finds 81 Firefox Flaws and Develops 948 Linux Exploits",
       "url": "https://cybersecuritynews.com/openai-launches-gpt-6-cyber/",

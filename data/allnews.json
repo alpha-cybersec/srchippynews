@@ -1,154 +1,38 @@
 {
-  "generated_at_utc": "2026-11-07T12:51:35.486875+00:00",
-  "generated_at_local": "2026-11-07T07:51:35.486882-05:00",
-  "article_count": 5,
-  "new_count": 5,
+  "generated_at_utc": "2026-11-07T17:59:45.777893+00:00",
+  "generated_at_local": "2026-11-07T12:59:45.777900-05:00",
+  "article_count": 1,
+  "new_count": 1,
   "updated_count": 0,
   "sources": {
-    "gbhackers": 3,
-    "cybersecuritynews": 1,
-    "thehackernews": 1
+    "cybersecuritynews": 1
   },
   "articles": [
     {
-      "title": "Claude Code’s “Don’t Ask Again” Feature Exposes 2,539 Secrets Across 1,994 GitHub Repositories",
-      "url": "https://gbhackers.com/claude-codes-dont-ask-again-feature-exposed/",
-      "published": "Sat, 07 Nov 2026 08:31:50 +0000",
-      "published_utc": "2026-11-07T08:31:50+00:00",
-      "summary": "<p>A newly identified 2,539 distinct secrets across 1,994 public GitHub repositories, tracing exposure to coding-agent configuration files, Git history, and saved transcripts. Their November 5 research describes how Claude Code’s “Yes, and don’t ask again” approval can persist credential-bearing shell commands inside .claude/settings.local.json. Exposed material included production database passwords, cloud credentials, API tokens, and SSH [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-codes-dont-ask-again-feature-exposed/\">Claude Code&#8217;s &#8220;Don&#8217;t Ask Again&#8221; Feature Exposes 2,539 Secrets Across 1,994 GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206321",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/claude-codes-dont-ask-again-feature-exposed",
-      "content_hash": "4ef54c0ce6cfdf6f2d5fa66b4a59185e39f7cf0f937582af4222835f8ee69dcd",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "4ef54c0ce6cfdf6f2d5fa66b4a59185e39f7cf0f937582af4222835f8ee69dcd",
-        "FEEDBURNER": "4ef54c0ce6cfdf6f2d5fa66b4a59185e39f7cf0f937582af4222835f8ee69dcd"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-07T12:51:30.176327+00:00",
-      "first_seen_local": "2026-11-07T07:51:30.176324-05:00",
-      "last_updated_utc": "2026-11-07T12:51:30.176327+00:00",
-      "last_updated_local": "2026-11-07T07:51:30.176324-05:00"
-    },
-    {
-      "title": "Claude Code’s “Yes, and Don’t Ask Again” Option Can Leak Passwords and API Keys to GitHub",
-      "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
-      "published": "Sat, 07 Nov 2026 08:20:25 +0000",
-      "published_utc": "2026-11-07T08:20:25+00:00",
-      "summary": "<p>Claude Code’s “Yes, and don’t ask again” option can save passwords and API keys inside project settings that later reach public GitHub repositories. Apiiro researchers found 2,539 distinct secrets across 1,994 public repositories, showing how a routine approval can turn private credentials into public data. The research identified 63 affected organizations, mostly software companies. Exposed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/\">Claude Code&#8217;s &#8220;Yes, and Don&#8217;t Ask Again&#8221; Option Can Leak Passwords and API Keys to GitHub</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170818",
+      "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
+      "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
+      "published": "Sat, 07 Nov 2026 12:59:02 +0000",
+      "published_utc": "2026-11-07T12:59:02+00:00",
+      "summary": "<p>SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks. Tracked as CVE-2026-19868, the flaw carries a CVSS score of 7.1. The company has investigated a report indicating potential exploitation and strongly urges customers to upgrade promptly. The issue affects SSLVPN only when [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/\">SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170871",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/claude-codes-yes-and-dont-ask-again",
-      "content_hash": "0b15664abc6377578d4881a9e15877809fbc3f7502ae69f1d4775c18883673dd",
+      "article_key": "cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited",
+      "content_hash": "8fddcdcbf04416695263e894bdb4b156fe1c1b051f6f0e6474f9e2188a50e59e",
       "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0b15664abc6377578d4881a9e15877809fbc3f7502ae69f1d4775c18883673dd",
-        "FEEDBURNER": "0b15664abc6377578d4881a9e15877809fbc3f7502ae69f1d4775c18883673dd"
+        "FEEDBURNER": "8fddcdcbf04416695263e894bdb4b156fe1c1b051f6f0e6474f9e2188a50e59e"
       },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-07T12:51:30.499499+00:00",
-      "first_seen_local": "2026-11-07T07:51:30.499496-05:00",
-      "last_updated_utc": "2026-11-07T12:51:30.499499+00:00",
-      "last_updated_local": "2026-11-07T07:51:30.499496-05:00"
-    },
-    {
-      "title": "Hackers Exploit WordPress Core RCE Vulnerability in Over 240,000 Attack Attempts",
-      "url": "https://gbhackers.com/exploit-wordpress-core-over-240000-attack/",
-      "published": "Sat, 07 Nov 2026 08:06:17 +0000",
-      "published_utc": "2026-11-07T08:06:17+00:00",
-      "summary": "<p>Attackers have launched more than 240,000 exploit attempts against a WordPress Core upgrade-process flaw that can enable unauthenticated remote code execution. Wordfence researcher István Márton reported that targeting began on October 28, 2026. Tracked as CVE-2026-119977, the high-severity issue carries a CVSS score of 8.1 and affects unpatched branches spanning WordPress 4.7 through 7.1.3. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exploit-wordpress-core-over-240000-attack/\">Hackers Exploit WordPress Core RCE Vulnerability in Over 240,000 Attack Attempts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206317",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/exploit-wordpress-core-over-240000-attack",
-      "content_hash": "9c8a829ceaad6ecf1c7099701bed47fb8bae8d0abc7d5fc10f39557b46e8a5af",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "9c8a829ceaad6ecf1c7099701bed47fb8bae8d0abc7d5fc10f39557b46e8a5af",
-        "FEEDBURNER": "9c8a829ceaad6ecf1c7099701bed47fb8bae8d0abc7d5fc10f39557b46e8a5af"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-07T12:51:30.176327+00:00",
-      "first_seen_local": "2026-11-07T07:51:30.176324-05:00",
-      "last_updated_utc": "2026-11-07T12:51:30.176327+00:00",
-      "last_updated_local": "2026-11-07T07:51:30.176324-05:00"
-    },
-    {
-      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "url": "http://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "published": "Sat, 07 Nov 2026 06:44:17 +0000",
-      "published_utc": "2026-11-07T06:44:17+00:00",
-      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.\n\nSoftware security company Apiiro said yesterday that 1,122 public",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1122462979977744795",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "content_hash": "aa3c3aade01522fcc65f1954c57f3802c4078e8f2cefcca3773b89c8e10aa5bb",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "aa3c3aade01522fcc65f1954c57f3802c4078e8f2cefcca3773b89c8e10aa5bb",
-        "FEEDBURNER": "aa3c3aade01522fcc65f1954c57f3802c4078e8f2cefcca3773b89c8e10aa5bb"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-07T12:51:35.481808+00:00",
-      "first_seen_local": "2026-11-07T07:51:35.481805-05:00",
-      "last_updated_utc": "2026-11-07T12:51:35.481808+00:00",
-      "last_updated_local": "2026-11-07T07:51:35.481805-05:00"
-    },
-    {
-      "title": "Hackers Use Fake GitHub Security Tools to Spread Malware, Infecting Over 2,000 Computers",
-      "url": "https://gbhackers.com/hackers-use-fake-github-security-tools/",
-      "published": "Sat, 07 Nov 2026 06:06:56 +0000",
-      "published_utc": "2026-11-07T06:06:56+00:00",
-      "summary": "<p>Threat actors are distributing malware through GitHub repositories masquerading as security utilities, infecting more than 2,000 computers. According to Doctor Web’s November 5 investigation, the campaign targets cybersecurity professionals alongside blockchain gaming enthusiasts, weaponizing Visual Studio projects and Python and Go scripts to deploy remote access backdoors, cryptocurrency clippers, and credential stealers. The operation initially [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-fake-github-security-tools/\">Hackers Use Fake GitHub Security Tools to Spread Malware, Infecting Over 2,000 Computers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206312",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-use-fake-github-security-tools",
-      "content_hash": "ebde3a99ec5a2c155bbfd3bce05b0bce7a881065b0601f796cc1d39bbd6100f5",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ebde3a99ec5a2c155bbfd3bce05b0bce7a881065b0601f796cc1d39bbd6100f5",
-        "FEEDBURNER": "ebde3a99ec5a2c155bbfd3bce05b0bce7a881065b0601f796cc1d39bbd6100f5"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-07T12:51:30.176327+00:00",
-      "first_seen_local": "2026-11-07T07:51:30.176324-05:00",
-      "last_updated_utc": "2026-11-07T12:51:30.176327+00:00",
-      "last_updated_local": "2026-11-07T07:51:30.176324-05:00"
+      "first_seen_utc": "2026-11-07T17:59:39.896336+00:00",
+      "first_seen_local": "2026-11-07T12:59:39.896332-05:00",
+      "last_updated_utc": "2026-11-07T17:59:39.896336+00:00",
+      "last_updated_local": "2026-11-07T12:59:39.896332-05:00"
     }
   ]
 }

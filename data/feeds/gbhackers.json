@@ -10,87 +10,23 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
+      "article_count": 2,
       "articles": [
         {
-          "title": "Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing",
-          "url": "https://gbhackers.com/dark-project-ransomware/",
-          "published": "Fri, 06 Nov 2026 11:32:36 +0000",
-          "published_utc": "2026-11-06T11:32:36+00:00",
-          "summary": "<p>Dark Project, an emerging financially motivated ransomware operation, has claimed 38 victims across eight countries in the supplied threat intelligence snapshot, with manufacturing and healthcare bearing the heaviest exposure. The group combines data theft, system encryption, and public disclosure threats with an affiliate program designed to scale intrusions. The figures represent allegations published through criminal [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dark-project-ransomware/\">Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206265"
+          "title": "Hackers Exploit SonicWall SSL-VPN Vulnerability to Bypass Multi-Factor Authentication in Active Attacks",
+          "url": "https://gbhackers.com/sonicwall-ssl-vpn-vulnerability/",
+          "published": "Sat, 07 Nov 2026 05:45:37 +0000",
+          "published_utc": "2026-11-07T05:45:37+00:00",
+          "summary": "<p>SonicWall has disclosed an SSL-VPN authentication enforcement flaw that could let attackers bypass SAML authentication and associated multi-factor authentication controls. Tracked as CVE-2026-19868, the issue carries a CVSS score of 7.1. Advisory SNWLID-2026-0014, published November 6, 2026, states that SonicWall PSIRT investigated a report indicating potential exploitation. That wording signals suspected malicious activity, rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sonicwall-ssl-vpn-vulnerability/\">Hackers Exploit SonicWall SSL-VPN Vulnerability to Bypass Multi-Factor Authentication in Active Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206308"
         },
         {
-          "title": "Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts",
-          "url": "https://gbhackers.com/mirax-android-malware/",
-          "published": "Fri, 06 Nov 2026 10:13:22 +0000",
-          "published_utc": "2026-11-06T10:13:22+00:00",
-          "summary": "<p>Hackers are using streaming app lures to distribute Mirax. This Android banking trojan lets operators remotely control victims’ phones and initiate fraudulent transfers. Estimated losses reach millions of dollars, although confirmed cases capture only part of the campaign’s impact. The operation remained active when Group-IB published its November 5 investigation. Researchers linked the infections through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mirax-android-malware/\">Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206248"
-        },
-        {
-          "title": "Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates",
-          "url": "https://gbhackers.com/gaming-accounts-targeted/",
-          "published": "Fri, 06 Nov 2026 09:47:27 +0000",
-          "published_utc": "2026-11-06T09:47:27+00:00",
-          "summary": "<p>ARTEX, a Chinese open-source agentic penetration-testing platform, to run autonomous attacks. The operators set a goal and then mostly check progress. Researchers identified 2,557 systems that host or hosted ARTEX panels, and 1,608 were live and public. Ten misconfigured instances exposed their full databases. Those databases show the models, prompts and actions behind the campaigns. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gaming-accounts-targeted/\">Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206224"
-        },
-        {
-          "title": "Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers",
-          "url": "https://gbhackers.com/claude-ai-flaw/",
-          "published": "Fri, 06 Nov 2026 09:18:04 +0000",
-          "published_utc": "2026-11-06T09:18:04+00:00",
-          "summary": "<p>A design flaw in Anthropic&#8217;s Claude Dispatch feature let a malicious browser extension run commands on the operating system, even on a different computer. Researchers at Forever Security named the attack ThisBash. They found that Claude Dispatch accepted instructions from an ordinary logged-in claude.ai session. An extension that could control that site could therefore send [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-flaw/\">Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206228"
-        },
-        {
-          "title": "ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction",
-          "url": "https://gbhackers.com/chatgpt-lockdown-mode-bypass/",
-          "published": "Fri, 06 Nov 2026 08:56:59 +0000",
-          "published_utc": "2026-11-06T08:56:59+00:00",
-          "summary": "<p>Research found a flaw that bypassed ChatGPT&#8217;s Lockdown Mode. It let attackers silently exfiltrate full chat histories, deliver malware, and phish credentials from inside a trusted interface. Researcher Alexey Bukhteyev published the findings on November 5, 2026. In the ChatGPT Classic desktop app, simply having a conversation triggered the leak. OpenAI built Lockdown Mode as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-lockdown-mode-bypass/\">ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206222"
-        },
-        {
-          "title": "11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/security-policy-management-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:50:31 +0000",
-          "published_utc": "2026-11-06T06:50:31+00:00",
-          "summary": "<p>“Security policy management” names two different markets wearing one label, and this roster contains both: network security policy management (NSPM) firewall rulebases, segmentation intent, change automation across hybrid estates and written-policy lifecycle the documents people must read, sign, and prove to auditors. Buying across the confusion wastes budget, so this verdict guide judges eleven tools [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-policy-management-buyers-guide/\">11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206119"
-        },
-        {
-          "title": "11 IT & Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/it-cyber-risk-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:48:44 +0000",
-          "published_utc": "2026-11-06T06:48:44+00:00",
-          "summary": "<p>IT and cyber risk management tooling is the register discipline underneath GRC’s broader umbrella: risks captured with owners and treatments, controls linked, exceptions tracked, and reporting that survives committee scrutiny. Where our GRC platforms guide judges the whole estate, this guide narrows to the risk-register workflow itself how honestly eleven platforms capture, score, treat, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/it-cyber-risk-buyers-guide/\">11 IT &amp; Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206151"
-        },
-        {
-          "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/audit-management-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:47:09 +0000",
-          "published_utc": "2026-11-06T06:47:09+00:00",
-          "summary": "<p>Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms audit-born specialists, GRC suites with audit modules, and the reporting-grade heavyweights on fieldwork ergonomics, evidence automation, and the committee-pack mile. The wider risk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/audit-management-buyers-guide/\">11 Audit Management Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206092"
-        },
-        {
-          "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/security-ratings-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:44:14 +0000",
-          "published_utc": "2026-11-06T06:44:14+00:00",
-          "summary": "<p>Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s duty is knowing what a score can and can’t see, and this roster needs two honesty notes up front: NormShield is Black Kite’s former name (one company, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-ratings-buyers-guide/\">10 Security Ratings Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206067"
-        },
-        {
-          "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials",
-          "url": "https://gbhackers.com/azure-key-vault-secrets/",
-          "published": "Fri, 06 Nov 2026 06:43:37 +0000",
-          "published_utc": "2026-11-06T06:43:37+00:00",
-          "summary": "<p>Attackers using the ARTEX agentic AI framework to discover exposed GitHub credentials and rapidly compromise cloud environments. In one intrusion, an AI agent progressed from searching GitHub for application secrets to exfiltrating Azure Key Vault data in just five minutes. The activity compresses a familiar attack chain: finding leaked credentials, validating access, mapping resources, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/azure-key-vault-secrets/\">Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206212"
+          "title": "WorkOS Confirms Data Breach After ARTEX AI Agent Escapes Security Researcher’s Sandbox",
+          "url": "https://gbhackers.com/workos-data-breach-artex-ai/",
+          "published": "Sat, 07 Nov 2026 05:28:50 +0000",
+          "published_utc": "2026-11-07T05:28:50+00:00",
+          "summary": "<p>WorkOS confirmed that an ARTEX security agent escaped a researcher’s isolated testing environment and accessed an internal application, exposing customer business information. In its November 6 update, the company attributed the incident to unintended activity during cybersecurity benchmark evaluations, rather than a malicious operation. WorkOS accepted responsibility and cooperated with investigators. The incident highlights the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/workos-data-breach-artex-ai/\">WorkOS Confirms Data Breach After ARTEX AI Agent Escapes Security Researcher&#8217;s Sandbox</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206304"
         }
       ],
       "error": ""
@@ -103,89 +39,8 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing",
-          "url": "https://gbhackers.com/dark-project-ransomware/",
-          "published": "Fri, 06 Nov 2026 11:32:36 +0000",
-          "published_utc": "2026-11-06T11:32:36+00:00",
-          "summary": "<p>Dark Project, an emerging financially motivated ransomware operation, has claimed 38 victims across eight countries in the supplied threat intelligence snapshot, with manufacturing and healthcare bearing the heaviest exposure. The group combines data theft, system encryption, and public disclosure threats with an affiliate program designed to scale intrusions. The figures represent allegations published through criminal [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dark-project-ransomware/\">Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206265"
-        },
-        {
-          "title": "Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts",
-          "url": "https://gbhackers.com/mirax-android-malware/",
-          "published": "Fri, 06 Nov 2026 10:13:22 +0000",
-          "published_utc": "2026-11-06T10:13:22+00:00",
-          "summary": "<p>Hackers are using streaming app lures to distribute Mirax. This Android banking trojan lets operators remotely control victims’ phones and initiate fraudulent transfers. Estimated losses reach millions of dollars, although confirmed cases capture only part of the campaign’s impact. The operation remained active when Group-IB published its November 5 investigation. Researchers linked the infections through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mirax-android-malware/\">Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206248"
-        },
-        {
-          "title": "Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates",
-          "url": "https://gbhackers.com/gaming-accounts-targeted/",
-          "published": "Fri, 06 Nov 2026 09:47:27 +0000",
-          "published_utc": "2026-11-06T09:47:27+00:00",
-          "summary": "<p>ARTEX, a Chinese open-source agentic penetration-testing platform, to run autonomous attacks. The operators set a goal and then mostly check progress. Researchers identified 2,557 systems that host or hosted ARTEX panels, and 1,608 were live and public. Ten misconfigured instances exposed their full databases. Those databases show the models, prompts and actions behind the campaigns. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gaming-accounts-targeted/\">Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206224"
-        },
-        {
-          "title": "Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers",
-          "url": "https://gbhackers.com/claude-ai-flaw/",
-          "published": "Fri, 06 Nov 2026 09:18:04 +0000",
-          "published_utc": "2026-11-06T09:18:04+00:00",
-          "summary": "<p>A design flaw in Anthropic&#8217;s Claude Dispatch feature let a malicious browser extension run commands on the operating system, even on a different computer. Researchers at Forever Security named the attack ThisBash. They found that Claude Dispatch accepted instructions from an ordinary logged-in claude.ai session. An extension that could control that site could therefore send [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-ai-flaw/\">Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206228"
-        },
-        {
-          "title": "ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction",
-          "url": "https://gbhackers.com/chatgpt-lockdown-mode-bypass/",
-          "published": "Fri, 06 Nov 2026 08:56:59 +0000",
-          "published_utc": "2026-11-06T08:56:59+00:00",
-          "summary": "<p>Research found a flaw that bypassed ChatGPT&#8217;s Lockdown Mode. It let attackers silently exfiltrate full chat histories, deliver malware, and phish credentials from inside a trusted interface. Researcher Alexey Bukhteyev published the findings on November 5, 2026. In the ChatGPT Classic desktop app, simply having a conversation triggered the leak. OpenAI built Lockdown Mode as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-lockdown-mode-bypass/\">ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206222"
-        },
-        {
-          "title": "11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/security-policy-management-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:50:31 +0000",
-          "published_utc": "2026-11-06T06:50:31+00:00",
-          "summary": "<p>“Security policy management” names two different markets wearing one label, and this roster contains both: network security policy management (NSPM) firewall rulebases, segmentation intent, change automation across hybrid estates and written-policy lifecycle the documents people must read, sign, and prove to auditors. Buying across the confusion wastes budget, so this verdict guide judges eleven tools [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-policy-management-buyers-guide/\">11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206119"
-        },
-        {
-          "title": "11 IT & Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/it-cyber-risk-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:48:44 +0000",
-          "published_utc": "2026-11-06T06:48:44+00:00",
-          "summary": "<p>IT and cyber risk management tooling is the register discipline underneath GRC’s broader umbrella: risks captured with owners and treatments, controls linked, exceptions tracked, and reporting that survives committee scrutiny. Where our GRC platforms guide judges the whole estate, this guide narrows to the risk-register workflow itself how honestly eleven platforms capture, score, treat, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/it-cyber-risk-buyers-guide/\">11 IT &amp; Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206151"
-        },
-        {
-          "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/audit-management-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:47:09 +0000",
-          "published_utc": "2026-11-06T06:47:09+00:00",
-          "summary": "<p>Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms audit-born specialists, GRC suites with audit modules, and the reporting-grade heavyweights on fieldwork ergonomics, evidence automation, and the committee-pack mile. The wider risk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/audit-management-buyers-guide/\">11 Audit Management Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206092"
-        },
-        {
-          "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/security-ratings-buyers-guide/",
-          "published": "Fri, 06 Nov 2026 06:44:14 +0000",
-          "published_utc": "2026-11-06T06:44:14+00:00",
-          "summary": "<p>Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s duty is knowing what a score can and can’t see, and this roster needs two honesty notes up front: NormShield is Black Kite’s former name (one company, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-ratings-buyers-guide/\">10 Security Ratings Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206067"
-        },
-        {
-          "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials",
-          "url": "https://gbhackers.com/azure-key-vault-secrets/",
-          "published": "Fri, 06 Nov 2026 06:43:37 +0000",
-          "published_utc": "2026-11-06T06:43:37+00:00",
-          "summary": "<p>Attackers using the ARTEX agentic AI framework to discover exposed GitHub credentials and rapidly compromise cloud environments. In one intrusion, an AI agent progressed from searching GitHub for application secrets to exfiltrating Azure Key Vault data in just five minutes. The activity compresses a familiar attack chain: finding leaked credentials, validating access, mapping resources, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/azure-key-vault-secrets/\">Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206212"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

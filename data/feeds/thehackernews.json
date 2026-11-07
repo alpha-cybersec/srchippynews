@@ -10,81 +10,8 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 9,
-      "articles": [
-        {
-          "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-          "url": "http://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-          "published": "Fri, 06 Nov 2026 16:08:38 +0000",
-          "published_utc": "2026-11-06T16:08:38+00:00",
-          "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3373736156246979577"
-        },
-        {
-          "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-          "url": "http://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-          "published": "Fri, 06 Nov 2026 15:21:49 +0000",
-          "published_utc": "2026-11-06T15:21:49+00:00",
-          "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-826991381775092632"
-        },
-        {
-          "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-          "url": "http://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-          "published": "Fri, 06 Nov 2026 14:58:32 +0000",
-          "published_utc": "2026-11-06T14:58:32+00:00",
-          "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1770329041104015181"
-        },
-        {
-          "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-          "url": "http://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-          "published": "Fri, 06 Nov 2026 12:06:43 +0000",
-          "published_utc": "2026-11-06T12:06:43+00:00",
-          "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4424200672849818541"
-        },
-        {
-          "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-          "url": "http://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-          "published": "Fri, 06 Nov 2026 12:06:35 +0000",
-          "published_utc": "2026-11-06T12:06:35+00:00",
-          "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7651641491031435142"
-        },
-        {
-          "title": "The Flood is Coming And The Pipes Were Already Full",
-          "url": "http://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-          "published": "Fri, 06 Nov 2026 11:30:00 +0000",
-          "published_utc": "2026-11-06T11:30:00+00:00",
-          "summary": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1546236629064588029"
-        },
-        {
-          "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-          "url": "http://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-          "published": "Fri, 06 Nov 2026 08:04:49 +0000",
-          "published_utc": "2026-11-06T08:04:49+00:00",
-          "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4242062471792551650"
-        },
-        {
-          "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-          "url": "http://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-          "published": "Fri, 06 Nov 2026 05:58:54 +0000",
-          "published_utc": "2026-11-06T05:58:54+00:00",
-          "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-599469243449439109"
-        },
-        {
-          "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-          "url": "http://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-          "published": "Fri, 06 Nov 2026 05:39:10 +0000",
-          "published_utc": "2026-11-06T05:39:10+00:00",
-          "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6362693750019232857"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     },
     "FEEDBURNER": {
@@ -95,81 +22,8 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 9,
-      "articles": [
-        {
-          "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-          "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-          "published": "Fri, 06 Nov 2026 21:38:38 +0530",
-          "published_utc": "2026-11-06T16:08:38+00:00",
-          "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
-          "id": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
-        },
-        {
-          "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-          "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-          "published": "Fri, 06 Nov 2026 20:51:49 +0530",
-          "published_utc": "2026-11-06T15:21:49+00:00",
-          "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
-          "id": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
-        },
-        {
-          "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-          "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-          "published": "Fri, 06 Nov 2026 20:28:32 +0530",
-          "published_utc": "2026-11-06T14:58:32+00:00",
-          "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
-          "id": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-        },
-        {
-          "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-          "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-          "published": "Fri, 06 Nov 2026 17:36:43 +0530",
-          "published_utc": "2026-11-06T12:06:43+00:00",
-          "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-          "id": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
-        },
-        {
-          "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-          "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-          "published": "Fri, 06 Nov 2026 17:36:35 +0530",
-          "published_utc": "2026-11-06T12:06:35+00:00",
-          "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
-          "id": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
-        },
-        {
-          "title": "The Flood is Coming And The Pipes Were Already Full",
-          "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-          "published": "Fri, 06 Nov 2026 17:00:00 +0530",
-          "published_utc": "2026-11-06T11:30:00+00:00",
-          "summary": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his",
-          "id": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html"
-        },
-        {
-          "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-          "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-          "published": "Fri, 06 Nov 2026 13:34:49 +0530",
-          "published_utc": "2026-11-06T08:04:49+00:00",
-          "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
-          "id": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
-        },
-        {
-          "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-          "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-          "published": "Fri, 06 Nov 2026 11:28:54 +0530",
-          "published_utc": "2026-11-06T05:58:54+00:00",
-          "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
-          "id": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
-        },
-        {
-          "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-          "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-          "published": "Fri, 06 Nov 2026 11:09:10 +0530",
-          "published_utc": "2026-11-06T05:39:10+00:00",
-          "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
-          "id": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

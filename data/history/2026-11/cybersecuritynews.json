@@ -2,8 +2,34 @@
   "month": "2026-11",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 80,
+  "article_count": 81,
   "articles": [
+    {
+      "title": "Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication",
+      "url": "https://cybersecuritynews.com/react-server-components-vulnerability-patch/",
+      "published": "Mon, 09 Nov 2026 02:13:53 +0000",
+      "published_utc": "2026-11-09T02:13:53+00:00",
+      "summary": "<p>A critical security flaw in React Server Components can let attackers run code remotely without logging in. React published the advisory, tracked as GHSA-xqc2-xf4c-x3h3, on October 14, 2026. The issue carries a CVSS v4 score of 9.5, and the React team recommends immediate updates for affected applications. The flaw affects react-server-dom-webpack, react-server-dom-parcel, and react-server-dom-turbopack. These [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/react-server-components-vulnerability-patch/\">Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170889",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/react-server-components-vulnerability-patch",
+      "content_hash": "8f7698deae9b12a6b400492cd16d5dd73c02b03057df3f23fdc7d18ab9e0febe",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8f7698deae9b12a6b400492cd16d5dd73c02b03057df3f23fdc7d18ab9e0febe"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T02:36:42.815083+00:00",
+      "first_seen_local": "2026-11-08T21:36:42.815080-05:00",
+      "last_updated_utc": "2026-11-09T02:36:42.815083+00:00",
+      "last_updated_local": "2026-11-08T21:36:42.815080-05:00"
+    },
     {
       "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
       "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",

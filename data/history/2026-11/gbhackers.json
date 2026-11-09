@@ -2,8 +2,232 @@
   "month": "2026-11",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 77,
+  "article_count": 85,
   "articles": [
+    {
+      "title": "PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code",
+      "url": "https://gbhackers.com/polinrider-malware-attack/",
+      "published": "Mon, 09 Nov 2026 07:17:43 +0000",
+      "published_utc": "2026-11-09T07:17:43+00:00",
+      "summary": "<p>A concealed JavaScript loaders in 12 releases across 10 hijacked npm packages, linking the compromise to previously documented PolinRider activity. Investigated on November 4, 2026, the releases use Ethereum transactions to discover remote payload servers and execute downloaded code inside developer environments, build systems, or applications. Sonatype tracks the finding as sonatype-2026-010515.guide. Unlike installation-triggered supply-chain [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/polinrider-malware-attack/\">PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206380",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/polinrider-malware-attack",
+      "content_hash": "6739d040b43a4cf2f8e6e62138240168d0f1559fb760157056797cea6690c24f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6739d040b43a4cf2f8e6e62138240168d0f1559fb760157056797cea6690c24f",
+        "FEEDBURNER": "6739d040b43a4cf2f8e6e62138240168d0f1559fb760157056797cea6690c24f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "SonicWall Warns of Actively Exploited SSL-VPN Vulnerability That Bypasses SAML and MFA Protection",
+      "url": "https://gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability/",
+      "published": "Mon, 09 Nov 2026 06:20:55 +0000",
+      "published_utc": "2026-11-09T06:20:55+00:00",
+      "summary": "<p>SonicWall has urged customers to address an SSL-VPN authentication vulnerability that can bypass SAML controls, including associated multifactor authentication measures. This issue is tracked as CVE-2026-19868 and affects SonicOS deployments that utilize SAML for SSL-VPN logins. The company has investigated reports suggesting potential exploitation but has not confirmed a widespread attack campaign in its advisory. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability/\">SonicWall Warns of Actively Exploited SSL-VPN Vulnerability That Bypasses SAML and MFA Protection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206397",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability",
+      "content_hash": "08aaf7924130da1b895017ef04b79e96b3569b36beffe1f133396e518859cf0d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "08aaf7924130da1b895017ef04b79e96b3569b36beffe1f133396e518859cf0d",
+        "FEEDBURNER": "08aaf7924130da1b895017ef04b79e96b3569b36beffe1f133396e518859cf0d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers",
+      "url": "https://gbhackers.com/critical-react-server-components-vulnerability/",
+      "published": "Mon, 09 Nov 2026 06:11:56 +0000",
+      "published_utc": "2026-11-09T06:11:56+00:00",
+      "summary": "<p>A serious vulnerability in React Server Components may enable unauthenticated attackers to execute malicious code on affected servers. The advisory, released on October 14, 2026, assigns the issue a CVSS v4.0 score of 9.5. React maintainers advise that users update their systems immediately, though they emphasize that the conditions necessary for exploitation are extremely rare. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-react-server-components-vulnerability/\">Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206393",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-react-server-components-vulnerability",
+      "content_hash": "3556946156a21198f77b8b400391cd6d49722093c0ed2c89d6884ccdab2c603d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3556946156a21198f77b8b400391cd6d49722093c0ed2c89d6884ccdab2c603d",
+        "FEEDBURNER": "3556946156a21198f77b8b400391cd6d49722093c0ed2c89d6884ccdab2c603d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang",
+      "url": "https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/",
+      "published": "Mon, 09 Nov 2026 06:01:00 +0000",
+      "published_utc": "2026-11-09T06:01:00+00:00",
+      "summary": "<p>NVIDIA has initiated an independent investigation into reports suggesting that foreign intelligence may have targeted founder and CEO Jensen Huang. This inquiry, announced on November 8, 2026, will review all available information. The board said it currently has no evidence that national security or company secrets were compromised. According to the board’s official statement, a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/\">NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206385",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign",
+      "content_hash": "644d693a528cd6033cf16c09a2cbd3b622d3c4d24680f45dec095ca21342a1e6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "644d693a528cd6033cf16c09a2cbd3b622d3c4d24680f45dec095ca21342a1e6",
+        "FEEDBURNER": "644d693a528cd6033cf16c09a2cbd3b622d3c4d24680f45dec095ca21342a1e6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Anthropic’s Claude AI Deletes a Year of Law Professor’s Lecture Notes During Simple Editing Task",
+      "url": "https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/",
+      "published": "Mon, 09 Nov 2026 05:51:08 +0000",
+      "published_utc": "2026-11-09T05:51:08+00:00",
+      "summary": "<p>University of Chicago law professor William Baude says Anthropic’s Claude AI deleted his current syllabus and a year&#8217;s worth of constitutional law lecture notes while completing a routine editing assignment. Baude recovered every affected file through Dropbox, preventing permanent loss but highlighting the risks of granting AI assistants access to important documents. Baude reported the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/\">Anthropic&#8217;s Claude AI Deletes a Year of Law Professor&#8217;s Lecture Notes During Simple Editing Task</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206378",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes",
+      "content_hash": "ab8ceb529c6e4c206ee8030b56252b680eb29e1781172245318b6d16fca4fc7d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ab8ceb529c6e4c206ee8030b56252b680eb29e1781172245318b6d16fca4fc7d",
+        "FEEDBURNER": "ab8ceb529c6e4c206ee8030b56252b680eb29e1781172245318b6d16fca4fc7d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System",
+      "url": "https://gbhackers.com/notc2-ai-powered-hacking/",
+      "published": "Mon, 09 Nov 2026 05:50:02 +0000",
+      "published_utc": "2026-11-09T05:50:02+00:00",
+      "summary": "<p>NotC2, a proof-of-concept framework that combines legitimate AWS services with Amazon Bedrock to run post-compromise command-and-control operations. Published November 6, the research demonstrates how stolen cloud credentials can enable conversational reconnaissance while command traffic blends into trusted infrastructure. It describes service abuse, not a vulnerability in Bedrock or an initial-access exploit. Its central implication is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/notc2-ai-powered-hacking/\">NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206366",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/notc2-ai-powered-hacking",
+      "content_hash": "dd8b05a71d17af4424719bbe6b6f89ca00f97f08665058171cd2f06f5686263d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd8b05a71d17af4424719bbe6b6f89ca00f97f08665058171cd2f06f5686263d",
+        "FEEDBURNER": "dd8b05a71d17af4424719bbe6b6f89ca00f97f08665058171cd2f06f5686263d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Anthropic Claude Code’s ‘Don’t Ask Again’ Feature Exposes 2,539 Secrets on GitHub",
+      "url": "https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/",
+      "published": "Mon, 09 Nov 2026 05:39:19 +0000",
+      "published_utc": "2026-11-09T05:39:19+00:00",
+      "summary": "<p>Apiiro researchers Shmulik Cohen and Matan Giladi identified 2,539 distinct secrets across 1,994 public GitHub repositories. They linked these exposures to coding agents that record sensitive commands in project files. Their research, conducted in November and updated on November 8, describes how Claude Code’s “Yes, and don’t ask again” approval option can inadvertently preserve database [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/\">Anthropic Claude Code&#8217;s &#8216;Don&#8217;t Ask Again&#8217; Feature Exposes 2,539 Secrets on GitHub</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206354",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github",
+      "content_hash": "6c093d12e3dc64b12413d9aac80e11ff280c77421f02560b3b4358a3bf8ab365",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c093d12e3dc64b12413d9aac80e11ff280c77421f02560b3b4358a3bf8ab365",
+        "FEEDBURNER": "6c093d12e3dc64b12413d9aac80e11ff280c77421f02560b3b4358a3bf8ab365"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens",
+      "url": "https://gbhackers.com/armorsteal-malware-attack/",
+      "published": "Mon, 09 Nov 2026 05:01:54 +0000",
+      "published_utc": "2026-11-09T05:01:54+00:00",
+      "summary": "<p>ArmorSteal, a Python-based Windows malware kit. It steals credentials and crypto wallets, hijacks clipboard addresses, and runs a hidden Monero-style miner. The miner shuts down whenever a user opens Task Manager or another monitoring tool. Zscaler ThreatLabz documented the family on 22 October 2026. The Seqrite sample is newer than that report and an earlier [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/armorsteal-malware-attack/\">ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206355",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/armorsteal-malware-attack",
+      "content_hash": "648a57f6335aa40ff010eaf88334109df613deaab6c81392766f43fa95eee526",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "648a57f6335aa40ff010eaf88334109df613deaab6c81392766f43fa95eee526",
+        "FEEDBURNER": "648a57f6335aa40ff010eaf88334109df613deaab6c81392766f43fa95eee526"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
     {
       "title": "Claude Code’s “Don’t Ask Again” Feature Exposes 2,539 Secrets Across 1,994 GitHub Repositories",
       "url": "https://gbhackers.com/claude-codes-dont-ask-again-feature-exposed/",

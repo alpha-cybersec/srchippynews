@@ -1,38 +1,514 @@
 {
-  "generated_at_utc": "2026-11-09T02:36:47.156922+00:00",
-  "generated_at_local": "2026-11-08T21:36:47.156928-05:00",
-  "article_count": 1,
-  "new_count": 1,
+  "generated_at_utc": "2026-11-09T10:19:10.492659+00:00",
+  "generated_at_local": "2026-11-09T05:19:10.492666-05:00",
+  "article_count": 18,
+  "new_count": 18,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 1
+    "cybersecuritynews": 5,
+    "thehackernews": 5,
+    "gbhackers": 8
   },
   "articles": [
     {
-      "title": "Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication",
-      "url": "https://cybersecuritynews.com/react-server-components-vulnerability-patch/",
-      "published": "Mon, 09 Nov 2026 02:13:53 +0000",
-      "published_utc": "2026-11-09T02:13:53+00:00",
-      "summary": "<p>A critical security flaw in React Server Components can let attackers run code remotely without logging in. React published the advisory, tracked as GHSA-xqc2-xf4c-x3h3, on October 14, 2026. The issue carries a CVSS v4 score of 9.5, and the React team recommends immediate updates for affected applications. The flaw affects react-server-dom-webpack, react-server-dom-parcel, and react-server-dom-turbopack. These [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/react-server-components-vulnerability-patch/\">Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170889",
+      "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Scanning GitHub",
+      "url": "https://cybersecuritynews.com/artex-ai-azure-key-vault-secrets/",
+      "published": "Mon, 09 Nov 2026 10:04:55 +0000",
+      "published_utc": "2026-11-09T10:04:55+00:00",
+      "summary": "<p>Microsoft says threat actors are using an AI tool called ARTEX to find secrets in public GitHub code and use them against cloud accounts. In one case, the AI agent went from searching GitHub to pulling data from Azure Key Vault in only five minutes. ARTEX AI Azure Key Vault secrets Searching public code for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/artex-ai-azure-key-vault-secrets/\">Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Scanning GitHub</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170962",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/react-server-components-vulnerability-patch",
-      "content_hash": "8f7698deae9b12a6b400492cd16d5dd73c02b03057df3f23fdc7d18ab9e0febe",
+      "article_key": "cybersecuritynews.com/artex-ai-azure-key-vault-secrets",
+      "content_hash": "05df98d9f6fc2bb4ee3361be9a8ff5c98cf53dfa554d974a8db87240b629feab",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "8f7698deae9b12a6b400492cd16d5dd73c02b03057df3f23fdc7d18ab9e0febe"
+        "ORIGINAL": "05df98d9f6fc2bb4ee3361be9a8ff5c98cf53dfa554d974a8db87240b629feab"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-09T02:36:42.815083+00:00",
-      "first_seen_local": "2026-11-08T21:36:42.815080-05:00",
-      "last_updated_utc": "2026-11-09T02:36:42.815083+00:00",
-      "last_updated_local": "2026-11-08T21:36:42.815080-05:00"
+      "first_seen_utc": "2026-11-09T10:19:04.960987+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.960984-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.960987+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.960984-05:00"
+    },
+    {
+      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+      "url": "http://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "published": "Mon, 09 Nov 2026 10:01:21 +0000",
+      "published_utc": "2026-11-09T10:01:21+00:00",
+      "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\n\nIt has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8906826491853509836",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "content_hash": "a0fdd1b1c58eecaccb2c2d7fafe7be6ed7a4d8feeca319b573b65e09eb577565",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a0fdd1b1c58eecaccb2c2d7fafe7be6ed7a4d8feeca319b573b65e09eb577565"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:10.485452+00:00",
+      "first_seen_local": "2026-11-09T05:19:10.485450-05:00",
+      "last_updated_utc": "2026-11-09T10:19:10.485452+00:00",
+      "last_updated_local": "2026-11-09T05:19:10.485450-05:00"
+    },
+    {
+      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "url": "http://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "published": "Mon, 09 Nov 2026 09:01:50 +0000",
+      "published_utc": "2026-11-09T09:01:50+00:00",
+      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.\n\nThe agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login.\n\nThe researchers are highly confident that the attacker is a single person",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6039141533572733670",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "content_hash": "bf6d98935826910bc1ba741d271e74ae01a6176c810cf56c3315f8fbab218556",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bf6d98935826910bc1ba741d271e74ae01a6176c810cf56c3315f8fbab218556",
+        "FEEDBURNER": "bf6d98935826910bc1ba741d271e74ae01a6176c810cf56c3315f8fbab218556"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:10.485452+00:00",
+      "first_seen_local": "2026-11-09T05:19:10.485450-05:00",
+      "last_updated_utc": "2026-11-09T10:19:10.485452+00:00",
+      "last_updated_local": "2026-11-09T05:19:10.485450-05:00"
+    },
+    {
+      "title": "Hackers Deploy ArmorSteal Malware Through Fake Software Downloads to Steal Credentials and Mine Crypto",
+      "url": "https://cybersecuritynews.com/armorsteal-malware/",
+      "published": "Mon, 09 Nov 2026 08:55:53 +0000",
+      "published_utc": "2026-11-09T08:55:53+00:00",
+      "summary": "<p>Hackers are spreading a Python-based malware kit called ArmorSteal through fake software download pages. The kit steals passwords, crypto wallets and Discord accounts, and it also mines Monero in the background. Seqrite Labs found a newer build of the kit on an infected Windows machine and rebuilt its full logic. ArmorSteal malware ArmorSteal reaches victims [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/armorsteal-malware/\">Hackers Deploy ArmorSteal Malware Through Fake Software Downloads to Steal Credentials and Mine Crypto</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170938",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/armorsteal-malware",
+      "content_hash": "8bcdaf314790b41fa7a2e041f172dbd1c3f777dc4466f278278a25f30c585626",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8bcdaf314790b41fa7a2e041f172dbd1c3f777dc4466f278278a25f30c585626",
+        "FEEDBURNER": "8bcdaf314790b41fa7a2e041f172dbd1c3f777dc4466f278278a25f30c585626"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.960987+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.960984-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.960987+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.960984-05:00"
+    },
+    {
+      "title": "Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations",
+      "url": "https://cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw/",
+      "published": "Mon, 09 Nov 2026 07:48:15 +0000",
+      "published_utc": "2026-11-09T07:48:15+00:00",
+      "summary": "<p>Veeam warned that a critical Linux kernel flaw with a CVSS score of 9.8, could cause denial of service or memory corruption across backup and recovery products. Veeam’s November 6 impact statement identified a Linux kernel use-after-free vulnerability (CVE-2026-98432) in TCP/IPv4 connection setup and outlined update paths for affected systems. Its security advisory does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw/\">Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170917",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw",
+      "content_hash": "c78f3cff4e8b244e3d32cb209c7a5b888775acda791610f8d32fb5ceb4ac68f9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c78f3cff4e8b244e3d32cb209c7a5b888775acda791610f8d32fb5ceb4ac68f9",
+        "FEEDBURNER": "c78f3cff4e8b244e3d32cb209c7a5b888775acda791610f8d32fb5ceb4ac68f9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.960987+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.960984-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.960987+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.960984-05:00"
+    },
+    {
+      "title": "PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code",
+      "url": "https://gbhackers.com/polinrider-malware-attack/",
+      "published": "Mon, 09 Nov 2026 07:17:43 +0000",
+      "published_utc": "2026-11-09T07:17:43+00:00",
+      "summary": "<p>A concealed JavaScript loaders in 12 releases across 10 hijacked npm packages, linking the compromise to previously documented PolinRider activity. Investigated on November 4, 2026, the releases use Ethereum transactions to discover remote payload servers and execute downloaded code inside developer environments, build systems, or applications. Sonatype tracks the finding as sonatype-2026-010515.guide. Unlike installation-triggered supply-chain [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/polinrider-malware-attack/\">PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206380",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/polinrider-malware-attack",
+      "content_hash": "6739d040b43a4cf2f8e6e62138240168d0f1559fb760157056797cea6690c24f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6739d040b43a4cf2f8e6e62138240168d0f1559fb760157056797cea6690c24f",
+        "FEEDBURNER": "6739d040b43a4cf2f8e6e62138240168d0f1559fb760157056797cea6690c24f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+      "url": "http://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+      "published": "Mon, 09 Nov 2026 07:05:48 +0000",
+      "published_utc": "2026-11-09T07:05:48+00:00",
+      "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty.\n\nAccording to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026.\n\nIf proven guilty, the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7917165584159622742",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+      "content_hash": "76d3f9b29e192f454db28b386f6f9307e2d64484429264c8945d4937820974a0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "76d3f9b29e192f454db28b386f6f9307e2d64484429264c8945d4937820974a0",
+        "FEEDBURNER": "76d3f9b29e192f454db28b386f6f9307e2d64484429264c8945d4937820974a0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:10.485452+00:00",
+      "first_seen_local": "2026-11-09T05:19:10.485450-05:00",
+      "last_updated_utc": "2026-11-09T10:19:10.485452+00:00",
+      "last_updated_local": "2026-11-09T05:19:10.485450-05:00"
+    },
+    {
+      "title": "U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage",
+      "url": "https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/",
+      "published": "Mon, 09 Nov 2026 06:52:21 +0000",
+      "published_utc": "2026-11-09T06:52:21+00:00",
+      "summary": "<p>CISA, FBI, HHS, USDA, and DOT have warned that hackers are targeting industrial refrigeration and cold chain monitoring systems worldwide, putting food, medicine, and other temperature-sensitive goods at risk. The November 5, 2026, warning urges operators to secure exposed controllers before attackers can change temperatures, damage equipment, or disrupt storage operations. The joint federal fact [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/\">U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170911",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems",
+      "content_hash": "e2e47d8db080373dcd4b49624e504087986f23e76506d985caa3ab66b0a1131e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e2e47d8db080373dcd4b49624e504087986f23e76506d985caa3ab66b0a1131e",
+        "FEEDBURNER": "e2e47d8db080373dcd4b49624e504087986f23e76506d985caa3ab66b0a1131e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.960987+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.960984-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.960987+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.960984-05:00"
+    },
+    {
+      "title": "SonicWall Warns of Actively Exploited SSL-VPN Vulnerability That Bypasses SAML and MFA Protection",
+      "url": "https://gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability/",
+      "published": "Mon, 09 Nov 2026 06:20:55 +0000",
+      "published_utc": "2026-11-09T06:20:55+00:00",
+      "summary": "<p>SonicWall has urged customers to address an SSL-VPN authentication vulnerability that can bypass SAML controls, including associated multifactor authentication measures. This issue is tracked as CVE-2026-19868 and affects SonicOS deployments that utilize SAML for SSL-VPN logins. The company has investigated reports suggesting potential exploitation but has not confirmed a widespread attack campaign in its advisory. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability/\">SonicWall Warns of Actively Exploited SSL-VPN Vulnerability That Bypasses SAML and MFA Protection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206397",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability",
+      "content_hash": "08aaf7924130da1b895017ef04b79e96b3569b36beffe1f133396e518859cf0d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "08aaf7924130da1b895017ef04b79e96b3569b36beffe1f133396e518859cf0d",
+        "FEEDBURNER": "08aaf7924130da1b895017ef04b79e96b3569b36beffe1f133396e518859cf0d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+      "url": "http://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "published": "Mon, 09 Nov 2026 06:15:10 +0000",
+      "published_utc": "2026-11-09T06:15:10+00:00",
+      "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory.\n\n\"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2142920327494907810",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "content_hash": "e5cb2d140b2725622d68196e82457dd34a99d7c586ade4a5fdbdbb2ea1a1d761",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e5cb2d140b2725622d68196e82457dd34a99d7c586ade4a5fdbdbb2ea1a1d761",
+        "FEEDBURNER": "e5cb2d140b2725622d68196e82457dd34a99d7c586ade4a5fdbdbb2ea1a1d761"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:10.485452+00:00",
+      "first_seen_local": "2026-11-09T05:19:10.485450-05:00",
+      "last_updated_utc": "2026-11-09T10:19:10.485452+00:00",
+      "last_updated_local": "2026-11-09T05:19:10.485450-05:00"
+    },
+    {
+      "title": "Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers",
+      "url": "https://gbhackers.com/critical-react-server-components-vulnerability/",
+      "published": "Mon, 09 Nov 2026 06:11:56 +0000",
+      "published_utc": "2026-11-09T06:11:56+00:00",
+      "summary": "<p>A serious vulnerability in React Server Components may enable unauthenticated attackers to execute malicious code on affected servers. The advisory, released on October 14, 2026, assigns the issue a CVSS v4.0 score of 9.5. React maintainers advise that users update their systems immediately, though they emphasize that the conditions necessary for exploitation are extremely rare. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-react-server-components-vulnerability/\">Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206393",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-react-server-components-vulnerability",
+      "content_hash": "3556946156a21198f77b8b400391cd6d49722093c0ed2c89d6884ccdab2c603d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3556946156a21198f77b8b400391cd6d49722093c0ed2c89d6884ccdab2c603d",
+        "FEEDBURNER": "3556946156a21198f77b8b400391cd6d49722093c0ed2c89d6884ccdab2c603d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "url": "http://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "published": "Mon, 09 Nov 2026 06:05:24 +0000",
+      "published_utc": "2026-11-09T06:05:24+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks.\n\nThe vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4591043986172603524",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "content_hash": "181247d9cb9be515a369546a2f70f90abac3cf458851671d7f7c8ded2eee3122",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "181247d9cb9be515a369546a2f70f90abac3cf458851671d7f7c8ded2eee3122",
+        "FEEDBURNER": "181247d9cb9be515a369546a2f70f90abac3cf458851671d7f7c8ded2eee3122"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:10.485452+00:00",
+      "first_seen_local": "2026-11-09T05:19:10.485450-05:00",
+      "last_updated_utc": "2026-11-09T10:19:10.485452+00:00",
+      "last_updated_local": "2026-11-09T05:19:10.485450-05:00"
+    },
+    {
+      "title": "NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang",
+      "url": "https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/",
+      "published": "Mon, 09 Nov 2026 06:01:00 +0000",
+      "published_utc": "2026-11-09T06:01:00+00:00",
+      "summary": "<p>NVIDIA has initiated an independent investigation into reports suggesting that foreign intelligence may have targeted founder and CEO Jensen Huang. This inquiry, announced on November 8, 2026, will review all available information. The board said it currently has no evidence that national security or company secrets were compromised. According to the board’s official statement, a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/\">NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206385",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign",
+      "content_hash": "644d693a528cd6033cf16c09a2cbd3b622d3c4d24680f45dec095ca21342a1e6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "644d693a528cd6033cf16c09a2cbd3b622d3c4d24680f45dec095ca21342a1e6",
+        "FEEDBURNER": "644d693a528cd6033cf16c09a2cbd3b622d3c4d24680f45dec095ca21342a1e6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Anthropic’s Claude AI Deletes a Year of Law Professor’s Lecture Notes During Simple Editing Task",
+      "url": "https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/",
+      "published": "Mon, 09 Nov 2026 05:51:08 +0000",
+      "published_utc": "2026-11-09T05:51:08+00:00",
+      "summary": "<p>University of Chicago law professor William Baude says Anthropic’s Claude AI deleted his current syllabus and a year&#8217;s worth of constitutional law lecture notes while completing a routine editing assignment. Baude recovered every affected file through Dropbox, preventing permanent loss but highlighting the risks of granting AI assistants access to important documents. Baude reported the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/\">Anthropic&#8217;s Claude AI Deletes a Year of Law Professor&#8217;s Lecture Notes During Simple Editing Task</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206378",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes",
+      "content_hash": "ab8ceb529c6e4c206ee8030b56252b680eb29e1781172245318b6d16fca4fc7d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ab8ceb529c6e4c206ee8030b56252b680eb29e1781172245318b6d16fca4fc7d",
+        "FEEDBURNER": "ab8ceb529c6e4c206ee8030b56252b680eb29e1781172245318b6d16fca4fc7d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System",
+      "url": "https://gbhackers.com/notc2-ai-powered-hacking/",
+      "published": "Mon, 09 Nov 2026 05:50:02 +0000",
+      "published_utc": "2026-11-09T05:50:02+00:00",
+      "summary": "<p>NotC2, a proof-of-concept framework that combines legitimate AWS services with Amazon Bedrock to run post-compromise command-and-control operations. Published November 6, the research demonstrates how stolen cloud credentials can enable conversational reconnaissance while command traffic blends into trusted infrastructure. It describes service abuse, not a vulnerability in Bedrock or an initial-access exploit. Its central implication is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/notc2-ai-powered-hacking/\">NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206366",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/notc2-ai-powered-hacking",
+      "content_hash": "dd8b05a71d17af4424719bbe6b6f89ca00f97f08665058171cd2f06f5686263d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd8b05a71d17af4424719bbe6b6f89ca00f97f08665058171cd2f06f5686263d",
+        "FEEDBURNER": "dd8b05a71d17af4424719bbe6b6f89ca00f97f08665058171cd2f06f5686263d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Anthropic Claude Code’s ‘Don’t Ask Again’ Feature Exposes 2,539 Secrets on GitHub",
+      "url": "https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/",
+      "published": "Mon, 09 Nov 2026 05:39:19 +0000",
+      "published_utc": "2026-11-09T05:39:19+00:00",
+      "summary": "<p>Apiiro researchers Shmulik Cohen and Matan Giladi identified 2,539 distinct secrets across 1,994 public GitHub repositories. They linked these exposures to coding agents that record sensitive commands in project files. Their research, conducted in November and updated on November 8, describes how Claude Code’s “Yes, and don’t ask again” approval option can inadvertently preserve database [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/\">Anthropic Claude Code&#8217;s &#8216;Don&#8217;t Ask Again&#8217; Feature Exposes 2,539 Secrets on GitHub</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206354",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github",
+      "content_hash": "6c093d12e3dc64b12413d9aac80e11ff280c77421f02560b3b4358a3bf8ab365",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c093d12e3dc64b12413d9aac80e11ff280c77421f02560b3b4358a3bf8ab365",
+        "FEEDBURNER": "6c093d12e3dc64b12413d9aac80e11ff280c77421f02560b3b4358a3bf8ab365"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
+    },
+    {
+      "title": "Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability",
+      "url": "https://cybersecuritynews.com/openssh-sshole-flaw-exploited/",
+      "published": "Mon, 09 Nov 2026 05:24:19 +0000",
+      "published_utc": "2026-11-09T05:24:19+00:00",
+      "summary": "<p>Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings. The flaw allows remote attackers to access some password-disabled Linux accounts by submitting an unusually long password, without knowing valid credentials or holding an SSH key. SANS researcher Johannes Ullrich reported the first clear exploit [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-sshole-flaw-exploited/\">Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=170913",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openssh-sshole-flaw-exploited",
+      "content_hash": "3e343c5c1a047a93558cb8cefbc726b21a4b213e416a8c3d393ffcd79865249d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3e343c5c1a047a93558cb8cefbc726b21a4b213e416a8c3d393ffcd79865249d",
+        "FEEDBURNER": "3e343c5c1a047a93558cb8cefbc726b21a4b213e416a8c3d393ffcd79865249d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.960987+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.960984-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.960987+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.960984-05:00"
+    },
+    {
+      "title": "ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens",
+      "url": "https://gbhackers.com/armorsteal-malware-attack/",
+      "published": "Mon, 09 Nov 2026 05:01:54 +0000",
+      "published_utc": "2026-11-09T05:01:54+00:00",
+      "summary": "<p>ArmorSteal, a Python-based Windows malware kit. It steals credentials and crypto wallets, hijacks clipboard addresses, and runs a hidden Monero-style miner. The miner shuts down whenever a user opens Task Manager or another monitoring tool. Zscaler ThreatLabz documented the family on 22 October 2026. The Seqrite sample is newer than that report and an earlier [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/armorsteal-malware-attack/\">ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206355",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/armorsteal-malware-attack",
+      "content_hash": "648a57f6335aa40ff010eaf88334109df613deaab6c81392766f43fa95eee526",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "648a57f6335aa40ff010eaf88334109df613deaab6c81392766f43fa95eee526",
+        "FEEDBURNER": "648a57f6335aa40ff010eaf88334109df613deaab6c81392766f43fa95eee526"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T10:19:04.465814+00:00",
+      "first_seen_local": "2026-11-09T05:19:04.465811-05:00",
+      "last_updated_utc": "2026-11-09T10:19:04.465814+00:00",
+      "last_updated_local": "2026-11-09T05:19:04.465811-05:00"
     }
   ]
 }

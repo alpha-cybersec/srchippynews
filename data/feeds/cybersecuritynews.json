@@ -10,15 +10,47 @@
       "final_url": "https://cybersecuritynews.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "Cyber Security News",
-      "article_count": 1,
+      "article_count": 5,
       "articles": [
         {
-          "title": "Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication",
-          "url": "https://cybersecuritynews.com/react-server-components-vulnerability-patch/",
-          "published": "Mon, 09 Nov 2026 02:13:53 +0000",
-          "published_utc": "2026-11-09T02:13:53+00:00",
-          "summary": "<p>A critical security flaw in React Server Components can let attackers run code remotely without logging in. React published the advisory, tracked as GHSA-xqc2-xf4c-x3h3, on October 14, 2026. The issue carries a CVSS v4 score of 9.5, and the React team recommends immediate updates for affected applications. The flaw affects react-server-dom-webpack, react-server-dom-parcel, and react-server-dom-turbopack. These [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/react-server-components-vulnerability-patch/\">Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=170889"
+          "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Scanning GitHub",
+          "url": "https://cybersecuritynews.com/artex-ai-azure-key-vault-secrets/",
+          "published": "Mon, 09 Nov 2026 10:04:55 +0000",
+          "published_utc": "2026-11-09T10:04:55+00:00",
+          "summary": "<p>Microsoft says threat actors are using an AI tool called ARTEX to find secrets in public GitHub code and use them against cloud accounts. In one case, the AI agent went from searching GitHub to pulling data from Azure Key Vault in only five minutes. ARTEX AI Azure Key Vault secrets Searching public code for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/artex-ai-azure-key-vault-secrets/\">Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Scanning GitHub</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170962"
+        },
+        {
+          "title": "Hackers Deploy ArmorSteal Malware Through Fake Software Downloads to Steal Credentials and Mine Crypto",
+          "url": "https://cybersecuritynews.com/armorsteal-malware/",
+          "published": "Mon, 09 Nov 2026 08:55:53 +0000",
+          "published_utc": "2026-11-09T08:55:53+00:00",
+          "summary": "<p>Hackers are spreading a Python-based malware kit called ArmorSteal through fake software download pages. The kit steals passwords, crypto wallets and Discord accounts, and it also mines Monero in the background. Seqrite Labs found a newer build of the kit on an infected Windows machine and rebuilt its full logic. ArmorSteal malware ArmorSteal reaches victims [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/armorsteal-malware/\">Hackers Deploy ArmorSteal Malware Through Fake Software Downloads to Steal Credentials and Mine Crypto</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170938"
+        },
+        {
+          "title": "Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations",
+          "url": "https://cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw/",
+          "published": "Mon, 09 Nov 2026 07:48:15 +0000",
+          "published_utc": "2026-11-09T07:48:15+00:00",
+          "summary": "<p>Veeam warned that a critical Linux kernel flaw with a CVSS score of 9.8, could cause denial of service or memory corruption across backup and recovery products. Veeam’s November 6 impact statement identified a Linux kernel use-after-free vulnerability (CVE-2026-98432) in TCP/IPv4 connection setup and outlined update paths for affected systems. Its security advisory does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw/\">Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170917"
+        },
+        {
+          "title": "U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage",
+          "url": "https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/",
+          "published": "Mon, 09 Nov 2026 06:52:21 +0000",
+          "published_utc": "2026-11-09T06:52:21+00:00",
+          "summary": "<p>CISA, FBI, HHS, USDA, and DOT have warned that hackers are targeting industrial refrigeration and cold chain monitoring systems worldwide, putting food, medicine, and other temperature-sensitive goods at risk. The November 5, 2026, warning urges operators to secure exposed controllers before attackers can change temperatures, damage equipment, or disrupt storage operations. The joint federal fact [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/\">U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170911"
+        },
+        {
+          "title": "Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability",
+          "url": "https://cybersecuritynews.com/openssh-sshole-flaw-exploited/",
+          "published": "Mon, 09 Nov 2026 05:24:19 +0000",
+          "published_utc": "2026-11-09T05:24:19+00:00",
+          "summary": "<p>Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings. The flaw allows remote attackers to access some password-disabled Linux accounts by submitting an unusually long password, without knowing valid credentials or holding an SSH key. SANS researcher Johannes Ullrich reported the first clear exploit [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-sshole-flaw-exploited/\">Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170913"
         }
       ],
       "error": ""
@@ -31,8 +63,41 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 4,
+      "articles": [
+        {
+          "title": "Hackers Deploy ArmorSteal Malware Through Fake Software Downloads to Steal Credentials and Mine Crypto",
+          "url": "https://cybersecuritynews.com/armorsteal-malware/",
+          "published": "Mon, 09 Nov 2026 08:55:53 +0000",
+          "published_utc": "2026-11-09T08:55:53+00:00",
+          "summary": "<p>Hackers are spreading a Python-based malware kit called ArmorSteal through fake software download pages. The kit steals passwords, crypto wallets and Discord accounts, and it also mines Monero in the background. Seqrite Labs found a newer build of the kit on an infected Windows machine and rebuilt its full logic. ArmorSteal malware ArmorSteal reaches victims [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/armorsteal-malware/\">Hackers Deploy ArmorSteal Malware Through Fake Software Downloads to Steal Credentials and Mine Crypto</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170938"
+        },
+        {
+          "title": "Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations",
+          "url": "https://cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw/",
+          "published": "Mon, 09 Nov 2026 07:48:15 +0000",
+          "published_utc": "2026-11-09T07:48:15+00:00",
+          "summary": "<p>Veeam warned that a critical Linux kernel flaw with a CVSS score of 9.8, could cause denial of service or memory corruption across backup and recovery products. Veeam’s November 6 impact statement identified a Linux kernel use-after-free vulnerability (CVE-2026-98432) in TCP/IPv4 connection setup and outlined update paths for affected systems. Its security advisory does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/veeam-warns-critical-linux-kernel-flaw/\">Veeam Warns Critical 9.8 Linux Kernel Flaw Could Crash Backup Appliances and Disrupt Recovery Operations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170917"
+        },
+        {
+          "title": "U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage",
+          "url": "https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/",
+          "published": "Mon, 09 Nov 2026 06:52:21 +0000",
+          "published_utc": "2026-11-09T06:52:21+00:00",
+          "summary": "<p>CISA, FBI, HHS, USDA, and DOT have warned that hackers are targeting industrial refrigeration and cold chain monitoring systems worldwide, putting food, medicine, and other temperature-sensitive goods at risk. The November 5, 2026, warning urges operators to secure exposed controllers before attackers can change temperatures, damage equipment, or disrupt storage operations. The joint federal fact [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/\">U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170911"
+        },
+        {
+          "title": "Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability",
+          "url": "https://cybersecuritynews.com/openssh-sshole-flaw-exploited/",
+          "published": "Mon, 09 Nov 2026 05:24:19 +0000",
+          "published_utc": "2026-11-09T05:24:19+00:00",
+          "summary": "<p>Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings. The flaw allows remote attackers to access some password-disabled Linux accounts by submitting an unusually long password, without knowing valid credentials or holding an SSH key. SANS researcher Johannes Ullrich reported the first clear exploit [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssh-sshole-flaw-exploited/\">Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=170913"
+        }
+      ],
       "error": ""
     }
   }

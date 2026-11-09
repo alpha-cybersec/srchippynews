@@ -2,8 +2,204 @@
   "month": "2026-11",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 85,
+  "article_count": 92,
   "articles": [
+    {
+      "title": "New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies",
+      "url": "https://gbhackers.com/abe-office-malware/",
+      "published": "Mon, 09 Nov 2026 13:06:33 +0000",
+      "published_utc": "2026-11-09T13:06:33+00:00",
+      "summary": "<p>A newly analyzed remote-access trojan masquerading as an “Abe Office workstation helper” combines hidden-browser control with tooling designed to bypass Chrome’s App-Bound Encryption. Rather than breaking the cryptography, its browser stealer injects a helper into Chrome and requests decryption from inside the trusted browser process. The supplied analysis credits MalwareHunterTeam with identifying the sample, AbeAgent.exe, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/abe-office-malware/\">New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206445",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/abe-office-malware",
+      "content_hash": "906a84e485688d2f1536bcb8694680a025fd15c841882b7a4661ab10c728abb4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "906a84e485688d2f1536bcb8694680a025fd15c841882b7a4661ab10c728abb4",
+        "FEEDBURNER": "906a84e485688d2f1536bcb8694680a025fd15c841882b7a4661ab10c728abb4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
+    {
+      "title": "Google Gemini Safety Filter Bypass Exposes Blocked AI Images Through Download Links",
+      "url": "https://gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked/",
+      "published": "Mon, 09 Nov 2026 12:03:33 +0000",
+      "published_utc": "2026-11-09T12:03:33+00:00",
+      "summary": "<p>Google Gemini exposed images that its safety filters had rejected through download links, revealing an infrastructure weakness rather than a conventional model jailbreak. Fog Security researcher Jason Kao disclosed the findings on November 5, 2026, describing how Gemini could refuse an image request while still delivering the blocked artifact. Retesting on October 22 found changed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked/\">Google Gemini Safety Filter Bypass Exposes Blocked AI Images Through Download Links</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206450",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked",
+      "content_hash": "d5da99e89026140ad73083b64fe50d356504409d5315908af5ca2343f7a15b61",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d5da99e89026140ad73083b64fe50d356504409d5315908af5ca2343f7a15b61",
+        "FEEDBURNER": "d5da99e89026140ad73083b64fe50d356504409d5315908af5ca2343f7a15b61"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
+    {
+      "title": "ModSecurity WAF Vulnerability Allows Attackers to Bypass File Upload Restrictions Using Crafted HTTP Requests",
+      "url": "https://gbhackers.com/modsecurity-waf-vulnerability-2/",
+      "published": "Mon, 09 Nov 2026 11:47:38 +0000",
+      "published_utc": "2026-11-09T11:47:38+00:00",
+      "summary": "<p>Two high-severity flaws in the open-source ModSecurity web application firewall (WAF) let attackers slip past upload filters or crash server workers with a single crafted HTTP request. Maintainers published both advisories on September 30, 2026, as part of a larger batch that also covers multiple ModSecurity vulnerabilities that enable WAF bypass. ModSecurity WAF Vulnerability The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/modsecurity-waf-vulnerability-2/\">ModSecurity WAF Vulnerability Allows Attackers to Bypass File Upload Restrictions Using Crafted HTTP Requests</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206446",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/modsecurity-waf-vulnerability-2",
+      "content_hash": "e2dd5cbd4b809729c93ec48a68455329fda28ff7a41e3d5f4fee1e190115ec4f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e2dd5cbd4b809729c93ec48a68455329fda28ff7a41e3d5f4fee1e190115ec4f",
+        "FEEDBURNER": "e2dd5cbd4b809729c93ec48a68455329fda28ff7a41e3d5f4fee1e190115ec4f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
+    {
+      "title": "GhostAction Attack Hits Tens of Thousands of GitHub Repositories to Steal Cloud and AI Credentials",
+      "url": "https://gbhackers.com/ghostaction-supply-chain/",
+      "published": "Mon, 09 Nov 2026 11:20:27 +0000",
+      "published_utc": "2026-11-09T11:20:27+00:00",
+      "summary": "<p>A new wave of the GhostAction supply chain campaign has pushed a credential-stealing GitHub Actions workflow into tens of thousands of repositories. It now hunts for cloud and AI keys buried in source code and git history, in addition to CI/CD secrets. Socket says it has identified more than 500 GitHub accounts that committed the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-supply-chain/\">GhostAction Attack Hits Tens of Thousands of GitHub Repositories to Steal Cloud and AI Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206436",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ghostaction-supply-chain",
+      "content_hash": "c329d1588017122a354e636ae384da84f92c0d8a57cb4bb15710a579632ff025",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c329d1588017122a354e636ae384da84f92c0d8a57cb4bb15710a579632ff025",
+        "FEEDBURNER": "c329d1588017122a354e636ae384da84f92c0d8a57cb4bb15710a579632ff025"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
+    {
+      "title": "Hackers Use New Lindnor Backdoor to Target Microsoft SQL Servers in Anubis Ransomware Attack",
+      "url": "https://gbhackers.com/anubis-ransomware-attack/",
+      "published": "Mon, 09 Nov 2026 10:54:33 +0000",
+      "published_utc": "2026-11-09T10:54:33+00:00",
+      "summary": "<p>Attackers deploying Anubis ransomware hit a U.S. organization in October 2026 with a previously undocumented custom backdoor. The malware sat on two Microsoft SQL Server machines, disguised as a Chrome component on one and a VMware file on the other. The encryption payload was blocked, and there is no evidence that any files were encrypted. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anubis-ransomware-attack/\">Hackers Use New Lindnor Backdoor to Target Microsoft SQL Servers in Anubis Ransomware Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206428",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/anubis-ransomware-attack",
+      "content_hash": "4046135598e35b50c70cdc70d97fab1aac6c633407e62e1c048bb179fedd6fc6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4046135598e35b50c70cdc70d97fab1aac6c633407e62e1c048bb179fedd6fc6",
+        "FEEDBURNER": "4046135598e35b50c70cdc70d97fab1aac6c633407e62e1c048bb179fedd6fc6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
+    {
+      "title": "CISA and FBI Warn of Cyberattacks Targeting Industrial Refrigeration and Cold Chain Monitoring Systems",
+      "url": "https://gbhackers.com/cisa-and-fbi-warn-of-cyberattacks/",
+      "published": "Mon, 09 Nov 2026 10:29:36 +0000",
+      "published_utc": "2026-11-09T10:29:36+00:00",
+      "summary": "<p>CISA and the FBI, alongside HHS, USDA, and the Department of Transportation, have warned of ongoing cyberattacks targeting industrial refrigeration and cold chain monitoring systems worldwide. Published November 5, 2026, their joint fact sheet urges critical infrastructure operators to secure controllers that protect food, medicines, chemicals, and other temperature-sensitive products. The warning applies to several [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-and-fbi-warn-of-cyberattacks/\">CISA and FBI Warn of Cyberattacks Targeting Industrial Refrigeration and Cold Chain Monitoring Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206422",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-and-fbi-warn-of-cyberattacks",
+      "content_hash": "425ba50ba66a7775e286dedd144645b159b1822b66ccf3838b6c2e22425d4735",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "425ba50ba66a7775e286dedd144645b159b1822b66ccf3838b6c2e22425d4735",
+        "FEEDBURNER": "425ba50ba66a7775e286dedd144645b159b1822b66ccf3838b6c2e22425d4735"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
+    {
+      "title": "Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations",
+      "url": "https://gbhackers.com/operation-snowball-campaign/",
+      "published": "Mon, 09 Nov 2026 10:26:44 +0000",
+      "published_utc": "2026-11-09T10:26:44+00:00",
+      "summary": "<p>An exposed open directory revealed an autonomous AI intrusion harness that spent more than two weeks attacking a European telecom provider and 13 organizations hosted in its data centers and cloud. The report, published on November 8, 2026, calls the campaign Operation Snowball. The researchers withheld the directory&#8217;s IP address to protect the victims. A [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/operation-snowball-campaign/\">Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206414",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/operation-snowball-campaign",
+      "content_hash": "1d96be7a18956ad58b46417f91a41b1927571ab69c71b4ed42bfa1e403d3335d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1d96be7a18956ad58b46417f91a41b1927571ab69c71b4ed42bfa1e403d3335d",
+        "FEEDBURNER": "1d96be7a18956ad58b46417f91a41b1927571ab69c71b4ed42bfa1e403d3335d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-09T21:01:18.097127+00:00",
+      "first_seen_local": "2026-11-09T16:01:18.097124-05:00",
+      "last_updated_utc": "2026-11-09T21:01:18.097127+00:00",
+      "last_updated_local": "2026-11-09T16:01:18.097124-05:00"
+    },
     {
       "title": "PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code",
       "url": "https://gbhackers.com/polinrider-malware-attack/",

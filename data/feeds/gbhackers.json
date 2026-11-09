@@ -10,8 +10,64 @@
       "final_url": "https://gbhackers.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 8,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies",
+          "url": "https://gbhackers.com/abe-office-malware/",
+          "published": "Mon, 09 Nov 2026 13:06:33 +0000",
+          "published_utc": "2026-11-09T13:06:33+00:00",
+          "summary": "<p>A newly analyzed remote-access trojan masquerading as an “Abe Office workstation helper” combines hidden-browser control with tooling designed to bypass Chrome’s App-Bound Encryption. Rather than breaking the cryptography, its browser stealer injects a helper into Chrome and requests decryption from inside the trusted browser process. The supplied analysis credits MalwareHunterTeam with identifying the sample, AbeAgent.exe, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/abe-office-malware/\">New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206445"
+        },
+        {
+          "title": "Google Gemini Safety Filter Bypass Exposes Blocked AI Images Through Download Links",
+          "url": "https://gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked/",
+          "published": "Mon, 09 Nov 2026 12:03:33 +0000",
+          "published_utc": "2026-11-09T12:03:33+00:00",
+          "summary": "<p>Google Gemini exposed images that its safety filters had rejected through download links, revealing an infrastructure weakness rather than a conventional model jailbreak. Fog Security researcher Jason Kao disclosed the findings on November 5, 2026, describing how Gemini could refuse an image request while still delivering the blocked artifact. Retesting on October 22 found changed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked/\">Google Gemini Safety Filter Bypass Exposes Blocked AI Images Through Download Links</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206450"
+        },
+        {
+          "title": "ModSecurity WAF Vulnerability Allows Attackers to Bypass File Upload Restrictions Using Crafted HTTP Requests",
+          "url": "https://gbhackers.com/modsecurity-waf-vulnerability-2/",
+          "published": "Mon, 09 Nov 2026 11:47:38 +0000",
+          "published_utc": "2026-11-09T11:47:38+00:00",
+          "summary": "<p>Two high-severity flaws in the open-source ModSecurity web application firewall (WAF) let attackers slip past upload filters or crash server workers with a single crafted HTTP request. Maintainers published both advisories on September 30, 2026, as part of a larger batch that also covers multiple ModSecurity vulnerabilities that enable WAF bypass. ModSecurity WAF Vulnerability The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/modsecurity-waf-vulnerability-2/\">ModSecurity WAF Vulnerability Allows Attackers to Bypass File Upload Restrictions Using Crafted HTTP Requests</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206446"
+        },
+        {
+          "title": "GhostAction Attack Hits Tens of Thousands of GitHub Repositories to Steal Cloud and AI Credentials",
+          "url": "https://gbhackers.com/ghostaction-supply-chain/",
+          "published": "Mon, 09 Nov 2026 11:20:27 +0000",
+          "published_utc": "2026-11-09T11:20:27+00:00",
+          "summary": "<p>A new wave of the GhostAction supply chain campaign has pushed a credential-stealing GitHub Actions workflow into tens of thousands of repositories. It now hunts for cloud and AI keys buried in source code and git history, in addition to CI/CD secrets. Socket says it has identified more than 500 GitHub accounts that committed the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-supply-chain/\">GhostAction Attack Hits Tens of Thousands of GitHub Repositories to Steal Cloud and AI Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206436"
+        },
+        {
+          "title": "Hackers Use New Lindnor Backdoor to Target Microsoft SQL Servers in Anubis Ransomware Attack",
+          "url": "https://gbhackers.com/anubis-ransomware-attack/",
+          "published": "Mon, 09 Nov 2026 10:54:33 +0000",
+          "published_utc": "2026-11-09T10:54:33+00:00",
+          "summary": "<p>Attackers deploying Anubis ransomware hit a U.S. organization in October 2026 with a previously undocumented custom backdoor. The malware sat on two Microsoft SQL Server machines, disguised as a Chrome component on one and a VMware file on the other. The encryption payload was blocked, and there is no evidence that any files were encrypted. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anubis-ransomware-attack/\">Hackers Use New Lindnor Backdoor to Target Microsoft SQL Servers in Anubis Ransomware Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206428"
+        },
+        {
+          "title": "CISA and FBI Warn of Cyberattacks Targeting Industrial Refrigeration and Cold Chain Monitoring Systems",
+          "url": "https://gbhackers.com/cisa-and-fbi-warn-of-cyberattacks/",
+          "published": "Mon, 09 Nov 2026 10:29:36 +0000",
+          "published_utc": "2026-11-09T10:29:36+00:00",
+          "summary": "<p>CISA and the FBI, alongside HHS, USDA, and the Department of Transportation, have warned of ongoing cyberattacks targeting industrial refrigeration and cold chain monitoring systems worldwide. Published November 5, 2026, their joint fact sheet urges critical infrastructure operators to secure controllers that protect food, medicines, chemicals, and other temperature-sensitive products. The warning applies to several [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-and-fbi-warn-of-cyberattacks/\">CISA and FBI Warn of Cyberattacks Targeting Industrial Refrigeration and Cold Chain Monitoring Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206422"
+        },
+        {
+          "title": "Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations",
+          "url": "https://gbhackers.com/operation-snowball-campaign/",
+          "published": "Mon, 09 Nov 2026 10:26:44 +0000",
+          "published_utc": "2026-11-09T10:26:44+00:00",
+          "summary": "<p>An exposed open directory revealed an autonomous AI intrusion harness that spent more than two weeks attacking a European telecom provider and 13 organizations hosted in its data centers and cloud. The report, published on November 8, 2026, calls the campaign Operation Snowball. The researchers withheld the directory&#8217;s IP address to protect the victims. A [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/operation-snowball-campaign/\">Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206414"
+        },
         {
           "title": "PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code",
           "url": "https://gbhackers.com/polinrider-malware-attack/",
@@ -35,46 +91,6 @@
           "published_utc": "2026-11-09T06:11:56+00:00",
           "summary": "<p>A serious vulnerability in React Server Components may enable unauthenticated attackers to execute malicious code on affected servers. The advisory, released on October 14, 2026, assigns the issue a CVSS v4.0 score of 9.5. React maintainers advise that users update their systems immediately, though they emphasize that the conditions necessary for exploitation are extremely rare. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-react-server-components-vulnerability/\">Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=206393"
-        },
-        {
-          "title": "NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang",
-          "url": "https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/",
-          "published": "Mon, 09 Nov 2026 06:01:00 +0000",
-          "published_utc": "2026-11-09T06:01:00+00:00",
-          "summary": "<p>NVIDIA has initiated an independent investigation into reports suggesting that foreign intelligence may have targeted founder and CEO Jensen Huang. This inquiry, announced on November 8, 2026, will review all available information. The board said it currently has no evidence that national security or company secrets were compromised. According to the board’s official statement, a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/\">NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206385"
-        },
-        {
-          "title": "Anthropic’s Claude AI Deletes a Year of Law Professor’s Lecture Notes During Simple Editing Task",
-          "url": "https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/",
-          "published": "Mon, 09 Nov 2026 05:51:08 +0000",
-          "published_utc": "2026-11-09T05:51:08+00:00",
-          "summary": "<p>University of Chicago law professor William Baude says Anthropic’s Claude AI deleted his current syllabus and a year&#8217;s worth of constitutional law lecture notes while completing a routine editing assignment. Baude recovered every affected file through Dropbox, preventing permanent loss but highlighting the risks of granting AI assistants access to important documents. Baude reported the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/\">Anthropic&#8217;s Claude AI Deletes a Year of Law Professor&#8217;s Lecture Notes During Simple Editing Task</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206378"
-        },
-        {
-          "title": "NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System",
-          "url": "https://gbhackers.com/notc2-ai-powered-hacking/",
-          "published": "Mon, 09 Nov 2026 05:50:02 +0000",
-          "published_utc": "2026-11-09T05:50:02+00:00",
-          "summary": "<p>NotC2, a proof-of-concept framework that combines legitimate AWS services with Amazon Bedrock to run post-compromise command-and-control operations. Published November 6, the research demonstrates how stolen cloud credentials can enable conversational reconnaissance while command traffic blends into trusted infrastructure. It describes service abuse, not a vulnerability in Bedrock or an initial-access exploit. Its central implication is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/notc2-ai-powered-hacking/\">NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206366"
-        },
-        {
-          "title": "Anthropic Claude Code’s ‘Don’t Ask Again’ Feature Exposes 2,539 Secrets on GitHub",
-          "url": "https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/",
-          "published": "Mon, 09 Nov 2026 05:39:19 +0000",
-          "published_utc": "2026-11-09T05:39:19+00:00",
-          "summary": "<p>Apiiro researchers Shmulik Cohen and Matan Giladi identified 2,539 distinct secrets across 1,994 public GitHub repositories. They linked these exposures to coding agents that record sensitive commands in project files. Their research, conducted in November and updated on November 8, describes how Claude Code’s “Yes, and don’t ask again” approval option can inadvertently preserve database [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/\">Anthropic Claude Code&#8217;s &#8216;Don&#8217;t Ask Again&#8217; Feature Exposes 2,539 Secrets on GitHub</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206354"
-        },
-        {
-          "title": "ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens",
-          "url": "https://gbhackers.com/armorsteal-malware-attack/",
-          "published": "Mon, 09 Nov 2026 05:01:54 +0000",
-          "published_utc": "2026-11-09T05:01:54+00:00",
-          "summary": "<p>ArmorSteal, a Python-based Windows malware kit. It steals credentials and crypto wallets, hijacks clipboard addresses, and runs a hidden Monero-style miner. The miner shuts down whenever a user opens Task Manager or another monitoring tool. Zscaler ThreatLabz documented the family on 22 October 2026. The Seqrite sample is newer than that report and an earlier [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/armorsteal-malware-attack/\">ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206355"
         }
       ],
       "error": ""
@@ -87,8 +103,64 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 8,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies",
+          "url": "https://gbhackers.com/abe-office-malware/",
+          "published": "Mon, 09 Nov 2026 13:06:33 +0000",
+          "published_utc": "2026-11-09T13:06:33+00:00",
+          "summary": "<p>A newly analyzed remote-access trojan masquerading as an “Abe Office workstation helper” combines hidden-browser control with tooling designed to bypass Chrome’s App-Bound Encryption. Rather than breaking the cryptography, its browser stealer injects a helper into Chrome and requests decryption from inside the trusted browser process. The supplied analysis credits MalwareHunterTeam with identifying the sample, AbeAgent.exe, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/abe-office-malware/\">New Abe Office Malware Tricks Chrome Into Decrypting Its Own Protected Browser Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206445"
+        },
+        {
+          "title": "Google Gemini Safety Filter Bypass Exposes Blocked AI Images Through Download Links",
+          "url": "https://gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked/",
+          "published": "Mon, 09 Nov 2026 12:03:33 +0000",
+          "published_utc": "2026-11-09T12:03:33+00:00",
+          "summary": "<p>Google Gemini exposed images that its safety filters had rejected through download links, revealing an infrastructure weakness rather than a conventional model jailbreak. Fog Security researcher Jason Kao disclosed the findings on November 5, 2026, describing how Gemini could refuse an image request while still delivering the blocked artifact. Retesting on October 22 found changed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-safety-filter-bypass-exposes-blocked/\">Google Gemini Safety Filter Bypass Exposes Blocked AI Images Through Download Links</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206450"
+        },
+        {
+          "title": "ModSecurity WAF Vulnerability Allows Attackers to Bypass File Upload Restrictions Using Crafted HTTP Requests",
+          "url": "https://gbhackers.com/modsecurity-waf-vulnerability-2/",
+          "published": "Mon, 09 Nov 2026 11:47:38 +0000",
+          "published_utc": "2026-11-09T11:47:38+00:00",
+          "summary": "<p>Two high-severity flaws in the open-source ModSecurity web application firewall (WAF) let attackers slip past upload filters or crash server workers with a single crafted HTTP request. Maintainers published both advisories on September 30, 2026, as part of a larger batch that also covers multiple ModSecurity vulnerabilities that enable WAF bypass. ModSecurity WAF Vulnerability The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/modsecurity-waf-vulnerability-2/\">ModSecurity WAF Vulnerability Allows Attackers to Bypass File Upload Restrictions Using Crafted HTTP Requests</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206446"
+        },
+        {
+          "title": "GhostAction Attack Hits Tens of Thousands of GitHub Repositories to Steal Cloud and AI Credentials",
+          "url": "https://gbhackers.com/ghostaction-supply-chain/",
+          "published": "Mon, 09 Nov 2026 11:20:27 +0000",
+          "published_utc": "2026-11-09T11:20:27+00:00",
+          "summary": "<p>A new wave of the GhostAction supply chain campaign has pushed a credential-stealing GitHub Actions workflow into tens of thousands of repositories. It now hunts for cloud and AI keys buried in source code and git history, in addition to CI/CD secrets. Socket says it has identified more than 500 GitHub accounts that committed the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-supply-chain/\">GhostAction Attack Hits Tens of Thousands of GitHub Repositories to Steal Cloud and AI Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206436"
+        },
+        {
+          "title": "Hackers Use New Lindnor Backdoor to Target Microsoft SQL Servers in Anubis Ransomware Attack",
+          "url": "https://gbhackers.com/anubis-ransomware-attack/",
+          "published": "Mon, 09 Nov 2026 10:54:33 +0000",
+          "published_utc": "2026-11-09T10:54:33+00:00",
+          "summary": "<p>Attackers deploying Anubis ransomware hit a U.S. organization in October 2026 with a previously undocumented custom backdoor. The malware sat on two Microsoft SQL Server machines, disguised as a Chrome component on one and a VMware file on the other. The encryption payload was blocked, and there is no evidence that any files were encrypted. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anubis-ransomware-attack/\">Hackers Use New Lindnor Backdoor to Target Microsoft SQL Servers in Anubis Ransomware Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206428"
+        },
+        {
+          "title": "CISA and FBI Warn of Cyberattacks Targeting Industrial Refrigeration and Cold Chain Monitoring Systems",
+          "url": "https://gbhackers.com/cisa-and-fbi-warn-of-cyberattacks/",
+          "published": "Mon, 09 Nov 2026 10:29:36 +0000",
+          "published_utc": "2026-11-09T10:29:36+00:00",
+          "summary": "<p>CISA and the FBI, alongside HHS, USDA, and the Department of Transportation, have warned of ongoing cyberattacks targeting industrial refrigeration and cold chain monitoring systems worldwide. Published November 5, 2026, their joint fact sheet urges critical infrastructure operators to secure controllers that protect food, medicines, chemicals, and other temperature-sensitive products. The warning applies to several [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-and-fbi-warn-of-cyberattacks/\">CISA and FBI Warn of Cyberattacks Targeting Industrial Refrigeration and Cold Chain Monitoring Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206422"
+        },
+        {
+          "title": "Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations",
+          "url": "https://gbhackers.com/operation-snowball-campaign/",
+          "published": "Mon, 09 Nov 2026 10:26:44 +0000",
+          "published_utc": "2026-11-09T10:26:44+00:00",
+          "summary": "<p>An exposed open directory revealed an autonomous AI intrusion harness that spent more than two weeks attacking a European telecom provider and 13 organizations hosted in its data centers and cloud. The report, published on November 8, 2026, calls the campaign Operation Snowball. The researchers withheld the directory&#8217;s IP address to protect the victims. A [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/operation-snowball-campaign/\">Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206414"
+        },
         {
           "title": "PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code",
           "url": "https://gbhackers.com/polinrider-malware-attack/",
@@ -112,46 +184,6 @@
           "published_utc": "2026-11-09T06:11:56+00:00",
           "summary": "<p>A serious vulnerability in React Server Components may enable unauthenticated attackers to execute malicious code on affected servers. The advisory, released on October 14, 2026, assigns the issue a CVSS v4.0 score of 9.5. React maintainers advise that users update their systems immediately, though they emphasize that the conditions necessary for exploitation are extremely rare. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-react-server-components-vulnerability/\">Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=206393"
-        },
-        {
-          "title": "NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang",
-          "url": "https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/",
-          "published": "Mon, 09 Nov 2026 06:01:00 +0000",
-          "published_utc": "2026-11-09T06:01:00+00:00",
-          "summary": "<p>NVIDIA has initiated an independent investigation into reports suggesting that foreign intelligence may have targeted founder and CEO Jensen Huang. This inquiry, announced on November 8, 2026, will review all available information. The board said it currently has no evidence that national security or company secrets were compromised. According to the board’s official statement, a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign/\">NVIDIA Investigates Suspected Foreign Espionage Campaign Targeting CEO Jensen Huang</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206385"
-        },
-        {
-          "title": "Anthropic’s Claude AI Deletes a Year of Law Professor’s Lecture Notes During Simple Editing Task",
-          "url": "https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/",
-          "published": "Mon, 09 Nov 2026 05:51:08 +0000",
-          "published_utc": "2026-11-09T05:51:08+00:00",
-          "summary": "<p>University of Chicago law professor William Baude says Anthropic’s Claude AI deleted his current syllabus and a year&#8217;s worth of constitutional law lecture notes while completing a routine editing assignment. Baude recovered every affected file through Dropbox, preventing permanent loss but highlighting the risks of granting AI assistants access to important documents. Baude reported the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropics-claude-ai-deletes-a-year-of-law-professors-lecture-notes/\">Anthropic&#8217;s Claude AI Deletes a Year of Law Professor&#8217;s Lecture Notes During Simple Editing Task</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206378"
-        },
-        {
-          "title": "NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System",
-          "url": "https://gbhackers.com/notc2-ai-powered-hacking/",
-          "published": "Mon, 09 Nov 2026 05:50:02 +0000",
-          "published_utc": "2026-11-09T05:50:02+00:00",
-          "summary": "<p>NotC2, a proof-of-concept framework that combines legitimate AWS services with Amazon Bedrock to run post-compromise command-and-control operations. Published November 6, the research demonstrates how stolen cloud credentials can enable conversational reconnaissance while command traffic blends into trusted infrastructure. It describes service abuse, not a vulnerability in Bedrock or an initial-access exploit. Its central implication is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/notc2-ai-powered-hacking/\">NotC2 AI-Powered Hacking Tool Turns Amazon Bedrock Into a Cloud Command-and-Control System</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206366"
-        },
-        {
-          "title": "Anthropic Claude Code’s ‘Don’t Ask Again’ Feature Exposes 2,539 Secrets on GitHub",
-          "url": "https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/",
-          "published": "Mon, 09 Nov 2026 05:39:19 +0000",
-          "published_utc": "2026-11-09T05:39:19+00:00",
-          "summary": "<p>Apiiro researchers Shmulik Cohen and Matan Giladi identified 2,539 distinct secrets across 1,994 public GitHub repositories. They linked these exposures to coding agents that record sensitive commands in project files. Their research, conducted in November and updated on November 8, describes how Claude Code’s “Yes, and don’t ask again” approval option can inadvertently preserve database [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-claude-codes-dont-ask-again-feature-exposes-2539-secrets-on-github/\">Anthropic Claude Code&#8217;s &#8216;Don&#8217;t Ask Again&#8217; Feature Exposes 2,539 Secrets on GitHub</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206354"
-        },
-        {
-          "title": "ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens",
-          "url": "https://gbhackers.com/armorsteal-malware-attack/",
-          "published": "Mon, 09 Nov 2026 05:01:54 +0000",
-          "published_utc": "2026-11-09T05:01:54+00:00",
-          "summary": "<p>ArmorSteal, a Python-based Windows malware kit. It steals credentials and crypto wallets, hijacks clipboard addresses, and runs a hidden Monero-style miner. The miner shuts down whenever a user opens Task Manager or another monitoring tool. Zscaler ThreatLabz documented the family on 22 October 2026. The Seqrite sample is newer than that report and an earlier [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/armorsteal-malware-attack/\">ArmorSteal Malware Steals Passwords and Crypto Wallet Data, Hides Mining When Task Manager Opens</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206355"
         }
       ],
       "error": ""

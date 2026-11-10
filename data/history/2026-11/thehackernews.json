@@ -2,8 +2,232 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 77,
+  "article_count": 85,
   "articles": [
+    {
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "url": "http://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "published": "Tue, 10 Nov 2026 19:23:10 +0000",
+      "published_utc": "2026-11-10T19:23:10+00:00",
+      "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4609123439751415985",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "content_hash": "801f6a10e294763b204ed3153daa97138b25151519cdddd1f239493df3029d1b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "801f6a10e294763b204ed3153daa97138b25151519cdddd1f239493df3029d1b",
+        "FEEDBURNER": "801f6a10e294763b204ed3153daa97138b25151519cdddd1f239493df3029d1b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "url": "http://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "published": "Tue, 10 Nov 2026 19:19:39 +0000",
+      "published_utc": "2026-11-10T19:19:39+00:00",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7666647042555732608",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "content_hash": "56d83438b2aed48d5aa9190d36d2d7103035a69b6a1a94b0a9096f73a89fcff1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "56d83438b2aed48d5aa9190d36d2d7103035a69b6a1a94b0a9096f73a89fcff1",
+        "FEEDBURNER": "56d83438b2aed48d5aa9190d36d2d7103035a69b6a1a94b0a9096f73a89fcff1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "published": "Tue, 10 Nov 2026 18:12:21 +0000",
+      "published_utc": "2026-11-10T18:12:21+00:00",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5308251067737818268",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "content_hash": "7089f5f05f91482c0d3cf9e0eda718fb89ee17b7248eeec0c7fa320db79c42b7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7089f5f05f91482c0d3cf9e0eda718fb89ee17b7248eeec0c7fa320db79c42b7",
+        "FEEDBURNER": "7089f5f05f91482c0d3cf9e0eda718fb89ee17b7248eeec0c7fa320db79c42b7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "url": "http://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "published": "Tue, 10 Nov 2026 17:43:23 +0000",
+      "published_utc": "2026-11-10T17:43:23+00:00",
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5337262134692759853",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "content_hash": "f82e89bfc5b51f4898abcd77c35a6f49c960959519e69ef332897907fa6528da",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f82e89bfc5b51f4898abcd77c35a6f49c960959519e69ef332897907fa6528da",
+        "FEEDBURNER": "f82e89bfc5b51f4898abcd77c35a6f49c960959519e69ef332897907fa6528da"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "url": "http://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "published": "Tue, 10 Nov 2026 16:00:55 +0000",
+      "published_utc": "2026-11-10T16:00:55+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7518380458081637394",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "content_hash": "e0adf2a1c81bd6c47c4f37fac12c33c1124a58aa699ff8015f2b240653966c8b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e0adf2a1c81bd6c47c4f37fac12c33c1124a58aa699ff8015f2b240653966c8b",
+        "FEEDBURNER": "e0adf2a1c81bd6c47c4f37fac12c33c1124a58aa699ff8015f2b240653966c8b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "url": "http://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "published": "Tue, 10 Nov 2026 15:58:44 +0000",
+      "published_utc": "2026-11-10T15:58:44+00:00",
+      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\n\"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3124134063178278758",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "content_hash": "ffe70f8523716ccf1de7f139676fcdf66b0d8717e93e09c642eda9245e17065a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ffe70f8523716ccf1de7f139676fcdf66b0d8717e93e09c642eda9245e17065a",
+        "FEEDBURNER": "ffe70f8523716ccf1de7f139676fcdf66b0d8717e93e09c642eda9245e17065a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "url": "http://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "published": "Tue, 10 Nov 2026 15:33:59 +0000",
+      "published_utc": "2026-11-10T15:33:59+00:00",
+      "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"\n\nIn a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6827521241101244108",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "content_hash": "cf0c6ac5df3f3c5f7139cb2a9b496599e237d8a4cd59d43f69b1405c9d126558",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cf0c6ac5df3f3c5f7139cb2a9b496599e237d8a4cd59d43f69b1405c9d126558",
+        "FEEDBURNER": "cf0c6ac5df3f3c5f7139cb2a9b496599e237d8a4cd59d43f69b1405c9d126558"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "url": "http://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "published": "Tue, 10 Nov 2026 12:15:31 +0000",
+      "published_utc": "2026-11-10T12:15:31+00:00",
+      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix.\n\nA researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4056304843059896446",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "content_hash": "4f0f132d295e647ab810fd908480b9dbedd6161a812dd5b0aba9272926adbff9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4f0f132d295e647ab810fd908480b9dbedd6161a812dd5b0aba9272926adbff9",
+        "FEEDBURNER": "4f0f132d295e647ab810fd908480b9dbedd6161a812dd5b0aba9272926adbff9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
     {
       "title": "Beyond the Alert: The Case for Rich Network Data",
       "url": "http://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",

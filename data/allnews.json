@@ -1,848 +1,842 @@
 {
-  "generated_at_utc": "2026-11-10T11:40:54.354161+00:00",
-  "generated_at_local": "2026-11-10T06:40:54.354170-05:00",
+  "generated_at_utc": "2026-11-10T19:38:18.761886+00:00",
+  "generated_at_local": "2026-11-10T14:38:18.761892-05:00",
   "article_count": 30,
   "new_count": 30,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 9,
-    "gbhackers": 10,
-    "cybersecuritynews": 11
+    "thehackernews": 8,
+    "cybersecuritynews": 13,
+    "gbhackers": 9
   },
   "articles": [
     {
-      "title": "Beyond the Alert: The Case for Rich Network Data",
-      "url": "http://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-      "published": "Tue, 10 Nov 2026 11:38:13 +0000",
-      "published_utc": "2026-11-10T11:38:13+00:00",
-      "summary": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in.\n\nAfter the alert\n\nThe alert tells you something happened. However, gaining",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2528666906194893061",
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "url": "http://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "published": "Tue, 10 Nov 2026 19:23:10 +0000",
+      "published_utc": "2026-11-10T19:23:10+00:00",
+      "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4609123439751415985",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-      "content_hash": "9690cd2556d73582285adb0f5ceb0cb0000cb95076f575d46163a01646d55023",
+      "article_key": "thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "content_hash": "801f6a10e294763b204ed3153daa97138b25151519cdddd1f239493df3029d1b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "801f6a10e294763b204ed3153daa97138b25151519cdddd1f239493df3029d1b",
+        "FEEDBURNER": "801f6a10e294763b204ed3153daa97138b25151519cdddd1f239493df3029d1b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "url": "http://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "published": "Tue, 10 Nov 2026 19:19:39 +0000",
+      "published_utc": "2026-11-10T19:19:39+00:00",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7666647042555732608",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "content_hash": "56d83438b2aed48d5aa9190d36d2d7103035a69b6a1a94b0a9096f73a89fcff1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "56d83438b2aed48d5aa9190d36d2d7103035a69b6a1a94b0a9096f73a89fcff1",
+        "FEEDBURNER": "56d83438b2aed48d5aa9190d36d2d7103035a69b6a1a94b0a9096f73a89fcff1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "Microsoft November 2026 Patch Tuesday Fixes 1,093 Vulnerabilities, Including Outlook Zero-Day",
+      "url": "https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/",
+      "published": "Tue, 10 Nov 2026 19:01:53 +0000",
+      "published_utc": "2026-11-10T19:01:53+00:00",
+      "summary": "<p>Microsoft has released its November 2026 Patch Tuesday updates, fixing 1,093 newly released vulnerabilities across Windows, Office, SQL Server, SharePoint, Exchange Server, Azure services, and developer tools. The release includes one actively exploited zero-day in Microsoft Outlook that can leak a user&#8217;s NTLMv2 authentication hash to an attacker. This update addresses 63 critical vulnerabilities, 1,029 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/\">Microsoft November 2026 Patch Tuesday Fixes 1,093 Vulnerabilities, Including Outlook Zero-Day</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171461",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-november-2026-patch-tuesday",
+      "content_hash": "a995e23b18637817fe3779840cfc1c769da8e5fe383f09e92b40eeb51dac3b62",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "9690cd2556d73582285adb0f5ceb0cb0000cb95076f575d46163a01646d55023"
+        "ORIGINAL": "a995e23b18637817fe3779840cfc1c769da8e5fe383f09e92b40eeb51dac3b62"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "Russian-Linked Turla Hackers Abuse Microsoft Exchange Infrastructure to Target Sensitive Communications",
-      "url": "https://gbhackers.com/microsoft-exchange-abuse/",
-      "published": "Tue, 10 Nov 2026 11:30:34 +0000",
-      "published_utc": "2026-11-10T11:30:34+00:00",
-      "summary": "<p>Russian-linked espionage group Turla has deployed a previously undocumented .NET malware toolkit that turns compromised Microsoft Exchange servers into surveillance platforms and command infrastructure. Named Cereal, the modular toolset intercepts selected emails while allowing legitimate messages to continue through the transport pipeline, concealing intelligence collection inside routine government communications. ESET disclosed the findings on November [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-exchange-abuse/\">Russian-Linked Turla Hackers Abuse Microsoft Exchange Infrastructure to Target Sensitive Communications</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206571",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/microsoft-exchange-abuse",
-      "content_hash": "517287733c19b408defafeeadf29453c90c7f3ab9e28ad5e482b380c7ef1c176",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "517287733c19b408defafeeadf29453c90c7f3ab9e28ad5e482b380c7ef1c176",
-        "FEEDBURNER": "517287733c19b408defafeeadf29453c90c7f3ab9e28ad5e482b380c7ef1c176"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "SAP Security Patch Day – Critical SAP NetWeaver, Dispatcher and Gateway Vulnerabilities Patched",
-      "url": "https://cybersecuritynews.com/sap-security-patch-day-november/",
-      "published": "Tue, 10 Nov 2026 11:10:19 +0000",
-      "published_utc": "2026-11-10T11:10:19+00:00",
-      "summary": "<p>SAP’s November 2026 Security Patch Day brings fixes for critical vulnerabilities across SAP NetWeaver, Web Dispatcher, Gateway, and other business applications. Released on November 10, the update includes 35 new security notes, four GitHub security advisories, and three updates to earlier notes. Four vulnerabilities carry the maximum CVSS score of 10.0, making them the leading [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sap-security-patch-day-november/\">SAP Security Patch Day &#8211; Critical SAP NetWeaver, Dispatcher and Gateway Vulnerabilities Patched</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171276",
+      "title": "BYOD Ransomware Group Allegedly Claims Toyota Data Breach",
+      "url": "https://cybersecuritynews.com/toyota-data-breach-claim/",
+      "published": "Tue, 10 Nov 2026 18:14:43 +0000",
+      "published_utc": "2026-11-10T18:14:43+00:00",
+      "summary": "<p>The BYOD ransomware group has allegedly claimed a Toyota data breach, saying it obtained personal information and access involving kiosk devices. A supplied screenshot shows a Toyota listing updated on November 10, 2026. The claim remains unverified, and the material does not establish that Toyota’s systems were breached or that files were encrypted. The listing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/toyota-data-breach-claim/\">BYOD Ransomware Group Allegedly Claims Toyota Data Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171456",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/sap-security-patch-day-november",
-      "content_hash": "fb330e7dd3fa2699e42b504a593283e4c38678bfaa593c8006b3e2732866e810",
+      "article_key": "cybersecuritynews.com/toyota-data-breach-claim",
+      "content_hash": "2d11492303a89d5ad4b4ddca703673b9c2cbf5cbf377d9257e13effb3ccbe4d6",
       "detected_via": [
         "ORIGINAL"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "fb330e7dd3fa2699e42b504a593283e4c38678bfaa593c8006b3e2732866e810"
+        "ORIGINAL": "2d11492303a89d5ad4b4ddca703673b9c2cbf5cbf377d9257e13effb3ccbe4d6"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "SEGA Confirms Data Breach Exposing 2.19 Million Customer Email Addresses Following Third-Party Cyberattack",
-      "url": "https://gbhackers.com/sega-confirms-data-breach/",
-      "published": "Tue, 10 Nov 2026 11:04:23 +0000",
-      "published_utc": "2026-11-10T11:04:23+00:00",
-      "summary": "<p>SEGA confirmed on November 9, 2026, that attackers stole 2,196,044 customer email addresses after breaching Arara, its newsletter provider. Of these, 92,273 included information linked to newsletter delivery. The incident affected messages promoting SEGA and SEGA Fave products, highlighting the risks of third-party breaches. The intrusion involved Arara Message, an outsourced email distribution platform. SEGA [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sega-confirms-data-breach/\">SEGA Confirms Data Breach Exposing 2.19 Million Customer Email Addresses Following Third-Party Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206566",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/sega-confirms-data-breach",
-      "content_hash": "f6406761cd62612ead6666bb358989c5bac3b4a44edb9fe6e1967d5f28898a52",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "f6406761cd62612ead6666bb358989c5bac3b4a44edb9fe6e1967d5f28898a52",
-        "FEEDBURNER": "f6406761cd62612ead6666bb358989c5bac3b4a44edb9fe6e1967d5f28898a52"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "North Korean Hackers Target Drone Technology and Software Supply Chains in New Cyberespionage Campaigns",
-      "url": "https://gbhackers.com/drone-technology-targeted/",
-      "published": "Tue, 10 Nov 2026 10:51:36 +0000",
-      "published_utc": "2026-11-10T10:51:36+00:00",
-      "summary": "<p>North Korea-aligned hackers have renewed attacks on drone technology companies while expanding operations against software supply chains. Together, these campaigns expose industrial knowledge and software distribution channels to compromise. ESET’s APT Activity Report, published October 28, covers operations observed between April and September 2026. Researchers identified renewed Lazarus targeting of the drone sector and a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/drone-technology-targeted/\">North Korean Hackers Target Drone Technology and Software Supply Chains in New Cyberespionage Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206553",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/drone-technology-targeted",
-      "content_hash": "b238131bbb0019f433359c89a264b4f8358ba7d8f613de2f00196f7f43ee93fc",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b238131bbb0019f433359c89a264b4f8358ba7d8f613de2f00196f7f43ee93fc",
-        "FEEDBURNER": "b238131bbb0019f433359c89a264b4f8358ba7d8f613de2f00196f7f43ee93fc"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "France Says Iranian Hackers Hijacked Refrigeration Systems at 700 Supermarkets via Remote Defrost Controls",
-      "url": "https://cybersecuritynews.com/iranian-hackers-supermarket-cyberattacks/",
-      "published": "Tue, 10 Nov 2026 10:23:06 +0000",
-      "published_utc": "2026-11-10T10:23:06+00:00",
-      "summary": "<p>France has blamed Iran’s Islamic Revolutionary Guard Corps for a cyberattack that disrupted refrigeration at around 700 supermarket sites. During the night of October 11–12, 2026, attackers changed cooling controls remotely, causing major food losses and around 20 fires, according to the Paris prosecutor’s office. Foreign Minister Jean-Noël Barrot confirmed the attribution on November 9, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iranian-hackers-supermarket-cyberattacks/\">France Says Iranian Hackers Hijacked Refrigeration Systems at 700 Supermarkets via Remote Defrost Controls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171267",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/iranian-hackers-supermarket-cyberattacks",
-      "content_hash": "2a9e30c82914f6a4253130e5e53c43e1ace29bbae21ccdc5d290eecfb81f5433",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2a9e30c82914f6a4253130e5e53c43e1ace29bbae21ccdc5d290eecfb81f5433",
-        "FEEDBURNER": "209c9c46645487d26c06b975289eac604059e952baf5936c93558a25d0f28f77"
-      },
-      "feed_comparison": "CONTENT_DIFFERENT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
-    },
-    {
-      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-      "url": "http://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-      "published": "Tue, 10 Nov 2026 10:16:51 +0000",
-      "published_utc": "2026-11-10T10:16:51+00:00",
-      "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined.\n\nAs of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7409044246469020067",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "published": "Tue, 10 Nov 2026 18:12:21 +0000",
+      "published_utc": "2026-11-10T18:12:21+00:00",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5308251067737818268",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-      "content_hash": "45d4d1da7fef290ebbeb1ade296a458abfa98d3d6c7c2c3028e93b7c26364dc1",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "content_hash": "7089f5f05f91482c0d3cf9e0eda718fb89ee17b7248eeec0c7fa320db79c42b7",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "45d4d1da7fef290ebbeb1ade296a458abfa98d3d6c7c2c3028e93b7c26364dc1",
-        "FEEDBURNER": "45d4d1da7fef290ebbeb1ade296a458abfa98d3d6c7c2c3028e93b7c26364dc1"
+        "ORIGINAL": "7089f5f05f91482c0d3cf9e0eda718fb89ee17b7248eeec0c7fa320db79c42b7",
+        "FEEDBURNER": "7089f5f05f91482c0d3cf9e0eda718fb89ee17b7248eeec0c7fa320db79c42b7"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
     },
     {
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "url": "http://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "published": "Tue, 10 Nov 2026 10:07:29 +0000",
-      "published_utc": "2026-11-10T10:07:29+00:00",
-      "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails.\n\nAccording to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6073476832086263698",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "url": "http://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "published": "Tue, 10 Nov 2026 17:43:23 +0000",
+      "published_utc": "2026-11-10T17:43:23+00:00",
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5337262134692759853",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "content_hash": "d44019a83ccd8ab94c8bb57bca5a92b9eab5d8db9cf3d1c542e258a0d7cafa16",
+      "article_key": "thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "content_hash": "f82e89bfc5b51f4898abcd77c35a6f49c960959519e69ef332897907fa6528da",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "d44019a83ccd8ab94c8bb57bca5a92b9eab5d8db9cf3d1c542e258a0d7cafa16",
-        "FEEDBURNER": "d44019a83ccd8ab94c8bb57bca5a92b9eab5d8db9cf3d1c542e258a0d7cafa16"
+        "ORIGINAL": "f82e89bfc5b51f4898abcd77c35a6f49c960959519e69ef332897907fa6528da",
+        "FEEDBURNER": "f82e89bfc5b51f4898abcd77c35a6f49c960959519e69ef332897907fa6528da"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
     },
     {
-      "title": "Anthropic Launches Claude Mythos 5.2, Scoring 76.3% on Cybersecurity Benchmark to Identify 0-Day Flaws",
-      "url": "https://cybersecuritynews.com/claude-mythos-5-2-released/",
-      "published": "Tue, 10 Nov 2026 10:03:25 +0000",
-      "published_utc": "2026-11-10T10:03:25+00:00",
-      "summary": "<p>Anthropic has launched Claude Mythos 5.2, its latest AI model for cybersecurity engineering, reporting a 76.3% score on CyScenarioBench. Released on November 9 alongside Claude Fable 5.2, the model is designed to help security teams find, reproduce, and fix software vulnerabilities. Access remains controlled because those same skills could also help attackers. The result improves [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-mythos-5-2-released/\">Anthropic Launches Claude Mythos 5.2, Scoring 76.3% on Cybersecurity Benchmark to Identify 0-Day Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171250",
+      "title": "Hackers Can Exploit SAP PROXYGATE and ICM2SHELL Flaws for Unauthorized Full System Access",
+      "url": "https://cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws/",
+      "published": "Tue, 10 Nov 2026 17:32:01 +0000",
+      "published_utc": "2026-11-10T17:32:01+00:00",
+      "summary": "<p>SAP has released fixes for PROXYGATE and ICM2SHELL, critical security flaws that could let attackers take control of SAP systems without signing in. Disclosed during the November 10, 2026, Security Patch Day, the vulnerabilities carry maximum CVSS scores of 10.0 and affect core components used across business applications. Onapsis Research Labs discovered and reported both [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws/\">Hackers Can Exploit SAP PROXYGATE and ICM2SHELL Flaws for Unauthorized Full System Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171447",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/claude-mythos-5-2-released",
-      "content_hash": "0d4e44f6ed5883ede28a4ff4e1bda92e56d1cbbe4b46cab090535ef9d541afe2",
+      "article_key": "cybersecuritynews.com/sap-proxygate-and-icm2shell-flaws",
+      "content_hash": "af2b8c48d6874420e66853c77ad4d727162d493e9d7686451208381f54de60f8",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "af2b8c48d6874420e66853c77ad4d727162d493e9d7686451208381f54de60f8"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
+    },
+    {
+      "title": "Railway Reveals How Hackers Used AI Agents to Steal API Keys and Rack Up $740,000 in Charges",
+      "url": "https://cybersecuritynews.com/railway-details-data-breach/",
+      "published": "Tue, 10 Nov 2026 17:19:58 +0000",
+      "published_utc": "2026-11-10T17:19:58+00:00",
+      "summary": "<p>Railway has revealed how an attacker used AI agents, a build system flaw, and cloud access mistakes to steal customer secrets and generate an estimated $740,000 in unauthorized charges. Its November 10 report describes an attack that crossed several internal systems while engineers worked to close multiple entry points. The findings expand on the earlier [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/railway-details-data-breach/\">Railway Reveals How Hackers Used AI Agents to Steal API Keys and Rack Up $740,000 in Charges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171449",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/railway-details-data-breach",
+      "content_hash": "2da878b0103b7aefb663c612806dc17f3874ce75536bc5edbb43c3724637a64d",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0d4e44f6ed5883ede28a4ff4e1bda92e56d1cbbe4b46cab090535ef9d541afe2",
-        "FEEDBURNER": "0d4e44f6ed5883ede28a4ff4e1bda92e56d1cbbe4b46cab090535ef9d541afe2"
+        "ORIGINAL": "2da878b0103b7aefb663c612806dc17f3874ce75536bc5edbb43c3724637a64d",
+        "FEEDBURNER": "2da878b0103b7aefb663c612806dc17f3874ce75536bc5edbb43c3724637a64d"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-      "url": "http://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-      "published": "Tue, 10 Nov 2026 10:02:40 +0000",
-      "published_utc": "2026-11-10T10:02:40+00:00",
-      "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.\n\nThree are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server.\n\nThe flaws in the Web",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5109838632219717530",
+      "title": "Notion Confirms AI Chat Transcripts Exposed in Fireworks AI Breach, Affecting Customer Workspaces",
+      "url": "https://cybersecuritynews.com/notion-confirms-data-breach/",
+      "published": "Tue, 10 Nov 2026 16:54:37 +0000",
+      "published_utc": "2026-11-10T16:54:37+00:00",
+      "summary": "<p>Notion has confirmed that a security incident at Fireworks AI exposed Notion AI chat transcripts linked to fewer than 1% of its customer workspaces. Insights, a feature that helps teams understand their AI usage, used the affected conversations. Notion said its own systems were not breached and no other Notion features were affected. The company [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/notion-confirms-data-breach/\">Notion Confirms AI Chat Transcripts Exposed in Fireworks AI Breach, Affecting Customer Workspaces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171433",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/notion-confirms-data-breach",
+      "content_hash": "563c8402b020cc6d3f0821239be5f9d3d7dd90217c1950a8d8f4cf5a88249d24",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "563c8402b020cc6d3f0821239be5f9d3d7dd90217c1950a8d8f4cf5a88249d24",
+        "FEEDBURNER": "563c8402b020cc6d3f0821239be5f9d3d7dd90217c1950a8d8f4cf5a88249d24"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
+    },
+    {
+      "title": "Ivanti Patches New Security Flaws Affecting Endpoint Manager, EPMM, Sentry, CSA, and Workspace Manager",
+      "url": "https://cybersecuritynews.com/ivanti-security-flaws/",
+      "published": "Tue, 10 Nov 2026 16:43:58 +0000",
+      "published_utc": "2026-11-10T16:43:58+00:00",
+      "summary": "<p>Ivanti has released security updates for Endpoint Manager, Endpoint Manager Mobile, Sentry, Cloud Services Application, and User Workspace Manager. The November 2026 disclosures cover flaws that could allow remote code execution, changes to trusted certificates, data exposure, and service disruption. Two critical vulnerabilities in Endpoint Manager and CSA present the highest risks. Ivanti said it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ivanti-security-flaws/\">Ivanti Patches New Security Flaws Affecting Endpoint Manager, EPMM, Sentry, CSA, and Workspace Manager</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171423",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/ivanti-security-flaws",
+      "content_hash": "5b9994cafb43b52de6517f1fd3d47edab05116cfb33bb1dbde34f7fa0cabf4cb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5b9994cafb43b52de6517f1fd3d47edab05116cfb33bb1dbde34f7fa0cabf4cb",
+        "FEEDBURNER": "5b9994cafb43b52de6517f1fd3d47edab05116cfb33bb1dbde34f7fa0cabf4cb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
+    },
+    {
+      "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
+      "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-november-2-6-2026/",
+      "published": "Tue, 10 Nov 2026 16:05:43 +0000",
+      "published_utc": "2026-11-10T16:05:43+00:00",
+      "summary": "<p>ARTEX AI Framework Hits Banks &#38; Cloud, $133M Crédit Mutuel Heist, OpenSSH &#8216;sshole&#8217; Flaw, WordPress Core RCE Under Attack, 1.3M-Device Android Botnet &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from November 2 to 6, 2026. AI-weaponized attacks defined the week: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-november-2-6-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206407",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/weekly-cybersecurity-newsletter-november-2-6-2026",
+      "content_hash": "4092a09eca154810778b7b40b5611a1cf89d763a1b5e23ca6dbd2ccec1020140",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4092a09eca154810778b7b40b5611a1cf89d763a1b5e23ca6dbd2ccec1020140",
+        "FEEDBURNER": "4092a09eca154810778b7b40b5611a1cf89d763a1b5e23ca6dbd2ccec1020140"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
+    },
+    {
+      "title": "Barracuda Confirms Active Exploitation of Email Gateway Flaws Allowing Root Access",
+      "url": "https://cybersecuritynews.com/barracuda-email-gateway-flaws/",
+      "published": "Tue, 10 Nov 2026 16:05:32 +0000",
+      "published_utc": "2026-11-10T16:05:32+00:00",
+      "summary": "<p>Barracuda has confirmed active exploitation of security flaws affecting its Email Security Gateway (ESG), warning that attackers could combine two vulnerabilities to gain root access without logging in. In a November 9, 2026, update issued at 9:00 p.m. EST, the company said exploitation had affected a small number of organizations. The flaws, tracked as CVE-2026-116606 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/barracuda-email-gateway-flaws/\">Barracuda Confirms Active Exploitation of Email Gateway Flaws Allowing Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171415",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/barracuda-email-gateway-flaws",
+      "content_hash": "f9d882b7159220bfeece235d77ccef066a384509b995dd5e5ad1b7dcfeb668f6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f9d882b7159220bfeece235d77ccef066a384509b995dd5e5ad1b7dcfeb668f6",
+        "FEEDBURNER": "f9d882b7159220bfeece235d77ccef066a384509b995dd5e5ad1b7dcfeb668f6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "url": "http://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "published": "Tue, 10 Nov 2026 16:00:55 +0000",
+      "published_utc": "2026-11-10T16:00:55+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7518380458081637394",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-      "content_hash": "9f1eb2c073269a7989f343bd82c7655d77dfc1a857013c6ab257800bbdc1cbeb",
+      "article_key": "thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "content_hash": "e0adf2a1c81bd6c47c4f37fac12c33c1124a58aa699ff8015f2b240653966c8b",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "9f1eb2c073269a7989f343bd82c7655d77dfc1a857013c6ab257800bbdc1cbeb",
-        "FEEDBURNER": "9f1eb2c073269a7989f343bd82c7655d77dfc1a857013c6ab257800bbdc1cbeb"
+        "ORIGINAL": "e0adf2a1c81bd6c47c4f37fac12c33c1124a58aa699ff8015f2b240653966c8b",
+        "FEEDBURNER": "e0adf2a1c81bd6c47c4f37fac12c33c1124a58aa699ff8015f2b240653966c8b"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
     },
     {
-      "title": "Hackers Steal GitHub Tokens Through Malicious VS Code Extension That Remained Available for 18 Minutes",
-      "url": "https://cybersecuritynews.com/hackers-steal-github-tokens/",
-      "published": "Tue, 10 Nov 2026 09:54:32 +0000",
-      "published_utc": "2026-11-10T09:54:32+00:00",
-      "summary": "<p>A poisoned version of the popular Nx Console extension for Visual Studio Code stayed on the official VS Code Marketplace for only about 18 minutes. That was long enough for some developers to install it and hand over their secrets. The theft led to one of the most serious developer-tool breaches of 2026. The extension [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-steal-github-tokens/\">Hackers Steal GitHub Tokens Through Malicious VS Code Extension That Remained Available for 18 Minutes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171248",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/hackers-steal-github-tokens",
-      "content_hash": "edb2a44b82f39adec077c7c34f99959089dbf46b1d62a59bd7b47af07309cddb",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "edb2a44b82f39adec077c7c34f99959089dbf46b1d62a59bd7b47af07309cddb",
-        "FEEDBURNER": "edb2a44b82f39adec077c7c34f99959089dbf46b1d62a59bd7b47af07309cddb"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
-    },
-    {
-      "title": "Hackers Use 1,438 Fake FOFA Accounts to Steal OpenAI and DeepSeek API Keys Across the Internet",
-      "url": "https://cybersecuritynews.com/fake-fofa-accounts/",
-      "published": "Tue, 10 Nov 2026 09:39:54 +0000",
-      "published_utc": "2026-11-10T09:39:54+00:00",
-      "summary": "<p>A threat actor has built an automated system that registers fake accounts on the FOFA search engine, scans the internet for leaked AI keys, and tests them for free use. The operation relies on 1,438 fake FOFA accounts to find exposed OpenAI and DeepSeek API keys on misconfigured servers. The stolen keys power the attacker&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-fofa-accounts/\">Hackers Use 1,438 Fake FOFA Accounts to Steal OpenAI and DeepSeek API Keys Across the Internet</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171241",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/fake-fofa-accounts",
-      "content_hash": "a5e5444091a88e5e770c7d0bad1a9fad72e4b81888e8f29894b9d6604961c077",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a5e5444091a88e5e770c7d0bad1a9fad72e4b81888e8f29894b9d6604961c077",
-        "FEEDBURNER": "a5e5444091a88e5e770c7d0bad1a9fad72e4b81888e8f29894b9d6604961c077"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
-    },
-    {
-      "title": "Fireworks AI Hit by LLMJacking Cyberattack Exposing Customer Data and AI Model Weights",
-      "url": "https://gbhackers.com/fireworks-ai-hit-by-llmjacking-cyberattack/",
-      "published": "Tue, 10 Nov 2026 09:23:14 +0000",
-      "published_utc": "2026-11-10T09:23:14+00:00",
-      "summary": "<p>Fireworks AI has disclosed a wider security breach involving customer account information, billing records, secrets, datasets, and incomplete model weights. Its November 9 update links the activity to financially motivated criminals pursuing LLM-jacking, which involves stealing access to large language models and reselling their capacity through illegal routing gateways. The investigation remains ongoing. The company [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fireworks-ai-hit-by-llmjacking-cyberattack/\">Fireworks AI Hit by LLMJacking Cyberattack Exposing Customer Data and AI Model Weights</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206549",
+      "title": "One Identity Unveils Safeguard 9.0 for Simpler PAM",
+      "url": "https://gbhackers.com/one-identity-unveils-safeguard-9-0-for-simpler-pam/",
+      "published": "Tue, 10 Nov 2026 15:59:49 +0000",
+      "published_utc": "2026-11-10T15:59:49+00:00",
+      "summary": "<p>Alisa Vijeo, California, November 10th, 2026, CyberNewswire One Identity today unveiled Safeguard 9.0, a major update designed to reduce the infrastructure, administrative overhead and operational complexity associated with enterprise privileged access management. As privileged access management becomes more critical and complex, One Identity Safeguard continues to advance around a straightforward goal: make enterprise-grade privileged access [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/one-identity-unveils-safeguard-9-0-for-simpler-pam/\">One Identity Unveils Safeguard 9.0 for Simpler PAM</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206607",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/fireworks-ai-hit-by-llmjacking-cyberattack",
-      "content_hash": "f603114212d5155699391a5980b78c1e68deeacdfbf9e5d74767f2e63bf3b396",
+      "article_key": "gbhackers.com/one-identity-unveils-safeguard-9-0-for-simpler-pam",
+      "content_hash": "75ff80bcd2ffe12445cdba0e47d954cf48844e71c3a3299ff59867afd3d8111b",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "f603114212d5155699391a5980b78c1e68deeacdfbf9e5d74767f2e63bf3b396",
-        "FEEDBURNER": "f603114212d5155699391a5980b78c1e68deeacdfbf9e5d74767f2e63bf3b396"
+        "ORIGINAL": "75ff80bcd2ffe12445cdba0e47d954cf48844e71c3a3299ff59867afd3d8111b",
+        "FEEDBURNER": "75ff80bcd2ffe12445cdba0e47d954cf48844e71c3a3299ff59867afd3d8111b"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
     },
     {
-      "title": "Dark Storm Team Offers DDoS Attacks, Database Dumps, and Stolen Access Through Telegram Channels",
-      "url": "https://gbhackers.com/dark-storm-team-operations/",
-      "published": "Tue, 10 Nov 2026 09:16:51 +0000",
-      "published_utc": "2026-11-10T09:16:51+00:00",
-      "summary": "<p>Dark Storm Team uses Telegram as both a hacktivist broadcasting network and a cybercrime storefront, advertising distributed denial-of-service attacks, database dumps, compromised accounts, and surveillance access. A StealthMole investigation described in the supplied material traces an operation combining politically framed disruption claims with commercial services, cryptocurrency payments, and repeated channel migrations. First observed in late [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dark-storm-team-operations/\">Dark Storm Team Offers DDoS Attacks, Database Dumps, and Stolen Access Through Telegram Channels</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206541",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/dark-storm-team-operations",
-      "content_hash": "708b48515c0eb3f42e72627865540f86bdc0557d36ee15c7fa7b1acf2ff4b9ad",
+      "title": "One Identity Unveils Safeguard 9.0 for Simpler PAM",
+      "url": "https://cybersecuritynews.com/one-identity-unveils-safeguard-9-0-for-simpler-pam/",
+      "published": "Tue, 10 Nov 2026 15:59:11 +0000",
+      "published_utc": "2026-11-10T15:59:11+00:00",
+      "summary": "<p>Alisa Vijeo, California, November 10th, 2026, CyberNewswire One Identity today unveiled Safeguard 9.0, a major update designed to reduce the infrastructure, administrative overhead and operational complexity associated with enterprise privileged access management. As privileged access management becomes more critical and complex, One Identity Safeguard continues to advance around a straightforward goal: make enterprise-grade privileged access [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/one-identity-unveils-safeguard-9-0-for-simpler-pam/\">One Identity Unveils Safeguard 9.0 for Simpler PAM</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171393",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/one-identity-unveils-safeguard-9-0-for-simpler-pam",
+      "content_hash": "8c44dfcdfa4140e661ab2de69144062e4ceb9c6391dc5fcb1dc35833dbeffeca",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "708b48515c0eb3f42e72627865540f86bdc0557d36ee15c7fa7b1acf2ff4b9ad",
-        "FEEDBURNER": "708b48515c0eb3f42e72627865540f86bdc0557d36ee15c7fa7b1acf2ff4b9ad"
+        "ORIGINAL": "8c44dfcdfa4140e661ab2de69144062e4ceb9c6391dc5fcb1dc35833dbeffeca",
+        "FEEDBURNER": "8c44dfcdfa4140e661ab2de69144062e4ceb9c6391dc5fcb1dc35833dbeffeca"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-      "url": "http://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-      "published": "Tue, 10 Nov 2026 09:08:20 +0000",
-      "published_utc": "2026-11-10T09:08:20+00:00",
-      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday.\n\nThe attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires.\n\nThe unit",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7496994721191222198",
+      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "url": "http://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "published": "Tue, 10 Nov 2026 15:58:44 +0000",
+      "published_utc": "2026-11-10T15:58:44+00:00",
+      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\n\"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3124134063178278758",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-      "content_hash": "6937927b096d3fa929370511f0ab592d190f17a1f6b96b86657a63a9ed335301",
+      "article_key": "thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "content_hash": "ffe70f8523716ccf1de7f139676fcdf66b0d8717e93e09c642eda9245e17065a",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "6937927b096d3fa929370511f0ab592d190f17a1f6b96b86657a63a9ed335301",
-        "FEEDBURNER": "6937927b096d3fa929370511f0ab592d190f17a1f6b96b86657a63a9ed335301"
+        "ORIGINAL": "ffe70f8523716ccf1de7f139676fcdf66b0d8717e93e09c642eda9245e17065a",
+        "FEEDBURNER": "ffe70f8523716ccf1de7f139676fcdf66b0d8717e93e09c642eda9245e17065a"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
     },
     {
-      "title": "Apple iOS 27.2.1 Fixes 9 Security Vulnerabilities Affecting iMessage, Bluetooth, and AirPlay",
-      "url": "https://gbhackers.com/apple-ios-27-2-1-fixes-9-security-vulnerabilities/",
-      "published": "Tue, 10 Nov 2026 09:05:52 +0000",
-      "published_utc": "2026-11-10T09:05:52+00:00",
-      "summary": "<p>Apple released iOS 27.2.1 and iPadOS 27.2.1 on November 9, 2026, fixes nine security vulnerabilities and affect iMessage, Bluetooth pairing, AirPlay, App Intents, and the brotli compression library. Apple&#8217;s security releases page lists the update. The flaws range from memory corruption to weak authorization and broken rate limits. Users should install the update soon. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-ios-27-2-1-fixes-9-security-vulnerabilities/\">Apple iOS 27.2.1 Fixes 9 Security Vulnerabilities Affecting iMessage, Bluetooth, and AirPlay</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206533",
+      "title": "One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration",
+      "url": "https://gbhackers.com/one-identity-active-roles-8-6-security-administration/",
+      "published": "Tue, 10 Nov 2026 15:51:44 +0000",
+      "published_utc": "2026-11-10T15:51:44+00:00",
+      "summary": "<p>Alisa Viejo, California, November 10th, 2026, CyberNewswire Active Roles 8.6: Cumulative security, feature and administration upgrades&#160; One Identity has introduced Active Roles 8.6, strengthening secure and streamlined Active Directory administration with cumulative platform improvements, expanded API capabilities and greater authentication flexibility. Active Roles 8.6, updated July 27, 2026, focuses on security and cumulative platform improvements. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/one-identity-active-roles-8-6-security-administration/\">One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206609",
       "source": "GBHackers",
       "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/apple-ios-27-2-1-fixes-9-security-vulnerabilities",
-      "content_hash": "4eef7a31233871d67b425c0e4a8d8fda0c4e90a697928dcd6467ca62c4903a5a",
+      "article_key": "gbhackers.com/one-identity-active-roles-8-6-security-administration",
+      "content_hash": "fa664b370eebd8c2858f862de3f47b372c449e052c189a0b7d677c940a3b64f2",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "4eef7a31233871d67b425c0e4a8d8fda0c4e90a697928dcd6467ca62c4903a5a",
-        "FEEDBURNER": "4eef7a31233871d67b425c0e4a8d8fda0c4e90a697928dcd6467ca62c4903a5a"
+        "ORIGINAL": "fa664b370eebd8c2858f862de3f47b372c449e052c189a0b7d677c940a3b64f2",
+        "FEEDBURNER": "fa664b370eebd8c2858f862de3f47b372c449e052c189a0b7d677c940a3b64f2"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
     },
     {
-      "title": "Malicious Ruby Gem Steals 51 Types of Credentials and Plants Backdoors in AI Coding Tools",
-      "url": "https://cybersecuritynews.com/malicious-ruby-gem/",
-      "published": "Tue, 10 Nov 2026 08:55:28 +0000",
-      "published_utc": "2026-11-10T08:55:28+00:00",
-      "summary": "<p>A fake Ruby package called strutil-core looked like a harmless text helper. In fact, it ran a credential-stealing worm the moment a developer installed it. The worm also wrote backdoors into the settings of AI coding tools. It could even delete a victim&#8217;s home folder if they tried to cancel a stolen GitHub token. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-ruby-gem/\">Malicious Ruby Gem Steals 51 Types of Credentials and Plants Backdoors in AI Coding Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171232",
+      "title": "One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration",
+      "url": "https://cybersecuritynews.com/one-identity-active-roles-8-6-security-administration/",
+      "published": "Tue, 10 Nov 2026 15:50:35 +0000",
+      "published_utc": "2026-11-10T15:50:35+00:00",
+      "summary": "<p>Alisa Viejo, California, November 10th, 2026, CyberNewswire Active Roles 8.6: Cumulative security, feature and administration upgrades&#160; One Identity has introduced Active Roles 8.6, strengthening secure and streamlined Active Directory administration with cumulative platform improvements, expanded API capabilities and greater authentication flexibility. Active Roles 8.6, updated July 27, 2026, focuses on security and cumulative platform improvements. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/one-identity-active-roles-8-6-security-administration/\">One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171404",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/malicious-ruby-gem",
-      "content_hash": "5aa9b5cdb3f14d3e3cf17174fe6a9918cde32d80a7c243aadb182ac740e7bf18",
+      "article_key": "cybersecuritynews.com/one-identity-active-roles-8-6-security-administration",
+      "content_hash": "0ece9c4dbbfccd5e59ce7f07e50fa595f5dd3476924b3a1d854b7f0d791229af",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "5aa9b5cdb3f14d3e3cf17174fe6a9918cde32d80a7c243aadb182ac740e7bf18",
-        "FEEDBURNER": "5aa9b5cdb3f14d3e3cf17174fe6a9918cde32d80a7c243aadb182ac740e7bf18"
+        "ORIGINAL": "0ece9c4dbbfccd5e59ce7f07e50fa595f5dd3476924b3a1d854b7f0d791229af",
+        "FEEDBURNER": "0ece9c4dbbfccd5e59ce7f07e50fa595f5dd3476924b3a1d854b7f0d791229af"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "Progress WS_FTP Server Fixes 7 Security Flaws Allowing Credential Theft, Path Traversal, and Remote Attacks",
-      "url": "https://cybersecuritynews.com/progress-ws_ftp-server-fixes-security-vulnerabilities/",
-      "published": "Tue, 10 Nov 2026 08:42:39 +0000",
-      "published_utc": "2026-11-10T08:42:39+00:00",
-      "summary": "<p>Progress Software has released its November 2026 WS_FTP Server Service Pack to address security weaknesses that could expose credentials, allow access to restricted files, and let remote attackers disrupt file transfers. The company recommends upgrading Windows installations to WS_FTP Server 2025.0.5, also identified as version 10.0.5. The November 9 advisory supplied for this report describes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/progress-ws_ftp-server-fixes-security-vulnerabilities/\">Progress WS_FTP Server Fixes 7 Security Flaws Allowing Credential Theft, Path Traversal, and Remote Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171219",
+      "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
+      "url": "https://cybersecuritynews.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/",
+      "published": "Tue, 10 Nov 2026 15:49:23 +0000",
+      "published_utc": "2026-11-10T15:49:23+00:00",
+      "summary": "<p>Alisa Viejo, California, November 10th, 2026, CyberNewswire One Identity today unveiled Identity Manager 10.0 LTS, modernizing the identity governance experience with browser-based administration, AI-assisted insights and streamlined automation for everyday identity operations. Of the three products, Identity Manager 10.0 LTS provides the clearest UI modernization story. Its new browser-based experience provides administrative functionality without requiring [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/\">One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171395",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/progress-ws_ftp-server-fixes-security-vulnerabilities",
-      "content_hash": "a105e555284bab631e7902e3456681155c1b85c610a3d613a62e56915be609b0",
+      "article_key": "cybersecuritynews.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux",
+      "content_hash": "3b61816b933dc5dfd029de11318ad815dc68606374cfd5921c331c28e9f8a32e",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "a105e555284bab631e7902e3456681155c1b85c610a3d613a62e56915be609b0",
-        "FEEDBURNER": "a105e555284bab631e7902e3456681155c1b85c610a3d613a62e56915be609b0"
+        "ORIGINAL": "3b61816b933dc5dfd029de11318ad815dc68606374cfd5921c331c28e9f8a32e",
+        "FEEDBURNER": "3b61816b933dc5dfd029de11318ad815dc68606374cfd5921c331c28e9f8a32e"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "Vanderbilt University Shuts Down Campus Devices After BYOD Ransomware Group Claims Network Breach",
-      "url": "https://cybersecuritynews.com/vanderbilt-university-shuts-down-devices/",
-      "published": "Tue, 10 Nov 2026 08:40:48 +0000",
-      "published_utc": "2026-11-10T08:40:48+00:00",
-      "summary": "<p>Vanderbilt University told students, faculty, and staff to shut down university devices and disconnect from campus Wi-Fi on November 9, 2026, while its IT team investigated an active cybersecurity incident. The warning came as the BYOD ransomware group claimed it had locked university databases and stolen sensitive student, employee, and research data. Vanderbilt has not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vanderbilt-university-shuts-down-devices/\">Vanderbilt University Shuts Down Campus Devices After BYOD Ransomware Group Claims Network Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171203",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/vanderbilt-university-shuts-down-devices",
-      "content_hash": "85ecc5ad7e76e92e8d07456ca61bea5b56f2af994bf4d84d5fe6a056a35dbcdd",
+      "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
+      "url": "https://gbhackers.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/",
+      "published": "Tue, 10 Nov 2026 15:48:40 +0000",
+      "published_utc": "2026-11-10T15:48:40+00:00",
+      "summary": "<p>Alisa Viejo, California, November 10th, 2026, CyberNewswire One Identity today unveiled Identity Manager 10.0 LTS, modernizing the identity governance experience with browser-based administration, AI-assisted insights and streamlined automation for everyday identity operations. Of the three products, Identity Manager 10.0 LTS provides the clearest UI modernization story. Its new browser-based experience provides administrative functionality without requiring [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/\">One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206603",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux",
+      "content_hash": "e8633d64401925ee67fe7378afb3c657e2c038854bd2ff6eaf3c2f3ffb9f1360",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "85ecc5ad7e76e92e8d07456ca61bea5b56f2af994bf4d84d5fe6a056a35dbcdd",
-        "FEEDBURNER": "85ecc5ad7e76e92e8d07456ca61bea5b56f2af994bf4d84d5fe6a056a35dbcdd"
+        "ORIGINAL": "e8633d64401925ee67fe7378afb3c657e2c038854bd2ff6eaf3c2f3ffb9f1360",
+        "FEEDBURNER": "e8633d64401925ee67fe7378afb3c657e2c038854bd2ff6eaf3c2f3ffb9f1360"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
     },
     {
-      "title": "Apple Fixes 9 Security Vulnerabilities in iOS 27.2.1, Including Bluetooth Pairing and iMessage Flaws",
-      "url": "https://cybersecuritynews.com/apple-fixes-security-vulnerabilities/",
-      "published": "Tue, 10 Nov 2026 08:38:15 +0000",
-      "published_utc": "2026-11-10T08:38:15+00:00",
-      "summary": "<p>Apple released iOS 27.2.1 and iPadOS 27.2.1 on November 9, 2026. The update fixes nine security flaws in Bluetooth, AirPlay, Messages, and other parts of the system. It runs on iPhone 11 and later, and on several recent iPad models, including iPad Pro, iPad Air, iPad 9th generation, and iPad mini 6th generation. Apple&#8217;s security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-fixes-security-vulnerabilities/\">Apple Fixes 9 Security Vulnerabilities in iOS 27.2.1, Including Bluetooth Pairing and iMessage Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171188",
+      "title": "AI-Powered Malware Analysis: From Hidden Phishing Attacks to Faster SOC Response",
+      "url": "https://cybersecuritynews.com/ai-powered-malware-analysis/",
+      "published": "Tue, 10 Nov 2026 15:47:38 +0000",
+      "published_utc": "2026-11-10T15:47:38+00:00",
+      "summary": "<p>A suspicious PDF opens normally. The link inside leads to a CAPTCHA page. Nothing obviously malicious appears, yet the real attack is still several steps away.&#160; For SOC analysts, cases like this can turn a routine phishing alert into a lengthy investigation. Following redirects, examining network activity, checking related infrastructure, and preparing evidence for escalation [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-powered-malware-analysis/\">AI-Powered Malware Analysis: From Hidden Phishing Attacks to Faster SOC Response </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171365",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/apple-fixes-security-vulnerabilities",
-      "content_hash": "b2640c34904f97a9eeab59fb32b2c17e06a7e6ff549a0b316e25d5e859e99302",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b2640c34904f97a9eeab59fb32b2c17e06a7e6ff549a0b316e25d5e859e99302",
-        "FEEDBURNER": "b2640c34904f97a9eeab59fb32b2c17e06a7e6ff549a0b316e25d5e859e99302"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
-    },
-    {
-      "title": "SEGA Confirms Data Breach After Third-Party Email Provider Exposes 2.19 Million Customer Email Addresses",
-      "url": "https://cybersecuritynews.com/sega-confirms-data-breach/",
-      "published": "Tue, 10 Nov 2026 08:34:20 +0000",
-      "published_utc": "2026-11-10T08:34:20+00:00",
-      "summary": "<p>SEGA confirmed that attackers exposed 2,196,044 email addresses after gaining unauthorized access to Arara Message, a third-party service used to send newsletters. The company disclosed the breach on November 9, 2026, saying the affected records related to promotional emails for SEGA and its group company, SEGA Fave. The SEGA data breach also exposed information linked [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sega-confirms-data-breach/\">SEGA Confirms Data Breach After Third-Party Email Provider Exposes 2.19 Million Customer Email Addresses</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=171198",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/sega-confirms-data-breach",
-      "content_hash": "5a29996c8ecf690da3b927498a7d61c4e75258c707b98d67158e67de9eb8561e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5a29996c8ecf690da3b927498a7d61c4e75258c707b98d67158e67de9eb8561e",
-        "FEEDBURNER": "5a29996c8ecf690da3b927498a7d61c4e75258c707b98d67158e67de9eb8561e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
-    },
-    {
-      "title": "Top 9 Best Cyber Risk Quantification (CRQ) Tools in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-crq-tools/",
-      "published": "Tue, 10 Nov 2026 08:31:05 +0000",
-      "published_utc": "2026-11-10T08:31:05+00:00",
-      "summary": "<p>CRQ translates security’s native language severities, maturity tiers, heat maps into the only dialect budgets understand: expected dollars. The 2026 field splits between FAIR-methodology heirs, telemetry-grounded engines that quantify from live estate data, and ratings-lineage platforms monetizing their scoring graphs. One honest count note: our source sheet listed BitSight twice, so we rank nine platforms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-crq-tools/\">Top 9 Best Cyber Risk Quantification (CRQ) Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=170850",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/best-crq-tools",
-      "content_hash": "0d7ed6126a7ad4efdb8c5b443feac19ec4324f3ea6755af279acb7058574c297",
+      "article_key": "cybersecuritynews.com/ai-powered-malware-analysis",
+      "content_hash": "11d29c2e6a13ed3905c71cac62b26d46faa25af2b300ecc535d7905f18dfdef2",
       "detected_via": [
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "FEEDBURNER": "0d7ed6126a7ad4efdb8c5b443feac19ec4324f3ea6755af279acb7058574c297"
+        "FEEDBURNER": "11d29c2e6a13ed3905c71cac62b26d46faa25af2b300ecc535d7905f18dfdef2"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
       "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:49.160192+00:00",
-      "first_seen_local": "2026-11-10T06:40:49.160190-05:00",
-      "last_updated_utc": "2026-11-10T11:40:49.160192+00:00",
-      "last_updated_local": "2026-11-10T06:40:49.160190-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "11 Cybersecurity Maturity Assessment Tools: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/maturity-assessment-buyers-guide/",
-      "published": "Tue, 10 Nov 2026 08:28:51 +0000",
-      "published_utc": "2026-11-10T08:28:51+00:00",
-      "summary": "<p>Maturity assessment answers the board’s simplest hard question “how good are we, really, and versus whom?” and the tooling market answers through four different lenses: framework self-assessment platforms (NIST CSF, C2M2), telemetry-driven scores computed from live estates, outside-in ratings benchmarks, and exposure-grounded posture math. Lens honesty is the buying discipline, because a questionnaire score and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/maturity-assessment-buyers-guide/\">11 Cybersecurity Maturity Assessment Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206283",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/maturity-assessment-buyers-guide",
-      "content_hash": "61cc2bb5c87b481d7d83447cd92009bfa47eb855ff3aee51bf5bd37e2da654ef",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "61cc2bb5c87b481d7d83447cd92009bfa47eb855ff3aee51bf5bd37e2da654ef",
-        "FEEDBURNER": "61cc2bb5c87b481d7d83447cd92009bfa47eb855ff3aee51bf5bd37e2da654ef"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "TeamPCP Hackers Steal 3,800 GitHub Repositories by Poisoning Trivy, LiteLLM, and VS Code Extensions",
-      "url": "https://gbhackers.com/teampcp-supply-chain/",
-      "published": "Tue, 10 Nov 2026 08:28:01 +0000",
-      "published_utc": "2026-11-10T08:28:01+00:00",
-      "summary": "<p>TeamPCP’s escalating software supply chain campaign culminated in the theft of approximately 3,800 GitHub internal repositories after a poisoned VS Code extension compromised an employee’s device. GitHub described the attackers’ repository count as “directionally consistent” with its investigation, while reporting no evidence that customer-owned repositories were affected. The incident connected two attack surfaces: automated build [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/teampcp-supply-chain/\">TeamPCP Hackers Steal 3,800 GitHub Repositories by Poisoning Trivy, LiteLLM, and VS Code Extensions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206529",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/teampcp-supply-chain",
-      "content_hash": "d6723cadcc2a1c22cb0af5cd8733b0432a690ffc2cb8268cc10aa16f50dfada1",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "d6723cadcc2a1c22cb0af5cd8733b0432a690ffc2cb8268cc10aa16f50dfada1",
-        "FEEDBURNER": "d6723cadcc2a1c22cb0af5cd8733b0432a690ffc2cb8268cc10aa16f50dfada1"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "11 GDPR Compliance Software: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/gdpr-compliance-buyers-guide/",
-      "published": "Tue, 10 Nov 2026 08:24:15 +0000",
-      "published_utc": "2026-11-10T08:24:15+00:00",
-      "summary": "<p>GDPR tooling splits into two jobs regulators grade differently: the visible layer consent banners, preference centers, cookie governance and the program layer records of processing, DSAR fulfillment, DPIAs, transfer assessments. Enforcement history punishes both (invalid consent and missed DSAR clocks), so this verdict guide judges eleven options with each one’s center of gravity declared: consent-first [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gdpr-compliance-buyers-guide/\">11 GDPR Compliance Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206274",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/gdpr-compliance-buyers-guide",
-      "content_hash": "3a3efb5b243e43847979b9d69e04b76c4e8aa5ae03a18c6b7c8e079f476253f6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "3a3efb5b243e43847979b9d69e04b76c4e8aa5ae03a18c6b7c8e079f476253f6",
-        "FEEDBURNER": "3a3efb5b243e43847979b9d69e04b76c4e8aa5ae03a18c6b7c8e079f476253f6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "11 HIPAA Compliance Software: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/hipaa-compliance-buyers-guide/",
-      "published": "Tue, 10 Nov 2026 08:16:54 +0000",
-      "published_utc": "2026-11-10T08:16:54+00:00",
-      "summary": "<p>HIPAA compliance software serves two very different buyers wearing one regulation: covered entities (practices, hospitals, payers) needing risk assessments, training, and BAA management, and digital-health vendors needing to prove HIPAA posture to enterprise healthcare customers often alongside SOC 2. This verdict guide judges eleven options with that split declared, because the practice-manager’s checklist tool and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hipaa-compliance-buyers-guide/\">11 HIPAA Compliance Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=206247",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hipaa-compliance-buyers-guide",
-      "content_hash": "b65c9e2fbaac53feb455439633e2fc0bda3245d438d5c12d1ca8618bcfde92ae",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b65c9e2fbaac53feb455439633e2fc0bda3245d438d5c12d1ca8618bcfde92ae",
-        "FEEDBURNER": "b65c9e2fbaac53feb455439633e2fc0bda3245d438d5c12d1ca8618bcfde92ae"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:48.585798+00:00",
-      "first_seen_local": "2026-11-10T06:40:48.585796-05:00",
-      "last_updated_utc": "2026-11-10T11:40:48.585798+00:00",
-      "last_updated_local": "2026-11-10T06:40:48.585796-05:00"
-    },
-    {
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "url": "http://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "published": "Tue, 10 Nov 2026 08:16:14 +0000",
-      "published_utc": "2026-11-10T08:16:14+00:00",
-      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision.\n\nDuring pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8891661030714808797",
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "url": "http://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "published": "Tue, 10 Nov 2026 15:33:59 +0000",
+      "published_utc": "2026-11-10T15:33:59+00:00",
+      "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"\n\nIn a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6827521241101244108",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "content_hash": "8c1f62746178da1ab0f709fb6255f77107c4ce8381dc169ac1a6cf9701f7627e",
+      "article_key": "thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "content_hash": "cf0c6ac5df3f3c5f7139cb2a9b496599e237d8a4cd59d43f69b1405c9d126558",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "8c1f62746178da1ab0f709fb6255f77107c4ce8381dc169ac1a6cf9701f7627e",
-        "FEEDBURNER": "8c1f62746178da1ab0f709fb6255f77107c4ce8381dc169ac1a6cf9701f7627e"
+        "ORIGINAL": "cf0c6ac5df3f3c5f7139cb2a9b496599e237d8a4cd59d43f69b1405c9d126558",
+        "FEEDBURNER": "cf0c6ac5df3f3c5f7139cb2a9b496599e237d8a4cd59d43f69b1405c9d126558"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
     },
     {
-      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-      "url": "http://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "published": "Tue, 10 Nov 2026 06:52:54 +0000",
-      "published_utc": "2026-11-10T06:52:54+00:00",
-      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component.\n\nUse-after-free bugs typically occur when a program attempts to access a memory location after",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3588381358786198838",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "content_hash": "1c0748ecdc00a3f8a99c86c33be897cf2f5a47f642d78726ddff4c5af5972954",
+      "title": "North Korean Hackers Target Drone Technology and Software Supply Chains in New Cyberespionage Campaigns",
+      "url": "https://cybersecuritynews.com/north-korean-hackers-3/",
+      "published": "Tue, 10 Nov 2026 14:09:27 +0000",
+      "published_utc": "2026-11-10T14:09:27+00:00",
+      "summary": "<p>North Korean hackers have renewed efforts to steal drone technology while expanding attacks against software developers and the projects they maintain. Activity tracked between April and September 2026 shows Lazarus returning to European defense targets, while DeceptiveDevelopment used stolen developer credentials to spread malicious code through software supply chains. The campaigns share a familiar starting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-hackers-3/\">North Korean Hackers Target Drone Technology and Software Supply Chains in New Cyberespionage Campaigns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171350",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/north-korean-hackers-3",
+      "content_hash": "8fdec6b8e4dac078f5b475421c7ecfbca600b1bc80219a0ea751892b68e6dd10",
       "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "1c0748ecdc00a3f8a99c86c33be897cf2f5a47f642d78726ddff4c5af5972954",
-        "FEEDBURNER": "1c0748ecdc00a3f8a99c86c33be897cf2f5a47f642d78726ddff4c5af5972954"
+        "FEEDBURNER": "8fdec6b8e4dac078f5b475421c7ecfbca600b1bc80219a0ea751892b68e6dd10"
       },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-      "url": "http://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-      "published": "Tue, 10 Nov 2026 06:44:36 +0000",
-      "published_utc": "2026-11-10T06:44:36+00:00",
-      "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell.\n\n\"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4950111518478733942",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-      "content_hash": "59d7d9627f4f52e8d8208913a5b0d023e7ef3b9b74cfa552381d62b11b9391d3",
+      "title": "Critical Apache Airflow RCE Flaw Allows Attackers to Execute Code Without Authentication",
+      "url": "https://cybersecuritynews.com/critical-apache-airflow-rce-flaw/",
+      "published": "Tue, 10 Nov 2026 13:57:52 +0000",
+      "published_utc": "2026-11-10T13:57:52+00:00",
+      "summary": "<p>Apache Airflow has a critical remote code execution flaw that lets anyone with write access to the Celery message broker run code on worker nodes. The attacker needs no credentials, DAG, or scheduler. The bug is tracked as CVE-2026-68982 and is classified as CWE-306, missing authentication for a critical function. It affects Airflow versions before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-apache-airflow-rce-flaw/\">Critical Apache Airflow RCE Flaw Allows Attackers to Execute Code Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171318",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-apache-airflow-rce-flaw",
+      "content_hash": "684ea0a818a6ff16283fef149a2fb4ab0f4d04526d6c5619a4bd2426453b4341",
       "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "59d7d9627f4f52e8d8208913a5b0d023e7ef3b9b74cfa552381d62b11b9391d3",
-        "FEEDBURNER": "59d7d9627f4f52e8d8208913a5b0d023e7ef3b9b74cfa552381d62b11b9391d3"
+        "FEEDBURNER": "684ea0a818a6ff16283fef149a2fb4ab0f4d04526d6c5619a4bd2426453b4341"
       },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:12.849232+00:00",
+      "first_seen_local": "2026-11-10T14:38:12.849228-05:00",
+      "last_updated_utc": "2026-11-10T19:38:12.849232+00:00",
+      "last_updated_local": "2026-11-10T14:38:12.849228-05:00"
     },
     {
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-      "url": "http://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-      "published": "Tue, 10 Nov 2026 06:31:42 +0000",
-      "published_utc": "2026-11-10T06:31:42+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8252543967038904496",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-      "content_hash": "dd457668e131f5f36f2ccbc9581b7e329ed4b65d93a565f8a5a50c5bd5c1701b",
+      "title": "OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP",
+      "url": "https://gbhackers.com/offsec-celebrates-20-years-of-practitioner-built-training-from-the-creators-of-kali-linux-and-oscp/",
+      "published": "Tue, 10 Nov 2026 13:27:26 +0000",
+      "published_utc": "2026-11-10T13:27:26+00:00",
+      "summary": "<p>New York, USA, November 10th, 2026, CyberNewswire Meet the rest of OffSec as the company brings its hands-on approach to entire cyber teams. Kali Linux. OSCP. Try Harder. For 20 years, OffSec has set the standard for the tools security practitioners use, the skills they prove, and the mindset they bring to the work. This [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/offsec-celebrates-20-years-of-practitioner-built-training-from-the-creators-of-kali-linux-and-oscp/\">OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206591",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/offsec-celebrates-20-years-of-practitioner-built-training-from-the-creators-of-kali-linux-and-oscp",
+      "content_hash": "cc56d3d98c7512a711947303400de7fc7e030a9656820e691babbb96466c97ea",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "dd457668e131f5f36f2ccbc9581b7e329ed4b65d93a565f8a5a50c5bd5c1701b",
-        "FEEDBURNER": "dd457668e131f5f36f2ccbc9581b7e329ed4b65d93a565f8a5a50c5bd5c1701b"
+        "ORIGINAL": "cc56d3d98c7512a711947303400de7fc7e030a9656820e691babbb96466c97ea",
+        "FEEDBURNER": "cc56d3d98c7512a711947303400de7fc7e030a9656820e691babbb96466c97ea"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-10T11:40:54.348371+00:00",
-      "first_seen_local": "2026-11-10T06:40:54.348369-05:00",
-      "last_updated_utc": "2026-11-10T11:40:54.348371+00:00",
-      "last_updated_local": "2026-11-10T06:40:54.348369-05:00"
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
+    },
+    {
+      "title": "Finite State Raises $27 Million to Help Device Makers Fight ‘Vulnpocalypse’ with AI-Powered Product Security",
+      "url": "https://gbhackers.com/finite-state-raises-27-million-to-help-device-makers-fight-vulnpocalypse-with-ai-powered-product-security/",
+      "published": "Tue, 10 Nov 2026 13:21:50 +0000",
+      "published_utc": "2026-11-10T13:21:50+00:00",
+      "summary": "<p>Columbus, Ohio, United States, November 10th, 2026, CyberNewswire Funding Will Scale Finite State’s Autonomous Platform and International Expansion as Manufacturers Face a Surge of AI-Discovered Flaws and New Global Security Mandates Finite State, a leader in product security and software supply chain risk management, today announced a $27 million Series C funding round led by [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/finite-state-raises-27-million-to-help-device-makers-fight-vulnpocalypse-with-ai-powered-product-security/\">Finite State Raises $27 Million to Help Device Makers Fight ‘Vulnpocalypse’ with AI-Powered Product Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206586",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/finite-state-raises-27-million-to-help-device-makers-fight-vulnpocalypse-with-ai-powered-product-security",
+      "content_hash": "4b99228e3d793c2fd0ec0a240ca11a25200b03034e5c7fcb5b3307f0e82e4030",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4b99228e3d793c2fd0ec0a240ca11a25200b03034e5c7fcb5b3307f0e82e4030",
+        "FEEDBURNER": "4b99228e3d793c2fd0ec0a240ca11a25200b03034e5c7fcb5b3307f0e82e4030"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
+    },
+    {
+      "title": "Hackers Abuse Qubole’s Trusted AWS Access to Breach Multiple Cloud Accounts and Steal Sensitive Data",
+      "url": "https://gbhackers.com/quboles-trusted-aws-access/",
+      "published": "Tue, 10 Nov 2026 12:51:56 +0000",
+      "published_utc": "2026-11-10T12:51:56+00:00",
+      "summary": "<p>Hackers abused AWS credentials associated with Qubole to breach multiple customer cloud environments, harvest secrets, and steal sensitive S3 data between October 14 and October 26, 2026. Sentra reported that more than a dozen organizations were hacked, describing the broader impact as involving dozens of Qubole customers. Some compromised integration roles had remained dormant for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/quboles-trusted-aws-access/\">Hackers Abuse Qubole&#8217;s Trusted AWS Access to Breach Multiple Cloud Accounts and Steal Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206593",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/quboles-trusted-aws-access",
+      "content_hash": "51542992a8c880af32648aa90d0ee803bee98a3b8082b2c45d6b2373ee7de8e4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "51542992a8c880af32648aa90d0ee803bee98a3b8082b2c45d6b2373ee7de8e4",
+        "FEEDBURNER": "51542992a8c880af32648aa90d0ee803bee98a3b8082b2c45d6b2373ee7de8e4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
+    },
+    {
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "url": "http://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "published": "Tue, 10 Nov 2026 12:15:31 +0000",
+      "published_utc": "2026-11-10T12:15:31+00:00",
+      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix.\n\nA researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4056304843059896446",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "content_hash": "4f0f132d295e647ab810fd908480b9dbedd6161a812dd5b0aba9272926adbff9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4f0f132d295e647ab810fd908480b9dbedd6161a812dd5b0aba9272926adbff9",
+        "FEEDBURNER": "4f0f132d295e647ab810fd908480b9dbedd6161a812dd5b0aba9272926adbff9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:18.753197+00:00",
+      "first_seen_local": "2026-11-10T14:38:18.753195-05:00",
+      "last_updated_utc": "2026-11-10T19:38:18.753197+00:00",
+      "last_updated_local": "2026-11-10T14:38:18.753195-05:00"
+    },
+    {
+      "title": "SAP November 2026 Patch Day Fixes Four Maximum-Severity Security Vulnerabilities",
+      "url": "https://gbhackers.com/sap-november-2026-patch-day/",
+      "published": "Tue, 10 Nov 2026 12:01:55 +0000",
+      "published_utc": "2026-11-10T12:01:55+00:00",
+      "summary": "<p>SAP released 35 new security notes and four GitHub security advisories on November 10, 2026, alongside three updates to earlier notes. Four vulnerabilities carry the maximum CVSS score of 10.0 and affect NetWeaver Internet Communication Manager, Web Dispatcher, SAP Gateway, and the SAML2 Service Provider. The release covers memory corruption, missing authentication, access control failures, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sap-november-2026-patch-day/\">SAP November 2026 Patch Day Fixes Four Maximum-Severity Security Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206582",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sap-november-2026-patch-day",
+      "content_hash": "8a6556fadaed361e2138402e098efab5e98ff0474c9394a7f5047ffed0c4f800",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8a6556fadaed361e2138402e098efab5e98ff0474c9394a7f5047ffed0c4f800",
+        "FEEDBURNER": "8a6556fadaed361e2138402e098efab5e98ff0474c9394a7f5047ffed0c4f800"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
+    },
+    {
+      "title": "Critical Apache Airflow Flaw CVE-2026-68982 Enables Unauthenticated Remote Code Execution",
+      "url": "https://gbhackers.com/critical-apache-airflow-flaw-cve-2026-68982-enables-unauthenticated-remote-code-execution/",
+      "published": "Tue, 10 Nov 2026 11:49:08 +0000",
+      "published_utc": "2026-11-10T11:49:08+00:00",
+      "summary": "<p>A critical missing-authentication flaw in Apache Airflow lets attackers run code on Celery workers without any Airflow credentials. Tracked as CVE-2026-68982, the bug is classified as CWE-306 and affects Airflow versions before 3.4.0 that use CeleryExecutor. Anyone who can write to the Celery broker can make a worker run any Python function it can import, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-apache-airflow-flaw-cve-2026-68982-enables-unauthenticated-remote-code-execution/\">Critical Apache Airflow Flaw CVE-2026-68982 Enables Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206570",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-apache-airflow-flaw-cve-2026-68982-enables-unauthenticated-remote-code-execution",
+      "content_hash": "806939440a33032c6da6d415e9a6d3d9bccf8d370b1980354f1aa7b2c9fa36f9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "806939440a33032c6da6d415e9a6d3d9bccf8d370b1980354f1aa7b2c9fa36f9",
+        "FEEDBURNER": "806939440a33032c6da6d415e9a6d3d9bccf8d370b1980354f1aa7b2c9fa36f9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-10T19:38:11.721979+00:00",
+      "first_seen_local": "2026-11-10T14:38:11.721977-05:00",
+      "last_updated_utc": "2026-11-10T19:38:11.721979+00:00",
+      "last_updated_local": "2026-11-10T14:38:11.721977-05:00"
     }
   ]
 }

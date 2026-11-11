@@ -2,8 +2,336 @@
   "month": "2026-11",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 121,
+  "article_count": 133,
   "articles": [
+    {
+      "title": "Windows SignDrop 0-Day Exploit Lets Attackers Gain SYSTEM Privileges Through CLFS Protection",
+      "url": "https://cybersecuritynews.com/windows-signdrop-zero-day-exploit/",
+      "published": "Wed, 11 Nov 2026 13:57:20 +0000",
+      "published_utc": "2026-11-11T13:57:20+00:00",
+      "summary": "<p>A public exploit called SignDrop targets a Windows security feature meant to stop attacks on the Common Log File System (CLFS). It claims to turn a normal user account into a SYSTEM account, the highest level of control on Windows. The flaw has no CVE number and no patch as of November 11, 2026. Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-signdrop-zero-day-exploit/\">Windows SignDrop 0-Day Exploit Lets Attackers Gain SYSTEM Privileges Through CLFS Protection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171681",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-signdrop-zero-day-exploit",
+      "content_hash": "eb53f71aa46056d37f2fd44dc198dc7a1eae5831036c1e54e6769e4d2aae63ce",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eb53f71aa46056d37f2fd44dc198dc7a1eae5831036c1e54e6769e4d2aae63ce"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "eMudhra Revokes 8 More Certificate Authorities Following Major SSL Private Key Security Failure",
+      "url": "https://cybersecuritynews.com/emudhra-certificate-authority-revocation/",
+      "published": "Wed, 11 Nov 2026 13:46:31 +0000",
+      "published_utc": "2026-11-11T13:46:31+00:00",
+      "summary": "<p>eMudhra has revoked eight additional intermediate certificate authorities (CAs) after conducting a thorough review of the key issue that led to its October security failure. The new group did not have weak keys, but eMudhra could not prove the keys were handled the way its own rules require. The company has now pulled 16 intermediate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/emudhra-certificate-authority-revocation/\">eMudhra Revokes 8 More Certificate Authorities Following Major SSL Private Key Security Failure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171670",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/emudhra-certificate-authority-revocation",
+      "content_hash": "a9a4d489326aa0c9dc2cda003fb5cad80f2b43d7d712301315233945638cadb0",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a9a4d489326aa0c9dc2cda003fb5cad80f2b43d7d712301315233945638cadb0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "N-able Releases Emergency N-central Hotfix After 33 Vulnerabilities Trigger Worldwide Shutdown",
+      "url": "https://cybersecuritynews.com/n-able-n-central-security-vulnerabilities/",
+      "published": "Wed, 11 Nov 2026 12:57:12 +0000",
+      "published_utc": "2026-11-11T12:57:12+00:00",
+      "summary": "<p>N-able has released N-central 2026.4 Hotfix 2 after the public disclosure of 33 alleged vulnerabilities forced a worldwide shutdown of its hosted remote monitoring and management platform. Released on November 10, the emergency update, build 2026.4.1.26, fixes seven published CVEs and adds security changes across the server, Agents, and Probes. The shutdown began on November [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/n-able-n-central-security-vulnerabilities/\">N-able Releases Emergency N-central Hotfix After 33 Vulnerabilities Trigger Worldwide Shutdown</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171619",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/n-able-n-central-security-vulnerabilities",
+      "content_hash": "65e85374012c1db8dcbd596866d38380d58aa724c5beebb5db91e3b3e38bb834",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "65e85374012c1db8dcbd596866d38380d58aa724c5beebb5db91e3b3e38bb834",
+        "FEEDBURNER": "65e85374012c1db8dcbd596866d38380d58aa724c5beebb5db91e3b3e38bb834"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Grok AI App Builder Exposes Over 35,000 Apps, Leaking Confidential Business Data and Passwords",
+      "url": "https://cybersecuritynews.com/grok-ai-app-builder-exposes-data/",
+      "published": "Wed, 11 Nov 2026 12:17:14 +0000",
+      "published_utc": "2026-11-11T12:17:14+00:00",
+      "summary": "<p>Researchers found that apps built with Grok&#8217;s app builder are open to Anyone online. Thousands of these apps hold private business data, staff details, plain-text passwords, and patient information. No hacking was needed to reach them. Grok&#8217;s Build mode creates and publishes chat-generated apps under grok.me, while its parent company, SpaceXSI (formerly xAI), did not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/grok-ai-app-builder-exposes-data/\">Grok AI App Builder Exposes Over 35,000 Apps, Leaking Confidential Business Data and Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171593",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/grok-ai-app-builder-exposes-data",
+      "content_hash": "68b1d81008248c1ecf7ece9d3a9695f6ce716836f101a32101ff2d326959b536",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "68b1d81008248c1ecf7ece9d3a9695f6ce716836f101a32101ff2d326959b536",
+        "FEEDBURNER": "68b1d81008248c1ecf7ece9d3a9695f6ce716836f101a32101ff2d326959b536"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Claude Code AI Discovers Technique to Turn Dormant Model Neurons Into Hidden Malware Triggers",
+      "url": "https://cybersecuritynews.com/claude-code-ai/",
+      "published": "Wed, 11 Nov 2026 11:57:04 +0000",
+      "published_utc": "2026-11-11T11:57:04+00:00",
+      "summary": "<p>Claude Code helped uncover a technique that can turn an otherwise capable AI model into a sleeper agent by changing fewer than 10 dormant neurons. Called Lazarus, the method plants a hidden backdoor in model weights, allowing an attacker’s trigger to make an AI agent produce commands that download and run malicious code. The model [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-ai/\">Claude Code AI Discovers Technique to Turn Dormant Model Neurons Into Hidden Malware Triggers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171570",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-code-ai",
+      "content_hash": "4d701552407bf4339f013b972fae7ac1d130ea81609d013ae06c8bf769f5c2d8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4d701552407bf4339f013b972fae7ac1d130ea81609d013ae06c8bf769f5c2d8",
+        "FEEDBURNER": "4d701552407bf4339f013b972fae7ac1d130ea81609d013ae06c8bf769f5c2d8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Git Fixes 6 Security Vulnerabilities Allowing Hackers to Execute Malicious Code Through Cloned Repositories",
+      "url": "https://cybersecuritynews.com/git-fixes-security-vulnerabilities/",
+      "published": "Wed, 11 Nov 2026 11:33:03 +0000",
+      "published_utc": "2026-11-11T11:33:03+00:00",
+      "summary": "<p>The Git project patched six vulnerabilities, including a critical flaw that allows malicious repositories to execute code during recursive cloning. The other five involve unsafe file writes and memory corruption in merges and patches. Git announced the fixes on November 10, 2026. The patches arrive in Git 2.56.1. They are also backported to 2.55.1, 2.54.1, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/git-fixes-security-vulnerabilities/\">Git Fixes 6 Security Vulnerabilities Allowing Hackers to Execute Malicious Code Through Cloned Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171496",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/git-fixes-security-vulnerabilities",
+      "content_hash": "6022ccacc4f842ee7c2cfc98a64a29de5b3f211a46013cd78b61deae9d61a311",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6022ccacc4f842ee7c2cfc98a64a29de5b3f211a46013cd78b61deae9d61a311",
+        "FEEDBURNER": "6022ccacc4f842ee7c2cfc98a64a29de5b3f211a46013cd78b61deae9d61a311"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Windows BitLocker Vulnerabilities Allow Attackers to Bypass Security Feature",
+      "url": "https://cybersecuritynews.com/windows-bitlocker-security-bypass/",
+      "published": "Wed, 11 Nov 2026 11:31:29 +0000",
+      "published_utc": "2026-11-11T11:31:29+00:00",
+      "summary": "<p>Microsoft has disclosed two Windows BitLocker security feature bypass vulnerabilities that could allow attackers with physical access to weaken device protections. Published on November 10, 2026, the flaws are tracked as CVE-2026-97015 and CVE-2026-119832. Microsoft rates both as Important, with CVSS base scores of 6.8 and 5.9, respectively. The bugs have different causes and access [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-bitlocker-security-bypass/\">Windows BitLocker Vulnerabilities Allow Attackers to Bypass Security Feature</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171541",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-bitlocker-security-bypass",
+      "content_hash": "abc4184841d1bcae013853e6d3fec7edc5ec03adbb94bb6168a895b0a0d09c56",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "abc4184841d1bcae013853e6d3fec7edc5ec03adbb94bb6168a895b0a0d09c56",
+        "FEEDBURNER": "abc4184841d1bcae013853e6d3fec7edc5ec03adbb94bb6168a895b0a0d09c56"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Multiple Windows Remote Desktop Flaws Allow Attackers to Execute Code Over Network",
+      "url": "https://cybersecuritynews.com/multiple-windows-remote-desktop-vulnerabilities/",
+      "published": "Wed, 11 Nov 2026 11:22:00 +0000",
+      "published_utc": "2026-11-11T11:22:00+00:00",
+      "summary": "<p>Microsoft has released security updates for four Windows Remote Desktop Client vulnerabilities that could allow attackers to run code through network connections or local access. Published on November 10, 2026, the flaws involve memory handling errors and a race condition. Three have network attack paths, while the fourth requires an attacker with existing local access, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-windows-remote-desktop-vulnerabilities/\">Multiple Windows Remote Desktop Flaws Allow Attackers to Execute Code Over Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171509",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/multiple-windows-remote-desktop-vulnerabilities",
+      "content_hash": "d54b303c9bc5a5802c88db62e77a6f260bb1e2b79df289773993a03ed497ab30",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d54b303c9bc5a5802c88db62e77a6f260bb1e2b79df289773993a03ed497ab30",
+        "FEEDBURNER": "d54b303c9bc5a5802c88db62e77a6f260bb1e2b79df289773993a03ed497ab30"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Hackers Exploit AhsayCBS Vulnerabilities to Hide Malware in PNG Images and Deploy Stealthy Backdoors",
+      "url": "https://cybersecuritynews.com/hackers-exploit-ahsaycbs-vulnerabilities/",
+      "published": "Wed, 11 Nov 2026 10:44:43 +0000",
+      "published_utc": "2026-11-11T10:44:43+00:00",
+      "summary": "<p>Hackers exploiting AhsayCBS backup servers have planted webshells, hidden encrypted code inside PNG images, and staged a Python implant designed to run only on its intended host. The findings show an intrusion that extended beyond cryptocurrency mining, giving attackers several ways to keep access to systems responsible for protecting an organization’s backups. The attack affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-ahsaycbs-vulnerabilities/\">Hackers Exploit AhsayCBS Vulnerabilities to Hide Malware in PNG Images and Deploy Stealthy Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171561",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-ahsaycbs-vulnerabilities",
+      "content_hash": "4da91e9ca6758d66e70e26ae5cda1237d4df7751656034e0a4a64f7024c1a86a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4da91e9ca6758d66e70e26ae5cda1237d4df7751656034e0a4a64f7024c1a86a",
+        "FEEDBURNER": "4da91e9ca6758d66e70e26ae5cda1237d4df7751656034e0a4a64f7024c1a86a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "ClickFix Attacks Evolve to Hide Malware in PNG Images and Hijack Windows Domain Controllers",
+      "url": "https://cybersecuritynews.com/clickfix-attacks-evolve/",
+      "published": "Wed, 11 Nov 2026 10:32:40 +0000",
+      "published_utc": "2026-11-11T10:32:40+00:00",
+      "summary": "<p>ClickFix attacks are moving beyond simple malware downloads, with recent investigations revealing executable payloads hidden inside PNG images and intrusions reaching Windows domain controllers. The activity shows how a fake verification prompt can become the starting point for persistent access, credential theft, and movement across corporate networks. The trick still depends on convincing someone to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clickfix-attacks-evolve/\">ClickFix Attacks Evolve to Hide Malware in PNG Images and Hijack Windows Domain Controllers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171540",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/clickfix-attacks-evolve",
+      "content_hash": "544d9a8ef62700a9ce6187516d85e878f8283a06adca92d363708f9cfb54ba31",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "544d9a8ef62700a9ce6187516d85e878f8283a06adca92d363708f9cfb54ba31",
+        "FEEDBURNER": "544d9a8ef62700a9ce6187516d85e878f8283a06adca92d363708f9cfb54ba31"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "China-Linked Hackers Use Fake Chrome Certificate Warnings to Infect Victims With Sparrow Backdoor",
+      "url": "https://cybersecuritynews.com/fake-chrome-certificate/",
+      "published": "Wed, 11 Nov 2026 09:24:07 +0000",
+      "published_utc": "2026-11-11T09:24:07+00:00",
+      "summary": "<p>China-linked hackers are turning trusted websites into malware delivery points by displaying fake Google Chrome certificate warnings. The pages urge selected visitors to install a certificate repair utility, but the download instead installs a backdoor that gives attackers remote access to Windows computers. The campaign, tracked as SilentDelivery, targets high-profile organizations mainly across Europe and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-chrome-certificate/\">China-Linked Hackers Use Fake Chrome Certificate Warnings to Infect Victims With Sparrow Backdoor</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171516",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-chrome-certificate",
+      "content_hash": "e5ce4578159f822b84d493c17e6f48cf2cb27368442da5bce00bf9e8366f5439",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e5ce4578159f822b84d493c17e6f48cf2cb27368442da5bce00bf9e8366f5439"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
+    {
+      "title": "Top 10 Best Security Policy Management Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-security-policy-management/",
+      "published": "Wed, 11 Nov 2026 07:36:35 +0000",
+      "published_utc": "2026-11-11T07:36:35+00:00",
+      "summary": "<p>“Security policy management” is one shelf holding two different products: network security policy management (NSPM) firewall rulebases, segmentation intent, change automation and written-policy lifecycle the documents people sign and auditors demand. Our roster spans both, so this countdown declares the lane on every entry and ranks within the honest frame: rulebase engines first by estate [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-security-policy-management/\">Top 10 Best Security Policy Management Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171143",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-security-policy-management",
+      "content_hash": "ef4f5876396310542d70ff41566841b8caf1b69e1d91b060d2fe047f498b557b",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "ef4f5876396310542d70ff41566841b8caf1b69e1d91b060d2fe047f498b557b"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-11T15:04:53.577569+00:00",
+      "first_seen_local": "2026-11-11T10:04:53.577566-05:00",
+      "last_updated_utc": "2026-11-11T15:04:53.577569+00:00",
+      "last_updated_local": "2026-11-11T10:04:53.577566-05:00"
+    },
     {
       "title": "Microsoft November 2026 Patch Tuesday Fixes 1,093 Vulnerabilities, Including Outlook Zero-Day",
       "url": "https://cybersecuritynews.com/microsoft-november-2026-patch-tuesday/",

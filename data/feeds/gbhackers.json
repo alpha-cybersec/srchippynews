@@ -5,13 +5,89 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
+      "status": "FAILED",
+      "http_status": 202,
+      "final_url": "https://gbhackers.com/feed/",
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
+    },
+    "FEEDBURNER": {
+      "label": "GBHackers-FEEDBURNER",
+      "endpoint": "https://feeds.feedburner.com/gbhackers",
       "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://gbhackers.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
+      "final_url": "https://feeds.feedburner.com/gbhackers",
+      "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
       "article_count": 10,
       "articles": [
+        {
+          "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+          "url": "https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+          "published": "Thu, 12 Nov 2026 14:23:46 +0000",
+          "published_utc": "2026-11-12T14:23:46+00:00",
+          "summary": "<p>San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nDiligence, Inc. today announced the release of Attack the Glass (ATG) research to the general public. The four-year study examines a cybersecurity vulnerability in how applications use [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/\">nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206894"
+        },
+        {
+          "title": "CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability",
+          "url": "https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/",
+          "published": "Thu, 12 Nov 2026 13:32:25 +0000",
+          "published_utc": "2026-11-12T13:32:25+00:00",
+          "summary": "<p>The Cybersecurity and Infrastructure Security Agency has added CVE-2026-124194, an actively exploited Microsoft Outlook spoofing vulnerability, to its Known Exploited Vulnerabilities catalog. Added on November 10, 2026, the entry establishes a November 24 remediation deadline. The warning follows disclosures about Outlook authentication theft involving malicious message files and unsafe external connections. Microsoft Outlook Zero-Day Vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/\">CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206886"
+        },
+        {
+          "title": "ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection",
+          "url": "https://gbhackers.com/cruciferra-malware-attacks/",
+          "published": "Thu, 12 Nov 2026 13:30:15 +0000",
+          "published_utc": "2026-11-12T13:30:15+00:00",
+          "summary": "<p>ESET says it has blocked more than 700,000 compromise attempts linked to Cruciferra since January 2026. Türkiye, Greece and Spain were the most affected countries. A crypter wraps a malicious payload in encryption and obfuscation so security tools cannot recognize it. Cruciferra&#8217;s distinguishing feature is its range of ciphers. Proofpoint documented more than 90 encryption [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cruciferra-malware-attacks/\">ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206871"
+        },
+        {
+          "title": "Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns",
+          "url": "https://gbhackers.com/global-scam-networks/",
+          "published": "Thu, 12 Nov 2026 13:20:07 +0000",
+          "published_utc": "2026-11-12T13:20:07+00:00",
+          "summary": "<p>Global scam networks are using artificial intelligence, deepfakes, and cryptocurrency infrastructure to industrialize fraud, inflicting tens of billions of dollars in annual losses, the Financial Action Task Force warned in a report published November 5, 2026. The report, Combating End-to-End Illicit Financial Flows Linked to Scam Compounds, describes a criminal ecosystem that extends beyond fortified [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/global-scam-networks/\">Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206864"
+        },
+        {
+          "title": "Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication",
+          "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/",
+          "published": "Thu, 12 Nov 2026 12:24:27 +0000",
+          "published_utc": "2026-11-12T12:24:27+00:00",
+          "summary": "<p>MongoDB has patched a critical use-after-free flaw, tracked as CVE-2026-118383 with a CVSS score of 9.5, that unauthenticated attackers can exploit over the network. The company found the bug internally and says it knows of no exploitation attempts so far. The advisory warns that the flaw can crash the server or, under certain conditions, allow [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/\">Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206874"
+        },
+        {
+          "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities",
+          "url": "https://gbhackers.com/google-chrome-fixes-83-security-flaws/",
+          "published": "Thu, 12 Nov 2026 12:06:39 +0000",
+          "published_utc": "2026-11-12T12:06:39+00:00",
+          "summary": "<p>Google released a Chrome desktop security update that addresses 83 vulnerabilities, including five critical use-after-free flaws affecting ServiceWorker, CSS, Layout, Skia, and Accessibility. Published November 11, 2026, the release upgrades Windows and macOS installations to versions 157.0.8103.78/.79 and Linux to 157.0.8103.78. Google’s Stable Channel advisory says it will continue distributing updates over the coming days [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-fixes-83-security-flaws/\">Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206867"
+        },
+        {
+          "title": "AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers",
+          "url": "https://gbhackers.com/antifox-ai-agents/",
+          "published": "Thu, 12 Nov 2026 11:47:43 +0000",
+          "published_utc": "2026-11-12T11:47:43+00:00",
+          "summary": "<p>Attackers are using AntiFox, an agentic AI penetration-testing framework derived from ARTEX, to target internet-facing web applications and AWS environments. Reported on November 11, the findings follow Microsoft’s November 5 disclosure of ARTEX-assisted attacks against exposed GitHub credentials. Together, the investigations show how attackers are applying agentic workflows across cloud providers, using compromised identities to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/antifox-ai-agents/\">AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206857"
+        },
+        {
+          "title": "State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems",
+          "url": "https://gbhackers.com/ai-agents-target-taiwan/",
+          "published": "Thu, 12 Nov 2026 11:10:57 +0000",
+          "published_utc": "2026-11-12T11:10:57+00:00",
+          "summary": "<p>A campaign against Taiwanese government entities used up to eight AI agents with limited human intervention. Recorded Future points to research describing the framework behind the attacks. Dream&#8217;s researchers recovered a 1,395-file workspace in July 2026. The framework, built on the Hermes and OpenClaw agents, launched up to eight lettered sub-agents per wave. Across 12 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agents-target-taiwan/\">State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206834"
+        },
         {
           "title": "PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score",
           "url": "https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/",
@@ -27,147 +103,6 @@
           "published_utc": "2026-11-12T10:34:34+00:00",
           "summary": "<p>Palo Alto Networks has released fixes for CVE-2026-0330, a remote code execution vulnerability affecting PAN-OS software running on Panorama. The flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges, according to the company’s security advisory, published November 11, 2026. The vendor classifies the issue as medium severity with moderate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/\">Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
           "id": "https://gbhackers.com/?p=206846"
-        },
-        {
-          "title": "Qilin Ransomware Gang Leader Allegedly Identified as 36-Year-Old Russian Man",
-          "url": "https://gbhackers.com/qilin-ransomware-gang-leader/",
-          "published": "Thu, 12 Nov 2026 10:12:04 +0000",
-          "published_utc": "2026-11-12T10:12:04+00:00",
-          "summary": "<p>The administrator of the Qilin ransomware operation has allegedly been identified as Aleksey Mikhailovich Yakovtsev, a 36-year-old St. Petersburg resident. A KrebsOnSecurity investigation published November 11 connects the underground identity “Haise” to Yakovtsev through historical forum accounts, Telegram identifiers, and breached records. The attribution remains an allegation. Qilin Ransomware Gang Leader Qilin has operated since [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/qilin-ransomware-gang-leader/\">Qilin Ransomware Gang Leader Allegedly Identified as 36-Year-Old Russian Man</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206837"
-        },
-        {
-          "title": "12 Adversarial Exposure Validation Tools: The 2026 Buyer’s Verdict Guide",
-          "url": "https://gbhackers.com/adversarial-exposure-validation-tools/",
-          "published": "Thu, 12 Nov 2026 09:25:00 +0000",
-          "published_utc": "2026-11-12T09:25:00+00:00",
-          "summary": "<p>Adversarial exposure validation (AEV) is the label the market settled on for the merged territory of breach-and-attack simulation, autonomous penetration testing, and automated red teaming three lanes that always answered the same buyer question with different risk appetites. The purchase goes wrong when a change-averse estate adopts a live-testing engine it cannot govern, or a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adversarial-exposure-validation-tools/\">12 Adversarial Exposure Validation Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206405"
-        },
-        {
-          "title": "Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes",
-          "url": "https://gbhackers.com/gsocket-based-linux-attacks/",
-          "published": "Thu, 12 Nov 2026 08:13:07 +0000",
-          "published_utc": "2026-11-12T08:13:07+00:00",
-          "summary": "<p>Attackers deployed GSocket on compromised Linux servers, disguised its processes as legitimate system components, and retained access after administrators patched the original vulnerabilities. In its November 11 report, Microsoft described unrelated threat actors abusing the open source remote access tool rather than maintaining dedicated command-and-control infrastructure. Defender for Endpoint telemetry recorded a 356.2% increase in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gsocket-based-linux-attacks/\">Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206817"
-        },
-        {
-          "title": "Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems",
-          "url": "https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/",
-          "published": "Thu, 12 Nov 2026 06:50:29 +0000",
-          "published_utc": "2026-11-12T06:50:29+00:00",
-          "summary": "<p>A.P. Moller–Maersk has confirmed unauthorized access and data extraction affecting a local legacy IT system inherited through a previous acquisition. In its November 11 security advisory, the shipping company said investigators currently believe no sensitive information was disclosed, while emphasizing that its investigation remains ongoing. Maersk Data Breach The disclosure indicates that information was extracted; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/\">Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206820"
-        },
-        {
-          "title": "New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges",
-          "url": "https://gbhackers.com/new-windows-signdrop-zero-day/",
-          "published": "Thu, 12 Nov 2026 06:41:09 +0000",
-          "published_utc": "2026-11-12T06:41:09+00:00",
-          "summary": "<p>A researcher known as MSNightmare, also called Chaotic Eclipse, has published a working proof of concept for an unpatched Windows zero-day dubbed SignDrop. The exploit turns a standard user account into NT AUTHORITY\\SYSTEM by abusing the Common Log File System (CLFS) driver, clfs.sys. It was released on GitHub on November 10, the same day as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-windows-signdrop-zero-day/\">New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206790"
-        },
-        {
-          "title": "Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines",
-          "url": "https://gbhackers.com/github-accounts-compromised/",
-          "published": "Thu, 12 Nov 2026 06:37:27 +0000",
-          "published_utc": "2026-11-12T06:37:27+00:00",
-          "summary": "<p>Attackers used stolen GitHub credentials belonging to 4,837 accounts to probe 61,764 repositories in a campaign targeting software development secrets and cloud access. Beginning November 10, the operation injected malicious workflows into accessible repositories, with evidence of credential exfiltration from at least 1,806 repositories. At least 50 compromised users publish packages across npm, Go, Packagist, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-accounts-compromised/\">Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206807"
-        },
-        {
-          "title": "Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers",
-          "url": "https://gbhackers.com/linux-kernel-flaws/",
-          "published": "Thu, 12 Nov 2026 05:50:53 +0000",
-          "published_utc": "2026-11-12T05:50:53+00:00",
-          "summary": "<p>AI-driven scanning system, codenamed MDASH, to find 59 security issues in the Linux kernel. One of them, a cls_u32 shift-out-of-bounds flaw tracked as CVE-2026-74544, had gone unnoticed for at least 21 years. One full-time researcher and one intern scanned selected kernel subsystems, including networking, filesystems and security modules, from late May to mid-June 2026. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-flaws/\">Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206788"
-        },
-        {
-          "title": "Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code",
-          "url": "https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/",
-          "published": "Thu, 12 Nov 2026 05:50:37 +0000",
-          "published_utc": "2026-11-12T05:50:37+00:00",
-          "summary": "<p>Apache has released HTTP Server 2.4.71 to address three security vulnerabilities, including a critical memory corruption flaw that could enable remote code execution. Released on November 11, 2026, the update fixes weaknesses in mod_http2, mod_md, and mod_vhost_alias, rated critical, important, and low severity, respectively. The release follows earlier Apache HTTP Server security updates that addressed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/\">Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206801"
-        }
-      ],
-      "error": ""
-    },
-    "FEEDBURNER": {
-      "label": "GBHackers-FEEDBURNER",
-      "endpoint": "https://feeds.feedburner.com/gbhackers",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://feeds.feedburner.com/gbhackers",
-      "content_type": "text/xml; charset=utf-8",
-      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 8,
-      "articles": [
-        {
-          "title": "Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes",
-          "url": "https://gbhackers.com/gsocket-based-linux-attacks/",
-          "published": "Thu, 12 Nov 2026 08:13:07 +0000",
-          "published_utc": "2026-11-12T08:13:07+00:00",
-          "summary": "<p>Attackers deployed GSocket on compromised Linux servers, disguised its processes as legitimate system components, and retained access after administrators patched the original vulnerabilities. In its November 11 report, Microsoft described unrelated threat actors abusing the open source remote access tool rather than maintaining dedicated command-and-control infrastructure. Defender for Endpoint telemetry recorded a 356.2% increase in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gsocket-based-linux-attacks/\">Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206817"
-        },
-        {
-          "title": "Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems",
-          "url": "https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/",
-          "published": "Thu, 12 Nov 2026 06:50:29 +0000",
-          "published_utc": "2026-11-12T06:50:29+00:00",
-          "summary": "<p>A.P. Moller–Maersk has confirmed unauthorized access and data extraction affecting a local legacy IT system inherited through a previous acquisition. In its November 11 security advisory, the shipping company said investigators currently believe no sensitive information was disclosed, while emphasizing that its investigation remains ongoing. Maersk Data Breach The disclosure indicates that information was extracted; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/\">Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206820"
-        },
-        {
-          "title": "New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges",
-          "url": "https://gbhackers.com/new-windows-signdrop-zero-day/",
-          "published": "Thu, 12 Nov 2026 06:41:09 +0000",
-          "published_utc": "2026-11-12T06:41:09+00:00",
-          "summary": "<p>A researcher known as MSNightmare, also called Chaotic Eclipse, has published a working proof of concept for an unpatched Windows zero-day dubbed SignDrop. The exploit turns a standard user account into NT AUTHORITY\\SYSTEM by abusing the Common Log File System (CLFS) driver, clfs.sys. It was released on GitHub on November 10, the same day as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-windows-signdrop-zero-day/\">New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206790"
-        },
-        {
-          "title": "Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines",
-          "url": "https://gbhackers.com/github-accounts-compromised/",
-          "published": "Thu, 12 Nov 2026 06:37:27 +0000",
-          "published_utc": "2026-11-12T06:37:27+00:00",
-          "summary": "<p>Attackers used stolen GitHub credentials belonging to 4,837 accounts to probe 61,764 repositories in a campaign targeting software development secrets and cloud access. Beginning November 10, the operation injected malicious workflows into accessible repositories, with evidence of credential exfiltration from at least 1,806 repositories. At least 50 compromised users publish packages across npm, Go, Packagist, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-accounts-compromised/\">Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206807"
-        },
-        {
-          "title": "Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers",
-          "url": "https://gbhackers.com/linux-kernel-flaws/",
-          "published": "Thu, 12 Nov 2026 05:50:53 +0000",
-          "published_utc": "2026-11-12T05:50:53+00:00",
-          "summary": "<p>AI-driven scanning system, codenamed MDASH, to find 59 security issues in the Linux kernel. One of them, a cls_u32 shift-out-of-bounds flaw tracked as CVE-2026-74544, had gone unnoticed for at least 21 years. One full-time researcher and one intern scanned selected kernel subsystems, including networking, filesystems and security modules, from late May to mid-June 2026. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-flaws/\">Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206788"
-        },
-        {
-          "title": "Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code",
-          "url": "https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/",
-          "published": "Thu, 12 Nov 2026 05:50:37 +0000",
-          "published_utc": "2026-11-12T05:50:37+00:00",
-          "summary": "<p>Apache has released HTTP Server 2.4.71 to address three security vulnerabilities, including a critical memory corruption flaw that could enable remote code execution. Released on November 11, 2026, the update fixes weaknesses in mod_http2, mod_md, and mod_vhost_alias, rated critical, important, and low severity, respectively. The release follows earlier Apache HTTP Server security updates that addressed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/\">Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206801"
-        },
-        {
-          "title": "Node.js Patches 16 Security Vulnerabilities Allowing Remote Server Crashes, Memory Leaks, and Authentication Bypass",
-          "url": "https://gbhackers.com/node-js-patches-16-security-vulnerabilities/",
-          "published": "Thu, 12 Nov 2026 05:14:21 +0000",
-          "published_utc": "2026-11-12T05:14:21+00:00",
-          "summary": "<p>The Node.js Project released security updates on November 11, 2026, for the 26.x, 24.x, and 22.x lines. They fix 16 vulnerabilities: 7 high, 6 medium, and 3 low severity. Many can be triggered remotely by unauthenticated clients, and the flaws cluster in HTTP/2 and TLS handling. The patched builds are v22.23.5, v24.22.3, and v26.13.1, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/node-js-patches-16-security-vulnerabilities/\">Node.js Patches 16 Security Vulnerabilities Allowing Remote Server Crashes, Memory Leaks, and Authentication Bypass</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206780"
-        },
-        {
-          "title": "New Citrus Ransomware Hides Malicious Traffic as HTTPS to Evade Corporate Network Security",
-          "url": "https://gbhackers.com/citrus-ransomware-attack/",
-          "published": "Thu, 12 Nov 2026 05:13:15 +0000",
-          "published_utc": "2026-11-12T05:13:15+00:00",
-          "summary": "<p>A previously undocumented group called Citrus Ransomware is combining VLESS tunnels that mimic ordinary HTTPS, the Sn00py ransomware-as-a-service Trojan, and large language model (LLM) assistance to compromise Russian companies. Citrus gains access through compromised contractors. It uses stolen employee credentials to reach corporate VPNs or internet-facing terminal servers over RDP. Those contractor accounts hold limited [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrus-ransomware-attack/\">New Citrus Ransomware Hides Malicious Traffic as HTTPS to Evade Corporate Network Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-          "id": "https://gbhackers.com/?p=206767"
         }
       ],
       "error": ""

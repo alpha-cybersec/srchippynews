@@ -5,95 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
+      "status": "FAILED",
+      "http_status": 202,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Ones that Could Enable RCE Attacks",
-          "url": "https://cybersecuritynews.com/google-chrome-fixes-83-security-flaws/",
-          "published": "Thu, 12 Nov 2026 10:32:09 +0000",
-          "published_utc": "2026-11-12T10:32:09+00:00",
-          "summary": "<p>Google released a Chrome security update that addresses 83 vulnerabilities, including five critical use-after-free flaws that could allow remote code execution. According to the supplied release notice, the update covers Windows, macOS, and Linux, with fixes spanning browser rendering, graphics, JavaScript processing, and other core features. The Stable channel moves to version 157.0.8103.78/.79 for Windows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-chrome-fixes-83-security-flaws/\">Google Chrome Fixes 83 Security Flaws, Including 5 Critical Ones that Could Enable RCE Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171764"
-        },
-        {
-          "title": "Hackers Breach Global Shipping Giant Maersk and Claim Theft of 100GB of Logistics Data",
-          "url": "https://cybersecuritynews.com/hackers-breach-maersk/",
-          "published": "Thu, 12 Nov 2026 10:10:00 +0000",
-          "published_utc": "2026-11-12T10:10:00+00:00",
-          "summary": "<p>A.P. Moller–Maersk has confirmed that hackers accessed an older IT system and extracted data, as a group calling itself WhiteArmor claims it stole 100GB of logistics records. The shipping giant disclosed the incident on November 11, 2026, but has not confirmed the attackers&#8217; identity, the claimed data volume, or what was taken. In its official [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach-maersk/\">Hackers Breach Global Shipping Giant Maersk and Claim Theft of 100GB of Logistics Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171758"
-        },
-        {
-          "title": "Microsoft Warns Hackers Are Using GSocket Backdoors to Keep Linux Servers Compromised After Patching",
-          "url": "https://cybersecuritynews.com/gsocket-backdoors/",
-          "published": "Thu, 12 Nov 2026 09:44:00 +0000",
-          "published_utc": "2026-11-12T09:44:00+00:00",
-          "summary": "<p>Microsoft has warned that attackers are using a free remote access tool called GSocket to stay inside Linux servers even after the original security hole is fixed. Many admins treat a patch as the end of an incident, but this activity shows that patching alone may leave the attacker&#8217;s access untouched. GSocket is an open [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gsocket-backdoors/\">Microsoft Warns Hackers Are Using GSocket Backdoors to Keep Linux Servers Compromised After Patching</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171788"
-        },
-        {
-          "title": "Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware",
-          "url": "https://cybersecuritynews.com/github-accounts/",
-          "published": "Thu, 12 Nov 2026 08:15:03 +0000",
-          "published_utc": "2026-11-12T08:15:03+00:00",
-          "summary": "<p>A threat actor has used stolen GitHub credentials to push a secret-stealing payload into tens of thousands of code repositories. The activity began on November 10, 2026, around 12:45 UTC. It aims at the secrets and cloud keys that sit inside GitHub Actions, the tool many teams use to build and ship code. So far, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-accounts/\">Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171770"
-        },
-        {
-          "title": "Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges",
-          "url": "https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/",
-          "published": "Thu, 12 Nov 2026 08:09:33 +0000",
-          "published_utc": "2026-11-12T08:09:33+00:00",
-          "summary": "<p>Palo Alto Networks has disclosed a remote code execution vulnerability in PAN-OS software running on Panorama. Tracked as CVE-2026-0330, the flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges. The November 11, 2026, advisory urges users to patch affected Panorama deployments, while Cloud NGFW, Prisma Access, and standalone PAN-OS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/\">Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171763"
-        },
-        {
-          "title": "Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-maturity-assessment-tools/",
-          "published": "Thu, 12 Nov 2026 07:46:05 +0000",
-          "published_utc": "2026-11-12T07:46:05+00:00",
-          "summary": "<p>The board’s simplest hard question “how good are we, versus whom?” has four honest answers that measure different things: framework self-assessment, live telemetry scores, outside-in benchmarks, and exposure mathematics. Averaging them misleads; running two and minding the gap informs. This countdown ranks ten tools with each lens declared, because the questionnaire’s answer and the telemetry’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-maturity-assessment-tools/\">Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171562"
-        },
-        {
-          "title": "Top 10 Best GDPR Compliance Software in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-gdpr-compliance-software/",
-          "published": "Thu, 12 Nov 2026 07:44:29 +0000",
-          "published_utc": "2026-11-12T07:44:29+00:00",
-          "summary": "<p>GDPR enforcement punishes two failures: invalid consent at the banner and missed clocks on data-subject requests and the tooling market splits along exactly that line, with program suites running RoPAs and DPIAs above both. One honest count note: our source list named ten brands, but Cookiebot is a Usercentrics product, so we rank nine platforms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-gdpr-compliance-software/\">Top 10 Best GDPR Compliance Software in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171538"
-        },
-        {
-          "title": "Top 10 Best HIPAA Compliance Software in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-hipaa-compliance-software/",
-          "published": "Thu, 12 Nov 2026 07:41:19 +0000",
-          "published_utc": "2026-11-12T07:41:19+00:00",
-          "summary": "<p>HIPAA software serves two buyers the market keeps conflating: covered entities needing risk assessments, training, and BAA tracking, and digital-health vendors needing to prove posture to enterprise healthcare customers usually alongside SOC 2 compliance. This countdown ranks ten options with the buyer declared per entry, because the practice’s coach and the startup’s crosswalk engine solve [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-hipaa-compliance-software/\">Top 10 Best HIPAA Compliance Software in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171414"
-        },
-        {
-          "title": "Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/",
-          "published": "Thu, 12 Nov 2026 07:39:02 +0000",
-          "published_utc": "2026-11-12T07:39:02+00:00",
-          "summary": "<p>PCI DSS is three purchases wearing one acronym scope-reduction architecture, continuous technical controls, and assessment itself and PCI 4.x sharpened all three with customized approaches and stricter authentication demands. This countdown ranks ten options across the lanes honestly: control platforms, merchant-program machines, automation stacks, and the QSA benches that sign the paperwork. Qualys takes 1 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/\">Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171310"
-        },
-        {
-          "title": "Top 10 Best IT & Cyber Risk Management Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-it-cyber-risk-tools/",
-          "published": "Thu, 12 Nov 2026 07:35:26 +0000",
-          "published_utc": "2026-11-12T07:35:26+00:00",
-          "summary": "<p>The risk register is a promise-tracking machine risks named, owners committed, treatments dated and the tooling decides whether those promises stay alive or quietly rot. This countdown ranks ten platforms on the workflow that fights staleness: intake through ownership, treatment, exception, and retirement, with scoring that can graduate from heat maps to dollars. ServiceNow takes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-it-cyber-risk-tools/\">Top 10 Best IT &amp; Cyber Risk Management Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171231"
-        }
-      ],
-      "error": ""
+      "content_type": "text/html",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -106,84 +25,84 @@
       "article_count": 10,
       "articles": [
         {
-          "title": "Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware",
-          "url": "https://cybersecuritynews.com/github-accounts/",
-          "published": "Thu, 12 Nov 2026 08:15:03 +0000",
-          "published_utc": "2026-11-12T08:15:03+00:00",
-          "summary": "<p>A threat actor has used stolen GitHub credentials to push a secret-stealing payload into tens of thousands of code repositories. The activity began on November 10, 2026, around 12:45 UTC. It aims at the secrets and cloud keys that sit inside GitHub Actions, the tool many teams use to build and ship code. So far, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-accounts/\">Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171770"
+          "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
+          "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/",
+          "published": "Thu, 12 Nov 2026 16:58:22 +0000",
+          "published_utc": "2026-11-12T16:58:22+00:00",
+          "summary": "<p>Europol and international partners have disrupted infrastructure linked to Gootloader, CastleRAT, and StealC, targeting malware services that support ransomware attacks and data theft. Announced on November 12, 2026, the latest Operation Endgame action covered 235 servers and 257 domains. Authorities also recovered 6.4 million victim datasets from criminal infrastructure. The operation targeted the cybercrime-as-a-service model, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-infrastructure-disrupted/\">Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172045"
         },
         {
-          "title": "Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges",
-          "url": "https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/",
-          "published": "Thu, 12 Nov 2026 08:09:33 +0000",
-          "published_utc": "2026-11-12T08:09:33+00:00",
-          "summary": "<p>Palo Alto Networks has disclosed a remote code execution vulnerability in PAN-OS software running on Panorama. Tracked as CVE-2026-0330, the flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges. The November 11, 2026, advisory urges users to patch affected Panorama deployments, while Cloud NGFW, Prisma Access, and standalone PAN-OS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/\">Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171763"
+          "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
+          "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/",
+          "published": "Thu, 12 Nov 2026 16:53:00 +0000",
+          "published_utc": "2026-11-12T16:53:00+00:00",
+          "summary": "<p>New exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed. Published late on November 11, the tools, named 4EverAble2Shell and Agent2Shell, reportedly target N-central 2026.4 HF2, build 2026.4.1.26. Huntress reviewed the code and warned that fully patched servers should still be treated as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/\">New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172006"
         },
         {
-          "title": "Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-maturity-assessment-tools/",
-          "published": "Thu, 12 Nov 2026 07:46:05 +0000",
-          "published_utc": "2026-11-12T07:46:05+00:00",
-          "summary": "<p>The board’s simplest hard question “how good are we, versus whom?” has four honest answers that measure different things: framework self-assessment, live telemetry scores, outside-in benchmarks, and exposure mathematics. Averaging them misleads; running two and minding the gap informs. This countdown ranks ten tools with each lens declared, because the questionnaire’s answer and the telemetry’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-maturity-assessment-tools/\">Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171562"
+          "title": "Microsoft Teams Outage Hits Users in North America",
+          "url": "https://cybersecuritynews.com/microsoft-teams-outagenorth-america/",
+          "published": "Thu, 12 Nov 2026 16:44:18 +0000",
+          "published_utc": "2026-11-12T16:44:18+00:00",
+          "summary": "<p>Microsoft is investigating a Microsoft Teams outage affecting users in North America, with automated recovery measures now reducing the disruption. The company is tracking the incident under TM1550488 in the Microsoft 365 admin center. Its latest supplied update indicates improvement, but does not confirm that service has fully returned. Microsoft’s initial notice said users were [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-outagenorth-america/\">Microsoft Teams Outage Hits Users in North America</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172038"
         },
         {
-          "title": "Top 10 Best GDPR Compliance Software in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-gdpr-compliance-software/",
-          "published": "Thu, 12 Nov 2026 07:44:29 +0000",
-          "published_utc": "2026-11-12T07:44:29+00:00",
-          "summary": "<p>GDPR enforcement punishes two failures: invalid consent at the banner and missed clocks on data-subject requests and the tooling market splits along exactly that line, with program suites running RoPAs and DPIAs above both. One honest count note: our source list named ten brands, but Cookiebot is a Usercentrics product, so we rank nine platforms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-gdpr-compliance-software/\">Top 10 Best GDPR Compliance Software in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171538"
+          "title": "When Attackers Move at AI Speed, How Can Your SOC Keep Up?",
+          "url": "https://cybersecuritynews.com/when-attackers-move-at-ai-speed-how-can-your-soc-keep-up/",
+          "published": "Thu, 12 Nov 2026 16:15:30 +0000",
+          "published_utc": "2026-11-12T16:15:30+00:00",
+          "summary": "<p>Artificial intelligence is changing the cybersecurity landscape at an unprecedented pace. While enterprises are using AI to improve efficiency, cybercriminals are finding new ways to automate attacks, refine phishing campaigns, and scale their operations. What once required significant time and technical expertise can now be accomplished faster and with fewer resources.  For SOC and MSSP [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/when-attackers-move-at-ai-speed-how-can-your-soc-keep-up/\">When Attackers Move at AI Speed, How Can Your SOC Keep Up?  </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171996"
         },
         {
-          "title": "Top 10 Best HIPAA Compliance Software in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-hipaa-compliance-software/",
-          "published": "Thu, 12 Nov 2026 07:41:19 +0000",
-          "published_utc": "2026-11-12T07:41:19+00:00",
-          "summary": "<p>HIPAA software serves two buyers the market keeps conflating: covered entities needing risk assessments, training, and BAA tracking, and digital-health vendors needing to prove posture to enterprise healthcare customers usually alongside SOC 2 compliance. This countdown ranks ten options with the buyer declared per entry, because the practice’s coach and the startup’s crosswalk engine solve [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-hipaa-compliance-software/\">Top 10 Best HIPAA Compliance Software in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171414"
+          "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+          "url": "https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+          "published": "Thu, 12 Nov 2026 14:25:32 +0000",
+          "published_utc": "2026-11-12T14:25:32+00:00",
+          "summary": "<p>San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nDiligence, Inc. today announced the release of Attack the Glass (ATG) research to the general public. The four-year study examines a cybersecurity vulnerability in how applications use [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/\">nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172011"
         },
         {
-          "title": "Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/",
-          "published": "Thu, 12 Nov 2026 07:39:02 +0000",
-          "published_utc": "2026-11-12T07:39:02+00:00",
-          "summary": "<p>PCI DSS is three purchases wearing one acronym scope-reduction architecture, continuous technical controls, and assessment itself and PCI 4.x sharpened all three with customized approaches and stricter authentication demands. This countdown ranks ten options across the lanes honestly: control platforms, merchant-program machines, automation stacks, and the QSA benches that sign the paperwork. Qualys takes 1 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/\">Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171310"
+          "title": "CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability",
+          "url": "https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability/",
+          "published": "Thu, 12 Nov 2026 14:11:54 +0000",
+          "published_utc": "2026-11-12T14:11:54+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency has confirmed active exploitation of a Microsoft Outlook zero-day vulnerability CVE-2026-124194 that can expose user authentication data. According to Microsoft’s security advisory, an attacker can send a specially crafted message file and persuade a victim to open it in Outlook. The application may then connect to an attacker-controlled [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/active-exploitation-of-outlook-0-day-vulnerability/\">CISA Confirms Active Exploitation of Outlook User Interaction 0-Day Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171952"
         },
         {
-          "title": "Top 10 Best IT & Cyber Risk Management Tools in 2026 [Ranked & Scored]",
-          "url": "https://cybersecuritynews.com/best-it-cyber-risk-tools/",
-          "published": "Thu, 12 Nov 2026 07:35:26 +0000",
-          "published_utc": "2026-11-12T07:35:26+00:00",
-          "summary": "<p>The risk register is a promise-tracking machine risks named, owners committed, treatments dated and the tooling decides whether those promises stay alive or quietly rot. This countdown ranks ten platforms on the workflow that fights staleness: intake through ownership, treatment, exception, and retirement, with scoring that can graduate from heat maps to dollars. ServiceNow takes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-it-cyber-risk-tools/\">Top 10 Best IT &amp; Cyber Risk Management Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171231"
+          "title": "Critical Red Hat Quay Vulnerability Allows Unauthenticated Attackers to Hijack Container Registries",
+          "url": "https://cybersecuritynews.com/red-hat-quay-vulnerability/",
+          "published": "Thu, 12 Nov 2026 13:57:37 +0000",
+          "published_utc": "2026-11-12T13:57:37+00:00",
+          "summary": "<p>A critical flaw in Red Hat Quay lets anyone who can reach a registry&#8217;s key server take over its token signing. The bug is tracked as CVE-2026-123710 and carries a CVSS score of 9.8, according to Red Hat&#8217;s advisory and the National Vulnerability Database. Red Hat published it on November 11, 2026. Quay is an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/red-hat-quay-vulnerability/\">Critical Red Hat Quay Vulnerability Allows Unauthenticated Attackers to Hijack Container Registries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171989"
         },
         {
-          "title": "Microsoft Discovers 59 Linux Kernel Security Bugs Using AI, Including Flaws Hidden for Over 20 Years",
-          "url": "https://cybersecuritynews.com/linux-kernel-security-bugs/",
-          "published": "Thu, 12 Nov 2026 07:24:12 +0000",
-          "published_utc": "2026-11-12T07:24:12+00:00",
-          "summary": "<p>Microsoft&#8217;s FORGE Lab used an AI-driven scanning system to find 59 security bugs in the Linux kernel. Some of them sat unnoticed for more than 20 years. The work has so far led to 33 assigned CVEs, and Microsoft confirmed working root privilege-escalation exploits for eight of them. The team used a tool with the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-security-bugs/\">Microsoft Discovers 59 Linux Kernel Security Bugs Using AI, Including Flaws Hidden for Over 20 Years</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171762"
+          "title": "AWS MCP Gateway Security Flaw Allowing Access to Internal Networks and Cloud Credentials",
+          "url": "https://cybersecuritynews.com/aws-mcp-gateway-security-flaw/",
+          "published": "Thu, 12 Nov 2026 13:51:59 +0000",
+          "published_utc": "2026-11-12T13:51:59+00:00",
+          "summary": "<p>AWS has fixed a server-side request forgery flaw in mcp-gateway-registry that could let an authenticated attacker reach internal services through the gateway. Tracked as CVE-2026-125926, the issue affects versions 1.0.3 through 1.34.0. Version 1.35.0 contains the fix. AWS disclosed the vulnerability on November 11, 2026, and urged users to upgrade. The open-source project acts as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-mcp-gateway-security-flaw/\">AWS MCP Gateway Security Flaw Allowing Access to Internal Networks and Cloud Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171974"
         },
         {
-          "title": "Hackers Abuse Windows Group Policy to Deploy Citrus Ransomware and Disable Microsoft Defender",
-          "url": "https://cybersecuritynews.com/hackers-abuse-windows-group-policy/",
-          "published": "Thu, 12 Nov 2026 06:46:42 +0000",
-          "published_utc": "2026-11-12T06:46:42+00:00",
-          "summary": "<p>A new ransomware group called Citrus is using Windows Group Policy to push its malware across entire company networks and switch off Microsoft Defender first. Group Policy is a trusted Windows tool that admins use to manage many computers at once. Here, the attackers turn it into a delivery system. The group breaks in through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-windows-group-policy/\">Hackers Abuse Windows Group Policy to Deploy Citrus Ransomware and Disable Microsoft Defender</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171759"
+          "title": "Qilin Ransomware Admin Identified as 36-Year-Old Russian Hacker After Cybercrime Probe",
+          "url": "https://cybersecuritynews.com/qilin-ransomware-admin-identified/",
+          "published": "Thu, 12 Nov 2026 13:42:39 +0000",
+          "published_utc": "2026-11-12T13:42:39+00:00",
+          "summary": "<p>A cybercrime investigation has linked the administrator of Qilin ransomware to Aleksey Mikhailovich Yakovtsev, a 36-year-old man living in St. Petersburg, Russia. Published by KrebsOnSecurity on November 11, 2026, the findings connect the online identity “Haise” to older forum accounts, Telegram records, and leaked databases. The identification remains a research finding, not a court ruling [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/qilin-ransomware-admin-identified/\">Qilin Ransomware Admin Identified as 36-Year-Old Russian Hacker After Cybercrime Probe</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171856"
         },
         {
-          "title": "Apache Patches Critical HTTP/2 Flaw Allowing Remote Code Execution on Web Servers",
-          "url": "https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/",
-          "published": "Thu, 12 Nov 2026 05:17:09 +0000",
-          "published_utc": "2026-11-12T05:17:09+00:00",
-          "summary": "<p>Apache has fixed a critical bug in its HTTP/2 module that could let a remote attacker run code on a web server. The flaw is tracked as CVE-2026-119618 and affects mod_http2. The fix came on November 11, 2026, in Apache HTTP Server 2.4.71. The bug sits in a function called assign_headers(). Apache says it is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/\">Apache Patches Critical HTTP/2 Flaw Allowing Remote Code Execution on Web Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=171753"
+          "title": "Lenovo Warns of High-Severity Server Flaw That Restores Default Root Credentials After Reset",
+          "url": "https://cybersecuritynews.com/lenovo-server-flaw/",
+          "published": "Thu, 12 Nov 2026 13:37:44 +0000",
+          "published_utc": "2026-11-12T13:37:44+00:00",
+          "summary": "<p>Lenovo has disclosed a high-severity security flaw in ThinkSystem V4 server management firmware that restores a default OpenBMC root password after a factory reset. Tracked as CVE-2026-81936, the issue could let attackers access enabled administrative interfaces and reach the controller’s underlying operating system, which is normally restricted. The CVE record, published on November 11, 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/lenovo-server-flaw/\">Lenovo Warns of High-Severity Server Flaw That Restores Default Root Credentials After Reset</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171968"
         }
       ],
       "error": ""

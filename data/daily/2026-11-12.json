@@ -1,0 +1,799 @@
+{
+  "date": "2026-11-12",
+  "article_count": 29,
+  "sources": {
+    "gbhackers": 12,
+    "cybersecuritynews": 13,
+    "thehackernews": 4
+  },
+  "articles": [
+    {
+      "title": "PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score",
+      "url": "https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/",
+      "published": "Thu, 12 Nov 2026 10:53:36 +0000",
+      "published_utc": "2026-11-12T10:53:36+00:00",
+      "summary": "<p>A public proof-of-concept exploit is now available for CVE-2026-76466, a critical flaw in Cisco Expressway that lets an unauthenticated attacker run commands as root. Cisco published its advisory on October 21, 2026, and the flaw carries a CVSS score of 9.8. Researcher Nicolas Krassas (dinosn) posted the exploit and a fleet detector on GitHub. That [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/\">PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206850",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce",
+      "content_hash": "1af2cbaf6c346213363393256260f32f2c917118e4c7d9e23118544a58f6e540",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1af2cbaf6c346213363393256260f32f2c917118e4c7d9e23118544a58f6e540"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges",
+      "url": "https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/",
+      "published": "Thu, 12 Nov 2026 10:34:34 +0000",
+      "published_utc": "2026-11-12T10:34:34+00:00",
+      "summary": "<p>Palo Alto Networks has released fixes for CVE-2026-0330, a remote code execution vulnerability affecting PAN-OS software running on Panorama. The flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges, according to the company’s security advisory, published November 11, 2026. The vendor classifies the issue as medium severity with moderate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/\">Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206846",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability",
+      "content_hash": "6a40d602d97f154d6d582d5034c205f9c0f2bc8b172f7d6acbce56b979e53903",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6a40d602d97f154d6d582d5034c205f9c0f2bc8b172f7d6acbce56b979e53903"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Ones that Could Enable RCE Attacks",
+      "url": "https://cybersecuritynews.com/google-chrome-fixes-83-security-flaws/",
+      "published": "Thu, 12 Nov 2026 10:32:09 +0000",
+      "published_utc": "2026-11-12T10:32:09+00:00",
+      "summary": "<p>Google released a Chrome security update that addresses 83 vulnerabilities, including five critical use-after-free flaws that could allow remote code execution. According to the supplied release notice, the update covers Windows, macOS, and Linux, with fixes spanning browser rendering, graphics, JavaScript processing, and other core features. The Stable channel moves to version 157.0.8103.78/.79 for Windows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-chrome-fixes-83-security-flaws/\">Google Chrome Fixes 83 Security Flaws, Including 5 Critical Ones that Could Enable RCE Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171764",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/google-chrome-fixes-83-security-flaws",
+      "content_hash": "b1222bc596d0dd9d5ae4e6a43790566afa2a52067a5c585fc904e1fe10e1f42a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b1222bc596d0dd9d5ae4e6a43790566afa2a52067a5c585fc904e1fe10e1f42a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Qilin Ransomware Gang Leader Allegedly Identified as 36-Year-Old Russian Man",
+      "url": "https://gbhackers.com/qilin-ransomware-gang-leader/",
+      "published": "Thu, 12 Nov 2026 10:12:04 +0000",
+      "published_utc": "2026-11-12T10:12:04+00:00",
+      "summary": "<p>The administrator of the Qilin ransomware operation has allegedly been identified as Aleksey Mikhailovich Yakovtsev, a 36-year-old St. Petersburg resident. A KrebsOnSecurity investigation published November 11 connects the underground identity “Haise” to Yakovtsev through historical forum accounts, Telegram identifiers, and breached records. The attribution remains an allegation. Qilin Ransomware Gang Leader Qilin has operated since [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/qilin-ransomware-gang-leader/\">Qilin Ransomware Gang Leader Allegedly Identified as 36-Year-Old Russian Man</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206837",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/qilin-ransomware-gang-leader",
+      "content_hash": "e6b7e66da31282859d97b46239bff3d1db444dc1a3797c27cf32e0118fe0f575",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e6b7e66da31282859d97b46239bff3d1db444dc1a3797c27cf32e0118fe0f575"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Hackers Breach Global Shipping Giant Maersk and Claim Theft of 100GB of Logistics Data",
+      "url": "https://cybersecuritynews.com/hackers-breach-maersk/",
+      "published": "Thu, 12 Nov 2026 10:10:00 +0000",
+      "published_utc": "2026-11-12T10:10:00+00:00",
+      "summary": "<p>A.P. Moller–Maersk has confirmed that hackers accessed an older IT system and extracted data, as a group calling itself WhiteArmor claims it stole 100GB of logistics records. The shipping giant disclosed the incident on November 11, 2026, but has not confirmed the attackers&#8217; identity, the claimed data volume, or what was taken. In its official [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach-maersk/\">Hackers Breach Global Shipping Giant Maersk and Claim Theft of 100GB of Logistics Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171758",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-breach-maersk",
+      "content_hash": "8aa728824ef5e158bc5f9ba8e2fd57f953e1605bdcdabfd130d791248b7999f7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8aa728824ef5e158bc5f9ba8e2fd57f953e1605bdcdabfd130d791248b7999f7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Microsoft Warns Hackers Are Using GSocket Backdoors to Keep Linux Servers Compromised After Patching",
+      "url": "https://cybersecuritynews.com/gsocket-backdoors/",
+      "published": "Thu, 12 Nov 2026 09:44:00 +0000",
+      "published_utc": "2026-11-12T09:44:00+00:00",
+      "summary": "<p>Microsoft has warned that attackers are using a free remote access tool called GSocket to stay inside Linux servers even after the original security hole is fixed. Many admins treat a patch as the end of an incident, but this activity shows that patching alone may leave the attacker&#8217;s access untouched. GSocket is an open [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gsocket-backdoors/\">Microsoft Warns Hackers Are Using GSocket Backdoors to Keep Linux Servers Compromised After Patching</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171788",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/gsocket-backdoors",
+      "content_hash": "c7c898050335efa345a4558b2932f4bce72cf4dd3330cd1b5bc72d5062d068cc",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c7c898050335efa345a4558b2932f4bce72cf4dd3330cd1b5bc72d5062d068cc"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "url": "http://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "published": "Thu, 12 Nov 2026 09:25:00 +0000",
+      "published_utc": "2026-11-12T09:25:00+00:00",
+      "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4594899049372216750",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "content_hash": "f1331bbd542a5ffc2b25032fbfeb118b828446466c24b6e8fb4875e79c599634",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f1331bbd542a5ffc2b25032fbfeb118b828446466c24b6e8fb4875e79c599634",
+        "FEEDBURNER": "f1331bbd542a5ffc2b25032fbfeb118b828446466c24b6e8fb4875e79c599634"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
+    {
+      "title": "12 Adversarial Exposure Validation Tools: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/adversarial-exposure-validation-tools/",
+      "published": "Thu, 12 Nov 2026 09:25:00 +0000",
+      "published_utc": "2026-11-12T09:25:00+00:00",
+      "summary": "<p>Adversarial exposure validation (AEV) is the label the market settled on for the merged territory of breach-and-attack simulation, autonomous penetration testing, and automated red teaming three lanes that always answered the same buyer question with different risk appetites. The purchase goes wrong when a change-averse estate adopts a live-testing engine it cannot govern, or a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adversarial-exposure-validation-tools/\">12 Adversarial Exposure Validation Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206405",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/adversarial-exposure-validation-tools",
+      "content_hash": "e26fb24c1e5c33cb32b0be506c16c9ae59edaac1676f6b283f672206bc8df1c9",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e26fb24c1e5c33cb32b0be506c16c9ae59edaac1676f6b283f672206bc8df1c9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "url": "http://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "published": "Thu, 12 Nov 2026 08:20:37 +0000",
+      "published_utc": "2026-11-12T08:20:37+00:00",
+      "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections.\n\nFixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1.\n\nThe crash",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-962070165041008277",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "content_hash": "551b260f392da93e581839e6cdb5b2f43dc9e49b78a189bed45a6ad313e7a195",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "551b260f392da93e581839e6cdb5b2f43dc9e49b78a189bed45a6ad313e7a195",
+        "FEEDBURNER": "551b260f392da93e581839e6cdb5b2f43dc9e49b78a189bed45a6ad313e7a195"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
+    {
+      "title": "Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware",
+      "url": "https://cybersecuritynews.com/github-accounts/",
+      "published": "Thu, 12 Nov 2026 08:15:03 +0000",
+      "published_utc": "2026-11-12T08:15:03+00:00",
+      "summary": "<p>A threat actor has used stolen GitHub credentials to push a secret-stealing payload into tens of thousands of code repositories. The activity began on November 10, 2026, around 12:45 UTC. It aims at the secrets and cloud keys that sit inside GitHub Actions, the tool many teams use to build and ship code. So far, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-accounts/\">Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171770",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/github-accounts",
+      "content_hash": "50542750f380258c2c059cb09104ebc6977ccb7b24f1bdc994cf76b47d0115a5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "50542750f380258c2c059cb09104ebc6977ccb7b24f1bdc994cf76b47d0115a5",
+        "FEEDBURNER": "50542750f380258c2c059cb09104ebc6977ccb7b24f1bdc994cf76b47d0115a5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes",
+      "url": "https://gbhackers.com/gsocket-based-linux-attacks/",
+      "published": "Thu, 12 Nov 2026 08:13:07 +0000",
+      "published_utc": "2026-11-12T08:13:07+00:00",
+      "summary": "<p>Attackers deployed GSocket on compromised Linux servers, disguised its processes as legitimate system components, and retained access after administrators patched the original vulnerabilities. In its November 11 report, Microsoft described unrelated threat actors abusing the open source remote access tool rather than maintaining dedicated command-and-control infrastructure. Defender for Endpoint telemetry recorded a 356.2% increase in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gsocket-based-linux-attacks/\">Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206817",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/gsocket-based-linux-attacks",
+      "content_hash": "ff75a3b8a9b1d5e5b1d5995b62c550f269e98f01a7d1bddfd49ad526db786c17",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ff75a3b8a9b1d5e5b1d5995b62c550f269e98f01a7d1bddfd49ad526db786c17",
+        "FEEDBURNER": "ff75a3b8a9b1d5e5b1d5995b62c550f269e98f01a7d1bddfd49ad526db786c17"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges",
+      "url": "https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/",
+      "published": "Thu, 12 Nov 2026 08:09:33 +0000",
+      "published_utc": "2026-11-12T08:09:33+00:00",
+      "summary": "<p>Palo Alto Networks has disclosed a remote code execution vulnerability in PAN-OS software running on Panorama. Tracked as CVE-2026-0330, the flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges. The November 11, 2026, advisory urges users to patch affected Panorama deployments, while Cloud NGFW, Prisma Access, and standalone PAN-OS [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/\">Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171763",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability",
+      "content_hash": "eebacf1748f0dbe58e7a4154317a16381723520f4ffd429b44cae6604a0f4515",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "eebacf1748f0dbe58e7a4154317a16381723520f4ffd429b44cae6604a0f4515",
+        "FEEDBURNER": "eebacf1748f0dbe58e7a4154317a16381723520f4ffd429b44cae6604a0f4515"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-maturity-assessment-tools/",
+      "published": "Thu, 12 Nov 2026 07:46:05 +0000",
+      "published_utc": "2026-11-12T07:46:05+00:00",
+      "summary": "<p>The board’s simplest hard question “how good are we, versus whom?” has four honest answers that measure different things: framework self-assessment, live telemetry scores, outside-in benchmarks, and exposure mathematics. Averaging them misleads; running two and minding the gap informs. This countdown ranks ten tools with each lens declared, because the questionnaire’s answer and the telemetry’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-maturity-assessment-tools/\">Top 10 Best Cybersecurity Maturity Assessment Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171562",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-maturity-assessment-tools",
+      "content_hash": "c6e4ca56e48a6eaaf72a3ecea8b454d6c36ca51bed1e4aa062a4922eba94ad2f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c6e4ca56e48a6eaaf72a3ecea8b454d6c36ca51bed1e4aa062a4922eba94ad2f",
+        "FEEDBURNER": "c6e4ca56e48a6eaaf72a3ecea8b454d6c36ca51bed1e4aa062a4922eba94ad2f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Top 10 Best GDPR Compliance Software in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-gdpr-compliance-software/",
+      "published": "Thu, 12 Nov 2026 07:44:29 +0000",
+      "published_utc": "2026-11-12T07:44:29+00:00",
+      "summary": "<p>GDPR enforcement punishes two failures: invalid consent at the banner and missed clocks on data-subject requests and the tooling market splits along exactly that line, with program suites running RoPAs and DPIAs above both. One honest count note: our source list named ten brands, but Cookiebot is a Usercentrics product, so we rank nine platforms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-gdpr-compliance-software/\">Top 10 Best GDPR Compliance Software in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171538",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-gdpr-compliance-software",
+      "content_hash": "c325c6ffd4b3429ef19c7aa97fd96a3c8d7e17555d786c5f8eaa8173ce7fdf93",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c325c6ffd4b3429ef19c7aa97fd96a3c8d7e17555d786c5f8eaa8173ce7fdf93",
+        "FEEDBURNER": "c325c6ffd4b3429ef19c7aa97fd96a3c8d7e17555d786c5f8eaa8173ce7fdf93"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Top 10 Best HIPAA Compliance Software in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-hipaa-compliance-software/",
+      "published": "Thu, 12 Nov 2026 07:41:19 +0000",
+      "published_utc": "2026-11-12T07:41:19+00:00",
+      "summary": "<p>HIPAA software serves two buyers the market keeps conflating: covered entities needing risk assessments, training, and BAA tracking, and digital-health vendors needing to prove posture to enterprise healthcare customers usually alongside SOC 2 compliance. This countdown ranks ten options with the buyer declared per entry, because the practice’s coach and the startup’s crosswalk engine solve [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-hipaa-compliance-software/\">Top 10 Best HIPAA Compliance Software in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171414",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-hipaa-compliance-software",
+      "content_hash": "6ba9593693ab2c94ffe8213085dcbd089f4660ebb1958271ffb1f83fa1771e62",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6ba9593693ab2c94ffe8213085dcbd089f4660ebb1958271ffb1f83fa1771e62",
+        "FEEDBURNER": "6ba9593693ab2c94ffe8213085dcbd089f4660ebb1958271ffb1f83fa1771e62"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/",
+      "published": "Thu, 12 Nov 2026 07:39:02 +0000",
+      "published_utc": "2026-11-12T07:39:02+00:00",
+      "summary": "<p>PCI DSS is three purchases wearing one acronym scope-reduction architecture, continuous technical controls, and assessment itself and PCI 4.x sharpened all three with customized approaches and stricter authentication demands. This countdown ranks ten options across the lanes honestly: control platforms, merchant-program machines, automation stacks, and the QSA benches that sign the paperwork. Qualys takes 1 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools/\">Top 10 Best PCI DSS Compliance Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171310",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/top-10-best-pci-dss-compliance-tools-in-2026-ranked-scored-best-pci-dss-compliance-tools",
+      "content_hash": "6e55dfabdfcd5dbf131b891b71944cf14d3ef507276cb9fb1246732425f3950f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6e55dfabdfcd5dbf131b891b71944cf14d3ef507276cb9fb1246732425f3950f",
+        "FEEDBURNER": "6e55dfabdfcd5dbf131b891b71944cf14d3ef507276cb9fb1246732425f3950f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Top 10 Best IT & Cyber Risk Management Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-it-cyber-risk-tools/",
+      "published": "Thu, 12 Nov 2026 07:35:26 +0000",
+      "published_utc": "2026-11-12T07:35:26+00:00",
+      "summary": "<p>The risk register is a promise-tracking machine risks named, owners committed, treatments dated and the tooling decides whether those promises stay alive or quietly rot. This countdown ranks ten platforms on the workflow that fights staleness: intake through ownership, treatment, exception, and retirement, with scoring that can graduate from heat maps to dollars. ServiceNow takes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-it-cyber-risk-tools/\">Top 10 Best IT &amp; Cyber Risk Management Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171231",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-it-cyber-risk-tools",
+      "content_hash": "448c8306796cf31ab60eb62d456d2a99535830a0ea5ec30d145a2478b7e83eab",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "448c8306796cf31ab60eb62d456d2a99535830a0ea5ec30d145a2478b7e83eab",
+        "FEEDBURNER": "448c8306796cf31ab60eb62d456d2a99535830a0ea5ec30d145a2478b7e83eab"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Microsoft Discovers 59 Linux Kernel Security Bugs Using AI, Including Flaws Hidden for Over 20 Years",
+      "url": "https://cybersecuritynews.com/linux-kernel-security-bugs/",
+      "published": "Thu, 12 Nov 2026 07:24:12 +0000",
+      "published_utc": "2026-11-12T07:24:12+00:00",
+      "summary": "<p>Microsoft&#8217;s FORGE Lab used an AI-driven scanning system to find 59 security bugs in the Linux kernel. Some of them sat unnoticed for more than 20 years. The work has so far led to 33 assigned CVEs, and Microsoft confirmed working root privilege-escalation exploits for eight of them. The team used a tool with the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-security-bugs/\">Microsoft Discovers 59 Linux Kernel Security Bugs Using AI, Including Flaws Hidden for Over 20 Years</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171762",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/linux-kernel-security-bugs",
+      "content_hash": "19711af11d679211e0bc8ec42a93cdbb02ce84e5ec745104beb543d9f9226224",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "19711af11d679211e0bc8ec42a93cdbb02ce84e5ec745104beb543d9f9226224"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems",
+      "url": "https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/",
+      "published": "Thu, 12 Nov 2026 06:50:29 +0000",
+      "published_utc": "2026-11-12T06:50:29+00:00",
+      "summary": "<p>A.P. Moller–Maersk has confirmed unauthorized access and data extraction affecting a local legacy IT system inherited through a previous acquisition. In its November 11 security advisory, the shipping company said investigators currently believe no sensitive information was disclosed, while emphasizing that its investigation remains ongoing. Maersk Data Breach The disclosure indicates that information was extracted; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/\">Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206820",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/shipping-giant-maersk-confirms-data-breach",
+      "content_hash": "c31eda3b2156e16bf509730026e579324aa990c3d2906cc554a7a41454968894",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c31eda3b2156e16bf509730026e579324aa990c3d2906cc554a7a41454968894",
+        "FEEDBURNER": "c31eda3b2156e16bf509730026e579324aa990c3d2906cc554a7a41454968894"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Hackers Abuse Windows Group Policy to Deploy Citrus Ransomware and Disable Microsoft Defender",
+      "url": "https://cybersecuritynews.com/hackers-abuse-windows-group-policy/",
+      "published": "Thu, 12 Nov 2026 06:46:42 +0000",
+      "published_utc": "2026-11-12T06:46:42+00:00",
+      "summary": "<p>A new ransomware group called Citrus is using Windows Group Policy to push its malware across entire company networks and switch off Microsoft Defender first. Group Policy is a trusted Windows tool that admins use to manage many computers at once. Here, the attackers turn it into a delivery system. The group breaks in through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-windows-group-policy/\">Hackers Abuse Windows Group Policy to Deploy Citrus Ransomware and Disable Microsoft Defender</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171759",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-abuse-windows-group-policy",
+      "content_hash": "5eab255a8b437e6650b52fdb4f6ecf7cf62c8018816536a25b2378bee464582d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "5eab255a8b437e6650b52fdb4f6ecf7cf62c8018816536a25b2378bee464582d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "url": "http://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "published": "Thu, 12 Nov 2026 06:42:47 +0000",
+      "published_utc": "2026-11-12T06:42:47+00:00",
+      "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.\n\nThe stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2591855018482637775",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "content_hash": "ebba676c67dba8faadf76f57ccec84aa5624c2fac0e7674c12d1e1f567fd0c0b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ebba676c67dba8faadf76f57ccec84aa5624c2fac0e7674c12d1e1f567fd0c0b",
+        "FEEDBURNER": "ebba676c67dba8faadf76f57ccec84aa5624c2fac0e7674c12d1e1f567fd0c0b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
+    {
+      "title": "New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges",
+      "url": "https://gbhackers.com/new-windows-signdrop-zero-day/",
+      "published": "Thu, 12 Nov 2026 06:41:09 +0000",
+      "published_utc": "2026-11-12T06:41:09+00:00",
+      "summary": "<p>A researcher known as MSNightmare, also called Chaotic Eclipse, has published a working proof of concept for an unpatched Windows zero-day dubbed SignDrop. The exploit turns a standard user account into NT AUTHORITY\\SYSTEM by abusing the Common Log File System (CLFS) driver, clfs.sys. It was released on GitHub on November 10, the same day as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-windows-signdrop-zero-day/\">New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206790",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/new-windows-signdrop-zero-day",
+      "content_hash": "61fc078334be38f1a7815110d28c5dd1b545be47a1474bc029d558cbdcb38e3b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "61fc078334be38f1a7815110d28c5dd1b545be47a1474bc029d558cbdcb38e3b",
+        "FEEDBURNER": "61fc078334be38f1a7815110d28c5dd1b545be47a1474bc029d558cbdcb38e3b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines",
+      "url": "https://gbhackers.com/github-accounts-compromised/",
+      "published": "Thu, 12 Nov 2026 06:37:27 +0000",
+      "published_utc": "2026-11-12T06:37:27+00:00",
+      "summary": "<p>Attackers used stolen GitHub credentials belonging to 4,837 accounts to probe 61,764 repositories in a campaign targeting software development secrets and cloud access. Beginning November 10, the operation injected malicious workflows into accessible repositories, with evidence of credential exfiltration from at least 1,806 repositories. At least 50 compromised users publish packages across npm, Go, Packagist, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-accounts-compromised/\">Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206807",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/github-accounts-compromised",
+      "content_hash": "b53739481804b3f2391530a93153a7e865b27838c8b72328a71b12128f340786",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b53739481804b3f2391530a93153a7e865b27838c8b72328a71b12128f340786",
+        "FEEDBURNER": "b53739481804b3f2391530a93153a7e865b27838c8b72328a71b12128f340786"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers",
+      "url": "https://gbhackers.com/linux-kernel-flaws/",
+      "published": "Thu, 12 Nov 2026 05:50:53 +0000",
+      "published_utc": "2026-11-12T05:50:53+00:00",
+      "summary": "<p>AI-driven scanning system, codenamed MDASH, to find 59 security issues in the Linux kernel. One of them, a cls_u32 shift-out-of-bounds flaw tracked as CVE-2026-74544, had gone unnoticed for at least 21 years. One full-time researcher and one intern scanned selected kernel subsystems, including networking, filesystems and security modules, from late May to mid-June 2026. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-flaws/\">Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206788",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/linux-kernel-flaws",
+      "content_hash": "2d5b74c9faad707401692976d616618c65fab2cb7f162dd14a456932cc6518fe",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2d5b74c9faad707401692976d616618c65fab2cb7f162dd14a456932cc6518fe",
+        "FEEDBURNER": "2d5b74c9faad707401692976d616618c65fab2cb7f162dd14a456932cc6518fe"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code",
+      "url": "https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/",
+      "published": "Thu, 12 Nov 2026 05:50:37 +0000",
+      "published_utc": "2026-11-12T05:50:37+00:00",
+      "summary": "<p>Apache has released HTTP Server 2.4.71 to address three security vulnerabilities, including a critical memory corruption flaw that could enable remote code execution. Released on November 11, 2026, the update fixes weaknesses in mod_http2, mod_md, and mod_vhost_alias, rated critical, important, and low severity, respectively. The release follows earlier Apache HTTP Server security updates that addressed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/\">Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206801",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apache-http-server-patches-critical-rce-vulnerability",
+      "content_hash": "4b0bc221d113acac2a05a744cfdf2dbcf9117b5b03f5aa8c8dbeeff658873b44",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4b0bc221d113acac2a05a744cfdf2dbcf9117b5b03f5aa8c8dbeeff658873b44",
+        "FEEDBURNER": "4b0bc221d113acac2a05a744cfdf2dbcf9117b5b03f5aa8c8dbeeff658873b44"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Apache Patches Critical HTTP/2 Flaw Allowing Remote Code Execution on Web Servers",
+      "url": "https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/",
+      "published": "Thu, 12 Nov 2026 05:17:09 +0000",
+      "published_utc": "2026-11-12T05:17:09+00:00",
+      "summary": "<p>Apache has fixed a critical bug in its HTTP/2 module that could let a remote attacker run code on a web server. The flaw is tracked as CVE-2026-119618 and affects mod_http2. The fix came on November 11, 2026, in Apache HTTP Server 2.4.71. The bug sits in a function called assign_headers(). Apache says it is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/\">Apache Patches Critical HTTP/2 Flaw Allowing Remote Code Execution on Web Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=171753",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apache-patches-critical-http-2-flaw",
+      "content_hash": "010a9c97fb2d317a436f8cab9c86a1fd473305b720b0f03a28cebb68a4a1a5ac",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "010a9c97fb2d317a436f8cab9c86a1fd473305b720b0f03a28cebb68a4a1a5ac"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.671636+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.671624-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.671636+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.671624-05:00"
+    },
+    {
+      "title": "Node.js Patches 16 Security Vulnerabilities Allowing Remote Server Crashes, Memory Leaks, and Authentication Bypass",
+      "url": "https://gbhackers.com/node-js-patches-16-security-vulnerabilities/",
+      "published": "Thu, 12 Nov 2026 05:14:21 +0000",
+      "published_utc": "2026-11-12T05:14:21+00:00",
+      "summary": "<p>The Node.js Project released security updates on November 11, 2026, for the 26.x, 24.x, and 22.x lines. They fix 16 vulnerabilities: 7 high, 6 medium, and 3 low severity. Many can be triggered remotely by unauthenticated clients, and the flaws cluster in HTTP/2 and TLS handling. The patched builds are v22.23.5, v24.22.3, and v26.13.1, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/node-js-patches-16-security-vulnerabilities/\">Node.js Patches 16 Security Vulnerabilities Allowing Remote Server Crashes, Memory Leaks, and Authentication Bypass</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206780",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/node-js-patches-16-security-vulnerabilities",
+      "content_hash": "8c0b7c5d17c234d73bccad8b2c04ab7e9d1d18111e227ffcdf44dffbeea1710d",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "8c0b7c5d17c234d73bccad8b2c04ab7e9d1d18111e227ffcdf44dffbeea1710d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "New Citrus Ransomware Hides Malicious Traffic as HTTPS to Evade Corporate Network Security",
+      "url": "https://gbhackers.com/citrus-ransomware-attack/",
+      "published": "Thu, 12 Nov 2026 05:13:15 +0000",
+      "published_utc": "2026-11-12T05:13:15+00:00",
+      "summary": "<p>A previously undocumented group called Citrus Ransomware is combining VLESS tunnels that mimic ordinary HTTPS, the Sn00py ransomware-as-a-service Trojan, and large language model (LLM) assistance to compromise Russian companies. Citrus gains access through compromised contractors. It uses stolen employee credentials to reach corporate VPNs or internet-facing terminal servers over RDP. Those contractor accounts hold limited [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrus-ransomware-attack/\">New Citrus Ransomware Hides Malicious Traffic as HTTPS to Evade Corporate Network Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=206767",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/citrus-ransomware-attack",
+      "content_hash": "0c4eaba331812dd28b52789bf8af6332792f1202cafaa7c1e15516eaa8925411",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "0c4eaba331812dd28b52789bf8af6332792f1202cafaa7c1e15516eaa8925411"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:45.138910+00:00",
+      "first_seen_local": "2026-11-12T05:54:45.138907-05:00",
+      "last_updated_utc": "2026-11-12T10:54:45.138910+00:00",
+      "last_updated_local": "2026-11-12T05:54:45.138907-05:00"
+    },
+    {
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "url": "http://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "published": "Thu, 12 Nov 2026 05:12:26 +0000",
+      "published_utc": "2026-11-12T05:12:26+00:00",
+      "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7989185877198327236",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "content_hash": "5455662e33f5ed2e1ddd7ddc560987b6025d3b52097bc325a8dca271f29a20c5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5455662e33f5ed2e1ddd7ddc560987b6025d3b52097bc325a8dca271f29a20c5",
+        "FEEDBURNER": "5455662e33f5ed2e1ddd7ddc560987b6025d3b52097bc325a8dca271f29a20c5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    }
+  ]
+}

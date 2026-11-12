@@ -2,8 +2,120 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 95,
+  "article_count": 99,
   "articles": [
+    {
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "url": "http://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "published": "Thu, 12 Nov 2026 09:25:00 +0000",
+      "published_utc": "2026-11-12T09:25:00+00:00",
+      "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4594899049372216750",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "content_hash": "f1331bbd542a5ffc2b25032fbfeb118b828446466c24b6e8fb4875e79c599634",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f1331bbd542a5ffc2b25032fbfeb118b828446466c24b6e8fb4875e79c599634",
+        "FEEDBURNER": "f1331bbd542a5ffc2b25032fbfeb118b828446466c24b6e8fb4875e79c599634"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
+    {
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "url": "http://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "published": "Thu, 12 Nov 2026 08:20:37 +0000",
+      "published_utc": "2026-11-12T08:20:37+00:00",
+      "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections.\n\nFixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1.\n\nThe crash",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-962070165041008277",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "content_hash": "551b260f392da93e581839e6cdb5b2f43dc9e49b78a189bed45a6ad313e7a195",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "551b260f392da93e581839e6cdb5b2f43dc9e49b78a189bed45a6ad313e7a195",
+        "FEEDBURNER": "551b260f392da93e581839e6cdb5b2f43dc9e49b78a189bed45a6ad313e7a195"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "url": "http://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "published": "Thu, 12 Nov 2026 06:42:47 +0000",
+      "published_utc": "2026-11-12T06:42:47+00:00",
+      "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.\n\nThe stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2591855018482637775",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "content_hash": "ebba676c67dba8faadf76f57ccec84aa5624c2fac0e7674c12d1e1f567fd0c0b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ebba676c67dba8faadf76f57ccec84aa5624c2fac0e7674c12d1e1f567fd0c0b",
+        "FEEDBURNER": "ebba676c67dba8faadf76f57ccec84aa5624c2fac0e7674c12d1e1f567fd0c0b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
+    {
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "url": "http://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "published": "Thu, 12 Nov 2026 05:12:26 +0000",
+      "published_utc": "2026-11-12T05:12:26+00:00",
+      "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7989185877198327236",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "content_hash": "5455662e33f5ed2e1ddd7ddc560987b6025d3b52097bc325a8dca271f29a20c5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5455662e33f5ed2e1ddd7ddc560987b6025d3b52097bc325a8dca271f29a20c5",
+        "FEEDBURNER": "5455662e33f5ed2e1ddd7ddc560987b6025d3b52097bc325a8dca271f29a20c5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-12T10:54:51.611883+00:00",
+      "first_seen_local": "2026-11-12T05:54:51.611881-05:00",
+      "last_updated_utc": "2026-11-12T10:54:51.611883+00:00",
+      "last_updated_local": "2026-11-12T05:54:51.611881-05:00"
+    },
     {
       "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
       "url": "http://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",

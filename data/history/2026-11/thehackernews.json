@@ -2,8 +2,202 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 111,
+  "article_count": 118,
   "articles": [
+    {
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "url": "http://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "published": "Fri, 13 Nov 2026 15:27:05 +0000",
+      "published_utc": "2026-11-13T15:27:05+00:00",
+      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6118173994584546806",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "content_hash": "827426691c96a79e5b01ffb73444752c9fa199d20406720f98886f216c527ae7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "827426691c96a79e5b01ffb73444752c9fa199d20406720f98886f216c527ae7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
+    {
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "url": "http://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "published": "Fri, 13 Nov 2026 14:28:58 +0000",
+      "published_utc": "2026-11-13T14:28:58+00:00",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.\n\nAs part of a coordinated set of actions announced by the U.S. government, the cloud-based",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5687753616393877257",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "content_hash": "cddb33dc9c67978b3c21ba0c4efab246cc34fbe1607f0a434de8c6289df04a46",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "cddb33dc9c67978b3c21ba0c4efab246cc34fbe1607f0a434de8c6289df04a46",
+        "FEEDBURNER": "cddb33dc9c67978b3c21ba0c4efab246cc34fbe1607f0a434de8c6289df04a46"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
+    {
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "url": "http://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "published": "Fri, 13 Nov 2026 13:54:20 +0000",
+      "published_utc": "2026-11-13T13:54:20+00:00",
+      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7801970271405995657",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "content_hash": "797fc3818cd65e126d6ef3d3d587dcec790c53301289bfc875c68b1a76f05e40",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "797fc3818cd65e126d6ef3d3d587dcec790c53301289bfc875c68b1a76f05e40",
+        "FEEDBURNER": "797fc3818cd65e126d6ef3d3d587dcec790c53301289bfc875c68b1a76f05e40"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
+    {
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "url": "http://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "published": "Fri, 13 Nov 2026 11:52:31 +0000",
+      "published_utc": "2026-11-13T11:52:31+00:00",
+      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7361335961549833137",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "content_hash": "61cb8129f9d64bfd55837f283c5983fa407fc7d9a7cff26a1a25b97a82e9e374",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "61cb8129f9d64bfd55837f283c5983fa407fc7d9a7cff26a1a25b97a82e9e374",
+        "FEEDBURNER": "61cb8129f9d64bfd55837f283c5983fa407fc7d9a7cff26a1a25b97a82e9e374"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
+    {
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "url": "http://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "published": "Fri, 13 Nov 2026 11:10:40 +0000",
+      "published_utc": "2026-11-13T11:10:40+00:00",
+      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2972435082193260468",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "content_hash": "4849c969431f0fb4f3883fcdef0a74521d254d8273c098e9f0edce27a4cfae7e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4849c969431f0fb4f3883fcdef0a74521d254d8273c098e9f0edce27a4cfae7e",
+        "FEEDBURNER": "4849c969431f0fb4f3883fcdef0a74521d254d8273c098e9f0edce27a4cfae7e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
+    {
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "url": "http://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "published": "Fri, 13 Nov 2026 10:55:03 +0000",
+      "published_utc": "2026-11-13T10:55:03+00:00",
+      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2864829173923332127",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "content_hash": "202df666017943ea95d5b57bb764baea73fce14e2055c8991b584436359f0ac1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "202df666017943ea95d5b57bb764baea73fce14e2055c8991b584436359f0ac1",
+        "FEEDBURNER": "202df666017943ea95d5b57bb764baea73fce14e2055c8991b584436359f0ac1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
+    {
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "published": "Fri, 13 Nov 2026 08:05:49 +0000",
+      "published_utc": "2026-11-13T08:05:49+00:00",
+      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA.\n\nThe activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8608458138525967858",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "content_hash": "dd1ac00a89b26baf55203a89b335e09d528b53681f3f11ea418c62abe77cdadf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd1ac00a89b26baf55203a89b335e09d528b53681f3f11ea418c62abe77cdadf",
+        "FEEDBURNER": "dd1ac00a89b26baf55203a89b335e09d528b53681f3f11ea418c62abe77cdadf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T15:39:14.390460+00:00",
+      "first_seen_local": "2026-11-13T10:39:14.390458-05:00",
+      "last_updated_utc": "2026-11-13T15:39:14.390460+00:00",
+      "last_updated_local": "2026-11-13T10:39:14.390458-05:00"
+    },
     {
       "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
       "url": "http://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",

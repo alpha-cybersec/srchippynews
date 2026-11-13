@@ -10,8 +10,64 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 1,
+      "article_count": 8,
       "articles": [
+        {
+          "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+          "url": "http://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+          "published": "Fri, 13 Nov 2026 15:27:05 +0000",
+          "published_utc": "2026-11-13T15:27:05+00:00",
+          "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6118173994584546806"
+        },
+        {
+          "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+          "url": "http://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+          "published": "Fri, 13 Nov 2026 14:28:58 +0000",
+          "published_utc": "2026-11-13T14:28:58+00:00",
+          "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.\n\nAs part of a coordinated set of actions announced by the U.S. government, the cloud-based",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5687753616393877257"
+        },
+        {
+          "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+          "url": "http://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+          "published": "Fri, 13 Nov 2026 13:54:20 +0000",
+          "published_utc": "2026-11-13T13:54:20+00:00",
+          "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7801970271405995657"
+        },
+        {
+          "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+          "url": "http://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+          "published": "Fri, 13 Nov 2026 11:52:31 +0000",
+          "published_utc": "2026-11-13T11:52:31+00:00",
+          "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7361335961549833137"
+        },
+        {
+          "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+          "url": "http://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+          "published": "Fri, 13 Nov 2026 11:10:40 +0000",
+          "published_utc": "2026-11-13T11:10:40+00:00",
+          "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2972435082193260468"
+        },
+        {
+          "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+          "url": "http://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+          "published": "Fri, 13 Nov 2026 10:55:03 +0000",
+          "published_utc": "2026-11-13T10:55:03+00:00",
+          "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2864829173923332127"
+        },
+        {
+          "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+          "url": "http://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+          "published": "Fri, 13 Nov 2026 08:05:49 +0000",
+          "published_utc": "2026-11-13T08:05:49+00:00",
+          "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA.\n\nThe activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8608458138525967858"
+        },
         {
           "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
           "url": "http://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
@@ -31,8 +87,56 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 1,
+      "article_count": 7,
       "articles": [
+        {
+          "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+          "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+          "published": "Fri, 13 Nov 2026 19:58:58 +0530",
+          "published_utc": "2026-11-13T14:28:58+00:00",
+          "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.\n\nAs part of a coordinated set of actions announced by the U.S. government, the cloud-based",
+          "id": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+        },
+        {
+          "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+          "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+          "published": "Fri, 13 Nov 2026 19:24:20 +0530",
+          "published_utc": "2026-11-13T13:54:20+00:00",
+          "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
+          "id": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+        },
+        {
+          "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+          "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+          "published": "Fri, 13 Nov 2026 17:22:31 +0530",
+          "published_utc": "2026-11-13T11:52:31+00:00",
+          "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+          "id": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+        },
+        {
+          "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+          "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+          "published": "Fri, 13 Nov 2026 16:40:40 +0530",
+          "published_utc": "2026-11-13T11:10:40+00:00",
+          "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+          "id": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+        },
+        {
+          "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+          "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+          "published": "Fri, 13 Nov 2026 16:25:03 +0530",
+          "published_utc": "2026-11-13T10:55:03+00:00",
+          "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:",
+          "id": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+        },
+        {
+          "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+          "published": "Fri, 13 Nov 2026 13:35:49 +0530",
+          "published_utc": "2026-11-13T08:05:49+00:00",
+          "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA.\n\nThe activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up",
+          "id": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+        },
         {
           "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
           "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",

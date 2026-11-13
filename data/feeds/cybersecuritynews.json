@@ -10,39 +10,87 @@
       "final_url": "https://cybersecuritynews.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "Cyber Security News",
-      "article_count": 4,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Microsoft 365 Massive Outage – Fixes Fail as Restored Servers Keep Going Unresponsive",
-          "url": "https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/",
-          "published": "Fri, 13 Nov 2026 06:52:50 +0000",
-          "published_utc": "2026-11-13T06:52:50+00:00",
-          "summary": "<p>Microsoft has yet to find a fix that holds for the global Microsoft 365 outage, which has now run for more than 10 hours. Servers that engineers bring back online are falling over again as soon as user traffic reaches them. The outage began on November 12, 2026, and continued through November 13. As we [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/\">Microsoft 365 Massive Outage &#8211; Fixes Fail as Restored Servers Keep Going Unresponsive</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172063"
+          "title": "New TypoPrompting Attacks Turn Mistyped AI Website Addresses Into Malware Installation Traps",
+          "url": "https://cybersecuritynews.com/new-typoprompting-attacks/",
+          "published": "Fri, 13 Nov 2026 15:24:38 +0000",
+          "published_utc": "2026-11-13T15:24:38+00:00",
+          "summary": "<p>A simple typing mistake can now cost you more than a failed page load. Researchers have found that mistyped addresses of popular AI tools lead to fake verification pages, hidden commands and malware installers. The technique is called TypoPrompting. The research traced 186 lookalike domains across 27 AI brands, including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-typoprompting-attacks/\">New TypoPrompting Attacks Turn Mistyped AI Website Addresses Into Malware Installation Traps</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172133"
+        },
+        {
+          "title": "Hackers Use SANSAR Linux Malware to Hide Crypto Mining by Faking 0% GPU Usage",
+          "url": "https://cybersecuritynews.com/hackers-use-sansar-linux-malware/",
+          "published": "Fri, 13 Nov 2026 15:09:45 +0000",
+          "published_utc": "2026-11-13T15:09:45+00:00",
+          "summary": "<p>Hackers are hiding cryptocurrency mining on Linux GPU servers by changing the readings administrators use to spot heavy workloads. The toolkit combines a Rust-based controller called SANSAR, a kernel rootkit, and a modified NVIDIA monitoring library that reports 0% GPU utilization while mining continues in the background. The intrusion reached three Linux GPU hosts through [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-sansar-linux-malware/\">Hackers Use SANSAR Linux Malware to Hide Crypto Mining by Faking 0% GPU Usage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172132"
+        },
+        {
+          "title": "Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware",
+          "url": "https://cybersecuritynews.com/break-into-microsoft-sql-servers/",
+          "published": "Fri, 13 Nov 2026 14:54:56 +0000",
+          "published_utc": "2026-11-13T14:54:56+00:00",
+          "summary": "<p>A new campaign is guessing its way into internet-facing Microsoft SQL Server systems. The attackers use a list of more than 2,700 passwords and then install a cryptocurrency miner and a remote access trojan (RAT) on the hacked machines. The campaign has been running since at least early October 2026. Database servers hold valuable data, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-microsoft-sql-servers/\">Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172124"
+        },
+        {
+          "title": "Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations",
+          "url": "https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/",
+          "published": "Fri, 13 Nov 2026 14:18:29 +0000",
+          "published_utc": "2026-11-13T14:18:29+00:00",
+          "summary": "<p>Citrix has released fixes for 28 security flaws in NetScaler ADC and NetScaler Gateway. One of them, CVE-2026-120868, affects every deployment in its default setup. Cloud Software Group published bulletin CTX697305 on November 12, 2026, and rated it Critical. CVE-2026-120868 is a memory overflow in packet processing. It carries a CVSS v4.0 score of 9.3. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/\">Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172095"
+        },
+        {
+          "title": "Hackers Use Fake Purchase Order Emails to Deliver XLoader Malware Through Malicious Word Documents",
+          "url": "https://cybersecuritynews.com/fake-purchase-order-emails/",
+          "published": "Fri, 13 Nov 2026 14:09:51 +0000",
+          "published_utc": "2026-11-13T14:09:51+00:00",
+          "summary": "<p>Hackers are sending fake purchase order emails to trick recipients into opening Word documents that deliver XLoader, an information-stealing malware. The attack uses an embedded document, an old Microsoft Equation Editor vulnerability, and several script stages to reach its final payload. What begins as a routine order confirmation can end with stolen browser data and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-purchase-order-emails/\">Hackers Use Fake Purchase Order Emails to Deliver XLoader Malware Through Malicious Word Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172116"
         },
         {
           "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
           "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/",
-          "published": "Fri, 13 Nov 2026 06:51:21 +0000",
-          "published_utc": "2026-11-13T06:51:21+00:00",
+          "published": "Fri, 13 Nov 2026 13:39:18 +0000",
+          "published_utc": "2026-11-13T13:39:18+00:00",
           "summary": "<p>A major Microsoft 365 outage disrupted cloud service access on November 12 and continued into November 13, 2026, as Microsoft worked to restore failing infrastructure. Microsoft confirmed that connectivity problems could affect users in any region, expanding the scope beyond its initial investigation into Exchange Online mailbox access in the Americas. The reported impact spans [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/massive-microsoft-365-outage/\">Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
           "id": "https://cybersecuritynews.com/?p=172049"
         },
         {
-          "title": "Hackers Exploit Check Point Firewall Flaws to Gain Root Access and Deploy Wiper Malware on VMware ESXi",
-          "url": "https://cybersecuritynews.com/hackers-exploit-check-point-firewall-flaws/",
-          "published": "Fri, 13 Nov 2026 06:38:59 +0000",
-          "published_utc": "2026-11-13T06:38:59+00:00",
-          "summary": "<p>Hackers have chained Check Point firewall vulnerabilities to gain root access, plant backdoors, and deploy destructive malware on a VMware ESXi host. The campaign began on October 30, 2026, targeting Israeli organizations before expanding worldwide. Check Point confirmed that attackers exploited the privilege escalation flaw against a couple of dozen customers. The supplied investigation describes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-check-point-firewall-flaws/\">Hackers Exploit Check Point Firewall Flaws to Gain Root Access and Deploy Wiper Malware on VMware ESXi</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172064"
+          "title": "Hackers Use DeepSeek and GLM AI Agents to Breach 10 Organizations in Autonomous Cyberattacks",
+          "url": "https://cybersecuritynews.com/deepseek-and-glm-ai-agents/",
+          "published": "Fri, 13 Nov 2026 11:56:24 +0000",
+          "published_utc": "2026-11-13T11:56:24+00:00",
+          "summary": "<p>Chinese-speaking hackers have used AI agents powered by DeepSeek and Zhipu GLM to break into 10 organizations with very little human effort. The campaign ran in August and September 2026 and covered 25 operations against at least 19 targets. It shows how quickly autonomous AI cyberattacks are moving from theory into daily use. The attackers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/deepseek-and-glm-ai-agents/\">Hackers Use DeepSeek and GLM AI Agents to Breach 10 Organizations in Autonomous Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172113"
         },
         {
-          "title": "TSMC Data Breach – Employee Data Exposed via Third-Party Cloud Provider",
-          "url": "https://cybersecuritynews.com/tsmc-data-breach/",
-          "published": "Fri, 13 Nov 2026 05:25:43 +0000",
-          "published_utc": "2026-11-13T05:25:43+00:00",
-          "summary": "<p>Taiwan Semiconductor Manufacturing Company (TSMC) has confirmed that personal data belonging to some current and former employees appeared online without permission. The chipmaker disclosed the incident on November 12, 2026, saying the exposed information matched records stored by an outside cloud service provider. It found no evidence that its own systems had been compromised. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tsmc-data-breach/\">TSMC Data Breach &#8211; Employee Data Exposed via Third-Party Cloud Provider</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172058"
+          "title": "Microsoft 365 Massive Outage – Fixes Fail as Restored Servers Keep Going Unresponsive",
+          "url": "https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/",
+          "published": "Fri, 13 Nov 2026 11:31:40 +0000",
+          "published_utc": "2026-11-13T11:31:40+00:00",
+          "summary": "<p>Microsoft has yet to find a fix that holds for the global Microsoft 365 outage, which has now run for more than 10 hours. Servers that engineers bring back online are falling over again as soon as user traffic reaches them. The outage began on November 12, 2026, and continued through November 13. As we [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/\">Microsoft 365 Massive Outage &#8211; Fixes Fail as Restored Servers Keep Going Unresponsive</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172063"
+        },
+        {
+          "title": "Hackers Use Windows Named Pipes and SMB to Spread Malware Across Isolated Government Networks",
+          "url": "https://cybersecuritynews.com/windows-named-pipes-and-smb/",
+          "published": "Fri, 13 Nov 2026 11:30:35 +0000",
+          "published_utc": "2026-11-13T11:30:35+00:00",
+          "summary": "<p>A new espionage group is using Windows named pipes and the SMB file-sharing protocol to move malware through tightly separated networks. Positive Technologies calls the group StingyBasilisk. It has been active since at least April 2022. The attackers sat quietly inside the victim&#8217;s systems for a long time and posed as the organization&#8217;s own security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-named-pipes-and-smb/\">Hackers Use Windows Named Pipes and SMB to Spread Malware Across Isolated Government Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172090"
+        },
+        {
+          "title": "US Freezes $2.7 Billion Stolen by North Korean Hackers in Massive $6 Billion Binance Crypto Heist",
+          "url": "https://cybersecuritynews.com/us-freezes-2-7-billion/",
+          "published": "Fri, 13 Nov 2026 10:56:15 +0000",
+          "published_utc": "2026-11-13T10:56:15+00:00",
+          "summary": "<p>The US government has frozen more than $2.7 billion of the crypto stolen from Binance on or about October 29, 2026. The FBI says North Korea took over $6 billion in that theft. Court orders already allow US officials to seize or hold more than $1.2 billion of the frozen funds. The Justice Department announced [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/us-freezes-2-7-billion/\">US Freezes $2.7 Billion Stolen by North Korean Hackers in Massive $6 Billion Binance Crypto Heist</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172089"
         }
       ],
       "error": ""
@@ -55,8 +103,89 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware",
+          "url": "https://cybersecuritynews.com/break-into-microsoft-sql-servers/",
+          "published": "Fri, 13 Nov 2026 14:54:56 +0000",
+          "published_utc": "2026-11-13T14:54:56+00:00",
+          "summary": "<p>A new campaign is guessing its way into internet-facing Microsoft SQL Server systems. The attackers use a list of more than 2,700 passwords and then install a cryptocurrency miner and a remote access trojan (RAT) on the hacked machines. The campaign has been running since at least early October 2026. Database servers hold valuable data, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-microsoft-sql-servers/\">Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172124"
+        },
+        {
+          "title": "Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations",
+          "url": "https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/",
+          "published": "Fri, 13 Nov 2026 14:18:29 +0000",
+          "published_utc": "2026-11-13T14:18:29+00:00",
+          "summary": "<p>Citrix has released fixes for 28 security flaws in NetScaler ADC and NetScaler Gateway. One of them, CVE-2026-120868, affects every deployment in its default setup. Cloud Software Group published bulletin CTX697305 on November 12, 2026, and rated it Critical. CVE-2026-120868 is a memory overflow in packet processing. It carries a CVSS v4.0 score of 9.3. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/\">Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172095"
+        },
+        {
+          "title": "Hackers Use Fake Purchase Order Emails to Deliver XLoader Malware Through Malicious Word Documents",
+          "url": "https://cybersecuritynews.com/fake-purchase-order-emails/",
+          "published": "Fri, 13 Nov 2026 14:09:51 +0000",
+          "published_utc": "2026-11-13T14:09:51+00:00",
+          "summary": "<p>Hackers are sending fake purchase order emails to trick recipients into opening Word documents that deliver XLoader, an information-stealing malware. The attack uses an embedded document, an old Microsoft Equation Editor vulnerability, and several script stages to reach its final payload. What begins as a routine order confirmation can end with stolen browser data and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-purchase-order-emails/\">Hackers Use Fake Purchase Order Emails to Deliver XLoader Malware Through Malicious Word Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172116"
+        },
+        {
+          "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
+          "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/",
+          "published": "Fri, 13 Nov 2026 13:39:18 +0000",
+          "published_utc": "2026-11-13T13:39:18+00:00",
+          "summary": "<p>A major Microsoft 365 outage disrupted cloud service access on November 12 and continued into November 13, 2026, as Microsoft worked to restore failing infrastructure. Microsoft confirmed that connectivity problems could affect users in any region, expanding the scope beyond its initial investigation into Exchange Online mailbox access in the Americas. The reported impact spans [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/massive-microsoft-365-outage/\">Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172049"
+        },
+        {
+          "title": "Hackers Use DeepSeek and GLM AI Agents to Breach 10 Organizations in Autonomous Cyberattacks",
+          "url": "https://cybersecuritynews.com/deepseek-and-glm-ai-agents/",
+          "published": "Fri, 13 Nov 2026 11:56:24 +0000",
+          "published_utc": "2026-11-13T11:56:24+00:00",
+          "summary": "<p>Chinese-speaking hackers have used AI agents powered by DeepSeek and Zhipu GLM to break into 10 organizations with very little human effort. The campaign ran in August and September 2026 and covered 25 operations against at least 19 targets. It shows how quickly autonomous AI cyberattacks are moving from theory into daily use. The attackers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/deepseek-and-glm-ai-agents/\">Hackers Use DeepSeek and GLM AI Agents to Breach 10 Organizations in Autonomous Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172113"
+        },
+        {
+          "title": "Microsoft 365 Massive Outage – Fixes Fail as Restored Servers Keep Going Unresponsive",
+          "url": "https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/",
+          "published": "Fri, 13 Nov 2026 11:31:40 +0000",
+          "published_utc": "2026-11-13T11:31:40+00:00",
+          "summary": "<p>Microsoft has yet to find a fix that holds for the global Microsoft 365 outage, which has now run for more than 10 hours. Servers that engineers bring back online are falling over again as soon as user traffic reaches them. The outage began on November 12, 2026, and continued through November 13. As we [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-massive-outage-fixes-fail-as-restored-servers-keep-going-unresponsive/\">Microsoft 365 Massive Outage &#8211; Fixes Fail as Restored Servers Keep Going Unresponsive</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172063"
+        },
+        {
+          "title": "Hackers Use Windows Named Pipes and SMB to Spread Malware Across Isolated Government Networks",
+          "url": "https://cybersecuritynews.com/windows-named-pipes-and-smb/",
+          "published": "Fri, 13 Nov 2026 11:30:35 +0000",
+          "published_utc": "2026-11-13T11:30:35+00:00",
+          "summary": "<p>A new espionage group is using Windows named pipes and the SMB file-sharing protocol to move malware through tightly separated networks. Positive Technologies calls the group StingyBasilisk. It has been active since at least April 2022. The attackers sat quietly inside the victim&#8217;s systems for a long time and posed as the organization&#8217;s own security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-named-pipes-and-smb/\">Hackers Use Windows Named Pipes and SMB to Spread Malware Across Isolated Government Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172090"
+        },
+        {
+          "title": "US Freezes $2.7 Billion Stolen by North Korean Hackers in Massive $6 Billion Binance Crypto Heist",
+          "url": "https://cybersecuritynews.com/us-freezes-2-7-billion/",
+          "published": "Fri, 13 Nov 2026 10:56:15 +0000",
+          "published_utc": "2026-11-13T10:56:15+00:00",
+          "summary": "<p>The US government has frozen more than $2.7 billion of the crypto stolen from Binance on or about October 29, 2026. The FBI says North Korea took over $6 billion in that theft. Court orders already allow US officials to seize or hold more than $1.2 billion of the frozen funds. The Justice Department announced [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/us-freezes-2-7-billion/\">US Freezes $2.7 Billion Stolen by North Korean Hackers in Massive $6 Billion Binance Crypto Heist</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172089"
+        },
+        {
+          "title": "Top 10 Best Network Vulnerability Scanners in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-network-vulnerability-scanners/",
+          "published": "Fri, 13 Nov 2026 09:39:00 +0000",
+          "published_utc": "2026-11-13T09:39:00+00:00",
+          "summary": "<p>Network scanning truth is decided before the first packet: engine placement against network segmentation, credential distribution for authenticated depth, and scan windows negotiated with the operations teams whose switches you’re about to poke. One honest count note up front: our source list named ten brands, but two of them Tripwire and Digital Defense both ship [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-network-vulnerability-scanners/\">Top 10 Best Network Vulnerability Scanners in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171793"
+        },
+        {
+          "title": "Top 10 Best Web Application Vulnerability Scanners in 2026 [Ranked & Scored]",
+          "url": "https://cybersecuritynews.com/best-web-app-scanners/",
+          "published": "Fri, 13 Nov 2026 09:34:42 +0000",
+          "published_utc": "2026-11-13T09:34:42+00:00",
+          "summary": "<p>Web application scanning is won or lost at the crawl: single-page apps, authenticated flows, and API backends defeat naive crawlers, and a scanner that exercises 40% of your routes is reporting on a different application than the one you shipped. This countdown ranks ten options on coverage truth, proof quality, and pipeline fit from the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-web-app-scanners/\">Top 10 Best Web Application Vulnerability Scanners in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=171791"
+        }
+      ],
       "error": ""
     }
   }

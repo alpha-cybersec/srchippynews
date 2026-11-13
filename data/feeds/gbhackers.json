@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+          "url": "https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+          "published": "Thu, 12 Nov 2026 14:23:46 +0000",
+          "published_utc": "2026-11-12T14:23:46+00:00",
+          "summary": "<p>San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nDiligence, Inc. today announced the release of Attack the Glass (ATG) research to the general public. The four-year study examines a cybersecurity vulnerability in how applications use [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/\">nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206894"
+        },
+        {
+          "title": "CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability",
+          "url": "https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/",
+          "published": "Thu, 12 Nov 2026 13:32:25 +0000",
+          "published_utc": "2026-11-12T13:32:25+00:00",
+          "summary": "<p>The Cybersecurity and Infrastructure Security Agency has added CVE-2026-124194, an actively exploited Microsoft Outlook spoofing vulnerability, to its Known Exploited Vulnerabilities catalog. Added on November 10, 2026, the entry establishes a November 24 remediation deadline. The warning follows disclosures about Outlook authentication theft involving malicious message files and unsafe external connections. Microsoft Outlook Zero-Day Vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/\">CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206886"
+        },
+        {
+          "title": "ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection",
+          "url": "https://gbhackers.com/cruciferra-malware-attacks/",
+          "published": "Thu, 12 Nov 2026 13:30:15 +0000",
+          "published_utc": "2026-11-12T13:30:15+00:00",
+          "summary": "<p>ESET says it has blocked more than 700,000 compromise attempts linked to Cruciferra since January 2026. Türkiye, Greece and Spain were the most affected countries. A crypter wraps a malicious payload in encryption and obfuscation so security tools cannot recognize it. Cruciferra&#8217;s distinguishing feature is its range of ciphers. Proofpoint documented more than 90 encryption [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cruciferra-malware-attacks/\">ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206871"
+        },
+        {
+          "title": "Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns",
+          "url": "https://gbhackers.com/global-scam-networks/",
+          "published": "Thu, 12 Nov 2026 13:20:07 +0000",
+          "published_utc": "2026-11-12T13:20:07+00:00",
+          "summary": "<p>Global scam networks are using artificial intelligence, deepfakes, and cryptocurrency infrastructure to industrialize fraud, inflicting tens of billions of dollars in annual losses, the Financial Action Task Force warned in a report published November 5, 2026. The report, Combating End-to-End Illicit Financial Flows Linked to Scam Compounds, describes a criminal ecosystem that extends beyond fortified [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/global-scam-networks/\">Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206864"
+        },
+        {
+          "title": "Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication",
+          "url": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/",
+          "published": "Thu, 12 Nov 2026 12:24:27 +0000",
+          "published_utc": "2026-11-12T12:24:27+00:00",
+          "summary": "<p>MongoDB has patched a critical use-after-free flaw, tracked as CVE-2026-118383 with a CVSS score of 9.5, that unauthenticated attackers can exploit over the network. The company found the bug internally and says it knows of no exploitation attempts so far. The advisory warns that the flaw can crash the server or, under certain conditions, allow [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/\">Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206874"
+        },
+        {
+          "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities",
+          "url": "https://gbhackers.com/google-chrome-fixes-83-security-flaws/",
+          "published": "Thu, 12 Nov 2026 12:06:39 +0000",
+          "published_utc": "2026-11-12T12:06:39+00:00",
+          "summary": "<p>Google released a Chrome desktop security update that addresses 83 vulnerabilities, including five critical use-after-free flaws affecting ServiceWorker, CSS, Layout, Skia, and Accessibility. Published November 11, 2026, the release upgrades Windows and macOS installations to versions 157.0.8103.78/.79 and Linux to 157.0.8103.78. Google’s Stable Channel advisory says it will continue distributing updates over the coming days [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-fixes-83-security-flaws/\">Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206867"
+        },
+        {
+          "title": "AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers",
+          "url": "https://gbhackers.com/antifox-ai-agents/",
+          "published": "Thu, 12 Nov 2026 11:47:43 +0000",
+          "published_utc": "2026-11-12T11:47:43+00:00",
+          "summary": "<p>Attackers are using AntiFox, an agentic AI penetration-testing framework derived from ARTEX, to target internet-facing web applications and AWS environments. Reported on November 11, the findings follow Microsoft’s November 5 disclosure of ARTEX-assisted attacks against exposed GitHub credentials. Together, the investigations show how attackers are applying agentic workflows across cloud providers, using compromised identities to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/antifox-ai-agents/\">AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206857"
+        },
+        {
+          "title": "State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems",
+          "url": "https://gbhackers.com/ai-agents-target-taiwan/",
+          "published": "Thu, 12 Nov 2026 11:10:57 +0000",
+          "published_utc": "2026-11-12T11:10:57+00:00",
+          "summary": "<p>A campaign against Taiwanese government entities used up to eight AI agents with limited human intervention. Recorded Future points to research describing the framework behind the attacks. Dream&#8217;s researchers recovered a 1,395-file workspace in July 2026. The framework, built on the Hermes and OpenClaw agents, launched up to eight lettered sub-agents per wave. Across 12 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agents-target-taiwan/\">State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206834"
+        },
+        {
+          "title": "PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score",
+          "url": "https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/",
+          "published": "Thu, 12 Nov 2026 10:53:36 +0000",
+          "published_utc": "2026-11-12T10:53:36+00:00",
+          "summary": "<p>A public proof-of-concept exploit is now available for CVE-2026-76466, a critical flaw in Cisco Expressway that lets an unauthenticated attacker run commands as root. Cisco published its advisory on October 21, 2026, and the flaw carries a CVSS score of 9.8. Researcher Nicolas Krassas (dinosn) posted the exploit and a fleet detector on GitHub. That [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/\">PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206850"
+        },
+        {
+          "title": "Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges",
+          "url": "https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/",
+          "published": "Thu, 12 Nov 2026 10:34:34 +0000",
+          "published_utc": "2026-11-12T10:34:34+00:00",
+          "summary": "<p>Palo Alto Networks has released fixes for CVE-2026-0330, a remote code execution vulnerability affecting PAN-OS software running on Panorama. The flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges, according to the company’s security advisory, published November 11, 2026. The vendor classifies the issue as medium severity with moderate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/\">Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=206846"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

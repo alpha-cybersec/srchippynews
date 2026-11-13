@@ -1,12 +1,40 @@
 {
   "date": "2026-11-13",
-  "article_count": 36,
+  "article_count": 37,
   "sources": {
-    "thehackernews": 8,
+    "thehackernews": 9,
     "cybersecuritynews": 14,
     "gbhackers": 14
   },
   "articles": [
+    {
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "url": "http://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "published": "Fri, 13 Nov 2026 16:53:08 +0000",
+      "published_utc": "2026-11-13T16:53:08+00:00",
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-346016434226560305",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "content_hash": "710413fdced62826dcf4e5e6c43699db465ebfa3a8b525ee9c4a0501d1f1da9f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "710413fdced62826dcf4e5e6c43699db465ebfa3a8b525ee9c4a0501d1f1da9f",
+        "FEEDBURNER": "710413fdced62826dcf4e5e6c43699db465ebfa3a8b525ee9c4a0501d1f1da9f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-13T21:55:21.949401+00:00",
+      "first_seen_local": "2026-11-13T16:55:21.949399-05:00",
+      "last_updated_utc": "2026-11-13T21:55:21.949401+00:00",
+      "last_updated_local": "2026-11-13T16:55:21.949399-05:00"
+    },
     {
       "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
       "url": "http://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",

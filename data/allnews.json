@@ -1,40 +1,235 @@
 {
-  "generated_at_utc": "2026-11-14T02:16:42.118249+00:00",
-  "generated_at_local": "2026-11-13T21:16:42.118256-05:00",
-  "article_count": 1,
-  "new_count": 1,
+  "generated_at_utc": "2026-11-14T09:20:41.217816+00:00",
+  "generated_at_local": "2026-11-14T04:20:41.217824-05:00",
+  "article_count": 8,
+  "new_count": 8,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 1
+    "cybersecuritynews": 1,
+    "gbhackers": 7
   },
   "articles": [
     {
-      "title": "Uber Confirms Data Breach – Hackers Stole Users’ Personal Information",
-      "url": "https://cybersecuritynews.com/uber-confirms-data-breach/",
-      "published": "Sat, 14 Nov 2026 01:19:57 +0000",
-      "published_utc": "2026-11-14T01:19:57+00:00",
-      "summary": "<p>Uber has confirmed a data breach involving the personal information of thousands of U.S. drivers after hackers accessed records held by Fireworks AI, a third-party technology provider. The exposed information includes driver’s license details. Uber is notifying affected people, but it has not disclosed the total number impacted nationwide. The incident became known to Uber [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/uber-confirms-data-breach/\">Uber Confirms Data Breach &#8211; Hackers Stole Users&#8217; Personal Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=172150",
+      "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
+      "url": "https://cybersecuritynews.com/cursor-data-breach/",
+      "published": "Sat, 14 Nov 2026 09:09:31 +0000",
+      "published_utc": "2026-11-14T09:09:31+00:00",
+      "summary": "<p>Cursor has traced its October security breach to an access key exposed by Fireworks AI. The attacker used that key to steal historical coding agent records, find more credentials, and eventually place backdoored Claude Code extensions in Cursor’s marketplace cache. Its November 13 update connects the vendor exposure to the malicious packages discovered on October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cursor-data-breach/\">Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172184",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/uber-confirms-data-breach",
-      "content_hash": "fe288b4e9aa5d6f44caeaeaacb1a3a5c20c5ed55982dab176860554ca615f312",
+      "article_key": "cybersecuritynews.com/cursor-data-breach",
+      "content_hash": "6aa80c538cf923e1b90e94d63accc295c64fc52f992e959afa1f9fde246193a4",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6aa80c538cf923e1b90e94d63accc295c64fc52f992e959afa1f9fde246193a4"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.441437+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.441434-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.441437+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.441434-05:00"
+    },
+    {
+      "title": "BlackNevas Ransomware Attacks VMware ESXi Servers, Destroying Virtual Machines and Backup Infrastructure",
+      "url": "https://gbhackers.com/blacknevas-ransomware-attacks-vmware-esxi-servers/",
+      "published": "Sat, 14 Nov 2026 07:47:10 +0000",
+      "published_utc": "2026-11-14T07:47:10+00:00",
+      "summary": "<p>A newly disclosed intrusion in which the BlackNevas group destroyed an organization&#8217;s entire virtualization estate over 10 days. Kaspersky&#8217;s Global Emergency Response Team (GERT) documented the attackers wiped four ESXi hosts, every virtual machine on them, both vCenter Server Appliances (VCSA) and all connected backup infrastructure. They exploited no hypervisor flaw, guest-to-host escape, or memory [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/blacknevas-ransomware-attacks-vmware-esxi-servers/\">BlackNevas Ransomware Attacks VMware ESXi Servers, Destroying Virtual Machines and Backup Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207227",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/blacknevas-ransomware-attacks-vmware-esxi-servers",
+      "content_hash": "698fcf0ab61a500f9cdbaf24b722e0d4f9b53f8c7d993a93b4b1f553efbbf258",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "fe288b4e9aa5d6f44caeaeaacb1a3a5c20c5ed55982dab176860554ca615f312",
-        "FEEDBURNER": "fe288b4e9aa5d6f44caeaeaacb1a3a5c20c5ed55982dab176860554ca615f312"
+        "ORIGINAL": "698fcf0ab61a500f9cdbaf24b722e0d4f9b53f8c7d993a93b4b1f553efbbf258",
+        "FEEDBURNER": "698fcf0ab61a500f9cdbaf24b722e0d4f9b53f8c7d993a93b4b1f553efbbf258"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-14T02:16:36.091385+00:00",
-      "first_seen_local": "2026-11-13T21:16:36.091382-05:00",
-      "last_updated_utc": "2026-11-14T02:16:36.091385+00:00",
-      "last_updated_local": "2026-11-13T21:16:36.091382-05:00"
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Check Point Zero-Day Vulnerability Allowing Attackers to Gain Root Access",
+      "url": "https://gbhackers.com/cisa-check-point-zero-day-vulnerability/",
+      "published": "Sat, 14 Nov 2026 07:27:07 +0000",
+      "published_utc": "2026-11-14T07:27:07+00:00",
+      "summary": "<p>CISA has reportedly added CVE-2026-123039, a Check Point Gaia OS permission flaw, to its Known Exploited Vulnerabilities catalog following active exploitation. The entry supplied for this report lists November 13, 2026, as the addition date and November 16 as the remediation deadline. Check Point exploitation reporting nevertheless identifies compromised customers and a practical route from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-check-point-zero-day-vulnerability/\">CISA Warns of Actively Exploited Check Point Zero-Day Vulnerability Allowing Attackers to Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207221",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-check-point-zero-day-vulnerability",
+      "content_hash": "e6743b246db51e99228bd7d7bd849a2b492fb86bc02e86bc4ddc62cf8a36b3a2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e6743b246db51e99228bd7d7bd849a2b492fb86bc02e86bc4ddc62cf8a36b3a2",
+        "FEEDBURNER": "e6743b246db51e99228bd7d7bd849a2b492fb86bc02e86bc4ddc62cf8a36b3a2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
+    },
+    {
+      "title": "Hackers Use Stolen LLM API Keys to Power ARTEX AI Agents and Continue Credential Theft",
+      "url": "https://gbhackers.com/hackers-llm-api-keys-artex-ai-agents/",
+      "published": "Sat, 14 Nov 2026 07:19:13 +0000",
+      "published_utc": "2026-11-14T07:19:13+00:00",
+      "summary": "<p>Chinese-nexus threat actors used ARTEX, an open-source agentic penetration-testing framework, to steal large language model API credentials and feed them back into infrastructure powering further attacks. Amazon Threat Intelligence uncovered the financially motivated campaigns after its MadPot decoy network captured requests containing the agents’ operational memory between October 3 and November 5, 2026. Sensors impersonating [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-llm-api-keys-artex-ai-agents/\">Hackers Use Stolen LLM API Keys to Power ARTEX AI Agents and Continue Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207218",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-llm-api-keys-artex-ai-agents",
+      "content_hash": "62cf75f280ce6bcf9b3fe963e3b2c58a0c856288f97c4d934b62c7e83e5bd7fe",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "62cf75f280ce6bcf9b3fe963e3b2c58a0c856288f97c4d934b62c7e83e5bd7fe",
+        "FEEDBURNER": "62cf75f280ce6bcf9b3fe963e3b2c58a0c856288f97c4d934b62c7e83e5bd7fe"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
+    },
+    {
+      "title": "FBI Warns Hackers Are Weaponizing ARTEX AI Framework to Launch Autonomous Cyberattacks Worldwide",
+      "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/",
+      "published": "Sat, 14 Nov 2026 07:07:54 +0000",
+      "published_utc": "2026-11-14T07:07:54+00:00",
+      "summary": "<p>The FBI has issued FLASH-20261113-001, warning that hackers are weaponizing ARTEX, an autonomous penetration testing framework, to accelerate cyberattacks worldwide. Published November 13, the advisory describes operations observed since August 2026, spanning reconnaissance, exploitation, privilege escalation, and data exfiltration. Some intrusions progressed from initial targeting to privileged access in under three hours. Victims span financial [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-warns-artex-ai-framework/\">FBI Warns Hackers Are Weaponizing ARTEX AI Framework to Launch Autonomous Cyberattacks Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207216",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fbi-warns-artex-ai-framework",
+      "content_hash": "502f0e7ffd473893b643a6f16d57cbc01165f8427d65823b28eed87b1f0998b1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "502f0e7ffd473893b643a6f16d57cbc01165f8427d65823b28eed87b1f0998b1",
+        "FEEDBURNER": "502f0e7ffd473893b643a6f16d57cbc01165f8427d65823b28eed87b1f0998b1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
+    },
+    {
+      "title": "Hackers Use Falcon C2 Framework to Hijack Browsers and Steal Credentials From Government Agencies",
+      "url": "https://gbhackers.com/hackers-use-falcon-c2-framework/",
+      "published": "Sat, 14 Nov 2026 06:54:02 +0000",
+      "published_utc": "2026-11-14T06:54:02+00:00",
+      "summary": "<p>Hackers deployed Falcon, a Node.js command-and-control framework tracked as XG or Xiàng Gē, against government entities in one Middle Eastern country and four Southeast Asian countries between March and May 2026. Unit 42 identified targets spanning foreign affairs, defense, interior, and law enforcement organizations, indicating strategic intelligence collection. The framework executes malicious JavaScript inside compromised [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-falcon-c2-framework/\">Hackers Use Falcon C2 Framework to Hijack Browsers and Steal Credentials From Government Agencies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207213",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-use-falcon-c2-framework",
+      "content_hash": "bad222b0d863c1af20cf8d46c9eccf398540170755ca16b96e86c16abef980e2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bad222b0d863c1af20cf8d46c9eccf398540170755ca16b96e86c16abef980e2",
+        "FEEDBURNER": "bad222b0d863c1af20cf8d46c9eccf398540170755ca16b96e86c16abef980e2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
+    },
+    {
+      "title": "Japan Hit by Record Cyberattack Surge as Hackers Use AI to Exploit Security Vulnerabilities",
+      "url": "https://gbhackers.com/japan-cyberattack-ai-security-vulnerabilities/",
+      "published": "Sat, 14 Nov 2026 06:48:05 +0000",
+      "published_utc": "2026-11-14T06:48:05+00:00",
+      "summary": "<p>Japan recorded 233 publicly disclosed security incidents in October 2026, approximately 2.4 times its previous monthly peak, as researchers uncovered AI-assisted exploitation targeting application backends. MM Research Institute estimated that incidents disclosed during October exposed or potentially exposed 185 million personal information records, nearly four times the total reported throughout 2025. Thirty incidents involved at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/japan-cyberattack-ai-security-vulnerabilities/\">Japan Hit by Record Cyberattack Surge as Hackers Use AI to Exploit Security Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207210",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/japan-cyberattack-ai-security-vulnerabilities",
+      "content_hash": "d4bd4753ade7ee367355833831c0dc4e0a7b0ff4051ac841fa620fb0a1fe9357",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d4bd4753ade7ee367355833831c0dc4e0a7b0ff4051ac841fa620fb0a1fe9357",
+        "FEEDBURNER": "d4bd4753ade7ee367355833831c0dc4e0a7b0ff4051ac841fa620fb0a1fe9357"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
+    },
+    {
+      "title": "Uber Hacked – Hackers Steal Drivers’ License Personal Data",
+      "url": "https://gbhackers.com/uber-hacked-hackers-steal-drivers-license-personal-data/",
+      "published": "Sat, 14 Nov 2026 05:47:51 +0000",
+      "published_utc": "2026-11-14T05:47:51+00:00",
+      "summary": "<p>Thousands of Uber drivers in the United States are being told that their personal and driver&#8217;s license information was stolen. The data was taken in an October breach at Fireworks AI, a third-party technology provider that held Uber records. Uber disclosed the incident in breach notices filed with several state attorneys general, including California. According [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uber-hacked-hackers-steal-drivers-license-personal-data/\">Uber Hacked &#8211; Hackers Steal Drivers&#8217; License Personal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207201",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/uber-hacked-hackers-steal-drivers-license-personal-data",
+      "content_hash": "c8b179e90628f73533fea2489201f8ddf424c405bd548e96154d97a919d4e39d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c8b179e90628f73533fea2489201f8ddf424c405bd548e96154d97a919d4e39d",
+        "FEEDBURNER": "c8b179e90628f73533fea2489201f8ddf424c405bd548e96154d97a919d4e39d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-14T09:20:36.036292+00:00",
+      "first_seen_local": "2026-11-14T04:20:36.036288-05:00",
+      "last_updated_utc": "2026-11-14T09:20:36.036292+00:00",
+      "last_updated_local": "2026-11-14T04:20:36.036288-05:00"
     }
   ]
 }

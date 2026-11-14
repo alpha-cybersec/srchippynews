@@ -1,40 +1,40 @@
 {
-  "generated_at_utc": "2026-11-13T21:55:21.959277+00:00",
-  "generated_at_local": "2026-11-13T16:55:21.959286-05:00",
+  "generated_at_utc": "2026-11-14T02:16:42.118249+00:00",
+  "generated_at_local": "2026-11-13T21:16:42.118256-05:00",
   "article_count": 1,
   "new_count": 1,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1
+    "cybersecuritynews": 1
   },
   "articles": [
     {
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "url": "http://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "published": "Fri, 13 Nov 2026 16:53:08 +0000",
-      "published_utc": "2026-11-13T16:53:08+00:00",
-      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-346016434226560305",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "content_hash": "710413fdced62826dcf4e5e6c43699db465ebfa3a8b525ee9c4a0501d1f1da9f",
+      "title": "Uber Confirms Data Breach – Hackers Stole Users’ Personal Information",
+      "url": "https://cybersecuritynews.com/uber-confirms-data-breach/",
+      "published": "Sat, 14 Nov 2026 01:19:57 +0000",
+      "published_utc": "2026-11-14T01:19:57+00:00",
+      "summary": "<p>Uber has confirmed a data breach involving the personal information of thousands of U.S. drivers after hackers accessed records held by Fireworks AI, a third-party technology provider. The exposed information includes driver’s license details. Uber is notifying affected people, but it has not disclosed the total number impacted nationwide. The incident became known to Uber [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/uber-confirms-data-breach/\">Uber Confirms Data Breach &#8211; Hackers Stole Users&#8217; Personal Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172150",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/uber-confirms-data-breach",
+      "content_hash": "fe288b4e9aa5d6f44caeaeaacb1a3a5c20c5ed55982dab176860554ca615f312",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "710413fdced62826dcf4e5e6c43699db465ebfa3a8b525ee9c4a0501d1f1da9f",
-        "FEEDBURNER": "710413fdced62826dcf4e5e6c43699db465ebfa3a8b525ee9c4a0501d1f1da9f"
+        "ORIGINAL": "fe288b4e9aa5d6f44caeaeaacb1a3a5c20c5ed55982dab176860554ca615f312",
+        "FEEDBURNER": "fe288b4e9aa5d6f44caeaeaacb1a3a5c20c5ed55982dab176860554ca615f312"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-13T21:55:21.949401+00:00",
-      "first_seen_local": "2026-11-13T16:55:21.949399-05:00",
-      "last_updated_utc": "2026-11-13T21:55:21.949401+00:00",
-      "last_updated_local": "2026-11-13T16:55:21.949399-05:00"
+      "first_seen_utc": "2026-11-14T02:16:36.091385+00:00",
+      "first_seen_local": "2026-11-13T21:16:36.091382-05:00",
+      "last_updated_utc": "2026-11-14T02:16:36.091385+00:00",
+      "last_updated_local": "2026-11-13T21:16:36.091382-05:00"
     }
   ]
 }

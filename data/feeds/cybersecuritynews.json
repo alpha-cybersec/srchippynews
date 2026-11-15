@@ -5,14 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
+      "status": "FAILED",
+      "http_status": null,
+      "final_url": "",
+      "content_type": "",
+      "feed_title": "",
       "article_count": 0,
       "articles": [],
-      "error": ""
+      "error": "Error conexión: HTTPSConnectionPool(host='cybersecuritynews.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='cybersecuritynews.com', port=443) at 0x7e1f35da1950>, 'Connection to cybersecuritynews.com timed out. (connect timeout=30)'))"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",

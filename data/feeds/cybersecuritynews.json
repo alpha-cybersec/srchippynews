@@ -6,13 +6,13 @@
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
       "status": "FAILED",
-      "http_status": null,
-      "final_url": "",
-      "content_type": "",
+      "http_status": 202,
+      "final_url": "https://cybersecuritynews.com/feed/",
+      "content_type": "text/html",
       "feed_title": "",
       "article_count": 0,
       "articles": [],
-      "error": "Error conexión: HTTPSConnectionPool(host='cybersecuritynews.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='cybersecuritynews.com', port=443) at 0x7e1f35da1950>, 'Connection to cybersecuritynews.com timed out. (connect timeout=30)'))"
+      "error": "HTTP 202"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,8 +22,17 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems",
+          "url": "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/",
+          "published": "Sun, 15 Nov 2026 15:23:22 +0000",
+          "published_utc": "2026-11-15T15:23:22+00:00",
+          "summary": "<p>Six pre-authentication remote code execution flaws were found in the Danfoss AK-SM800A supermarket fridge controller, allowing remote takeover in about an hour, according to Midnight Blue researcher Carlo Meijer. The flaws are stack-based buffer overflows. They affect every firmware version up to and including 5.3.2, and no CVE numbers have been assigned yet. Since October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/\">Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172101"
+        }
+      ],
       "error": ""
     }
   }

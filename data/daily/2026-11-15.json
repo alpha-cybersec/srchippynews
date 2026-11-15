@@ -1,10 +1,37 @@
 {
   "date": "2026-11-15",
-  "article_count": 2,
+  "article_count": 3,
   "sources": {
+    "cybersecuritynews": 1,
     "thehackernews": 2
   },
   "articles": [
+    {
+      "title": "Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems",
+      "url": "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/",
+      "published": "Sun, 15 Nov 2026 15:23:22 +0000",
+      "published_utc": "2026-11-15T15:23:22+00:00",
+      "summary": "<p>Six pre-authentication remote code execution flaws were found in the Danfoss AK-SM800A supermarket fridge controller, allowing remote takeover in about an hour, according to Midnight Blue researcher Carlo Meijer. The flaws are stack-based buffer overflows. They affect every firmware version up to and including 5.3.2, and no CVE numbers have been assigned yet. Since October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/\">Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172101",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/supermarket-refrigeration-systems-0-day",
+      "content_hash": "8ab37d62dd4376244048fafcca12b0b7146d908c0cf247cac7ebc5f769c1e64a",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "8ab37d62dd4376244048fafcca12b0b7146d908c0cf247cac7ebc5f769c1e64a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-15T20:32:34.163822+00:00",
+      "first_seen_local": "2026-11-15T15:32:34.163819-05:00",
+      "last_updated_utc": "2026-11-15T20:32:34.163822+00:00",
+      "last_updated_local": "2026-11-15T15:32:34.163819-05:00"
+    },
     {
       "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
       "url": "http://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",

@@ -1,12 +1,836 @@
 {
   "date": "2026-11-16",
-  "article_count": 14,
+  "article_count": 44,
   "sources": {
-    "gbhackers": 9,
-    "cybersecuritynews": 4,
-    "thehackernews": 1
+    "cybersecuritynews": 18,
+    "gbhackers": 19,
+    "thehackernews": 7
   },
   "articles": [
+    {
+      "title": "Researchers Reveal How Claude Code VS Code Extension Can Access Files Outside Trusted Workspaces",
+      "url": "https://cybersecuritynews.com/claude-code-vs-code-extension/",
+      "published": "Mon, 16 Nov 2026 16:51:53 +0000",
+      "published_utc": "2026-11-16T16:51:53+00:00",
+      "summary": "<p>Security researchers have found that the Claude Code extension for Visual Studio Code can show a permission prompt that hides where a file really sits. A user may approve access to a path that looks safe, while the file lives outside the trusted workspace. Anthropic reviewed the report and does not treat it as a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-vs-code-extension/\">Researchers Reveal How Claude Code VS Code Extension Can Access Files Outside Trusted Workspaces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172333",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-code-vs-code-extension",
+      "content_hash": "394125b054672c02f76f7b9f71949cca4a83b4ecd43c6112da127f0dc6acf436",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "394125b054672c02f76f7b9f71949cca4a83b4ecd43c6112da127f0dc6acf436"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Hackers Use AI-Powered Marketplace to Find Infected Computers With Corporate VPN and Cloud Access",
+      "url": "https://cybersecuritynews.com/hackers-use-ai-powered-marketplace/",
+      "published": "Mon, 16 Nov 2026 16:41:44 +0000",
+      "published_utc": "2026-11-16T16:41:44+00:00",
+      "summary": "<p>A new underground marketplace is making stolen computer data much easier to search. It adds a short written profile to each infected computer, so buyers can look for the exact kind of victim they want. They no longer have to dig through raw files. The service was advertised on a cybercrime forum on November 14, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-powered-marketplace/\">Hackers Use AI-Powered Marketplace to Find Infected Computers With Corporate VPN and Cloud Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172322",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-ai-powered-marketplace",
+      "content_hash": "1255cdb5006a3e983c7fd45ec1b346e99d3648c4fc09973886ed7c77406c517d",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1255cdb5006a3e983c7fd45ec1b346e99d3648c4fc09973886ed7c77406c517d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems",
+      "url": "https://cybersecuritynews.com/retadup-usb-worm-returns/",
+      "published": "Mon, 16 Nov 2026 16:11:47 +0000",
+      "published_utc": "2026-11-16T16:11:47+00:00",
+      "summary": "<p>The Retadup USB worm is again being used to deliver malware to Windows systems, seven years after French authorities dismantled its botnet. The latest findings connect the worm to CoffeeLoader, a malware loader that uses graphics hardware during decryption and can download and run additional payloads on infected computers. The timeline needs an important distinction: [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/retadup-usb-worm-returns/\">Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172310",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/retadup-usb-worm-returns",
+      "content_hash": "d654964d4428c015c055fd35a6adadf0a7d41d0e9fd5130e8e5fd6685ed695b2",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d654964d4428c015c055fd35a6adadf0a7d41d0e9fd5130e8e5fd6685ed695b2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Apple Reveals How Secure Exclaves Prevent Hidden Camera and Microphone Access on iPhones",
+      "url": "https://cybersecuritynews.com/apple-reveals-secure-exclaves/",
+      "published": "Mon, 16 Nov 2026 16:04:06 +0000",
+      "published_utc": "2026-11-16T16:04:06+00:00",
+      "summary": "<p>Apple has detailed how Secure Exclaves protect camera and microphone data, aiming to stop attackers from secretly collecting sensitive recordings even if they compromise the main operating system. The architecture combines hardware isolation, strict data-sharing rules, and protected privacy indicators to separate background sensing from active recording. According to the supplied technical description, Apple uses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-reveals-secure-exclaves/\">Apple Reveals How Secure Exclaves Prevent Hidden Camera and Microphone Access on iPhones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172282",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apple-reveals-secure-exclaves",
+      "content_hash": "25e245485583c5fa55d3e59dbc7ef808fb97d894cfe2ba46ba9703b26b89af22",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "25e245485583c5fa55d3e59dbc7ef808fb97d894cfe2ba46ba9703b26b89af22"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Cisco Talos Reveals How Hackers Use ARTEX, PentAGI, and HexStrike AI to Automate Cyberattacks",
+      "url": "https://cybersecuritynews.com/hackers-use-artex/",
+      "published": "Mon, 16 Nov 2026 15:48:20 +0000",
+      "published_utc": "2026-11-16T15:48:20+00:00",
+      "summary": "<p>AI-powered penetration testing tools are helping hackers automate reconnaissance, vulnerability testing, and follow-on attacks with less hands-on work. Cisco Talos warns that these platforms can connect familiar security utilities with AI agents, allowing operators to pursue targets faster and run several tasks at once. The danger comes from how legitimate testing capabilities are being used [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-artex/\">Cisco Talos Reveals How Hackers Use ARTEX, PentAGI, and HexStrike AI to Automate Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172306",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-artex",
+      "content_hash": "924fdb4993f02d5a0bff37d0ddbae10f5a71c5d9d381b94a54ecb7adc0b9a50e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "924fdb4993f02d5a0bff37d0ddbae10f5a71c5d9d381b94a54ecb7adc0b9a50e",
+        "FEEDBURNER": "924fdb4993f02d5a0bff37d0ddbae10f5a71c5d9d381b94a54ecb7adc0b9a50e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Google Reveals How Hackers Are Using AI Agents to Automate Real-World Cyberattacks",
+      "url": "https://cybersecuritynews.com/fully-automated-ai-attacks/",
+      "published": "Mon, 16 Nov 2026 15:36:55 +0000",
+      "published_utc": "2026-11-16T15:36:55+00:00",
+      "summary": "<p>Hackers are no longer just asking AI chatbots for help. They now run AI agents that can scan, break in, and move through networks with very little human input. In its latest AI Threat Tracker, published on November 16, 2026, the Google Threat Intelligence Group (GTIG) and Mandiant said AI misuse has reached a &#8220;critical [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fully-automated-ai-attacks/\">Google Reveals How Hackers Are Using AI Agents to Automate Real-World Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172298",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fully-automated-ai-attacks",
+      "content_hash": "242ef39726ac580c305c63f101291707e4e850e3181306bb2794e9471ffb3a81",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "242ef39726ac580c305c63f101291707e4e850e3181306bb2794e9471ffb3a81",
+        "FEEDBURNER": "242ef39726ac580c305c63f101291707e4e850e3181306bb2794e9471ffb3a81"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Mustang Panda-Linked Hackers Deploy LOTUSLITE V2 Through Malicious Zoho WorkDrive Downloads",
+      "url": "https://cybersecuritynews.com/mustang-panda-linked-hackers/",
+      "published": "Mon, 16 Nov 2026 14:48:31 +0000",
+      "published_utc": "2026-11-16T14:48:31+00:00",
+      "summary": "<p>Hackers linked to Mustang Panda are distributing LOTUSLITE V2 through public Zoho WorkDrive downloads, using an Indo-Pacific assessment lure to draw victims into running malware. The campaign, focused on Thailand, combines a trusted PDFgear executable, malicious DLL loading, registry persistence, and encrypted command-and-control communications to establish access to Windows systems. The operation shows how attackers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mustang-panda-linked-hackers/\">Mustang Panda-Linked Hackers Deploy LOTUSLITE V2 Through Malicious Zoho WorkDrive Downloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172276",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/mustang-panda-linked-hackers",
+      "content_hash": "14c211c12350526d146a04d65b217f04a09d255bd0d16ce00dc38938c29a48b5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "14c211c12350526d146a04d65b217f04a09d255bd0d16ce00dc38938c29a48b5",
+        "FEEDBURNER": "14c211c12350526d146a04d65b217f04a09d255bd0d16ce00dc38938c29a48b5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams",
+      "url": "https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/",
+      "published": "Mon, 16 Nov 2026 14:38:24 +0000",
+      "published_utc": "2026-11-16T14:38:24+00:00",
+      "summary": "<p>New York, USA, November 16th, 2026, CyberNewswire AI attribution has linked more than 3,913 high-impact leaks to 1,532 companies since spring; security experts handle critical disclosures to enterprise security teams. GitGuardian, the secrets security platform, today announced the Enterprise Good Samaritan Program, an expansion of its longstanding responsible disclosure efforts aimed at strengthening security across [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/\">Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172294",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams",
+      "content_hash": "320ea96b4489e4bdf3579056c4600837a3e07bb7f77bc4d4b9bdd82d353edd68",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "320ea96b4489e4bdf3579056c4600837a3e07bb7f77bc4d4b9bdd82d353edd68",
+        "FEEDBURNER": "320ea96b4489e4bdf3579056c4600837a3e07bb7f77bc4d4b9bdd82d353edd68"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams",
+      "url": "https://gbhackers.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/",
+      "published": "Mon, 16 Nov 2026 14:38:03 +0000",
+      "published_utc": "2026-11-16T14:38:03+00:00",
+      "summary": "<p>New York, USA, November 16th, 2026, CyberNewswire AI attribution has linked more than 3,913 high-impact leaks to 1,532 companies since spring; security experts handle critical disclosures to enterprise security teams. GitGuardian, the secrets security platform, today announced the Enterprise Good Samaritan Program, an expansion of its longstanding responsible disclosure efforts aimed at strengthening security across [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/\">Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207528",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams",
+      "content_hash": "bea86f5d9c1137f0c77f2b8c1d9b164fc22cec2f66e2b3c83529ed0528b024d8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bea86f5d9c1137f0c77f2b8c1d9b164fc22cec2f66e2b3c83529ed0528b024d8",
+        "FEEDBURNER": "bea86f5d9c1137f0c77f2b8c1d9b164fc22cec2f66e2b3c83529ed0528b024d8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "http://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "published": "Mon, 16 Nov 2026 14:00:00 +0000",
+      "published_utc": "2026-11-16T14:00:00+00:00",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity.\n\nIn tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4182851692306079564",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "content_hash": "94428ad591ad2ea67c472d4d894db332324d4761662187fae09bc0bd804d7a61",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "94428ad591ad2ea67c472d4d894db332324d4761662187fae09bc0bd804d7a61",
+        "FEEDBURNER": "94428ad591ad2ea67c472d4d894db332324d4761662187fae09bc0bd804d7a61"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:54.025069+00:00",
+      "first_seen_local": "2026-11-16T12:22:54.025066-05:00",
+      "last_updated_utc": "2026-11-16T17:22:54.025069+00:00",
+      "last_updated_local": "2026-11-16T12:22:54.025066-05:00"
+    },
+    {
+      "title": "Microsoft Reveals Windows Bug That Crashed Over 80% of Servers During Global Microsoft 365 Outage",
+      "url": "https://gbhackers.com/microsoft-reveals-windows-bug-that-crashed-over-80-of-servers/",
+      "published": "Mon, 16 Nov 2026 13:53:16 +0000",
+      "published_utc": "2026-11-16T13:53:16+00:00",
+      "summary": "<p>Microsoft has attributed the global Microsoft 365 disruption on November 12–13, 2026, to a latent Windows defect that rendered more than 80% of its affected networking gateway servers unresponsive. Its preliminary incident report, dated November 15, describes how lock contention, redistributed traffic, and reduced capacity combined to trigger a cascading infrastructure failure. The Microsoft 365 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-reveals-windows-bug-that-crashed-over-80-of-servers/\">Microsoft Reveals Windows Bug That Crashed Over 80% of Servers During Global Microsoft 365 Outage</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207526",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-reveals-windows-bug-that-crashed-over-80-of-servers",
+      "content_hash": "c1bd147706da2979f5ed987412342b0181ca44daa389b70fc520ed5ed5746db8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c1bd147706da2979f5ed987412342b0181ca44daa389b70fc520ed5ed5746db8",
+        "FEEDBURNER": "c1bd147706da2979f5ed987412342b0181ca44daa389b70fc520ed5ed5746db8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors",
+      "url": "https://cybersecuritynews.com/microsoft-windows-licensing-error/",
+      "published": "Mon, 16 Nov 2026 13:36:54 +0000",
+      "published_utc": "2026-11-16T13:36:54+00:00",
+      "summary": "<p>Microsoft released an out-of-band Windows update on November 13, 2026, to fix licensing and activation errors affecting a limited number of enterprise devices. The issue appeared after the November 2026 Windows security update and mainly affects organizations that use scripts or automated tools to manage Windows licenses. Affected operations may fail with error 0x80041008, shown [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-windows-licensing-error/\">Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172272",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-windows-licensing-error",
+      "content_hash": "4c9f699149845eefdbcd98f653edda46f800b7620ba7c1ed6a54b181d5a62cf2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4c9f699149845eefdbcd98f653edda46f800b7620ba7c1ed6a54b181d5a62cf2",
+        "FEEDBURNER": "4c9f699149845eefdbcd98f653edda46f800b7620ba7c1ed6a54b181d5a62cf2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "url": "http://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "published": "Mon, 16 Nov 2026 13:27:20 +0000",
+      "published_utc": "2026-11-16T13:27:20+00:00",
+      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job.\n\nMeanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4792449456940946135",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "content_hash": "74b90a950be4e8e9e4ac1cfc35e119ddfdb867e712221da17f18429e1657b051",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "74b90a950be4e8e9e4ac1cfc35e119ddfdb867e712221da17f18429e1657b051",
+        "FEEDBURNER": "74b90a950be4e8e9e4ac1cfc35e119ddfdb867e712221da17f18429e1657b051"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:54.025069+00:00",
+      "first_seen_local": "2026-11-16T12:22:54.025066-05:00",
+      "last_updated_utc": "2026-11-16T17:22:54.025069+00:00",
+      "last_updated_local": "2026-11-16T12:22:54.025066-05:00"
+    },
+    {
+      "title": "New OWASP Top 10 Exposes Hidden Security Weaknesses in Neocloud and AI Infrastructure",
+      "url": "https://cybersecuritynews.com/owasp-top-10-incubator/",
+      "published": "Mon, 16 Nov 2026 13:18:50 +0000",
+      "published_utc": "2026-11-16T13:18:50+00:00",
+      "summary": "<p>A new OWASP Incubator Project highlights an overlooked AI security gap: the servers, networks, and data centers supporting AI systems receive far less attention than models, apps, and agents. The OWASP Top 10 Neocloud and AI Data Center Security Risks tries to fix that. It gives neocloud providers, their customers, and AI data center operators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/owasp-top-10-incubator/\">New OWASP Top 10 Exposes Hidden Security Weaknesses in Neocloud and AI Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172262",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/owasp-top-10-incubator",
+      "content_hash": "c4ff4911ab6d3c24061b14661a9f1f087119a939c5ce1753c5810a22dab6642b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c4ff4911ab6d3c24061b14661a9f1f087119a939c5ce1753c5810a22dab6642b",
+        "FEEDBURNER": "c4ff4911ab6d3c24061b14661a9f1f087119a939c5ce1753c5810a22dab6642b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Claude Code Extension Could Let AI Agents Access Files Outside Trusted Workspaces Through Symlinks",
+      "url": "https://gbhackers.com/claude-code-extension/",
+      "published": "Mon, 16 Nov 2026 12:58:24 +0000",
+      "published_utc": "2026-11-16T12:58:24+00:00",
+      "summary": "<p>Anthropic&#8217;s Claude Code extension for Visual Studio Code reportedly shows misleading file paths in its permission prompts. A researcher says this can lead users to approve file access outside their trusted workspace. Anthropic closed the report as informative and did not treat it as a vulnerability. The researcher disagrees and says the issue is unpatched [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-code-extension/\">Claude Code Extension Could Let AI Agents Access Files Outside Trusted Workspaces Through Symlinks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207518",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/claude-code-extension",
+      "content_hash": "f824aec6192082e0dd74ea24ef0ec0cd245ed1f74aaf93d8595b0af482c9f9f3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f824aec6192082e0dd74ea24ef0ec0cd245ed1f74aaf93d8595b0af482c9f9f3",
+        "FEEDBURNER": "f824aec6192082e0dd74ea24ef0ec0cd245ed1f74aaf93d8595b0af482c9f9f3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Australia’s Supermarket Chain Coles Investigates Cyber Security Incident",
+      "url": "https://cybersecuritynews.com/coles-investigates-cyber-security-incident/",
+      "published": "Mon, 16 Nov 2026 12:54:05 +0000",
+      "published_utc": "2026-11-16T12:54:05+00:00",
+      "summary": "<p>Australian supermarket chain Coles is investigating a cybersecurity incident, with outside experts helping secure its systems. The retailer disclosed the incident on November 16, 2026, and said stores and online shopping remain open. Investigators have found no evidence that customer, employee or supplier data has been compromised or removed. Coles is working with the Australian [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coles-investigates-cyber-security-incident/\">Australia&#8217;s Supermarket Chain Coles Investigates Cyber Security Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172283",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/coles-investigates-cyber-security-incident",
+      "content_hash": "299b50a752482e92b40921510b113a3392ddc4d24481e8357c078fe76da0f0ea",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "299b50a752482e92b40921510b113a3392ddc4d24481e8357c078fe76da0f0ea"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Apple Unveils Secure Exclaves to Protect Camera and Microphone Data From Kernel-Level Attacks",
+      "url": "https://gbhackers.com/apple-unveils-secure-exclaves-to-protect-camera/",
+      "published": "Mon, 16 Nov 2026 12:49:33 +0000",
+      "published_utc": "2026-11-16T12:49:33+00:00",
+      "summary": "<p>Apple has detailed Secure Exclaves, a hardware-backed security architecture designed to protect camera and microphone processing even when attackers compromise the operating system kernel. Developed by its Security Engineering and Architecture and Core Operating Systems teams, the architecture separates sensitive ambient sensing workloads from applications, system services, and the main operating system. The objective is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-unveils-secure-exclaves-to-protect-camera/\">Apple Unveils Secure Exclaves to Protect Camera and Microphone Data From Kernel-Level Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207516",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apple-unveils-secure-exclaves-to-protect-camera",
+      "content_hash": "fcc47ea7221bb61bdddc5f55b2e11489a8e2b0458aeafffb937bac8d29b5db8a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fcc47ea7221bb61bdddc5f55b2e11489a8e2b0458aeafffb937bac8d29b5db8a",
+        "FEEDBURNER": "fcc47ea7221bb61bdddc5f55b2e11489a8e2b0458aeafffb937bac8d29b5db8a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "url": "http://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "published": "Mon, 16 Nov 2026 12:34:21 +0000",
+      "published_utc": "2026-11-16T12:34:21+00:00",
+      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4075714673811198193",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "content_hash": "938249a537206e6a3c09f7ec0e9daaf07d353186d96bfa0eb83c9ae95d181de4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "938249a537206e6a3c09f7ec0e9daaf07d353186d96bfa0eb83c9ae95d181de4",
+        "FEEDBURNER": "938249a537206e6a3c09f7ec0e9daaf07d353186d96bfa0eb83c9ae95d181de4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:54.025069+00:00",
+      "first_seen_local": "2026-11-16T12:22:54.025066-05:00",
+      "last_updated_utc": "2026-11-16T17:22:54.025069+00:00",
+      "last_updated_local": "2026-11-16T12:22:54.025066-05:00"
+    },
+    {
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "url": "http://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "published": "Mon, 16 Nov 2026 12:33:18 +0000",
+      "published_utc": "2026-11-16T12:33:18+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1921597292554805582",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "content_hash": "0904faa7692ca7a52c999526ec713e01ff635bc7d824bb933d00788c0447d654",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0904faa7692ca7a52c999526ec713e01ff635bc7d824bb933d00788c0447d654",
+        "FEEDBURNER": "0904faa7692ca7a52c999526ec713e01ff635bc7d824bb933d00788c0447d654"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:54.025069+00:00",
+      "first_seen_local": "2026-11-16T12:22:54.025066-05:00",
+      "last_updated_utc": "2026-11-16T17:22:54.025069+00:00",
+      "last_updated_local": "2026-11-16T12:22:54.025066-05:00"
+    },
+    {
+      "title": "macOS 27 Siri Stores Conversations in SQLite Database, Raising Privacy Concerns",
+      "url": "https://gbhackers.com/macos-27-siri-stores-conversations-in-sqlite-database/",
+      "published": "Mon, 16 Nov 2026 12:25:51 +0000",
+      "published_utc": "2026-11-16T12:25:51+00:00",
+      "summary": "<p>Apple’s new Siri app in macOS 27 retains conversations in a locally accessible SQLite database, creating a forensic record of interactions users might otherwise consider temporary. Researcher Yogesh Khatri documented the behavior in a November 15 forensic analysis, reporting that his system’s default conversation retention setting was “Forever.” Other available options were 30 days and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/macos-27-siri-stores-conversations-in-sqlite-database/\">macOS 27 Siri Stores Conversations in SQLite Database, Raising Privacy Concerns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207507",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/macos-27-siri-stores-conversations-in-sqlite-database",
+      "content_hash": "79014dc4cafe719b26e48f6ff68331bb18ae05d39bb682f4e6e73ff80aa3dfba",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "79014dc4cafe719b26e48f6ff68331bb18ae05d39bb682f4e6e73ff80aa3dfba",
+        "FEEDBURNER": "79014dc4cafe719b26e48f6ff68331bb18ae05d39bb682f4e6e73ff80aa3dfba"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Claude Gets VirusTotal Threat Intelligence Capabilities for AI-Assisted Malware and URL Analysis",
+      "url": "https://cybersecuritynews.com/claude-gets-virustotal-threat-intelligence/",
+      "published": "Mon, 16 Nov 2026 12:02:24 +0000",
+      "published_utc": "2026-11-16T12:02:24+00:00",
+      "summary": "<p>Claude users can connect VirusTotal threat intelligence to their investigations, bringing file, URL, domain, and IP reports into an AI workflow. The connection lets analysts review detection findings, analysis dates, coverage, and source links without treating an AI answer as a security verdict. The integration uses Model Context Protocol, or MCP, to connect Claude with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-gets-virustotal-threat-intelligence/\">Claude Gets VirusTotal Threat Intelligence Capabilities for AI-Assisted Malware and URL Analysis</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172274",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-gets-virustotal-threat-intelligence",
+      "content_hash": "7d3a1ffcb9ee4a7f35f00b7c019e6efcb1ad8083d853c552fb0213b9bff0d895",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "7d3a1ffcb9ee4a7f35f00b7c019e6efcb1ad8083d853c552fb0213b9bff0d895"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Hackers Can Search Compromised Computers by Job Title and Company in New AI-Powered Marketplace",
+      "url": "https://gbhackers.com/ai-powered-marketplace/",
+      "published": "Mon, 16 Nov 2026 12:02:19 +0000",
+      "published_utc": "2026-11-16T12:02:19+00:00",
+      "summary": "<p>A new cybercrime forum service turns stolen infostealer logs into searchable profiles. Instead of selling raw credential dumps, it attaches a plain-language description to each compromised computer. The description covers the apparent owner, workplace, installed applications, and valuable data. Buyers can query these descriptions in natural language. They can also filter by country, operating system [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-marketplace/\">Hackers Can Search Compromised Computers by Job Title and Company in New AI-Powered Marketplace</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207492",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ai-powered-marketplace",
+      "content_hash": "b2f85088c1774d7fbd5dbc5182c14aac5f7c4801634f15de7c7507bf3d97ec95",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b2f85088c1774d7fbd5dbc5182c14aac5f7c4801634f15de7c7507bf3d97ec95",
+        "FEEDBURNER": "b2f85088c1774d7fbd5dbc5182c14aac5f7c4801634f15de7c7507bf3d97ec95"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Nine Underground Listings Reveal How Hackers Sell Access to Enterprise VPNs, Cloud, and CI/CD Systems",
+      "url": "https://cybersecuritynews.com/nine-underground-listings/",
+      "published": "Mon, 16 Nov 2026 11:58:44 +0000",
+      "published_utc": "2026-11-16T11:58:44+00:00",
+      "summary": "<p>Nine underground advertisements show how hackers package alleged access to enterprise VPNs, cloud accounts, software delivery systems, and business applications for sale. The offers range from individual remote-access accounts to bundles of cloud keys, database credentials, and authenticated sessions that could expose connected systems if genuine. The listings illustrate a market where permissions and business [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nine-underground-listings/\">Nine Underground Listings Reveal How Hackers Sell Access to Enterprise VPNs, Cloud, and CI/CD Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172266",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/nine-underground-listings",
+      "content_hash": "f7c03344fe8e82775679b1d2c3f2f11f6956593de8af23bcfdfab9841ec29e24",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "f7c03344fe8e82775679b1d2c3f2f11f6956593de8af23bcfdfab9841ec29e24"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Apple Microphone Vulnerability Allows Hackers to Secretly Record Audio Without User Permission",
+      "url": "https://gbhackers.com/apple-microphone-vulnerability/",
+      "published": "Mon, 16 Nov 2026 11:42:44 +0000",
+      "published_utc": "2026-11-16T11:42:44+00:00",
+      "summary": "<p>A flaw in Apple&#8217;s audio media daemon let sandboxed apps record microphone audio without permission and, on an earlier build, without the orange privacy indicator. Meta Red Team X researcher Nik Tsytsarkin disclosed the bug as CVE-2026-65339, also crediting Mustafa Calap. Apple&#8217;s advisory describes it only as an Audio issue where &#8220;an app may be [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-microphone-vulnerability/\">Apple Microphone Vulnerability Allows Hackers to Secretly Record Audio Without User Permission</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207498",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apple-microphone-vulnerability",
+      "content_hash": "95eddb9ee6a587da89f9b188f27ea60db663a24c817e80bbbf4de875a7380e2d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "95eddb9ee6a587da89f9b188f27ea60db663a24c817e80bbbf4de875a7380e2d",
+        "FEEDBURNER": "95eddb9ee6a587da89f9b188f27ea60db663a24c817e80bbbf4de875a7380e2d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Hackers Use ARTEX AI Agents to Automate Network Intrusions and Gain Privileged Access in Under 3 Hour",
+      "url": "https://cybersecuritynews.com/hackers-use-artex-ai-agents-2/",
+      "published": "Mon, 16 Nov 2026 11:34:30 +0000",
+      "published_utc": "2026-11-16T11:34:30+00:00",
+      "summary": "<p>Hackers are using ARTEX, an AI-powered penetration-testing framework, to automate intrusions and shorten the time needed to gain powerful access. In multiple attacks linked to Storm-0940, Microsoft observed attackers moving from initial targeting to privileged access in less than three hours, according to research published by ExtraHop on November 15, 2026. Originally built for authorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-artex-ai-agents-2/\">Hackers Use ARTEX AI Agents to Automate Network Intrusions and Gain Privileged Access in Under 3 Hour</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172264",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-artex-ai-agents-2",
+      "content_hash": "59c4342cbab6fae4cbf90d964594215ee7cdb150f6b655e7903ff17e88de386c",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "59c4342cbab6fae4cbf90d964594215ee7cdb150f6b655e7903ff17e88de386c"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.786804+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.786800-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.786804+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.786800-05:00"
+    },
+    {
+      "title": "Apache Shiro and APISIX Security Flaws Let Attackers Bypass Authentication and Gain Unauthorized Access",
+      "url": "https://gbhackers.com/apache-shiro-and-apisix-security-flaws/",
+      "published": "Mon, 16 Nov 2026 11:25:25 +0000",
+      "published_utc": "2026-11-16T11:25:25+00:00",
+      "summary": "<p>Two Apache projects have disclosed authentication bypass vulnerabilities. One is a critical flaw in Apache Shiro&#8217;s LDAP realm. The other is a high-severity identity spoofing issue in the Apache APISIX API gateway. Both flaws let an attacker gain access without valid credentials and depend on specific configurations. Apache Shiro and APISIX Security Flaws The Shiro [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-shiro-and-apisix-security-flaws/\">Apache Shiro and APISIX Security Flaws Let Attackers Bypass Authentication and Gain Unauthorized Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207493",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apache-shiro-and-apisix-security-flaws",
+      "content_hash": "7ba11c0fd8695787457bc0d173cf1d8908d6130c4bcf61d5fee1d3cb2b2e0b30",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7ba11c0fd8695787457bc0d173cf1d8908d6130c4bcf61d5fee1d3cb2b2e0b30",
+        "FEEDBURNER": "7ba11c0fd8695787457bc0d173cf1d8908d6130c4bcf61d5fee1d3cb2b2e0b30"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Hackers Revive Retadup Botnet Shut Down in 2019 to Deliver CoffeeLoader Malware via USB Drive",
+      "url": "https://gbhackers.com/coffeeloader-malware-attack/",
+      "published": "Mon, 16 Nov 2026 10:24:35 +0000",
+      "published_utc": "2026-11-16T10:24:35+00:00",
+      "summary": "<p>Attackers have revived command infrastructure associated with Retadup, the USB-spreading worm disrupted by French authorities in 2019, to distribute CoffeeLoader malware. An updated variant detected in August 2026 combines removable-drive propagation with GPU-assisted unpacking, process injection, and cryptographically verified payload delivery. Researchers recorded Retadup infection attempts against approximately 15,000 systems during the first three quarters [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/coffeeloader-malware-attack/\">Hackers Revive Retadup Botnet Shut Down in 2019 to Deliver CoffeeLoader Malware via USB Drive</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207484",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/coffeeloader-malware-attack",
+      "content_hash": "34995ae8caf0fe49febde4a8b7fc21d7bc758345bb52317c2b23e5edb6dfa8d0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "34995ae8caf0fe49febde4a8b7fc21d7bc758345bb52317c2b23e5edb6dfa8d0",
+        "FEEDBURNER": "34995ae8caf0fe49febde4a8b7fc21d7bc758345bb52317c2b23e5edb6dfa8d0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "Researchers Find 700 Exposed PentAGI Instances as AI-Powered Hacking Frameworks Spread",
+      "url": "https://gbhackers.com/700-exposed-pentagi-instances/",
+      "published": "Mon, 16 Nov 2026 09:52:00 +0000",
+      "published_utc": "2026-11-16T09:52:00+00:00",
+      "summary": "<p>More than 700 internet-reachable PentAGI instances as AI-enabled penetration testing frameworks increasingly appear in real-world offensive operations. The finding highlights the growing availability of platforms that automate reconnaissance, vulnerability testing, and follow-on activity, reducing manual effort and allowing operators to pursue multiple intrusion paths simultaneously. The count represents reachable deployments, not confirmed malicious installations or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/700-exposed-pentagi-instances/\">Researchers Find 700 Exposed PentAGI Instances as AI-Powered Hacking Frameworks Spread</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207478",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/700-exposed-pentagi-instances",
+      "content_hash": "dd362a8570f1c7fbcfe7eacffc8766799a55c2936279cffc181b94400aa77d24",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd362a8570f1c7fbcfe7eacffc8766799a55c2936279cffc181b94400aa77d24",
+        "FEEDBURNER": "dd362a8570f1c7fbcfe7eacffc8766799a55c2936279cffc181b94400aa77d24"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:47.145859+00:00",
+      "first_seen_local": "2026-11-16T12:22:47.145856-05:00",
+      "last_updated_utc": "2026-11-16T17:22:47.145859+00:00",
+      "last_updated_local": "2026-11-16T12:22:47.145856-05:00"
+    },
+    {
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "url": "http://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "published": "Mon, 16 Nov 2026 09:32:57 +0000",
+      "published_utc": "2026-11-16T09:32:57+00:00",
+      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7431256691665588898",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "content_hash": "d5e27d4dc1026d73c8ecbc69fe5bb9fb6c19f92988a1099ea0d54ba0d4686c7e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d5e27d4dc1026d73c8ecbc69fe5bb9fb6c19f92988a1099ea0d54ba0d4686c7e",
+        "FEEDBURNER": "d5e27d4dc1026d73c8ecbc69fe5bb9fb6c19f92988a1099ea0d54ba0d4686c7e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:54.025069+00:00",
+      "first_seen_local": "2026-11-16T12:22:54.025066-05:00",
+      "last_updated_utc": "2026-11-16T17:22:54.025069+00:00",
+      "last_updated_local": "2026-11-16T12:22:54.025066-05:00"
+    },
+    {
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "url": "http://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "published": "Mon, 16 Nov 2026 07:34:21 +0000",
+      "published_utc": "2026-11-16T07:34:21+00:00",
+      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.\n\nThe team said this",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6549915445146845847",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "content_hash": "26de49b2259cc6d9f9878ed3b03f0903d822db92f4c6a1b6c7d5cc9cec47e645",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "26de49b2259cc6d9f9878ed3b03f0903d822db92f4c6a1b6c7d5cc9cec47e645",
+        "FEEDBURNER": "26de49b2259cc6d9f9878ed3b03f0903d822db92f4c6a1b6c7d5cc9cec47e645"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-16T17:22:54.025069+00:00",
+      "first_seen_local": "2026-11-16T12:22:54.025066-05:00",
+      "last_updated_utc": "2026-11-16T17:22:54.025069+00:00",
+      "last_updated_local": "2026-11-16T12:22:54.025066-05:00"
+    },
     {
       "title": "10 Network Vulnerability Scanners: The 2026 Buyer’s Verdict Guide",
       "url": "https://gbhackers.com/network-vulnerability-scanners-buyers-guide/",

@@ -2,8 +2,88 @@
   "month": "2026-11",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 199,
+  "article_count": 202,
   "articles": [
+    {
+      "title": "macOS 27.3 Adds New Security Controls to Stop AI Apps From Accessing All Mac Data",
+      "url": "https://cybersecuritynews.com/macos-27-3-new-security-controls/",
+      "published": "Tue, 17 Nov 2026 08:55:20 +0000",
+      "published_utc": "2026-11-17T08:55:20+00:00",
+      "summary": "<p>Apple has introduced new privacy controls in macOS 27.3 beta 2 that make it harder for apps, including AI assistants, to gain broad access to Mac data without clear user approval. Announced on November 16, 2026, the changes add narrower permissions, stronger warnings, and more visibility into app activity. The update follows Apple’s earlier warning [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/macos-27-3-new-security-controls/\">macOS 27.3 Adds New Security Controls to Stop AI Apps From Accessing All Mac Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172386",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/macos-27-3-new-security-controls",
+      "content_hash": "ae24f90a3377b10a7e7169be2a321623291b0f2ae551982cc621e0cf7d729a32",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ae24f90a3377b10a7e7169be2a321623291b0f2ae551982cc621e0cf7d729a32"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T09:03:46.424976+00:00",
+      "first_seen_local": "2026-11-17T04:03:46.424973-05:00",
+      "last_updated_utc": "2026-11-17T09:03:46.424976+00:00",
+      "last_updated_local": "2026-11-17T04:03:46.424973-05:00"
+    },
+    {
+      "title": "Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours",
+      "url": "https://cybersecuritynews.com/barracuda-cloud-account-breach/",
+      "published": "Tue, 17 Nov 2026 08:42:21 +0000",
+      "published_utc": "2026-11-17T08:42:21+00:00",
+      "summary": "<p>Hackers used a cloud access key exposed through an unnamed AI vendor to enter Barracuda’s cloud environment and reach about 10 accounts in roughly 44 hours. The November 1–2 intrusion crossed cloud services, data analytics, source code, and Kubernetes systems as the attacker collected credentials to keep moving. Barracuda said the key remained active after [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/barracuda-cloud-account-breach/\">Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172369",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/barracuda-cloud-account-breach",
+      "content_hash": "b25279b3da74642298edaa013e0dc56d7ada9ce6fbe878a8d674a29118d17a36",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b25279b3da74642298edaa013e0dc56d7ada9ce6fbe878a8d674a29118d17a36"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T09:03:46.424976+00:00",
+      "first_seen_local": "2026-11-17T04:03:46.424973-05:00",
+      "last_updated_utc": "2026-11-17T09:03:46.424976+00:00",
+      "last_updated_local": "2026-11-17T04:03:46.424973-05:00"
+    },
+    {
+      "title": "Hackers Exploit macOS ß vs ss Filename Trick to Bypass Developer Tool Security Checks",
+      "url": "https://cybersecuritynews.com/macos-s-vs-ss-filename-trick/",
+      "published": "Tue, 17 Nov 2026 08:20:40 +0000",
+      "published_utc": "2026-11-17T08:20:40+00:00",
+      "summary": "<p>A Unicode normalization flaw allows attackers to bypass macOS file exclusion checks, affecting Deno, libarchive, HashiCorp go-slug, and Python setuptools across four CVEs. The flaw comes from two parts of the system disagreeing about what a file name is. Apple File System (APFS) resolves paths in a way that treats different Unicode spellings of one [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/macos-s-vs-ss-filename-trick/\">Hackers Exploit macOS ß vs ss Filename Trick to Bypass Developer Tool Security Checks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172362",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/macos-s-vs-ss-filename-trick",
+      "content_hash": "20244a1a32a1e9761b690e7d8e2a2b6a394bbf5592b701d8ba34c215f3472ba2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "20244a1a32a1e9761b690e7d8e2a2b6a394bbf5592b701d8ba34c215f3472ba2",
+        "FEEDBURNER": "20244a1a32a1e9761b690e7d8e2a2b6a394bbf5592b701d8ba34c215f3472ba2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T09:03:46.424976+00:00",
+      "first_seen_local": "2026-11-17T04:03:46.424973-05:00",
+      "last_updated_utc": "2026-11-17T09:03:46.424976+00:00",
+      "last_updated_local": "2026-11-17T04:03:46.424973-05:00"
+    },
     {
       "title": "15 Best Patch Management Tools In 2027",
       "url": "https://cybersecuritynews.com/patch-management-tools/",

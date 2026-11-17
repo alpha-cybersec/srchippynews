@@ -5,14 +5,39 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "macOS 27.3 Adds New Security Controls to Stop AI Apps From Accessing All Mac Data",
+          "url": "https://cybersecuritynews.com/macos-27-3-new-security-controls/",
+          "published": "Tue, 17 Nov 2026 08:55:20 +0000",
+          "published_utc": "2026-11-17T08:55:20+00:00",
+          "summary": "<p>Apple has introduced new privacy controls in macOS 27.3 beta 2 that make it harder for apps, including AI assistants, to gain broad access to Mac data without clear user approval. Announced on November 16, 2026, the changes add narrower permissions, stronger warnings, and more visibility into app activity. The update follows Apple’s earlier warning [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/macos-27-3-new-security-controls/\">macOS 27.3 Adds New Security Controls to Stop AI Apps From Accessing All Mac Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172386"
+        },
+        {
+          "title": "Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours",
+          "url": "https://cybersecuritynews.com/barracuda-cloud-account-breach/",
+          "published": "Tue, 17 Nov 2026 08:42:21 +0000",
+          "published_utc": "2026-11-17T08:42:21+00:00",
+          "summary": "<p>Hackers used a cloud access key exposed through an unnamed AI vendor to enter Barracuda’s cloud environment and reach about 10 accounts in roughly 44 hours. The November 1–2 intrusion crossed cloud services, data analytics, source code, and Kubernetes systems as the attacker collected credentials to keep moving. Barracuda said the key remained active after [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/barracuda-cloud-account-breach/\">Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172369"
+        },
+        {
+          "title": "Hackers Exploit macOS ß vs ss Filename Trick to Bypass Developer Tool Security Checks",
+          "url": "https://cybersecuritynews.com/macos-s-vs-ss-filename-trick/",
+          "published": "Tue, 17 Nov 2026 08:20:40 +0000",
+          "published_utc": "2026-11-17T08:20:40+00:00",
+          "summary": "<p>A Unicode normalization flaw allows attackers to bypass macOS file exclusion checks, affecting Deno, libarchive, HashiCorp go-slug, and Python setuptools across four CVEs. The flaw comes from two parts of the system disagreeing about what a file name is. Apple File System (APFS) resolves paths in a way that treats different Unicode spellings of one [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/macos-s-vs-ss-filename-trick/\">Hackers Exploit macOS ß vs ss Filename Trick to Bypass Developer Tool Security Checks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172362"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,87 +47,15 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
+      "article_count": 1,
       "articles": [
         {
-          "title": "15 Best Patch Management Tools In 2027",
-          "url": "https://cybersecuritynews.com/patch-management-tools/",
-          "published": "Mon, 16 Nov 2026 17:40:12 +0000",
-          "published_utc": "2026-11-16T17:40:12+00:00",
-          "summary": "<p>Patch management tools remain critical for IT security and operational efficiency in 2026, automating the discovery, testing, and deployment of software updates across diverse endpoints. Leading solutions NinjaOne, Automox, Kaseya VSA, ManageEngine Patch Manager Plus, SolarWinds Patch Manager, and Ivanti Patch Management deliver automated patching for Windows, macOS, Linux, and third-party applications. Key capabilities include [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/patch-management-tools/\">15 Best Patch Management Tools In 2027</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=40791"
-        },
-        {
-          "title": "Researchers Reveal How Claude Code VS Code Extension Can Access Files Outside Trusted Workspaces",
-          "url": "https://cybersecuritynews.com/claude-code-vs-code-extension/",
-          "published": "Mon, 16 Nov 2026 16:51:53 +0000",
-          "published_utc": "2026-11-16T16:51:53+00:00",
-          "summary": "<p>Security researchers have found that the Claude Code extension for Visual Studio Code can show a permission prompt that hides where a file really sits. A user may approve access to a path that looks safe, while the file lives outside the trusted workspace. Anthropic reviewed the report and does not treat it as a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-vs-code-extension/\">Researchers Reveal How Claude Code VS Code Extension Can Access Files Outside Trusted Workspaces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172333"
-        },
-        {
-          "title": "Hackers Use AI-Powered Marketplace to Find Infected Computers With Corporate VPN and Cloud Access",
-          "url": "https://cybersecuritynews.com/hackers-use-ai-powered-marketplace/",
-          "published": "Mon, 16 Nov 2026 16:41:44 +0000",
-          "published_utc": "2026-11-16T16:41:44+00:00",
-          "summary": "<p>A new underground marketplace is making stolen computer data much easier to search. It adds a short written profile to each infected computer, so buyers can look for the exact kind of victim they want. They no longer have to dig through raw files. The service was advertised on a cybercrime forum on November 14, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-powered-marketplace/\">Hackers Use AI-Powered Marketplace to Find Infected Computers With Corporate VPN and Cloud Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172322"
-        },
-        {
-          "title": "Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems",
-          "url": "https://cybersecuritynews.com/retadup-usb-worm-returns/",
-          "published": "Mon, 16 Nov 2026 16:11:47 +0000",
-          "published_utc": "2026-11-16T16:11:47+00:00",
-          "summary": "<p>The Retadup USB worm is again being used to deliver malware to Windows systems, seven years after French authorities dismantled its botnet. The latest findings connect the worm to CoffeeLoader, a malware loader that uses graphics hardware during decryption and can download and run additional payloads on infected computers. The timeline needs an important distinction: [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/retadup-usb-worm-returns/\">Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172310"
-        },
-        {
-          "title": "Apple Reveals How Secure Exclaves Prevent Hidden Camera and Microphone Access on iPhones",
-          "url": "https://cybersecuritynews.com/apple-reveals-secure-exclaves/",
-          "published": "Mon, 16 Nov 2026 16:04:06 +0000",
-          "published_utc": "2026-11-16T16:04:06+00:00",
-          "summary": "<p>Apple has detailed how Secure Exclaves protect camera and microphone data, aiming to stop attackers from secretly collecting sensitive recordings even if they compromise the main operating system. The architecture combines hardware isolation, strict data-sharing rules, and protected privacy indicators to separate background sensing from active recording. According to the supplied technical description, Apple uses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-reveals-secure-exclaves/\">Apple Reveals How Secure Exclaves Prevent Hidden Camera and Microphone Access on iPhones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172282"
-        },
-        {
-          "title": "Cisco Talos Reveals How Hackers Use ARTEX, PentAGI, and HexStrike AI to Automate Cyberattacks",
-          "url": "https://cybersecuritynews.com/hackers-use-artex/",
-          "published": "Mon, 16 Nov 2026 15:48:20 +0000",
-          "published_utc": "2026-11-16T15:48:20+00:00",
-          "summary": "<p>AI-powered penetration testing tools are helping hackers automate reconnaissance, vulnerability testing, and follow-on attacks with less hands-on work. Cisco Talos warns that these platforms can connect familiar security utilities with AI agents, allowing operators to pursue targets faster and run several tasks at once. The danger comes from how legitimate testing capabilities are being used [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-artex/\">Cisco Talos Reveals How Hackers Use ARTEX, PentAGI, and HexStrike AI to Automate Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172306"
-        },
-        {
-          "title": "Google Reveals How Hackers Are Using AI Agents to Automate Real-World Cyberattacks",
-          "url": "https://cybersecuritynews.com/fully-automated-ai-attacks/",
-          "published": "Mon, 16 Nov 2026 15:36:55 +0000",
-          "published_utc": "2026-11-16T15:36:55+00:00",
-          "summary": "<p>Hackers are no longer just asking AI chatbots for help. They now run AI agents that can scan, break in, and move through networks with very little human input. In its latest AI Threat Tracker, published on November 16, 2026, the Google Threat Intelligence Group (GTIG) and Mandiant said AI misuse has reached a &#8220;critical [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fully-automated-ai-attacks/\">Google Reveals How Hackers Are Using AI Agents to Automate Real-World Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172298"
-        },
-        {
-          "title": "Mustang Panda-Linked Hackers Deploy LOTUSLITE V2 Through Malicious Zoho WorkDrive Downloads",
-          "url": "https://cybersecuritynews.com/mustang-panda-linked-hackers/",
-          "published": "Mon, 16 Nov 2026 14:48:31 +0000",
-          "published_utc": "2026-11-16T14:48:31+00:00",
-          "summary": "<p>Hackers linked to Mustang Panda are distributing LOTUSLITE V2 through public Zoho WorkDrive downloads, using an Indo-Pacific assessment lure to draw victims into running malware. The campaign, focused on Thailand, combines a trusted PDFgear executable, malicious DLL loading, registry persistence, and encrypted command-and-control communications to establish access to Windows systems. The operation shows how attackers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mustang-panda-linked-hackers/\">Mustang Panda-Linked Hackers Deploy LOTUSLITE V2 Through Malicious Zoho WorkDrive Downloads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172276"
-        },
-        {
-          "title": "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams",
-          "url": "https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/",
-          "published": "Mon, 16 Nov 2026 14:38:24 +0000",
-          "published_utc": "2026-11-16T14:38:24+00:00",
-          "summary": "<p>New York, USA, November 16th, 2026, CyberNewswire AI attribution has linked more than 3,913 high-impact leaks to 1,532 companies since spring; security experts handle critical disclosures to enterprise security teams. GitGuardian, the secrets security platform, today announced the Enterprise Good Samaritan Program, an expansion of its longstanding responsible disclosure efforts aimed at strengthening security across [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/\">Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172294"
-        },
-        {
-          "title": "Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors",
-          "url": "https://cybersecuritynews.com/microsoft-windows-licensing-error/",
-          "published": "Mon, 16 Nov 2026 13:36:54 +0000",
-          "published_utc": "2026-11-16T13:36:54+00:00",
-          "summary": "<p>Microsoft released an out-of-band Windows update on November 13, 2026, to fix licensing and activation errors affecting a limited number of enterprise devices. The issue appeared after the November 2026 Windows security update and mainly affects organizations that use scripts or automated tools to manage Windows licenses. Affected operations may fail with error 0x80041008, shown [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-windows-licensing-error/\">Microsoft Releases Out-of-band Update to Address Windows Licensing and Activation Errors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=172272"
+          "title": "Hackers Exploit macOS ß vs ss Filename Trick to Bypass Developer Tool Security Checks",
+          "url": "https://cybersecuritynews.com/macos-s-vs-ss-filename-trick/",
+          "published": "Tue, 17 Nov 2026 08:20:40 +0000",
+          "published_utc": "2026-11-17T08:20:40+00:00",
+          "summary": "<p>A Unicode normalization flaw allows attackers to bypass macOS file exclusion checks, affecting Deno, libarchive, HashiCorp go-slug, and Python setuptools across four CVEs. The flaw comes from two parts of the system disagreeing about what a file name is. Apple File System (APFS) resolves paths in a way that treats different Unicode spellings of one [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/macos-s-vs-ss-filename-trick/\">Hackers Exploit macOS ß vs ss Filename Trick to Bypass Developer Tool Security Checks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172362"
         }
       ],
       "error": ""

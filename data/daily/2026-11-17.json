@@ -1,12 +1,756 @@
 {
   "date": "2026-11-17",
-  "article_count": 18,
+  "article_count": 45,
   "sources": {
-    "gbhackers": 12,
-    "cybersecuritynews": 3,
-    "thehackernews": 3
+    "cybersecuritynews": 15,
+    "thehackernews": 9,
+    "gbhackers": 21
   },
   "articles": [
+    {
+      "title": "Malicious iOS Scripts Now Behind 1 in 5 Advertiser Suspensions as Coruna Exploit Kit Hides Inside Ad Landing Pages",
+      "url": "https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages/",
+      "published": "Tue, 17 Nov 2026 17:25:31 +0000",
+      "published_utc": "2026-11-17T17:25:31+00:00",
+      "summary": "<p>Malicious iOS scripts accounted for roughly 20% of advertiser account suspensions in 2026 across advertising platforms protected by ADEX, according to the company’s newly released State of Ad Fraud 2026: ADEX Trust &#38; Safety Report. It is the first year the anti-fraud platform has tracked device-targeted attacks as a standalone category, and the figure places [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages/\">Malicious iOS Scripts Now Behind 1 in 5 Advertiser Suspensions as Coruna Exploit Kit Hides Inside Ad Landing Pages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172531",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages",
+      "content_hash": "be56daff77ff430b325c7bcb7e5da5c85313e94cee2d456bec5f50d9000661ce",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "be56daff77ff430b325c7bcb7e5da5c85313e94cee2d456bec5f50d9000661ce"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "How a Five-Analyst MSSP Increased SOC Capacity by 25% with Threat Intelligence",
+      "url": "https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity/",
+      "published": "Tue, 17 Nov 2026 17:07:01 +0000",
+      "published_utc": "2026-11-17T17:07:01+00:00",
+      "summary": "<p>Every managed security service provider eventually hits the same wall. New clients bring more endpoints, more log sources and more alerts, while SLAs get tighter and qualified analysts stay expensive and hard to hire. The obvious fix is headcount.&#160; A US-based MSSP with one SOC manager and five analysts chose a different route: it changed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity/\">How a Five-Analyst MSSP Increased SOC Capacity by 25% with Threat Intelligence</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172496",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/mssp-threat-intelligence-soc-capacity",
+      "content_hash": "4dadc757a818432d32fc509d413fa2278eefafa9fcf3941e518c1bd7911b2509",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4dadc757a818432d32fc509d413fa2278eefafa9fcf3941e518c1bd7911b2509"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "TheMailer – Self-hosted Phishing Platform that Runs on Claude and ChatGPT",
+      "url": "https://cybersecuritynews.com/themailer-ai-phishing-platform/",
+      "published": "Tue, 17 Nov 2026 16:54:45 +0000",
+      "published_utc": "2026-11-17T16:54:45+00:00",
+      "summary": "<p>TheMailer, a self-hosted phishing platform identified by Varonis Threat Labs, brings commercial AI models into almost every stage of an email attack. Rather than only fixing grammar or writing convincing messages, it uses AI to build lures, change templates, test delivery, and manage replies. Operators supply their own API keys to connect services including Claude, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/themailer-ai-phishing-platform/\">TheMailer &#8211; Self-hosted Phishing Platform that Runs on Claude and ChatGPT</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172490",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/themailer-ai-phishing-platform",
+      "content_hash": "fc8f177f3b2df50a8de898de6c81eb90ae32f05c922ee2a4a8cc218a019a45c8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fc8f177f3b2df50a8de898de6c81eb90ae32f05c922ee2a4a8cc218a019a45c8",
+        "FEEDBURNER": "fc8f177f3b2df50a8de898de6c81eb90ae32f05c922ee2a4a8cc218a019a45c8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes",
+      "url": "https://cybersecuritynews.com/java-17-rce-vulnerability/",
+      "published": "Tue, 17 Nov 2026 16:11:10 +0000",
+      "published_utc": "2026-11-17T16:11:10+00:00",
+      "summary": "<p>A remote code execution (RCE) vulnerability in Java 17 has prompted warnings for server admins, especially as Oracle released 11 new Java SE security updates on the same day. The bug is tracked as CVE-2026-114938. Public reports say it needs no login and affects OpenJDK 17.0.6 and later. The details are still unconfirmed. Security firm [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/java-17-rce-vulnerability/\">Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172494",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/java-17-rce-vulnerability",
+      "content_hash": "1e4df86e8abd26c760058ea7aac70837aceda2e340b7e0b13f8e39c4d7118014",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1e4df86e8abd26c760058ea7aac70837aceda2e340b7e0b13f8e39c4d7118014",
+        "FEEDBURNER": "1e4df86e8abd26c760058ea7aac70837aceda2e340b7e0b13f8e39c4d7118014"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "published": "Tue, 17 Nov 2026 15:17:36 +0000",
+      "published_utc": "2026-11-17T15:17:36+00:00",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1753887366238821219",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "content_hash": "1f47476bae75b5ac1a940cb39a2614b3fc6ee4bdd3b3f495ceb56171ecca7f9a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1f47476bae75b5ac1a940cb39a2614b3fc6ee4bdd3b3f495ceb56171ecca7f9a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:21.975400+00:00",
+      "first_seen_local": "2026-11-17T13:28:21.975398-05:00",
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
+    },
+    {
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "published": "Tue, 17 Nov 2026 15:17:28 +0000",
+      "published_utc": "2026-11-17T15:17:28+00:00",
+      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\n\"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2820482847020893812",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "content_hash": "da19a386be9bc42228166f9ba131a526b53ac592a4fd8c936519e4a9a5d587e0",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "da19a386be9bc42228166f9ba131a526b53ac592a4fd8c936519e4a9a5d587e0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:21.975400+00:00",
+      "first_seen_local": "2026-11-17T13:28:21.975398-05:00",
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
+    },
+    {
+      "title": "Hackers Abuse Microsoft SharePoint and GitHub to Hide GraphDoor Backdoor Attacks on Government Networks",
+      "url": "https://cybersecuritynews.com/graphdoor-sharepoint-backdoor/",
+      "published": "Tue, 17 Nov 2026 14:40:07 +0000",
+      "published_utc": "2026-11-17T14:40:07+00:00",
+      "summary": "<p>Hackers are hiding a backdoor named GraphDoor inside normal Microsoft and Ably traffic. The goal is to spy on government networks in Asia and Africa. Kaspersky&#8217;s GReAT team detailed the findings on November 17, 2026, in the second part of its Operation ShadowCloud research. The report also lists the plug-ins GraphDoor loads and points to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/graphdoor-sharepoint-backdoor/\">Hackers Abuse Microsoft SharePoint and GitHub to Hide GraphDoor Backdoor Attacks on Government Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172460",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/graphdoor-sharepoint-backdoor",
+      "content_hash": "13f03bb65c27bf5651dd5b60e2e15c6b37a802c3ef96747a9563a87005c53e2b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "13f03bb65c27bf5651dd5b60e2e15c6b37a802c3ef96747a9563a87005c53e2b",
+        "FEEDBURNER": "13f03bb65c27bf5651dd5b60e2e15c6b37a802c3ef96747a9563a87005c53e2b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Hackers Exploit Unpatched Microsoft Exchange Servers to Deploy Custom RATs Across Southeast Asia",
+      "url": "https://cybersecuritynews.com/microsoft-exchange-servers/",
+      "published": "Tue, 17 Nov 2026 14:24:16 +0000",
+      "published_utc": "2026-11-17T14:24:16+00:00",
+      "summary": "<p>Hackers are exploiting unpatched Microsoft Exchange servers and vulnerable web servers to break into government networks across Southeast Asia, deploying custom remote access trojans built for quiet, long-term spying. The campaign combines server exploitation, targeted phishing, credential theft, and mailbox access to pursue sensitive government information. The activity has targeted government entities since at least [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-exchange-servers/\">Hackers Exploit Unpatched Microsoft Exchange Servers to Deploy Custom RATs Across Southeast Asia</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172455",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/microsoft-exchange-servers",
+      "content_hash": "71e20cfea2b906a3a15b2df8fca0f221c128a2f1e5533ebe6e9ad2625e6922c5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "71e20cfea2b906a3a15b2df8fca0f221c128a2f1e5533ebe6e9ad2625e6922c5",
+        "FEEDBURNER": "71e20cfea2b906a3a15b2df8fca0f221c128a2f1e5533ebe6e9ad2625e6922c5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware",
+      "url": "https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/",
+      "published": "Tue, 17 Nov 2026 13:58:04 +0000",
+      "published_utc": "2026-11-17T13:58:04+00:00",
+      "summary": "<p>Hackers are using a shipment-themed ZIP archive to launch a Windows malware chain that combines a legitimate signed application, DLL side-loading, and hidden Python code. The attack disguises its components as shipping material, images, documents, and a browser updater before running a payload linked to PureLogs and PureRAT infrastructure. The case shows why a trusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/\">Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172446",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading",
+      "content_hash": "42a42c2c36f14daf15cc1aabff9d1fb841da97da112f1b433a0300a9672cebb0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "42a42c2c36f14daf15cc1aabff9d1fb841da97da112f1b433a0300a9672cebb0",
+        "FEEDBURNER": "42a42c2c36f14daf15cc1aabff9d1fb841da97da112f1b433a0300a9672cebb0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls",
+      "url": "https://cybersecuritynews.com/temu-breaching-digital-services-act/",
+      "published": "Tue, 17 Nov 2026 13:56:01 +0000",
+      "published_utc": "2026-11-17T13:56:01+00:00",
+      "summary": "<p>The European Commission has preliminarily found Temu in breach of the Digital Services Act (DSA), citing weak product checks, poor content moderation, and ineffective penalties against sellers. Announced on November 17, 2026, the findings question whether the marketplace takes effective steps to stop illegal products from reaching European buyers. The case concerns Article 35, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/temu-breaching-digital-services-act/\">EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172461",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/temu-breaching-digital-services-act",
+      "content_hash": "6c61575b1dd87d56ec224e5030af59a5a72ef7e9e1a1618ebbb4ba7595a44c20",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c61575b1dd87d56ec224e5030af59a5a72ef7e9e1a1618ebbb4ba7595a44c20",
+        "FEEDBURNER": "6c61575b1dd87d56ec224e5030af59a5a72ef7e9e1a1618ebbb4ba7595a44c20"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Microsoft Windows 11 Secretly Tracks Which AI Coding Agents Developers Use Through Telemetry",
+      "url": "https://cybersecuritynews.com/windows-11-ai-agent-tracking/",
+      "published": "Tue, 17 Nov 2026 13:43:04 +0000",
+      "published_utc": "2026-11-17T13:43:04+00:00",
+      "summary": "<p>Windows 11 has a built-in component that notes which AI coding agents and developer tools you run. It sends that data to Microsoft if optional diagnostic data is on. Security researcher Xusheng Li, who works on Binary Ninja, shared the first finding on X on November 16, 2026. He then published a full technical write-up. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-ai-agent-tracking/\">Microsoft Windows 11 Secretly Tracks Which AI Coding Agents Developers Use Through Telemetry</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172439",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/windows-11-ai-agent-tracking",
+      "content_hash": "220c85b388510b1124c5f5f1c118cb15c1fff964cdbc46b12c991e90ed4bc464",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "220c85b388510b1124c5f5f1c118cb15c1fff964cdbc46b12c991e90ed4bc464",
+        "FEEDBURNER": "220c85b388510b1124c5f5f1c118cb15c1fff964cdbc46b12c991e90ed4bc464"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "FBI Warns Hackers Abuse Google Search to Spread Gootloader Malware and Launch Ransomware Attacks",
+      "url": "https://cybersecuritynews.com/spread-gootloader-malware/",
+      "published": "Tue, 17 Nov 2026 13:29:20 +0000",
+      "published_utc": "2026-11-17T13:29:20+00:00",
+      "summary": "<p>The FBI has warned that cybercriminals are using poisoned search results and compromised WordPress websites to spread Gootloader malware, giving ransomware operators an entry point into business networks. The attacks turn searches for legal documents, contracts, and business information into opportunities to trick users into downloading malicious JavaScript files. In a November 16, 2026, FLASH [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/spread-gootloader-malware/\">FBI Warns Hackers Abuse Google Search to Spread Gootloader Malware and Launch Ransomware Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172441",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/spread-gootloader-malware",
+      "content_hash": "933324dd8287889976cdcb2f645f84733a0d50d9784b5bb29edfe689371fbad5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "933324dd8287889976cdcb2f645f84733a0d50d9784b5bb29edfe689371fbad5",
+        "FEEDBURNER": "933324dd8287889976cdcb2f645f84733a0d50d9784b5bb29edfe689371fbad5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data",
+      "url": "https://gbhackers.com/optimjack-attack/",
+      "published": "Tue, 17 Nov 2026 13:26:59 +0000",
+      "published_utc": "2026-11-17T13:26:59+00:00",
+      "summary": "<p>OPTIMJACK, a malicious JavaScript delivery campaign observed on CNN, Zoom, and other prominent websites through a third-party script layer. Detected on November 16, the activity reportedly involved code designed to replace cryptocurrency wallet addresses, collect payment details, and selectively deliver additional content to iPhone and iPad browser profiles. Successful financial theft and device exploitation remain [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/optimjack-attack/\">OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207673",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/optimjack-attack",
+      "content_hash": "1056bb230cc46f4cec87e3470ebab3c845a4c982e00033b05eec10d979863b4d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1056bb230cc46f4cec87e3470ebab3c845a4c982e00033b05eec10d979863b4d",
+        "FEEDBURNER": "1056bb230cc46f4cec87e3470ebab3c845a4c982e00033b05eec10d979863b4d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours",
+      "url": "https://cybersecuritynews.com/barracuda-cloud-accounts/",
+      "published": "Tue, 17 Nov 2026 13:13:20 +0000",
+      "published_utc": "2026-11-17T13:13:20+00:00",
+      "summary": "<p>Hackers used a cloud access key exposed through an AI vendor to reach approximately 10 Barracuda cloud accounts in roughly 44 hours. The intrusion moved through stored secrets, development systems, and Kubernetes clusters, showing how one forgotten credential can open a path across several connected platforms. Barracuda recorded the activity between November 1 and November [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/barracuda-cloud-accounts/\">Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172438",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/barracuda-cloud-accounts",
+      "content_hash": "9d59e559f21993478b6a4d76a7f29784e7f626323069c28f3e2c0b5ea35c36d2",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "9d59e559f21993478b6a4d76a7f29784e7f626323069c28f3e2c0b5ea35c36d2"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data",
+      "url": "https://gbhackers.com/kukurat-backdoor-activity/",
+      "published": "Tue, 17 Nov 2026 12:54:29 +0000",
+      "published_utc": "2026-11-17T12:54:29+00:00",
+      "summary": "<p>A China-linked espionage group has spent nine months refining two custom remote access Trojans against Southeast Asian government networks. Palo Alto Networks&#8217; Unit 42 published its findings on November 16, 2026. The activity dates back to at least July 2025. Unit 42 tracks the actor as TGR-STA-0049. Other vendors call it REF7707, Earth Alux or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kukurat-backdoor-activity/\">Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207654",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/kukurat-backdoor-activity",
+      "content_hash": "7ce3fbb3433ea1b5e8dd09cda545f3fd6cae8bf8c3aa5b6c466435b19057c3c1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7ce3fbb3433ea1b5e8dd09cda545f3fd6cae8bf8c3aa5b6c466435b19057c3c1",
+        "FEEDBURNER": "7ce3fbb3433ea1b5e8dd09cda545f3fd6cae8bf8c3aa5b6c466435b19057c3c1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack",
+      "url": "https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/",
+      "published": "Tue, 17 Nov 2026 12:43:45 +0000",
+      "published_utc": "2026-11-17T12:43:45+00:00",
+      "summary": "<p>McDonald’s mobile application reportedly delivered a wave of abnormal push notifications on November 17, 2026, raising concerns about possible abuse of its notification infrastructure. According to a post attributed to security researcher blackorbird, the activity began around 14:20 and mainly affected iOS users. The report remains unverified, and the available information does not establish a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/\">McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207659",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications",
+      "content_hash": "3c74ed8e885ee6dcd78518ba1bdcc9b2bdd553bb93573f70870c9c4f0e758dc2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3c74ed8e885ee6dcd78518ba1bdcc9b2bdd553bb93573f70870c9c4f0e758dc2",
+        "FEEDBURNER": "3c74ed8e885ee6dcd78518ba1bdcc9b2bdd553bb93573f70870c9c4f0e758dc2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Silently Run Malware on MSP Technicians’ Computers",
+      "url": "https://cybersecuritynews.com/critical-screenconnect-flaw/",
+      "published": "Tue, 17 Nov 2026 12:33:09 +0000",
+      "published_utc": "2026-11-17T12:33:09+00:00",
+      "summary": "<p>Hackers are exploiting a critical ScreenConnect vulnerability to run malicious files on managed service provider technicians’ computers without showing a confirmation prompt. The attack turns a routine remote support connection into an infection route, putting workstations with access to customer systems, management tools, and saved credentials at risk. The vulnerability, tracked as CVE-2026-84869, carries a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-screenconnect-flaw/\">Hackers Exploit Critical ScreenConnect Flaw to Silently Run Malware on MSP Technicians&#8217; Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172432",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-screenconnect-flaw",
+      "content_hash": "b6383df115f7e31abbc36d41375170a68c5396bda5b6e3141879e0ca5eef1b40",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "b6383df115f7e31abbc36d41375170a68c5396bda5b6e3141879e0ca5eef1b40"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:17.016823+00:00",
+      "first_seen_local": "2026-11-17T13:28:17.016820-05:00",
+      "last_updated_utc": "2026-11-17T18:28:17.016823+00:00",
+      "last_updated_local": "2026-11-17T13:28:17.016820-05:00"
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "published": "Tue, 17 Nov 2026 12:25:06 +0000",
+      "published_utc": "2026-11-17T12:25:06+00:00",
+      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4338222849133614855",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "content_hash": "e9eefbe614e00af0b7105bf276847df6fe605518653e2e84c07381e083f86390",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e9eefbe614e00af0b7105bf276847df6fe605518653e2e84c07381e083f86390",
+        "FEEDBURNER": "e9eefbe614e00af0b7105bf276847df6fe605518653e2e84c07381e083f86390"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:21.975400+00:00",
+      "first_seen_local": "2026-11-17T13:28:21.975398-05:00",
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
+    },
+    {
+      "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks",
+      "url": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/",
+      "published": "Tue, 17 Nov 2026 12:20:34 +0000",
+      "published_utc": "2026-11-17T12:20:34+00:00",
+      "summary": "<p>Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign on November 13, 2026, targeting organizations across multiple sectors worldwide. Attackers impersonated Microsoft 365 service-health notifications, claiming emails held during an outage would disappear unless recipients restored them within 24 hours. Microsoft assessed the activity as likely credential phishing but did not confirm credential capture, malware [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/\">Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207648",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages",
+      "content_hash": "c397b2a9ee1560a1e6c862e546c87047e78308092331028a22f76dd7f9d31a76",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c397b2a9ee1560a1e6c862e546c87047e78308092331028a22f76dd7f9d31a76",
+        "FEEDBURNER": "c397b2a9ee1560a1e6c862e546c87047e78308092331028a22f76dd7f9d31a76"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "published": "Tue, 17 Nov 2026 12:14:36 +0000",
+      "published_utc": "2026-11-17T12:14:36+00:00",
+      "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.\n\nNik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-753120927473582377",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "content_hash": "262cbc095036aa2509dd2d8159f5b2f93b3e752ee89200073714971a8cf0d0c4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "262cbc095036aa2509dd2d8159f5b2f93b3e752ee89200073714971a8cf0d0c4",
+        "FEEDBURNER": "262cbc095036aa2509dd2d8159f5b2f93b3e752ee89200073714971a8cf0d0c4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:21.975400+00:00",
+      "first_seen_local": "2026-11-17T13:28:21.975398-05:00",
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
+    },
+    {
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "published": "Tue, 17 Nov 2026 11:20:18 +0000",
+      "published_utc": "2026-11-17T11:20:18+00:00",
+      "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-753942581084386770",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "content_hash": "90a7939e5ebf35d7aa2fb49ccb279bc2ac28bc0d9771c282920b90a8a0bd3053",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "90a7939e5ebf35d7aa2fb49ccb279bc2ac28bc0d9771c282920b90a8a0bd3053",
+        "FEEDBURNER": "90a7939e5ebf35d7aa2fb49ccb279bc2ac28bc0d9771c282920b90a8a0bd3053"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:21.975400+00:00",
+      "first_seen_local": "2026-11-17T13:28:21.975398-05:00",
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
+    },
+    {
+      "title": "GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server",
+      "url": "https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/",
+      "published": "Tue, 17 Nov 2026 11:13:01 +0000",
+      "published_utc": "2026-11-17T11:13:01+00:00",
+      "summary": "<p>GitLab released versions 19.5.6, 19.4.8, and 19.3.9 on November 16, 2026. These updates address 37 security vulnerabilities across both the Community Edition and the Enterprise Edition. The fixes include four high-severity issues, 24 medium-severity issues, and nine low-severity issues that affect development infrastructure, integrations, and AI features. Self-managed administrators should upgrade immediately. GitLab.com has patched [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/\">GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207645",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/gitlab-patches-37-security-vulnerabilities",
+      "content_hash": "73de5ed027c36bece408e7d0f5385a85265472bf4cb3d9af20fcb2b77c95d01c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "73de5ed027c36bece408e7d0f5385a85265472bf4cb3d9af20fcb2b77c95d01c",
+        "FEEDBURNER": "73de5ed027c36bece408e7d0f5385a85265472bf4cb3d9af20fcb2b77c95d01c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "published": "Tue, 17 Nov 2026 11:07:31 +0000",
+      "published_utc": "2026-11-17T11:07:31+00:00",
+      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.\n\n\"Before granting an app such",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8344175367159160808",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "content_hash": "5fb9aa50ea174c2f426fad9a1039887526794254fd214aa2a8496964ce545a9c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5fb9aa50ea174c2f426fad9a1039887526794254fd214aa2a8496964ce545a9c",
+        "FEEDBURNER": "5fb9aa50ea174c2f426fad9a1039887526794254fd214aa2a8496964ce545a9c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:21.975400+00:00",
+      "first_seen_local": "2026-11-17T13:28:21.975398-05:00",
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
+    },
+    {
+      "title": "Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games",
+      "url": "https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/",
+      "published": "Tue, 17 Nov 2026 10:55:52 +0000",
+      "published_utc": "2026-11-17T10:55:52+00:00",
+      "summary": "<p>Arion Kurtaj, the hacker responsible for the massive Grand Theft Auto 6 leak, has pleaded guilty to breaching Rockstar Games and attempting to extort the developer. The 21-year-old from Oxford admitted the offenses at Woolwich Crown Court on November 16, alongside other cybercrimes committed during his teenage involvement with Lapsus$. His pleas follow an unusual [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/\">Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207640",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty",
+      "content_hash": "e7761dd674808e9482c817fa8d23a5f7faa72405a2cb1af94ef60ecdadd69448",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e7761dd674808e9482c817fa8d23a5f7faa72405a2cb1af94ef60ecdadd69448",
+        "FEEDBURNER": "e7761dd674808e9482c817fa8d23a5f7faa72405a2cb1af94ef60ecdadd69448"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws",
+      "url": "https://gbhackers.com/mozilla-releases-firefox-160-security-update/",
+      "published": "Tue, 17 Nov 2026 10:09:20 +0000",
+      "published_utc": "2026-11-17T10:09:20+00:00",
+      "summary": "<p>Mozilla has released Firefox 160 with fixes for 99 security vulnerabilities. Mozilla announced the update on November 10, 2026, as part of Mozilla Foundation Security Advisory 2026-125, which rates its overall impact as high. The advisory lists 57 high-severity flaws, 24 moderate and 18 low. Most of the high-severity bugs are memory-safety problems. Use-after-free errors [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mozilla-releases-firefox-160-security-update/\">Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207635",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/mozilla-releases-firefox-160-security-update",
+      "content_hash": "924b5cf04315711bdfe978f554ec329b03f0f1486b5ea0caffae74f66479608e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "924b5cf04315711bdfe978f554ec329b03f0f1486b5ea0caffae74f66479608e",
+        "FEEDBURNER": "924b5cf04315711bdfe978f554ec329b03f0f1486b5ea0caffae74f66479608e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads",
+      "url": "https://gbhackers.com/malicious-dll-payload/",
+      "published": "Tue, 17 Nov 2026 09:21:02 +0000",
+      "published_utc": "2026-11-17T09:21:02+00:00",
+      "summary": "<p>A shipment-themed ZIP archive is delivering a multistage malware chain that combines DLL side-loading, disguised utilities, and encrypted Python code to deploy payloads associated with PureLogs and PureRAT infrastructure. Unit 42 observed the activity on October 21, 2026, according to research notes dated November 16 and credited to Shazan Khaja and Muhammet Algan. Originally named [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-dll-payload/\">Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207623",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/malicious-dll-payload",
+      "content_hash": "64c8f23c8fa68fc1dd16fdc7b038461e20bd81cce917bac13015073846402016",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "64c8f23c8fa68fc1dd16fdc7b038461e20bd81cce917bac13015073846402016",
+        "FEEDBURNER": "64c8f23c8fa68fc1dd16fdc7b038461e20bd81cce917bac13015073846402016"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
+    {
+      "title": "Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission",
+      "url": "https://gbhackers.com/apple-tightens-macos-27-3-security/",
+      "published": "Tue, 17 Nov 2026 09:12:56 +0000",
+      "published_utc": "2026-11-17T09:12:56+00:00",
+      "summary": "<p>Apple is enhancing data permissions in macOS 27.3 beta 2 by introducing new controls that let users restrict applications to specific folders or apps instead of granting broad access. Announced on November 16, 2026, these changes aim to increase transparency around powerful permissions while preserving the approvals users have already granted. Apple Tightens macOS 27.3 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-tightens-macos-27-3-security/\">Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207627",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apple-tightens-macos-27-3-security",
+      "content_hash": "df3d13c532eb9216f70cfb40c8e162ae0e0f79d98e01e561193b14463926efc2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "df3d13c532eb9216f70cfb40c8e162ae0e0f79d98e01e561193b14463926efc2",
+        "FEEDBURNER": "df3d13c532eb9216f70cfb40c8e162ae0e0f79d98e01e561193b14463926efc2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-17T18:28:16.473151+00:00",
+      "first_seen_local": "2026-11-17T13:28:16.473148-05:00",
+      "last_updated_utc": "2026-11-17T18:28:16.473151+00:00",
+      "last_updated_local": "2026-11-17T13:28:16.473148-05:00"
+    },
     {
       "title": "Old Bitly Links Hijacked to Redirect Users From McDonald’s, Burger King, and Government X Posts",
       "url": "https://gbhackers.com/old-bitly-links-hijacked-to-redirect-users/",
@@ -365,31 +1109,32 @@
     },
     {
       "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-      "url": "http://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
       "published": "Tue, 17 Nov 2026 06:29:27 +0000",
       "published_utc": "2026-11-17T06:29:27+00:00",
-      "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+      "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled and",
       "id": "tag:blogger.com,1999:blog-4802841478634147276.post-9008281985653351096",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-      "content_hash": "17aef094ca36fa0c5b0a296d2893c85a272e561d79da4c7c77bc479b93b7c2a1",
+      "content_hash": "1414d5528f51db83b8ad7b99d1530f330cc46d16a4b538786eefbaaf0c5dbebc",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "17aef094ca36fa0c5b0a296d2893c85a272e561d79da4c7c77bc479b93b7c2a1",
+        "ORIGINAL": "1414d5528f51db83b8ad7b99d1530f330cc46d16a4b538786eefbaaf0c5dbebc",
         "FEEDBURNER": "17aef094ca36fa0c5b0a296d2893c85a272e561d79da4c7c77bc479b93b7c2a1"
       },
-      "feed_comparison": "MATCH",
+      "feed_comparison": "CONTENT_DIFFERENT",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "17aef094ca36fa0c5b0a296d2893c85a272e561d79da4c7c77bc479b93b7c2a1",
+      "version": 2,
       "first_seen_utc": "2026-11-17T09:03:51.257780+00:00",
       "first_seen_local": "2026-11-17T04:03:51.257778-05:00",
-      "last_updated_utc": "2026-11-17T09:03:51.257780+00:00",
-      "last_updated_local": "2026-11-17T04:03:51.257778-05:00"
+      "last_updated_utc": "2026-11-17T18:28:21.975400+00:00",
+      "last_updated_local": "2026-11-17T13:28:21.975398-05:00"
     },
     {
       "title": "Hackers Could Hijack Claude Code Memory to Control AI Agents and Steal Sensitive Corporate Data",

@@ -10,11 +10,19 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 9,
+      "article_count": 10,
       "articles": [
         {
+          "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+          "url": "http://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+          "published": "Tue, 17 Nov 2026 19:34:20 +0000",
+          "published_utc": "2026-11-17T19:34:20+00:00",
+          "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-564996292986693005"
+        },
+        {
           "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-          "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+          "url": "http://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
           "published": "Tue, 17 Nov 2026 15:17:36 +0000",
           "published_utc": "2026-11-17T15:17:36+00:00",
           "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
@@ -22,7 +30,7 @@
         },
         {
           "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-          "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+          "url": "http://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
           "published": "Tue, 17 Nov 2026 15:17:28 +0000",
           "published_utc": "2026-11-17T15:17:28+00:00",
           "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\n\"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
@@ -30,7 +38,7 @@
         },
         {
           "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-          "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+          "url": "http://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
           "published": "Tue, 17 Nov 2026 12:25:06 +0000",
           "published_utc": "2026-11-17T12:25:06+00:00",
           "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
@@ -38,7 +46,7 @@
         },
         {
           "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-          "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+          "url": "http://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
           "published": "Tue, 17 Nov 2026 12:14:36 +0000",
           "published_utc": "2026-11-17T12:14:36+00:00",
           "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.\n\nNik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa",
@@ -46,7 +54,7 @@
         },
         {
           "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-          "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+          "url": "http://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
           "published": "Tue, 17 Nov 2026 11:20:18 +0000",
           "published_utc": "2026-11-17T11:20:18+00:00",
           "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.",
@@ -54,7 +62,7 @@
         },
         {
           "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-          "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+          "url": "http://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
           "published": "Tue, 17 Nov 2026 11:07:31 +0000",
           "published_utc": "2026-11-17T11:07:31+00:00",
           "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.\n\n\"Before granting an app such",
@@ -62,7 +70,7 @@
         },
         {
           "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-          "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "url": "http://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
           "published": "Tue, 17 Nov 2026 07:12:13 +0000",
           "published_utc": "2026-11-17T07:12:13+00:00",
           "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\n\nVisitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run.\n\nThe code was built to",
@@ -70,7 +78,7 @@
         },
         {
           "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-          "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+          "url": "http://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
           "published": "Tue, 17 Nov 2026 06:29:27 +0000",
           "published_utc": "2026-11-17T06:29:27+00:00",
           "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled and",
@@ -78,7 +86,7 @@
         },
         {
           "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-          "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+          "url": "http://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
           "published": "Tue, 17 Nov 2026 05:00:34 +0000",
           "published_utc": "2026-11-17T05:00:34+00:00",
           "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central.\n\nDescribing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform.\n\n\"HF3 builds on the",
@@ -95,8 +103,32 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 7,
+      "article_count": 10,
       "articles": [
+        {
+          "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+          "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+          "published": "Wed, 18 Nov 2026 01:04:20 +0530",
+          "published_utc": "2026-11-17T19:34:20+00:00",
+          "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
+          "id": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
+        },
+        {
+          "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+          "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+          "published": "Tue, 17 Nov 2026 20:47:36 +0530",
+          "published_utc": "2026-11-17T15:17:36+00:00",
+          "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+          "id": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+        },
+        {
+          "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+          "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+          "published": "Tue, 17 Nov 2026 20:47:28 +0530",
+          "published_utc": "2026-11-17T15:17:28+00:00",
+          "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\n\"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
+          "id": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
+        },
         {
           "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
           "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
@@ -142,7 +174,7 @@
           "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
           "published": "Tue, 17 Nov 2026 11:59:27 +0530",
           "published_utc": "2026-11-17T06:29:27+00:00",
-          "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+          "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled and",
           "id": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"
         },
         {

@@ -1,12 +1,40 @@
 {
   "date": "2026-11-17",
-  "article_count": 45,
+  "article_count": 46,
   "sources": {
+    "thehackernews": 10,
     "cybersecuritynews": 15,
-    "thehackernews": 9,
     "gbhackers": 21
   },
   "articles": [
+    {
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "url": "http://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "published": "Tue, 17 Nov 2026 19:34:20 +0000",
+      "published_utc": "2026-11-17T19:34:20+00:00",
+      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-564996292986693005",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "content_hash": "b32017b694237b71f57e585aa21ac50d6659cb928fdb5a39bcb5093a5af843b7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b32017b694237b71f57e585aa21ac50d6659cb928fdb5a39bcb5093a5af843b7",
+        "FEEDBURNER": "b32017b694237b71f57e585aa21ac50d6659cb928fdb5a39bcb5093a5af843b7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T01:15:12.733878+00:00",
+      "first_seen_local": "2026-11-17T20:15:12.733875-05:00",
+      "last_updated_utc": "2026-11-18T01:15:12.733878+00:00",
+      "last_updated_local": "2026-11-17T20:15:12.733875-05:00"
+    },
     {
       "title": "Malicious iOS Scripts Now Behind 1 in 5 Advertiser Suspensions as Coruna Exploit Kit Hides Inside Ad Landing Pages",
       "url": "https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages/",

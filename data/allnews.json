@@ -1,40 +1,566 @@
 {
-  "generated_at_utc": "2026-11-18T01:15:12.746194+00:00",
-  "generated_at_local": "2026-11-17T20:15:12.746206-05:00",
-  "article_count": 1,
-  "new_count": 1,
+  "generated_at_utc": "2026-11-18T09:02:17.062919+00:00",
+  "generated_at_local": "2026-11-18T04:02:17.062925-05:00",
+  "article_count": 20,
+  "new_count": 20,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1
+    "gbhackers": 10,
+    "thehackernews": 4,
+    "cybersecuritynews": 6
   },
   "articles": [
     {
-      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-      "url": "http://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-      "published": "Tue, 17 Nov 2026 19:34:20 +0000",
-      "published_utc": "2026-11-17T19:34:20+00:00",
-      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-564996292986693005",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-      "content_hash": "b32017b694237b71f57e585aa21ac50d6659cb928fdb5a39bcb5093a5af843b7",
+      "title": "11 Cloud Email Security (Microsoft 365 & Google): The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/cloud-email-security-buyers-guide/",
+      "published": "Wed, 18 Nov 2026 08:28:57 +0000",
+      "published_utc": "2026-11-18T08:28:57+00:00",
+      "summary": "<p>Cloud email security is the lane that assumes your mail already lives in Microsoft 365 or Google Workspace and asks the sharper question: what gets past the native filters, and how fast can you pull it back after delivery? The API-native architecture OAuth in, no MX change, behavioral analysis of the full mailbox context became [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cloud-email-security-buyers-guide/\">11 Cloud Email Security (Microsoft 365 &amp; Google): The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207321",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cloud-email-security-buyers-guide",
+      "content_hash": "3940854e3b2eccc9014eda94597402d526f462d25f46a43b039f353963efaabe",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "b32017b694237b71f57e585aa21ac50d6659cb928fdb5a39bcb5093a5af843b7",
-        "FEEDBURNER": "b32017b694237b71f57e585aa21ac50d6659cb928fdb5a39bcb5093a5af843b7"
+        "ORIGINAL": "3940854e3b2eccc9014eda94597402d526f462d25f46a43b039f353963efaabe",
+        "FEEDBURNER": "3940854e3b2eccc9014eda94597402d526f462d25f46a43b039f353963efaabe"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-18T01:15:12.733878+00:00",
-      "first_seen_local": "2026-11-17T20:15:12.733875-05:00",
-      "last_updated_utc": "2026-11-18T01:15:12.733878+00:00",
-      "last_updated_local": "2026-11-17T20:15:12.733875-05:00"
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Hackers Abuse Microsoft 365 Outage Confusion to Launch Fake Email Restoration Scams",
+      "url": "https://gbhackers.com/microsoft-365-outage/",
+      "published": "Wed, 18 Nov 2026 08:26:50 +0000",
+      "published_utc": "2026-11-18T08:26:50+00:00",
+      "summary": "<p>Attackers exploited the November 12 Microsoft 365 outage by sending fake service health notices that claimed four emails were being held and would be deleted unless recipients restored them. The messages cited EX1550543, the genuine Exchange Online incident number, and some imposed a 24-hour deadline. Microsoft Threat Intelligence said the activity was consistent with credential [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-365-outage/\">Hackers Abuse Microsoft 365 Outage Confusion to Launch Fake Email Restoration Scams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207763",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/microsoft-365-outage",
+      "content_hash": "7778c34d31857d25a93d1af871bc994287ba4727c7a7c55794a93df3fed61b30",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7778c34d31857d25a93d1af871bc994287ba4727c7a7c55794a93df3fed61b30",
+        "FEEDBURNER": "7778c34d31857d25a93d1af871bc994287ba4727c7a7c55794a93df3fed61b30"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "11 Email Security Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/email-security-buyers-guide/",
+      "published": "Wed, 18 Nov 2026 08:25:14 +0000",
+      "published_utc": "2026-11-18T08:25:14+00:00",
+      "summary": "<p>Email remains the number-one breach entry point, and the market that defends it split into two architectures that behave nothing alike: secure email gateways that sit inline and inspect mail before delivery, and API-based platforms that plug into Microsoft 365 or Google via API and catch what the native filters missed including the payload-less social-engineering [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/email-security-buyers-guide/\">11 Email Security Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207315",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/email-security-buyers-guide",
+      "content_hash": "f67a360a3d272e4e26b18502a0ba91993d3e705a93298d8d59c2343a1ceb9939",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f67a360a3d272e4e26b18502a0ba91993d3e705a93298d8d59c2343a1ceb9939",
+        "FEEDBURNER": "f67a360a3d272e4e26b18502a0ba91993d3e705a93298d8d59c2343a1ceb9939"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "url": "http://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "published": "Wed, 18 Nov 2026 08:24:31 +0000",
+      "published_utc": "2026-11-18T08:24:31+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8345022349179313889",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "content_hash": "06697156bed1b4135be3e96523f9d7f715ea5e8db42bb75e7d307474fe2fb7cc",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06697156bed1b4135be3e96523f9d7f715ea5e8db42bb75e7d307474fe2fb7cc"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "url": "http://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "published": "Wed, 18 Nov 2026 08:24:23 +0000",
+      "published_utc": "2026-11-18T08:24:23+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions.\n\n\"This critical memory-corruption",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-570848597876730843",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "content_hash": "02f506231d5e9132401c0178bdac9d20cd66ae7c11469bf12644d21a63daca63",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "02f506231d5e9132401c0178bdac9d20cd66ae7c11469bf12644d21a63daca63"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "11 Managed Vulnerability Scanning Services: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/managed-vulnerability-scanning-buyers-guide/",
+      "published": "Wed, 18 Nov 2026 08:21:16 +0000",
+      "published_utc": "2026-11-18T08:21:16+00:00",
+      "summary": "<p>Managed vulnerability scanning exists because owning a scanner and running a program are different jobs, and the second one is where most in-house efforts quietly stall. These services run the scanning, triage the findings, and hand you a prioritized list but the value cliff is the handoff boundary: what the provider owns ends at a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/managed-vulnerability-scanning-buyers-guide/\">11 Managed Vulnerability Scanning Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207286",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/managed-vulnerability-scanning-buyers-guide",
+      "content_hash": "2749571db837edf8db8f8a07e2eaa1b51830a9920ba41a0a4667e1cd7f116ca3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2749571db837edf8db8f8a07e2eaa1b51830a9920ba41a0a4667e1cd7f116ca3",
+        "FEEDBURNER": "2749571db837edf8db8f8a07e2eaa1b51830a9920ba41a0a4667e1cd7f116ca3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "11 Red Team & Adversary Emulation Services: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/red-team-services-buyers-guide/",
+      "published": "Wed, 18 Nov 2026 08:18:46 +0000",
+      "published_utc": "2026-11-18T08:18:46+00:00",
+      "summary": "<p>A red team engagement is not a bigger penetration test it is a measured answer to one question: does your detection and response function actually catch a capable adversary pursuing a specific objective? The firms below span intelligence-led houses that emulate named threat actors, elite tradecraft boutiques, and consulting-scale benches, and the difference that decides [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-team-services-buyers-guide/\">11 Red Team &amp; Adversary Emulation Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207257",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/red-team-services-buyers-guide",
+      "content_hash": "70a6394e00d37e55a2e43158397e1d465b83b832332d64f6fff9b7dccef7c2e7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "70a6394e00d37e55a2e43158397e1d465b83b832332d64f6fff9b7dccef7c2e7",
+        "FEEDBURNER": "70a6394e00d37e55a2e43158397e1d465b83b832332d64f6fff9b7dccef7c2e7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "11 PTaaS Platforms: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/ptaas-buyers-guide/",
+      "published": "Wed, 18 Nov 2026 08:09:45 +0000",
+      "published_utc": "2026-11-18T08:09:45+00:00",
+      "summary": "<p>Penetration-testing-as-a-service turned the annual engagement into a living register: a platform where findings surface continuously, retesting is a button, and scope stays current between formal tests. But the label covers three genuinely different delivery models vetted private researcher communities, employed consultant benches, and bug-bounty-adjacent crowds and buying the wrong one for your risk tolerance is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ptaas-buyers-guide/\">11 PTaaS Platforms: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207253",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ptaas-buyers-guide",
+      "content_hash": "14fedc24837ecb1ac03b468fc2427c9198868ff4bab933b9f580e3f67a9728d8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "14fedc24837ecb1ac03b468fc2427c9198868ff4bab933b9f580e3f67a9728d8",
+        "FEEDBURNER": "14fedc24837ecb1ac03b468fc2427c9198868ff4bab933b9f580e3f67a9728d8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Hackers Impersonate Major Defense Companies to Spread GravityRAT Spyware and Steal Sensitive Data",
+      "url": "https://cybersecuritynews.com/spread-gravityrat-spyware/",
+      "published": "Wed, 18 Nov 2026 08:07:47 +0000",
+      "published_utc": "2026-11-18T08:07:47+00:00",
+      "summary": "<p>Hackers are using the logos of major defense and aerospace companies on a fake recruitment website to spread GravityRAT spyware. The site promises connections to overseas employers and offers an Android résumé builder that can steal text messages, location data, and files. Lockheed Martin, Airbus, and BAE Systems are among the brands displayed as supposed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/spread-gravityrat-spyware/\">Hackers Impersonate Major Defense Companies to Spread GravityRAT Spyware and Steal Sensitive Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172593",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/spread-gravityrat-spyware",
+      "content_hash": "68dc8192dbc3ac66d79a61a98e6ef9134711f93f1f3cd4ab02adb581fb5fa9bb",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "68dc8192dbc3ac66d79a61a98e6ef9134711f93f1f3cd4ab02adb581fb5fa9bb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.279962+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.279959-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.279962+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.279959-05:00"
+    },
+    {
+      "title": "Japan Shuts Down Fugaku Supercomputer After Hackers Breach Internal Servers",
+      "url": "https://cybersecuritynews.com/japan-shuts-down-fugaku-supercomputer/",
+      "published": "Wed, 18 Nov 2026 07:59:16 +0000",
+      "published_utc": "2026-11-18T07:59:16+00:00",
+      "summary": "<p>Japan’s RIKEN research institute suspended operations of its Fugaku supercomputer on November 14, 2026, after an intruder breached the system’s internal operations network and installed malicious software on some servers. The breach may have exposed account information for up to 4,597 users across Fugaku and RIKYU. RIKEN also confirmed that the intruder used some stolen [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/japan-shuts-down-fugaku-supercomputer/\">Japan Shuts Down Fugaku Supercomputer After Hackers Breach Internal Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172575",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/japan-shuts-down-fugaku-supercomputer",
+      "content_hash": "77ba77791488906689029c4e1cde321759da94e75e0173bb4f98828c059b83f7",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "77ba77791488906689029c4e1cde321759da94e75e0173bb4f98828c059b83f7"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.279962+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.279959-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.279962+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.279959-05:00"
+    },
+    {
+      "title": "US Trucking Companies Targeted by Fake Carrier Verification Sites Stealing Passwords and Financial Data",
+      "url": "https://gbhackers.com/fake-carrier-verification-sites/",
+      "published": "Wed, 18 Nov 2026 07:49:55 +0000",
+      "published_utc": "2026-11-18T07:49:55+00:00",
+      "summary": "<p>A phishing campaign targeting US trucking companies uses counterfeit federal carrier verification sites to collect identity records, fleet fuel account passwords, and one-time authentication codes. Researchers linked approximately 1,430 domains to HelloFriends in 2026. That figure measures associated infrastructure, not the number of companies compromised. The report did not quantify successful account takeovers or financial [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-carrier-verification-sites/\">US Trucking Companies Targeted by Fake Carrier Verification Sites Stealing Passwords and Financial Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207749",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-carrier-verification-sites",
+      "content_hash": "d977c8898a30fdacf81f2451b92d0bbf666cd92faad53b050dacf52ea1d9eb86",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d977c8898a30fdacf81f2451b92d0bbf666cd92faad53b050dacf52ea1d9eb86",
+        "FEEDBURNER": "d977c8898a30fdacf81f2451b92d0bbf666cd92faad53b050dacf52ea1d9eb86"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Hackers Use Stolen FortiGate VPN Credentials to Access Corporate Networks and Deploy Custom Malware",
+      "url": "https://cybersecuritynews.com/stolen-fortigate-vpn-credentials/",
+      "published": "Wed, 18 Nov 2026 07:16:17 +0000",
+      "published_utc": "2026-11-18T07:16:17+00:00",
+      "summary": "<p>A threat actor known as &#8220;tcherber&#8221; is selling and using stolen FortiGate VPN logins to get into company networks. The same person also builds custom malware, including a stealer, a remote desktop tool, and ransomware. The campaign shows how one weak VPN password can open the way to data theft and file encryption. The actor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/stolen-fortigate-vpn-credentials/\">Hackers Use Stolen FortiGate VPN Credentials to Access Corporate Networks and Deploy Custom Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172583",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/stolen-fortigate-vpn-credentials",
+      "content_hash": "7a8808e7decbf0181d7ecc4a1e3bc2c7a3dcf18970546bbd1b773fcbb50bc952",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7a8808e7decbf0181d7ecc4a1e3bc2c7a3dcf18970546bbd1b773fcbb50bc952",
+        "FEEDBURNER": "7a8808e7decbf0181d7ecc4a1e3bc2c7a3dcf18970546bbd1b773fcbb50bc952"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.279962+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.279959-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.279962+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.279959-05:00"
+    },
+    {
+      "title": "Hackers Hijack AI Coding Agents Through Malicious GitHub Repositories to Steal Developer Credentials",
+      "url": "https://cybersecuritynews.com/hackers-hijack-ai-coding-agents/",
+      "published": "Wed, 18 Nov 2026 06:51:20 +0000",
+      "published_utc": "2026-11-18T06:51:20+00:00",
+      "summary": "<p>Hackers are planting poisoned files in GitHub repositories to make AI coding assistants run hidden malware. The malware steals developer credentials, and it also uses them to spread to other projects. The campaign targets tools such as Claude Code and Cursor, and 22 malicious GitHub links have been found so far. The trick is simple. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-ai-coding-agents/\">Hackers Hijack AI Coding Agents Through Malicious GitHub Repositories to Steal Developer Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172579",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-hijack-ai-coding-agents",
+      "content_hash": "20b2570cc54ddd47d7cadc8209170d7a9b18dce9f7750153567faa200fcdb0a6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "20b2570cc54ddd47d7cadc8209170d7a9b18dce9f7750153567faa200fcdb0a6",
+        "FEEDBURNER": "20b2570cc54ddd47d7cadc8209170d7a9b18dce9f7750153567faa200fcdb0a6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.279962+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.279959-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.279962+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.279959-05:00"
+    },
+    {
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "url": "http://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "published": "Wed, 18 Nov 2026 06:45:26 +0000",
+      "published_utc": "2026-11-18T06:45:26+00:00",
+      "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6874803064375102311",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "content_hash": "f6bb86624bc7dffeccea6e2c0c426696b823c2949ca54621e5705c7e78f66f01",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f6bb86624bc7dffeccea6e2c0c426696b823c2949ca54621e5705c7e78f66f01",
+        "FEEDBURNER": "f6bb86624bc7dffeccea6e2c0c426696b823c2949ca54621e5705c7e78f66f01"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "Hackers Abuse FortiGate and SonicWall VPN Access to Infiltrate Enterprise Networks",
+      "url": "https://gbhackers.com/stolen-vpn-credentials/",
+      "published": "Wed, 18 Nov 2026 06:41:42 +0000",
+      "published_utc": "2026-11-18T06:41:42+00:00",
+      "summary": "<p>An enterprise intrusion operation linked to the handle tcherber, recovering more than 500 FortiGate VPN credential entries and logs showing successful tunnels into multiple victim networks in May and June 2026. The findings establish unauthorized access through FortiGate tunnels, not a confirmed SonicWall breach or exploitation of a newly disclosed VPN vulnerability. The recovered Go [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stolen-vpn-credentials/\">Hackers Abuse FortiGate and SonicWall VPN Access to Infiltrate Enterprise Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207737",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/stolen-vpn-credentials",
+      "content_hash": "38f9a4345af0deecf5e8fe7c05d9bfbb50c52cdcdc85fb85c360a04a1c1bd1b2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "38f9a4345af0deecf5e8fe7c05d9bfbb50c52cdcdc85fb85c360a04a1c1bd1b2",
+        "FEEDBURNER": "38f9a4345af0deecf5e8fe7c05d9bfbb50c52cdcdc85fb85c360a04a1c1bd1b2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Critical Apache HTTP Server Vulnerability Exploited in the Wild to Gain Remote Code Execution",
+      "url": "https://gbhackers.com/critical-apache-http-server-vulnerability/",
+      "published": "Wed, 18 Nov 2026 06:24:07 +0000",
+      "published_utc": "2026-11-18T06:24:07+00:00",
+      "summary": "<p>Attackers are reportedly exploiting CVE-2026-119618, a critical vulnerability in Apache HTTP Server’s HTTP/2 module that can allow unauthenticated remote code execution. The Cyber Security Agency of Singapore warned on November 17 that exploitation was underway and that a public proof of concept was available. The agency urged administrators to patch immediately but did not identify [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-apache-http-server-vulnerability/\">Critical Apache HTTP Server Vulnerability Exploited in the Wild to Gain Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207735",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-apache-http-server-vulnerability",
+      "content_hash": "7c8fad386d5de31820d0518036056cb7bf58dfedb95774880760fc4cd8435c14",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7c8fad386d5de31820d0518036056cb7bf58dfedb95774880760fc4cd8435c14",
+        "FEEDBURNER": "7c8fad386d5de31820d0518036056cb7bf58dfedb95774880760fc4cd8435c14"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Google Reveals How Russian Hackers Used One Cloud Breach to Compromise Another US Organization",
+      "url": "https://cybersecuritynews.com/russian-hackers-3/",
+      "published": "Wed, 18 Nov 2026 06:18:38 +0000",
+      "published_utc": "2026-11-18T06:18:38+00:00",
+      "summary": "<p>Russian state-sponsored hackers broke into a U.S. organization’s Google Workspace environment in late 2025, stole its staff directory and cloud files, and used information from the breach to target a second U.S. organization in 2026. Google and Mandiant said the hackers posed as an employee of the first victim, turning a familiar professional identity into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/russian-hackers-3/\">Google Reveals How Russian Hackers Used One Cloud Breach to Compromise Another US Organization</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172572",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/russian-hackers-3",
+      "content_hash": "dd71923ae2181bc937b340de6cc61fc38458c553fe6a460e9119c2563acffe40",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd71923ae2181bc937b340de6cc61fc38458c553fe6a460e9119c2563acffe40",
+        "FEEDBURNER": "dd71923ae2181bc937b340de6cc61fc38458c553fe6a460e9119c2563acffe40"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.279962+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.279959-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.279962+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.279959-05:00"
+    },
+    {
+      "title": "Google Warns Russian Hackers Are Using Stolen Cloud Data to Impersonate Employees and Breach More Organizations",
+      "url": "https://gbhackers.com/stolen-cloud-data/",
+      "published": "Wed, 18 Nov 2026 06:00:08 +0000",
+      "published_utc": "2026-11-18T06:00:08+00:00",
+      "summary": "<p>Two U.S. cloud intrusions to COLD RELIC, a Russian espionage group that used information stolen from one organization to impersonate an employee and breach another. The cases show why a cloud breach can put business partners at risk even after the original victim has contained it: stolen staff directories and correspondence can help attackers pose [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stolen-cloud-data/\">Google Warns Russian Hackers Are Using Stolen Cloud Data to Impersonate Employees and Breach More Organizations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207717",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/stolen-cloud-data",
+      "content_hash": "c15c4c19f764a0b583d1bc1de7dbf2b8574ee9f57de4a717c85e40341f74f3e5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c15c4c19f764a0b583d1bc1de7dbf2b8574ee9f57de4a717c85e40341f74f3e5",
+        "FEEDBURNER": "c15c4c19f764a0b583d1bc1de7dbf2b8574ee9f57de4a717c85e40341f74f3e5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.015936+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.015933-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.015936+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.015933-05:00"
+    },
+    {
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "url": "http://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "published": "Wed, 18 Nov 2026 05:58:04 +0000",
+      "published_utc": "2026-11-18T05:58:04+00:00",
+      "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6228029616927904816",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "content_hash": "d786c44cff40c862d393f6862d96bb0be55277447c517912cc508b27a80a1eac",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d786c44cff40c862d393f6862d96bb0be55277447c517912cc508b27a80a1eac",
+        "FEEDBURNER": "d786c44cff40c862d393f6862d96bb0be55277447c517912cc508b27a80a1eac"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/apache-http-server-rce-exploitation/",
+      "published": "Wed, 18 Nov 2026 05:06:49 +0000",
+      "published_utc": "2026-11-18T05:06:49+00:00",
+      "summary": "<p>Apache’s HTTP/2 module, mod_http2, has a critical flaw tracked as CVE-2026-119618 that reportedly allows unauthenticated remote code execution. Apache released version 2.4.71 on November 11 to fix the flaw, which it rates as critical, while Singapore’s CSA assigns it a high-severity CVSS 3.1 score of 8.1/10. Singapore’s CSA warned of active exploitation on November 17, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-http-server-rce-exploitation/\">Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172560",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apache-http-server-rce-exploitation",
+      "content_hash": "c94a806595a9a37e83f83e401753abb5b55bbfb190cd09e1312e7946262dcbc2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c94a806595a9a37e83f83e401753abb5b55bbfb190cd09e1312e7946262dcbc2",
+        "FEEDBURNER": "c94a806595a9a37e83f83e401753abb5b55bbfb190cd09e1312e7946262dcbc2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:12.279962+00:00",
+      "first_seen_local": "2026-11-18T04:02:12.279959-05:00",
+      "last_updated_utc": "2026-11-18T09:02:12.279962+00:00",
+      "last_updated_local": "2026-11-18T04:02:12.279959-05:00"
     }
   ]
 }

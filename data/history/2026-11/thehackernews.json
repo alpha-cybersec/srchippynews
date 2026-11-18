@@ -2,8 +2,116 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 139,
+  "article_count": 143,
   "articles": [
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "url": "http://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "published": "Wed, 18 Nov 2026 08:24:31 +0000",
+      "published_utc": "2026-11-18T08:24:31+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8345022349179313889",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "content_hash": "06697156bed1b4135be3e96523f9d7f715ea5e8db42bb75e7d307474fe2fb7cc",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06697156bed1b4135be3e96523f9d7f715ea5e8db42bb75e7d307474fe2fb7cc"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "url": "http://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "published": "Wed, 18 Nov 2026 08:24:23 +0000",
+      "published_utc": "2026-11-18T08:24:23+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions.\n\n\"This critical memory-corruption",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-570848597876730843",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "content_hash": "02f506231d5e9132401c0178bdac9d20cd66ae7c11469bf12644d21a63daca63",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "02f506231d5e9132401c0178bdac9d20cd66ae7c11469bf12644d21a63daca63"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "url": "http://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "published": "Wed, 18 Nov 2026 06:45:26 +0000",
+      "published_utc": "2026-11-18T06:45:26+00:00",
+      "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6874803064375102311",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "content_hash": "f6bb86624bc7dffeccea6e2c0c426696b823c2949ca54621e5705c7e78f66f01",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f6bb86624bc7dffeccea6e2c0c426696b823c2949ca54621e5705c7e78f66f01",
+        "FEEDBURNER": "f6bb86624bc7dffeccea6e2c0c426696b823c2949ca54621e5705c7e78f66f01"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
+    {
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "url": "http://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "published": "Wed, 18 Nov 2026 05:58:04 +0000",
+      "published_utc": "2026-11-18T05:58:04+00:00",
+      "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6228029616927904816",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "content_hash": "d786c44cff40c862d393f6862d96bb0be55277447c517912cc508b27a80a1eac",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d786c44cff40c862d393f6862d96bb0be55277447c517912cc508b27a80a1eac",
+        "FEEDBURNER": "d786c44cff40c862d393f6862d96bb0be55277447c517912cc508b27a80a1eac"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-18T09:02:17.054954+00:00",
+      "first_seen_local": "2026-11-18T04:02:17.054952-05:00",
+      "last_updated_utc": "2026-11-18T09:02:17.054954+00:00",
+      "last_updated_local": "2026-11-18T04:02:17.054952-05:00"
+    },
     {
       "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
       "url": "http://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",

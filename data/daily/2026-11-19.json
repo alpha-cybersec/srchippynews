@@ -1,11 +1,846 @@
 {
   "date": "2026-11-19",
-  "article_count": 12,
+  "article_count": 42,
   "sources": {
-    "gbhackers": 9,
-    "cybersecuritynews": 3
+    "thehackernews": 9,
+    "cybersecuritynews": 14,
+    "gbhackers": 19
   },
   "articles": [
+    {
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "url": "http://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "published": "Thu, 19 Nov 2026 16:59:56 +0000",
+      "published_utc": "2026-11-19T16:59:56+00:00",
+      "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8725273141046748962",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "content_hash": "e39335fac9fd16534b90c7cb793cdf562340314bed85b7fe5193e63761eb6cee",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e39335fac9fd16534b90c7cb793cdf562340314bed85b7fe5193e63761eb6cee"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "New phpAfterShell Attack Bypasses PHP2Shell Fix to Enable Remote Code Execution",
+      "url": "https://cybersecuritynews.com/phpaftershell-rce/",
+      "published": "Thu, 19 Nov 2026 16:50:33 +0000",
+      "published_utc": "2026-11-19T16:50:33+00:00",
+      "summary": "<p>A new PHP attack dubbed phpAfterShell can lead to unauthenticated remote code execution on vulnerable servers, even if they have the October patches for PHP2Shell. Researchers at Depthfirst disclosed the flaw on November 19 and demonstrated how it could be combined with a separate bug in PHP to run code remotely. The vulnerability, tracked as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/phpaftershell-rce/\">New phpAfterShell Attack Bypasses PHP2Shell Fix to Enable Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173057",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/phpaftershell-rce",
+      "content_hash": "9ea755e0c637fac33e3ba2b535804c03520e2f96cf05d76582fa992e25531a12",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9ea755e0c637fac33e3ba2b535804c03520e2f96cf05d76582fa992e25531a12"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Critical VMware vCenter Flaws Let Hackers Bypass Authentication and Access Servers",
+      "url": "https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/",
+      "published": "Thu, 19 Nov 2026 16:30:55 +0000",
+      "published_utc": "2026-11-19T16:30:55+00:00",
+      "summary": "<p>Broadcom has released fixes for five VMware flaws, and one lets anyone with network access to vCenter skip login. Broadcom published the advisory,&#160;VMSA-2026-0009,&#160;on November 19, 2026. It covers vCenter, SDDC Manager, and VMware Tools. CVSS scores range from 6.7 to 9.8, and Broadcom has listed no workarounds. The most critical flaw is CVE-2026-123890, an authentication [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/\">Critical VMware vCenter Flaws Let Hackers Bypass Authentication and Access Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172990",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/vmware-vcenter-authentication-bypass",
+      "content_hash": "8307148ecd3625e10ab4b7b79e492b1901a9c27fae49f491117a80318ab50d35",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8307148ecd3625e10ab4b7b79e492b1901a9c27fae49f491117a80318ab50d35",
+        "FEEDBURNER": "8307148ecd3625e10ab4b7b79e492b1901a9c27fae49f491117a80318ab50d35"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "JPMorgan Chase Confirms Third-Party Cyberattack That May Have Exposed Customer Names and Emails",
+      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/",
+      "published": "Thu, 19 Nov 2026 16:14:31 +0000",
+      "published_utc": "2026-11-19T16:14:31+00:00",
+      "summary": "<p>JPMorgan Chase confirmed on November 19 that a cyberattack targeted outside companies that provide services to the bank. The bank said it believes attackers accessed marketing data held by those vendors, which may include some customer names and email addresses. It did not say how many customers may be affected. J.P. Morgan and Chase said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/jpmorgan-third-party-data-breach/\">JPMorgan Chase Confirms Third-Party Cyberattack That May Have Exposed Customer Names and Emails</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173076",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/jpmorgan-third-party-data-breach",
+      "content_hash": "0bf449cef271774fe63bb8ea3f281fe29f812b62fa601cb7a570cb63336ddb53",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0bf449cef271774fe63bb8ea3f281fe29f812b62fa601cb7a570cb63336ddb53",
+        "FEEDBURNER": "0bf449cef271774fe63bb8ea3f281fe29f812b62fa601cb7a570cb63336ddb53"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "http://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "published": "Thu, 19 Nov 2026 15:18:07 +0000",
+      "published_utc": "2026-11-19T15:18:07+00:00",
+      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6204821822778887091",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "content_hash": "06b9c3c8f5b704de3e87bece12b3a3c7eaf6a914cea929acc99102c6e359d5a1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06b9c3c8f5b704de3e87bece12b3a3c7eaf6a914cea929acc99102c6e359d5a1",
+        "FEEDBURNER": "06b9c3c8f5b704de3e87bece12b3a3c7eaf6a914cea929acc99102c6e359d5a1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "url": "http://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "published": "Thu, 19 Nov 2026 15:11:06 +0000",
+      "published_utc": "2026-11-19T15:11:06+00:00",
+      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.\n\nThe",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2269566677132347035",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "content_hash": "53f2d0af28641e3f4b90ac2ea8dc3164034996d66240d2ecbf8638408d06eb18",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "53f2d0af28641e3f4b90ac2ea8dc3164034996d66240d2ecbf8638408d06eb18",
+        "FEEDBURNER": "53f2d0af28641e3f4b90ac2ea8dc3164034996d66240d2ecbf8638408d06eb18"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
+      "url": "https://gbhackers.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
+      "published": "Thu, 19 Nov 2026 15:03:35 +0000",
+      "published_utc": "2026-11-19T15:03:35+00:00",
+      "summary": "<p>Torrance, California, USA, November 19th, 2026, CyberNewswire Criminal IP, a cyber threat intelligence platform developed by AI SPERA, officially launched Criminal IP AITEM (AI-Powered Threat Exposure Management) on November 18, 2026. An evolution of Criminal IP ASM, AITEM combines internet-facing asset discovery with AI-assisted investigation, public-source exposure analysis, and dark web monitoring. It also introduces [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/\">Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208358",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management",
+      "content_hash": "4b020955832e2ee455d2c67ff642604731bc347ad9846cb5322843dad98b0ee0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4b020955832e2ee455d2c67ff642604731bc347ad9846cb5322843dad98b0ee0",
+        "FEEDBURNER": "4b020955832e2ee455d2c67ff642604731bc347ad9846cb5322843dad98b0ee0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
+      "url": "https://cybersecuritynews.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
+      "published": "Thu, 19 Nov 2026 15:03:15 +0000",
+      "published_utc": "2026-11-19T15:03:15+00:00",
+      "summary": "<p>Torrance, California, USA, November 19th, 2026, CyberNewswire Criminal IP, a cyber threat intelligence platform developed by AI SPERA, officially launched Criminal IP AITEM (AI-Powered Threat Exposure Management) on November 18, 2026. An evolution of Criminal IP ASM, AITEM combines internet-facing asset discovery with AI-assisted investigation, public-source exposure analysis, and dark web monitoring. It also introduces [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/\">Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172953",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management",
+      "content_hash": "8b361aa8b9dd3b06e8d1077d5898fc1f88ac7777027caeffe436ee499bd8c315",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8b361aa8b9dd3b06e8d1077d5898fc1f88ac7777027caeffe436ee499bd8c315",
+        "FEEDBURNER": "8b361aa8b9dd3b06e8d1077d5898fc1f88ac7777027caeffe436ee499bd8c315"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Urges Users to Update",
+      "url": "https://cybersecuritynews.com/php-8-released/",
+      "published": "Thu, 19 Nov 2026 14:42:41 +0000",
+      "published_utc": "2026-11-19T14:42:41+00:00",
+      "summary": "<p>The PHP security team has warned of vulnerabilities across all branches covered by its November 19, 2026 security update, with the most severe issues rated critical. The team urged website operators and hosting providers to update promptly. The critical flaws require non-default settings or uncommon setups, so not every installation faces the same risk. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-8-released/\">PHP Warns of Critical Security Flaws Affecting All Supported Versions, Urges Users to Update</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173004",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/php-8-released",
+      "content_hash": "b1be6cbcbb86379bbbf6654b15d5193471f48fdebcf0ee32b9c3a0587cd4772e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b1be6cbcbb86379bbbf6654b15d5193471f48fdebcf0ee32b9c3a0587cd4772e",
+        "FEEDBURNER": "b1be6cbcbb86379bbbf6654b15d5193471f48fdebcf0ee32b9c3a0587cd4772e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "url": "http://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "published": "Thu, 19 Nov 2026 14:33:06 +0000",
+      "published_utc": "2026-11-19T14:33:06+00:00",
+      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.\n\nThe Drupal Security Team disclosed",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7497667371072548029",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "content_hash": "38cb96d6781f3d2e2e92a09d9bbbd25c6f312441bf0efc6e3969e827368d65fc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "38cb96d6781f3d2e2e92a09d9bbbd25c6f312441bf0efc6e3969e827368d65fc",
+        "FEEDBURNER": "38cb96d6781f3d2e2e92a09d9bbbd25c6f312441bf0efc6e3969e827368d65fc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "Meta AI Agent Muse Reads Encrypted Messages Through Android Notifications and Mac Permissions",
+      "url": "https://cybersecuritynews.com/muse-reads-encrypted-messages/",
+      "published": "Thu, 19 Nov 2026 14:11:32 +0000",
+      "published_utc": "2026-11-19T14:11:32+00:00",
+      "summary": "<p>Meta’s AI agent Muse read Signal message text on Android phones and Macs without directly connecting to the encrypted messaging app, Reuters reported on November 18. The investigation found that Muse could use Android notifications and macOS permissions to see text already displayed on a device. The tests did not show that Muse broke Signal’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/muse-reads-encrypted-messages/\">Meta AI Agent Muse Reads Encrypted Messages Through Android Notifications and Mac Permissions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172947",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/muse-reads-encrypted-messages",
+      "content_hash": "4f85d606f34ce8919f9a014962e2aa7c02ec12c8d62f8cfdf1c63ed53d7530a3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4f85d606f34ce8919f9a014962e2aa7c02ec12c8d62f8cfdf1c63ed53d7530a3",
+        "FEEDBURNER": "4f85d606f34ce8919f9a014962e2aa7c02ec12c8d62f8cfdf1c63ed53d7530a3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "BADBOX 3.0 Malware Infects Android TV Boxes to Generate 40 Billion Fraudulent Ad Requests Daily",
+      "url": "https://cybersecuritynews.com/badbox-3-0-malware/",
+      "published": "Thu, 19 Nov 2026 14:05:35 +0000",
+      "published_utc": "2026-11-19T14:05:35+00:00",
+      "summary": "<p>Low-cost Android streaming boxes helped power an advertising fraud operation that generated roughly 40 billion bid requests a day at its peak. Known as BADBOX 3.0, the campaign used infected devices to play video ads outside the visible screen while making the traffic look as though it came from legitimate streaming apps. Some of the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/badbox-3-0-malware/\">BADBOX 3.0 Malware Infects Android TV Boxes to Generate 40 Billion Fraudulent Ad Requests Daily</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172941",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/badbox-3-0-malware",
+      "content_hash": "396ad77c384623adf516426b3ebfdc4cf2d242ffc2f0f1d04b0bb32760672bb8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "396ad77c384623adf516426b3ebfdc4cf2d242ffc2f0f1d04b0bb32760672bb8",
+        "FEEDBURNER": "396ad77c384623adf516426b3ebfdc4cf2d242ffc2f0f1d04b0bb32760672bb8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Hackers Steal US Bank, IRS and Social Security Login Credentials From Infected Computers",
+      "url": "https://cybersecuritynews.com/hackers-steal-us-bank/",
+      "published": "Thu, 19 Nov 2026 13:43:37 +0000",
+      "published_utc": "2026-11-19T13:43:37+00:00",
+      "summary": "<p>A Russian-speaking cybercrime operation has been stealing logins for US banks, the IRS and Social Security from infected Windows PCs. The victims were ordinary people. Many used a password manager and multi-factor authentication (MFA), and it did not help. The attackers did not break into any bank or government agency. They went after the victim&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-steal-us-bank/\">Hackers Steal US Bank, IRS and Social Security Login Credentials From Infected Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172935",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-steal-us-bank",
+      "content_hash": "d98b6867baeb3ff8c4ae403641b3519526b1e6a17856f08ab43081420759dc29",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d98b6867baeb3ff8c4ae403641b3519526b1e6a17856f08ab43081420759dc29",
+        "FEEDBURNER": "d98b6867baeb3ff8c4ae403641b3519526b1e6a17856f08ab43081420759dc29"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Synology Fixes Critical Security Flaws With CVSS Scores of 9.8 and 8.1 Across NAS Platforms",
+      "url": "https://gbhackers.com/synology-fixes-critical-security-flaws/",
+      "published": "Thu, 19 Nov 2026 13:08:26 +0000",
+      "published_utc": "2026-11-19T13:08:26+00:00",
+      "summary": "<p>Synology has announced two remotely exploitable vulnerabilities affecting DiskStation Manager (DSM) and BeeStation OS. Fixes for both DSM branches are scheduled for release by November 20, 2026. The notices, dated November 19, identify a critical OAuth API vulnerability (CVE-2026-120382) and an NGINX HTTP/2 memory corruption flaw (CVE-2026-123007). Synology rates both vulnerabilities as Critical at the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/synology-fixes-critical-security-flaws/\">Synology Fixes Critical Security Flaws With CVSS Scores of 9.8 and 8.1 Across NAS Platforms</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208333",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/synology-fixes-critical-security-flaws",
+      "content_hash": "8d60b117973bebb3cff200f477c1921fab3c89ffff2ca66b38460cf1e78df529",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8d60b117973bebb3cff200f477c1921fab3c89ffff2ca66b38460cf1e78df529",
+        "FEEDBURNER": "8d60b117973bebb3cff200f477c1921fab3c89ffff2ca66b38460cf1e78df529"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "CISA Warns Hackers Are Actively Exploiting Four Flaws in Synology, LiteLLM, Apache Axis and REDCap",
+      "url": "https://cybersecuritynews.com/flaws-in-synology-litellm-apache-axis-and-redcap/",
+      "published": "Thu, 19 Nov 2026 13:06:39 +0000",
+      "published_utc": "2026-11-19T13:06:39+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four flaws to its Known Exploited Vulnerabilities (KEV) catalog on November 18, 2026, after finding evidence that attackers were already exploiting them. The entries cover Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis and Vanderbilt University’s Research Electronic Data Capture platform, better known as REDCap. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/flaws-in-synology-litellm-apache-axis-and-redcap/\">CISA Warns Hackers Are Actively Exploiting Four Flaws in Synology, LiteLLM, Apache Axis and REDCap</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172931",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/flaws-in-synology-litellm-apache-axis-and-redcap",
+      "content_hash": "6a7cd8467637b97db757615311090e3ab423731033f3c76a5ec0e1d5fb789d8a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6a7cd8467637b97db757615311090e3ab423731033f3c76a5ec0e1d5fb789d8a",
+        "FEEDBURNER": "6a7cd8467637b97db757615311090e3ab423731033f3c76a5ec0e1d5fb789d8a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Ubiquiti UniFi Access Vulnerabilities Enable Privilege Escalation and Unauthorized Command Execution",
+      "url": "https://gbhackers.com/ubiquiti-unifi-access-vulnerabilities/",
+      "published": "Thu, 19 Nov 2026 12:52:25 +0000",
+      "published_utc": "2026-11-19T12:52:25+00:00",
+      "summary": "<p>Ubiquiti has disclosed seven vulnerabilities in its UniFi Access Application that could let attackers escalate privileges, execute code as root on the host, or run unauthorized commands on certain managed devices. Security Advisory Bulletin 073, dated November 18, 2026, identifies versions 4.3.22 and earlier as being affected and advises administrators to update to version 4.3.24 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubiquiti-unifi-access-vulnerabilities/\">Ubiquiti UniFi Access Vulnerabilities Enable Privilege Escalation and Unauthorized Command Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208302",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ubiquiti-unifi-access-vulnerabilities",
+      "content_hash": "dd112c1012286c256c53adce461baf1ee9fcc49831312bc2cf69d414f01d88ca",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "dd112c1012286c256c53adce461baf1ee9fcc49831312bc2cf69d414f01d88ca",
+        "FEEDBURNER": "dd112c1012286c256c53adce461baf1ee9fcc49831312bc2cf69d414f01d88ca"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Russian National Accused of Using Remote Access Tools to Spy on Silicon Valley Defense Firm",
+      "url": "https://cybersecuritynews.com/russian-national-silicon-valley-spy/",
+      "published": "Thu, 19 Nov 2026 12:44:02 +0000",
+      "published_utc": "2026-11-19T12:44:02+00:00",
+      "summary": "<p>A federal grand jury has indicted Russian national Igor D’iu over an alleged spy operation targeting employees of a Silicon Valley technology and defense company. The U.S. Department of Justice said on Nov. 18 that D’iu bought remote access software and wireless networking equipment at the direction of people who recruited him through Telegram. Prosecutors [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/russian-national-silicon-valley-spy/\">Russian National Accused of Using Remote Access Tools to Spy on Silicon Valley Defense Firm</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172798",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/russian-national-silicon-valley-spy",
+      "content_hash": "2ef8c77e8e6dd99f9cdd1c8a6d88ea1404b304b4ecd5353e6be90f1e52560187",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2ef8c77e8e6dd99f9cdd1c8a6d88ea1404b304b4ecd5353e6be90f1e52560187",
+        "FEEDBURNER": "2ef8c77e8e6dd99f9cdd1c8a6d88ea1404b304b4ecd5353e6be90f1e52560187"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Hackers Hide Malware Inside Cheap TV Boxes to Steal Home Internet Bandwidth and Generate Fake Ads",
+      "url": "https://gbhackers.com/malware-hidden-cheap-tv-boxes/",
+      "published": "Thu, 19 Nov 2026 12:38:23 +0000",
+      "published_utc": "2026-11-19T12:38:23+00:00",
+      "summary": "<p>BADBOX 3.0, an operation that turned inexpensive streaming boxes into hidden video ad players and residential proxies. At its peak, the campaign generated roughly 40 billion bid requests per day, accounting for more than 4% of connected TV (CTV) traffic observed by HUMAN’s platform. That was more than triple the previous publicly disclosed record set [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-hidden-cheap-tv-boxes/\">Hackers Hide Malware Inside Cheap TV Boxes to Steal Home Internet Bandwidth and Generate Fake Ads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208272",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/malware-hidden-cheap-tv-boxes",
+      "content_hash": "9f63f6bb8c85b4c713046e91ea0c0f58dd9cda582c7e05dd6e0eda714fe2ed56",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9f63f6bb8c85b4c713046e91ea0c0f58dd9cda582c7e05dd6e0eda714fe2ed56",
+        "FEEDBURNER": "9f63f6bb8c85b4c713046e91ea0c0f58dd9cda582c7e05dd6e0eda714fe2ed56"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "N-able Confirms Security Breach in Mail Assure and SpamExperts Hosted Cloud, Credentials Potentially Exposed",
+      "url": "https://gbhackers.com/n-able-confirms-security-breach-in-mail-assure/",
+      "published": "Thu, 19 Nov 2026 12:28:58 +0000",
+      "published_utc": "2026-11-19T12:28:58+00:00",
+      "summary": "<p>N-able confirmed unauthorized access to one server in the cloud environment hosting Mail Assure and SpamExperts Hosted Cloud. The security incident disrupted administrative services across the Americas, Asia-Pacific, and Europe, but inbound and outbound email delivery and filtering continued to operate. N-able said it had found no evidence that customer data was compromised, including through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/n-able-confirms-security-breach-in-mail-assure/\">N-able Confirms Security Breach in Mail Assure and SpamExperts Hosted Cloud, Credentials Potentially Exposed</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208275",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/n-able-confirms-security-breach-in-mail-assure",
+      "content_hash": "597bf3a03bad40eac6da3f6f38a53b8e054f4d685e9732157d6277e27e5a2286",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "597bf3a03bad40eac6da3f6f38a53b8e054f4d685e9732157d6277e27e5a2286",
+        "FEEDBURNER": "597bf3a03bad40eac6da3f6f38a53b8e054f4d685e9732157d6277e27e5a2286"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Hackers Exploit Microsoft 365 Device Code Authentication to Hijack Accounts and Bypass MFA",
+      "url": "https://cybersecuritynews.com/device-code-authentication/",
+      "published": "Thu, 19 Nov 2026 12:26:09 +0000",
+      "published_utc": "2026-11-19T12:26:09+00:00",
+      "summary": "<p>Hackers are targeting Microsoft 365 accounts with fake payment notices and SharePoint documents that lead employees to a genuine Microsoft sign-in page. The November 2026 campaigns turn a routine task, such as checking whether an invoice was paid, into an authorization request that can give an attacker access to the employee’s account. The trick does [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/device-code-authentication/\">Hackers Exploit Microsoft 365 Device Code Authentication to Hijack Accounts and Bypass MFA</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172923",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/device-code-authentication",
+      "content_hash": "caec75fef378ca59f985ac6a58ae56094b7040f4a93522831596ffeb19f08354",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "caec75fef378ca59f985ac6a58ae56094b7040f4a93522831596ffeb19f08354"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:31.048755+00:00",
+      "first_seen_local": "2026-11-19T12:17:31.048751-05:00",
+      "last_updated_utc": "2026-11-19T17:17:31.048755+00:00",
+      "last_updated_local": "2026-11-19T12:17:31.048751-05:00"
+    },
+    {
+      "title": "Hackers Exploit AI-Powered ARTEX Tool to Identify Vulnerabilities in European Commission IT Systems",
+      "url": "https://gbhackers.com/hackers-exploit-ai-powered-artex-tool/",
+      "published": "Thu, 19 Nov 2026 12:14:22 +0000",
+      "published_utc": "2026-11-19T12:14:22+00:00",
+      "summary": "<p>Hackers used ARTEX, a publicly available AI-powered tool designed to identify vulnerabilities, in a cyber campaign targeting the European Commission. According to POLITICO’s Brussels Playbook, CERT-EU, the cybersecurity service for EU institutions, detected the activity earlier in November. The Commission temporarily took several applications offline as a precaution. Most were back online by November 19, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-ai-powered-artex-tool/\">Hackers Exploit AI-Powered ARTEX Tool to Identify Vulnerabilities in European Commission IT Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208237",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-exploit-ai-powered-artex-tool",
+      "content_hash": "90d36b2a4448700bd3b9c8ada15c27df34b81e4257a64777746ef2b545ee124c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "90d36b2a4448700bd3b9c8ada15c27df34b81e4257a64777746ef2b545ee124c",
+        "FEEDBURNER": "90d36b2a4448700bd3b9c8ada15c27df34b81e4257a64777746ef2b545ee124c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "url": "http://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "published": "Thu, 19 Nov 2026 11:52:23 +0000",
+      "published_utc": "2026-11-19T11:52:23+00:00",
+      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8027408322292215411",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "content_hash": "2fce26666ad2791e0a783b11dff00b17f3b3b01fd9ad041caa675ac9b6e8d1fd",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2fce26666ad2791e0a783b11dff00b17f3b3b01fd9ad041caa675ac9b6e8d1fd",
+        "FEEDBURNER": "2fce26666ad2791e0a783b11dff00b17f3b3b01fd9ad041caa675ac9b6e8d1fd"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "Russian-Speaking Hackers Steal US Bank, IRS and Social Security Login Credentials From Infected PCs",
+      "url": "https://gbhackers.com/credentials-stealing-malware/",
+      "published": "Thu, 19 Nov 2026 11:50:34 +0000",
+      "published_utc": "2026-11-19T11:50:34+00:00",
+      "summary": "<p>Russian-speaking hackers stole US banking and federal identity credentials from infected Windows PCs. The archives contained plaintext bank logins, decrypted password vaults, and authentication cookies. The investigation found no evidence that banks or federal agencies were breached. The attackers collected the credentials from victims’ computers. The records also included IRS and Social Security accounts. Among [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/credentials-stealing-malware/\">Russian-Speaking Hackers Steal US Bank, IRS and Social Security Login Credentials From Infected PCs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208247",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/credentials-stealing-malware",
+      "content_hash": "b96b07f833743b291beb1431807d67767fc2e8be211588cba14cc03a67cf203e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b96b07f833743b291beb1431807d67767fc2e8be211588cba14cc03a67cf203e",
+        "FEEDBURNER": "b96b07f833743b291beb1431807d67767fc2e8be211588cba14cc03a67cf203e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical RCE Vulnerabilities in Synology NAS, Apache Axis and REDCap, CISA Warns",
+      "url": "https://gbhackers.com/critical-rce-vulnerabilities/",
+      "published": "Thu, 19 Nov 2026 11:30:04 +0000",
+      "published_utc": "2026-11-19T11:30:04+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 18, 2026, citing evidence of active exploitation. The fourth affects BerriAI’s LiteLLM proxy and also enables code execution, but carries a lower severity score. The additions span network storage, legacy Java web services, research data [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-rce-vulnerabilities/\">Hackers Exploit Critical RCE Vulnerabilities in Synology NAS, Apache Axis and REDCap, CISA Warns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208203",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-rce-vulnerabilities",
+      "content_hash": "c2c8f7f9e0a287c933c077963f911954fc6fa2ae4c4ecae2e2f976cbf22cec98",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c2c8f7f9e0a287c933c077963f911954fc6fa2ae4c4ecae2e2f976cbf22cec98",
+        "FEEDBURNER": "c2c8f7f9e0a287c933c077963f911954fc6fa2ae4c4ecae2e2f976cbf22cec98"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Hackers Use Legitimate Microsoft Login Pages to Steal OAuth Tokens and Hijack Microsoft 365 Accounts",
+      "url": "https://gbhackers.com/oauth-tokens-theft/",
+      "published": "Thu, 19 Nov 2026 10:33:57 +0000",
+      "published_utc": "2026-11-19T10:33:57+00:00",
+      "summary": "<p>Attackers are using genuine Microsoft sign-in pages to hijack Microsoft 365 accounts without collecting passwords on counterfeit login forms. Once a victim approves the request, Microsoft issues OAuth tokens to the attacker-controlled client, granting access within the permissions authorized. One email arrived with a single period as its subject and almost no visible body. A [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/oauth-tokens-theft/\">Hackers Use Legitimate Microsoft Login Pages to Steal OAuth Tokens and Hijack Microsoft 365 Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208172",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/oauth-tokens-theft",
+      "content_hash": "d98602c48239f787d09379bb9a9ff30995805f0c24461271cb0b857c521a73e2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d98602c48239f787d09379bb9a9ff30995805f0c24461271cb0b857c521a73e2",
+        "FEEDBURNER": "d98602c48239f787d09379bb9a9ff30995805f0c24461271cb0b857c521a73e2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Apache Roller Vulnerability Allows Remote Code Execution Through Unsafe XML-RPC Deserialization",
+      "url": "https://gbhackers.com/apache-roller-vulnerability-2/",
+      "published": "Thu, 19 Nov 2026 10:08:45 +0000",
+      "published_utc": "2026-11-19T10:08:45+00:00",
+      "summary": "<p>The Apache Software Foundation has disclosed an actively exploited vulnerability in Apache Roller that lets remote attackers execute arbitrary code without logging in. Tracked as CVE-2026-129448, the flaw affects versions 4.0.0 through 6.1.4 and carries a CVSS 3.1 score of 9.8 out of 10. Apache’s November 17 vulnerability disclosure confirms exploitation in the wild and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-roller-vulnerability-2/\">Apache Roller Vulnerability Allows Remote Code Execution Through Unsafe XML-RPC Deserialization</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208163",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/apache-roller-vulnerability-2",
+      "content_hash": "7349a5d243b9591b3011ac86fa29fa757e3e639e96d5bfba410ffa4190c5d203",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7349a5d243b9591b3011ac86fa29fa757e3e639e96d5bfba410ffa4190c5d203",
+        "FEEDBURNER": "7349a5d243b9591b3011ac86fa29fa757e3e639e96d5bfba410ffa4190c5d203"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:30.711451+00:00",
+      "first_seen_local": "2026-11-19T12:17:30.711447-05:00",
+      "last_updated_utc": "2026-11-19T17:17:30.711451+00:00",
+      "last_updated_local": "2026-11-19T12:17:30.711447-05:00"
+    },
+    {
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "url": "http://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "published": "Thu, 19 Nov 2026 09:31:26 +0000",
+      "published_utc": "2026-11-19T09:31:26+00:00",
+      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1357069987480793062",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "content_hash": "f6294f631757e19f3e9a301ace0259a3db777657054ec9bf6d462173e7734661",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f6294f631757e19f3e9a301ace0259a3db777657054ec9bf6d462173e7734661",
+        "FEEDBURNER": "f6294f631757e19f3e9a301ace0259a3db777657054ec9bf6d462173e7734661"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "http://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "published": "Thu, 19 Nov 2026 08:42:11 +0000",
+      "published_utc": "2026-11-19T08:42:11+00:00",
+      "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4631044480103142149",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "content_hash": "39ed479302d6cfd120a72bd6f3680259af7b2de69b20e09f96d5c2814962462e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "39ed479302d6cfd120a72bd6f3680259af7b2de69b20e09f96d5c2814962462e",
+        "FEEDBURNER": "39ed479302d6cfd120a72bd6f3680259af7b2de69b20e09f96d5c2814962462e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "url": "http://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "published": "Thu, 19 Nov 2026 08:14:00 +0000",
+      "published_utc": "2026-11-19T08:14:00+00:00",
+      "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5265181206623638931",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "content_hash": "d5ddebd23b12f4cbc56a6d4df01e0ae08953f7737328750271b09e0c0eb9ed48",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d5ddebd23b12f4cbc56a6d4df01e0ae08953f7737328750271b09e0c0eb9ed48",
+        "FEEDBURNER": "d5ddebd23b12f4cbc56a6d4df01e0ae08953f7737328750271b09e0c0eb9ed48"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
+    {
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "url": "http://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "published": "Thu, 19 Nov 2026 08:00:00 +0000",
+      "published_utc": "2026-11-19T08:00:00+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3044717433759836112",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "content_hash": "6b54623150aa651d4dfa7481433098580c8fcb6de904163d54c7c883f1629a76",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6b54623150aa651d4dfa7481433098580c8fcb6de904163d54c7c883f1629a76",
+        "FEEDBURNER": "6b54623150aa651d4dfa7481433098580c8fcb6de904163d54c7c883f1629a76"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T17:17:34.909600+00:00",
+      "first_seen_local": "2026-11-19T12:17:34.909598-05:00",
+      "last_updated_utc": "2026-11-19T17:17:34.909600+00:00",
+      "last_updated_local": "2026-11-19T12:17:34.909598-05:00"
+    },
     {
       "title": "11 Security Awareness Training Platforms: The 2026 Buyer’s Verdict Guide",
       "url": "https://gbhackers.com/security-awareness-training-buyers-guide/",

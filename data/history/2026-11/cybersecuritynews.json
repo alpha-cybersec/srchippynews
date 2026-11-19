@@ -2,8 +2,90 @@
   "month": "2026-11",
   "source": "Cyber Security News",
   "source_slug": "cybersecuritynews",
-  "article_count": 232,
+  "article_count": 235,
   "articles": [
+    {
+      "title": "Chinese Hackers Upgrade EggStreme Malware With Silent Backdoor to Evade Security Detection",
+      "url": "https://cybersecuritynews.com/eggstreme-malware/",
+      "published": "Thu, 19 Nov 2026 07:19:21 +0000",
+      "published_utc": "2026-11-19T07:19:21+00:00",
+      "summary": "<p>A suspected Chinese cyberespionage group has rebuilt its EggStreme malware framework, adding a Windows backdoor that waits for an incoming connection instead of calling out to an attacker-controlled server. Bitdefender’s November 18, 2026, report tracks the changes as the group continues to target government organizations in the Philippines. Researchers also found signs of possible targeting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/eggstreme-malware/\">Chinese Hackers Upgrade EggStreme Malware With Silent Backdoor to Evade Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172774",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/eggstreme-malware",
+      "content_hash": "3680ae809322113e6c610468953acb3ea4cff443935996249c40efb04d2301d0",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3680ae809322113e6c610468953acb3ea4cff443935996249c40efb04d2301d0"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T07:50:37.685407+00:00",
+      "first_seen_local": "2026-11-19T02:50:37.685404-05:00",
+      "last_updated_utc": "2026-11-19T07:50:37.685407+00:00",
+      "last_updated_local": "2026-11-19T02:50:37.685404-05:00"
+    },
+    {
+      "title": "AuditTeam Ransomware Gang Poses as Security Auditors and Use AV Drivers to Kill EDR Process",
+      "url": "https://cybersecuritynews.com/auditteam-ransomware-gang/",
+      "published": "Thu, 19 Nov 2026 05:20:54 +0000",
+      "published_utc": "2026-11-19T05:20:54+00:00",
+      "summary": "<p>A ransomware group called AuditTeam is dressing up extortion as a paid security audit. Victims get a ransom note that reads like an audit log. It asks for an &#8220;Audit &#38; Consulting fee&#8221; in return for a report on the holes the attackers used to get in. Before the note appears, the group has already [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/auditteam-ransomware-gang/\">AuditTeam Ransomware Gang Poses as Security Auditors and Use AV Drivers to Kill EDR Process</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172758",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/auditteam-ransomware-gang",
+      "content_hash": "16b911d4f7ff9713693d8f99eed5750c8a984cb028f0c41191949c8bddb4ebf4",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "16b911d4f7ff9713693d8f99eed5750c8a984cb028f0c41191949c8bddb4ebf4",
+        "FEEDBURNER": "16b911d4f7ff9713693d8f99eed5750c8a984cb028f0c41191949c8bddb4ebf4"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T07:50:37.685407+00:00",
+      "first_seen_local": "2026-11-19T02:50:37.685404-05:00",
+      "last_updated_utc": "2026-11-19T07:50:37.685407+00:00",
+      "last_updated_local": "2026-11-19T02:50:37.685404-05:00"
+    },
+    {
+      "title": "Hackers Actively Exploit Critical Apache Roller RCE Flaw to Execute Code Without Authentication",
+      "url": "https://cybersecuritynews.com/apache-roller-rce-exploitation/",
+      "published": "Thu, 19 Nov 2026 05:15:41 +0000",
+      "published_utc": "2026-11-19T05:15:41+00:00",
+      "summary": "<p>Hackers are actively exploiting a critical vulnerability in Apache Roller that lets them run code on affected servers without signing in, the Apache Software Foundation warned on November 17. The flaw, tracked as CVE-2026-129448, affects versions 4.0.0 through 6.1.4 and carries a CVSS 3.1 score of 9.8 out of 10. Apache says administrators should upgrade [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-roller-rce-exploitation/\">Hackers Actively Exploit Critical Apache Roller RCE Flaw to Execute Code Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172757",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/apache-roller-rce-exploitation",
+      "content_hash": "3ec3e2b732ca96d3946bbde696fcc8b4c6a77fd19615965c040e57f42bb28903",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3ec3e2b732ca96d3946bbde696fcc8b4c6a77fd19615965c040e57f42bb28903",
+        "FEEDBURNER": "3ec3e2b732ca96d3946bbde696fcc8b4c6a77fd19615965c040e57f42bb28903"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-19T07:50:37.685407+00:00",
+      "first_seen_local": "2026-11-19T02:50:37.685404-05:00",
+      "last_updated_utc": "2026-11-19T07:50:37.685407+00:00",
+      "last_updated_local": "2026-11-19T02:50:37.685404-05:00"
+    },
     {
       "title": "AI Hacking Framework CyberStrikeAI Runs 221 Tool Executions Without Human Approval",
       "url": "https://cybersecuritynews.com/cyberstrikeai/",

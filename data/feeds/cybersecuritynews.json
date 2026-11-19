@@ -5,26 +5,68 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
+      "status": "SUCCESS",
       "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
       "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "Posible CAPTCHA/WAF: captcha"
+      "feed_title": "Cyber Security News",
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "Chinese Hackers Upgrade EggStreme Malware With Silent Backdoor to Evade Security Detection",
+          "url": "https://cybersecuritynews.com/eggstreme-malware/",
+          "published": "Thu, 19 Nov 2026 07:19:21 +0000",
+          "published_utc": "2026-11-19T07:19:21+00:00",
+          "summary": "<p>A suspected Chinese cyberespionage group has rebuilt its EggStreme malware framework, adding a Windows backdoor that waits for an incoming connection instead of calling out to an attacker-controlled server. Bitdefender’s November 18, 2026, report tracks the changes as the group continues to target government organizations in the Philippines. Researchers also found signs of possible targeting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/eggstreme-malware/\">Chinese Hackers Upgrade EggStreme Malware With Silent Backdoor to Evade Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172774"
+        },
+        {
+          "title": "AuditTeam Ransomware Gang Poses as Security Auditors and Use AV Drivers to Kill EDR Process",
+          "url": "https://cybersecuritynews.com/auditteam-ransomware-gang/",
+          "published": "Thu, 19 Nov 2026 05:20:54 +0000",
+          "published_utc": "2026-11-19T05:20:54+00:00",
+          "summary": "<p>A ransomware group called AuditTeam is dressing up extortion as a paid security audit. Victims get a ransom note that reads like an audit log. It asks for an &#8220;Audit &#38; Consulting fee&#8221; in return for a report on the holes the attackers used to get in. Before the note appears, the group has already [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/auditteam-ransomware-gang/\">AuditTeam Ransomware Gang Poses as Security Auditors and Use AV Drivers to Kill EDR Process</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172758"
+        },
+        {
+          "title": "Hackers Actively Exploit Critical Apache Roller RCE Flaw to Execute Code Without Authentication",
+          "url": "https://cybersecuritynews.com/apache-roller-rce-exploitation/",
+          "published": "Thu, 19 Nov 2026 05:15:41 +0000",
+          "published_utc": "2026-11-19T05:15:41+00:00",
+          "summary": "<p>Hackers are actively exploiting a critical vulnerability in Apache Roller that lets them run code on affected servers without signing in, the Apache Software Foundation warned on November 17. The flaw, tracked as CVE-2026-129448, affects versions 4.0.0 through 6.1.4 and carries a CVSS 3.1 score of 9.8 out of 10. Apache says administrators should upgrade [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-roller-rce-exploitation/\">Hackers Actively Exploit Critical Apache Roller RCE Flaw to Execute Code Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172757"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
       "endpoint": "https://feeds.feedburner.com/cyber-security-news",
-      "status": "FAILED",
+      "status": "SUCCESS",
       "http_status": 200,
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "Posible CAPTCHA/WAF: captcha"
+      "feed_title": "Cyber Security News",
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "AuditTeam Ransomware Gang Poses as Security Auditors and Use AV Drivers to Kill EDR Process",
+          "url": "https://cybersecuritynews.com/auditteam-ransomware-gang/",
+          "published": "Thu, 19 Nov 2026 05:20:54 +0000",
+          "published_utc": "2026-11-19T05:20:54+00:00",
+          "summary": "<p>A ransomware group called AuditTeam is dressing up extortion as a paid security audit. Victims get a ransom note that reads like an audit log. It asks for an &#8220;Audit &#38; Consulting fee&#8221; in return for a report on the holes the attackers used to get in. Before the note appears, the group has already [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/auditteam-ransomware-gang/\">AuditTeam Ransomware Gang Poses as Security Auditors and Use AV Drivers to Kill EDR Process</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172758"
+        },
+        {
+          "title": "Hackers Actively Exploit Critical Apache Roller RCE Flaw to Execute Code Without Authentication",
+          "url": "https://cybersecuritynews.com/apache-roller-rce-exploitation/",
+          "published": "Thu, 19 Nov 2026 05:15:41 +0000",
+          "published_utc": "2026-11-19T05:15:41+00:00",
+          "summary": "<p>Hackers are actively exploiting a critical vulnerability in Apache Roller that lets them run code on affected servers without signing in, the Apache Software Foundation warned on November 17. The flaw, tracked as CVE-2026-129448, affects versions 4.0.0 through 6.1.4 and carries a CVSS 3.1 score of 9.8 out of 10. Apache says administrators should upgrade [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-roller-rce-exploitation/\">Hackers Actively Exploit Critical Apache Roller RCE Flaw to Execute Code Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=172757"
+        }
+      ],
+      "error": ""
     }
   }
 }

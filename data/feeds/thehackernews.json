@@ -10,8 +10,24 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 10,
+      "article_count": 12,
       "articles": [
+        {
+          "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+          "url": "http://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+          "published": "Wed, 18 Nov 2026 18:31:17 +0000",
+          "published_utc": "2026-11-18T18:31:17+00:00",
+          "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2600028494953449799"
+        },
+        {
+          "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+          "url": "http://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+          "published": "Wed, 18 Nov 2026 18:15:39 +0000",
+          "published_utc": "2026-11-18T18:15:39+00:00",
+          "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3247858056653282780"
+        },
         {
           "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
           "url": "http://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
@@ -103,8 +119,32 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 9,
+      "article_count": 12,
       "articles": [
+        {
+          "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+          "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+          "published": "Thu, 19 Nov 2026 00:01:17 +0530",
+          "published_utc": "2026-11-18T18:31:17+00:00",
+          "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
+          "id": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+        },
+        {
+          "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+          "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+          "published": "Wed, 18 Nov 2026 23:45:39 +0530",
+          "published_utc": "2026-11-18T18:15:39+00:00",
+          "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
+          "id": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html"
+        },
+        {
+          "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+          "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+          "published": "Wed, 18 Nov 2026 22:40:45 +0530",
+          "published_utc": "2026-11-18T17:10:45+00:00",
+          "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
+          "id": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+        },
         {
           "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
           "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",

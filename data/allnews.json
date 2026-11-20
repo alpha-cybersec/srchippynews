@@ -1,147 +1,714 @@
 {
-  "generated_at_utc": "2026-11-20T06:59:49.424426+00:00",
-  "generated_at_local": "2026-11-20T01:59:49.424439-05:00",
-  "article_count": 5,
-  "new_count": 5,
+  "generated_at_utc": "2026-11-20T16:02:29.272485+00:00",
+  "generated_at_local": "2026-11-20T11:02:29.272493-05:00",
+  "article_count": 25,
+  "new_count": 25,
   "updated_count": 0,
   "sources": {
-    "cybersecuritynews": 3,
-    "thehackernews": 2
+    "cybersecuritynews": 10,
+    "gbhackers": 10,
+    "thehackernews": 5
   },
   "articles": [
     {
-      "title": "Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities",
-      "url": "https://cybersecuritynews.com/wireshark-4-6-10-released/",
-      "published": "Fri, 20 Nov 2026 06:58:34 +0000",
-      "published_utc": "2026-11-20T06:58:34+00:00",
-      "summary": "<p>Wireshark 4.6.10 has been released with fixes for 39 security vulnerabilities affecting protocol dissectors, capture file parsers, the dissection engine, and audio codecs. The update addresses crashes, processing loops, memory leaks, and a heap disclosure issue that could affect systems used for network troubleshooting and security analysis. The official release notes list security advisories wnpa-sec-2026-111 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wireshark-4-6-10-released/\">Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173147",
+      "title": "Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication",
+      "url": "https://cybersecuritynews.com/critical-apache-tomcat-flaw/",
+      "published": "Fri, 20 Nov 2026 14:29:21 +0000",
+      "published_utc": "2026-11-20T14:29:21+00:00",
+      "summary": "<p>The Apache Software Foundation has disclosed a critical flaw in Apache Tomcat that allows a remote attacker to join a trusted server cluster without authentication. Tracked as CVE-2026-133325, the flaw affects clusters that use TLS 1.3 with a pre-shared key. Apache published the advisory on November 19, 2026, and credited researcher Mike Read with finding [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-apache-tomcat-flaw/\">Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173317",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/wireshark-4-6-10-released",
-      "content_hash": "9755b3de0960c330d2ed0bbfd0c5875a03e5149551ece03edfae2e0a5d93fdc5",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "9755b3de0960c330d2ed0bbfd0c5875a03e5149551ece03edfae2e0a5d93fdc5"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-20T06:59:45.555808+00:00",
-      "first_seen_local": "2026-11-20T01:59:45.555804-05:00",
-      "last_updated_utc": "2026-11-20T06:59:45.555808+00:00",
-      "last_updated_local": "2026-11-20T01:59:45.555804-05:00"
-    },
-    {
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "url": "http://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "published": "Fri, 20 Nov 2026 06:33:31 +0000",
-      "published_utc": "2026-11-20T06:33:31+00:00",
-      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4638367034418771726",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "content_hash": "007f0eadeb6f12246f9af0b28dae7559f05dd6e7be57a51b57499fb39637de61",
+      "article_key": "cybersecuritynews.com/critical-apache-tomcat-flaw",
+      "content_hash": "4bb4d931c227905ddc320047795b2b99a9a4631ea89b360a576769260cb76ec0",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "007f0eadeb6f12246f9af0b28dae7559f05dd6e7be57a51b57499fb39637de61",
-        "FEEDBURNER": "007f0eadeb6f12246f9af0b28dae7559f05dd6e7be57a51b57499fb39637de61"
+        "ORIGINAL": "4bb4d931c227905ddc320047795b2b99a9a4631ea89b360a576769260cb76ec0",
+        "FEEDBURNER": "4bb4d931c227905ddc320047795b2b99a9a4631ea89b360a576769260cb76ec0"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-20T06:59:49.414657+00:00",
-      "first_seen_local": "2026-11-20T01:59:49.414655-05:00",
-      "last_updated_utc": "2026-11-20T06:59:49.414657+00:00",
-      "last_updated_local": "2026-11-20T01:59:49.414655-05:00"
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
     },
     {
-      "title": "Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks",
-      "url": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/",
-      "published": "Fri, 20 Nov 2026 06:02:03 +0000",
-      "published_utc": "2026-11-20T06:02:03+00:00",
-      "summary": "<p>Hackers published customer data linked to Visa, Mastercard and JPMorgan Chase on Thursday, November 19, after cyberattacks on third-party service providers. All three companies said their own networks were not breached. Visa said no card numbers were affected, Mastercard said the leak involved a limited group of cardholders in a benefits program, and JPMorgan said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/\">Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173159",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach",
-      "content_hash": "6d477f0f867e6a37571b64cf6ed7688c90dccfbd9e75b209660d4c1c9bd5314a",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "6d477f0f867e6a37571b64cf6ed7688c90dccfbd9e75b209660d4c1c9bd5314a"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-20T06:59:45.555808+00:00",
-      "first_seen_local": "2026-11-20T01:59:45.555804-05:00",
-      "last_updated_utc": "2026-11-20T06:59:45.555808+00:00",
-      "last_updated_local": "2026-11-20T01:59:45.555804-05:00"
-    },
-    {
-      "title": "Drupal Fixes Critical RCE Flaw That Could Let Unauthenticated Hackers Take Over Websites",
-      "url": "https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw/",
-      "published": "Fri, 20 Nov 2026 05:52:19 +0000",
-      "published_utc": "2026-11-20T05:52:19+00:00",
-      "summary": "<p>Drupal released security updates on November 18 to fix a critical flaw that could let attackers take over vulnerable websites without logging in. The bug, tracked as CVE-2026-132165, affects the installer included with Drupal core. Under specific conditions, an attacker could use it to attempt to reinstall an existing site, leading to a takeover or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw/\">Drupal Fixes Critical RCE Flaw That Could Let Unauthenticated Hackers Take Over Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=172925",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/drupal-fixes-critical-rce-flaw",
-      "content_hash": "77db9e59aa10a5bc0e789549dea11a2bb2cc19742dc8706b96a04ad6ea1b01ae",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "77db9e59aa10a5bc0e789549dea11a2bb2cc19742dc8706b96a04ad6ea1b01ae"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-20T06:59:45.555808+00:00",
-      "first_seen_local": "2026-11-20T01:59:45.555804-05:00",
-      "last_updated_utc": "2026-11-20T06:59:45.555808+00:00",
-      "last_updated_local": "2026-11-20T01:59:45.555804-05:00"
-    },
-    {
-      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-      "url": "http://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-      "published": "Fri, 20 Nov 2026 05:30:01 +0000",
-      "published_utc": "2026-11-20T05:30:01+00:00",
-      "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-212140074928851151",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-      "content_hash": "e2a63f5edfbf2c0431253dec5ba82aa00b41413cbdbd048a03c19610ad851123",
+      "title": "KPMG Canada Confirms Security Breach as Third Party Accesses Confidential Client Files",
+      "url": "https://gbhackers.com/kpmg-canada-confirms-security-breach/",
+      "published": "Fri, 20 Nov 2026 14:14:49 +0000",
+      "published_utc": "2026-11-20T14:14:49+00:00",
+      "summary": "<p>KPMG Canada confirmed that an unauthorized third party accessed confidential client tax documents in a cybersecurity breach. The accounting firm did not disclose when the intrusion occurred, how many clients were affected, or how many files were accessed. KPMG said it acted immediately to secure its systems and was contacting affected clients, according to a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kpmg-canada-confirms-security-breach/\">KPMG Canada Confirms Security Breach as Third Party Accesses Confidential Client Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208631",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/kpmg-canada-confirms-security-breach",
+      "content_hash": "38658197b669bcb5e97fbb74d13972ea6ff65a673bd783e1cd031f1325ebbd46",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "e2a63f5edfbf2c0431253dec5ba82aa00b41413cbdbd048a03c19610ad851123",
-        "FEEDBURNER": "e2a63f5edfbf2c0431253dec5ba82aa00b41413cbdbd048a03c19610ad851123"
+        "ORIGINAL": "38658197b669bcb5e97fbb74d13972ea6ff65a673bd783e1cd031f1325ebbd46",
+        "FEEDBURNER": "38658197b669bcb5e97fbb74d13972ea6ff65a673bd783e1cd031f1325ebbd46"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-20T06:59:49.414657+00:00",
-      "first_seen_local": "2026-11-20T01:59:49.414655-05:00",
-      "last_updated_utc": "2026-11-20T06:59:49.414657+00:00",
-      "last_updated_local": "2026-11-20T01:59:49.414655-05:00"
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "Palo Alto Networks Warns of Critical Java RCE Vulnerability Affecting Multiple Security Products",
+      "url": "https://gbhackers.com/palo-alto-networks-warns-of-critical-java-rce-vulnerability/",
+      "published": "Fri, 20 Nov 2026 14:04:02 +0000",
+      "published_utc": "2026-11-20T14:04:02+00:00",
+      "summary": "<p>Palo Alto Networks has warned that a critical Java vulnerability, tracked as CVE-2026-114938, affects multiple Idira security products and could allow unauthenticated remote code execution (RCE). The company assigned the flaw a CVSS 4.0 base score of 9.2 but rated the urgency of its suggested response as moderate. It reported no known malicious exploitation. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-networks-warns-of-critical-java-rce-vulnerability/\">Palo Alto Networks Warns of Critical Java RCE Vulnerability Affecting Multiple Security Products</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208621",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/palo-alto-networks-warns-of-critical-java-rce-vulnerability",
+      "content_hash": "99f5ac9a78d3f1002a8848731e71eacf3cfd75caf1ec52d528e95bc613bec128",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "99f5ac9a78d3f1002a8848731e71eacf3cfd75caf1ec52d528e95bc613bec128",
+        "FEEDBURNER": "99f5ac9a78d3f1002a8848731e71eacf3cfd75caf1ec52d528e95bc613bec128"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "NGINX2ROOT Exploits 5 Critical NGINX Vulnerabilities to Gain Remote Code Execution and Root Access",
+      "url": "https://gbhackers.com/nginx2root-exploits-5-critical-nginx-vulnerabilities/",
+      "published": "Fri, 20 Nov 2026 13:54:54 +0000",
+      "published_utc": "2026-11-20T13:54:54+00:00",
+      "summary": "<p>Five memory corruption flaws in F5 NGINX Open Source and NGINX Plus, collectively named nginx2root, let remote, unauthenticated attackers run code on exposed web servers. Disclosed on November 18, 2026, the bugs are CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, and CVE-2026-113425. F5 rates each 8.1 (High) under CVSS v3.1 and 9.2 (Critical) under CVSS v4.0. NGINX2ROOT Exploits [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nginx2root-exploits-5-critical-nginx-vulnerabilities/\">NGINX2ROOT Exploits 5 Critical NGINX Vulnerabilities to Gain Remote Code Execution and Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208608",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/nginx2root-exploits-5-critical-nginx-vulnerabilities",
+      "content_hash": "5aece895673254fe81259854005731d5dd80bd5bffe1a63d7737640c2a39c539",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5aece895673254fe81259854005731d5dd80bd5bffe1a63d7737640c2a39c539",
+        "FEEDBURNER": "5aece895673254fe81259854005731d5dd80bd5bffe1a63d7737640c2a39c539"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "New Windows 11 Zero-Day Vulnerability Lets Attackers Bypass Lock Screen and Execute Code",
+      "url": "https://gbhackers.com/new-windows-11-zero-day-vulnerability/",
+      "published": "Fri, 20 Nov 2026 13:39:59 +0000",
+      "published_utc": "2026-11-20T13:39:59+00:00",
+      "summary": "<p>A security researcher using the handle MSNightmare has disclosed a FastUnlock vulnerability. This reported Windows 11 vulnerability could let someone with physical access to a locked device bypass the sign-in screen and execute code without entering the user’s credentials. The issue reportedly involves Narrator, Microsoft’s built-in screen reader. The researcher says the attack requires at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-windows-11-zero-day-vulnerability/\">New Windows 11 Zero-Day Vulnerability Lets Attackers Bypass Lock Screen and Execute Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208596",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/new-windows-11-zero-day-vulnerability",
+      "content_hash": "29b8e8ea368a792b61993e6e82d70d7e3591fb2631fe7c99089abf1de9d2b8ba",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "29b8e8ea368a792b61993e6e82d70d7e3591fb2631fe7c99089abf1de9d2b8ba",
+        "FEEDBURNER": "29b8e8ea368a792b61993e6e82d70d7e3591fb2631fe7c99089abf1de9d2b8ba"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "New phpAfterShell Attack Lets Hackers Achieve Remote Code Execution on PHP Servers",
+      "url": "https://gbhackers.com/new-phpaftershell-attack/",
+      "published": "Fri, 20 Nov 2026 13:31:11 +0000",
+      "published_utc": "2026-11-20T13:31:11+00:00",
+      "summary": "<p>A new attack technique called phpAfterShell turns an interrupted PHP session write into remote code execution (RCE) on vulnerable servers. Depthfirst researcher Yuhang Wu disclosed the flaw on November 19, 2026. It is tracked as CVE-2026-126714 and carries a critical CVSS v4.0 score of 9.2. PHP maintainers shipped fixes the same day, after warning administrators [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-phpaftershell-attack/\">New phpAfterShell Attack Lets Hackers Achieve Remote Code Execution on PHP Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208571",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/new-phpaftershell-attack",
+      "content_hash": "9a82c6bebbf3aed04a93d9cd4de2012db84032f471efd84cce49c106dbfef182",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9a82c6bebbf3aed04a93d9cd4de2012db84032f471efd84cce49c106dbfef182",
+        "FEEDBURNER": "9a82c6bebbf3aed04a93d9cd4de2012db84032f471efd84cce49c106dbfef182"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "JPMorgan Chase Confirms Cyberattack on Third-Party Vendors, Customer Data Potentially Exposed",
+      "url": "https://gbhackers.com/jpmorgan-chase-confirms-cyberattack/",
+      "published": "Fri, 20 Nov 2026 13:08:50 +0000",
+      "published_utc": "2026-11-20T13:08:50+00:00",
+      "summary": "<p>JPMorgan Chase confirmed that third-party vendors providing services to the firm were targeted in a cyberattack that may have exposed some customers’ names and email addresses. In a statement published on X, the bank said its preliminary investigation indicated that attackers accessed certain marketing data held by the vendors. The disclosure did not identify the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jpmorgan-chase-confirms-cyberattack/\">JPMorgan Chase Confirms Cyberattack on Third-Party Vendors, Customer Data Potentially Exposed</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208565",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/jpmorgan-chase-confirms-cyberattack",
+      "content_hash": "377be38c914938839ea6f6de6a012c46db995bb959c0b9eb00fe617551a8d408",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "377be38c914938839ea6f6de6a012c46db995bb959c0b9eb00fe617551a8d408",
+        "FEEDBURNER": "377be38c914938839ea6f6de6a012c46db995bb959c0b9eb00fe617551a8d408"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "Hackers Use 355 Domains to Spread Fake GTA 6 PC Launchers Delivering Malware",
+      "url": "https://cybersecuritynews.com/fake-gta-6-pc-launchers/",
+      "published": "Fri, 20 Nov 2026 13:02:57 +0000",
+      "published_utc": "2026-11-20T13:02:57+00:00",
+      "summary": "<p>A malware campaign called CyberLeek is using more than 355 domains and subdomains to promote fake Grand Theft Auto VI PC launchers. The sites offer what they claim is a leaked or early Windows release of GTA 6. Instead of a playable game, the download delivers a ZIP archive containing a malicious program disguised as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-gta-6-pc-launchers/\">Hackers Use 355 Domains to Spread Fake GTA 6 PC Launchers Delivering Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173286",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fake-gta-6-pc-launchers",
+      "content_hash": "d4d3c526da9daa45edc33df7b9a6e131e51da3b2d9a37100e3a214829c5cfd7f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d4d3c526da9daa45edc33df7b9a6e131e51da3b2d9a37100e3a214829c5cfd7f",
+        "FEEDBURNER": "d4d3c526da9daa45edc33df7b9a6e131e51da3b2d9a37100e3a214829c5cfd7f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "Meta’s Muse AI Agent Accesses Private Signal Messages Without Users’ Knowledge",
+      "url": "https://gbhackers.com/metas-muse-ai-agent-accesses-private-signal-messages/",
+      "published": "Fri, 20 Nov 2026 12:59:44 +0000",
+      "published_utc": "2026-11-20T12:59:44+00:00",
+      "summary": "<p>Meta’s Muse AI agent surfaced a private Signal conversation without a user asking it to, raising questions about what consumer AI agents can read through device permissions. A Meta employee said Muse unexpectedly reminded her to reply to a message from her sister, even though she did not recall granting the agent access to other [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/metas-muse-ai-agent-accesses-private-signal-messages/\">Meta&#8217;s Muse AI Agent Accesses Private Signal Messages Without Users&#8217; Knowledge</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208459",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/metas-muse-ai-agent-accesses-private-signal-messages",
+      "content_hash": "b334fb6f3e72b3395f193c5eb543c28fbe521cf91757194008b5060b0b865074",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b334fb6f3e72b3395f193c5eb543c28fbe521cf91757194008b5060b0b865074",
+        "FEEDBURNER": "b334fb6f3e72b3395f193c5eb543c28fbe521cf91757194008b5060b0b865074"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "Hackers Turn Legitimate VPN Software Into a Stealthy Tool for Spying on Government Networks",
+      "url": "https://cybersecuritynews.com/legitimate-vpn-software/",
+      "published": "Fri, 20 Nov 2026 12:40:26 +0000",
+      "published_utc": "2026-11-20T12:40:26+00:00",
+      "summary": "<p>Hackers have rebuilt the open-source SoftEther VPN Bridge to keep a quiet route into compromised networks. The modified Windows program, branded internally as NtMonitor VPN, can link an external network to a victim’s local network while leaving fewer of the traces defenders expect from a standard SoftEther installation. Researchers link the tool to Webworm, a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/legitimate-vpn-software/\">Hackers Turn Legitimate VPN Software Into a Stealthy Tool for Spying on Government Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173261",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/legitimate-vpn-software",
+      "content_hash": "37e65ba97345a987f47c25e5760f0353256ba19829366f2cbe8f71287fa1ee04",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "37e65ba97345a987f47c25e5760f0353256ba19829366f2cbe8f71287fa1ee04",
+        "FEEDBURNER": "37e65ba97345a987f47c25e5760f0353256ba19829366f2cbe8f71287fa1ee04"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "OpenSSL Hit by Critical 9.8 Heap Buffer Overflow Vulnerability in Base64 Encoding Function",
+      "url": "https://cybersecuritynews.com/openssl-heap-buffer-overflow/",
+      "published": "Fri, 20 Nov 2026 12:34:30 +0000",
+      "published_utc": "2026-11-20T12:34:30+00:00",
+      "summary": "<p>A heap buffer overflow in OpenSSL’s Base64 encoding function can corrupt application memory when the library processes very large inputs. The flaw, tracked as CVE-2026-121481, was published on November 18, 2026, with a critical CVSS 3.1 score of 9.8. That score describes the potential severity, but it does not mean every service that uses OpenSSL [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-heap-buffer-overflow/\">OpenSSL Hit by Critical 9.8 Heap Buffer Overflow Vulnerability in Base64 Encoding Function</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173281",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openssl-heap-buffer-overflow",
+      "content_hash": "c7d1d898ba81a49285a98b19ece9734343eaa4839e6ef10641741b5f1a3b33aa",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c7d1d898ba81a49285a98b19ece9734343eaa4839e6ef10641741b5f1a3b33aa",
+        "FEEDBURNER": "c7d1d898ba81a49285a98b19ece9734343eaa4839e6ef10641741b5f1a3b33aa"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+      "url": "http://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "published": "Fri, 20 Nov 2026 12:20:00 +0000",
+      "published_utc": "2026-11-20T12:20:00+00:00",
+      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3797238586342390914",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "content_hash": "06431068166b5b0cecd8b69b973bf35eadf874fd67353ce0419da0897c8436ee",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "06431068166b5b0cecd8b69b973bf35eadf874fd67353ce0419da0897c8436ee",
+        "FEEDBURNER": "06431068166b5b0cecd8b69b973bf35eadf874fd67353ce0419da0897c8436ee"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:29.260472+00:00",
+      "first_seen_local": "2026-11-20T11:02:29.260469-05:00",
+      "last_updated_utc": "2026-11-20T16:02:29.260472+00:00",
+      "last_updated_local": "2026-11-20T11:02:29.260469-05:00"
+    },
+    {
+      "title": "BYOD Ransomware Hackers Play Audio Ransom Messages on Computers Across Hospitals and Universities",
+      "url": "https://cybersecuritynews.com/byod-ransomware/",
+      "published": "Fri, 20 Nov 2026 12:06:00 +0000",
+      "published_utc": "2026-11-20T12:06:00+00:00",
+      "summary": "<p>Staff at the University of New Mexico Health Sciences Center reported hearing ransom messages from their computers during an October 26 cyberattack. Two weeks later, a recording from Vanderbilt University captured a voice announcing, “You have been compromised by BYOD.” The messages took the ransom demand out of a private note and made the incident [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/byod-ransomware/\">BYOD Ransomware Hackers Play Audio Ransom Messages on Computers Across Hospitals and Universities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173241",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/byod-ransomware",
+      "content_hash": "64ec91c830daab1db97079dff8d2a51fc34e96cba38f64ebc987a86146af5ac3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "64ec91c830daab1db97079dff8d2a51fc34e96cba38f64ebc987a86146af5ac3",
+        "FEEDBURNER": "64ec91c830daab1db97079dff8d2a51fc34e96cba38f64ebc987a86146af5ac3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "The Path to AI Autonomy in the SOC",
+      "url": "http://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+      "published": "Fri, 20 Nov 2026 12:00:00 +0000",
+      "published_utc": "2026-11-20T12:00:00+00:00",
+      "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027.\n\nThe pressure",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3674110092513362346",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+      "content_hash": "e92e603df6451487c229b208089cd776b262ba87522a8cd82a91ed81b3293a42",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e92e603df6451487c229b208089cd776b262ba87522a8cd82a91ed81b3293a42",
+        "FEEDBURNER": "e92e603df6451487c229b208089cd776b262ba87522a8cd82a91ed81b3293a42"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:29.260472+00:00",
+      "first_seen_local": "2026-11-20T11:02:29.260469-05:00",
+      "last_updated_utc": "2026-11-20T16:02:29.260472+00:00",
+      "last_updated_local": "2026-11-20T11:02:29.260469-05:00"
+    },
+    {
+      "title": "Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits",
+      "url": "https://cybersecuritynews.com/hackers-use-ai-powered-artex-framework/",
+      "published": "Fri, 20 Nov 2026 11:27:05 +0000",
+      "published_utc": "2026-11-20T11:27:05+00:00",
+      "summary": "<p>Attackers are using an AI-driven testing tool called ARTEX to break into company networks. It needs no secret software flaws to do this. Instead, it hunts for ordinary mistakes such as exposed apps, weak passwords and loose permissions, and it keeps working at them far longer than a human would. ARTEX is an open-source framework [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-powered-artex-framework/\">Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173218",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-use-ai-powered-artex-framework",
+      "content_hash": "ca696e3707859719f115b84f103e5acdac5110abccdfada30e21058a1d74fa27",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ca696e3707859719f115b84f103e5acdac5110abccdfada30e21058a1d74fa27",
+        "FEEDBURNER": "ca696e3707859719f115b84f103e5acdac5110abccdfada30e21058a1d74fa27"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "12 Zero Trust Security Platforms: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/zero-trust-platforms-buyers-guide/",
+      "published": "Fri, 20 Nov 2026 11:00:28 +0000",
+      "published_utc": "2026-11-20T11:00:28+00:00",
+      "summary": "<p>Zero trust is an architecture, not a product you can buy off the shelf “never trust, always verify, assume breach” so vendors arrive at it from different pillars: identity, network, device or data. No one platform ships the full architecture; you build it from a lead pillar plus a set of integrations. This verdict guide [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zero-trust-platforms-buyers-guide/\">12 Zero Trust Security Platforms: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208206",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/zero-trust-platforms-buyers-guide",
+      "content_hash": "4c4dc419fca2cda5fa1686fc6bcb1a2d8e1f04124b4a3818ab1087d278066d40",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4c4dc419fca2cda5fa1686fc6bcb1a2d8e1f04124b4a3818ab1087d278066d40",
+        "FEEDBURNER": "4c4dc419fca2cda5fa1686fc6bcb1a2d8e1f04124b4a3818ab1087d278066d40"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "12 ZTNA Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/ztna-buyers-guide/",
+      "published": "Fri, 20 Nov 2026 10:52:09 +0000",
+      "published_utc": "2026-11-20T10:52:09+00:00",
+      "summary": "<p>ZTNA swaps the VPN’s blanket trust get on the network and you can reach the lot for per-session access to individual apps, verified against identity and device posture every time. But the “ZTNA” label stretches from a pillar inside a full SASE fabric all the way down to a featherweight VPN swap for a thirty-person [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ztna-buyers-guide/\">12 ZTNA Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=208147",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/ztna-buyers-guide",
+      "content_hash": "b02f6ce98a1e4465268300cb9fb07cdb9e467cdb77d71137af03da352ac37ba3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b02f6ce98a1e4465268300cb9fb07cdb9e467cdb77d71137af03da352ac37ba3",
+        "FEEDBURNER": "b02f6ce98a1e4465268300cb9fb07cdb9e467cdb77d71137af03da352ac37ba3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "12 SSE Solutions: The 2026 Buyer’s Verdict Guide",
+      "url": "https://gbhackers.com/sse-buyers-guide/",
+      "published": "Fri, 20 Nov 2026 10:42:23 +0000",
+      "published_utc": "2026-11-20T10:42:23+00:00",
+      "summary": "<p>Security Service Edge is SASE’s security half SWG, CASB, ZTNA and, increasingly, DLP and browser isolation, all served from the cloud and most organisations put it in before they ever touch the networking side. This verdict guide judges twelve solutions, declaring each one’s lane, because the data-centric anchor, the isolation-first preventer, and the platform-estate fit [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sse-buyers-guide/\">12 SSE Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=207912",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/sse-buyers-guide",
+      "content_hash": "163fb6edc1aefaa031761b63323a7978884dbb4a4476918d25a9cdde27b1046e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "163fb6edc1aefaa031761b63323a7978884dbb4a4476918d25a9cdde27b1046e",
+        "FEEDBURNER": "163fb6edc1aefaa031761b63323a7978884dbb4a4476918d25a9cdde27b1046e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:21.897204+00:00",
+      "first_seen_local": "2026-11-20T11:02:21.897201-05:00",
+      "last_updated_utc": "2026-11-20T16:02:21.897204+00:00",
+      "last_updated_local": "2026-11-20T11:02:21.897201-05:00"
+    },
+    {
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "url": "http://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "published": "Fri, 20 Nov 2026 10:38:22 +0000",
+      "published_utc": "2026-11-20T10:38:22+00:00",
+      "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7586705797169409579",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "content_hash": "ee4b53a99fe5441ba359e473288d5985d42de412011a81077b1b5a08c1517f6a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ee4b53a99fe5441ba359e473288d5985d42de412011a81077b1b5a08c1517f6a",
+        "FEEDBURNER": "ee4b53a99fe5441ba359e473288d5985d42de412011a81077b1b5a08c1517f6a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:29.260472+00:00",
+      "first_seen_local": "2026-11-20T11:02:29.260469-05:00",
+      "last_updated_utc": "2026-11-20T16:02:29.260472+00:00",
+      "last_updated_local": "2026-11-20T11:02:29.260469-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "published": "Fri, 20 Nov 2026 10:32:50 +0000",
+      "published_utc": "2026-11-20T10:32:50+00:00",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.\n\nThe activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7850546429631645335",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "content_hash": "bdfc65db828f5a2b5c90f76ddea6be679674052bcf73e66263a7fab97bf76eec",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "bdfc65db828f5a2b5c90f76ddea6be679674052bcf73e66263a7fab97bf76eec",
+        "FEEDBURNER": "bdfc65db828f5a2b5c90f76ddea6be679674052bcf73e66263a7fab97bf76eec"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:29.260472+00:00",
+      "first_seen_local": "2026-11-20T11:02:29.260469-05:00",
+      "last_updated_utc": "2026-11-20T16:02:29.260472+00:00",
+      "last_updated_local": "2026-11-20T11:02:29.260469-05:00"
+    },
+    {
+      "title": "Signal Restricts Screenshots to protect User Privacy from AI assistants",
+      "url": "https://cybersecuritynews.com/signal-restricts-screenshots/",
+      "published": "Fri, 20 Nov 2026 10:24:41 +0000",
+      "published_utc": "2026-11-20T10:24:41+00:00",
+      "summary": "<p>Signal is restricting screenshots on iOS 27 and some Android devices to stop built-in AI assistants from reading private chats through screen capture. The encrypted messaging app is targeting Apple’s Siri AI and assistants such as Google Gemini. On Android, the block turns on when Signal detects an assistant trying to read the screen. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/signal-restricts-screenshots/\">Signal Restricts Screenshots to protect User Privacy from AI assistants</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173254",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/signal-restricts-screenshots",
+      "content_hash": "2deecd95426ac8254e9b4bf8f5f8a34b764137128c5b21ffc83f856298b04c0f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2deecd95426ac8254e9b4bf8f5f8a34b764137128c5b21ffc83f856298b04c0f",
+        "FEEDBURNER": "2deecd95426ac8254e9b4bf8f5f8a34b764137128c5b21ffc83f856298b04c0f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "Palo Alto Confirms Java Vulnerability Impacts Privilege Threat Analytics and Remote Access Connector",
+      "url": "https://cybersecuritynews.com/palo-alto-confirms-java-vulnerability-impacts/",
+      "published": "Fri, 20 Nov 2026 10:00:36 +0000",
+      "published_utc": "2026-11-20T10:00:36+00:00",
+      "summary": "<p>Palo Alto Networks has confirmed that a critical Java vulnerability affects Idira Privilege Threat Analytics, Remote Access Connector, and on-premises HTML5 Gateway products. Tracked as CVE-2026-114938, the flaw could let a remote attacker run code without signing in when specific hardware and software conditions are met. The company’s security advisory, published November 20, assigns the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-java-vulnerability-impacts/\">Palo Alto Confirms Java Vulnerability Impacts Privilege Threat Analytics and Remote Access Connector</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173168",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/palo-alto-confirms-java-vulnerability-impacts",
+      "content_hash": "ecb25bb40e243be0afa0e7a6b559bd4efbb22051d761cfbb8d8226a0c85b7bea",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ecb25bb40e243be0afa0e7a6b559bd4efbb22051d761cfbb8d8226a0c85b7bea",
+        "FEEDBURNER": "ecb25bb40e243be0afa0e7a6b559bd4efbb22051d761cfbb8d8226a0c85b7bea"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "ClamAV Patches 10 High-Severity Vulnerabilities That Could Let Attackers Crash Antivirus Scanners",
+      "url": "https://cybersecuritynews.com/clamav-patches-10-high-severity-vulnerabilities/",
+      "published": "Fri, 20 Nov 2026 09:55:42 +0000",
+      "published_utc": "2026-11-20T09:55:42+00:00",
+      "summary": "<p>ClamAV has released versions 1.5.5 and 1.4.7 to fix 10 security flaws that could let attackers crash antivirus scanners, trap scan workers in endless loops, or drain system resources using crafted files. Published on November 18, 2026, the updates also address memory errors that could expose process data or corrupt memory during scanning. The fixes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clamav-patches-10-high-severity-vulnerabilities/\">ClamAV Patches 10 High-Severity Vulnerabilities That Could Let Attackers Crash Antivirus Scanners</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173139",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/clamav-patches-10-high-severity-vulnerabilities",
+      "content_hash": "a3cade26253b819618c1e3687419d510995d00223cdfd6cba4e0c76e617e4bf5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a3cade26253b819618c1e3687419d510995d00223cdfd6cba4e0c76e617e4bf5",
+        "FEEDBURNER": "a3cade26253b819618c1e3687419d510995d00223cdfd6cba4e0c76e617e4bf5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "Hackers Exploit Misconfigured Temenos Banking Platform to Deploy Web Shells Without Passwords",
+      "url": "https://cybersecuritynews.com/temenos-banking-platform/",
+      "published": "Fri, 20 Nov 2026 09:54:54 +0000",
+      "published_utc": "2026-11-20T09:54:54+00:00",
+      "summary": "<p>Hackers gained administrator access to an internet-facing Temenos Quantum Fabric deployment without a password and used the banking platform’s own tools to install malicious Java components. The campaign, dubbed BankWeaver, turned a service that should have been private into a route to the application server and its connected systems. Investigators confirmed one compromise at a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/temenos-banking-platform/\">Hackers Exploit Misconfigured Temenos Banking Platform to Deploy Web Shells Without Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173215",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/temenos-banking-platform",
+      "content_hash": "0f68345f692f0a4fa08716b7f8f05dd96bf4e0fa2a3d586af20ca3579550d107",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0f68345f692f0a4fa08716b7f8f05dd96bf4e0fa2a3d586af20ca3579550d107",
+        "FEEDBURNER": "0f68345f692f0a4fa08716b7f8f05dd96bf4e0fa2a3d586af20ca3579550d107"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:22.504333+00:00",
+      "first_seen_local": "2026-11-20T11:02:22.504330-05:00",
+      "last_updated_utc": "2026-11-20T16:02:22.504333+00:00",
+      "last_updated_local": "2026-11-20T11:02:22.504330-05:00"
+    },
+    {
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "url": "http://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "published": "Fri, 20 Nov 2026 07:11:39 +0000",
+      "published_utc": "2026-11-20T07:11:39+00:00",
+      "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2250727294437554781",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "content_hash": "5e3ef86c474083a0629e0a0f51203819190bf0d09484797bc3911e3267fe3619",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5e3ef86c474083a0629e0a0f51203819190bf0d09484797bc3911e3267fe3619",
+        "FEEDBURNER": "5e3ef86c474083a0629e0a0f51203819190bf0d09484797bc3911e3267fe3619"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T16:02:29.260472+00:00",
+      "first_seen_local": "2026-11-20T11:02:29.260469-05:00",
+      "last_updated_utc": "2026-11-20T16:02:29.260472+00:00",
+      "last_updated_local": "2026-11-20T11:02:29.260469-05:00"
     }
   ]
 }

@@ -1,40 +1,147 @@
 {
-  "generated_at_utc": "2026-11-19T23:45:31.320720+00:00",
-  "generated_at_local": "2026-11-19T18:45:31.320724-05:00",
-  "article_count": 1,
-  "new_count": 1,
+  "generated_at_utc": "2026-11-20T06:59:49.424426+00:00",
+  "generated_at_local": "2026-11-20T01:59:49.424439-05:00",
+  "article_count": 5,
+  "new_count": 5,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 1
+    "cybersecuritynews": 3,
+    "thehackernews": 2
   },
   "articles": [
     {
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-      "url": "http://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "published": "Thu, 19 Nov 2026 18:47:58 +0000",
-      "published_utc": "2026-11-19T18:47:58+00:00",
-      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7805190705126058188",
+      "title": "Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities",
+      "url": "https://cybersecuritynews.com/wireshark-4-6-10-released/",
+      "published": "Fri, 20 Nov 2026 06:58:34 +0000",
+      "published_utc": "2026-11-20T06:58:34+00:00",
+      "summary": "<p>Wireshark 4.6.10 has been released with fixes for 39 security vulnerabilities affecting protocol dissectors, capture file parsers, the dissection engine, and audio codecs. The update addresses crashes, processing loops, memory leaks, and a heap disclosure issue that could affect systems used for network troubleshooting and security analysis. The official release notes list security advisories wnpa-sec-2026-111 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wireshark-4-6-10-released/\">Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173147",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/wireshark-4-6-10-released",
+      "content_hash": "9755b3de0960c330d2ed0bbfd0c5875a03e5149551ece03edfae2e0a5d93fdc5",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9755b3de0960c330d2ed0bbfd0c5875a03e5149551ece03edfae2e0a5d93fdc5"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T06:59:45.555808+00:00",
+      "first_seen_local": "2026-11-20T01:59:45.555804-05:00",
+      "last_updated_utc": "2026-11-20T06:59:45.555808+00:00",
+      "last_updated_local": "2026-11-20T01:59:45.555804-05:00"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "url": "http://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "published": "Fri, 20 Nov 2026 06:33:31 +0000",
+      "published_utc": "2026-11-20T06:33:31+00:00",
+      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4638367034418771726",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "content_hash": "d5cdc6db0284e1b594d01ed68c679093f8c99a5140f29e06ff93bccc39bce79f",
+      "article_key": "thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "content_hash": "007f0eadeb6f12246f9af0b28dae7559f05dd6e7be57a51b57499fb39637de61",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "d5cdc6db0284e1b594d01ed68c679093f8c99a5140f29e06ff93bccc39bce79f",
-        "FEEDBURNER": "d5cdc6db0284e1b594d01ed68c679093f8c99a5140f29e06ff93bccc39bce79f"
+        "ORIGINAL": "007f0eadeb6f12246f9af0b28dae7559f05dd6e7be57a51b57499fb39637de61",
+        "FEEDBURNER": "007f0eadeb6f12246f9af0b28dae7559f05dd6e7be57a51b57499fb39637de61"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-19T23:45:31.314320+00:00",
-      "first_seen_local": "2026-11-19T18:45:31.314316-05:00",
-      "last_updated_utc": "2026-11-19T23:45:31.314320+00:00",
-      "last_updated_local": "2026-11-19T18:45:31.314316-05:00"
+      "first_seen_utc": "2026-11-20T06:59:49.414657+00:00",
+      "first_seen_local": "2026-11-20T01:59:49.414655-05:00",
+      "last_updated_utc": "2026-11-20T06:59:49.414657+00:00",
+      "last_updated_local": "2026-11-20T01:59:49.414655-05:00"
+    },
+    {
+      "title": "Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks",
+      "url": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/",
+      "published": "Fri, 20 Nov 2026 06:02:03 +0000",
+      "published_utc": "2026-11-20T06:02:03+00:00",
+      "summary": "<p>Hackers published customer data linked to Visa, Mastercard and JPMorgan Chase on Thursday, November 19, after cyberattacks on third-party service providers. All three companies said their own networks were not breached. Visa said no card numbers were affected, Mastercard said the leak involved a limited group of cardholders in a benefits program, and JPMorgan said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/\">Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173159",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach",
+      "content_hash": "6d477f0f867e6a37571b64cf6ed7688c90dccfbd9e75b209660d4c1c9bd5314a",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6d477f0f867e6a37571b64cf6ed7688c90dccfbd9e75b209660d4c1c9bd5314a"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T06:59:45.555808+00:00",
+      "first_seen_local": "2026-11-20T01:59:45.555804-05:00",
+      "last_updated_utc": "2026-11-20T06:59:45.555808+00:00",
+      "last_updated_local": "2026-11-20T01:59:45.555804-05:00"
+    },
+    {
+      "title": "Drupal Fixes Critical RCE Flaw That Could Let Unauthenticated Hackers Take Over Websites",
+      "url": "https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw/",
+      "published": "Fri, 20 Nov 2026 05:52:19 +0000",
+      "published_utc": "2026-11-20T05:52:19+00:00",
+      "summary": "<p>Drupal released security updates on November 18 to fix a critical flaw that could let attackers take over vulnerable websites without logging in. The bug, tracked as CVE-2026-132165, affects the installer included with Drupal core. Under specific conditions, an attacker could use it to attempt to reinstall an existing site, leading to a takeover or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw/\">Drupal Fixes Critical RCE Flaw That Could Let Unauthenticated Hackers Take Over Websites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=172925",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/drupal-fixes-critical-rce-flaw",
+      "content_hash": "77db9e59aa10a5bc0e789549dea11a2bb2cc19742dc8706b96a04ad6ea1b01ae",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "77db9e59aa10a5bc0e789549dea11a2bb2cc19742dc8706b96a04ad6ea1b01ae"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T06:59:45.555808+00:00",
+      "first_seen_local": "2026-11-20T01:59:45.555804-05:00",
+      "last_updated_utc": "2026-11-20T06:59:45.555808+00:00",
+      "last_updated_local": "2026-11-20T01:59:45.555804-05:00"
+    },
+    {
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "url": "http://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "published": "Fri, 20 Nov 2026 05:30:01 +0000",
+      "published_utc": "2026-11-20T05:30:01+00:00",
+      "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-212140074928851151",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "content_hash": "e2a63f5edfbf2c0431253dec5ba82aa00b41413cbdbd048a03c19610ad851123",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e2a63f5edfbf2c0431253dec5ba82aa00b41413cbdbd048a03c19610ad851123",
+        "FEEDBURNER": "e2a63f5edfbf2c0431253dec5ba82aa00b41413cbdbd048a03c19610ad851123"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-20T06:59:49.414657+00:00",
+      "first_seen_local": "2026-11-20T01:59:49.414655-05:00",
+      "last_updated_utc": "2026-11-20T06:59:49.414657+00:00",
+      "last_updated_local": "2026-11-20T01:59:49.414655-05:00"
     }
   ]
 }

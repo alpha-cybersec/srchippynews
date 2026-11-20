@@ -10,87 +10,23 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 10,
+      "article_count": 2,
       "articles": [
         {
-          "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-          "url": "http://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-          "published": "Thu, 19 Nov 2026 18:47:58 +0000",
-          "published_utc": "2026-11-19T18:47:58+00:00",
-          "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7805190705126058188"
+          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+          "url": "http://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+          "published": "Fri, 20 Nov 2026 06:33:31 +0000",
+          "published_utc": "2026-11-20T06:33:31+00:00",
+          "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4638367034418771726"
         },
         {
-          "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-          "url": "http://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-          "published": "Thu, 19 Nov 2026 16:59:56 +0000",
-          "published_utc": "2026-11-19T16:59:56+00:00",
-          "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8725273141046748962"
-        },
-        {
-          "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-          "url": "http://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-          "published": "Thu, 19 Nov 2026 15:18:07 +0000",
-          "published_utc": "2026-11-19T15:18:07+00:00",
-          "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6204821822778887091"
-        },
-        {
-          "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
-          "url": "http://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-          "published": "Thu, 19 Nov 2026 15:11:06 +0000",
-          "published_utc": "2026-11-19T15:11:06+00:00",
-          "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.\n\nThe",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2269566677132347035"
-        },
-        {
-          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-          "url": "http://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-          "published": "Thu, 19 Nov 2026 14:33:06 +0000",
-          "published_utc": "2026-11-19T14:33:06+00:00",
-          "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.\n\nThe Drupal Security Team disclosed",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7497667371072548029"
-        },
-        {
-          "title": "Everything Is a Web Application, Including Your Firewall",
-          "url": "http://thehackernews.com/2026/11/everything-is-web-application-including.html",
-          "published": "Thu, 19 Nov 2026 11:52:23 +0000",
-          "published_utc": "2026-11-19T11:52:23+00:00",
-          "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8027408322292215411"
-        },
-        {
-          "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-          "url": "http://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-          "published": "Thu, 19 Nov 2026 09:31:26 +0000",
-          "published_utc": "2026-11-19T09:31:26+00:00",
-          "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1357069987480793062"
-        },
-        {
-          "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-          "url": "http://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-          "published": "Thu, 19 Nov 2026 08:42:11 +0000",
-          "published_utc": "2026-11-19T08:42:11+00:00",
-          "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4631044480103142149"
-        },
-        {
-          "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-          "url": "http://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-          "published": "Thu, 19 Nov 2026 08:14:00 +0000",
-          "published_utc": "2026-11-19T08:14:00+00:00",
-          "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5265181206623638931"
-        },
-        {
-          "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-          "url": "http://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-          "published": "Thu, 19 Nov 2026 08:00:00 +0000",
-          "published_utc": "2026-11-19T08:00:00+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3044717433759836112"
+          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+          "url": "http://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+          "published": "Fri, 20 Nov 2026 05:30:01 +0000",
+          "published_utc": "2026-11-20T05:30:01+00:00",
+          "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-212140074928851151"
         }
       ],
       "error": ""
@@ -103,87 +39,23 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 10,
+      "article_count": 2,
       "articles": [
         {
-          "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-          "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-          "published": "Fri, 20 Nov 2026 00:17:58 +0530",
-          "published_utc": "2026-11-19T18:47:58+00:00",
-          "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
-          "id": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
+          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+          "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+          "published": "Fri, 20 Nov 2026 12:03:31 +0530",
+          "published_utc": "2026-11-20T06:33:31+00:00",
+          "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+          "id": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
         },
         {
-          "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-          "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-          "published": "Thu, 19 Nov 2026 22:29:56 +0530",
-          "published_utc": "2026-11-19T16:59:56+00:00",
-          "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
-          "id": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
-        },
-        {
-          "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-          "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-          "published": "Thu, 19 Nov 2026 20:48:07 +0530",
-          "published_utc": "2026-11-19T15:18:07+00:00",
-          "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
-          "id": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
-        },
-        {
-          "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
-          "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-          "published": "Thu, 19 Nov 2026 20:41:06 +0530",
-          "published_utc": "2026-11-19T15:11:06+00:00",
-          "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.\n\nThe",
-          "id": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
-        },
-        {
-          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-          "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-          "published": "Thu, 19 Nov 2026 20:03:06 +0530",
-          "published_utc": "2026-11-19T14:33:06+00:00",
-          "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.\n\nThe Drupal Security Team disclosed",
-          "id": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
-        },
-        {
-          "title": "Everything Is a Web Application, Including Your Firewall",
-          "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-          "published": "Thu, 19 Nov 2026 17:22:23 +0530",
-          "published_utc": "2026-11-19T11:52:23+00:00",
-          "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
-          "id": "https://thehackernews.com/2026/11/everything-is-web-application-including.html"
-        },
-        {
-          "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-          "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-          "published": "Thu, 19 Nov 2026 15:01:26 +0530",
-          "published_utc": "2026-11-19T09:31:26+00:00",
-          "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
-          "id": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
-        },
-        {
-          "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-          "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-          "published": "Thu, 19 Nov 2026 14:12:11 +0530",
-          "published_utc": "2026-11-19T08:42:11+00:00",
-          "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
-          "id": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
-        },
-        {
-          "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-          "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-          "published": "Thu, 19 Nov 2026 13:44:00 +0530",
-          "published_utc": "2026-11-19T08:14:00+00:00",
-          "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
-          "id": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html"
-        },
-        {
-          "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-          "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-          "published": "Thu, 19 Nov 2026 13:30:00 +0530",
-          "published_utc": "2026-11-19T08:00:00+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -",
-          "id": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
+          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+          "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+          "published": "Fri, 20 Nov 2026 11:00:01 +0530",
+          "published_utc": "2026-11-20T05:30:01+00:00",
+          "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+          "id": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
         }
       ],
       "error": ""

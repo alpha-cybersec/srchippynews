@@ -1,154 +1,64 @@
 {
-  "generated_at_utc": "2026-11-20T22:36:52.910337+00:00",
-  "generated_at_local": "2026-11-20T17:36:52.910343-05:00",
-  "article_count": 5,
-  "new_count": 5,
+  "generated_at_utc": "2026-11-21T03:27:20.305169+00:00",
+  "generated_at_local": "2026-11-20T22:27:20.305181-05:00",
+  "article_count": 2,
+  "new_count": 2,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 2,
-    "cybersecuritynews": 2,
-    "gbhackers": 1
+    "cybersecuritynews": 2
   },
   "articles": [
     {
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "published": "Fri, 20 Nov 2026 17:57:20 +0000",
-      "published_utc": "2026-11-20T17:57:20+00:00",
-      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.\n\nThe issue could",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-896984844842231085",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "content_hash": "145ff34a85481c097094acfdb9573a65ee75783c7a0f662974c53fc70f57c7ed",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "145ff34a85481c097094acfdb9573a65ee75783c7a0f662974c53fc70f57c7ed",
-        "FEEDBURNER": "145ff34a85481c097094acfdb9573a65ee75783c7a0f662974c53fc70f57c7ed"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-20T22:36:52.903272+00:00",
-      "first_seen_local": "2026-11-20T17:36:52.903271-05:00",
-      "last_updated_utc": "2026-11-20T22:36:52.903272+00:00",
-      "last_updated_local": "2026-11-20T17:36:52.903271-05:00"
-    },
-    {
-      "title": "Microsoft Investigates Attachment Upload Failures in New Outlook",
-      "url": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
-      "published": "Fri, 20 Nov 2026 17:01:31 +0000",
-      "published_utc": "2026-11-20T17:01:31+00:00",
-      "summary": "<p>Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook. In a November 20 service update, the company said attachment uploads still work in Outlook on the web and classic Outlook. Microsoft is tracking the issue in the Microsoft 365 admin center under EX1561765. New Outlook Attachment Issue The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-attachment-upload-failures/\">Microsoft Investigates Attachment Upload Failures in New Outlook</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173355",
+      "title": "WhatsApp Android Flaws Could Let Hackers Delete Users’ Files and Expose IP Addresses",
+      "url": "https://cybersecuritynews.com/whatsapp-android-flaws/",
+      "published": "Sat, 21 Nov 2026 02:36:55 +0000",
+      "published_utc": "2026-11-21T02:36:55+00:00",
+      "summary": "<p>WhatsApp’s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user’s IP address, or bypass a security check for Meta AI’s Private Processing service. Of the three, only the IP exposure flaw was flagged for possible abuse. The advisory says it may have been [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-android-flaws/\">WhatsApp Android Flaws Could Let Hackers Delete Users&#8217; Files and Expose IP Addresses</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173368",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/microsoft-attachment-upload-failures",
-      "content_hash": "940c94c97b4cc0335e3d45b7fe50e81cef32afc61bf1251440960dba9c50fabf",
+      "article_key": "cybersecuritynews.com/whatsapp-android-flaws",
+      "content_hash": "c70855bcddc2cd908306236820158d827a7571652e741e9c4155f9e8f558b423",
       "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "940c94c97b4cc0335e3d45b7fe50e81cef32afc61bf1251440960dba9c50fabf",
-        "FEEDBURNER": "940c94c97b4cc0335e3d45b7fe50e81cef32afc61bf1251440960dba9c50fabf"
+        "FEEDBURNER": "c70855bcddc2cd908306236820158d827a7571652e741e9c4155f9e8f558b423"
       },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-20T22:36:48.630124+00:00",
-      "first_seen_local": "2026-11-20T17:36:48.630122-05:00",
-      "last_updated_utc": "2026-11-20T22:36:48.630124+00:00",
-      "last_updated_local": "2026-11-20T17:36:48.630122-05:00"
+      "first_seen_utc": "2026-11-21T03:27:15.435146+00:00",
+      "first_seen_local": "2026-11-20T22:27:15.435144-05:00",
+      "last_updated_utc": "2026-11-21T03:27:15.435146+00:00",
+      "last_updated_local": "2026-11-20T22:27:15.435144-05:00"
     },
     {
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "published": "Fri, 20 Nov 2026 16:58:16 +0000",
-      "published_utc": "2026-11-20T16:58:16+00:00",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4035133160028817116",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "content_hash": "01fa8840a73b69214cb14d4f2aa3a699a7a8b27ae43b60bfc9e0b1443cd5dc62",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "01fa8840a73b69214cb14d4f2aa3a699a7a8b27ae43b60bfc9e0b1443cd5dc62",
-        "FEEDBURNER": "01fa8840a73b69214cb14d4f2aa3a699a7a8b27ae43b60bfc9e0b1443cd5dc62"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-20T22:36:52.903272+00:00",
-      "first_seen_local": "2026-11-20T17:36:52.903271-05:00",
-      "last_updated_utc": "2026-11-20T22:36:52.903272+00:00",
-      "last_updated_local": "2026-11-20T17:36:52.903271-05:00"
-    },
-    {
-      "title": "AI-Assisted Hackers Deploy 41 PowerShell Scripts to Steal Credentials From African Stock Exchange",
-      "url": "https://gbhackers.com/african-stock-exchange-credential-theft/",
-      "published": "Fri, 20 Nov 2026 16:46:48 +0000",
-      "published_utc": "2026-11-20T16:46:48+00:00",
-      "summary": "<p>Symantec researchers say attackers probably used an AI-written toolkit to hunt for credentials at an African stock exchange. They ran 41 PowerShell modules in 3 minutes 12 seconds, from 08:44 to 08:47 UTC, under a webshell on an IIS server. The modules tested credentials, a reused bearer token and API keys against the exchange&#8217;s investment [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/african-stock-exchange-credential-theft/\">AI-Assisted Hackers Deploy 41 PowerShell Scripts to Steal Credentials From African Stock Exchange</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208468",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/african-stock-exchange-credential-theft",
-      "content_hash": "b55b561ee849441b1d3b8806b50f07ed317349767cfccd39490416e8543b2f3d",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "b55b561ee849441b1d3b8806b50f07ed317349767cfccd39490416e8543b2f3d",
-        "FEEDBURNER": "b55b561ee849441b1d3b8806b50f07ed317349767cfccd39490416e8543b2f3d"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-20T22:36:48.099691+00:00",
-      "first_seen_local": "2026-11-20T17:36:48.099689-05:00",
-      "last_updated_utc": "2026-11-20T22:36:48.099691+00:00",
-      "last_updated_local": "2026-11-20T17:36:48.099689-05:00"
-    },
-    {
-      "title": "Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates",
-      "url": "https://cybersecuritynews.com/debian-packages-ca-certificates/",
-      "published": "Fri, 20 Nov 2026 16:39:48 +0000",
-      "published_utc": "2026-11-20T16:39:48+00:00",
-      "summary": "<p>A scan of a Debian package mirror found that more than 100 packages still contained copies of distrusted certificate authority (CA) certificates after Debian removed them from its system trust store. Debian developer Steve McIntyre posted the scan results to the Debian developer mailing list on November 19. The findings show why updating the operating [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/debian-packages-ca-certificates/\">Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173344",
+      "title": "14 Best Enterprise Risk Management Tools 2027",
+      "url": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
+      "published": "Sat, 21 Nov 2026 01:26:39 +0000",
+      "published_utc": "2026-11-21T01:26:39+00:00",
+      "summary": "<p>Enterprise Risk Management (ERM) tools empower organizations to identify, assess, and mitigate risks amid 2026&#8217;s complex, threat-laden business landscape. Evolving rapidly, these platforms harness AI, machine learning, and automation for real-time insights, process streamlining, and holistic coverage of operational, financial, compliance, and cybersecurity risks. Top ERM solutions prioritize seamless integrations for centralized data views, alongside: [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/enterprise-risk-management-tools/\">14 Best Enterprise Risk Management Tools 2027</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=35445",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/debian-packages-ca-certificates",
-      "content_hash": "6117169141278ae3508f0d4329bbc47916bd635edf7325e3f8f074072c0f7291",
+      "article_key": "cybersecuritynews.com/enterprise-risk-management-tools",
+      "content_hash": "d2d0dfd48d5e0958309d35496a8bfe5edd41ac455a1c7eca3601d0b3b5bad90c",
       "detected_via": [
-        "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "6117169141278ae3508f0d4329bbc47916bd635edf7325e3f8f074072c0f7291",
-        "FEEDBURNER": "6117169141278ae3508f0d4329bbc47916bd635edf7325e3f8f074072c0f7291"
+        "FEEDBURNER": "d2d0dfd48d5e0958309d35496a8bfe5edd41ac455a1c7eca3601d0b3b5bad90c"
       },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-20T22:36:48.630124+00:00",
-      "first_seen_local": "2026-11-20T17:36:48.630122-05:00",
-      "last_updated_utc": "2026-11-20T22:36:48.630124+00:00",
-      "last_updated_local": "2026-11-20T17:36:48.630122-05:00"
+      "first_seen_utc": "2026-11-21T03:27:15.435146+00:00",
+      "first_seen_local": "2026-11-20T22:27:15.435144-05:00",
+      "last_updated_utc": "2026-11-21T03:27:15.435146+00:00",
+      "last_updated_local": "2026-11-20T22:27:15.435144-05:00"
     }
   ]
 }

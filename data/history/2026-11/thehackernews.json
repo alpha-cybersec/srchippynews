@@ -2,8 +2,120 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 170,
+  "article_count": 174,
   "articles": [
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "url": "http://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "published": "Sat, 21 Nov 2026 11:05:53 +0000",
+      "published_utc": "2026-11-21T11:05:53+00:00",
+      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\n\nThe bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7551870019181471677",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "content_hash": "46f21addd39f1df02a26e5f98140cceb1db6d61c9c2563cf63567f14026a8b77",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "46f21addd39f1df02a26e5f98140cceb1db6d61c9c2563cf63567f14026a8b77",
+        "FEEDBURNER": "46f21addd39f1df02a26e5f98140cceb1db6d61c9c2563cf63567f14026a8b77"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
+      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
+      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
+      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
+    },
+    {
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "http://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "published": "Sat, 21 Nov 2026 11:03:17 +0000",
+      "published_utc": "2026-11-21T11:03:17+00:00",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8621216734794636145",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "content_hash": "311fc41d7c87cc55feb4abdc12a6cd7a2debc3f8dfc3427d1ba2666588d51473",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "311fc41d7c87cc55feb4abdc12a6cd7a2debc3f8dfc3427d1ba2666588d51473",
+        "FEEDBURNER": "311fc41d7c87cc55feb4abdc12a6cd7a2debc3f8dfc3427d1ba2666588d51473"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
+      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
+      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
+      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
+    },
+    {
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "url": "http://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "published": "Sat, 21 Nov 2026 08:49:20 +0000",
+      "published_utc": "2026-11-21T08:49:20+00:00",
+      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5064644445707658149",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "content_hash": "becb67026c2421c4937d6811b9493a7b4ef61b4896a97498b99398dfeda045e8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "becb67026c2421c4937d6811b9493a7b4ef61b4896a97498b99398dfeda045e8",
+        "FEEDBURNER": "becb67026c2421c4937d6811b9493a7b4ef61b4896a97498b99398dfeda045e8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
+      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
+      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
+      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "published": "Sat, 21 Nov 2026 08:49:13 +0000",
+      "published_utc": "2026-11-21T08:49:13+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8858888768254402351",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "content_hash": "6d684b388a42b2fe7a23ff2ea27dd73301e6af89a27c21c4d6b422274c4f0637",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6d684b388a42b2fe7a23ff2ea27dd73301e6af89a27c21c4d6b422274c4f0637",
+        "FEEDBURNER": "6d684b388a42b2fe7a23ff2ea27dd73301e6af89a27c21c4d6b422274c4f0637"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
+      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
+      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
+      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
+    },
     {
       "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
       "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",

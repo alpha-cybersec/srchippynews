@@ -10,79 +10,39 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 9,
+      "article_count": 4,
       "articles": [
         {
-          "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-          "url": "http://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-          "published": "Fri, 20 Nov 2026 17:57:20 +0000",
-          "published_utc": "2026-11-20T17:57:20+00:00",
-          "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.\n\nThe issue could",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-896984844842231085"
+          "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+          "url": "http://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+          "published": "Sat, 21 Nov 2026 11:05:53 +0000",
+          "published_utc": "2026-11-21T11:05:53+00:00",
+          "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\n\nThe bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7551870019181471677"
         },
         {
-          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-          "url": "http://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-          "published": "Fri, 20 Nov 2026 16:58:16 +0000",
-          "published_utc": "2026-11-20T16:58:16+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4035133160028817116"
+          "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+          "url": "http://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+          "published": "Sat, 21 Nov 2026 11:03:17 +0000",
+          "published_utc": "2026-11-21T11:03:17+00:00",
+          "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8621216734794636145"
         },
         {
-          "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-          "url": "http://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-          "published": "Fri, 20 Nov 2026 12:20:00 +0000",
-          "published_utc": "2026-11-20T12:20:00+00:00",
-          "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3797238586342390914"
+          "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+          "url": "http://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+          "published": "Sat, 21 Nov 2026 08:49:20 +0000",
+          "published_utc": "2026-11-21T08:49:20+00:00",
+          "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5064644445707658149"
         },
         {
-          "title": "The Path to AI Autonomy in the SOC",
-          "url": "http://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-          "published": "Fri, 20 Nov 2026 12:00:00 +0000",
-          "published_utc": "2026-11-20T12:00:00+00:00",
-          "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027.\n\nThe pressure",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3674110092513362346"
-        },
-        {
-          "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-          "url": "http://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-          "published": "Fri, 20 Nov 2026 10:38:22 +0000",
-          "published_utc": "2026-11-20T10:38:22+00:00",
-          "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7586705797169409579"
-        },
-        {
-          "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-          "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-          "published": "Fri, 20 Nov 2026 10:32:50 +0000",
-          "published_utc": "2026-11-20T10:32:50+00:00",
-          "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.\n\nThe activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7850546429631645335"
-        },
-        {
-          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-          "url": "http://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-          "published": "Fri, 20 Nov 2026 09:38:15 +0000",
-          "published_utc": "2026-11-20T09:38:15+00:00",
-          "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4638367034418771726"
-        },
-        {
-          "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-          "url": "http://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-          "published": "Fri, 20 Nov 2026 07:11:39 +0000",
-          "published_utc": "2026-11-20T07:11:39+00:00",
-          "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2250727294437554781"
-        },
-        {
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-          "url": "http://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-          "published": "Fri, 20 Nov 2026 05:30:01 +0000",
-          "published_utc": "2026-11-20T05:30:01+00:00",
-          "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-212140074928851151"
+          "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+          "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+          "published": "Sat, 21 Nov 2026 08:49:13 +0000",
+          "published_utc": "2026-11-21T08:49:13+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8858888768254402351"
         }
       ],
       "error": ""
@@ -95,79 +55,39 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 9,
+      "article_count": 4,
       "articles": [
         {
-          "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-          "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-          "published": "Fri, 20 Nov 2026 23:27:20 +0530",
-          "published_utc": "2026-11-20T17:57:20+00:00",
-          "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.\n\nThe issue could",
-          "id": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+          "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+          "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+          "published": "Sat, 21 Nov 2026 16:35:53 +0530",
+          "published_utc": "2026-11-21T11:05:53+00:00",
+          "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\n\nThe bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
+          "id": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
         },
         {
-          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-          "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-          "published": "Fri, 20 Nov 2026 22:28:16 +0530",
-          "published_utc": "2026-11-20T16:58:16+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
-          "id": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+          "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+          "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+          "published": "Sat, 21 Nov 2026 16:33:17 +0530",
+          "published_utc": "2026-11-21T11:03:17+00:00",
+          "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+          "id": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
         },
         {
-          "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-          "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-          "published": "Fri, 20 Nov 2026 17:50:00 +0530",
-          "published_utc": "2026-11-20T12:20:00+00:00",
-          "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
-          "id": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
+          "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+          "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+          "published": "Sat, 21 Nov 2026 14:19:20 +0530",
+          "published_utc": "2026-11-21T08:49:20+00:00",
+          "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
+          "id": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
         },
         {
-          "title": "The Path to AI Autonomy in the SOC",
-          "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-          "published": "Fri, 20 Nov 2026 17:30:00 +0530",
-          "published_utc": "2026-11-20T12:00:00+00:00",
-          "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027.\n\nThe pressure",
-          "id": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
-        },
-        {
-          "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-          "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-          "published": "Fri, 20 Nov 2026 16:08:22 +0530",
-          "published_utc": "2026-11-20T10:38:22+00:00",
-          "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
-          "id": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html"
-        },
-        {
-          "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-          "published": "Fri, 20 Nov 2026 16:02:50 +0530",
-          "published_utc": "2026-11-20T10:32:50+00:00",
-          "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.\n\nThe activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
-          "id": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
-        },
-        {
-          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-          "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-          "published": "Fri, 20 Nov 2026 15:08:15 +0530",
-          "published_utc": "2026-11-20T09:38:15+00:00",
-          "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-          "id": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
-        },
-        {
-          "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-          "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-          "published": "Fri, 20 Nov 2026 12:41:39 +0530",
-          "published_utc": "2026-11-20T07:11:39+00:00",
-          "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
-          "id": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
-        },
-        {
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-          "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-          "published": "Fri, 20 Nov 2026 11:00:01 +0530",
-          "published_utc": "2026-11-20T05:30:01+00:00",
-          "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
-          "id": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+          "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+          "published": "Sat, 21 Nov 2026 14:19:13 +0530",
+          "published_utc": "2026-11-21T08:49:13+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+          "id": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
         }
       ],
       "error": ""

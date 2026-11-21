@@ -5,14 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "Cyber Security News",
       "article_count": 0,
       "articles": [],
-      "error": "HTTP 202"
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -22,89 +22,8 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 10,
-      "articles": [
-        {
-          "title": "WhatsApp Android Flaws Could Let Hackers Delete Users’ Files and Expose IP Addresses",
-          "url": "https://cybersecuritynews.com/whatsapp-android-flaws/",
-          "published": "Sat, 21 Nov 2026 02:36:55 +0000",
-          "published_utc": "2026-11-21T02:36:55+00:00",
-          "summary": "<p>WhatsApp’s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user’s IP address, or bypass a security check for Meta AI’s Private Processing service. Of the three, only the IP exposure flaw was flagged for possible abuse. The advisory says it may have been [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-android-flaws/\">WhatsApp Android Flaws Could Let Hackers Delete Users&#8217; Files and Expose IP Addresses</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173368"
-        },
-        {
-          "title": "14 Best Enterprise Risk Management Tools 2027",
-          "url": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
-          "published": "Sat, 21 Nov 2026 01:26:39 +0000",
-          "published_utc": "2026-11-21T01:26:39+00:00",
-          "summary": "<p>Enterprise Risk Management (ERM) tools empower organizations to identify, assess, and mitigate risks amid 2026&#8217;s complex, threat-laden business landscape. Evolving rapidly, these platforms harness AI, machine learning, and automation for real-time insights, process streamlining, and holistic coverage of operational, financial, compliance, and cybersecurity risks. Top ERM solutions prioritize seamless integrations for centralized data views, alongside: [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/enterprise-risk-management-tools/\">14 Best Enterprise Risk Management Tools 2027</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=35445"
-        },
-        {
-          "title": "Microsoft Investigates Attachment Upload Failures in New Outlook",
-          "url": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
-          "published": "Fri, 20 Nov 2026 17:01:31 +0000",
-          "published_utc": "2026-11-20T17:01:31+00:00",
-          "summary": "<p>Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook. In a November 20 service update, the company said attachment uploads still work in Outlook on the web and classic Outlook. Microsoft is tracking the issue in the Microsoft 365 admin center under EX1561765. New Outlook Attachment Issue The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-attachment-upload-failures/\">Microsoft Investigates Attachment Upload Failures in New Outlook</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173355"
-        },
-        {
-          "title": "Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates",
-          "url": "https://cybersecuritynews.com/debian-packages-ca-certificates/",
-          "published": "Fri, 20 Nov 2026 16:39:48 +0000",
-          "published_utc": "2026-11-20T16:39:48+00:00",
-          "summary": "<p>A scan of a Debian package mirror found that more than 100 packages still contained copies of distrusted certificate authority (CA) certificates after Debian removed them from its system trust store. Debian developer Steve McIntyre posted the scan results to the Debian developer mailing list on November 19. The findings show why updating the operating [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/debian-packages-ca-certificates/\">Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173344"
-        },
-        {
-          "title": "Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication",
-          "url": "https://cybersecuritynews.com/critical-apache-tomcat-flaw/",
-          "published": "Fri, 20 Nov 2026 14:29:21 +0000",
-          "published_utc": "2026-11-20T14:29:21+00:00",
-          "summary": "<p>The Apache Software Foundation has disclosed a critical flaw in Apache Tomcat that allows a remote attacker to join a trusted server cluster without authentication. Tracked as CVE-2026-133325, the flaw affects clusters that use TLS 1.3 with a pre-shared key. Apache published the advisory on November 19, 2026, and credited researcher Mike Read with finding [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-apache-tomcat-flaw/\">Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173317"
-        },
-        {
-          "title": "Hackers Use 355 Domains to Spread Fake GTA 6 PC Launchers Delivering Malware",
-          "url": "https://cybersecuritynews.com/fake-gta-6-pc-launchers/",
-          "published": "Fri, 20 Nov 2026 13:02:57 +0000",
-          "published_utc": "2026-11-20T13:02:57+00:00",
-          "summary": "<p>A malware campaign called CyberLeek is using more than 355 domains and subdomains to promote fake Grand Theft Auto VI PC launchers. The sites offer what they claim is a leaked or early Windows release of GTA 6. Instead of a playable game, the download delivers a ZIP archive containing a malicious program disguised as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-gta-6-pc-launchers/\">Hackers Use 355 Domains to Spread Fake GTA 6 PC Launchers Delivering Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173286"
-        },
-        {
-          "title": "Hackers Turn Legitimate VPN Software Into a Stealthy Tool for Spying on Government Networks",
-          "url": "https://cybersecuritynews.com/legitimate-vpn-software/",
-          "published": "Fri, 20 Nov 2026 12:40:26 +0000",
-          "published_utc": "2026-11-20T12:40:26+00:00",
-          "summary": "<p>Hackers have rebuilt the open-source SoftEther VPN Bridge to keep a quiet route into compromised networks. The modified Windows program, branded internally as NtMonitor VPN, can link an external network to a victim’s local network while leaving fewer of the traces defenders expect from a standard SoftEther installation. Researchers link the tool to Webworm, a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/legitimate-vpn-software/\">Hackers Turn Legitimate VPN Software Into a Stealthy Tool for Spying on Government Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173261"
-        },
-        {
-          "title": "OpenSSL Hit by Critical 9.8 Heap Buffer Overflow Vulnerability in Base64 Encoding Function",
-          "url": "https://cybersecuritynews.com/openssl-heap-buffer-overflow/",
-          "published": "Fri, 20 Nov 2026 12:34:30 +0000",
-          "published_utc": "2026-11-20T12:34:30+00:00",
-          "summary": "<p>A heap buffer overflow in OpenSSL’s Base64 encoding function can corrupt application memory when the library processes very large inputs. The flaw, tracked as CVE-2026-121481, was published on November 18, 2026, with a critical CVSS 3.1 score of 9.8. That score describes the potential severity, but it does not mean every service that uses OpenSSL [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-heap-buffer-overflow/\">OpenSSL Hit by Critical 9.8 Heap Buffer Overflow Vulnerability in Base64 Encoding Function</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173281"
-        },
-        {
-          "title": "BYOD Ransomware Hackers Play Audio Ransom Messages on Computers Across Hospitals and Universities",
-          "url": "https://cybersecuritynews.com/byod-ransomware/",
-          "published": "Fri, 20 Nov 2026 12:06:00 +0000",
-          "published_utc": "2026-11-20T12:06:00+00:00",
-          "summary": "<p>Staff at the University of New Mexico Health Sciences Center reported hearing ransom messages from their computers during an October 26 cyberattack. Two weeks later, a recording from Vanderbilt University captured a voice announcing, “You have been compromised by BYOD.” The messages took the ransom demand out of a private note and made the incident [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/byod-ransomware/\">BYOD Ransomware Hackers Play Audio Ransom Messages on Computers Across Hospitals and Universities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173241"
-        },
-        {
-          "title": "Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits",
-          "url": "https://cybersecuritynews.com/hackers-use-ai-powered-artex-framework/",
-          "published": "Fri, 20 Nov 2026 11:27:05 +0000",
-          "published_utc": "2026-11-20T11:27:05+00:00",
-          "summary": "<p>Attackers are using an AI-driven testing tool called ARTEX to break into company networks. It needs no secret software flaws to do this. Instead, it hunts for ordinary mistakes such as exposed apps, weak passwords and loose permissions, and it keeps working at them far longer than a human would. ARTEX is an open-source framework [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-powered-artex-framework/\">Hackers Use AI-Powered ARTEX Framework to Automate Cyberattacks Without Relying on Zero-Day Exploits</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173218"
-        }
-      ],
+      "article_count": 0,
+      "articles": [],
       "error": ""
     }
   }

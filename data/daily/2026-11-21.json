@@ -1,11 +1,68 @@
 {
   "date": "2026-11-21",
-  "article_count": 10,
+  "article_count": 12,
   "sources": {
-    "thehackernews": 4,
+    "cybersecuritynews": 1,
+    "thehackernews": 5,
     "gbhackers": 6
   },
   "articles": [
+    {
+      "title": "CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever",
+      "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/",
+      "published": "Sat, 21 Nov 2026 13:12:03 +0000",
+      "published_utc": "2026-11-21T13:12:03+00:00",
+      "summary": "<p>CrowdStrike is in talks to acquire Zscaler in a deal that could rank among the largest in cybersecurity history. Bloomberg first reported the discussions on Friday, November 20, citing two people familiar with the matter who said talks were ongoing. The discussions could still end without an agreement. Neither company has announced a deal or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/\">CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173418",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/crowdstrike-to-acquire-zscaler",
+      "content_hash": "ade62f7fc3e36e697f04bfd9bd0f7966f9546f73bd7e4bc094168dbbf13613c6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ade62f7fc3e36e697f04bfd9bd0f7966f9546f73bd7e4bc094168dbbf13613c6",
+        "FEEDBURNER": "ade62f7fc3e36e697f04bfd9bd0f7966f9546f73bd7e4bc094168dbbf13613c6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T19:05:09.597490+00:00",
+      "first_seen_local": "2026-11-21T14:05:09.597487-05:00",
+      "last_updated_utc": "2026-11-21T19:05:09.597490+00:00",
+      "last_updated_local": "2026-11-21T14:05:09.597487-05:00"
+    },
+    {
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "http://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "published": "Sat, 21 Nov 2026 11:53:07 +0000",
+      "published_utc": "2026-11-21T11:53:07+00:00",
+      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\n\nThe same attack could be extended to reach the credentials Muse stores for the user's connected accounts.\n\nThe work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8096922086729320846",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "content_hash": "c2f483bf652f15237fcb6e3c122d7875a0ef6b47a0b71879e66b149b4f9003e8",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "c2f483bf652f15237fcb6e3c122d7875a0ef6b47a0b71879e66b149b4f9003e8",
+        "FEEDBURNER": "c2f483bf652f15237fcb6e3c122d7875a0ef6b47a0b71879e66b149b4f9003e8"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T19:05:13.397275+00:00",
+      "first_seen_local": "2026-11-21T14:05:13.397273-05:00",
+      "last_updated_utc": "2026-11-21T19:05:13.397275+00:00",
+      "last_updated_local": "2026-11-21T14:05:13.397273-05:00"
+    },
     {
       "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
       "url": "http://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",

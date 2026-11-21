@@ -1,293 +1,69 @@
 {
-  "generated_at_utc": "2026-11-21T11:41:06.004042+00:00",
-  "generated_at_local": "2026-11-21T06:41:06.004050-05:00",
-  "article_count": 10,
-  "new_count": 10,
+  "generated_at_utc": "2026-11-21T19:05:13.408531+00:00",
+  "generated_at_local": "2026-11-21T14:05:13.408541-05:00",
+  "article_count": 2,
+  "new_count": 2,
   "updated_count": 0,
   "sources": {
-    "thehackernews": 4,
-    "gbhackers": 6
+    "cybersecuritynews": 1,
+    "thehackernews": 1
   },
   "articles": [
     {
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "url": "http://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "published": "Sat, 21 Nov 2026 11:05:53 +0000",
-      "published_utc": "2026-11-21T11:05:53+00:00",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\n\nThe bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7551870019181471677",
+      "title": "CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever",
+      "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/",
+      "published": "Sat, 21 Nov 2026 13:12:03 +0000",
+      "published_utc": "2026-11-21T13:12:03+00:00",
+      "summary": "<p>CrowdStrike is in talks to acquire Zscaler in a deal that could rank among the largest in cybersecurity history. Bloomberg first reported the discussions on Friday, November 20, citing two people familiar with the matter who said talks were ongoing. The discussions could still end without an agreement. Neither company has announced a deal or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/\">CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173418",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/crowdstrike-to-acquire-zscaler",
+      "content_hash": "ade62f7fc3e36e697f04bfd9bd0f7966f9546f73bd7e4bc094168dbbf13613c6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ade62f7fc3e36e697f04bfd9bd0f7966f9546f73bd7e4bc094168dbbf13613c6",
+        "FEEDBURNER": "ade62f7fc3e36e697f04bfd9bd0f7966f9546f73bd7e4bc094168dbbf13613c6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-21T19:05:09.597490+00:00",
+      "first_seen_local": "2026-11-21T14:05:09.597487-05:00",
+      "last_updated_utc": "2026-11-21T19:05:09.597490+00:00",
+      "last_updated_local": "2026-11-21T14:05:09.597487-05:00"
+    },
+    {
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "http://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "published": "Sat, 21 Nov 2026 11:53:07 +0000",
+      "published_utc": "2026-11-21T11:53:07+00:00",
+      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\n\nThe same attack could be extended to reach the credentials Muse stores for the user's connected accounts.\n\nThe work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8096922086729320846",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "content_hash": "46f21addd39f1df02a26e5f98140cceb1db6d61c9c2563cf63567f14026a8b77",
+      "article_key": "thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "content_hash": "c2f483bf652f15237fcb6e3c122d7875a0ef6b47a0b71879e66b149b4f9003e8",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "46f21addd39f1df02a26e5f98140cceb1db6d61c9c2563cf63567f14026a8b77",
-        "FEEDBURNER": "46f21addd39f1df02a26e5f98140cceb1db6d61c9c2563cf63567f14026a8b77"
+        "ORIGINAL": "c2f483bf652f15237fcb6e3c122d7875a0ef6b47a0b71879e66b149b4f9003e8",
+        "FEEDBURNER": "c2f483bf652f15237fcb6e3c122d7875a0ef6b47a0b71879e66b149b4f9003e8"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
-      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
-      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
-      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
-    },
-    {
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "url": "http://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "published": "Sat, 21 Nov 2026 11:03:17 +0000",
-      "published_utc": "2026-11-21T11:03:17+00:00",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8621216734794636145",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "content_hash": "311fc41d7c87cc55feb4abdc12a6cd7a2debc3f8dfc3427d1ba2666588d51473",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "311fc41d7c87cc55feb4abdc12a6cd7a2debc3f8dfc3427d1ba2666588d51473",
-        "FEEDBURNER": "311fc41d7c87cc55feb4abdc12a6cd7a2debc3f8dfc3427d1ba2666588d51473"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
-      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
-      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
-      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
-    },
-    {
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "url": "http://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "published": "Sat, 21 Nov 2026 08:49:20 +0000",
-      "published_utc": "2026-11-21T08:49:20+00:00",
-      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5064644445707658149",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "content_hash": "becb67026c2421c4937d6811b9493a7b4ef61b4896a97498b99398dfeda045e8",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "becb67026c2421c4937d6811b9493a7b4ef61b4896a97498b99398dfeda045e8",
-        "FEEDBURNER": "becb67026c2421c4937d6811b9493a7b4ef61b4896a97498b99398dfeda045e8"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
-      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
-      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
-      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
-    },
-    {
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "url": "http://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "published": "Sat, 21 Nov 2026 08:49:13 +0000",
-      "published_utc": "2026-11-21T08:49:13+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-8858888768254402351",
-      "source": "The Hacker News",
-      "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "content_hash": "6d684b388a42b2fe7a23ff2ea27dd73301e6af89a27c21c4d6b422274c4f0637",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "6d684b388a42b2fe7a23ff2ea27dd73301e6af89a27c21c4d6b422274c4f0637",
-        "FEEDBURNER": "6d684b388a42b2fe7a23ff2ea27dd73301e6af89a27c21c4d6b422274c4f0637"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:05.993238+00:00",
-      "first_seen_local": "2026-11-21T06:41:05.993235-05:00",
-      "last_updated_utc": "2026-11-21T11:41:05.993238+00:00",
-      "last_updated_local": "2026-11-21T06:41:05.993235-05:00"
-    },
-    {
-      "title": "Critical F5 BIG-IP Stack Buffer Overflow Flaw Enables Remote Code Execution and Denial-of-Service Attacks",
-      "url": "https://gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw/",
-      "published": "Sat, 21 Nov 2026 07:53:29 +0000",
-      "published_utc": "2026-11-21T07:53:29+00:00",
-      "summary": "<p>F5 disclosed a critical stack-based buffer overflow in BIG-IP Access Policy Manager (APM) on November 18, 2026. Tracked as CVE-2026-123637, the flaw allows a remote, unauthenticated attacker to terminate the Traffic Management Microkernel (TMM), interrupting traffic while the process restarts. The affected configuration requires APM provisioning and a virtual server with a per-request policy that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw/\">Critical F5 BIG-IP Stack Buffer Overflow Flaw Enables Remote Code Execution and Denial-of-Service Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208729",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw",
-      "content_hash": "13797986b580616fff3c6faa9162d0eb41c9b0a2ea4ca04877ff5c32f5acb58c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "13797986b580616fff3c6faa9162d0eb41c9b0a2ea4ca04877ff5c32f5acb58c",
-        "FEEDBURNER": "13797986b580616fff3c6faa9162d0eb41c9b0a2ea4ca04877ff5c32f5acb58c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:00.120227+00:00",
-      "first_seen_local": "2026-11-21T06:41:00.120224-05:00",
-      "last_updated_utc": "2026-11-21T11:41:00.120227+00:00",
-      "last_updated_local": "2026-11-21T06:41:00.120224-05:00"
-    },
-    {
-      "title": "China-Linked Webworm Hackers Deploy Custom SoftEther VPN to Maintain Hidden Access to Government Networks",
-      "url": "https://gbhackers.com/china-linked-webworm-softether-vpn/",
-      "published": "Sat, 21 Nov 2026 07:37:44 +0000",
-      "published_utc": "2026-11-21T07:37:44+00:00",
-      "summary": "<p>A newly identified modified SoftEther VPN Bridge that is attributed with moderate confidence to Webworm, a China-aligned espionage group known for targeting government organizations, particularly in Europe. The November 19 analysis describes a Windows executable that preserves SoftEther’s network bridging capabilities while changing the artifacts defenders use to identify unauthorized deployments. The discovery builds on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/china-linked-webworm-softether-vpn/\">China-Linked Webworm Hackers Deploy Custom SoftEther VPN to Maintain Hidden Access to Government Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208726",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/china-linked-webworm-softether-vpn",
-      "content_hash": "cb8b79b5b4b1eee8cfada48483d3c0c21e3b56244e222c0897bbea1a55122396",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cb8b79b5b4b1eee8cfada48483d3c0c21e3b56244e222c0897bbea1a55122396",
-        "FEEDBURNER": "cb8b79b5b4b1eee8cfada48483d3c0c21e3b56244e222c0897bbea1a55122396"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:00.120227+00:00",
-      "first_seen_local": "2026-11-21T06:41:00.120224-05:00",
-      "last_updated_utc": "2026-11-21T11:41:00.120227+00:00",
-      "last_updated_local": "2026-11-21T06:41:00.120224-05:00"
-    },
-    {
-      "title": "New AI-Powered Bazuka Banking Trojan Targets Android Users With Keylogging and SMS Interception",
-      "url": "https://gbhackers.com/ai-powered-bazuka-banking-trojan-android-users/",
-      "published": "Sat, 21 Nov 2026 07:15:46 +0000",
-      "published_utc": "2026-11-21T07:15:46+00:00",
-      "summary": "<p>A newly disclosed Bazuka, a modular Android banking Trojan that captures banking credentials and intercepts SMS verification codes while using large language models (LLMs) to help operators prioritize compromised devices. ThreatFabric discovered the framework in late October 2026 while investigating an incident involving a near-field communication (NFC) card relay application. Bazuka combines a dropper or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-bazuka-banking-trojan-android-users/\">New AI-Powered Bazuka Banking Trojan Targets Android Users With Keylogging and SMS Interception</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208718",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-powered-bazuka-banking-trojan-android-users",
-      "content_hash": "cf9c8fbbf54187761823f0933bc1ade31a097568bb7e9c476ba5d2f5cdb2591f",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cf9c8fbbf54187761823f0933bc1ade31a097568bb7e9c476ba5d2f5cdb2591f",
-        "FEEDBURNER": "cf9c8fbbf54187761823f0933bc1ade31a097568bb7e9c476ba5d2f5cdb2591f"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:00.120227+00:00",
-      "first_seen_local": "2026-11-21T06:41:00.120224-05:00",
-      "last_updated_utc": "2026-11-21T11:41:00.120227+00:00",
-      "last_updated_local": "2026-11-21T06:41:00.120224-05:00"
-    },
-    {
-      "title": "WhatsApp Security Flaw Lets Attackers Delete Files and Leak Chat Database Information on Android Devices",
-      "url": "https://gbhackers.com/whatsapp-security-flaw/",
-      "published": "Sat, 21 Nov 2026 06:59:27 +0000",
-      "published_utc": "2026-11-21T06:59:27+00:00",
-      "summary": "<p>WhatsApp’s November 2026 security update addresses a SQL injection flaw that could let attackers delete locally stored WhatsApp files and infer limited information about a recipient’s chat database on Android. Tracked as CVE-2026-102769, the flaw affects WhatsApp for Android versions before 2.26.35.74. The file deletion scenario required the recipient to tap a specially crafted “order [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/whatsapp-security-flaw/\">WhatsApp Security Flaw Lets Attackers Delete Files and Leak Chat Database Information on Android Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208710",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/whatsapp-security-flaw",
-      "content_hash": "abc673b8b43265784a8c098e5e94449769bd05e6881470526eba3cb56aa8df8e",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "abc673b8b43265784a8c098e5e94449769bd05e6881470526eba3cb56aa8df8e",
-        "FEEDBURNER": "abc673b8b43265784a8c098e5e94449769bd05e6881470526eba3cb56aa8df8e"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:00.120227+00:00",
-      "first_seen_local": "2026-11-21T06:41:00.120224-05:00",
-      "last_updated_utc": "2026-11-21T11:41:00.120227+00:00",
-      "last_updated_local": "2026-11-21T06:41:00.120224-05:00"
-    },
-    {
-      "title": "North Korean IT Workers Create Fake Construction Company and Use AI Deepfakes to Target U.S. Businesses",
-      "url": "https://gbhackers.com/north-korean-fake-construction-company-ai-deepfakes/",
-      "published": "Sat, 21 Nov 2026 06:50:30 +0000",
-      "published_utc": "2026-11-21T06:50:30+00:00",
-      "summary": "<p>A suspected North Korean remote worker used a fake Virginia construction company and an apparent real-time AI face swap to pursue contracts with U.S. businesses. The company, The Great House, advertised residential and commercial construction and engineering services from Lynchburg. Silent Push assessed that the operation sought to generate revenue for North Korea. Its investigation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-fake-construction-company-ai-deepfakes/\">North Korean IT Workers Create Fake Construction Company and Use AI Deepfakes to Target U.S. Businesses</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208702",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/north-korean-fake-construction-company-ai-deepfakes",
-      "content_hash": "2ee67a94cb9e323623ebd1e8ea4904dc5b984932e8526e675361bc02ba7c4ad2",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "2ee67a94cb9e323623ebd1e8ea4904dc5b984932e8526e675361bc02ba7c4ad2",
-        "FEEDBURNER": "2ee67a94cb9e323623ebd1e8ea4904dc5b984932e8526e675361bc02ba7c4ad2"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:00.120227+00:00",
-      "first_seen_local": "2026-11-21T06:41:00.120224-05:00",
-      "last_updated_utc": "2026-11-21T11:41:00.120227+00:00",
-      "last_updated_local": "2026-11-21T06:41:00.120224-05:00"
-    },
-    {
-      "title": "Critical Apache Tomcat Security Flaw Enables Unauthorized Nodes to Join Protected Server Clusters",
-      "url": "https://gbhackers.com/critical-apache-tomcat-security-flaw/",
-      "published": "Sat, 21 Nov 2026 06:39:51 +0000",
-      "published_utc": "2026-11-21T06:39:51+00:00",
-      "summary": "<p>The Apache Software Foundation disclosed a critical peer authentication bypass in Apache Tomcat that allows an unauthenticated node to join a cluster secured with TLS 1.3 and a pre-shared key (PSK). Tracked as CVE-2026-133325, the defect affects Tomcat 11.0.28 through 11.0.29, 10.1.62, and 9.0.124. Exposure depends on both the deployed release and the cluster transport [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-apache-tomcat-security-flaw/\">Critical Apache Tomcat Security Flaw Enables Unauthorized Nodes to Join Protected Server Clusters</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208696",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/critical-apache-tomcat-security-flaw",
-      "content_hash": "224f342d45411acfe550a4335d254967476391354fec352361284005419c849c",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "224f342d45411acfe550a4335d254967476391354fec352361284005419c849c",
-        "FEEDBURNER": "224f342d45411acfe550a4335d254967476391354fec352361284005419c849c"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-21T11:41:00.120227+00:00",
-      "first_seen_local": "2026-11-21T06:41:00.120224-05:00",
-      "last_updated_utc": "2026-11-21T11:41:00.120227+00:00",
-      "last_updated_local": "2026-11-21T06:41:00.120224-05:00"
+      "first_seen_utc": "2026-11-21T19:05:13.397275+00:00",
+      "first_seen_local": "2026-11-21T14:05:13.397273-05:00",
+      "last_updated_utc": "2026-11-21T19:05:13.397275+00:00",
+      "last_updated_local": "2026-11-21T14:05:13.397273-05:00"
     }
   ]
 }

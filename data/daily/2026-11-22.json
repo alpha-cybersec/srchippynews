@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-22",
+  "article_count": 2,
+  "sources": {
+    "thehackernews": 2
+  },
+  "articles": [
+    {
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "http://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "published": "Sun, 22 Nov 2026 05:06:55 +0000",
+      "published_utc": "2026-11-22T05:06:55+00:00",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.\n\nOpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1735083322913771303",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "content_hash": "de35fae48296692a04f4748c5213eef10e2b64d315ad26cdd58e0a32d9191a02",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "de35fae48296692a04f4748c5213eef10e2b64d315ad26cdd58e0a32d9191a02",
+        "FEEDBURNER": "de35fae48296692a04f4748c5213eef10e2b64d315ad26cdd58e0a32d9191a02"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-22T06:31:56.592350+00:00",
+      "first_seen_local": "2026-11-22T01:31:56.592349-05:00",
+      "last_updated_utc": "2026-11-22T06:31:56.592350+00:00",
+      "last_updated_local": "2026-11-22T01:31:56.592349-05:00"
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "http://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "published": "Sun, 22 Nov 2026 05:03:41 +0000",
+      "published_utc": "2026-11-22T05:03:41+00:00",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.\n\nSecurity firm pwn.ai showed this week that ordinary upload,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4069134473134999259",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "content_hash": "39f59d8b2866d3ad33acb2ca6ad4f493acd6f944eff1413f8b6dc69749a070ac",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "39f59d8b2866d3ad33acb2ca6ad4f493acd6f944eff1413f8b6dc69749a070ac",
+        "FEEDBURNER": "39f59d8b2866d3ad33acb2ca6ad4f493acd6f944eff1413f8b6dc69749a070ac"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-22T06:31:56.592350+00:00",
+      "first_seen_local": "2026-11-22T01:31:56.592349-05:00",
+      "last_updated_utc": "2026-11-22T06:31:56.592350+00:00",
+      "last_updated_local": "2026-11-22T01:31:56.592349-05:00"
+    }
+  ]
+}

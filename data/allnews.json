@@ -1,173 +1,669 @@
 {
-  "generated_at_utc": "2026-11-23T09:42:51.781991+00:00",
-  "generated_at_local": "2026-11-23T04:42:51.782003-05:00",
-  "article_count": 20,
-  "new_count": 20,
-  "updated_count": 0,
+  "generated_at_utc": "2026-11-23T22:00:07.553600+00:00",
+  "generated_at_local": "2026-11-23T17:00:07.553611-05:00",
+  "article_count": 25,
+  "new_count": 24,
+  "updated_count": 1,
   "sources": {
-    "gbhackers": 13,
-    "thehackernews": 3,
-    "cybersecuritynews": 4
+    "thehackernews": 6,
+    "cybersecuritynews": 10,
+    "gbhackers": 9
   },
   "articles": [
     {
-      "title": "Hackers Exploit GL.iNet Cloud Security Flaw to Infect Routers and KVM Devices With Malware",
-      "url": "https://gbhackers.com/hackers-exploit-gl-inet-cloud-security-flaw/",
-      "published": "Mon, 23 Nov 2026 09:33:56 +0000",
-      "published_utc": "2026-11-23T09:33:56+00:00",
-      "summary": "<p>GL.iNet reported that an unauthorized party exploited a vulnerability in its cloud remote management services, allowing them to install malware on certain routers and keyboard, video, and mouse (KVM) devices. The company discovered the flaw on November 20, 2026. In an update on November 23, GL.iNet announced that it had patched the cloud service and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-gl-inet-cloud-security-flaw/\">Hackers Exploit GL.iNet Cloud Security Flaw to Infect Routers and KVM Devices With Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209397",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-exploit-gl-inet-cloud-security-flaw",
-      "content_hash": "0aff78704bbcbeb524c28529c926a5c833444ebb815329d4f347c7a899c98ebf",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "0aff78704bbcbeb524c28529c926a5c833444ebb815329d4f347c7a899c98ebf"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Hackers Use Malicious Ads to Exploit iPhones and Steal Passwords, Messages, and Crypto Wallets",
-      "url": "https://gbhackers.com/hackers-use-malicious-ads-to-exploit-iphones-and-steal-passwords/",
-      "published": "Mon, 23 Nov 2026 09:20:01 +0000",
-      "published_utc": "2026-11-23T09:20:01+00:00",
-      "summary": "<p>A malvertising operation dubbed MoldyRoost is buying online ads to compromise vulnerable iPhones and steal saved passwords, private messages, and cryptocurrency wallet recovery phrases. According to Confiant’s MoldyRoost investigation, loading the landing page after tapping an ad can trigger the attack. Visitors do not need to install an app, enter credentials, or run a command. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-malicious-ads-to-exploit-iphones-and-steal-passwords/\">Hackers Use Malicious Ads to Exploit iPhones and Steal Passwords, Messages, and Crypto Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209368",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/hackers-use-malicious-ads-to-exploit-iphones-and-steal-passwords",
-      "content_hash": "183d79260b7c64a2de1c16b9bbc4fb0493856cee5f8c6e623391974668f79ae3",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "183d79260b7c64a2de1c16b9bbc4fb0493856cee5f8c6e623391974668f79ae3"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Hackers Could Control Linux Cloud Servers Using Vmcloudoor Backdoor Disguised as Trusted Agents",
-      "url": "https://gbhackers.com/vmcloudoor-backdoor/",
-      "published": "Mon, 23 Nov 2026 09:17:56 +0000",
-      "published_utc": "2026-11-23T09:17:56+00:00",
-      "summary": "<p>A newly discovered Linux implant, Vmcloudoor, infects virtual machines on Chinese cloud platforms, mainly Alibaba Cloud, and also targets Tencent and Huawei. Researchers have only the helper module, which still shows the main capabilities. A second module, &#8220;Core&#8221;, is meant to execute commands retrieved from the command-and-control (C2) server. On Tencent it looks for /usr/local/qcloud [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vmcloudoor-backdoor/\">Hackers Could Control Linux Cloud Servers Using Vmcloudoor Backdoor Disguised as Trusted Agents</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209313",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/vmcloudoor-backdoor",
-      "content_hash": "fb3e6de777b80a97267e1b405249abb6547b2f938fac992e47ea59f56b7849d0",
-      "detected_via": [
-        "ORIGINAL"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "fb3e6de777b80a97267e1b405249abb6547b2f938fac992e47ea59f56b7849d0"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "published": "Mon, 23 Nov 2026 09:11:56 +0000",
-      "published_utc": "2026-11-23T09:11:56+00:00",
-      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5080426783891924694",
+      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "published": "Mon, 23 Nov 2026 17:45:15 +0000",
+      "published_utc": "2026-11-23T17:45:15+00:00",
+      "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks.\n\nThe modified variant \"implements various tricks to hide itself from security tools,\"",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5095475251515127712",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "content_hash": "f418af853436465f9998a01205f8a85e0274f97a06547126bfe5a7da94cd1767",
+      "article_key": "thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "content_hash": "f0dca79cd181f28b85c24787dd7f28398007c466f17903ccf2b8b84dd3f93f2d",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "f418af853436465f9998a01205f8a85e0274f97a06547126bfe5a7da94cd1767"
+        "ORIGINAL": "f0dca79cd181f28b85c24787dd7f28398007c466f17903ccf2b8b84dd3f93f2d",
+        "FEEDBURNER": "f0dca79cd181f28b85c24787dd7f28398007c466f17903ccf2b8b84dd3f93f2d"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:51.770299+00:00",
-      "first_seen_local": "2026-11-23T04:42:51.770297-05:00",
-      "last_updated_utc": "2026-11-23T09:42:51.770299+00:00",
-      "last_updated_local": "2026-11-23T04:42:51.770297-05:00"
+      "first_seen_utc": "2026-11-23T22:00:07.543218+00:00",
+      "first_seen_local": "2026-11-23T17:00:07.543215-05:00",
+      "last_updated_utc": "2026-11-23T22:00:07.543218+00:00",
+      "last_updated_local": "2026-11-23T17:00:07.543215-05:00"
     },
     {
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "published": "Mon, 23 Nov 2026 09:04:08 +0000",
-      "published_utc": "2026-11-23T09:04:08+00:00",
-      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.\n\nThe company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
-      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6169976380283745367",
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "published": "Mon, 23 Nov 2026 15:10:48 +0000",
+      "published_utc": "2026-11-23T15:10:48+00:00",
+      "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open.\n\nThis week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1998060397509224549",
       "source": "The Hacker News",
       "source_slug": "thehackernews",
-      "article_key": "thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "content_hash": "0994f81b966e0d1542ee84af9cfae9f4227d3f7d374d98e9e2add04412846a8f",
+      "article_key": "thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "content_hash": "d93b4a9b745cf0fc34cf7c564c54e5be6489d40182e27ab4c20e87f3bbc84902",
       "detected_via": [
-        "ORIGINAL"
+        "ORIGINAL",
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "0994f81b966e0d1542ee84af9cfae9f4227d3f7d374d98e9e2add04412846a8f"
+        "ORIGINAL": "d93b4a9b745cf0fc34cf7c564c54e5be6489d40182e27ab4c20e87f3bbc84902",
+        "FEEDBURNER": "d93b4a9b745cf0fc34cf7c564c54e5be6489d40182e27ab4c20e87f3bbc84902"
       },
-      "feed_comparison": "SINGLE_ENDPOINT",
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:51.770299+00:00",
-      "first_seen_local": "2026-11-23T04:42:51.770297-05:00",
-      "last_updated_utc": "2026-11-23T09:42:51.770299+00:00",
-      "last_updated_local": "2026-11-23T04:42:51.770297-05:00"
+      "first_seen_utc": "2026-11-23T22:00:07.543218+00:00",
+      "first_seen_local": "2026-11-23T17:00:07.543215-05:00",
+      "last_updated_utc": "2026-11-23T22:00:07.543218+00:00",
+      "last_updated_local": "2026-11-23T17:00:07.543215-05:00"
     },
     {
-      "title": "Samsung Securities Data Breach Exposes 8,241 Customers’ Personal and Account Details",
-      "url": "https://cybersecuritynews.com/samsung-securities-data-breach/",
-      "published": "Mon, 23 Nov 2026 08:53:13 +0000",
-      "published_utc": "2026-11-23T08:53:13+00:00",
-      "summary": "<p>Samsung Securities confirmed on November 23 that a data breach exposed personal information belonging to 8,241 customers. The South Korean brokerage detected unauthorized access on Saturday, November 21, in its Voice of Customer (VOC) system, a website service for complaints and inquiries. The company found no evidence of exposure outside the affected system. The breach [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/samsung-securities-data-breach/\">Samsung Securities Data Breach Exposes 8,241 Customers’ Personal and Account Details</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173556",
+      "title": "Jensen Huang Returns as NVIDIA CEO Following Unanimous Board Vote",
+      "url": "https://cybersecuritynews.com/nvidia-reinstates-jensen-huang/",
+      "published": "Mon, 23 Nov 2026 14:51:17 +0000",
+      "published_utc": "2026-11-23T14:51:17+00:00",
+      "summary": "<p>NVIDIA reinstated Jensen Huang as president, chief executive officer, and board director on November 23, 2026, after a unanimous vote. The decision took effect immediately, but an independent board inquiry into reports that a foreign intelligence effort targeted Huang remains open. In its announcement, NVIDIA said the board met with Huang several times and received [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nvidia-reinstates-jensen-huang/\">Jensen Huang Returns as NVIDIA CEO Following Unanimous Board Vote</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173741",
       "source": "Cyber Security News",
       "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/samsung-securities-data-breach",
-      "content_hash": "e5da9e8f8a90033dd9dbe08b1e5b12fa7a672cdd7327c0f1fb11f883416071ad",
+      "article_key": "cybersecuritynews.com/nvidia-reinstates-jensen-huang",
+      "content_hash": "47c30bf5fcc25d63592690649fe8aba5a4c420f7d23ca5174857fb3d966655dd",
       "detected_via": [
-        "ORIGINAL"
+        "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "e5da9e8f8a90033dd9dbe08b1e5b12fa7a672cdd7327c0f1fb11f883416071ad"
+        "FEEDBURNER": "47c30bf5fcc25d63592690649fe8aba5a4c420f7d23ca5174857fb3d966655dd"
       },
       "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "European Commission Disables Access to EU Academy After Cyberattack Exposes User Data",
+      "url": "https://cybersecuritynews.com/eu-academy-disabled/",
+      "published": "Mon, 23 Nov 2026 14:34:27 +0000",
+      "published_utc": "2026-11-23T14:34:27+00:00",
+      "summary": "<p>The European Commission disabled public access to EU Academy on Monday, November 23, after confirming that a wider cyberattack exposed users’ personal data. The online learning platform hosts courses and workshops produced by EU institutions. The Commission posted a notice on the academy’s website, but it did not say how many users were affected or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/eu-academy-disabled/\">European Commission Disables Access to EU Academy After Cyberattack Exposes User Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173714",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/eu-academy-disabled",
+      "content_hash": "e8bd2a43cad045cfba35dd6e49327b630bcc57e52e004ca117865681935e5b2f",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "e8bd2a43cad045cfba35dd6e49327b630bcc57e52e004ca117865681935e5b2f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Hackers Hide RevStealer Malware in Fake Claude AI App to Steal Passwords and Crypto Wallets",
+      "url": "https://cybersecuritynews.com/hackers-hide-revstealer-malware/",
+      "published": "Mon, 23 Nov 2026 14:24:48 +0000",
+      "published_utc": "2026-11-23T14:24:48+00:00",
+      "summary": "<p>Hackers are distributing RevStealer, a Windows infostealer, in a fake Claude AI desktop app that promises free access. The download, branded “Claude Opus 5 Free Desktop,” comes in an archive of roughly 101 MB. Running the executable does not open a chat window. Instead, it starts malware designed to steal saved passwords, browser sessions, cryptocurrency [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hide-revstealer-malware/\">Hackers Hide RevStealer Malware in Fake Claude AI App to Steal Passwords and Crypto Wallets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173713",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-hide-revstealer-malware",
+      "content_hash": "0f37998c02de8610332df2cd43d3bb7e2fc485223945dba712f71186eaadd717",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "0f37998c02de8610332df2cd43d3bb7e2fc485223945dba712f71186eaadd717"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Vmcloudoor Malware Could Let Hackers Secretly Control Linux Cloud Servers and Steal Sensitive Files",
+      "url": "https://cybersecuritynews.com/vmcloudoor-malware/",
+      "published": "Mon, 23 Nov 2026 14:14:20 +0000",
+      "published_utc": "2026-11-23T14:14:20+00:00",
+      "summary": "<p>A newly found Linux backdoor named Vmcloudoor can quietly take over cloud servers and pull files off them. It is built to infect virtual machines on Chinese cloud platforms, mainly Alibaba Cloud. It also targets Tencent Cloud and Huawei Cloud. The malware pretends to be a normal cloud management agent, so administrators are less likely [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vmcloudoor-malware/\">Vmcloudoor Malware Could Let Hackers Secretly Control Linux Cloud Servers and Steal Sensitive Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173712",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/vmcloudoor-malware",
+      "content_hash": "a5a037c99c326b6a9484aaef1fdabf9a6b8b37608e611372f4c9ed7c77544086",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "a5a037c99c326b6a9484aaef1fdabf9a6b8b37608e611372f4c9ed7c77544086"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Hackers Plant 13 ClickFix Traps on Compromised WordPress Site to Trick Visitors Into Running Malware",
+      "url": "https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/",
+      "published": "Mon, 23 Nov 2026 13:58:49 +0000",
+      "published_utc": "2026-11-23T13:58:49+00:00",
+      "summary": "<p>A single hacked WordPress site was found carrying 13 separate ClickFix traps from three different malware kits. Each trap shows visitors a fake security check. It then talks them into pasting a harmful command on their own computer. The site sat in a poor state because several groups had broken into it at different times. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/\">Hackers Plant 13 ClickFix Traps on Compromised WordPress Site to Trick Visitors Into Running Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173667",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-plant-13-clickfix-traps",
+      "content_hash": "32e546ee135d11b2846f85975186945c11acf3c403b11146d5e7f4d1d9a1fd75",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "32e546ee135d11b2846f85975186945c11acf3c403b11146d5e7f4d1d9a1fd75"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
+      "url": "https://gbhackers.com/weekly-cybersecurity-newsletter-november-16-20-2026/",
+      "published": "Mon, 23 Nov 2026 13:29:34 +0000",
+      "published_utc": "2026-11-23T13:29:34+00:00",
+      "summary": "<p>JPMorgan &#38; KPMG Breaches, ARTEX AI Hits EU Commission, Fugaku Supercomputer Hacked, Windows 11 Zero-Day, Ruby2Shell &#38; NGINX2ROOT RCE &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from November 16 to 20, 2026. Big breaches led the week: JPMorgan Chase, KPMG [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/weekly-cybersecurity-newsletter-november-16-20-2026/\">Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209409",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/weekly-cybersecurity-newsletter-november-16-20-2026",
+      "content_hash": "0652f10a2946d330896255410ae38c19c2afb50b17d65bd4d621e5469c3c3454",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0652f10a2946d330896255410ae38c19c2afb50b17d65bd4d621e5469c3c3454",
+        "FEEDBURNER": "0652f10a2946d330896255410ae38c19c2afb50b17d65bd4d621e5469c3c3454"
+      },
+      "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
       "event_type": "NEW",
       "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:47.014154+00:00",
-      "first_seen_local": "2026-11-23T04:42:47.014150-05:00",
-      "last_updated_utc": "2026-11-23T09:42:47.014154+00:00",
-      "last_updated_local": "2026-11-23T04:42:47.014150-05:00"
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
     },
     {
-      "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "published": "Mon, 23 Nov 2026 13:22:20 +0000",
+      "published_utc": "2026-11-23T13:22:20+00:00",
+      "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code.\n\nThe vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1.\n\n\"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5892260489041784706",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "content_hash": "75eab9ac9d6a761363b14dcd3599caf3841f7e0ff13dcdfc7c7234ce6165f01f",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "75eab9ac9d6a761363b14dcd3599caf3841f7e0ff13dcdfc7c7234ce6165f01f",
+        "FEEDBURNER": "75eab9ac9d6a761363b14dcd3599caf3841f7e0ff13dcdfc7c7234ce6165f01f"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:07.543218+00:00",
+      "first_seen_local": "2026-11-23T17:00:07.543215-05:00",
+      "last_updated_utc": "2026-11-23T22:00:07.543218+00:00",
+      "last_updated_local": "2026-11-23T17:00:07.543215-05:00"
+    },
+    {
+      "title": "CrowdStrike Acquires Zscaler in $43.9 Billion Deal to Combine Endpoint and Network Security",
+      "url": "https://gbhackers.com/crowdstrike-acquires-zscaler-in-43-9-billion-deal/",
+      "published": "Mon, 23 Nov 2026 13:14:17 +0000",
+      "published_utc": "2026-11-23T13:14:17+00:00",
+      "summary": "<p>CrowdStrike has agreed to acquire Zscaler in an all-stock transaction valued at approximately $43.9 billion, bringing together two distinct security layers, software that monitors endpoints and cloud workloads, and a cloud service that inspects their connections. The companies announced the definitive agreement on November 23, 2026. It has not yet closed. Under the terms outlined [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/crowdstrike-acquires-zscaler-in-43-9-billion-deal/\">CrowdStrike Acquires Zscaler in $43.9 Billion Deal to Combine Endpoint and Network Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209507",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/crowdstrike-acquires-zscaler-in-43-9-billion-deal",
+      "content_hash": "3f1d0e53428365c477c71b69bb430307d524446fafdd26d6eadd57ae95a374bc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3f1d0e53428365c477c71b69bb430307d524446fafdd26d6eadd57ae95a374bc",
+        "FEEDBURNER": "3f1d0e53428365c477c71b69bb430307d524446fafdd26d6eadd57ae95a374bc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "iTerm2 Remote Code Execution Flaw Lets Hackers Run Malicious Commands by Displaying Crafted Files",
+      "url": "https://cybersecuritynews.com/iterm2-remote-code-execution-flaw/",
+      "published": "Mon, 23 Nov 2026 12:57:36 +0000",
+      "published_utc": "2026-11-23T12:57:36+00:00",
+      "summary": "<p>A security flaw in iTerm2, a macOS terminal emulator, lets attackers run commands when a user displays a specially crafted file in a vulnerable terminal session. The user does not have to run the file as a script or paste a command supplied by the attacker. Printing the file’s contents is enough to trigger the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iterm2-remote-code-execution-flaw/\">iTerm2 Remote Code Execution Flaw Lets Hackers Run Malicious Commands by Displaying Crafted Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173623",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/iterm2-remote-code-execution-flaw",
+      "content_hash": "17b9d72f6d6281f1083323a870014477b24d3e6dca143a5e670d2031dcdeae41",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "17b9d72f6d6281f1083323a870014477b24d3e6dca143a5e670d2031dcdeae41"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files",
+      "url": "https://cybersecuritynews.com/jailbroken-ai-agent/",
+      "published": "Mon, 23 Nov 2026 12:44:59 +0000",
+      "published_utc": "2026-11-23T12:44:59+00:00",
+      "summary": "<p>A low-skilled hacker used a jailbroken AI agent to steal an insurer&#8217;s customer database and about 8.6GB of files from European municipalities. The operator, known as BabidiGhost, worked for nine days in November 2026. He typed plain, misspelled French orders and let the agent do the technical work. Targets included banks, insurers, payment providers and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/jailbroken-ai-agent/\">Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173633",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/jailbroken-ai-agent",
+      "content_hash": "d9ce4748d7e1e0a23458232613166ed4a369930efb34155512995fffdc93cb14",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "d9ce4748d7e1e0a23458232613166ed4a369930efb34155512995fffdc93cb14"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "CrowdStrike to Acquire Zscaler in Massive $43.9 Billion Cybersecurity Deal",
+      "url": "https://cybersecuritynews.com/crowdstrike-acquire-zscaler/",
+      "published": "Mon, 23 Nov 2026 12:44:26 +0000",
+      "published_utc": "2026-11-23T12:44:26+00:00",
+      "summary": "<p>CrowdStrike has agreed to acquire Zscaler in a $43.9 billion all-stock deal that would bring cloud network security to its Falcon platform. The agreement, announced on November 23, 2026, would give CrowdStrike control over both the devices where users and AI agents run software and the connections they make to corporate apps and data. Zscaler [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crowdstrike-acquire-zscaler/\">CrowdStrike to Acquire Zscaler in Massive $43.9 Billion Cybersecurity Deal</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173663",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/crowdstrike-acquire-zscaler",
+      "content_hash": "cc7e3ff2f2d29f04151fb4047909eb340cf04f20ff3c8f5364d52940a3c97468",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "cc7e3ff2f2d29f04151fb4047909eb340cf04f20ff3c8f5364d52940a3c97468"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Indian Government Warns WhatsApp Web Sessions Can Be Hijacked to Steal Messages and Impersonate Users",
+      "url": "https://gbhackers.com/indian-government-warns-whatsapp-web-sessions-can-be-hijacked/",
+      "published": "Mon, 23 Nov 2026 12:44:20 +0000",
+      "published_utc": "2026-11-23T12:44:20+00:00",
+      "summary": "<p>India’s Ministry of Home Affairs has warned that unauthorized access to a signed-in WhatsApp Web session can expose private messages and allow someone to impersonate the account holder. The National Cybercrime Threat Analytics Unit (NCTAU), part of the Indian Cyber Crime Coordination Center (I4C), issued the warning in a November 18 advisory that singles out [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/indian-government-warns-whatsapp-web-sessions-can-be-hijacked/\">Indian Government Warns WhatsApp Web Sessions Can Be Hijacked to Steal Messages and Impersonate Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209499",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/indian-government-warns-whatsapp-web-sessions-can-be-hijacked",
+      "content_hash": "1cc765ba1a2af2d3872726afb344198a7a9fa1609fe4d0a88ef900196ee650cb",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1cc765ba1a2af2d3872726afb344198a7a9fa1609fe4d0a88ef900196ee650cb",
+        "FEEDBURNER": "1cc765ba1a2af2d3872726afb344198a7a9fa1609fe4d0a88ef900196ee650cb"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "published": "Mon, 23 Nov 2026 12:41:04 +0000",
+      "published_utc": "2026-11-23T12:41:04+00:00",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers.\n\nThe activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host.\n\n\"On November 12, 2026, we observed one managed service",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2280825054421560412",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "content_hash": "fa76863b9d4b3f48cca9cab38387a15a64841c0d48ee49b8ed0f8c1a97a597e6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fa76863b9d4b3f48cca9cab38387a15a64841c0d48ee49b8ed0f8c1a97a597e6",
+        "FEEDBURNER": "fa76863b9d4b3f48cca9cab38387a15a64841c0d48ee49b8ed0f8c1a97a597e6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:07.543218+00:00",
+      "first_seen_local": "2026-11-23T17:00:07.543215-05:00",
+      "last_updated_utc": "2026-11-23T22:00:07.543218+00:00",
+      "last_updated_local": "2026-11-23T17:00:07.543215-05:00"
+    },
+    {
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "published": "Mon, 23 Nov 2026 12:28:09 +0000",
+      "published_utc": "2026-11-23T12:28:09+00:00",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers.\n\nThe bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7521267752006676",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "content_hash": "965536f802e7bb6a57b75035799928ca2645401ee8f602760e50ff76b152a361",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "965536f802e7bb6a57b75035799928ca2645401ee8f602760e50ff76b152a361",
+        "FEEDBURNER": "965536f802e7bb6a57b75035799928ca2645401ee8f602760e50ff76b152a361"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:07.543218+00:00",
+      "first_seen_local": "2026-11-23T17:00:07.543215-05:00",
+      "last_updated_utc": "2026-11-23T22:00:07.543218+00:00",
+      "last_updated_local": "2026-11-23T17:00:07.543215-05:00"
+    },
+    {
+      "title": "Hackers Actively Exploit Critical ASP.NET Vulnerability to Execute Remote Code and Compromise Web Servers",
+      "url": "https://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/",
+      "published": "Mon, 23 Nov 2026 12:24:57 +0000",
+      "published_utc": "2026-11-23T12:24:57+00:00",
+      "summary": "<p>A serious vulnerability in a long-abandoned ASP.NET security library is currently being exploited. This flaw allows unauthorized attackers to take control of IIS web servers with a single HTTP request. The issue is tracked as CVE-2026-131914 (MNDT-2026-0048) and involves an insecure deserialization bug (CWE-502) affecting Idunno.AntiCsrf.dll version 0.9.1.0 (also referred to as 0.9.1 Beta). It [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/\">Hackers Actively Exploit Critical ASP.NET Vulnerability to Execute Remote Code and Compromise Web Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209491",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability",
+      "content_hash": "5505fbbec3a5f77eb3994d0ecd4f4e0c1354f1397a4a9c162254366a606290df",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5505fbbec3a5f77eb3994d0ecd4f4e0c1354f1397a4a9c162254366a606290df",
+        "FEEDBURNER": "5505fbbec3a5f77eb3994d0ecd4f4e0c1354f1397a4a9c162254366a606290df"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "Indian Cyber Crime Coordination Center Urges Users Not to Share Confidential Data on WhatsApp Web",
+      "url": "https://cybersecuritynews.com/whatsapp-web-confidential-data/",
+      "published": "Mon, 23 Nov 2026 12:19:18 +0000",
+      "published_utc": "2026-11-23T12:19:18+00:00",
+      "summary": "<p>The Indian Cyber Crime Coordination Center (I4C) has urged users not to share confidential data on WhatsApp Web and to log out manually after every session. In a November 18, 2026, security advisory, the National Cybercrime Threat Analytics Unit warned that someone with access to a signed-in browser session could read private messages, view contacts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-web-confidential-data/\">Indian Cyber Crime Coordination Center Urges Users Not to Share Confidential Data on WhatsApp Web</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173659",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/whatsapp-web-confidential-data",
+      "content_hash": "41bc61599d52a49c112de914ef69526a7ead3a56d4373bb398d6136c446e3ef9",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "41bc61599d52a49c112de914ef69526a7ead3a56d4373bb398d6136c446e3ef9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw to Gain Root Access and Infiltrate Internal Networks",
+      "url": "https://cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw/",
+      "published": "Mon, 23 Nov 2026 12:02:15 +0000",
+      "published_utc": "2026-11-23T12:02:15+00:00",
+      "summary": "<p>Attackers are now using a critical Cisco Expressway bug, CVE-2026-76466, to take full control of devices and move deeper into company networks. Researchers at F6 say the first known case happened soon after a public proof-of-concept (PoC) exploit appeared. F6&#8217;s Cyber Defense Center looked into the first observed exploitation of the flaw, which has a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw/\">Hackers Exploit Critical Cisco Expressway Flaw to Gain Root Access and Infiltrate Internal Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173502",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw",
+      "content_hash": "738858b2d22a1875e757733f6a69a64383c7a5177ca63ede9b8f1de9a6c4f0ac",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "738858b2d22a1875e757733f6a69a64383c7a5177ca63ede9b8f1de9a6c4f0ac"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T22:00:02.540480+00:00",
+      "first_seen_local": "2026-11-23T17:00:02.540475-05:00",
+      "last_updated_utc": "2026-11-23T22:00:02.540480+00:00",
+      "last_updated_local": "2026-11-23T17:00:02.540475-05:00"
+    },
+    {
+      "title": "CISA Warns Hackers Are Actively Exploiting Cisco, VMware, SAP, and Apache Vulnerabilities",
+      "url": "https://gbhackers.com/cisa-warns-hackers-are-actively-exploiting/",
+      "published": "Mon, 23 Nov 2026 11:39:48 +0000",
+      "published_utc": "2026-11-23T11:39:48+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities affecting Cisco Expressway, VMware vCenter, SAP NetWeaver, and Apache Roller to its Known Exploited Vulnerabilities (KEV) Catalog on November 20, 2026. The agency cited evidence of active exploitation for all four flaws. The CISA alert did not identify victims or link the vulnerabilities to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-hackers-are-actively-exploiting/\">CISA Warns Hackers Are Actively Exploiting Cisco, VMware, SAP, and Apache Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209467",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-warns-hackers-are-actively-exploiting",
+      "content_hash": "6c1dd2fe166bdef4f237e3f861f08ebd159a3b3320c4b4aa94594fb91fe42c52",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c1dd2fe166bdef4f237e3f861f08ebd159a3b3320c4b4aa94594fb91fe42c52",
+        "FEEDBURNER": "6c1dd2fe166bdef4f237e3f861f08ebd159a3b3320c4b4aa94594fb91fe42c52"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "Fake Claude AI Downloads Could Let Hackers Steal Your Passwords and Crypto Wallets",
+      "url": "https://gbhackers.com/fake-claude-ai-downloads/",
+      "published": "Mon, 23 Nov 2026 10:54:19 +0000",
+      "published_utc": "2026-11-23T10:54:19+00:00",
+      "summary": "<p>A fake &#8220;Claude Opus 5 Free Desktop&#8221; app is spreading RevStealer, a Windows infostealer built to take credentials, browser sessions, and cryptocurrency wallet data. Morphisec Threat Labs published its analysis on August 31, and the lure exploits demand for free access to AI tools. There is no sign that Anthropic itself was compromised. Before the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-claude-ai-downloads/\">Fake Claude AI Downloads Could Let Hackers Steal Your Passwords and Crypto Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209432",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-claude-ai-downloads",
+      "content_hash": "63e69c6c6b9c8aa130810d852dbe115a90547a6e9af3a8f8d315f4ef6325d52a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "63e69c6c6b9c8aa130810d852dbe115a90547a6e9af3a8f8d315f4ef6325d52a",
+        "FEEDBURNER": "63e69c6c6b9c8aa130810d852dbe115a90547a6e9af3a8f8d315f4ef6325d52a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "Samsung Securities Hit by Cyberattack, Exposing Personal Data of Over 8,000 Customers",
+      "url": "https://gbhackers.com/samsung-securities-hit-by-cyberattack/",
+      "published": "Mon, 23 Nov 2026 10:09:33 +0000",
+      "published_utc": "2026-11-23T10:09:33+00:00",
+      "summary": "<p>Samsung Securities disclosed on Nov. 23 that a cyberattack exposed personal information belonging to 8,241 customers. The South Korean brokerage detected unauthorized access on Saturday, Nov. 21, in the Voice of Customer (VOC) system, a section of its website where customers submit inquiries and feedback. An unauthorized party obtained some files customers had attached to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/samsung-securities-hit-by-cyberattack/\">Samsung Securities Hit by Cyberattack, Exposing Personal Data of Over 8,000 Customers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209456",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/samsung-securities-hit-by-cyberattack",
+      "content_hash": "ed6df4b8a1ef5e15ebaa06903aa0db177e1cfa8de0f041009e3fd612ad0231c3",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ed6df4b8a1ef5e15ebaa06903aa0db177e1cfa8de0f041009e3fd612ad0231c3",
+        "FEEDBURNER": "ed6df4b8a1ef5e15ebaa06903aa0db177e1cfa8de0f041009e3fd612ad0231c3"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "Hackers Exploit Cisco Expressway CVE-2026-76466 After Public PoC Release to Gain Root Privileges",
+      "url": "https://gbhackers.com/hackers-exploit-cisco-expressway-cve-2026-76466/",
+      "published": "Mon, 23 Nov 2026 09:54:56 +0000",
+      "published_utc": "2026-11-23T09:54:56+00:00",
+      "summary": "<p>Threat actors have begun exploiting a critical Cisco Expressway flaw, CVE-2026-76466, shortly after a public proof-of-concept (PoC) exploit appeared. The attackers gained root-level remote command execution on internet-facing devices. F6&#8217;s Cyber Defense Center investigated the first observed case and reported it on November 19, 2026. The flaw carries a CVSS score of 9.8. Cisco Expressway [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-cisco-expressway-cve-2026-76466/\">Hackers Exploit Cisco Expressway CVE-2026-76466 After Public PoC Release to Gain Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209437",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-exploit-cisco-expressway-cve-2026-76466",
+      "content_hash": "4b64ed47c9c83cf07ee1dd39bbbb679d855ca57c4876157e1cb7f23d658ae67c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4b64ed47c9c83cf07ee1dd39bbbb679d855ca57c4876157e1cb7f23d658ae67c",
+        "FEEDBURNER": "4b64ed47c9c83cf07ee1dd39bbbb679d855ca57c4876157e1cb7f23d658ae67c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "Critical Palo Alto Networks PAN-OS Flaws Allow Unauthenticated Attackers to Execute Code Remotely",
+      "url": "https://gbhackers.com/critical-palo-alto-networks-pan-os-flaws/",
+      "published": "Mon, 23 Nov 2026 09:42:43 +0000",
+      "published_utc": "2026-11-23T09:42:43+00:00",
+      "summary": "<p>Palo Alto Networks has disclosed two critical NGINX vulnerabilities that could let unauthenticated attackers remotely execute arbitrary code or crash worker processes on affected PAN-OS and Panorama deployments. The flaws, tracked as CVE-2026-123633 and CVE-2026-123007, affect specific releases in the PAN-OS 12.2, 12.1, and 11.2 branches. Exposure requires HTTP/2 to be enabled. Palo Alto Networks [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-palo-alto-networks-pan-os-flaws/\">Critical Palo Alto Networks PAN-OS Flaws Allow Unauthenticated Attackers to Execute Code Remotely</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209429",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-palo-alto-networks-pan-os-flaws",
+      "content_hash": "8a59ccc7b38ce5fe542c81945642d3ae8ee472151894ebcfeb72f2159dba24af",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8a59ccc7b38ce5fe542c81945642d3ae8ee472151894ebcfeb72f2159dba24af",
+        "FEEDBURNER": "8a59ccc7b38ce5fe542c81945642d3ae8ee472151894ebcfeb72f2159dba24af"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T21:59:32.183887+00:00",
+      "first_seen_local": "2026-11-23T16:59:32.183883-05:00",
+      "last_updated_utc": "2026-11-23T21:59:32.183887+00:00",
+      "last_updated_local": "2026-11-23T16:59:32.183883-05:00"
+    },
+    {
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
       "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
       "published": "Mon, 23 Nov 2026 08:24:15 +0000",
       "published_utc": "2026-11-23T08:24:15+00:00",
@@ -176,381 +672,24 @@
       "source": "The Hacker News",
       "source_slug": "thehackernews",
       "article_key": "thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-      "content_hash": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1",
+      "content_hash": "9e5ad7f120c63b18c07221a80609c428ad0aa60bdfc40689b766f7ada2aa0b5b",
       "detected_via": [
         "ORIGINAL",
         "FEEDBURNER"
       ],
       "endpoint_content_hashes": {
-        "ORIGINAL": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1",
-        "FEEDBURNER": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1"
+        "ORIGINAL": "9e5ad7f120c63b18c07221a80609c428ad0aa60bdfc40689b766f7ada2aa0b5b",
+        "FEEDBURNER": "9e5ad7f120c63b18c07221a80609c428ad0aa60bdfc40689b766f7ada2aa0b5b"
       },
       "feed_comparison": "MATCH",
       "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
+      "event_type": "UPDATED",
+      "previous_content_hash": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1",
+      "version": 2,
       "first_seen_utc": "2026-11-23T09:42:51.770299+00:00",
       "first_seen_local": "2026-11-23T04:42:51.770297-05:00",
-      "last_updated_utc": "2026-11-23T09:42:51.770299+00:00",
-      "last_updated_local": "2026-11-23T04:42:51.770297-05:00"
-    },
-    {
-      "title": "Hackers Hide 13 ClickFix Injections and 7 Malicious Loaders on Compromised WordPress Site",
-      "url": "https://gbhackers.com/13-clickfix-injections/",
-      "published": "Mon, 23 Nov 2026 08:13:59 +0000",
-      "published_utc": "2026-11-23T08:13:59+00:00",
-      "summary": "<p>Threat researchers discovered 13 ClickFix injections from three distinct kits and 7 additional malicious loaders on a single compromised WordPress website, revealing overlapping deployments that deliberately and accidentally disrupted one another. Five confirmed ClickFix injections retrieved their next-stage infrastructure from Polygon smart contracts using EtherHiding. Its document contained more than twenty injected script blocks, concealed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/13-clickfix-injections/\">Hackers Hide 13 ClickFix Injections and 7 Malicious Loaders on Compromised WordPress Site</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209263",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/13-clickfix-injections",
-      "content_hash": "3f12929acfc00810cdac452d7bc6eba40bdcfa668bf0f66dd292890e8ecfc1e8",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "3f12929acfc00810cdac452d7bc6eba40bdcfa668bf0f66dd292890e8ecfc1e8",
-        "FEEDBURNER": "3f12929acfc00810cdac452d7bc6eba40bdcfa668bf0f66dd292890e8ecfc1e8"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Hackers Secretly Spy on Bulgarian Government for Five Years and Steal 62 Million Pages of Documents",
-      "url": "https://cybersecuritynews.com/bulgarian-government/",
-      "published": "Mon, 23 Nov 2026 08:01:36 +0000",
-      "published_utc": "2026-11-23T08:01:36+00:00",
-      "summary": "<p>Bulgaria has disrupted a cyberespionage operation that gave hackers covert access to state administration networks for five years. Innovation and Digital Transformation Minister Ivan Vasilev said on November 18 that the intruders illegally downloaded at least 130 gigabytes of government documents, equivalent to more than 62 million pages. He described it as the longest-running known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bulgarian-government/\">Hackers Secretly Spy on Bulgarian Government for Five Years and Steal 62 Million Pages of Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173487",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/bulgarian-government",
-      "content_hash": "a5b5bc60daeb019715a747d7b308570a917647a3b07fd91dd25135432f830d2a",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "a5b5bc60daeb019715a747d7b308570a917647a3b07fd91dd25135432f830d2a",
-        "FEEDBURNER": "a5b5bc60daeb019715a747d7b308570a917647a3b07fd91dd25135432f830d2a"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:47.014154+00:00",
-      "first_seen_local": "2026-11-23T04:42:47.014150-05:00",
-      "last_updated_utc": "2026-11-23T09:42:47.014154+00:00",
-      "last_updated_local": "2026-11-23T04:42:47.014150-05:00"
-    },
-    {
-      "title": "11 Automotive Cybersecurity Companies: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/automotive-cybersecurity-buyers-guide/",
-      "published": "Mon, 23 Nov 2026 07:55:06 +0000",
-      "published_utc": "2026-11-23T07:55:06+00:00",
-      "summary": "<p>The modern vehicle is a rolling network of a hundred-plus ECUs, cellular and Bluetooth connectivity, and over-the-air pipelines and UNECE WP.29 R155 plus ISO/SAE 21434 now make cybersecurity a condition of type approval, not an option. This verdict guide judges eleven companies, declaring each one’s layer ECU, in-vehicle network, cloud/fleet VSOC, or lifecycle because automotive [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/automotive-cybersecurity-buyers-guide/\">11 Automotive Cybersecurity Companies: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208625",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/automotive-cybersecurity-buyers-guide",
-      "content_hash": "4fd02837f4afd9871c2a06564fd045a6dee6138351c41151324061953ce06352",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "4fd02837f4afd9871c2a06564fd045a6dee6138351c41151324061953ce06352",
-        "FEEDBURNER": "4fd02837f4afd9871c2a06564fd045a6dee6138351c41151324061953ce06352"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "12 Medical Device (IoMT) Security Solutions: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/iomt-security-buyers-guide/",
-      "published": "Mon, 23 Nov 2026 07:52:44 +0000",
-      "published_utc": "2026-11-23T07:52:44+00:00",
-      "summary": "<p>Medical-device security comes with a limit no other IoT domain shares: the device might be keeping someone alive, it often runs a legacy OS that can’t be patched, and you can’t pull it offline to lock it down. The clinical workflow always wins. This verdict guide judges twelve solutions, declaring each one’s lane, because the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iomt-security-buyers-guide/\">12 Medical Device (IoMT) Security Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208555",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/iomt-security-buyers-guide",
-      "content_hash": "67f487350310a40e6b050ea090d0041186664f1f41b7da893f58fb33fb27b8ec",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "67f487350310a40e6b050ea090d0041186664f1f41b7da893f58fb33fb27b8ec",
-        "FEEDBURNER": "67f487350310a40e6b050ea090d0041186664f1f41b7da893f58fb33fb27b8ec"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "12 IoT Security Solutions: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/12-iot-security-solutions-the-2026-buyers-verdict-guide/",
-      "published": "Mon, 23 Nov 2026 07:50:28 +0000",
-      "published_utc": "2026-11-23T07:50:28+00:00",
-      "summary": "<p>IoT security opens with a question most organisations simply can’t answer: exactly how many connected devices sit on the network right now? Cameras, badge readers, printers, building controls and sensors turn up with no agent, almost never see a patch, and frequently can’t take one. This verdict guide judges twelve solutions, declaring each one’s lane, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/12-iot-security-solutions-the-2026-buyers-verdict-guide/\">12 IoT Security Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208491",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/12-iot-security-solutions-the-2026-buyers-verdict-guide",
-      "content_hash": "21ed3376d4f9aaff1e6e0053f177e92a807d7428823e87193cd18531dedbc0bf",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "21ed3376d4f9aaff1e6e0053f177e92a807d7428823e87193cd18531dedbc0bf",
-        "FEEDBURNER": "21ed3376d4f9aaff1e6e0053f177e92a807d7428823e87193cd18531dedbc0bf"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "12 OT / ICS Security Companies: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/ot-ics-security-buyers-guide/",
-      "published": "Mon, 23 Nov 2026 07:48:13 +0000",
-      "published_utc": "2026-11-23T07:48:13+00:00",
-      "summary": "<p>OT security is unlike IT security in a way that defines every product choice: you can’t patch freely, can’t scan aggressively, and a false-positive-driven shutdown can cost as much as an attack. Clinical of safety: passive-first, protocol-aware, change-respecting. This verdict guide judges twelve companies, declaring each one’s center of gravity intelligence-led detection, visibility at scale, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ot-ics-security-buyers-guide/\">12 OT / ICS Security Companies: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208382",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ot-ics-security-buyers-guide",
-      "content_hash": "5afebd4706d60953f1c30ea4cd7c78a144b6c24940c0582e79c8fefa335911f8",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5afebd4706d60953f1c30ea4cd7c78a144b6c24940c0582e79c8fefa335911f8",
-        "FEEDBURNER": "5afebd4706d60953f1c30ea4cd7c78a144b6c24940c0582e79c8fefa335911f8"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "12 AI Security (AI-SPM / LLM Security) Tools: The 2026 Buyer’s Verdict Guide",
-      "url": "https://gbhackers.com/ai-security-buyers-guide/",
-      "published": "Mon, 23 Nov 2026 07:43:52 +0000",
-      "published_utc": "2026-11-23T07:43:52+00:00",
-      "summary": "<p>“AI security” has become a single label stretched over several separate problems: shielding LLM apps from prompt injection at runtime, finding and governing AI assets (AI-SPM), hardening the model supply chain, and red-teaming models before they ship. Hardly any vendor does all four. This verdict guide judges twelve, declaring each one’s lane, because the runtime [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-security-buyers-guide/\">12 AI Security (AI-SPM / LLM Security) Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=208322",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-security-buyers-guide",
-      "content_hash": "ac5c4cc04e0e0877309b3610e4f08738d81dab7a5dff0c9031b17978017f02c0",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "ac5c4cc04e0e0877309b3610e4f08738d81dab7a5dff0c9031b17978017f02c0",
-        "FEEDBURNER": "ac5c4cc04e0e0877309b3610e4f08738d81dab7a5dff0c9031b17978017f02c0"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Hackers Use 480+ Malicious Ad Domains to Target iPhones and Steal Crypto Wallet Recovery Phrases",
-      "url": "https://cybersecuritynews.com/malicious-ad-domains-target-iphones/",
-      "published": "Mon, 23 Nov 2026 07:32:52 +0000",
-      "published_utc": "2026-11-23T07:32:52+00:00",
-      "summary": "<p>Hackers are using a large network of malicious ads to break into vulnerable iPhones and steal cryptocurrency wallet recovery phrases, passwords, messages, and photos. Researchers tracking the operation, named MoldyRoost, identified more than 480 advertising domains targeting users across over 47 countries between May 12 and November 17, 2026. According to Confiant’s investigation, opening an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-ad-domains-target-iphones/\">Hackers Use 480+ Malicious Ad Domains to Target iPhones and Steal Crypto Wallet Recovery Phrases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173472",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/malicious-ad-domains-target-iphones",
-      "content_hash": "588886b29f721b18d3bbf7134cfff02ff5b336595589f2f84b20fbe74e7a1360",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "588886b29f721b18d3bbf7134cfff02ff5b336595589f2f84b20fbe74e7a1360",
-        "FEEDBURNER": "588886b29f721b18d3bbf7134cfff02ff5b336595589f2f84b20fbe74e7a1360"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:47.014154+00:00",
-      "first_seen_local": "2026-11-23T04:42:47.014150-05:00",
-      "last_updated_utc": "2026-11-23T09:42:47.014154+00:00",
-      "last_updated_local": "2026-11-23T04:42:47.014150-05:00"
-    },
-    {
-      "title": "Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files",
-      "url": "https://gbhackers.com/jailbroken-ai-agent/",
-      "published": "Mon, 23 Nov 2026 06:47:44 +0000",
-      "published_utc": "2026-11-23T06:47:44+00:00",
-      "summary": "<p>A French-speaking operator known as BabidiGhost spent nine days in November 2026 directing a jailbroken AI agent against European banks, insurers, payment providers and municipalities. SOCRadar&#8217;s research team documented the campaign after the operator&#8217;s staging server exposed his entire home directory to the internet. The agent wrote the scanners, exploits and exfiltration scripts. The operator [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jailbroken-ai-agent/\">Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209230",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/jailbroken-ai-agent",
-      "content_hash": "cd5e99b0cc27d847e31312e7859dd811fba2fad9007ba0c824a06cc973b378d6",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "cd5e99b0cc27d847e31312e7859dd811fba2fad9007ba0c824a06cc973b378d6",
-        "FEEDBURNER": "cd5e99b0cc27d847e31312e7859dd811fba2fad9007ba0c824a06cc973b378d6"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Hackers Direct AI Agents to Break Into University Networks, Discovering Zero-Day Along the Way",
-      "url": "https://gbhackers.com/zero-day-vulnerability-discovered/",
-      "published": "Mon, 23 Nov 2026 06:18:38 +0000",
-      "published_utc": "2026-11-23T06:18:38+00:00",
-      "summary": "<p>A Chinese-nexus actor who used an autonomous AI penetration-testing framework to attack East Asian universities. The agents found and exploited a previously unknown vulnerability in an open-source medical imaging application. The operator&#8217;s only goal was &#8220;obtain shell access.&#8221; On September 10, 2026, Amazon found a publicly reachable Cairn instance running without authentication. Cairn is an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zero-day-vulnerability-discovered/\">Hackers Direct AI Agents to Break Into University Networks, Discovering Zero-Day Along the Way</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209206",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/zero-day-vulnerability-discovered",
-      "content_hash": "5248c2fa64ab0a60502bfcac719142121c01ca4ecb2fe64358c6bfe1d44bb690",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "5248c2fa64ab0a60502bfcac719142121c01ca4ecb2fe64358c6bfe1d44bb690"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Palo Alto Confirms NGINX Vulnerabilities Impact PAN-OS and Releases Workarounds",
-      "url": "https://cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities/",
-      "published": "Mon, 23 Nov 2026 05:40:07 +0000",
-      "published_utc": "2026-11-23T05:40:07+00:00",
-      "summary": "<p>Palo Alto Networks confirmed that two critical NGINX flaws, CVE-2026-123633 and CVE-2026-123007, affect PAN-OS and Panorama deployments with HTTP/2 enabled. The flaws could allow unauthenticated remote attackers to crash worker processes or execute code, prompting Palo Alto Networks to release patches and a workaround for affected systems. The security advisory assigns a CVSS v4.0 score [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities/\">Palo Alto Confirms NGINX Vulnerabilities Impact PAN-OS and Releases Workarounds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-      "id": "https://cybersecuritynews.com/?p=173464",
-      "source": "Cyber Security News",
-      "source_slug": "cybersecuritynews",
-      "article_key": "cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities",
-      "content_hash": "5e58c877aea796473f642e99073c3cbf47fe0b7951ed747e0f56572432108ae3",
-      "detected_via": [
-        "ORIGINAL",
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "ORIGINAL": "5e58c877aea796473f642e99073c3cbf47fe0b7951ed747e0f56572432108ae3",
-        "FEEDBURNER": "5e58c877aea796473f642e99073c3cbf47fe0b7951ed747e0f56572432108ae3"
-      },
-      "feed_comparison": "MATCH",
-      "canonical_endpoint": "ORIGINAL",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:47.014154+00:00",
-      "first_seen_local": "2026-11-23T04:42:47.014150-05:00",
-      "last_updated_utc": "2026-11-23T09:42:47.014154+00:00",
-      "last_updated_local": "2026-11-23T04:42:47.014150-05:00"
-    },
-    {
-      "title": "China-Linked Hackers Use AI Agents to Access 10 Organizations and Expose Over 1 Million Records",
-      "url": "https://gbhackers.com/ai-penetration-testing-2/",
-      "published": "Mon, 23 Nov 2026 05:33:40 +0000",
-      "published_utc": "2026-11-23T05:33:40+00:00",
-      "summary": "<p>Chinese-speaking attackers weaponized an open-source AI penetration-testing framework to conduct 25 operations against at least 19 organizations during August–September 2026, gaining unauthorized access or retrieving data from 10 targets. Unit 42 assesses with moderate confidence that the activity represents China-nexus intelligence collection. Its outcomes included exposed credentials, persistent administrator access, military and government identities, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-penetration-testing-2/\">China-Linked Hackers Use AI Agents to Access 10 Organizations and Expose Over 1 Million Records</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209171",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/ai-penetration-testing-2",
-      "content_hash": "e49db93a52e864880c1ef067660ffc44f031baef66a64ee75f3429f5398545ba",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "e49db93a52e864880c1ef067660ffc44f031baef66a64ee75f3429f5398545ba"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
-    },
-    {
-      "title": "Microsoft Entra Connect Health Breach Exposes Administrator Emails and Tenant Metadata",
-      "url": "https://gbhackers.com/microsoft-entra-connect-health-breach/",
-      "published": "Mon, 23 Nov 2026 05:23:59 +0000",
-      "published_utc": "2026-11-23T05:23:59+00:00",
-      "summary": "<p>Microsoft informed a customer about a vulnerability in its Entra Connect Health API that allowed unauthorized access to administrator email addresses, technical contact details, and tenant configuration metadata. Microsoft shared this information in a notice on Reddit’s r/sysadmin forum. According to the notice, Microsoft fixed the flaw on November 19, 2026, and on the following [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-entra-connect-health-breach/\">Microsoft Entra Connect Health Breach Exposes Administrator Emails and Tenant Metadata</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-      "id": "https://gbhackers.com/?p=209177",
-      "source": "GBHackers",
-      "source_slug": "gbhackers",
-      "article_key": "gbhackers.com/microsoft-entra-connect-health-breach",
-      "content_hash": "7ac893ad55ef03ae56ffd74ba14e97d1d090349f8273cf922fc1eca594f949e7",
-      "detected_via": [
-        "FEEDBURNER"
-      ],
-      "endpoint_content_hashes": {
-        "FEEDBURNER": "7ac893ad55ef03ae56ffd74ba14e97d1d090349f8273cf922fc1eca594f949e7"
-      },
-      "feed_comparison": "SINGLE_ENDPOINT",
-      "canonical_endpoint": "FEEDBURNER",
-      "event_type": "NEW",
-      "version": 1,
-      "first_seen_utc": "2026-11-23T09:42:46.490474+00:00",
-      "first_seen_local": "2026-11-23T04:42:46.490472-05:00",
-      "last_updated_utc": "2026-11-23T09:42:46.490474+00:00",
-      "last_updated_local": "2026-11-23T04:42:46.490472-05:00"
+      "last_updated_utc": "2026-11-23T22:00:07.543218+00:00",
+      "last_updated_local": "2026-11-23T17:00:07.543215-05:00"
     }
   ]
 }

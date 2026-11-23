@@ -5,47 +5,14 @@
     "ORIGINAL": {
       "label": "CyberSecurityNews-ORIGINAL",
       "endpoint": "https://cybersecuritynews.com/feed/",
-      "status": "SUCCESS",
-      "http_status": 200,
-      "final_url": "https://cybersecuritynews.com/feed/",
-      "content_type": "application/rss+xml; charset=UTF-8",
-      "feed_title": "Cyber Security News",
-      "article_count": 4,
-      "articles": [
-        {
-          "title": "Samsung Securities Data Breach Exposes 8,241 Customers’ Personal and Account Details",
-          "url": "https://cybersecuritynews.com/samsung-securities-data-breach/",
-          "published": "Mon, 23 Nov 2026 08:53:13 +0000",
-          "published_utc": "2026-11-23T08:53:13+00:00",
-          "summary": "<p>Samsung Securities confirmed on November 23 that a data breach exposed personal information belonging to 8,241 customers. The South Korean brokerage detected unauthorized access on Saturday, November 21, in its Voice of Customer (VOC) system, a website service for complaints and inquiries. The company found no evidence of exposure outside the affected system. The breach [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/samsung-securities-data-breach/\">Samsung Securities Data Breach Exposes 8,241 Customers’ Personal and Account Details</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173556"
-        },
-        {
-          "title": "Hackers Secretly Spy on Bulgarian Government for Five Years and Steal 62 Million Pages of Documents",
-          "url": "https://cybersecuritynews.com/bulgarian-government/",
-          "published": "Mon, 23 Nov 2026 08:01:36 +0000",
-          "published_utc": "2026-11-23T08:01:36+00:00",
-          "summary": "<p>Bulgaria has disrupted a cyberespionage operation that gave hackers covert access to state administration networks for five years. Innovation and Digital Transformation Minister Ivan Vasilev said on November 18 that the intruders illegally downloaded at least 130 gigabytes of government documents, equivalent to more than 62 million pages. He described it as the longest-running known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bulgarian-government/\">Hackers Secretly Spy on Bulgarian Government for Five Years and Steal 62 Million Pages of Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173487"
-        },
-        {
-          "title": "Hackers Use 480+ Malicious Ad Domains to Target iPhones and Steal Crypto Wallet Recovery Phrases",
-          "url": "https://cybersecuritynews.com/malicious-ad-domains-target-iphones/",
-          "published": "Mon, 23 Nov 2026 07:32:52 +0000",
-          "published_utc": "2026-11-23T07:32:52+00:00",
-          "summary": "<p>Hackers are using a large network of malicious ads to break into vulnerable iPhones and steal cryptocurrency wallet recovery phrases, passwords, messages, and photos. Researchers tracking the operation, named MoldyRoost, identified more than 480 advertising domains targeting users across over 47 countries between May 12 and November 17, 2026. According to Confiant’s investigation, opening an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-ad-domains-target-iphones/\">Hackers Use 480+ Malicious Ad Domains to Target iPhones and Steal Crypto Wallet Recovery Phrases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173472"
-        },
-        {
-          "title": "Palo Alto Confirms NGINX Vulnerabilities Impact PAN-OS and Releases Workarounds",
-          "url": "https://cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities/",
-          "published": "Mon, 23 Nov 2026 05:40:07 +0000",
-          "published_utc": "2026-11-23T05:40:07+00:00",
-          "summary": "<p>Palo Alto Networks confirmed that two critical NGINX flaws, CVE-2026-123633 and CVE-2026-123007, affect PAN-OS and Panorama deployments with HTTP/2 enabled. The flaws could allow unauthenticated remote attackers to crash worker processes or execute code, prompting Palo Alto Networks to release patches and a workaround for affected systems. The security advisory assigns a CVSS v4.0 score [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities/\">Palo Alto Confirms NGINX Vulnerabilities Impact PAN-OS and Releases Workarounds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173464"
-        }
-      ],
-      "error": ""
+      "status": "FAILED",
+      "http_status": null,
+      "final_url": "",
+      "content_type": "",
+      "feed_title": "",
+      "article_count": 0,
+      "articles": [],
+      "error": "Error conexión: HTTPSConnectionPool(host='cybersecuritynews.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='cybersecuritynews.com', port=443) at 0x78641e586d50>, 'Connection to cybersecuritynews.com timed out. (connect timeout=30)'))"
     },
     "FEEDBURNER": {
       "label": "CyberSecurityNews-FEEDBURNER",
@@ -55,31 +22,87 @@
       "final_url": "https://feeds.feedburner.com/cyber-security-news",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "Cyber Security News",
-      "article_count": 3,
+      "article_count": 10,
       "articles": [
         {
-          "title": "Hackers Secretly Spy on Bulgarian Government for Five Years and Steal 62 Million Pages of Documents",
-          "url": "https://cybersecuritynews.com/bulgarian-government/",
-          "published": "Mon, 23 Nov 2026 08:01:36 +0000",
-          "published_utc": "2026-11-23T08:01:36+00:00",
-          "summary": "<p>Bulgaria has disrupted a cyberespionage operation that gave hackers covert access to state administration networks for five years. Innovation and Digital Transformation Minister Ivan Vasilev said on November 18 that the intruders illegally downloaded at least 130 gigabytes of government documents, equivalent to more than 62 million pages. He described it as the longest-running known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bulgarian-government/\">Hackers Secretly Spy on Bulgarian Government for Five Years and Steal 62 Million Pages of Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173487"
+          "title": "Jensen Huang Returns as NVIDIA CEO Following Unanimous Board Vote",
+          "url": "https://cybersecuritynews.com/nvidia-reinstates-jensen-huang/",
+          "published": "Mon, 23 Nov 2026 14:51:17 +0000",
+          "published_utc": "2026-11-23T14:51:17+00:00",
+          "summary": "<p>NVIDIA reinstated Jensen Huang as president, chief executive officer, and board director on November 23, 2026, after a unanimous vote. The decision took effect immediately, but an independent board inquiry into reports that a foreign intelligence effort targeted Huang remains open. In its announcement, NVIDIA said the board met with Huang several times and received [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nvidia-reinstates-jensen-huang/\">Jensen Huang Returns as NVIDIA CEO Following Unanimous Board Vote</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173741"
         },
         {
-          "title": "Hackers Use 480+ Malicious Ad Domains to Target iPhones and Steal Crypto Wallet Recovery Phrases",
-          "url": "https://cybersecuritynews.com/malicious-ad-domains-target-iphones/",
-          "published": "Mon, 23 Nov 2026 07:32:52 +0000",
-          "published_utc": "2026-11-23T07:32:52+00:00",
-          "summary": "<p>Hackers are using a large network of malicious ads to break into vulnerable iPhones and steal cryptocurrency wallet recovery phrases, passwords, messages, and photos. Researchers tracking the operation, named MoldyRoost, identified more than 480 advertising domains targeting users across over 47 countries between May 12 and November 17, 2026. According to Confiant’s investigation, opening an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-ad-domains-target-iphones/\">Hackers Use 480+ Malicious Ad Domains to Target iPhones and Steal Crypto Wallet Recovery Phrases</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173472"
+          "title": "European Commission Disables Access to EU Academy After Cyberattack Exposes User Data",
+          "url": "https://cybersecuritynews.com/eu-academy-disabled/",
+          "published": "Mon, 23 Nov 2026 14:34:27 +0000",
+          "published_utc": "2026-11-23T14:34:27+00:00",
+          "summary": "<p>The European Commission disabled public access to EU Academy on Monday, November 23, after confirming that a wider cyberattack exposed users’ personal data. The online learning platform hosts courses and workshops produced by EU institutions. The Commission posted a notice on the academy’s website, but it did not say how many users were affected or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/eu-academy-disabled/\">European Commission Disables Access to EU Academy After Cyberattack Exposes User Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173714"
         },
         {
-          "title": "Palo Alto Confirms NGINX Vulnerabilities Impact PAN-OS and Releases Workarounds",
-          "url": "https://cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities/",
-          "published": "Mon, 23 Nov 2026 05:40:07 +0000",
-          "published_utc": "2026-11-23T05:40:07+00:00",
-          "summary": "<p>Palo Alto Networks confirmed that two critical NGINX flaws, CVE-2026-123633 and CVE-2026-123007, affect PAN-OS and Panorama deployments with HTTP/2 enabled. The flaws could allow unauthenticated remote attackers to crash worker processes or execute code, prompting Palo Alto Networks to release patches and a workaround for affected systems. The security advisory assigns a CVSS v4.0 score [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-nginx-rce-vulnerabilities/\">Palo Alto Confirms NGINX Vulnerabilities Impact PAN-OS and Releases Workarounds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-          "id": "https://cybersecuritynews.com/?p=173464"
+          "title": "Hackers Hide RevStealer Malware in Fake Claude AI App to Steal Passwords and Crypto Wallets",
+          "url": "https://cybersecuritynews.com/hackers-hide-revstealer-malware/",
+          "published": "Mon, 23 Nov 2026 14:24:48 +0000",
+          "published_utc": "2026-11-23T14:24:48+00:00",
+          "summary": "<p>Hackers are distributing RevStealer, a Windows infostealer, in a fake Claude AI desktop app that promises free access. The download, branded “Claude Opus 5 Free Desktop,” comes in an archive of roughly 101 MB. Running the executable does not open a chat window. Instead, it starts malware designed to steal saved passwords, browser sessions, cryptocurrency [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hide-revstealer-malware/\">Hackers Hide RevStealer Malware in Fake Claude AI App to Steal Passwords and Crypto Wallets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173713"
+        },
+        {
+          "title": "Vmcloudoor Malware Could Let Hackers Secretly Control Linux Cloud Servers and Steal Sensitive Files",
+          "url": "https://cybersecuritynews.com/vmcloudoor-malware/",
+          "published": "Mon, 23 Nov 2026 14:14:20 +0000",
+          "published_utc": "2026-11-23T14:14:20+00:00",
+          "summary": "<p>A newly found Linux backdoor named Vmcloudoor can quietly take over cloud servers and pull files off them. It is built to infect virtual machines on Chinese cloud platforms, mainly Alibaba Cloud. It also targets Tencent Cloud and Huawei Cloud. The malware pretends to be a normal cloud management agent, so administrators are less likely [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vmcloudoor-malware/\">Vmcloudoor Malware Could Let Hackers Secretly Control Linux Cloud Servers and Steal Sensitive Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173712"
+        },
+        {
+          "title": "Hackers Plant 13 ClickFix Traps on Compromised WordPress Site to Trick Visitors Into Running Malware",
+          "url": "https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/",
+          "published": "Mon, 23 Nov 2026 13:58:49 +0000",
+          "published_utc": "2026-11-23T13:58:49+00:00",
+          "summary": "<p>A single hacked WordPress site was found carrying 13 separate ClickFix traps from three different malware kits. Each trap shows visitors a fake security check. It then talks them into pasting a harmful command on their own computer. The site sat in a poor state because several groups had broken into it at different times. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/\">Hackers Plant 13 ClickFix Traps on Compromised WordPress Site to Trick Visitors Into Running Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173667"
+        },
+        {
+          "title": "iTerm2 Remote Code Execution Flaw Lets Hackers Run Malicious Commands by Displaying Crafted Files",
+          "url": "https://cybersecuritynews.com/iterm2-remote-code-execution-flaw/",
+          "published": "Mon, 23 Nov 2026 12:57:36 +0000",
+          "published_utc": "2026-11-23T12:57:36+00:00",
+          "summary": "<p>A security flaw in iTerm2, a macOS terminal emulator, lets attackers run commands when a user displays a specially crafted file in a vulnerable terminal session. The user does not have to run the file as a script or paste a command supplied by the attacker. Printing the file’s contents is enough to trigger the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iterm2-remote-code-execution-flaw/\">iTerm2 Remote Code Execution Flaw Lets Hackers Run Malicious Commands by Displaying Crafted Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173623"
+        },
+        {
+          "title": "Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files",
+          "url": "https://cybersecuritynews.com/jailbroken-ai-agent/",
+          "published": "Mon, 23 Nov 2026 12:44:59 +0000",
+          "published_utc": "2026-11-23T12:44:59+00:00",
+          "summary": "<p>A low-skilled hacker used a jailbroken AI agent to steal an insurer&#8217;s customer database and about 8.6GB of files from European municipalities. The operator, known as BabidiGhost, worked for nine days in November 2026. He typed plain, misspelled French orders and let the agent do the technical work. Targets included banks, insurers, payment providers and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/jailbroken-ai-agent/\">Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173633"
+        },
+        {
+          "title": "CrowdStrike to Acquire Zscaler in Massive $43.9 Billion Cybersecurity Deal",
+          "url": "https://cybersecuritynews.com/crowdstrike-acquire-zscaler/",
+          "published": "Mon, 23 Nov 2026 12:44:26 +0000",
+          "published_utc": "2026-11-23T12:44:26+00:00",
+          "summary": "<p>CrowdStrike has agreed to acquire Zscaler in a $43.9 billion all-stock deal that would bring cloud network security to its Falcon platform. The agreement, announced on November 23, 2026, would give CrowdStrike control over both the devices where users and AI agents run software and the connections they make to corporate apps and data. Zscaler [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crowdstrike-acquire-zscaler/\">CrowdStrike to Acquire Zscaler in Massive $43.9 Billion Cybersecurity Deal</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173663"
+        },
+        {
+          "title": "Indian Cyber Crime Coordination Center Urges Users Not to Share Confidential Data on WhatsApp Web",
+          "url": "https://cybersecuritynews.com/whatsapp-web-confidential-data/",
+          "published": "Mon, 23 Nov 2026 12:19:18 +0000",
+          "published_utc": "2026-11-23T12:19:18+00:00",
+          "summary": "<p>The Indian Cyber Crime Coordination Center (I4C) has urged users not to share confidential data on WhatsApp Web and to log out manually after every session. In a November 18, 2026, security advisory, the National Cybercrime Threat Analytics Unit warned that someone with access to a signed-in browser session could read private messages, view contacts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-web-confidential-data/\">Indian Cyber Crime Coordination Center Urges Users Not to Share Confidential Data on WhatsApp Web</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173659"
+        },
+        {
+          "title": "Hackers Exploit Critical Cisco Expressway Flaw to Gain Root Access and Infiltrate Internal Networks",
+          "url": "https://cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw/",
+          "published": "Mon, 23 Nov 2026 12:02:15 +0000",
+          "published_utc": "2026-11-23T12:02:15+00:00",
+          "summary": "<p>Attackers are now using a critical Cisco Expressway bug, CVE-2026-76466, to take full control of devices and move deeper into company networks. Researchers at F6 say the first known case happened soon after a public proof-of-concept (PoC) exploit appeared. F6&#8217;s Cyber Defense Center looked into the first observed exploitation of the flaw, which has a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw/\">Hackers Exploit Critical Cisco Expressway Flaw to Gain Root Access and Infiltrate Internal Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+          "id": "https://cybersecuritynews.com/?p=173502"
         }
       ],
       "error": ""

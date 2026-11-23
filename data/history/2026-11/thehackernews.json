@@ -2,8 +2,88 @@
   "month": "2026-11",
   "source": "The Hacker News",
   "source_slug": "thehackernews",
-  "article_count": 177,
+  "article_count": 180,
   "articles": [
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "published": "Mon, 23 Nov 2026 09:11:56 +0000",
+      "published_utc": "2026-11-23T09:11:56+00:00",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5080426783891924694",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "content_hash": "f418af853436465f9998a01205f8a85e0274f97a06547126bfe5a7da94cd1767",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f418af853436465f9998a01205f8a85e0274f97a06547126bfe5a7da94cd1767"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T09:42:51.770299+00:00",
+      "first_seen_local": "2026-11-23T04:42:51.770297-05:00",
+      "last_updated_utc": "2026-11-23T09:42:51.770299+00:00",
+      "last_updated_local": "2026-11-23T04:42:51.770297-05:00"
+    },
+    {
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "published": "Mon, 23 Nov 2026 09:04:08 +0000",
+      "published_utc": "2026-11-23T09:04:08+00:00",
+      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.\n\nThe company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6169976380283745367",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "content_hash": "0994f81b966e0d1542ee84af9cfae9f4227d3f7d374d98e9e2add04412846a8f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0994f81b966e0d1542ee84af9cfae9f4227d3f7d374d98e9e2add04412846a8f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T09:42:51.770299+00:00",
+      "first_seen_local": "2026-11-23T04:42:51.770297-05:00",
+      "last_updated_utc": "2026-11-23T09:42:51.770299+00:00",
+      "last_updated_local": "2026-11-23T04:42:51.770297-05:00"
+    },
+    {
+      "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "published": "Mon, 23 Nov 2026 08:24:15 +0000",
+      "published_utc": "2026-11-23T08:24:15+00:00",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.\n\nThis unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3655269134440303236",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "content_hash": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1",
+        "FEEDBURNER": "ec044f10554a7a60152f21ac44dddbf084a44564f65b2f0383254cbbed9707b1"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-23T09:42:51.770299+00:00",
+      "first_seen_local": "2026-11-23T04:42:51.770297-05:00",
+      "last_updated_utc": "2026-11-23T09:42:51.770299+00:00",
+      "last_updated_local": "2026-11-23T04:42:51.770297-05:00"
+    },
     {
       "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
       "url": "http://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",

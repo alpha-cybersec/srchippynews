@@ -10,23 +10,31 @@
       "final_url": "https://thehackernews.com/feeds/posts/default?alt=rss&redirect=false",
       "content_type": "application/rss+xml; charset=UTF-8",
       "feed_title": "The Hacker News | #1 Trusted Source for Cybersecurity News",
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
-          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-          "url": "http://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-          "published": "Sun, 22 Nov 2026 05:06:55 +0000",
-          "published_utc": "2026-11-22T05:06:55+00:00",
-          "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.\n\nOpenRouter, a gateway that routes customers' AI requests to a pool of",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-1735083322913771303"
+          "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+          "published": "Mon, 23 Nov 2026 09:11:56 +0000",
+          "published_utc": "2026-11-23T09:11:56+00:00",
+          "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5080426783891924694"
         },
         {
-          "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-          "url": "http://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-          "published": "Sun, 22 Nov 2026 05:03:41 +0000",
-          "published_utc": "2026-11-22T05:03:41+00:00",
-          "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.\n\nSecurity firm pwn.ai showed this week that ordinary upload,",
-          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-4069134473134999259"
+          "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+          "published": "Mon, 23 Nov 2026 09:04:08 +0000",
+          "published_utc": "2026-11-23T09:04:08+00:00",
+          "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.\n\nThe company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6169976380283745367"
+        },
+        {
+          "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+          "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+          "published": "Mon, 23 Nov 2026 08:24:15 +0000",
+          "published_utc": "2026-11-23T08:24:15+00:00",
+          "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.\n\nThis unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+          "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3655269134440303236"
         }
       ],
       "error": ""
@@ -39,23 +47,15 @@
       "final_url": "https://feeds.feedburner.com/TheHackersNews",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "The Hacker News",
-      "article_count": 2,
+      "article_count": 1,
       "articles": [
         {
-          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-          "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-          "published": "Sun, 22 Nov 2026 10:36:55 +0530",
-          "published_utc": "2026-11-22T05:06:55+00:00",
-          "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.\n\nOpenRouter, a gateway that routes customers' AI requests to a pool of",
-          "id": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
-        },
-        {
-          "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-          "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-          "published": "Sun, 22 Nov 2026 10:33:41 +0530",
-          "published_utc": "2026-11-22T05:03:41+00:00",
-          "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.\n\nSecurity firm pwn.ai showed this week that ordinary upload,",
-          "id": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+          "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+          "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+          "published": "Mon, 23 Nov 2026 13:54:15 +0530",
+          "published_utc": "2026-11-23T08:24:15+00:00",
+          "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.\n\nThis unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+          "id": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
         }
       ],
       "error": ""

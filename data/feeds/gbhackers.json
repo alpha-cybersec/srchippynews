@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
-      "http_status": 202,
+      "status": "SUCCESS",
+      "http_status": 200,
       "final_url": "https://gbhackers.com/feed/",
-      "content_type": "text/html",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "HTTP 202"
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "AI-Powered Hackers Deploy Stealthy ZQAgent Malware to Keep Control of Compromised Linux Servers",
+          "url": "https://gbhackers.com/zqagent-malware-attack/",
+          "published": "Tue, 24 Nov 2026 13:16:03 +0000",
+          "published_utc": "2026-11-24T13:16:03+00:00",
+          "summary": "<p>An LLM-driven intrusion tool has deployed a persistent Linux backdoor, which is unusual for this class of attack. LLM-driven intrusions have mostly been fast, noisy smash-and-grab operations. They rarely leave footholds beyond staged credentials, so defenders can usually contain them by isolating the initial-access vector and revoking credentials. ZQAgent breaks that pattern. NVISO believes the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zqagent-malware-attack/\">AI-Powered Hackers Deploy Stealthy ZQAgent Malware to Keep Control of Compromised Linux Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209721"
+        },
+        {
+          "title": "New Android Camera Attack Lets Hackers Eavesdrop on Speech Without Microphone Access",
+          "url": "https://gbhackers.com/new-android-camera-attack/",
+          "published": "Tue, 24 Nov 2026 13:05:52 +0000",
+          "published_utc": "2026-11-24T13:05:52+00:00",
+          "summary": "<p>Security researchers have demonstrated that an Android app with camera permission can recover parts of speech played through a phone’s built-in loudspeaker without accessing the microphone. The attack, dubbed CAMEAR, uses motion data exposed by Android’s Camera2 interface rather than video frames or audio recordings. The findings reveal a gap between what Android’s permission prompts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-android-camera-attack/\">New Android Camera Attack Lets Hackers Eavesdrop on Speech Without Microphone Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209736"
+        },
+        {
+          "title": "EvilTokens Phishing Infrastructure Resurfaces After Microsoft Takedown With New Device-Code Attack Hosts",
+          "url": "https://gbhackers.com/eviltokens-phishing-infrastructure/",
+          "published": "Tue, 24 Nov 2026 12:07:06 +0000",
+          "published_utc": "2026-11-24T12:07:06+00:00",
+          "summary": "<p>Phishing infrastructure tied to the EvilTokens kit is active again, about two months after Microsoft disrupted the service. The kit hijacks Microsoft 365 accounts by abusing the OAuth device authorization grant. Microsoft says it compromised more than 12,000 inboxes across over 10,000 organizations. The lure page asks Microsoft to start a device-code flow and receives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/eviltokens-phishing-infrastructure/\">EvilTokens Phishing Infrastructure Resurfaces After Microsoft Takedown With New Device-Code Attack Hosts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209696"
+        },
+        {
+          "title": "Hackers Could Suddenly Apply Trailer Brakes at Highway Speeds Through Bluetooth Vulnerability",
+          "url": "https://gbhackers.com/bluetooth-vulnerability/",
+          "published": "Tue, 24 Nov 2026 09:16:35 +0000",
+          "published_utc": "2026-11-24T09:16:35+00:00",
+          "summary": "<p>Researchers have found that anyone within Bluetooth range of an unpatched Elecbrakes trailer brake controller can apply the trailer&#8217;s brakes with any force. The attacker needs no pairing, PIN or authentication. The flaw is tracked as CVE-2026-96805 and scored CVSS 9.6 (Critical). They decompiled the Elecbrakes Android app with AI assistance and mapped 47 Bluetooth [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bluetooth-vulnerability/\">Hackers Could Suddenly Apply Trailer Brakes at Highway Speeds Through Bluetooth Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209647"
+        },
+        {
+          "title": "12 Fraud Detection Software: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/fraud-detection-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:27:33 +0000",
+          "published_utc": "2026-11-24T08:27:33+00:00",
+          "summary": "<p>Fraud detection is a tightrope with a knife’s edge: too slack and the losses pile up, too strict and you turn away good customers and choke your revenue. This guide weighs twelve platforms and names each one’s vertical, because ecommerce chargebacks, payments and fintech, identity fraud and new-account abuse are truly different purchases the top [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fraud-detection-buyers-guide/\">12 Fraud Detection Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208987"
+        },
+        {
+          "title": "12 Brand Protection & Anti-Impersonation Tools: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/brand-protection-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:25:04 +0000",
+          "published_utc": "2026-11-24T08:25:04+00:00",
+          "summary": "<p>“Brand protection” splits into two very different jobs depending on who’s at the table. Security teams picture spoofed domains, credential-harvesting pages and impersonated executives that burn customers and staff. Legal and ecommerce teams picture knock-off goods, unauthorised resellers and trademark abuse that bleed the top line. This verdict guide judges twelve tools, declaring each one’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/brand-protection-buyers-guide/\">12 Brand Protection &amp; Anti-Impersonation Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208928"
+        },
+        {
+          "title": "12 Digital Risk Protection (DRP) Solutions: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/digital-risk-protection-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:18:36 +0000",
+          "published_utc": "2026-11-24T08:18:36+00:00",
+          "summary": "<p>Digital risk protection keeps watch over everything about your organisation that sits beyond the perimeter look-alike domains, leaked data, spoofed social accounts, exposed assets, brand abuse and, crucially, acts on it. The question that defines the category isn’t how wide the monitoring reaches, but whether a platform can actually pull the fake domain down instead [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/digital-risk-protection-buyers-guide/\">12 Digital Risk Protection (DRP) Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208905"
+        },
+        {
+          "title": "12 Dark Web Monitoring Services: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/dark-web-monitoring-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:08:51 +0000",
+          "published_utc": "2026-11-24T08:08:51+00:00",
+          "summary": "<p>Dark web monitoring is only as good as two things: how deep the collection reaches into closed forums, Telegram channels, and criminal marketplaces, and whether the alerts are actionable intelligence or noise about data already everywhere. This verdict guide judges twelve services, declaring each one’s lane, because broad criminal intelligence, recaptured-credential depth, and investigation tooling [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dark-web-monitoring-buyers-guide/\">12 Dark Web Monitoring Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208671"
+        },
+        {
+          "title": "12 Post-Quantum / Quantum-Safe Cryptography Solutions: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/post-quantum-cryptography-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:00:32 +0000",
+          "published_utc": "2026-11-24T08:00:32+00:00",
+          "summary": "<p>What drives post-quantum cryptography isn’t a machine that’s already here it’s “harvest now, decrypt later”: attackers hoovering up encrypted data today to crack open the moment a cryptographically useful quantum computer shows up. Now that NIST’s PQC standards are locked, the job has moved from research to migration, and the thorniest part is discovery most [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/post-quantum-cryptography-buyers-guide/\">12 Post-Quantum / Quantum-Safe Cryptography Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208648"
+        },
+        {
+          "title": "Hackers Use AI Agents to Hijack Kubernetes Clusters and Steal Sensitive Cloud Credentials",
+          "url": "https://gbhackers.com/kubernetes-clusters-hijacking/",
+          "published": "Tue, 24 Nov 2026 07:57:17 +0000",
+          "published_utc": "2026-11-24T07:57:17+00:00",
+          "summary": "<p>Hackers are using AI offensive agents to compromise Kubernetes clusters, harvest cloud credentials, and exploit trust relationships across development infrastructure. Investigations describe opportunistic campaigns and targeted intrusions in which automated agents connect stolen identities, excessive permissions, and exposed secrets into multistage attacks. However, researchers caution that not every disclosed breach has sufficient evidence to establish [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kubernetes-clusters-hijacking/\">Hackers Use AI Agents to Hijack Kubernetes Clusters and Steal Sensitive Cloud Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209613"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",
@@ -22,8 +103,89 @@
       "final_url": "https://feeds.feedburner.com/gbhackers",
       "content_type": "text/xml; charset=utf-8",
       "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
-      "article_count": 0,
-      "articles": [],
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "AI-Powered Hackers Deploy Stealthy ZQAgent Malware to Keep Control of Compromised Linux Servers",
+          "url": "https://gbhackers.com/zqagent-malware-attack/",
+          "published": "Tue, 24 Nov 2026 13:16:03 +0000",
+          "published_utc": "2026-11-24T13:16:03+00:00",
+          "summary": "<p>An LLM-driven intrusion tool has deployed a persistent Linux backdoor, which is unusual for this class of attack. LLM-driven intrusions have mostly been fast, noisy smash-and-grab operations. They rarely leave footholds beyond staged credentials, so defenders can usually contain them by isolating the initial-access vector and revoking credentials. ZQAgent breaks that pattern. NVISO believes the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zqagent-malware-attack/\">AI-Powered Hackers Deploy Stealthy ZQAgent Malware to Keep Control of Compromised Linux Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209721"
+        },
+        {
+          "title": "New Android Camera Attack Lets Hackers Eavesdrop on Speech Without Microphone Access",
+          "url": "https://gbhackers.com/new-android-camera-attack/",
+          "published": "Tue, 24 Nov 2026 13:05:52 +0000",
+          "published_utc": "2026-11-24T13:05:52+00:00",
+          "summary": "<p>Security researchers have demonstrated that an Android app with camera permission can recover parts of speech played through a phone’s built-in loudspeaker without accessing the microphone. The attack, dubbed CAMEAR, uses motion data exposed by Android’s Camera2 interface rather than video frames or audio recordings. The findings reveal a gap between what Android’s permission prompts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-android-camera-attack/\">New Android Camera Attack Lets Hackers Eavesdrop on Speech Without Microphone Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209736"
+        },
+        {
+          "title": "EvilTokens Phishing Infrastructure Resurfaces After Microsoft Takedown With New Device-Code Attack Hosts",
+          "url": "https://gbhackers.com/eviltokens-phishing-infrastructure/",
+          "published": "Tue, 24 Nov 2026 12:07:06 +0000",
+          "published_utc": "2026-11-24T12:07:06+00:00",
+          "summary": "<p>Phishing infrastructure tied to the EvilTokens kit is active again, about two months after Microsoft disrupted the service. The kit hijacks Microsoft 365 accounts by abusing the OAuth device authorization grant. Microsoft says it compromised more than 12,000 inboxes across over 10,000 organizations. The lure page asks Microsoft to start a device-code flow and receives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/eviltokens-phishing-infrastructure/\">EvilTokens Phishing Infrastructure Resurfaces After Microsoft Takedown With New Device-Code Attack Hosts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209696"
+        },
+        {
+          "title": "Hackers Could Suddenly Apply Trailer Brakes at Highway Speeds Through Bluetooth Vulnerability",
+          "url": "https://gbhackers.com/bluetooth-vulnerability/",
+          "published": "Tue, 24 Nov 2026 09:16:35 +0000",
+          "published_utc": "2026-11-24T09:16:35+00:00",
+          "summary": "<p>Researchers have found that anyone within Bluetooth range of an unpatched Elecbrakes trailer brake controller can apply the trailer&#8217;s brakes with any force. The attacker needs no pairing, PIN or authentication. The flaw is tracked as CVE-2026-96805 and scored CVSS 9.6 (Critical). They decompiled the Elecbrakes Android app with AI assistance and mapped 47 Bluetooth [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bluetooth-vulnerability/\">Hackers Could Suddenly Apply Trailer Brakes at Highway Speeds Through Bluetooth Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209647"
+        },
+        {
+          "title": "12 Fraud Detection Software: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/fraud-detection-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:27:33 +0000",
+          "published_utc": "2026-11-24T08:27:33+00:00",
+          "summary": "<p>Fraud detection is a tightrope with a knife’s edge: too slack and the losses pile up, too strict and you turn away good customers and choke your revenue. This guide weighs twelve platforms and names each one’s vertical, because ecommerce chargebacks, payments and fintech, identity fraud and new-account abuse are truly different purchases the top [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fraud-detection-buyers-guide/\">12 Fraud Detection Software: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208987"
+        },
+        {
+          "title": "12 Brand Protection & Anti-Impersonation Tools: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/brand-protection-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:25:04 +0000",
+          "published_utc": "2026-11-24T08:25:04+00:00",
+          "summary": "<p>“Brand protection” splits into two very different jobs depending on who’s at the table. Security teams picture spoofed domains, credential-harvesting pages and impersonated executives that burn customers and staff. Legal and ecommerce teams picture knock-off goods, unauthorised resellers and trademark abuse that bleed the top line. This verdict guide judges twelve tools, declaring each one’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/brand-protection-buyers-guide/\">12 Brand Protection &amp; Anti-Impersonation Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208928"
+        },
+        {
+          "title": "12 Digital Risk Protection (DRP) Solutions: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/digital-risk-protection-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:18:36 +0000",
+          "published_utc": "2026-11-24T08:18:36+00:00",
+          "summary": "<p>Digital risk protection keeps watch over everything about your organisation that sits beyond the perimeter look-alike domains, leaked data, spoofed social accounts, exposed assets, brand abuse and, crucially, acts on it. The question that defines the category isn’t how wide the monitoring reaches, but whether a platform can actually pull the fake domain down instead [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/digital-risk-protection-buyers-guide/\">12 Digital Risk Protection (DRP) Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208905"
+        },
+        {
+          "title": "12 Dark Web Monitoring Services: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/dark-web-monitoring-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:08:51 +0000",
+          "published_utc": "2026-11-24T08:08:51+00:00",
+          "summary": "<p>Dark web monitoring is only as good as two things: how deep the collection reaches into closed forums, Telegram channels, and criminal marketplaces, and whether the alerts are actionable intelligence or noise about data already everywhere. This verdict guide judges twelve services, declaring each one’s lane, because broad criminal intelligence, recaptured-credential depth, and investigation tooling [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dark-web-monitoring-buyers-guide/\">12 Dark Web Monitoring Services: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208671"
+        },
+        {
+          "title": "12 Post-Quantum / Quantum-Safe Cryptography Solutions: The 2026 Buyer’s Verdict Guide",
+          "url": "https://gbhackers.com/post-quantum-cryptography-buyers-guide/",
+          "published": "Tue, 24 Nov 2026 08:00:32 +0000",
+          "published_utc": "2026-11-24T08:00:32+00:00",
+          "summary": "<p>What drives post-quantum cryptography isn’t a machine that’s already here it’s “harvest now, decrypt later”: attackers hoovering up encrypted data today to crack open the moment a cryptographically useful quantum computer shows up. Now that NIST’s PQC standards are locked, the job has moved from research to migration, and the thorniest part is discovery most [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/post-quantum-cryptography-buyers-guide/\">12 Post-Quantum / Quantum-Safe Cryptography Solutions: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=208648"
+        },
+        {
+          "title": "Hackers Use AI Agents to Hijack Kubernetes Clusters and Steal Sensitive Cloud Credentials",
+          "url": "https://gbhackers.com/kubernetes-clusters-hijacking/",
+          "published": "Tue, 24 Nov 2026 07:57:17 +0000",
+          "published_utc": "2026-11-24T07:57:17+00:00",
+          "summary": "<p>Hackers are using AI offensive agents to compromise Kubernetes clusters, harvest cloud credentials, and exploit trust relationships across development infrastructure. Investigations describe opportunistic campaigns and targeted intrusions in which automated agents connect stolen identities, excessive permissions, and exposed secrets into multistage attacks. However, researchers caution that not every disclosed breach has sufficient evidence to establish [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kubernetes-clusters-hijacking/\">Hackers Use AI Agents to Hijack Kubernetes Clusters and Steal Sensitive Cloud Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=209613"
+        }
+      ],
       "error": ""
     }
   }

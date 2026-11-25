@@ -1,7 +1,429 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-11-25T10:24:43.681818+00:00",
+  "generated_at_local": "2026-11-25T05:24:43.681833-05:00",
+  "article_count": 15,
+  "new_count": 15,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "cybersecuritynews": 11,
+    "thehackernews": 4
+  },
+  "articles": [
+    {
+      "title": "Critical 9.9 Dell Enterprise SONiC Flaw Could Let Hackers Execute Malicious Commands on Network Switches",
+      "url": "https://cybersecuritynews.com/critical-dell-enterprise-sonic-flaw/",
+      "published": "Wed, 25 Nov 2026 10:20:51 +0000",
+      "published_utc": "2026-11-25T10:20:51+00:00",
+      "summary": "<p>Dell Technologies has patched a critical flaw in Dell Enterprise SONiC Distribution that could let a remote attacker with limited privileges run commands of their choice on an affected network switch. The vulnerability, tracked as CVE-2026-103782, could also expose files and directories the attacker is not authorized to access. It affects software versions before 4.6.1. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-dell-enterprise-sonic-flaw/\">Critical 9.9 Dell Enterprise SONiC Flaw Could Let Hackers Execute Malicious Commands on Network Switches</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174473",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/critical-dell-enterprise-sonic-flaw",
+      "content_hash": "98ae700dca1f74cec09972f40eab04e9d12e0f61646faa2d933595019474fe75",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "98ae700dca1f74cec09972f40eab04e9d12e0f61646faa2d933595019474fe75"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "url": "http://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "published": "Wed, 25 Nov 2026 09:06:59 +0000",
+      "published_utc": "2026-11-25T09:06:59+00:00",
+      "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had every server on a patched build within about 15 minutes of the first malicious request.\n\nChecks",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2470811389464356254",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "content_hash": "048369595758e3189a8f22a9a6fb20e2580fff6acc78bc9f95dce41b9b7da4bf",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "048369595758e3189a8f22a9a6fb20e2580fff6acc78bc9f95dce41b9b7da4bf",
+        "FEEDBURNER": "048369595758e3189a8f22a9a6fb20e2580fff6acc78bc9f95dce41b9b7da4bf"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:43.670121+00:00",
+      "first_seen_local": "2026-11-25T05:24:43.670118-05:00",
+      "last_updated_utc": "2026-11-25T10:24:43.670121+00:00",
+      "last_updated_local": "2026-11-25T05:24:43.670118-05:00"
+    },
+    {
+      "title": "Anthropic Research Reveals Claude AI Agents Can Escape Sandboxes and Access Restricted Data",
+      "url": "https://cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes/",
+      "published": "Wed, 25 Nov 2026 08:51:49 +0000",
+      "published_utc": "2026-11-25T08:51:49+00:00",
+      "summary": "<p>Anthropic says Claude AI agents accessed and, in some cases, used restricted test data while carrying out routine software tasks in deliberately weakened sandboxes. In its Nov. 24 Siren research report, the company found that four recent Claude models reached or tried to reach beyond their sandbox in 21% to 32% of scenarios. They used [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes/\">Anthropic Research Reveals Claude AI Agents Can Escape Sandboxes and Access Restricted Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174460",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/claude-ai-agents-can-escape-sandboxes",
+      "content_hash": "75080b8b7e385bb9474f3417e9bfcedfd3ebae520f5e0f37e3b9c75d70cb6928",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "75080b8b7e385bb9474f3417e9bfcedfd3ebae520f5e0f37e3b9c75d70cb6928",
+        "FEEDBURNER": "75080b8b7e385bb9474f3417e9bfcedfd3ebae520f5e0f37e3b9c75d70cb6928"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Palo Alto Networks Confirms Hackers Are Exploiting Fragnesia Flaw to Gain Root Access to Firewalls",
+      "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/",
+      "published": "Wed, 25 Nov 2026 08:08:43 +0000",
+      "published_utc": "2026-11-25T08:08:43+00:00",
+      "summary": "<p>Palo Alto Networks has confirmed that hackers are exploiting Fragnesia tracked as CVE-2026-46300, a Linux kernel flaw to gain root access to firewalls running PAN-OS. The company said all observed attacks targeted devices with management interfaces exposed to the internet. It urged customers with publicly reachable management interfaces to upgrade immediately and restrict access to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/\">Palo Alto Networks Confirms Hackers Are Exploiting Fragnesia Flaw to Gain Root Access to Firewalls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174452",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation",
+      "content_hash": "6586a9772f4608170dd3782c16ae6e9114253bdf99825f371e4ee943951e8965",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6586a9772f4608170dd3782c16ae6e9114253bdf99825f371e4ee943951e8965",
+        "FEEDBURNER": "6586a9772f4608170dd3782c16ae6e9114253bdf99825f371e4ee943951e8965"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Hackers Use Stolen AI Prompt Data to Search AWS Cloud Storage and Secret Management Services",
+      "url": "https://cybersecuritynews.com/stolen-ai-prompt-data/",
+      "published": "Wed, 25 Nov 2026 07:46:19 +0000",
+      "published_utc": "2026-11-25T07:46:19+00:00",
+      "summary": "<p>Hackers used Amazon Web Services (AWS) access keys stolen from AI prompts to list cloud storage buckets and search services that hold passwords, API tokens, and application settings. Security firm Dragos traced the activity to credentials it had planted in test prompts. Some keys were tested within hours of submission, and the stolen credentials generated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/stolen-ai-prompt-data/\">Hackers Use Stolen AI Prompt Data to Search AWS Cloud Storage and Secret Management Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174479",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/stolen-ai-prompt-data",
+      "content_hash": "2cba1b714dd656b656ad20b55c68e26d485e106e0c770a06689d5daf13263788",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2cba1b714dd656b656ad20b55c68e26d485e106e0c770a06689d5daf13263788",
+        "FEEDBURNER": "2cba1b714dd656b656ad20b55c68e26d485e106e0c770a06689d5daf13263788"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Top 10 Best Cloud Email Security Solutions (Microsoft 365 & Google) in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-cloud-email-security/",
+      "published": "Wed, 25 Nov 2026 07:37:48 +0000",
+      "published_utc": "2026-11-25T07:37:48+00:00",
+      "summary": "<p>Once your mailboxes live in Microsoft 365 or Google Workspace, the old inline gateway starts to look like a detour and a new class of tools plugs in by API instead, reading the same mailbox the platform’s own filter does and catching what slips past it. These Integrated Cloud Email Security layers model behavior, deploy [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cloud-email-security/\">Top 10 Best Cloud Email Security Solutions (Microsoft 365 &amp; Google) in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174385",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-cloud-email-security",
+      "content_hash": "7712742ceab99792ef32f625b4ccc5d06ba43ac6136b3f89b18c8ffefb423095",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7712742ceab99792ef32f625b4ccc5d06ba43ac6136b3f89b18c8ffefb423095",
+        "FEEDBURNER": "7712742ceab99792ef32f625b4ccc5d06ba43ac6136b3f89b18c8ffefb423095"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Top 10 Best Email Security Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-email-security/",
+      "published": "Wed, 25 Nov 2026 07:35:50 +0000",
+      "published_utc": "2026-11-25T07:35:50+00:00",
+      "summary": "<p>Email remains the front door for most breaches, and the attacks that get through now are the ones with no payload to scan the invoice-fraud message, the lookalike-domain request, the compromised-vendor thread. The solutions below separate on catch rate against modern phishing and BEC, how they deploy (gateway versus API versus native), and whether they [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-email-security/\">Top 10 Best Email Security Solutions in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174196",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-email-security",
+      "content_hash": "1b62d86765c3c7c73bfeea750a003c7166e7461b7eb9de16922beb21a461213a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1b62d86765c3c7c73bfeea750a003c7166e7461b7eb9de16922beb21a461213a",
+        "FEEDBURNER": "1b62d86765c3c7c73bfeea750a003c7166e7461b7eb9de16922beb21a461213a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Top 10 Best Managed Vulnerability Scanning Services in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-managed-vulnerability-scanning/",
+      "published": "Wed, 25 Nov 2026 07:33:07 +0000",
+      "published_utc": "2026-11-25T07:33:07+00:00",
+      "summary": "<p>Buying a scanner is easy; running one well is a job nobody has time for credentialed scans that don’t break production, results triaged so the team sees the ten findings that matter instead of ten thousand, and false positives filtered before they erode trust. Managed vulnerability scanning rents that discipline. The services below separate on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-managed-vulnerability-scanning/\">Top 10 Best Managed Vulnerability Scanning Services in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174110",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-managed-vulnerability-scanning",
+      "content_hash": "acb9743bffec8a37ab0cb8735fad9358bbeb357727b5a1b26f2774cf037b071a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "acb9743bffec8a37ab0cb8735fad9358bbeb357727b5a1b26f2774cf037b071a",
+        "FEEDBURNER": "acb9743bffec8a37ab0cb8735fad9358bbeb357727b5a1b26f2774cf037b071a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Top 10 Best Red Team & Adversary Emulation Services in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-red-team-services/",
+      "published": "Wed, 25 Nov 2026 07:28:33 +0000",
+      "published_utc": "2026-11-25T07:28:33+00:00",
+      "summary": "<p>A penetration test asks “what’s vulnerable?” A red team asks a harder question: “if a real adversary targeted you, would you detect and stop them before they reached the crown jewels?” These engagements emulate specific threat actors end to end initial access through lateral movement to objective and the deliverable isn’t a vulnerability list, it’s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-red-team-services/\">Top 10 Best Red Team &amp; Adversary Emulation Services in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174004",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-red-team-services",
+      "content_hash": "f8349d666d788c8dc48ddeaa7cda873c93bb0fc7d496efc8edb200dc836bf76b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "f8349d666d788c8dc48ddeaa7cda873c93bb0fc7d496efc8edb200dc836bf76b",
+        "FEEDBURNER": "f8349d666d788c8dc48ddeaa7cda873c93bb0fc7d496efc8edb200dc836bf76b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Top 10 Best Penetration Testing as a Service (PTaaS) Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-ptaas-platforms/",
+      "published": "Wed, 25 Nov 2026 07:22:12 +0000",
+      "published_utc": "2026-11-25T07:22:12+00:00",
+      "summary": "<p>The annual pentest was built for a world that shipped software once a year. PTaaS fits the world that ships weekly: a platform that delivers human testing on demand, pipes findings into the tools developers already live in, and retests fixes in days instead of next year’s engagement. The platforms below separate on tester quality, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-ptaas-platforms/\">Top 10 Best Penetration Testing as a Service (PTaaS) Platforms in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173758",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-ptaas-platforms",
+      "content_hash": "2a438416edc0254ec5d4b3853c0ca0cfb473c70f877b7518b8a3426289ff05b2",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "2a438416edc0254ec5d4b3853c0ca0cfb473c70f877b7518b8a3426289ff05b2",
+        "FEEDBURNER": "2a438416edc0254ec5d4b3853c0ca0cfb473c70f877b7518b8a3426289ff05b2"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "http://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "published": "Wed, 25 Nov 2026 06:50:19 +0000",
+      "published_utc": "2026-11-25T06:50:19+00:00",
+      "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\n\nThe intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7293961855251838537",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "content_hash": "d6550fed7e1cea64db2936b9c17325cbee0627602dbf09acdd8f5ab2ee10cf1d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "d6550fed7e1cea64db2936b9c17325cbee0627602dbf09acdd8f5ab2ee10cf1d",
+        "FEEDBURNER": "d6550fed7e1cea64db2936b9c17325cbee0627602dbf09acdd8f5ab2ee10cf1d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:43.670121+00:00",
+      "first_seen_local": "2026-11-25T05:24:43.670118-05:00",
+      "last_updated_utc": "2026-11-25T10:24:43.670121+00:00",
+      "last_updated_local": "2026-11-25T05:24:43.670118-05:00"
+    },
+    {
+      "title": "Remus Stealer Silently Installs Fake Google Sheets Extension to Steal Gmail Messages",
+      "url": "https://cybersecuritynews.com/remus-stealer/",
+      "published": "Wed, 25 Nov 2026 06:48:13 +0000",
+      "published_utc": "2026-11-25T06:48:13+00:00",
+      "summary": "<p>Remus Stealer is silently installing a fake Google Sheets extension in Google Chrome to steal Gmail messages from signed-in users. The extension runs in the background on compromised Windows computers, reading new emails and sending their contents to an attacker-controlled server. Despite claims by the malware’s developers, researchers found no evidence that the feature exploits [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/remus-stealer/\">Remus Stealer Silently Installs Fake Google Sheets Extension to Steal Gmail Messages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174466",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/remus-stealer",
+      "content_hash": "6e359a56ba8e4d22e0ff433fed0ae6831a1abcea4f02737eac9aa27a2fe37fb7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6e359a56ba8e4d22e0ff433fed0ae6831a1abcea4f02737eac9aa27a2fe37fb7",
+        "FEEDBURNER": "6e359a56ba8e4d22e0ff433fed0ae6831a1abcea4f02737eac9aa27a2fe37fb7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "http://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "published": "Wed, 25 Nov 2026 06:37:06 +0000",
+      "published_utc": "2026-11-25T06:37:06+00:00",
+      "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts.\n\nThe attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3685368525926671390",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "content_hash": "b99342c40d7828d8dd744cb84aaf841a3b94a5ed7aff4d76093a896ba813c735",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b99342c40d7828d8dd744cb84aaf841a3b94a5ed7aff4d76093a896ba813c735",
+        "FEEDBURNER": "b99342c40d7828d8dd744cb84aaf841a3b94a5ed7aff4d76093a896ba813c735"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:43.670121+00:00",
+      "first_seen_local": "2026-11-25T05:24:43.670118-05:00",
+      "last_updated_utc": "2026-11-25T10:24:43.670121+00:00",
+      "last_updated_local": "2026-11-25T05:24:43.670118-05:00"
+    },
+    {
+      "title": "Vinci RAT Linked to Microsoft Store Raises Risk of Hackers Remotely Controlling Windows PCs",
+      "url": "https://cybersecuritynews.com/vinci-rat-linked-to-microsoft-store/",
+      "published": "Wed, 25 Nov 2026 06:30:10 +0000",
+      "published_utc": "2026-11-25T06:30:10+00:00",
+      "summary": "<p>A Windows user searching for a screenshot tool was redirected to a fake download site and given a Microsoft-signed installer. But instead of installing the Snipping Tool, the installer led to a Microsoft Store app called Setup Assistant. That app opened a backdoor and delivered Vinci RAT, a remote access trojan that can run commands, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vinci-rat-linked-to-microsoft-store/\">Vinci RAT Linked to Microsoft Store Raises Risk of Hackers Remotely Controlling Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174463",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/vinci-rat-linked-to-microsoft-store",
+      "content_hash": "440e9124c7775e8357c5e2bba0ec845161e8d778dd94e286109aa4f8a84a03aa",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "440e9124c7775e8357c5e2bba0ec845161e8d778dd94e286109aa4f8a84a03aa"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:38.249943+00:00",
+      "first_seen_local": "2026-11-25T05:24:38.249938-05:00",
+      "last_updated_utc": "2026-11-25T10:24:38.249943+00:00",
+      "last_updated_local": "2026-11-25T05:24:38.249938-05:00"
+    },
+    {
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "url": "http://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "published": "Wed, 25 Nov 2026 06:21:12 +0000",
+      "published_utc": "2026-11-25T06:21:12+00:00",
+      "summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account.\n\nThe WordPress plugins team has independently detected and blocked the threat before it could be officially released. Visiting each plugin listing now",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-6444713610003366438",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "content_hash": "61a2dc164df7a0fe1e9779924e0653dcf40436e44ceb77da9c0122653c9162be",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "61a2dc164df7a0fe1e9779924e0653dcf40436e44ceb77da9c0122653c9162be",
+        "FEEDBURNER": "61a2dc164df7a0fe1e9779924e0653dcf40436e44ceb77da9c0122653c9162be"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-25T10:24:43.670121+00:00",
+      "first_seen_local": "2026-11-25T05:24:43.670118-05:00",
+      "last_updated_utc": "2026-11-25T10:24:43.670121+00:00",
+      "last_updated_local": "2026-11-25T05:24:43.670118-05:00"
+    }
+  ]
 }

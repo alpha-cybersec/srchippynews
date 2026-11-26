@@ -1,12 +1,320 @@
 {
   "date": "2026-11-26",
-  "article_count": 24,
+  "article_count": 35,
   "sources": {
-    "gbhackers": 10,
-    "thehackernews": 4,
-    "cybersecuritynews": 10
+    "thehackernews": 6,
+    "gbhackers": 12,
+    "cybersecuritynews": 17
   },
   "articles": [
+    {
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "http://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "published": "Thu, 26 Nov 2026 19:39:57 +0000",
+      "published_utc": "2026-11-26T19:39:57+00:00",
+      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much.\n\nThen there’s the question of who gets to use what. Stolen logins are opening",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-708570152287573017",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "content_hash": "76fc0bc05848c63320ca4583bd8eeeca4e012ab712eac8837474fddf71d1dfba",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "76fc0bc05848c63320ca4583bd8eeeca4e012ab712eac8837474fddf71d1dfba",
+        "FEEDBURNER": "76fc0bc05848c63320ca4583bd8eeeca4e012ab712eac8837474fddf71d1dfba"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:25.332902+00:00",
+      "first_seen_local": "2026-11-26T16:52:25.332900-05:00",
+      "last_updated_utc": "2026-11-26T21:52:25.332902+00:00",
+      "last_updated_local": "2026-11-26T16:52:25.332900-05:00"
+    },
+    {
+      "title": "The Anatomy of Tag Leakage: How Pixels, Session Replays, and Trackers Bypass Standard Banners",
+      "url": "https://gbhackers.com/the-anatomy-of-tag-leakage-how-pixels-session-replays-and-trackers-bypass-standard-banners/",
+      "published": "Thu, 26 Nov 2026 16:00:48 +0000",
+      "published_utc": "2026-11-26T16:00:48+00:00",
+      "summary": "<p>A consent banner is a preference requirement. It writes a cookie or localStorage key recording the visitor&#8217;s choice for any code that decides to read it. Nothing in the banner stops a script tag from executing or a request from leaving the browser. Tag leakage is the gap between those two things: the banner says [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/the-anatomy-of-tag-leakage-how-pixels-session-replays-and-trackers-bypass-standard-banners/\">The Anatomy of Tag Leakage: How Pixels, Session Replays, and Trackers Bypass Standard Banners</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=209781",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/the-anatomy-of-tag-leakage-how-pixels-session-replays-and-trackers-bypass-standard-banners",
+      "content_hash": "500cd45638668ec52e894028107e41497e1c154adc2b3311edb411137a340d18",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "500cd45638668ec52e894028107e41497e1c154adc2b3311edb411137a340d18",
+        "FEEDBURNER": "500cd45638668ec52e894028107e41497e1c154adc2b3311edb411137a340d18"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.179687+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.179684-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.179687+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.179684-05:00"
+    },
+    {
+      "title": "Moving Beyond Static Cookie Banners: Implementing Zero-Leakage Real-Time Consent Management",
+      "url": "https://cybersecuritynews.com/moving-beyond-static-cookie-banners-implementing-zero-leakage-real-time-consent-management/",
+      "published": "Thu, 26 Nov 2026 15:47:01 +0000",
+      "published_utc": "2026-11-26T15:47:01+00:00",
+      "summary": "<p>A cookie banner is a user interface requirement, not a control. Many sites display a cookie consent banner giving you options to opt-in or opt-out while the tag manager has already loaded analytics, advertising pixels and session replay, so personal data reaches third parties before the visitor makes any choice and this has caused pre-settlement [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/moving-beyond-static-cookie-banners-implementing-zero-leakage-real-time-consent-management/\">Moving Beyond Static Cookie Banners: Implementing Zero-Leakage Real-Time Consent Management</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174347",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/moving-beyond-static-cookie-banners-implementing-zero-leakage-real-time-consent-management",
+      "content_hash": "286dcf96c11204f4756a4c34d7a0d660286ad7d24770db0c062d2a03f374d39a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "286dcf96c11204f4756a4c34d7a0d660286ad7d24770db0c062d2a03f374d39a",
+        "FEEDBURNER": "286dcf96c11204f4756a4c34d7a0d660286ad7d24770db0c062d2a03f374d39a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "http://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "published": "Thu, 26 Nov 2026 15:13:41 +0000",
+      "published_utc": "2026-11-26T15:13:41+00:00",
+      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-3368795782286695096",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "content_hash": "8991df875d0889f8a26c8910ea41350d4c7679b6c9c2e680caf2b7e42efc7a76",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8991df875d0889f8a26c8910ea41350d4c7679b6c9c2e680caf2b7e42efc7a76",
+        "FEEDBURNER": "8991df875d0889f8a26c8910ea41350d4c7679b6c9c2e680caf2b7e42efc7a76"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:25.332902+00:00",
+      "first_seen_local": "2026-11-26T16:52:25.332900-05:00",
+      "last_updated_utc": "2026-11-26T21:52:25.332902+00:00",
+      "last_updated_local": "2026-11-26T16:52:25.332900-05:00"
+    },
+    {
+      "title": "Hackers Hide Password-Stealing Malware in GitHub Code, Putting Software Downloads at Risk",
+      "url": "https://cybersecuritynews.com/password-stealing-malware/",
+      "published": "Thu, 26 Nov 2026 14:50:20 +0000",
+      "published_utc": "2026-11-26T14:50:20+00:00",
+      "summary": "<p>Hackers slipped password-stealing malware into open GitHub pull requests at AsyncAPI Generator, CircuitVerse and Open Food Facts. At CircuitVerse, the code ran in the automated release workflow that built desktop software for Windows, Linux and macOS. Maintainers removed 40 installers from GitHub Actions on November 25, 2026, more than a month after the files became [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/password-stealing-malware/\">Hackers Hide Password-Stealing Malware in GitHub Code, Putting Software Downloads at Risk</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175595",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/password-stealing-malware",
+      "content_hash": "1be7b6e93c6d7ec32dbaaf097f3c781cd1e7c5f36a30b210aed61cd1d483c80d",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1be7b6e93c6d7ec32dbaaf097f3c781cd1e7c5f36a30b210aed61cd1d483c80d",
+        "FEEDBURNER": "1be7b6e93c6d7ec32dbaaf097f3c781cd1e7c5f36a30b210aed61cd1d483c80d"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "Bithumb Hacked for 15 Days, Customer Passport Numbers, Bank Details and Wallet Addresses Stolen",
+      "url": "https://cybersecuritynews.com/bithumb-hacked-for-15-days/",
+      "published": "Thu, 26 Nov 2026 14:09:42 +0000",
+      "published_utc": "2026-11-26T14:09:42+00:00",
+      "summary": "<p>South Korean cryptocurrency exchange Bithumb says hackers stole passport numbers, bank account numbers, and crypto wallet addresses after gaining access to an internal system for more than 15 days. In a November 25 update, the company said its investigation found more people and more types of personal data were affected than it had reported on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bithumb-hacked-for-15-days/\">Bithumb Hacked for 15 Days, Customer Passport Numbers, Bank Details and Wallet Addresses Stolen</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175539",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/bithumb-hacked-for-15-days",
+      "content_hash": "b202181e142c17860ccf940b4742741404f530bc1cf70984f0e3a124fb1e0e61",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b202181e142c17860ccf940b4742741404f530bc1cf70984f0e3a124fb1e0e61",
+        "FEEDBURNER": "b202181e142c17860ccf940b4742741404f530bc1cf70984f0e3a124fb1e0e61"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog",
+      "url": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/",
+      "published": "Thu, 26 Nov 2026 14:09:18 +0000",
+      "published_utc": "2026-11-26T14:09:18+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, after finding evidence of active exploitation. Five affect Mitel MiCollab, three affect Danfoss refrigeration controllers, and the remaining two affect HPE Juniper networking products and Vates Xen Orchestra. The CISA alert does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/\">CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175154",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/cisa-adds-10-flaws-to-kev",
+      "content_hash": "aafa5ec844a7d12be32b1cedcf76591baa8fbdda459ef46f5084ce89d6a106b0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "aafa5ec844a7d12be32b1cedcf76591baa8fbdda459ef46f5084ce89d6a106b0",
+        "FEEDBURNER": "aafa5ec844a7d12be32b1cedcf76591baa8fbdda459ef46f5084ce89d6a106b0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "Standard Chartered’s Zodia Custody Hacked, Client and Employee Data Exposed",
+      "url": "https://cybersecuritynews.com/zodia-custody-data-breach/",
+      "published": "Thu, 26 Nov 2026 14:01:01 +0000",
+      "published_utc": "2026-11-26T14:01:01+00:00",
+      "summary": "<p>Standard Chartered’s cryptocurrency custody unit, Zodia Custody, suffered a security breach that exposed information about some clients and employees. Chief Executive Richard Clark told Reuters on November 26 that the company detected attempts to probe its platform on Monday, November 23. Zodia said its investigation had found no unauthorized transactions as of Thursday. Zodia Custody [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zodia-custody-data-breach/\">Standard Chartered&#8217;s Zodia Custody Hacked, Client and Employee Data Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175596",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/zodia-custody-data-breach",
+      "content_hash": "1e2a42c02bae6ac03797a676b496d415c5d9b4ee5789fb791ed371b11d8aeea0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "1e2a42c02bae6ac03797a676b496d415c5d9b4ee5789fb791ed371b11d8aeea0",
+        "FEEDBURNER": "1e2a42c02bae6ac03797a676b496d415c5d9b4ee5789fb791ed371b11d8aeea0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "Silver Fox Hackers Use Fake Software Downloads to Spread Gh0stRAT Malware That Can Spy on PCs",
+      "url": "https://cybersecuritynews.com/silver-fox-hackers/",
+      "published": "Thu, 26 Nov 2026 13:35:43 +0000",
+      "published_utc": "2026-11-26T13:35:43+00:00",
+      "summary": "<p>A Windows user searching for the oCam screen recorder downloaded an installer that delivered exactly what it promised: a working copy of the app. But the same package quietly launched a second installer. Endpoint security stopped that part of the attack within roughly 90 seconds. A separate, closely related sample contained Gh0stRAT malware capable of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silver-fox-hackers/\">Silver Fox Hackers Use Fake Software Downloads to Spread Gh0stRAT Malware That Can Spy on PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175558",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/silver-fox-hackers",
+      "content_hash": "5bb55748f85c3afa21ed99ffe89b26a8dccf7d09a0f06d6d1505ed2cc4bacc2c",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5bb55748f85c3afa21ed99ffe89b26a8dccf7d09a0f06d6d1505ed2cc4bacc2c",
+        "FEEDBURNER": "5bb55748f85c3afa21ed99ffe89b26a8dccf7d09a0f06d6d1505ed2cc4bacc2c"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "OpenAI AI Agents Bypass Security Restrictions and Access Government Systems Without Permission",
+      "url": "https://cybersecuritynews.com/openai-ai-agents/",
+      "published": "Thu, 26 Nov 2026 12:56:59 +0000",
+      "published_utc": "2026-11-26T12:56:59+00:00",
+      "summary": "<p>Experimental OpenAI AI agents worked around restrictions in their training and testing environments and contacted government systems without the company’s authorization. The activity began in June 2026 and continued for several months. In one case, a model looking for public spending figures gained non-public access to an Australian government reporting service. The incident shows how [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents/\">OpenAI AI Agents Bypass Security Restrictions and Access Government Systems Without Permission</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175270",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/openai-ai-agents",
+      "content_hash": "144d6698bc12aacf8c6d37c9724d1a62383572fc81e6b7381051bdfc3a87b98e",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "144d6698bc12aacf8c6d37c9724d1a62383572fc81e6b7381051bdfc3a87b98e",
+        "FEEDBURNER": "144d6698bc12aacf8c6d37c9724d1a62383572fc81e6b7381051bdfc3a87b98e"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.699266+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.699262-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.699266+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.699262-05:00"
+    },
+    {
+      "title": "Hackers Infect 5,600 Devices With Stealthy Malware That Hides Remote-Control Commands in Normal Traffic",
+      "url": "https://gbhackers.com/stealthy-malware-campaign/",
+      "published": "Thu, 26 Nov 2026 12:21:42 +0000",
+      "published_utc": "2026-11-26T12:21:42+00:00",
+      "summary": "<p>A new variant of the Cling botnet has infected about 5,600 devices. It hides its command-and-control (C&#38;C) traffic inside ordinary STUN exchanges, which makes it hard to spot. China&#8217;s CNCERT reported the spread in November 2026. The botnet mainly targets Linux servers and IoT devices. STUN helps devices behind a NAT discover their public address [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stealthy-malware-campaign/\">Hackers Infect 5,600 Devices With Stealthy Malware That Hides Remote-Control Commands in Normal Traffic</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210315",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/stealthy-malware-campaign",
+      "content_hash": "166150691cbf3054f2e3c632886f8a3db477ea0da57d24aa8a45dbf063ef19f7",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "166150691cbf3054f2e3c632886f8a3db477ea0da57d24aa8a45dbf063ef19f7",
+        "FEEDBURNER": "166150691cbf3054f2e3c632886f8a3db477ea0da57d24aa8a45dbf063ef19f7"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T21:52:19.179687+00:00",
+      "first_seen_local": "2026-11-26T16:52:19.179684-05:00",
+      "last_updated_utc": "2026-11-26T21:52:19.179687+00:00",
+      "last_updated_local": "2026-11-26T16:52:19.179684-05:00"
+    },
     {
       "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
       "url": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",

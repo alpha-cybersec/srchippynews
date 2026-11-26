@@ -1,7 +1,666 @@
 {
-  "article_count": 0,
-  "new_count": 0,
+  "generated_at_utc": "2026-11-26T12:14:34.481018+00:00",
+  "generated_at_local": "2026-11-26T07:14:34.481031-05:00",
+  "article_count": 24,
+  "new_count": 24,
   "updated_count": 0,
-  "sources": {},
-  "articles": []
+  "sources": {
+    "gbhackers": 10,
+    "thehackernews": 4,
+    "cybersecuritynews": 10
+  },
+  "articles": [
+    {
+      "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
+      "url": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",
+      "published": "Thu, 26 Nov 2026 12:10:20 +0000",
+      "published_utc": "2026-11-26T12:10:20+00:00",
+      "summary": "<p>Microsoft has confirmed that Windows security updates released on or after November 10, 2026, can cause authentication failures in some third-party applications and devices that rely on NT LAN Manager (NTLM). Affected products can include authentication proxy servers, single sign-on (SSO) solutions, and application packaging tools. Microsoft documented the issue in KB5135557 after rolling out [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/\">Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210382",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/windows-ntlm-security-update-causes-authentication-failures",
+      "content_hash": "0caa05949be22fbd7c16cb3152a9ff068cd595ea547033e4eef6dfdaf219ec02",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0caa05949be22fbd7c16cb3152a9ff068cd595ea547033e4eef6dfdaf219ec02"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites",
+      "url": "https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/",
+      "published": "Thu, 26 Nov 2026 11:50:47 +0000",
+      "published_utc": "2026-11-26T11:50:47+00:00",
+      "summary": "<p>Hackers are actively exploiting CVE-2026-136716, a Drupal core access bypass that allows unauthenticated attackers to take over vulnerable websites. The Drupal Security Team confirmed exploitation in its November 25 security advisory, rating the flaw 21 out of 25 on its severity scale. Some production sites remain exposed even if administrators installed the previous round of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/\">Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210365",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability",
+      "content_hash": "b5bb81e68e8e48707656854fb8a5e63b98b920efdaff9b48b38303b9aa711269",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "b5bb81e68e8e48707656854fb8a5e63b98b920efdaff9b48b38303b9aa711269"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication",
+      "url": "https://gbhackers.com/critical-geoserver-vulnerability-chain/",
+      "published": "Thu, 26 Nov 2026 11:38:21 +0000",
+      "published_utc": "2026-11-26T11:38:21+00:00",
+      "summary": "<p>Five vulnerabilities in GeoServer, an open-source server for publishing geospatial data, can be chained to execute operating system commands without valid credentials. Security researcher CryptoCat demonstrated the chain on a default Linux installation, while watchTowr reported seeing attempts to exploit two of the flaws in its honeypot network. The observations show attackers probing exposed servers, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-geoserver-vulnerability-chain/\">Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210352",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-geoserver-vulnerability-chain",
+      "content_hash": "83bbe90de62ebf3f186476a98b7f496401654508ddf65a9e38027d587e9fb796",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "83bbe90de62ebf3f186476a98b7f496401654508ddf65a9e38027d587e9fb796"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords",
+      "url": "https://gbhackers.com/github-pull-requests/",
+      "published": "Thu, 26 Nov 2026 11:11:04 +0000",
+      "published_utc": "2026-11-26T11:11:04+00:00",
+      "summary": "<p>A threat actor used rewritten commits in open GitHub pull requests to deliver the PolinRider credential-stealing loader. It targeted AsyncAPI Generator, CircuitVerse and Open Food Facts. None of the account&#8217;s 145 merged pull requests carries the loader, but CircuitVerse&#8217;s CI ran it and published 40 infected installers. On November 25, AsyncAPI Generator maintainer Lukasz Gornicki [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-pull-requests/\">Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210298",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/github-pull-requests",
+      "content_hash": "9a26ed8a41cebcd0e7a253f923a6e0113fb3696eacc243dc21e338964f079abb",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9a26ed8a41cebcd0e7a253f923a6e0113fb3696eacc243dc21e338964f079abb"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "http://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "published": "Thu, 26 Nov 2026 10:57:55 +0000",
+      "published_utc": "2026-11-26T10:57:55+00:00",
+      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\n\nAt Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.\n\nHow an",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5694077367835913957",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "content_hash": "6a408d4a7a2f15672382721841582ce8ed8a796c7a344572955f369b528c88cc",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6a408d4a7a2f15672382721841582ce8ed8a796c7a344572955f369b528c88cc",
+        "FEEDBURNER": "6a408d4a7a2f15672382721841582ce8ed8a796c7a344572955f369b528c88cc"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:34.466659+00:00",
+      "first_seen_local": "2026-11-26T07:14:34.466657-05:00",
+      "last_updated_utc": "2026-11-26T12:14:34.466659+00:00",
+      "last_updated_local": "2026-11-26T07:14:34.466657-05:00"
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "http://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "published": "Thu, 26 Nov 2026 10:57:25 +0000",
+      "published_utc": "2026-11-26T10:57:25+00:00",
+      "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-2834353981792629786",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "content_hash": "3ebb179af98c70a69b328b572c0be70ad241cd0097b7a302f5acfb1fc11a764a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "3ebb179af98c70a69b328b572c0be70ad241cd0097b7a302f5acfb1fc11a764a",
+        "FEEDBURNER": "3ebb179af98c70a69b328b572c0be70ad241cd0097b7a302f5acfb1fc11a764a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:34.466659+00:00",
+      "first_seen_local": "2026-11-26T07:14:34.466657-05:00",
+      "last_updated_utc": "2026-11-26T12:14:34.466659+00:00",
+      "last_updated_local": "2026-11-26T07:14:34.466657-05:00"
+    },
+    {
+      "title": "Microsoft Confirms Windows November Updates Can Break SSO and Third-Party App Logins",
+      "url": "https://cybersecuritynews.com/november-update-breaks-authentication/",
+      "published": "Thu, 26 Nov 2026 10:24:22 +0000",
+      "published_utc": "2026-11-26T10:24:22+00:00",
+      "summary": "<p>Microsoft has confirmed that the November 2026 Windows security updates can cause sign-in failures in some third-party apps and devices that use NTLM authentication. The issue can affect authentication proxies, single sign-on (SSO) tools, and application packaging products after teams install the November 10 security update or a later update that includes the same changes. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/november-update-breaks-authentication/\">Microsoft Confirms Windows November Updates Can Break SSO and Third-Party App Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175440",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/november-update-breaks-authentication",
+      "content_hash": "4df39d9e732d7b9edc2eb97e14104334e8f972ace0d69e930c43504f4c8429d6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4df39d9e732d7b9edc2eb97e14104334e8f972ace0d69e930c43504f4c8429d6",
+        "FEEDBURNER": "4df39d9e732d7b9edc2eb97e14104334e8f972ace0d69e930c43504f4c8429d6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products",
+      "url": "https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/",
+      "published": "Thu, 26 Nov 2026 09:33:17 +0000",
+      "published_utc": "2026-11-26T09:33:17+00:00",
+      "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, citing evidence of in-the-wild exploitation. The CISA alert covers five flaws in Mitel MiCollab, three in the Danfoss AK-SM 800A Series, one in HPE Juniper Session Smart products, and one in Vates Xen [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/\">CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210290",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities",
+      "content_hash": "63500a855b1bc0029271c8cb230f2ee9d78981444f04680cabd4f6b008e3e52d",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "63500a855b1bc0029271c8cb230f2ee9d78981444f04680cabd4f6b008e3e52d"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely",
+      "url": "https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/",
+      "published": "Thu, 26 Nov 2026 09:23:18 +0000",
+      "published_utc": "2026-11-26T09:23:18+00:00",
+      "summary": "<p>A critical vulnerability in Danfoss AK-SM 8xxA Series refrigeration controllers could allow remote attackers to execute arbitrary code without logging in. The flaw, tracked as CVE-2026-129713, affects software version 5.4.0 and earlier. In its November 24, 2026, industrial control systems advisory, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) said no known public exploitation had [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/\">Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210267",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability",
+      "content_hash": "5f3a4e38424de7d394ee413ff780ff21bf1162a372ed86241e3b99d2cdb27295",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "5f3a4e38424de7d394ee413ff780ff21bf1162a372ed86241e3b99d2cdb27295"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware",
+      "url": "https://gbhackers.com/seo-poisoning-campaign-2/",
+      "published": "Thu, 26 Nov 2026 09:20:53 +0000",
+      "published_utc": "2026-11-26T09:20:53+00:00",
+      "summary": "<p>A Gh0stRAT campaign that hides behind a working copy of the OhSoft oCam screen recorder. Researchers link the activity to Silver Fox and suspect SEO poisoning as the delivery method. Endpoint detection and response (EDR) stopped the infection roughly 90 seconds after the installer launched. In mid-September 2026, a user searched Google for oCam and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/seo-poisoning-campaign-2/\">Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210261",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/seo-poisoning-campaign-2",
+      "content_hash": "80a8d6c077a3bab470e53f5c36f071dd613997a728ed9476ed43d3d4a03335e3",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "80a8d6c077a3bab470e53f5c36f071dd613997a728ed9476ed43d3d4a03335e3"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "FIFA Confirms Data Breach After Hackers Steal Personal and Business Information",
+      "url": "https://gbhackers.com/fifa-confirms-data-breach/",
+      "published": "Thu, 26 Nov 2026 09:13:14 +0000",
+      "published_utc": "2026-11-26T09:13:14+00:00",
+      "summary": "<p>FIFA confirmed that attackers gained unauthorized access to a “limited set of personal and business information.” At the same time, Spain’s LaLiga disclosed a separate intrusion that exposed personal data belonging to users of its digital fan services and those of several clubs. The disclosures point to two distinct incidents, FIFA has not publicly identified [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fifa-confirms-data-breach/\">FIFA Confirms Data Breach After Hackers Steal Personal and Business Information</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210262",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fifa-confirms-data-breach",
+      "content_hash": "af600529d3f43b7da18044d6362981afb45d2fe07dd6f7ea90fdaf53f540ba5f",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "af600529d3f43b7da18044d6362981afb45d2fe07dd6f7ea90fdaf53f540ba5f"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Drupal Warns of Active Attacks Exploiting New Critical Website Takeover Vulnerability",
+      "url": "https://cybersecuritynews.com/drupal-website-takeover-flaw/",
+      "published": "Thu, 26 Nov 2026 09:06:38 +0000",
+      "published_utc": "2026-11-26T09:06:38+00:00",
+      "summary": "<p>Drupal has warned that attackers are actively exploiting CVE-2026-136716, a highly critical access bypass that can let them take over vulnerable websites without signing in. The Drupal Security Team confirmed the attacks in its November 25 security advisory and released updates for three supported Drupal core branches. The team did not say how many sites [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/drupal-website-takeover-flaw/\">Drupal Warns of Active Attacks Exploiting New Critical Website Takeover Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175304",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/drupal-website-takeover-flaw",
+      "content_hash": "7f409f50dbec86d6c76c71e9918070250d9a2edccc1b4db64504238afb04c4de",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "7f409f50dbec86d6c76c71e9918070250d9a2edccc1b4db64504238afb04c4de",
+        "FEEDBURNER": "7f409f50dbec86d6c76c71e9918070250d9a2edccc1b4db64504238afb04c4de"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Exposed Hacker Servers Reveal U.S. Hospital Credentials, Corporate Cloud Access and Law Firm Targets",
+      "url": "https://cybersecuritynews.com/exposed-hacker-servers/",
+      "published": "Thu, 26 Nov 2026 08:41:41 +0000",
+      "published_utc": "2026-11-26T08:41:41+00:00",
+      "summary": "<p>Three exposed web directories revealed an intrusion crew’s collection of U.S. hospital credential records, a listing of more than 155,000 files and other objects in a manufacturer’s cloud storage, and a map of remote-access systems used by U.S. law firms. The recovered files showed that the operators had already used a valid cloud token. They [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/exposed-hacker-servers/\">Exposed Hacker Servers Reveal U.S. Hospital Credentials, Corporate Cloud Access and Law Firm Targets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175256",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/exposed-hacker-servers",
+      "content_hash": "6c789df4ff5eab627808f857e6ae7daa3aaa13c1d291f32179261f33e64ef41b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c789df4ff5eab627808f857e6ae7daa3aaa13c1d291f32179261f33e64ef41b",
+        "FEEDBURNER": "6c789df4ff5eab627808f857e6ae7daa3aaa13c1d291f32179261f33e64ef41b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Critical Danfoss Refrigeration Controller Flaw Could Allow Remote Code Execution Without Authentication",
+      "url": "https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/",
+      "published": "Thu, 26 Nov 2026 08:33:52 +0000",
+      "published_utc": "2026-11-26T08:33:52+00:00",
+      "summary": "<p>A critical flaw, CVE-2026-129713, affects Danfoss AK-SM 8xxA refrigeration controllers running version 5.4.0 or earlier and could allow unauthenticated remote code execution. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued advisory ICSA-26-328-03 on November 24, 2026. It rated the flaw 9.8 out of 10 on the CVSS 3.1 severity scale. The affected controllers are [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/\">Critical Danfoss Refrigeration Controller Flaw Could Allow Remote Code Execution Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175110",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/danfoss-refrigeration-controller-flaw",
+      "content_hash": "333f6b05f88697b60dae6c0b6ef829334f11b3e4fe976f3ff85810e4c6b5c338",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "333f6b05f88697b60dae6c0b6ef829334f11b3e4fe976f3ff85810e4c6b5c338",
+        "FEEDBURNER": "333f6b05f88697b60dae6c0b6ef829334f11b3e4fe976f3ff85810e4c6b5c338"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "FIFA Alleged Breach – Hackers Claim Access to 12.2 GB of Sensitive Internal Documents",
+      "url": "https://cybersecuritynews.com/fifa-alleged-breach/",
+      "published": "Thu, 26 Nov 2026 08:07:35 +0000",
+      "published_utc": "2026-11-26T08:07:35+00:00",
+      "summary": "<p>FIFA has confirmed that hackers gained unauthorized access to a limited set of personal and business information. The Switzerland-based world football governing body has not confirmed a claim by the Handsome Boy Hacking Club (HBHC) that it obtained and published 12.2 GB of sensitive internal documents. The breach is confirmed, but the group has not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fifa-alleged-breach/\">FIFA Alleged Breach &#8211; Hackers Claim Access to 12.2 GB of Sensitive Internal Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175117",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/fifa-alleged-breach",
+      "content_hash": "e287317f3f452e7e22f76c81e543dc4b8638a76877714ac0416bdfa0af52e9ad",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e287317f3f452e7e22f76c81e543dc4b8638a76877714ac0416bdfa0af52e9ad",
+        "FEEDBURNER": "e287317f3f452e7e22f76c81e543dc4b8638a76877714ac0416bdfa0af52e9ad"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Top 10 Best Insider Threat Management Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-insider-threat-management/",
+      "published": "Thu, 26 Nov 2026 07:42:01 +0000",
+      "published_utc": "2026-11-26T07:42:01+00:00",
+      "summary": "<p>Nothing in security is trickier than insider risk, because the person triggering it is already logged in, already permitted, and often acting in good faith the resignee copying files and the sloppy uploader set off identical alarms. The solutions below separate on where they center detection (user behavior, data movement, or analytics), whether they tell [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-insider-threat-management/\">Top 10 Best Insider Threat Management Solutions in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174732",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-insider-threat-management",
+      "content_hash": "0380ea7b93787e8df07feda827bd325749f19740c80878abcf1970f3540f3e1a",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0380ea7b93787e8df07feda827bd325749f19740c80878abcf1970f3540f3e1a",
+        "FEEDBURNER": "0380ea7b93787e8df07feda827bd325749f19740c80878abcf1970f3540f3e1a"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Top 10 Best Phishing Simulation Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-phishing-simulation-tools/",
+      "published": "Thu, 26 Nov 2026 07:40:21 +0000",
+      "published_utc": "2026-11-26T07:40:21+00:00",
+      "summary": "<p>A phishing simulation program is working only if two figures move the right way over quarters: clicks down, reports up. Template counts and leaderboards are just scaffolding around that one outcome. The tools below separate on behavioral scoring (per-person risk, not completion), the report-to-triage loop, and realism that keeps pace with the LLM-grade spear pretexts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-phishing-simulation-tools/\">Top 10 Best Phishing Simulation Tools in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174653",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-phishing-simulation-tools",
+      "content_hash": "00fd301db57aeb7936a4d1219a915dc6b472b8e077b05adc9f6d6c1a1f5dfc0b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "00fd301db57aeb7936a4d1219a915dc6b472b8e077b05adc9f6d6c1a1f5dfc0b",
+        "FEEDBURNER": "00fd301db57aeb7936a4d1219a915dc6b472b8e077b05adc9f6d6c1a1f5dfc0b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Microsoft Warns State-Backed Hackers Are Using ARTEX AI Agents to Steal Credentials and Breach Networks",
+      "url": "https://cybersecuritynews.com/artex-ai-agents-2/",
+      "published": "Thu, 26 Nov 2026 07:39:00 +0000",
+      "published_utc": "2026-11-26T07:39:00+00:00",
+      "summary": "<p>State-backed hackers and financially motivated groups are using ARTEX, an AI-powered penetration testing framework, to find exposed systems, steal credentials, and break into enterprise networks and cloud environments. In a November 25 report, Microsoft warned that the framework can move from scanning to persistent, privileged access within minutes, depending on the target’s defenses and how [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/artex-ai-agents-2/\">Microsoft Warns State-Backed Hackers Are Using ARTEX AI Agents to Steal Credentials and Breach Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=175128",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/artex-ai-agents-2",
+      "content_hash": "e32a80b60fe5d7a55e945316e9b8c795d747ffc0796c99f184c87aa479df0bd9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e32a80b60fe5d7a55e945316e9b8c795d747ffc0796c99f184c87aa479df0bd9",
+        "FEEDBURNER": "e32a80b60fe5d7a55e945316e9b8c795d747ffc0796c99f184c87aa479df0bd9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Top 10 Best Security Awareness Training Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-security-awareness-training/",
+      "published": "Thu, 26 Nov 2026 07:38:28 +0000",
+      "published_utc": "2026-11-26T07:38:28+00:00",
+      "summary": "<p>The annual compliance video is security theater it ticks a box and changes nothing. The platforms worth buying are measured on two numbers that move over quarters: click rate down, report rate up. That takes realistic simulations, per-person risk scoring, and content people don’t resent. The platforms below separate on behavioral measurement, content engagement, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-security-awareness-training/\">Top 10 Best Security Awareness Training Platforms in 2026 [Ranked &amp; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=174603",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-security-awareness-training",
+      "content_hash": "e520f67cdc766911a197ebe8840041bd3c9dabbb21fe0d303381e851953446d6",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "e520f67cdc766911a197ebe8840041bd3c9dabbb21fe0d303381e851953446d6",
+        "FEEDBURNER": "e520f67cdc766911a197ebe8840041bd3c9dabbb21fe0d303381e851953446d6"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "Top 10 Best Penetration Testing Companies in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-penetration-testing-companies/",
+      "published": "Thu, 26 Nov 2026 07:35:19 +0000",
+      "published_utc": "2026-11-26T07:35:19+00:00",
+      "summary": "<p>A pentest is only worth what you do with the report, and the report is only worth the testers who wrote it. The firms below separate on the things that survive the sales deck: the depth of the people on your engagement, whether findings come with a reproducible path and a retest, and whether the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-penetration-testing-companies/\">Top 10 Best Penetration Testing Companies in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+      "id": "https://cybersecuritynews.com/?p=173700",
+      "source": "Cyber Security News",
+      "source_slug": "cybersecuritynews",
+      "article_key": "cybersecuritynews.com/best-penetration-testing-companies",
+      "content_hash": "8ccc00f61eb560d9014b082401a56aea08ddf48ac1a5466c8939eb15498a2528",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8ccc00f61eb560d9014b082401a56aea08ddf48ac1a5466c8939eb15498a2528",
+        "FEEDBURNER": "8ccc00f61eb560d9014b082401a56aea08ddf48ac1a5466c8939eb15498a2528"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.829208+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.829204-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.829208+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.829204-05:00"
+    },
+    {
+      "title": "1Password Data Breach – Hackers Compromise GitHub Account to Steal Customer Data and Source Code",
+      "url": "https://gbhackers.com/1password-data-breach-hackers-compromise-github-account/",
+      "published": "Thu, 26 Nov 2026 07:17:29 +0000",
+      "published_utc": "2026-11-26T07:17:29+00:00",
+      "summary": "<p>1Password announced that an attacker had compromised a corporate GitHub account belonging to an employee. The attacker copied source code from private repositories and stole account information from some customers. However, 1Password confirmed that the attacker did not access or obtain customer vaults or their contents. The company did not specify how many customer accounts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/1password-data-breach-hackers-compromise-github-account/\">1Password Data Breach – Hackers Compromise GitHub Account to Steal Customer Data and Source Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210229",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/1password-data-breach-hackers-compromise-github-account",
+      "content_hash": "66ee3d002b3942b0ab8f40b4d271caa24ea880dbeb17fa3a28fec361451e12b9",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "66ee3d002b3942b0ab8f40b4d271caa24ea880dbeb17fa3a28fec361451e12b9"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    },
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "http://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "published": "Thu, 26 Nov 2026 07:02:34 +0000",
+      "published_utc": "2026-11-26T07:02:34+00:00",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-7018772359339398389",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "content_hash": "8b96b75499564e3fb0d0b2797f9131bf26b10d115e9ea50f0bd03d43ed35011b",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "8b96b75499564e3fb0d0b2797f9131bf26b10d115e9ea50f0bd03d43ed35011b",
+        "FEEDBURNER": "8b96b75499564e3fb0d0b2797f9131bf26b10d115e9ea50f0bd03d43ed35011b"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:34.466659+00:00",
+      "first_seen_local": "2026-11-26T07:14:34.466657-05:00",
+      "last_updated_utc": "2026-11-26T12:14:34.466659+00:00",
+      "last_updated_local": "2026-11-26T07:14:34.466657-05:00"
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "http://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "published": "Thu, 26 Nov 2026 06:44:46 +0000",
+      "published_utc": "2026-11-26T06:44:46+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.\n\nThe Mitel MiCollab vulnerabilities are listed below -\n\n\n  CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+      "id": "tag:blogger.com,1999:blog-4802841478634147276.post-5340787018186578597",
+      "source": "The Hacker News",
+      "source_slug": "thehackernews",
+      "article_key": "thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "content_hash": "607af1de68aeed59fde19d78081b7362dd2808426a9839e99e90b9ef3b61a9e5",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "607af1de68aeed59fde19d78081b7362dd2808426a9839e99e90b9ef3b61a9e5",
+        "FEEDBURNER": "607af1de68aeed59fde19d78081b7362dd2808426a9839e99e90b9ef3b61a9e5"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:34.466659+00:00",
+      "first_seen_local": "2026-11-26T07:14:34.466657-05:00",
+      "last_updated_utc": "2026-11-26T12:14:34.466659+00:00",
+      "last_updated_local": "2026-11-26T07:14:34.466657-05:00"
+    },
+    {
+      "title": "OpenAI AI Agents Bypass Security Restrictions to Access Australian Government Systems",
+      "url": "https://gbhackers.com/openai-ai-agents/",
+      "published": "Thu, 26 Nov 2026 06:26:29 +0000",
+      "published_utc": "2026-11-26T06:26:29+00:00",
+      "summary": "<p>OpenAI models under internal training escaped their sandboxes in June 2026 and reached Australian government systems. Talos&#8217;s analysis of the swarm&#8217;s public traces shows how multi-agent systems improvise when blocked, and those behaviors are now appearing in real attack frameworks. OpenAI says experimental internal models without full safeguards accessed Australian government websites in ways it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-ai-agents/\">OpenAI AI Agents Bypass Security Restrictions to Access Australian Government Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210211",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/openai-ai-agents",
+      "content_hash": "a800c3a6d305cf789fe899612f8664a9a4b3011893ba030eaceed71900debeea",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "a800c3a6d305cf789fe899612f8664a9a4b3011893ba030eaceed71900debeea"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-26T12:14:28.397499+00:00",
+      "first_seen_local": "2026-11-26T07:14:28.397495-05:00",
+      "last_updated_utc": "2026-11-26T12:14:28.397499+00:00",
+      "last_updated_local": "2026-11-26T07:14:28.397495-05:00"
+    }
+  ]
 }

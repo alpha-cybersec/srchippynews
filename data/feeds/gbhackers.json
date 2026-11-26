@@ -5,14 +5,95 @@
     "ORIGINAL": {
       "label": "GBHackers-ORIGINAL",
       "endpoint": "https://gbhackers.com/feed/",
-      "status": "FAILED",
+      "status": "SUCCESS",
       "http_status": 200,
-      "final_url": "https://gbhackers.com/",
-      "content_type": "text/html; charset=UTF-8",
-      "feed_title": "",
-      "article_count": 0,
-      "articles": [],
-      "error": "No se encontraron entradas RSS."
+      "final_url": "https://gbhackers.com/feed/",
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "feed_title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform",
+      "article_count": 10,
+      "articles": [
+        {
+          "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
+          "url": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",
+          "published": "Thu, 26 Nov 2026 12:10:20 +0000",
+          "published_utc": "2026-11-26T12:10:20+00:00",
+          "summary": "<p>Microsoft has confirmed that Windows security updates released on or after November 10, 2026, can cause authentication failures in some third-party applications and devices that rely on NT LAN Manager (NTLM). Affected products can include authentication proxy servers, single sign-on (SSO) solutions, and application packaging tools. Microsoft documented the issue in KB5135557 after rolling out [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/\">Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210382"
+        },
+        {
+          "title": "Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites",
+          "url": "https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/",
+          "published": "Thu, 26 Nov 2026 11:50:47 +0000",
+          "published_utc": "2026-11-26T11:50:47+00:00",
+          "summary": "<p>Hackers are actively exploiting CVE-2026-136716, a Drupal core access bypass that allows unauthenticated attackers to take over vulnerable websites. The Drupal Security Team confirmed exploitation in its November 25 security advisory, rating the flaw 21 out of 25 on its severity scale. Some production sites remain exposed even if administrators installed the previous round of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/\">Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210365"
+        },
+        {
+          "title": "Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication",
+          "url": "https://gbhackers.com/critical-geoserver-vulnerability-chain/",
+          "published": "Thu, 26 Nov 2026 11:38:21 +0000",
+          "published_utc": "2026-11-26T11:38:21+00:00",
+          "summary": "<p>Five vulnerabilities in GeoServer, an open-source server for publishing geospatial data, can be chained to execute operating system commands without valid credentials. Security researcher CryptoCat demonstrated the chain on a default Linux installation, while watchTowr reported seeing attempts to exploit two of the flaws in its honeypot network. The observations show attackers probing exposed servers, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-geoserver-vulnerability-chain/\">Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210352"
+        },
+        {
+          "title": "Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords",
+          "url": "https://gbhackers.com/github-pull-requests/",
+          "published": "Thu, 26 Nov 2026 11:11:04 +0000",
+          "published_utc": "2026-11-26T11:11:04+00:00",
+          "summary": "<p>A threat actor used rewritten commits in open GitHub pull requests to deliver the PolinRider credential-stealing loader. It targeted AsyncAPI Generator, CircuitVerse and Open Food Facts. None of the account&#8217;s 145 merged pull requests carries the loader, but CircuitVerse&#8217;s CI ran it and published 40 infected installers. On November 25, AsyncAPI Generator maintainer Lukasz Gornicki [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-pull-requests/\">Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210298"
+        },
+        {
+          "title": "CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products",
+          "url": "https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/",
+          "published": "Thu, 26 Nov 2026 09:33:17 +0000",
+          "published_utc": "2026-11-26T09:33:17+00:00",
+          "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, citing evidence of in-the-wild exploitation. The CISA alert covers five flaws in Mitel MiCollab, three in the Danfoss AK-SM 800A Series, one in HPE Juniper Session Smart products, and one in Vates Xen [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/\">CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210290"
+        },
+        {
+          "title": "Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely",
+          "url": "https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/",
+          "published": "Thu, 26 Nov 2026 09:23:18 +0000",
+          "published_utc": "2026-11-26T09:23:18+00:00",
+          "summary": "<p>A critical vulnerability in Danfoss AK-SM 8xxA Series refrigeration controllers could allow remote attackers to execute arbitrary code without logging in. The flaw, tracked as CVE-2026-129713, affects software version 5.4.0 and earlier. In its November 24, 2026, industrial control systems advisory, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) said no known public exploitation had [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/\">Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210267"
+        },
+        {
+          "title": "Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware",
+          "url": "https://gbhackers.com/seo-poisoning-campaign-2/",
+          "published": "Thu, 26 Nov 2026 09:20:53 +0000",
+          "published_utc": "2026-11-26T09:20:53+00:00",
+          "summary": "<p>A Gh0stRAT campaign that hides behind a working copy of the OhSoft oCam screen recorder. Researchers link the activity to Silver Fox and suspect SEO poisoning as the delivery method. Endpoint detection and response (EDR) stopped the infection roughly 90 seconds after the installer launched. In mid-September 2026, a user searched Google for oCam and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/seo-poisoning-campaign-2/\">Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210261"
+        },
+        {
+          "title": "FIFA Confirms Data Breach After Hackers Steal Personal and Business Information",
+          "url": "https://gbhackers.com/fifa-confirms-data-breach/",
+          "published": "Thu, 26 Nov 2026 09:13:14 +0000",
+          "published_utc": "2026-11-26T09:13:14+00:00",
+          "summary": "<p>FIFA confirmed that attackers gained unauthorized access to a “limited set of personal and business information.” At the same time, Spain’s LaLiga disclosed a separate intrusion that exposed personal data belonging to users of its digital fan services and those of several clubs. The disclosures point to two distinct incidents, FIFA has not publicly identified [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fifa-confirms-data-breach/\">FIFA Confirms Data Breach After Hackers Steal Personal and Business Information</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210262"
+        },
+        {
+          "title": "1Password Data Breach – Hackers Compromise GitHub Account to Steal Customer Data and Source Code",
+          "url": "https://gbhackers.com/1password-data-breach-hackers-compromise-github-account/",
+          "published": "Thu, 26 Nov 2026 07:17:29 +0000",
+          "published_utc": "2026-11-26T07:17:29+00:00",
+          "summary": "<p>1Password announced that an attacker had compromised a corporate GitHub account belonging to an employee. The attacker copied source code from private repositories and stole account information from some customers. However, 1Password confirmed that the attacker did not access or obtain customer vaults or their contents. The company did not specify how many customer accounts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/1password-data-breach-hackers-compromise-github-account/\">1Password Data Breach – Hackers Compromise GitHub Account to Steal Customer Data and Source Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210229"
+        },
+        {
+          "title": "OpenAI AI Agents Bypass Security Restrictions to Access Australian Government Systems",
+          "url": "https://gbhackers.com/openai-ai-agents/",
+          "published": "Thu, 26 Nov 2026 06:26:29 +0000",
+          "published_utc": "2026-11-26T06:26:29+00:00",
+          "summary": "<p>OpenAI models under internal training escaped their sandboxes in June 2026 and reached Australian government systems. Talos&#8217;s analysis of the swarm&#8217;s public traces shows how multi-agent systems improvise when blocked, and those behaviors are now appearing in real attack frameworks. OpenAI says experimental internal models without full safeguards accessed Australian government websites in ways it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-ai-agents/\">OpenAI AI Agents Bypass Security Restrictions to Access Australian Government Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+          "id": "https://gbhackers.com/?p=210211"
+        }
+      ],
+      "error": ""
     },
     "FEEDBURNER": {
       "label": "GBHackers-FEEDBURNER",

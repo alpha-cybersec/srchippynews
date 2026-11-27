@@ -2,8 +2,312 @@
   "month": "2026-11",
   "source": "GBHackers",
   "source_slug": "gbhackers",
-  "article_count": 314,
+  "article_count": 325,
   "articles": [
+    {
+      "title": "Hackers Use Fake Facebook Ads to Spread Malware That Steals Business Accounts and Emails",
+      "url": "https://gbhackers.com/fake-facebook-ads/",
+      "published": "Fri, 27 Nov 2026 12:32:44 +0000",
+      "published_utc": "2026-11-27T12:32:44+00:00",
+      "summary": "<p>Cybercriminals are buying the same Meta ad inventory that legitimate brands use. They use it to push the SYS01 infostealer, which targets Facebook Business accounts and turns each stolen account into funding for the next wave of ads. Thousands of ads were observed, and individual ads reached tens of thousands of people, mostly men aged [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-facebook-ads/\">Hackers Use Fake Facebook Ads to Spread Malware That Steals Business Accounts and Emails</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210770",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-facebook-ads",
+      "content_hash": "9c88ee703b9012634a60cbd5e13d76982b5dcb81028009da256ec576538b9206",
+      "detected_via": [
+        "ORIGINAL"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9c88ee703b9012634a60cbd5e13d76982b5dcb81028009da256ec576538b9206"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Hackers Hide Malware as Google Sheets to Secretly Read Your Gmail Messages",
+      "url": "https://gbhackers.com/secret-gmail-access/",
+      "published": "Fri, 27 Nov 2026 11:36:59 +0000",
+      "published_utc": "2026-11-27T11:36:59+00:00",
+      "summary": "<p>Remus Stealer&#8217;s operators are advertising a way to open a victim&#8217;s Gmail inbox directly from a stolen-device record. They claim access survives password changes and session revocation. The evidence points to a mailbox-access workflow built into an infostealer service. It does not show a Gmail zero-day. The version 1.3.9 announcement promotes email-code interception without collecting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/secret-gmail-access/\">Hackers Hide Malware as Google Sheets to Secretly Read Your Gmail Messages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210736",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/secret-gmail-access",
+      "content_hash": "4b2126028bc43b30521dcc3a25b5b3fd9103e65ef194cdb333d40d171f404f57",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "4b2126028bc43b30521dcc3a25b5b3fd9103e65ef194cdb333d40d171f404f57",
+        "FEEDBURNER": "4b2126028bc43b30521dcc3a25b5b3fd9103e65ef194cdb333d40d171f404f57"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "GitHub RCE Vulnerability Allows Hackers to Compromise Servers With a Single Git Push Command",
+      "url": "https://gbhackers.com/github-rce-vulnerability/",
+      "published": "Fri, 27 Nov 2026 10:14:56 +0000",
+      "published_utc": "2026-11-27T10:14:56+00:00",
+      "summary": "<p>A serious vulnerability in GitHub&#8217;s internal Git infrastructure allowed an authenticated user to execute arbitrary commands on the server while processing a single git push. This flaw, identified as CVE-2026-3854, impacted GitHub.com, GitHub Enterprise Cloud, and self-hosted GitHub Enterprise Server (GHES). Wiz Research discovered the issue and reported it through GitHub&#8217;s bug bounty program. GitHub [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-rce-vulnerability/\">GitHub RCE Vulnerability Allows Hackers to Compromise Servers With a Single Git Push Command</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210722",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/github-rce-vulnerability",
+      "content_hash": "38b003f346069a8b494cd2ef8469e1cc556a1969599166c6e8571b5eb3cec9ed",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "38b003f346069a8b494cd2ef8469e1cc556a1969599166c6e8571b5eb3cec9ed",
+        "FEEDBURNER": "38b003f346069a8b494cd2ef8469e1cc556a1969599166c6e8571b5eb3cec9ed"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Fake Telegram Job Ads Linked to Espionage Recruitment and Paid Arson Offers",
+      "url": "https://gbhackers.com/fake-telegram-job-ads/",
+      "published": "Fri, 27 Nov 2026 09:36:02 +0000",
+      "published_utc": "2026-11-27T09:36:02+00:00",
+      "summary": "<p>A Telegram network that mixes ordinary-looking job ads with overt intelligence recruitment and paid-crime offers. They tracked 88 accounts that published 3,089 recruitment posts between August 2024 and October 2026. The posts appeared in communities across Israel, the Gulf states, the UK and the US. Group-IB found the activity using its Threat Intelligence platform, which [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-telegram-job-ads/\">Fake Telegram Job Ads Linked to Espionage Recruitment and Paid Arson Offers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210666",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/fake-telegram-job-ads",
+      "content_hash": "6ecc30a8cda6f1f63a26284b6d4ab5f6736469683d7e39268bb3cb84ab18dd10",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6ecc30a8cda6f1f63a26284b6d4ab5f6736469683d7e39268bb3cb84ab18dd10",
+        "FEEDBURNER": "6ecc30a8cda6f1f63a26284b6d4ab5f6736469683d7e39268bb3cb84ab18dd10"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Critical Erlang/OTP Vulnerability Allows Hackers to Bypass TLS Certificate Authentication",
+      "url": "https://gbhackers.com/critical-erlang-otp-vulnerability/",
+      "published": "Fri, 27 Nov 2026 09:32:29 +0000",
+      "published_utc": "2026-11-27T09:32:29+00:00",
+      "summary": "<p>A critical vulnerability has been identified in the Erlang/OTP SSL application that affects TLS 1.2 clients. This vulnerability allows these clients to complete a handshake without properly authenticating the server, even when certificate verification is enabled. Tracked as CVE-2026-124286, this flaw lets an attacker in a man-in-the-middle position impersonate a legitimate server, allowing them to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-erlang-otp-vulnerability/\">Critical Erlang/OTP Vulnerability Allows Hackers to Bypass TLS Certificate Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210699",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/critical-erlang-otp-vulnerability",
+      "content_hash": "89d36e70bf8bbf25cb6deb4a472fbb4c15eb3f8de7b5f337b1bf8221010f5f03",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "89d36e70bf8bbf25cb6deb4a472fbb4c15eb3f8de7b5f337b1bf8221010f5f03",
+        "FEEDBURNER": "89d36e70bf8bbf25cb6deb4a472fbb4c15eb3f8de7b5f337b1bf8221010f5f03"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Tor Browser 15.0.23 Released With Fixes for Security Bypass Vulnerabilities",
+      "url": "https://gbhackers.com/tor-browser-15-0-23-released/",
+      "published": "Fri, 27 Nov 2026 09:20:53 +0000",
+      "published_utc": "2026-11-27T09:20:53+00:00",
+      "summary": "<p>The Tor Project released Tor Browser version 15.0.23, addressed two vulnerabilities that allowed WebAssembly to run despite restrictions imposed by the browser’s Safer security level. The update also included security patches from Mozilla and upgraded the NoScript extension across all platforms. An issue with signing the Windows installer affected how users could obtain the release; [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tor-browser-15-0-23-released/\">Tor Browser 15.0.23 Released With Fixes for Security Bypass Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210683",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/tor-browser-15-0-23-released",
+      "content_hash": "fc1d441df2c77bcd0e16fac0075e99e91af37846e438457aa3819aa70a76c4c9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "fc1d441df2c77bcd0e16fac0075e99e91af37846e438457aa3819aa70a76c4c9",
+        "FEEDBURNER": "fc1d441df2c77bcd0e16fac0075e99e91af37846e438457aa3819aa70a76c4c9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Cacti 4HTTP2ROOT Zero-Day Enables Unauthenticated Remote Code Execution",
+      "url": "https://gbhackers.com/cacti-4http2root-zero-day/",
+      "published": "Fri, 27 Nov 2026 09:10:37 +0000",
+      "published_utc": "2026-11-27T09:10:37+00:00",
+      "summary": "<p>A zero-day vulnerability known as 4HTTP2ROOT allows remote attackers to execute operating system commands on Cacti version 1.2.31 without valid credentials if anonymous guest access is enabled. Security researcher ek0ms savi0r disclosed this flaw on November 26, 2026. Previdian confirmed a public proof of concept in their lab. At the time of disclosure, no official [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cacti-4http2root-zero-day/\">Cacti 4HTTP2ROOT Zero-Day Enables Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210583",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/cacti-4http2root-zero-day",
+      "content_hash": "0224d82e65cc47764fcca64b9c6366b55a6c3d1d3a35c1b735581fc682ae9f41",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "0224d82e65cc47764fcca64b9c6366b55a6c3d1d3a35c1b735581fc682ae9f41",
+        "FEEDBURNER": "0224d82e65cc47764fcca64b9c6366b55a6c3d1d3a35c1b735581fc682ae9f41"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Hackers Hide Remote-Control Malware in Official Software Downloads That Appear to Work Normally",
+      "url": "https://gbhackers.com/q-dir-and-desktop-ok-installers/",
+      "published": "Fri, 27 Nov 2026 08:21:29 +0000",
+      "published_utc": "2026-11-27T08:21:29+00:00",
+      "summary": "<p>Attackers have turned the official SoftwareOK website into a malware delivery channel. They tampered with Q-Dir and DesktopOK installers so the programs run normally. SoftwareOK distributes free Windows utilities such as Q-Dir, DesktopOK and WinScan2PDF. ASEC says the malicious files came through the official distribution path, not through third-party mirrors or advertisements. The affected builds [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/q-dir-and-desktop-ok-installers/\">Hackers Hide Remote-Control Malware in Official Software Downloads That Appear to Work Normally</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210633",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/q-dir-and-desktop-ok-installers",
+      "content_hash": "6c6ff043bb11d862341c4456ffde8faffdfc45050ecc7cd14b65ebb3ef518db0",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "6c6ff043bb11d862341c4456ffde8faffdfc45050ecc7cd14b65ebb3ef518db0",
+        "FEEDBURNER": "6c6ff043bb11d862341c4456ffde8faffdfc45050ecc7cd14b65ebb3ef518db0"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "LostTrust Ransomware Revival Linked to Eclipse as Hackers Target U.S. Government and Energy Firms",
+      "url": "https://gbhackers.com/losttrust-ransomware/",
+      "published": "Fri, 27 Nov 2026 07:11:58 +0000",
+      "published_utc": "2026-11-27T07:11:58+00:00",
+      "summary": "<p>A Russian-speaking ransomware crew is testing its implants against Microsoft Defender before deployment. Of 17 organizations named in the operators&#8217; own material, 14 are in the United States. They include a federal agency, three energy cooperatives and a healthcare provider. The operators keep a lab domain enrolled in Microsoft Defender for Endpoint and run their [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/losttrust-ransomware/\">LostTrust Ransomware Revival Linked to Eclipse as Hackers Target U.S. Government and Energy Firms</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210609",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/losttrust-ransomware",
+      "content_hash": "afbfd6c0304f8fefd0be01d7d20135475e62375ecfeceb914677c83ca5cc8e67",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "afbfd6c0304f8fefd0be01d7d20135475e62375ecfeceb914677c83ca5cc8e67",
+        "FEEDBURNER": "afbfd6c0304f8fefd0be01d7d20135475e62375ecfeceb914677c83ca5cc8e67"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Hackers Steal Military Files and 19GB of Government Documents in Southeast Asia",
+      "url": "https://gbhackers.com/military-files-exposed/",
+      "published": "Fri, 27 Nov 2026 06:42:13 +0000",
+      "published_utc": "2026-11-27T06:42:13+00:00",
+      "summary": "<p>A Vietnam-linked threat actor tracked as WeaveLotus breached government, military and legislative bodies in Thailand and the Philippines. It took gigabytes of internal documents, project plans and credentials, according to the SOCRadar Threat Research Unit (STRU). STRU confirmed five intrusions across Thailand and the Philippines. WeaveLotus also ran reconnaissance against more than 30 Indonesian government [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/military-files-exposed/\">Hackers Steal Military Files and 19GB of Government Documents in Southeast Asia</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210568",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/military-files-exposed",
+      "content_hash": "9de4ba1af986d126f85b1968bae362936a63a0ab0cb5f202cd19adec1da1ded9",
+      "detected_via": [
+        "ORIGINAL",
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "ORIGINAL": "9de4ba1af986d126f85b1968bae362936a63a0ab0cb5f202cd19adec1da1ded9",
+        "FEEDBURNER": "9de4ba1af986d126f85b1968bae362936a63a0ab0cb5f202cd19adec1da1ded9"
+      },
+      "feed_comparison": "MATCH",
+      "canonical_endpoint": "ORIGINAL",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
+    {
+      "title": "Standard Chartered’s Crypto Unit Zodia Custody Hit by Data Breach, Exposing Client and Employee Information",
+      "url": "https://gbhackers.com/standard-chartereds-crypto-unit-zodia-custody-hit-by-data-breach/",
+      "published": "Fri, 27 Nov 2026 06:07:26 +0000",
+      "published_utc": "2026-11-27T06:07:26+00:00",
+      "summary": "<p>Standard Chartered’s cryptocurrency custody unit, Zodia Custody, disclosed a security breach that exposed information about some institutional clients and employees. Chief Executive Richard Clark told Reuters on November 26 that the company had found no unauthorized transactions in its investigation to date. The disclosure came weeks after Standard Chartered increased its stake in the business [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/standard-chartereds-crypto-unit-zodia-custody-hit-by-data-breach/\">Standard Chartered’s Crypto Unit Zodia Custody Hit by Data Breach, Exposing Client and Employee Information</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+      "id": "https://gbhackers.com/?p=210570",
+      "source": "GBHackers",
+      "source_slug": "gbhackers",
+      "article_key": "gbhackers.com/standard-chartereds-crypto-unit-zodia-custody-hit-by-data-breach",
+      "content_hash": "c4d279a70ec63dea50bdc213403a67cf6f46e95856cb5472357cf83cb15da8be",
+      "detected_via": [
+        "FEEDBURNER"
+      ],
+      "endpoint_content_hashes": {
+        "FEEDBURNER": "c4d279a70ec63dea50bdc213403a67cf6f46e95856cb5472357cf83cb15da8be"
+      },
+      "feed_comparison": "SINGLE_ENDPOINT",
+      "canonical_endpoint": "FEEDBURNER",
+      "event_type": "NEW",
+      "version": 1,
+      "first_seen_utc": "2026-11-27T14:14:16.640483+00:00",
+      "first_seen_local": "2026-11-27T09:14:16.640481-05:00",
+      "last_updated_utc": "2026-11-27T14:14:16.640483+00:00",
+      "last_updated_local": "2026-11-27T09:14:16.640481-05:00"
+    },
     {
       "title": "The Anatomy of Tag Leakage: How Pixels, Session Replays, and Trackers Bypass Standard Banners",
       "url": "https://gbhackers.com/the-anatomy-of-tag-leakage-how-pixels-session-replays-and-trackers-bypass-standard-banners/",
